@@ -64,7 +64,7 @@ export const initialData: Character[] = [
         destruction: "A lâmina ampliada de Aoi Katon queima matéria física e chakra simultaneamente, sendo extremamente eficaz em curta e média distância. O fogo azul da Matatabi possui alta temperatura espiritual, capaz de atravessar defesas comuns e consumir energia ao contato direto. Mesmo em sua forma máxima, o chakra permanece contido no selo da Soen no Kage, sendo apenas canalizado e moldado por Nishinoya.",
         history: "Desde sua infância, Nishinoya empunhou a Soen no Kage como sua arma principal. Ao longo de inúmeras batalhas, a kunai absorveu resquícios energéticos e tornou-se receptáculo selado para fragmentos de chakra do Terceiro Hokage e da Matatabi. Com o passar dos anos, o vínculo entre usuário e arma se tornou absoluto. O estado Rank Z representa não uma nova habilidade, mas a revelação completa do potencial que sempre existiu dentro da kunai, acessível apenas por seu portador legítimo.",
         status: "A ativação do chakra da Matatabi exige controle preciso e fluxo estável. Caso o chakra de Nishinoya oscile, a lâmina de Aoi Katon pode perder densidade momentaneamente antes de se estabilizar. Ainda assim, o selo interno nunca é rompido — o poder permanece guardado na Soen no Kage, sendo apenas exteriorizado de forma controlada por seu verdadeiro dono.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F05%20-%20Soen%20no%20Kage.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F05%20-%20Soen%20no%20Kage.png?alt=media&v=1784037453815401"
       },
       {
         name: "Senpo Hiraishin: Relâmpago Azul",
@@ -84,7 +84,7 @@ export const initialData: Character[] = [
         destruction: "Baixo poder destrutivo direto, porém impacto estratégico absoluto. A técnica transforma o campo de batalha em uma extensão da percepção de Nishinoya, anulando emboscadas, permitindo respostas instantâneas e coordenação perfeita entre aliados mesmo durante guerras em larga escala.",
         history: "Após assumir o cargo de Terceiro Hokage, Nishinoya percebeu que batalhas modernas não eram vencidas apenas por força bruta, mas por velocidade de informação. Inspirado no funcionamento do Hiraishin e em antigos sistemas de selamento dos Uzumaki, ele criou o Aoi Katon: Komyunikēshon para manter conexão constante com Naoki, Hisoka e os esquadrões de Konoha durante missões secretas contra a OCA. A técnica rapidamente se tornou um dos pilares estratégicos da Folha durante a Era Genética.",
         status: "Uso altamente avançado. Exige enorme precisão no controle do Hiraishin e capacidade de manter múltiplos selos ativos simultaneamente. Quanto maior a quantidade de pessoas conectadas, maior o consumo mental e espiritual de Nishinoya.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F07%20-%20Aoi%20Katon%3A%20Komyunik%C4%93shon.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F07%20-%20Aoi%20Katon%3A%20Komyunik%C4%93shon.png?alt=media&v=1784037455355889"
       },
       {
         name: "Clone Perfeito",
@@ -94,7 +94,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado para uma técnica de duplicação. O Clone Perfeito mantém capacidades ofensivas comparáveis às de um Kage, podendo utilizar Hiraishin, Aoi Katon e técnicas de combate avançadas de forma independente. Sua existência permite que Nishinoya lute em múltiplas frentes simultaneamente.",
         history: "Após perceber que Konoha se tornava vulnerável sempre que deixava a vila, Nishinoya desenvolveu uma solução considerada impossível até mesmo pelos maiores especialistas em ninjutsu. Utilizando conhecimento avançado de fuinjutsu, propriedades espaço-temporais do Hiraishin e chakra estabilizado da Matatabi, ele criou o Clone Perfeito — uma réplica capaz de proteger Konoha enquanto o verdadeiro Nishinoya travava batalhas secretas contra a OCA. A técnica foi considerada uma anomalia até mesmo entre os Hokages.",
         status: "Técnica proibida e extremamente desgastante. A criação do clone divide parte da essência espiritual de Nishinoya, causando enorme consumo de chakra e fadiga mental prolongada. Caso o clone seja destruído violentamente, parte do impacto espiritual retorna diretamente ao usuário original.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F08%20-%20Clone%20Perfeito.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F08%20-%20Clone%20Perfeito.png?alt=media&v=1784037455794152"
       },
       {
         name: "Sennin Fuka",
@@ -114,7 +114,7 @@ export const initialData: Character[] = [
         destruction: "Devastação em larga escala. A explosão vaporiza o ponto de impacto e cria uma cratera gigantesca. As chamas azuis da Matatabi continuam queimando após a detonação inicial, consumindo chakra e incendiando tudo ao redor com fogo espiritual extremamente intenso.",
         history: "Desde os 14 anos, Nishinoya e Matatabi compartilham um vínculo raro entre Jinchuuriki e Bijuu. Diferente da maioria dos casos, Matatabi escolheu voluntariamente se selar dentro dele após reconhecer sua determinação e espírito. Com o passar dos anos, os dois se tornaram melhores amigos e parceiros de batalha. Graças a essa confiança absoluta, Nishinoya consegue manifestar a Bijuudama com estabilidade excepcional, canalizando o poder da Nibi como uma extensão natural de si mesmo.",
         status: "Técnica de poder extremo que exige grande quantidade de chakra. No entanto, graças à amizade e sincronização perfeita entre Nishinoya e Matatabi, o risco de perda de controle é drasticamente reduzido.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F09%20-%20Bijuudama.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F09%20-%20Bijuudama.png?alt=media&v=1784037456587770"
       },
       {
         name: "Senpo Enka Aoi Katon: Oodama Rasenshuriken",
@@ -179,11 +179,11 @@ export const initialData: Character[] = [
     ],
     arsenal: [1, 2],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media&v=1784123675019815", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media", caption: "Terceiro Hokage", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1784123675814591", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1784123676602531", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1784123677373131", caption: "Terceiro Hokage", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249", caption: "Luta contra o Omega", category: "era" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 18, perception: 30 },
@@ -233,7 +233,7 @@ export const initialData: Character[] = [
         destruction: "Nível catastrófico e sustentado. Diferente de golens comuns, os três guardiões de Eien no Tomo não perdem força ao longo da batalha — pelo contrário, tornam-se mais resistentes e destrutivos quanto maior for a ameaça enfrentada e mais forte a determinação de Kaito. Juntos, são capazes de esmagar formações inimigas inteiras, atravessar defesas de altíssimo nível e sustentar combate simultâneo contra múltiplos oponentes de elite sem perder sincronia, cada golpe carregando o peso do legado que representam.",
         history: "Kaito desenvolveu esta técnica logo após assumir o posto de novo capitão, no momento mais sombrio de sua jornada: a morte de Katsumi, Najin e Shoei. Diante da dor da perda, compreendeu que a Vontade do Fogo não se apaga com a morte — ela é passada adiante por aqueles que escolhem carregá-la. Em vez de deixar que o luto o paralisasse, decidiu transformar a lembrança de seus companheiros em força viva, fundindo seu domínio do Mokuton à memória de cada um deles. Assim nasceu o Eien no Tomo, o primeiro grande jutsu criado por Kaito como capitão, e a prova de que os laços formados em vida jamais desaparecem verdadeiramente.",
         status: "Uso emocionalmente exigente. A técnica está diretamente ligada ao estado emocional de Kaito — quanto mais genuína for sua determinação em proteger o que ama, mais poderosos os golens se tornam, mas invocá-los também reabre a dor da perda de Katsumi, Najin e Shoei a cada ativação. Exige domínio avançado de Mokuton e grande estabilidade mental para não ser consumido pela tristeza durante o combate.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F01%20-%20Mokuton%3A%20Eien%20no%20Tomo.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F01%20-%20Mokuton%3A%20Eien%20no%20Tomo.jpg?alt=media&v=1784120746279127"
       },
       {
         name: "Mokuton: Shi no Shugomori",
@@ -263,7 +263,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. A implosão inicial seguida pela explosão massiva de chakra rotativo pode devastar áreas inteiras, abrir crateras gigantescas e pulverizar estruturas em amplo raio, sendo capaz de apagar quarteirões inteiros do campo de batalha.",
         history: "Criada após Kaito dominar parcialmente o Hiraishin, essa técnica representa o auge de sua inteligência tática e controle de chakra. A combinação de teletransporte com o poder máximo do Rasengan permitiu que ele utilizasse toda a potência da técnica sem sofrer danos colaterais.",
         status: "Uso extremamente restrito. Requer domínio avançado do Hiraishin, enorme reserva de chakra, controle absoluto de rotação e afinidade com o Chakra Vermelho.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F02%20-%20Senpo%3A%20Hiraishin%20Oodama%20Rasengan.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F02%20-%20Senpo%3A%20Hiraishin%20Oodama%20Rasengan.jpg?alt=media&v=1784120743984770"
       },
       {
         name: "Senpo Enka Mokuton: OodamaRasenShuriken",
@@ -273,7 +273,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. O impacto cria crateras gigantescas, pulveriza estruturas em grande escala e pode devastar áreas inteiras do campo de batalha. As lâminas de vento reforçadas por Mokuton perfuram e dilaceram em nível celular antes que a implosão do núcleo libere uma explosão rotativa capaz de apagar quarteirões inteiros.",
         history: "Kaito aprendeu essa técnica logo após o confronto contra os Kages da OCA, uma batalha que expôs o quão distante ainda estava do poder necessário para proteger seus companheiros. Ao assumir o posto de novo capitão, compreendeu que liderar exigia mais do que coragem — exigia potencializar cada uma de suas técnicas ao limite. Foi a partir dessa reflexão que fundiu seu domínio do Mokuton ao Oodama Rasenshuriken, criando uma variação capaz de honrar a responsabilidade que agora carregava.",
         status: "Uso altamente restrito. Exige enorme reserva de chakra, controle avançado de rotação, domínio do Senjutsu e sincronia perfeita entre a natureza de Mokuton e o Chakra Vermelho. Como capitão, Kaito reserva essa técnica para momentos em que a vida de sua equipe depende de um golpe decisivo, já que seu uso repetido pode esgotá-lo severamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F03%20-%20Senpo%20Enka%20Mokuton%3A%20OodamaRasenShuriken.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F03%20-%20Senpo%20Enka%20Mokuton%3A%20OodamaRasenShuriken.png?alt=media&v=1784120743192341"
       },
       {
         name: "Hiraishin",
@@ -283,7 +283,7 @@ export const initialData: Character[] = [
         destruction: "A técnica não causa destruição direta, porém sua letalidade é alta. O uso combinado com ataques rápidos permite eliminar adversários antes que percebam o movimento. Em batalhas, Kaito pode atravessar defesas, interceptar ataques e reposicionar aliados com precisão absoluta.",
         history: "Após estudar cuidadosamente a kunai de Nishinoya, Kaito começou a compreender os fundamentos da técnica criada por seu pai e posteriormente amplificada por seu mestre. Inspirado no lendário jutsu desenvolvido por Tobirama Senju, ele dedicou aproximadamente seis meses de treinamento contínuo ao lado de Kai, sem pausas, até dominar o controle do selo, a percepção espacial e o tempo de ativação necessário para utilizar o Hiraishin com eficiência em combate real.",
         status: "Uso avançado. Exige preparo prévio com selos espalhados pelo campo e alto controle de chakra. O uso excessivo pode gerar fadiga mental, desorientação espacial e sobrecarga sensorial. Mesmo assim, Kaito continua evoluindo a técnica, buscando atingir níveis comparáveis aos maiores usuários da história.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F04%20-%20Hiraishin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F04%20-%20Hiraishin.jpg?alt=media&v=1784120742393612"
       },
       {
         name: "Soen no Kage",
@@ -293,7 +293,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente poderosa a curta e média distância, liberando chamas carmesim que queimam matéria e chakra. Em ativação máxima, dispara uma onda flamejante vermelha com núcleo azul, deixando combustão residual antes do chakra retornar ao selo.",
         history: "A Soen no Kage Rank Z foi o utensílio de combate que acompanhou Nishinoya desde o início de sua vida como shinobi. Muito antes de se tornar reconhecido por sua força, foi com essa lâmina azul que ele travou seus primeiros combates, superou missões mortais e construiu sua reputação. Ao longo dos anos, a arma tornou-se mais que um simples instrumento — tornou-se um símbolo de sua jornada, absorvendo traços residuais de batalhas intensas e servindo como receptáculo selado para fragmentos de chakra do Terceiro Hokage e do Matatabi. No fim de seu ciclo como guerreiro, Nishinoya escolheu entregar a Soen no Kage a Kaito, não apenas como herança de poder, mas como legado de disciplina, vontade e evolução. A transformação da lâmina de azul para vermelho ao ser empunhada por Kaito marca o início de uma nova era para a arma, agora vinculada ao destino de seu novo portador.",
         status: "Apesar da transformação para vermelho, o chakra continua totalmente contido na Soen no Kage. Kaito apenas o canaliza externamente como condutor estratégico. A nova coloração indica maior agressividade na liberação de energia, exigindo controle constante para evitar sobrecarga ou explosões involuntárias. Caso o fluxo de Kaito oscile, a arma pode emitir descargas abruptas antes de se estabilizar novamente. Quanto maior a sincronia entre usuário e selo, mais uniforme se torna o brilho carmesim e mais precisa se torna a execução dos ataques.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F05%20-%20Soen%20no%20Kage.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F05%20-%20Soen%20no%20Kage.jpg?alt=media&v=1784120741805965"
       },
       {
         name: "Sennin Fuka",
@@ -303,7 +303,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Amplifica todas as técnicas de madeira, físicas e sensoriais de Kaito simultaneamente, permitindo a criação instantânea de florestas densas, prisões de raízes colossais e estruturas defensivas praticamente indestrutíveis, tudo sustentado por um fluxo de chakra virtualmente inesgotável enquanto o modo se mantém ativo.",
         history: "Após anos treinando isoladamente o Senjutsu herdado do Mokuton, Kaito buscou os monges reclusos do País da Terra, guardiões de uma técnica ancestral de absorção de energia natural distinta da via dos sapos ou das cobras. Ao aprender a mesclar essa energia com a que já corria em seu sangue Senju, ele completou o que antes era apenas um Modo Eremita incompleto, alcançando finalmente o Modo Sábio Completo — uma fusão inédita entre duas tradições de Senjutsu jamais unidas antes dele.",
         status: "Uso avançado, porém estável. Diferente da forma incompleta anterior, o corpo de Kaito agora suporta o fluxo duplo de energia natural sem risco de petrificação, podendo manter o modo ativo por longos períodos em combate. Ainda assim, exige concentração constante para equilibrar as duas correntes de Senjutsu sem que uma sobrecarregue a outra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F06%20-%20Sennin%20Fuka.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F06%20-%20Sennin%20Fuka.jpg?alt=media&v=1784037465651134"
       },
       {
         name: "Senpo: Mokuryū no Jutsu",
@@ -313,7 +313,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente devastadora. A mordida possui força suficiente para destruir defesas de alto nível, esmagar invocações gigantes e abrir crateras profundas no campo de batalha. A onda de choque do impacto se espalha em raio amplo, varrendo estruturas e incapacitando múltiplos inimigos próximos.",
         history: "Após atingir um nível avançado de domínio do Mokuton, Kaito despertou uma variação rara de chakra vermelho herdada de uma linhagem antiga do clã Senju. Ao combinar essa energia com o Senjutsu, desenvolveu uma forma superior de invocação de madeira, criando o Sekiryū — um dragão que simboliza poder absoluto e destruição controlada.",
         status: "Uso altamente restrito. Exige Modo Sábio ativo e enorme reserva de chakra. A técnica consome grande quantidade de energia vital e só pode ser utilizada por curto período sem comprometer o usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F07%20-%20Senpo%3A%20Mokury%C5%AB%20no%20Jutsu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F07%20-%20Senpo%3A%20Mokury%C5%AB%20no%20Jutsu.png?alt=media&v=1784037466104241"
       },
       {
         name: "Senpo: Daijurin no jutsu",
@@ -323,7 +323,7 @@ export const initialData: Character[] = [
         destruction: "Devastação em larga escala. A técnica cobre uma área massiva em segundos, destruindo defesas, esmagando construções e alterando completamente o terreno. Os troncos possuem dureza comparável a aço reforçado por chakra, podendo atravessar invocações gigantes e romper barreiras avançadas.",
         history: "Após dominar o Mokuryū, Kaito percebeu que não precisava concentrar seu poder em uma única entidade. Inspirado nas técnicas clássicas do Mokuton desenvolvidas por membros lendários do clã Senju, ele adaptou o Daijurin no Jutsu ao seu chakra vermelho ancestral, transformando-o em uma manifestação de domínio territorial absoluto.",
         status: "Uso extremamente exaustivo. Requer Modo Sábio ativo e grande controle para evitar danos colaterais. Quanto maior a área coberta, maior o consumo de chakra e energia vital.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F08%20-%20Senpo%3A%20Daijurin%20no%20jutsu.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F08%20-%20Senpo%3A%20Daijurin%20no%20jutsu.jpg?alt=media&v=1784037466697393"
       }
     ],
     arsenal: [1, 3],
@@ -333,10 +333,10 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F1__Temporada.png?alt=media&v=1786454424413629", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1786454427005356", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1786454421852750", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media", caption: "Luta contra o Omega", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1784049449771707", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1784049451430347", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1786454429614752", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1784049455025625", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 15, spirit: 16, vigor: 9, perception: 16 },
     powers: [
@@ -390,7 +390,7 @@ export const initialData: Character[] = [
         destruction: "Catastrófico em escala estratégica. A técnica não apenas pulveriza matéria como o Jinton tradicional, mas elimina o próprio resíduo de chakra do alvo. Barreiras defensivas, técnicas regenerativas avançadas e estruturas fortificadas são anuladas simultaneamente. O resultado não é devastação comum, mas apagamento completo da área atingida.",
         history: "Desenvolvida após Oddy obter acesso à seringa lendária de Jinton Artificial — um experimento proibido da OCA que replicava temporariamente a Kekkei Tōta. Ao fundir o princípio absoluto da desintegração com as chamas negras inextinguíveis do Enton, Oddy criou uma técnica que ultrapassa o conceito tradicional de destruição, tornando-se um símbolo de extinção total no campo de batalha.",
         status: "Uso extremamente restrito. A sobreposição entre Kekkei Tōta artificial e Mangekyō Sharingan impõe carga extrema ao corpo e aos olhos. O uso repetido pode causar colapso do sistema de chakra, degradação celular progressiva e perda acelerada da visão.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F01%20-%20Enton%20Jinton%3A%20Amaterasu%20Genkai%20Hakuri.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F01%20-%20Enton%20Jinton%3A%20Amaterasu%20Genkai%20Hakuri.png?alt=media&v=1784037468799286"
       },
       {
         name: "Enton: Amaterasu Ryūka no Nintō",
@@ -400,7 +400,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Combina poder de corte absoluto com chamas negras inextinguíveis, capazes de atravessar defesas de alto nível e incinerar o alvo continuamente após o impacto. Em combate corpo a corpo, pode devastar múltiplos adversários em sequência.",
         history: "Desenvolvida por Oddy após dominar o Mangekyō Sharingan e unir as duas lâminas lendárias sob o estilo Ryūka no Nintō. Tornou-se uma assinatura temida no campo de batalha devido à natureza inevitável das chamas negras.",
         status: "Uso altamente restrito. Requer ativação do Mangekyō Sharingan, grande consumo de chakra e causa desgaste ocular progressivo. Uso prolongado pode acelerar a perda de visão.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F02%20-%20Enton%3A%20Amaterasu%20Ry%C5%ABka%20no%20Nint%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F02%20-%20Enton%3A%20Amaterasu%20Ry%C5%ABka%20no%20Nint%C5%8D.png?alt=media&v=1784037469603705"
       },
       {
         name: "Katon: Madara no Enkai Tenmetsu",
@@ -410,7 +410,7 @@ export const initialData: Character[] = [
         destruction: "Nível catastrófico. Pode incinerar regiões inteiras do campo de batalha com uma tempestade de fogo negro e vermelho extremamente densa, destruindo múltiplas defesas simultaneamente sem exigir custo de chakra no momento da ativação.",
         history: "O Anel de Madara foi criado a partir de fragmentos de chakra remanescentes do próprio Uchiha Madara após a Quarta Grande Guerra Ninja. Décadas depois, o artefato entrou em posse de Oddy, que conseguiu sincronizar sua linhagem ocular com o núcleo espiritual do anel, despertando a técnica suprema Enkai Tenmetsu.",
         status: "Uso extremamente raro e perigoso. Embora não consuma chakra ao ser liberado, o processo de carregamento exige uso contínuo de Katon em batalha. Se o anel absorver energia além do limite suportado pelo usuário, pode causar superaquecimento da rede de chakra e danos internos severos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F03%20-%20Katon%3A%20Madara%20no%20Enkai%20Tenmetsu.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F03%20-%20Katon%3A%20Madara%20no%20Enkai%20Tenmetsu.jpg?alt=media&v=1784037469960018"
       },
       {
         name: "Susanoo Pessoal",
@@ -420,7 +420,7 @@ export const initialData: Character[] = [
         destruction: "Amplia drasticamente a velocidade, força e capacidade de reação do usuário. Golpes tornam-se mais rápidos e letais, podendo atravessar defesas com facilidade. A armadura reduz danos recebidos e permite combate direto contra técnicas de alto nível. Além disso, Oddy pode invocar através do Susanoo a lendária katana de Uchiha Madara, canalizando Enton na lâmina para executar cortes extremamente destrutivos.",
         history: "Essa forma nasce da necessidade de Oddy de equilibrar poder absoluto com mobilidade. Ao invés de depender apenas de formas gigantes do Susanoo, ele desenvolve uma versão pessoal e eficiente, transformando o poder do Mangekyō em uma extensão direta de seu corpo. Essa evolução demonstra seu domínio refinado sobre o Susanoo e sua capacidade de adaptá-lo ao seu estilo de combate.",
         status: "Apesar de mais eficiente que formas completas, ainda consome grandes quantidades de chakra e mantém o desgaste ocular do Mangekyō Sharingan. O uso prolongado pode causar fadiga extrema e redução progressiva da eficiência da armadura.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F04%20-%20Susanoo%20Pessoal.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F04%20-%20Susanoo%20Pessoal.jpg?alt=media&v=1784037470715805"
       },
       {
         name: "Susanoo Blindado",
@@ -430,7 +430,7 @@ export const initialData: Character[] = [
         destruction: "Essa forma concede enorme aumento de força, defesa e poder ofensivo. Os ataques tornam-se devastadores, capazes de destruir grandes estruturas e anular técnicas de alto nível. Oddy pode invocar através do Susanoo a lendária katana de Uchiha Madara, amplificada com Enton, realizando cortes massivos e altamente destrutivos.",
         history: "Essa evolução marca o domínio completo do Susanoo em sua forma tradicional. Oddy transforma seu poder ocular em uma arma de guerra, equilibrando defesa absoluta com destruição massiva.",
         status: "Alto consumo de chakra e grande desgaste ocular. Uso prolongado pode causar exaustão extrema e danos severos ao usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F05%20-%20Susanoo%20Blindado.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F05%20-%20Susanoo%20Blindado.jpg?alt=media&v=1784037471499523"
       },
       {
         name: "Susanoo Humanoide",
@@ -440,7 +440,7 @@ export const initialData: Character[] = [
         destruction: "Capaz de lutar diretamente contra oponentes poderosos, o Susanoo Humanoide executa golpes massivos, podendo utilizar armas de chakra como lâminas e projéteis. Seus ataques possuem grande poder destrutivo, podendo quebrar defesas e causar impacto em área.",
         history: "Após dominar melhor seu Mangekyō Sharingan, Oddy passa a controlar conscientemente o Susanoo, transformando-o de uma defesa instintiva em uma arma de combate.",
         status: "Consumo médio-alto de chakra. Pode ser mantido em combate prolongado, mas causa desgaste ocular progressivo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F06%20-%20Susanoo%20Humanoide.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F06%20-%20Susanoo%20Humanoide.jpg?alt=media&v=1784037472275595"
       },
       {
         name: "Susanoo Esqueleto",
@@ -450,7 +450,7 @@ export const initialData: Character[] = [
         destruction: "Focado em defesa e reação rápida, o Susanoo Esqueleto reduz significativamente o dano recebido e pode interceptar ataques físicos e ninjutsus de médio nível. Seus ataques são limitados, consistindo em golpes brutos com braços esqueléticos ou explosões curtas de Enton.",
         history: "Essa é a primeira manifestação do poder ocular de Oddy após despertar seu Mangekyō Sharingan. Ainda instável, o Susanoo responde mais ao instinto do que ao controle consciente.",
         status: "Baixo consumo de chakra comparado às outras formas, porém instável. Não pode ser mantido por longos períodos sob pressão intensa.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F07%20-%20Susanoo%20Esqueleto.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F07%20-%20Susanoo%20Esqueleto.jpg?alt=media&v=1784037472624952"
       },
       {
         name: "Enton: Homura no Chikai",
@@ -460,7 +460,7 @@ export const initialData: Character[] = [
         destruction: "Muito elevado. Embora utilize apenas uma parte do poder total da Homura no Chikai, a combinação com o Enton torna seus golpes extremamente letais, capazes de cortar defesas de alto nível e provocar combustão contínua no corpo e no chakra do oponente.",
         history: "Criada por Oddy após aprofundar sua sintonia com a Homura no Chikai e compreender que não precisava liberar todo o poder da espada para torná-la devastadora. Ao combinar seu Mangekyō Sharingan com a natureza ígnea sagrada da lâmina, desenvolveu uma técnica refinada e mortal, voltada para combates diretos e execuções rápidas.",
         status: "Uso altamente restrito. Requer o Mangekyō Sharingan ativo, grande precisão no controle de chakra e forte resistência ocular. Apesar de consumir menos energia do que técnicas que liberam todo o poder da espada, seu uso repetido ainda causa desgaste ocular e fadiga intensa.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F08%20-%20Enton%3A%20Homura%20no%20Chikai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F08%20-%20Enton%3A%20Homura%20no%20Chikai.jpg?alt=media&v=1784037473111895"
       },
       {
         name: "Mangekyō Sharingan",
@@ -470,7 +470,7 @@ export const initialData: Character[] = [
         destruction: "Potencial de combate drasticamente ampliado. O aumento de percepção e reação permite neutralizar ataques de alta velocidade, prever movimentos complexos e executar contra-ataques com precisão quase inevitável.",
         history: "O despertar ocorreu durante o momento mais traumático da vida de Oddy, ao ver Shoei morrer diante de seus olhos pelas mãos de Omega. A intensidade da perda e da impotência desencadeou a evolução ocular, marcando o nascimento de seu Mangekyō Sharingan.",
         status: "Consome grandes quantidades de chakra e causa desgaste ocular progressivo. Uso prolongado gera dor intensa, visão turva e risco de perda gradual da visão.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F09%20-%20Mangeky%C5%8D%20Sharingan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F09%20-%20Mangeky%C5%8D%20Sharingan.png?alt=media&v=1784037473453073"
       },
       {
         name: "Doton: Golem de Madeira",
@@ -480,7 +480,7 @@ export const initialData: Character[] = [
         destruction: "O Golem possui força suficiente para destruir construções, esmagar inimigos com seus punhos massivos e provocar ondas de choque ao golpear o solo. Seu corpo extremamente resistente pode suportar ninjutsus de alto nível antes de se desintegrar, funcionando tanto como arma ofensiva quanto como fortaleza móvel no campo de batalha.",
         history: "Depois de receber a amplificação provocada pela seringa de Jinton, Oddy percebeu que seu controle sobre o Doton havia mudado drasticamente. Durante meses de treinamento, ele explorou novas formas de moldar a terra, até alcançar um nível onde podia dar forma, movimento e quase 'vida' ao elemento. Inspirado nas antigas técnicas de colossos elementais mencionadas em pergaminhos antigos, Oddy desenvolveu o Daichi Gōremu, um símbolo máximo de seu domínio sobre o estilo Terra.",
         status: "Uso avançado. A criação do golem exige grande quantidade de chakra e concentração constante para manter sua estrutura e movimentos. Caso o controle seja interrompido, o colosso se desfaz em terra comum. Apesar do alto custo, Oddy domina a técnica com grande eficiência, conseguindo manter o golem ativo por longos períodos em batalha.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F10%20-%20Doton%3A%20Golem%20de%20Madeira.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F10%20-%20Doton%3A%20Golem%20de%20Madeira.png?alt=media&v=1784037473780837"
       },
       {
         name: "Mímica Sharingan: Kaito Oodama Rasengan",
@@ -490,7 +490,7 @@ export const initialData: Character[] = [
         destruction: "Altamente devastadora. O impacto direto é capaz de obliterar defesas de alto nível, desintegrar construções robustas e lançar múltiplos inimigos a grande distância. A força rotacional interna continua a dilacerar tudo no centro da explosão por alguns segundos após o impacto inicial.",
         history: "Durante um confronto intenso, Oddy observou cuidadosamente a execução do Kaito Oodama Rasengan e, utilizando a capacidade analítica e de reprodução perfeita da Mímica Sharingan, conseguiu copiar não apenas a forma da técnica, mas também sua compressão e equilíbrio de chakra. Desde então, passou a utilizá-la como um de seus trunfos em batalhas decisivas.",
         status: "Uso extremamente exaustivo. Exige grande controle de chakra e estabilidade física. Pode ser executado apenas por curto período, pois o desgaste muscular e energético é elevado, especialmente ao manter o Rasengan em sua forma ampliada.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F11%20-%20M%C3%ADmica%20Sharingan%3A%20Kaito%20Oodama%20Rasengan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F11%20-%20M%C3%ADmica%20Sharingan%3A%20Kaito%20Oodama%20Rasengan.png?alt=media&v=1784037474139342"
       },
       {
         name: "Katon: Enshō Daiendan",
@@ -500,17 +500,17 @@ export const initialData: Character[] = [
         destruction: "Extremamente destrutiva. A explosão ao impacto cria uma detonação flamejante de grande alcance, capaz de devastar uma ampla área, derreter defesas reforçadas e transformar o campo de batalha em um inferno em chamas. A onda de choque térmica pode causar queimaduras severas mesmo em alvos fora do centro da explosão.",
         history: "Desenvolvida como uma evolução de técnicas clássicas de Katon, esta variação foi criada para batalhas em larga escala, onde a simples Gōkakyū não seria suficiente. Usuários que dominam essa técnica demonstram controle avançado de compressão e expansão de chakra elemental.",
         status: "Alto consumo de chakra. Requer excelente controle respiratório e resistência física. O uso excessivo pode causar exaustão severa e danos internos devido à pressão e ao calor acumulados durante a execução.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F12%20-%20Katon%3A%20Ensh%C5%8D%20Daiendan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FTecnicas%2F12%20-%20Katon%3A%20Ensh%C5%8D%20Daiendan.png?alt=media&v=1784037474471501"
       }
     ],
     arsenal: [4, 2, 5, 6, 7, 18],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1786454452859639", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FCl_ssico.png?alt=media&v=1786370726545874", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%203%C2%AA%20Temporada.png?alt=media", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media&v=1784067672628387", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media&v=1784067674286736", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media&v=1784067676028993", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%203%C2%AA%20Temporada.png?alt=media&v=1784067677692997", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F4__Temporada.png?alt=media&v=1784658587696755", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.png?alt=media&v=1785784623548", caption: "5ª Temporada", category: "era" },
     ],
@@ -563,7 +563,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto em combate prolongado. Dentro do domínio, Katsumi possui supremacia quase absoluta em confrontos de curta distância. Técnicas baseadas em projéteis ou disparos de chakra perdem potência e precisão conforme entram no campo. A pressão espiritual do chakra profano também pode desestabilizar o sistema de chakra de inimigos dentro da área, causando lentidão de reação, colapso energético progressivo e dificuldade para moldar chakra.",
         history: "A técnica surgiu após Katsumi compreender completamente o comportamento do chakra profano durante seu treinamento com Kai. Diferente de técnicas tradicionais que apenas utilizam chakra como combustível, Katsumi aprendeu a expandir sua energia e transformar o ambiente em um reservatório vivo de chakra profano. Entre registros ocultos, esse domínio passou a ser conhecido como o 'Território do Rei', pois dentro dele o usuário governa o fluxo energético como um soberano absoluto.",
         status: "Requer domínio extremamente avançado do chakra profano e grande estabilidade mental. Quanto maior o controle emocional de Katsumi, mais perfeito se torna o domínio. Caso a concentração do usuário seja quebrada, o campo pode enfraquecer ou se dissipar temporariamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F01%20-%20Shipp%C5%AB%20Hy%C5%8Dkai.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F01%20-%20Shipp%C5%AB%20Hy%C5%8Dkai.png?alt=media&v=1784037475550701"
       },
       {
         name: "Hyuga no Fujo: Hakke Hyaku Nijūhachi Shō ",
@@ -573,7 +573,7 @@ export const initialData: Character[] = [
         destruction: "Nível extremamente elevado. A sequência de 128 golpes sela completamente os tenketsus enquanto os leopardos destroem e corrompem os canais internos de chakra do oponente. O impacto final pode causar o colapso total do sistema de chakra do alvo.",
         history: "Criada por Katsumi como uma evolução do estilo Hyuga tradicional. Após dominar os Leopardos Profanos, ele passou a integrá-los diretamente na sequência dos 128 Trigramas, transformando uma técnica clássica do clã em um estilo muito mais agressivo e destrutivo.",
         status: "Extremamente difícil de executar. Requer domínio absoluto do Punho Suave, percepção perfeita dos tenketsus através do Fūjogan e controle total do chakra profano durante toda a sequência de 128 golpes.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F02%20-%20Hyuga%20no%20Fujo%3A%20Hakke%20Hyaku%20Nij%C5%ABhachi%20Sh%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F02%20-%20Hyuga%20no%20Fujo%3A%20Hakke%20Hyaku%20Nij%C5%ABhachi%20Sh%C5%8D.png?alt=media&v=1784037475916526"
       },
       {
         name: "Hyuga no Fujo: Sōhyō Rasengan",
@@ -583,7 +583,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. O impacto combina a perfuração rotativa do Rasengan com a precisão destrutiva do Jūken, enquanto o chakra profano invade o sistema de chakra do inimigo, destruindo diversos tenketsus de uma só vez e causando danos internos massivos.",
         history: "Após dominar completamente a manifestação dos Leopardos Profanos, Katsumi buscou aumentar ainda mais seu poder ofensivo. Inspirado na técnica Rasengan, ele desenvolveu a capacidade de formar a esfera rotativa dentro da boca das entidades espirituais, criando um ataque predatório onde os leopardos literalmente devoram o fluxo de chakra do inimigo.",
         status: "Dominada por Katsumi, porém extremamente exigente. Requer controle absoluto de chakra profano e precisão no fluxo rotativo do Rasengan para evitar instabilidade nas entidades.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F03%20-%20Hyuga%20no%20Fujo%3A%20S%C5%8Dhy%C5%8D%20Rasengan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F03%20-%20Hyuga%20no%20Fujo%3A%20S%C5%8Dhy%C5%8D%20Rasengan.png?alt=media&v=1784037476288200"
       },
       {
         name: "Hyuga no Fujo: Jūho Sōshiken",
@@ -593,7 +593,7 @@ export const initialData: Character[] = [
         destruction: "Muito elevado em combate corpo a corpo. Os leopardos amplificam cada golpe de Katsumi, permitindo que seus ataques atinjam múltiplos tenketsus simultaneamente enquanto o chakra profano distorce o fluxo energético do oponente.",
         history: "Criada por Katsumi após estudar profundamente a manifestação de chakra usada no estilo dos Leões Gêmeos do clã Hyuga. Ao invés de reproduzir a técnica tradicional, ele a transformou através da fusão com chakra profano, criando entidades muito mais agressivas e instáveis: os Leopardos Profanos.",
         status: "Dominada por Katsumi. Requer controle refinado de chakra profano para manter as manifestações estáveis durante o combate.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F04%20-%20Hyuga%20no%20Fujo%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F04%20-%20Hyuga%20no%20Fujo%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media&v=1784037476647644"
       },
       {
         name: "Fujogan: Shishin Kuroten",
@@ -603,7 +603,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente letal em combate técnico. O Shishin Kuroten não causa explosões externas, mas atinge pontos vitais com precisão cirúrgica. Pode fechar múltiplos tenketsus à distância, interromper técnicas em ativação e até romper defesas baseadas em fluxo contínuo de chakra. Em casos extremos, pode causar paralisia parcial ou total ao desregular completamente a circulação energética do alvo.",
         history: "Registros secretos da família principal do Clã Hyuga descrevem essa técnica como uma evolução proibida do Punho Suave. Surgiu após o despertar de um dos primeiros portadores do Fujogan, que buscava uma forma de aplicar o domínio absoluto dos tenketsus sem precisar de contato físico. Por seu potencial de desestabilizar aliados e inimigos indistintamente caso perca o controle emocional, a técnica foi mantida em sigilo por gerações.",
         status: "Requer domínio avançado do Fujogan e controle emocional refinado. O uso excessivo pode sobrecarregar o dedo e os canais de chakra do braço, causando dormência temporária ou microfissuras internas nos próprios tenketsus do usuário. Quanto maior o equilíbrio espiritual do portador, mais preciso e penetrante o disparo se torna.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F05%20-%20Fujogan%3A%20Shishin%20Kuroten.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F05%20-%20Fujogan%3A%20Shishin%20Kuroten.png?alt=media&v=1784037476978879"
       },
       {
         name: "Fujogan: Kuchiyose Profana",
@@ -613,7 +613,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente perigoso em combates de médio e longo alcance. O Kurohyō pode atravessar defesas físicas comuns por ser composto de chakra puro, atacar diretamente o sistema de chakra do oponente com mordidas e garras que fecham tenketsus ao contato, e liberar rugidos que desestabilizam emocionalmente adversários sensíveis à pressão espiritual. Em estado avançado, pode se fragmentar em múltiplas silhuetas de chakra para cercar o alvo antes de recompor seu corpo principal para um golpe final concentrado.",
         history: "Registros antigos da família principal descrevem a Kuchiyose Profana como um pacto espiritual selado por ancestrais que dominavam uma vertente proibida do chakra ocular. Cada herdeiro manifesta uma forma animal diferente baseada em sua essência espiritual. O leopardo de Katsumi representa precisão, velocidade e letalidade silenciosa — um reflexo direto de sua afinidade com ataques cirúrgicos aos tenketsus. Por ser formado exclusivamente de chakra profano, apenas portadores do Fujogan com controle emocional elevado conseguem mantê-lo estável.",
         status: "Requer domínio avançado do Fujogan e grande reserva de chakra. Caso o controle emocional oscile, o leopardo pode perder coesão momentaneamente ou amplificar instintos agressivos de forma perigosa. Quanto maior o equilíbrio espiritual de Katsumi, mais sólido, veloz e inteligente o Kurohyō se torna, podendo até antecipar movimentos hostis antes mesmo da ação física do inimigo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F06%20-%20Fujogan%3A%20Kuchiyose%20Profana.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F06%20-%20Fujogan%3A%20Kuchiyose%20Profana.png?alt=media&v=1784037477762606"
       },
       {
         name: "Fujogan",
@@ -623,7 +623,7 @@ export const initialData: Character[] = [
         destruction: "Altamente perigoso em combate direto. Embora não seja uma técnica destrutiva em larga escala, o Fujogan transforma o usuário em uma arma viva. Seus ataques podem quebrar defesas, selamentos e técnicas de chakra ao atingir pontos vitais com precisão absoluta. O controle refinado permite bloquear ou desestabilizar técnicas inimigas, interrompendo o fluxo de chakra e causando danos internos severos.",
         history: "Antigos registros do Clã Hyuga mencionam o Fujogan como um fenômeno raro e temido, conhecido como 'o olhar que rompe a calmaria'. Diz-se que apenas Hyugas que desafiaram a tradição emocional do clã, enfrentando situações de vida ou morte, conseguiram despertá-lo. Muitos líderes tentaram ocultar sua existência por medo de que esse poder tornasse seus usuários imprevisíveis e difíceis de controlar.",
         status: "Exige grande equilíbrio emocional e físico. O uso prolongado pode causar exaustão mental e sobrecarga sensorial. No entanto, quanto mais o usuário domina suas emoções, mais o Fujogan evolui, permitindo novas formas e símbolos que refletem o crescimento espiritual do portador.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F07%20-%20Fujogan.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F07%20-%20Fujogan.jpg?alt=media&v=1784037478537206"
       },
       {
         name: "Juuken: Jūho Sōshiken",
@@ -633,7 +633,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado em combate direto. Cada golpe sela ou danifica os tenketsus enquanto a pressão do chakra dos leões gêmeos amplifica o impacto do Punho Suave. Quando executado completamente, pode bloquear quase toda a rede de chakra do alvo, tornando extremamente difícil a moldagem de chakra. Dentro do campo dos Oito Trigramas, múltiplos adversários podem ser atingidos caso entrem no alcance da sequência.",
         history: "Mantida em segredo absoluto pela família principal do Clã Hyuga. Registros antigos indicam que esta técnica surgiu como uma evolução do estilo Sessenta e Quatro Palmas quando mestres do clã aprenderam a manifestar os lendários Punhos de Leões Gêmeos, considerados um dos níveis mais avançados do controle de chakra do Punho Suave.",
         status: "Uso extremamente restrito. Requer domínio absoluto do Punho Suave, percepção avançada dos tenketsus através do Byakugan e controle preciso da sequência dos 64 Trigramas. A manifestação contínua dos Leões Gêmeos exige grande controle de chakra e resistência física do usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F08%20-%20Juuken%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F08%20-%20Juuken%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media&v=1784037479297536"
       },
       {
         name: "Tenketsu Byakugan",
@@ -643,7 +643,7 @@ export const initialData: Character[] = [
         destruction: "Baixo em destruição direta, porém extremamente alto em valor estratégico. A percepção absoluta do campo de batalha permite prever ataques, identificar fraquezas estruturais no fluxo de chakra do oponente e preparar técnicas do Punho Suave com precisão perfeita. Quando combinado com técnicas do estilo Jūken, torna o usuário extremamente letal em combate corpo a corpo.",
         history: "O Byakugan é a dōjutsu hereditária do Clã Hyuga, descendente direto do poder ocular do clã Ōtsutsuki. Desde tempos antigos, membros do clã treinam desde a infância para dominar sua ativação e explorar seu potencial máximo em combate, espionagem e análise de chakra.",
         status: "Técnica fundamental do clã Hyuga. Embora a ativação seja natural para seus membros, o nível avançado de percepção e alcance visual demonstrado nesta forma exige grande experiência, controle refinado de chakra e treinamento contínuo do usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F09%20-%20Tenketsu%20Byakugan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F04%20-%20Katsumi%20Hyuga%2FTecnicas%2F09%20-%20Tenketsu%20Byakugan.png?alt=media&v=1784037480065608"
       }
     ],
     arsenal: [74, 75, 8],
@@ -704,7 +704,7 @@ export const initialData: Character[] = [
         destruction: "Nível apocalíptico. A combinação entre Oito Portões, chakra profano, senjutsu, aceleração muscular pelo Mangekyou de Sho, armadura de Susanoo e lança de chakra transforma o ataque em uma técnica de aniquilação direta. O chakra sábio amplia drasticamente o acerto e o dano, permitindo que a investida ignore grande parte das defesas convencionais de chakra. Ao atingir o alvo, a lança libera uma explosão concentrada capaz de destruir barreiras, perfurar armaduras espirituais, romper defesas de Susanoo inferiores e devastar uma região inteira ao redor do ponto de impacto. O golpe não apenas causa dano físico massivo, mas também contamina o sistema de chakra do inimigo com chakra profano venenoso, dificultando regeneração, substituição ou fuga.",
         history: "Najin despertou originalmente o Chōtotsu Mōshin após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi, que o auxiliou a dispersar o chakra profano gradualmente por todo o corpo e estabilizar sua circulação de energia. Mais tarde, após o transplante do olho de Sho que estava em A, Najin passou a acessar uma fração do poder ocular de Sho, incluindo sua aceleração muscular, sua manifestação de Susanoo e a criação de sua lança de chakra. Ao fundir esse poder com seu próprio Modo Sábio, Najin criou uma evolução proibida do Chōtotsu Mōshin: uma técnica de investida absoluta, feita não para prolongar combate, mas para finalizar inimigos de nível extremo com um único ataque destrutivo.",
         status: "Uso absolutamente proibido. A técnica força simultaneamente o coração, o sistema circulatório, os músculos, os canais de chakra, o olho transplantado e a energia espiritual de Najin. Mesmo com a armadura de Susanoo reduzindo parte do impacto externo, o dano interno é devastador. O uso pode causar ruptura muscular generalizada, hemorragia interna, colapso cardíaco, necrose dos canais de chakra, rejeição ocular temporária e perda parcial da consciência após o golpe. Caso Najin erre o ataque ou seja forçado a manter a técnica por tempo prolongado, o risco de morte aumenta drasticamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F01%20-%20Mangekyou%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin%20Susanoo%20no%20Shingeki.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F01%20-%20Mangekyou%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin%20Susanoo%20no%20Shingeki.jpg?alt=media&v=1784037481918707"
       },
       {
         name: "Susanoo Pessoal",
@@ -714,7 +714,7 @@ export const initialData: Character[] = [
         destruction: "Amplia drasticamente a resistência, força física, velocidade de avanço e letalidade de Najin. A armadura reduz danos recebidos, absorve parte do impacto de técnicas ofensivas e permite que Najin lute em combate corporal contra inimigos de altíssimo nível sem depender de uma forma gigante do Susanoo. As placas espirituais reforçam seus golpes e tornam seus ataques mais pesados, precisos e difíceis de bloquear. A lança de chakra de Sho, manifestada a partir do Susanoo, pode ser usada para investidas perfurantes, ataques de média distância e golpes concentrados capazes de romper barreiras, armaduras espirituais e defesas reforçadas.",
         history: "Essa técnica nasce após Najin transplantar o olho de Sho que estava em A e começar a adaptar o poder ocular ao seu próprio estilo de combate. Diferente de usuários que dependem de manifestações colossais do Susanoo, Najin moldou essa energia como uma armadura pessoal, usando-a não apenas como proteção, mas como uma extensão direta de seu corpo. A técnica representa a adaptação do poder herdado de Sho ao estilo agressivo de Najin, criando uma defesa ofensiva feita para combates diretos, avanço constante e finalizações rápidas.",
         status: "Uso extremamente perigoso. Apesar de ser mais eficiente e móvel que uma forma completa de Susanoo, ainda consome grandes quantidades de chakra e impõe desgaste severo ao olho transplantado. O uso prolongado pode causar dor ocular intensa, falhas de visão, rejeição temporária do Mangekyō, fadiga extrema e perda progressiva da eficiência da armadura.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F02%20-%20Susanoo%20Pessoal.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F02%20-%20Susanoo%20Pessoal.png?alt=media&v=1784037482701396"
       },
       {
         name: "Yari no Sho",
@@ -724,7 +724,7 @@ export const initialData: Character[] = [
         destruction: "Nível extremamente destrutivo contra usuários de chakra. A lança de Sho pode perfurar defesas físicas e espirituais, mas seu verdadeiro poder está em atingir diretamente o chakra do inimigo. Um golpe certeiro pode desestabilizar o fluxo de chakra, interromper a execução de jutsus, enfraquecer barreiras, desfazer mantos de chakra e causar dano interno mesmo quando a defesa externa permanece intacta. Contra oponentes dependentes de técnicas de alta concentração energética, a arma é ainda mais perigosa, pois pode romper o controle do chakra no ponto de impacto e abrir brechas fatais para ataques consecutivos.",
         history: "A lendária lança de Sho Uchiha era uma manifestação exclusiva de seu poder ocular, ligada ao seu Susanoo e ao domínio avançado do Mangekyō Sharingan. Após transplantar o olho esquerdo de Sho, que anteriormente estava em posse de A, Najin passou a acessar fragmentos desse poder. Inicialmente, a arma surgia de forma instável, incompleta e difícil de manter. Somente após dominar o Susanoo Pessoal, Najin conseguiu estabilizar a lança como uma extensão direta da armadura, adaptando-a ao seu próprio estilo de combate. A técnica representa a herança ofensiva de Sho dentro do arsenal de Najin, transformando o poder ocular transplantado em uma arma precisa, espiritual e letal.",
         status: "Uso extremamente perigoso. A lança só pode ser manifestada com o Mangekyō esquerdo de Sho ativo e com o Susanoo Pessoal já estabilizado. Sua criação consome uma grande quantidade de chakra e impõe desgaste severo ao olho transplantado. O uso repetido pode causar dor ocular intensa, sangramento, falhas de visão, instabilidade na armadura de Susanoo e perda temporária de controle sobre a arma. Caso Najin force a técnica além do limite, a lança pode se desfazer durante o ataque ou causar rejeição temporária do Mangekyō.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F03%20-%20Yari%20no%20Sho.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F03%20-%20Yari%20no%20Sho.jpg?alt=media&v=1784037483485149"
       },
       {
         name: "Mangekyō Sharingan",
@@ -734,7 +734,7 @@ export const initialData: Character[] = [
         destruction: "Potencial de combate drasticamente ampliado. O Mangekyō aumenta a precisão, a reação, a leitura de movimentos e a capacidade ofensiva de Najin, permitindo que ele acerte inimigos extremamente rápidos ou difíceis de prever. A aceleração muscular concedida pelo olho torna seus ataques mais violentos e difíceis de acompanhar. Em combate direto, Najin consegue antecipar ataques, ajustar sua movimentação em frações de segundo e concentrar seus golpes no ponto exato de impacto, aumentando tanto o acerto quanto o dano causado.",
         history: "Após o olho de Sho passar por A, Najin realiza o transplante e incorpora o Mangekyō ao seu próprio sistema de combate. Inicialmente, o olho apresenta instabilidade por não pertencer originalmente a ele, causando dor e dificuldade de sincronização. Com treinamento, Najin aprende a equilibrar o poder ocular e transforma o Mangekyō de Sho em um catalisador para sua evolução. A partir dessa adaptação, Najin passa a acessar a aceleração muscular, a percepção avançada e as manifestações de Susanoo ligadas ao poder de Sho.",
         status: "Uso de alto risco. Como o olho não pertence originalmente a Najin, o consumo de chakra é elevado e o desgaste ocular é severo. Ativações prolongadas podem causar visão turva, sangramento ocular, dor intensa, falhas de percepção e rejeição temporária do transplante. Quanto mais tempo Najin mantém o Mangekyō ativo, maior o risco de sobrecarga neural e dano permanente ao olho.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F04%20-%20Mangeky%C5%8D%20Sharingan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F04%20-%20Mangeky%C5%8D%20Sharingan.png?alt=media&v=1784037484240422"
       },
       {
         name: "Kyômon: Chōtotsu Mōshin",
@@ -744,7 +744,7 @@ export const initialData: Character[] = [
         destruction: "Nível catastrófico. A compressão extrema de chakra no sistema circulatório transforma cada golpe em uma liberação explosiva de energia. Socos e chutes liberam ondas de choque capazes de devastar grandes áreas, romper defesas de chakra e pulverizar estruturas físicas ao redor.",
         history: "Najin despertou essa técnica após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi. Durante um intenso treinamento, Katsumi o ajudou a dispersar o chakra profano gradualmente por todo o corpo, estabilizando sua circulação de energia. Com o tempo, Najin aprendeu não apenas a suportar essa energia, mas também a direcioná-la conscientemente através de seus canais de chakra. Dessa adaptação extrema nasceu o Chōtotsu Mōshin, onde Najin combina o poder bruto do Hashoumon Tonkou com o chakra profano que agora flui permanentemente em seu corpo e o senjutsu que amplia sua resistência.",
         status: "Uso extremamente proibido. A pressão imposta ao coração e ao sistema circulatório é absurda, podendo causar hemorragias internas, ruptura cardíaca, falência dos canais de chakra e colapso total do corpo. Mesmo quando executada com perfeição, Najin sofre danos severos após o término da técnica.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F05%20-%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F05%20-%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin.png?alt=media&v=1784037484729087"
       },
       {
         name: "Hakuro no Kan",
@@ -754,7 +754,7 @@ export const initialData: Character[] = [
         destruction: "Focado em evasão e combate corpo a corpo de altíssimo nível. Embora não seja uma técnica de destruição massiva, ela permite que Najin evite ataques mortais e contra-ataque com precisão absoluta, tornando-o extremamente perigoso em combates diretos.",
         history: "Durante o processo de estabilização do chakra profano dentro de seu corpo, Katsumi ajudou Najin a redistribuir essa energia de forma correta pelos canais de chakra. Ao perceber que o chakra profano reagia fortemente aos impulsos instintivos do corpo, Najin treinou para permitir que essa energia guiasse suas reações em combate. Assim nasceu essa técnica, onde ele abandona momentaneamente o pensamento racional para lutar apenas com seus instintos.",
         status: "Difícil de manter por longos períodos. Quanto mais Najin depende desse estado, maior o risco de perder o controle emocional ou permitir que o chakra profano influencie excessivamente suas decisões.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F06%20-%20Hakuro%20no%20Kan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F06%20-%20Hakuro%20no%20Kan.png?alt=media&v=1784037485501040"
       },
       {
         name: "Kyōmon: Chakra Profano 'F'",
@@ -764,7 +764,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Além do impacto físico comparável ao Hirudora original, a técnica libera uma nuvem tóxica de grande alcance que contamina o campo de batalha, enfraquecendo adversários, corroendo estruturas e dificultando regeneração.",
         history: "Criada por Najin após dominar o controle do Sétimo Portão sem perder a consciência de combate. A fusão entre a força brutal do Kyōmon e o Chakra Profano Venenoso marcou sua evolução como um usuário híbrido de taijutsu extremo e energia maldita.",
         status: "Uso extremamente restrito. A combinação do Sétimo Portão com chakra profano venenoso acelera drasticamente o desgaste celular, podendo causar falência muscular temporária, hemorragias internas e risco severo de envenenamento reverso caso o controle falhe.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F07%20-%20Ky%C5%8Dmon%3A%20Chakra%20Profano%20'F'.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F07%20-%20Ky%C5%8Dmon%3A%20Chakra%20Profano%20'F'.png?alt=media&v=1784037485832070"
       },
       {
         name: "Kyōmon: Hirudora",
@@ -774,7 +774,7 @@ export const initialData: Character[] = [
         destruction: "Muito elevado. Capaz de destruir grandes estruturas, dissipar defesas massivas e causar danos severos em larga escala no campo de batalha. A explosão de pressão pode devastar áreas extensas e ferir até adversários de resistência extrema.",
         history: "Reconhecida como a técnica suprema do Sétimo Portão. Registrada como capaz de ferir adversários de nível Kage e entidades de altíssima resistência física, tornando-se um marco entre as artes corporais supremas dos Oito Portões Internos.",
         status: "Uso extremamente restrito. Requer a abertura do Sétimo Portão, causando desgaste extremo ao corpo, danos internos severos e alto risco de colapso físico após a execução.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F08%20-%20Ky%C5%8Dmon%3A%20Hirudora.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F08%20-%20Ky%C5%8Dmon%3A%20Hirudora.jpg?alt=media&v=1784037486156784"
       },
       {
         name: "Sennin Fuka",
@@ -784,7 +784,7 @@ export const initialData: Character[] = [
         destruction: "Altamente destrutiva, porém imprevisível. O aumento de força física, velocidade e percepção transforma Najin em um combatente extremamente perigoso. Entretanto, por ser uma forma incompleta, a energia pode explodir de maneira instável, gerando ondas de choque descontroladas ou falhas no fluxo de chakra durante o combate.",
         history: "Após a morte de Raikun, Najin manteve consigo a bandana que pertencia ao pai. Anos depois, ao analisá-la com atenção, descobriu um símbolo oculto costurado no interior junto a uma mensagem deixada por Raikun. Seguindo as instruções do selo, ele conseguiu invocar um antigo cão sábio que havia treinado seu pai no passado. Reconhecendo o espírito de Raikun em Najin, o espírito aceitou treiná-lo. Contudo, o chakra profano existente no corpo de Najin impede que ele alcance o verdadeiro equilíbrio necessário para dominar completamente o Senjutsu.",
         status: "Técnica incompleta e extremamente perigosa. Najin ainda não possui controle total do Modo Sábio, e a mistura entre chakra natural e chakra profano pode causar perda de controle, petrificação parcial ou explosões de energia dentro do próprio corpo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F09%20-%20Sennin%20Fuka.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F09%20-%20Sennin%20Fuka.png?alt=media&v=1784037486932172"
       },
       {
         name: "Keimon: Asa Kujaku",
@@ -794,7 +794,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente ofensiva e devastadora em combate direto. A sequência de golpes causa danos massivos internos e externos, podendo quebrar ossos e carbonizar parcialmente a superfície do alvo devido ao calor gerado. Ao final do ataque, o inimigo é lançado violentamente de volta ao solo, envolto na aura flamejante residual do impacto. Pode incapacitar adversários de alta resistência física.",
         history: "Najin dominou esta técnica após intenso treinamento corporal e controle avançado dos Portões Internos. Ao compreender os limites do Sexto Portão, ele passou a utilizar a explosão temporária de poder para executar o Asa Kujaku com precisão letal, transformando seu próprio corpo em uma arma incendiária de pura velocidade.",
         status: "Técnica de altíssimo desgaste físico. O uso prolongado do Sexto Portão causa severa fadiga muscular e microlesões internas. Deve ser utilizada como finalização ou em momentos decisivos da batalha.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F10%20-%20Keimon%3A%20Asa%20Kujaku.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F10%20-%20Keimon%3A%20Asa%20Kujaku.jpg?alt=media&v=1784037487718243"
       },
       {
         name: "Tomon: Ura Renge",
@@ -804,16 +804,16 @@ export const initialData: Character[] = [
         destruction: "Extremamente destrutiva. A velocidade e potência ampliadas pelo Quinto Portão resultam em fraturas generalizadas, ruptura interna severa e possível incapacitação imediata. O impacto final pode devastar uma grande área ao redor, levantando destroços e rachando o terreno. Ideal como técnica de finalização contra inimigos de alto nível.",
         history: "Após superar os limites do Seimon, Najin treinou intensamente para suportar o Tomon, elevando o Ura Renge a um patamar muito superior. O domínio do Quinto Portão transformou a técnica em uma execução praticamente imparável, utilizada apenas em situações críticas.",
         status: "Risco extremo ao usuário. O Quinto Portão impõe enorme estresse muscular, ruptura de fibras, sobrecarga circulatória e possível colapso físico após o uso. Najin só ativa essa versão como último recurso decisivo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F11%20-%20Tomon%3A%20Ura%20Renge.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FTecnicas%2F11%20-%20Tomon%3A%20Ura%20Renge.jpg?alt=media&v=1784037488486361"
       }
     ],
     arsenal: [9, 10],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FPr_logo.png?alt=media&v=1784658585741971", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FCl_ssico.png?alt=media&v=1786370728817391", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Ambu.png?alt=media", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1784126684120103", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1784126685936851", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Ambu.png?alt=media&v=1784126687789568", caption: "Ambu", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F3__Temporada.png?alt=media&v=1786454450385307", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F4__Temporada.png?alt=media&v=1784658584260783", caption: "4ª Temporada", category: "era" },
     ],
@@ -865,7 +865,7 @@ export const initialData: Character[] = [
         destruction: "Cataclísmica em ponto único. O impacto combinado da lança de Ranton e do dragão Kirin vaporiza o ponto de contato, criando uma cratera massiva e propagando descargas elétricas pelo terreno ao redor. Defesas de qualquer natureza dificilmente resistem ao golpe duplo simultâneo.",
         history: "Após dominar o Ranton e o Raiton: Kirin, Takeshi percebeu que ambas as técnicas compartilhavam a mesma origem — o poder bruto da natureza. Em um treinamento extremo nas montanhas sagradas ao lado do Ōkami Sennin, ele buscou unir as duas forças em um único ataque. O resultado foi o Kaminoyari: Kirin — a manifestação suprema de seu potencial elemental, uma técnica que poucos acreditavam ser possível para alguém de sua idade.",
         status: "Uso extremamente restrito. O custo de chakra é tão elevado que Takeshi não consegue executar a técnica mais de duas vezes em um mesmo combate. Segurar o raio com as próprias mãos causa danos severos nos braços, exigindo recuperação após o uso. Considerada sua técnica definitiva, reservada apenas para os confrontos mais críticos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F01%20-%20Kaminoyari%3A%20Kirin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F01%20-%20Kaminoyari%3A%20Kirin.png?alt=media&v=1784037490022155"
       },
       {
         name: "Senpo: Ranton Chidori",
@@ -875,7 +875,7 @@ export const initialData: Character[] = [
         destruction: "Altamente destrutiva. O poder combinado do Ranton com o Chakra Sábio permite perfuração extrema, explosões internas e condução elétrica pelo ambiente, podendo destruir grandes defesas, incapacitar múltiplos inimigos próximos e devastar áreas amplas com descargas aquáticas.",
         history: "Após dominar o Chidori tradicional, Takeshi buscou superar suas limitações criando uma fusão com Suiton para melhorar condução, estabilidade e alcance. Posteriormente, ao aprender o Chakra Sábio, elevou a técnica ao nível S+, tornando-se seu golpe decisivo contra inimigos de elite.",
         status: "Alto risco ao usuário. A combinação de Ranton e Chakra Sábio exige controle absoluto; falhas podem causar sobrecarga nervosa, danos musculares e colapso energético. Takeshi utiliza essa técnica apenas em combates críticos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F02%20-%20Senpo%3A%20Ranton%20Chidori.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F02%20-%20Senpo%3A%20Ranton%20Chidori.png?alt=media&v=1784037490774069"
       },
       {
         name: "Kuchiyose: Senpo Ōkami",
@@ -885,7 +885,7 @@ export const initialData: Character[] = [
         destruction: "Altamente destrutiva e estratégica. A invocação permite controle de campo, aumento massivo de poder e ataques combinados de larga escala. As tempestades naturais de Ranton e os rugidos sábios podem incapacitar múltiplos inimigos, destruir grandes áreas e enfraquecer defesas avançadas.",
         history: "Quando jovem, Takeshi encontrou o Ōkami Sennin após sobreviver a uma provação espiritual nas montanhas sagradas. O cão sábio o treinou por anos no controle do Chakra Natural, ensinando o Modo Sábio dos Cães. Após demonstrar lealdade e determinação, Takeshi firmou um contrato de sangue, tornando-se o único humano capaz de invocar o mestre ancestral.",
         status: "Extremamente exigente. O jutsu consome grande quantidade de chakra e força vital. Caso a sincronização entre Takeshi e o Ōkami Sennin falhe, a energia natural pode causar petrificação parcial, colapso sensorial ou perda temporária de controle do corpo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F03%20-%20Kuchiyose%3A%20Senpo%20%C5%8Ckami.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F03%20-%20Kuchiyose%3A%20Senpo%20%C5%8Ckami.png?alt=media&v=1784037491550504"
       },
       {
         name: "Sennin Fuka",
@@ -895,7 +895,7 @@ export const initialData: Character[] = [
         destruction: "Altamente destrutiva e adaptável. O Modo Sábio dos Cães permite a criação de tempestades de Ranton de grande escala, ataques coordenados com invocações caninas e domínio total do campo de batalha. Seus sentidos avançados e velocidade elevada tornam Takeshi quase impossível de surpreender, além de aumentar drasticamente sua resistência e capacidade de combate prolongado.",
         history: "Raikun, pai de Takeshi, foi discípulo de um mestre espiritual ancestral dos cães, mas desapareceu antes de concluir totalmente o treinamento. Determinado a compreender o legado de sua família, Takeshi investiga registros proibidos e trilhas esquecidas até encontrar esse mesmo mestre. Após sobreviver a provas de resistência, instinto e lealdade, ele é aceito como sucessor da linhagem e aprende o verdadeiro Modo Sábio dos Cães.",
         status: "Extremamente exigente e perigoso. A absorção excessiva de energia natural pode causar petrificação gradual, instintos animalescos descontrolados ou perda de consciência. O modo exige equilíbrio emocional e mental constante. Quanto mais Takeshi domina a técnica, mais profunda se torna sua conexão com os espíritos caninos, mas também maior o risco de perder sua humanidade.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F04%20-%20Sennin%20Fuka.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F04%20-%20Sennin%20Fuka.png?alt=media&v=1784037492304355"
       },
       {
         name: "Raiton: Kirin",
@@ -905,7 +905,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Capaz de obliterar estruturas gigantescas, formações rochosas, fortalezas e áreas inteiras em um único impacto.",
         history: "Considerada uma das técnicas mais rápidas já registradas, pois utiliza relâmpagos reais. Praticamente impossível de ser desviada após invocada, sendo famosa por derrotar inimigos de nível Kage ou superior.",
         status: "Uso extremamente situacional. Requer clima favorável ou preparação prévia para criação de tempestades. Não pode ser usada em ambientes fechados ou sem cobertura de nuvens.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F05%20-%20Raiton%3A%20Kirin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F05%20-%20Raiton%3A%20Kirin.png?alt=media&v=1784037492659699"
       },
       {
         name: "Raiton: Chidori",
@@ -915,7 +915,7 @@ export const initialData: Character[] = [
         destruction: "Altamente perfurante e letal. O Chidori A+ possui poder suficiente para atravessar múltiplos inimigos, defesas resistentes e causar paralisia elétrica imediata. A descarga de Raiton pode se espalhar pelo corpo do adversário, danificando músculos e sistema nervoso, dificultando contra-ataques e mobilidade.",
         history: "Originalmente desenvolvido por shinobi lendários como uma técnica de assassinato relâmpago, o Chidori foi aprimorado ao longo das gerações. Takeshi adaptou o jutsu ao seu estilo, combinando-o com sua velocidade, sentidos aguçados e controle refinado de chakra, tornando-o mais preciso e versátil. Seu treinamento intensivo e conexões com técnicas de alta velocidade permitiram reduzir falhas clássicas do jutsu.",
         status: "Exigente e perigoso. O uso incorreto pode causar danos severos ao próprio usuário devido à alta instabilidade do chakra relâmpago. Além disso, a técnica exige grande velocidade e percepção para evitar contra-ataques durante a investida. Takeshi mitigou esses riscos com treinamento sensorial e reflexos elevados, mas o jutsu ainda exige foco absoluto.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F06%20-%20Raiton%3A%20Chidori.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F06%20-%20Raiton%3A%20Chidori.png?alt=media&v=1784037492987969"
       }
     ],
     arsenal: [11, 12, 13, 14],
@@ -1006,7 +1006,7 @@ export const initialData: Character[] = [
     description: "Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.\n\nDesde muito jovem já era reconhecido por sua inteligência e personalidade inabaláveis mesmo sem ter lembranças dos seus pais. Com poucos anos de idade foi resgatado no meio de uma guerra pelos capangas de um tal Hades, que o levaram a um laboratório onde virou o primeiro experimento de chakra artificial, conseguindo resistir ao experimento, tornou-se o início de algo maior para a OCA, onde muitas crianças foram manipuladas e testadas visando ajudar a conquistar os objetivos do Hades.\n\nCom 13 anos, Furyuzan sofreu experiências traumáticas em um curto período de tempo que afetaram fortemente seu psicológico. Descobriu a manipulação que a OCA havia feito durante sua vida toda, sofreu pela morte do Kazuke e principalmente pela morte da E por quem se apaixonou. Após esses acontecimentos, Furyuzan prometeu vingança ao Hades e busca uma forma de trazer a E de volta à vida.\n\nEle utiliza um Arco de Sangue junto do Doton para formar barreiras e vencer o inimigo de forma estratégica (muitas vezes saindo ileso de combates), além de poder lutar corpo a corpo utilizando a Nuibari. Furyuzan ainda potencializa seu poder total quando usa sua Bijuu artificial em forma de Velociraptor.",
     hp: 114,
     chakra: 87,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1784044637790501",
     techniques: [
       {
         name: "Bijuu Profana: Manto Profano 75%",
@@ -1016,7 +1016,7 @@ export const initialData: Character[] = [
         destruction: "Altamente ofensiva e intimidadora. Seus golpes físicos carregam impacto ampliado pelo chakra profano, capazes de atravessar defesas médias com facilidade. A cauda de energia pode varrer múltiplos inimigos, enquanto as garras canalizam chakra concentrado que causa danos internos ao atingir o alvo. A pressão espiritual do manto pode desestabilizar o campo ao redor, rachando o solo e intimidando adversários menos resistentes.",
         history: "Após compreender a verdadeira natureza do 'Velociraptor Aokiba' dentro de sua mente, Furyuzan passou a utilizar essa imagem apenas como molde para controlar o fluxo do chakra profano. Esse estágio representa o momento em que ele deixa de ser apenas um hospedeiro instável e começa a se tornar um verdadeiro usuário do poder profano.",
         status: "Transformação de alto consumo de chakra e exigência mental elevada. Pode ser mantida por tempo limitado sem perda de controle. Nesse estado, Furyuzan se torna um verdadeiro assassino de combate, capaz de eliminar alvos tanto à distância quanto em confronto direto.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F01%20-%20Bijuu%20Profana%3A%20Manto%20Profano%2075%25.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F01%20-%20Bijuu%20Profana%3A%20Manto%20Profano%2075%25.jpg?alt=media&v=1784044638572796"
       },
       {
         name: "Bijuu Profana: Manto Profano 40%",
@@ -1026,7 +1026,7 @@ export const initialData: Character[] = [
         destruction: "Neste estado, os ataques físicos de Furyuzan passam a carregar chakra profano extremamente condensado e cortante. Seus golpes se tornam mais rápidos e precisos, capazes de rasgar defesas físicas e causar ferimentos profundos com facilidade. As garras reforçadas pelo chakra funcionam como lâminas naturais, permitindo ataques de corte extremamente perigosos em combate corpo a corpo. A aura carmesim ao redor de seu corpo emite uma pressão predatória que pode intimidar inimigos menos experientes.",
         history: "O Manto Profano 40% representa um estágio intermediário no domínio de Furyuzan sobre o chakra profano. Após sobreviver aos efeitos iniciais da seringa de Bakuton e iniciar seu treinamento com Kai, ele começou a aprender como aumentar gradualmente a liberação dessa energia sem perder completamente o controle. Esse estágio marca o momento em que sua transformação deixa de ser apenas instintiva e passa a ser parcialmente controlada.",
         status: "Transformação de médio consumo de chakra. Pode ser mantida por períodos moderados, porém ainda exerce pressão sobre o corpo e a mente de Furyuzan. Nesse estado, seus instintos predatórios ficam mais intensos, tornando seu estilo de combate extremamente agressivo e veloz.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F02%20-%20Bijuu%20Profana%3A%20Manto%20Profano%2040%25.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F02%20-%20Bijuu%20Profana%3A%20Manto%20Profano%2040%25.png?alt=media&v=1784044639353351"
       },
       {
         name: "Bijuu Profana: Manto Profano 10%",
@@ -1036,7 +1036,7 @@ export const initialData: Character[] = [
         destruction: "Apesar de não ser uma forma destrutiva como os estágios superiores, o Manto Profano 10% já concede a Furyuzan um aumento considerável de velocidade, agilidade e reflexos. Seus movimentos se tornam mais rápidos e imprevisíveis, permitindo que ele evite ataques com mais facilidade e execute golpes mais precisos em combate corpo a corpo.",
         history: "O Manto Profano 10% foi a primeira manifestação do chakra profano dentro de Furyuzan. Durante sua infância, sem compreender o que realmente acontecia, ele acreditava que o poder vinha de um 'velociraptor espiritual' que o protegia. Essa crença infantil acabou servindo como base mental para que ele desse forma ao chakra que existia dentro de si.",
         status: "Forma inicial de baixo consumo de chakra. Pode ser mantida com facilidade e quase não causa desgaste físico. Entretanto, seu poder ofensivo ainda é limitado quando comparado aos estágios mais avançados do Manto Profano.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F03%20-%20Bijuu%20Profana%3A%20Manto%20Profano%2010%25.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F03%20-%20Bijuu%20Profana%3A%20Manto%20Profano%2010%25.png?alt=media&v=1784044640126367"
       },
       {
         name: "Ketton: Kegare no Ya Rensha",
@@ -1046,7 +1046,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. O dragão de sangue pode atravessar múltiplas defesas em linha reta, esmagando barreiras e estruturas com facilidade. Ao atingir o alvo, o sangue profano invade e corrompe o fluxo de chakra do inimigo, podendo causar danos internos severos. O impacto deixa um rastro de destruição pelo terreno, onde o sangue liberado cristaliza e se espalha como fragmentos carmesins pelo campo de batalha.",
         history: "A técnica foi desenvolvida por Furyuzan após dominar a combinação entre o Ketton do clã Chinoike e o poder corruptivo do seu Manto Profano. Ao unir o controle absoluto do sangue concedido pelo Ketsuryūgan com a amplificação do chakra profano, Furyuzan criou um ataque devastador que rapidamente se tornou símbolo do terror associado ao seu nome nos campos de batalha.",
         status: "Uso altamente restrito. A técnica exige grande quantidade de sangue e chakra para ser executada com eficiência, além de controle total do Ketsuryūgan para evitar perda de estabilidade da técnica. O uso repetido pode causar exaustão extrema, queda de pressão sanguínea e risco de colapso físico.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F04%20-%20Ketton%3A%20Kegare%20no%20Ya%20Rensha.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F04%20-%20Ketton%3A%20Kegare%20no%20Ya%20Rensha.png?alt=media&v=1784044640902754"
       },
       {
         name: "Onda de Chakra Profana",
@@ -1056,7 +1056,7 @@ export const initialData: Character[] = [
         destruction: "Ofensiva de controle de área. A onda não possui poder de perfuração elevado, mas sua força de empuxo é intensa, capaz de lançar múltiplos inimigos a vários metros de distância. Pode interromper investidas, dissipar técnicas de médio porte e quebrar formações defensivas. Em curta distância, o impacto pode causar danos internos leves a moderados devido à pressão espiritual concentrada.",
         history: "Criada como extensão natural do Manto Profano, a técnica surgiu da necessidade de Furyuzan controlar multidões e abrir espaço estratégico durante combates intensos. Ao invés de focar apenas em ataques diretos, ele desenvolveu a habilidade de transformar seu excesso de chakra profano em uma força expansiva dominante.",
         status: "Consome chakra moderado-alto e só pode ser utilizada enquanto o Manto Profano estiver ativo. Pode ser repetida em sequência limitada, exigindo breves intervalos para estabilização do fluxo de energia.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F05%20-%20Onda%20de%20Chakra%20Profana.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F05%20-%20Onda%20de%20Chakra%20Profana.png?alt=media&v=1784044641688918"
       },
       {
         name: "Doton: Ketton Doryū Shibari",
@@ -1066,7 +1066,7 @@ export const initialData: Character[] = [
         destruction: "Controle de campo e aprisionamento. A correnteza pode cobrir uma área ampla do campo de batalha, dificultando a movimentação dos inimigos. Uma vez presos pelas veias de Ketton endurecido, os alvos ficam vulneráveis a ataques subsequentes ou podem ser completamente soterrados pela lama. Quanto maior a quantidade de chakra utilizada, maior a extensão da correnteza.",
         history: "Inspirado pela necessidade de controlar grandes áreas durante combates contra múltiplos inimigos, Furyuzan desenvolveu esta técnica após aprender a manipular simultaneamente o solo e seu próprio sangue. A fusão entre lama e veias de Ketton criou uma forma eficiente de capturar oponentes antes mesmo que percebam a armadilha se formando sob seus pés.",
         status: "Técnica ofensiva de controle territorial. Consome uma quantidade moderada a alta de chakra dependendo da área afetada. É especialmente eficaz em terrenos naturais ou campos abertos, onde a terra pode ser facilmente manipulada.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F06%20-%20Doton%3A%20Ketton%20Dory%C5%AB%20Shibari.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F06%20-%20Doton%3A%20Ketton%20Dory%C5%AB%20Shibari.png?alt=media&v=1784044642468089"
       },
       {
         name: "Ketton: Kegare Ketsusō Claw",
@@ -1076,7 +1076,7 @@ export const initialData: Character[] = [
         destruction: "Altamente ofensiva. As garras gigantes de sangue endurecido possuem poder suficiente para rasgar armaduras, quebrar rochas e abrir fendas profundas no solo. O chakra profano amplifica o alcance e a força de cada golpe, permitindo cortes de grande escala que podem atingir vários alvos ou destruir estruturas resistentes.",
         history: "Furyuzan criou essa técnica ao buscar uma forma de transformar o próprio corpo em uma arma letal. Inspirado pelo controle absoluto do sangue concedido pelo Ketton e pela amplificação brutal do chakra profano, ele passou a utilizar seu próprio sangue como lâminas vivas, tornando-se extremamente perigoso em confrontos diretos.",
         status: "Técnica ofensiva de alto risco e alto poder destrutivo. Consome chakra considerável e exige grande controle sobre o fluxo de sangue e chakra profano. Quando utilizada em seu máximo potencial, transforma Furyuzan em uma verdadeira máquina de destruição em combate corpo a corpo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F07%20-%20Ketton%3A%20Kegare%20Ketsus%C5%8D%20Claw.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F07%20-%20Ketton%3A%20Kegare%20Ketsus%C5%8D%20Claw.png?alt=media&v=1784044643235842"
       },
       {
         name: "Bakuton: Ketsubaku Dash",
@@ -1086,7 +1086,7 @@ export const initialData: Character[] = [
         destruction: "Alta mobilidade ofensiva. O dash explosivo permite que Furyuzan percorra grandes distâncias em frações de segundo, atravessando defesas ou surpreendendo inimigos com ataques repentinos. As micro-explosões também liberam ondas de choque curtas ao redor de seu corpo, podendo derrubar adversários próximos ou destruir obstáculos leves durante o avanço.",
         history: "A técnica surgiu quando Furyuzan começou a experimentar a integração entre o controle sanguíneo do Ketton e o poder destrutivo do Bakuton. Ao invés de explodir o ambiente, ele passou a gerar pequenas explosões diretamente dentro do fluxo sanguíneo para amplificar sua velocidade e força física.",
         status: "Técnica de movimentação avançada. Consome chakra moderado e exige controle extremamente preciso do Bakuton para evitar danos internos. Quando dominada, transforma Furyuzan em um combatente extremamente difícil de acompanhar no campo de batalha.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F08%20-%20Bakuton%3A%20Ketsubaku%20Dash.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F08%20-%20Bakuton%3A%20Ketsubaku%20Dash.png?alt=media&v=1784044644008235"
       },
       {
         name: "Ketton: Ryūketsu no Yumi",
@@ -1096,7 +1096,7 @@ export const initialData: Character[] = [
         destruction: "Alta destruição concentrada. O impacto do dragão provoca uma explosão de sangue comprimido que se espalha como lâminas líquidas cortantes, perfurando defesas físicas e dilacerando o solo ao redor. O chakra sanguíneo pode penetrar o corpo do inimigo ao contato, causando hemorragia interna e enfraquecimento progressivo.",
         history: "Furyuzan desenvolveu esta técnica após aprimorar o controle absoluto sobre seu Ketton, buscando uma forma de ataque de longo alcance que mantivesse a letalidade característica de sua linhagem. Inspirado na forma imponente dos dragões míticos, ele transformou seu sangue em uma manifestação predatória que simboliza domínio e destruição.",
         status: "Técnica de alto risco. O uso excessivo pode causar perda significativa de sangue e exaustão severa. Requer controle refinado do chakra para evitar danos ao próprio usuário. Quando bem executada, é capaz de decidir batalhas contra oponentes de alto nível.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F09%20-%20Ketton%3A%20Ry%C5%ABketsu%20no%20Yumi.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F09%20-%20Ketton%3A%20Ry%C5%ABketsu%20no%20Yumi.jpg?alt=media&v=1784044644777718"
       },
       {
         name: "Doton: Ketton Kōchi no Yagura",
@@ -1106,7 +1106,7 @@ export const initialData: Character[] = [
         destruction: "Defensiva e estratégica. A barreira pode atingir até 10 metros de altura, bloqueando investidas frontais e técnicas de médio porte. Graças às veias internas de Ketton que percorrem a estrutura, sua resistência é aproximadamente duas vezes maior que a de uma muralha de Doton comum. Quando finalmente quebrada por ataques extremamente poderosos, a torre pode fragmentar-se em enormes blocos de rocha misturados com fragmentos endurecidos de sangue, que despencam sobre o campo causando dano colateral moderado.",
         history: "Desenvolvida por Furyuzan como complemento ao seu estilo de combate à distância, a técnica surgiu da necessidade de dominar o terreno antes de liberar seu Ketton. Após treinar com Kai, Furyuzan passou a compreender melhor a fusão entre suas naturezas de chakra, criando uma versão aprimorada da técnica onde o sangue molda e fortalece a própria terra, transformando a torre em uma fortaleza viva.",
         status: "Técnica versátil de suporte e defesa. Consome chakra moderado e pode ser usada repetidamente em combates prolongados. Sua eficácia depende da estabilidade do terreno, porém a presença das veias de Ketton ajuda a manter a integridade da estrutura mesmo em solos mais frágeis.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F10%20-%20Doton%3A%20Ketton%20K%C5%8Dchi%20no%20Yagura.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F08%20-%20Furyuzan%20Chinoike%2FTecnicas%2F10%20-%20Doton%3A%20Ketton%20K%C5%8Dchi%20no%20Yagura.png?alt=media&v=1784044645748294"
       }
     ],
     arsenal: [15, 16],
@@ -1161,7 +1161,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Embora a técnica seja focada em manipulação espacial, ela permite redirecionar ataques massivos, teleportar inimigos para posições fatais ou condensar grandes quantidades de chakra em pontos específicos do campo de batalha.",
         history: "A técnica surgiu após Nagare obter e utilizar uma seringa contendo chakra de Ranton, permitindo-lhe expandir drasticamente o alcance e a aplicação do Amenotejikara. Ao combinar esse poder com o Shiroki Kaminari, ele criou uma forma avançada de controle espacial capaz de manipular não apenas sua própria posição, mas qualquer alvo visível.",
         status: "Uso extremamente perigoso e limitado. O consumo de chakra é colossal e exige total estabilidade ocular e mental. O uso prolongado pode causar sobrecarga no sistema nervoso, danos oculares severos e colapso temporário do fluxo de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Ranton.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Ranton.png?alt=media&v=1784037498734518"
       },
       {
         name: "Shiroki Kaminari: Raimei no Kami",
@@ -1171,7 +1171,7 @@ export const initialData: Character[] = [
         destruction: "Catastrófico. Considerado o ataque máximo do Shiroki Kaminari. Possui poder suficiente para obliterar múltiplas defesas de alto nível simultaneamente, atravessar quilômetros de terreno e desintegrar praticamente qualquer alvo atingido diretamente.",
         history: "Nagare desenvolveu esta técnica ao ultrapassar os limites naturais do Shiroki Kaminari, percebendo que seu corpo podia funcionar como um acumulador vivo de energia elétrica espiritual. Após anos refinando sua resistência física e seu controle de chakra, ele criou um método capaz de armazenar quantidades absurdas de energia antes da liberação final.",
         status: "Uso extremamente proibitivo. Quanto maior o tempo de carregamento, maior o poder destrutivo do ataque. Entretanto, o corpo de Nagare sofre uma sobrecarga monstruosa durante a concentração. Caso o controle seja perdido antes da liberação, a energia acumulada pode consumir completamente seu sistema nervoso e causar colapso interno fatal. Após o disparo máximo, Nagare normalmente entra em estado de exaustão severa e perde grande parte de sua capacidade de combate temporariamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F02%20-%20Shiroki%20Kaminari%3A%20Raimei%20no%20Kami.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F02%20-%20Shiroki%20Kaminari%3A%20Raimei%20no%20Kami.jpg?alt=media&v=1784037499070892"
       },
       {
         name: "Fūinjutsu: Jigoku no Kyūin",
@@ -1181,7 +1181,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. O jutsu transforma qualquer técnica do Shiroki Kaminari em um ataque de perseguição inevitável dentro da área marcada. Múltiplos inimigos podem ser atingidos simultaneamente, sofrendo perfuração elétrica, paralisia severa e destruição massiva do sistema nervoso e do fluxo de chakra.",
         history: "Nagare desenvolveu esta técnica após aprofundar seus estudos em Fūinjutsu Uzumaki e perceber que poderia aplicar conceitos de polaridade espiritual ao Raiton. Utilizando selos de atração eletromagnética alimentados pelo Shiroki Kaminari, ele criou um campo onde seus relâmpagos literalmente ‘caçam’ qualquer alvo preso na polaridade negativa.",
         status: "Uso extremamente perigoso e estratégico. Requer preparação do ambiente ou contato prévio para aplicar os selos. O consumo de chakra cresce drasticamente conforme o tamanho da área marcada. Caso o fluxo do selo seja interrompido, a polaridade pode colapsar e gerar descargas caóticas capazes de atingir aliados e o próprio Nagare.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F03%20-%20F%C5%ABinjutsu%3A%20Jigoku%20no%20Ky%C5%ABin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F03%20-%20F%C5%ABinjutsu%3A%20Jigoku%20no%20Ky%C5%ABin.jpg?alt=media&v=1784037499385659"
       },
       {
         name: "Shiroki Kaminari: Amenotejikara Chidori",
@@ -1191,7 +1191,7 @@ export const initialData: Character[] = [
         destruction: "Muito elevado. Possui poder de perfuração capaz de atravessar defesas de alto nível e causar destruição interna massiva no ponto de impacto. A natureza instável do relâmpago branco amplifica o dano elétrico no interior do alvo.",
         history: "Desenvolvida por Nagare após herdar o poder ocular e o chakra profano de H. Tornou-se sua técnica assinatura, conhecida por eliminar adversários antes mesmo que percebam o deslocamento espacial.",
         status: "Uso altamente restrito. Requer grande controle de chakra, domínio do Amenotejikara e resistência física para suportar a tensão espaço-temporal. O uso excessivo pode causar severo desgaste ocular.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F04%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20Chidori.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F04%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20Chidori.png?alt=media&v=1784037499715873"
       },
       {
         name: "Shiroki Kaminari: Shageki",
@@ -1201,7 +1201,7 @@ export const initialData: Character[] = [
         destruction: "Muito elevado. O disparo possui alto poder perfurante e explosão elétrica concentrada no ponto de impacto, podendo atravessar múltiplos alvos alinhados e causar paralisia severa em sobreviventes.",
         history: "Desenvolvida por Nagare como evolução ofensiva da Shiroki Kaminari: Armadura de Raios, essa técnica surgiu da necessidade de ataques de longo alcance mantendo a pureza e densidade máxima do raio branco.",
         status: "Uso controlado. Exige grande precisão e controle de chakra. Carregamentos prolongados aumentam o poder, mas podem causar sobrecarga muscular no braço e tremores temporários devido à intensidade elétrica concentrada.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F05%20-%20Shiroki%20Kaminari%3A%20Shageki.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F05%20-%20Shiroki%20Kaminari%3A%20Shageki.png?alt=media&v=1784037500045270"
       },
       {
         name: "Nintaijutsu: Armadura de Raios",
@@ -1211,7 +1211,7 @@ export const initialData: Character[] = [
         destruction: "Elevado. A armadura fornece defesa automática contra ataques diretos e causa danos severos a qualquer oponente que entre em contato com o campo elétrico. Pode neutralizar múltiplos inimigos próximos devido à liberação contínua de raios.",
         history: "Criada por Nagare após anos de treinamento para dominar o Shiroki Kaminari, esta técnica representa a fusão perfeita entre defesa absoluta e mobilidade. Tornou-se sua principal forma de combate em batalhas de alto nível.",
         status: "Uso controlado. Exige alto controle de chakra e grande resistência física. Uso prolongado pode causar fadiga extrema e sobrecarga no sistema nervoso.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F06%20-%20Nintaijutsu%3A%20Armadura%20de%20Raios.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F06%20-%20Nintaijutsu%3A%20Armadura%20de%20Raios.jpg?alt=media&v=1784037500412320"
       },
       {
         name: "Nintaijutsu: Guillotine Drop",
@@ -1221,7 +1221,7 @@ export const initialData: Character[] = [
         destruction: "Muito elevado. O impacto direto pode perfurar defesas de alto nível e causar destruição localizada massiva. A onda elétrica gerada após o golpe paralisa múltiplos alvos e pode incapacitar adversários resistentes.",
         history: "Nagare desenvolveu esta técnica após perceber que sua Armadura de Raios era perfeita para combate contínuo, mas faltava um golpe final decisivo. Inspirado em movimentos de execução, ele criou o Guillotine Drop como sua técnica de finalização suprema, combinando velocidade, precisão e poder destrutivo.",
         status: "Uso limitado. Requer grande concentração, controle preciso de chakra e preparo físico extremo. Caso falhe ou seja interrompido, Nagare pode sofrer danos devido à compressão elétrica acumulada em suas pernas.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F07%20-%20Nintaijutsu%3A%20Guillotine%20Drop.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F07%20-%20Nintaijutsu%3A%20Guillotine%20Drop.png?alt=media&v=1784037500763638"
       },
       {
         name: "Nintaijutsu: Straight",
@@ -1231,7 +1231,7 @@ export const initialData: Character[] = [
         destruction: "Elevado. Pode atravessar defesas resistentes e causar danos internos críticos. A descarga elétrica paralisa temporariamente o alvo e pode afetar inimigos próximos devido à propagação da corrente.",
         history: "Criada por Nagare como uma técnica de combate direto e rápido, o Straight foi desenvolvido após intensos treinamentos focados em controle absoluto de energia elétrica. Ele buscava um golpe simples, eficiente e mortal, capaz de encerrar batalhas sem desperdício de chakra.",
         status: "Uso controlado. Exige sincronização perfeita entre velocidade corporal e liberação de chakra. O uso repetido pode causar fadiga muscular e sobrecarga elétrica nos nervos do braço.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F08%20-%20Nintaijutsu%3A%20Straight.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F08%20-%20Nintaijutsu%3A%20Straight.png?alt=media&v=1784037501093484"
       },
       {
         name: "Kongō Fūsa",
@@ -1241,7 +1241,7 @@ export const initialData: Character[] = [
         destruction: "Moderado. Embora não seja focada em dano direto, a técnica é devastadora em combate ao neutralizar o fluxo de chakra, enfraquecer oponente e criar aberturas estratégicas decisivas.",
         history: "Inspirado em antigas técnicas de selamento de clãs lendários, Nagare estudou profundamente o Fūinjutsu até dominar a criação de correntes espirituais próprias. O Kongō Fūsa tornou-se sua principal habilidade de controle e captura em batalhas contra inimigos poderosos.",
         status: "Uso controlado. Consome grande quantidade de chakra para manter múltiplos alvos contidos. Uso prolongado pode causar exaustão e perda de controle das correntes.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F09%20-%20Kong%C5%8D%20F%C5%ABsa.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F09%20-%20Kong%C5%8D%20F%C5%ABsa.png?alt=media&v=1784037501431392"
       },
       {
         name: "Kagura Shingan",
@@ -1251,20 +1251,20 @@ export const initialData: Character[] = [
         destruction: "Baixo. O Kagura Shingan não é uma técnica ofensiva, mas fornece vantagem estratégica extrema ao permitir controle total do campo de batalha e leitura precisa dos movimentos inimigos.",
         history: "Nagare desenvolveu essa habilidade após anos de treinamento focado em controle mental, percepção espiritual e análise de chakra. Com o tempo, seu domínio evoluiu a ponto de rivalizar com sensores lendários.",
         status: "Uso controlado. Exige grande concentração e resistência mental. Uso prolongado pode causar fadiga sensorial, dores de cabeça e sobrecarga cognitiva.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media&v=1784037501778216"
       }
     ],
     arsenal: [17, 19, 66],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FPr_logo.png?alt=media&v=1784658579901730", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FCl_ssico.png?alt=media&v=1786370730906951", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Kaminari.png?alt=media", caption: "Kaminari", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media", caption: "Luta contra o Omega", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media&v=1784064099447128", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media&v=1784064101254338", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Kaminari.png?alt=media&v=1784064102893100", caption: "Kaminari", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1784064104996410", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1784064106701841", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F4__Temporada.png?alt=media&v=1784658577459275", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1784064363427056", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 8, spirit: 16, vigor: 16, perception: 6 },
     powers: [
@@ -1312,7 +1312,7 @@ export const initialData: Character[] = [
         destruction: "Alto. O impacto gera explosão rotacional corrosiva com dano contínuo de energia profana, capaz de romper defesas avançadas e causar colapso interno do alvo.",
         history: "Criada por Kazuki ao fundir sua afinidade com chakra profano à técnica de rotação suprema, utilizando seus tentáculos de kraken como catalisadores de compressão energética.",
         status: "Uso moderadamente restrito. Exige controle preciso do manto profano e alto consumo de chakra. Uso excessivo pode causar instabilidade espiritual temporária.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F10%20-%20Kazuki%20Hoshigaki%2FTecnicas%2F01%20-%20Kraken%3A%20Oodama%20Rasengan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F10%20-%20Kazuki%20Hoshigaki%2FTecnicas%2F01%20-%20Kraken%3A%20Oodama%20Rasengan.png?alt=media&v=1784037252817672"
       },
     ],
     arsenal: [17],
@@ -1363,7 +1363,7 @@ export const initialData: Character[] = [
         destruction: "Muito Alto. A combinação de impacto sísmico inicial com golpe descendente amplificado por energia natural pode fraturar defesas de alto nível, esmagar estruturas e causar dano interno massivo ao alvo.",
         history: "Desenvolvida por Kenma após anos de treinamento monástico, unindo disciplina espiritual ao combate bruto. A técnica nasceu da necessidade de neutralizar inimigos resistentes, utilizando o controle do campo de batalha através do impacto inicial seguido de finalização aérea.",
         status: "Uso restrito. Exige alto controle de energia natural para evitar petrificação excessiva do próprio corpo. O desgaste físico é significativo após a execução completa da sequência.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F01%20-%20Senp%C3%B4%3A%20Kabutowari%20Daichish%C5%8D.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F01%20-%20Senp%C3%B4%3A%20Kabutowari%20Daichish%C5%8D.jpg?alt=media&v=1784037799339127"
       },
       {
         name: "Senpo: Sekishin Kongō",
@@ -1373,7 +1373,7 @@ export const initialData: Character[] = [
         destruction: "Muito alto. Embora seja predominantemente defensiva, a técnica transforma Kenma em uma fortaleza viva. Seus ataques físicos tornam-se devastadores, capazes de esmagar defesas, criar crateras e desestabilizar o campo de batalha com impacto concentrado.",
         history: "Kenma desenvolveu essa técnica após anos de disciplina monástica e domínio absoluto do Doton. Durante longos períodos de meditação em templos esculpidos na rocha, ele aprendeu a harmonizar sua Pele de Pedra com a energia natural, transcendendo o simples endurecimento corporal e alcançando um estado de equilíbrio entre espírito e matéria.",
         status: "Uso avançado e controlado. Exige alto nível de concentração e controle de energia natural. Uso prolongado pode causar rigidez muscular extrema, fadiga espiritual e risco de petrificação parcial temporária.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F02%20-%20Senpo%3A%20Sekishin%20Kong%C5%8D.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F02%20-%20Senpo%3A%20Sekishin%20Kong%C5%8D.jpg?alt=media&v=1784037800601561"
       },
       {
         name: "Kabutowari: Saidan",
@@ -1383,7 +1383,7 @@ export const initialData: Character[] = [
         destruction: "Muito alto. Especializada em quebrar defesas resistentes e estruturas reforçadas. Pode gerar crateras médias e abrir fissuras no campo de batalha, mas com controle suficiente para evitar destruição indiscriminada.",
         history: "Kenma desenvolveu essa técnica após anos treinando exclusivamente com a Kabutowari, buscando dominar o princípio da 'quebra perfeita'. Inspirado na ideia de que toda estrutura possui um ponto fraco, ele refinou sua percepção e controle de chakra para transformar cada golpe em uma execução precisa de demolição.",
         status: "Uso controlado e eficiente. Exige grande precisão, sincronização entre martelo e machado e alto domínio de chakra Doton. Falhas na sequência podem reduzir drasticamente o poder de ruptura.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F03%20-%20Kabutowari%3A%20Saidan.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F03%20-%20Kabutowari%3A%20Saidan.jpg?alt=media&v=1784037801936079"
       },
       {
         name: "Doton: Kongō Chitei Kōsoku",
@@ -1393,7 +1393,7 @@ export const initialData: Character[] = [
         destruction: "Alto potencial tático. Embora não seja primariamente destrutiva, a ativação pode fraturar o solo, desequilibrar formações inimigas e esmagar membros caso a pressão de contenção seja intensificada.",
         history: "Kenma desenvolveu essa técnica ao perceber que nem toda batalha deve ser vencida com impacto direto. Após enfrentar oponentes mais rápidos que ele, passou a treinar controle fino de chakra subterrâneo, aprendendo a manipular o campo de batalha antes mesmo que o inimigo percebesse o perigo sob seus pés.",
         status: "Uso avançado e estratégico. Requer contato prévio com o solo natural para máxima eficiência. Consome chakra proporcionalmente à área afetada e à quantidade de alvos aprisionados.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F04%20-%20Doton%3A%20Kong%C5%8D%20Chitei%20K%C5%8Dsoku.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F04%20-%20Doton%3A%20Kong%C5%8D%20Chitei%20K%C5%8Dsoku.jpg?alt=media&v=1784037803096626"
       },
       {
         name: "Doton: Kongō Ganheki no Tate",
@@ -1403,7 +1403,7 @@ export const initialData: Character[] = [
         destruction: "Moderado. Embora seja uma técnica defensiva, sua invocação pode deslocar grandes placas de terra e alterar o terreno ao redor. Em caso de ruptura, fragmentos de rocha podem ser projetados como estilhaços secundários.",
         history: "Kenma desenvolveu esta técnica após perceber a necessidade de defesa sólida contra usuários de ninjutsu elemental. Aperfeiçoando seu controle de Doton, aprendeu a compactar a rocha em níveis superiores ao natural, criando uma barreira capaz de resistir até mesmo a técnicas de alto impacto.",
         status: "Uso eficiente e estratégico. Consome chakra proporcionalmente ao tamanho e à espessura da muralha. Pode ser quebrada por técnicas de natureza superior ou ataques contínuos de alta potência.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F05%20-%20Doton%3A%20Kong%C5%8D%20Ganheki%20no%20Tate.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F05%20-%20Doton%3A%20Kong%C5%8D%20Ganheki%20no%20Tate.jpg?alt=media&v=1784037804321999"
       }
     ],
     arsenal: [20, 21, 22, 24, 25, 26],
@@ -1443,7 +1443,7 @@ export const initialData: Character[] = [
     role: "Suporte e DPS",
     description: "Naoki Uchiha, filho de Uchiha Madara, nasceu carregando um legado que nunca pediu. Diferente de Oddy, Shizumi, Ayumi e Kuromi, que eram crianças durante a lendária batalha do Vale do Fim, Naoki cresceu com toda a vila ciente de sua origem. Desde cedo, foi marcado como o “filho da desgraça”, alvo de medo e desprezo. Esse fardo moldou sua personalidade, transformando o ódio em combustível e alimentando uma sede de justiça fria e inabalável.\nDeterminado a superar seu nome, herdou a gunbai de seu pai e treinou incansavelmente, tornando-se um prodígio temido até entre os Uchiha. Aos 14 anos, após a aposentadoria de Sho, assumiu a liderança do clã por pura superioridade — sem contestação.\nIntegrante da lendária equipe ANBU liderada por Nishinoya, participou de missões de alto risco que consolidaram sua reputação como um executor implacável. Em uma delas, desobedeceu ordens e invadiu sozinho uma base da OCA para recuperar o corpo de Madara, eliminando todos no caminho com facilidade perturbadora.\nCom autorização de Tobirama, Yumi implantou os olhos de Madara em Naoki. O poder foi imediato e avassalador, mas trouxe um preço: um chakra corrompido que começou a consumir sua visão. Mesmo ciente, ele não recuou.\nNa Batalha da Fortaleza Yumei, perdeu completamente a visão. O Terceiro Hokage das Sombras, uma entidade que atuava nas trevas para manter o equilíbrio, carregando o legado e a maldição de Uchiha Madara.", hp: 130,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FNaoki%20Uchiha.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FNaoki%20Uchiha.png?alt=media&v=1784037830688924",
     techniques: [
       {
         name: "Enkai Shiro: Hakuen Rinne",
@@ -1453,7 +1453,7 @@ export const initialData: Character[] = [
         destruction: "Nível de dominação total de campo. Embora não seja focado em destruição direta, o controle absoluto do espaço permite eliminar inimigos instantaneamente ao reposicioná-los em zonas letais, colidindo ataques ou aprisionando-os sem escape. Em larga escala, pode decidir batalhas inteiras sozinho.",
         history: "Desenvolvido após Naoki atingir domínio completo sobre espaço e chakra. Inspirado na necessidade de controlar não apenas o poder, mas o próprio campo de batalha, o Hakuen Rinne representa o auge de sua capacidade estratégica e dominância absoluta.",
         status: "Extremamente avançado e exigente. Consome grandes quantidades de chakra e requer controle mental absoluto. Quando ativo, coloca Naoki em vantagem praticamente incontestável dentro de seu próprio domínio.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F01%20-%20Enkai%20Shiro%3A%20Hakuen%20Rinne.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F01%20-%20Enkai%20Shiro%3A%20Hakuen%20Rinne.jpg?alt=media&v=1784037831990501"
       },
       {
         name: "Susanoo Perfeito",
@@ -1463,7 +1463,7 @@ export const initialData: Character[] = [
         destruction: "Nível de aniquilação catastrófica. Cada golpe do Susanoo Perfeito pode devastar montanhas, dividir campos de batalha inteiros e colapsar defesas de larga escala. Sua simples manifestação já é capaz de alterar o ambiente e esmagar inimigos com pressão espiritual massiva.",
         history: "Despertado após Naoki alcançar domínio total sobre seu Mangekyou Sharingan e sobreviver à perda completa de sua visão. O Susanoo evoluiu junto à sua adaptação, assumindo uma forma única que reflete sua transcendência além da dependência visual.",
         status: "Forma máxima e estável nas mãos de Naoki. Exige grande quantidade de chakra, mas seu controle é absoluto, permitindo uso prolongado sem perda de eficiência.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F02%20-%20Susanoo%20Perfeito.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F02%20-%20Susanoo%20Perfeito.png?alt=media&v=1784037833528742"
       },
       {
         name: "Gunbai: Tenchi Rengoku",
@@ -1473,7 +1473,7 @@ export const initialData: Character[] = [
         destruction: "Nível de aniquilação de território amplo. Pode devastar fortalezas inteiras, criando tempestades de fogo e vento que desintegram estruturas e evaporam tudo ao redor. A pressão combinada pode colapsar defesas e sufocar inimigos antes mesmo do impacto direto.",
         history: "Desenvolvido após Naoki atingir domínio completo da gunbai e compreender sua ligação com o equilíbrio natural. Inspirado no poder destrutivo de Madara, ele criou uma versão mais refinada e controlada, transformando o campo de batalha em um purgatório vivo.",
         status: "Extremamente exigente. Consome grandes quantidades de chakra e requer foco absoluto para manter o domínio estável. Quando dominado, torna Naoki praticamente imparável em combate em larga escala.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F03%20-%20Gunbai%3A%20Tenchi%20Rengoku.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F03%20-%20Gunbai%3A%20Tenchi%20Rengoku.jpg?alt=media&v=1784037834815144"
       },
       {
         name: "Katon: Hakuen Meteora",
@@ -1483,7 +1483,7 @@ export const initialData: Character[] = [
         destruction: "Nível de aniquilação catastrófica. Pode devastar territórios inteiros, destruindo múltiplas áreas simultaneamente e tornando o campo de batalha inabitável. Os impactos causam crateras gigantes e liberam calor suficiente para derreter estruturas massivas.",
         history: "Inspirado nas lendárias técnicas de invocação de meteoros de Madara, Naoki adaptou o conceito ao Katon branco, utilizando o Eien Mangekyou para controlar a queda e maximizar a destruição em larga escala.",
         status: "Extremamente poderoso, mas consome quantidades colossais de chakra. Utilizado apenas em situações de destruição total ou superioridade absoluta.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F04%20-%20Katon%3A%20Hakuen%20Meteora.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F04%20-%20Katon%3A%20Hakuen%20Meteora.jpg?alt=media&v=1784037836148140"
       },
       {
         name: "Eien Mangekyou Sharingan",
@@ -1493,7 +1493,7 @@ export const initialData: Character[] = [
         destruction: "Não possui destruição direta, mas amplifica exponencialmente todas as técnicas de Naoki, elevando seu potencial destrutivo a níveis absurdos em qualquer combate.",
         history: "Obtido após a cirurgia realizada por Yumi com os olhos de Madara. A fusão dos poderes despertou uma versão única do Eien Mangekyou, influenciada tanto pelo legado de Madara quanto pela própria essência de Naoki.",
         status: "Totalmente estável. Remove limitações físicas do Mangekyou e serve como base para todas as técnicas de alto nível de Naoki.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F05%20-%20Eien%20Mangekyou%20Sharingan.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F05%20-%20Eien%20Mangekyou%20Sharingan.jpg?alt=media&v=1784037837212738"
       },
       {
         name: "Gunbai: Hanten no Kyōkai",
@@ -1503,7 +1503,7 @@ export const initialData: Character[] = [
         destruction: "Nível de devastação massiva direcionada. Ataques refletidos retornam com potência multiplicada, podendo atravessar múltiplos alvos ou anular técnicas de larga escala. A pressão do domínio pode fragmentar o solo ao redor e desestabilizar completamente o fluxo de chakra no campo de batalha.",
         history: "Inspirado na habilidade original de reflexão da gunbai de Madara, Naoki elevou o conceito a um novo patamar ao fundir Yin-Yang com manipulação de vento. Após anos de treino e batalhas reais, ele transformou a arma em um mecanismo perfeito de contra-ataque absoluto, onde defender-se é, na prática, atacar.",
         status: "Altamente eficiente e estável nas mãos de Naoki. Exige controle preciso de chakra e leitura perfeita de combate. Usuários comuns seriam incapazes de manter o fluxo necessário para sustentar o domínio completo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F06%20-%20Gunbai%3A%20Hanten%20no%20Ky%C5%8Dkai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F06%20-%20Gunbai%3A%20Hanten%20no%20Ky%C5%8Dkai.jpg?alt=media&v=1784037838556814"
       },
       {
         name: "Katon: Hakuen Fênix",
@@ -1513,7 +1513,7 @@ export const initialData: Character[] = [
         destruction: "Nível de devastação massiva. A fênix pode incinerar grandes áreas instantaneamente e suas chamas continuam queimando mesmo após o impacto, consumindo tudo que permanece no local, inclusive técnicas energéticas.",
         history: "Inspirado nas técnicas supremas do clã Uchiha, Naoki elevou o conceito ao infundir o Katon com o poder do Eien Mangekyou, criando um fogo que transcende o elemento comum e assume propriedades espirituais.",
         status: "Altamente estável e controlado. Consome grande quantidade de chakra, mas pode ser manipulado com precisão absoluta.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F07%20-%20Katon%3A%20Hakuen%20F%C3%AAnix.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F07%20-%20Katon%3A%20Hakuen%20F%C3%AAnix.jpg?alt=media&v=1784037839841346"
       },
       {
         name: "Katon: Gōkakyū Hakuen",
@@ -1523,7 +1523,7 @@ export const initialData: Character[] = [
         destruction: "Nível de aniquilação de larga escala. Capaz de devastar campos inteiros de batalha, destruindo estruturas, evaporando defesas e incinerando múltiplos alvos simultaneamente.",
         history: "Baseado no clássico Gōkakyū no Jutsu dos Uchiha, Naoki recriou a técnica utilizando o poder do Eien Mangekyou, alcançando um nível comparável — ou superior — ao de Madara.",
         status: "Estável, porém exige grande controle de chakra para manter a densidade e direção da esfera.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F08%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20Hakuen.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F12%20-%20Naoki%20Uchiha%2FTecnicas%2F08%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20Hakuen.jpg?alt=media&v=1784037841195243"
       },
     ],
     arsenal: [27],
@@ -1573,7 +1573,7 @@ export const initialData: Character[] = [
     description: "DESCONHECIDO",
     hp: 142,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F13%20-%20Hisoka%20Senju%2FHisoka%20Senju.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F13%20-%20Hisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1784037784109814",
     techniques: [
       {
         name: "Mokuton: Shinkai Senju no Majin",
@@ -1583,7 +1583,7 @@ export const initialData: Character[] = [
         destruction: "Nível catastrófico. O golem possui força física absurda, regeneração contínua e liberação de ondas massivas de chakra natural e profano. Pode devastar grandes áreas, esmagar múltiplos oponentes simultaneamente e alterar completamente o campo de batalha.",
         history: "Despertada após Hisoka dominar o equilíbrio entre energia natural, linhagem Senju e chakra profano. Tornou-se sua manifestação máxima de poder materializado.",
         status: "Uso extremamente restrito. Consome enorme quantidade de chakra, exige domínio do Modo Sábio e grande resistência física e espiritual para controlar o núcleo profano do golem.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F13%20-%20Hisoka%20Senju%2FTecnicas%2F01%20-%20Mokuton%3A%20Shinkai%20Senju%20no%20Majin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F13%20-%20Hisoka%20Senju%2FTecnicas%2F01%20-%20Mokuton%3A%20Shinkai%20Senju%20no%20Majin.png?alt=media&v=1784037785976835"
       },
     ],
     gallery: [
@@ -1626,7 +1626,7 @@ export const initialData: Character[] = [
     chakra: 132,
     isDead: true,
     killedBy: "Delta",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FRock%20Gunma.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FRock%20Gunma.jpg?alt=media&v=1784037875688634",
     techniques: [
       {
         name: "Gyuki Bakuton: Shidan Hakai",
@@ -1636,7 +1636,7 @@ export const initialData: Character[] = [
         destruction: "Altíssimo dano concentrado. As explosões ocorrem dentro do corpo do alvo, ignorando resistência externa e anulando regeneração com selos ativos.",
         history: "Criada como uma técnica de execução rápida, Rock refinou o controle do Gyuki para condensar poder destrutivo em disparos mínimos, transformando precisão em letalidade absoluta.",
         status: "Consome chakra de forma moderada, mas exige precisão extrema. Ineficiente contra alvos que evitam completamente o contato.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F01%20-%20Gyuki%20Bakuton%3A%20Shidan%20Hakai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F01%20-%20Gyuki%20Bakuton%3A%20Shidan%20Hakai.jpg?alt=media&v=1784037877024162"
       },
       {
         name: "Modo Gyuki",
@@ -1646,7 +1646,7 @@ export const initialData: Character[] = [
         destruction: "Massivo. Capaz de devastar áreas inteiras com ataques físicos e rajadas de chakra. Praticamente impossível de enfrentar diretamente sem poder equivalente.",
         history: "Diferente de outros Jinchuurikis, Rock domina completamente a forma total do Gyuki, utilizando-a não apenas como força bruta, mas como extensão de sua estratégia de combate.",
         status: "Consumo extremo de chakra. Uso prolongado pode desgastar o corpo mesmo com o suporte do Gyuki.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F02%20-%20Modo%20Gyuki.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F02%20-%20Modo%20Gyuki.jpg?alt=media&v=1784037878265082"
       },
       {
         name: "Gyuki Rinku",
@@ -1656,7 +1656,7 @@ export const initialData: Character[] = [
         destruction: "Alto em combate direto. Não é focado em destruição em larga escala, mas torna Rock quase imbatível em curto alcance.",
         history: "Essa forma representa o equilíbrio perfeito entre controle e poder do Gyuki, sendo a mais utilizada por Rock em combate real.",
         status: "Consumo constante de chakra, porém mais estável que a forma completa. Pode ser mantido por períodos prolongados.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F03%20-%20Gyuki%20Rinku.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F03%20-%20Gyuki%20Rinku.jpg?alt=media&v=1784037879415904"
       },
       {
         name: "Gyuki Bakuton: Shūmetsu no Tenkei",
@@ -1666,7 +1666,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente massivo. Capaz de apagar grandes áreas do campo de batalha e romper defesas de alto nível.",
         history: "Criada como sua técnica de destruição máxima, utilizada apenas em situações onde contenção não é suficiente.",
         status: "Altíssimo consumo de chakra e risco elevado. Uso limitado a situações críticas.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F04%20-%20Gyuki%20Bakuton%3A%20Sh%C5%ABmetsu%20no%20Tenkei.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F04%20-%20Gyuki%20Bakuton%3A%20Sh%C5%ABmetsu%20no%20Tenkei.jpg?alt=media&v=1784037880627739"
       },
       {
         name: "Fuinjutsu: Kekkai Shūen no Fūin",
@@ -1676,7 +1676,7 @@ export const initialData: Character[] = [
         destruction: "Não destrutiva fisicamente, mas absoluta em neutralização. Pode incapacitar múltiplos inimigos simultaneamente.",
         history: "Desenvolvida como resposta a ameaças em larga escala durante seu tempo como Tsuchikage, priorizando controle total do campo ao invés de destruição.",
         status: "Requer grande quantidade de chakra para manter a área ativa. Quanto mais alvos, maior o custo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F05%20-%20Fuinjutsu%3A%20Kekkai%20Sh%C5%ABen%20no%20F%C5%ABin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F05%20-%20Fuinjutsu%3A%20Kekkai%20Sh%C5%ABen%20no%20F%C5%ABin.jpg?alt=media&v=1784037881993028"
       },
       {
         name: "Doton: Daichi no Kyōkai",
@@ -1686,7 +1686,7 @@ export const initialData: Character[] = [
         destruction: "Alto controle territorial com destruição localizada. O foco é aprisionar e desgastar o inimigo até a incapacidade total.",
         history: "Aprimoramento direto de suas técnicas de contenção como Tsuchikage, levando o conceito de controle de terreno ao limite.",
         status: "Depende totalmente do ambiente terrestre. Consumo contínuo enquanto ativo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F06%20-%20Doton%3A%20Daichi%20no%20Ky%C5%8Dkai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F14%20-%20Rock%20Gunma%2FTecnicas%2F06%20-%20Doton%3A%20Daichi%20no%20Ky%C5%8Dkai.jpg?alt=media&v=1784037883478763"
       }
     ],
     arsenal: [26],
@@ -1731,7 +1731,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 194,
     chakra: 88,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F15%20-%20Hiroshi%20Hanzo%2FHiroshi%20Hanzo.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F15%20-%20Hiroshi%20Hanzo%2FHiroshi%20Hanzo.jpg?alt=media&v=1784037781384585",
     techniques: [
       {
         name: "Shiroki Kaminari: Amenotejikara no Shinsei",
@@ -1741,7 +1741,7 @@ export const initialData: Character[] = [
         destruction: "Imensurável em nível estratégico. Embora não seja puramente explosiva, permite aniquilação instantânea através de trocas letais, reposicionamento forçado em ataques mortais e desintegração indireta causada por distorções elétrico-espaciais do Shiroki Kaminari.",
         history: "Classificada como Rank Z por ultrapassar o conceito tradicional de espaço-tempo. Considerada a forma definitiva do Amenotejikara. Registros afirmam que, após seu despertar, nenhum campo de batalha permanece estático sob a presença de Hanzo.",
         status: "Consome quantidades colossais de chakra e exige controle mental absoluto. Uso prolongado pode causar sobrecarga neural e colapso sensorial devido à percepção simultânea de múltiplas trocas espaciais.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F15%20-%20Hiroshi%20Hanzo%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Shinsei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F15%20-%20Hiroshi%20Hanzo%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Shinsei.png?alt=media&v=1784037782993681"
       },
     ],
     stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 18, perception: 26 },
@@ -1776,7 +1776,7 @@ export const initialData: Character[] = [
     chakra: 100,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F16%20-%20Tobirama%20Senju%2FTobirama%20Senju.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F16%20-%20Tobirama%20Senju%2FTobirama%20Senju.jpg?alt=media&v=1784037937377354",
     arsenal: [40, 41],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FPr_logo.png?alt=media&v=1784579842794518", caption: "Prólogo", category: "era" },
@@ -1816,7 +1816,7 @@ export const initialData: Character[] = [
     chakra: 94,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F17%20-%20Sho%20Uchiha%2FSho%20Uchiha.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F17%20-%20Sho%20Uchiha%2FSho%20Uchiha.jpg?alt=media&v=1784037907523398",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2F2__Temporada.png?alt=media&v=1784569559841890", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FLuta_contra_o_Hades.png?alt=media&v=1786371788573376", caption: "Luta contra o Hades", category: "era" },
@@ -1860,7 +1860,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F18%20-%20Hoshiro%20Hyuga%2FHoshiro%20Hyuga.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F18%20-%20Hoshiro%20Hyuga%2FHoshiro%20Hyuga.jpg?alt=media&v=1784037786616286",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FCl_ssico.png?alt=media&v=1784569503443462", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2F1__Temporada.png?alt=media&v=1784569498466720", caption: "1ª Temporada", category: "era" },
@@ -1903,7 +1903,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 180,
     chakra: 128,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F19%20-%20Yumi%20Uzumaki%2FYumi%20Uzumaki.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F19%20-%20Yumi%20Uzumaki%2FYumi%20Uzumaki.jpg?alt=media&v=1784037970935563",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F1__Temporada.png?alt=media&v=1786454445275654", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F4__Temporada.png?alt=media&v=1784751371543", caption: "4ª Temporada", category: "era" },
@@ -1944,7 +1944,7 @@ export const initialData: Character[] = [
     chakra: 85,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F20%20-%20Asami%20Hyuga%2FAsami%20Hyuga.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F20%20-%20Asami%20Hyuga%2FAsami%20Hyuga.jpg?alt=media&v=1784037710855740",
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 15, spirit: 25, vigor: 25, perception: 25 },
     powers: [
       { name: "Juken", level: 12 },
@@ -1978,7 +1978,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 250,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F21%20-%20Kaizuka%20Hyuga%2FKaizuka%20Hyuga.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F21%20-%20Kaizuka%20Hyuga%2FKaizuka%20Hyuga.jpg?alt=media&v=1784037791220402",
     arsenal: [28],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2FPr_logo.png?alt=media&v=1784751319598", caption: "Prólogo", category: "era" },
@@ -2020,7 +2020,7 @@ export const initialData: Character[] = [
     chakra: 96,
     isDead: true,
     killedBy: "Chip da OCA",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FRaikun%20Hatake.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FRaikun%20Hatake.jpg?alt=media&v=1784037849886067",
     techniques: [
       {
         name: "Senpô Arashi: Hachimon Tenku no Sennin",
@@ -2030,7 +2030,7 @@ export const initialData: Character[] = [
         destruction: "Imensurável em escala física direta. Um único golpe possui poder suficiente para desintegrar estruturas de nível continental. A energia liberada corrompe o ambiente, podendo gerar colapsos gravitacionais localizados e emissão de luz branca residual, além de permitir aniquilação precisa ou devastação total do campo de batalha.",
         history: "Utilizado uma única vez no confronto contra o líder Beta da OCA. Matando o mesmo, foi classificado como Rank Z por violar os princípios fundamentais do chakra ao unir estados incompatíveis. Considerado um jutsu impossível, viabilizado apenas pela engenharia do chip e pelas múltiplas 'mortes parciais' acumuladas por Raikun ao longo dos anos.",
         status: "Uso resulta em morte inevitável. O chip se esgota completamente após a ativação, levando ao colapso total do sistema de chakra. O corpo se desintegra progressivamente, com falência de órgãos, ruptura estrutural e destruição irreversível do usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F01%20-%20Senp%C3%B4%20Arashi%3A%20Hachimon%20Tenku%20no%20Sennin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F01%20-%20Senp%C3%B4%20Arashi%3A%20Hachimon%20Tenku%20no%20Sennin.png?alt=media&v=1784037851803552"
       },
       {
         name: "Senpo: Hachimon Fujin no Inken",
@@ -2040,7 +2040,7 @@ export const initialData: Character[] = [
         destruction: "Altíssimo em nível de controle absoluto. A técnica não destrói o ambiente, mas elimina completamente a capacidade de combate do alvo. As correntes internas podem causar fraturas ósseas, colapso dos canais de chakra e paralisia total. Após a imobilização, o usuário pode finalizar o combate com um único golpe amplificado pelos sete portões.",
         history: "Desenvolvida a partir da fusão entre o domínio de Fuinjutsu adquirido na OCA e o aprofundamento extremo no Senjutsu. Raikun percebeu que impactos carregados com energia natural deixavam resíduos no corpo do oponente e refinou esse princípio até transformá-lo em um sistema de selamento progressivo. A técnica nunca foi formalmente registrada devido ao custo físico extremo exigido para sua execução.",
         status: "Uso extremamente restrito. Exige a abertura simultânea dos sete portões e manutenção do Modo Sábio Completo, colocando o corpo em colapso progressivo. Cada impacto contribui para o selo, variando conforme a resistência do alvo. O uso prolongado causa ruptura muscular severa, hemorragia interna e danos irreversíveis aos canais de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F02%20-%20Senpo%3A%20Hachimon%20Fujin%20no%20Inken.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F02%20-%20Senpo%3A%20Hachimon%20Fujin%20no%20Inken.png?alt=media&v=1784037853516547"
       },
       {
         name: "Senpo: Rokumon Arashi no Kensei",
@@ -2050,7 +2050,7 @@ export const initialData: Character[] = [
         destruction: "Muito elevado. Seus golpes geram crateras, ondas de choque e destruição localizada massiva. Embora inferior ao estado dos sete portões, é suficiente para eliminar a maioria dos oponentes com um único impacto direto.",
         history: "Forma amplamente utilizada por Raikun em missões críticas dentro e fora da OCA. Por não exigir o sétimo portão, permite maior controle e duração em combate. Tornou-se seu estado padrão de combate máximo em situações onde o sacrifício total não era necessário.",
         status: "Uso prolongado causa danos musculares severos, microfraturas ósseas e exaustão extrema do sistema de chakra. Apesar de não levar ao colapso imediato, cada minuto adicional reduz drasticamente a capacidade de sobrevivência após o combate.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F03%20-%20Senpo%3A%20Rokumon%20Arashi%20no%20Kensei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F03%20-%20Senpo%3A%20Rokumon%20Arashi%20no%20Kensei.png?alt=media&v=1784037855083621"
       },
       {
         name: "Fuinjutsu: Shiki Fujin — Fūin Kyōzetsu",
@@ -2060,7 +2060,7 @@ export const initialData: Character[] = [
         destruction: "Não destrutiva fisicamente, mas absoluta em neutralização. O alvo é reduzido a um estado equivalente ao de um civil, incapaz de lutar. O dano mental e espiritual é profundo, sendo considerado irreversível sem intervenção de um especialista em Fuinjutsu de nível extremo.",
         history: "Desenvolvida após Raikun estudar registros proibidos da OCA sobre o Shiki Fujin. Recusando-se a sacrificar sua própria alma, ele adaptou a técnica utilizando o chip como meio de pagamento alternativo. Nunca foi testada amplamente antes de sua fuga, sendo considerada sua técnica mais perigosa — não pelo poder bruto, mas pela irreversibilidade de seus efeitos.",
         status: "Cada uso consome uma quantidade significativa do chakra profano armazenado no chip, afetando diretamente o uso de técnicas supremas como o Shiroki Arashi. O Deus da Morte aceita o pagamento incompleto, mas cobra um preço: o usuário perde temporariamente fragmentos de memória após cada ativação.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F04%20-%20Fuinjutsu%3A%20Shiki%20Fujin%20%E2%80%94%20F%C5%ABin%20Ky%C5%8Dzetsu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F22%20-%20Raikun%20Hatake%2FTecnicas%2F04%20-%20Fuinjutsu%3A%20Shiki%20Fujin%20%E2%80%94%20F%C5%ABin%20Ky%C5%8Dzetsu.png?alt=media&v=1784037857240478"
       }
     ],
     gallery: [
@@ -2108,7 +2108,7 @@ export const initialData: Character[] = [
     chakra: 70,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F23%20-%20Hirato%20Ishi%2FHirato%20Ishi.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F23%20-%20Hirato%20Ishi%2FHirato%20Ishi.jpg?alt=media&v=1784037780744006",
     arsenal: [4],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHirato%20Ishi%2F2__Temporada.png?alt=media&v=1784665887463666", caption: "2ª Temporada", category: "era" },
@@ -2148,7 +2148,7 @@ export const initialData: Character[] = [
     chakra: 70,
     isDead: true,
     killedBy: "Nagare Uzumaki",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F24%20-%20Hikaru%20Ishi%2FHikaru%20Ishi.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F24%20-%20Hikaru%20Ishi%2FHikaru%20Ishi.jpg?alt=media&v=1784037779905056",
     arsenal: [30],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHikaru%20Ishi%2F2__Temporada.png?alt=media&v=1784665885201237", caption: "2ª Temporada", category: "era" },
@@ -2187,7 +2187,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Nishinoya Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media&v=1784037787199677",
     techniques: [
       {
         name: "Seimei no Saidan: Fukkatsu Zenjin",
@@ -2197,7 +2197,7 @@ export const initialData: Character[] = [
         destruction: "Nula em termos de dano direto. Seu impacto, no entanto, é absoluto no plano estratégico e emocional — ressuscitar aliados poderosos no meio de uma batalha pode inverter completamente o curso de qualquer conflito.",
         history: "Nunca antes a Seimei no Saidan havia sido usada para ressuscitar múltiplas almas simultaneamente. Registros antigos indicavam que a espada permitia ressurreições individuais, sempre com um custo proporcional. Ao invocar quatro almas de uma só vez, Ômega ultrapassou qualquer limite documentado — e o preço cobrado pela lâmina foi correspondente: ele sobreviveu, mas apenas por pouco.",
         status: "Uso único e irrepetível nas condições documentadas. O custo vital de ressuscitar múltiplas almas simultaneamente deixa o usuário à beira da morte. Requer que a Seimei no Saidan tenha ceifado as almas a serem restauradas — a espada não ressuscita quem ela própria não matou.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FTecnicas%2F01%20-%20Seimei%20no%20Saidan%3A%20Fukkatsu%20Zenjin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FTecnicas%2F01%20-%20Seimei%20no%20Saidan%3A%20Fukkatsu%20Zenjin.jpg?alt=media&v=1784037788331321"
       },
       {
         name: "Mangekyou Sharingan: Sho",
@@ -2207,7 +2207,7 @@ export const initialData: Character[] = [
         destruction: "Não destrutiva diretamente, mas de letalidade extrema em combate. A manipulação temporal torna quase impossível reagir aos ataques de Ômega, criando aberturas que ele explora com a Seimei no Saidan ou com suas técnicas de corpo a corpo. A reversão temporal parcial pode anular técnicas já executadas pelo oponente.",
         history: "O Mangekyou foi arrancado de Sho durante um confronto que poucos sobreviveram para narrar, conhecido como a guerra da Fortaleza Yumei. Ômega não o roubou por ambição — roubou para garantir que aquele poder nunca mais fosse usado como instrumento de dominação herdada. Aos poucos, aprendeu a canalizar o doujutsu através de sua própria força espiritual elevada, adaptando-o ao seu estilo de combate cirúrgico.",
         status: "Uso prolongado causa deterioração acelerada da visão e sobrecarga no sistema de chakra. Cada ativação da manipulação temporal drena uma quantidade considerável de chakra e força espiritual. Reversões temporais são especialmente custosas e só podem ser executadas uma vez por combate.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FTecnicas%2F02%20-%20Mangekyou%20Sharingan%3A%20Sho.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FTecnicas%2F02%20-%20Mangekyou%20Sharingan%3A%20Sho.jpg?alt=media&v=1784037789601335"
       },
       {
         name: "Eternal Fujogan: Asami",
@@ -2217,7 +2217,7 @@ export const initialData: Character[] = [
         destruction: "Elevada de forma indireta. Os tanques de chakra absorvido podem ser detonados como explosões concentradas de energia pura, enquanto a manipulação do chakra alheio pode paralisar ou incapacitar múltiplos inimigos simultaneamente. Sua quase indestrutibilidade durante a ativação torna ataques diretos praticamente inúteis.",
         history: "O Fujogan de Asami foi o poder que Ômega menos esperava herdar — e o que mais o transformou. Ao contrário dos outros doujutsu que ele carregava por necessidade, este ele carregava com respeito. Asami havia sido uma das poucas pessoas que lutou ao seu lado sem questionar. Dominar o Eternal Fujogan foi, para ele, uma forma de honrar esse vínculo — e garantir que aquela visão jamais se apagasse do mundo.",
         status: "Manter os tanques de chakra ativos e a absorção contínua exige concentração absoluta. Se o fluxo de absorção for interrompido abruptamente, os tanques se dissipam e Ômega fica momentaneamente vulnerável. Contra usuários com chakra extremamente denso ou instável, a absorção pode causar sobrecarga interna.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FTecnicas%2F03%20-%20Eternal%20Fujogan%3A%20Asami.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F25%20-%20Kaien%20Ishi%20(Omega)%2FTecnicas%2F03%20-%20Eternal%20Fujogan%3A%20Asami.jpg?alt=media&v=1784037790465317"
       }
     ],
     arsenal: [31],
@@ -2277,7 +2277,7 @@ export const initialData: Character[] = [
     chakra: 105,
     isDead: true,
     killedBy: "Nagare Uzumaki",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).jpg?alt=media&v=1784037673598466",
     techniques: [
       {
         name: "Mangekyō: Susanoo Son Goku",
@@ -2287,7 +2287,7 @@ export const initialData: Character[] = [
         destruction: "Catastrófica. Mantendo Son Gokū sob genjutsu, Akairo canaliza quantidades absurdas de Yōton, capazes de aniquilar cidades inteiras, evaporar grandes massas de água, derreter cadeias montanhosas e remodelar completamente o terreno em um único uso.",
         history: "A técnica surgiu quando Akairo percebeu que não precisava apenas sincronizar seu chakra com a Bijuu, mas poderia dominá-la mentalmente através do Mangekyō implantado. Ao colocar Son Gokū em genjutsu, passou a extrair e moldar seu poder de forma forçada, dando origem ao chamado 'Modo Son Goku', símbolo do domínio absoluto entre ilusão e destruição.",
         status: "Proibida em qualquer nação shinobi. O uso contínuo causa sangramento ocular severo, risco de rejeição do Mangekyō implantado e instabilidade no selo da Bijuu, podendo levar ao colapso físico e mental do usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F01%20-%20Mangeky%C5%8D%3A%20Susanoo%20Son%20Goku.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F01%20-%20Mangeky%C5%8D%3A%20Susanoo%20Son%20Goku.png?alt=media&v=1784037675582837"
       },
       {
         name: "Mangekyō: Son Goku Rinku",
@@ -2297,7 +2297,7 @@ export const initialData: Character[] = [
         destruction: "Cataclísmica e apocalíptica. Sob o controle ilusório, o chakra de Son Gokū é condensado à força em uma esfera colossal de magma negro-incandescente marcada por padrões do Mangekyō. Ao ser lançada, a massa implode brevemente, puxando ar e matéria ao redor antes de liberar uma supererupção devastadora. Ondas térmicas vaporizam estruturas, rios de lava negra se espalham por dezenas de quilômetros e uma cratera gigantesca permanece no impacto, com magma borbulhante e tempestades ígneas persistindo por dias.",
         history: "A técnica surgiu quando Akairo, incapaz de dominar completamente a força da Bijuu apenas pela compatibilidade de chakra, decidiu utilizar seu Mangekyō implantado como ferramenta de subjugação mental. Ao descobrir que poderia aprisionar temporariamente Son Gokū em um genjutsu ocular, passou a extrair e moldar o chakra da besta com precisão absoluta, transformando ilusão em controle real de poder.",
         status: "Consumo extremo e altamente perigoso. O uso prolongado causa sangramento ocular severo devido ao esforço do Mangekyō implantado, risco de rejeição do transplante, colapso mental e instabilidade no selo da Bijuu. Técnica proibida, utilizada apenas em situações de ameaça existencial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F02%20-%20Mangeky%C5%8D%3A%20Son%20Goku%20Rinku.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F02%20-%20Mangeky%C5%8D%3A%20Son%20Goku%20Rinku.png?alt=media&v=1784037677613988"
       },
       {
         name: "Mangekyō: Modo Son Goku",
@@ -2307,7 +2307,7 @@ export const initialData: Character[] = [
         destruction: "Catastrófica e continental. Ao condensar a totalidade do chakra da Bijuu sob controle ilusório, Akairo pode formar uma esfera gigantesca de magma negro-incandescente marcada pelos padrões do Mangekyō. Quando lançada, a massa implode brevemente, puxando ar e matéria ao redor, antes de liberar uma supererupção devastadora. Montanhas podem ser reduzidas a rios de lava, defesas absolutas são vaporizadas e uma cratera colossal permanece no ponto de impacto, com tempestades ígneas e atividade vulcânica persistindo por dias.",
         history: "A técnica nasceu da necessidade de ultrapassar os limites naturais do selo da Bijuu. Incapaz de acessar constantemente 100% do poder de Son Gokū apenas pela compatibilidade de chakra, Akairo descobriu que poderia subjugar temporariamente a consciência da besta através de seu Mangekyō implantado. Transformando genjutsu em dominação real de poder, ele criou uma forma de controle absoluto que converte ilusão em supremacia física.",
         status: "Extremamente instável e proibida. O esforço contínuo causa sangramento ocular severo, risco elevado de cegueira permanente e possível rompimento do selo da Bijuu. Caso o genjutsu seja quebrado, Son Gokū pode recuperar a consciência em estado de fúria total. Técnica utilizada apenas em cenários de ameaça existencial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F03%20-%20Mangeky%C5%8D%3A%20Modo%20Son%20Goku.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F03%20-%20Mangeky%C5%8D%3A%20Modo%20Son%20Goku.png?alt=media&v=1784037679620164"
       },
       {
         name: "Mangekyō: Susanoo",
@@ -2317,7 +2317,7 @@ export const initialData: Character[] = [
         destruction: "Absoluta e titânica. A simples materialização do Susanoo faz o solo rachar em quilômetros ao redor devido à pressão espiritual liberada. A Lança de Sho, ao ser arremessada, atravessa múltiplas barreiras defensivas antes de explodir em uma onda expansiva concentrada, enquanto o Escudo Carmesim pode bloquear técnicas equivalentes a Bijūdama sem sofrer fissuras. Em combate total, cada golpe do Susanoo gera terremotos, e o impacto máximo pode devastar uma região inteira, deixando apenas ruínas vitrificadas pelo calor espiritual.",
         history: "Após compreender os padrões oculares de Sho, Akairo dominou a compatibilidade do Mangekyō implantado, alcançando uma sincronia rara que permitiu expandir o Susanoo além de seus limites naturais. A técnica foi concebida como resposta a ameaças capazes de destruir nações, elevando a manifestação espiritual ao ápice defensivo e ofensivo.",
         status: "Extremamente proibida. O consumo de chakra é colossal, drenando reservas físicas e mentais em ritmo acelerado. O uso contínuo pode causar cegueira irreversível, rejeição do Mangekyō implantado e colapso do sistema nervoso devido à sobrecarga espiritual. Técnica utilizada apenas em cenários de guerra absoluta.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F04%20-%20Mangeky%C5%8D%3A%20Susanoo.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F26%20-%20Akairo%20Uchiha%20(A)%2FTecnicas%2F04%20-%20Mangeky%C5%8D%3A%20Susanoo.png?alt=media&v=1784037681621214"
       }
 
     ],
@@ -2371,7 +2371,7 @@ export const initialData: Character[] = [
     description: "Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.\n\nAinda jovem, quando a Organização do Chakra Profano ameaçou diretamente o clã Hyuga, uma decisão impossível foi tomada: uma criança deveria ser entregue em troca da sobrevivência de todos. Antes que qualquer escolha fosse feita por ele, Borashi tomou a decisão por si mesmo. Consciente do que estava em jogo, se ofereceu voluntariamente, acreditando que sua entrega salvaria sua família e garantiria o futuro de seu irmão mais novo, Katsumi.\n\nNo entanto, ao cair nas mãos da organização, seu destino foi distorcido. Suas memórias foram manipuladas através de genjutsus e alterações profundas de chakra, fazendo-o acreditar que havia sido abandonado, substituído e esquecido. Essa mentira se tornou uma cicatriz permanente, criando um bloqueio emocional que o impede de buscar a verdade.\n\nDurante os experimentos, seu poder evoluiu de forma anormal, despertando o raro Tenketsu Byakugan — uma variação avançada que lhe concede controle absoluto sobre os pontos de chakra, permitindo selar e interromper o fluxo interno de um oponente com precisão cirúrgica.\n\nParalelamente, após Furyuzan roubar as codificações genéticas de Katsumi, a organização iniciou uma série de testes visando recriar e aperfeiçoar esse poder, culminando na criação de um Fujōgan artificial — uma evolução experimental que representa o ápice de suas pesquisas sobre o potencial do clã Hyuga.\n\nDiferente dos demais, Borashi não se tornou instável. Ele se tornou perfeito.\n\nFrio, calculista e extremamente estratégico, ele atua como o verdadeiro cérebro da Equipe 75%, coordenando cada movimento com precisão impecável. Sua presença é o único fator que mantém o Inferno Vermelho sob controle, sendo capaz de neutralizar Akairo com golpes precisos antes que a destruição fuja do controle.\n\nDominando o Suiton, a Liberação de Corrosão e o Jūken em níveis avançados, Borashi luta como uma lâmina invisível — silenciosa, inevitável e letal.\n\nEle não levanta a voz. Não hesita. Não falha.\n\nPara a equipe, ele é liderança. Para a organização, ele é eficiência absoluta. E para si mesmo… ele é apenas alguém que aprendeu a congelar tudo o que sente para continuar seguindo em frente.",
     hp: 170,
     chakra: 105,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).jpg?alt=media&v=1784037727695987",
     techniques: [
       {
         name: "Fujōgan Hyōkai: Mugen Reimei no Gunzei",
@@ -2381,7 +2381,7 @@ export const initialData: Character[] = [
         destruction: "Catastrófica. O domínio pode se expandir por dezenas de quilômetros, congelando oceanos, cidades e ecossistemas inteiros em questão de minutos. O exército congelado avança silenciosamente enquanto Isobu Profano executa ataques equivalentes a uma Bijūdama glacial corrompida.",
         history: "Após sua primeira manifestação, regiões inteiras foram encontradas completamente congeladas e desertas, sem sinais de batalha. Sobreviventes relataram ouvir apenas o som do gelo se formando antes do silêncio absoluto tomar tudo.",
         status: "Classificada como ameaça de aniquilação global. Proibida e selada em registros ocultos por violar as leis naturais de percepção, energia e equilíbrio elemental.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F01%20-%20Fuj%C5%8Dgan%20Hy%C5%8Dkai%3A%20Mugen%20Reimei%20no%20Gunzei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F01%20-%20Fuj%C5%8Dgan%20Hy%C5%8Dkai%3A%20Mugen%20Reimei%20no%20Gunzei.png?alt=media&v=1784037729354421"
       },
       {
         name: "Fujōgan: Modo Isobu",
@@ -2391,7 +2391,7 @@ export const initialData: Character[] = [
         destruction: "Nível de aniquilação oceânica. O simples movimento de Isobu Profano gera tsunamis negros carregados de chakra corrupto capazes de engolir cidades costeiras instantaneamente. Suas Bijūdama tornam-se esferas abissais que corroem matéria física e espiritual ao impacto. A pressão liberada por sua presença distorce correntes marítimas e pode alterar ecossistemas inteiros em larga escala.",
         history: "Após compreender que coexistir com Isobu não era suficiente, Borashi decidiu ultrapassar o conceito tradicional de parceria jinchūriki. Utilizando o poder ocular do Fujōgan, ele desenvolveu um método proibido de supressão mental total, substituindo a consciência da Bijuu pela sua própria. O feito foi considerado uma violação absoluta do equilíbrio entre humano e besta com cauda, marcando o nascimento do Modo Isobu Profano Absoluto.",
         status: "Forma proibida e extremamente instável. Exige controle mental absoluto e fluxo contínuo de Chakra Profano para manter Isobu subjugado. Qualquer falha pode resultar em rebelião interna da Bijuu ou colapso espiritual do usuário. Quando estabilizado, porém, representa domínio total sobre o poder da Três-Caudas.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F02%20-%20Fuj%C5%8Dgan%3A%20Modo%20Isobu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F02%20-%20Fuj%C5%8Dgan%3A%20Modo%20Isobu.png?alt=media&v=1784037730902462"
       },
       {
         name: "Fujōgan: Isobu Rinku",
@@ -2401,7 +2401,7 @@ export const initialData: Character[] = [
         destruction: "Nível de devastação continental localizada. Cada movimento físico amplificado pelo Manto Bijū Profano gera ondas de impacto que fragmentam terreno e vaporizam massas de água ao redor. As Bijūdama criadas nessa forma são comprimidas com precisão absoluta, tornando-se projéteis de implosão espiritual capazes de desintegrar barreiras, anular técnicas energéticas e corroer estruturas físicas com contato mínimo. A presença do manto sozinho já distorce o fluxo de chakra no ambiente.",
         history: "Após dominar completamente o núcleo mental da Bijū através do Fujōgan, Borashi percebeu que assumir a forma colossal nem sempre era estrategicamente ideal. Assim nasceu o Manto Bijū Profano — uma versão condensada e refinada do domínio total, permitindo mobilidade, velocidade e controle tático sem perder a supremacia sobre a consciência da besta. Essa forma é considerada a manifestação mais eficiente do controle absoluto do jinchūriki sobre sua Bijū.",
         status: "Altamente instável em níveis máximos. Embora o controle mental seja absoluto, o fluxo contínuo de Chakra Profano é necessário para impedir que a essência original da Bijū tente emergir. Quando estabilizado, concede equilíbrio perfeito entre mobilidade humana e poder de besta com cauda.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F03%20-%20Fuj%C5%8Dgan%3A%20Isobu%20Rinku.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F03%20-%20Fuj%C5%8Dgan%3A%20Isobu%20Rinku.png?alt=media&v=1784037732408086"
       },
       {
         name: "Fujōgan: Modo Chakra Profano",
@@ -2411,7 +2411,7 @@ export const initialData: Character[] = [
         destruction: "Nível de devastação de campo de batalha ampliado. O controle animado do ambiente transforma qualquer território em domínio absoluto, multiplicando vetores de ataque simultâneos. O guepardo espiritual pode perfurar defesas com investidas hipersônicas e desintegrar alvos ao atravessá-los, causando colapso energético interno. Estruturas animadas podem se autodestruir em explosões concentradas de Chakra Profano.",
         history: "Desenvolvido após Borashi compreender que o verdadeiro poder do Fujōgan não estava apenas na dominação da Bijū, mas na reescrita da relação entre espírito e matéria. Ao aprender a desligar seu próprio fluxo natural de chakra, ele acessou a camada mais pura e instável do Chakra Profano, dando origem ao Modo Chakra Profano — uma forma que representa domínio criacional ao invés de pura destruição.",
         status: "Extremamente perigoso. A ausência temporária do chakra natural deixa Borashi vulnerável caso o fluxo profano seja interrompido abruptamente. Requer concentração absoluta e estabilidade emocional para manter a coesão das criações animadas.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F04%20-%20Fuj%C5%8Dgan%3A%20Modo%20Chakra%20Profano.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F27%20-%20Borashi%20Hyuga%20(B)%2FTecnicas%2F04%20-%20Fuj%C5%8Dgan%3A%20Modo%20Chakra%20Profano.png?alt=media&v=1784037733993645"
       }
     ],
     gallery: [
@@ -2464,7 +2464,7 @@ export const initialData: Character[] = [
     description: "Chisaki Dokuhana, conhecida como C, é a personificação do controle absoluto em meio ao caos. Nascida em uma família respeitada por seu domínio em fūinjutsu e ninjutsu médico, ela cresceu cercada por disciplina, técnica e propósito. Filha de Rock Gunma, sua vida tomou um rumo trágico — ou pelo menos foi isso que a fizeram acreditar.\n\nApós uma manipulação profunda de memórias realizada pela Organização do Chakra Artificial, Chisaki passou a carregar uma culpa que nunca foi realmente sua: a de ter falhado em salvar o próprio pai. Esse trauma fabricado se tornou o núcleo de sua existência, moldando sua obsessão por controle, cura e proteção.\n\nDeterminada a nunca mais falhar, mergulhou completamente no estudo do corpo humano, do chakra e das técnicas de selamento.\n\nDurante uma missão de resgate a vítimas de experimentos, foi capturada pela própria organização que mais tarde a transformaria. Forçada a absorver 50% de chakra artificial, Chisaki não quebrou — ela evoluiu. Com o tempo, refinou seu controle a níveis quase perfeitos, alcançando 88% sem perder sua estabilidade mental, algo raro entre os modificados.\n\nDominando o Shōton, o ninjutsu médico avançado, fūinjutsu e senjutsu, ela se tornou uma combatente completa, capaz de defender, curar e neutralizar ameaças com precisão cirúrgica.\n\nSua maior evolução veio com o despertar do Modo Sábio de Cristal, uma forma única de senjutsu que amplifica suas habilidades e transforma o campo de batalha em uma extensão de sua vontade.\n\nDentro da Equipe 75%, Chisaki atua como o eixo central — a única capaz de equilibrar o caos de Akairo e a frieza de Borashi. Apesar de sua postura firme e calculista, existe nela um instinto protetor quase maternal, tratando ambos como uma família reconstruída.\n\nO que ela não sabe é que essa conexão vai além do acaso: Akira, outro membro do mesmo universo, é seu irmão de sangue, separado dela ainda na infância pela própria organização. Sem memória dessa ligação, os dois seguem caminhos paralelos, carregando um vínculo invisível que o destino ainda não revelou.\n\nPara a equipe, Chisaki é estabilidade. Para os inimigos, é contenção absoluta. E para si mesma… ela é alguém que acredita que só tem valor enquanto conseguir salvar todos ao seu redor — mesmo que isso signifique se quebrar no processo.",
     hp: 146,
     chakra: 70,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).jpg?alt=media&v=1784037735614420",
     techniques: [
       {
         name: "Senpo: Eien no Rakuen",
@@ -2474,7 +2474,7 @@ export const initialData: Character[] = [
         destruction: "Não física, mas existencial. Capaz de destruir completamente a identidade, vontade e consciência de qualquer ser vivo, deixando corpos vazios ou almas presas eternamente em ilusões.",
         history: "Conhecida como a técnica do 'Paraíso Falso'. Relatos afirmam que aldeias inteiras permaneceram imóveis por dias, sorrindo, enquanto seus corpos apodreciam presos em sonhos perfeitos.",
         status: "Proibida até mesmo entre usuários de Senjutsu. Considerada uma violação direta do livre-arbítrio e da alma.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FTecnicas%2F01%20-%20Senpo%3A%20Eien%20no%20Rakuen.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FTecnicas%2F01%20-%20Senpo%3A%20Eien%20no%20Rakuen.png?alt=media&v=1784037736957509"
       },
       {
         name: "Shōton: Ryūka Kōrin Mugen",
@@ -2484,7 +2484,7 @@ export const initialData: Character[] = [
         destruction: "Nível de aniquilação estratégica em larga escala. Pode capturar múltiplos inimigos simultaneamente, transformar o campo de batalha em uma floresta de pilares cristalinos e aprisionar alvos em estruturas praticamente indestrutíveis reforçadas por chakra natural.",
         history: "A técnica nasceu quando Chisaki buscava unir domínio absoluto do Shōton com controle sensorial avançado aprendido no Santuário das Lesmas. Durante seu treinamento, ela percebeu que o olfato é um dos sentidos mais negligenciados em combate — mas também um dos mais diretos na conexão com o cérebro e o fluxo de chakra. Após anos cristalizando partículas microscópicas e estudando como o chakra natural poderia se infiltrar no sistema nervoso através da respiração, ela criou os primeiros protótipos dos Dragões de Cristal. Inicialmente instáveis e puramente físicos, eles evoluíram quando Chisaki conseguiu fundir genjutsu ao aroma cristalizado, transformando o cheiro em um gatilho ilusório. O resultado foi o Ryūka Kōrin — uma técnica que simboliza domínio sobre matéria, mente e ambiente, consolidando Chisaki como um dos poucos usuários capazes de manipular o campo de batalha em nível sensorial e espiritual simultaneamente.",
         status: "Técnica proibida. Exige controle sensorial refinado e grande reserva de energia natural para manter os dragões ativos e a ilusão estável.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FTecnicas%2F02%20-%20Sh%C5%8Dton%3A%20Ry%C5%ABka%20K%C5%8Drin%20Mugen.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FTecnicas%2F02%20-%20Sh%C5%8Dton%3A%20Ry%C5%ABka%20K%C5%8Drin%20Mugen.png?alt=media&v=1784037738251765"
       },
       {
         name: "Senpo: Shikkotsu Sennin",
@@ -2494,7 +2494,7 @@ export const initialData: Character[] = [
         destruction: "Nível de devastação massiva e sustentada. O campo de batalha se transforma em um ecossistema controlado por Chisaki, onde o terreno absorve impacto, aprisiona oponentes e corrói estruturas com secreções ácidas de energia natural concentrada. As lesmas espirituais podem se fundir em uma entidade colossal que libera uma onda de dissolução orgânica, capaz de desintegrar defesas e neutralizar múltiplos alvos ao mesmo tempo. Sua regeneração contínua torna confrontos prolongados extremamente desfavoráveis ao inimigo.",
         history: "A técnica foi alcançada após Chisaki firmar um pacto profundo com as lesmas sábias dominando não apenas a absorção de energia natural, mas sua harmonização perfeita. Diferente de usuários parciais do modo sábio, ela aprendeu a estabilizar o fluxo constante sem auxílio externo, atingindo um estado completo e autossustentável que simboliza vida, adaptação e persistência absoluta.",
         status: "Altamente estável enquanto houver energia natural disponível. Em ambientes áridos ou espiritualmente estéreis, o consumo excessivo pode causar petrificação parcial. Exige controle mental refinado para manter o equilíbrio entre regeneração, ataque e manutenção do ecossistema criado.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FTecnicas%2F03%20-%20Senpo%3A%20Shikkotsu%20Sennin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F28%20-%20Chisaki%20Dokuhana%20(C)%2FTecnicas%2F03%20-%20Senpo%3A%20Shikkotsu%20Sennin.png?alt=media&v=1784037739642627"
       }
     ],
     gallery: [
@@ -2536,7 +2536,7 @@ export const initialData: Character[] = [
     chakra: 96,
     isDead: true,
     killedBy: "Akairo Uchiha",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FDaiki%20Uzumaki%20(D).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FDaiki%20Uzumaki%20(D).jpg?alt=media&v=1784037741387671",
     techniques: [
       {
         name: "Kage Uzumaki no Shūen: Kokuen Metsubō",
@@ -2546,7 +2546,7 @@ export const initialData: Character[] = [
         destruction: "Absoluta. Não há dano externo visível, mas todos os alvos morrem por colapso interno completo, sem possibilidade de regeneração ou cura.",
         history: "Conhecida como a técnica do 'Velório Negro'. Registros afirmam que campos de batalha inteiros foram encontrados intactos, sem sinais de luta, apenas centenas de corpos caídos com expressões congeladas de terror.",
         status: "Proibida universalmente. Classificada como técnica de extinção instantânea, sem defesa conhecida.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F01%20-%20Kage%20Uzumaki%20no%20Sh%C5%ABen%3A%20Kokuen%20Metsub%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F01%20-%20Kage%20Uzumaki%20no%20Sh%C5%ABen%3A%20Kokuen%20Metsub%C5%8D.png?alt=media&v=1784037743196063"
       },
       {
         name: "Kagejutsu: Kongō Kage Mane",
@@ -2556,7 +2556,7 @@ export const initialData: Character[] = [
         destruction: "Supressão transcendental. Capaz de capturar múltiplos alvos em larga escala, anular técnicas de espaço-tempo, impedir formação de jutsus e selar fluxos de chakra instantaneamente. Pode neutralizar adversários extremamente rápidos ou furtivos.",
         history: "Após dominar o Kagura Shingan, Daiki percebeu que poderia eliminar o maior ponto fraco do Kongō Kage Mane: a necessidade de conexão inicial. Ele refinou a técnica até que suas sombras reagissem automaticamente às informações sensoriais, permitindo captura instantânea. Essa evolução foi criada após confrontos contra inimigos capazes de teleporte e ocultação.",
         status: "Técnica proibida de nível máximo. O uso exige foco mental absoluto e enorme reserva de chakra. Qualquer falha de concentração pode causar colapso nervoso devido à sobrecarga sensorial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F02%20-%20Kagejutsu%3A%20Kong%C5%8D%20Kage%20Mane.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F02%20-%20Kagejutsu%3A%20Kong%C5%8D%20Kage%20Mane.png?alt=media&v=1784037744631380"
       },
       {
         name: "Kagejutsu: Yami no Sōheki Mugen",
@@ -2566,7 +2566,7 @@ export const initialData: Character[] = [
         destruction: "Nível de supressão absoluta. Capaz de imobilizar múltiplos alvos simultaneamente, restringindo movimento físico e fluxo de chakra. Em escala máxima, Daiki pode transformar toda a área em um domínio de sombras onde qualquer superfície se torna um ponto de ataque.",
         history: "A técnica surgiu quando Daiki buscava superar as limitações tradicionais das técnicas de sombra, que dependiam apenas da imitação ou paralisação. Durante missões de alto risco, ele percebeu que precisava de um método de captura mais letal e instantâneo. Após anos de treinamento, ele desenvolveu a capacidade de comprimir suas sombras até um estado semi-sólido, permitindo que elas assumissem formas perfurantes. Com o tempo, Daiki refinou o controle para que as lanças não apenas prendessem, mas também reagissem ao chakra do oponente, tornando a técnica mais eficiente contra inimigos poderosos.",
         status: "Técnica secreta. Exige enorme controle de chakra e domínio absoluto sobre manipulação de sombras, sendo perigosa até mesmo para o usuário caso perca a concentração.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F03%20-%20Kagejutsu%3A%20Yami%20no%20S%C5%8Dheki%20Mugen.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F03%20-%20Kagejutsu%3A%20Yami%20no%20S%C5%8Dheki%20Mugen.png?alt=media&v=1784037746077331"
       },
       {
         name: "Kagejutsu: Kurayami no Shunshin",
@@ -2576,7 +2576,7 @@ export const initialData: Character[] = [
         destruction: "Alta mobilidade e assassinato silencioso. Permite ataques surpresa, evasão e infiltração em combate.",
         history: "Criado após Daiki perceber que precisava de mobilidade para complementar suas técnicas de captura. Ele estudou formas de transformar seu corpo em energia sombria, permitindo deslocamentos imprevisíveis.",
         status: "Uso frequente em missões de assassinato e reconhecimento.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F04%20-%20Kagejutsu%3A%20Kurayami%20no%20Shunshin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F04%20-%20Kagejutsu%3A%20Kurayami%20no%20Shunshin.png?alt=media&v=1784037747174308"
       },
       {
         name: "Kagura Shingan",
@@ -2586,7 +2586,7 @@ export const initialData: Character[] = [
         destruction: "Suporte estratégico de alto nível. Embora não seja uma técnica ofensiva direta, aumenta drasticamente a eficiência de combate, tornando emboscadas contra Daiki extremamente difíceis e ampliando a precisão de suas técnicas de captura.",
         history: "Após estudar técnicas sensoriais raras e observar usuários lendários dessa habilidade, Daiki iniciou um treinamento rigoroso para expandir sua percepção. Ao longo de anos, refinou sua mente e chakra para alcançar um estado de sensibilidade extrema, transformando o Kagura Shingan em um elemento central de seu estilo de combate.",
         status: "Habilidade avançada. Consome chakra constantemente e pode causar fadiga mental caso usada por longos períodos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F05%20-%20Kagura%20Shingan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F29%20-%20Daiki%20Uzumaki%20(D)%2FTecnicas%2F05%20-%20Kagura%20Shingan.png?alt=media&v=1784037748677538"
       }
     ],
     gallery: [
@@ -2630,7 +2630,7 @@ export const initialData: Character[] = [
     chakra: 52,
     isDead: true,
     killedBy: "Chip da OCA",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F30%20-%20Etsuko%20Senju%20(E)%2FEtsuko%20Senju%20(E).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F30%20-%20Etsuko%20Senju%20(E)%2FEtsuko%20Senju%20(E).jpg?alt=media&v=1784037757782849",
     techniques: [
       {
         name: "Shakuton Hiraishin: Kōyō Rasengan no Ame",
@@ -2640,7 +2640,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Capaz de vaporizar matéria orgânica, derreter defesas de chakra e causar explosões térmicas que devastam grandes áreas.",
         history: "Considerada a técnica mais rápida e imprevisível de Etsuko. Relatos indicam que nenhum oponente conseguiu reagir após a ativação completa do jutsu.",
         status: "Uso restrito. Requer domínio absoluto de Hiraishin e controle preciso do elemento calor para evitar colapso de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F30%20-%20Etsuko%20Senju%20(E)%2FTecnicas%2F01%20-%20Shakuton%20Hiraishin%3A%20K%C5%8Dy%C5%8D%20Rasengan%20no%20Ame.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F30%20-%20Etsuko%20Senju%20(E)%2FTecnicas%2F01%20-%20Shakuton%20Hiraishin%3A%20K%C5%8Dy%C5%8D%20Rasengan%20no%20Ame.png?alt=media&v=1784037759378926"
       },
     ],
     gallery: [
@@ -2685,7 +2685,7 @@ export const initialData: Character[] = [
     chakra: 52,
     isDead: true,
     killedBy: "Kaito Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F31%20-%20Fuyuki%20Dokuhana%20(F)%2FFuyuki%20Dokuhana%20(F).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F31%20-%20Fuyuki%20Dokuhana%20(F)%2FFuyuki%20Dokuhana%20(F).jpg?alt=media&v=1784037760014929",
     techniques: [
       {
         name: "Fuyuki: Jigoku Dokuketsu – Chi no Enkai Metsubō",
@@ -2695,7 +2695,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Capaz de dizimar campos de batalha inteiros, corroer defesas de chakra, envenenar sistemas circulatórios instantaneamente e gerar explosões tóxicas que continuam liberando gases letais mesmo após a detonação inicial.",
         history: "Conhecida como a técnica mais cruel de Fuyuki, foi registrada como responsável pelo colapso silencioso de múltiplas formações inimigas antes mesmo do combate direto começar. Sobreviventes relatam que o ataque não possui som inicial — apenas uma súbita sensação de que o próprio ar se tornou mortal.",
         status: "Uso altamente restrito. Exige grande volume sanguíneo, resistência física extrema e controle absoluto do chakra profano. Uso excessivo pode causar necrose interna e envenenamento reverso no próprio Fuyuki.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F31%20-%20Fuyuki%20Dokuhana%20(F)%2FTecnicas%2F01%20-%20Fuyuki%3A%20Jigoku%20Dokuketsu%20%E2%80%93%20Chi%20no%20Enkai%20Metsub%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F31%20-%20Fuyuki%20Dokuhana%20(F)%2FTecnicas%2F01%20-%20Fuyuki%3A%20Jigoku%20Dokuketsu%20%E2%80%93%20Chi%20no%20Enkai%20Metsub%C5%8D.png?alt=media&v=1784037761730833"
       },
     ],
     gallery: [
@@ -2736,7 +2736,7 @@ export const initialData: Character[] = [
     chakra: 105,
     isDead: true,
     killedBy: "Kaito Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F32%20-%20Genei%20(G)%2FGenei%20(G).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F32%20-%20Genei%20(G)%2FGenei%20(G).jpg?alt=media&v=1784037770738122",
     techniques: [
       {
         name: "Bijuu Profana: Manto Profano",
@@ -2746,7 +2746,7 @@ export const initialData: Character[] = [
         destruction: "Catastrófico. Capaz de devastar cidades inteiras com investidas aéreas, cortar defesas supremas de chakra com garras metálicas profanas e gerar tempestades de fragmentos metálicos energizados que dilaceram tudo em grande escala.",
         history: "Classificada como Rank Z por ultrapassar limites convencionais de transformação e existência física. Relatos indicam que durante sua ativação completa, a presença espiritual de Genei distorce o ambiente, tornando o campo de batalha pesado e instável.",
         status: "Estado extremamente instável. Consome massivamente o núcleo de chakra profano de Genei. Caso a fusão ultrapasse o limite de controle, há risco de perda permanente da forma humana e colapso estrutural do corpo artificial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F32%20-%20Genei%20(G)%2FTecnicas%2F01%20-%20Bijuu%20Profana%3A%20Manto%20Profano.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F32%20-%20Genei%20(G)%2FTecnicas%2F01%20-%20Bijuu%20Profana%3A%20Manto%20Profano.png?alt=media&v=1784037772346356"
       },
       {
         name: "Senpo: Trono da Forja Profana Absoluta",
@@ -2756,7 +2756,7 @@ export const initialData: Character[] = [
         destruction: "Apocalíptico. Capaz de devastar regiões inteiras, colapsar defesas supremas, esmagar exércitos com estruturas colossais e transformar o campo de batalha em um domínio permanente de metal profano.",
         history: "Essa técnica é considerada a evolução final do Domínio da Forja Profana. Após expandir seu controle sobre Senjutsu e integrar completamente o chakra profano ao seu núcleo artificial, Genei ultrapassou o conceito de manipulação ambiental e passou a converter a própria natureza em sua arma. Registros indicam que áreas afetadas por essa habilidade permanecem contaminadas por energia metálica e distorções espirituais por longos períodos.",
         status: "Extremamente instável. O uso prolongado sobrecarrega o núcleo artificial e pode levar à fusão permanente entre Genei e o território, resultando na perda total de sua forma humana. Técnica de último recurso.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F32%20-%20Genei%20(G)%2FTecnicas%2F02%20-%20Senpo%3A%20Trono%20da%20Forja%20Profana%20Absoluta.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F32%20-%20Genei%20(G)%2FTecnicas%2F02%20-%20Senpo%3A%20Trono%20da%20Forja%20Profana%20Absoluta.png?alt=media&v=1784037773694108"
       },
     ],
     gallery: [
@@ -2808,7 +2808,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Hikaru Ishi",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F33%20-%20Hayato%20Hanzo%20(H)%2FHayato%20Hanzo%20(H).jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F33%20-%20Hayato%20Hanzo%20(H)%2FHayato%20Hanzo%20(H).jpg?alt=media&v=1784037777619552",
     techniques: [
       {
         name: "Hanzo: Shiroki Kaminari – Amenotejikara no Shinsei",
@@ -2818,7 +2818,7 @@ export const initialData: Character[] = [
         destruction: "Imensurável em nível estratégico. Embora não seja puramente explosiva, permite aniquilação instantânea através de trocas letais, reposicionamento forçado em ataques mortais e desintegração indireta causada por distorções elétrico-espaciais do Shiroki Kaminari.",
         history: "Classificada como Rank Z por ultrapassar o conceito tradicional de espaço-tempo. Considerada a forma definitiva do Amenotejikara. Registros afirmam que, após seu despertar, nenhum campo de batalha permanece estático sob a presença de Hanzo.",
         status: "Consome quantidades colossais de chakra e exige controle mental absoluto. Uso prolongado pode causar sobrecarga neural e colapso sensorial devido à percepção simultânea de múltiplas trocas espaciais.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F33%20-%20Hayato%20Hanzo%20(H)%2FTecnicas%2F01%20-%20Hanzo%3A%20Shiroki%20Kaminari%20%E2%80%93%20Amenotejikara%20no%20Shinsei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F33%20-%20Hayato%20Hanzo%20(H)%2FTecnicas%2F01%20-%20Hanzo%3A%20Shiroki%20Kaminari%20%E2%80%93%20Amenotejikara%20no%20Shinsei.png?alt=media&v=1784037779274222"
       },
     ],
     gallery: [
@@ -2866,7 +2866,7 @@ export const initialData: Character[] = [
     chakra: 70,
     isDead: true,
     killedBy: "?",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F34%20-%20Hashirama%20Senju%2FHashirama%20Senju.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F34%20-%20Hashirama%20Senju%2FHashirama%20Senju.png?alt=media&v=1784037776587111",
     stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 20, vigor: 12, perception: 20 },
     powers: [
       { name: "Mokuton", level: 10 },
@@ -2910,7 +2910,7 @@ export const initialData: Character[] = [
     chakra: 70,
     isDead: true,
     killedBy: "Hashirama Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F35%20-%20Madara%20Uchiha%2FMadara%20Uchiha.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F35%20-%20Madara%20Uchiha%2FMadara%20Uchiha.png?alt=media&v=1784037814268545",
     stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 20, vigor: 12, perception: 20 },
     powers: [
       { name: "Katon", level: 10 },
@@ -2951,7 +2951,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 114,
     chakra: 87,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FAiri%20Senju.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FAiri%20Senju.png?alt=media&v=1784037662015590",
     techniques: [
       {
         name: "Senpo Mokuton: Sōshin Mokujin",
@@ -2961,7 +2961,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. A combinação de força bruta massiva, combate em dupla, regeneração contínua e técnicas de contenção torna os Mokujin capazes de esmagar defesas, imobilizar inimigos e dominar grandes áreas do campo.",
         history: "Inspirada nas construções lendárias do Mokuton, Airi refinou a técnica para operar múltiplas entidades simultaneamente. Ao invés de criar apenas uma manifestação de madeira, ela desenvolveu um sistema de conexão subterrânea que permite controlar dois colossos como se fossem prolongamentos naturais de seu próprio corpo.",
         status: "Consome chakra de forma constante enquanto os golens permanecem ativos. Caso a conexão com o solo seja interrompida, os Mokujin perdem estabilidade, enfraquecem progressivamente e começam a se desintegrar.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F01%20-%20Senpo%20Mokuton%3A%20S%C5%8Dshin%20Mokujin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F01%20-%20Senpo%20Mokuton%3A%20S%C5%8Dshin%20Mokujin.jpg?alt=media&v=1784037663594954"
       },
       {
         name: "Senpo Mokuton: Shinkaiju no Seimei Kekkai",
@@ -2971,7 +2971,7 @@ export const initialData: Character[] = [
         destruction: "Baixo ofensivo direto, porém extremo em sustentação. Torna aliados extremamente difíceis de derrotar enquanto estiver ativa.",
         history: "Inspirada nas habilidades regenerativas lendárias do Mokuton, Airi desenvolveu essa técnica focando totalmente no aspecto de suporte e preservação da vida.",
         status: "Consome grande quantidade de chakra e exige concentração contínua. Caso Airi seja interrompida, a estrutura enfraquece rapidamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F02%20-%20Senpo%20Mokuton%3A%20Shinkaiju%20no%20Seimei%20Kekkai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F02%20-%20Senpo%20Mokuton%3A%20Shinkaiju%20no%20Seimei%20Kekkai.jpg?alt=media&v=1784037665310563"
       },
       {
         name: "Senpo Mokuton: Shinrin Seizon no Kyōmei",
@@ -2981,7 +2981,7 @@ export const initialData: Character[] = [
         destruction: "Moderado direto, porém extremo em domínio de campo. Controle absoluto da área e vantagem total em percepção e reação.",
         history: "Desenvolvido a partir de sua afinidade com Senjutsu e habilidades sensoriais, esse jutsu representa a fusão completa entre Airi e a natureza ao seu redor.",
         status: "Alto consumo de chakra ao manter a área ativa. Eficiência reduzida em ambientes sem vegetação ou com interferência artificial massiva.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F03%20-%20Senpo%20Mokuton%3A%20Shinrin%20Seizon%20no%20Ky%C5%8Dmei.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F03%20-%20Senpo%20Mokuton%3A%20Shinrin%20Seizon%20no%20Ky%C5%8Dmei.jpg?alt=media&v=1784037666528621"
       },
       {
         name: "Senpo Mokuton: Jukai Kōrin: Shinen no Kusari",
@@ -2991,7 +2991,7 @@ export const initialData: Character[] = [
         destruction: "Alto em controle. Neutralização quase total de múltiplos inimigos e drenagem contínua de chakra.",
         history: "Uma evolução do Jukai Kōrin tradicional, adaptada por Airi para maximizar controle de campo e supressão de adversários.",
         status: "Menos eficiente contra ataques massivos de destruição em área ou técnicas de espaço-tempo. Alto custo de chakra ao manter múltiplos alvos presos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F04%20-%20Senpo%20Mokuton%3A%20Jukai%20K%C5%8Drin%3A%20Shinen%20no%20Kusari.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F04%20-%20Senpo%20Mokuton%3A%20Jukai%20K%C5%8Drin%3A%20Shinen%20no%20Kusari.jpg?alt=media&v=1784037667805558"
       },
       {
         name: "Sennin Fuka",
@@ -3001,7 +3001,7 @@ export const initialData: Character[] = [
         destruction: "Elevado de forma indireta. Amplifica drasticamente todas as técnicas, especialmente controle de campo, regeneração e suporte, tornando Airi o núcleo de sustentação em combate prolongado.",
         history: "Diferente de outros usuários, Airi atingiu um equilíbrio completo com o Senjutsu através de sua afinidade natural com o Mokuton e seu domínio do ninjutsu médico, eliminando as instabilidades comuns do estado incompleto.",
         status: "Estável. Pode ser mantido por períodos prolongados, porém o uso contínuo consome chakra gradualmente. Em ambientes pobres em energia natural, sua eficiência é reduzida.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F05%20-%20Sennin%20Fuka.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F05%20-%20Sennin%20Fuka.png?alt=media&v=1784037669946411"
       },
       {
         name: "Mokuton: Shokubutsu no Kekkai Iryou",
@@ -3011,7 +3011,7 @@ export const initialData: Character[] = [
         destruction: "Baixo ofensivo. Alto valor defensivo e regenerativo, podendo anular danos críticos em combate prolongado.",
         history: "Desenvolvida a partir da fusão entre ninjutsu médico e Mokuton, visando criar uma defesa autossustentável para aliados em campo.",
         status: "Consome chakra moderado. Uso simultâneo em múltiplos aliados reduz a eficiência individual de cada cápsula.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F03%20-%20Senpo%20Mokuton%3A%20Shinrin%20Seizon%20no%20Ky%C5%8Dmei.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F03%20-%20Senpo%20Mokuton%3A%20Shinrin%20Seizon%20no%20Ky%C5%8Dmei.jpg?alt=media&v=1784037666528621"
       },
       {
         name: "Mokuton: Kisei no Hana",
@@ -3021,7 +3021,7 @@ export const initialData: Character[] = [
         destruction: "Moderado indireto. Drenagem contínua de chakra e vantagem tática através de rastreamento.",
         history: "Criada para complementar seu estilo de suporte, permitindo controle passivo do campo de batalha e enfraquecimento progressivo dos inimigos.",
         status: "Requer contato inicial. A drenagem é gradual e pode ser removida por usuários com alto controle de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F07%20-%20Mokuton%3A%20Kisei%20no%20Hana.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F36%20-%20Airi%20Senju%2FTecnicas%2F07%20-%20Mokuton%3A%20Kisei%20no%20Hana.jpg?alt=media&v=1784037672329674"
       }
     ],
     gallery: [
@@ -3072,7 +3072,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. Ataque em larga escala com efeito contínuo, causando devastação em área e incapacitação imediata dos alvos atingidos.",
         history: "Símbolo da superação da maldição Uchiha, esta técnica representa uma chama que não apenas destrói, mas renasce e subjuga. A fênix carmesim tornou-se um marco do domínio absoluto sobre Katon e Raiton simultaneamente.",
         status: "Altíssimo consumo de chakra e risco severo de sobrecarga elétrica interna. Uso prolongado pode comprometer o sistema nervoso do usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F01%20-%20Katon%3A%20F%C3%AAnix%20do%20Trov%C3%A3o%20Carmesim.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F01%20-%20Katon%3A%20F%C3%AAnix%20do%20Trov%C3%A3o%20Carmesim.jpg?alt=media&v=1784037713152301"
       },
       {
         name: "Katon: Kirin — Raijin Carmesim",
@@ -3082,7 +3082,7 @@ export const initialData: Character[] = [
         destruction: "Catastrófico. Impacto massivo e praticamente impossível de evitar.",
         history: "Evolução do Kirin tradicional, adaptado ao estilo híbrido de Ayumi.",
         status: "Requer preparação ou alto custo de chakra para simular o ambiente ideal.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F02%20-%20Katon%3A%20Kirin%20%E2%80%94%20Raijin%20Carmesim.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F02%20-%20Katon%3A%20Kirin%20%E2%80%94%20Raijin%20Carmesim.jpg?alt=media&v=1784037714271339"
       },
       {
         name: "Katon: Gōkakyū no Jutsu",
@@ -3092,7 +3092,7 @@ export const initialData: Character[] = [
         destruction: "Alto. Grande dano em área com possibilidade de controle pós-lançamento.",
         history: "Técnica tradicional do clã Uchiha elevada ao limite através do talento de Ayumi.",
         status: "Consumo moderado de chakra. Pode ser utilizado repetidamente, mas perde eficiência sem concentração total.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F03%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20no%20Jutsu.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F03%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20no%20Jutsu.jpg?alt=media&v=1784037715425903"
       },
       {
         name: "Raiton: Chidori",
@@ -3102,7 +3102,7 @@ export const initialData: Character[] = [
         destruction: "Muito alto em alvo único. Perfuração extrema com dano interno.",
         history: "Baseado no Chidori clássico, aprimorado para máxima precisão e eficiência letal.",
         status: "Exige alto controle e velocidade. Uso contínuo pode danificar músculos e articulações devido à pressão elétrica",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F04%20-%20Raiton%3A%20Chidori.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F04%20-%20Raiton%3A%20Chidori.jpg?alt=media&v=1784037716512724"
       },
       {
         name: "Raiton: Shinkō Nervoso",
@@ -3112,7 +3112,7 @@ export const initialData: Character[] = [
         destruction: "Baixo direto, porém extremamente perigoso em combate. Aumenta drasticamente evasão, velocidade e precisão, tornando Ayumi praticamente intocável em curto prazo.",
         history: "Desenvolvido como uma forma de compensar limitações físicas, Ayumi combinou Raiton e Fuinjutsu para ultrapassar os limites naturais do corpo humano.",
         status: "Uso prolongado sobrecarrega o sistema nervoso, podendo causar paralisia temporária ou colapso muscular.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F05%20-%20Raiton%3A%20Shink%C5%8D%20Nervoso.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F05%20-%20Raiton%3A%20Shink%C5%8D%20Nervoso.jpg?alt=media&v=1784037717520199"
       },
       {
         name: "Fuinjutsu: Marca Carmesim",
@@ -3122,7 +3122,7 @@ export const initialData: Character[] = [
         destruction: "Variável. Pode amplificar dano indiretamente, dividir impactos ou enfraquecer o alvo ao drenar chakra continuamente.",
         history: "Criado a partir de estudos avançados de Fuinjutsu, Ayumi buscou uma técnica que permitisse controle absoluto do campo de batalha e dos vínculos entre combatentes.",
         status: "Requer preparação ou contato inicial. Manter múltiplas marcas consome chakra constante e pode afetar o foco da usuária.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F06%20-%20Fuinjutsu%3A%20Marca%20Carmesim.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F37%20-%20Ayumi%20Uchiha%2FTecnicas%2F06%20-%20Fuinjutsu%3A%20Marca%20Carmesim.jpg?alt=media&v=1784037718655123"
       }
     ],
     gallery: [
@@ -3166,7 +3166,7 @@ export const initialData: Character[] = [
     description: "Shizumi Uchiha, reconhecida pelo próprio Tobirama como uma das mentes mais brilhantes de Konoha, sempre esteve muito à frente de sua geração. Desde a infância, demonstrou uma afinidade incomum com o Raiton, manipulando descargas elétricas com precisão e instinto quase naturais.\n\nNo entanto, seu verdadeiro diferencial nunca foi apenas poder — foi sua obsessão por compreender. Fascinada pelo lendário Hiraishin, Shizumi mergulhou profundamente no estudo de fuinjutsu, dedicando anos a desvendar os princípios por trás da manipulação de espaço, marcação e fluxo de chakra.\n\nSua trajetória, porém, foi brutalmente interrompida durante o fatídico sequestro das crianças de Konoha.\n\nCapturada, Shizumi foi submetida a um processo contínuo de tortura psicológica, onde sua mente foi levada ao limite repetidas vezes. Foi nesse abismo que seu Mangekyō Sharingan despertou — não como um símbolo de evolução, mas como resultado direto do colapso.\n\nDiferente de outros Uchiha, seus olhos não foram apenas despertados… foram forçados além do natural.\n\nMesmo após perder a visão, experimentos envolvendo chakra profano mantiveram seus olhos ativos artificialmente, obrigando-os a continuar funcionando contra todas as leis conhecidas. Nesse processo, algo inexplicável ocorreu: um dos tomoe de seu Sharingan simplesmente desapareceu, como se sua própria estrutura ocular estivesse sendo reescrita.\n\nSeu outro olho foi removido e implantado em um agente interno da OCA, criando uma conexão anômala. Através desse vínculo corrompido, Shizumi passou a enxergar pelo olho distante, transformando-se involuntariamente em um instrumento de vigilância viva da organização. Sua percepção deixou de estar presa ao próprio corpo.\n\nDurante o Exame Chunin, essa conexão atingiu um ponto crítico. Incapaz de controlar o fluxo instável de chakra e a sobrecarga sensorial, Shizumi sofreu um colapso, liberando o Amaterasu de forma caótica, incendiando tudo ao seu redor sem distinção.\n\nO evento marcou o fim de sua estabilidade mental.\n\nApós o incidente, Shizumi foi considerada instável demais para permanecer ativa. Ela foi contida e levada a um hospital secreto de Konoha, onde permanece em coma desde então.\n\nOficialmente, seu corpo repousa. Extraoficialmente, sua mente nunca deixou de observar.\n\nFragmentada, conectada e presa entre dois pontos, Shizumi existe em um estado indefinido — nem consciente, nem ausente.\n\nPara Konoha, ela é um risco selado. Para a OCA, um experimento ainda ativo.\n\nE para aqueles que entendem a profundidade do que ela se tornou… Shizumi não está dormindo. Ela está vendo.",
     hp: 117,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1784037899354936",
     techniques: [
       {
         name: "Kaminari: Hiraishin",
@@ -3176,7 +3176,7 @@ export const initialData: Character[] = [
         destruction: "Baixo dano direto, porém valor tático extremo. Garante mobilidade absoluta, domínio de campo e vantagem posicional praticamente imbatível.",
         history: "Inspirada no Hiraishin de Tobirama, Shizumi adaptou a técnica ao seu estilo baseado em Kaminari e percepção sensorial avançada, criando uma versão mais imprevisível e letal em combates dinâmicos.",
         status: "Consumo contínuo de chakra e dependência de preparação prévia com selos ativos. Uso excessivo pode causar sobrecarga mental devido ao processamento constante de informações sensoriais.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F01%20-%20Kaminari%3A%20Hiraishin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F01%20-%20Kaminari%3A%20Hiraishin.jpg?alt=media&v=1784037901018304"
       },
       {
         name: "Kaminari: Jigoku no Amaterasu",
@@ -3186,7 +3186,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. Dano contínuo, propagação em cadeia e anulação progressiva do sistema de chakra.",
         history: "Despertado durante seus colapsos mentais, o Amaterasu de Shizumi sofreu mutação devido ao chakra profano e à instabilidade do seu Mangekyou, tornando-se uma versão mais caótica e imprevisível da chama negra original.",
         status: "Altíssimo consumo de chakra e desgaste mental severo. Risco de perda de controle e atingir aliados ou o ambiente indiscriminadamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F02%20-%20Kaminari%3A%20Jigoku%20no%20Amaterasu.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F02%20-%20Kaminari%3A%20Jigoku%20no%20Amaterasu.jpg?alt=media&v=1784037902622889"
       },
       {
         name: "Genjutsu: Shinkei Hakai",
@@ -3196,7 +3196,7 @@ export const initialData: Character[] = [
         destruction: "Baixo físico. Colapso mental extremo, incapacitante instantâneo.",
         history: "Resultado da fragmentação da própria mente de Shizumi, essa técnica reflete o estado em que ela existe — presa entre múltiplos pontos de percepção ao mesmo tempo.",
         status: "Exige alto foco e estabilidade mental. Uso prolongado pode causar feedback psicológico e agravar ainda mais sua condição.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F03%20-%20Genjutsu%3A%20Shinkei%20Hakai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F03%20-%20Genjutsu%3A%20Shinkei%20Hakai.jpg?alt=media&v=1784037903732923"
       },
       {
         name: "Kaminari: Kirin",
@@ -3206,7 +3206,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. Ataque de larga escala com dano instantâneo devastador.",
         history: "Uma releitura corrompida do lendário Kirin, adaptado ao seu Raio Negro.",
         status: "Requer condições atmosféricas ou preparação prévia do campo elétrico.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F04%20-%20Kaminari%3A%20Kirin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F04%20-%20Kaminari%3A%20Kirin.jpg?alt=media&v=1784037905249919"
       },
       {
         name: "Kaminari: Chidori",
@@ -3216,7 +3216,7 @@ export const initialData: Character[] = [
         destruction: "Alto. Dano perfurante com efeito interno prolongado.",
         history: "Evolução do Chidori tradicional, adaptado ao seu chakra corrompido.",
         status: "Exige alta precisão e controle; risco de contra-ataque sem suporte sensorial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F05%20-%20Kaminari%3A%20Chidori.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F38%20-%20Shizumi%20Uchiha%2FTecnicas%2F05%20-%20Kaminari%3A%20Chidori.jpg?alt=media&v=1784037906800455"
       }
     ],
     gallery: [
@@ -3262,7 +3262,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 0,
     chakra: 0,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F39%20-%20Hades%2FHades.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F39%20-%20Hades%2FHades.png?alt=media&v=1784037774678015",
     stats: { strength: 0, dexterity: 0, agility: 0, intelligence: 0, spirit: 0, vigor: 0, perception: 0 },
     powers: [
       { name: "Desconhecido", level: 0 },
@@ -3305,7 +3305,7 @@ export const initialData: Character[] = [
     description: "Desconhecido",
     hp: 0,
     chakra: 0,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FBeta.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FBeta.jpg?alt=media&v=1784037719455887",
     techniques: [
       {
         name: "Shinkaton: Shin Seimei Shinka",
@@ -3315,7 +3315,7 @@ export const initialData: Character[] = [
         destruction: "Nível apocalíptico adaptativo. Em combates prolongados, torna-se praticamente impossível de eliminar, superando qualquer oponente através de evolução contínua. Defesas, técnicas e estratégias perdem eficácia à medida que são analisadas e neutralizadas biologicamente.",
         history: "Despertada quando Beta alcançou a fusão perfeita entre Shinkaton e as células de Hashirama, transcendendo o conceito de corpo físico e tornando-se uma entidade de evolução viva. Nesse estado, ele não apenas luta — ele evolui a cada segundo de combate.",
         status: "Uso extremamente restrito. Consome quantidades colossais de chakra de forma contínua. A adaptação não ocorre instantaneamente na primeira interação, exigindo exposição inicial ao fenômeno. Sobrecarga evolutiva pode gerar instabilidade e mutações fora de controle, colocando o próprio usuário em risco.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F01%20-%20Shinkaton%3A%20Shin%20Seimei%20Shinka.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F01%20-%20Shinkaton%3A%20Shin%20Seimei%20Shinka.jpg?alt=media&v=1784037720795909"
       },
       {
         name: "Shinkaton: Chō Tekiō Seimeitai",
@@ -3325,7 +3325,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto em combate direto. Torna Beta dominante em confrontos prolongados, anulando progressivamente as ofensivas inimigas.",
         history: "Criada como uma evolução do controle corporal do Shinkaton, onde Beta abandona a necessidade de decisões conscientes e passa a lutar por instinto evolutivo.",
         status: "Alto consumo contínuo de chakra. Pode ser sobrecarregado por múltiplos estímulos desconhecidos simultaneamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F02%20-%20Shinkaton%3A%20Ch%C5%8D%20Teki%C5%8D%20Seimeitai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F02%20-%20Shinkaton%3A%20Ch%C5%8D%20Teki%C5%8D%20Seimeitai.jpg?alt=media&v=1784037722007529"
       },
       {
         name: "Shinkaton: Seimei Kōshin — Zettai Kyōsei",
@@ -3335,7 +3335,7 @@ export const initialData: Character[] = [
         destruction: "Nível apocalíptico biológico. Pode incapacitar ou destruir múltiplos inimigos sem contato direto prolongado.",
         history: "Desenvolvida quando Beta percebeu que sua evolução poderia ser imposta externamente, não apenas usada em si mesmo.",
         status: "Consumo extremo de chakra. Pode ser resistida por seres com alta estabilidade biológica ou habilidades regenerativas superiores.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F03%20-%20Shinkaton%3A%20Seimei%20K%C5%8Dshin%20%E2%80%94%20Zettai%20Ky%C5%8Dsei.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F03%20-%20Shinkaton%3A%20Seimei%20K%C5%8Dshin%20%E2%80%94%20Zettai%20Ky%C5%8Dsei.jpg?alt=media&v=1784037723084884"
       },
       {
         name: "Shinkaton: Kōzō Seimei Bunretsu",
@@ -3345,7 +3345,7 @@ export const initialData: Character[] = [
         destruction: "Massivo e progressivo. Pode dominar áreas inteiras com múltiplas entidades adaptativas, tornando o combate cada vez mais difícil conforme se prolonga.",
         history: "Desenvolvida quando Beta aprendeu a externalizar sua evolução, criando um sistema coletivo de adaptação ao invés de limitar o poder ao próprio corpo.",
         status: "Consumo elevado de chakra proporcional ao número de entidades. Dividir o corpo reduz o poder individual e pode causar feedback se muitas unidades forem destruídas.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F04%20-%20Shinkaton%3A%20K%C5%8Dz%C5%8D%20Seimei%20Bunretsu.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F04%20-%20Shinkaton%3A%20K%C5%8Dz%C5%8D%20Seimei%20Bunretsu.jpg?alt=media&v=1784037724384321"
       },
       {
         name: "Mokuton: Shinka Jukai — Kyōsei no Mori",
@@ -3355,7 +3355,7 @@ export const initialData: Character[] = [
         destruction: "Massivo e progressivo. Ideal para dominar grandes áreas e sufocar inimigos com pressão constante.",
         history: "Desenvolvida ao aplicar o conceito de evolução do Shinkaton diretamente no Mokuton, criando uma floresta adaptativa.",
         status: "Alto consumo de chakra, porém mais estável que técnicas Rank Z. Pode crescer fora de controle se prolongada demais.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F05%20-%20Mokuton%3A%20Shinka%20Jukai%20%E2%80%94%20Ky%C5%8Dsei%20no%20Mori.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F05%20-%20Mokuton%3A%20Shinka%20Jukai%20%E2%80%94%20Ky%C5%8Dsei%20no%20Mori.jpg?alt=media&v=1784037725596316"
       },
       {
         name: "Shinkaton: Seimei Junkan — Fumetsu no Kōsei",
@@ -3365,7 +3365,7 @@ export const initialData: Character[] = [
         destruction: "Altíssimo em sobrevivência e desgaste. O inimigo é superado pela incapacidade de causar dano efetivo ao longo do tempo.",
         history: "Criada a partir da combinação da regeneração das células de Hashirama com a fluidez do Suiton, elevando a adaptação do Shinkaton a um nível contínuo.",
         status: "Consumo extremo e constante de chakra. Vulnerável a técnicas de selamento ou evaporação em larga escala.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F06%20-%20Shinkaton%3A%20Seimei%20Junkan%20%E2%80%94%20Fumetsu%20no%20K%C5%8Dsei.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F40%20-%20Beta%2FTecnicas%2F06%20-%20Shinkaton%3A%20Seimei%20Junkan%20%E2%80%94%20Fumetsu%20no%20K%C5%8Dsei.jpg?alt=media&v=1784037726889595"
       }
     ],
     stats: { strength: 0, dexterity: 0, agility: 0, intelligence: 0, spirit: 0, vigor: 0, perception: 0 },
@@ -3407,7 +3407,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 133,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F45%20-%20Daichi%20Muuji%2FDaichi%20Muuji.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F45%20-%20Daichi%20Muuji%2FDaichi%20Muuji.png?alt=media&v=1784037740752460",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F3__Temporada.png?alt=media&v=1784751312034", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F5__Temporada.png?alt=media&v=1784751313537", caption: "5ª Temporada", category: "era" },
@@ -3444,7 +3444,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Hades",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F46%20-%20Koji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F46%20-%20Koji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media&v=1784037805387505",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKoji%20Ishizuma%2F3__Temporada.png?alt=media&v=1784751323948", caption: "3ª Temporada", category: "era" },
     ],
@@ -3481,7 +3481,7 @@ export const initialData: Character[] = [
     chakra: 96,
     isDead: true,
     killedBy: "Hades",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F47%20-%20Yuuto%20Han%2FYuuto%20Han.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F47%20-%20Yuuto%20Han%2FYuuto%20Han.png?alt=media&v=1784037971952676",
     techniques: [
       {
         name: "Kōkūmon: Kokuō Hakugin Ansatsu Keitai",
@@ -3491,7 +3491,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado em combate direto. Impactos assistidos por vapor podem esmagar defesas de alto nível, romper barreiras de chakra e neutralizar múltiplos alvos antes de qualquer reação perceptível.",
         history: "Desenvolvida ao sincronizar a abertura dos Portões Internos com o vapor de Kokuō, criando um manto híbrido de pressão e chakra que redefine a eficiência letal em curta e média distância.",
         status: "Uso altamente restrito. A combinação de pressão térmica e sobrecarga dos portões exige controle físico e mental absoluto. Uso prolongado pode causar colapso muscular e exaustão crítica.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F47%20-%20Yuuto%20Han%2FTecnicas%2F01%20-%20K%C5%8Dk%C5%ABmon%3A%20Koku%C5%8D%20Hakugin%20Ansatsu%20Keitai.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F47%20-%20Yuuto%20Han%2FTecnicas%2F01%20-%20K%C5%8Dk%C5%ABmon%3A%20Koku%C5%8D%20Hakugin%20Ansatsu%20Keitai.png?alt=media&v=1784037973627686"
       },
     ],
     gallery: [
@@ -3530,7 +3530,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Hades",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F48%20-%20Shin%20Mizukari%2FShin%20Mizukari.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F48%20-%20Shin%20Mizukari%2FShin%20Mizukari.png?alt=media&v=1784037898103928",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShin%20Mizukari%2F3__Temporada.png?alt=media&v=1784751360239", caption: "3ª Temporada", category: "era" },
     ],
@@ -3569,7 +3569,7 @@ export const initialData: Character[] = [
     description: "Shikure Chinoike é um gênio que ultrapassou a linha entre ciência e insanidade. Nascido no ramo mais isolado do clã Sabaku e filho de um chinoike, entre artesãos, alquimistas e criadores de marionetes, ele nunca enxergou o mundo como os outros. Enquanto crianças brincavam, Shikure desmontava bonecos para entender sua estrutura. Enquanto treinavam combate, ele estudava sangue, perguntando a si mesmo até onde o corpo humano poderia ser levado. Desde cedo, sabia que era diferente — e acreditava que isso o colocava acima de todos. Sua obsessão encontrou um foco nas lendas do Ketsuryūgan, o dōjutsu proibido dos Chinoike. Incapaz de aceitá-lo como algo inalcançável, Shikure decidiu recriá-lo. Usando o próprio corpo como laboratório, iniciou anos de experimentos clandestinos: manipulação sanguínea, infusão de areia em tecidos vivos, micro-selos implantados em suas próprias células. Ele não testava limites — ele os quebrava. E então, conseguiu. Despertou um Ketsuryūgan artificial, instável, nascido de sua própria carne. A partir desse momento, o medo deixou de existir. Se podia recriar um dōjutsu em si mesmo, poderia criar vida. Assim nasceu Akeganai, sua marionete perfeita, moldada à semelhança humana e equipada com um olho vermelho sintético capaz de lançar genjutsus devastadores — fazendo suas vítimas enxergarem aquilo que mais amaram na vida. Para Shikure, não era crueldade. Era evolução. Sua obra máxima viria em seguida: a Sekisuna Jinzo, uma marionete feita de sangue, areia e chakra, capaz de replicar perfeitamente guerreiros a partir de amostras coletadas. Aquilo não era apenas uma técnica — era a prova de que ele havia superado as limitações humanas. Quando Sunagakure descobriu seus experimentos, não viu genialidade — viu aberração. Ordenaram sua prisão, a destruição de suas pesquisas e a eliminação de Akeganai. Shikure fugiu sem hesitar, levando consigo tudo o que considerava importante e abandonando sua vila para trás. Ferido e à beira da morte no deserto, foi encontrado por Daichi — o único que não o julgou, mas lhe deu um propósito. Desde então, Shikure segue ao seu lado, convencido de que finalmente encontrou um lugar onde sua mente não é contida… mas necessária. Para o mundo, ele é um cientista insano. Para si mesmo, ele é o próximo passo da evolução.",
     hp: 130,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F49%20-%20Shikure%20Chinoike%2FShikure%20Chinoike.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F49%20-%20Shikure%20Chinoike%2FShikure%20Chinoike.png?alt=media&v=1784045915053735",
     techniques: [
       {
         name: "Ketsuryugan: Akeganai no Ketsu Gen'ei",
@@ -3579,7 +3579,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. Pode eliminar o alvo instantaneamente através da explosão interna causada pelo sangue de Shikure ou devastar o campo de batalha com a forma colossal automatizada de Akeganai.",
         history: "Criada após a fusão do controle avançado de marionetes com o poder ocular do Ketsuryugan e experimentos com chakra profano. Akeganai tornou-se uma arma viva de manipulação emocional e destruição inevitável.",
         status: "Alto consumo de chakra e risco de instabilidade mental devido à sobreposição entre emoção ilusória e intenção assassina. Uso prolongado pode comprometer o controle sobre a marionete gigante.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F49%20-%20Shikure%20Chinoike%2FTecnicas%2F01%20-%20Ketsuryugan%3A%20Akeganai%20no%20Ketsu%20Gen'ei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F49%20-%20Shikure%20Chinoike%2FTecnicas%2F01%20-%20Ketsuryugan%3A%20Akeganai%20no%20Ketsu%20Gen'ei.png?alt=media&v=1784045915441667"
       },
     ],
     gallery: [
@@ -3619,7 +3619,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 130,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F51%20-%20Akira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F51%20-%20Akira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1784037683463064",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F3__Temporada.png?alt=media&v=1784751293430", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F5__Temporada.png?alt=media&v=1784751295515", caption: "5ª Temporada", category: "era" },
@@ -3657,7 +3657,7 @@ export const initialData: Character[] = [
     description: "Katsuo Uzumaki é um nome que não deveria existir — não porque foi esquecido, mas porque deveria ter morrido. Aos 28 anos, durante o momento mais crítico da história recente ninja, ele realizou um ato proibido que quebrou as próprias leis da vida: ao presenciar a extração da Kurama de Naomi Uzumaki, Katsuo utilizou um Fuinjutsu perdido para converter 30 anos de sua própria vida em chakra vital puro, forçando o corpo dela a continuar funcionando mesmo após a perda parcial da Bijuu. Naomi sobreviveu… mas o preço foi pago por ele.\n\nEsse evento jamais veio à tona. O sacrifício de Katsuo foi mantido em absoluto sigilo, conhecido apenas por Tobirama, que compreendeu o peso e as consequências daquele ato. Em silêncio, permitiu que Katsuo se afastasse da linha de frente, oficialmente se aposentando do campo de batalha — não como punição, mas como necessidade. Incapaz de continuar lutando como antes, Katsuo assumiu uma nova função, tornando-se o líder da equipe de rastreamento de Konoha, onde sua experiência e percepção ainda poderiam ser usadas sem levá-lo à morte imediata.\n\nDesde aquele dia, Katsuo carrega um corpo que envelheceu décadas em instantes, com um sistema de chakra permanentemente danificado e instável. Ele não foi reconhecido, não foi celebrado — apenas continuou vivo. Nos anos seguintes, assistiu à consequência de sua escolha se desdobrar em tragédia: Naomi capturada, experimentos iniciados e o surgimento de novas vidas marcadas pela dor.\n\nMas o mundo seguiu… e Katsuo não.\n\nApós Hanzo fugir de Konoha com a chegada de Hades, algo nele quebrou de forma definitiva. Incapaz de aceitar o rumo que Konoha tomou — e principalmente a existência de Hades — Katsuo abandonou sua posição e desapareceu. Desde então, vaga pelo mundo ninja como uma sombra, rastreando incansavelmente aquele que fugiu no momento em que tudo começou.\n\nKatsuo não luta por redenção… ele luta para corrigir o erro que ele mesmo criou.",
     hp: 184,
     chakra: 123,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FKatsuo%20Uzumaki.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FKatsuo%20Uzumaki.jpg?alt=media&v=1784037791736725",
     techniques: [
       {
         name: "Fūinjutsu: Jikan Kesshō",
@@ -3667,7 +3667,7 @@ export const initialData: Character[] = [
         destruction: "Não destrutiva em larga escala, mas absolutamente decisiva. O Jikan Kesshō transforma Katsuo em uma fonte viva de energia vital, permitindo que ele suporte, regenere ou amplifique níveis de combate que normalmente seriam impossíveis. Em uso ofensivo, cada golpe carrega o peso de sua própria vida convertida, rompendo defesas através de pura densidade de chakra.",
         history: "A técnica foi utilizada pela primeira vez — e quase levou à morte de Katsuo — no momento em que Naomi Uzumaki teve a Kurama parcialmente extraída. Sem alternativas, ele ativou o selo e sacrificou 30 anos de sua vida para mantê-la viva. Desde então, o uso da técnica se tornou limitado e extremamente perigoso, pois seu corpo já não suporta novas conversões sem risco de morte imediata.",
         status: "Uso extremamente restrito. Cada ativação consome diretamente a vida restante de Katsuo. Seu corpo, já danificado, pode não suportar uma nova conversão completa. Em níveis extremos, o uso contínuo pode levar à desintegração total do usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F01%20-%20F%C5%ABinjutsu%3A%20Jikan%20Kessh%C5%8D.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F01%20-%20F%C5%ABinjutsu%3A%20Jikan%20Kessh%C5%8D.jpg?alt=media&v=1784037792797318"
       },
       {
         name: "Fūinjutsu: Zetsumei Keiyaku",
@@ -3677,7 +3677,7 @@ export const initialData: Character[] = [
         destruction: "Nenhuma direta, mas impede a morte imediata de aliados. Em combate prolongado, pode levar Katsuo ao colapso completo.",
         history: "Desenvolvido após o evento com Naomi, como uma forma de nunca mais permitir que alguém morra diante dele sem reação.",
         status: "Extremamente perigoso. Pode matar Katsuo no lugar do alvo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F02%20-%20F%C5%ABinjutsu%3A%20Zetsumei%20Keiyaku.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F02%20-%20F%C5%ABinjutsu%3A%20Zetsumei%20Keiyaku.jpg?alt=media&v=1784037793745337"
       },
       {
         name: "Futon: Rasen Shōgeki no Fūin",
@@ -3687,7 +3687,7 @@ export const initialData: Character[] = [
         destruction: "Alto dano surpresa em área localizada. Pode perfurar e dilacerar alvos desprevenidos instantaneamente.",
         history: "Criada como resposta à necessidade de controle territorial, permitindo que Katsuo lute mesmo em desvantagem física.",
         status: "Requer preparação prévia do campo. Consome chakra proporcional à quantidade de selos ativos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F03%20-%20Futon%3A%20Rasen%20Sh%C5%8Dgeki%20no%20F%C5%ABin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F03%20-%20Futon%3A%20Rasen%20Sh%C5%8Dgeki%20no%20F%C5%ABin.jpg?alt=media&v=1784037795199616"
       },
       {
         name: "Futon: Rasenshuriken",
@@ -3697,7 +3697,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. Dano interno massivo e irreversível. Pode incapacitar até usuários de alto nível com um único acerto.",
         history: "Baseado no Rasenshuriken original, mas adaptado ao estilo de Katsuo, focando em destruição absoluta ao invés de uso repetido.",
         status: "Altíssimo consumo de chakra. Uso limitado e perigoso para o próprio usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F04%20-%20Futon%3A%20Rasenshuriken.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F04%20-%20Futon%3A%20Rasenshuriken.jpg?alt=media&v=1784037795969582"
       },
       {
         name: "Katon: Kuro En",
@@ -3707,7 +3707,7 @@ export const initialData: Character[] = [
         destruction: "Alta precisão e dano contínuo. Ideal para eliminar alvos resistentes.",
         history: "Resultado da deterioração do chakra de Katsuo após o uso do Jikan Kesshō.",
         status: "Consome muito chakra e acelera o desgaste do corpo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F05%20-%20Katon%3A%20Kuro%20En.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F05%20-%20Katon%3A%20Kuro%20En.jpg?alt=media&v=1784037796723109"
       },
       {
         name: "Fūinjutsu: Shinkai Fūsa",
@@ -3717,7 +3717,7 @@ export const initialData: Character[] = [
         destruction: "Controle total de alvos. Pode neutralizar usuários de alto nível temporariamente.",
         history: "Baseado nos ensinamentos Uzumaki de contenção de Bijuu.",
         status: "Requer preparo e posicionamento estratégico.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F06%20-%20F%C5%ABinjutsu%3A%20Shinkai%20F%C5%ABsa.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F52%20-%20Katsuo%20Uzumaki%2FTecnicas%2F06%20-%20F%C5%ABinjutsu%3A%20Shinkai%20F%C5%ABsa.jpg?alt=media&v=1784037797762317"
       }
     ],
     gallery: [
@@ -3901,7 +3901,7 @@ export const initialData: Character[] = [
         destruction: "Diferente de suas técnicas de domínio em larga escala, o Suiton: Hakuryū no Ken opera na destruição cirúrgica. O terreno remodelado cria um campo de batalha exclusivamente favorável a Naomi — o chão fluido retarda inimigos, os véus d'água bloqueiam linhas de visão e os fios de Suiton lançados pela lâmina cortam defesas de chakra com precisão absoluta. Em combate prolongado, o acúmulo de chakra absorvido pela rapier pode ser liberado em uma única onda concentrada capaz de atravessar múltiplas camadas de proteção.",
         history: "Após receber a Hakuryū no Ken de Minoru Hyuga, Naomi percebeu que a arma respondia de forma única ao seu chakra — diferente de qualquer outro usuário que havia tentado empunhá-la antes. Durante sessões de treinamento solitário às margens de um rio, ela descobriu que ao infundir Suiton na lâmina, os selamentos do clã Hyuga gravados nela não resistiam — eles abraçavam a energia aquática, como se a arma sempre tivesse esperado por alguém com essa natureza de chakra. Foi nesse momento que nasceu o Suiton: Hakuryū no Ken.",
         status: "A técnica exige concentração contínua para manter a fusão entre o Suiton e os selamentos da rapier estável. Qualquer quebra no fluxo de chakra pode dissolver o rastro e interromper o remodelamento do terreno. O uso prolongado drena as reservas de Suiton de Naomi gradualmente, tornando a técnica menos eficiente em batalhas de longa duração sem recarga de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Hakury%C5%AB%20no%20Ken.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1784037849260232"
       }
     ],
     arsenal: [32, 41],
@@ -3944,7 +3944,7 @@ export const initialData: Character[] = [
     description: "Shoyu Uzumaki é, possivelmente, o maior prodígio que a história ninja já viu. Sua existência nasceu de um plano cruel: após inúmeras tentativas fracassadas de extrair o chakra da Kurama de sua mãe, Naomi, decidiram dividi-lo — mantendo metade nela e selando a outra metade em um filho, tornando a extração gradual possível. Mesmo diante desse destino, Naomi fez um único pedido: que a criança fosse de Nishinoya. Hades, no entanto, atendeu pessoalmente e, movido por ambição, roubou a identidade genética do Terceiro Hokage para criar aquele que viria a ser Shoyu. Nascido como um experimento, ele cresceu em meio à dor, ao medo e à necessidade de sobreviver. Ainda aos 5 anos, realizou o impossível: dominou o Katon com maestria e aprendeu o lendário Hiraishin, feito que desafia toda lógica ninja. Transformando simples bolinhas de gude em pontos de teleporte, Shoyu desenvolveu um estilo de combate imprevisível e absoluto. Cada habilidade sua nasceu da necessidade de proteger sua mãe. Não é apenas um gênio — é um erro que deu certo demais, um acidente perfeito que ultrapassou qualquer controle.",
     hp: 59,
     chakra: 56,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FShoyu%20Uzumaki.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FShoyu%20Uzumaki.png?alt=media&v=1784037908635329",
     techniques: [
       {
         name: "Hiraishin: Shūen no Enbu",
@@ -3954,7 +3954,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alta em combate direto. o Katon amplifica o dano de cada ponto de impacto, transformando a técnica em uma execução total — múltiplos ataques simultâneos, calor extremo e pressão contínua. Pode eliminar alvos de alto nível em segundos, sem espaço para reação.",
         history: "Evolução máxima do estilo de combate de Shoyu, unindo sua mobilidade absoluta com a manifestação simbólica de seu Katon, transformando sua luta em uma execução inevitável.",
         status: "Consome enorme quantidade de chakra e exige controle mental absoluto. Um erro na sequência pode quebrar a manifestação do Hiraishin e interromper a técnica.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F01%20-%20Hiraishin%3A%20Sh%C5%ABen%20no%20Enbu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F01%20-%20Hiraishin%3A%20Sh%C5%ABen%20no%20Enbu.png?alt=media&v=1784037910853425"
       },
       {
         name: "Kuchiyose: Kurama no Kage",
@@ -3964,7 +3964,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alta em combate direto. A combinação de ataques físicos com chakra Bijuu cria impactos brutais capazes de atravessar defesas e causar dano interno massivo.",
         history: "Após aceitar e harmonizar com a parte benevolente do chakra de Kurama, Shoyu desenvolveu uma forma única de manifestação, evitando perder controle enquanto ainda utiliza o poder da Bijuu de forma ativa e estratégica.",
         status: "Requer sincronia absoluta com Kurama. Caso o fluxo de chakra seja desestabilizado, a manifestação pode se desfazer temporariamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Kurama%20no%20Kage.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Kurama%20no%20Kage.png?alt=media&v=1784037913248657"
       },
       {
         name: "Kurama Chakura Mōdo: Hanjō no Yoroi",
@@ -3974,7 +3974,7 @@ export const initialData: Character[] = [
         destruction: "Altíssima. Cada golpe desferido sob o manto possui poder explosivo, podendo quebrar defesas de alto nível e causar danos massivos em curto tempo.",
         history: "Ao invés de tentar replicar o modo completo de um Jinchūriki perfeito, Shoyu optou por dominar o que possui, refinando o uso parcial do chakra de Kurama até transformá-lo em uma ferramenta precisa e letal.",
         status: "Consome grandes quantidades de chakra e exige controle emocional constante. Uso prolongado pode sobrecarregar o corpo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F03%20-%20Kurama%20Chakura%20M%C5%8Ddo%3A%20Hanj%C5%8D%20no%20Yoroi.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F03%20-%20Kurama%20Chakura%20M%C5%8Ddo%3A%20Hanj%C5%8D%20no%20Yoroi.png?alt=media&v=1784037915357932"
       },
       {
         name: "Uzumaki En'yō: Guren Rasen Kōkai",
@@ -3984,7 +3984,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva em área. O vórtice incinera, dilacera e aprisiona ao mesmo tempo, sendo capaz de destruir estruturas grandes e incapacitar múltiplos inimigos simultaneamente. A pressão gerada pela rotação pode esmagar alvos enquanto as chamas os consomem.",
         history: "Após dominar completamente o Uzumaki En'yō, Shoyu percebeu que não precisava apenas usá-lo como arma, mas como núcleo de controle do campo de batalha. Ao combinar sua leitura absurda de combate com o fluxo contínuo do ioio, ele criou uma técnica onde ataque, controle e selamento acontecem ao mesmo tempo.",
         status: "Consome grande quantidade de chakra e exige coordenação perfeita entre movimento, chakra e percepção. Se o ritmo do giro for quebrado, a estrutura do vórtice colapsa. Em compensação, quando executada corretamente, é extremamente difícil de escapar.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F04%20-%20Uzumaki%20En'y%C5%8D%3A%20Guren%20Rasen%20K%C5%8Dkai.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F04%20-%20Uzumaki%20En'y%C5%8D%3A%20Guren%20Rasen%20K%C5%8Dkai.png?alt=media&v=1784037917432739"
       },
       {
         name: "Katon: En no Shōmetsu",
@@ -3994,7 +3994,7 @@ export const initialData: Character[] = [
         destruction: "Alta destruição em área controlada. O anel aprisiona o alvo e aumenta progressivamente a temperatura, queimando e desgastando tanto o corpo quanto o chakra até o colapso.",
         history: "Após dominar o controle de área com Katon, Shoyu refinou sua técnica removendo manifestações externas e focando em aprisionamento absoluto e pressão térmica contínua.",
         status: "Requer preparação e controle contínuo. A manutenção do anel consome chakra de forma constante.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F05%20-%20Katon%3A%20En%20no%20Sh%C5%8Dmetsu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F05%20-%20Katon%3A%20En%20no%20Sh%C5%8Dmetsu.png?alt=media&v=1784037919472372"
       },
       {
         name: "Katon: Hōsenka no Tori",
@@ -4004,7 +4004,7 @@ export const initialData: Character[] = [
         destruction: "Alta destruição em área e impacto direto. A colisão da fênix causa uma explosão massiva, enquanto suas chamas secundárias continuam se espalhando pelo campo.",
         history: "Inspirado pelo padrão disperso do Hōsenka original, Shoyu decidiu dar forma e propósito às chamas, criando uma técnica que une pressão contínua e impacto devastador em um único ataque.",
         status: "Consome chakra moderado a alto. Requer controle avançado de forma para manter a estrutura da fênix estável durante o avanço.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F06%20-%20Katon%3A%20H%C5%8Dsenka%20no%20Tori.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F06%20-%20Katon%3A%20H%C5%8Dsenka%20no%20Tori.png?alt=media&v=1784037921842236"
       },
       {
         name: "Katon: Gōkakyū no Jutsu",
@@ -4014,7 +4014,7 @@ export const initialData: Character[] = [
         destruction: "A esfera de fogo gerada por Shoyu possui força suficiente para incendiar grandes áreas, destruir estruturas de madeira e pedra e criar barreiras de fogo que forçam o reposicionamento do inimigo. Combinada com o Hiraishin, a técnica pode ser usada para forçar o oponente para dentro do alcance das bolinhas seladas.",
         history: "Durante seu tempo na OCA, Shoyu costumava se esconder para observar os treinos dos shinobi mais experientes. Foi assistindo A repetir o Gōkakyū incontáveis vezes que ele memorizou cada detalhe da técnica. Sem nunca ter recebido instrução formal de Katon, Shoyu reproduziu o jutsu sozinho após semanas de tentativas secretas, surpreendendo até os instrutores quando a técnica veio à tona pela primeira vez em combate.",
         status: "Consome uma quantidade razoável de chakra para o nível de Shoyu, tornando o uso repetido custoso em batalhas prolongadas. Por não ter recebido treinamento formal, seu controle sobre a expansão das chamas ainda possui limitações em ambientes fechados.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F07%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20no%20Jutsu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F54%20-%20Shoyu%20Uzumaki%2FTecnicas%2F07%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20no%20Jutsu.png?alt=media&v=1784037923961625"
       }
     ],
     arsenal: [33, 35],
@@ -4046,7 +4046,7 @@ export const initialData: Character[] = [
     description: "Reika Uzumaki nasceu em meio ao sofrimento silencioso de sua mãe, mas sua existência nunca foi natural. Diferente de Shoyu, que ainda carregava traços de humanidade em sua origem, Reika foi concebida como experimento desde o primeiro instante — ainda no estágio de célula-ovo, Hades iniciou seu projeto mais ambicioso: fundir dois chakras de bijū estabilizados através de um núcleo de chakra profano. Kurama e Gyūki foram reduzidos a fragmentos manipuláveis e selados simultaneamente dentro de um único ser em formação, violando todas as leis naturais do mundo ninja. Reika não nasceu… ela foi construída. Durante seu desenvolvimento, o chakra profano atuou como um estabilizador artificial, impedindo que as duas forças se destruíssem mutuamente, criando uma fusão imperfeita, porém funcional. Seu corpo cresceu carregando traços sutis dessa dualidade, com padrões de chakra que oscilam entre o caos e a profundidade, como se duas presenças antigas coexistissem dentro dela em silêncio constante. Desde muito pequena, Reika demonstrava uma sensibilidade anormal ao chakra, não apenas percebendo energia, mas sentindo emoções como extensões físicas do ambiente. Dor, medo e desespero ecoavam dentro dela, amplificados pelas naturezas conflitantes em seu núcleo. Cresceu dentro da fortaleza Yumei, testemunhando a dor constante de Naomi e absorvendo cada fragmento emocional como parte de si mesma — não como trauma, mas como matéria-prima. Sua presença é calma, perturbadoramente calma. Reika não luta com raiva — luta com vazio, e esse vazio não é ausência, mas saturação. Ela é possivelmente a criatura com a maior reserva de chakra já registrada, possuindo níveis que ultrapassam em até três vezes o de um ninja comum. Ainda assim, esse poder não se manifesta de forma explosiva, mas como um abismo silencioso, denso e inevitável. No entanto, sua criação teve um custo: a fusão precoce e antinatural afetou seu desenvolvimento neurológico. Reika não fala — não por escolha, mas por incapacidade. Sua mente opera em um nível onde linguagem se torna irrelevante. Emoções, intenções e presença são sua forma de comunicação. Ela observa… sempre observa. E quando age, o mundo ao redor responde como se estivesse afundando junto com ela.",
     hp: 59,
     chakra: 70,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FReika%20Uzumaki.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FReika%20Uzumaki.jpg?alt=media&v=1784037857989216",
     techniques: [
       {
         name: "Ketsuryū: Kōka no Kyoumei",
@@ -4056,7 +4056,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alta em controle e pressão espiritual. O campo roxo e vermelho não destrói apenas fisicamente — ele sufoca o chakra inimigo, distorce a percepção e causa colapso progressivo em quem permanece dentro da área. Técnicas podem ser anuladas antes de se completarem, corpos ficam pesados e a mente dos alvos é invadida por uma sensação de desespero, como se estivessem presenciando a guerra interna de Reika.",
         history: "Essa técnica nasceu da falha mais perigosa no experimento de Hades. A fusão entre Kurama, Gyūki e chakra profano nunca foi perfeita; apenas estava contida. Quando Reika atinge um estado extremo de sofrimento ou medo, o equilíbrio se quebra e as duas bijū começam a disputar sua consciência, transformando sua dor em um domínio de chakra instável e devastador.",
         status: "Instável e perigosa. Reika não controla completamente essa técnica; ela apenas sobrevive a ela. Quanto mais tempo o domínio permanece ativo, maior o risco de Kurama ou Gyūki assumirem parcialmente seu corpo. Pode afetar aliados, inimigos e o ambiente sem distinção.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20K%C5%8Dka%20no%20Kyoumei.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20K%C5%8Dka%20no%20Kyoumei.jpg?alt=media&v=1784037859108150"
       },
       {
         name: "Reika: Kyōmei no Yōko",
@@ -4066,7 +4066,7 @@ export const initialData: Character[] = [
         destruction: "Altíssimo em domínio psicológico e dano indireto. Inimigos entram em colapso emocional e têm o corpo dilacerado por manifestações do próprio campo.",
         history: "Forma despertada quando Kurama toma o controle total, impondo sua natureza destrutiva sobre o mundo ao redor.",
         status: "Extremamente instável. Alto consumo emocional. Pode ferir aliados se não for controlado.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F02%20-%20Reika%3A%20Ky%C5%8Dmei%20no%20Y%C5%8Dko.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F02%20-%20Reika%3A%20Ky%C5%8Dmei%20no%20Y%C5%8Dko.jpg?alt=media&v=1784037860158449"
       },
       {
         name: "Reika: Daikaitei no Ushi",
@@ -4076,7 +4076,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto em supressão absoluta. Neutraliza completamente combate prolongado.",
         history: "Manifestação da natureza controladora e resiliente de Gyūki, priorizando domínio total ao invés de destruição caótica.",
         status: "Consumo estável, porém exige grande resistência física de Reika para suportar a pressão do próprio campo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F03%20-%20Reika%3A%20Daikaitei%20no%20Ushi.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F03%20-%20Reika%3A%20Daikaitei%20no%20Ushi.jpg?alt=media&v=1784037861142187"
       },
       {
         name: "Fuinjutsu: Zetsubō no Gyōmei",
@@ -4086,7 +4086,7 @@ export const initialData: Character[] = [
         destruction: "Nenhuma física direta, mas absoluta em neutralização. Pode incapacitar múltiplos inimigos instantaneamente.",
         history: "Desenvolvido a partir do colapso emocional e da fusão de chakra, transformando dor em um mecanismo de selamento em massa.",
         status: "Uso limitado. Alto custo e exige carga emocional intensa para ativação máxima.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F04%20-%20Fuinjutsu%3A%20Zetsub%C5%8D%20no%20Gy%C5%8Dmei.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F55%20-%20Reika%20Uzumaki%2FTecnicas%2F04%20-%20Fuinjutsu%3A%20Zetsub%C5%8D%20no%20Gy%C5%8Dmei.jpg?alt=media&v=1784037863091046"
       }
     ],
     stats: { strength: 2, dexterity: 8, agility: 2, intelligence: 7, spirit: 6, vigor: 3, perception: 8 },
@@ -4117,7 +4117,7 @@ export const initialData: Character[] = [
     description: "Souma Uzumaki não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.",
     hp: 59,
     chakra: 42,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FSouma%20Uzumaki.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FSouma%20Uzumaki.jpg?alt=media&v=1784037924622380",
     techniques: [
       {
         name: "Ketsuryū: Shinkai Enkai",
@@ -4127,7 +4127,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva em área. Distorce chakra, quebra defesas e causa colapso estrutural contínuo.",
         history: "Manifestada durante um pico emocional extremo onde Souma perdeu completamente o controle e sobreviveu ao próprio poder.",
         status: "Altíssimo consumo. Risco de colapso físico e perda total de controle.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20Shinkai%20Enkai.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20Shinkai%20Enkai.jpg?alt=media&v=1784037926188246"
       },
       {
         name: "Ketsuryū: Umi no Ikari",
@@ -4137,7 +4137,7 @@ export const initialData: Character[] = [
         destruction: "Alta destruição em curta área. Lança múltiplos inimigos e quebra defesas.",
         history: "Primeira manifestação instável do poder abissal.",
         status: "Alto consumo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F02%20-%20Ketsury%C5%AB%3A%20Umi%20no%20Ikari.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F02%20-%20Ketsury%C5%AB%3A%20Umi%20no%20Ikari.jpg?alt=media&v=1784037927538201"
       },
       {
         name: "Katon: Aoi Enshō",
@@ -4147,7 +4147,7 @@ export const initialData: Character[] = [
         destruction: "Dano interno extremo. Ignora resistência superficial.",
         history: "Resultado da mutação genética baseada em Nishinoya.",
         status: "Instável — pode afetar o próprio usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F03%20-%20Katon%3A%20Aoi%20Ensh%C5%8D.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F03%20-%20Katon%3A%20Aoi%20Ensh%C5%8D.jpg?alt=media&v=1784037928584647"
       },
       {
         name: "Suiton: Raijin Ryūdō",
@@ -4157,7 +4157,7 @@ export const initialData: Character[] = [
         destruction: "Extrema perfuração. Ignora armaduras e defesas convencionais, causando dano interno direto e imprevisível.",
         history: "Evolução máxima do controle de Suiton de Tobirama, transformando a arma em uma extensão fluida do próprio chakra.",
         status: "Consumo contínuo elevado. Exige controle absoluto de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Raijin%20Ry%C5%ABd%C5%8D.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Raijin%20Ry%C5%ABd%C5%8D.jpg?alt=media&v=1784037930126968"
       },
       {
         name: "Suiton: Hakushin no Ryūsatsu",
@@ -4167,7 +4167,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Capaz de cortar defesas absolutas, atravessar estruturas massivas e desintegrar alvos com precisão cirúrgica.",
         history: "Desenvolvido como a evolução máxima do controle de pressão do Suiton, inspirado na manipulação de fluxo do Raijin no Ken. Considerado um estado proibido da água, onde ela deixa de ser um elemento fluido comum e se torna uma arma de pressão absoluta.",
         status: "Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode causar colapso físico e perda de controle da técnica.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F05%20-%20Suiton%3A%20Hakushin%20no%20Ry%C5%ABsatsu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F56%20-%20Souma%20Uzumaki%2FTecnicas%2F05%20-%20Suiton%3A%20Hakushin%20no%20Ry%C5%ABsatsu.png?alt=media&v=1784037932608523"
       }
     ],
     arsenal: [40],
@@ -4195,7 +4195,7 @@ export const initialData: Character[] = [
     description: "Uma kunoichi envolta em mistério e temida por seu poder. \n\nIrmã gêmea secreta de Oddy Uchiha, Kuromi foi criada nas sombras e treinada pelo lendário ninja Raikun, que lhe ensinou técnicas de combate, selamentos e o Modo Sábio dos Cães.\n\nDurante uma missão envolvendo a liberação de bijuu, Kuromi despertou seu Mangekyou Sharingan e, em meio ao caos, conseguiu estabilizar o selo da besta dentro de Shoei Barou. O choque entre seu poder, o chakra da bijuu e os selamentos usados na batalha deixou uma marca permanente em seu abdômen.\n\nPortadora de um Mangekyou com habilidades únicas de manipulação mental e invocadora do lendário lobo Okami, Kuromi se tornou conhecida no mundo shinobi como a Predadora de Bijus.",
     hp: 114,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1784037807865277",
     techniques: [
       {
         name: "Meikyō Shin'en",
@@ -4205,7 +4205,7 @@ export const initialData: Character[] = [
         destruction: "Nível de controle mental absoluto. A técnica não causa destruição física direta, mas pode neutralizar completamente o oponente ao alterar sua percepção, bloquear seu fluxo de chakra ou manipular selamentos internos, incluindo o chakra de bijuus.",
         history: "A técnica despertou durante o incidente envolvendo Shoei Barou e a liberação descontrolada da bijuu Son Goku. Ao testemunhar a tragédia e despertar seu Mangekyou Sharingan, Kuromi utilizou esse poder instintivamente para entrar na mente de Shoei e reorganizar o selo da bijuu, estabilizando o jinchūriki.",
         status: "Altamente perigosa e extremamente rara. Requer enorme precisão mental e grande quantidade de chakra para manter a conexão psíquica. Pouquíssimas técnicas podem quebrar essa ilusão, sendo o Izanami uma das únicas conhecidas.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F01%20-%20Meiky%C5%8D%20Shin'en.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F01%20-%20Meiky%C5%8D%20Shin'en.jpg?alt=media&v=1784037808770807"
       },
       {
         name: "Senpo: Kagefūin no Susanoo Ōkami",
@@ -4215,7 +4215,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente devastadora. A combinação entre Susanoo, Senjutsu e Fūinjutsu permite que Kuromi domine completamente o campo de batalha. Seus golpes podem destruir defesas de alto nível, selar técnicas poderosas e cortar o fluxo de chakra de múltiplos inimigos ao mesmo tempo. O uivo do Susanoo Ōkami pode paralisar exércitos inteiros temporariamente ao desestabilizar o chakra dos oponentes.",
         history: "Esta técnica nasceu após Kuromi alcançar perfeita harmonia entre seu treinamento com os lobos sábios e o poder ocular do clã Uchiha. Durante uma batalha contra múltiplos usuários de técnicas proibidas, Kuromi foi forçada a unir o chakra natural do Senpo dos Cães com a manifestação de seu Susanoo. Ao canalizar essa energia através da Kagefūin no Kama, ela descobriu que a foice era capaz de selar chakra diretamente no espaço espiritual do alvo. Esse evento marcou o nascimento do Senpo: Kagefūin no Susanoo Ōkami, considerado uma das técnicas mais raras já vistas entre usuários de Senjutsu e Dōjutsu.",
         status: "Quase proibida. O uso prolongado exige controle absoluto sobre três fontes massivas de energia (chakra ocular, chakra natural e chakra espiritual da arma). Caso Kuromi perca o equilíbrio entre essas forças, o excesso de energia natural pode causar petrificação parcial, enquanto o esforço ocular extremo pode danificar permanentemente seu Sharingan.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F02%20-%20Senpo%3A%20Kagef%C5%ABin%20no%20Susanoo%20%C5%8Ckami.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F02%20-%20Senpo%3A%20Kagef%C5%ABin%20no%20Susanoo%20%C5%8Ckami.jpg?alt=media&v=1784037809396545"
       },
       {
         name: "Mangekyō Sharingan",
@@ -4225,7 +4225,7 @@ export const initialData: Character[] = [
         destruction: "Potencial de combate drasticamente ampliado. O aumento extremo de percepção e reação permite antecipar movimentos complexos, detectar manipulações de chakra e neutralizar ataques de alta velocidade, além de ampliar significativamente a eficácia de genjutsus e técnicas mentais.",
         history: "O despertar ocorreu durante um momento de perda e caos extremo no campo de batalha. Diante de uma situação fora de controle e da ameaça de destruição iminente, Kuromi despertou seu Mangekyō Sharingan pela primeira vez. Desde então, seus poderes oculares evoluíram junto com sua habilidade de manipular a mente e o fluxo de chakra de seus oponentes.",
         status: "Consome grandes quantidades de chakra e causa desgaste ocular progressivo. O uso prolongado pode provocar dores intensas, visão turva e risco de perda gradual da visão caso o poder seja utilizado sem cautela.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F03%20-%20Mangeky%C5%8D%20Sharingan.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F03%20-%20Mangeky%C5%8D%20Sharingan.jpg?alt=media&v=1784037810623625"
       },
       {
         name: "Mangekyō: Kokoro no Rensa",
@@ -4235,7 +4235,7 @@ export const initialData: Character[] = [
         destruction: "Altamente perigosa em combate estratégico. A técnica não destrói fisicamente o oponente, mas compromete completamente sua capacidade de tomada de decisão, podendo transformar aliados em alvos ou abrir brechas fatais em sua defesa.",
         history: "Desenvolvida após Kuromi estudar profundamente a natureza da mente humana através de seu Mangekyou Sharingan. Ao perceber que controlar ações diretas era menos eficiente que manipular escolhas, ela criou um sistema de comandos mentais latentes capazes de influenciar a batalha inteira.",
         status: "Requer contato visual inicial e grande precisão mental. O uso prolongado pode causar fadiga ocular intensa e pressão mental no usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F04%20-%20Mangeky%C5%8D%3A%20Kokoro%20no%20Rensa.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F04%20-%20Mangeky%C5%8D%3A%20Kokoro%20no%20Rensa.jpg?alt=media&v=1784037811763462"
       },
       {
         name: "Sennin Fuka",
@@ -4245,7 +4245,7 @@ export const initialData: Character[] = [
         destruction: "Altamente destrutiva e opressiva. O Modo Sábio dos Cães Negros permite ataques contínuos com suporte espiritual, pressão psicológica sobre o inimigo e domínio territorial através de presença e instinto predatório.",
         history: "Diferente da linhagem tradicional, Kuromi forçou sua entrada no mundo espiritual canino, enfrentando e dominando entidades até ser reconhecida como uma força digna de portar o poder dos cães sábios. Sua versão do Sennin Fuka é considerada mais instável, porém mais agressiva e imprevisível.",
         status: "Extremamente perigoso. O excesso de energia natural pode causar mutação parcial, perda de controle e dominância dos instintos predatórios. Quanto mais tempo ativa, maior o risco de Kuromi se tornar uma entidade puramente instintiva.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F05%20-%20Sennin%20Fuka.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F05%20-%20Sennin%20Fuka.jpg?alt=media&v=1784037812573560"
       },
       {
         name: "Katon: Gōka Mekkyaku",
@@ -4255,7 +4255,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente destrutiva em larga escala. A técnica cria uma parede colossal de fogo que pode incinerar múltiplos oponentes simultaneamente, destruir estruturas inteiras e transformar grandes áreas do campo de batalha em mares de chamas.",
         history: "Originalmente dominada por lendários membros do clã Uchiha, essa técnica se tornou famosa quando foi utilizada em guerras antigas para conter exércitos inteiros. Após despertar seu Mangekyou Sharingan e dominar completamente o Katon de seu clã, Kuromi refinou a técnica até atingir um nível comparável ao de usuários lendários.",
         status: "Requer grande quantidade de chakra e controle avançado de Katon para manter a expansão das chamas estável. Em espaços fechados ou ambientes com pouco oxigênio, a técnica pode perder eficiência.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F06%20-%20Katon%3A%20G%C5%8Dka%20Mekkyaku.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F57%20-%20Kuromi%20Uchiha%2FTecnicas%2F06%20-%20Katon%3A%20G%C5%8Dka%20Mekkyaku.jpg?alt=media&v=1784037813481660"
       }
     ],
     arsenal: [29, 36, 37],
@@ -4299,7 +4299,7 @@ export const initialData: Character[] = [
     description: "Shikaki Nara é um dos casos mais raros já registrados dentro do Projeto Salvador. Diferente dos demais, ele não desenvolveu uma Bijū Profana após a exposição ao Chakra Profano.\n\nSua mente, altamente lógica e estruturada, rejeitou completamente a criação de uma entidade simbólica, forçando-o a controlar diretamente um poder instável que normalmente exigiria um intermediário para evitar colapso.\n\nEssa anomalia resultou em um estilo de combate único: Shikaki não manipula apenas sombras, mas a própria execução das ações dentro delas. Em sua presença, movimentos falham, decisões não se concretizam e técnicas deixam de existir antes mesmo de acontecer.\n\nEle não domina o campo de batalha pela força… mas pela negação absoluta das possibilidades do inimigo.",
     hp: 114,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FShikaki%20Nara.jpg?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FShikaki%20Nara.jpg?alt=media&v=1784037885267595",
     techniques: [
       {
         name: "Kage: Zettai Kyoka",
@@ -4309,7 +4309,7 @@ export const initialData: Character[] = [
         destruction: "Controle absoluto do campo. A técnica não destrói fisicamente, mas anula completamente qualquer oponente ao remover sua capacidade de agir.",
         history: "Criada como solução para a ausência de uma Bijū Profana. Shikaki desenvolveu um sistema mental onde define manualmente quais ações são válidas, substituindo a função estabilizadora que normalmente seria realizada por uma entidade.",
         status: "Extremamente perigosa. Requer processamento mental constante. Erros de lógica podem causar colapso do sistema e dano cerebral severo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F01%20-%20Kage%3A%20Zettai%20Kyoka.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F01%20-%20Kage%3A%20Zettai%20Kyoka.png?alt=media&v=1784037887818979"
       },
       {
         name: "Kage: Tōka no Kōdō",
@@ -4319,7 +4319,7 @@ export const initialData: Character[] = [
         destruction: "Altamente desestabilizador. Torna defesa e ataque imprevisíveis.",
         history: "Criada após estudos sobre tempo de reação e fluxo de combate.",
         status: "Difícil de manter em múltiplos alvos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F02%20-%20Kage%3A%20T%C5%8Dka%20no%20K%C5%8Dd%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F02%20-%20Kage%3A%20T%C5%8Dka%20no%20K%C5%8Dd%C5%8D.png?alt=media&v=1784037889686595"
       },
       {
         name: "Kage: Kyohi no Kōdō",
@@ -4329,7 +4329,7 @@ export const initialData: Character[] = [
         destruction: "Neutralização direta. Remove a capacidade de executar ações básicas ou técnicas, ou força a execução perfeita de ações permitidas.",
         history: "Primeira manifestação do controle de 'validação de ações'.",
         status: "Requer foco constante para manter a restrição.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F03%20-%20Kage%3A%20Kyohi%20no%20K%C5%8Dd%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F03%20-%20Kage%3A%20Kyohi%20no%20K%C5%8Dd%C5%8D.png?alt=media&v=1784037891548016"
       },
       {
         name: "Kage Mane no Jutsu",
@@ -4339,7 +4339,7 @@ export const initialData: Character[] = [
         destruction: "Controle físico direto do oponente. Pode ser utilizado para imobilizar, forçar movimentos ou abrir brechas fatais.",
         history: "A base de todas as técnicas de Shikaki, refinada ao longo de anos de treino e amplificada após o contato com o Chakra Profano.",
         status: "Consome chakra proporcional à resistência do alvo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F04%20-%20Kage%20Mane%20no%20Jutsu.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F58%20-%20Shikaki%20Nara%2FTecnicas%2F04%20-%20Kage%20Mane%20no%20Jutsu.png?alt=media&v=1784037893386431"
       }
     ],
     arsenal: [38],
@@ -4382,7 +4382,7 @@ export const initialData: Character[] = [
     description: "Nagi Yuki nasceu na Vila da Névoa durante um dos períodos mais sombrios de sua história — uma guerra civil silenciosa, onde traições, execuções e desaparecimentos eram comuns até mesmo entre aliados.\nDesde muito jovem, Nagi foi exposto à brutalidade do próprio sistema shinobi da vila, onde fraqueza não era tolerada e laços eram vistos como vulnerabilidade.\nFilho de um pequeno clã especializado em técnicas de gelo, Nagi cresceu sob constante vigilância, já que habilidades raras eram tanto uma bênção quanto uma sentença de morte.\nSua família vivia escondida, evitando conflitos diretos, até o dia em que foram descobertos por uma facção interna da própria Névoa.\nConsiderados um risco em meio à instabilidade da guerra civil, seus pais foram eliminados sem julgamento — não por inimigos, mas por sua própria vila.\nNagi sobreviveu por pouco.\nGravemente ferido e tomado pelo frio que sempre dominou seu chakra, ele foi encontrado por um alto oficial da Névoa, responsável por recrutar e moldar jovens talentos em armas vivas.\nSem escolha, Nagi foi forçado a servir.\nSua dor foi ignorada, sua identidade reduzida a um recurso militar.\nCom a guerra se intensificando e a vila à beira do colapso interno, a liderança da Névoa tomou uma decisão estratégica: enviar jovens promissores para o Exame Chunin em Konoha, não apenas como demonstração de poder, mas como uma possível rota de fuga para ativos valiosos.\nNagi foi escolhido — não por mérito, mas por utilidade.\nSem vontade própria, carregando o peso da perda e da traição, Nagi partiu para Konoha como uma peça descartável em um jogo maior.\nFoi nesse ambiente estranho, longe do caos da Névoa, que ele encontrou algo que nunca havia conhecido: pessoas que não tentavam matá-lo.\nAo lado de Yasuo Kurogane e Apollo Netsu, pela primeira vez, Nagi sentiu que talvez pudesse existir além da guerra.\nApós falharem no Exame Chunin e iniciarem o retorno, o grupo foi interceptado no caminho por Shikure e Togo Kage, figuras que pareciam enxergar além de suas dores superficiais.\nDiferente de todos que haviam cruzado seu caminho até então, eles não ofereciam ordens — ofereciam escolha.\nShikure expôs a fragilidade das vilas e o ciclo interminável de uso e descarte de shinobis, enquanto Togo apresentou a OCA como algo diferente: um lugar onde poder não seria imposto, mas conquistado.\nPara Nagi, aquilo não era apenas uma proposta — era a primeira vez que alguém o tratava como algo além de uma ferramenta.\nCansado de servir uma vila que destruiu sua família e o transformou em arma, ele aceitou.\nNaquele momento, Nagi não apenas mudou de caminho — ele abandonou completamente a Névoa, deixando para trás seu passado, seu nome e qualquer esperança de retorno.\nMas, mesmo seguindo em frente, o frio dentro dele nunca desapareceu.",
     hp: 123,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FNagi%20Yuki.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1784037817436585",
     techniques: [
       {
         name: "Hyōton: Kaminari Mugen Kuro Fubuki",
@@ -4392,7 +4392,7 @@ export const initialData: Character[] = [
         destruction: "Aniquilação total de campo. Combina congelamento absoluto com destruição elétrica interna. Pode eliminar múltiplos alvos simultaneamente sem possibilidade de reação.",
         history: "Desenvolvida após Nagi perder o controle do Chakra Profano durante uma tempestade natural. Ao entrar em ressonância com relâmpagos reais, ele fundiu Hyōton com Kaminari, criando o primeiro gelo condutor de chakra.",
         status: "Extremamente instável. Alto risco de autodestruição caso o fluxo de chakra saia do controle.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F01%20-%20Hy%C5%8Dton%3A%20Kaminari%20Mugen%20Kuro%20Fubuki.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F01%20-%20Hy%C5%8Dton%3A%20Kaminari%20Mugen%20Kuro%20Fubuki.png?alt=media&v=1784037819238076"
       },
       {
         name: "Kuchiyose: Yuki Fukurō - Raijin Kyōmei",
@@ -4402,7 +4402,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alta. Combina mobilidade absoluta, ataque automático, leitura de campo total e execução precisa com gelo negro e eletricidade profana.",
         history: "Essa forma nasceu quando Yuki Fukurō foi completamente saturada pelo Kaminari Negro durante uma batalha crítica. Em vez de se dissipar, a invocação evoluiu, permitindo que sua existência fosse integrada diretamente ao corpo e mente de Nagi.",
         status: "Consome chakra de forma contínua e intensa. A fusão prolongada pode sobrecarregar o sistema nervoso de Nagi, causando colapso sensorial ou perda de controle sobre o Kaminari Negro.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Ky%C5%8Dmei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Ky%C5%8Dmei.png?alt=media&v=1784037821369027"
       },
       {
         name: "Hyōton: Kōri no Shōkyo",
@@ -4412,7 +4412,7 @@ export const initialData: Character[] = [
         destruction: "Alta capacidade de neutralização. Pode cancelar técnicas, prender inimigos e transformar grandes áreas em zonas congeladas.",
         history: "Foi a primeira técnica profana desenvolvida por Nagi, criada após perceber que seu gelo conseguia interferir diretamente na circulação de chakra.",
         status: "Consome chakra de forma moderada, mas exige contato visual ou percepção precisa da área congelada.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F03%20-%20Hy%C5%8Dton%3A%20K%C5%8Dri%20no%20Sh%C5%8Dkyo.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F03%20-%20Hy%C5%8Dton%3A%20K%C5%8Dri%20no%20Sh%C5%8Dkyo.png?alt=media&v=1784037823431152"
       },
       {
         name: "Hyōton: Kuro Hyōga",
@@ -4422,7 +4422,7 @@ export const initialData: Character[] = [
         destruction: "Altamente letal em combate direto. Ideal para perfurar defesas e causar dano interno energético.",
         history: "Desenvolvida para enfrentar inimigos com grande resistência física, permitindo que Nagi atacasse o fluxo de chakra em vez do corpo.",
         status: "Requer extrema precisão. Perde eficiência contra alvos muito rápidos caso Nagi não esteja com suporte sensorial ativo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F04%20-%20Hy%C5%8Dton%3A%20Kuro%20Hy%C5%8Dga.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F04%20-%20Hy%C5%8Dton%3A%20Kuro%20Hy%C5%8Dga.png?alt=media&v=1784037825773880"
       },
       {
         name: "Kuchiyose: Yuki Fukurō - Raijin Mode",
@@ -4432,7 +4432,7 @@ export const initialData: Character[] = [
         destruction: "Suporte ofensivo devastador.",
         history: "A coruja evoluiu após exposição ao Kaminari.",
         status: "Alto consumo contínuo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F05%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Mode.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F05%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Mode.png?alt=media&v=1784037827659017"
       },
       {
         name: "Kuchiyose: Yuki Fukurō",
@@ -4442,7 +4442,7 @@ export const initialData: Character[] = [
         destruction: "Suporte ofensivo e sensorial. Amplia drasticamente o alcance de Nagi e permite ataques coordenados de múltiplas direções.",
         history: "Yuki Fukurō era originalmente uma coruja comum criada por Nagi desde jovem. Após anos exposta ao seu chakra, tornou-se uma invocação espiritual ligada permanentemente ao seu contrato de sangue.",
         status: "Enquanto ativa, consome chakra de forma constante. Se a coruja for destruída, Nagi sofre uma breve sobrecarga sensorial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F06%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F59%20-%20Nagi%20Yuki%2FTecnicas%2F06%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D.png?alt=media&v=1784037829571401"
       }
     ],
     gallery: [
@@ -4482,7 +4482,7 @@ export const initialData: Character[] = [
     description: "Yasuo Kurogane é um ninja da Vila da Areia, marcado por uma infância destruída pela guerra e pela perda. Após ver sua família de Konoha ser brutalmente assassinada diante de seus próprios olhos por Nishinoya, Shoei, Katsumi e Oddy, Yasuo passou a nutrir um ódio profundo pela vila que um dia chamou de lar.\nAbandonado e sem rumo, foi acolhido pela Kazekage, que o adotou como filho — uma relação que nunca foi verdadeiramente aceita por ele, enxergando nela mais uma imposição do que um ato de carinho.\nCrescendo sob o peso da revolta e da dor, Yasuo foi forçado a participar do Exame Chunin por ordem da Kazekage, o que intensificou ainda mais seu ressentimento.\nDurante sua estadia em Konoha, no entanto, encontrou algo inesperado: compreensão. Ao lado de Nagi Yuki e Apollo Netsu, criou laços com aqueles que também carregavam cicatrizes profundas, formando uma conexão baseada na dor compartilhada.\nApós falharem no exame e retornarem derrotados, Yasuo e seus companheiros foram encurralados por Shikure e Togo Kage.\nEm um momento decisivo, tiveram seus ideais questionados e, diante da promessa de um novo propósito e poder, aceitaram se juntar à OCA.\nPara Yasuo, esse não foi apenas um caminho — foi uma ruptura definitiva com tudo que restava de seu passado, abraçando de vez a escuridão que sempre cresceu dentro de si.",
     hp: 123,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1784044652972455",
     techniques: [
       {
         name: "Kinjiton: Tetsu no Teikoku",
@@ -4492,7 +4492,7 @@ export const initialData: Character[] = [
         destruction: "Domínio total de campo. Pode esmagar múltiplos inimigos, bloquear ataques massivos, perfurar defesas avançadas e drenar chakra em larga escala.",
         history: "A técnica nasceu quando Yasuo foi forçado a controlar suas duas areias simultaneamente durante uma batalha contra usuários de técnicas destrutivas em área. O Chakra Profano, que inicialmente ameaçava desestabilizar sua areia, foi dominado e dividido entre defesa dourada e execução metálica.",
         status: "Extremamente exigente. Requer controle absoluto sobre duas massas de areia com propriedades diferentes. O uso prolongado pode causar sobrecarga muscular, sangramento nasal e perda temporária de sensibilidade nos braços.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F01%20-%20Kinjiton%3A%20Tetsu%20no%20Teikoku.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F01%20-%20Kinjiton%3A%20Tetsu%20no%20Teikoku.png?alt=media&v=1784044649377830"
       },
       {
         name: "Satetsu: Kurohari",
@@ -4502,7 +4502,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente letal. Ideal para perfuração, supressão e dano interno.",
         history: "Inspirada nas antigas técnicas de Satetsu, mas adaptada ao estilo profano de Yasuo.",
         status: "Consumo médio. Perde eficiência contra barreiras magnéticas ou defesas altamente flexíveis.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F02%20-%20Satetsu%3A%20Kurohari.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F02%20-%20Satetsu%3A%20Kurohari.png?alt=media&v=1784044650282916"
       },
       {
         name: "Sabaku: Ryū",
@@ -4512,7 +4512,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente destrutiva. Pode destruir estruturas, romper defesas e absorver chakra em larga escala.",
         history: "Manifestação ofensiva máxima da Sakin de Yasuo.",
         status: "Alto consumo de chakra. Quanto maior o dragão, mais difícil manter sua forma estável.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F03%20-%20Sabaku%3A%20Ry%C5%AB.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F03%20-%20Sabaku%3A%20Ry%C5%AB.png?alt=media&v=1784044651070853"
       },
       {
         name: "Satetsu: Jishaku no Hitsugi",
@@ -4522,7 +4522,7 @@ export const initialData: Character[] = [
         destruction: "Altíssima. Combina aprisionamento, supressão de chakra e execução física.",
         history: "Criada como versão mais cruel e precisa das prisões de areia tradicionais.",
         status: "Exige concentração total em um alvo. Pode ser quebrada por força extrema antes do fechamento completo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F04%20-%20Satetsu%3A%20Jishaku%20no%20Hitsugi.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F04%20-%20Satetsu%3A%20Jishaku%20no%20Hitsugi.png?alt=media&v=1784044651850018"
       },
       {
         name: "Sabaku: Kin no Kōtei",
@@ -4532,7 +4532,7 @@ export const initialData: Character[] = [
         destruction: "Defesa pessoal avançada. Permite que Yasuo lute mesmo quando sua defesa automática é superada.",
         history: "Desenvolvida para combates de curta distância contra inimigos velozes.",
         status: "Aumenta o peso corporal e reduz levemente a velocidade.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F05%20-%20Sabaku%3A%20Kin%20no%20K%C5%8Dtei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F60%20-%20Yasuo%20Kurogane%2FTecnicas%2F05%20-%20Sabaku%3A%20Kin%20no%20K%C5%8Dtei.png?alt=media&v=1784044652625254"
       }
     ],
     gallery: [
@@ -4572,7 +4572,7 @@ export const initialData: Character[] = [
     description: "Apollo Netsu é uma anomalia no mundo shinobi — um nome falso carregando uma linhagem que não deveria existir.\n\nIrmão biológico de Shoei Barou, foi separado dele ainda criança após o incidente com a Bijuu Son Goku. Enquanto Shoei teve a mente reescrita por Kuromi, perdendo todo o passado, Apollo foi removido das sombras antes de ser encontrado.\n\nEle estava presente no dia em que Son Goku foi selado.\n\nNaquele momento, viu Shoei perder completamente o controle. O chakra colapsou, o ambiente foi consumido e, no meio do caos, Apollo foi atingido diretamente. As chamas e o chakra avançaram sem controle, queimando completamente seus braços.\n\nNão foi intencional.\nMas foi o primeiro impacto entre os dois irmãos — uma marca permanente.\n\nPara protegê-lo de caçadores e do próprio sistema shinobi, Tobirama tomou uma decisão extrema: apagar sua existência.\n\nApollo Sarutobi deixou de existir.\nApollo Netsu nasceu.\n\nCriado em segredo, longe de qualquer vila, foi treinado diretamente por Tobirama não como um soldado, mas como uma peça estratégica.\n\nDesde cedo, demonstrou um chakra natural absurdo — puro, denso, em constante ressonância com o ambiente. Mas seu maior diferencial era o vínculo com os macacos sábios.\n\nEles não o viam como humano.\nViam algo próximo deles.\n\nIsso levantou uma hipótese perigosa: sua linhagem poderia estar ligada aos antigos Sarutobi conectados ao legado de Son Goku. Talvez por isso, seu destino sempre esteve atrelado à Bijuu.\n\nApollo cresceu com fragmentos da verdade. Sabia que estava sendo escondido. Sabia que havia alguém com o mesmo sangue. Mas nunca soube quem.\n\nDurante o Exame Chunin, encontrou algo novo: conexão.\nAo lado de Nagi Yuki e Yasuo Kurogane, viu pessoas tão quebradas quanto ele.\n\nFoi nesse mesmo exame que tudo quase veio à tona.\n\nAo presenciar Shoei liberar o chakra de Son Goku, algo dentro dele reagiu. Não foi consciente — foi instinto. Seu corpo entrou em ressonância, sua percepção se rompeu.\n\nNaquele instante, ele soube:\n\nNão era apenas um jinchūriki.\nEra seu irmão.\n\nMas essa verdade nunca se completou.\n\nUm infiltrado agiu no momento exato, usando Chakra Profano e Genjutsu para apagar aquele instante e selar a conexão recém-desperta.\n\nSeu nome era Beta.\n\nPara Apollo, aquele momento nunca existiu.\n\nA sensação permaneceu — sem memória, sem forma, sem explicação.\n\nApós o exame e o encontro com Shikure e Togo Kage, Apollo tomou sua decisão não por revolta, mas por clareza:\n\nO mundo shinobi estava errado.\n\nE ele seguiria até o fim para entender o porquê.",
     hp: 138,
     chakra: 55,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1784037694045527",
     techniques: [
       {
         name: "Senpo: Kongō Enma no Taiyō",
@@ -4582,7 +4582,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente devastadora. Combina força física absoluta, percepção total e destruição espiritual. Pode aniquilar múltiplos alvos e desestabilizar completamente o campo de batalha.",
         history: "A técnica surgiu quando Apollo entrou em contato direto com os macacos sábios durante um treinamento isolado. Ao invés de aprender o modo sábio tradicional, ele foi aceito como um canal direto da energia deles.",
         status: "Altíssimo consumo. O uso prolongado pode causar ruptura do corpo devido à pressão do chakra natural.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F01%20-%20Senpo%3A%20Kong%C5%8D%20Enma%20no%20Taiy%C5%8D.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F01%20-%20Senpo%3A%20Kong%C5%8D%20Enma%20no%20Taiy%C5%8D.png?alt=media&v=1784037696157074"
       },
       {
         name: "Senpo: Kongōnyo Enjin",
@@ -4592,7 +4592,7 @@ export const initialData: Character[] = [
         destruction: "Nível catastrófico em combate corpo a corpo. Combina impacto físico extremo com dano contínuo de fogo e chakra sábio.",
         history: "Desenvolvida após Apollo aprofundar sua conexão com Enma, permitindo manifestar o Kongōnyo de forma independente e fundi-lo com Senjutsu e Katon.",
         status: "Alto consumo de chakra contínuo. Exige controle preciso para manter o equilíbrio entre fogo e energia natural.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F02%20-%20Senpo%3A%20Kong%C5%8Dnyo%20Enjin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F02%20-%20Senpo%3A%20Kong%C5%8Dnyo%20Enjin.png?alt=media&v=1784037698545338"
       },
       {
         name: "Kuchiyose: Enma",
@@ -4602,7 +4602,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. Combinação de força bruta, defesa absoluta e combate autônomo.",
         history: "Primeira vez que Apollo consegue acessar uma manifestação quase completa do espírito original de Enma.",
         status: "Consumo elevado contínuo. Requer sincronia mental e espiritual perfeita.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F03%20-%20Kuchiyose%3A%20Enma.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F03%20-%20Kuchiyose%3A%20Enma.png?alt=media&v=1784037700623146"
       },
       {
         name: "Senpo: Enma no Shin",
@@ -4612,7 +4612,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto. Amplificação total do usuário com ataques físicos e espirituais simultâneos.",
         history: "Técnica proibida que ignora a invocação física e acessa diretamente a essência de Enma.",
         status: "Consumo muito alto. Risco de sobrecarga corporal e perda de controle se usado por longos períodos.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F04%20-%20Senpo%3A%20Enma%20no%20Shin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F04%20-%20Senpo%3A%20Enma%20no%20Shin.png?alt=media&v=1784037702736337"
       },
       {
         name: "Senpo: Kanchi Zettai",
@@ -4622,7 +4622,7 @@ export const initialData: Character[] = [
         destruction: "Controle total de leitura de campo.",
         history: "Desenvolvida durante treinamentos isolados sob orientação indireta dos macacos sábios.",
         status: "Baixo consumo, mas exige foco extremo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F05%20-%20Senpo%3A%20Kanchi%20Zettai.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F05%20-%20Senpo%3A%20Kanchi%20Zettai.png?alt=media&v=1784037704889653"
       },
       {
         name: "Senpô Katon: Taiyō no Kiba",
@@ -4632,7 +4632,7 @@ export const initialData: Character[] = [
         destruction: "Alta destruição em curto alcance.",
         history: "Adaptação do Katon Sarutobi ao seu estilo natural.",
         status: "Consumo médio.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F06%20-%20Senp%C3%B4%20Katon%3A%20Taiy%C5%8D%20no%20Kiba.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F06%20-%20Senp%C3%B4%20Katon%3A%20Taiy%C5%8D%20no%20Kiba.png?alt=media&v=1784037706915504"
       },
       {
         name: "Senpo: Shōmetsu no Tsuin",
@@ -4642,7 +4642,7 @@ export const initialData: Character[] = [
         destruction: "Execução precisa e inevitável.",
         history: "Desenvolvida a partir de sua habilidade natural de rastreio.",
         status: "Baixo consumo após marcação.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F07%20-%20Senpo%3A%20Sh%C5%8Dmetsu%20no%20Tsuin.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F07%20-%20Senpo%3A%20Sh%C5%8Dmetsu%20no%20Tsuin.png?alt=media&v=1784037708296497"
       },
       {
         name: "Sennin Fuka",
@@ -4652,7 +4652,7 @@ export const initialData: Character[] = [
         destruction: "Altíssimo em combate direto. Amplifica todos os atributos físicos e permite ataques com impacto espiritual e energético simultâneo.",
         history: "Desenvolvida após Apollo dominar o fluxo contínuo de energia natural e aprofundar sua ligação com Enma, permitindo um estado de fusão parcial com o instinto dos macacos sábios.",
         status: "Consumo contínuo de energia natural. Pode causar petrificação parcial caso o equilíbrio do Senjutsu seja perdido.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F08%20-%20Sennin%20Fuka.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F61%20-%20Apollo%20Sarutobi%2FTecnicas%2F08%20-%20Sennin%20Fuka.png?alt=media&v=1784037710062591"
       }
     ],
     arsenal: [39],
@@ -4694,7 +4694,7 @@ export const initialData: Character[] = [
     description: "Yuji Yotsuki nasceu como uma anomalia dentro da Vila da Nuvem.\n\nEnquanto outros shinobis aprendiam a controlar chakra com treinamento, Yuji simplesmente nasceu conectado a ele.\n\nO Ranton corria naturalmente em suas veias.\n\nDesde criança, seu corpo produzia descargas elétricas rosadas involuntárias, fenômeno considerado impossível até mesmo pelos cientistas de Kumogakure.\n\nSeu chakra não era apenas poderoso.\nEra preciso.\n\nYuji conseguia sentir exatamente o limite do próprio corpo, a quantidade de chakra ao seu redor e até pequenas oscilações no fluxo energético de outras pessoas.\n\nIsso chamou a atenção de Hanzo, que passou a treiná-lo secretamente.\n\nDiferente de outros prodígios da Nuvem, Yuji não demonstrava interesse em fama ou combate direto. Era preguiçoso, desmotivado e frequentemente ignorava treinamentos inteiros.\n\nMas tudo mudava quando algo despertava sua curiosidade.\n\nNesse estado, Yuji se tornava obsessivo.\n\nDurante sua infância, desenvolveu uma amizade profunda com Hayato. Os dois compartilhavam o sonho de transformar Kumogakure na maior potência shinobi do mundo.\n\nMas após os incidentes envolvendo Hayato e a ascensão da OCA dentro da Vila da Nuvem, Yuji perdeu completamente a fé no sistema.\n\nAo lado de Yoru e Reito, desapareceu das forças oficiais e iniciou estudos secretos envolvendo tecnologia shinobi, armas experimentais e chakra artificial.\n\nFoi durante uma missão de infiltração em um laboratório da OCA que Yuji roubou pesquisas proibidas relacionadas a Katsumi e ao chamado Chakra Profano.\n\nUtilizando os dados roubados e o núcleo de chakra extraído durante a operação, Yuji criou sua obra-prima absoluta:\n\nA Yuji no Hōkō.\n\nUma Sniper Rifle capaz de condensar Chakra Profano em um único ponto microscópico e disparar projéteis com poder destrutivo equivalente a uma mini Bijuu Dama.\n\nA arma não produz som.\nNão deixa assinatura de chakra.\nE torna o disparo impossível de detectar até o impacto.\n\nApós isso, Yuji fundou oficialmente a Kiba.\n\nUma organização fantasma criada para destruir a OCA, eliminar Alpha e recuperar a verdadeira Kumogakure.\n\nHoje, laboratórios secretos da Nuvem possuem uma regra não oficial:\n\nSe o ar ficar silencioso demais...\nYuji Yotsuki já está mirando.",
     hp: 178,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media&v=1784037959746203",
     techniques: [
       {
         name: "Yuji no Hōkō",
@@ -4704,7 +4704,7 @@ export const initialData: Character[] = [
         destruction: "Execução instantânea de alvos de alta prioridade. Capaz de destruir instalações inteiras ou eliminar ninjas de Rank Kage com um único disparo realizado a quilômetros de distância.",
         history: "Criada após Yuji, Yoru e Reito invadirem um laboratório secreto da OCA e roubarem pesquisas relacionadas a Katsumi e ao Chakra Profano.",
         status: "Necessita sincronização absoluta entre Yuji, o Raigan e o núcleo de Chakra Profano da arma. O uso contínuo pode sobrecarregar o sistema nervoso devido à pressão extrema do Ranton.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F01%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F01%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.jpg?alt=media&v=1784037960647152"
       },
       {
         name: "Ranton: Toru",
@@ -4714,7 +4714,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva atmosférica em larga escala com perseguição automática de alvos hostis.",
         history: "Primeira técnica suprema criada por Yuji após dominar completamente o fluxo absoluto do próprio Ranton e aprender a transformar a atmosfera em uma arma viva.",
         status: "Consumo extremamente alto de chakra e enorme desgaste físico prolongado.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F02%20-%20Ranton%3A%20Toru.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F02%20-%20Ranton%3A%20Toru.png?alt=media&v=1784037962423429"
       },
       {
         name: "Mugen: Kyōran Shinku",
@@ -4724,7 +4724,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva contínua e absorção de chakra em larga escala.",
         history: "Criada após Yuji sincronizar sua agressividade natural com a consciência profana da Mugen durante operações internas da OCA.",
         status: "Quanto mais longa a batalha, mais devastadora a técnica se torna.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F03%20-%20Mugen%3A%20Ky%C5%8Dran%20Shinku.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F03%20-%20Mugen%3A%20Ky%C5%8Dran%20Shinku.png?alt=media&v=1784037964578199"
       },
       {
         name: "Mugen: Shi'en no Banka",
@@ -4734,7 +4734,7 @@ export const initialData: Character[] = [
         destruction: "Aniquilação absoluta de larga escala com pressão espiritual e destruição contínua.",
         history: "Considerada uma técnica proibida até mesmo dentro da OCA devido ao nível de sincronização monstruoso exigido entre Yuji e a consciência da Mugen.",
         status: "Risco extremo de perda de controle emocional durante utilização prolongada.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F04%20-%20Mugen%3A%20Shi'en%20no%20Banka.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F04%20-%20Mugen%3A%20Shi'en%20no%20Banka.png?alt=media&v=1784037966247286"
       },
       {
         name: "Ranton: Kirin",
@@ -4744,7 +4744,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva atmosférica capaz de devastar áreas gigantescas com relâmpagos comprimidos de Ranton.",
         history: "Versão pessoal do Kirin desenvolvida por Yuji após estudar fenômenos atmosféricos e adaptar a técnica ao controle absoluto de Ranton.",
         status: "Necessita preparação atmosférica e grande quantidade de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F05%20-%20Ranton%3A%20Kirin.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F05%20-%20Ranton%3A%20Kirin.jpg?alt=media&v=1784037967522754"
       },
       {
         name: "Ranton: Muon",
@@ -4754,7 +4754,7 @@ export const initialData: Character[] = [
         destruction: "Controle absoluto de campo, ocultação sensorial e sabotagem completa de rastreamento.",
         history: "Criado para operações furtivas da Kiba após experimentos envolvendo manipulação atmosférica de Ranton.",
         status: "Consumo contínuo de chakra e elevada exigência de controle mental.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F06%20-%20Ranton%3A%20Muon.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F06%20-%20Ranton%3A%20Muon.png?alt=media&v=1784037969244646"
       },
       {
         name: "Ranton: Chidori",
@@ -4764,7 +4764,7 @@ export const initialData: Character[] = [
         destruction: "Perfuração extrema de alta velocidade com dano elétrico interno.",
         history: "Criado após Yuji estudar compressão de chakra, armas de precisão e estabilização avançada de Ranton.",
         status: "Necessita elevado controle de chakra durante uso contínuo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F07%20-%20Ranton%3A%20Chidori.jpg?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F07%20-%20Ranton%3A%20Chidori.jpg?alt=media&v=1784037970426472"
       }
     ],
     arsenal: [50, 49, 60],
@@ -4800,7 +4800,7 @@ export const initialData: Character[] = [
     description: "Reito Kurogami foi um dos primeiros experimentos vivos criados pela OCA durante os testes iniciais envolvendo o Shiroki Kaminari e o Chakra Profano.\n\nEnquanto Nagi Yuki e Hayato Hanzo eram tratados como os projetos perfeitos da organização, Reito foi utilizado como cobaia descartável.\n\nPor ser mais velho e possuir um corpo naturalmente resistente, cientistas da OCA decidiram ultrapassar todos os limites humanos durante os experimentos.\n\nQuantidades absurdas de Chakra Profano foram injetadas diretamente em seu sistema nervoso, circulação e núcleo de chakra.\n\nO resultado deveria ter sido morte instantânea.\n\nMas Reito sobreviveu.\n\nSeu corpo começou a se partir lentamente.\n\nGrandes cicatrizes negras surgiram por toda sua pele, semelhantes a rachaduras espalhadas pelo corpo inteiro.\n\nEssas marcas não são ferimentos.\n\nSão regiões onde o Chakra Profano literalmente rompeu os limites físicos do corpo humano.\n\nDentro dessas fissuras, descargas negras de Kaminari Artificial circulam constantemente como uma tempestade presa dentro do próprio corpo.\n\nSeu Kaminari Artificial alterou completamente:\n\n• Músculos\n• Impulsos nervosos\n• Resistência física\n• Fluxo de chakra\n• Velocidade corporal\n\nMesmo possuindo um corpo gigantesco e extremamente pesado, Reito desenvolveu velocidade comparável aos maiores usuários de Raiton da história de Kumogakure.\n\nCada movimento produz explosões elétricas involuntárias.\n\nO solo quebra quando ele acelera.\n\nO ar vibra ao redor do corpo dele.\n\nE as rachaduras negras brilham intensamente sempre que o Chakra Profano entra em colapso dentro do organismo.\n\nDiferente de Yuji Yotsuki, que representa precisão absoluta...\n\nReito representa violência inevitável.\n\nApós descobrir os verdadeiros objetivos da OCA, Reito abandonou completamente a organização e passou a lutar ao lado de Yuji, Yoru e da Kiba.\n\nHoje, arquivos secretos da OCA possuem uma classificação proibida sobre Reito:\n\n'Fenrir.'",
     hp: 170,
     chakra: 70,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FReito%20Kurogami.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FReito%20Kurogami.png?alt=media&v=1784037864068084",
     techniques: [
       {
         name: "Kaminari: Kuro Fenrir",
@@ -4810,7 +4810,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva em combate direto. Capaz de destruir batalhões inteiros utilizando força física extrema combinada com Raiton.",
         history: "Desenvolvida após anos de adaptação forçada ao Shiroki Kaminari e aos experimentos da OCA.",
         status: "O uso prolongado acelera o colapso físico do corpo devido à instabilidade do Chakra Profano e da sobrecarga elétrica.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F01%20-%20Kaminari%3A%20Kuro%20Fenrir.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F01%20-%20Kaminari%3A%20Kuro%20Fenrir.png?alt=media&v=1784037866021146"
       },
       {
         name: "Kaminari: Fenrir",
@@ -4820,7 +4820,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva em larga escala. Capaz de devastar campos de batalha inteiros e destruir estruturas gigantescas apenas com impactos físicos e explosões elétricas.",
         history: "Manifestação máxima do Shiroki Kaminari desenvolvida após anos de tortura, adaptação corporal e experimentos extremos da OCA.",
         status: "Consumo extremamente alto. O uso prolongado acelera o colapso físico do corpo de Reito.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F02%20-%20Kaminari%3A%20Fenrir.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F02%20-%20Kaminari%3A%20Fenrir.png?alt=media&v=1784037867894305"
       },
       {
         name: "Kaminari: Kurosen",
@@ -4830,7 +4830,7 @@ export const initialData: Character[] = [
         destruction: "Altíssima destruição física focada em impacto e velocidade absoluta.",
         history: "Desenvolvida naturalmente após anos de adaptação forçada ao Kaminari Artificial implantado pela OCA.",
         status: "Sobrecarrega músculos, articulações e sistema nervoso quando utilizada repetidamente.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F03%20-%20Kaminari%3A%20Kurosen.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F03%20-%20Kaminari%3A%20Kurosen.png?alt=media&v=1784037869468155"
       },
       {
         name: "Kaminari: Raimei Yoroi",
@@ -4840,7 +4840,7 @@ export const initialData: Character[] = [
         destruction: "Combate direto absoluto. Capaz de destruir defesas físicas utilizando pura pressão corporal e eletricidade comprimida.",
         history: "Criada por Reito como forma de estabilizar o Kaminari Artificial e impedir que seu próprio corpo colapsasse durante batalhas.",
         status: "Consumo contínuo extremamente elevado.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F04%20-%20Kaminari%3A%20Raimei%20Yoroi.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F04%20-%20Kaminari%3A%20Raimei%20Yoroi.png?alt=media&v=1784037871079112"
       },
       {
         name: "Kaminari: Raimei Rakurai",
@@ -4850,7 +4850,7 @@ export const initialData: Character[] = [
         destruction: "Destruição pesada focada em curto alcance e força bruta absoluta.",
         history: "Criada durante experimentos de combate da OCA para testar os limites físicos do Kaminari Artificial.",
         status: "Alto desgaste corporal e risco de ruptura muscular em uso excessivo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F05%20-%20Kaminari%3A%20Raimei%20Rakurai.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F63%20-%20Reito%20Kurogami%2FTecnicas%2F05%20-%20Kaminari%3A%20Raimei%20Rakurai.png?alt=media&v=1784037872827610"
       }
     ],
     arsenal: [],
@@ -4893,7 +4893,7 @@ export const initialData: Character[] = [
     description: "Yoru Kurogami é considerado o membro mais misterioso e perigoso da Kiba.\n\nDiferente de Yuji Yotsuki e Reito Kurogami, Yoru não domina batalhas através de força ou destruição.\n\nEle domina através do desaparecimento.\n\nEspecialista absoluto em infiltração, suporte tático, sabotagem e guerra sensorial, Yoru transformou Ranton e Raiton em ferramentas de ocultação e manipulação extremamente avançadas.\n\nSeu corpo alto, extremamente magro e de aparência quase doentia causa desconforto imediato em qualquer ambiente.\n\nVestindo roupas elegantes completamente negras com detalhes em verde água, Yoru utiliza constantemente o Kasa.\n\nUm chapéu tecnológico lendário criado pela Kiba utilizando pesquisas roubadas da OCA.\n\nO Kasa possui sistemas avançados de ocultação sensorial e emissão microscópica de chakra.\n\nAlém disso, Yoru possui um braço tecnológico integrado diretamente ao sistema central da Kiba.\n\nO braço contém:\n\n• Hardware tático\n• Banco de dados de chakra\n• Comunicação holográfica\n• Rastreamento neural\n• Sensores de leitura biológica\n• Análise tecnológica\n\nSeu estilo de combate não busca derrotar inimigos diretamente.\n\nYoru transforma aliados em fantasmas impossíveis de detectar enquanto destrói completamente a percepção do campo de batalha.\n\nDentro da Kiba existe uma frase conhecida sobre ele:\n\n'Se Yoru estiver presente...\nEntão vocês já desapareceram.'",
     hp: 170,
     chakra: 46,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FYoru%20Kurogami.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1784045917771190",
     techniques: [
       {
         name: "Ranton: Getsuei",
@@ -4903,7 +4903,7 @@ export const initialData: Character[] = [
         destruction: "Ocultação absoluta de aliados, sabotagem sensorial total e domínio completo de operações furtivas.",
         history: "Criada por Yoru Kurogami após anos de estudos envolvendo Ranton, interferência neural e tecnologia roubada da OCA.",
         status: "Necessita enorme processamento mental contínuo e controle absoluto de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F01%20-%20Ranton%3A%20Getsuei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F01%20-%20Ranton%3A%20Getsuei.png?alt=media&v=1784045916094571"
       },
       {
         name: "Kasa: Mugen",
@@ -4913,7 +4913,7 @@ export const initialData: Character[] = [
         destruction: "Suporte regenerativo e ocultação absoluta.",
         history: "Criado secretamente utilizando pesquisas roubadas da OCA.",
         status: "Consumo contínuo extremamente elevado.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F02%20-%20Kasa%3A%20Mugen.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F02%20-%20Kasa%3A%20Mugen.png?alt=media&v=1784045916457501"
       },
       {
         name: "Ranton: Kassei",
@@ -4923,7 +4923,7 @@ export const initialData: Character[] = [
         destruction: "Amplificação extrema de combate.",
         history: "Criada para operações conjuntas entre Yoru, Yuji e Reito.",
         status: "Consumo elevado de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F03%20-%20Ranton%3A%20Kassei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F03%20-%20Ranton%3A%20Kassei.png?alt=media&v=1784045916831025"
       },
       {
         name: "Ranton: Shingan",
@@ -4933,7 +4933,7 @@ export const initialData: Character[] = [
         destruction: "Análise e leitura completa de alvos.",
         history: "Desenvolvido secretamente pela divisão tecnológica da Kiba.",
         status: "Necessita contato visual direto.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F04%20-%20Ranton%3A%20Shingan.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F64%20-%20Yoru%20Kurogami%2FTecnicas%2F04%20-%20Ranton%3A%20Shingan.png?alt=media&v=1784045917208626"
       }
     ],
     arsenal: [51, 52, 46],
@@ -4968,7 +4968,7 @@ export const initialData: Character[] = [
     description: "Mika Yotsuki é conhecida dentro da Kiba como a Inteligência da organização.\n\nDiferente de Yuji, Reito e Yoru, Mika não representa destruição, brutalidade ou presença fantasmagórica em campo.\n\nEla representa ausência.\n\nMika nasceu com uma alteração extremamente rara em seu fluxo de chakra. Seu chakra possui uma propriedade natural de ocultação, capaz de apagar não apenas sua assinatura energética, mas também a forma como sua existência é interpretada por sensores.\n\nEnquanto ninjas comuns escondem o corpo...\nMika esconde a leitura do próprio mundo.\n\nSua ocultação é tão refinada que consegue desaparecer até mesmo diante de métodos avançados de detecção, incluindo Byakugan, Fujogan e Kagura Shingan.\n\nPara sensores comuns, Mika não está escondida.\nEla simplesmente não existe.\n\nEssa anomalia fez com que a OCA tentasse capturá-la diversas vezes durante a corrupção de Kumogakure, pois seu chakra representava a base perfeita para tecnologia de infiltração absoluta.\n\nAntes que isso acontecesse, Mika desapareceu dos registros oficiais e passou a operar ao lado de Yuji, Reito e Yoru.\n\nFoi a partir do estudo de seu próprio chakra que Mika desenvolveu a tecnologia de ocultação utilizada no Kasa, o chapéu tecnológico de Yoru Kurogami.\n\nO Kasa não é apenas uma ferramenta de invisibilidade.\n\nEle é uma tentativa artificial de reproduzir uma fração da ocultação natural de Mika.\n\nDentro da Kiba, Mika coordena rotas, apaga rastros, intercepta comunicações, falsifica assinaturas de chakra, manipula dados roubados da OCA e impede que a organização seja encontrada.\n\nEla não costuma entrar em combate direto.\n\nMas quando entra, o inimigo raramente percebe que a luta começou.\n\nMika é calma, analítica e extremamente difícil de ler. Ela fala pouco, observa tudo e costuma prever falhas antes mesmo que os outros membros percebam o perigo.\n\nYuji é o líder da Kiba.\n\nMas Mika é a razão pela qual a Kiba continua sendo uma lenda urbana.\n\nExiste uma frase dita por Yoru sobre ela:\n\n'Se Mika quiser desaparecer, nem os deuses sensores saberão que ela nasceu.'",
     hp: 184,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F65%20-%20Mika%20Yotsuki%2FMika%20Yotsuki.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F65%20-%20Mika%20Yotsuki%2FMika%20Yotsuki.png?alt=media&v=1784044646941833",
     techniques: [
       {
         name: "Raiton: Shirogakure",
@@ -5043,7 +5043,7 @@ export const initialData: Character[] = [
     description: "Enrai Hanzo é o médico clandestino, engenheiro biológico e especialista em corpos modificados da Kiba.\n\nAntes de desaparecer dos registros oficiais de Kumogakure, Enrai trabalhou nos setores médicos avançados da Vila da Nuvem, onde se tornou conhecido por uma habilidade assustadora:\n\nEle conseguia manter vivo aquilo que já deveria ter morrido.\n\nEnrai não era famoso como guerreiro, assassino ou prodígio militar.\n\nMas entre cirurgiões, cientistas e unidades médicas secretas, seu nome era tratado com desconforto.\n\nSeu domínio sobre Raiton médico permitia estimular nervos, reiniciar músculos, estabilizar órgãos em falência e costurar fluxo de chakra danificado através de impulsos elétricos dourado âmbar.\n\nEsse Raiton não era explosivo como o de guerreiros comuns da Nuvem.\n\nEra preciso.\n\nEra clínico.\n\nEra invasivo.\n\nCada descarga elétrica podia forçar um músculo morto a responder, fazer um coração prestes a parar bater por mais alguns minutos, cauterizar ferimentos internos ou reativar sistemas nervosos danificados.\n\nPara outros médicos, cura significava salvar uma vida.\n\nPara Enrai, cura significava impedir que uma ferramenta útil parasse de funcionar.\n\nQuando a OCA começou a corromper Kumogakure por dentro, Enrai foi um dos poucos médicos capazes de compreender a extensão real dos experimentos envolvendo Chakra Profano, Shiroki Kaminari e corpos artificiais.\n\nEle viu pacientes se tornarem armas.\n\nViu cobaias serem chamadas de progresso.\n\nViu cadáveres funcionais serem mantidos ativos apenas para gerar mais dados.\n\nE viu Reito Kurogami sobreviver ao que deveria ter sido uma execução científica.\n\nFoi Enrai quem ajudou a estabilizar o corpo destruído de Reito após os experimentos da OCA.\n\nPor isso, Reito ainda respira.\n\nOu algo próximo disso.\n\nDentro da Kiba, Enrai é responsável por tratar ferimentos impossíveis, remover rastreadores, adaptar próteses, estabilizar armas proibidas, conter reações ao Chakra Profano e impedir que os membros da organização morram antes da missão terminar.\n\nEle não é gentil.\n\nEle é necessário.\n\nEnrai fala pouco, observa sinais vitais como quem lê sentenças de morte e costuma tratar dor como uma informação útil.\n\nSeu corpo é forte, resistente e treinado para operar em campo mesmo sob ataque. Diferente de médicos frágeis de retaguarda, Enrai consegue lutar na linha de frente enquanto mantém aliados vivos através de impulsos elétricos cirúrgicos.\n\nSeu combate é sujo, técnico e assustadoramente eficiente.\n\nEle não precisa destruir o corpo de um inimigo.\n\nBasta interromper o impulso correto, travar o músculo certo ou enviar uma descarga dourado âmbar pelo ponto exato do sistema nervoso.\n\nEnrai não gosta da OCA.\n\nMas entende seus métodos bem demais.\n\nEsse é o que torna sua presença tão perigosa dentro da Kiba.\n\nEle sabe como a OCA pensa.\n\nSabe como desmonta pessoas.\n\nSabe como transforma corpos em armas.\n\nE, às vezes, suas soluções parecem perigosamente parecidas com as soluções do inimigo.\n\nPor isso, Mika desconfia dele.\nYoru evita ficar sozinho com ele.\nReito confia nele em silêncio.\nE Yuji sabe que, sem Enrai, a Kiba já teria acabado.\n\nEnrai é o tipo de homem que a Kiba jamais deveria aceitar.\n\nMas também é o tipo de homem sem o qual a Kiba não sobreviveria.\n\nDentro da organização existe uma frase associada a ele:\n\n'Morto é inútil. Vivo ainda pode servir de experimentos.'",
     hp: 218,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F66%20-%20Enrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F66%20-%20Enrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1784044648213407",
     techniques: [
       {
         name: "Raiton Iryō: Raikō Saisei",
@@ -5140,7 +5140,7 @@ export const initialData: Character[] = [
     description: "Hana Sabaku é uma das maiores lendas vivas de Sunagakure e a principal razão pela qual a Cidade Dourada continua de pé mesmo diante das ameaças da Era Genética.\n\nEsposa de Reto, o Primeiro Kazekage, Hana assumiu a liderança da vila após a queda de seu marido no incidente do OASIS. Diferente de Reto, que fundou a civilização da Areia através da esperança, Hana a protege através de disciplina, vigilância e poder absoluto.\n\nConhecida como a Muralha Dourada e a Leoa da Areia, Hana é Jinchuuriki do Shukaku, usuária da rara Areia de Ouro e uma ninja sensorial de alcance extraordinário. Seu estilo de combate é focado em longa distância, controle territorial, defesa absoluta e esmagamento estratégico do inimigo antes que ele consiga se aproximar.\n\nEm batalha, Hana não luta como uma assassina impulsiva. Ela transforma o campo inteiro em uma extensão de sua vontade. A areia observa, prende, pesa, corta, sela e destrói. Poucos inimigos conseguem chegar perto dela; menos ainda sobrevivem tempo suficiente para entender que já estavam dentro de sua zona de domínio desde o início.\n\nApesar de seu poder monstruoso, Hana é profundamente movida pelo amor por Sunagakure, por Reto e por seu povo. Ela acredita que talvez não possua força suficiente para destruir completamente a OCA, mas dedicou sua vida a garantir que, mesmo diante do fim, o povo da Areia viva protegido até o último instante.",
     hp: 214,
     chakra: 150,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F67%20-%20Hana%20Sabaku%2FHana%20Sabaku.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F67%20-%20Hana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1784037775671162",
     techniques: [
       {
         name: "Sabaku Ōgon: Taiyō no Kekkai",
@@ -5246,7 +5246,7 @@ export const initialData: Character[] = [
     description: "Reto Sabaku foi o Primeiro Kazekage e o homem responsável por transformar o maior deserto do continente em uma civilização próspera. Antes dele, o deserto era apenas morte, escassez, tribos em guerra, assassinos, mercadores armados e pequenos reinos subterrâneos lutando por água.\n\nConhecido como o Caçador do Deserto, Reto não lutava como um guerreiro comum. Ele observava, rastreava e eliminava seus inimigos antes mesmo que eles entendessem que haviam sido caçados. Sua arma principal era um lendário arco de Rank Z da Vila da Areia, capaz de condensar chakra e disparar flechas de areia metálica com precisão absurda.\n\nAo despertar a Areia de Ouro, Reto mudou o destino de Sunagakure. Ele encontrou aquíferos subterrâneos, desviou tempestades, criou rotas comerciais, ergueu muralhas e fundou cidades. Porém, em combate, essa mesma areia que trouxe prosperidade ao deserto se tornava uma arma silenciosa e implacável.\n\nAlém de seu arco, Reto utilizava a máscara ancestral Satetsu no Rinne, o Samsara da Areia de Ferro, uma relíquia de Rank Z capaz de amplificar o domínio magnético do portador a níveis catastróficos. Com ela, Reto podia extrair ferro do solo, da atmosfera e até de corpos vivos, convertendo tudo em poeira metálica sob seu controle.\n\nReto era amado por sua gentileza e temido por seu poder. O mundo dizia que ele estava apenas alguns degraus abaixo de Hashirama Senju. Para Sunagakure, no entanto, ele era algo ainda maior: o homem que ensinou o deserto a florescer.",
     hp: 187,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F68%20-%20Reto%20Sabaku%2FReto%20Sabaku.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F68%20-%20Reto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1784037873825730",
     techniques: [
       {
         name: "Kyūgu: Sabaku no Tenkyū",
@@ -5276,7 +5276,7 @@ export const initialData: Character[] = [
         destruction: "Baixa a média destruição direta, mas altíssimo impacto estratégico. A técnica transforma Reto em um atirador praticamente onisciente dentro de sua zona de caça, permitindo ataques de longa distância com precisão quase inevitável.",
         history: "O Sakin no Reigan tornou-se uma das principais ferramentas de inteligência de Sunagakure. Nas mãos de Reto, ele deixou de ser apenas um artefato de espionagem e se tornou parte de seu estilo de caça, garantindo que nenhum inimigo pudesse se esconder do Primeiro Kazekage.",
         status: "Exige concentração contínua. Quanto maior o número de partículas espalhadas, maior o fluxo de informação recebido por Reto. Usuários sem disciplina mental podem ser sobrecarregados por excesso sensorial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F68%20-%20Reto%20Sabaku%2FTecnicas%2F03%20-%20Sakin%20no%20Reigan%3A%20Mezame%20do%20Ca%C3%A7ador.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F68%20-%20Reto%20Sabaku%2FTecnicas%2F03%20-%20Sakin%20no%20Reigan%3A%20Mezame%20do%20Ca%C3%A7ador.png?alt=media&v=1784037874911381"
       },
       {
         name: "Satetsu Kyūjutsu: Kuroyari no Sabaku",
@@ -5350,7 +5350,7 @@ export const initialData: Character[] = [
     description: "Chigiri Chinoike, conhecido hoje como o Pilar da Memória, é o homem que aprendeu o valor de uma vida depois de transformar vidas demais em material de estudo. Nascido no clã Chinoike, cresceu acreditando que o sangue era a forma mais pura de verdade: não apenas herança genética, mas um registro vivo de memórias, dores, medos e desejos que nem a morte conseguia apagar.\n\nEssa obsessão o levou até a OCA, onde se tornou um dos pesquisadores mais respeitados da organização. Chigiri não conduzia experimentos por dever ou ideologia — fazia por prazer. Manipulava DNA, desmontava linhagens, criava corpos artificiais e usava sangue para formar marionetes vivas, feitas de coagulação, chakra e ecos emocionais das pessoas que um dia existiram.\n\nTudo mudou durante um experimento em que matou uma pessoa que permaneceu consciente tempo suficiente para perguntar se ele se lembraria dela. Ao tocar seu sangue, Chigiri sentiu sua vida inteira: infância, medo, amor, arrependimentos e promessas. Pela primeira vez, entendeu que aquilo que chamava de material era uma existência completa.\n\nIncapaz de continuar, procurou Hades e confessou que havia entendido tarde demais. Hades permitiu que ele deixasse a OCA, sob a condição de jamais revelar seus segredos. Quando chegou a Sunagakure, não foi recebido como herói, mas como risco. Hana sabia o que ele era, e por isso o colocou onde sua culpa poderia servir a algo maior.\n\nHoje, Chigiri é o Pilar da Memória. Ele lê sangue em cenas de crime, reconstrói massacres, identifica rastros da OCA e transforma os mortos em testemunhas que não podem mais ser silenciadas. Muitos o odeiam, outros o temem, poucos confiam nele. Mas todos sabem que, quando uma gota de sangue toca a areia, Chigiri é aquele que escuta. Ele não busca redenção. Continua vivo apenas para lembrar, porque esquecer os mortos seria matá-los uma segunda vez.",
     hp: 186,
     chakra: 85,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F69%20-%20Chigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F69%20-%20Chigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1784037734958023",
     techniques: [],
     arsenal: [],
     stats: {strength: 9, dexterity: 25, agility: 9, intelligence: 25, spirit: 25, vigor: 17, perception: 25},
@@ -5386,7 +5386,7 @@ export const initialData: Character[] = [
     description: "Tetsu Sabaku, conhecido hoje como o Pilar da Renúncia, é o herdeiro de um legado grande demais para caber em uma única vida. Filho de Reto Sabaku, o Primeiro Kazekage, e de Hana Sabaku, a Muralha Dourada, Tetsu nasceu cercado por nomes que moldaram a história da Areia antes mesmo que pudesse entender o peso deles.\n\nPara o povo, ele era o filho do fundador, o sangue da Leoa da Areia, o irmão de Sayuri e o possível sucessor de uma linhagem que transformou o maior deserto do continente em civilização. Desde cedo, Tetsu aprendeu a olhar para si mesmo como uma promessa que talvez nunca conseguisse cumprir.\n\nEnquanto outras crianças brincavam nas ruas douradas de Sunagakure, ele estudava os registros de Reto: suas caçadas, seus ângulos de disparo, suas rotas pelo deserto e até sua respiração antes de soltar uma flecha. Seu maior símbolo era o arco lendário herdado do pai, uma arma de Rank Z que para Reto parecia uma extensão natural da vontade, mas que nas mãos de Tetsu parecia uma sentença.\n\nPor muito tempo, Tetsu confundiu honra com repetição e dever com vaidade. Queria proteger Sunagakure, mas também queria provar que merecia o nome Sabaku. Foi Hana quem o fez encarar a verdade mais cruel do deserto: uma flecha disparada por orgulho nunca protege ninguém. O deserto não perdoa os egoístas, porque no deserto todo gesto individual pode condenar uma caravana inteira.\n\nHoje, como Pilar da Renúncia, Tetsu luta contra seu inimigo mais difícil: a necessidade de provar valor. Ele ainda carrega o peso do pai, ainda sente a sombra de Reto sobre seus ombros e ainda teme nunca ser suficiente. Mas agora entende que talvez o verdadeiro herdeiro do Caçador do Deserto não seja aquele que acerta todos os alvos, e sim aquele que sabe por que está puxando a corda.",
     hp: 194,
     chakra: 79,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F70%20-%20Tetsu%20Sabaku%2FTetsu%20Sabaku.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F70%20-%20Tetsu%20Sabaku%2FTetsu%20Sabaku.png?alt=media&v=1784037935242003",
     techniques: [],
     arsenal: [55, 58],
     gallery: [
@@ -5426,7 +5426,7 @@ export const initialData: Character[] = [
     description: "Mizue Dokuhana, conhecida hoje como o Pilar do Sacrifício, é a médica que todos desejam ter por perto quando a morte chega, mas que ninguém deseja encarar quando ela abre sua maleta cirúrgica. Nascida no clã Dokuhana, cresceu entre venenos, antídotos, lâminas esterilizadas, fios de sutura com chakra e lições duras demais para uma criança comum.\n\nPara sua família, medicina nunca foi uma promessa de salvação perfeita. Medicina era cálculo: escolher o órgão que podia falhar, o membro que podia ser perdido e o veneno que mataria a infecção antes que matasse o paciente. Desde cedo, Mizue entendeu que no deserto nada é gratuito. Até a vida, quando salva, cobra algo de volta.\n\nEm batalha, Mizue não promete milagres. Ela observa o corpo quebrado diante dela e calcula o que ainda pode ser preservado. Com agulhas cirúrgicas, toxinas controladas e técnicas médicas extremas, consegue salvar aliados à beira da morte, mas sempre cobrando um preço físico: visão, força, mobilidade, respiração, sensibilidade ou parte do fluxo de chakra.\n\nQuando a OCA começou a espalhar horrores genéticos, corpos instáveis e chakra artificial, foi Mizue quem manteve vivos aqueles que todos já consideravam perdidos. Ela estudou mutações, degenerações celulares, anti-regeneração e venenos capazes de frear monstros criados em laboratório.\n\nHoje, como Pilar do Sacrifício, Mizue carrega uma das verdades mais desconfortáveis da Areia: sobreviver exige perdas. Ela não se vê como santa, salvadora ou heroína. Sabe que muitos daqueles que curou acordaram odiando o preço que tiveram de pagar. Mesmo assim, continua. Mizue Dokuhana não promete devolver ninguém inteiro. Promete apenas impedir que morram antes da hora.",
     hp: 194,
     chakra: 52,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Mizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Mizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1784037816414156",
     techniques: [],
     arsenal: [56],
     stats: {strength: 8, dexterity: 23, agility: 8, intelligence: 23, spirit: 14, vigor: 23, perception: 23},
@@ -5461,7 +5461,7 @@ export const initialData: Character[] = [
     description: "Tessai Enshaku, conhecido hoje como o Pilar da Construção, é um homem que nasceu em uma vila de guerreiros, mas decidiu admirar aqueles que erguiam paredes. Desde criança, enquanto outros sonhavam com técnicas destrutivas e vitórias em campo de batalha, Tessai observava pedreiros, escavadores, ferreiros, engenheiros e arquitetos de canais subterrâneos.\n\nPara ele, os verdadeiros heróis de Sunagakure não eram apenas os que derrotavam invasores, mas os que garantiam que haveria uma casa para onde voltar depois da guerra. O clã Enshaku sempre carregou essa filosofia: areia, argila, metal e pedra não servem apenas para soterrar inimigos, mas para criar muralhas, pontes, abrigos, túneis, torres e caminhos onde antes só havia morte.\n\nTessai cresceu ouvindo a história de Reto Sabaku, o homem que transformou um deserto impossível em civilização. Para ele, a maior vitória de Reto não foi derrotar inimigos, mas deixar algo de pé depois deles. Por isso, Tessai nunca aceitou que poder shinobi fosse medido apenas pela destruição.\n\nCom Doton, Koton, minerais, argila selada e engenharia shinobi, Tessai aprendeu a moldar o terreno como se a própria vila se expandisse através dele. Em combate, ele não luta apenas defendendo; ele constrói. Muros protegem civis, túneis se abrem para evacuação, torres dão vantagem aos arqueiros, bunkers emergem sob a areia e armadilhas estruturais prendem inimigos no próprio peso do campo.\n\nHoje, como Pilar da Construção, Tessai representa a permanência de Sunagakure. Seu papel é lembrar que a Areia não pode se tornar apenas uma máquina de guerra movida por medo da OCA. A vila precisa continuar sendo uma cidade, com mercados, canais, jardins artificiais, oficinas, famílias e crianças correndo sob torres douradas. Para Tessai, Sunagakure não é forte porque nunca quebra. É forte porque sempre volta a ficar de pé.",
     hp: 194,
     chakra: 79,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Tessai%20Enshaku%2FTessai%20Enshaku.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Tessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1784037933963206",
     techniques: [],
     arsenal: [54],
     stats: {strength: 23, dexterity: 8, agility: 8, intelligence: 14, spirit: 23, vigor: 23, perception: 23},
@@ -5497,7 +5497,7 @@ export const initialData: Character[] = [
     description: "Sayuri Sabaku, conhecida hoje como o Pilar da Liberdade, é a filha da Areia que escolheu pertencer ao vento. Nascida como filha de Reto Sabaku e Hana Sabaku, e irmã de Tetsu, cresceu cercada pelo peso de uma linhagem lendária. Para muitos, Sayuri deveria permanecer dentro dos muros de Sunagakure e carregar o nome Sabaku como uma armadura, mas desde cedo ela olhava mais para o horizonte do que para o palácio.\n\nSayuri nunca odiou Sunagakure. Pelo contrário, amava a vila profundamente. Mas entendia que uma cidade protegida demais podia acabar confundindo segurança com prisão. Após os traumas causados pela OCA, Hana fortaleceu a Barreira do Sol, fechou fronteiras e transformou a Areia em uma fortaleza quase impenetrável. Sayuri compreendia esse medo, mas sabia que o isolamento também podia destruir uma nação por dentro.\n\nEnquanto Tetsu tentava herdar o arco de Reto, Sayuri escolheu herdar o impulso de abrir caminhos. Cruzou desertos, portos, vilas neutras, fronteiras hostis, mercados ilegais e rotas esquecidas que não apareciam em mapas. Aprendeu línguas, códigos de caravanas, sinais de contrabandistas e rumores que chegavam ao vento antes dos relatórios oficiais.\n\nEm combate, Sayuri manipula microcorrentes de vento com precisão absurda, alterando peso, direção, velocidade e equilíbrio no meio do movimento. Enfrentá-la é tentar capturar uma ave durante uma tempestade. Ela não vence pela força bruta, mas por mobilidade, adaptação e imprevisibilidade.\n\nHoje, como Pilar da Liberdade, Sayuri prova que lealdade não significa permanecer parada. Para Hana, ela é perigosa, mas necessária. Para Tetsu, é livre de um jeito que ele ainda não compreende. Para Sunagakure, é o vento que atravessa frestas onde muralhas não alcançam. Enquanto muitos guardiões protegem a vila ficando diante dela, Sayuri protege Sunagakure estando sempre um passo além do horizonte.",
     hp: 157,
     chakra: 73,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Sayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Sayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media&v=1784044653628981",
     techniques: [],
     arsenal: [53, 57],
     gallery: [
@@ -5544,7 +5544,7 @@ export const initialData: Character[] = [
     description: "Kurohime é uma dos seis Pilares de Sunagakure e representa o Pilar do Julgamento. Diferente de Hana, que carrega a sentença final da Areia, Kurohime existe para revelar a verdade antes que o julgamento seja dado.\n\nNascida na Vila da Areia em meio a intrigas políticas e conflitos familiares, Kurohime cresceu entendendo que nem toda ameaça vinha de fora das muralhas. Algumas nasciam dentro da própria vila, escondidas atrás de mentiras, medo, culpa e falsas lealdades. Desde jovem, demonstrou uma habilidade rara: a capacidade de entrar na mente de outras pessoas, atravessando memórias, traumas, intenções ocultas e pensamentos enterrados.\n\nSeu talento físico também se destacou cedo. Kurohime tornou-se uma combatente de taijutsu brutal, usando força, disciplina e pressão constante para dominar inimigos no corpo a corpo. Porém, quando invade a mente de um alvo, seu corpo físico fica vulnerável. É nesse momento que sua companheira, a pantera negra Kurotsume, protege seu corpo de qualquer ameaça.\n\nCom o tempo, Kurohime se tornou uma das melhores amigas de Hana e uma das poucas pessoas capazes de entrar em sua mente para acalmar crises, organizar pensamentos e silenciar o caos emocional que a Kazekage carrega. Dentro de Sunagakure, Kurohime é chamada antes das grandes sentenças. Ela não decide o destino dos culpados; ela revela a verdade para que Hana possa julgar sem estar no escuro.",
     hp: 157,
     chakra: 73,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F74%20-%20Kurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F74%20-%20Kurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1784037806649904",
     techniques: [],
     arsenal: [],
     stats: {
@@ -6040,7 +6040,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 0,
     chakra: 0,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F44%20-%20Theta%2FTheta.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F44%20-%20Theta%2FTheta.png?alt=media&v=1784037936714791",
     techniques: [],
     stats: {
       strength: 0,
@@ -6148,7 +6148,7 @@ export const initialData: Character[] = [
     description: "Shikatsu Nara, conhecido hoje como Togo Kage, é o que restou de um sonho que foi quebrado cedo demais. Nascido no clã Nara, cresceu como uma criança feliz, curiosa e orgulhosa de seu nome, cercado por figuras lendárias — seus pais eram próximos de Hashirama e Tobirama, e por isso Shikatsu viveu parte de sua infância ao lado dos Senju. Ele jantava com eles, ouvia histórias, aprendia estratégias e carregava um único objetivo no coração: se tornar Hokage. Tobirama era seu herói. Hashirama, sua inspiração. Mas tudo isso morreu na noite da invasão da Vila da Nuvem. Seus pais lutaram até o fim para proteger Konoha, sacrificando suas vidas com orgulho. Shikatsu assistiu tudo. E então viu aquilo que destruiu sua mente por completo: Tobirama, o homem que ele mais admirava, passar por ele sem sequer olhar para trás, seguindo sozinho para enfrentar Hades. Para o mundo, foi um ato de coragem. Para Shikatsu, foi abandono. Traição. Nesse momento, algo dentro dele quebrou de forma irreversível. Sem família, sem propósito e sem seu herói, sua mente colapsou. Ele fugiu, desapareceu, e ao longo dos anos se perdeu completamente de si mesmo. A esquizofrenia induzida pelo trauma fragmentou sua identidade, apagando o garoto que queria ser Hokage. Em seu lugar, nasceu Togo — uma sombra instintiva em forma humana. Vagando por florestas e campos de batalha, atacava por reflexo, sobrevivia por impulso e existia sem direção. Até encontrar Daichi. No primeiro encontro, tentou matá-lo como fazia com todos… mas foi derrotado. E poupado. Mais do que isso — foi visto. Daichi lhe fez uma promessa: encontraria uma cura. Pela primeira vez desde a queda dos Nara, alguém o tratou como humano. Desde então, Togo passou a existir preso a esse único fio de realidade. Hoje, ele é instável, silencioso e imprevisível — incapaz de viver em sociedade, mas extremamente letal em combate. Sua mente pode estar quebrada, mas seu instinto nunca falha. E enquanto o mundo o enxerga como um fragmento perdido… Togo ainda caminha, sustentado apenas por uma promessa que se recusa a esquecer.",
     hp: 130,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F50%20-%20Togo%20Kage%2FTogo%20Kage.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F50%20-%20Togo%20Kage%2FTogo%20Kage.png?alt=media&v=1784037938254055",
     techniques: [
       {
         name: "Kage Shinkai: Yami no Kyoshin Ensei",
@@ -6158,7 +6158,7 @@ export const initialData: Character[] = [
         destruction: "Nível de devastação massiva. As manifestações podem destruir grandes áreas do campo de batalha, esmagar múltiplos oponentes e criar zonas de escuridão que anulam percepção sensorial e mobilidade. O dano continua mesmo após o impacto devido ao consumo energético das sombras.",
         history: "Despertada após a exposição prolongada ao chakra profano da Oca, quando a instabilidade mental de Togo passou a influenciar diretamente sua manipulação das sombras. Desde então, suas manifestações tornaram-se progressivamente maiores e mais autônomas.",
         status: "Extremamente perigosa para o usuário. Requer alto consumo de chakra e estabilidade mental mínima para controle. Perda de foco pode fazer as manifestações agirem de forma caótica e indiscriminada.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F50%20-%20Togo%20Kage%2FTecnicas%2F01%20-%20Kage%20Shinkai%3A%20Yami%20no%20Kyoshin%20Ensei.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F50%20-%20Togo%20Kage%2FTecnicas%2F01%20-%20Kage%20Shinkai%3A%20Yami%20no%20Kyoshin%20Ensei.png?alt=media&v=1784037939807475"
       }
     ],
     stats: {
