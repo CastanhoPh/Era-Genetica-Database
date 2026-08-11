@@ -7,11 +7,9 @@ interface ResourceBarProps {
   colorClass?: string;
   icon: LucideIcon;
   isDead?: boolean;
-  /** Teto usado pra calcular o preenchimento da barra (não é um limite real do personagem). */
-  max?: number;
 }
 
-const ResourceBar: React.FC<ResourceBarProps> = ({ label, value, icon: Icon, isDead, max = 100 }) => {
+const ResourceBar: React.FC<ResourceBarProps> = ({ label, value, icon: Icon, isDead }) => {
   // Determine specific styling based on label content
   const isHp = label.toLowerCase().includes('vida') ||
                label.toLowerCase().includes('hp') ||
@@ -21,7 +19,9 @@ const ResourceBar: React.FC<ResourceBarProps> = ({ label, value, icon: Icon, isD
                    label.toLowerCase().includes('cp') ||
                    label.toLowerCase().includes('energia');
 
-  const fillPercent = max > 0 ? Math.max(0, Math.min(100, (value / max) * 100)) : 0;
+  // HP/CP são estatísticas fixas do personagem, não um recurso que se esgota —
+  // a barra sempre aparece cheia; o valor real fica só no rótulo "VAL:".
+  const fillPercent = 100;
 
   let barGradient = 'bg-tech-secondary';
   let glowColor = 'shadow-[0_0_10px_rgba(14,165,233,0.4)]';
