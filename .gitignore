@@ -11,6 +11,12 @@ node_modules
 dist
 dist-ssr
 *.local
+
+# Segredos: o vite.config.ts injeta variáveis de ambiente no bundle do cliente,
+# então um .env aqui vai para o site publicado E para o histórico do git.
+.env
+.env.*
+!.env.example
 .firebase
 
 # Editor directories and files

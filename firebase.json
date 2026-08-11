@@ -15,6 +15,28 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "headers": [
+      {
+        "//": "Padrão para todo o resto: revalidar sempre, para um deploy aparecer na hora. Dois detalhes descobertos na prática (11/08/2026): (1) não dá para mirar o HTML por extensão, porque com cleanUrls + rewrite de SPA as rotas são /galeria e /takeshi-hatake, sem .html; (2) o padrão TEM que ser \"/**\" — com \"**\" o Firebase não aplica nada nessas rotas e volta ao default de max-age=3600. A regra de /assets vem depois de propósito: quando duas regras casam, a última vence.",
+        "source": "/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "//": "O Vite gera nome com hash em /assets (firebase-BrQsK_p1.js), então o arquivo é imutável por construção: versão nova ganha nome novo e nunca vem do cache. Sem isso o visitante recorrente rebaixa ~600 KB de JS a cada visita.",
+        "source": "/assets/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      }
     ]
   }
 }
