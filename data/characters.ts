@@ -512,6 +512,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media&v=1784067676028993", caption: "Ambu", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%203%C2%AA%20Temporada.png?alt=media&v=1784067677692997", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F4__Temporada.png?alt=media&v=1784658587696755", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FLuta_contra_os_Kages.png?alt=media&token=19f7261e-95ea-44b5-8892-4b9165616ab8&v=1785778195230", caption: "Luta contra os Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.png?alt=media&v=1785784623548", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 8, spirit: 16, vigor: 16, perception: 16 },
@@ -655,7 +656,8 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FAmbu.png?alt=media&v=1784579806879806", caption: "Ambu", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_o_Omega.png?alt=media&v=1784579809561973", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F3__Temporada.png?alt=media&v=1784579812202149", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F4__Temporada.png?alt=media&v=1784579814862411", caption: "4ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F4__Temporada.png?alt=media&v=1784579814862411", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_os_Kages.png?alt=media&v=1786370763032342", caption: "Luta contra os Kages", category: "era" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 8, spirit: 16, vigor: 16, perception: 16 },
     powers: [
@@ -928,6 +930,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FLuta_contra_o_Omega.png?alt=media&v=1786454447744733", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F3__Temporada.png?alt=media&v=1784658604434695", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F4__Temporada.png?alt=media&v=1784658606921125", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F5__Temporada.png?alt=media&v=1786370792667214", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 13, spirit: 16, vigor: 11, perception: 16 },
     powers: [
@@ -1112,6 +1115,7 @@ export const initialData: Character[] = [
     arsenal: [15, 16],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FPr_logo.png?alt=media&v=1784658547841356", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1786370783777480", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F1__Temporada.png?alt=media&v=1784658537782136", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F2__Temporada.png?alt=media&v=1784658540232570", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F3__Temporada.png?alt=media&v=1784658542974015", caption: "3ª Temporada", category: "era" },
@@ -1319,6 +1323,7 @@ export const initialData: Character[] = [
     arsenal: [17],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FPr_logo.png?alt=media&v=1784658565874696", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FCl_ssico.png?alt=media&v=1786370760579906", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F1__Temporada.png?alt=media&v=1784658558132242", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F2__Temporada.png?alt=media&v=1784658560720202", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FLuta_contra_o_Omega.png?alt=media&v=1784658563457575", caption: "Luta contra o Omega", category: "era" },
@@ -1916,8 +1921,13 @@ export const initialData: Character[] = [
     chakra: 128,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F19%20-%20Yumi%20Uzumaki%2FYumi%20Uzumaki.jpg?alt=media&v=1784037970935563",
     gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FPr_logo.png?alt=media&v=1786370790600154", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FCl_ssico.png?alt=media&v=1786370776418716", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F1__Temporada.png?alt=media&v=1786454445275654", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FLuta_contra_o_Hades.png?alt=media&v=1786371783301613", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F3__Temporada.png?alt=media&v=1786370795205997", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F4__Temporada.png?alt=media&v=1784751371543", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786370764835642", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 15, perception: 25 },
     powers: [
@@ -1956,6 +1966,12 @@ export const initialData: Character[] = [
     isDead: true,
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F20%20-%20Asami%20Hyuga%2FAsami%20Hyuga.jpg?alt=media&v=1784037710855740",
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FPr_logo.png?alt=media&v=1786370766999582", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FCl_ssico.png?alt=media&v=1786370743567501", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2F1__Temporada.png?alt=media&v=1786370758297745", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1786370797824733", caption: "Luta contra o Hades", category: "era" },
+    ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 15, spirit: 25, vigor: 25, perception: 25 },
     powers: [
       { name: "Juken", level: 12 },
@@ -2426,6 +2442,7 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2FPr_logo.png?alt=media&v=1786370748600753", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F1__Temporada.png?alt=media&v=1784665851999751", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F2__Temporada.png?alt=media&v=1784665854341680", caption: "2ª Temporada", category: "era" },
     ],
@@ -3920,6 +3937,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FPr_logo.png?alt=media&v=1784569527682750", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FCl_ssico.png?alt=media&v=1784569525287575", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F3__Temporada.png?alt=media&v=1784569520193805", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F4__Temporada.png?alt=media&v=1786370769267296", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095", caption: "Luta contra os Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752", caption: "5ª Temporada", category: "era" },
     ],
@@ -4950,6 +4968,7 @@ export const initialData: Character[] = [
     arsenal: [51, 52, 46],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F4__Temporada.png?alt=media&v=1784658613297962", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F5__Temporada.png?alt=media&v=1786370800271701", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 12, vigor: 20, perception: 20 },
     powers: [
@@ -5023,6 +5042,10 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMika%20Yotsuki%2F4__Temporada.png?alt=media&v=1786370771946499", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMika%20Yotsuki%2F5__Temporada.png?alt=media&v=1786370802556277", caption: "5ª Temporada", category: "era" },
+    ],
     stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [
       { name: "Raiton", level: 11 },
@@ -5118,6 +5141,10 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F4__Temporada.png?alt=media&v=1786370774357473", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F5__Temporada.png?alt=media&v=1786370778715377", caption: "5ª Temporada", category: "era" },
+    ],
     stats: { strength: 26, dexterity: 11, agility: 26, intelligence: 26, spirit: 16, vigor: 26, perception: 11 },
     powers: [
       { name: "Raiton", level: 13 },
@@ -5364,6 +5391,10 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F69%20-%20Chigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1784037734958023",
     techniques: [],
     arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F4__Temporada.png?alt=media&v=1786370786205551", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F5__Temporada.png?alt=media&v=1786370741290634", caption: "5ª Temporada", category: "era" },
+    ],
     stats: {strength: 9, dexterity: 25, agility: 9, intelligence: 25, spirit: 25, vigor: 17, perception: 25},
     powers: [
       { name: "Ketton", level: 12 },
@@ -5440,6 +5471,10 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Mizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1784037816414156",
     techniques: [],
     arsenal: [56],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F4__Temporada.png?alt=media&v=1786370788456391", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F5__Temporada.png?alt=media&v=1786370750776362", caption: "5ª Temporada", category: "era" },
+    ],
     stats: {strength: 8, dexterity: 23, agility: 8, intelligence: 23, spirit: 14, vigor: 23, perception: 23},
     powers: [
       { name: "Iryō Ninjutsu", level: 11 },
@@ -5475,6 +5510,10 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Tessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1784037933963206",
     techniques: [],
     arsenal: [54],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1786370753266721", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1786370781545317", caption: "5ª Temporada", category: "era" },
+    ],
     stats: {strength: 23, dexterity: 8, agility: 8, intelligence: 14, spirit: 23, vigor: 23, perception: 23},
 
     powers: [
@@ -5558,6 +5597,10 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F74%20-%20Kurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1784037806649904",
     techniques: [],
     arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKurohime%20Kazeori%2F4__Temporada.png?alt=media&v=1786370755970816", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKurohime%20Kazeori%2F5__Temporada.png?alt=media&v=1786370746284487", caption: "5ª Temporada", category: "era" },
+    ],
     stats: {
       strength: 8,
       dexterity: 21,
@@ -6122,6 +6165,11 @@ export const initialData: Character[] = [
     hp: 0,
     chakra: 0,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F20%20-%20Ryuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1784756168236",
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FPr_logo.png?alt=media&v=1784751344945", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FCl_ssico.png?alt=media&v=1784751343505", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2F1__Temporada.png?alt=media&v=1784751342091", caption: "1ª Temporada", category: "era" },
+    ],
     stats: {
       strength: 0,
       dexterity: 0,
@@ -6171,6 +6219,13 @@ export const initialData: Character[] = [
         status: "Extremamente perigosa para o usuário. Requer alto consumo de chakra e estabilidade mental mínima para controle. Perda de foco pode fazer as manifestações agirem de forma caótica e indiscriminada.",
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F50%20-%20Togo%20Kage%2FTecnicas%2F01%20-%20Kage%20Shinkai%3A%20Yami%20no%20Kyoshin%20Ensei.png?alt=media&v=1784037939807475"
       }
+    ],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2FPr_logo.png?alt=media&v=1784751355720", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2FCl_ssico.png?alt=media&v=1784751354566", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F1__Temporada.png?alt=media&v=1784751350558", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F3__Temporada.png?alt=media&v=1784751352005", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F5__Temporada.png?alt=media&v=1784751353422", caption: "5ª Temporada", category: "era" },
     ],
     stats: {
       strength: 7,
