@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, MapPin, FlaskConical, Trash2, UserCheck, UserX, HeartPulse, Award } from 'lucide-react';
+import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, MapPin, FlaskConical, Trash2, UserCheck, UserX, HeartPulse, Award, Link as LinkIcon } from 'lucide-react';
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
@@ -17,6 +17,29 @@ interface StorageStats {
   totalBytes: number;
   fileCount: number;
 }
+
+// Aba "Links": catálogo de toda imagem do sistema, para pegar a URL de qualquer uma sem
+// precisar abrir a ficha ou o console do Firebase.
+const IMAGE_LINK_KINDS = ['Capas', 'Linha do Tempo', 'Eventos', 'Técnicas', 'Arsenal'] as const;
+type ImageLinkKind = typeof IMAGE_LINK_KINDS[number];
+
+interface ImageLink {
+  kind: ImageLinkKind;
+  /** A quem pertence — personagem, arma ou item do checklist. */
+  owner: string;
+  /** O que é, dentro do dono: a fase, o nome da técnica, a variação. */
+  detail: string;
+  url: string;
+}
+
+/** Remove o `v=` de cache-busting. Para uso externo a URL limpa é melhor: o parâmetro não é
+ *  entendido pelo Storage (serve só para furar cache), então sem ele o link continua entregando
+ *  o arquivo atual mesmo depois de a arte ser substituída. */
+const stripVersion = (url: string) => {
+  const [base, query = ''] = url.split('?');
+  const params = query.split('&').filter(p => p && !p.startsWith('v='));
+  return params.length ? `${base}?${params.join('&')}` : base;
+};
 
 const FREE_TIER_BYTES = 5 * 1024 * 1024 * 1024;
 
@@ -48,7 +71,7 @@ const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.
   </div>
 );
 
-const PANEL_TABS = ['geral', 'personagens', 'arsenal', 'producao', 'prototipos', 'classificacoes'] as const;
+const PANEL_TABS = ['geral', 'personagens', 'arsenal', 'producao', 'prototipos', 'classificacoes', 'links'] as const;
 type PanelTab = typeof PANEL_TABS[number];
 
 const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => {
@@ -97,6 +120,10 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [prototypeViewMode, setPrototypeViewMode] = useState<'grid' | 'kanban'>('grid');
   const [classificationVillage, setClassificationVillage] = useState('Konohagakure');
   const [classificationFilter, setClassificationFilter] = useState<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8' | null>(null);
+  const [linkSearch, setLinkSearch] = useState('');
+  const [linkKind, setLinkKind] = useState<ImageLinkKind | 'Todas'>('Todas');
+  const [linkWithVersion, setLinkWithVersion] = useState(false);
+  const [copiedLink, setCopiedLink] = useState<string | null>(null);
   const openPrototypeId = prototypeSlugFromUrl
     ? (prototypeEntries.find(e => slugify(e.title) === prototypeSlugFromUrl)?.docId ?? null)
     : null;
@@ -290,6 +317,72 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     const all = VILLAGES.flatMap(v => classificationsByVillage.get(v) ?? []);
     return [...all].sort((a, b) => b.nc - a.nc);
   }, [classificationsByVillage]);
+
+  // Catálogo de imagens da aba "Links", montado do que o Painel já tem em memória — personagens,
+  // arsenal e checklist — sem nenhuma leitura extra.
+  //
+  // Duas decisões que valem explicar:
+  //  · A arte é deduplicada pela URL. A mesma imagem costuma ser referenciada em dois lugares (a
+  //    fase na galeria da ficha e o item do checklist), e listar as duas só geraria ruído para
+  //    quem quer copiar um link. Ganha o rótulo da fonte mais específica, na ordem de PRIORIDADE.
+  //  · O item do checklist é classificado pelo `type` dele, não como um balde "Checklist" — é
+  //    assim que a arte de evento (que só existe no checklist) chega à categoria "Eventos".
+  const imageLinks = useMemo<ImageLink[]>(() => {
+    const PRIORIDADE: ImageLinkKind[] = ['Capas', 'Linha do Tempo', 'Técnicas', 'Arsenal', 'Eventos'];
+    const porUrl = new Map<string, ImageLink>();
+    const registra = (l: ImageLink) => {
+      const chave = stripVersion(l.url);
+      const atual = porUrl.get(chave);
+      if (atual && PRIORIDADE.indexOf(atual.kind) <= PRIORIDADE.indexOf(l.kind)) return;
+      porUrl.set(chave, l);
+    };
+
+    for (const c of characters) {
+      if (c.image) registra({ kind: 'Capas', owner: c.name, detail: 'capa da ficha', url: c.image });
+      for (const g of c.gallery ?? []) {
+        if (!g.url) continue;
+        registra({
+          kind: g.category === 'era' ? 'Linha do Tempo' : 'Eventos',
+          owner: c.name,
+          detail: g.caption || '(sem legenda)',
+          url: g.url,
+        });
+      }
+      for (const t of c.techniques ?? []) {
+        if (t.image) registra({ kind: 'Técnicas', owner: c.name, detail: t.name, url: t.image });
+      }
+    }
+    for (const a of arsenalItems) {
+      if (a.image) registra({ kind: 'Arsenal', owner: a.name, detail: 'imagem da arma', url: a.image });
+      for (const v of a.variants ?? []) {
+        if (v.image) registra({ kind: 'Arsenal', owner: a.name, detail: `variação: ${v.name}`, url: v.image });
+      }
+    }
+    for (const i of checklistItems) {
+      if (!i.imageUrl) continue;
+      const tipo = i.type ?? 'evento';
+      registra({
+        kind: tipo === 'timeline' ? 'Linha do Tempo' : tipo === 'capa' ? 'Capas' : 'Eventos',
+        owner: i.temporada,
+        detail: i.subarco ? `${i.arco} · ${i.subarco} · ${i.name}` : `${i.arco} · ${i.name}`,
+        url: i.imageUrl,
+      });
+    }
+    return [...porUrl.values()].sort((a, b) => a.owner.localeCompare(b.owner) || a.detail.localeCompare(b.detail));
+  }, [characters, arsenalItems, checklistItems]);
+
+  const filteredImageLinks = useMemo(() => {
+    const term = linkSearch.trim().toLowerCase();
+    return imageLinks.filter(l =>
+      (linkKind === 'Todas' || l.kind === linkKind) &&
+      (!term || l.owner.toLowerCase().includes(term) || l.detail.toLowerCase().includes(term)));
+  }, [imageLinks, linkSearch, linkKind]);
+
+  const copiaLink = useCallback((valor: string, id: string) => {
+    navigator.clipboard.writeText(valor);
+    setCopiedLink(id);
+    setTimeout(() => setCopiedLink(prev => (prev === id ? null : prev)), 1800);
+  }, []);
   const classificationChars = classificationVillage === 'Todos' ? classificationAllVillages : (classificationsByVillage.get(classificationVillage) ?? []);
   // Faixas exclusivas (não cumulativas): NC 30 é só o topo; 26+ é 26-29; 20+ é 20-25; etc.
   const NC_BANDS: Record<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8', (nc: number) => boolean> = {
@@ -549,6 +642,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           { key: 'producao' as const, label: 'Produção' },
           { key: 'prototipos' as const, label: 'Protótipos' },
           { key: 'classificacoes' as const, label: 'Classificações' },
+          { key: 'links' as const, label: 'Links' },
         ]).map(t => (
           <button
             key={t.key}
@@ -1608,6 +1702,124 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
               ))}
             </div>
           )}
+        </div>
+      </section>
+      )}
+
+      {activeTab === 'links' && (
+      <section>
+        <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <span>Links de imagem</span>
+          <span className="flex-1 h-px bg-tech-border"></span>
+          <span className="text-tech-primary/40">{filteredImageLinks.length} de {imageLinks.length}</span>
+        </div>
+
+        <div className="border border-tech-border bg-tech-panel/30 p-5 space-y-4">
+          <div className="flex items-center gap-2 text-tech-primary/70">
+            <LinkIcon size={14} />
+            <span className="text-[10px] font-black uppercase tracking-widest">Toda imagem do sistema, com o link para copiar</span>
+          </div>
+          <p className="text-[9px] text-tech-primary/40 uppercase tracking-wide">
+            Para usar as imagens em outro lugar sem precisar abrir a ficha ou o console do Firebase. Clique em qualquer linha para copiar o link dela.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-2">
+            <div className="relative flex-1">
+              <Search size={12} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-tech-primary/40" />
+              <input
+                type="search"
+                value={linkSearch}
+                onChange={e => setLinkSearch(e.target.value)}
+                placeholder="Buscar por personagem, arma, fase ou técnica..."
+                className="w-full bg-black/60 border border-tech-border pl-8 pr-3 py-2 text-[11px] text-tech-primary placeholder:text-tech-primary/30 focus:border-tech-primary focus:outline-none"
+              />
+            </div>
+            <label className="flex items-center gap-2 px-3 py-2 border border-tech-border bg-black/40 text-[9px] font-black uppercase tracking-widest text-tech-primary/70 cursor-pointer whitespace-nowrap">
+              <input
+                type="checkbox"
+                checked={linkWithVersion}
+                onChange={e => setLinkWithVersion(e.target.checked)}
+                className="accent-tech-primary"
+              />
+              Copiar com versão
+            </label>
+          </div>
+
+          <p className="text-[9px] text-tech-primary/40 leading-relaxed">
+            O parâmetro <code className="text-tech-secondary">&amp;v=</code> só serve para furar cache — o Storage o ignora.
+            Sem ele (padrão), o link continua entregando a arte atual mesmo depois de ela ser substituída, o que é o
+            que você quer num app externo. Com ele, o link fica preso à versão de agora nos caches.
+          </p>
+
+          <div className="flex flex-nowrap gap-1.5 overflow-x-auto">
+            {(['Todas', ...IMAGE_LINK_KINDS] as const).map(k => {
+              const count = k === 'Todas' ? imageLinks.length : imageLinks.filter(l => l.kind === k).length;
+              return (
+                <button
+                  key={k}
+                  type="button"
+                  onClick={() => setLinkKind(k)}
+                  className={`px-2.5 py-1 text-[9px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${linkKind === k ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/60 hover:border-tech-primary/60'}`}
+                >
+                  {k} <span className="opacity-60">{count}</span>
+                </button>
+              );
+            })}
+          </div>
+
+          {filteredImageLinks.length > 0 && (
+            <button
+              type="button"
+              onClick={() => copiaLink(
+                JSON.stringify(filteredImageLinks.map(l => ({
+                  tipo: l.kind, de: l.owner, oque: l.detail,
+                  url: linkWithVersion ? l.url : stripVersion(l.url),
+                })), null, 2),
+                '__json__')}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 border border-tech-secondary/50 text-tech-secondary text-[9px] font-black uppercase tracking-widest hover:bg-tech-secondary hover:text-black transition-colors"
+            >
+              {copiedLink === '__json__'
+                ? <><CheckCircle2 size={11} /> {filteredImageLinks.length} links copiados</>
+                : <><Download size={11} /> Copiar os {filteredImageLinks.length} como JSON</>}
+            </button>
+          )}
+
+          <div className="border border-tech-border divide-y divide-tech-border max-h-[32rem] overflow-y-auto">
+            {filteredImageLinks.length === 0 ? (
+              <p className="p-4 text-[10px] text-tech-primary/40 uppercase tracking-widest text-center">
+                Nenhuma imagem para esse filtro.
+              </p>
+            ) : filteredImageLinks.map((l, i) => {
+              const id = `${l.kind}|${l.owner}|${l.detail}|${i}`;
+              const valor = linkWithVersion ? l.url : stripVersion(l.url);
+              return (
+                <button
+                  key={id}
+                  type="button"
+                  onClick={() => copiaLink(valor, id)}
+                  title={valor}
+                  className="w-full flex items-center gap-3 p-2 text-left hover:bg-tech-primary/5 transition-colors group"
+                >
+                  <img
+                    src={l.url}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    className="w-10 h-10 object-cover border border-tech-border bg-black shrink-0"
+                  />
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-[11px] text-white truncate">{l.owner}</span>
+                    <span className="block text-[9px] text-tech-primary/50 uppercase tracking-wide truncate">
+                      {l.kind} · {l.detail}
+                    </span>
+                  </span>
+                  <span className={`text-[9px] font-black uppercase tracking-widest shrink-0 px-2 ${copiedLink === id ? 'text-tech-primary' : 'text-tech-primary/30 group-hover:text-tech-primary/70'}`}>
+                    {copiedLink === id ? 'Copiado!' : 'Copiar'}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </div>
       </section>
       )}
