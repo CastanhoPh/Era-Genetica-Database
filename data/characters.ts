@@ -5599,11 +5599,11 @@ export const initialData: Character[] = [
     chakra: 0,
     isDead: true,
     killedBy: "Yuji Yotsuki",
-    image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1771556333/Alpha_ca88z7.jpg",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Katakana%20Yotsuki%20(Alpha)%2FKatakana%20Yotsuki%20(Alpha).jpg?alt=media&v=1786467597831020",
     techniques: [
       {
         status: "Consumo colossal de chakra e extrema exigência de controle. Requer marcação prévia do alvo e manutenção da conexão eletromagnética. Uso contínuo pode causar sobrecarga severa no sistema nervoso e colapso físico devido à quantidade de energia canalizada.",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501468/alpha1_c7uziy.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Katakana%20Yotsuki%20(Alpha)%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Ten%20no%20Ikazuchi%20%E2%80%94%20K%C5%8Dsaton%20no%20Sh%C5%ABen.jpg?alt=media&v=1786467599661866",
         name: "Shiroki Kaminari: Ten no Ikazuchi — Kōsaton no Shūen",
         destruction: "Nível apocalíptico inevitável. O ataque ignora evasão, atravessa defesas absolutas e causa aniquilação total no ponto de impacto. Pode ser repetido enquanto a marca estiver ativa, tornando a sobrevivência praticamente impossível.",
         nature: "Shiroki Kaminari + Kōsaton",
@@ -5615,7 +5615,7 @@ export const initialData: Character[] = [
         destruction: "Baixo direto, porém extremamente perigoso taticamente. Pode reposicionar inimigos para situações fatais, redirecionar ataques de nível alto ou remover completamente defesas do campo.",
         status: "Consome grande quantidade de chakra e exige percepção extrema. Uso contínuo pode sobrecarregar o sistema nervoso devido à leitura constante do campo eletromagnético.",
         name: "Shiroki Kaminari: Amenotejikara",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501468/alpha2_ycayaw.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Katakana%20Yotsuki%20(Alpha)%2FTecnicas%2F02%20-%20Shiroki%20Kaminari%3A%20Amenotejikara.jpg?alt=media&v=1786467601388632",
         nature: "Shiroki Kaminari",
         classification: "Z",
         description: "Alpha expande sua percepção eletromagnética ao máximo e infunde seu chakra no campo eletromagnético natural do ambiente. Ao conectar-se a essa rede invisível que permeia tudo, ele transcende o deslocamento físico e realiza uma troca instantânea de posição. Diferente de um simples teletransporte, Alpha pode trocar qualquer coisa dentro de seu campo de visão por outra — aliados, inimigos, ataques ou até partes do ambiente. O deslocamento ocorre através do Shiroki Kaminari, um raio branco que atravessa o espaço-tempo e reconecta as posições de forma instantânea, ignorando distância, barreiras físicas e até defesas de chakra profano.",
@@ -5625,7 +5625,7 @@ export const initialData: Character[] = [
         destruction: "Nível apocalíptico. O impacto atravessa tudo em linha reta, podendo apagar múltiplas camadas de defesa e causar destruição massiva em larga escala.",
         status: "Consumo extremo de chakra. Requer preparo e canalização prévia. Pode causar colapso físico se o corpo não suportar a energia condensada.",
         name: "Shiroki Kaminari: Hakai no Raijin",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501469/alpha3_etzunc.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Katakana%20Yotsuki%20(Alpha)%2FTecnicas%2F03%20-%20Shiroki%20Kaminari%3A%20Hakai%20no%20Raijin.jpg?alt=media&v=1786467603123054",
         nature: "Shiroki Kaminari",
         classification: "Z",
         description: "Alpha invoca uma tempestade absoluta e canaliza o poder elétrico ao seu limite, condensando nuvens carregadas em um vórtice acima do campo. Um raio primordial desce dos céus e é convertido em Shiroki Kaminari — um raio branco puro que transcende matéria e energia. Em suas mãos, a eletricidade se transforma em uma lança divina de luz branca. No mesmo instante, um dragão colossal de relâmpago branco e Purazomaton ionizado desce dos céus, sincronizado com o arremesso da lança. O impacto duplo atravessa o espaço ao redor, rompendo barreiras dimensionais e desintegrando qualquer forma de defesa, incluindo técnicas espirituais ou de chakra profano.",
@@ -5637,7 +5637,7 @@ export const initialData: Character[] = [
         classification: "Z",
         nature: "Kōsaton",
         destruction: "Extremamente alto em combate direto. Cada impacto ocorre com força máxima sem possibilidade de defesa tradicional, permitindo execução rápida de alvos de alto nível.",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501469/alpha4_h1i4cv.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Katakana%20Yotsuki%20(Alpha)%2FTecnicas%2F04%20-%20K%C5%8Dsaton%3A%20Hikari%20Ry%C5%ABd%C5%8D%20%E2%80%94%20Raijin%20Senk%C5%8D.jpg?alt=media&v=1786467604863044",
         name: "Kōsaton: Hikari Ryūdō — Raijin Senkō",
         status: "Consumo extremo de chakra por segundo. Exige controle absoluto para reconstrução corporal após cada movimento. Uso prolongado pode causar instabilidade física e falhas na recomposição do corpo."
       },
@@ -5649,7 +5649,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente alto e preciso. Ideal para eliminar alvos de alto nível ou cortar múltiplas defesas simultaneamente.",
         status: "Alto consumo de chakra e exige percepção espacial extrema. Uso excessivo pode causar instabilidade no próprio espaço ao redor do usuário.",
         name: "Shiroki Kaminari: Kūkan Senretsu",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501469/alpha5_qzhl1f.jpg"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F71%20-%20Katakana%20Yotsuki%20(Alpha)%2FTecnicas%2F05%20-%20Shiroki%20Kaminari%3A%20K%C5%ABkan%20Senretsu.jpg?alt=media&v=1786467606622813"
       }
     ],
     arsenal: [],
@@ -5743,7 +5743,7 @@ export const initialData: Character[] = [
     chakra: 0,
     isDead: true,
     killedBy: "oDDY UCHIHA",
-    image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1772116105/Gama_smiv1x.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Ganmasen%20Yuki%20(Gama)%2FGanmasen%20Yuki%20(Gama).png?alt=media&v=1786467608658324",
     techniques: [
       {
         nature: "Saiken + Purazumaton",
@@ -5752,7 +5752,7 @@ export const initialData: Character[] = [
         history: "Despertada quando Gama abandonou a separação entre jinchūriki e Bijū, aceitando Saiken como parte inseparável de sua própria essência. Ao fundir completamente a Kekkei Tōta Purazumaton ao chakra integral da Seis-Caudas, nasceu a forma suprema de domínio plasmático no mundo shinobi.",
         destruction: "Nível apocalíptico. Capaz de transformar cidades inteiras em um inferno de Purazomaton ionizado. Estruturas físicas são vaporizadas sob calor extremo e defesas de chakra avançadas entram em colapso devido à instabilidade eletromagnética contínua. O dano é progressivo, energético e praticamente irreversível.",
         status: "Uso extremamente perigoso. Consome quantidades colossais de chakra de Gama e de Saiken simultaneamente. A instabilidade natural do Purazomaton exige controle mental absoluto. Caso a sincronização falhe, o domínio pode colapsar em uma explosão termoeletromagnética indiscriminada, atingindo aliados e inimigos sem distinção.",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1772124972/Gama1_kkdvwb.png",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Ganmasen%20Yuki%20(Gama)%2FTecnicas%2F01%20-%20Saiken%20%2B%20Purazumaton.png?alt=media&v=1786467610850447",
         name: "Saiken + Purazumaton"
       },
       {
@@ -5760,7 +5760,7 @@ export const initialData: Character[] = [
         history: "Desenvolvida após o domínio absoluto do Manto do Saiken e o despertar completo da Kekkei Tōta Purazumaton. Ao compreender que a viscosidade corrosiva poderia servir como meio condutor para geração de Purazomaton estável, o usuário criou uma forma de combate onde ataque, supressão energética e aniquilação coexistem em um único domínio vivo.",
         classification: "Z",
         nature: "Saiken + Purazumaton",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1772124972/Gama2_dswlzu.png",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Ganmasen%20Yuki%20(Gama)%2FTecnicas%2F02%20-%20Saiken%3A%20Gensho%20Nensh%C5%8D%20Honry%C5%AB.png?alt=media&v=1786467613110560",
         name: "Saiken: Gensho Nenshō Honryū",
         status: "Consome quantidades extremas de chakra e exige controle absoluto da estabilidade plasmática. Se mal controlada, pode causar colapso energético interno no próprio usuário. Utilizada apenas em batalhas de escala Kage ou confrontos onde contenção e destruição total são necessárias.",
         destruction: "Massivo, progressivo e energético. O campo de batalha é convertido em uma zona de ionização extrema, onde estruturas são vaporizadas e defesas de chakra entram em colapso por instabilidade molecular. O dano persiste devido à radiação térmica e aos pulsos eletromagnéticos contínuos."
@@ -5771,7 +5771,7 @@ export const initialData: Character[] = [
         description: "Gama realiza a invocação completa de Saiken em sua forma física verdadeira. Diferente de uma manifestação parcial ou manto, a Bijū surge integralmente no campo de batalha. No instante da materialização, Gama libera sua Kekkei Tōta: Purazumaton e envolve todo o corpo colossal da Seis-Caudas com camadas densas de Purazomaton ionizado ultraviscoso. O corpo de Saiken passa a brilhar em tons violeta-azulados intensos, com correntes elétricas cruzando sua superfície como veias luminosas. As seis caudas transformam-se em chicotes de Purazomaton líquido, capazes de atravessar montanhas e vaporizar oceanos ao impacto. O muco natural da Bijū é convertido em Purazomaton corrosivo superpressurizado, formando tempestades eletrotérmicas ao redor da entidade. Gama posiciona-se sobre o topo da cabeça de Saiken ou funde parcialmente seu corpo ao núcleo da Bijū, sincronizando totalmente seus fluxos de chakra. Cada movimento da criatura gera tsunamis de calor e ondas de choque eletromagnéticas que desintegram matéria e interrompem técnicas inimigas antes mesmo da finalização.",
         classification: "Z",
         status: "Consumo absurdo de chakra. Exige sincronização mental perfeita entre Gama e Saiken. A instabilidade plasmática aumenta proporcionalmente à intensidade emocional do usuário. Caso o controle vacile, pode ocorrer uma explosão termoeletromagnética de proporções devastadoras, afetando aliados e o próprio invocador.",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1772124972/Gama3_mfgzfp.png",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Ganmasen%20Yuki%20(Gama)%2FTecnicas%2F03%20-%20Saiken%3A%20Purazuma%20%C5%8Cgi.png?alt=media&v=1786467615400567",
         name: "Saiken: Purazuma Ōgi",
         destruction: "Catastrófico em escala continental. A simples presença do Modo Bijū Plasmático eleva drasticamente a temperatura da região, ioniza a atmosfera e provoca colapsos estruturais massivos. Golpes diretos podem apagar cadeias montanhosas inteiras e evaporar grandes massas de água. Técnicas de alto nível sofrem instabilidade energética e podem ser dissipadas por interferência eletromagnética extrema."
       },
@@ -5781,7 +5781,7 @@ export const initialData: Character[] = [
         history: "Criada após Gama dominar o equilíbrio entre destruição térmica, corrosão química e instabilidade atmosférica. Ao perceber que a tempestade poderia amplificar o alcance do ácido e que o Enton poderia impedir qualquer dissipação natural, ele consolidou a técnica como sua assinatura de supremacia elemental.",
         classification: "S++",
         status: "Altíssimo consumo de chakra e extrema exigência de controle. A fusão inadequada das três naturezas pode gerar reação em cadeia descontrolada, atingindo aliados e alterando drasticamente o ambiente ao redor. Requer concentração absoluta e estabilidade emocional para manter a convergência elemental.",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1772124972/Gama5_frx0et.png",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Ganmasen%20Yuki%20(Gama)%2FTecnicas%2F04%20-%20Shik%C5%8D%20Sanmi%20Ittai.png?alt=media&v=1786467617669026",
         name: "Shikō Sanmi Ittai",
         destruction: "Massivo em escala regional. A técnica pode devastar cidades inteiras, corroer fortificações avançadas e gerar tempestades elétricas contínuas que persistem mesmo após o impacto inicial. A combinação do ácido ionizado com as chamas negras cria danos progressivos, dificultando regeneração e reconstrução imediata."
       },
@@ -5792,7 +5792,7 @@ export const initialData: Character[] = [
         nature: "Ranton + Santon + Enton",
         destruction: "Extremamente elevado em escala regional ampliada. O impacto gera um colapso atmosférico temporário, ioniza o ar, corrói estruturas maciças e incinera defesas com chamas negras persistentes. A área afetada permanece instável por um período prolongado devido à interferência eletromagnética e resíduos ácidos energizados.",
         name: "Kyokuten Sandon",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1772124972/Gama4_glbjqc.png",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F72%20-%20Ganmasen%20Yuki%20(Gama)%2FTecnicas%2F05%20-%20Kyokuten%20Sandon.png?alt=media&v=1786467619902912",
         status: "Consome enormes reservas de chakra e exige controle minucioso da pressão interna do núcleo. Qualquer falha na sincronização das três naturezas pode provocar uma ruptura prematura, resultando em explosão descontrolada ao redor do próprio usuário. Técnica restrita a situações de combate decisivo."
       }
     ],
@@ -5883,7 +5883,7 @@ export const initialData: Character[] = [
     chakra: 0,
     isDead: true,
     killedBy: "nAJIN hATAKE",
-    image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1771556332/Delta_tvvhqd.jpg",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).jpg?alt=media&v=1786467621335037",
     techniques: [
       {
         nature: "Juryūkuton + Kotton",
@@ -5892,7 +5892,7 @@ export const initialData: Character[] = [
         history: "Criada após Delta atingir maestria tanto no controle da gravidade quanto na manipulação do metal, percebendo que poderia não apenas destruir o ambiente, mas dominá-lo completamente. Ao unir essas duas naturezas, ele transcendeu o combate individual, passando a controlar múltiplas entidades com poder equivalente a armas de destruição em massa.",
         status: "Extremamente exaustiva. Requer controle simultâneo de múltiplos núcleos gravitacionais e grande consumo de chakra. Caso perca o controle, os golens podem colapsar desordenadamente, causando destruição indiscriminada.",
         name: "Juryūkuton: Kōtetsu no Chōjū",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501471/delta1_eijh0d.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FTecnicas%2F01%20-%20Jury%C5%ABkuton%3A%20K%C5%8Dtetsu%20no%20Ch%C5%8Dj%C5%AB.jpg?alt=media&v=1786467623181149",
         destruction: "Nível apocalíptico massivo. Exércitos inteiros são obliterados sob o peso da gravidade combinada com força metálica colossal. Regiões inteiras são esmagadas, deformadas e soterradas por pressão gravitacional contínua."
       },
       {
@@ -5903,12 +5903,12 @@ export const initialData: Character[] = [
         destruction: "Nível apocalíptico. A área atingida é completamente apagada, deixando apenas um vazio comprimido e instável. Defesas convencionais não suportam a compressão absoluta.",
         status: "Uso extremamente restrito. Consumo colossal de chakra. Pode afetar aliados e o próprio usuário se mal controlada.",
         name: "Juryūkuton: Shūen no Kyūshū",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501472/delta5_hfji3k.jpg"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FTecnicas%2F02%20-%20Jury%C5%ABkuton%3A%20Sh%C5%ABen%20no%20Ky%C5%ABsh%C5%AB.jpg?alt=media&v=1786467625008558"
       },
       {
         destruction: "Nível apocalíptico global. Regiões inteiras são convertidas em um ecossistema metálico vivo, impossibilitando sobrevivência ou fuga convencional.",
         name: "Koton: Meidō no Kōtetsu Tensei",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501471/delta2_z21don.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FTecnicas%2F03%20-%20Koton%3A%20Meid%C5%8D%20no%20K%C5%8Dtetsu%20Tensei.jpg?alt=media&v=1786467626781332",
         status: "Consumo absurdo de chakra. Técnica extremamente rara. Pode afetar aliados e alterar permanentemente o ambiente.",
         classification: "Z",
         description: "Delta toca o solo e ativa uma transmutação em escala massiva, convertendo toda a terra ao redor em um metal negro vivo. O ambiente inteiro passa a se comportar como uma entidade controlada por ele: o chão ondula como um oceano metálico, pilares colossais emergem e lâminas gigantes se erguem do nada. Qualquer inimigo em contato com o solo começa a ser assimilado lentamente, tendo seu corpo convertido em metal e integrado ao campo de batalha. O terreno deixa de existir como natureza e passa a ser um domínio absoluto de Koton.",
@@ -5921,7 +5921,7 @@ export const initialData: Character[] = [
         history: "Desenvolvida como técnica de execução rápida contra oponentes ágeis e difíceis de atingir diretamente.",
         nature: "Koton",
         name: "Koton: Kōtetsu Kōrin — Hakai no Kiba",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501471/delta4_xbw1vx.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FTecnicas%2F04%20-%20Koton%3A%20K%C5%8Dtetsu%20K%C5%8Drin%20%E2%80%94%20Hakai%20no%20Kiba.jpg?alt=media&v=1786467628638987",
         status: "Alto consumo de chakra, porém eficiente e de ativação rápida.",
         destruction: "Extremamente alto. Capaz de eliminar múltiplos alvos ou aprisionar inimigos de alto nível sem possibilidade de fuga."
       },
@@ -5932,7 +5932,7 @@ export const initialData: Character[] = [
         nature: "Koton",
         destruction: "Alto (combate direto). Amplifica drasticamente força, resistência e capacidade ofensiva.",
         name: "Koton: Shinzō no Kinzoku — Tekkai no Ō",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501471/delta3_zhacym.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FTecnicas%2F05%20-%20Koton%3A%20Shinz%C5%8D%20no%20Kinzoku%20%E2%80%94%20Tekkai%20no%20%C5%8C.jpg?alt=media&v=1786467630478270",
         status: "Consumo constante de chakra. Extremamente estável, mas desgastante em batalhas prolongadas."
       },
       {
@@ -5941,13 +5941,13 @@ export const initialData: Character[] = [
         history: "Criada como técnica de domínio total de campo tridimensional.",
         nature: "Juryūkuton",
         name: "Juryūkuton: Tenchi Gyakuten",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501472/delta6_bp3yes.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FTecnicas%2F06%20-%20Jury%C5%ABkuton%3A%20Tenchi%20Gyakuten.jpg?alt=media&v=1786467632270280",
         status: "Alto consumo de chakra. Requer controle preciso para não atingir aliados.",
         destruction: "Massivo. O dano vem de colisões múltiplas, desorientação extrema e destruição do terreno."
       },
       {
         name: "Juryūkuton: Jūryoku Kekkai — Zetsubō no Ori",
-        image: "https://res.cloudinary.com/dokl8hfqz/image/upload/v1777501472/delta7_as98pi.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F73%20-%20Deruta%20Muujin%20(Delta)%2FTecnicas%2F07%20-%20Jury%C5%ABkuton%3A%20J%C5%ABryoku%20Kekkai%20%E2%80%94%20Zetsub%C5%8D%20no%20Ori.jpg?alt=media&v=1786467634037047",
         status: "Consumo elevado, porém mais estável que técnicas de larga escala. Pode ser quebrada apenas por técnicas equivalentes ou habilidades especiais.",
         destruction: "Extremamente alto e focado. Ideal para eliminação de alvos únicos de alto nível.",
         classification: "S++",
