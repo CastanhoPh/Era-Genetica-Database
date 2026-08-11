@@ -26,7 +26,10 @@ const GalleryPage: React.FC = () => {
   const [expandedArcos, setExpandedArcos] = useState<Set<string>>(new Set());
   const [lightbox, setLightbox] = useState<ChecklistItem | null>(null);
   const [viewMode, setViewMode] = useState<'temporada' | 'geral'>('temporada');
-  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'geral'>('evento');
+  // Abre em "Geral" (Eventos + Linha do Tempo juntos); as abas específicas são um filtro
+  // que o visitante escolhe, não o ponto de partida. Links diretos ainda mandam na aba:
+  // /galeria/<personagem>/<fase> força 'timeline' e link de evento mantém 'geral'.
+  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'geral'>('geral');
   const [forceColor, setForceColor] = useState(false);
   const [hideCaptions, setHideCaptions] = useState(false);
   const [hideMask, setHideMask] = useState(false);
