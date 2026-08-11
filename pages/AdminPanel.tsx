@@ -338,7 +338,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     };
 
     for (const c of characters) {
-      if (c.image) registra({ kind: 'Capas', owner: c.name, detail: 'capa da ficha', url: c.image });
+      if (c.image) registra({ kind: 'Capas', owner: c.name, detail: 'capa da ficha — é a que o site usa', url: c.image });
       for (const g of c.gallery ?? []) {
         if (!g.url) continue;
         registra({
@@ -361,10 +361,15 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     for (const i of checklistItems) {
       if (!i.imageUrl) continue;
       const tipo = i.type ?? 'evento';
+      // Em item de capa, `temporada`, `arco` e `name` são todos o nome do personagem — montar o
+      // rótulo com os três sairia "Oddy Uchiha · Oddy Uchiha · Oddy Uchiha".
+      const detail = tipo === 'capa'
+        ? 'capa no checklist de produção'
+        : i.subarco ? `${i.arco} · ${i.subarco} · ${i.name}` : `${i.arco} · ${i.name}`;
       registra({
         kind: tipo === 'timeline' ? 'Linha do Tempo' : tipo === 'capa' ? 'Capas' : 'Eventos',
         owner: i.temporada,
-        detail: i.subarco ? `${i.arco} · ${i.subarco} · ${i.name}` : `${i.arco} · ${i.name}`,
+        detail,
         url: i.imageUrl,
       });
     }
