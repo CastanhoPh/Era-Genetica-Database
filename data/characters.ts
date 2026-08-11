@@ -9,7 +9,7 @@ export const initialData: Character[] = [
     nc: 30,
     position: "3º Hokage",
     role: "DPS",
-    description: "Um líder nato, portador da verdadeira Vontade do Fogo — uma força da natureza no campo de batalha.\n\nDesde a infância, Nishinoya já demonstrava uma genialidade fora dos padrões, mesmo sem herdar as habilidades tradicionais do prestigiado clã Senju.\n\nAos 14 anos, em meio à guerra, foi reconhecido como o Relâmpago Azul de Konoha após ser escolhido por Matatabi e alcançar a harmonia entre seu poder, o lendário Hiraishin e seu domínio absoluto do Katon.\n\nAos 16 anos, foi nomeado o Terceiro Hokage por Tobirama Senju, liderando Konoha durante um dos períodos mais turbulentos de sua história. Em batalha, enfrentou inimigos de nível absurdo — incluindo o vice-líder da OCA, que o reconheceu como um verdadeiro Deus Shinobi.\n\nNishinoya é capaz de fundir o chakra de Matatabi, o Hiraishin e seu exclusivo Modo Sábio Aoi Katon, criando um estilo de combate único baseado em velocidade absoluta e destruição precisa.\n\nCriador de técnicas lendárias, entre elas:\n- Senpo: Enka Aoi Katon Bijūdama: Oodama Rasenshuriken\n- Sennin Fuka: Modo Sábio Aoi Katon\n- Aoi Katon: Komyunikēshon\n- Clone Perfeito",
+    description: "Um líder nato, portador da verdadeira Vontade do Fogo — uma força da natureza no campo de batalha.\n\nDesde a infância, Nishinoya já demonstrava uma genialidade fora dos padrões, mesmo sem herdar as habilidades tradicionais do prestigiado clã Senju.\n\nAos 14 anos, em meio à guerra, foi reconhecido como o Relâmpago Azul de Konoha após ser escolhido por Matatabi e alcançar a harmonia entre seu poder, o lendário Hiraishin e seu domínio absoluto do Katon.\n\nAos 16 anos, foi nomeado o Terceiro Hokage por Tobirama Senju, liderando Konoha durante um dos períodos mais turbulentos de sua história. Em batalha, enfrentou inimigos de nível absurdo — incluindo o vice-líder da OCA, que o reconheceu como um verdadeiro Deus Shinobi.\n\nNishinoya é capaz de fundir o chakra de Matatabi, o Hiraishin e seu exclusivo Modo Sábio Aoi Katon, criando um estilo de combate único baseado em velocidade absoluta e destruição precisa.\n\nCriador de técnicas lendárias, entre elas:\n- Senpo: Enka Aoi Katon Bijūdama: Oodama Rasenshuriken\n- Sennin Fuka\n- Aoi Katon: Komyunikēshon\n- Clone Perfeito",
     hp: 214,
     chakra: 200,
     isDead: true,
@@ -97,7 +97,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FTecnicas%2F08%20-%20Clone%20Perfeito.png?alt=media"
       },
       {
-        name: "Sennin Fuka: Modo Sábio Aoi Katon",
+        name: "Sennin Fuka",
         classification: "S++",
         nature: "Senjutsu + Aoi Katon",
         description: "Aos 14 anos, em meio à guerra, Nishinoya alcança a harmonia entre a energia natural absorvida pelo Senjutsu e o Aoi Katon — a chama azul que já era exclusivamente sua antes de qualquer vínculo com a Matatabi ou o Hiraishin. Diferente de um pacto espiritual externo, essa fusão não depende de mestre, linhagem ou espírito-guia: é a energia natural aperfeiçoando aquilo que ele já é. Ao ativar o modo, chamas azuis espirituais percorrem sua pele como veios luminosos, seus olhos ganham um brilho felino intenso, e sua percepção de chakra se expande a ponto de sentir a menor oscilação de energia hostil a grande distância.",
@@ -180,7 +180,7 @@ export const initialData: Character[] = [
     arsenal: [1, 2],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F01%20-%20Nishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media", caption: "Terceiro Hokage", category: "era" },
@@ -216,7 +216,7 @@ export const initialData: Character[] = [
     name: "Kaito Senju",
     clan: "Senju",
     categories: ["Personagem", "Konohagakure"],
-    titles: ["Sangue mais puro de Konoha", "Assassino de F e G"],
+    titles: ["Sangue mais puro de Konoha", "Assassino de F e G", "Capitão Escarlate", "Legado de Katsumi Hyūga"],
     nc: 16,
     position: "Chunin",
     role: "Tank e DPS",
@@ -329,13 +329,13 @@ export const initialData: Character[] = [
     arsenal: [1, 3],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1784658553093310", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%20Cl%C3%A1ssico.png?alt=media", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1786370734644029", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F1__Temporada.png?alt=media&v=1786454424413629", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1786454427005356", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1786454421852750", caption: "Ambu", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1786454429614752", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 15, spirit: 16, vigor: 9, perception: 16 },
@@ -363,7 +363,7 @@ export const initialData: Character[] = [
     name: "Oddy Uchiha",
     clan: "Uchiha",
     categories: ["Personagem", "Konohagakure"],
-    titles: ["Chama Viva de Konoha", "Vencedor do Exame Chunin"],
+    titles: ["Chama Viva de Konoha", "Vencedor do Exame Chunin", "Sol de Konoha", "Legado de Najin Hatake"],
     nc: 16,
     position: "Chunin",
     role: "DPS",
@@ -505,8 +505,8 @@ export const initialData: Character[] = [
     ],
     arsenal: [4, 2, 5, 6, 7, 18],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Beb%C3%AA.png?alt=media", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%20Cl%C3%A1ssico.png?alt=media", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1786454452859639", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FCl_ssico.png?alt=media&v=1786370726545874", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F03%20-%20Oddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media", caption: "Ambu", category: "era" },
@@ -544,7 +544,7 @@ export const initialData: Character[] = [
     name: "Katsumi Hyuga",
     clan: "Hyuga",
     categories: ["Personagem", "Konohagakure"],
-    titles: ["Capitão", "Legado do Fujogan"],
+    titles: ["Capitão", "Legado do Fujogan", "A Última Esperança", "Legado de Nishinoya Senju", "O Punho Roxo de Konoha"],
     nc: 16,
     position: "Chunin",
     role: "Tank",
@@ -649,7 +649,7 @@ export const initialData: Character[] = [
     arsenal: [74, 75, 8],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FPr_logo.png?alt=media&v=1784658555583435", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FCl_ssico.png?alt=media&v=1784579799215930", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FCl_ssico.png?alt=media&v=1786370732772004", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F1__Temporada.png?alt=media&v=1784579801884678", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F2__Temporada.png?alt=media&v=1784579804356218", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FAmbu.png?alt=media&v=1784579806879806", caption: "Ambu", category: "era" },
@@ -685,7 +685,7 @@ export const initialData: Character[] = [
     name: "Najin Hatake",
     clan: "Hatake",
     categories: ["Personagem", "Konohagakure"],
-    titles: ["Tigre Branco de Konoha", "O Rejeitado"],
+    titles: ["Tigre Branco de Konoha", "O Rejeitado", "Ninja Mais Forte da Nova Konoha", "Lenda dos Oito Portões"],
     nc: 16,
     position: "Genin",
     role: "DPS",
@@ -810,11 +810,11 @@ export const initialData: Character[] = [
     arsenal: [9, 10],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FPr_logo.png?alt=media&v=1784658585741971", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FCl_ssico.png?alt=media&v=1786370728817391", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Ambu.png?alt=media", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F05%20-%20Najin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%203%C2%AA%20Temporada.png?alt=media", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F3__Temporada.png?alt=media&v=1786454450385307", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F4__Temporada.png?alt=media&v=1784658584260783", caption: "4ª Temporada", category: "era" },
     ],
     stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 9, spirit: 15, vigor: 16, perception: 6 },
@@ -848,14 +848,14 @@ export const initialData: Character[] = [
     name: "Takeshi Hatake",
     clan: "Hatake",
     categories: ["Personagem", "Konohagakure"],
-    titles: ["Prodigio de Konoha"],
+    titles: ["Prodigio de Konoha", "O Último Hatake"],
     nc: 16,
     position: "Chunin",
     role: "DPS",
     description: "",
     hp: 123,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1786370804894742",
     techniques: [
       {
         name: "Kaminoyari: Kirin",
@@ -921,11 +921,11 @@ export const initialData: Character[] = [
     arsenal: [11, 12, 13, 14],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1784658775265048", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1784579817581327", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1786370721697470", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F1__Temporada.png?alt=media&v=1784579820193594", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F2__Temporada.png?alt=media&v=1784579822782599", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FAmbu.png?alt=media&v=1784658608995206", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F3__Temporada.png?alt=media&v=1784579825422449", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FLuta_contra_o_Omega.png?alt=media&v=1786454447744733", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F3__Temporada.png?alt=media&v=1784658604434695", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F4__Temporada.png?alt=media&v=1784658606921125", caption: "4ª Temporada", category: "era" },
     ],
@@ -969,7 +969,7 @@ export const initialData: Character[] = [
     arsenal: [9],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1784658602065060", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FCl_ssico.png?alt=media&v=1784579830803781", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FCl_ssico.png?alt=media&v=1786370723909827", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F1__Temporada.png?alt=media&v=1784579833440494", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F2__Temporada.png?alt=media&v=1784579836036249", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FAmbu.png?alt=media&v=1784579838698504", caption: "Ambu", category: "era" },
@@ -1257,13 +1257,13 @@ export const initialData: Character[] = [
     arsenal: [17, 19, 66],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FPr_logo.png?alt=media&v=1784658579901730", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%20Cl%C3%A1ssico.png?alt=media", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FCl_ssico.png?alt=media&v=1786370730906951", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Kaminari.png?alt=media", caption: "Kaminari", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F4__Temporada.png?alt=media&v=1784658577459275", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 8, spirit: 16, vigor: 16, perception: 6 },
@@ -1346,7 +1346,7 @@ export const initialData: Character[] = [
     name: "Kenma Soryo",
     clan: "Soryo",
     categories: ["Personagem", "Iwagakure"],
-    titles: ["Punho Sagrado da Guerra", "Herdeiro da Pedra Viva"],
+    titles: ["Punho Sagrado da Guerra", "Herdeiro da Pedra Viva", "Homem que Deteve Cinco Bijūdamas", "A Muralha que Desafiou as Bijū", "Capitão do Pentagono"],
     nc: 16,
     position: "Jounin",
     role: "Tank",
@@ -1409,8 +1409,8 @@ export const initialData: Character[] = [
     arsenal: [20, 21, 22, 24, 25, 26],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F3__Temporada.png?alt=media&v=1784658568643724", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1784658571584961", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F5_Temporada.png?alt=media&v=1784659203079239", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1786454439977012", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F5__Temporada.png?alt=media&v=1786454442641936", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 16, spirit: 8, vigor: 16, perception: 6 },
     powers: [
@@ -1590,7 +1590,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2FPr_logo.png?alt=media&v=1784569496247360", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2FCl_ssico.png?alt=media&v=1784569493683142", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F1__Temporada.png?alt=media&v=1784751315158", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F2__Temporada.png?alt=media&v=1784569491800938", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F2__Temporada.png?alt=media&v=1786454432200558", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F5__Temporada.png?alt=media&v=1784751316709", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 14, spirit: 18, vigor: 14, perception: 18 },
@@ -1819,7 +1819,7 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F17%20-%20Sho%20Uchiha%2FSho%20Uchiha.jpg?alt=media",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2F2__Temporada.png?alt=media&v=1784569559841890", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2F1__Temporada.png?alt=media&v=1784569557425927", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FLuta_contra_o_Hades.png?alt=media&v=1786371788573376", caption: "Luta contra o Hades", category: "era" },
     ],
     stats: { strength: 28, dexterity: 12, agility: 28, intelligence: 12, spirit: 28, vigor: 28, perception: 18 },
     powers: [
@@ -1864,7 +1864,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FCl_ssico.png?alt=media&v=1784569503443462", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2F1__Temporada.png?alt=media&v=1784569498466720", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2F2__Temporada.png?alt=media&v=1784569500965869", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1786371785979793", caption: "Luta contra o Hades", category: "era" },
     ],
     stats: { strength: 12, dexterity: 28, agility: 12, intelligence: 28, spirit: 18, vigor: 28, perception: 28 },
     powers: [
@@ -1905,7 +1905,7 @@ export const initialData: Character[] = [
     chakra: 128,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F19%20-%20Yumi%20Uzumaki%2FYumi%20Uzumaki.jpg?alt=media",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F1__Temporada.png?alt=media&v=1784665903124728", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F1__Temporada.png?alt=media&v=1786454445275654", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F4__Temporada.png?alt=media&v=1784751371543", caption: "4ª Temporada", category: "era" },
     ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 15, perception: 25 },
@@ -3026,7 +3026,7 @@ export const initialData: Character[] = [
     ],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FPr_logo.png?alt=media&v=1784751292122", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FCl_ssico.png?alt=media&v=1784665844459365", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FCl_ssico.png?alt=media&v=1786370736814790", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2F3__Temporada.png?alt=media&v=1784665841541310", caption: "4ª Temporada", category: "era" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 16, spirit: 16, vigor: 8, perception: 16 },
@@ -3760,7 +3760,7 @@ export const initialData: Character[] = [
     description: "Satoshi Namikaze, irmão mais novo de Sakura Namikaze, sempre viveu à sombra da irmã mais velha — até decidir seguir um caminho que não pertencia a mais ninguém da família. Ainda jovem, partiu sozinho rumo ao Monte Myōboku, decidido a dominar o Modo Sábio dos Sapos por conta própria, sem pedir permissão e sem levar ninguém junto.\n\nAntes de partir, Katsuo Uzumaki — já àquela altura um homem marcado pelo próprio sacrifício — entregou a Satoshi os lendários nunchakos do clã Uzumaki, o Uzumaki no Kon, como única garantia de que ele teria como se defender numa jornada que ninguém mais estava disposto a fazer.\n\nHoje, aos 24 anos, Satoshi é o guardião do Monte Myōboku. A notícia da morte da irmã e do cunhado, Kawarama Senju, chegou até ele tarde demais para qualquer despedida — e pouco depois, o mesmo aconteceu com os relatos da morte de Naomi Uzumaki e de Katsuo, o homem que uma vez lhe deu os meios de sobreviver sozinho na montanha. Foi esse peso acumulado que o fez se dedicar de corpo e alma à defesa de Myōboku, quando a OCA voltou os olhos para o chakra natural da montanha, tentando extraí-lo à força.\n\nMas a verdade, como sempre no mundo shinobi, era mais complicada do que os relatos. Satoshi descobriu que Katsuo estava vivo — e que Naomi também. Sem hesitar, deixou os próprios Sapos Sábios que treinara como novos protetores da montanha em seu lugar, e partiu à procura dos dois, decidido a não deixar mais nenhuma notícia de morte passar sem confirmação.",
     hp: 187,
     chakra: 137,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F31%20-%20Satoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786040406644",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F31%20-%20Satoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786052909839",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2FPr%C3%B3logo.png?alt=media&v=1786038793699", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2F5%C2%AA%20Temporada.png?alt=media&v=1786038795533", caption: "5ª Temporada", category: "era" },
@@ -3776,7 +3776,7 @@ export const initialData: Character[] = [
     aptitudes: ["Chakra Expandido Namikaze"],
     techniques: [
       {
-        name: "Sennin Fuka: Gama Kanzentai",
+        name: "Sennin Fuka",
         classification: "S++",
         nature: "Senjutsu",
         description: "Ao ativar o Modo Sábio, Satoshi não depende só da própria energia natural absorvida — ele abre simultaneamente o Gama Sennin no Keiyaku, puxando um fluxo direto de chakra natural do próprio Monte Myōboku através do pacto selado em sua mão, enquanto o Gama no Zōri estabiliza esse excesso de energia pelos pés, impedindo que o corpo colapse sob a sobrecarga. O resultado é uma transformação que ultrapassa o que o próprio treinamento de Satoshi alcançaria sozinho: marcas de chakra verde-musgo sobem por seus braços e rosto, seus olhos assumem pupilas horizontais como as de um sapo, e uma pressão de vento constante circula ao seu redor, amplificada pelo Fūton que já era natural dele. Isso permite acesso a um Sennin Fuka completo e perfeito, mesmo sem Satoshi ter, por conta própria, ultrapassado o estágio Completo Elevado.",
@@ -3814,6 +3814,15 @@ export const initialData: Character[] = [
         history: "Nascida da tentativa de Satoshi de aplicar o Rasengan sem depender das duas mãos, essa técnica só se tornou estável depois de incontáveis tentativas fracassadas — e várias esferas desfeitas antes da hora. A coloração vinho surgiu sem explicação aparente na primeira vez que conseguiu, e nunca mudou desde então; ele nunca confirmou por que a cor do seu Rasengan difere de qualquer outro que já viu.",
         status: "Técnica rara e de altíssimo custo de chakra — Satoshi só a usa como aposta final, já que o próprio ato de girar o nunchaku antes do golpe avisa claramente ao oponente o que está por vir. Não é surpresa; é uma decisão consciente de arriscar tudo em um único golpe.",
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F31%20-%20Satoshi%20Namikaze%2FTecnicas%2F04%20-%20Kusari%20Rasengan%3A%20Guren.png?alt=media&v=1786043945542"
+      },
+      {
+        name: "Senpo: Uzumaki no Kon",
+        classification: "S++",
+        nature: "Senjutsu + Fuinjutsu",
+        description: "Satoshi direciona um fluxo constante de energia natural para o selo central do Uzumaki no Kon — o mesmo núcleo que originalmente servia apenas para estabilizar suas próprias reservas de chakra — e funde essa energia diretamente à corrente de chakra vivo que liga os dois bastões. A corrente responde imediatamente: pulsa em um verde-musgo entrelaçado ao vinho profundo característico do chakra de Satoshi, esticando-se, engrossando e ganhando um comportamento quase próprio, como se a arma tivesse acordado. Cada rotação do nunchaku passa a carregar o peso da montanha, e cada elo adicional de Correntes de Chakra que a arma consegue manifestar sai já impregnado de energia natural, capaz de selar e imobilizar com uma força que o fuinjutsu do Uzumaki no Kon nunca teria sozinho. Satoshi luta com a arma girando em arcos largos, os bastões batendo como um mangual vivo, usando o alcance estendido da corrente para manter distância, prender membros e armas inimigas, e golpear com o peso extra de energia natural emprestada da própria montanha.",
+        destruction: "Cada impacto físico do Uzumaki no Kon passa a carregar a força bruta do Modo Sábio somada à velocidade de um golpe de mangual, o suficiente para rachar pedra e amassar metal reforçado por chakra. Os pulsos de fuinjutsu que a arma já injetava a cada golpe se tornam selamentos muito mais severos, capazes de travar temporariamente o fluxo de chakra do alvo numa área maior do que o simples ponto de impacto. Os elos adicionais de Correntes de Chakra saem mais longos, mais resistentes e reagem como extensões do próprio corpo de Satoshi, permitindo prender múltiplos alvos ou pontos de apoio ao mesmo tempo.",
+        history: "Satoshi descobriu essa fusão por necessidade, não por treino — durante os primeiros confrontos para impedir que a OCA extraísse à força o chakra natural do Monte Myōboku. Sabendo que o selo central do Uzumaki no Kon já existia para estabilizar reservas de chakra, tentou, no meio de uma defesa desesperada, canalizar energia natural diretamente para esse núcleo em vez de para o próprio corpo. A corrente de chakra vivo aceitou o fluxo sem resistência, como se a arma de Katsuo — forjada havia gerações para canalizar o poder de selamento Uzumaki — sempre tivesse esperado por exatamente esse tipo de energia.",
+        status: "Exige que Satoshi mantenha o Modo Sábio ativo durante toda a duração da técnica — o Uzumaki no Kon não armazena energia natural por conta própria, apenas a canaliza enquanto ela continua sendo fornecida. Se o fluxo de senjutsu for interrompido, mesmo que por um instante, a corrente perde a coloração verde-musgo e a arma volta a se comportar como o nunchaku comum que sempre foi, deixando Satoshi sem o alcance e a força extra no meio do combate."
       }
     ],
     arsenal: [34, 77, 78, 79],
@@ -3829,53 +3838,64 @@ export const initialData: Character[] = [
     nc: 30,
     position: "3 Sannins Lendários",
     role: "DPS",
-    description: "Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.\n\nSua libertação só veio com a Luta contra os Kages. Quando as linhas de frente se romperam e a fortaleza Yumei ficou exposta em meio ao caos da guerra, Nishinoya foi um dos que chegaram até ela — anos depois de tê-la seguido até a cúpula do Hokage, ainda apaixonado, ainda incapaz de desistir. Encontrou-a quebrada pelo cativeiro, mas viva. No meio da batalha que se seguiu, à beira do próprio colapso, Nishinoya abriu seu Modo Sábio ao limite para conseguir tirá-la de lá — e foi nesse contato, entre o chakra natural dele e o de Kurama pulsando dentro de Naomi, que algo se rompeu e se reorganizou nela. Kurama, que por anos apenas sobrevivera trancada junto com sua hospedeira, reconheceu naquela energia externa um equilíbrio que já devia ter encontrado por conta própria — e o usou como catalisador para finalmente se fundir por completo à natureza de Naomi. Ela saiu da Yumei sem o Modo Sábio de Nishinoya, mas com o seu próprio, nascido daquele instante: a fusão entre sua ligação com a Bijuu e o Suiton que sempre foi seu.",
+    description: "Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.\n\nSua libertação só veio com a Luta contra os Kages — mas não pelas mãos de Nishinoya. Os dois nunca voltaram a se encontrar depois do dia em que ela foi capturada; quando as linhas de frente se romperam e a fortaleza Yumei finalmente cedeu em meio ao caos da guerra, Nishinoya já estava morto, caído nas mãos de Ômega antes mesmo daquela batalha terminar. Foi em meio aos destroços que Naomi encontrou a Sōen no Kage e a Sōen no Gauntō, as relíquias que ele carregara a vida inteira, abandonadas onde ele caiu. Ao tocá-las, sentiu o resquício do chakra da Matatabi que ainda pulsava dentro delas — e, pela primeira vez desde o cativeiro, Kurama respondeu a algo além da própria dor de Naomi. As duas relíquias se transformaram em suas mãos, tornando-se a Shiden no Kage e a Shiden no Gauntō, e foi nesse instante — não de resgate pessoal, mas de conexão póstuma através do que restava dele — que algo se rompeu e se reorganizou dentro de Naomi. Kurama, que por anos apenas sobrevivera trancada junto com sua hospedeira, reconheceu naquele eco de energia externa um equilíbrio que já devia ter encontrado por conta própria — e o usou como catalisador para finalmente se fundir por completo à natureza de Naomi. Ela saiu da Yumei sem nunca ter revisto Nishinoya, mas carregando um Modo Sábio exclusivo, nascido daquele instante: a fusão entre sua ligação com a Bijuu e o Suiton que sempre foi seu.",
     hp: 204,
     chakra: 188,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1786052313822",
     techniques: [
+      {
+        name: "Kurama Rinku",
+        classification: "Z",
+        nature: "Chakra de Bijuu",
+        description: "Naomi desperta o chakra de Kurama em sua forma mais bruta e visceral, sem tentar moldá-lo a nenhuma outra natureza sua. Um manto de chamas alaranjadas e douradas — a cor mais pura e mais reconhecível da raposa — irrompe de seu corpo, subindo em espirais de fogo que se comportam como caudas vivas ao seu redor. Marcas negras em espiral avançam pelos braços e pelo peito, com o símbolo 「9」 gravado em ambas as mangas — o selo do vínculo entre as duas. Suas íris desaparecem por trás de um vermelho abissal, e seus movimentos passam a deixar rastros de fogo suspensos no ar por um instante antes de se apagarem. O manto amplifica sua força física e velocidade a níveis sobre-humanos, e cada golpe carrega o peso quase bruto do chakra de Kurama correndo solto por seu corpo.",
+        destruction: "O simples ato de Naomi se mover dentro do manto gera ondas de calor que fraturam e incineram o terreno ao redor. Golpes físicos carregam o impacto bruto do chakra de Kurama, destruindo defesas de alto nível com facilidade, e o rastro de fogo deixado por cada movimento continua queimando por instantes depois que ela já passou, tornando qualquer aproximação arriscada mesmo sem contato direto.",
+        history: "O vínculo de Naomi com Kurama não foi construído por força — foi por compreensão. Durante seu treinamento intenso com Tobirama, em um momento de exaustão extrema e colapso emocional no campo de batalha, Kurama pela primeira vez estendeu seu chakra voluntariamente a Naomi, reconhecendo nela não uma jaula, mas uma parceira. Desde então, o manto passou a responder à sua emoção e intenção.",
+        status: "O manto consome chakra de Kurama em ritmo acelerado e exige que Naomi mantenha equilíbrio emocional constante. Raiva descontrolada pode fazer o manto evoluir de forma não intencional, correndo o risco de atingir aliados. O uso prolongado causa marcas de chakra pelo corpo e exaustão profunda após o término.",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F02%20-%20Kurama%20Rinku.png?alt=media&v=1786052313822"
+      },
+      {
+        name: "Kurama Modo",
+        classification: "Z",
+        nature: "Chakra de Bijuu",
+        description: "Diferente do Kurama Rinku, que veste Naomi com o manto da raposa, o Kurama Modo dissolve completamente a fronteira entre as duas: Naomi desaparece por dentro, e Kurama assume forma física completa, em tamanho colossal, composta inteiramente por chakra vivo em chamas alaranjadas. As nove caudas se erguem como labaredas independentes, cada uma capaz de agir por conta própria, e o rugido que sai da garganta da raposa carrega a vontade consciente de Naomi guiando cada movimento por dentro. Não é uma possessão nem uma perda de controle — é a materialização de cem por cento do chakra de Kurama, com Naomi ainda no centro, comandando o gigante como extensão exata do próprio corpo.",
+        destruction: "Em escala colossal. Cada passo do Kurama Modo abre crateras, cada movimento das nove caudas devasta formações inteiras, e o simples deslocamento de ar ao redor da forma já é suficiente para arrancar estruturas do chão. É o nível de destruição bruta mais alto que Naomi consegue alcançar, comparável a forças de nível vila.",
+        history: "Depois de anos equilibrando o vínculo com Kurama através do Sennin Fuka e do Kurama Rinku, Naomi finalmente pediu à raposa o que sempre soubera ser possível, mas nunca ousara pedir: liberar cem por cento do chakra dela de uma vez, sem freios. Kurama aceitou não como um teste, mas como reconhecimento — a mesma confiança que a levou, anos antes, a estender chakra voluntariamente a Naomi em pleno campo de batalha, agora levada ao limite absoluto.",
+        status: "Consome as reservas de chakra de Naomi e de Kurama em ritmo extremo — a técnica não pode ser sustentada por muito tempo sem risco real à vida de ambas. Usada apenas em situações de última necessidade, quando nenhuma outra fusão com a Bijuu seria suficiente.",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F03%20-%20Kurama%20Modo.png?alt=media&v=1786052313822"
+      },
+      {
+        name: "Senpo Enka Suiton: Oodama Rasen Shuriken",
+        classification: "S++",
+        nature: "Senjutsu + Suiton + Rasengan",
+        description: "Naomi funde sua afinidade natural com o Suiton ao núcleo giratório do Rasengan, moldando uma esfera imensa de chakra vivo revestida por lâminas de água comprimida que se projetam como as pontas de um Rasen Shuriken. A instabilidade natural da técnica, que normalmente impede seu arremesso, é contida pelo equilíbrio do Sennin Fuka — o fluxo constante de energia natural absorvida através do vínculo com Kurama estabiliza a rotação caótica sem apagar seu poder de corte. O resultado é um Oodama Rasen Shuriken que Naomi consegue lançar a distância, girando pelo ar como um furacão de água e chakra até se chocar contra o alvo, onde libera toda a energia comprimida numa explosão giratória de escala devastadora.",
+        destruction: "Escala devastadora. Ao atingir o alvo, a esfera libera incontáveis lâminas de chakra-água em rotação, cortando e encharcando tecido, estruturas e defesas num raio amplo antes de culminar numa explosão final que arrasa e inunda tudo o que resta em pé.",
+        history: "Só se tornou possível depois que Naomi conquistou o Sennin Fuka através do resquício de chakra que restava na Sōen no Kage e na Sōen no Gauntō de Nishinoya — o mesmo Modo Sábio que ele levara ao limite tantas vezes sem ela nunca ter voltado a vê-lo. Ao perceber que também conseguia controlar chakra sábio para arremessar chakra a distância, assim como ele fazia com o próprio Rasengan, adaptou a técnica à sua natureza de Suiton. Toda vez que a executa, porém, alguma coisa se solta dentro dela — a lembrança do amor que nunca teve a chance de aceitar, e que só voltou a alcançá-la depois que já não havia mais tempo.",
+        status: "Exige domínio simultâneo do Sennin Fuka e controle refinado da rotação instável do Rasen Shuriken — qualquer falha na estabilização pode fazer a esfera colapsar prematuramente nas próprias mãos de Naomi. Emocionalmente, também é uma das técnicas mais custosas que ela possui: a lembrança de Nishinoya que a acompanha a cada uso deixa sua concentração vulnerável por um instante logo após o arremesso, uma fração de segundo que adversários atentos podem aprender a explorar.",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F05%20-%20Senpo%20Enka%20Suiton_%20Oodama%20Rasen%20Shuriken.png?alt=media&v=1786052574450"
+      },
       {
         name: "Sennin Fuka",
         classification: "S++",
         nature: "Senjutsu + Kurama + Suiton",
-        description: "Naomi fecha os olhos e, por um instante, para de lutar contra o próprio corpo — deixa de tentar separar sua energia da de Kurama e permite que as duas se equilibrem. Energia natural é absorvida pelo ambiente e flui direto para o vínculo entre ela e a Bijuu, banhando seu chakra em um vermelho mais escuro, quase negro nas bordas, com marcas finas subindo pelo rosto e braços como veios de tinta líquida. Diferente do Kyūbi no Manto, aqui não há fúria — há controle absoluto. Cada movimento de Naomi passa a carregar o peso e a precisão da natureza ao seu redor, e sua afinidade com o Suiton deixa de ser apenas técnica: a água ao seu redor responde antes mesmo de ela gesticular, como se fizesse parte do próprio corpo dela.",
+        description: "Naomi fecha os olhos e, por um instante, para de lutar contra o próprio corpo — deixa de tentar separar sua energia da de Kurama e permite que as duas se equilibrem. Energia natural é absorvida pelo ambiente e flui direto para o vínculo entre ela e a Bijuu, banhando seu chakra em um vermelho mais escuro, quase negro nas bordas, com marcas finas subindo pelo rosto e braços como veios de tinta líquida. Diferente do Kurama Rinku, aqui não há fúria — há controle absoluto. Cada movimento de Naomi passa a carregar o peso e a precisão da natureza ao seu redor, e sua afinidade com o Suiton deixa de ser apenas técnica: a água ao seu redor responde antes mesmo de ela gesticular, como se fizesse parte do próprio corpo dela.",
         destruction: "Amplifica de forma homogênea tudo que Naomi já é — força, velocidade, densidade de chakra e alcance de suas técnicas de Suiton — sem o custo emocional do manto de Kurama. Permite sustentar batalhas de atrito prolongado sem o desgaste vital que suas outras fusões com a Bijuu exigem.",
-        history: "Nascida no instante em que Nishinoya a tirou da fortaleza Yumei durante a Luta contra os Kages. Ao abrir seu próprio Modo Sábio ao limite para resgatá-la, o chakra natural dele entrou em contato com o de Kurama, ainda pulsando dentro de Naomi depois de anos de cativeiro — e serviu de catalisador para algo que a Bijuu, sozinha, nunca havia conseguido: equilibrar por completo sua energia com a de Naomi. Ela não herdou o modo de Nishinoya; herdou dele apenas o empurrão necessário para finalmente alcançar o seu.",
-        status: "Estável mesmo após longos períodos de ativação, desde que Naomi mantenha o vínculo com Kurama calmo — diferente do Kyūbi no Manto, picos de raiva ou desespero não fortalecem o Sennin Fuka, apenas o desestabilizam.",
+        history: "Nascida na Luta contra os Kages, quando Naomi encontrou a Sōen no Kage e a Sōen no Gauntō ainda no campo de batalha onde Nishinoya já havia caído — os dois nunca chegaram a se reencontrar depois de sua captura. Ao reivindicar as relíquias, que se tornaram a Shiden no Kage e a Shiden no Gauntō em suas mãos, sentiu o resquício de chakra da Matatabi que restava nelas, e foi esse eco — não a presença dele, mas o que sobrou de sua vontade — que serviu de catalisador para algo que Kurama, sozinha, nunca havia conseguido: equilibrar por completo sua energia com a de Naomi. Ela não herdou o modo de Nishinoya; herdou dele apenas o resquício necessário para finalmente alcançar o seu.",
+        status: "Estável mesmo após longos períodos de ativação, desde que Naomi mantenha o vínculo com Kurama calmo — diferente do Kurama Rinku, picos de raiva ou desespero não fortalecem o Sennin Fuka, apenas o desestabilizam.",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F04%20-%20Sennin%20Rinku.png?alt=media&v=1786052730267"
       },
       {
         name: "Ketsuryū Kaiyō",
-        classification: "Z",
+        classification: "S++",
         nature: "Suiton + Kurama",
         description: "Quando ativado, o chão se rompe e uma maré vermelha começa a emergir como se o mundo estivesse sangrando. O campo de batalha desaparece — tudo vira oceano. O céu escurece e a superfície reflete como um espelho de sangue. No centro disso tudo, Naomi flutua como uma deusa do abismo. O oceano carmesim não é água comum — é uma fusão de Suiton, chakra vital e energia emocional, criando um domínio absoluto onde ela é literalmente a soberana do mar. Dentro do oceano, Naomi pode invocar criaturas únicas: serpentes abissais gigantes que se movem como sombras líquidas, tubarões de chakra que atravessam o mar e o ar, leviatãs colossais para ataques devastadores em área e criaturas híbridas formadas pelo próprio medo do inimigo. As criaturas não são invocações comuns — são extensões diretas de sua vontade. Se Naomi sentir raiva, elas ficam mais violentas. Se ela focar, ficam mais precisas. Qualquer inimigo dentro do oceano sofre a Pressão do Abismo: sensação de afogamento mesmo fora da água, chakra sendo drenado lentamente e movimentos pesados como se estivesse a quilômetros de profundidade. Dentro do domínio, Naomi pode ativar os Shinkai no Shokushu — gigantescos tentáculos de chakra líquido que emergem do oceano, prendem o inimigo, invadem seu sistema de chakra e podem esmagá-lo ou drená-lo completamente.",
         destruction: "O Ketsuryū Kaiyō não destrói — ele consome. Quando o oceano carmesim se manifesta, o campo de batalha deixa de existir como território neutro e passa a ser uma extensão da vontade de Naomi. Estruturas inteiras são engolidas pela maré vermelha, o solo se dissolve sob a pressão do chakra vital líquido e o ar ao redor perde estabilidade energética, sufocando técnicas que dependem de elementos externos. As criaturas abissais amplificam a destruição de forma orgânica — enquanto os leviatãs colossais fragmentam terrenos e derrubam formações inteiras, as serpentes e tubarões de chakra eliminam alvos isolados com precisão cirúrgica. Em seu pico, a técnica pode engolir uma vila inteira sob o mar carmesim, deixando apenas silêncio e superfície vermelha refletindo o céu escuro.",
         history: "Naomi aprendeu e desenvolveu essa técnica ao treinar intensamente com Tobirama ao lado de Nishinoya. Enquanto Nishinoya aprendia o Hiraishin, Naomi dominava sua natureza de chakra — o Suiton. Tobirama a observava com certeza crescente de que ela o superaria em controle aquático. Na época em que Tobirama dominava apenas um Dragão de Água, Naomi já controlava três simultaneamente. Foi nesse período de maestria absoluta sobre o Suiton que ela começou a corromper o próprio chakra em estado líquido, fundindo-o com sua energia vital e emocional até criar algo que nunca havia existido antes — não apenas água, mas um oceano vivo que obedecia à sua vontade.",
         status: "O Ketsuryū Kaiyō exige que Naomi alimente a técnica continuamente com seu próprio chakra vital, drenando a si mesma quanto mais tempo o domínio permanece ativo. O uso dos Shinkai no Shokushu amplifica drasticamente o consumo, podendo esgotar suas reservas em combates prolongados. O estado emocional de Naomi influencia diretamente a estabilidade da técnica — se ela perder o foco ou o controle emocional, as criaturas abissais podem se tornar imprevisíveis. Em casos extremos de sobrecarga, o chakra vital que compõe o oceano pode começar a corroer o próprio corpo dela por dentro.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%20Kaiy%C5%8D.png?alt=media"
-      },
-      {
-        name: "Kyūbi no Manto",
-        classification: "Z",
-        nature: "Chakra de Bijuu + Suiton",
-        description: "Naomi desperta o chakra de Kurama em sua forma mais bruta e visceral. Ao invés do manto laranja dourado tradicional, o chakra da raposa se funde com sua natureza de Suiton e sua energia vital, resultando em um manto vermelho profundo com veias de chakra carmesim pulsando por toda a extensão. Chifres de chakra emergem de sua cabeça, suas íris desaparecem em um vermelho abissal e seus movimentos passam a deixar rastros de chakra líquido no ar. O manto não apenas amplifica sua força física e velocidade a níveis sobre-humanos, mas também envolve cada técnica de Suiton com a energia corruptora da raposa — fazendo com que suas águas queimem como ácido e drenem chakra por contato.",
-        destruction: "O simples ato de Naomi se mover dentro do manto cria ondas de pressão que fraturam o terreno ao redor. Golpes físicos carregam o impacto do chakra de Kurama, destruindo defesas de alto nível com facilidade. Técnicas de Suiton combinadas com o manto ganham massa, velocidade e propriedade corrosiva, tornando qualquer ataque aquático uma ameaça de nível catastrófico.",
-        history: "O vínculo de Naomi com Kurama não foi construído por força — foi por compreensão. Durante seu treinamento intenso com Tobirama, em um momento de exaustão extrema e colapso emocional no campo de batalha, Kurama pela primeira vez estendeu seu chakra voluntariamente a Naomi, reconhecendo nela não uma jaula, mas uma parceira. Desde então, o manto passou a responder à sua emoção e intenção.",
-        status: "O manto consome chakra de Kurama em ritmo acelerado e exige que Naomi mantenha equilíbrio emocional constante. Raiva descontrolada pode fazer o manto evoluir de forma não intencional, correndo o risco de atingir aliados. O uso prolongado causa marcas de chakra pelo corpo e exaustão profunda após o término.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F02%20-%20Ky%C5%ABbi%20no%20Manto.png?alt=media"
-      },
-      {
-        name: "Kanzen Kyūbi — Ketsuryū no Kami",
-        classification: "Z",
-        nature: "Chakra de Bijuu + Suiton",
-        description: "A manifestação máxima do vínculo entre Naomi e Kurama. Ao liberar completamente o chakra da raposa, Naomi não apenas se envolve no manto — ela e Kurama se fundem em uma única entidade colossal. A forma de Kurama emerge em tamanho titânico, mas diferente de sua aparência tradicional, o pelo da raposa é substituído por escamas de chakra líquido carmesim que reluzem como um oceano em chamas. Suas nove caudas se movem como serpentes abissais gigantes, cada uma capaz de devastar território extenso com um único golpe. Naomi permanece consciente dentro da manifestação, controlando cada movimento com precisão absoluta através de sua conexão espiritual com a fera.",
-        destruction: "Catastrófica. A simples presença de Kurama em forma completa distorce o campo de batalha inteiro. Suas caudas podem varrer exércitos, suas garras fragmentam montanhas e o rugido de chakra emitido por sua boca pode colapsar estruturas a quilômetros de distância. Combinada com o oceano carmesim do Ketsuryū Kaiyō, a técnica transforma o campo de batalha em um abismo vivo onde nada sobrevive sem o consentimento de Naomi.",
-        history: "A fusão completa só foi alcançada após Naomi provar a Kurama que era capaz de carregar seu peso sem se quebrar. Em uma batalha onde tudo estava perdido e seus aliados estavam prestes a ser aniquilados, Naomi abriu mão de seu próprio ego e pediu — não exigiu — a ajuda da raposa. Kurama, pela primeira vez em séculos, respondeu com respeito. Essa foi a única vez que a fusão completa aconteceu, e desde então Kurama aguarda o próximo momento digno.",
-        status: "Extremamente limitada. A fusão completa só pode ser mantida por tempo muito curto antes de começar a consumir a própria vida de Naomi. Após o uso, ela fica completamente incapacitada por dias e suas reservas de chakra chegam a zero. Kurama também precisa de um longo período de recuperação após a manifestação completa.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F03%20-%20Kanzen%20Ky%C5%ABbi%20%E2%80%94%20Ketsury%C5%AB%20no%20Kami.png?alt=media"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%20Kaiy%C5%8D.png?alt=media&v=1786052313822"
       },
       {
         name: "Suiton: Hakuryū no Ken",
-        classification: "Z",
+        classification: "S++",
         nature: "Suiton + Absorção de Chakra",
         description: "Naomi infunde seu chakra vital diretamente na Hakuryū no Ken, despertando os selamentos adormecidos em sua lâmina e fundindo-a completamente com sua natureza de Suiton. A partir desse momento, cada movimento seu deixa um rastro vivo de água carmesim no ar e no chão — não respingos, mas fios precisos e elegantes que obedecem à trajetória exata de seus passos e golpes, como se o próprio terreno estivesse sendo reescrito por sua presença. O ambiente ao redor começa a se moldar silenciosamente: o chão onde ela passa se torna úmido e fluido, paredes d'água finas como véus surgem nas laterais de seu caminho, e o ar ao redor da lâmina vibra com uma pressão aquática contida. Naomi luta com a elegância de quem dança — movimentos curtos, precisos e absolutamente letais. Cada estocada da rapier libera um fio de Suiton concentrado que corta o alvo antes mesmo que a lâmina o toque. Cada desvio remodela o terreno ao seu redor, criando vantagem de posicionamento e armadilhas naturais de água que se ativam conforme o combate avança. A absorção de chakra da Hakuryū no Ken permanece ativa durante toda a técnica, acumulando energia a cada contato com o oponente e alimentando continuamente o Suiton que envolve a lâmina.",
         destruction: "Diferente de suas técnicas de domínio em larga escala, o Suiton: Hakuryū no Ken opera na destruição cirúrgica. O terreno remodelado cria um campo de batalha exclusivamente favorável a Naomi — o chão fluido retarda inimigos, os véus d'água bloqueiam linhas de visão e os fios de Suiton lançados pela lâmina cortam defesas de chakra com precisão absoluta. Em combate prolongado, o acúmulo de chakra absorvido pela rapier pode ser liberado em uma única onda concentrada capaz de atravessar múltiplas camadas de proteção.",
@@ -3890,7 +3910,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FCl_ssico.png?alt=media&v=1784569525287575", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F3__Temporada.png?alt=media&v=1784569520193805", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095", caption: "Luta contra os Kages", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1784569522812022", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 24, spirit: 30, vigor: 24, perception: 30 },
     powers: [
@@ -4241,7 +4261,7 @@ export const initialData: Character[] = [
     arsenal: [29, 36, 37],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FPr_logo.png?alt=media&v=1784751331220", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FCl_ssico.png?alt=media&v=1784751329983", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FCl_ssico.png?alt=media&v=1786370739058376", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F1__Temporada.png?alt=media&v=1784751325422", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F4__Temporada.png?alt=media&v=1784751326929", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F5__Temporada.png?alt=media&v=1784751328466", caption: "5ª Temporada", category: "era" },
@@ -5212,6 +5232,7 @@ export const initialData: Character[] = [
       "Intuição",
       "Técnica Poderosa"
     ],
+    timelineAppearance: "Clássico",
   },
   {
     id: 44,
@@ -5315,6 +5336,7 @@ export const initialData: Character[] = [
       "Intuição",
       "Técnica Poderosa"
     ],
+    timelineAppearance: "Clássico",
   },
   {
     id: 47,
@@ -5390,6 +5412,7 @@ export const initialData: Character[] = [
       "Intuição",
       "Técnica Poderosa"
     ],
+    timelineAppearance: "Clássico",
   },
   {
     id: 48,
@@ -5507,6 +5530,7 @@ export const initialData: Character[] = [
       "Intuição",
       "Técnica Poderosa"
     ],
+    timelineAppearance: "Clássico",
   },
   {
     id: 50,
