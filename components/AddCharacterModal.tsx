@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Plus, X, Copy, Check, Save, Image as ImageIcon, Info, Terminal, Skull, Backpack, Fingerprint, Activity, ChevronLeft, ChevronRight, Images } from 'lucide-react';
+import { X, Save, Image as ImageIcon, Info, Terminal, Skull, Backpack, Fingerprint, Activity, ChevronLeft, ChevronRight, Images } from 'lucide-react';
 import { Character, Technique, GalleryImage, EVENT_SEASONS } from '../types';
 import { Equipment } from '../types/Equipment';
 import { formatImageUrl } from '../utils/formatters';

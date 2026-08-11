@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import {
-  X, Shield, Zap, Star, Backpack, Scroll, Award, Heart, Activity,
-  BicepsFlexed, Hand, Move, Brain, Ghost, Eye, Trophy, Terminal, Lock, Skull, Flame,
-  Target, Info, FileText, AlertTriangle, Fingerprint, Database, Binary, Image as ImageIcon,
+  X, Shield, Zap, Star, Backpack, Scroll, Heart, Activity,
+  BicepsFlexed, Hand, Move, Brain, Ghost, Eye, Terminal, Lock, Skull, Flame,
+  AlertTriangle, Fingerprint, Binary, Image as ImageIcon,
   ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine
 } from 'lucide-react';
 import { Character, EVENT_SEASONS } from '../types';
@@ -32,7 +32,6 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const location = useLocation();
   const navigate = useNavigate();
   const [imgError, setImgError] = useState(false);
-  const [techImgError, setTechImgError] = useState(false);
   const [linkCopied, setLinkCopied] = useState(false);
   const [forceColor, setForceColor] = useState(false);
   const [hideMask, setHideMask] = useState(false);
@@ -53,7 +52,6 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
 
   useEffect(() => {
     setImgError(false);
-    setTechImgError(false);
   }, [char]);
 
   // Prevent scroll on body when modal is open
@@ -311,8 +309,8 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
               </div>
               
               <div className="mt-4 pt-4 space-y-2 shrink-0">
-                 <ResourceBar label="Integridade Física (HP)" value={char.hp} max={300} icon={Heart} isDead={char.isDead} />
-                 <ResourceBar label="Energia Espiritual (CP)" value={char.chakra} max={250} icon={Zap} isDead={char.isDead} />
+                 <ResourceBar label="Integridade Física (HP)" value={char.hp} icon={Heart} isDead={char.isDead} />
+                 <ResourceBar label="Energia Espiritual (CP)" value={char.chakra} icon={Zap} isDead={char.isDead} />
               </div>
 
               {char.isDead && (
@@ -569,11 +567,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             )}
 
                                             {!hideMask && (
-                                                <div className="absolute bottom-0 left-0 right-0 h-14 p-2 bg-black/90 backdrop-blur-sm border-t border-tech-border group-hover:border-tech-accent transition-colors z-20 flex flex-col justify-center">
-                                                    <div className="text-[9px] text-white font-bold uppercase leading-tight line-clamp-2 break-words">
-                                                        {tech.name}
-                                                    </div>
-                                                </div>
+                                                <>
+                                                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent pointer-events-none z-20" />
+                                                    <span className="absolute bottom-1 left-1 right-1 text-[10px] text-white leading-tight line-clamp-2 text-left pointer-events-none z-20">{tech.name}</span>
+                                                </>
                                             )}
 
                                             <div className="absolute top-2 right-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -792,11 +789,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                         )}
 
                                         {!hideMask && (
-                                            <div className="absolute bottom-0 left-0 right-0 h-14 p-2 bg-black/90 backdrop-blur-sm border-t border-tech-border group-hover:border-tech-accent transition-colors z-20 flex flex-col justify-center">
-                                                <div className="text-[9px] text-white font-bold uppercase leading-tight line-clamp-2 break-words">
-                                                    {weapon.name}
-                                                </div>
-                                            </div>
+                                            <>
+                                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent pointer-events-none z-20" />
+                                                <span className="absolute bottom-1 left-1 right-1 text-[10px] text-white leading-tight line-clamp-2 text-left pointer-events-none z-20">{weapon.name}</span>
+                                            </>
                                         )}
 
                                         <div className="absolute top-2 right-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -949,28 +945,6 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                                         </p>
                                                                     </div>
                                                                 )}
-                                                                
-                                                                {weapon.destruction && (
-                                                                    <div className="space-y-2 p-4 bg-white/5 border-l-2 border-red-500/40">
-                                                                        <span className="text-[10px] text-red-500 font-black uppercase flex items-center gap-2 tracking-wider">
-                                                                            <AlertTriangle size={14} /> Destruição
-                                                                        </span>
-                                                                        <p className="text-xs text-slate-200 font-mono leading-relaxed">
-                                                                            {weapon.destruction}
-                                                                        </p>
-                                                                    </div>
-                                                                )}
-
-                                                                {weapon.status && (
-                                                                    <div className="md:col-span-2 space-y-2 p-4 bg-tech-accent/5 border border-tech-accent/20">
-                                                                        <span className="text-[10px] text-tech-accent font-black uppercase flex items-center gap-2 tracking-wider">
-                                                                            <Lock size={14} /> Protocolo
-                                                                        </span>
-                                                                        <p className="text-xs text-tech-accent/90 font-bold font-mono italic">
-                                                                            {weapon.status}
-                                                                        </p>
-                                                                    </div>
-                                                                )}
                                                             </div>
 
                                                             {weapon.description && (
@@ -986,19 +960,6 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                                 </div>
                                                             )}
 
-                                                            {weapon.history && (
-                                                                <div className="flex gap-4 items-start pt-4 border-t border-tech-border/30">
-                                                                    <div className="p-2 bg-tech-accent/10 border border-tech-accent/20 text-tech-accent shrink-0">
-                                                                        <Fingerprint size={20} />
-                                                                    </div>
-                                                                    <div className="space-y-1">
-                                                                        <span className="text-[9px] text-tech-accent/60 font-black uppercase tracking-tighter italic block">REGISTROS_HISTORICOS.LOG</span>
-                                                                        <p className="text-[11px] text-slate-500 italic leading-relaxed">
-                                                                            "{weapon.history}"
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            )}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1046,6 +1007,12 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                             alt={img.caption || char.name}
                                                             className={`w-full h-full object-cover transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                         />
+                                                        {!hideMask && img.caption && (
+                                                            <>
+                                                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent pointer-events-none z-20" />
+                                                                <span className="absolute bottom-1 left-1 right-1 text-[10px] text-white leading-tight line-clamp-2 text-left pointer-events-none z-20">{img.caption}</span>
+                                                            </>
+                                                        )}
                                                         {i < eraGallery.length - 1 && (
                                                             <div className="hidden sm:block absolute top-1/2 -right-3 -translate-y-1/2 w-3 h-px bg-tech-accent/40 z-30"></div>
                                                         )}

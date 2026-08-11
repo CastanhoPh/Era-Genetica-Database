@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  X, Globe, Zap, Binary, Lock, Cpu, Crosshair, Shield, Hexagon, Scan, History, ExternalLink, Share2, Pencil, Trash2
+  X, Globe, Zap, Binary, Lock, Crosshair, Shield, Hexagon, Scan, History, ExternalLink, Share2, Pencil, Trash2
 } from 'lucide-react';
 import { Equipment, classificationColors } from '../types/Equipment';
 import { Character } from '../types';

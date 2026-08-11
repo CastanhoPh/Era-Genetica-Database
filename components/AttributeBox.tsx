@@ -1,5 +1,5 @@
 import React from 'react';
-import { LucideIcon, HelpCircle } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
 
 interface AttributeBoxProps {
   label: string;

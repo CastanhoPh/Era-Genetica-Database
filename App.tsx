@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogIn, LogOut, LayoutDashboard, ListChecks, Images, GitBranch } from 'lucide-react';
+import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
