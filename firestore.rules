@@ -19,14 +19,41 @@ service cloud.firestore {
         request.auth.uid == 'csE07Qq2LLaUwg3wYSeNXWbVrE73'    // Zeck
       );
     }
+
+    // IMPORTANTE: no Firestore as regras se SOMAM — basta uma permitir para a
+    // operação ser liberada, e uma regra específica não consegue restringir o que
+    // um `match /{document=**}` amplo já abriu. Por isso não existe mais curinga
+    // de leitura aqui: cada coleção pública é listada uma a uma, e o que não
+    // estiver listado fica negado por padrão. Ao criar uma coleção nova, lembrar
+    // de liberar a leitura dela aqui se o site precisar.
+
+    match /characters/{docId} {
+      allow read: if true;        // qualquer um vê as fichas
+      allow write: if isAdmin();
+    }
+
+    match /arsenal/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /familyTrees/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
     match /imageChecklist/{docId} {
       allow read: if true;
       allow write: if isChecklistEditor();
     }
 
-    match /{document=**} {
-      allow read: if true;        // qualquer um ve as fichas
-      allow write: if isAdmin();  // so o admin logado cria/edita/apaga
+    // Rascunhos de personagens que ainda não entraram na história — spoiler puro.
+    // Só o admin lê, que é exatamente quem já conseguia vê-los: a aba "Protótipo"
+    // vive no Painel, e o Painel redireciona quem não é admin (App.tsx). Se algum
+    // dia o Liu ou o Zeck precisarem ver, trocar por isChecklistEditor().
+    match /prototypeEntries/{docId} {
+      allow read: if isAdmin();
+      allow write: if isAdmin();
     }
   }
 }
