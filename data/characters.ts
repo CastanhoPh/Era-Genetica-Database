@@ -286,7 +286,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F02%20-%20Kaito%20Senju%2FTecnicas%2F04%20-%20Hiraishin.jpg?alt=media&v=1784120742393612"
       },
       {
-        name: "Soen no Kage",
+        name: "Guren no Kage",
         classification: "S+",
         nature: "Fuinjutsu + Bijuu",
         description: "A lendária Soen no Kage Rank Z de Nishinoya sempre foi conhecida por seus selos azuis e capacidade de guardar chakra, ela contém os resquícios de chakra do Terceiro Hokage e do Matatabi. Ao ser empunhada por Kaito, a arma reage ao seu fluxo de chakra e sofre uma mutação inesperada: o azul se converte em vermelho intenso. Essa mudança não altera o selo interno — o chakra permanece selado na kunai — mas indica que a arma reconheceu um novo condutor. O Chakra agora vermelho pulsa na kunai, liberando chamas carmesim. O contraste cria um fogo espiritual, mais agressivo e instável, mantendo o poder contido na arma e apenas canalizado por Kaito.",
