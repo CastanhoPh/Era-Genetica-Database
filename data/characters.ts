@@ -1154,7 +1154,7 @@ export const initialData: Character[] = [
     position: "Chunin",
     role: "DPS e Suporte",
     description: "O Fantasma dos Uzumaki e a Voz da Destruição\\n\\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\\n\\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\\n\\nPortador de Técnicas únicas:\\n* Kaminari Branco\\n* Amenotejikara",
-    hp: 154,
+    hp: 138,
     chakra: 87,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F09%20-%20Nagare%20Uzumaki%2FNagare%20Uzumaki.jpg?alt=media&v=1785960662146",
     techniques: [
@@ -3854,7 +3854,7 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [34, 77, 78, 79],
-    timelineAppearance: "Prólogo",
+    timelineAppearance: "2ª Temporada",
     timelineSkipped: ["Clássico", "1ª Temporada", "2ª Temporada", "3ª Temporada", "4ª Temporada"],
   },
   {
@@ -3867,8 +3867,8 @@ export const initialData: Character[] = [
     position: "3 Sannins Lendários",
     role: "DPS",
     description: "Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.\n\nSua libertação só veio com a Luta contra os Kages — mas não pelas mãos de Nishinoya. Os dois nunca voltaram a se encontrar depois do dia em que ela foi capturada; quando as linhas de frente se romperam e a fortaleza Yumei finalmente cedeu em meio ao caos da guerra, Nishinoya já estava morto, caído nas mãos de Ômega antes mesmo daquela batalha terminar. Foi em meio aos destroços que Naomi encontrou a Sōen no Kage e a Sōen no Gauntō, as relíquias que ele carregara a vida inteira, abandonadas onde ele caiu. Ao tocá-las, sentiu o resquício do chakra da Matatabi que ainda pulsava dentro delas — e, pela primeira vez desde o cativeiro, Kurama respondeu a algo além da própria dor de Naomi. As duas relíquias se transformaram em suas mãos, tornando-se a Shiden no Kage e a Shiden no Gauntō, e foi nesse instante — não de resgate pessoal, mas de conexão póstuma através do que restava dele — que algo se rompeu e se reorganizou dentro de Naomi. Kurama, que por anos apenas sobrevivera trancada junto com sua hospedeira, reconheceu naquele eco de energia externa um equilíbrio que já devia ter encontrado por conta própria — e o usou como catalisador para finalmente se fundir por completo à natureza de Naomi. Ela saiu da Yumei sem nunca ter revisto Nishinoya, mas carregando um Modo Sábio exclusivo, nascido daquele instante: a fusão entre sua ligação com a Bijuu e o Suiton que sempre foi seu.",
-    hp: 204,
-    chakra: 188,
+    hp: 232,
+    chakra: 200,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F53%20-%20Naomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1786052313822",
     techniques: [
       {
@@ -5773,7 +5773,7 @@ export const initialData: Character[] = [
     ],
     timelineAppearance: "3ª Temporada",
     timelineDeath: "4ª Temporada",
-    timelineSkipped: [],
+    timelineSkipped: ["2ª Temporada","3ª Temporada","4ª Temporada"],
     birthVillage: "Kumogakure"
   },
   {
