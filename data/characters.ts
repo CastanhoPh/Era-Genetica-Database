@@ -1772,6 +1772,7 @@ export const initialData: Character[] = [
       "Réplica Enganadora",
       "Perito em Mecanismos"
     ],
+    timelineAppearance: "2ª Temporada",
   },
   {
     id: 23,
@@ -3854,7 +3855,7 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [34, 77, 78, 79],
-    timelineAppearance: "2ª Temporada",
+    timelineAppearance: "Prólogo",
     timelineSkipped: ["Clássico", "1ª Temporada", "2ª Temporada", "3ª Temporada", "4ª Temporada"],
   },
   {
@@ -5375,6 +5376,7 @@ export const initialData: Character[] = [
       "Técnica Poderosa"
     ],
     timelineAppearance: "Clássico",
+    timelineSkipped: ["2ª Temporada","3ª Temporada","4ª Temporada"],
   },
   {
     id: 47,
@@ -5773,7 +5775,7 @@ export const initialData: Character[] = [
     ],
     timelineAppearance: "3ª Temporada",
     timelineDeath: "4ª Temporada",
-    timelineSkipped: ["2ª Temporada","3ª Temporada","4ª Temporada"],
+    timelineSkipped: [],
     birthVillage: "Kumogakure"
   },
   {
