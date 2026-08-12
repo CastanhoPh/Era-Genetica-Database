@@ -920,7 +920,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F06%20-%20Takeshi%20Hatake%2FTecnicas%2F06%20-%20Raiton%3A%20Chidori.png?alt=media&v=1784037492987969"
       }
     ],
-    arsenal: [11,12,13,14,9],
+    arsenal: [11, 12, 14, 9],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1784658775265048", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1786370721697470", caption: "Clássico", category: "era" },
@@ -1412,7 +1412,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F11%20-%20Kenma%20Soryo%2FTecnicas%2F05%20-%20Doton%3A%20Kong%C5%8D%20Ganheki%20no%20Tate.jpg?alt=media&v=1784037804321999"
       }
     ],
-    arsenal: [20,21,22,24,25,26,3],
+    arsenal: [20, 21, 22, 24, 25, 26],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F3__Temporada.png?alt=media&v=1784658568643724", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1786454439977012", caption: "4ª Temporada", category: "era" },
@@ -4797,7 +4797,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2F62%20-%20Yuji%20Yotsuki%2FTecnicas%2F07%20-%20Ranton%3A%20Chidori.jpg?alt=media&v=1784037970426472"
       }
     ],
-    arsenal: [50, 49, 60],
+    arsenal: [50, 60],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F4__Temporada.png?alt=media&v=1784658616065338", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1784751370128", caption: "5ª Temporada", category: "era" },
