@@ -39,7 +39,7 @@ export const arsenalData: Equipment[] = [
     description: "A lendária espada Shinrin no Kanmuri, empunhada originalmente pelo Primeiro Hokage, Hashirama Senju, como o símbolo de seu domínio sobre a vida. Sua lâmina é forjada a partir de metal orgânico que contém veios vivos da madeira ancestral do Shinju, pulsando com um chakra natural verde esmeralda. A arma funciona como uma extensão direta do Mokuton, permitindo ao usuário manifestar raízes e florestas inteiras instantaneamente a partir do ponto de impacto. Ela possui a capacidade passiva de absorver o chakra ambiental e do inimigo, convertendo-o em energia vital que cura as feridas do portador em tempo real. Em seu estado despertado, a espada pode liberar ondas de choque vegetais que imobilizam exércitos e drenam sua vontade de lutar. É uma relíquia que carrega a essência primordial da floresta, sendo quase impossível de ser empunhada por alguém que não possua a linhagem Senju ou o Modo Sábio.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F04%20-%20Shinrin%20no%20Kanmuri.png?alt=media&v=1784038048465039",
     originalOwner: "Hashirama Senju",
-    pastOwners: ["Oddy Uchiha"],
+    pastOwners: ["Oddy Uchiha","Kenma Soryo"],
     currentOwner: "Kaito Senju"
   },
   {
