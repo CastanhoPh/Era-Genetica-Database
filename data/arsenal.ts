@@ -106,7 +106,8 @@ export const arsenalData: Equipment[] = [
     description: "A lendária Kubikiribōchō, ou 'Lâmina Decapitadora', é uma das Sete Espadas da Névoa e uma das armas mais brutais já criadas para o campo de batalha. Sua característica mais aterrorizante é a capacidade de se autorregenerar instantaneamente ao absorver o ferro presente no sangue de suas vítimas, tornando-a uma arma que nunca perde o fio ou se quebra permanentemente. Devido ao seu peso colossal e design agressivo, ela exige que o portador possua uma força física monstruosa para realizar movimentos fluidos de esgrima. A espada pode ser arremessada como um bumerangue mortal, cortando árvores e inimigos em seu caminho antes de retornar à mão do usuário. Ela também possui um orifício circular na lâmina projetado para prender e decapitar oponentes com um único puxão preciso. Atualmente empunhada por Najin Hatake, a Kubikiribōchō tornou-se um símbolo de terror implacável, capaz de decidir o rumo de guerras inteiras através da força bruta e da sede de sangue.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F10%20-%20Kubikirib%C5%8Dch%C5%8D.png?alt=media&v=1784038020061489",
     originalOwner: "Shoei Barou",
-    currentOwner: "Najin Hatake"
+    pastOwners: ["Najin Hatake"],
+    currentOwner: "Takeshi Hatake"
   },
   {
     id: 10,
@@ -117,7 +118,7 @@ export const arsenalData: Equipment[] = [
     description: "Estas manoplas experimentais foram desenvolvidas pela OCA para canalizar o chakra profano refinado de F em sua forma mais letal e controlada. Elas são construídas com uma liga metálica especial que permite ao portador tocar e bloquear lâminas de chakra e jutsus elementais diretamente com as mãos, sem sofrer danos. No momento do impacto, as luvas emitem pulsos de energia profana que corroem o fluxo de chakra do oponente, causando micro-explosões nos tenketsus do alvo. Essa corrosão impede que o inimigo consiga manter técnicas ativas ou moldar energia de forma eficiente por vários minutos após o contato. Najin Hatake utiliza essas luvas para complementar seu estilo de combate corpo a corpo, transformando cada bloqueio em um contra-ataque devastador. São ferramentas de neutralização absoluta que transformam a força do inimigo em sua maior fraqueza através da desestabilização energética.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F11%20-%20Luvas%20de%20Chakra%20Profano%20'F'.png?alt=media&v=1784038023686359",
     originalOwner: "Najin Hatake",
-    currentOwner: "Najin Hatake"
+    currentOwner: "Oddy Uchiha"
   },
   {
     id: 11,
@@ -165,7 +166,7 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 15,
-    name: "Reigan",
+    name: "Protótipo de Reigan",
     classification: "S",
     nature: "Chakra Profano",
     origin: "OCA",
@@ -548,7 +549,7 @@ export const arsenalData: Equipment[] = [
     description: "O Raigan é uma lente ocular de Rank S+ integrada com tecnologia de chakra de última geração, servindo como o sistema de mira definitivo para atiradores de elite. Ele se sincroniza diretamente com o nervo óptico do usuário, fornecendo cálculos balísticos em tempo real, visão térmica de longo alcance e detecção de assinaturas de chakra ocultas. O artefato compensa automaticamente variáveis ambientais como vento, gravidade e umidade, garantindo que cada disparo atinja o ponto vital com margem de erro zero. Yuji Yotsuki utiliza o Raigan para coordenar seus ataques de Sniper, permitindo-lhe ver através de barreiras sólidas e identificar alvos a quilômetros de distância no meio de tempestades. A lente também possui um modo de 'tempo dilatado' que melhora a percepção visual do usuário, facilitando o acompanhamento de alvos que se movem em alta velocidade. É a prova máxima da superioridade tecnológica de Kumogakure no campo do reconhecimento e combate à distância. Sua posse transforma qualquer atirador em um predador onisciente, capaz de decidir o fim de uma batalha antes mesmo que o inimigo perceba sua presença.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F49%20-%20Raigan.png?alt=media&v=1784038034280807",
     originalOwner: "Yuji Yotsuki",
-    currentOwner: "Yuji Yotsuki"
+    currentOwner: "Oddy Uchiha"
   },
   {
     id: 50,
