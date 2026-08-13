@@ -592,6 +592,7 @@ export const initialData: Character[] = [
     techniques: [
       {
         name: "Shippū Hyōkai: Reiki to Kyōji",
+        chakraColors: ["#a855f7", "#ffd60a"],
         classification: "Z",
         nature: "Chakra Profano + Fūton + Controle de Campo + Jūken",
         description: "A forma final do Shippū Hyōkai, alcançada apenas depois de Katsumi injetar em si a seringa de chakra profano de Kai. Dentro do domínio já erguido, ele passa a manipular dois chakras profanos ao mesmo tempo: o seu próprio, que carrega o frio, e o de Kai, que carrega o orgulho. Katsumi mistura as duas naturezas no interior do campo e o ambiente inteiro deixa de ser apenas seu território para se tornar uma lâmina. O ar dentro do domínio se enche de fagulhas minúsculas de Fūton, quase invisíveis, giradas pela pressão dos dois chakras profanos até adquirirem densidade de corte. Cada fagulha atravessa tudo o que encontra e volta a circular pelo campo, de modo que não existe direção segura nem instante de pausa. Nada que esteja dentro do domínio quando a técnica é liberada permanece inteiro: corpo, arma, técnica em formação e o próprio terreno são reduzidos por um número incontável de cortes microscópicos executados simultaneamente.",
@@ -602,6 +603,7 @@ export const initialData: Character[] = [
       },
       {
         name: "Fujogan: Reikō Kuchiyose",
+        chakraColors: ["#a855f7", "#ffd60a"],
         classification: "Z",
         nature: "Fujogan + Chakra Profano + Kuchiyose no Jutsu",
         description: "O ápice do que Katsumi alcançou ao portar dois chakras profanos. Com um Fujogan em cada olho — o seu, roxo, e o de Kai, dourado —, ele forma dois círculos de selamento simultâneos e invoca as duas feras do plano invocatório do Fujogan ao mesmo tempo: Yomatora, o leopardo de chakra profano roxo, e Kintora, o leopardo dourado de Kai. Cada olho conduz uma das invocações de forma independente, e Katsumi combate com as duas ao mesmo tempo sem perder precisão sobre nenhuma delas. Yomatora ataca em silêncio, lendo a percepção de Katsumi e fechando tenketsus com cortes cirúrgicos; Kintora avança de frente, destruindo tudo o que estiver no caminho. Entre os dois, o alvo é obrigado a se defender de duas naturezas opostas de chakra profano ao mesmo tempo, e qualquer abertura criada por uma das feras é imediatamente explorada pela outra.",

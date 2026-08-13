@@ -22,6 +22,12 @@ export interface Technique {
   history?: string;
   status?: string;
   image?: string;
+  /**
+   * Cores dos dois fachos do anel de rank Z, quando a técnica usa mais de um chakra. Um valor
+   * pinta só o primeiro facho, dois pintam um cada. O que faltar cai no `chakraColor` do
+   * personagem, que é o padrão — técnica de um chakra só não precisa deste campo.
+   */
+  chakraColors?: string[];
 }
 
 export interface GalleryImage {

@@ -115,11 +115,23 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   /**
    * O anel de chakra marca rank Z, e só rank Z — em toda técnica e em toda arma do arsenal
    * pessoal, quantas houverem. Se a mais forte da ficha não for Z, ela não recebe nada.
-   * Devolve undefined quando não há anel, o que também cobre quem ainda não tem cor de chakra.
    * A página /arsenal fica de fora de propósito: lá o anel não teria de quem herdar a cor.
+   *
+   * Devolve o estilo com as duas cores dos fachos, ou undefined quando não há anel — o que
+   * também cobre quem ainda não tem cor de chakra. `cores` permite a técnica usar mais de um
+   * chakra: um facho de cada cor (a Reikō Kuchiyose do Katsumi conduz o Yomatora roxo e o
+   * Kintora dourado ao mesmo tempo). O segundo facho só é escrito quando difere do primeiro.
    */
-  const anelDe = (classification?: string) =>
-    classification === 'Z' ? char.chakraColor : undefined;
+  const anelDe = (classification?: string, cores?: string[]): React.CSSProperties | undefined => {
+    if (classification !== 'Z') return undefined;
+    const a = cores?.[0] || char.chakraColor;
+    if (!a) return undefined;
+    const b = cores?.[1];
+    return {
+      ['--chakra' as string]: a,
+      ...(b && b !== a ? { ['--chakra-2' as string]: b } : {}),
+    } as React.CSSProperties;
+  };
 
   // Se a arma tem uma variação manifestada por ESTE personagem (ex: Kaito com a Guren no
   // Kage, dentro da Sōen no Kage), mostra o nome/imagem/descrição da variação dele aqui —
@@ -545,12 +557,12 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                                 {allTechniques.length > 0 ? (
                                     allTechniques.map((tech, idx) => {
-                                        const anel = anelDe(tech.classification);
+                                        const anel = anelDe(tech.classification, tech.chakraColors);
                                         return (
                                         <div
                                             key={idx}
                                             className="relative aspect-square"
-                                            style={anel ? ({ ['--chakra' as string]: anel } as React.CSSProperties) : undefined}
+                                            style={anel}
                                         >
                                         {anel && (
                                             <>
@@ -789,7 +801,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                         // o esmaecido de "já utilizou" fica no invólucro, não no botão:
                                         // o anel é irmão do botão e ficaria a 100% enquanto a arte cai a 70%
                                         className={`relative aspect-square transition-opacity duration-300 ${dimmed ? 'opacity-70 hover:opacity-100' : ''}`}
-                                        style={anel ? ({ ['--chakra' as string]: anel } as React.CSSProperties) : undefined}
+                                        style={anel}
                                     >
                                     {anel && (
                                         <>

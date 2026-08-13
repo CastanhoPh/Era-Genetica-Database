@@ -74,8 +74,10 @@ body {
     position: absolute;
     inset: -25%;
     /* Dois arcos acesos de 9% da volta cada, centrados em 0.25 e 0.75 — meia volta de distância,
-       ou seja, cantos opostos na diagonal. Se um dia mexer na largura, cuidado: arcos que se
-       encostam produzem stops fora de ordem, e aí o CSS trunca e a transição vira borda dura. */
+       ou seja, cantos opostos na diagonal. Cada arco tem sua cor: o segundo cai no --chakra
+       quando --chakra-2 não é definido, então técnica de um chakra só não precisa de nada.
+       Se um dia mexer na largura, cuidado: arcos que se encostam produzem stops fora de ordem,
+       e aí o CSS trunca e a transição vira borda dura. */
     background: conic-gradient(from 0turn,
         transparent 0turn,
         transparent 0.1645turn,
@@ -85,10 +87,10 @@ body {
         color-mix(in srgb, var(--chakra) 18%, transparent) 0.2995turn,
         transparent 0.3355turn,
         transparent 0.6645turn,
-        color-mix(in srgb, var(--chakra) 18%, transparent) 0.7005turn,
-        var(--chakra) 0.7388turn,
-        var(--chakra) 0.7613turn,
-        color-mix(in srgb, var(--chakra) 18%, transparent) 0.7995turn,
+        color-mix(in srgb, var(--chakra-2, var(--chakra)) 18%, transparent) 0.7005turn,
+        var(--chakra-2, var(--chakra)) 0.7388turn,
+        var(--chakra-2, var(--chakra)) 0.7613turn,
+        color-mix(in srgb, var(--chakra-2, var(--chakra)) 18%, transparent) 0.7995turn,
         transparent 0.8355turn,
         transparent 1turn);
     animation: anelGirar 2.6s linear infinite;
