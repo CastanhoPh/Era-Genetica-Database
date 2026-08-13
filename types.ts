@@ -157,10 +157,7 @@ export interface Character {
   chakraColor?: string;
 }
 
-/**
- * Peso de cada rank, do mais forte para o mais fraco. Serve para ordenar e para achar o topo de
- * uma lista. Rank desconhecido ou ausente vale -1, ou seja, fica abaixo de tudo.
- */
+/** Peso de cada rank, do mais forte para o mais fraco. Usado para ordenar o Arsenal. */
 export const CLASSIFICATION_PRIORITY: Record<string, number> = {
   'Z': 100,
   'S++': 90,
@@ -176,9 +173,6 @@ export const CLASSIFICATION_PRIORITY: Record<string, number> = {
   'E': 10,
   'F': 0,
 };
-
-export const rankPeso = (classification?: string): number =>
-  classification && classification in CLASSIFICATION_PRIORITY ? CLASSIFICATION_PRIORITY[classification] : -1;
 
 export const SEASON_ORDER = ['Prólogo', 'Clássico', '1ª Temporada', '2ª Temporada', '3ª Temporada', '4ª Temporada', '5ª Temporada'] as const;
 

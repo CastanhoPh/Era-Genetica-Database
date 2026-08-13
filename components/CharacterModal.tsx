@@ -6,7 +6,7 @@ import {
   AlertTriangle, Fingerprint, Binary, Image as ImageIcon,
   ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine
 } from 'lucide-react';
-import { Character, EVENT_SEASONS, rankPeso } from '../types';
+import { Character, EVENT_SEASONS } from '../types';
 import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
@@ -112,13 +112,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
 
   const allTechniques = char.techniques || [];
 
-  // Qual técnica leva o anel de chakra: a mais forte da ficha. A lista costuma já vir ordenada por
-  // rank, mas em algumas fichas não vem (o Z do Satoshi, por exemplo, não é o primeiro) — então
-  // vale o rank, e entre empatados no topo vale a primeira, que é a ordem que o Pedro definiu.
-  const indiceAnel = allTechniques.reduce(
-    (melhor, tech, i) => (rankPeso(tech.classification) > rankPeso(allTechniques[melhor]?.classification) ? i : melhor),
-    0,
-  );
+  /**
+   * O anel de chakra marca rank Z, e só rank Z — em toda técnica e em toda arma do arsenal
+   * pessoal, quantas houverem. Se a mais forte da ficha não for Z, ela não recebe nada.
+   * Devolve undefined quando não há anel, o que também cobre quem ainda não tem cor de chakra.
+   * A página /arsenal fica de fora de propósito: lá o anel não teria de quem herdar a cor.
+   */
+  const anelDe = (classification?: string) =>
+    classification === 'Z' ? char.chakraColor : undefined;
 
   // Se a arma tem uma variação manifestada por ESTE personagem (ex: Kaito com a Guren no
   // Kage, dentro da Sōen no Kage), mostra o nome/imagem/descrição da variação dele aqui —
@@ -544,8 +545,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                                 {allTechniques.length > 0 ? (
                                     allTechniques.map((tech, idx) => {
-                                        // a mais forte da ficha ganha o anel na cor do chakra
-                                        const anel = idx === indiceAnel ? char.chakraColor : undefined;
+                                        const anel = anelDe(tech.classification);
                                         return (
                                         <div
                                             key={idx}
@@ -781,11 +781,23 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                     <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
                         {selectedWeaponIndex === null ? (
                             (() => {
-                                const renderWeaponCard = (weapon: typeof characterArsenal[number], idx: number, dimmed?: boolean) => (
-                                    <button
+                                const renderWeaponCard = (weapon: typeof characterArsenal[number], idx: number, dimmed?: boolean) => {
+                                    const anel = anelDe(weapon.classification);
+                                    return (
+                                    <div
                                         key={idx}
+                                        className="relative aspect-square"
+                                        style={anel ? ({ ['--chakra' as string]: anel } as React.CSSProperties) : undefined}
+                                    >
+                                    {anel && (
+                                        <>
+                                            <span className="anel-varredura anel-brilho" aria-hidden="true" />
+                                            <span className="anel-varredura" aria-hidden="true" />
+                                        </>
+                                    )}
+                                    <button
                                         onClick={() => goToWeapon(idx)}
-                                        className={`group relative aspect-square border border-tech-border bg-tech-panel/40 overflow-hidden hover:border-tech-accent transition-all duration-300 ${dimmed ? 'opacity-70 hover:opacity-100' : ''} ${hideMask ? 'z-[9999]' : ''}`}
+                                        className={`group absolute border border-tech-border overflow-hidden hover:border-tech-accent transition-all duration-300 ${anel ? 'inset-[2px] cartao-solido' : 'inset-0 bg-tech-panel/40'} ${dimmed ? 'opacity-70 hover:opacity-100' : ''} ${hideMask ? 'z-[9999]' : 'z-[1]'}`}
                                     >
                                         <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
 
@@ -824,7 +836,9 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             </div>
                                         </div>
                                     </button>
-                                );
+                                    </div>
+                                    );
+                                };
 
                                 return (
                                     <div className="space-y-8">
