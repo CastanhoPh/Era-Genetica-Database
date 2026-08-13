@@ -549,6 +549,8 @@ export const arsenalData: Equipment[] = [
     description: "O Raigan é uma lente ocular de Rank S+ integrada com tecnologia de chakra de última geração, servindo como o sistema de mira definitivo para atiradores de elite. Ele se sincroniza diretamente com o nervo óptico do usuário, fornecendo cálculos balísticos em tempo real, visão térmica de longo alcance e detecção de assinaturas de chakra ocultas. O artefato compensa automaticamente variáveis ambientais como vento, gravidade e umidade, garantindo que cada disparo atinja o ponto vital com margem de erro zero. Yuji Yotsuki utiliza o Raigan para coordenar seus ataques de Sniper, permitindo-lhe ver através de barreiras sólidas e identificar alvos a quilômetros de distância no meio de tempestades. A lente também possui um modo de 'tempo dilatado' que melhora a percepção visual do usuário, facilitando o acompanhamento de alvos que se movem em alta velocidade. É a prova máxima da superioridade tecnológica de Kumogakure no campo do reconhecimento e combate à distância. Sua posse transforma qualquer atirador em um predador onisciente, capaz de decidir o fim de uma batalha antes mesmo que o inimigo perceba sua presença.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F49%20-%20Raigan.png?alt=media&v=1784038034280807",
     originalOwner: "Yuji Yotsuki",
+    pastOwners: ["Katsumi Hyuga"],
+    diedHolding: ["Katsumi Hyuga"],
     currentOwner: "Oddy Uchiha"
   },
   {
