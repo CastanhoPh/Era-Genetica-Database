@@ -159,8 +159,10 @@ export interface Character {
   timelineExcluded?: boolean;
   /** Vila de nascença (única, mesmo quando `categories` lista mais de uma vila de afiliação/atuação). */
   birthVillage?: string;
-  /** Cor do chakra em hex. Pinta o anel girando na 1ª técnica da lista, que é a mais forte. */
+  /** Cor do chakra em hex. Pinta os dois fachos do anel nas técnicas e armas de rank Z. */
   chakraColor?: string;
+  /** Estilo de combate: Corporal, Distância ou Híbrido. Guardado, ainda não exibido na ficha. */
+  combatStyle?: string;
 }
 
 /** Peso de cada rank, do mais forte para o mais fraco. Usado para ordenar o Arsenal. */
