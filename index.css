@@ -46,6 +46,52 @@ body {
     );
 }
 
+/* Anel de chakra — marca a 1ª técnica da ficha, que é a mais forte, com a cor de chakra do
+   personagem (--chakra vem do inline style). O facho gira dentro de um contêiner recortado e é
+   sobredimensionado 25% por dentro: girar um quadrado do tamanho exato descobre os cantos a 45°.
+   O cartão por cima precisa de fundo OPACO, senão o brilho vaza pela arte. */
+.anel-varredura {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.anel-varredura.anel-brilho {
+    inset: -8px;
+    opacity: 0.6;
+    filter: blur(9px);
+}
+
+.anel-varredura::before {
+    content: '';
+    position: absolute;
+    inset: -25%;
+    background: conic-gradient(from 0turn,
+        transparent 0turn,
+        transparent 0.55turn,
+        color-mix(in srgb, var(--chakra) 18%, transparent) 0.7turn,
+        var(--chakra) 0.8turn,
+        var(--chakra) 0.84turn,
+        color-mix(in srgb, var(--chakra) 18%, transparent) 0.94turn,
+        transparent 1turn);
+    animation: anelGirar 2.6s linear infinite;
+}
+
+@keyframes anelGirar {
+    to { transform: rotate(1turn); }
+}
+
+/* fundo sólido equivalente a bg-tech-panel/40 resolvido sobre o #020402 do app */
+.cartao-solido {
+    background: #050805;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .anel-varredura::before { animation: none; }
+}
+
 .clip-corner-sm {
     clip-path: polygon(
         8px 0, 100% 0,

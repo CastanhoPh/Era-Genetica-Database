@@ -535,11 +535,24 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                         {selectedTechIndex === null ? (
                             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                                 {allTechniques.length > 0 ? (
-                                    allTechniques.map((tech, idx) => (
-                                        <button 
+                                    allTechniques.map((tech, idx) => {
+                                        // a 1ª da lista é a mais forte: ganha o anel na cor do chakra
+                                        const anel = idx === 0 ? char.chakraColor : undefined;
+                                        return (
+                                        <div
                                             key={idx}
+                                            className="relative aspect-square"
+                                            style={anel ? ({ ['--chakra' as string]: anel } as React.CSSProperties) : undefined}
+                                        >
+                                        {anel && (
+                                            <>
+                                                <span className="anel-varredura anel-brilho" aria-hidden="true" />
+                                                <span className="anel-varredura" aria-hidden="true" />
+                                            </>
+                                        )}
+                                        <button
                                             onClick={() => goToTechnique(idx)}
-                                            className={`group relative aspect-square border border-tech-border bg-tech-panel/40 overflow-hidden hover:border-tech-accent transition-all duration-300 ${hideMask ? 'z-[9999]' : ''}`}
+                                            className={`group absolute border border-tech-border overflow-hidden hover:border-tech-accent transition-all duration-300 ${anel ? 'inset-[2px] cartao-solido' : 'inset-0 bg-tech-panel/40'} ${hideMask ? 'z-[9999]' : 'z-[1]'}`}
                                         >
                                             <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
                                             
@@ -579,7 +592,9 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                 </div>
                                             </div>
                                         </button>
-                                    ))
+                                        </div>
+                                        );
+                                    })
                                 ) : (
                                     <div className="col-span-full h-64 flex flex-col items-center justify-center border border-tech-border border-dashed bg-tech-panel/10">
                                         <AlertTriangle size={32} className="text-tech-dim mb-4" />

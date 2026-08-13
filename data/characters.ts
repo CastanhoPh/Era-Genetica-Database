@@ -3,6 +3,7 @@ export const initialData: Character[] = [
   {
     id: 1,
     name: "Nishinoya Senju",
+    chakraColor: "#0ea5e9",
     clan: "Senju",
     categories: ["NPC", "Konohagakure"],
     titles: ["Deus Shinobi", "Terceiro Hokage", "Relâmpago Azul de Konoha", "3 Sannins Lendários", "Jinchuuriki"],
@@ -244,6 +245,7 @@ export const initialData: Character[] = [
   {
     id: 2,
     name: "Kaito Senju",
+    chakraColor: "#ff3b46",
     clan: "Senju",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Sangue mais puro de Konoha", "Assassino de F e G", "Capitão Escarlate", "Legado de Katsumi Hyūga"],
@@ -391,6 +393,7 @@ export const initialData: Character[] = [
   {
     id: 4,
     name: "Oddy Uchiha",
+    chakraColor: "#8b8b9a",
     clan: "Uchiha",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Chama Viva de Konoha", "Vencedor do Exame Chunin", "Sol de Konoha", "Legado de Najin Hatake"],
@@ -573,6 +576,7 @@ export const initialData: Character[] = [
   {
     id: 5,
     name: "Katsumi Hyuga",
+    chakraColor: "#a855f7",
     clan: "Hyuga",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Capitão", "Legado do Fujogan", "A Última Esperança", "Legado de Nishinoya Senju", "O Punho Roxo de Konoha"],
@@ -745,6 +749,7 @@ export const initialData: Character[] = [
   {
     id: 6,
     name: "Najin Hatake",
+    chakraColor: "#e8fbff",
     clan: "Hatake",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Tigre Branco de Konoha", "O Rejeitado", "Ninja Mais Forte da Nova Konoha", "Lenda dos Oito Portões"],
@@ -908,6 +913,7 @@ export const initialData: Character[] = [
   {
     id: 7,
     name: "Takeshi Hatake",
+    chakraColor: "#2dd4bf",
     clan: "Hatake",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Prodigio de Konoha", "O Último Hatake"],
@@ -1017,6 +1023,7 @@ export const initialData: Character[] = [
   {
     id: 8,
     name: "Shoei Sarutobi",
+    chakraColor: "#ff8c1a",
     clan: "Sarutobi",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Jinchuuriki", "Arma secreta de Konoha", "O Ninja do Amor"],
@@ -1060,6 +1067,7 @@ export const initialData: Character[] = [
   {
     id: 9,
     name: "Furyuzan Chinoike",
+    chakraColor: "#c9d1d9",
     clan: "Chinoike",
     categories: ["Personagem", "OCA", "Konohagakure"],
     titles: ["Primeiro Experimento", "Jinchuriki Artificial"],
@@ -1207,6 +1215,7 @@ export const initialData: Character[] = [
   {
     id: 3,
     name: "Nagare Uzumaki",
+    chakraColor: "#ff3b46",
     clan: "Uzumaki",
     categories: ["Personagem", "Konohagakure", "OCA"],
     titles: ["O Fantasma dos Uzumaki", "O Teleportador", "Assassino de A"],
@@ -1356,6 +1365,7 @@ export const initialData: Character[] = [
   {
     id: 10,
     name: "Kazuki Hoshigaki",
+    chakraColor: "#00ff41",
     clan: "Hoshigaki",
     categories: ["Personagem", "OCA", "Kirigakure"],
     titles: ["Kraken da OCA"],
@@ -1410,6 +1420,7 @@ export const initialData: Character[] = [
   {
     id: 11,
     name: "Kenma Soryo",
+    chakraColor: "#ff8c1a",
     clan: "Soryo",
     categories: ["Personagem", "Iwagakure"],
     titles: ["Punho Sagrado da Guerra", "Herdeiro da Pedra Viva", "Homem que Deteve Cinco Bijūdamas", "A Muralha que Desafiou as Bijū", "Capitão do Pentagono"],
@@ -1501,6 +1512,7 @@ export const initialData: Character[] = [
   {
     id: 18,
     name: "Naoki Uchiha",
+    chakraColor: "#e8fbff",
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Legado de Uchiha Madara", "3 Sannins Lendários", "Terceiro Hokage das Sombras"],
@@ -1630,6 +1642,7 @@ export const initialData: Character[] = [
   {
     id: 19,
     name: "Hisoka Senju",
+    chakraColor: "#a855f7",
     clan: "Senju",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Legado de Senju Hashirama", "3 Sannins Lendários", "Terceiro Hokage das Sombras", "Traidor de Konoha"],
@@ -1681,6 +1694,7 @@ export const initialData: Character[] = [
   {
     id: 21,
     name: "Rock Gunma",
+    chakraColor: "#a855f7",
     clan: "Gunma",
     categories: ["NPC", "Konohagakure", "Iwagakure"],
     titles: ["Jinchuuriki", "Tsuchikage Afastado", "Polvo Enjaulado"],
@@ -1788,6 +1802,7 @@ export const initialData: Character[] = [
   {
     id: 22,
     name: "Hiroshi Hanzo",
+    chakraColor: "#8b8b9a",
     clan: "Hanzo",
     categories: ["NPC", "Konohagakure", "OCA", "Kumogakure"],
     titles: ["Vice líder da OCA", "Suporte Perfeito", "Traidor da OCA"],
@@ -1837,6 +1852,7 @@ export const initialData: Character[] = [
   {
     id: 23,
     name: "Tobirama Senju",
+    chakraColor: "#0ea5e9",
     clan: "Senju",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Segundo Hokage", "Criador da OCA"],
@@ -1879,6 +1895,7 @@ export const initialData: Character[] = [
   {
     id: 24,
     name: "Sho Uchiha",
+    chakraColor: "#c01a3c",
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Segundo Hokage das Sombras", "Líder dos Uchiha"],
@@ -1925,6 +1942,7 @@ export const initialData: Character[] = [
   {
     id: 25,
     name: "Hoshiro Hyuga",
+    chakraColor: "#00ff41",
     clan: "Hyuga",
     categories: ["NPC", "Konohagakure"],
     titles: ["Segundo Hokage das Sombras", "Líder dos Hyuga", "Assassino de Kai"],
@@ -1971,6 +1989,7 @@ export const initialData: Character[] = [
   {
     id: 26,
     name: "Yumi Uzumaki",
+    chakraColor: "#ff3b46",
     clan: "Uzumaki",
     categories: ["NPC", "Konohagakure"],
     titles: ["Esposa de Tobirama", "Líder dos Uzumaki", "Assassina de Ryuzu"],
@@ -2015,6 +2034,7 @@ export const initialData: Character[] = [
   {
     id: 27,
     name: "Asami Hyuga",
+    chakraColor: "#ff3b46",
     clan: "Hyuga",
     categories: ["NPC", "Konohagakure"],
     titles: ["Líder dos Hyuga"],
@@ -2057,6 +2077,7 @@ export const initialData: Character[] = [
   {
     id: 28,
     name: "Kaizuka Hyuga",
+    chakraColor: "#ffd60a",
     clan: "Hyuga",
     categories: ["NPC", "Konohagakure"],
     titles: ["Vírus dos Hyuga", "Fantasma de Konoha", "Segundo Hokage das Sombras", "Líder dos NoGuns"],
@@ -2097,6 +2118,7 @@ export const initialData: Character[] = [
   {
     id: 29,
     name: "Raikun Hatake",
+    chakraColor: "#c01a3c",
     clan: "Hatake",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Uzumaki Falso", "Prodígio de Konoha", "Segundo Hokage das Sombras", "Bijuu sem Cauda"],
@@ -2185,6 +2207,7 @@ export const initialData: Character[] = [
   {
     id: 36,
     name: "Hirato Ishi",
+    chakraColor: "#ff3b46",
     clan: "Ishi",
     categories: ["NPC", "Iwagakure"],
     titles: ["O Legado do Fogo", "Sannins da Terra", "O Filho Mais Novo do Rei"],
@@ -2225,6 +2248,7 @@ export const initialData: Character[] = [
   {
     id: 37,
     name: "Hikaru Ishi",
+    chakraColor: "#0ea5e9",
     clan: "Ishi",
     categories: ["NPC", "Iwagakure"],
     titles: ["O Legado do Tempo", "Sannins da Terra", "O Escolhido"],
@@ -2264,6 +2288,7 @@ export const initialData: Character[] = [
   {
     id: 70,
     name: "Kaien Ishi (Omega)",
+    chakraColor: "#e8fbff",
     clan: "Ishi",
     categories: ["NPC", "OCA", "Iwagakure"],
     titles: ["O Primogênito", "Sannins da Terra", "O Espadachim mais forte do mundo", "Vice Líder da OCA", "Deus Shinobi"],
@@ -2354,6 +2379,7 @@ export const initialData: Character[] = [
   {
     id: 62,
     name: "Akairo Uchiha (A)",
+    chakraColor: "#ff3b46",
     clan: "Uchiha",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["Jinchuuriki", "O Primeiro Experimento", "Líder dos 75%", "O Inferno Vermelho"],
@@ -2450,6 +2476,7 @@ export const initialData: Character[] = [
   {
     id: 63,
     name: "Borashi Hyuga (B)",
+    chakraColor: "#0ea5e9",
     clan: "Hyuga",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["Jinchuuriki", "O Segundo Experimento", "Vice Líder dos 75%", "O Anjo de Gelo"],
@@ -2544,6 +2571,7 @@ export const initialData: Character[] = [
   {
     id: 64,
     name: "Chisaki Dokuhana (C)",
+    chakraColor: "#ff5fa8",
     clan: "Dokuhana",
     categories: ["NPC", "OCA", "Sunagakure"],
     titles: ["A Guardiã Rosa", "Equilíbrio Emocional"],
@@ -2614,6 +2642,7 @@ export const initialData: Character[] = [
   {
     id: 65,
     name: "Daiki Uzumaki (D)",
+    chakraColor: "#00ff41",
     clan: "Uzumaki",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["O Fruto do Pecado", "A Sombra de Konoha", "Sombra Silenciosa"],
@@ -2708,6 +2737,7 @@ export const initialData: Character[] = [
   {
     id: 66,
     name: "Etsuko Senju (E)",
+    chakraColor: "#ffd60a",
     clan: "Senju",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["A Centelha Dourada", "Traidora da OCA", "Namorada de Furyuzan"],
@@ -2763,6 +2793,7 @@ export const initialData: Character[] = [
   {
     id: 67,
     name: "Fuyuki Dokuhana (F)",
+    chakraColor: "#a855f7",
     clan: "Dokuhana",
     categories: ["NPC", "OCA", "Sunagakure"],
     titles: ["Maldição", "Arma Biológica da OCA", "Presa Venenosa"],
@@ -2814,6 +2845,7 @@ export const initialData: Character[] = [
   {
     id: 68,
     name: "Genei (G)",
+    chakraColor: "#8b8b9a",
     clan: "Desconhecido",
     categories: ["NPC", "OCA"],
     titles: ["Ser Humano Artificial", "Vice Líder dos 75%"],
@@ -2886,6 +2918,7 @@ export const initialData: Character[] = [
   {
     id: 69,
     name: "Hayato Hanzo (H)",
+    chakraColor: "#e8fbff",
     clan: "Hanzo",
     categories: ["NPC", "OCA", "Kumogakure"],
     titles: ["Filho do Trovão", "Traidor da OCA"],
@@ -2944,6 +2977,7 @@ export const initialData: Character[] = [
   {
     id: 32,
     name: "Hashirama Senju",
+    chakraColor: "#00ff41",
     clan: "Senju",
     categories: ["NPC", "Konohagakure"],
     titles: ["Fundador de Konoha", "Primeiro Hokage", "Deus Shinobi", "Assassino de Uchiha Madara"],
@@ -2988,6 +3022,7 @@ export const initialData: Character[] = [
   {
     id: 33,
     name: "Madara Uchiha",
+    chakraColor: "#0ea5e9",
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Fundador de Konoha", "Primeiro Hokage das Sombras", "Deus Shinobi"],
@@ -3031,6 +3066,7 @@ export const initialData: Character[] = [
   {
     id: 12,
     name: "Airi Senju",
+    chakraColor: "#00ff41",
     clan: "Senju",
     categories: ["NPC", "Konohagakure"],
     titles: ["Legado de Senju Hashirama", "Herdeira do Mokuton"],
@@ -3142,6 +3178,7 @@ export const initialData: Character[] = [
   {
     id: 13,
     name: "Ayumi Uchiha",
+    chakraColor: "#a855f7",
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Princesa do Sharingan", "A quebra da Maldição"],
@@ -3246,6 +3283,7 @@ export const initialData: Character[] = [
   {
     id: 14,
     name: "Shizumi Uchiha",
+    chakraColor: "#ff3b46",
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Espiã", "Olho da OCA"],
@@ -3342,6 +3380,7 @@ export const initialData: Character[] = [
   {
     id: 76,
     name: "Hades",
+    chakraColor: "#e8fbff",
     clan: "Desconhecido",
     categories: ["NPC", "OCA"],
     titles: ["Líder da OCA", "Fundador da OCA"],
@@ -3385,6 +3424,7 @@ export const initialData: Character[] = [
   {
     id: 75,
     name: "Beta",
+    chakraColor: "#00ff41",
     clan: "Desconhecido",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["Líder do Terceiro Degrau", "O Mutador"],
@@ -3487,6 +3527,7 @@ export const initialData: Character[] = [
   {
     id: 56,
     name: "Daichi Muuji",
+    chakraColor: "#c9d1d9",
     clan: "Muujin",
     categories: ["NPC", "NoGuns", "Iwagakure"],
     titles: ["Vice Líder da NoGuns", "O Herdeiro que Negou o Trono"],
@@ -3522,6 +3563,7 @@ export const initialData: Character[] = [
   {
     id: 57,
     name: "Koji Ishizuma",
+    chakraColor: "#ff8c1a",
     clan: "Ishizuma",
     categories: ["NPC", "NoGuns", "Kumogakure"],
     titles: ["Vice Líder da NoGuns", "Assassino Explosivo"],
@@ -3559,6 +3601,7 @@ export const initialData: Character[] = [
   {
     id: 58,
     name: "Yuuto Han",
+    chakraColor: "#e8fbff",
     clan: "Han",
     categories: ["NPC", "NoGuns", "OCA", "Kirigakure"],
     titles: ["Jinchuuriki", "Fugitivo da OCA", "Pequeno Assassino"],
@@ -3608,6 +3651,7 @@ export const initialData: Character[] = [
   {
     id: 59,
     name: "Shin Mizukari",
+    chakraColor: "#00ff41",
     clan: "Mizukari",
     categories: ["NPC", "NoGuns", "Iwagakure"],
     titles: ["Ser Humano que Parou no Tempo", "Troglodita"],
@@ -3649,6 +3693,7 @@ export const initialData: Character[] = [
   {
     id: 60,
     name: "Shikure Chinoike",
+    chakraColor: "#c01a3c",
     clan: "Chinoike",
     categories: ["NPC", "NoGuns", "OCA", "Sunagakure"],
     titles: ["O Psicopata do Sangue", "Gênio", "Traidor da NoGuns"],
@@ -3699,6 +3744,7 @@ export const initialData: Character[] = [
   {
     id: 61,
     name: "Akira Dokuhana",
+    chakraColor: "#00ff41",
     clan: "Dokuhana",
     categories: ["NPC", "NoGuns", "Sunagakure"],
     titles: ["Sannin das Cobras", "Suporte Perfeito"],
@@ -3737,6 +3783,7 @@ export const initialData: Character[] = [
   {
     id: 30,
     name: "Katsuo Uzumaki",
+    chakraColor: "#ff8c1a",
     clan: "Uzumaki",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["O Sobrevivente do Tempo", "Portador do Sacrifício", "O Que Pagou o Preço"],
@@ -3921,6 +3968,7 @@ export const initialData: Character[] = [
   {
     id: 17,
     name: "Naomi Uzumaki",
+    chakraColor: "#ff3b46",
     clan: "Uzumaki",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Gênia de Konoha", "Aprendiz de Tobirama", "Criança da Profecia"],
@@ -4025,6 +4073,7 @@ export const initialData: Character[] = [
   {
     id: 38,
     name: "Shoyu Uzumaki",
+    chakraColor: "#ff3b46",
     clan: "Uzumaki",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Filho do Medo", "Acidente Perfeito"],
@@ -4127,6 +4176,7 @@ export const initialData: Character[] = [
   {
     id: 40,
     name: "Reika Uzumaki",
+    chakraColor: "#b5793a",
     clan: "Uzumaki",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Flor do Vazio", "Silêncio do Abismo"],
@@ -4198,6 +4248,7 @@ export const initialData: Character[] = [
   {
     id: 39,
     name: "Souma Uzumaki",
+    chakraColor: "#0ea5e9",
     clan: "Uzumaki",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Essência do Abismo", "Fonte Carmesim"],
@@ -4276,6 +4327,7 @@ export const initialData: Character[] = [
   {
     id: 15,
     name: "Kuromi Uchiha",
+    chakraColor: "#ffd60a",
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Sannin dos Cães", "Predadora de Bijus", "Mangekyou mais Forte"],
@@ -4380,6 +4432,7 @@ export const initialData: Character[] = [
   {
     id: 34,
     name: "Shikaki Nara",
+    chakraColor: "#8b8b9a",
     clan: "Nara",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Executor do Vazio", "Aquele que Nega Ações", "Erro do Projeto Salvador"],
@@ -4463,6 +4516,7 @@ export const initialData: Character[] = [
   {
     id: 41,
     name: "Nagi Yuki",
+    chakraColor: "#0ea5e9",
     clan: "Yuki",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Soberano do Inverno Profano", "Olho da Nevasca", "Coruja do Gelo Negro"],
@@ -4563,6 +4617,7 @@ export const initialData: Character[] = [
   {
     id: 42,
     name: "Yasuo Kurogane",
+    chakraColor: "#b5793a",
     clan: "Kurogane",
     categories: ["NPC", "Sunagakure", "OCA"],
     titles: ["Imperador da Areia", "Guardião Dourado", "Deserto Negro"],
@@ -4653,6 +4708,7 @@ export const initialData: Character[] = [
   {
     id: 16,
     name: "Apollo Sarutobi",
+    chakraColor: "#ff8c1a",
     clan: "Sarutobi",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Herdeiro do Sol", "Eco de Son Goku", "Rastreador Primordial"],
@@ -4775,6 +4831,7 @@ export const initialData: Character[] = [
   {
     id: 51,
     name: "Yuji Yotsuki",
+    chakraColor: "#ff5fa8",
     clan: "Yotsuki",
     categories: ["NPC", "Kiba", "Kumogakure"],
     titles: ["Predador Silencioso", "Fantasma da Tempestade", "Líder da Kiba"],
@@ -4881,6 +4938,7 @@ export const initialData: Character[] = [
   {
     id: 52,
     name: "Reito Kurogami",
+    chakraColor: "#a855f7",
     clan: "Kurogami",
     categories: ["NPC", "Kiba", "Kumogakure"],
     titles: ["O Fenrir Negro", "A Ruína Viva", "Experimento da OCA"],
@@ -4974,6 +5032,7 @@ export const initialData: Character[] = [
   {
     id: 53,
     name: "Yoru Kurogami",
+    chakraColor: "#2dd4bf",
     clan: "Kurogami",
     categories: ["NPC", "Kiba", "Kumogakure"],
     titles: ["O Fantasma da Kiba", "Shade", "Vazio Sensorial"],
@@ -5697,6 +5756,7 @@ export const initialData: Character[] = [
   {
     id: 71,
     name: "Katakana Yotsuki (Alpha)",
+    chakraColor: "#e8fbff",
     clan: "Yotsuki",
     categories: [
       "NPC",
@@ -5841,6 +5901,7 @@ export const initialData: Character[] = [
   {
     id: 72,
     name: "Ganmasen Yuki (Gama)",
+    chakraColor: "#0ea5e9",
     clan: "Yuki",
     categories: [
       "NPC",
@@ -5981,6 +6042,7 @@ export const initialData: Character[] = [
   {
     id: 73,
     name: "Deruta Muujin (Delta)",
+    chakraColor: "#ffd60a",
     clan: "Muujin",
     categories: [
       "NPC",
@@ -6251,6 +6313,7 @@ export const initialData: Character[] = [
   {
     id: 35,
     name: "Shikatsu Nara (Togo Kage)",
+    chakraColor: "#8b8b9a",
     clan: "Kage",
     categories: [
       "NPC",

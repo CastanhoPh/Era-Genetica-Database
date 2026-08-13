@@ -153,6 +153,8 @@ export interface Character {
   timelineExcluded?: boolean;
   /** Vila de nascença (única, mesmo quando `categories` lista mais de uma vila de afiliação/atuação). */
   birthVillage?: string;
+  /** Cor do chakra em hex. Pinta o anel girando na 1ª técnica da lista, que é a mais forte. */
+  chakraColor?: string;
 }
 
 export const SEASON_ORDER = ['Prólogo', 'Clássico', '1ª Temporada', '2ª Temporada', '3ª Temporada', '4ª Temporada', '5ª Temporada'] as const;
