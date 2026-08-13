@@ -876,7 +876,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F11%20-%20Tomon%3A%20Ura%20Renge.jpg?alt=media&v=1786651880375866"
       }
     ],
-    arsenal: [9, 10],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FPr_logo.png?alt=media&v=1784658585741971", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FCl_ssico.png?alt=media&v=1786370728817391", caption: "Clássico", category: "era" },
@@ -1038,7 +1038,7 @@ export const initialData: Character[] = [
     isDead: true,
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.jpg?alt=media&v=1786651881731095",
-    arsenal: [9],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1784658602065060", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FCl_ssico.png?alt=media&v=1786370723909827", caption: "Clássico", category: "era" },

@@ -107,6 +107,7 @@ export const arsenalData: Equipment[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F10%20-%20Kubikirib%C5%8Dch%C5%8D.png?alt=media&v=1784038020061489",
     originalOwner: "Shoei Barou",
     pastOwners: ["Najin Hatake"],
+    diedHolding: ["Najin Hatake", "Shoei Sarutobi"],
     currentOwner: "Takeshi Hatake"
   },
   {
@@ -118,6 +119,7 @@ export const arsenalData: Equipment[] = [
     description: "Estas manoplas experimentais foram desenvolvidas pela OCA para canalizar o chakra profano refinado de F em sua forma mais letal e controlada. Elas são construídas com uma liga metálica especial que permite ao portador tocar e bloquear lâminas de chakra e jutsus elementais diretamente com as mãos, sem sofrer danos. No momento do impacto, as luvas emitem pulsos de energia profana que corroem o fluxo de chakra do oponente, causando micro-explosões nos tenketsus do alvo. Essa corrosão impede que o inimigo consiga manter técnicas ativas ou moldar energia de forma eficiente por vários minutos após o contato. Najin Hatake utiliza essas luvas para complementar seu estilo de combate corpo a corpo, transformando cada bloqueio em um contra-ataque devastador. São ferramentas de neutralização absoluta que transformam a força do inimigo em sua maior fraqueza através da desestabilização energética.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F11%20-%20Luvas%20de%20Chakra%20Profano%20'F'.png?alt=media&v=1784038023686359",
     originalOwner: "Najin Hatake",
+    diedHolding: ["Najin Hatake"],
     currentOwner: "Oddy Uchiha"
   },
   {
