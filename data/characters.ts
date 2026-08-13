@@ -3887,6 +3887,7 @@ export const initialData: Character[] = [
   {
     id: 31,
     name: "Satoshi Namikaze",
+    chakraColor: "#ff3b46",
     clan: "Namikaze",
     categories: ["NPC", "Konohagakure"],
     titles: ["Eremita de Myōboku"],
@@ -5109,6 +5110,7 @@ export const initialData: Character[] = [
   {
     id: 54,
     name: "Mika Yotsuki",
+    chakraColor: "#0ea5e9",
     clan: "Yotsuki",
     categories: ["NPC", "Kiba", "Kumogakure"],
     titles: ["A Inteligência da Kiba", "A Mente Invisível", "Fundadora da Kiba"],
@@ -5188,6 +5190,7 @@ export const initialData: Character[] = [
   {
     id: 55,
     name: "Enrai Hanzo",
+    chakraColor: "#ffd60a",
     clan: "Hanzo",
     categories: ["NPC", "Kiba", "Kumogakure"],
     titles: ["O Médico do Trovão Morto", "Cirurgião da Kiba", "O Homem que Mantém Monstros Vivos"],
@@ -5289,6 +5292,7 @@ export const initialData: Character[] = [
   {
     id: 43,
     name: "Hana Sabaku",
+    chakraColor: "#00ff41",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
     titles: ["Segunda Kazekage", "A Muralha Dourada", "A Leoa da Areia", "Jinchuuriki"],
@@ -5395,6 +5399,7 @@ export const initialData: Character[] = [
   {
     id: 44,
     name: "Reto Sabaku",
+    chakraColor: "#8b8b9a",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
     titles: ["Primeiro Kazekage", "O Caçador do Deserto", "Fundador de Sunagakure", "Senhor da Areia de Ouro", "Arqueiro Dourado da Areia"],

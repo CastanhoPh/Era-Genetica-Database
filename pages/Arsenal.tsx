@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Search, Database, ChevronDown, Shield, Terminal, AlertTriangle, Loader, Plus } from 'lucide-react';
 import { Equipment } from '../types/Equipment';
+import { CLASSIFICATION_PRIORITY } from '../types';
 import ArsenalCard from '../components/ArsenalCard';
 
 interface ArsenalProps {
@@ -21,19 +22,8 @@ const Arsenal: React.FC<ArsenalProps> = ({ arsenalItems, loading, onOpenItem, is
   const [selectedNature, setSelectedNature] = useState('Todos');
   const [sortBy, setSortBy] = useState('id');
 
-  const classificationPriority: Record<string, number> = {
-    'Z': 100,
-    'S++': 90,
-    'S+': 80,
-    'S': 70,
-    'A+': 60,
-    'A': 50,
-    'B': 40,
-    'C': 30,
-    'D': 20,
-    'E': 10,
-    'F': 0
-  };
+  // a tabela vive em types.ts, compartilhada com o anel de chakra do CharacterModal
+  const classificationPriority = CLASSIFICATION_PRIORITY;
 
   // Extract unique values for filters
   const uniqueClassifications = useMemo(() => {

@@ -157,6 +157,29 @@ export interface Character {
   chakraColor?: string;
 }
 
+/**
+ * Peso de cada rank, do mais forte para o mais fraco. Serve para ordenar e para achar o topo de
+ * uma lista. Rank desconhecido ou ausente vale -1, ou seja, fica abaixo de tudo.
+ */
+export const CLASSIFICATION_PRIORITY: Record<string, number> = {
+  'Z': 100,
+  'S++': 90,
+  'S+': 80,
+  'S': 70,
+  'A+': 60,
+  'A': 50,
+  'B+': 45,
+  'B': 40,
+  'C+': 35,
+  'C': 30,
+  'D': 20,
+  'E': 10,
+  'F': 0,
+};
+
+export const rankPeso = (classification?: string): number =>
+  classification && classification in CLASSIFICATION_PRIORITY ? CLASSIFICATION_PRIORITY[classification] : -1;
+
 export const SEASON_ORDER = ['Prólogo', 'Clássico', '1ª Temporada', '2ª Temporada', '3ª Temporada', '4ª Temporada', '5ª Temporada'] as const;
 
 // Nomes/marcos das temporadas — PROVISÓRIO, só referência (não usar em outro lugar do app).

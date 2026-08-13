@@ -6,7 +6,7 @@ import {
   AlertTriangle, Fingerprint, Binary, Image as ImageIcon,
   ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine
 } from 'lucide-react';
-import { Character, EVENT_SEASONS } from '../types';
+import { Character, EVENT_SEASONS, rankPeso } from '../types';
 import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
@@ -111,6 +111,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   if (!char) return null;
 
   const allTechniques = char.techniques || [];
+
+  // Qual técnica leva o anel de chakra: a mais forte da ficha. A lista costuma já vir ordenada por
+  // rank, mas em algumas fichas não vem (o Z do Satoshi, por exemplo, não é o primeiro) — então
+  // vale o rank, e entre empatados no topo vale a primeira, que é a ordem que o Pedro definiu.
+  const indiceAnel = allTechniques.reduce(
+    (melhor, tech, i) => (rankPeso(tech.classification) > rankPeso(allTechniques[melhor]?.classification) ? i : melhor),
+    0,
+  );
 
   // Se a arma tem uma variação manifestada por ESTE personagem (ex: Kaito com a Guren no
   // Kage, dentro da Sōen no Kage), mostra o nome/imagem/descrição da variação dele aqui —
@@ -536,8 +544,8 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                                 {allTechniques.length > 0 ? (
                                     allTechniques.map((tech, idx) => {
-                                        // a 1ª da lista é a mais forte: ganha o anel na cor do chakra
-                                        const anel = idx === 0 ? char.chakraColor : undefined;
+                                        // a mais forte da ficha ganha o anel na cor do chakra
+                                        const anel = idx === indiceAnel ? char.chakraColor : undefined;
                                         return (
                                         <div
                                             key={idx}
