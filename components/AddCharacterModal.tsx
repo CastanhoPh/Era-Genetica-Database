@@ -146,14 +146,14 @@ const AddCharacterModal: React.FC<AddCharacterModalProps> = ({ onClose, onAdd, i
     setTechniques(techniques.filter((_, i) => i !== index));
   };
 
-  // Pasta real do personagem no Storage (mesma convenção da migração: "Characters/<id> - Nome").
-  // Só existe uma pasta definitiva quando o personagem já foi salvo antes (edição) — nesse
-  // caso o ID é estável. Criando um personagem novo, ainda não há ID, então cai num fallback
-  // genérico só até o primeiro salvamento.
+  // Pasta do personagem no Storage: "Characters/<Nome>", sem número.
+  // O `id` é ordem de exibição e muda quando o elenco é reordenado — pasta batizada com ele
+  // desalinha na primeira renumeração, que foi o que aconteceu até a migração de 2026-08-13.
+  // O nome é a chave estável, e é a mesma que Galeria/ e Prototipo/ já usam.
   const characterFolderPrefix = (): string | null => {
-    if (!isEditing || !initialCharacter || !formData.name.trim()) return null;
-    const paddedId = String(initialCharacter.id).padStart(2, '0');
-    return `Characters/${paddedId} - ${formData.name.trim().replace(/\//g, '-')}`;
+    const nome = formData.name.trim();
+    if (!nome) return null;
+    return `Characters/${nome.replace(/\//g, '-')}`;
   };
 
   const galleryPathPrefix = (img: GalleryImage) => {
