@@ -786,7 +786,9 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     return (
                                     <div
                                         key={idx}
-                                        className="relative aspect-square"
+                                        // o esmaecido de "já utilizou" fica no invólucro, não no botão:
+                                        // o anel é irmão do botão e ficaria a 100% enquanto a arte cai a 70%
+                                        className={`relative aspect-square transition-opacity duration-300 ${dimmed ? 'opacity-70 hover:opacity-100' : ''}`}
                                         style={anel ? ({ ['--chakra' as string]: anel } as React.CSSProperties) : undefined}
                                     >
                                     {anel && (
@@ -797,7 +799,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     )}
                                     <button
                                         onClick={() => goToWeapon(idx)}
-                                        className={`group absolute border border-tech-border overflow-hidden hover:border-tech-accent transition-all duration-300 ${anel ? 'inset-[2px] cartao-solido' : 'inset-0 bg-tech-panel/40'} ${dimmed ? 'opacity-70 hover:opacity-100' : ''} ${hideMask ? 'z-[9999]' : 'z-[1]'}`}
+                                        className={`group absolute border border-tech-border overflow-hidden hover:border-tech-accent transition-all duration-300 ${anel ? 'inset-[2px] cartao-solido' : 'inset-0 bg-tech-panel/40'} ${hideMask ? 'z-[9999]' : 'z-[1]'}`}
                                     >
                                         <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
 
