@@ -46,10 +46,15 @@ body {
     );
 }
 
-/* Anel de chakra — marca a 1ª técnica da ficha, que é a mais forte, com a cor de chakra do
-   personagem (--chakra vem do inline style). O facho gira dentro de um contêiner recortado e é
-   sobredimensionado 25% por dentro: girar um quadrado do tamanho exato descobre os cantos a 45°.
-   O cartão por cima precisa de fundo OPACO, senão o brilho vaza pela arte. */
+/* Anel de chakra — marca a técnica mais forte da ficha com a cor de chakra do personagem
+   (--chakra vem do inline style). São DOIS fachos em cantos opostos da diagonal, e eles são
+   arcos do MESMO gradiente girando num elemento só: assim é impossível dessincronizar, o que
+   aconteceria se fossem dois elementos animados em paralelo.
+   Dois detalhes que parecem arbitrários e não são:
+   - o gradiente é sobredimensionado 25% dentro de um contêiner recortado, porque girar um
+     quadrado do tamanho exato descobre os cantos a 45°;
+   - o cartão por cima precisa de fundo OPACO (.cartao-solido), senão o brilho de trás vaza
+     pela arte e varre o meio da imagem. */
 .anel-varredura {
     position: absolute;
     inset: 0;
@@ -68,13 +73,23 @@ body {
     content: '';
     position: absolute;
     inset: -25%;
+    /* Dois arcos acesos de 9% da volta cada, centrados em 0.25 e 0.75 — meia volta de distância,
+       ou seja, cantos opostos na diagonal. Se um dia mexer na largura, cuidado: arcos que se
+       encostam produzem stops fora de ordem, e aí o CSS trunca e a transição vira borda dura. */
     background: conic-gradient(from 0turn,
         transparent 0turn,
-        transparent 0.55turn,
-        color-mix(in srgb, var(--chakra) 18%, transparent) 0.7turn,
-        var(--chakra) 0.8turn,
-        var(--chakra) 0.84turn,
-        color-mix(in srgb, var(--chakra) 18%, transparent) 0.94turn,
+        transparent 0.1645turn,
+        color-mix(in srgb, var(--chakra) 18%, transparent) 0.2005turn,
+        var(--chakra) 0.2388turn,
+        var(--chakra) 0.2613turn,
+        color-mix(in srgb, var(--chakra) 18%, transparent) 0.2995turn,
+        transparent 0.3355turn,
+        transparent 0.6645turn,
+        color-mix(in srgb, var(--chakra) 18%, transparent) 0.7005turn,
+        var(--chakra) 0.7388turn,
+        var(--chakra) 0.7613turn,
+        color-mix(in srgb, var(--chakra) 18%, transparent) 0.7995turn,
+        transparent 0.8355turn,
         transparent 1turn);
     animation: anelGirar 2.6s linear infinite;
 }
