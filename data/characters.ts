@@ -3897,14 +3897,14 @@ export const initialData: Character[] = [
     position: "Sannin de Elite",
     role: "DPS",
     description: "Satoshi Namikaze, irmão mais novo de Sakura Namikaze, sempre viveu à sombra da irmã mais velha — até decidir seguir um caminho que não pertencia a mais ninguém da família. Ainda jovem, partiu sozinho rumo ao Monte Myōboku, decidido a dominar o Modo Sábio dos Sapos por conta própria, sem pedir permissão e sem levar ninguém junto.\n\nAntes de partir, Katsuo Uzumaki — já àquela altura um homem marcado pelo próprio sacrifício — entregou a Satoshi os lendários nunchakos do clã Uzumaki, o Uzumaki no Kon, como única garantia de que ele teria como se defender numa jornada que ninguém mais estava disposto a fazer.\n\nHoje, aos 24 anos, Satoshi é o guardião do Monte Myōboku. A notícia da morte da irmã e do cunhado, Kawarama Senju, chegou até ele tarde demais para qualquer despedida — e pouco depois, o mesmo aconteceu com os relatos da morte de Naomi Uzumaki e de Katsuo, o homem que uma vez lhe deu os meios de sobreviver sozinho na montanha. Foi esse peso acumulado que o fez se dedicar de corpo e alma à defesa de Myōboku, quando a OCA voltou os olhos para o chakra natural da montanha, tentando extraí-lo à força.\n\nMas a verdade, como sempre no mundo shinobi, era mais complicada do que os relatos. Satoshi descobriu que Katsuo estava vivo — e que Naomi também. Sem hesitar, deixou os próprios Sapos Sábios que treinara como novos protetores da montanha em seu lugar, e partiu à procura dos dois, decidido a não deixar mais nenhuma notícia de morte passar sem confirmação.",
-    hp: 184,
+    hp: 205,
     chakra: 137,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786651893496752",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2FPr%C3%B3logo.png?alt=media&v=1786038793699", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2F5%C2%AA%20Temporada.png?alt=media&v=1786038795533", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 10, dexterity: 27, agility: 27, intelligence: 27, spirit: 27, vigor: 13, perception: 27 },
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
       { name: "Fuuton", level: 13 },
       { name: "Senjutsu", level: 13 },
@@ -5409,7 +5409,7 @@ export const initialData: Character[] = [
     position: "1º Kazekage",
     role: "DPS",
     description: "Reto Sabaku foi o Primeiro Kazekage e o homem responsável por transformar o maior deserto do continente em uma civilização próspera. Antes dele, o deserto era apenas morte, escassez, tribos em guerra, assassinos, mercadores armados e pequenos reinos subterrâneos lutando por água.\n\nConhecido como o Caçador do Deserto, Reto não lutava como um guerreiro comum. Ele observava, rastreava e eliminava seus inimigos antes mesmo que eles entendessem que haviam sido caçados. Sua arma principal era um lendário arco de Rank Z da Vila da Areia, capaz de condensar chakra e disparar flechas de areia metálica com precisão absurda.\n\nAo despertar a Areia de Ouro, Reto mudou o destino de Sunagakure. Ele encontrou aquíferos subterrâneos, desviou tempestades, criou rotas comerciais, ergueu muralhas e fundou cidades. Porém, em combate, essa mesma areia que trouxe prosperidade ao deserto se tornava uma arma silenciosa e implacável.\n\nAlém de seu arco, Reto utilizava a máscara ancestral Satetsu no Rinne, o Samsara da Areia de Ferro, uma relíquia de Rank Z capaz de amplificar o domínio magnético do portador a níveis catastróficos. Com ela, Reto podia extrair ferro do solo, da atmosfera e até de corpos vivos, convertendo tudo em poeira metálica sob seu controle.\n\nReto era amado por sua gentileza e temido por seu poder. O mundo dizia que ele estava apenas alguns degraus abaixo de Hashirama Senju. Para Sunagakure, no entanto, ele era algo ainda maior: o homem que ensinou o deserto a florescer.",
-    hp: 184,
+    hp: 217,
     chakra: 91,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1786651908717643",
     techniques: [
@@ -5478,7 +5478,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReto%20Sabaku%2F5__Temporada.png?alt=media&v=1784751339155", caption: "5ª Temporada", category: "era" },
     ],
-    stats: {strength: 10, dexterity: 27, agility: 27, intelligence: 27, spirit: 27, vigor: 13, perception: 27},
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 23, spirit: 27, vigor: 24, perception: 27 },
     powers: [
       { name: "Satetsu", level: 13 },
       { name: "Fūton", level: 13 },
