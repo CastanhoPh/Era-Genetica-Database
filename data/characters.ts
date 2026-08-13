@@ -3811,7 +3811,7 @@ export const initialData: Character[] = [
     id: 31,
     name: "Satoshi Namikaze",
     clan: "Namikaze",
-    categories: ["Personagem", "Konohagakure"],
+    categories: ["NPC", "Konohagakure"],
     titles: ["Eremita de Myōboku"],
     nc: 27,
     position: "Sannin de Elite",
