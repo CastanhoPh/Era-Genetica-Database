@@ -5563,7 +5563,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2FCl_ssico.png?alt=media&v=1784569565103032", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2F4__Temporada.png?alt=media&v=1784569562464968", caption: "4ª Temporada", category: "era" },
     ],
-    stats: {strength: 8, dexterity: 23, agility: 8, intelligence: 14, spirit: 23, vigor: 23, perception: 23},
+    stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 16, spirit: 23, vigor: 23, perception: 23 },
     powers: [
       { name: "Satetsu", level: 11 },
       { name: "Doton", level: 11 },
@@ -5595,7 +5595,7 @@ export const initialData: Character[] = [
     role: "Suporte",
     description: "Mizue Dokuhana, conhecida hoje como o Pilar do Sacrifício, é a médica que todos desejam ter por perto quando a morte chega, mas que ninguém deseja encarar quando ela abre sua maleta cirúrgica. Nascida no clã Dokuhana, cresceu entre venenos, antídotos, lâminas esterilizadas, fios de sutura com chakra e lições duras demais para uma criança comum.\n\nPara sua família, medicina nunca foi uma promessa de salvação perfeita. Medicina era cálculo: escolher o órgão que podia falhar, o membro que podia ser perdido e o veneno que mataria a infecção antes que matasse o paciente. Desde cedo, Mizue entendeu que no deserto nada é gratuito. Até a vida, quando salva, cobra algo de volta.\n\nEm batalha, Mizue não promete milagres. Ela observa o corpo quebrado diante dela e calcula o que ainda pode ser preservado. Com agulhas cirúrgicas, toxinas controladas e técnicas médicas extremas, consegue salvar aliados à beira da morte, mas sempre cobrando um preço físico: visão, força, mobilidade, respiração, sensibilidade ou parte do fluxo de chakra.\n\nQuando a OCA começou a espalhar horrores genéticos, corpos instáveis e chakra artificial, foi Mizue quem manteve vivos aqueles que todos já consideravam perdidos. Ela estudou mutações, degenerações celulares, anti-regeneração e venenos capazes de frear monstros criados em laboratório.\n\nHoje, como Pilar do Sacrifício, Mizue carrega uma das verdades mais desconfortáveis da Areia: sobreviver exige perdas. Ela não se vê como santa, salvadora ou heroína. Sabe que muitos daqueles que curou acordaram odiando o preço que tiveram de pagar. Mesmo assim, continua. Mizue Dokuhana não promete devolver ninguém inteiro. Promete apenas impedir que morram antes da hora.",
     hp: 194,
-    chakra: 52,
+    chakra: 58,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1786651909330322",
     techniques: [],
     arsenal: [56],
@@ -5603,7 +5603,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F4__Temporada.png?alt=media&v=1786370788456391", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F5__Temporada.png?alt=media&v=1786370750776362", caption: "5ª Temporada", category: "era" },
     ],
-    stats: {strength: 8, dexterity: 23, agility: 8, intelligence: 23, spirit: 14, vigor: 23, perception: 23},
+    stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 23, spirit: 16, vigor: 23, perception: 23 },
     powers: [
       { name: "Iryō Ninjutsu", level: 11 },
       { name: "Dokujutsu", level: 11 },
@@ -5642,7 +5642,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1786370753266721", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1786370781545317", caption: "5ª Temporada", category: "era" },
     ],
-    stats: {strength: 23, dexterity: 8, agility: 8, intelligence: 14, spirit: 23, vigor: 23, perception: 23},
+    stats: { strength: 23, dexterity: 9, agility: 9, intelligence: 16, spirit: 23, vigor: 23, perception: 23 },
 
     powers: [
       { name: "Doton", level: 11 },
