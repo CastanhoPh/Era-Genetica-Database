@@ -1834,9 +1834,9 @@ export const initialData: Character[] = [
     ],
     stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
-      { name: "Ranton", level: 10 },
-      { name: "Raiton", level: 10 },
-      { name: "Suiton", level: 10 },
+      { name: "Ranton", level: 13 },
+      { name: "Raiton", level: 13 },
+      { name: "Suiton", level: 13 },
       { name: "Iryou Ninjutsu", level: 8 }
     ],
     aptitudes: [
@@ -3392,7 +3392,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 0,
     chakra: 0,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.png?alt=media&v=1786651897054202",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.jpeg?alt=media&v=1786983073679558",
     stats: { strength: 0, dexterity: 0, agility: 0, intelligence: 0, spirit: 0, vigor: 0, perception: 0 },
     powers: [
       { name: "Desconhecido", level: 0 },
@@ -4924,9 +4924,9 @@ export const initialData: Character[] = [
     ],
     stats: { strength: 10, dexterity: 24, agility: 10, intelligence: 24, spirit: 24, vigor: 16, perception: 24 },
     powers: [
-      { name: "Ranton", level: 11 },
-      { name: "Raiton", level: 11 },
-      { name: "Fuinjutsu", level: 11 }
+      { name: "Ranton", level: 12 },
+      { name: "Raiton", level: 12 },
+      { name: "Fuinjutsu", level: 12 }
     ],
     aptitudes: [
       "Acuidade",
@@ -5172,9 +5172,9 @@ export const initialData: Character[] = [
     ],
     stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [
-      { name: "Raiton", level: 11 },
-      { name: "Fuinjutsu", level: 11 },
-      { name: "Ocultação", level: 11 }
+      { name: "Raiton", level: 12 },
+      { name: "Fuinjutsu", level: 12 },
+      { name: "Ocultação", level: 12 }
     ],
     aptitudes: [
       "Acuidade",
@@ -5510,12 +5510,12 @@ export const initialData: Character[] = [
     clan: "Chinoike",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar da Memória", "O Homem que Lembra pelos Mortos"],
-    nc: 25,
+    nc: 27,
     position: "Pilar de Sunagakure",
     role: "DPS e Suporte",
     description: "Chigiri Chinoike, conhecido hoje como o Pilar da Memória, é o homem que aprendeu o valor de uma vida depois de transformar vidas demais em material de estudo. Nascido no clã Chinoike, cresceu acreditando que o sangue era a forma mais pura de verdade: não apenas herança genética, mas um registro vivo de memórias, dores, medos e desejos que nem a morte conseguia apagar.\n\nEssa obsessão o levou até a OCA, onde se tornou um dos pesquisadores mais respeitados da organização. Chigiri não conduzia experimentos por dever ou ideologia — fazia por prazer. Manipulava DNA, desmontava linhagens, criava corpos artificiais e usava sangue para formar marionetes vivas, feitas de coagulação, chakra e ecos emocionais das pessoas que um dia existiram.\n\nTudo mudou durante um experimento em que matou uma pessoa que permaneceu consciente tempo suficiente para perguntar se ele se lembraria dela. Ao tocar seu sangue, Chigiri sentiu sua vida inteira: infância, medo, amor, arrependimentos e promessas. Pela primeira vez, entendeu que aquilo que chamava de material era uma existência completa.\n\nIncapaz de continuar, procurou Hades e confessou que havia entendido tarde demais. Hades permitiu que ele deixasse a OCA, sob a condição de jamais revelar seus segredos. Quando chegou a Sunagakure, não foi recebido como herói, mas como risco. Hana sabia o que ele era, e por isso o colocou onde sua culpa poderia servir a algo maior.\n\nHoje, Chigiri é o Pilar da Memória. Ele lê sangue em cenas de crime, reconstrói massacres, identifica rastros da OCA e transforma os mortos em testemunhas que não podem mais ser silenciadas. Muitos o odeiam, outros o temem, poucos confiam nele. Mas todos sabem que, quando uma gota de sangue toca a areia, Chigiri é aquele que escuta. Ele não busca redenção. Continua vivo apenas para lembrar, porque esquecer os mortos seria matá-los uma segunda vez.",
-    hp: 189,
-    chakra: 85,
+    hp: 205,
+    chakra: 91,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1786651908728450",
     techniques: [],
     arsenal: [],
@@ -5523,11 +5523,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F4__Temporada.png?alt=media&v=1786370786205551", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F5__Temporada.png?alt=media&v=1786370741290634", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
-      { name: "Ketton", level: 12 },
-      { name: "Kugutsu", level: 12 },
-      { name: "Fuinjutsu", level: 12 }
+      { name: "Ketton", level: 13 },
+      { name: "Kugutsu", level: 13 },
+      { name: "Fuinjutsu", level: 13 }
     ],
     aptitudes: [
       "Guardião da Memória",
@@ -5629,12 +5629,12 @@ export const initialData: Character[] = [
     clan: "Enshaku",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar da Construção", "O Arquiteto das Pontes Impossíveis"],
-    nc: 23,
+    nc: 25,
     position: "Pilar de Sunagakure",
     role: "Tank",
     description: "Tessai Enshaku, conhecido hoje como o Pilar da Construção, é um homem que nasceu em uma vila de guerreiros, mas decidiu admirar aqueles que erguiam paredes. Desde criança, enquanto outros sonhavam com técnicas destrutivas e vitórias em campo de batalha, Tessai observava pedreiros, escavadores, ferreiros, engenheiros e arquitetos de canais subterrâneos.\n\nPara ele, os verdadeiros heróis de Sunagakure não eram apenas os que derrotavam invasores, mas os que garantiam que haveria uma casa para onde voltar depois da guerra. O clã Enshaku sempre carregou essa filosofia: areia, argila, metal e pedra não servem apenas para soterrar inimigos, mas para criar muralhas, pontes, abrigos, túneis, torres e caminhos onde antes só havia morte.\n\nTessai cresceu ouvindo a história de Reto Sabaku, o homem que transformou um deserto impossível em civilização. Para ele, a maior vitória de Reto não foi derrotar inimigos, mas deixar algo de pé depois deles. Por isso, Tessai nunca aceitou que poder shinobi fosse medido apenas pela destruição.\n\nCom Doton, Koton, minerais, argila selada e engenharia shinobi, Tessai aprendeu a moldar o terreno como se a própria vila se expandisse através dele. Em combate, ele não luta apenas defendendo; ele constrói. Muros protegem civis, túneis se abrem para evacuação, torres dão vantagem aos arqueiros, bunkers emergem sob a areia e armadilhas estruturais prendem inimigos no próprio peso do campo.\n\nHoje, como Pilar da Construção, Tessai representa a permanência de Sunagakure. Seu papel é lembrar que a Areia não pode se tornar apenas uma máquina de guerra movida por medo da OCA. A vila precisa continuar sendo uma cidade, com mercados, canais, jardins artificiais, oficinas, famílias e crianças correndo sob torres douradas. Para Tessai, Sunagakure não é forte porque nunca quebra. É forte porque sempre volta a ficar de pé.",
-    hp: 194,
-    chakra: 79,
+    hp: 210,
+    chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1786651909974548",
     techniques: [],
     arsenal: [54],
@@ -5642,12 +5642,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1786370753266721", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1786370781545317", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 23, dexterity: 9, agility: 9, intelligence: 16, spirit: 23, vigor: 23, perception: 23 },
+    stats: { strength: 25, dexterity: 10, agility: 10, intelligence: 18, spirit: 25, vigor: 25, perception: 25 },
 
     powers: [
-      { name: "Doton", level: 11 },
-      { name: "Koton", level: 11 },
-      { name: "Fuinjutsu", level: 11 }
+      { name: "Doton", level: 12 },
+      { name: "Koton", level: 12 },
+      { name: "Fuinjutsu", level: 12 }
     ],
     aptitudes: [
       "Guardião da Construção",
