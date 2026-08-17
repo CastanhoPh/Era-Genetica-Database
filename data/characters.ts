@@ -11,7 +11,7 @@ export const initialData: Character[] = [
     position: "3º Hokage",
     role: "DPS",
     description: "Um líder nato, portador da verdadeira Vontade do Fogo — uma força da natureza no campo de batalha.\n\nDesde a infância, Nishinoya já demonstrava uma genialidade fora dos padrões, mesmo sem herdar as habilidades tradicionais do prestigiado clã Senju.\n\nAos 14 anos, em meio à guerra, foi reconhecido como o Relâmpago Azul de Konoha após ser escolhido por Matatabi e alcançar a harmonia entre seu poder, o lendário Hiraishin e seu domínio absoluto do Katon.\n\nAos 16 anos, foi nomeado o Terceiro Hokage por Tobirama Senju, liderando Konoha durante um dos períodos mais turbulentos de sua história. Em batalha, enfrentou inimigos de nível absurdo — incluindo o vice-líder da OCA, que o reconheceu como um verdadeiro Deus Shinobi.\n\nNishinoya é capaz de fundir o chakra de Matatabi, o Hiraishin e seu exclusivo Modo Sábio Aoi Katon, criando um estilo de combate único baseado em velocidade absoluta e destruição precisa.\n\nCriador de técnicas lendárias, entre elas:\n- Senpo: Enka Aoi Katon Bijūdama: Oodama Rasenshuriken\n- Sennin Fuka\n- Aoi Katon: Komyunikēshon\n- Clone Perfeito",
-    hp: 214,
+    hp: 232,
     chakra: 200,
     isDead: true,
     killedBy: "Omega",
@@ -217,7 +217,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1786651865146365", caption: "Terceiro Hokage", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249", caption: "Luta contra o Omega", category: "era" },
     ],
-    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 18, perception: 30 },
+    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 24, perception: 30 },
     powers: [
       { name: "Matatabi", level: 15 },
       { name: "Aoi Katon", level: 15 },
@@ -1704,7 +1704,7 @@ export const initialData: Character[] = [
     position: "Tsuchikage",
     role: "Tank e Suporte",
     description: "Rock Gunma nasceu em uma era marcada por conflitos constantes, crescendo em meio à guerra e sendo exposto desde cedo à sua realidade brutal. Com o tempo, tornou-se jinchūriki do Gyūki. Diferente da maioria, não enfrentou a besta como um fardo, mas construiu uma relação de respeito mútuo.\n\nCom o passar dos anos, Rock participou de diversas batalhas importantes, acumulando experiência real de combate e adquirindo cicatrizes que marcaram seu corpo. Sua força e liderança o levaram a assumir o cargo de Segundo Tsuchikage, guiando a vila em um dos períodos mais instáveis de sua história.\n\nDurante seu governo, destacou-se ao encerrar a guerra entre monges e samurais sem recorrer à destruição total, impondo sua presença e restaurando o equilíbrio ao devolver artefatos sagrados aos seus verdadeiros guardiões.\n\nFoi nesse período como Tsuchikage que surgiu uma ameaça fora de qualquer padrão conhecido — um ser chamado Delta, capaz de distorcer a realidade através do controle absoluto de gravidade e metal. Diferente de outros inimigos, Delta não buscava apenas caos, mas o próprio posto de Tsuchikage.\n\nO confronto entre os dois foi inevitável.\n\nMesmo com o chakra massivo de Gyūki reforçando seu corpo, Rock enfrentou algo além da força convencional. Durante a luta, Delta alterou o campo gravitacional ao redor de Rock, comprimindo seu corpo de dentro para fora enquanto manipulava partículas metálicas microscópicas presentes no ambiente.\n\nAo invés de romper a defesa de Gyūki pela força, Delta distorceu o espaço ao redor do chakra, fazendo com que o metal atravessasse a proteção como se ela não existisse.\n\nO ataque atingiu diretamente o estômago de Rock.\n\nO dano não foi imediato — foi contínuo.\n\nFragmentos metálicos permaneceram dentro de seu corpo, reagindo ao seu chakra e se expandindo lentamente. Rock caiu, mas se recusou a perder. Concentrando todo o seu chakra na região abdominal, ele conseguiu conter a expansão do metal, impedindo sua morte naquele momento.\n\nMesmo assim, ele venceu a batalha.\n\nMas não saiu inteiro dela.\n\nSem demonstrar fraqueza e sem pedir ajuda, Rock continuou liderando a vila. No entanto, com o passar do tempo, o desgaste interno começou a cobrar seu preço. As dores se tornaram constantes, e seu corpo já não respondia como antes.\n\nReconhecendo seus limites, Rock tomou a decisão de renunciar ao cargo de Tsuchikage — não por derrota, mas por consciência.\n\nApós deixar o posto, passou a atuar como mentor, dedicando-se a treinar e orientar a próxima geração. Entre seus alunos, Noya se destacou como alguém que superou seu próprio nível.\n\nMesmo afastado do campo de batalha, Rock continuou ativo nos bastidores, acompanhando conflitos e tentando influenciar o rumo das guerras, embora nem sempre com sucesso.\n\nDurante a Guerra da Fortaleza Yumei, seu corpo finalmente chegou ao limite.\n\nO chakra que mantinha o metal contido falhou.\n\nO que antes era controle se tornou colapso.\n\nSem conseguir mais sustentar a contenção interna, Rock foi consumido pelo próprio dano que carregava desde a luta contra Delta.\n\nSua morte não foi causada por um inimigo presente.\n\nMas por uma batalha que nunca realmente terminou.\n\nMesmo após sua queda, seu legado permaneceu. Rock Gunma é lembrado como um dos maiores Tsuchikages da história — não apenas por sua força, mas pela forma como carregou seu fardo até o fim, preparando aqueles que viriam depois dele.",
-    hp: 194,
+    hp: 200,
     chakra: 132,
     isDead: true,
     killedBy: "Delta",
@@ -1777,7 +1777,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F1__Temporada.png?alt=media&v=1784751340626", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F2__Temporada.png?alt=media&v=1784569541710133", caption: "2ª Temporada", category: "era" },
     ],
-    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 18, perception: 26 },
+    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
       { name: "Gyuki", level: 13 },
       { name: "Fuinjutsu", level: 13 },
@@ -1812,7 +1812,7 @@ export const initialData: Character[] = [
     position: "Vice Líder da OCA",
     role: "Suporte",
     description: "",
-    hp: 194,
+    hp: 200,
     chakra: 88,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.jpg?alt=media&v=1786651888625458",
     techniques: [
@@ -1832,7 +1832,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F3__Temporada.png?alt=media&v=1786479687217046", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F5__Temporada.png?alt=media&v=1786479689458849", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 18, perception: 26 },
+    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
       { name: "Ranton", level: 10 },
       { name: "Raiton", level: 10 },
@@ -1862,7 +1862,7 @@ export const initialData: Character[] = [
     position: "2º Hokage",
     role: "DPS",
     description: "Tobirama Senju, irmão do lendário Hashirama e uma das figuras mais poderosas da história ninja, sempre enxergou o mundo de forma diferente. Enquanto seu irmão acreditava no equilíbrio natural do poder, Tobirama via falhas — crianças órfãs da guerra, nascidas sem chakra, condenadas a viver indefesas em um mundo moldado pela força.\n\nMovido por essa visão, ele e seu melhor amigo iniciaram um projeto proibido: a criação de um novo tipo de chakra, capaz de despertar poder em quem nasceu sem ele. No início, era um ideal nobre — dar às crianças esquecidas uma chance de sobreviver.\n\nCom o tempo, a ambição começou a crescer. Onde Tobirama via uma solução, seu amigo passou a enxergar transcendência. Obcecado pela ideia de romper os limites do nascimento, ele começou a buscar algo impossível: o despertar de um Fujogan em alguém fora da linhagem principal.\n\nA distorção do objetivo original se tornou evidente. Quando Hashirama descobriu indícios do projeto, ordenou o fechamento imediato do laboratório, considerando aquilo uma violação de todos os limites éticos.\n\nMas Tobirama não concordou. Para ele, Hashirama era limitado por sua própria genialidade única — afinal, era o único na história a despertar o Mokuton. Convencido de que o mundo precisava evoluir além disso, Tobirama decidiu continuar os experimentos em segredo ao lado de seu aliado.\n\nFoi nesse período que tudo ultrapassou o ponto de retorno. Seu amigo começou a realizar testes em fetos que nunca tiveram a chance de nascer, tratando vidas como matéria-prima descartável.\n\nQuase ao mesmo tempo, uma notícia mudou tudo: Yumi estava grávida — de gêmeos. Pela primeira vez, Tobirama sentiu o peso real de suas ações. Diante disso, ordenou o fim imediato do projeto.\n\nMas já era tarde.\n\nSeu aliado se recusou a parar. Frio e calculista, fez sua exigência: ou Tobirama entregava toda a tecnologia desenvolvida… ou ele revelaria tudo a Hashirama.\n\nDiante do medo, da culpa e das consequências inevitáveis, Tobirama cedeu. Entregou tudo.\n\nNaquele momento, ele não perdeu apenas o controle do projeto — ele criou algo muito maior do que poderia prever.\n\nA tecnologia passou a ter um novo nome: Organização do Chakra Artificial.\n\nE o homem que antes era seu aliado… renasceu como uma lenda temida em todo o mundo shinobi.\n\nHades — o Deus do Novo Mundo.\n\nO erro de Tobirama não foi criar poder.\n\nFoi entregar o futuro a alguém disposto a destruir tudo para alcançá-lo.\n\nApesar desse erro, Tobirama continuou moldando o mundo ninja de forma incomparável. Ele liderou uma das equipes mais fortes da história, composta por Tobirama Senju, Yumi Uzumaki, Sho Uchiha, Hoshiro Hyuga, Asami Hyuga, Raikun Hatake e Kaizuka Hyuga.\n\nDurante sua liderança, tomou decisões que influenciaram diretamente o equilíbrio global, como designar Raikun Hatake para reinar Kuromi.\n\nTambém atuou nas sombras, treinando Apollo de forma secreta para enfrentar ameaças que ultrapassavam o nível comum.\n\nComo mestre, transmitiu seu conhecimento para a próxima geração, ensinando o Hiraishin a Nishinoya e o domínio do Suiton a Naomi, que hoje carrega seu legado.\n\nSeu impacto foi além do campo de batalha. Tobirama foi o criador da Academia Ninja, estabelecendo a base para a formação de novos shinobis, e também fundador da ANBU, a unidade responsável pelas operações mais críticas e sigilosas.\n\nNo campo das técnicas, seu gênio foi absoluto. Ele criou jutsus lendários como Hiraishin, Rasengan, Enka Rasengan e Edo Tensei, entre muitos outros.\n\nAssim, mesmo carregando o peso de seu maior erro, Tobirama Senju permaneceu como uma das mentes mais influentes da história — alguém que não apenas lutou pelo mundo ninja, mas o reconstruiu com as próprias mãos.",
-    hp: 214,
+    hp: 232,
     chakra: 100,
     isDead: true,
     killedBy: "Omega",
@@ -1875,7 +1875,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1786479673629960", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FLuta_contra_o_Hades.png?alt=media&v=1786479675492581", caption: "Luta contra o Hades", category: "era" },
     ],
-    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 18, perception: 30 },
+    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 24, perception: 30 },
     powers: [
       { name: "Suiton", level: 15 },
       { name: "Doton", level: 15 },
@@ -1916,7 +1916,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2F2__Temporada.png?alt=media&v=1784569559841890", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FLuta_contra_o_Hades.png?alt=media&v=1786371788573376", caption: "Luta contra o Hades", category: "era" },
     ],
-    stats: { strength: 28, dexterity: 12, agility: 28, intelligence: 12, spirit: 28, vigor: 28, perception: 18 },
+    stats: { strength: 28, dexterity: 12, agility: 28, intelligence: 12, spirit: 28, vigor: 28, perception: 20 },
     powers: [
       { name: "Katon", level: 14 },
       { name: "Doton", level: 14 },
@@ -1953,7 +1953,7 @@ export const initialData: Character[] = [
     role: "DPS e Suporte",
     description: "",
     hp: 234,
-    chakra: 64,
+    chakra: 70,
     isDead: true,
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.jpg?alt=media&v=1786651888636967",
@@ -1963,7 +1963,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2F1__Temporada.png?alt=media&v=1784569498466720", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1786371785979793", caption: "Luta contra o Hades", category: "era" },
     ],
-    stats: { strength: 12, dexterity: 28, agility: 12, intelligence: 28, spirit: 18, vigor: 28, perception: 28 },
+    stats: { strength: 12, dexterity: 28, agility: 12, intelligence: 28, spirit: 20, vigor: 28, perception: 28 },
     powers: [
       { name: "Juken", level: 14 },
       { name: "Hyuga no Fujo", level: 14 },
@@ -1999,7 +1999,7 @@ export const initialData: Character[] = [
     position: "Sannin",
     role: "Suporte",
     description: "",
-    hp: 180,
+    hp: 189,
     chakra: 128,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYumi%20Uzumaki%2FYumi%20Uzumaki.jpg?alt=media&v=1786651889925442",
     gallery: [
@@ -2011,7 +2011,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F4__Temporada.png?alt=media&v=1784751371543", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786370764835642", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 15, perception: 25 },
+    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
       { name: "Futon", level: 12 },
       { name: "Rasengan", level: 12 },
@@ -2055,7 +2055,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2F1__Temporada.png?alt=media&v=1786370758297745", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1786370797824733", caption: "Luta contra o Hades", category: "era" },
     ],
-    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 15, spirit: 25, vigor: 25, perception: 25 },
+    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 18, spirit: 25, vigor: 25, perception: 25 },
     powers: [
       { name: "Juken", level: 12 },
       { name: "Hyuga no Fujo", level: 12 },
@@ -2088,14 +2088,14 @@ export const initialData: Character[] = [
     role: "Tanque, DPS e Suporte",
     description: "",
     hp: 250,
-    chakra: 64,
+    chakra: 82,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaizuka%20Hyuga%2FKaizuka%20Hyuga.jpg?alt=media&v=1786651889653408",
     arsenal: [28],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2FPr_logo.png?alt=media&v=1784751319598", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F5__Temporada.png?alt=media&v=1784751318175", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 18, vigor: 30, perception: 30 },
+    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 24, vigor: 30, perception: 30 },
     powers: [
       { name: "Juken", level: 15 },
       { name: "Hyuga no Fujo", level: 15 },
@@ -2129,7 +2129,7 @@ export const initialData: Character[] = [
     role: "Tanque e DPS",
     description: "",
     hp: 250,
-    chakra: 96,
+    chakra: 123,
     isDead: true,
     killedBy: "Chip da OCA",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaikun%20Hatake%2FRaikun%20Hatake.jpg?alt=media&v=1786651889619807",
@@ -2182,7 +2182,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FLuta_contra_o_Hades.png?alt=media&v=1785263393623", caption: "Luta contra o Hades", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2F2__Temporada.png?alt=media&v=1785263389785", caption: "2ª Temporada", category: "era" },
     ],
-    stats: { strength: 30, dexterity: 12, agility: 30, intelligence: 30, spirit: 18, vigor: 30, perception: 12 },
+    stats: { strength: 30, dexterity: 12, agility: 30, intelligence: 30, spirit: 24, vigor: 30, perception: 12 },
     powers: [
       { name: "Hashoumon Tonkou", level: 15 },
       { name: "Senjutsu", level: 15 },
@@ -2299,7 +2299,7 @@ export const initialData: Character[] = [
     role: "DPS",
     description: "Kaien Ishi, conhecido hoje como Ômega, nasceu no topo do mundo — herdeiro da família que governava todo o País da Terra. Cercado por luxo, poder e privilégios, foi criado para se tornar o próximo soberano absoluto. Ele era o herdeiro da lendária Seimei no Saidan e tinha tudo ao seu alcance, exceto paz.\n\nDesde cedo, Kaien enxergava o que os outros ignoravam: servos famintos, soldados descartáveis e camponeses esmagados pelo peso de um sistema construído sobre sangue. Quando questionava, recebia sempre a mesma resposta — ele era diferente, superior, destinado a governar.\n\nMas Kaien nunca aceitou essa verdade. Para ele, não havia honra em um trono erguido sobre sofrimento.\n\nEm um ato que ecoaria como heresia, ele renunciou ao próprio nome, abandonou o palácio e desapareceu do mundo. Tornou-se um andarilho, um samurai sem rosto, conhecido apenas como uma lenda que surgia onde havia injustiça e desaparecia sem aceitar recompensa.\n\nCom o tempo, o nome Ishi foi apagado de seus registros — e Kaien deixou de existir. Em seu lugar, nasceu Ômega: o fim de uma linhagem, o último herdeiro de uma era que ele jurou destruir.\n\nAnos depois, ao ouvir rumores sobre Hades — um homem que rejeitava o poder herdado e buscava criar força através do chakra artificial e amplificação de chakra profano —, Kaien viu algo que nunca havia encontrado: alguém que compartilhava sua visão.\n\nQuando finalmente o encontrou, não hesitou em lutar ao seu lado, defendendo-o como se aquele fosse seu próprio propósito. Questionado sobre o motivo, respondeu apenas que não lutava por sangue — assim como Hades.\n\nA partir desse momento, os dois formaram uma aliança inquebrável. Hades encontrou em Ômega não uma criação, mas um sucessor por escolha. Ômega encontrou em Hades não um mestre, mas um igual.\n\nJuntos, tornaram-se o núcleo de uma revolução — a mente e a lâmina. Para o mundo, são ameaças. Para si mesmos, são inevitáveis.\n\nPois enquanto o poder for definido pelo nascimento, Ômega continuará existindo como aquilo que ele sempre declarou ser: o fim de tudo.",
     hp: 250,
-    chakra: 64,
+    chakra: 82,
     isDead: true,
     killedBy: "Nishinoya Senju",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media&v=1786651890565160",
@@ -2339,7 +2339,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaien%20Ishi%20(Omega)%2F2__Temporada.png?alt=media&v=1784665890017497", caption: "2ª Temporada", category: "era" },
     ],
-    stats: { strength: 30, dexterity: 12, agility: 12, intelligence: 30, spirit: 18, vigor: 30, perception: 30 },
+    stats: { strength: 30, dexterity: 12, agility: 12, intelligence: 30, spirit: 24, vigor: 30, perception: 30 },
     powers: [
       { name: "Doton", level: 15 },
       { name: "Hyuga no Fujo", level: 15 },
@@ -3979,7 +3979,7 @@ export const initialData: Character[] = [
     position: "3 Sannins Lendários",
     role: "DPS",
     description: "Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.\n\nSua libertação só veio com a Luta contra os Kages — mas não pelas mãos de Nishinoya. Os dois nunca voltaram a se encontrar depois do dia em que ela foi capturada; quando as linhas de frente se romperam e a fortaleza Yumei finalmente cedeu em meio ao caos da guerra, Nishinoya já estava morto, caído nas mãos de Ômega antes mesmo daquela batalha terminar. Foi em meio aos destroços que Naomi encontrou a Sōen no Kage e a Sōen no Gauntō, as relíquias que ele carregara a vida inteira, abandonadas onde ele caiu. Ao tocá-las, sentiu o resquício do chakra da Matatabi que ainda pulsava dentro delas — e, pela primeira vez desde o cativeiro, Kurama respondeu a algo além da própria dor de Naomi. As duas relíquias se transformaram em suas mãos, tornando-se a Shiden no Kage e a Shiden no Gauntō, e foi nesse instante — não de resgate pessoal, mas de conexão póstuma através do que restava dele — que algo se rompeu e se reorganizou dentro de Naomi. Kurama, que por anos apenas sobrevivera trancada junto com sua hospedeira, reconheceu naquele eco de energia externa um equilíbrio que já devia ter encontrado por conta própria — e o usou como catalisador para finalmente se fundir por completo à natureza de Naomi. Ela saiu da Yumei sem nunca ter revisto Nishinoya, mas carregando um Modo Sábio exclusivo, nascido daquele instante: a fusão entre sua ligação com a Bijuu e o Suiton que sempre foi seu.",
-    hp: 232,
+    hp: 241,
     chakra: 200,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1786651900548392",
     techniques: [
@@ -4053,7 +4053,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095", caption: "Luta contra os Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 24, spirit: 30, vigor: 24, perception: 30 },
+    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 27, spirit: 30, vigor: 27, perception: 30 },
     powers: [
       { name: "Kurama", level: 15 },
       { name: "Suiton", level: 15 },
@@ -5201,7 +5201,7 @@ export const initialData: Character[] = [
     role: "Tank",
     description: "Enrai Hanzo é o médico clandestino, engenheiro biológico e especialista em corpos modificados da Kiba.\n\nAntes de desaparecer dos registros oficiais de Kumogakure, Enrai trabalhou nos setores médicos avançados da Vila da Nuvem, onde se tornou conhecido por uma habilidade assustadora:\n\nEle conseguia manter vivo aquilo que já deveria ter morrido.\n\nEnrai não era famoso como guerreiro, assassino ou prodígio militar.\n\nMas entre cirurgiões, cientistas e unidades médicas secretas, seu nome era tratado com desconforto.\n\nSeu domínio sobre Raiton médico permitia estimular nervos, reiniciar músculos, estabilizar órgãos em falência e costurar fluxo de chakra danificado através de impulsos elétricos dourado âmbar.\n\nEsse Raiton não era explosivo como o de guerreiros comuns da Nuvem.\n\nEra preciso.\n\nEra clínico.\n\nEra invasivo.\n\nCada descarga elétrica podia forçar um músculo morto a responder, fazer um coração prestes a parar bater por mais alguns minutos, cauterizar ferimentos internos ou reativar sistemas nervosos danificados.\n\nPara outros médicos, cura significava salvar uma vida.\n\nPara Enrai, cura significava impedir que uma ferramenta útil parasse de funcionar.\n\nQuando a OCA começou a corromper Kumogakure por dentro, Enrai foi um dos poucos médicos capazes de compreender a extensão real dos experimentos envolvendo Chakra Profano, Shiroki Kaminari e corpos artificiais.\n\nEle viu pacientes se tornarem armas.\n\nViu cobaias serem chamadas de progresso.\n\nViu cadáveres funcionais serem mantidos ativos apenas para gerar mais dados.\n\nE viu Reito Kurogami sobreviver ao que deveria ter sido uma execução científica.\n\nFoi Enrai quem ajudou a estabilizar o corpo destruído de Reito após os experimentos da OCA.\n\nPor isso, Reito ainda respira.\n\nOu algo próximo disso.\n\nDentro da Kiba, Enrai é responsável por tratar ferimentos impossíveis, remover rastreadores, adaptar próteses, estabilizar armas proibidas, conter reações ao Chakra Profano e impedir que os membros da organização morram antes da missão terminar.\n\nEle não é gentil.\n\nEle é necessário.\n\nEnrai fala pouco, observa sinais vitais como quem lê sentenças de morte e costuma tratar dor como uma informação útil.\n\nSeu corpo é forte, resistente e treinado para operar em campo mesmo sob ataque. Diferente de médicos frágeis de retaguarda, Enrai consegue lutar na linha de frente enquanto mantém aliados vivos através de impulsos elétricos cirúrgicos.\n\nSeu combate é sujo, técnico e assustadoramente eficiente.\n\nEle não precisa destruir o corpo de um inimigo.\n\nBasta interromper o impulso correto, travar o músculo certo ou enviar uma descarga dourado âmbar pelo ponto exato do sistema nervoso.\n\nEnrai não gosta da OCA.\n\nMas entende seus métodos bem demais.\n\nEsse é o que torna sua presença tão perigosa dentro da Kiba.\n\nEle sabe como a OCA pensa.\n\nSabe como desmonta pessoas.\n\nSabe como transforma corpos em armas.\n\nE, às vezes, suas soluções parecem perigosamente parecidas com as soluções do inimigo.\n\nPor isso, Mika desconfia dele.\nYoru evita ficar sozinho com ele.\nReito confia nele em silêncio.\nE Yuji sabe que, sem Enrai, a Kiba já teria acabado.\n\nEnrai é o tipo de homem que a Kiba jamais deveria aceitar.\n\nMas também é o tipo de homem sem o qual a Kiba não sobreviveria.\n\nDentro da organização existe uma frase associada a ele:\n\n'Morto é inútil. Vivo ainda pode servir de experimentos.'",
     hp: 218,
-    chakra: 58,
+    chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1786651908733812",
     techniques: [
       {
@@ -5270,7 +5270,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F4__Temporada.png?alt=media&v=1786370774357473", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F5__Temporada.png?alt=media&v=1786370778715377", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 26, dexterity: 11, agility: 26, intelligence: 26, spirit: 16, vigor: 26, perception: 11 },
+    stats: { strength: 26, dexterity: 11, agility: 26, intelligence: 26, spirit: 18, vigor: 26, perception: 11 },
     powers: [
       { name: "Raiton", level: 13 },
       { name: "Iryō Ninjutsu", level: 13 },
@@ -5302,7 +5302,7 @@ export const initialData: Character[] = [
     position: "2º Kazekage",
     role: "DPS",
     description: "Hana Sabaku é uma das maiores lendas vivas de Sunagakure e a principal razão pela qual a Cidade Dourada continua de pé mesmo diante das ameaças da Era Genética.\n\nEsposa de Reto, o Primeiro Kazekage, Hana assumiu a liderança da vila após a queda de seu marido no incidente do OASIS. Diferente de Reto, que fundou a civilização da Areia através da esperança, Hana a protege através de disciplina, vigilância e poder absoluto.\n\nConhecida como a Muralha Dourada e a Leoa da Areia, Hana é Jinchuuriki do Shukaku, usuária da rara Areia de Ouro e uma ninja sensorial de alcance extraordinário. Seu estilo de combate é focado em longa distância, controle territorial, defesa absoluta e esmagamento estratégico do inimigo antes que ele consiga se aproximar.\n\nEm batalha, Hana não luta como uma assassina impulsiva. Ela transforma o campo inteiro em uma extensão de sua vontade. A areia observa, prende, pesa, corta, sela e destrói. Poucos inimigos conseguem chegar perto dela; menos ainda sobrevivem tempo suficiente para entender que já estavam dentro de sua zona de domínio desde o início.\n\nApesar de seu poder monstruoso, Hana é profundamente movida pelo amor por Sunagakure, por Reto e por seu povo. Ela acredita que talvez não possua força suficiente para destruir completamente a OCA, mas dedicou sua vida a garantir que, mesmo diante do fim, o povo da Areia viva protegido até o último instante.",
-    hp: 214,
+    hp: 232,
     chakra: 150,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1786651908709301",
     techniques: [
@@ -5372,7 +5372,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F4__Temporada.png?alt=media&v=1784569487205904", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F5__Temporada.png?alt=media&v=1784569489558874", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 12, dexterity: 30, agility: 30, intelligence: 30, spirit: 30, vigor: 18, perception: 12 },
+    stats: { strength: 12, dexterity: 30, agility: 30, intelligence: 30, spirit: 30, vigor: 24, perception: 12 },
     powers: [
       { name: "Shukaku", level: 15 },
       { name: "Sakin", level: 15 },
@@ -5514,7 +5514,7 @@ export const initialData: Character[] = [
     position: "Pilar de Sunagakure",
     role: "DPS e Suporte",
     description: "Chigiri Chinoike, conhecido hoje como o Pilar da Memória, é o homem que aprendeu o valor de uma vida depois de transformar vidas demais em material de estudo. Nascido no clã Chinoike, cresceu acreditando que o sangue era a forma mais pura de verdade: não apenas herança genética, mas um registro vivo de memórias, dores, medos e desejos que nem a morte conseguia apagar.\n\nEssa obsessão o levou até a OCA, onde se tornou um dos pesquisadores mais respeitados da organização. Chigiri não conduzia experimentos por dever ou ideologia — fazia por prazer. Manipulava DNA, desmontava linhagens, criava corpos artificiais e usava sangue para formar marionetes vivas, feitas de coagulação, chakra e ecos emocionais das pessoas que um dia existiram.\n\nTudo mudou durante um experimento em que matou uma pessoa que permaneceu consciente tempo suficiente para perguntar se ele se lembraria dela. Ao tocar seu sangue, Chigiri sentiu sua vida inteira: infância, medo, amor, arrependimentos e promessas. Pela primeira vez, entendeu que aquilo que chamava de material era uma existência completa.\n\nIncapaz de continuar, procurou Hades e confessou que havia entendido tarde demais. Hades permitiu que ele deixasse a OCA, sob a condição de jamais revelar seus segredos. Quando chegou a Sunagakure, não foi recebido como herói, mas como risco. Hana sabia o que ele era, e por isso o colocou onde sua culpa poderia servir a algo maior.\n\nHoje, Chigiri é o Pilar da Memória. Ele lê sangue em cenas de crime, reconstrói massacres, identifica rastros da OCA e transforma os mortos em testemunhas que não podem mais ser silenciadas. Muitos o odeiam, outros o temem, poucos confiam nele. Mas todos sabem que, quando uma gota de sangue toca a areia, Chigiri é aquele que escuta. Ele não busca redenção. Continua vivo apenas para lembrar, porque esquecer os mortos seria matá-los uma segunda vez.",
-    hp: 183,
+    hp: 189,
     chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1786651908728450",
     techniques: [],
@@ -5523,7 +5523,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F4__Temporada.png?alt=media&v=1786370786205551", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F5__Temporada.png?alt=media&v=1786370741290634", caption: "5ª Temporada", category: "era" },
     ],
-    stats: {strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 16, perception: 25},
+    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
       { name: "Ketton", level: 12 },
       { name: "Kugutsu", level: 12 },
