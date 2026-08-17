@@ -2482,12 +2482,12 @@ export const initialData: Character[] = [
     clan: "Hyuga",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["Jinchuuriki", "O Segundo Experimento", "Vice Líder dos 75%", "O Anjo de Gelo"],
-    nc: 20,
+    nc: 26,
     position: "Vice Líder dos 75%",
     role: "DPS",
     description: "Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.\n\nAinda jovem, quando a Organização do Chakra Profano ameaçou diretamente o clã Hyuga, uma decisão impossível foi tomada: uma criança deveria ser entregue em troca da sobrevivência de todos. Antes que qualquer escolha fosse feita por ele, Borashi tomou a decisão por si mesmo. Consciente do que estava em jogo, se ofereceu voluntariamente, acreditando que sua entrega salvaria sua família e garantiria o futuro de seu irmão mais novo, Katsumi.\n\nNo entanto, ao cair nas mãos da organização, seu destino foi distorcido. Suas memórias foram manipuladas através de genjutsus e alterações profundas de chakra, fazendo-o acreditar que havia sido abandonado, substituído e esquecido. Essa mentira se tornou uma cicatriz permanente, criando um bloqueio emocional que o impede de buscar a verdade.\n\nDurante os experimentos, seu poder evoluiu de forma anormal, despertando o raro Tenketsu Byakugan — uma variação avançada que lhe concede controle absoluto sobre os pontos de chakra, permitindo selar e interromper o fluxo interno de um oponente com precisão cirúrgica.\n\nParalelamente, após Furyuzan roubar as codificações genéticas de Katsumi, a organização iniciou uma série de testes visando recriar e aperfeiçoar esse poder, culminando na criação de um Fujogan artificial — uma evolução experimental que representa o ápice de suas pesquisas sobre o potencial do clã Hyuga.\n\nDiferente dos demais, Borashi não se tornou instável. Ele se tornou perfeito.\n\nFrio, calculista e extremamente estratégico, ele atua como o verdadeiro cérebro da Equipe 75%, coordenando cada movimento com precisão impecável. Sua presença é o único fator que mantém o Inferno Vermelho sob controle, sendo capaz de neutralizar Akairo com golpes precisos antes que a destruição fuja do controle.\n\nDominando o Suiton, a Liberação de Corrosão e o Jūken em níveis avançados, Borashi luta como uma lâmina invisível — silenciosa, inevitável e letal.\n\nEle não levanta a voz. Não hesita. Não falha.\n\nPara a equipe, ele é liderança. Para a organização, ele é eficiência absoluta. E para si mesmo… ele é apenas alguém que aprendeu a congelar tudo o que sente para continuar seguindo em frente.",
-    hp: 170,
-    chakra: 105,
+    hp: 218,
+    chakra: 132,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).jpg?alt=media&v=1786651891289843",
     techniques: [
       {
@@ -2536,12 +2536,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F1__Temporada.png?alt=media&v=1784665851999751", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F2__Temporada.png?alt=media&v=1784665854341680", caption: "2ª Temporada", category: "era" },
     ],
-    stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 12, spirit: 20, vigor: 20, perception: 20 },
+    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 20, spirit: 26, vigor: 26, perception: 26 },
     powers: [
-      { name: "Juuken", level: 10 },
-      { name: "Isobu", level: 10 },
-      { name: "Isobu Suiton", level: 10 },
-      { name: "Hyouton", level: 10 }
+      { name: "Juuken", level: 13 },
+      { name: "Isobu", level: 13 },
+      { name: "Isobu Suiton", level: 13 },
+      { name: "Hyouton", level: 13 }
     ],
     aptitudes: [
       "Fujogan",
@@ -2577,12 +2577,12 @@ export const initialData: Character[] = [
     clan: "Dokuhana",
     categories: ["NPC", "OCA", "Sunagakure"],
     titles: ["A Guardiã Rosa", "Equilíbrio Emocional"],
-    nc: 20,
+    nc: 25,
     position: "Vice Líder dos 75%",
     role: "Suporte",
     description: "Chisaki Dokuhana, conhecida como C, é a personificação do controle absoluto em meio ao caos. Nascida em uma família respeitada por seu domínio em fūinjutsu e ninjutsu médico, ela cresceu cercada por disciplina, técnica e propósito. Filha de Rock Gunma, sua vida tomou um rumo trágico — ou pelo menos foi isso que a fizeram acreditar.\n\nApós uma manipulação profunda de memórias realizada pela Organização do Chakra Artificial, Chisaki passou a carregar uma culpa que nunca foi realmente sua: a de ter falhado em salvar o próprio pai. Esse trauma fabricado se tornou o núcleo de sua existência, moldando sua obsessão por controle, cura e proteção.\n\nDeterminada a nunca mais falhar, mergulhou completamente no estudo do corpo humano, do chakra e das técnicas de selamento.\n\nDurante uma missão de resgate a vítimas de experimentos, foi capturada pela própria organização que mais tarde a transformaria. Forçada a absorver 50% de chakra artificial, Chisaki não quebrou — ela evoluiu. Com o tempo, refinou seu controle a níveis quase perfeitos, alcançando 88% sem perder sua estabilidade mental, algo raro entre os modificados.\n\nDominando o Shōton, o ninjutsu médico avançado, fūinjutsu e senjutsu, ela se tornou uma combatente completa, capaz de defender, curar e neutralizar ameaças com precisão cirúrgica.\n\nSua maior evolução veio com o despertar do Modo Sábio de Cristal, uma forma única de senjutsu que amplifica suas habilidades e transforma o campo de batalha em uma extensão de sua vontade.\n\nDentro da Equipe 75%, Chisaki atua como o eixo central — a única capaz de equilibrar o caos de Akairo e a frieza de Borashi. Apesar de sua postura firme e calculista, existe nela um instinto protetor quase maternal, tratando ambos como uma família reconstruída.\n\nO que ela não sabe é que essa conexão vai além do acaso: Akira, outro membro do mesmo universo, é seu irmão de sangue, separado dela ainda na infância pela própria organização. Sem memória dessa ligação, os dois seguem caminhos paralelos, carregando um vínculo invisível que o destino ainda não revelou.\n\nPara a equipe, Chisaki é estabilidade. Para os inimigos, é contenção absoluta. E para si mesma… ela é alguém que acredita que só tem valor enquanto conseguir salvar todos ao seu redor — mesmo que isso signifique se quebrar no processo.",
-    hp: 146,
-    chakra: 70,
+    hp: 189,
+    chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).jpg?alt=media&v=1786651892344346",
     techniques: [
       {
@@ -2620,11 +2620,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F1__Temporada.png?alt=media&v=1784665856914914", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F2__Temporada.png?alt=media&v=1784665859155605", caption: "2ª Temporada", category: "era" },
     ],
-    stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 20, vigor: 12, perception: 20 },
+    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
-      { name: "Shoton", level: 10 },
-      { name: "Iryou Ninjutsu", level: 10 },
-      { name: "Senjutsu", level: 10 }
+      { name: "Shoton", level: 12 },
+      { name: "Iryou Ninjutsu", level: 12 },
+      { name: "Senjutsu", level: 12 }
     ],
     aptitudes: [
       "Maestria: CC",
