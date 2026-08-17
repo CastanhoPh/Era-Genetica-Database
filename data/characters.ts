@@ -6409,18 +6409,10 @@ export const initialData: Character[] = [
     role: "DPS / Suporte",
     combatStyle: "Distância",
     description: "Conhecido como “O Escriba da Tempestade”, Arashi nasceu no clã Shidehara, uma família de escribas responsável pela produção e preservação dos selos militares de Kumogakure. Seus papéis são fabricados com fibras de árvores atingidas por raios e preparados com tintas capazes de conduzir eletricidade.\n\nApós perder os pais durante uma invasão ao arquivo secreto do clã, Arashi liberou Raiton sobre centenas de documentos espalhados. As folhas se moveram simultaneamente e assumiram formas de aves, lâminas e correntes, dando origem ao Raiton Fūinjutsu: Raishi Ayatsuri.\n\nArashi consegue controlar milhares de papéis como extensões do sistema nervoso. Suas folhas perseguem inimigos, formam criaturas de origami, restringem movimentos e aderem discretamente a pessoas ou objetos. Algumas carregam fórmulas de contenção; outras funcionam como papéis explosivos que permanecem inativos até receberem uma descarga específica.\n\nComo DPS, Arashi cerca seus oponentes com lâminas, descargas e explosões simultâneas. Como Suporte, prepara armadilhas, limita rotas de fuga, protege áreas e transforma o cenário em uma extensa rede de selos.\n\nKatakana o recrutou após investigar o desaparecimento de documentos militares. O Raikage descobriu que Arashi retirava dos arquivos registros de shinobi mortos que seriam descartados. Reconhecendo nele um estrategista e um guardião da memória da vila, Katakana o convidou para assumir o controle territorial e o fūinjutsu da Elite.\n\nSeu maior projeto é o Tenrai Mandara, uma barreira capaz de converter todos os papéis existentes em Kumogakure em partes de um único selo defensivo.",
-    hp: 157,
+    hp: 184,
     chakra: 82,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FArashi%20Shidehara%2FArashi%20Shidehara.png?alt=media&v=1786652851353654",
-    stats: {
-      strength: 9,
-      dexterity: 24,
-      agility: 9,
-      intelligence: 24,
-      spirit: 24,
-      vigor: 9,
-      perception: 24
-    },
+    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [],
     aptitudes: [],
     gallery: [
@@ -6445,18 +6437,10 @@ export const initialData: Character[] = [
     role: "DPS / Suporte",
     combatStyle: "Distância",
     description: "Raizen Kurogane, conhecido como “O Relâmpago dos Insetos”, nasceu em uma família de armeiros, mas demonstrou uma habilidade incomum: conseguia dividir o próprio chakra Raiton em centenas de correntes independentes.\n\nInspirado pelos insetos dos desfiladeiros do País do Relâmpago, desenvolveu o Raiton: Raichū Keisei, uma técnica que transforma eletricidade em espectros dotados de formas e comportamentos instintivos. Essas criaturas não são animais ou invocações, mas construções feitas inteiramente de chakra.\n\nMariposas rastreiam assinaturas energéticas, vespas perseguem inimigos, besouros formam barreiras e louva-a-deus ampliam seus ataques. Cada espectro carrega parte da atenção de Raizen, permitindo que o enxame aja em diferentes pontos do campo.\n\nComo DPS, Raizen sufoca adversários com ataques coordenados e criaturas elétricas. Como Suporte, realiza reconhecimento, perseguição, proteção e marcação de alvos.\n\nKatakana o encontrou inconsciente depois de Raizen transformar uma tempestade em um enorme enxame dourado para defender uma comunidade. Embora tivesse poder para destruir toda a região, ele paralisou os invasores sem derrubar uma única construção. Katakana permaneceu ao seu lado durante a recuperação e o escolheu justamente pelo controle demonstrado.\n\nSua técnica característica é o Raiton: Ōgon Kamakiri, que cria um louva-a-deus elétrico gigante. Seu objetivo máximo é o Mushi no Raijin, capaz de converter uma tempestade inteira em milhares de insetos espectrais. Entretanto, quanto mais criaturas manifesta, maior é o risco de fragmentar a própria consciência.",
-    hp: 144,
+    hp: 168,
     chakra: 76,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizen%20Kurogane%2FRaizen%20Kurogane.png?alt=media&v=1786652854835945",
-    stats: {
-      strength: 8,
-      dexterity: 22,
-      agility: 8,
-      intelligence: 22,
-      spirit: 22,
-      vigor: 8,
-      perception: 22
-    },
+    stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [],
     aptitudes: [],
     gallery: [
@@ -6484,15 +6468,7 @@ export const initialData: Character[] = [
     hp: 194,
     chakra: 79,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaiden%20Yotsuki%2FRaiden%20Yotsuki.png?alt=media&v=1786652858006936",
-    stats: {
-      strength: 9,
-      dexterity: 23,
-      agility: 9,
-      intelligence: 9,
-      spirit: 23,
-      vigor: 23,
-      perception: 23
-    },
+    stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 16, spirit: 23, vigor: 23, perception: 23 },
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
@@ -6520,15 +6496,7 @@ export const initialData: Character[] = [
     hp: 226,
     chakra: 91,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1786652861645187",
-    stats: {
-      strength: 11,
-      dexterity: 27,
-      agility: 11,
-      intelligence: 11,
-      spirit: 27,
-      vigor: 27,
-      perception: 27
-    },
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 20, spirit: 27, vigor: 27, perception: 27 },
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
@@ -6553,18 +6521,10 @@ export const initialData: Character[] = [
     role: "DPS / Suporte",
     combatStyle: "Distância",
     description: "Nayara Kazemori, “A Dama dos Tornados”, nasceu em uma família responsável pela vigilância das rotas aéreas entre as montanhas de Kumogakure. Desde jovem, conseguia perceber alterações no vento antes da formação de tempestades.\n\nDurante uma missão em um desfiladeiro, fundiu Raiton e Fūton para salvar sua equipe. A união acelerou violentamente as correntes de ar e despertou o Tatsumakiton — Estilo Tornado.\n\nNayara cria vórtices eletrizados, densos e extremamente velozes. Utiliza correntes de vento nos pés para flutuar, mudar de direção e manter distância. Seu bastão condutor concentra as duas naturezas e permite direcionar as tempestades com precisão.\n\nComo DPS, produz tornados capazes de despedaçar defesas, lançar inimigos e dominar grandes áreas. Como Suporte, controla posicionamento, divide formações, bloqueia rotas e movimenta companheiros pelo campo.\n\nNayara passou a temer o próprio poder depois de quase atingir seus aliados durante o primeiro despertar. Katakana a levou ao topo de uma montanha e pediu que criasse uma tempestade ao redor dele. O Raikage permaneceu no centro do tornado e confiou que ela conseguiria abrir uma zona segura. Quando Nayara controlou completamente o vórtice, Katakana a recrutou por sua capacidade de escolher quem a tempestade deveria proteger.\n\nSua técnica característica é o Tatsumakiton: Sōryū Arashi, que cria dois tornados em sentidos opostos e os funde sobre o inimigo.",
-    hp: 165,
+    hp: 189,
     chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNayara%20Kazemori%2FNayara%20Kazemori.png?alt=media&v=1786652865251006",
-    stats: {
-      strength: 10,
-      dexterity: 25,
-      agility: 10,
-      intelligence: 25,
-      spirit: 25,
-      vigor: 10,
-      perception: 25
-    },
+    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [],
     aptitudes: [],
     gallery: [
@@ -6589,18 +6549,10 @@ export const initialData: Character[] = [
     role: "DPS / Suporte",
     combatStyle: "Híbrido",
     description: "Shizuru Kurogane, “O Fantasma da Trovoada”, nasceu durante uma tempestade que permaneceu sobre Kumogakure por sete dias. Seu organismo produz naturalmente o Kaminari, o raro Raio Negro considerado uma bênção das montanhas.\n\nSua Kekkei Genkai, Kaminari no Utsuwa — Receptáculo do Trovão, permite transformar partes do corpo em matéria elétrica condensada. Shizuru cria garras, lâminas e couraças negras, além de dispersar parcialmente o corpo em eletricidade para atravessar espaços estreitos, evitar ataques e movimentar-se silenciosamente.\n\nSua principal especialidade, contudo, é o genjutsu por indução elétrica. Shizuru espalha correntes sutis pelo ar e interfere nos impulsos nervosos dos adversários. As vítimas perdem a noção de distância, enxergam movimentos inexistentes, confundem aliados ou acreditam estar conscientes enquanto o corpo já está paralisado.\n\nComo DPS, ataca o corpo e a rede nervosa diretamente. Como Suporte, desorganiza grupos, cria ilusões, paralisa alvos e conduz operações de infiltração.\n\nDurante anos, Shizuru foi mantida escondida devido à raridade de seu Kaminari. Katakana entrou sozinho no local onde ela era vigiada e foi colocado em uma ilusão de Kumogakure destruída. Mesmo sem saber se a visão era real, ele priorizou procurar sobreviventes. Ao sair do genjutsu, ofereceu liberdade antes de pedir sua lealdade. Shizuru aceitou entrar para a Elite porque Katakana foi o primeiro líder a tratá-la como pessoa, não como segredo ou arma.",
-    hp: 178,
+    hp: 205,
     chakra: 91,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizuru%20Kurogane%2FShizuru%20Kurogane.png?alt=media&v=1786652868715619",
-    stats: {
-      strength: 11,
-      dexterity: 27,
-      agility: 11,
-      intelligence: 27,
-      spirit: 27,
-      vigor: 11,
-      perception: 27
-    },
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
@@ -6625,18 +6577,10 @@ export const initialData: Character[] = [
     role: "Suporte / DPS",
     combatStyle: "Distância",
     description: "Midori Kurogane, “A Mestra do Raio Sepultado”, nasceu entre ferreiros e desenvolveu grande sensibilidade às correntes presentes nos metais. Durante uma missão em uma mina, conduziu Raiton pelas vigas e minerais para derrotar inimigos sem atingir seus companheiros.\n\nA partir dessa experiência, criou o Raiton: Jisō — Estilo do Circuito Terrestre. Em vez de lançar relâmpagos diretamente, injeta eletricidade no solo, nas paredes e nos objetos metálicos, transformando o ambiente em uma rede invisível.\n\nMidori carrega cinco placas condutoras. Com elas, detecta movimentos, interrompe impulsos nervosos, paralisa partes específicas do corpo, magnetiza armas, altera trajetórias, absorve técnicas Raiton e cria zonas eletricamente neutras.\n\nComo Suporte, controla o território, captura inimigos e neutraliza usuários de eletricidade. Como DPS, descarrega Raiton pelo ambiente e atinge o sistema nervoso sem revelar a própria posição.\n\nKatakana a avaliou durante uma inspeção das defesas de Kumogakure. Midori detectou sua aproximação pelo circuito subterrâneo e conseguiu interromper brevemente um movimento do Raikage. O que garantiu seu recrutamento, porém, foi o fato de ela ter reduzido deliberadamente a potência do circuito para não colocar os civis próximos em risco.\n\nSua técnica máxima é o Raiton: Jisō Daikairo, que utiliza os próprios movimentos musculares dos inimigos para alimentar a corrente que os paralisa.",
-    hp: 144,
+    hp: 168,
     chakra: 76,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMidori%20Kurogane%2FMidori%20Kurogane.png?alt=media&v=1786652872347241",
-    stats: {
-      strength: 8,
-      dexterity: 22,
-      agility: 8,
-      intelligence: 22,
-      spirit: 22,
-      vigor: 8,
-      perception: 22
-    },
+    stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [],
     aptitudes: [],
     gallery: [
@@ -6661,18 +6605,10 @@ export const initialData: Character[] = [
     role: "DPS / Tank",
     combatStyle: "Híbrido",
     description: "Kiyoshi Hagane, “O Regente das Cem Lâminas”, nasceu em uma antiga família de ferreiros e conseguia sentir pequenas cargas elétricas presentes nos metais. Durante uma missão, sofreu danos graves nos nervos e perdeu os movimentos das mãos.\n\nRecusando-se a abandonar a vida shinobi, desenvolveu o Raiton: Jiba Ayatsuri — Controle do Campo Magnético. Kiyoshi altera eletricamente a polaridade dos metais e controla armas sem precisar tocá-las.\n\nKunais, espadas, lanças e projéteis atacam por diferentes ângulos, defendem pontos cegos, perseguem alvos e se unem em estruturas maiores. Sua percepção elétrica permite identificar qualquer perturbação em seu arsenal e interpretar o campo através das próprias armas.\n\nComo DPS, Kiyoshi realiza ataques simultâneos e pressiona vários inimigos. Como Tank, mantém lâminas orbitando a equipe, intercepta golpes e ergue defesas metálicas. Sua idade e experiência fazem dele um dos maiores instrutores de Kumogakure.\n\nKiyoshi inicialmente recusou o convite de Katakana por acreditar que sua idade e suas mãos paralisadas ocupariam a vaga de um jovem. O Raikage colocou sua própria arma no chão e pediu que ele demonstrasse o que mãos funcionais fariam melhor. Kiyoshi controlou todo o arsenal e construiu uma defesa quase impossível de atravessar. Katakana explicou que não procurava suas mãos, mas alguém capaz de conduzir centenas de armas sem desperdiçar nenhuma vida.\n\nSua técnica característica é o Raiton: Tenrai Hyakki Sōjin, a Formação das Cem Lâminas do Trovão Celestial.",
-    hp: 191,
+    hp: 221,
     chakra: 97,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1786652875823257",
-    stats: {
-      strength: 12,
-      dexterity: 29,
-      agility: 12,
-      intelligence: 29,
-      spirit: 29,
-      vigor: 12,
-      perception: 29
-    },
+    stats: { strength: 12, dexterity: 29, agility: 12, intelligence: 29, spirit: 29, vigor: 22, perception: 29 },
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
@@ -6697,18 +6633,10 @@ export const initialData: Character[] = [
     role: "Suporte / DPS",
     combatStyle: "Distância",
     description: "Akane Sumigami, “A Gravurista do Trovão”, nasceu em uma família de artesãos que produzia mapas, pergaminhos e registros históricos. Misturando fuligem, minerais metálicos e chakra, desenvolveu uma tinta negra altamente condutora.\n\nPor meio do Raiton: Raiboku — Estilo da Xilogravura Elétrica, atravessa seus desenhos com eletricidade e lhes concede forma física. Corvos realizam reconhecimento e transmitem imagens; lobos perseguem assinaturas marcadas; mãos gigantes imobilizam adversários; traços simples transformam-se em lâminas.\n\nSeu medalhão funciona como uma matriz de impressão e armazena gravuras preparadas anteriormente. Dentro dele também está Sumi, o primeiro pequeno rato negro que desenhou com o pai.\n\nComo Suporte, Akane rastreia, transmite informações, protege aliados e restringe movimentos. Como DPS, libera criaturas elétricas e ataques de tinta. Chuva intensa pode deformar desenhos ainda não ativados, enquanto o uso excessivo carboniza seus dedos e prejudica sua precisão.\n\nKatakana conheceu Akane ao analisar um mapa defensivo. Ela havia alterado as rotas oficiais para incluir aldeias pequenas que não estavam entre as prioridades militares. Quando o Raikage pediu que desenhasse a arma mais poderosa que imaginava, Akane representou uma muralha protegendo crianças, idosos e feridos. Katakana a escolheu porque ela compreendia que o verdadeiro objetivo de uma arma era proteger.\n\nSua técnica máxima é o Raiboku: Hyakki no Emaki, que materializa simultaneamente dezenas de criaturas armazenadas em um grande pergaminho.",
-    hp: 139,
+    hp: 157,
     chakra: 73,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkane%20Sumigami%2FAkane%20Sumigami.png?alt=media&v=1786652879243128",
-    stats: {
-      strength: 8,
-      dexterity: 21,
-      agility: 8,
-      intelligence: 21,
-      spirit: 21,
-      vigor: 8,
-      perception: 21
-    },
+    stats: { strength: 8, dexterity: 21, agility: 8, intelligence: 21, spirit: 21, vigor: 14, perception: 21 },
     powers: [],
     aptitudes: [],
     gallery: [
@@ -6734,17 +6662,9 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
     description: "Inazuma Kazuchi, “O Passo Antes do Trovão”, é o irmão mais velho de Yoru Kazuchi e o principal mestre de furtividade convencional da Elite. Diferentemente de Mika Yotsuki, não nasceu com uma capacidade sobrenatural de apagar a própria existência. Tudo o que realiza é resultado de treinamento e controle corporal.\n\nInazuma ajusta a respiração ao vento, distribui o peso para eliminar ruídos e sincroniza os movimentos com trovões, vibrações e alterações do ambiente. Também reduz a assinatura de chakra e emprega descargas microscópicas para interromper reflexos involuntários do próprio corpo.\n\nSua filosofia ensina que furtividade não consiste em se tornar invisível, mas em retirar todos os motivos para que alguém olhe em sua direção.\n\nComo DPS, Inazuma aproxima-se silenciosamente, identifica pontos vulneráveis e encerra o confronto antes que o adversário consiga reagir. Embora também realize reconhecimento e infiltração, sua função em batalha é a eliminação rápida de alvos prioritários.\n\nInazuma recusou inicialmente o convite de Katakana. Aceitaria servir à Elite somente se o Raikage garantisse a proteção de Yoru. Katakana prometeu que o jovem teria em Kumogakure a mesma segurança concedida à própria família e nunca o utilizou para controlar a lealdade de Inazuma.\n\nDepois de entrar para a Elite, Inazuma também passou a orientar Mika. A ocultação dela enganava sensores, mas não apagava pegadas, ruídos ou objetos deslocados. Inazuma ensinou-lhe a eliminar os vestígios físicos que ainda poderiam revelar sua passagem.",
     hp: 218,
-    chakra: 40,
+    chakra: 70,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1786652882806899",
-    stats: {
-      strength: 26,
-      dexterity: 10,
-      agility: 26,
-      intelligence: 26,
-      spirit: 10,
-      vigor: 26,
-      perception: 10
-    },
+    stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 26, spirit: 20, vigor: 26, perception: 10 },
     powers: [],
     aptitudes: [],
     gallery: [
