@@ -295,12 +295,15 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const classificationsByVillage = useMemo(() => {
     const map = new Map<string, { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean }[]>(CLASSIFICATION_GROUPS.map(v => [v, []]));
     for (const c of characters) {
-      if (c.birthVillage && map.has(c.birthVillage)) {
-        map.get(c.birthVillage)!.push({ name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead });
-      }
-      if (c.categories?.includes('OCA')) {
-        map.get('OCA')!.push({ name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead });
-      }
+      const entrada = { name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead };
+      // `birthVillage` é a fonte preferida, mas só 16 das 86 fichas o têm preenchido — sem cair
+      // para as vilas de `categories`, 40 personagens não apareciam em grupo nenhum. Quem tem duas
+      // vilas de atuação entra nas duas, como a OCA já duplica de propósito.
+      const vilas = c.birthVillage && map.has(c.birthVillage)
+        ? [c.birthVillage]
+        : (c.categories ?? []).filter(x => x !== 'OCA' && map.has(x));
+      for (const v of vilas) map.get(v)!.push(entrada);
+      if (c.categories?.includes('OCA')) map.get('OCA')!.push(entrada);
     }
     for (const g of PENDING_CHARACTERS) {
       if (!map.has(g.village)) continue;
@@ -313,9 +316,21 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     return map;
   }, [characters]);
   // "Todos" junta as 5 vilas (sem OCA, pra não contar quem tem as duas tags duas vezes).
+  // "Todos" percorre TODOS os grupos, inclusive OCA, e tira repetido pelo nome: quem tem duas
+  // vilas, ou vila e OCA, aparece uma vez só. Incluir a OCA é o que garante o Hades e o Genei (G),
+  // que não têm vila nenhuma nas categorias.
   const classificationAllVillages = useMemo(() => {
-    const all = VILLAGES.flatMap(v => classificationsByVillage.get(v) ?? []);
-    return [...all].sort((a, b) => b.nc - a.nc);
+    const vistos = new Set<string>();
+    const all: { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean }[] = [];
+    for (const g of CLASSIFICATION_GROUPS) {
+      for (const e of classificationsByVillage.get(g) ?? []) {
+        const chave = `${e.name}|${e.pending ? 'p' : 'f'}`;
+        if (vistos.has(chave)) continue;
+        vistos.add(chave);
+        all.push(e);
+      }
+    }
+    return all.sort((a, b) => b.nc - a.nc);
   }, [classificationsByVillage]);
 
   // Catálogo de imagens da aba "Links", montado do que o Painel já tem em memória — personagens,
@@ -1631,7 +1646,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         <div className="border border-tech-border bg-tech-panel/30 p-5 space-y-4">
           <div className="flex items-center gap-2 text-tech-primary/70 mb-1">
             <Award size={14} />
-            <span className="text-[10px] font-black uppercase tracking-widest">NC por vila de nascença — só quem já tem ficha</span>
+            <span className="text-[10px] font-black uppercase tracking-widest">NC por vila — só quem já tem ficha</span>
           </div>
           <p className="text-[9px] text-tech-primary/40 uppercase tracking-wide">
             Referência pra decidir o NC de personagens novos. Ordenado do maior NC pro menor dentro de cada vila.
