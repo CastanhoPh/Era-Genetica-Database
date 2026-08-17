@@ -546,7 +546,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651872746667", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F4__Temporada.png?alt=media&v=1784658587696755", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FLuta_contra_os_Kages.png?alt=media&token=19f7261e-95ea-44b5-8892-4b9165616ab8&v=1785778195230", caption: "Luta contra os Kages", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.png?alt=media&v=1785784623548", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.jpeg?alt=media&v=1786981418240355", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 8, spirit: 16, vigor: 16, perception: 16 },
     powers: [
