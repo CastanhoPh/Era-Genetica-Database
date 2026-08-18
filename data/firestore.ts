@@ -150,26 +150,44 @@ export async function deleteChecklistItem(docId: string): Promise<void> {
   await deleteDoc(doc(db, 'imageChecklist', docId));
 }
 
-// Renumera o campo `order` de todos os itens do zero (0, 1, 2...), sem lacunas nem
+// Cada tipo do checklist é um projeto do Canva, e o `order` reserva uma faixa de 10 mil para
+// cada um: assim a numeração do item já diz em qual arquivo ele mora, e acrescentar um
+// personagem só renumera a faixa dele em vez de empurrar tudo. A ordem das faixas é a ordem
+// dos projetos.
+export const CHECKLIST_BLOCOS: Record<NonNullable<ChecklistItem['type']> | 'invocacao', number> = {
+  timeline: 10_000,
+  transformacao: 20_000,
+  capa: 30_000,
+  invocacao: 40_000, // reservado — projeto ainda não existe
+  evento: 50_000,
+};
+
+// Renumera o campo `order` dentro da faixa de cada tipo (10000, 10001...), sem lacunas nem
 // colisões, preservando a sequência que já aparece corretamente na visão agrupada
 // (temporada > arco > subarco). Corrige a visão "Geral" da Galeria caso ela volte a
 // ficar fora de ordem. Retorna quantos itens tiveram o `order` de fato alterado.
+//
+// Renumera POR FAIXA de propósito: renumerar tudo de 0 a N juntaria os quatro projetos numa
+// sequência só e desfaria a separação.
 export async function fixChecklistOrder(): Promise<number> {
   const snap = await getDocs(collection(db, 'imageChecklist'));
   const items = snap.docs
     .map(d => ({ ...(d.data() as ChecklistItem), docId: d.id }))
     .sort((a, b) => a.order - b.order);
 
-  const flat = groupItems(items).flatMap(t => t.arcos.flatMap(a => a.subarcos.flatMap(s => s.items)));
-
   const batch = writeBatch(db);
   let changed = 0;
-  flat.forEach((item, index) => {
-    if (item.order !== index) {
-      batch.update(doc(db, 'imageChecklist', item.docId!), { order: index });
-      changed++;
-    }
-  });
+  for (const [tipo, base] of Object.entries(CHECKLIST_BLOCOS)) {
+    const doTipo = items.filter(i => (i.type ?? 'evento') === tipo);
+    if (!doTipo.length) continue;
+    const flat = groupItems(doTipo).flatMap(t => t.arcos.flatMap(a => a.subarcos.flatMap(s => s.items)));
+    flat.forEach((item, index) => {
+      if (item.order !== base + index) {
+        batch.update(doc(db, 'imageChecklist', item.docId!), { order: base + index });
+        changed++;
+      }
+    });
+  }
   if (changed > 0) await batch.commit();
   return changed;
 }

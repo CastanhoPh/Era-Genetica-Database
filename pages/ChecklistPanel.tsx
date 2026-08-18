@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles } from 'lucide-react';
-import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem } from '../data/firestore';
+import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, CHECKLIST_BLOCOS } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem } from '../types';
 import ImageUploadButton from '../components/ImageUploadButton';
@@ -289,7 +289,11 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
     const arco = isCapa ? temporada : newTemporadaFields.arco.trim();
     const name = isCapa ? temporada : newTemporadaFields.item.trim();
     if (!temporada || !arco || !name) return;
-    const order = maxOrder(items) + 1;
+    // Faixa do tipo como piso: sem isso um personagem novo na Linha do Tempo pegaria o order
+    // máximo GLOBAL (hoje na faixa de Eventos, a última) e cairia no projeto errado. O piso
+    // também resolve o caso da faixa vazia, em que não há máximo nenhum para somar.
+    const base = CHECKLIST_BLOCOS[currentType ?? 'evento'];
+    const order = Math.max(base - 1, maxOrder(typedItems)) + 1;
     await addChecklistItem({ type: currentType, temporada, arco, name, order, done: false, placeholder: false });
     setAddingTemporada(false);
     setNewTemporadaFields({ temporada: '', arco: '', item: '' });
