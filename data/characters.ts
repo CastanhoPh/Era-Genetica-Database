@@ -249,12 +249,12 @@ export const initialData: Character[] = [
     clan: "Senju",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Sangue mais puro de Konoha", "Assassino de F e G", "Capitão Escarlate", "Legado de Katsumi Hyūga"],
-    nc: 16,
+    nc: 18,
     position: "Chunin",
     role: "Tank e DPS",
     description: "O prodígio que já é uma realidade, um gênio dentro do campo de batalha com suas habilidades técnicas e seu estilo de luta versátil e completo, sua resistência é invejável, dominante no estilo madeira, usuário do Oodama Rasengan Vermelho e treinado no modo eremita mokuton, misturando inteligência, resistência e determinação, é o ninja coringa de Konoha.\n\nKaito não promete mais levar o legado de seu pai, ele promete salvar o mundo da sujeira ninja.\n\nEle acredita em uma revolução em todo o mundo ninja, onde todos se unem em uma mesma ideia, em uma mesma mente e em um único poder principal.\n\nEle luta apenas para proteger a paz, mas guerreiros também não são inocentes, ele já matou uma pessoa por vingança e o ódio que o consumiu é o mesmo ódio que o sistema ninja impõe na mente das pessoas para que haja guerra, e seu irmão é a prova disso.\n\nA revolução de Kaito não busca poder; ela nasce do desespero de um mundo à beira do fim.",
-    hp: 117,
-    chakra: 58,
+    hp: 133,
+    chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1786651869698045",
     techniques: [
       {
@@ -370,13 +370,13 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1786454429614752", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651869725277", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 15, spirit: 16, vigor: 9, perception: 16 },
+    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 17, spirit: 18, vigor: 11, perception: 18 },
     powers: [
-      { name: "Mokuton", level: 8 },
+      { name: "Mokuton", level: 9 },
       { name: "Doton", level: 5 },
       { name: "Suiton", level: 2 },
-      { name: "Rasengan", level: 8 },
-      { name: "Senjutsu", level: 6 }
+      { name: "Rasengan", level: 9 },
+      { name: "Senjutsu", level: 8 }
     ],
     aptitudes: [
       "Hiraishin",
@@ -397,12 +397,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Chama Viva de Konoha", "Vencedor do Exame Chunin", "Sol de Konoha", "Legado de Najin Hatake"],
-    nc: 16,
+    nc: 18,
     position: "Chunin",
     role: "DPS",
     description: "O herdeiro do fogo. Um espadachim moldado pela dor.\nO homem que se recusa a deixar Konoha morrer.\n\nDesde muito jovem, Oddy Uchiha já era reconhecido por sua determinação e liderança natural, mesmo carregando o fardo de ser filho de Madara Uchiha. Seu poder não nasceu da ambição por domínio, mas da vontade de proteger a vila que escolheu como lar. Ainda criança, despertou o Sharingan ao perder o pai no Vale do Fim, marcando o início de um destino selado pela dor e pela escolha.\n\nApós ingressar na Nova ANBU, Oddy lutou na linha de frente contra a OCA, presenciando a queda de Konoha e a morte de figuras que moldaram sua vida — Nishinoya, Tobirama, Sho Uchiha e seus companheiros. Foi nesse massacre que despertou o Mangekyō Sharingan, não movido pelo ódio, mas pela perda absoluta de tudo o que jurou proteger.\n\nOddy é capaz de unir o poder do Katon Uchiha, o Mangekyō Sharingan e o caminho das duas lâminas, empunhando a Kusanagi do clã Uchiha e a Homura no Chikai, a espada de fogo herdada de Hirato. Seu estilo permite que ele use as chamas tanto para destruir quanto para salvar, manifestando a verdadeira Vontade do Fogo em sua forma mais pura.\n\nOddy Uchiha busca se tornar um deus shinobi, não por título, mas para que ninguém mais precise nascer das cinzas\n\nCriador e usuário de técnicas únicas, entre elas:\n\n- Amaterasu: Hi no Ishi (Chamas da Extinção e da Vida)\n- Katon: Ryūen no Jutsu (Dragão de Fogo)\n- Katon: Flechas Ígneas\n- Estilo Ryūka no Nintō (O Caminho das Dos Chamas)",
-    hp: 154,
-    chakra: 74,
+    hp: 172,
+    chakra: 82,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.jpg?alt=media&v=1786651872658006",
     techniques: [
       {
@@ -548,11 +548,13 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FLuta_contra_os_Kages.png?alt=media&token=19f7261e-95ea-44b5-8892-4b9165616ab8&v=1785778195230", caption: "Luta contra os Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.jpeg?alt=media&v=1786981418240355", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 8, spirit: 16, vigor: 16, perception: 16 },
+    stats: { strength: 9, dexterity: 18, agility: 7, intelligence: 8, spirit: 18, vigor: 18, perception: 18 },
     powers: [
-      { name: "Katon", level: 8 },
-      { name: "Doton", level: 8 },
-      { name: "Jinton", level: 8 }
+      { name: "Katon", level: 9 },
+      { name: "Doton", level: 9 },
+      { name: "Jinton", level: 9 },
+      { name: "Hachimon Tonko", level: 9 },
+      { name: "Senjutsu", level: 2 }
     ],
     aptitudes: [
       "Sharingan",
@@ -919,12 +921,12 @@ export const initialData: Character[] = [
     clan: "Hatake",
     categories: ["Personagem", "Konohagakure"],
     titles: ["Prodigio de Konoha", "O Último Hatake"],
-    nc: 16,
+    nc: 18,
     position: "Chunin",
     role: "DPS",
     description: "",
-    hp: 123,
-    chakra: 58,
+    hp: 139,
+    chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1786651880256457",
     techniques: [
       {
@@ -1000,12 +1002,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F4__Temporada.png?alt=media&v=1784658606921125", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F5__Temporada.png?alt=media&v=1786370792667214", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 13, spirit: 16, vigor: 11, perception: 16 },
+    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 15, spirit: 18, vigor: 13, perception: 18 },
     powers: [
-      { name: "Ranton", level: 8 },
-      { name: "Raiton", level: 8 },
-      { name: "Suiton", level: 2 },
-      { name: "Senjutsu", level: 8 }
+      { name: "Ranton", level: 9 },
+      { name: "Raiton", level: 9 },
+      { name: "Suiton", level: 3 },
+      { name: "Senjutsu", level: 9 }
     ],
     aptitudes: [
       "Amenotejikara",
@@ -1073,12 +1075,12 @@ export const initialData: Character[] = [
     clan: "Chinoike",
     categories: ["Personagem", "OCA", "Konohagakure"],
     titles: ["Primeiro Experimento", "Jinchuriki Artificial"],
-    nc: 16,
+    nc: 18,
     position: "Genin",
     role: "DPS",
     description: "Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.\n\nDesde muito jovem já era reconhecido por sua inteligência e personalidade inabaláveis mesmo sem ter lembranças dos seus pais. Com poucos anos de idade foi resgatado no meio de uma guerra pelos capangas de um tal Hades, que o levaram a um laboratório onde virou o primeiro experimento de chakra artificial, conseguindo resistir ao experimento, tornou-se o início de algo maior para a OCA, onde muitas crianças foram manipuladas e testadas visando ajudar a conquistar os objetivos do Hades.\n\nCom 13 anos, Furyuzan sofreu experiências traumáticas em um curto período de tempo que afetaram fortemente seu psicológico. Descobriu a manipulação que a OCA havia feito durante sua vida toda, sofreu pela morte do Kazuke e principalmente pela morte da E por quem se apaixonou. Após esses acontecimentos, Furyuzan prometeu vingança ao Hades e busca uma forma de trazer a E de volta à vida.\n\nEle utiliza um Arco de Sangue junto do Doton para formar barreiras e vencer o inimigo de forma estratégica (muitas vezes saindo ileso de combates), além de poder lutar corpo a corpo utilizando a Nuibari. Furyuzan ainda potencializa seu poder total quando usa sua Bijuu artificial em forma de Velociraptor.",
-    hp: 114,
-    chakra: 87,
+    hp: 130,
+    chakra: 96,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1786651881733939",
     techniques: [
       {
@@ -1192,12 +1194,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F4__Temporada.png?alt=media&v=1784658545291662", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F5__Temporada.png?alt=media&v=1786479671087996", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 16, spirit: 16, vigor: 8, perception: 16 },
+    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
     powers: [
-      { name: "Aokiba", level: 8 },
-      { name: "Keton", level: 8 },
-      { name: "Doton", level: 8 },
-      { name: "Bakuton", level: 2 }
+      { name: "Aokiba", level: 9 },
+      { name: "Ketton", level: 9 },
+      { name: "Doton", level: 9 },
+      { name: "Bakuton", level: 4 }
     ],
     aptitudes: [
       "Chakra Expandido: Aokiba",
@@ -1221,12 +1223,12 @@ export const initialData: Character[] = [
     clan: "Uzumaki",
     categories: ["Personagem", "Konohagakure", "OCA"],
     titles: ["O Fantasma dos Uzumaki", "O Teleportador", "Assassino de A"],
-    nc: 16,
+    nc: 18,
     position: "Chunin",
     role: "DPS e Suporte",
     description: "O Fantasma dos Uzumaki e a Voz da Destruição\\n\\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\\n\\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\\n\\nPortador de Técnicas únicas:\\n* Kaminari Branco\\n* Amenotejikara",
-    hp: 138,
-    chakra: 87,
+    hp: 154,
+    chakra: 96,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.jpg?alt=media&v=1786651884017022",
     techniques: [
       {
@@ -1342,10 +1344,10 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F4__Temporada.png?alt=media&v=1784658577459275", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651884030712", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 8, spirit: 16, vigor: 16, perception: 6 },
+    stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 10, spirit: 18, vigor: 18, perception: 7 },
     powers: [
-      { name: "Nintaijutsu", level: 8 },
-      { name: "Raiton", level: 8 },
+      { name: "Raiton", level: 9 },
+      { name: "Nintaijutsu", level: 9 },
       { name: "Fuinjutsu", level: 8 }
     ],
     aptitudes: [
@@ -1426,12 +1428,12 @@ export const initialData: Character[] = [
     clan: "Soryo",
     categories: ["Personagem", "Iwagakure"],
     titles: ["Punho Sagrado da Guerra", "Herdeiro da Pedra Viva", "Homem que Deteve Cinco Bijūdamas", "A Muralha que Desafiou as Bijū", "Capitão do Pentagono"],
-    nc: 16,
+    nc: 18,
     position: "Jounin",
     role: "Tank",
     description: "O Punho Sagrado da Guerra e o Herdeiro da Pedra Viva\n\nKenma Soryo cresceu em meio ao maior conflito já registrado no País da Guerra: Monges contra Samurais. Aos 14 anos, tornou-se discípulo direto de Oshō, o lendário líder espiritual dos monges, um homem que possuía poder suficiente para dominar tudo, mas escolheu a paz. Kenma testemunhou a morte do irmão de seu mestre, um guerreiro que, antes de cair, derrotou dois portadores das Espadas Lendárias da Terra. Viu também Oshō derrotar o último espadachim — aquele cuja lâmina controlava vida e morte — selando o destino da guerra e dividindo o território em equilíbrio forçado.\n\nMesmo após o tratado que estabeleceu alternância de poder e a escolha cíclica do Tsuchikage, a paz começou a ruir com o surgimento de forças externas e o enfraquecimento espiritual das Pedras Sagradas. Enquanto o mundo mudava, Kenma nunca deixou de treinar. Nas sombras, longe da política e da instabilidade, ele aprimorou corpo e espírito, tornando-se algo além de um simples monge.\n\nDominador do Modo Sábio dos Monges, Kenma canaliza energia natural espiritual e cobre o corpo com marcas douradas que ampliam sua força, resistência e percepção de chakra a níveis extraordinários. Seu Doton avançado permite manipular rocha e solo como extensões do próprio corpo, criar armaduras de pedra viva e desferir golpes com impacto sísmico capazes de abrir crateras no campo de batalha.\n\nAo combinar Sennin e Doton, transforma o combate corpo a corpo em devastação absoluta — socos que partem a terra, pisadas que erguem muralhas e uma pele com resistência comparável ao granito. Ainda assim, carrega os ensinamentos pacifistas de Oshō no coração. Kenma não luta por dominação, mas para restaurar o equilíbrio espiritual que está à beira do colapso.\n\nPortador de Técnicas únicas:\n* Modo Sábio dos Monges\n* Armadura de Pedra Viva\n* Impacto Sísmico Sennin",
-    hp: 138,
-    chakra: 34,
+    hp: 154,
+    chakra: 40,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.jpg?alt=media&v=1786651886159192",
     techniques: [
       {
@@ -1491,11 +1493,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1786454439977012", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F5__Temporada.png?alt=media&v=1786454442641936", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 16, spirit: 8, vigor: 16, perception: 6 },
+    stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 18, spirit: 10, vigor: 18, perception: 7 },
     powers: [
-      { name: "Senjutsu", level: 8 },
-      { name: "Doton", level: 8 },
-      { name: "Fuinjutsu", level: 6 }
+      { name: "Doton", level: 9 },
+      { name: "Senjutsu", level: 9 },
+      { name: "Fuinjutsu", level: 8 }
     ],
     aptitudes: [
       "Maestria: CC",
