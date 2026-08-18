@@ -3074,12 +3074,12 @@ export const initialData: Character[] = [
     clan: "Senju",
     categories: ["NPC", "Konohagakure"],
     titles: ["Legado de Senju Hashirama", "Herdeira do Mokuton"],
-    nc: 16,
+    nc: 18,
     position: "Jounin de Elite",
     role: "Suporte",
     description: "",
-    hp: 114,
-    chakra: 87,
+    hp: 130,
+    chakra: 96,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAiri%20Senju%2FAiri%20Senju.png?alt=media&v=1786651895744108",
     techniques: [
       {
@@ -3158,13 +3158,13 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FCl_ssico.png?alt=media&v=1786370736814790", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2F3__Temporada.png?alt=media&v=1784665841541310", caption: "4ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 16, spirit: 16, vigor: 8, perception: 16 },
+    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
     powers: [
-      { name: "Mokuton", level: 8 },
+      { name: "Mokuton", level: 9 },
       { name: "Doton", level: 1 },
       { name: "Suiton", level: 1 },
-      { name: "Senjutsu", level: 8 },
-      { name: "Iryou Ninjutsu", level: 8 }
+      { name: "Senjutsu", level: 9 },
+      { name: "Iryou Ninjutsu", level: 9 }
     ],
     aptitudes: [
       "Ninja Médico",
@@ -3186,12 +3186,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Princesa do Sharingan", "A quebra da Maldição"],
-    nc: 16,
+    nc: 18,
     position: "Jounin de Elite",
     role: "DPS",
     description: "",
-    hp: 138,
-    chakra: 58,
+    hp: 154,
+    chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyumi%20Uchiha%2FAyumi%20Uchiha.png?alt=media&v=1786651896398168",
     techniques: [
       {
@@ -3263,11 +3263,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F4__Temporada.png?alt=media&v=1784751306506", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F5__Temporada.png?alt=media&v=1784751307911", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 8, spirit: 16, vigor: 16, perception: 16 },
+    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 10, spirit: 18, vigor: 18, perception: 18 },
     powers: [
-      { name: "Katon", level: 8 },
-      { name: "Raiton", level: 8 },
-      { name: "Fuinjutsu", level: 8 }
+      { name: "Katon", level: 9 },
+      { name: "Raiton", level: 9 },
+      { name: "Fuinjutsu", level: 9 }
     ],
     aptitudes: [
       "Sharingan",
@@ -3291,12 +3291,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Espiã", "Olho da OCA"],
-    nc: 16,
+    nc: 18,
     position: "Jounin de Elite",
     role: "DPS",
     description: "Shizumi Uchiha, reconhecida pelo próprio Tobirama como uma das mentes mais brilhantes de Konoha, sempre esteve muito à frente de sua geração. Desde a infância, demonstrou uma afinidade incomum com o Raiton, manipulando descargas elétricas com precisão e instinto quase naturais.\n\nNo entanto, seu verdadeiro diferencial nunca foi apenas poder — foi sua obsessão por compreender. Fascinada pelo lendário Hiraishin, Shizumi mergulhou profundamente no estudo de fuinjutsu, dedicando anos a desvendar os princípios por trás da manipulação de espaço, marcação e fluxo de chakra.\n\nSua trajetória, porém, foi brutalmente interrompida durante o fatídico sequestro das crianças de Konoha.\n\nCapturada, Shizumi foi submetida a um processo contínuo de tortura psicológica, onde sua mente foi levada ao limite repetidas vezes. Foi nesse abismo que seu Mangekyō Sharingan despertou — não como um símbolo de evolução, mas como resultado direto do colapso.\n\nDiferente de outros Uchiha, seus olhos não foram apenas despertados… foram forçados além do natural.\n\nMesmo após perder a visão, experimentos envolvendo chakra profano mantiveram seus olhos ativos artificialmente, obrigando-os a continuar funcionando contra todas as leis conhecidas. Nesse processo, algo inexplicável ocorreu: um dos tomoe de seu Sharingan simplesmente desapareceu, como se sua própria estrutura ocular estivesse sendo reescrita.\n\nSeu outro olho foi removido e implantado em um agente interno da OCA, criando uma conexão anômala. Através desse vínculo corrompido, Shizumi passou a enxergar pelo olho distante, transformando-se involuntariamente em um instrumento de vigilância viva da organização. Sua percepção deixou de estar presa ao próprio corpo.\n\nDurante o Exame Chunin, essa conexão atingiu um ponto crítico. Incapaz de controlar o fluxo instável de chakra e a sobrecarga sensorial, Shizumi sofreu um colapso, liberando o Amaterasu de forma caótica, incendiando tudo ao seu redor sem distinção.\n\nO evento marcou o fim de sua estabilidade mental.\n\nApós o incidente, Shizumi foi considerada instável demais para permanecer ativa. Ela foi contida e levada a um hospital secreto de Konoha, onde permanece em coma desde então.\n\nOficialmente, seu corpo repousa. Extraoficialmente, sua mente nunca deixou de observar.\n\nFragmentada, conectada e presa entre dois pontos, Shizumi existe em um estado indefinido — nem consciente, nem ausente.\n\nPara Konoha, ela é um risco selado. Para a OCA, um experimento ainda ativo.\n\nE para aqueles que entendem a profundidade do que ela se tornou… Shizumi não está dormindo. Ela está vendo.",
-    hp: 117,
-    chakra: 58,
+    hp: 130,
+    chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1786651897303644",
     techniques: [
       {
@@ -3358,11 +3358,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F4__Temporada.png?alt=media&v=1784751364128", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F5__Temporada.png?alt=media&v=1784751365273", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 15, spirit: 16, vigor: 9, perception: 16 },
+    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
     powers: [
-      { name: "Katon", level: 8 },
-      { name: "Doton", level: 8 },
-      { name: "Rasengan", level: 8 }
+      { name: "Katon", level: 9 },
+      { name: "Doton", level: 9 },
+      { name: "Rasengan", level: 9 }
     ],
     aptitudes: [
       "Sharingan",
