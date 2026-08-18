@@ -310,13 +310,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 70,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkane%20Sumigami%2FAkane%20Sumigami.png?alt=media&v=1786652879243128",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkane%20Sumigami%2F5__Temporada.png?alt=media&v=1786652881046279",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 8,
       "dexterity": 21,
@@ -326,7 +319,19 @@
       "vigor": 14,
       "perception": 21
     },
-    "hp": 157
+    "hp": 157,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkane%20Sumigami%2F5__Temporada.png?alt=media&v=1786652881046279",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAkane%20Sumigami%2FRaiei%20S%C5%8Dsei.png?alt=media&v=1787068571463916",
+        "caption": "Raiei Sōsei",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "akira-dokuhana",
@@ -599,13 +604,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 62,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FArashi%20Shidehara%2FArashi%20Shidehara.png?alt=media&v=1786652851353654",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FArashi%20Shidehara%2F5__Temporada.png?alt=media&v=1786652853136703",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 9,
       "dexterity": 24,
@@ -615,7 +613,19 @@
       "vigor": 18,
       "perception": 24
     },
-    "hp": 184
+    "hp": 184,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FArashi%20Shidehara%2F5__Temporada.png?alt=media&v=1786652853136703",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FArashi%20Shidehara%2FShikigami%20no%20Mai.png?alt=media&v=1787068555647914",
+        "caption": "Shikigami no Mai",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "asami-hyuga",
@@ -2450,13 +2460,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 65,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1786652861645187",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGorai%20Arashiumi%2F5__Temporada.png?alt=media&v=1786652863530537",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 11,
       "dexterity": 27,
@@ -2465,7 +2468,19 @@
       "spirit": 27,
       "vigor": 27,
       "perception": 27
-    }
+    },
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGorai%20Arashiumi%2F5__Temporada.png?alt=media&v=1786652863530537",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGorai%20Arashiumi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068561534624",
+        "caption": "Raiton no Yoroi",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "hades",
@@ -3301,13 +3316,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 71,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1786652882806899",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FInazuma%20Kazuchi%2F5__Temporada.png?alt=media&v=1786652884656575",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 26,
       "dexterity": 10,
@@ -3317,7 +3325,19 @@
       "vigor": 26,
       "perception": 10
     },
-    "chakra": 70
+    "chakra": 70,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FInazuma%20Kazuchi%2F5__Temporada.png?alt=media&v=1786652884656575",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FInazuma%20Kazuchi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068573119507",
+        "caption": "Raiton no Yoroi",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "kaien-ishi-omega",
@@ -4541,13 +4561,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 69,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1786652875823257",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKiyoshi%20Hagane%2F5__Temporada.png?alt=media&v=1786652877605366",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 12,
       "dexterity": 29,
@@ -4557,7 +4570,19 @@
       "vigor": 22,
       "perception": 29
     },
-    "hp": 221
+    "hp": 221,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKiyoshi%20Hagane%2F5__Temporada.png?alt=media&v=1786652877605366",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FKiyoshi%20Hagane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068569487831",
+        "caption": "Raiden Buki Ayatsuri",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "koji-ishizuma",
@@ -4953,13 +4978,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 68,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMidori%20Kurogane%2FMidori%20Kurogane.png?alt=media&v=1786652872347241",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMidori%20Kurogane%2F5__Temporada.png?alt=media&v=1786652874174505",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 8,
       "dexterity": 22,
@@ -4969,7 +4987,19 @@
       "vigor": 16,
       "perception": 22
     },
-    "hp": 168
+    "hp": 168,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMidori%20Kurogane%2F5__Temporada.png?alt=media&v=1786652874174505",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMidori%20Kurogane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068567258618",
+        "caption": "Raiden Buki Ayatsuri",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "mika-yotsuki",
@@ -5974,38 +6004,6 @@
     "id": 17,
     "description": "Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.\n\nSua libertação só veio com a Luta contra os Kages — mas não pelas mãos de Nishinoya. Os dois nunca voltaram a se encontrar depois do dia em que ela foi capturada; quando as linhas de frente se romperam e a fortaleza Yumei finalmente cedeu em meio ao caos da guerra, Nishinoya já estava morto, caído nas mãos de Ômega antes mesmo daquela batalha terminar. Foi em meio aos destroços que Naomi encontrou a Soen no Kage e a Sōen no Gauntō, as relíquias que ele carregara a vida inteira, abandonadas onde ele caiu. Ao tocá-las, sentiu o resquício do chakra da Matatabi que ainda pulsava dentro delas — e, pela primeira vez desde o cativeiro, Kurama respondeu a algo além da própria dor de Naomi. As duas relíquias se transformaram em suas mãos, tornando-se a Shiden no Kage e a Shiden no Gauntō, e foi nesse instante — não de resgate pessoal, mas de conexão póstuma através do que restava dele — que algo se rompeu e se reorganizou dentro de Naomi. Kurama, que por anos apenas sobrevivera trancada junto com sua hospedeira, reconheceu naquele eco de energia externa um equilíbrio que já devia ter encontrado por conta própria — e o usou como catalisador para finalmente se fundir por completo à natureza de Naomi. Ela saiu da Yumei sem nunca ter revisto Nishinoya, mas carregando um Modo Sábio exclusivo, nascido daquele instante: a fusão entre sua ligação com a Bijuu e o Suiton que sempre foi seu.",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1786651900548392",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FPr_logo.png?alt=media&v=1784569527682750",
-        "caption": "Prólogo",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FCl_ssico.png?alt=media&v=1784569525287575",
-        "caption": "Clássico",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F3__Temporada.png?alt=media&v=1784569520193805",
-        "caption": "3ª Temporada",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F4__Temporada.png?alt=media&v=1786370769267296",
-        "caption": "4ª Temporada",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095",
-        "caption": "Luta contra os Kages",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "chakra": 200,
     "chakraColor": "#ff3b46",
     "stats": {
@@ -6079,6 +6077,43 @@
         "status": "A técnica exige concentração contínua para manter a fusão entre o Suiton e os selamentos da rapier estável. Qualquer quebra no fluxo de chakra pode dissolver o rastro e interromper o remodelamento do terreno. O uso prolongado drena as reservas de Suiton de Naomi gradualmente, tornando a técnica menos eficiente em batalhas de longa duração sem recarga de chakra.",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1786651900528806"
       }
+    ],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FPr_logo.png?alt=media&v=1784569527682750",
+        "caption": "Prólogo",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FCl_ssico.png?alt=media&v=1784569525287575",
+        "caption": "Clássico",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F3__Temporada.png?alt=media&v=1784569520193805",
+        "caption": "3ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F4__Temporada.png?alt=media&v=1786370769267296",
+        "caption": "4ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095",
+        "caption": "Luta contra os Kages",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNaomi%20Uzumaki%2FModo%20S%C3%A1bio.png?alt=media&v=1787068553699113",
+        "caption": "Modo Sábio",
+        "category": "transformacao"
+      }
     ]
   },
   {
@@ -6105,13 +6140,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 66,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNayara%20Kazemori%2FNayara%20Kazemori.png?alt=media&v=1786652865251006",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNayara%20Kazemori%2F5__Temporada.png?alt=media&v=1786652867069868",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 10,
       "dexterity": 25,
@@ -6121,7 +6149,19 @@
       "vigor": 18,
       "perception": 25
     },
-    "hp": 189
+    "hp": 189,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNayara%20Kazemori%2F5__Temporada.png?alt=media&v=1786652867069868",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNayara%20Kazemori%2FTenshi%20no%20Keshin.png?alt=media&v=1787068563433413",
+        "caption": "Tenshi no Keshin",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "nishinoya-senju",
@@ -6185,38 +6225,6 @@
       "Técnica Poderosa"
     ],
     "description": "Um líder nato, portador da verdadeira Vontade do Fogo — uma força da natureza no campo de batalha.\n\nDesde a infância, Nishinoya já demonstrava uma genialidade fora dos padrões, mesmo sem herdar as habilidades tradicionais do prestigiado clã Senju.\n\nAos 14 anos, em meio à guerra, foi reconhecido como o Relâmpago Azul de Konoha após ser escolhido por Matatabi e alcançar a harmonia entre seu poder, o lendário Hiraishin e seu domínio absoluto do Katon.\n\nAos 16 anos, foi nomeado o Terceiro Hokage por Tobirama Senju, liderando Konoha durante um dos períodos mais turbulentos de sua história. Em batalha, enfrentou inimigos de nível absurdo — incluindo o vice-líder da OCA, que o reconheceu como um verdadeiro Deus Shinobi.\n\nNishinoya é capaz de fundir o chakra de Matatabi, o Hiraishin e seu exclusivo Modo Sábio Aoi Katon, criando um estilo de combate único baseado em velocidade absoluta e destruição precisa.\n\nCriador de técnicas lendárias, entre elas:\n- Senpo: Enka Aoi Katon Bijūdama: Oodama Rasenshuriken\n- Sennin Fuka\n- Aoi Katon: Komyunikēshon\n- Clone Perfeito",
-    "gallery": [
-      {
-        "caption": "Prólogo",
-        "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media&v=1786651865211217"
-      },
-      {
-        "category": "era",
-        "caption": "Clássico",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062"
-      },
-      {
-        "category": "era",
-        "caption": "1ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651865147231"
-      },
-      {
-        "caption": "2ª Temporada",
-        "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651865181625"
-      },
-      {
-        "category": "era",
-        "caption": "Terceiro Hokage",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1786651865146365"
-      },
-      {
-        "caption": "Luta contra o Omega",
-        "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249"
-      }
-    ],
     "techniques": [
       {
         "classification": "Z",
@@ -6420,7 +6428,54 @@
       "perception": 30
     },
     "hp": 232,
-    "arsenal": []
+    "arsenal": [],
+    "gallery": [
+      {
+        "caption": "Prólogo",
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media&v=1786651865211217"
+      },
+      {
+        "category": "era",
+        "caption": "Clássico",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062"
+      },
+      {
+        "category": "era",
+        "caption": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651865147231"
+      },
+      {
+        "caption": "2ª Temporada",
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651865181625"
+      },
+      {
+        "category": "era",
+        "caption": "Terceiro Hokage",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1786651865146365"
+      },
+      {
+        "caption": "Luta contra o Omega",
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FModo%20S%C3%A1bio.png?alt=media&v=1787068547687864",
+        "caption": "Modo Sábio",
+        "category": "transformacao"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1787068549641572",
+        "caption": "Manto Matatabi V1",
+        "category": "transformacao"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1787068551838796",
+        "caption": "Manto Matatabi V2 + Modo Sábio",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "oddy-uchiha",
@@ -6712,13 +6767,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 64,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaiden%20Yotsuki%2FRaiden%20Yotsuki.png?alt=media&v=1786652858006936",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaiden%20Yotsuki%2F5__Temporada.png?alt=media&v=1786652859868219",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 9,
       "dexterity": 23,
@@ -6727,7 +6775,19 @@
       "spirit": 23,
       "vigor": 23,
       "perception": 23
-    }
+    },
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaiden%20Yotsuki%2F5__Temporada.png?alt=media&v=1786652859868219",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaiden%20Yotsuki%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068559540311",
+        "caption": "Raiton no Yoroi",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "raikun-hatake",
@@ -6889,13 +6949,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 63,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizen%20Kurogane%2FRaizen%20Kurogane.png?alt=media&v=1786652854835945",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizen%20Kurogane%2F5__Temporada.png?alt=media&v=1786652856297546",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 8,
       "dexterity": 22,
@@ -6905,7 +6958,19 @@
       "vigor": 16,
       "perception": 22
     },
-    "hp": 168
+    "hp": 168,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizen%20Kurogane%2F5__Temporada.png?alt=media&v=1786652856297546",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaizen%20Kurogane%2FRaich%C5%AB%20Keshin.png?alt=media&v=1787068557598909",
+        "caption": "Raichū Keshin",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "reika-uzumaki",
@@ -8307,13 +8372,6 @@
     "timelineAppearance": "5ª Temporada",
     "id": 67,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizuru%20Kurogane%2FShizuru%20Kurogane.png?alt=media&v=1786652868715619",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizuru%20Kurogane%2F5__Temporada.png?alt=media&v=1786652870615570",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "stats": {
       "strength": 11,
       "dexterity": 27,
@@ -8323,7 +8381,19 @@
       "vigor": 20,
       "perception": 27
     },
-    "hp": 205
+    "hp": 205,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizuru%20Kurogane%2F5__Temporada.png?alt=media&v=1786652870615570",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FShizuru%20Kurogane%2FAnrai%20Getsurin.png?alt=media&v=1787068565296598",
+        "caption": "Anrai Getsurin",
+        "category": "transformacao"
+      }
+    ]
   },
   {
     "__docId": "sho-uchiha",

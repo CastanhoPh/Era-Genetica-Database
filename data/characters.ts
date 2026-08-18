@@ -216,6 +216,9 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651865181625", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1786651865146365", caption: "Terceiro Hokage", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FModo%20S%C3%A1bio.png?alt=media&v=1787068547687864", caption: "Modo Sábio", category: "transformacao" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1787068549641572", caption: "Manto Matatabi V1", category: "transformacao" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1787068551838796", caption: "Manto Matatabi V2 + Modo Sábio", category: "transformacao" }
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 24, perception: 30 },
     powers: [
@@ -4053,6 +4056,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F4__Temporada.png?alt=media&v=1786370769267296", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095", caption: "Luta contra os Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNaomi%20Uzumaki%2FModo%20S%C3%A1bio.png?alt=media&v=1787068553699113", caption: "Modo Sábio", category: "transformacao" }
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 27, spirit: 30, vigor: 27, perception: 30 },
     powers: [
@@ -6428,11 +6432,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FArashi%20Shidehara%2F5__Temporada.png?alt=media&v=1786652853136703",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FArashi%20Shidehara%2F5__Temporada.png?alt=media&v=1786652853136703", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FArashi%20Shidehara%2FShikigami%20no%20Mai.png?alt=media&v=1787068555647914", caption: "Shikigami no Mai", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6456,11 +6457,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizen%20Kurogane%2F5__Temporada.png?alt=media&v=1786652856297546",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizen%20Kurogane%2F5__Temporada.png?alt=media&v=1786652856297546", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaizen%20Kurogane%2FRaich%C5%AB%20Keshin.png?alt=media&v=1787068557598909", caption: "Raichū Keshin", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6484,11 +6482,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaiden%20Yotsuki%2F5__Temporada.png?alt=media&v=1786652859868219",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaiden%20Yotsuki%2F5__Temporada.png?alt=media&v=1786652859868219", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaiden%20Yotsuki%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068559540311", caption: "Raiton no Yoroi", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6512,11 +6507,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGorai%20Arashiumi%2F5__Temporada.png?alt=media&v=1786652863530537",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGorai%20Arashiumi%2F5__Temporada.png?alt=media&v=1786652863530537", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGorai%20Arashiumi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068561534624", caption: "Raiton no Yoroi", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6540,11 +6532,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNayara%20Kazemori%2F5__Temporada.png?alt=media&v=1786652867069868",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNayara%20Kazemori%2F5__Temporada.png?alt=media&v=1786652867069868", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNayara%20Kazemori%2FTenshi%20no%20Keshin.png?alt=media&v=1787068563433413", caption: "Tenshi no Keshin", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6568,11 +6557,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizuru%20Kurogane%2F5__Temporada.png?alt=media&v=1786652870615570",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizuru%20Kurogane%2F5__Temporada.png?alt=media&v=1786652870615570", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FShizuru%20Kurogane%2FAnrai%20Getsurin.png?alt=media&v=1787068565296598", caption: "Anrai Getsurin", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6596,11 +6582,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMidori%20Kurogane%2F5__Temporada.png?alt=media&v=1786652874174505",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMidori%20Kurogane%2F5__Temporada.png?alt=media&v=1786652874174505", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMidori%20Kurogane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068567258618", caption: "Raiden Buki Ayatsuri", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6624,11 +6607,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKiyoshi%20Hagane%2F5__Temporada.png?alt=media&v=1786652877605366",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKiyoshi%20Hagane%2F5__Temporada.png?alt=media&v=1786652877605366", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FKiyoshi%20Hagane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068569487831", caption: "Raiden Buki Ayatsuri", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6652,11 +6632,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkane%20Sumigami%2F5__Temporada.png?alt=media&v=1786652881046279",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkane%20Sumigami%2F5__Temporada.png?alt=media&v=1786652881046279", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAkane%20Sumigami%2FRaiei%20S%C5%8Dsei.png?alt=media&v=1787068571463916", caption: "Raiei Sōsei", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -6680,11 +6657,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      {
-        url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FInazuma%20Kazuchi%2F5__Temporada.png?alt=media&v=1786652884656575",
-        caption: "5ª Temporada",
-        category: "era"
-      }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FInazuma%20Kazuchi%2F5__Temporada.png?alt=media&v=1786652884656575", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FInazuma%20Kazuchi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068573119507", caption: "Raiton no Yoroi", category: "transformacao" }
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",

@@ -2500,9 +2500,10 @@
     "arco": "Anrai Getsurin",
     "name": "Anrai Getsurin",
     "order": 40009,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FShizuru%20Kurogane%2FAnrai%20Getsurin.png?alt=media&v=1787068565296598",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "7Fi3SkProGUUuITmHCmD",
@@ -2830,9 +2831,10 @@
     "arco": "Raiton no Yoroi",
     "name": "Raiton no Yoroi",
     "order": 40006,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaiden%20Yotsuki%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068559540311",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "A4tV6VdLNjIdzj11Sy5j",
@@ -2886,9 +2888,10 @@
     "arco": "Shikigami no Mai",
     "name": "Shikigami no Mai",
     "order": 40004,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FArashi%20Shidehara%2FShikigami%20no%20Mai.png?alt=media&v=1787068555647914",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "aJjQsVKVXyX70Htq1wzq",
@@ -2919,9 +2922,10 @@
     "arco": "Raiden Buki Ayatsuri",
     "name": "Raiden Buki Ayatsuri",
     "order": 40010,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMidori%20Kurogane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068567258618",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "AnXiKJNklClZaEGClARa",
@@ -3174,9 +3178,10 @@
     "arco": "Raiton no Yoroi",
     "name": "Raiton no Yoroi",
     "order": 40007,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGorai%20Arashiumi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068561534624",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "c9Qc6kPWlHvVNtGDSflB",
@@ -3249,9 +3254,10 @@
     "arco": "Raichū Keshin",
     "name": "Raichū Keshin",
     "order": 40005,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaizen%20Kurogane%2FRaich%C5%AB%20Keshin.png?alt=media&v=1787068557598909",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "Cmfpv9mBjwfP3wOjkZ8F",
@@ -3762,9 +3768,10 @@
     "arco": "Modo Sábio",
     "name": "Modo Sábio",
     "order": 40000,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FModo%20S%C3%A1bio.png?alt=media&v=1787068547687864",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "g6kkg7YtZIzqwEmGy6dV",
@@ -3805,9 +3812,10 @@
     "arco": "Raiton no Yoroi",
     "name": "Raiton no Yoroi",
     "order": 40013,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FInazuma%20Kazuchi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068573119507",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "gj1qGTwdbbIszhMJrv3T",
@@ -3883,9 +3891,10 @@
     "arco": "Manto Matatabi V2 + Modo Sábio",
     "name": "Manto Matatabi V2 + Modo Sábio",
     "order": 40002,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1787068551838796",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "Gt9KWLHAyrHroJLcIAxm",
@@ -4136,9 +4145,10 @@
     "arco": "Modo Sábio",
     "name": "Modo Sábio",
     "order": 40003,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNaomi%20Uzumaki%2FModo%20S%C3%A1bio.png?alt=media&v=1787068553699113",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "hXMQSgxPexs1YK9vE6P0",
@@ -4425,9 +4435,10 @@
     "arco": "Raiden Buki Ayatsuri",
     "name": "Raiden Buki Ayatsuri",
     "order": 40011,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FKiyoshi%20Hagane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068569487831",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "Jtg2i7TaqOx1y61bJiQw",
@@ -5829,9 +5840,10 @@
     "arco": "Manto Matatabi V1",
     "name": "Manto Matatabi V1",
     "order": 40001,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1787068549641572",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "rqTLuIPw4boXQEKobG2o",
@@ -6278,9 +6290,10 @@
     "arco": "Raiei Sōsei",
     "name": "Raiei Sōsei",
     "order": 40012,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAkane%20Sumigami%2FRaiei%20S%C5%8Dsei.png?alt=media&v=1787068571463916",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "vUo1nUOBPkoa2ZVmyfiE",
@@ -6863,9 +6876,10 @@
     "arco": "Tenshi no Keshin",
     "name": "Tenshi no Keshin",
     "order": 40008,
-    "done": false,
     "placeholder": false,
-    "doneBy": null
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNayara%20Kazemori%2FTenshi%20no%20Keshin.png?alt=media&v=1787068563433413",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "zmn7VKPHo813y1g2JEO9",

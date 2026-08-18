@@ -332,7 +332,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
           </div>
         ) : (
           <ImageUploadButton
-            pathPrefix={item.type === 'timeline' ? `Galeria/Linha do Tempo/${item.temporada}` : item.type === 'transformacao' ? `Galeria/Modos e Transformacoes/${item.temporada}` : item.type === 'capa' ? `Galeria/Capas/${item.temporada}` : `Galeria/${item.temporada}/${item.arco}${item.subarco ? `/${item.subarco}` : ''}`}
+            pathPrefix={item.type === 'timeline' ? `Galeria/Linha do Tempo/${item.temporada}` : item.type === 'transformacao' ? `Galeria/Modos e Transformações/${item.temporada}` : item.type === 'capa' ? `Galeria/Capas/${item.temporada}` : `Galeria/${item.temporada}/${item.arco}${item.subarco ? `/${item.subarco}` : ''}`}
             fileName={item.name}
             onUploaded={url => handleSetImage(item, url)}
             iconOnly
