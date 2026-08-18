@@ -6692,7 +6692,7 @@
         "level": 9
       },
       {
-        "name": "Hachimon Tonko",
+        "name": "Hachimon Tonkou",
         "level": 9
       },
       {
@@ -7788,12 +7788,9 @@
       "Aquele que Nega Ações",
       "Erro do Projeto Salvador"
     ],
-    "nc": 16,
     "position": "Terceiro Degrau",
     "role": "Suporte",
     "description": "Shikaki Nara é um dos casos mais raros já registrados dentro do Projeto Salvador. Diferente dos demais, ele não desenvolveu uma Bijū Profana após a exposição ao Chakra Profano.\n\nSua mente, altamente lógica e estruturada, rejeitou completamente a criação de uma entidade simbólica, forçando-o a controlar diretamente um poder instável que normalmente exigiria um intermediário para evitar colapso.\n\nEssa anomalia resultou em um estilo de combate único: Shikaki não manipula apenas sombras, mas a própria execução das ações dentro delas. Em sua presença, movimentos falham, decisões não se concretizam e técnicas deixam de existir antes mesmo de acontecer.\n\nEle não domina o campo de batalha pela força… mas pela negação absoluta das possibilidades do inimigo.",
-    "hp": 114,
-    "chakra": 58,
     "arsenal": [
       38
     ],
@@ -7822,25 +7819,6 @@
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F5__Temporada.png?alt=media&v=1784751346459",
         "caption": "5ª Temporada",
         "category": "era"
-      }
-    ],
-    "stats": {
-      "strength": 6,
-      "dexterity": 16,
-      "agility": 6,
-      "intelligence": 16,
-      "spirit": 16,
-      "vigor": 8,
-      "perception": 16
-    },
-    "powers": [
-      {
-        "name": "Kage Mane",
-        "level": 8
-      },
-      {
-        "name": "Fuinjutsu",
-        "level": 8
       }
     ],
     "aptitudes": [
@@ -7901,7 +7879,33 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FTecnicas%2F04%20-%20Kage%20Mane%20no%20Jutsu.png?alt=media&v=1786651903388502"
       }
     ],
-    "chakraColor": "#8b8b9a"
+    "chakraColor": "#8b8b9a",
+    "nc": 22,
+    "stats": {
+      "dexterity": 22,
+      "strength": 8,
+      "vigor": 16,
+      "spirit": 22,
+      "agility": 8,
+      "intelligence": 22,
+      "perception": 22
+    },
+    "hp": 168,
+    "chakra": 76,
+    "powers": [
+      {
+        "name": "Kage Mane",
+        "level": 11
+      },
+      {
+        "name": "Doton",
+        "level": 11
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 11
+      }
+    ]
   },
   {
     "__docId": "shikatsu-nara-togo-kage",
@@ -9235,16 +9239,47 @@
     ],
     "id": 42,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1786651905637475",
+    "chakraColor": "#b5793a",
+    "nc": 22,
+    "stats": {
+      "dexterity": 22,
+      "strength": 8,
+      "vigor": 18,
+      "spirit": 22,
+      "agility": 8,
+      "intelligence": 20,
+      "perception": 22
+    },
+    "hp": 174,
+    "chakra": 76,
+    "powers": [
+      {
+        "name": "Jiton",
+        "level": 11
+      },
+      {
+        "name": "Sakin",
+        "level": 11
+      },
+      {
+        "name": "Satetsu",
+        "level": 11
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 11
+      }
+    ],
     "techniques": [
       {
-        "name": "Kinjiton: Tetsu no Teikoku",
+        "name": "Jiton: Tetsu no Teikoku",
         "classification": "S++",
         "nature": "Sakin + Satetsu",
         "description": "Yasuo libera simultaneamente sua Sakin e sua Satetsu, cobrindo todo o campo de batalha com duas massas distintas de areia profana. A Sakin assume a função de domínio, defesa e aprisionamento, criando muralhas, correntes, braços colossais e estruturas que absorvem chakra. A Satetsu atua como lâmina, perfuração e execução, formando espinhos, lanças, tempestades metálicas e prisões magnéticas.\n\nSob o efeito do Chakra Profano, cada grão passa a reagir ao fluxo energético dos inimigos. Técnicas lançadas contra Yasuo são parcialmente drenadas, movimentos são dificultados pelo aumento de peso da areia e qualquer alvo preso começa a ter seu chakra comprimido junto ao corpo.\n\nNo auge da técnica, Yasuo ergue um império de Sakin e ferro negro, onde defesa e ataque acontecem ao mesmo tempo. Dentro desse território, aproximar-se dele significa ser soterrado, perfurado ou esmagado antes mesmo de concluir uma ação ofensiva.",
         "destruction": "Domínio total de campo. Pode esmagar múltiplos inimigos, bloquear ataques massivos, perfurar defesas avançadas e drenar chakra em larga escala.",
         "history": "A técnica nasceu quando Yasuo foi forçado a controlar suas duas areias simultaneamente durante uma batalha contra usuários de técnicas destrutivas em área. O Chakra Profano, que inicialmente ameaçava desestabilizar sua areia, foi dominado e dividido entre defesa dourada e execução metálica.",
         "status": "Extremamente exigente. Requer controle absoluto sobre duas massas de areia com propriedades diferentes. O uso prolongado pode causar sobrecarga muscular, sangramento nasal e perda temporária de sensibilidade nos braços.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FTecnicas%2F01%20-%20Kinjiton%3A%20Tetsu%20no%20Teikoku.png?alt=media&v=1786651904568195"
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FTecnicas%2F01%20-%20Jiton%3A%20Tetsu%20no%20Teikoku.png?alt=media&v=1787061934957329"
       },
       {
         "name": "Satetsu: Kurohari",
@@ -9285,37 +9320,6 @@
         "history": "Desenvolvida para combates de curta distância contra inimigos velozes.",
         "status": "Aumenta o peso corporal e reduz levemente a velocidade.",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FTecnicas%2F05%20-%20Sabaku%3A%20Kin%20no%20K%C5%8Dtei.png?alt=media&v=1786651905201795"
-      }
-    ],
-    "chakraColor": "#b5793a",
-    "nc": 22,
-    "stats": {
-      "dexterity": 22,
-      "strength": 8,
-      "vigor": 18,
-      "spirit": 22,
-      "agility": 8,
-      "intelligence": 20,
-      "perception": 22
-    },
-    "hp": 174,
-    "chakra": 76,
-    "powers": [
-      {
-        "name": "Jiton",
-        "level": 11
-      },
-      {
-        "name": "Sakin",
-        "level": 11
-      },
-      {
-        "name": "Satetsu",
-        "level": 11
-      },
-      {
-        "name": "Fuinjutsu",
-        "level": 11
       }
     ]
   },

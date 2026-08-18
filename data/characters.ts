@@ -553,7 +553,7 @@ export const initialData: Character[] = [
       { name: "Katon", level: 9 },
       { name: "Doton", level: 9 },
       { name: "Jinton", level: 9 },
-      { name: "Hachimon Tonko", level: 9 },
+      { name: "Hachimon Tonkou", level: 9 },
       { name: "Senjutsu", level: 2 }
     ],
     aptitudes: [
@@ -4442,12 +4442,12 @@ export const initialData: Character[] = [
     clan: "Nara",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Executor do Vazio", "Aquele que Nega Ações", "Erro do Projeto Salvador"],
-    nc: 16,
+    nc: 22,
     position: "Terceiro Degrau",
     role: "Suporte",
     description: "Shikaki Nara é um dos casos mais raros já registrados dentro do Projeto Salvador. Diferente dos demais, ele não desenvolveu uma Bijū Profana após a exposição ao Chakra Profano.\n\nSua mente, altamente lógica e estruturada, rejeitou completamente a criação de uma entidade simbólica, forçando-o a controlar diretamente um poder instável que normalmente exigiria um intermediário para evitar colapso.\n\nEssa anomalia resultou em um estilo de combate único: Shikaki não manipula apenas sombras, mas a própria execução das ações dentro delas. Em sua presença, movimentos falham, decisões não se concretizam e técnicas deixam de existir antes mesmo de acontecer.\n\nEle não domina o campo de batalha pela força… mas pela negação absoluta das possibilidades do inimigo.",
-    hp: 114,
-    chakra: 58,
+    hp: 168,
+    chakra: 76,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FShikaki%20Nara.jpg?alt=media&v=1786651903392397",
     techniques: [
       {
@@ -4499,10 +4499,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F4__Temporada.png?alt=media&v=1784658594089126", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F5__Temporada.png?alt=media&v=1784751346459", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 16, spirit: 16, vigor: 8, perception: 16 },
+    stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [
-      { name: "Kage Mane", level: 8 },
-      { name: "Fuinjutsu", level: 8 }
+      { name: "Kage Mane", level: 11 },
+      { name: "Doton", level: 11 },
+      { name: "Fuinjutsu", level: 11 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -4636,14 +4637,14 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1786651905637475",
     techniques: [
       {
-        name: "Kinjiton: Tetsu no Teikoku",
+        name: "Jiton: Tetsu no Teikoku",
         classification: "S++",
         nature: "Sakin + Satetsu",
         description: "Yasuo libera simultaneamente sua Sakin e sua Satetsu, cobrindo todo o campo de batalha com duas massas distintas de areia profana. A Sakin assume a função de domínio, defesa e aprisionamento, criando muralhas, correntes, braços colossais e estruturas que absorvem chakra. A Satetsu atua como lâmina, perfuração e execução, formando espinhos, lanças, tempestades metálicas e prisões magnéticas.\n\nSob o efeito do Chakra Profano, cada grão passa a reagir ao fluxo energético dos inimigos. Técnicas lançadas contra Yasuo são parcialmente drenadas, movimentos são dificultados pelo aumento de peso da areia e qualquer alvo preso começa a ter seu chakra comprimido junto ao corpo.\n\nNo auge da técnica, Yasuo ergue um império de Sakin e ferro negro, onde defesa e ataque acontecem ao mesmo tempo. Dentro desse território, aproximar-se dele significa ser soterrado, perfurado ou esmagado antes mesmo de concluir uma ação ofensiva.",
         destruction: "Domínio total de campo. Pode esmagar múltiplos inimigos, bloquear ataques massivos, perfurar defesas avançadas e drenar chakra em larga escala.",
         history: "A técnica nasceu quando Yasuo foi forçado a controlar suas duas areias simultaneamente durante uma batalha contra usuários de técnicas destrutivas em área. O Chakra Profano, que inicialmente ameaçava desestabilizar sua areia, foi dominado e dividido entre defesa dourada e execução metálica.",
         status: "Extremamente exigente. Requer controle absoluto sobre duas massas de areia com propriedades diferentes. O uso prolongado pode causar sobrecarga muscular, sangramento nasal e perda temporária de sensibilidade nos braços.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FTecnicas%2F01%20-%20Kinjiton%3A%20Tetsu%20no%20Teikoku.png?alt=media&v=1786651904568195"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FTecnicas%2F01%20-%20Jiton%3A%20Tetsu%20no%20Teikoku.png?alt=media&v=1787061934957329"
       },
       {
         name: "Satetsu: Kurohari",
