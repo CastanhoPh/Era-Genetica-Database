@@ -15,7 +15,9 @@
     "deploy": "vite build && node scripts/prerender-og.mjs && firebase deploy --only hosting --project era-genetica-db",
     "login": "firebase login",
     "backup": "node scripts/backup-firestore.mjs",
-    "backup:check": "node scripts/backup-firestore.mjs --check"
+    "backup:check": "node scripts/backup-firestore.mjs --check",
+    "eventos:check": "node scripts/reconcile-eventos.mjs",
+    "eventos:fix": "node scripts/reconcile-eventos.mjs --apply"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
