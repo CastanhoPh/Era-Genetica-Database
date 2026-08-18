@@ -71,7 +71,7 @@ const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.
   </div>
 );
 
-const PANEL_TABS = ['geral', 'personagens', 'arsenal', 'producao', 'prototipos', 'classificacoes', 'canva', 'links'] as const;
+const PANEL_TABS = ['geral', 'personagens', 'arsenal', 'producao', 'prototipos', 'classificacoes', 'canva', 'eventos', 'links'] as const;
 type PanelTab = typeof PANEL_TABS[number];
 
 const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => {
@@ -123,6 +123,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [canvaSearch, setCanvaSearch] = useState('');
   const [canvaState, setCanvaState] = useState<'todos' | 'falta' | 'pronta'>('todos');
   const [canvaTextOf, setCanvaTextOf] = useState<string | null>(null);
+  const [evBusca, setEvBusca] = useState('');
+  const [evFiltro, setEvFiltro] = useState<'todos' | 'vazios' | 'preenchidos' | 'comArte'>('todos');
+  const [evTemporada, setEvTemporada] = useState<string | null>(null);
   // evento aberto no seletor de participantes, e busca dentro dele
   const [quemDoEvento, setQuemDoEvento] = useState<string | null>(null);
   const [quemBusca, setQuemBusca] = useState('');
@@ -398,6 +401,27 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       setQuemSalvando(null);
     }
   }, [eventoAberto, characters]);
+
+  // Aba Eventos: os mesmos itens do projeto Eventos, mas o assunto aqui é quem estava em cada um.
+  const eventosLista = useMemo(
+    () => (canvaData.find(p => p.tipo === 'evento')?.itens ?? []),
+    [canvaData],
+  );
+  const eventoTemporadas = useMemo(
+    () => [...new Set(eventosLista.map(i => i.item.temporada))],
+    [eventosLista],
+  );
+  const eventosFiltrados = useMemo(() => {
+    const termo = evBusca.trim().toLowerCase();
+    return eventosLista.filter(i =>
+      (evFiltro === 'todos'
+        || (evFiltro === 'vazios' && !i.personagens.length)
+        || (evFiltro === 'preenchidos' && i.personagens.length > 0)
+        || (evFiltro === 'comArte' && i.pronta))
+      && (!evTemporada || i.item.temporada === evTemporada)
+      && (!termo || i.titulo.toLowerCase().includes(termo) || i.personagens.some(n => n.toLowerCase().includes(termo))));
+  }, [eventosLista, evBusca, evFiltro, evTemporada]);
+  const eventosComAlguem = useMemo(() => eventosLista.filter(i => i.personagens.length).length, [eventosLista]);
 
   const canvaFiltrado = useMemo(() => {
     const termo = canvaSearch.trim().toLowerCase();
@@ -759,6 +783,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           { key: 'prototipos' as const, label: 'Protótipos' },
           { key: 'classificacoes' as const, label: 'Classificações' },
           { key: 'canva' as const, label: 'Canva' },
+          { key: 'eventos' as const, label: 'Eventos' },
           { key: 'links' as const, label: 'Links' },
         ]).map(t => (
           <button
@@ -1893,29 +1918,6 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                       <tr key={i.docId ?? i.pag} className="border-b border-tech-border/40 last:border-0 hover:bg-tech-panel/50 align-top">
                         <td className="py-1 pl-3 pr-3 text-right w-12 text-tech-primary/40 tabular-nums">{i.pag}</td>
                         <td className="py-1 pr-3 text-tech-primary/90">{i.titulo}</td>
-                        {p.tipo === 'evento' && (
-                          <td className="py-1 pr-3 w-[34%]">
-                            <div className="flex flex-wrap items-center gap-1">
-                              {i.personagens.map(n => (
-                                <span
-                                  key={n}
-                                  title={characters.some(c => c.name === n) ? n : `${n} — sem ficha ainda, guardado`}
-                                  className={`text-[9px] px-1.5 py-0.5 border ${characters.some(c => c.name === n) ? 'border-tech-primary/60 text-tech-primary' : 'border-dashed border-orange-400/50 text-orange-400/80'}`}
-                                >
-                                  {n.split(' ')[0]}
-                                </span>
-                              ))}
-                              <button
-                                type="button"
-                                onClick={() => { setQuemDoEvento(i.docId ?? null); setQuemBusca(''); setQuemErro(null); }}
-                                className="text-[9px] uppercase tracking-widest px-1.5 py-0.5 border border-dashed border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary"
-                              >
-                                {i.personagens.length ? 'editar' : '+ quem estava'}
-                              </button>
-                              {quemSalvando === i.docId && <Loader size={10} className="animate-spin text-tech-primary" />}
-                            </div>
-                          </td>
-                        )}
                         <td className="py-1 pr-3 w-24 whitespace-nowrap">
                           {i.pronta
                             ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary border border-tech-primary px-1.5 py-0.5">pronta</span>
@@ -1926,7 +1928,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                       </tr>
                     ))}
                     {p.visiveis.length === 0 && (
-                      <tr><td colSpan={p.tipo === 'evento' ? 4 : 3} className="py-5 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nada neste projeto com esse filtro.</td></tr>
+                      <tr><td colSpan={3} className="py-5 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nada neste projeto com esse filtro.</td></tr>
                     )}
                   </tbody>
                 </table>
@@ -1949,6 +1951,135 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
               )}
             </div>
           ))}
+        </div>
+      </section>
+      )}
+
+      {activeTab === 'eventos' && (
+      <section>
+        <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <span>Quem estava em cada evento</span>
+          <span className="flex-1 h-px bg-tech-border"></span>
+        </div>
+
+        <p className="text-[11px] text-tech-primary/50 mb-4 max-w-3xl leading-relaxed">
+          Marcar alguém aqui coloca a imagem do evento na aba <span className="text-tech-primary">Eventos</span> da
+          ficha dele, na hora — não existe botão de salvar. Quem ainda não tem ficha (protótipo ou
+          pendente) fica guardado no evento e passa a aparecer no dia em que a ficha existir.
+        </p>
+
+        <div className="border border-tech-border bg-tech-panel/30 p-4 mb-5">
+          <div className="flex flex-wrap items-center gap-3 mb-3">
+            <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide">
+              <span className="text-white text-lg font-black">{eventosComAlguem}</span>
+              <span className="text-tech-primary/40">/{eventosLista.length} eventos com alguém marcado</span>
+            </div>
+            <div className="flex-1 min-w-[120px] h-1 bg-black border border-tech-border overflow-hidden">
+              <div
+                className="h-full bg-tech-primary transition-all duration-500"
+                style={{ width: `${eventosLista.length ? Math.round((eventosComAlguem / eventosLista.length) * 100) : 0}%` }}
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="relative flex-1 min-w-[200px]">
+              <Search size={12} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-tech-primary/40" />
+              <input
+                type="search"
+                value={evBusca}
+                onChange={e => setEvBusca(e.target.value)}
+                placeholder="buscar evento ou quem está marcado..."
+                className="w-full bg-black border border-tech-border pl-8 pr-2 py-2 text-[11px] text-tech-primary placeholder:text-tech-primary/30 focus:border-tech-primary outline-none"
+              />
+            </div>
+            {([
+              { k: 'todos' as const, l: 'Todos' },
+              { k: 'vazios' as const, l: 'Sem ninguém' },
+              { k: 'preenchidos' as const, l: 'Preenchidos' },
+              { k: 'comArte' as const, l: 'Com arte' },
+            ]).map(f => (
+              <button
+                key={f.k}
+                type="button"
+                onClick={() => setEvFiltro(f.k)}
+                className={`px-2.5 py-2 border text-[9px] font-bold uppercase tracking-widest transition-all ${evFiltro === f.k ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/50 hover:text-tech-primary'}`}
+              >
+                {f.l}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap gap-1.5 mt-2">
+            {eventoTemporadas.map(t => (
+              <button
+                key={t}
+                type="button"
+                onClick={() => setEvTemporada(evTemporada === t ? null : t)}
+                className={`px-2 py-1 border text-[9px] uppercase tracking-widest transition-all ${evTemporada === t ? 'bg-tech-primary/20 border-tech-primary text-tech-primary' : 'border-tech-border/60 text-tech-primary/40 hover:text-tech-primary/80'}`}
+              >
+                {t} <span className="opacity-50">{eventosLista.filter(i => i.item.temporada === t).length}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="border border-tech-border bg-tech-panel/20">
+          <table className="w-full text-[11px]">
+            <thead>
+              <tr className="bg-tech-panel/60 text-tech-primary/40 text-[9px] uppercase tracking-widest">
+                <th className="py-2 pl-3 pr-3 text-right w-12 font-normal">Pág.</th>
+                <th className="py-2 pr-3 text-left font-normal">Evento</th>
+                <th className="py-2 pr-3 text-left font-normal">Quem estava</th>
+                <th className="py-2 pr-3 text-left font-normal w-20">Arte</th>
+              </tr>
+            </thead>
+            <tbody>
+              {eventosFiltrados.map(i => (
+                <tr key={i.docId} className="border-t border-tech-border/40 hover:bg-tech-panel/50 align-top">
+                  <td className="py-1.5 pl-3 pr-3 text-right text-tech-primary/40 tabular-nums">{i.pag}</td>
+                  <td className="py-1.5 pr-3 text-tech-primary/90 max-w-[360px]">
+                    <span className="block text-[9px] uppercase tracking-widest text-tech-primary/35">{i.item.temporada}</span>
+                    {[i.item.arco, i.item.subarco, i.item.name].filter(Boolean).join(' · ')}
+                  </td>
+                  <td className="py-1.5 pr-3 w-[38%]">
+                    <div className="flex flex-wrap items-center gap-1">
+                      {i.personagens.map(n => {
+                        const temFicha = characters.some(c => c.name === n);
+                        return (
+                          <span
+                            key={n}
+                            title={temFicha ? n : `${n} — sem ficha ainda, guardado`}
+                            className={`text-[9px] px-1.5 py-0.5 border ${temFicha ? 'border-tech-primary/60 text-tech-primary' : 'border-dashed border-orange-400/50 text-orange-400/80'}`}
+                          >
+                            {n.split(' ')[0]}
+                          </span>
+                        );
+                      })}
+                      <button
+                        type="button"
+                        onClick={() => { setQuemDoEvento(i.docId ?? null); setQuemBusca(''); setQuemErro(null); }}
+                        className="text-[9px] uppercase tracking-widest px-1.5 py-0.5 border border-dashed border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary"
+                      >
+                        {i.personagens.length ? 'editar' : '+ quem estava'}
+                      </button>
+                      {quemSalvando === i.docId && <Loader size={10} className="animate-spin text-tech-primary" />}
+                    </div>
+                  </td>
+                  <td className="py-1.5 pr-3 whitespace-nowrap">
+                    {i.pronta
+                      ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary border border-tech-primary px-1.5 py-0.5">pronta</span>
+                      : i.placeholder
+                        ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary/30 border border-tech-primary/30 px-1.5 py-0.5">placeholder</span>
+                        : <span className="text-[9px] font-bold uppercase tracking-widest text-orange-400 border border-orange-400/60 px-1.5 py-0.5">a fazer</span>}
+                  </td>
+                </tr>
+              ))}
+              {eventosFiltrados.length === 0 && (
+                <tr><td colSpan={4} className="py-6 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nenhum evento com esse filtro.</td></tr>
+              )}
+            </tbody>
+          </table>
         </div>
 
         {/* Seletor de participantes: fixo no rodapé, um evento por vez. Cada clique grava na hora,
