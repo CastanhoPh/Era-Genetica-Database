@@ -36,11 +36,13 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const [forceColor, setForceColor] = useState(false);
   const [hideMask, setHideMask] = useState(false);
   const eraStripRef = useRef<HTMLDivElement>(null);
-  const scrollEraStrip = (direction: 1 | -1) => {
-    const el = eraStripRef.current;
+  const modoStripRef = useRef<HTMLDivElement>(null);
+  const scrollStrip = (ref: React.RefObject<HTMLDivElement | null>, direction: 1 | -1) => {
+    const el = ref.current;
     if (!el) return;
     el.scrollBy({ left: direction * el.clientWidth * 0.8, behavior: 'smooth' });
   };
+  const scrollEraStrip = (direction: 1 | -1) => scrollStrip(eraStripRef, direction);
 
   const copyLink = () => {
     if (!char?.docId) return;
@@ -185,6 +187,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const characterGallery = char.gallery || [];
   const galleryWithIndex = characterGallery.map((img, idx) => ({ img, idx }));
   const eraGallery = galleryWithIndex.filter(({ img }) => img.category === 'era');
+  const transformacaoGallery = galleryWithIndex.filter(({ img }) => img.category === 'transformacao');
   const eventoGallery = galleryWithIndex.filter(({ img }) => img.category === 'evento');
 
   // Aba ativa e item selecionado (jutsu/arma/imagem) vêm direto da URL — segmentos depois
@@ -1084,6 +1087,64 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     </div>
                                 )}
 
+                                {/* Modos e Transformações: mesma tira da Linha do Tempo, logo abaixo dela.
+                                    É uma lista aberta (o personagem ganha modo novo quando ganha), não um
+                                    conjunto fechado de fases — por isso seção própria e não mais fases
+                                    avulsas dentro da Linha do Tempo. */}
+                                {transformacaoGallery.length > 0 && (
+                                    <div>
+                                        <div className="flex items-center gap-3 mb-4">
+                                            <h3 className="text-xs font-bold text-black bg-tech-accent p-1 pl-2 uppercase clip-corner-sm">Modos e Transformações</h3>
+                                            <span className="h-px flex-1 bg-tech-border"></span>
+                                        </div>
+                                        <div className="relative group/strip">
+                                            <button
+                                                type="button"
+                                                onClick={() => scrollStrip(modoStripRef, -1)}
+                                                className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 z-40 items-center justify-center w-8 h-8 -ml-3 bg-black/90 border border-tech-accent text-tech-accent hover:bg-tech-accent hover:text-black transition-colors opacity-0 group-hover/strip:opacity-100"
+                                                title="Voltar"
+                                            >
+                                                <ChevronLeft size={16} />
+                                            </button>
+                                            <div ref={modoStripRef} className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-custom scroll-smooth">
+                                                {transformacaoGallery.map(({ img, idx }, i) => (
+                                                    <button
+                                                        key={idx}
+                                                        onClick={() => goToGalleryImage(idx)}
+                                                        className={`group relative shrink-0 w-40 sm:w-48 aspect-[2/3] border border-tech-border bg-tech-panel/40 overflow-hidden hover:border-tech-accent transition-all duration-300 snap-start ${hideMask ? 'z-[9999]' : ''}`}
+                                                    >
+                                                        <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
+                                                        <div className="absolute top-2 left-2 z-30 bg-tech-accent text-black text-[8px] font-black w-5 h-5 flex items-center justify-center clip-corner-sm">
+                                                            {i + 1}
+                                                        </div>
+                                                        <img
+                                                            loading="lazy"
+                                                            decoding="async"
+                                                            src={formatImageUrl(img.url)}
+                                                            alt={img.caption || char.name}
+                                                            className={`w-full h-full object-cover transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
+                                                        />
+                                                        {!hideMask && img.caption && (
+                                                            <>
+                                                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent pointer-events-none z-20" />
+                                                                <span className="absolute bottom-1 left-1 right-1 text-[10px] text-white leading-tight line-clamp-2 text-left pointer-events-none z-20">{img.caption}</span>
+                                                            </>
+                                                        )}
+                                                    </button>
+                                                ))}
+                                            </div>
+                                            <button
+                                                type="button"
+                                                onClick={() => scrollStrip(modoStripRef, 1)}
+                                                className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 z-40 items-center justify-center w-8 h-8 -mr-3 bg-black/90 border border-tech-accent text-tech-accent hover:bg-tech-accent hover:text-black transition-colors opacity-0 group-hover/strip:opacity-100"
+                                                title="Avançar"
+                                            >
+                                                <ChevronRight size={16} />
+                                            </button>
+                                        </div>
+                                    </div>
+                                )}
+
                                 {eventoGallery.length > 0 && (
                                     <div>
                                         <div className="flex items-center gap-3 mb-4">
@@ -1167,7 +1228,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     </div>
                                 )}
 
-                                {eraGallery.length === 0 && eventoGallery.length === 0 && (
+                                {eraGallery.length === 0 && transformacaoGallery.length === 0 && eventoGallery.length === 0 && (
                                     <div className="h-64 flex flex-col items-center justify-center border border-tech-border border-dashed bg-tech-panel/10">
                                         <ImageIcon size={32} className="text-tech-dim mb-4" />
                                         <span className="text-xs text-tech-dim uppercase tracking-widest">Nenhuma imagem registrada na galeria.</span>

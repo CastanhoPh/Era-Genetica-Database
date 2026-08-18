@@ -33,7 +33,8 @@ export interface Technique {
 export interface GalleryImage {
   url: string;
   caption?: string;
-  category: 'era' | 'evento';
+  /** "era" = fase da Linha do Tempo · "transformacao" = Modo/Transformação · "evento" = cena. */
+  category: 'era' | 'evento' | 'transformacao';
   /** Só relevante para category "evento": qual temporada/arco (1ª a 5ª Temporada). */
   season?: string;
 }
@@ -43,13 +44,20 @@ export const EVENT_SEASONS = ['1ª Temporada', '2ª Temporada', '3ª Temporada',
 // Item da checklist de produção de imagens (organizada por Temporada > Arco > Subarco).
 // Também reaproveitado para a Linha do Tempo (type: "timeline"): nesse caso
 // `temporada` guarda o nome do personagem e `arco` guarda a fase da linha do tempo.
+// Mesma coisa para Modos e Transformações (type: "transformacao"), com `arco` guardando o
+// nome do modo (ex: "Manto Matatabi V1") — é uma lista aberta, não um conjunto fechado de
+// fases como a Linha do Tempo.
 // E para Capa (type: "capa"): um item por personagem, com `temporada`, `arco` e `name`
 // todos iguais ao nome do personagem (mesmo padrão "achatado" da Linha do Tempo, um nível
 // mais raso — não existe fase, só a capa em si).
+//
+// Cada type corresponde a um projeto do Canva, 1 pra 1 — é o que permite mapear página do
+// design para item do checklist. Por isso Modos e Transformações é um type próprio, e não
+// mais fases avulsas dentro de "timeline".
 export interface ChecklistItem {
   docId?: string;
-  /** Ausente ou "evento" = checklist de Eventos (padrão). "timeline" = Linha do Tempo. "capa" = Capa. */
-  type?: 'evento' | 'timeline' | 'capa';
+  /** Ausente ou "evento" = checklist de Eventos (padrão). "timeline" = Linha do Tempo. "capa" = Capa. "transformacao" = Modos e Transformações. */
+  type?: 'evento' | 'timeline' | 'capa' | 'transformacao';
   temporada: string;
   arco: string;
   subarco?: string;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, MapPin, FlaskConical, Trash2, UserCheck, UserX, HeartPulse, Award, Link as LinkIcon } from 'lucide-react';
+import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, MapPin, FlaskConical, Trash2, UserCheck, UserX, HeartPulse, Award, Sparkles, Link as LinkIcon } from 'lucide-react';
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
@@ -20,7 +20,7 @@ interface StorageStats {
 
 // Aba "Links": catálogo de toda imagem do sistema, para pegar a URL de qualquer uma sem
 // precisar abrir a ficha ou o console do Firebase.
-const IMAGE_LINK_KINDS = ['Capas', 'Linha do Tempo', 'Eventos', 'Técnicas', 'Arsenal'] as const;
+const IMAGE_LINK_KINDS = ['Capas', 'Linha do Tempo', 'Modos e Transformações', 'Eventos', 'Técnicas', 'Arsenal'] as const;
 type ImageLinkKind = typeof IMAGE_LINK_KINDS[number];
 
 interface ImageLink {
@@ -190,8 +190,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const deadCount = characters.filter(c => c.isDead).length;
   const totalTechniques = characters.reduce((sum, c) => sum + (c.techniques?.length || 0), 0);
   const totalTimelineImages = checklistItems.filter(i => i.type === 'timeline' && !!i.imageUrl).length;
+  const totalTransformacaoImages = checklistItems.filter(i => i.type === 'transformacao' && !!i.imageUrl).length;
   const totalEventoImages = checklistItems.filter(i => (i.type ?? 'evento') === 'evento' && !!i.imageUrl).length;
-  const totalGalleryImages = totalTimelineImages + totalEventoImages;
+  const totalGalleryImages = totalTimelineImages + totalTransformacaoImages + totalEventoImages;
   const totalImageRefs = characters.length + arsenalItems.length + totalTechniques + totalGalleryImages;
 
   // Painel de personagens (aba Personagens): com ficha vs. só pendentes, vivos/mortos, e o
@@ -343,7 +344,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   //  · O item do checklist é classificado pelo `type` dele, não como um balde "Checklist" — é
   //    assim que a arte de evento (que só existe no checklist) chega à categoria "Eventos".
   const imageLinks = useMemo<ImageLink[]>(() => {
-    const PRIORIDADE: ImageLinkKind[] = ['Capas', 'Linha do Tempo', 'Técnicas', 'Arsenal', 'Eventos'];
+    const PRIORIDADE: ImageLinkKind[] = ['Capas', 'Linha do Tempo', 'Modos e Transformações', 'Técnicas', 'Arsenal', 'Eventos'];
     const porUrl = new Map<string, ImageLink>();
     const registra = (l: ImageLink) => {
       const chave = stripVersion(l.url);
@@ -357,7 +358,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       for (const g of c.gallery ?? []) {
         if (!g.url) continue;
         registra({
-          kind: g.category === 'era' ? 'Linha do Tempo' : 'Eventos',
+          kind: g.category === 'era' ? 'Linha do Tempo' : g.category === 'transformacao' ? 'Modos e Transformações' : 'Eventos',
           owner: c.name,
           detail: g.caption || '(sem legenda)',
           url: g.url,
@@ -380,9 +381,10 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       // rótulo com os três sairia "Oddy Uchiha · Oddy Uchiha · Oddy Uchiha".
       const detail = tipo === 'capa'
         ? 'capa no checklist de produção'
+        : tipo === 'transformacao' ? i.arco
         : i.subarco ? `${i.arco} · ${i.subarco} · ${i.name}` : `${i.arco} · ${i.name}`;
       registra({
-        kind: tipo === 'timeline' ? 'Linha do Tempo' : tipo === 'capa' ? 'Capas' : 'Eventos',
+        kind: tipo === 'timeline' ? 'Linha do Tempo' : tipo === 'transformacao' ? 'Modos e Transformações' : tipo === 'capa' ? 'Capas' : 'Eventos',
         owner: i.temporada,
         detail,
         url: i.imageUrl,
@@ -688,6 +690,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           <StatCard icon={Scroll} label="Técnicas cadastradas" value={totalTechniques} />
           <StatCard icon={Shield} label="Arsenal" value={arsenalItems.length} />
           <StatCard icon={Clock} label="Linha do tempo" value={totalTimelineImages} />
+          <StatCard icon={Sparkles} label="Modos e transf." value={totalTransformacaoImages} />
           <StatCard icon={Images} label="Eventos" value={totalEventoImages} />
         </div>
       </section>

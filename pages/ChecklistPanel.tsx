@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon } from 'lucide-react';
+import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles } from 'lucide-react';
 import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem } from '../types';
@@ -31,7 +31,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const [pending, setPending] = useState<Set<string>>(new Set());
   const [editMode, setEditMode] = useState(false);
   const [activeFilter, setActiveFilter] = useState<'none' | 'pendentes' | 'sem-galeria'>('none');
-  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'geral'>('geral');
+  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'geral'>('geral');
 
   // formulários de "adicionar" abertos (chave = temporada, temporada::arco, ou temporada::arco::subarco)
   const [addingTemporada, setAddingTemporada] = useState(false);
@@ -66,11 +66,24 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
 
   const isTimeline = activeType === 'timeline';
   const isCapa = activeType === 'capa';
+  const isTransformacao = activeType === 'transformacao';
   const isGeral = activeType === 'geral';
   // Tipo usado ao criar um item novo — a aba "Geral" mistura os outros tipos, então criar
   // por lá sempre cai em "evento" (comportamento já existente, só nomeado agora).
-  const currentType: ChecklistItem['type'] = isTimeline ? 'timeline' : isCapa ? 'capa' : 'evento';
-  const labels = isTimeline
+  const currentType: ChecklistItem['type'] = isTimeline ? 'timeline' : isCapa ? 'capa' : isTransformacao ? 'transformacao' : 'evento';
+  const labels = isTransformacao
+    ? {
+      subtitle: 'Marque aqui os modos e transformações já finalizados de cada personagem',
+      temporadaLabel: 'Personagem',
+      arcoLabel: 'Modo',
+      newTemporadaBtn: 'Novo Personagem',
+      temporadaPlaceholder: 'Nome do personagem',
+      firstArcoPlaceholder: 'Nome do primeiro modo',
+      arcoPlaceholder: 'Nome do modo',
+      addArcoTitle: 'Adicionar modo',
+      emptyChecklist: 'Nenhum modo ou transformação cadastrado ainda.',
+    }
+    : isTimeline
     ? {
       subtitle: 'Marque aqui as imagens já finalizadas da linha do tempo de cada personagem',
       temporadaLabel: 'Personagem',
@@ -96,7 +109,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
       }
       : isGeral
         ? {
-          subtitle: 'Todas as imagens de Eventos, Linha do Tempo e Capa, juntas',
+          subtitle: 'Todas as imagens de Eventos, Linha do Tempo, Modos e Capa, juntas',
           temporadaLabel: '',
           arcoLabel: '',
           newTemporadaBtn: '',
@@ -319,7 +332,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
           </div>
         ) : (
           <ImageUploadButton
-            pathPrefix={item.type === 'timeline' ? `Galeria/Linha do Tempo/${item.temporada}` : item.type === 'capa' ? `Galeria/Capas/${item.temporada}` : `Galeria/${item.temporada}/${item.arco}${item.subarco ? `/${item.subarco}` : ''}`}
+            pathPrefix={item.type === 'timeline' ? `Galeria/Linha do Tempo/${item.temporada}` : item.type === 'transformacao' ? `Galeria/Modos e Transformacoes/${item.temporada}` : item.type === 'capa' ? `Galeria/Capas/${item.temporada}` : `Galeria/${item.temporada}/${item.arco}${item.subarco ? `/${item.subarco}` : ''}`}
             fileName={item.name}
             onUploaded={url => handleSetImage(item, url)}
             iconOnly
@@ -452,6 +465,13 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
             className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'timeline' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <Clock size={12} /> Linha do Tempo
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveType('transformacao')}
+            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'transformacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+          >
+            <Sparkles size={12} /> Modos
           </button>
           <button
             type="button"
