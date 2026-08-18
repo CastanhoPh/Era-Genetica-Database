@@ -1,10 +1,10 @@
-import React, { useState, useEffect, lazy, Suspense } from 'react';
+import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import {
   X, Shield, Zap, Star, Backpack, Scroll, Heart, Activity,
   BicepsFlexed, Hand, Move, Brain, Ghost, Eye, Terminal, Lock, Skull, Flame,
   AlertTriangle, Fingerprint, Binary, Image as ImageIcon,
-  ChevronRight, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine
+  ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine
 } from 'lucide-react';
 import { Character, EVENT_SEASONS } from '../types';
 import { Equipment } from '../types/Equipment';
@@ -35,6 +35,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const [linkCopied, setLinkCopied] = useState(false);
   const [forceColor, setForceColor] = useState(false);
   const [hideMask, setHideMask] = useState(false);
+  const eraStripRef = useRef<HTMLDivElement>(null);
+  const modoStripRef = useRef<HTMLDivElement>(null);
+  const scrollStrip = (ref: React.RefObject<HTMLDivElement | null>, direction: 1 | -1) => {
+    const el = ref.current;
+    if (!el) return;
+    el.scrollBy({ left: direction * el.clientWidth * 0.8, behavior: 'smooth' });
+  };
+  const scrollEraStrip = (direction: 1 | -1) => scrollStrip(eraStripRef, direction);
 
   const copyLink = () => {
     if (!char?.docId) return;
@@ -1055,8 +1063,16 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             <h3 className="text-xs font-bold text-black bg-tech-accent p-1 pl-2 uppercase clip-corner-sm">Linha do Tempo</h3>
                                             <span className="h-px flex-1 bg-tech-border"></span>
                                         </div>
-                                        <div>
-                                            <div className="flex flex-wrap gap-4">
+                                        <div className="relative group/strip">
+                                            <button
+                                                type="button"
+                                                onClick={() => scrollEraStrip(-1)}
+                                                className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 z-40 items-center justify-center w-8 h-8 -ml-3 bg-black/90 border border-tech-accent text-tech-accent hover:bg-tech-accent hover:text-black transition-colors opacity-0 group-hover/strip:opacity-100"
+                                                title="Voltar"
+                                            >
+                                                <ChevronLeft size={16} />
+                                            </button>
+                                            <div ref={eraStripRef} className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-custom scroll-smooth">
                                                 {eraGallery.map(({ img, idx }, i) => (
                                                     <button
                                                         key={idx}
@@ -1080,9 +1096,20 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                                 <span className="absolute bottom-1 left-1 right-1 text-[10px] text-white leading-tight line-clamp-2 text-left pointer-events-none z-20">{img.caption}</span>
                                                             </>
                                                         )}
+                                                        {i < eraGallery.length - 1 && (
+                                                            <div className="hidden sm:block absolute top-1/2 -right-3 -translate-y-1/2 w-3 h-px bg-tech-accent/40 z-30"></div>
+                                                        )}
                                                     </button>
                                                 ))}
                                             </div>
+                                            <button
+                                                type="button"
+                                                onClick={() => scrollEraStrip(1)}
+                                                className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 z-40 items-center justify-center w-8 h-8 -mr-3 bg-black/90 border border-tech-accent text-tech-accent hover:bg-tech-accent hover:text-black transition-colors opacity-0 group-hover/strip:opacity-100"
+                                                title="Avançar"
+                                            >
+                                                <ChevronRight size={16} />
+                                            </button>
                                         </div>
                                     </div>
                                 )}
@@ -1097,8 +1124,16 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             <h3 className="text-xs font-bold text-black bg-tech-accent p-1 pl-2 uppercase clip-corner-sm">Modos e Transformações</h3>
                                             <span className="h-px flex-1 bg-tech-border"></span>
                                         </div>
-                                        <div>
-                                            <div className="flex flex-wrap gap-4">
+                                        <div className="relative group/strip">
+                                            <button
+                                                type="button"
+                                                onClick={() => scrollStrip(modoStripRef, -1)}
+                                                className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 z-40 items-center justify-center w-8 h-8 -ml-3 bg-black/90 border border-tech-accent text-tech-accent hover:bg-tech-accent hover:text-black transition-colors opacity-0 group-hover/strip:opacity-100"
+                                                title="Voltar"
+                                            >
+                                                <ChevronLeft size={16} />
+                                            </button>
+                                            <div ref={modoStripRef} className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-custom scroll-smooth">
                                                 {transformacaoGallery.map(({ img, idx }, i) => (
                                                     <button
                                                         key={idx}
@@ -1125,6 +1160,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                     </button>
                                                 ))}
                                             </div>
+                                            <button
+                                                type="button"
+                                                onClick={() => scrollStrip(modoStripRef, 1)}
+                                                className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 z-40 items-center justify-center w-8 h-8 -mr-3 bg-black/90 border border-tech-accent text-tech-accent hover:bg-tech-accent hover:text-black transition-colors opacity-0 group-hover/strip:opacity-100"
+                                                title="Avançar"
+                                            >
+                                                <ChevronRight size={16} />
+                                            </button>
                                         </div>
                                     </div>
                                 )}
