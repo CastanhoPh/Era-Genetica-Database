@@ -684,7 +684,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           <span>Banco de Dados</span>
           <span className="flex-1 h-px bg-tech-border"></span>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
           <StatCard icon={Database} label="Total" value={totalImageRefs} sub="Personagens + Arsenal + Técnicas + Galeria" />
           <StatCard icon={Users} label="Personagens" value={characters.length} sub={characters.length ? `${deadCount} mortos (${((deadCount / characters.length) * 100).toFixed(0)}%)` : undefined} />
           <StatCard icon={Scroll} label="Técnicas cadastradas" value={totalTechniques} />
