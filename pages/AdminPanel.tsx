@@ -4,7 +4,7 @@ import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, L
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
-import { subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify } from '../data/firestore';
+import { subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS } from '../data/firestore';
 import { Character, ChecklistItem, PrototypeEntry, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
 import { Equipment } from '../types/Equipment';
 
@@ -71,7 +71,7 @@ const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.
   </div>
 );
 
-const PANEL_TABS = ['geral', 'personagens', 'arsenal', 'producao', 'prototipos', 'classificacoes', 'links'] as const;
+const PANEL_TABS = ['geral', 'personagens', 'arsenal', 'producao', 'prototipos', 'classificacoes', 'canva', 'links'] as const;
 type PanelTab = typeof PANEL_TABS[number];
 
 const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => {
@@ -120,6 +120,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [prototypeViewMode, setPrototypeViewMode] = useState<'grid' | 'kanban'>('grid');
   const [classificationVillage, setClassificationVillage] = useState('Konohagakure');
   const [classificationFilter, setClassificationFilter] = useState<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8' | null>(null);
+  const [canvaSearch, setCanvaSearch] = useState('');
+  const [canvaState, setCanvaState] = useState<'todos' | 'falta' | 'pronta'>('todos');
+  const [canvaTextOf, setCanvaTextOf] = useState<string | null>(null);
   const [linkSearch, setLinkSearch] = useState('');
   const [linkKind, setLinkKind] = useState<ImageLinkKind | 'Todas'>('Todas');
   const [linkWithVersion, setLinkWithVersion] = useState(false);
@@ -317,6 +320,49 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     return map;
   }, [characters]);
   // "Todos" junta as 5 vilas (sem OCA, pra não contar quem tem as duas tags duas vezes).
+  // Aba Canva: a ordem definitiva das páginas de cada projeto, lida do checklist ao vivo. Cada
+  // type é um projeto, e o número da página é a POSIÇÃO na faixa, não o `order` cru — assim
+  // inserir um item no meio renumera a exibição sozinho, sem precisar mexer em nada.
+  const CANVA_PROJETOS = useMemo(() => ([
+    { tipo: 'timeline' as const, nome: 'Linha do Tempo', tam: '1080 × 1620', base: CHECKLIST_BLOCOS.timeline },
+    { tipo: 'transformacao' as const, nome: 'Modos e Transformações', tam: '1080 × 1620', base: CHECKLIST_BLOCOS.transformacao },
+    { tipo: 'capa' as const, nome: 'Capas', tam: '1024 × 768 (4:3)', base: CHECKLIST_BLOCOS.capa },
+    { tipo: 'evento' as const, nome: 'Eventos', tam: '1600 × 900 (16:9)', base: CHECKLIST_BLOCOS.evento },
+  ]), []);
+
+  const canvaData = useMemo(() => CANVA_PROJETOS.map(p => {
+    const itens = checklistItems
+      .filter(i => (i.type ?? 'evento') === p.tipo)
+      .sort((a, b) => a.order - b.order)
+      .map((i, k) => ({
+        pag: k + 1,
+        docId: i.docId,
+        // capa repete o nome do personagem nos três campos; evento tem até quatro níveis
+        titulo: p.tipo === 'capa'
+          ? i.temporada
+          : p.tipo === 'evento'
+            ? [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' - ')
+            : `${i.temporada} - ${i.arco}`,
+        pronta: !!i.imageUrl,
+        placeholder: !!i.placeholder,
+        doneBy: i.doneBy ?? null,
+      }));
+    const prontas = itens.filter(i => i.pronta).length;
+    return { ...p, itens, prontas, pct: itens.length ? Math.round((prontas / itens.length) * 100) : 0 };
+  }), [CANVA_PROJETOS, checklistItems]);
+
+  const canvaFiltrado = useMemo(() => {
+    const termo = canvaSearch.trim().toLowerCase();
+    return canvaData.map(p => ({
+      ...p,
+      visiveis: p.itens.filter(i =>
+        (canvaState === 'todos'
+          || (canvaState === 'pronta' && i.pronta)
+          || (canvaState === 'falta' && !i.pronta))
+        && (!termo || i.titulo.toLowerCase().includes(termo))),
+    }));
+  }, [canvaData, canvaSearch, canvaState]);
+
   // "Todos" percorre TODOS os grupos, inclusive OCA, e tira repetido pelo nome: quem tem duas
   // vilas, ou vila e OCA, aparece uma vez só. Incluir a OCA é o que garante o Hades e o Genei (G),
   // que não têm vila nenhuma nas categorias.
@@ -664,6 +710,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           { key: 'producao' as const, label: 'Produção' },
           { key: 'prototipos' as const, label: 'Protótipos' },
           { key: 'classificacoes' as const, label: 'Classificações' },
+          { key: 'canva' as const, label: 'Canva' },
           { key: 'links' as const, label: 'Links' },
         ]).map(t => (
           <button
@@ -1725,6 +1772,112 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
               ))}
             </div>
           )}
+        </div>
+      </section>
+      )}
+
+      {activeTab === 'canva' && (
+      <section>
+        <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <span>Projetos do Canva</span>
+          <span className="flex-1 h-px bg-tech-border"></span>
+        </div>
+
+        <p className="text-[11px] text-tech-primary/50 mb-4 max-w-3xl leading-relaxed">
+          A ordem definitiva das páginas de cada projeto, lida do checklist agora — o número da
+          esquerda <span className="text-tech-primary">é</span> o número da página no Canva. Um projeto
+          por tipo do checklist, e é isso que permite conferir a contagem de páginas de cada arquivo.
+        </p>
+
+        <div className="flex flex-wrap items-center gap-2 mb-5">
+          <div className="relative flex-1 min-w-[200px]">
+            <Search size={12} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-tech-primary/40" />
+            <input
+              type="search"
+              value={canvaSearch}
+              onChange={e => setCanvaSearch(e.target.value)}
+              placeholder="buscar personagem, fase, evento..."
+              className="w-full bg-black border border-tech-border pl-8 pr-2 py-2 text-[11px] text-tech-primary placeholder:text-tech-primary/30 focus:border-tech-primary outline-none"
+            />
+          </div>
+          {([
+            { k: 'todos' as const, l: 'Todas' },
+            { k: 'falta' as const, l: 'A fazer' },
+            { k: 'pronta' as const, l: 'Prontas' },
+          ]).map(f => (
+            <button
+              key={f.k}
+              type="button"
+              onClick={() => setCanvaState(f.k)}
+              className={`px-2.5 py-2 border text-[9px] font-bold uppercase tracking-widest transition-all ${canvaState === f.k ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/50 hover:text-tech-primary'}`}
+            >
+              {f.l}
+            </button>
+          ))}
+        </div>
+
+        <div className="space-y-8">
+          {canvaFiltrado.map(p => (
+            <div key={p.tipo}>
+              <div className="flex flex-wrap items-end justify-between gap-3 border-b-2 border-tech-primary/60 pb-2 mb-0">
+                <div>
+                  <h3 className="text-sm font-black text-white uppercase tracking-wide">{p.nome}</h3>
+                  <p className="text-[10px] text-tech-primary/40 uppercase tracking-wide mt-0.5">
+                    <span className="text-tech-primary/70">{p.tam}</span>
+                    {' · '}{p.itens.length} páginas
+                    {' · '}faixa {p.base}–{p.base + Math.max(0, p.itens.length - 1)}
+                  </p>
+                </div>
+                <div className="text-right">
+                  <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide mb-1">
+                    <span className="text-white text-sm font-black">{p.prontas}</span>/{p.itens.length} prontas
+                  </div>
+                  <div className="w-32 h-1 bg-black border border-tech-border overflow-hidden">
+                    <div className="h-full bg-tech-primary transition-all duration-500" style={{ width: `${p.pct}%` }} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="border border-t-0 border-tech-border bg-tech-panel/20 max-h-[420px] overflow-auto">
+                <table className="w-full text-[11px]">
+                  <tbody>
+                    {p.visiveis.map(i => (
+                      <tr key={i.docId ?? i.pag} className="border-b border-tech-border/40 last:border-0 hover:bg-tech-panel/50">
+                        <td className="py-1 pl-3 pr-3 text-right w-12 text-tech-primary/40 tabular-nums">{i.pag}</td>
+                        <td className="py-1 pr-3 text-tech-primary/90">{i.titulo}</td>
+                        <td className="py-1 pr-3 w-24 whitespace-nowrap">
+                          {i.pronta
+                            ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary border border-tech-primary px-1.5 py-0.5">pronta</span>
+                            : i.placeholder
+                              ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary/30 border border-tech-primary/30 px-1.5 py-0.5">placeholder</span>
+                              : <span className="text-[9px] font-bold uppercase tracking-widest text-orange-400 border border-orange-400/60 px-1.5 py-0.5">a fazer</span>}
+                        </td>
+                      </tr>
+                    ))}
+                    {p.visiveis.length === 0 && (
+                      <tr><td colSpan={3} className="py-5 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nada neste projeto com esse filtro.</td></tr>
+                    )}
+                  </tbody>
+                </table>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setCanvaTextOf(canvaTextOf === p.tipo ? null : p.tipo)}
+                className="mt-2 text-[10px] text-tech-primary/40 hover:text-tech-primary uppercase tracking-wide"
+              >
+                {canvaTextOf === p.tipo ? '− esconder' : '+ '}lista em texto puro, na ordem
+              </button>
+              {canvaTextOf === p.tipo && (
+                <textarea
+                  readOnly
+                  value={p.itens.map(i => `${i.pag}\t${i.titulo}`).join('\n')}
+                  onFocus={e => e.currentTarget.select()}
+                  className="w-full mt-2 h-52 bg-black border border-tech-border p-3 text-[10px] font-mono text-tech-primary/70 resize-y outline-none focus:border-tech-primary"
+                />
+              )}
+            </div>
+          ))}
         </div>
       </section>
       )}
