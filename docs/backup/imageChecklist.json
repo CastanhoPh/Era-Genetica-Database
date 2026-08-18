@@ -2431,7 +2431,12 @@
     "name": "F e G aparecendo",
     "done": false,
     "placeholder": false,
-    "order": 50223
+    "order": 50223,
+    "personagens": [
+      "Fuyuki Dokuhana (F)",
+      "Genei (G)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__f-e-g-levando-shoei",
@@ -2477,7 +2482,16 @@
     "name": "Investigam base do F",
     "done": false,
     "placeholder": false,
-    "order": 50221
+    "order": 50221,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__kaito-escolhendo-morrer",
@@ -2530,8 +2544,14 @@
     "placeholder": false,
     "order": 50222,
     "personagens": [
-      "Najin Hatake"
-    ]
+      "Najin Hatake",
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__naoki-rapta-f",
@@ -2568,7 +2588,17 @@
     "name": "Novo sinal de chakra artificial",
     "done": false,
     "placeholder": false,
-    "order": 50219
+    "order": 50219,
+    "elencoFechado": true,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake",
+      "Nishinoya Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__partem-em-direcao-a-base-do-f",
@@ -2577,7 +2607,16 @@
     "name": "Partem em direção à base do F",
     "done": false,
     "placeholder": false,
-    "order": 50220
+    "order": 50220,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__retornam-a-konoha-apos-base-do-f",
@@ -2595,7 +2634,16 @@
     "name": "Equipe Stronkk",
     "done": false,
     "placeholder": false,
-    "order": 50212
+    "order": 50212,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__equipe-stronkk-investigando-base-do-g",
@@ -2604,7 +2652,16 @@
     "name": "Equipe Stronkk investigando base do G",
     "done": false,
     "placeholder": false,
-    "order": 50213
+    "order": 50213,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-deixando-o-cubo-de-isca-para-a-equipe-sair-vivos",
@@ -2617,8 +2674,14 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20G%2FKatsumi%20deixando%20o%20cubo%20de%20isca%20para%20a%20equipe%20sair%20viva.png?alt=media&v=1784240349494143",
     "order": 50216,
     "personagens": [
-      "Katsumi Hyuga"
-    ]
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-encontrando-o-cubo-de-son-goku",
@@ -2631,8 +2694,14 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20G%2FKatsumi%20encontrando%20o%20cubo%20de%20Son%20Goku.png?alt=media&v=1784240349519432",
     "order": 50214,
     "personagens": [
-      "Katsumi Hyuga"
-    ]
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-encontrando-scanner-de-chakra-profano",
@@ -2643,8 +2712,14 @@
     "placeholder": false,
     "order": 50215,
     "personagens": [
-      "Katsumi Hyuga"
-    ]
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-entregando-scanner-de-chakra-profano-a-nishinoya",
@@ -2656,8 +2731,14 @@
     "order": 50218,
     "personagens": [
       "Nishinoya Senju",
-      "Katsumi Hyuga"
-    ]
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-recebendo-o-selo-de-nishinoya-e-sendo-reconhecido-como-capitao",
@@ -2671,8 +2752,14 @@
     "order": 50211,
     "personagens": [
       "Nishinoya Senju",
-      "Katsumi Hyuga"
-    ]
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-recebendo-seu-radar",
@@ -2685,8 +2772,15 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20G%2FKatsumi%20recebendo%20seu%20radar.png?alt=media&v=1784240349957741",
     "order": 50210,
     "personagens": [
-      "Katsumi Hyuga"
-    ]
+      "Katsumi Hyuga",
+      "Nishinoya Senju",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__voltam-a-konoha-apos-base-do-g",
@@ -2695,7 +2789,16 @@
     "name": "Voltam a Konoha após base do G",
     "done": false,
     "placeholder": false,
-    "order": 50217
+    "order": 50217,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__omega__sera-adicionado-em-breve",
@@ -2731,7 +2834,8 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Nishinoya Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__em-busca-de-shoei",
@@ -2748,7 +2852,8 @@
       "Kaito Senju",
       "Najin Hatake",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__equipe-konk",
@@ -2765,7 +2870,8 @@
       "Kaito Senju",
       "Najin Hatake",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
@@ -2784,7 +2890,8 @@
       "Oddy Uchiha",
       "Rock Gunma",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton",
@@ -2803,8 +2910,10 @@
       "Oddy Uchiha",
       "Rock Gunma",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
-    ]
+      "Takeshi Hatake",
+      "Hiroshi Hanzo"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__primeira-missao-da-konk",
@@ -2821,7 +2930,8 @@
       "Kaito Senju",
       "Najin Hatake",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin",
@@ -2855,8 +2965,13 @@
       "Katsumi Hyuga",
       "Kaito Senju",
       "Najin Hatake",
-      "Oddy Uchiha"
-    ]
+      "Oddy Uchiha",
+      "Rock Gunma",
+      "Shoei Sarutobi",
+      "Takeshi Hatake",
+      "Hiroshi Hanzo"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "20WI1drW3HKSbyFaXsJf",
