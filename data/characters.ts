@@ -5478,7 +5478,7 @@ export const initialData: Character[] = [
         image: ""
       }
     ],
-    arsenal: [55, 57, 58, 59],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReto%20Sabaku%2F5__Temporada.png?alt=media&v=1784751339155", caption: "5ª Temporada", category: "era" },
     ],

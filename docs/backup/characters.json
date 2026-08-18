@@ -7163,12 +7163,6 @@
     "role": "DPS",
     "description": "Reto Sabaku foi o Primeiro Kazekage e o homem responsável por transformar o maior deserto do continente em uma civilização próspera. Antes dele, o deserto era apenas morte, escassez, tribos em guerra, assassinos, mercadores armados e pequenos reinos subterrâneos lutando por água.\n\nConhecido como o Caçador do Deserto, Reto não lutava como um guerreiro comum. Ele observava, rastreava e eliminava seus inimigos antes mesmo que eles entendessem que haviam sido caçados. Sua arma principal era um lendário arco de Rank Z da Vila da Areia, capaz de condensar chakra e disparar flechas de areia metálica com precisão absurda.\n\nAo despertar a Areia de Ouro, Reto mudou o destino de Sunagakure. Ele encontrou aquíferos subterrâneos, desviou tempestades, criou rotas comerciais, ergueu muralhas e fundou cidades. Porém, em combate, essa mesma areia que trouxe prosperidade ao deserto se tornava uma arma silenciosa e implacável.\n\nAlém de seu arco, Reto utilizava a máscara ancestral Satetsu no Rinne, o Samsara da Areia de Ferro, uma relíquia de Rank Z capaz de amplificar o domínio magnético do portador a níveis catastróficos. Com ela, Reto podia extrair ferro do solo, da atmosfera e até de corpos vivos, convertendo tudo em poeira metálica sob seu controle.\n\nReto era amado por sua gentileza e temido por seu poder. O mundo dizia que ele estava apenas alguns degraus abaixo de Hashirama Senju. Para Sunagakure, no entanto, ele era algo ainda maior: o homem que ensinou o deserto a florescer.",
     "chakra": 91,
-    "arsenal": [
-      55,
-      57,
-      58,
-      59
-    ],
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReto%20Sabaku%2F5__Temporada.png?alt=media&v=1784751339155",
@@ -7290,7 +7284,8 @@
       "vigor": 24,
       "perception": 27
     },
-    "hp": 217
+    "hp": 217,
+    "arsenal": []
   },
   {
     "__docId": "rock-gunma",
