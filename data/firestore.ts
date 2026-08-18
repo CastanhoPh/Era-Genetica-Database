@@ -211,6 +211,38 @@ export async function setEventCastClosed(
   await batch.commit();
 }
 
+/**
+ * Renomeia um item da checklist. Em evento, arrasta a legenda gravada na Galeria de cada
+ * participante junto — ela é uma CÓPIA feita na hora de publicar, então sem isto a ficha continuaria
+ * mostrando o nome antigo da cena para sempre.
+ *
+ * Busca só as fichas de quem está no `personagens` (no máximo uma dúzia), não as 86.
+ */
+export async function renameChecklistItem(item: ChecklistItem, nome: string): Promise<void> {
+  if (!item.docId) throw new Error('item sem docId');
+  await updateDoc(doc(db, 'imageChecklist', item.docId), { name: nome });
+
+  const ehEvento = (item.type ?? 'evento') === 'evento';
+  const gente = item.personagens ?? [];
+  if (!ehEvento || !gente.length || !item.imageUrl || !item.elencoFechado) return;
+
+  const legenda = [item.arco, item.subarco, nome].filter(Boolean).join(' - ');
+  const snap = await getDocs(collection(db, 'characters'));
+  const batch = writeBatch(db);
+  let mexeu = 0;
+  for (const d2 of snap.docs) {
+    const c = d2.data() as Character;
+    if (!gente.includes(c.name)) continue;
+    const gal = c.gallery ?? [];
+    if (!gal.some(g => g.eventId === item.docId && g.caption !== legenda)) continue;
+    batch.update(d2.ref, {
+      gallery: gal.map(g => (g.eventId === item.docId ? { ...g, caption: legenda } : g)),
+    });
+    mexeu++;
+  }
+  if (mexeu) await batch.commit();
+}
+
 // Edição administrativa da checklist (texto, ordem, placeholder, criação e remoção de itens).
 export async function updateChecklistItem(docId: string, changes: Partial<ChecklistItem>): Promise<void> {
   const { docId: _omit, ...rest } = changes as ChecklistItem;

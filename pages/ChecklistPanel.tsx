@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles } from 'lucide-react';
-import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, CHECKLIST_BLOCOS } from '../data/firestore';
+import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, CHECKLIST_BLOCOS } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem } from '../types';
 import ImageUploadButton from '../components/ImageUploadButton';
@@ -212,7 +212,9 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const handleRename = (item: ChecklistItem, newName: string) => {
     const trimmed = newName.trim();
     if (!item.docId || !trimmed || trimmed === item.name) return;
-    withPending(item.docId, () => updateChecklistItem(item.docId!, { name: trimmed }));
+    // renameChecklistItem e nao updateChecklistItem: em evento ele arrasta a legenda gravada na
+    // Galeria de cada participante junto, senao a ficha fica com o nome antigo da cena.
+    withPending(item.docId, () => renameChecklistItem(item, trimmed));
   };
 
   const handleTogglePlaceholder = (item: ChecklistItem) => {
