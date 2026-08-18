@@ -1,0 +1,75 @@
+rules_version = '2';
+
+// Regras do Cloud Storage. Antes de 2026-08-17 elas existiam só no console do Firebase, fora do
+// repositório — diferente do firestore.rules, que já era versionado. Este arquivo passa a ser a
+// fonte, e é publicado por `firebase deploy --only storage`.
+//
+// O bucket é 100% de leitura pública de propósito: toda imagem do site (capa, técnica, arsenal,
+// linha do tempo, evento) é servida por URL direta do Storage, sem token, e o site é público.
+// A escrita é do admin, com uma exceção: o checklist de produção é editado pelo Liu e pelo Zeck,
+// que sobem imagem pelo Painel — as pastas que eles alimentam ficam liberadas para eles.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAdmin() {
+      return request.auth != null && (
+        request.auth.uid == '5Eo9GEhVMGgfmvKgDt68H5lBlcw2' ||
+        request.auth.uid == 'QWQHFo4xUxevsRZronUVa1IzJTc2'    // Claude (QA)
+      );
+    }
+
+    // Mesmos uids do isChecklistEditor do firestore.rules — se mudar lá, mudar aqui.
+    function isChecklistEditor() {
+      return request.auth != null && (
+        isAdmin() ||
+        request.auth.uid == 'G2YvfxwlWoRz2TH878cnugTi8gi1' || // Liu
+        request.auth.uid == 'csE07Qq2LLaUwg3wYSeNXWbVrE73'    // Zeck
+      );
+    }
+
+    // Imagem só pode ser imagem, e com tamanho de arte de personagem — evita que uma credencial
+    // vazada transforme o bucket em hospedagem de arquivo qualquer.
+    function ehImagem() {
+      return request.resource.contentType.matches('image/.*')
+        && request.resource.size < 25 * 1024 * 1024;
+    }
+
+    // Pasta do personagem: capa e técnicas. Desde a migração de 2026-08-13 o caminho é
+    // "Characters/<Nome>/", sem o número do id — o id é ordem de exibição e muda.
+    match /Characters/{resto=**} {
+      allow read: if true;
+      allow write: if isAdmin() && ehImagem();
+    }
+
+    // Galeria: linha do tempo, eventos e capas. É por aqui que o Liu e o Zeck sobem.
+    match /Galeria/{resto=**} {
+      allow read: if true;
+      allow write: if isChecklistEditor() && ehImagem();
+    }
+
+    match /Arsenal/{resto=**} {
+      allow read: if true;
+      allow write: if isAdmin() && ehImagem();
+    }
+
+    // Protótipos são spoiler, mas a imagem é servida por URL direta na aba do Painel, que já é
+    // restrita ao admin. Manter a leitura aberta é o que faz a imagem carregar lá.
+    match /Prototipo/{resto=**} {
+      allow read: if true;
+      allow write: if isAdmin() && ehImagem();
+    }
+
+    // Fallback do AddCharacterModal quando o personagem ainda não tem nome definido.
+    match /Uploads/{resto=**} {
+      allow read: if true;
+      allow write: if isAdmin() && ehImagem();
+    }
+
+    // O que não estiver acima fica negado: sem escrita anônima e sem pasta nova por acidente.
+    match /{resto=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

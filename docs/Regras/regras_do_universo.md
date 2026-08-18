@@ -150,20 +150,75 @@ O limite máximo natural de atributos é:
 
 ## 30
 
+Esse é o teto absoluto, alcançado apenas no NC 30. O teto real de cada personagem é o próprio NC — ver "Teto por atributo" abaixo.
+
+---
+
+## Teto por atributo
+
+**Nenhum atributo pode ser maior que o NC do personagem.**
+
+Um NC 16 tem teto 16 em cada atributo; um NC 23, teto 23. O 30 aparece como limite absoluto apenas porque é o NC máximo da campanha.
+
+---
+
+## Máximo de atributos
+
+O **total dos sete atributos somados** é limitado pelo NC. É o orçamento de pontos do personagem:
+
+## Máximo = (6 × NC) − 12
+
+| NC | máximo | NC | máximo | NC | máximo |
+|---:|---:|---:|---:|---:|---:|
+| 4 | 12 | 13 | 66 | 22 | 120 |
+| 5 | 18 | 14 | 72 | 23 | 126 |
+| 6 | 24 | 15 | 78 | 24 | 132 |
+| 7 | 30 | 16 | 84 | 25 | 138 |
+| 8 | 36 | 17 | 90 | 26 | 144 |
+| 9 | 42 | 18 | 96 | 27 | 150 |
+| 10 | 48 | 19 | 102 | 28 | 156 |
+| 11 | 54 | 20 | 108 | 29 | 162 |
+| 12 | 60 | 21 | 114 | 30 | 168 |
+
+Subir de NC aumenta o orçamento em 6 pontos por nível. Uma ficha que não gastou o máximo está incompleta, não irregular.
+
 ---
 
 ## Mínimo por NC
 
-Personagens possuem valores mínimos de atributos dependendo do NC.
+Cada um dos sete atributos precisa ter, no mínimo:
 
-Exemplos:
-
-- NC20 → mínimo 8;
-- NC25 → mínimo 10;
-- NC28 → mínimo 12;
-- NC30 → mínimo 12.
+| NC | mínimo |
+|---:|---:|
+| 4 | 0 |
+| 5 – 6 | 1 |
+| 7 – 8 | 2 |
+| 9 – 10 | 3 |
+| 11 – 12 | 4 |
+| 13 – 14 | 5 |
+| 15 – 16 | 6 |
+| 17 – 18 | 7 |
+| 19 – 22 | 8 |
+| 23 – 24 | 9 |
+| 25 – 26 | 10 |
+| 27 – 28 | 11 |
+| 29 – 30 | 12 |
 
 Isso impede a existência de personagens de alto NC com capacidades absurdamente inferiores ao padrão esperado daquele nível.
+
+Repare que **19 a 22 é a única faixa de quatro níveis**; todas as outras são de dois. Não é erro de digitação.
+
+---
+
+## Nível dos poderes
+
+O nível de poder mais alto de um personagem é:
+
+## Teto do poder = NC ÷ 2, arredondado para baixo
+
+NC 16 → 8 · NC 23 → 11 · NC 26 → 13 · NC 30 → 15.
+
+Poderes abaixo desse teto são permitidos e comuns — o que a regra fixa é o mais alto. Ao subir de NC, os poderes que estavam no teto antigo acompanham.
 
 ---
 
@@ -190,6 +245,31 @@ HP representa:
 ## Fórmula Oficial
 
 Chakra = (Espírito × 3) + 10
+
+---
+
+## Aptidão Chakra Expandido
+
+Cada aptidão **Chakra Expandido** multiplica o resultado por 1,5:
+
+Chakra = ((Espírito × 3) + 10) × (1 + 0,5 × nº de Chakra Expandido)
+
+**O arredondamento é para cima.** Espírito 11 com uma aptidão dá `43 × 1,5 = 64,5`, que vira **65**.
+
+A aptidão fica na lista de **aptidões**, não na de poderes.
+
+---
+
+## Modificadores de item
+
+Alguns itens somam ao HP ou ao Chakra por fora da fórmula. Um valor que confere com a fórmula pura está **errado** se o personagem carrega um desses:
+
+| item | efeito |
+|---|---|
+| Ishi no Kubikazari | Chakra **+1× Espírito** |
+| Ishi no Seimei | HP **+1× Vigor** |
+
+Ao conferir HP ou Chakra, checar o arsenal antes de apontar divergência.
 
 ---
 

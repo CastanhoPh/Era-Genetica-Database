@@ -105,7 +105,7 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "A lendária Kubikiribōchō, ou 'Lâmina Decapitadora', é uma das Sete Espadas da Névoa e uma das armas mais brutais já criadas para o campo de batalha. Sua característica mais aterrorizante é a capacidade de se autorregenerar instantaneamente ao absorver o ferro presente no sangue de suas vítimas, tornando-a uma arma que nunca perde o fio ou se quebra permanentemente. Devido ao seu peso colossal e design agressivo, ela exige que o portador possua uma força física monstruosa para realizar movimentos fluidos de esgrima. A espada pode ser arremessada como um bumerangue mortal, cortando árvores e inimigos em seu caminho antes de retornar à mão do usuário. Ela também possui um orifício circular na lâmina projetado para prender e decapitar oponentes com um único puxão preciso. Atualmente empunhada por Najin Hatake, a Kubikiribōchō tornou-se um símbolo de terror implacável, capaz de decidir o rumo de guerras inteiras através da força bruta e da sede de sangue.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F10%20-%20Kubikirib%C5%8Dch%C5%8D.png?alt=media&v=1784038020061489",
-    originalOwner: "Shoei Barou",
+    originalOwner: "Shoei Sarutobi",
     pastOwners: ["Najin Hatake"],
     diedHolding: ["Najin Hatake", "Shoei Sarutobi"],
     currentOwner: "Takeshi Hatake"

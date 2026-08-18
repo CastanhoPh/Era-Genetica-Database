@@ -101,6 +101,42 @@ Forma máxima do Senjutsu, marcada por uma quebra de patamar e pela manifestaç�
 
 O bônus principal é aplicado aos dois atributos escolhidos, à Dureza de Corpo e ao Dano Base.
 
+---
+
+## Rank da técnica de ativação
+
+A técnica que ativa o Modo Sábio — a **Sennin Fuka** de cada um, ou equivalente com outro nome — tem o `classification` definido pelo estágio:
+
+| Estágio | Rank |
+|---|---|
+| Instável | **A+** |
+| Incompleto | **S** |
+| Completo | **S+** |
+| Perfeito | **S++** |
+
+O **Completo Elevado** (Poder 13 e 14) não tem rank próprio: continua dentro do Completo, portanto **S+**.
+
+### Só a técnica-base segue a tabela
+
+Uma técnica que **empilha algo sobre o Modo Sábio já ativo** pode passar do rank do estágio. Dois casos registrados:
+
+- **Nishinoya Senju** — a `Sennin Fuka` dele é S++ (Perfeito), e o `Senpo: Modo Matatabi` é **Z**, porque funde a base com o Manto da Matatabi. São duas técnicas separadas.
+- **Satoshi Namikaze** — está em Completo Elevado, que daria S+, mas a técnica dele é **S++** porque já nasce ativada junto com o `Gama Sennin no Keiyaku` e o `Gama no Zōri`, que emprestam energia natural do Monte Myōboku. Sem os dois itens equipados, cai para S+.
+
+Ao ver uma técnica de Senjutsu com rank muito acima do estágio, verificar se é base ou combo antes de tratar como erro.
+
+### O nível do poder não determina o estágio sozinho
+
+A tabela de Poder → Estágio do Capítulo 05 é a regra geral, mas **o estágio anotado na ficha prevalece**. O **Kaito Senju** tem o poder Senjutsu em 6, que pela tabela daria Incompleto, e o estágio dele é **Completo** por causa do treino com os monges — logo o rank S+ segue a tabela normalmente.
+
+Quando o nível do poder contradiz o estágio anotado, é o estágio que vale.
+
+### Natureza da técnica-base
+
+A `nature` da técnica de ativação é **apenas "Senjutsu"**, exceto quando a Via é **Própria** — aí soma a fonte de poder do próprio usuário (ex: `Senjutsu + Mokuton`, `Senjutsu + Aoi Katon`, `Senjutsu + Kurama + Suiton`).
+
+Para qualquer Via que não seja Própria — Cães, Macacos, Monges, Cobras, Sapos, Salamandras, Escorpiões, Lesmas — a natureza fica só `Senjutsu`, mesmo que a Via tenha característica marcante como invocação ou veneno.
+
 <div style="page-break-after: always;"></div>
 
 # Capítulo 06 - Habilidade Única

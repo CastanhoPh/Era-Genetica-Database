@@ -1,0 +1,503 @@
+[
+  {
+    "__docId": "04N9WZKo9cuEqoh1jOjn",
+    "family": "Uchiha",
+    "members": [
+      {
+        "name": "Tajima Uchiha",
+        "spouse": "Setsuna Yamanaka"
+      },
+      {
+        "name": "Setsuna Yamanaka"
+      },
+      {
+        "name": "Oogway Uchiha",
+        "spouse": "Akemi Shimura"
+      },
+      {
+        "name": "Akemi Shimura"
+      },
+      {
+        "name": "Sho Uchiha",
+        "parents": [
+          "Oogway Uchiha",
+          "Akemi Shimura"
+        ],
+        "spouse": "Atsuko Uchiha",
+        "isDead": true
+      },
+      {
+        "name": "Shin Uchiha",
+        "parents": [
+          "Oogway Uchiha",
+          "Akemi Shimura"
+        ]
+      },
+      {
+        "name": "Atsuko Uchiha"
+      },
+      {
+        "name": "Akairo Uchiha (A)",
+        "parents": [
+          "Sho Uchiha",
+          "Atsuko Uchiha"
+        ],
+        "isDead": true
+      },
+      {
+        "name": "Genpachi Shimura",
+        "parents": [
+          "Sho Uchiha",
+          "Atsuko Uchiha"
+        ]
+      },
+      {
+        "name": "Madara Uchiha",
+        "parents": [
+          "Tajima Uchiha",
+          "Setsuna Yamanaka"
+        ],
+        "spouse": "Konan Uchiha",
+        "isDead": true
+      },
+      {
+        "name": "Izuna Uchiha",
+        "parents": [
+          "Tajima Uchiha",
+          "Setsuna Yamanaka"
+        ]
+      },
+      {
+        "name": "Reizan Yamanaka",
+        "parents": [
+          "Tajima Uchiha",
+          "Setsuna Yamanaka"
+        ]
+      },
+      {
+        "name": "Konan Uchiha"
+      },
+      {
+        "name": "Naoki Uchiha",
+        "parents": [
+          "Madara Uchiha",
+          "Konan Uchiha"
+        ]
+      },
+      {
+        "name": "Oddy Uchiha",
+        "parents": [
+          "Madara Uchiha",
+          "Konan Uchiha"
+        ]
+      },
+      {
+        "name": "Kuromi Uchiha",
+        "parents": [
+          "Madara Uchiha",
+          "Konan Uchiha"
+        ]
+      },
+      {
+        "name": "Ayumi Uchiha",
+        "parents": [
+          "Madara Uchiha",
+          "Konan Uchiha"
+        ]
+      },
+      {
+        "name": "Shizumi Uchiha",
+        "parents": [
+          "Madara Uchiha",
+          "Konan Uchiha"
+        ]
+      }
+    ],
+    "order": 1
+  },
+  {
+    "__docId": "IwauGdwqhvNPJ4OWeSEq",
+    "family": "Sarutobi",
+    "members": [
+      {
+        "name": "Hiruzen Sarutobi",
+        "spouse": "Hina Sarutobi"
+      },
+      {
+        "name": "Hina Sarutobi"
+      },
+      {
+        "name": "Shoei Sarutobi",
+        "parents": [
+          "Hiruzen Sarutobi",
+          "Hina Sarutobi"
+        ],
+        "isDead": true
+      },
+      {
+        "name": "Apollo Sarutobi",
+        "parents": [
+          "Hiruzen Sarutobi",
+          "Hina Sarutobi"
+        ]
+      }
+    ],
+    "order": 4
+  },
+  {
+    "__docId": "LUMbTLSWdBYsLpAH0BrE",
+    "family": "Hatake",
+    "members": [
+      {
+        "name": "Raikun Hatake",
+        "spouse": "Amai Inuzuka",
+        "isDead": true
+      },
+      {
+        "name": "Amai Inuzuka"
+      },
+      {
+        "name": "Najin Hatake",
+        "parents": [
+          "Raikun Hatake",
+          "Amai Inuzuka"
+        ],
+        "isDead": true
+      },
+      {
+        "name": "Takeshi Hatake",
+        "parents": [
+          "Raikun Hatake",
+          "Amai Inuzuka"
+        ]
+      }
+    ],
+    "order": 3
+  },
+  {
+    "__docId": "REK8UuMdyu32PM21mshr",
+    "family": "Nara",
+    "members": [
+      {
+        "name": "Shikado Nara",
+        "spouse": "Kurai Nara",
+        "isDead": true
+      },
+      {
+        "name": "Kurai Nara",
+        "isDead": true
+      },
+      {
+        "name": "Shikaki Nara",
+        "parents": [
+          "Shikado Nara",
+          "Kurai Nara"
+        ]
+      },
+      {
+        "name": "Shikatsu Nara (Togo Kage)",
+        "parents": [
+          "Shikado Nara",
+          "Kurai Nara"
+        ]
+      }
+    ],
+    "order": 5
+  },
+  {
+    "__docId": "s9eSQzv6wMzcCFrJxNfo",
+    "family": "Haruno",
+    "members": [
+      {
+        "name": "Iwaki Haruno",
+        "spouse": "Hina Haruno",
+        "isDead": true
+      },
+      {
+        "name": "Hina Haruno"
+      },
+      {
+        "name": "Yui Haruno",
+        "parents": [
+          "Iwaki Haruno",
+          "Hina Haruno"
+        ]
+      }
+    ],
+    "order": 6
+  },
+  {
+    "__docId": "swz0Xx2oCYZ3GDpdIKJA",
+    "family": "Senju",
+    "order": 0,
+    "members": [
+      {
+        "name": "Harunobu Namikaze",
+        "spouse": "Kohana Uzumaki"
+      },
+      {
+        "name": "Kohana Uzumaki"
+      },
+      {
+        "name": "Sakura Namikaze",
+        "parents": [
+          "Harunobu Namikaze",
+          "Kohana Uzumaki"
+        ],
+        "isDead": true
+      },
+      {
+        "name": "Satoshi Namikaze",
+        "parents": [
+          "Harunobu Namikaze",
+          "Kohana Uzumaki"
+        ]
+      },
+      {
+        "name": "Ashina Uzumaki",
+        "spouse": "Ayame Namikaze",
+        "isDead": true
+      },
+      {
+        "name": "Ayame Namikaze"
+      },
+      {
+        "name": "Mito Uzumaki",
+        "parents": [
+          "Ashina Uzumaki",
+          "Ayame Namikaze"
+        ],
+        "isDead": true
+      },
+      {
+        "name": "Yumi Uzumaki",
+        "parents": [
+          "Ashina Uzumaki",
+          "Ayame Namikaze"
+        ]
+      },
+      {
+        "name": "Naomi Uzumaki",
+        "parents": [
+          "Ashina Uzumaki",
+          "Ayame Namikaze"
+        ]
+      },
+      {
+        "name": "Katsuo Uzumaki",
+        "parents": [
+          "Ashina Uzumaki",
+          "Ayame Namikaze"
+        ]
+      },
+      {
+        "name": "Butsuma Senju",
+        "spouse": "Kaori Senju"
+      },
+      {
+        "name": "Kaori Senju"
+      },
+      {
+        "name": "Hashirama Senju",
+        "parents": [
+          "Butsuma Senju",
+          "Kaori Senju"
+        ],
+        "spouse": "Mito Uzumaki",
+        "isDead": true
+      },
+      {
+        "name": "Tobirama Senju",
+        "parents": [
+          "Butsuma Senju",
+          "Kaori Senju"
+        ],
+        "spouse": "Yumi Uzumaki",
+        "isDead": true
+      },
+      {
+        "name": "Kawarama Senju",
+        "parents": [
+          "Butsuma Senju",
+          "Kaori Senju"
+        ],
+        "spouse": "Sakura Namikaze",
+        "isDead": true
+      },
+      {
+        "name": "Itama Senju",
+        "parents": [
+          "Butsuma Senju",
+          "Kaori Senju"
+        ],
+        "isDead": true
+      },
+      {
+        "name": "Airi Senju",
+        "parents": [
+          "Hashirama Senju",
+          "Mito Uzumaki"
+        ]
+      },
+      {
+        "name": "Hisoka Senju",
+        "parents": [
+          "Hashirama Senju",
+          "Mito Uzumaki"
+        ]
+      },
+      {
+        "name": "Kaito Senju",
+        "parents": [
+          "Tobirama Senju",
+          "Yumi Uzumaki"
+        ]
+      },
+      {
+        "name": "Nagare Uzumaki",
+        "parents": [
+          "Tobirama Senju",
+          "Yumi Uzumaki"
+        ]
+      },
+      {
+        "name": "Nishinoya Senju",
+        "parents": [
+          "Kawarama Senju",
+          "Sakura Namikaze"
+        ],
+        "spouse": "Naomi Uzumaki",
+        "isDead": true
+      },
+      {
+        "name": "Shoyu Uzumaki",
+        "parents": [
+          "Nishinoya Senju",
+          "Naomi Uzumaki"
+        ]
+      },
+      {
+        "name": "Souma Namikaze",
+        "parents": [
+          "Nishinoya Senju",
+          "Naomi Uzumaki"
+        ]
+      },
+      {
+        "name": "Reika Uzumaki",
+        "parents": [
+          "Nishinoya Senju",
+          "Naomi Uzumaki"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId": "vpQ44RmPvULdtL0uOFEM",
+    "family": "Chinoike",
+    "order": 7,
+    "members": [
+      {
+        "name": "Fuyuhiko Chinoike",
+        "spouse": "Ketsueki Shimura"
+      },
+      {
+        "name": "Ketsueki Shimura"
+      },
+      {
+        "name": "Furyuzan Chinoike",
+        "parents": [
+          "Fuyuhiko Chinoike",
+          "Ketsueki Shimura"
+        ]
+      },
+      {
+        "name": "Shikure Chinoike",
+        "parents": [
+          "Fuyuhiko Chinoike",
+          "Ketsueki Shimura"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId": "zlisAkOC82wMktPfzgru",
+    "family": "Hyuga",
+    "order": 2,
+    "members": [
+      {
+        "name": "Minoru Hyuga",
+        "spouse": "Akemi Hyuga",
+        "isDead": true
+      },
+      {
+        "name": "Akemi Hyuga"
+      },
+      {
+        "name": "Masahiro Hyuga",
+        "spouse": "Sayuri Hyuga"
+      },
+      {
+        "name": "Sayuri Hyuga"
+      },
+      {
+        "name": "Hoshiro Hyuga",
+        "parents": [
+          "Minoru Hyuga",
+          "Akemi Hyuga"
+        ],
+        "spouse": "Asami Hyuga",
+        "isDead": true
+      },
+      {
+        "name": "Kaizuka Hyuga",
+        "parents": [
+          "Minoru Hyuga",
+          "Akemi Hyuga"
+        ]
+      },
+      {
+        "name": "Haruki Hyuga",
+        "parents": [
+          "Minoru Hyuga",
+          "Akemi Hyuga"
+        ],
+        "secretImageFrom": "Hades"
+      },
+      {
+        "name": "Asami Hyuga",
+        "isDead": true
+      },
+      {
+        "name": "Borashi Hyuga (B)",
+        "parents": [
+          "Hoshiro Hyuga",
+          "Asami Hyuga"
+        ]
+      },
+      {
+        "name": "Katsumi Hyuga",
+        "parents": [
+          "Hoshiro Hyuga",
+          "Asami Hyuga"
+        ],
+        "isDead": true
+      },
+      {
+        "name": "Ryuta Hyuga",
+        "parents": [
+          "Masahiro Hyuga",
+          "Sayuri Hyuga"
+        ]
+      },
+      {
+        "name": "Renji Hyuga",
+        "parents": [
+          "Masahiro Hyuga",
+          "Sayuri Hyuga"
+        ],
+        "isDead": true
+      }
+    ]
+  }
+]
