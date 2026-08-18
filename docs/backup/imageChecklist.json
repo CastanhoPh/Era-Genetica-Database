@@ -2408,7 +2408,10 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
+      "Takeshi Hatake",
+      "Nishinoya Senju",
+      "Naoki Uchiha",
+      "Hisoka Senju"
     ]
   },
   {
@@ -2429,7 +2432,10 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
+      "Takeshi Hatake",
+      "Nishinoya Senju",
+      "Naoki Uchiha",
+      "Hisoka Senju"
     ]
   },
   {
@@ -2468,8 +2474,11 @@
       "Kaito Senju",
       "Najin Hatake",
       "Oddy Uchiha",
-      "Takeshi Hatake"
-    ]
+      "Takeshi Hatake",
+      "Fuyuki Dokuhana (F)",
+      "Genei (G)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__f-envenenando-kaito",
@@ -2487,8 +2496,11 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
-    ]
+      "Takeshi Hatake",
+      "Fuyuki Dokuhana (F)",
+      "Genei (G)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__g-foge",
@@ -2504,8 +2516,13 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
-    ]
+      "Takeshi Hatake",
+      "Nishinoya Senju",
+      "Hisoka Senju",
+      "Naoki Uchiha",
+      "Genei (G)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__investigam-base-do-f",
@@ -2541,8 +2558,11 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
-    ]
+      "Takeshi Hatake",
+      "Fuyuki Dokuhana (F)",
+      "Genei (G)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego",
@@ -2560,7 +2580,12 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
+      "Takeshi Hatake",
+      "Ayumi Uchiha",
+      "Airi Senju",
+      "Nishinoya Senju",
+      "Naoki Uchiha",
+      "Hisoka Senju"
     ]
   },
   {
@@ -2579,8 +2604,11 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
-    ]
+      "Takeshi Hatake",
+      "Fuyuki Dokuhana (F)",
+      "Genei (G)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__najin-destroi-nucleo-de-chakra",
@@ -2608,6 +2636,7 @@
     "done": false,
     "placeholder": false,
     "order": 50229,
+    "elencoFechado": true,
     "personagens": [
       "Naoki Uchiha",
       "Katsumi Hyuga",
@@ -2615,19 +2644,24 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
+      "Takeshi Hatake",
+      "Nishinoya Senju",
+      "Hisoka Senju",
+      "Fuyuki Dokuhana (F)",
+      "Genei (G)"
     ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam",
     "temporada": "2ª Temporada de Konoha",
     "arco": "Base do F",
-    "name": "Nishinoya, Kaito e Naoki chegam",
     "done": true,
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713",
     "order": 50228,
+    "name": "Nishinoya, Hisoka e Naoki chegam",
+    "elencoFechado": true,
     "personagens": [
       "Nishinoya Senju",
       "Kaito Senju",
@@ -2636,7 +2670,10 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
+      "Takeshi Hatake",
+      "Hisoka Senju",
+      "Fuyuki Dokuhana (F)",
+      "Genei (G)"
     ]
   },
   {
@@ -2690,8 +2727,12 @@
       "Najin Hatake",
       "Oddy Uchiha",
       "Shoei Sarutobi",
-      "Takeshi Hatake"
-    ]
+      "Takeshi Hatake",
+      "Nishinoya Senju",
+      "Naoki Uchiha",
+      "Hisoka Senju"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__equipe-stronkk",
