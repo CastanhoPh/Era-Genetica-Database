@@ -2379,9 +2379,7 @@
     "done": false,
     "placeholder": true,
     "order": 50236,
-    "personagens": [
-      "Beta"
-    ]
+    "personagens": []
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-d__sera-adicionado-em-breve",
@@ -2405,7 +2403,12 @@
     "personagens": [
       "Kaito Senju",
       "Ayumi Uchiha",
-      "Airi Senju"
+      "Airi Senju",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2421,7 +2424,12 @@
     "personagens": [
       "Kaito Senju",
       "Ayumi Uchiha",
-      "Airi Senju"
+      "Airi Senju",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2432,11 +2440,17 @@
     "done": false,
     "placeholder": false,
     "order": 50223,
+    "elencoFechado": true,
     "personagens": [
       "Fuyuki Dokuhana (F)",
-      "Genei (G)"
-    ],
-    "elencoFechado": true
+      "Genei (G)",
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__f-e-g-levando-shoei",
@@ -2449,7 +2463,12 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20e%20G%20levando%20Shoei.png?alt=media&v=1784240335300514",
     "order": 50227,
     "personagens": [
-      "Shoei Sarutobi"
+      "Shoei Sarutobi",
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2463,7 +2482,12 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20envenenando%20Kaito.png?alt=media&v=1784240335515898",
     "order": 50225,
     "personagens": [
-      "Kaito Senju"
+      "Kaito Senju",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2473,7 +2497,15 @@
     "name": "G foge",
     "done": false,
     "placeholder": false,
-    "order": 50230
+    "order": 50230,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__investigam-base-do-f",
@@ -2504,7 +2536,12 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20escolhendo%20morrer.png?alt=media&v=1784240342375590",
     "order": 50224,
     "personagens": [
-      "Kaito Senju"
+      "Kaito Senju",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2518,7 +2555,12 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496",
     "order": 50234,
     "personagens": [
-      "Kaito Senju"
+      "Kaito Senju",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2532,7 +2574,12 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20morto.png?alt=media&v=1784240342650031",
     "order": 50226,
     "personagens": [
-      "Kaito Senju"
+      "Kaito Senju",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2562,7 +2609,13 @@
     "placeholder": false,
     "order": 50229,
     "personagens": [
-      "Naoki Uchiha"
+      "Naoki Uchiha",
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2578,7 +2631,12 @@
     "personagens": [
       "Nishinoya Senju",
       "Kaito Senju",
-      "Naoki Uchiha"
+      "Naoki Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -2625,7 +2683,15 @@
     "name": "Retornam a Konoha após base do F",
     "done": false,
     "placeholder": false,
-    "order": 50231
+    "order": 50231,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__equipe-stronkk",
