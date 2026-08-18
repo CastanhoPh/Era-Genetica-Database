@@ -5210,7 +5210,7 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1786651908733812",
     techniques: [
       {
-        name: "Raiton Iryō: Raikō Saisei",
+        name: "Raiton Iryou: Raikō Saisei",
         classification: "Z",
         nature: "Raiton + Iryou Ninjutsu + Chakra Profano",
         description: "A técnica médica mais perigosa de Enrai.\n\nUtilizando impulsos elétricos dourado âmbar misturados a fragmentos controlados de energia proibida, Enrai força o corpo de um aliado a entrar em um estado temporário de sobrevivência absoluta.\n\nDurante a técnica:\n\n• Hemorragias são contidas à força\n• Órgãos continuam funcionando mesmo danificados\n• Músculos rompidos são estimulados artificialmente\n• O sistema nervoso ignora dor extrema\n• O fluxo de chakra é mantido por pulsos externos\n\nO alvo não é curado.\n\nEle é impedido de morrer.\n\nEssa diferença torna a técnica assustadora.\n\nQuando usada em Reito, o Raikō Saisei consegue estabilizar temporariamente o colapso do Kaminari Artificial, permitindo que ele continue lutando mesmo em condições absurdas.\n\nMas após o efeito terminar, todo o dano acumulado retorna ao corpo de uma vez.",
@@ -5230,7 +5230,7 @@ export const initialData: Character[] = [
         image: ""
       },
       {
-        name: "Raiton Iryō: Shinden Sosei",
+        name: "Raiton Iryou: Shinden Sosei",
         classification: "S++",
         nature: "Raiton + Iryou Ninjutsu",
         description: "A principal técnica médica de Enrai Hanzo.\n\nEnrai concentra relâmpagos dourado âmbar nas mãos e os injeta diretamente no sistema nervoso do alvo, reiniciando impulsos vitais através de estímulos elétricos precisos.\n\nA técnica permite estabilizar corpos em estado crítico, reativar músculos paralisados, impedir falência cardíaca e reorganizar temporariamente o fluxo de chakra danificado.\n\nDiferente de cura comum, o Shinden Sosei não restaura o corpo de forma suave.\n\nEle força o organismo a continuar funcionando.\n\nO processo é extremamente doloroso, mas eficiente.\n\nEm aliados modificados, como Reito, a técnica também consegue conter colapsos elétricos internos e reduzir falhas causadas pelo excesso de Kaminari Artificial.",
@@ -5260,7 +5260,7 @@ export const initialData: Character[] = [
         image: ""
       },
       {
-        name: "Raiton Iryō: Kuroi Sutetchi",
+        name: "Raiton Iryou: Kuroi Sutetchi",
         classification: "S+",
         nature: "Raiton + Fuinjutsu Médico",
         description: "Enrai cria fios finíssimos de chakra elétrico dourado queimado que funcionam como suturas vivas.\n\nEsses fios podem costurar músculos, vasos, nervos e canais de chakra danificados durante o combate.\n\nEm aliados, a técnica fecha ferimentos e mantém órgãos funcionando até que uma cirurgia real seja possível.\n\nEm inimigos, os fios podem ser usados de forma ofensiva para prender articulações, rasgar nervos ou interromper movimentos específicos.\n\nO Kuroi Sutetchi é uma técnica extremamente precisa, exigindo conhecimento anatômico profundo e controle absurdo de chakra.",

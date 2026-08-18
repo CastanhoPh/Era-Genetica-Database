@@ -1680,68 +1680,6 @@
     "role": "Tank",
     "description": "Enrai Hanzo é o médico clandestino, engenheiro biológico e especialista em corpos modificados da Kiba.\n\nAntes de desaparecer dos registros oficiais de Kumogakure, Enrai trabalhou nos setores médicos avançados da Vila da Nuvem, onde se tornou conhecido por uma habilidade assustadora:\n\nEle conseguia manter vivo aquilo que já deveria ter morrido.\n\nEnrai não era famoso como guerreiro, assassino ou prodígio militar.\n\nMas entre cirurgiões, cientistas e unidades médicas secretas, seu nome era tratado com desconforto.\n\nSeu domínio sobre Raiton médico permitia estimular nervos, reiniciar músculos, estabilizar órgãos em falência e costurar fluxo de chakra danificado através de impulsos elétricos dourado âmbar.\n\nEsse Raiton não era explosivo como o de guerreiros comuns da Nuvem.\n\nEra preciso.\n\nEra clínico.\n\nEra invasivo.\n\nCada descarga elétrica podia forçar um músculo morto a responder, fazer um coração prestes a parar bater por mais alguns minutos, cauterizar ferimentos internos ou reativar sistemas nervosos danificados.\n\nPara outros médicos, cura significava salvar uma vida.\n\nPara Enrai, cura significava impedir que uma ferramenta útil parasse de funcionar.\n\nQuando a OCA começou a corromper Kumogakure por dentro, Enrai foi um dos poucos médicos capazes de compreender a extensão real dos experimentos envolvendo Chakra Profano, Shiroki Kaminari e corpos artificiais.\n\nEle viu pacientes se tornarem armas.\n\nViu cobaias serem chamadas de progresso.\n\nViu cadáveres funcionais serem mantidos ativos apenas para gerar mais dados.\n\nE viu Reito Kurogami sobreviver ao que deveria ter sido uma execução científica.\n\nFoi Enrai quem ajudou a estabilizar o corpo destruído de Reito após os experimentos da OCA.\n\nPor isso, Reito ainda respira.\n\nOu algo próximo disso.\n\nDentro da Kiba, Enrai é responsável por tratar ferimentos impossíveis, remover rastreadores, adaptar próteses, estabilizar armas proibidas, conter reações ao Chakra Profano e impedir que os membros da organização morram antes da missão terminar.\n\nEle não é gentil.\n\nEle é necessário.\n\nEnrai fala pouco, observa sinais vitais como quem lê sentenças de morte e costuma tratar dor como uma informação útil.\n\nSeu corpo é forte, resistente e treinado para operar em campo mesmo sob ataque. Diferente de médicos frágeis de retaguarda, Enrai consegue lutar na linha de frente enquanto mantém aliados vivos através de impulsos elétricos cirúrgicos.\n\nSeu combate é sujo, técnico e assustadoramente eficiente.\n\nEle não precisa destruir o corpo de um inimigo.\n\nBasta interromper o impulso correto, travar o músculo certo ou enviar uma descarga dourado âmbar pelo ponto exato do sistema nervoso.\n\nEnrai não gosta da OCA.\n\nMas entende seus métodos bem demais.\n\nEsse é o que torna sua presença tão perigosa dentro da Kiba.\n\nEle sabe como a OCA pensa.\n\nSabe como desmonta pessoas.\n\nSabe como transforma corpos em armas.\n\nE, às vezes, suas soluções parecem perigosamente parecidas com as soluções do inimigo.\n\nPor isso, Mika desconfia dele.\nYoru evita ficar sozinho com ele.\nReito confia nele em silêncio.\nE Yuji sabe que, sem Enrai, a Kiba já teria acabado.\n\nEnrai é o tipo de homem que a Kiba jamais deveria aceitar.\n\nMas também é o tipo de homem sem o qual a Kiba não sobreviveria.\n\nDentro da organização existe uma frase associada a ele:\n\n'Morto é inútil. Vivo ainda pode servir de experimentos.'",
     "hp": 218,
-    "techniques": [
-      {
-        "name": "Raiton Iryō: Raikō Saisei",
-        "classification": "Z",
-        "nature": "Raiton + Iryou Ninjutsu + Chakra Profano",
-        "description": "A técnica médica mais perigosa de Enrai.\n\nUtilizando impulsos elétricos dourado âmbar misturados a fragmentos controlados de energia proibida, Enrai força o corpo de um aliado a entrar em um estado temporário de sobrevivência absoluta.\n\nDurante a técnica:\n\n• Hemorragias são contidas à força\n• Órgãos continuam funcionando mesmo danificados\n• Músculos rompidos são estimulados artificialmente\n• O sistema nervoso ignora dor extrema\n• O fluxo de chakra é mantido por pulsos externos\n\nO alvo não é curado.\n\nEle é impedido de morrer.\n\nEssa diferença torna a técnica assustadora.\n\nQuando usada em Reito, o Raikō Saisei consegue estabilizar temporariamente o colapso do Kaminari Artificial, permitindo que ele continue lutando mesmo em condições absurdas.\n\nMas após o efeito terminar, todo o dano acumulado retorna ao corpo de uma vez.",
-        "destruction": "Sobrevivência forçada, estabilização extrema e prolongamento artificial de combate.",
-        "history": "Criada por Enrai após estudar os limites entre medicina shinobi, tecnologia da OCA e Chakra Profano.",
-        "status": "Técnica proibida. Pode salvar um aliado ou condená-lo a um colapso ainda pior depois.",
-        "image": ""
-      },
-      {
-        "name": "Raiton: Saigo no Meirei",
-        "classification": "Z",
-        "nature": "Raiton + Iryou Ninjutsu",
-        "description": "Uma técnica extrema em que Enrai envia um comando elétrico final ao sistema nervoso de um aliado ou de si mesmo.\n\nMesmo com ossos quebrados, músculos rompidos ou órgãos em falência, o corpo recebe uma última ordem absoluta:\n\nmover.\n\nAtacar.\n\nLevantar.\n\nProteger.\n\nA técnica permite uma ação final impossível antes do colapso completo.\n\nPode ser usada para fazer um aliado inconsciente escapar da morte, forçar um último golpe ou impedir que uma missão falhe nos segundos finais.\n\nO Saigo no Meirei não salva o corpo.\n\nEle apenas arranca dele uma última utilidade.",
-        "destruction": "Último movimento forçado, ação extrema antes do colapso e comando neural absoluto.",
-        "history": "Criada por Enrai após concluir que alguns corpos não precisam ser salvos para ainda serem úteis.",
-        "status": "Após o uso, o corpo sofre colapso severo. Pode deixar sequelas permanentes.",
-        "image": ""
-      },
-      {
-        "name": "Raiton Iryō: Shinden Sosei",
-        "classification": "S++",
-        "nature": "Raiton + Iryou Ninjutsu",
-        "description": "A principal técnica médica de Enrai Hanzo.\n\nEnrai concentra relâmpagos dourado âmbar nas mãos e os injeta diretamente no sistema nervoso do alvo, reiniciando impulsos vitais através de estímulos elétricos precisos.\n\nA técnica permite estabilizar corpos em estado crítico, reativar músculos paralisados, impedir falência cardíaca e reorganizar temporariamente o fluxo de chakra danificado.\n\nDiferente de cura comum, o Shinden Sosei não restaura o corpo de forma suave.\n\nEle força o organismo a continuar funcionando.\n\nO processo é extremamente doloroso, mas eficiente.\n\nEm aliados modificados, como Reito, a técnica também consegue conter colapsos elétricos internos e reduzir falhas causadas pelo excesso de Kaminari Artificial.",
-        "destruction": "Estabilização médica extrema, reativação neural e manutenção de corpos em estado crítico.",
-        "history": "Criada por Enrai durante os primeiros tratamentos em sobreviventes de experimentos da OCA.",
-        "status": "Não cura completamente danos severos. Apenas impede que o corpo pare de funcionar.",
-        "image": ""
-      },
-      {
-        "name": "Raiton: Raimei Gishin",
-        "classification": "S++",
-        "nature": "Raiton + Nintaijutsu",
-        "description": "Enrai libera descargas dourado âmbar por todo o próprio corpo, estimulando músculos, articulações e nervos através de impulsos médicos agressivos.\n\nA técnica transforma seu corpo em uma máquina de combate de curta distância.\n\nEnquanto ativa:\n\n• Sua força física aumenta drasticamente\n• Sua velocidade muscular sobe em explosões curtas\n• Sua resistência à dor é reduzida artificialmente\n• Ferimentos não interrompem seus movimentos imediatamente\n• Seu sistema nervoso ignora sinais de colapso por alguns instantes\n\nO Raimei Gishin é perigoso porque Enrai não luta como um berserker.\n\nEle luta como um cirurgião.\n\nCada golpe mira articulações, nervos, órgãos e pontos de interrupção corporal.\n\nUm único contato pode paralisar membros, travar músculos ou desorganizar o fluxo de chakra do inimigo.",
-        "destruction": "Combate físico cirúrgico com paralisação neural e dano interno preciso.",
-        "history": "Criada para permitir que Enrai operasse e lutasse em campo sem depender de proteção constante.",
-        "status": "Uso prolongado causa desgaste nervoso e risco de lesão muscular interna.",
-        "image": ""
-      },
-      {
-        "name": "Raiton: Shinkeidan",
-        "classification": "S++",
-        "nature": "Raiton",
-        "description": "Enrai concentra uma esfera pequena de relâmpago âmbar na palma da mão e a dispara contra o alvo.\n\nAo atingir o corpo inimigo, a esfera não explode externamente.\n\nEla se espalha pelo sistema nervoso.\n\nO chakra elétrico percorre músculos, coluna, órgãos e canais de chakra, causando uma pane interna brutal.\n\nAlvos atingidos podem sofrer:\n\n• Paralisia temporária\n• Falha muscular\n• Desorientação\n• Interrupção de selos manuais\n• Perda momentânea de controle de chakra\n\nA técnica foi criada para neutralizar inimigos sem destruir completamente seus corpos, permitindo captura, interrogatório ou cirurgia forçada.",
-        "destruction": "Paralisação neural interna e interrupção de controle corporal.",
-        "history": "Criada por Enrai para capturar alvos úteis da OCA sem matá-los imediatamente.",
-        "status": "Menos efetiva contra corpos sem sistema nervoso comum ou criaturas artificiais muito instáveis.",
-        "image": ""
-      },
-      {
-        "name": "Raiton Iryō: Kuroi Sutetchi",
-        "classification": "S+",
-        "nature": "Raiton + Fuinjutsu Médico",
-        "description": "Enrai cria fios finíssimos de chakra elétrico dourado queimado que funcionam como suturas vivas.\n\nEsses fios podem costurar músculos, vasos, nervos e canais de chakra danificados durante o combate.\n\nEm aliados, a técnica fecha ferimentos e mantém órgãos funcionando até que uma cirurgia real seja possível.\n\nEm inimigos, os fios podem ser usados de forma ofensiva para prender articulações, rasgar nervos ou interromper movimentos específicos.\n\nO Kuroi Sutetchi é uma técnica extremamente precisa, exigindo conhecimento anatômico profundo e controle absurdo de chakra.",
-        "destruction": "Sutura médica avançada, contenção corporal e dano nervoso localizado.",
-        "history": "Desenvolvida por Enrai após estudar corpos modificados que não podiam ser tratados com medicina convencional.",
-        "status": "Exige proximidade ou contato direto com o alvo.",
-        "image": ""
-      }
-    ],
     "arsenal": [],
     "powers": [
       {
@@ -1795,7 +1733,69 @@
       "vigor": 26,
       "perception": 11
     },
-    "chakra": 64
+    "chakra": 64,
+    "techniques": [
+      {
+        "name": "Raiton Iryou: Raikō Saisei",
+        "classification": "Z",
+        "nature": "Raiton + Iryou Ninjutsu + Chakra Profano",
+        "description": "A técnica médica mais perigosa de Enrai.\n\nUtilizando impulsos elétricos dourado âmbar misturados a fragmentos controlados de energia proibida, Enrai força o corpo de um aliado a entrar em um estado temporário de sobrevivência absoluta.\n\nDurante a técnica:\n\n• Hemorragias são contidas à força\n• Órgãos continuam funcionando mesmo danificados\n• Músculos rompidos são estimulados artificialmente\n• O sistema nervoso ignora dor extrema\n• O fluxo de chakra é mantido por pulsos externos\n\nO alvo não é curado.\n\nEle é impedido de morrer.\n\nEssa diferença torna a técnica assustadora.\n\nQuando usada em Reito, o Raikō Saisei consegue estabilizar temporariamente o colapso do Kaminari Artificial, permitindo que ele continue lutando mesmo em condições absurdas.\n\nMas após o efeito terminar, todo o dano acumulado retorna ao corpo de uma vez.",
+        "destruction": "Sobrevivência forçada, estabilização extrema e prolongamento artificial de combate.",
+        "history": "Criada por Enrai após estudar os limites entre medicina shinobi, tecnologia da OCA e Chakra Profano.",
+        "status": "Técnica proibida. Pode salvar um aliado ou condená-lo a um colapso ainda pior depois.",
+        "image": ""
+      },
+      {
+        "name": "Raiton: Saigo no Meirei",
+        "classification": "Z",
+        "nature": "Raiton + Iryou Ninjutsu",
+        "description": "Uma técnica extrema em que Enrai envia um comando elétrico final ao sistema nervoso de um aliado ou de si mesmo.\n\nMesmo com ossos quebrados, músculos rompidos ou órgãos em falência, o corpo recebe uma última ordem absoluta:\n\nmover.\n\nAtacar.\n\nLevantar.\n\nProteger.\n\nA técnica permite uma ação final impossível antes do colapso completo.\n\nPode ser usada para fazer um aliado inconsciente escapar da morte, forçar um último golpe ou impedir que uma missão falhe nos segundos finais.\n\nO Saigo no Meirei não salva o corpo.\n\nEle apenas arranca dele uma última utilidade.",
+        "destruction": "Último movimento forçado, ação extrema antes do colapso e comando neural absoluto.",
+        "history": "Criada por Enrai após concluir que alguns corpos não precisam ser salvos para ainda serem úteis.",
+        "status": "Após o uso, o corpo sofre colapso severo. Pode deixar sequelas permanentes.",
+        "image": ""
+      },
+      {
+        "name": "Raiton Iryou: Shinden Sosei",
+        "classification": "S++",
+        "nature": "Raiton + Iryou Ninjutsu",
+        "description": "A principal técnica médica de Enrai Hanzo.\n\nEnrai concentra relâmpagos dourado âmbar nas mãos e os injeta diretamente no sistema nervoso do alvo, reiniciando impulsos vitais através de estímulos elétricos precisos.\n\nA técnica permite estabilizar corpos em estado crítico, reativar músculos paralisados, impedir falência cardíaca e reorganizar temporariamente o fluxo de chakra danificado.\n\nDiferente de cura comum, o Shinden Sosei não restaura o corpo de forma suave.\n\nEle força o organismo a continuar funcionando.\n\nO processo é extremamente doloroso, mas eficiente.\n\nEm aliados modificados, como Reito, a técnica também consegue conter colapsos elétricos internos e reduzir falhas causadas pelo excesso de Kaminari Artificial.",
+        "destruction": "Estabilização médica extrema, reativação neural e manutenção de corpos em estado crítico.",
+        "history": "Criada por Enrai durante os primeiros tratamentos em sobreviventes de experimentos da OCA.",
+        "status": "Não cura completamente danos severos. Apenas impede que o corpo pare de funcionar.",
+        "image": ""
+      },
+      {
+        "name": "Raiton: Raimei Gishin",
+        "classification": "S++",
+        "nature": "Raiton + Nintaijutsu",
+        "description": "Enrai libera descargas dourado âmbar por todo o próprio corpo, estimulando músculos, articulações e nervos através de impulsos médicos agressivos.\n\nA técnica transforma seu corpo em uma máquina de combate de curta distância.\n\nEnquanto ativa:\n\n• Sua força física aumenta drasticamente\n• Sua velocidade muscular sobe em explosões curtas\n• Sua resistência à dor é reduzida artificialmente\n• Ferimentos não interrompem seus movimentos imediatamente\n• Seu sistema nervoso ignora sinais de colapso por alguns instantes\n\nO Raimei Gishin é perigoso porque Enrai não luta como um berserker.\n\nEle luta como um cirurgião.\n\nCada golpe mira articulações, nervos, órgãos e pontos de interrupção corporal.\n\nUm único contato pode paralisar membros, travar músculos ou desorganizar o fluxo de chakra do inimigo.",
+        "destruction": "Combate físico cirúrgico com paralisação neural e dano interno preciso.",
+        "history": "Criada para permitir que Enrai operasse e lutasse em campo sem depender de proteção constante.",
+        "status": "Uso prolongado causa desgaste nervoso e risco de lesão muscular interna.",
+        "image": ""
+      },
+      {
+        "name": "Raiton: Shinkeidan",
+        "classification": "S++",
+        "nature": "Raiton",
+        "description": "Enrai concentra uma esfera pequena de relâmpago âmbar na palma da mão e a dispara contra o alvo.\n\nAo atingir o corpo inimigo, a esfera não explode externamente.\n\nEla se espalha pelo sistema nervoso.\n\nO chakra elétrico percorre músculos, coluna, órgãos e canais de chakra, causando uma pane interna brutal.\n\nAlvos atingidos podem sofrer:\n\n• Paralisia temporária\n• Falha muscular\n• Desorientação\n• Interrupção de selos manuais\n• Perda momentânea de controle de chakra\n\nA técnica foi criada para neutralizar inimigos sem destruir completamente seus corpos, permitindo captura, interrogatório ou cirurgia forçada.",
+        "destruction": "Paralisação neural interna e interrupção de controle corporal.",
+        "history": "Criada por Enrai para capturar alvos úteis da OCA sem matá-los imediatamente.",
+        "status": "Menos efetiva contra corpos sem sistema nervoso comum ou criaturas artificiais muito instáveis.",
+        "image": ""
+      },
+      {
+        "name": "Raiton Iryou: Kuroi Sutetchi",
+        "classification": "S+",
+        "nature": "Raiton + Fuinjutsu Médico",
+        "description": "Enrai cria fios finíssimos de chakra elétrico dourado queimado que funcionam como suturas vivas.\n\nEsses fios podem costurar músculos, vasos, nervos e canais de chakra danificados durante o combate.\n\nEm aliados, a técnica fecha ferimentos e mantém órgãos funcionando até que uma cirurgia real seja possível.\n\nEm inimigos, os fios podem ser usados de forma ofensiva para prender articulações, rasgar nervos ou interromper movimentos específicos.\n\nO Kuroi Sutetchi é uma técnica extremamente precisa, exigindo conhecimento anatômico profundo e controle absurdo de chakra.",
+        "destruction": "Sutura médica avançada, contenção corporal e dano nervoso localizado.",
+        "history": "Desenvolvida por Enrai após estudar corpos modificados que não podiam ser tratados com medicina convencional.",
+        "status": "Exige proximidade ou contato direto com o alvo.",
+        "image": ""
+      }
+    ]
   },
   {
     "__docId": "etsuko-senju-e",
