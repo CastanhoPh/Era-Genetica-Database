@@ -196,10 +196,13 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const restSegments = location.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean).slice(1);
   const subTabRaw = restSegments[0];
   const itemSlugRaw = restSegments[1] ? decodeURIComponent(restSegments[1]) : undefined;
-  const activeTab: 'data' | 'techniques' | 'arsenal' | 'gallery' =
+  // "galeria" continua valendo como rota da Linha do Tempo: é o que os links já compartilhados
+  // usam, e a aba foi só renomeada e dividida em duas.
+  const activeTab: 'data' | 'techniques' | 'arsenal' | 'gallery' | 'eventos' =
     subTabRaw === 'jutsus' ? 'techniques' :
     subTabRaw === 'arsenal' ? 'arsenal' :
-    subTabRaw === 'galeria' ? 'gallery' : 'data';
+    subTabRaw === 'eventos' ? 'eventos' :
+    subTabRaw === 'linha-do-tempo' || subTabRaw === 'galeria' ? 'gallery' : 'data';
 
   const gallerySlugFor = (img: { caption?: string }, idx: number) => img.caption ? slugify(img.caption) : `img-${idx + 1}`;
 
@@ -209,24 +212,29 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const selectedWeaponIndex = activeTab === 'arsenal' && itemSlugRaw
     ? (() => { const i = characterArsenalAll.findIndex(w => w && slugify(w.name) === itemSlugRaw); return i >= 0 ? i : null; })()
     : null;
-  const selectedGalleryIndex = activeTab === 'gallery' && itemSlugRaw
+  const selectedGalleryIndex = (activeTab === 'gallery' || activeTab === 'eventos') && itemSlugRaw
     ? (() => { const i = characterGallery.findIndex((g, gi) => gallerySlugFor(g, gi) === itemSlugRaw); return i >= 0 ? i : null; })()
     : null;
 
   const charBasePath = `/${encodeURIComponent(char.docId!)}`;
   const goTo = (path: string) => navigate(path, { state: location.state });
-  const goToTab = (tab: 'data' | 'techniques' | 'arsenal' | 'gallery') => goTo(
+  const goToTab = (tab: 'data' | 'techniques' | 'arsenal' | 'gallery' | 'eventos') => goTo(
     tab === 'data' ? charBasePath
       : tab === 'techniques' ? `${charBasePath}/jutsus`
       : tab === 'arsenal' ? `${charBasePath}/arsenal`
-      : `${charBasePath}/galeria`
+      : tab === 'eventos' ? `${charBasePath}/eventos`
+      : `${charBasePath}/linha-do-tempo`
   );
   const goToTechnique = (idx: number) => goTo(`${charBasePath}/jutsus/${encodeURIComponent(slugify(allTechniques[idx].name))}`);
   const goToWeapon = (idx: number) => {
     const w = characterArsenalAll[idx];
     if (w) goTo(`${charBasePath}/arsenal/${encodeURIComponent(slugify(w.name))}`);
   };
-  const goToGalleryImage = (idx: number) => goTo(`${charBasePath}/galeria/${encodeURIComponent(gallerySlugFor(characterGallery[idx], idx))}`);
+  // A imagem abre na aba a que ela pertence — evento cai em /eventos, fase e modo em
+  // /linha-do-tempo — para o "voltar" levar ao lugar de onde ela veio.
+  const abaDaImagem = (img?: { category?: string }) => (img?.category === 'evento' ? 'eventos' : 'linha-do-tempo');
+  const goToGalleryImage = (idx: number) =>
+    goTo(`${charBasePath}/${abaDaImagem(characterGallery[idx])}/${encodeURIComponent(gallerySlugFor(characterGallery[idx], idx))}`);
 
   const SEM_TEMPORADA = 'Sem Temporada';
   const seasonOrder = [...EVENT_SEASONS, SEM_TEMPORADA];
@@ -362,9 +370,11 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
 
         <div className="flex-1 flex flex-col bg-tech-bg relative overflow-hidden">
             <div className="h-12 bg-tech-panel border-b border-tech-border flex items-center px-4 justify-between">
-                <div className="flex items-center gap-4">
-                    <Terminal size={14} className="text-tech-primary" />
-                    <div className="flex gap-2">
+                {/* min-w-0 + overflow-x-auto: com cinco abas a faixa rola em tela estreita em vez
+                    de comprimir os botões ou empurrar os ícones de ação para fora. */}
+                <div className="flex items-center gap-4 min-w-0">
+                    <Terminal size={14} className="text-tech-primary shrink-0" />
+                    <div className="flex gap-2 overflow-x-auto scrollbar-none">
                         <button
                             onClick={() => goToTab('data')}
                             className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'data' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
@@ -387,7 +397,13 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             onClick={() => goToTab('gallery')}
                             className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'gallery' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
                         >
-                            GALERIA [{(char.gallery || []).length}]
+                            Linha do Tempo [{eraGallery.length + transformacaoGallery.length}]
+                        </button>
+                        <button
+                            onClick={() => goToTab('eventos')}
+                            className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'eventos' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                        >
+                            Eventos [{eventoGallery.length}]
                         </button>
                     </div>
                 </div>
@@ -1030,7 +1046,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                     <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
                         {selectedGalleryIndex === null ? (
                             <div className="space-y-10">
-                                {eraGallery.length > 0 && (
+                                {activeTab === 'gallery' && eraGallery.length > 0 && (
                                     <div>
                                         <div className="flex items-center gap-3 mb-4">
                                             <h3 className="text-xs font-bold text-black bg-tech-accent p-1 pl-2 uppercase clip-corner-sm">Linha do Tempo</h3>
@@ -1091,7 +1107,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     É uma lista aberta (o personagem ganha modo novo quando ganha), não um
                                     conjunto fechado de fases — por isso seção própria e não mais fases
                                     avulsas dentro da Linha do Tempo. */}
-                                {transformacaoGallery.length > 0 && (
+                                {activeTab === 'gallery' && transformacaoGallery.length > 0 && (
                                     <div>
                                         <div className="flex items-center gap-3 mb-4">
                                             <h3 className="text-xs font-bold text-black bg-tech-accent p-1 pl-2 uppercase clip-corner-sm">Modos e Transformações</h3>
@@ -1145,7 +1161,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     </div>
                                 )}
 
-                                {eventoGallery.length > 0 && (
+                                {activeTab === 'eventos' && eventoGallery.length > 0 && (
                                     <div>
                                         <div className="flex items-center gap-3 mb-4">
                                             <h3 className="text-xs font-bold text-black bg-tech-accent p-1 pl-2 uppercase clip-corner-sm">Eventos</h3>
@@ -1228,23 +1244,30 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     </div>
                                 )}
 
-                                {eraGallery.length === 0 && transformacaoGallery.length === 0 && eventoGallery.length === 0 && (
+                                {activeTab === 'gallery' && eraGallery.length === 0 && transformacaoGallery.length === 0 && (
                                     <div className="h-64 flex flex-col items-center justify-center border border-tech-border border-dashed bg-tech-panel/10">
                                         <ImageIcon size={32} className="text-tech-dim mb-4" />
-                                        <span className="text-xs text-tech-dim uppercase tracking-widest">Nenhuma imagem registrada na galeria.</span>
+                                        <span className="text-xs text-tech-dim uppercase tracking-widest">Nenhuma imagem na linha do tempo.</span>
+                                    </div>
+                                )}
+
+                                {activeTab === 'eventos' && eventoGallery.length === 0 && (
+                                    <div className="h-64 flex flex-col items-center justify-center border border-tech-border border-dashed bg-tech-panel/10">
+                                        <ImageIcon size={32} className="text-tech-dim mb-4" />
+                                        <span className="text-xs text-tech-dim uppercase tracking-widest">Nenhum evento registrado.</span>
                                     </div>
                                 )}
                             </div>
                         ) : (
                             <div className="space-y-6">
                                 <button
-                                    onClick={() => goToTab('gallery')}
+                                    onClick={() => goToTab(activeTab === 'eventos' ? 'eventos' : 'gallery')}
                                     className="flex items-center gap-2 text-tech-accent hover:text-white transition-colors text-[10px] font-black uppercase tracking-widest mb-4 group"
                                 >
                                     <div className="p-1 border border-tech-accent group-hover:bg-tech-accent group-hover:text-black transition-all">
                                         <X size={12} className="rotate-90" />
                                     </div>
-                                    VOLTAR_PARA_GALERIA
+                                    {activeTab === 'eventos' ? 'VOLTAR_PARA_EVENTOS' : 'VOLTAR_PARA_LINHA_DO_TEMPO'}
                                 </button>
                                 {(() => {
                                     const img = characterGallery[selectedGalleryIndex];

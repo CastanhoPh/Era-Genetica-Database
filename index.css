@@ -139,3 +139,14 @@ body {
 .card-zoom-container:hover img {
     transform: scale(1.05);
 }
+
+/* Faixa que rola sem mostrar barra — a barra global de 8px não cabe na barra de abas da
+   ficha, que tem 48px de altura. */
+.scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
