@@ -4034,39 +4034,39 @@
     ],
     "gallery": [
       {
-        "caption": "Prólogo",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1784658553093310",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1786370734644029",
-        "caption": "Clássico",
-        "category": "era"
-      },
-      {
         "category": "era",
+        "caption": "Prólogo",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1784658553093310"
+      },
+      {
+        "caption": "Clássico",
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1786370734644029"
+      },
+      {
         "caption": "1ª Temporada",
+        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F1__Temporada.png?alt=media&v=1786454424413629"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1786454427005356",
         "caption": "2ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1786454427005356",
         "category": "era"
       },
       {
-        "caption": "Ambu",
         "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1786454421852750"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1786454421852750",
+        "caption": "Ambu"
       },
       {
-        "category": "era",
         "caption": "Luta contra o Omega",
+        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1786651869676385"
       },
       {
-        "caption": "3ª Temporada",
         "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651869676164"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651869676164",
+        "caption": "3ª Temporada"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1786454429614752",
@@ -4075,22 +4075,22 @@
       },
       {
         "caption": "5ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651869725277",
-        "category": "era"
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651869725277"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
-        "caption": "Início - Todos da Ambu desmaiam",
         "category": "evento",
         "season": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
+        "caption": "Início - Todos da Ambu desmaiam",
         "eventId": "0vY1igdFWYE5xfh859Mg"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FFinal%2FKaito%20VS%20Oddy.png?alt=media&v=1784240347077250",
-        "caption": "Exame Chunin - Final - Kaito VS Oddy",
-        "category": "evento",
+        "eventId": "1-temporada__exame-chunin__final__kaito-vs-oddy",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__final__kaito-vs-oddy"
+        "caption": "Exame Chunin - Final - Kaito VS Oddy",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FFinal%2FKaito%20VS%20Oddy.png?alt=media&v=1784240347077250",
+        "category": "evento"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FOitavas%2FKaito%20VS%20Ayumi.png?alt=media&v=1784240346053279",
@@ -4100,220 +4100,213 @@
         "eventId": "1-temporada__exame-chunin__oitavas__kaito-vs-ayumi"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FProva%20Te%C3%B3rica%20de%20Kaito.png?alt=media&v=1784240373397775",
+        "category": "evento",
+        "eventId": "1-temporada__exame-chunin__prova-teorica-de-kaito",
         "caption": "Exame Chunin - Prova Teórica de Kaito",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__prova-teorica-de-kaito"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FProva%20Te%C3%B3rica%20de%20Kaito.png?alt=media&v=1784240373397775",
+        "season": "1ª Temporada"
       },
       {
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__exame-chunin__quartas__kaito-vs-nagare",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FKaito%20VS%20Nagare.png?alt=media&v=1784240346081131",
-        "caption": "Exame Chunin - Quartas - Kaito VS Nagare",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__quartas__kaito-vs-nagare"
+        "caption": "Exame Chunin - Quartas - Kaito VS Nagare"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FSemi%2FKaito%20VS%20Takeshi.png?alt=media&v=1784240347948867",
+        "eventId": "1-temporada__exame-chunin__semi__kaito-vs-takeshi",
+        "season": "1ª Temporada",
         "caption": "Exame Chunin - Semi - Kaito VS Takeshi",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__semi__kaito-vs-takeshi"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FSemi%2FKaito%20VS%20Takeshi.png?alt=media&v=1784240347948867",
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
         "caption": "Início - Os 7 de Konoha",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
+        "eventId": "1-temporada__inicio__os-7-de-konoha",
+        "season": "1ª Temporada"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
-        "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya",
+        "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
         "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
-        "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
         "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
         "season": "1ª Temporada",
+        "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
         "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
-        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+        "category": "evento",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
-        "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
+        "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
         "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
         "caption": "Início - Painel escrito Salvador se abre",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__painel-escrito-salvador"
+        "eventId": "1-temporada__inicio__painel-escrito-salvador",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20de%20c%C3%A9lulas%20de%20Kaito.png?alt=media&v=1784240332019035",
-        "caption": "Masmorra - Torturas - Extração de células de Kaito",
         "category": "evento",
         "season": "1ª Temporada",
+        "caption": "Masmorra - Torturas - Extração de células de Kaito",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20de%20c%C3%A9lulas%20de%20Kaito.png?alt=media&v=1784240332019035",
         "eventId": "1-temporada__masmorra__torturas__extracao-de-celulas-de-kaito"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
         "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
         "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
-        "category": "evento",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "category": "evento"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FP%C3%B3s-Exame%2FKaito%20lendo%20a%20carta%20de%20Nagare.png?alt=media&v=1784240342516624",
-        "caption": "Pós-Exame - Kaito lendo a carta de Nagare",
-        "category": "evento",
+        "eventId": "1-temporada__pos-exame__kaito-lendo-a-carta-de-nagare",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__pos-exame__kaito-lendo-a-carta-de-nagare"
+        "category": "evento",
+        "caption": "Pós-Exame - Kaito lendo a carta de Nagare"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FPr%C3%A9-Exame%20Chunin%2FBriga%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240328373868",
-        "caption": "Pré-Exame Chunin - Briga de Kaito e Nagare",
         "category": "evento",
+        "eventId": "1-temporada__pre-exame-chunin__briga-de-kaito-e-nagare",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__pre-exame-chunin__briga-de-kaito-e-nagare"
+        "caption": "Pré-Exame Chunin - Briga de Kaito e Nagare"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FPr%C3%A9-Exame%20Chunin%2FKaito%20conhecendo%20Ayumi.png?alt=media&v=1784240339403481",
+        "eventId": "1-temporada__pre-exame-chunin__kaito-conhecendo-ayumi",
         "caption": "Pré-Exame Chunin - Kaito conhecendo Ayumi",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__pre-exame-chunin__kaito-conhecendo-ayumi"
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419",
+        "season": "1ª Temporada",
+        "category": "evento",
         "caption": "Treinamentos Individuais - Kaito e Hisoka - A e B chegam",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam"
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20aprendendo%20Rasengan.png?alt=media&v=1784240339017516",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito aprendendo Rasengan",
-        "category": "evento",
         "season": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20aprendendo%20Rasengan.png?alt=media&v=1784240339017516",
+        "category": "evento",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito aprendendo Rasengan",
         "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-aprendendo-rasengan"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%20encontram%20Oddy%20e%20Naoki.png?alt=media&v=1784240454051693",
         "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito e Hisoka encontram Oddy e Naoki",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%20encontram%20Oddy%20e%20Naoki.png?alt=media&v=1784240454051693",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-encontram-oddy-e-naoki"
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-encontram-oddy-e-naoki",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20e%20Hisoka%20recebem%20o%20sinal%20de%20Nishinoya.png?alt=media&v=1784240338833127",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito e Hisoka recebem o sinal de Nishinoya",
         "category": "evento",
         "season": "1ª Temporada",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito e Hisoka recebem o sinal de Nishinoya",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20e%20Hisoka%20recebem%20o%20sinal%20de%20Nishinoya.png?alt=media&v=1784240338833127",
         "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-recebem-o-sinal-de-nishinoya"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20encontrando%20c%C3%A9lulas%20do%20Hashirama.png?alt=media&v=1784240341914076",
         "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito encontrando células do Hashirama",
-        "category": "evento",
         "season": "1ª Temporada",
+        "category": "evento",
         "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-encontrando-celulas-do-hashirama"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito, Hisoka, Oddy e Naoki VS A e B",
         "category": "evento",
         "season": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito, Hisoka, Oddy e Naoki VS A e B",
         "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20no%20final%20do%20treinamento.png?alt=media&v=1784240345868183",
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-no-final-do-treinamento",
         "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito no final do treinamento",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-no-final-do-treinamento"
+        "category": "evento"
       },
       {
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-olhando-konoha-de-longe",
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20olhando%20Konoha%20de%20longe.png?alt=media&v=1784240346749887",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito olhando Konoha de longe",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-olhando-konoha-de-longe"
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito olhando Konoha de longe"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FO%20Treinamento%20de%20Kaito.png?alt=media&v=1784240359259893",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - O Treinamento de Kaito",
-        "category": "evento",
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__o-treinamento-de-kaito",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__o-treinamento-de-kaito"
+        "category": "evento",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - O Treinamento de Kaito",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FO%20Treinamento%20de%20Kaito.png?alt=media&v=1784240359259893"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FRetorno%20a%20Konoha.png?alt=media&v=1784240465179766",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Retorno a Konoha de Kaito, Hisoka, Oddy e Naoki",
-        "category": "evento",
         "season": "1ª Temporada",
+        "category": "evento",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Retorno a Konoha de Kaito, Hisoka, Oddy e Naoki",
         "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__retorno-a-konoha-de-kaito-hisoka-oddy-e-naoki"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
-        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
-        "category": "evento",
-        "season": "2ª Temporada de Konoha",
-        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
-        "caption": "Início - Os 7 de Konoha descansam",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "4jzvbD6odljSwAL7sHxM"
+        "category": "evento",
+        "eventId": "4jzvbD6odljSwAL7sHxM",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
         "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
+        "season": "1ª Temporada"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
-        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
         "category": "evento",
         "season": "1ª Temporada",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
         "eventId": "N9Yif0B1P5XNfPKQAfbX"
       },
       {
@@ -4325,87 +4318,122 @@
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20treinando%20com%20Nishinoya.png?alt=media&v=1784240344515030",
-        "caption": "Academia Ninja - Kaito treinando com Nishinoya",
         "category": "evento",
         "season": "Clássico",
-        "eventId": "OGaWrvEWWhg8Re34uPVj"
+        "eventId": "OGaWrvEWWhg8Re34uPVj",
+        "caption": "Academia Ninja - Kaito treinando com Nishinoya"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20indo%20treinar%20com%20Hisoka.png?alt=media&v=1784240343395112",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito indo treinar com Hisoka",
-        "category": "evento",
         "season": "1ª Temporada",
+        "category": "evento",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito indo treinar com Hisoka",
         "eventId": "eviujpIa3w1HxSoyY1Iy"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
-        "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu",
+        "eventId": "iPALRrrtWANQc8GXKv9t",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "iPALRrrtWANQc8GXKv9t"
+        "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
-        "caption": "Início - O acampamento da Ambu",
         "category": "evento",
+        "caption": "Início - O acampamento da Ambu",
+        "eventId": "mwiqbH4poB4O4VkNoctJ",
         "season": "1ª Temporada",
-        "eventId": "mwiqbH4poB4O4VkNoctJ"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FCasa%20Senju.png?alt=media&v=1784240328151860",
+        "eventId": "pBLmHzr0sLVwiyuZHZXs",
         "caption": "Famílias - Casa Senju",
-        "category": "evento",
         "season": "Prólogo",
-        "eventId": "pBLmHzr0sLVwiyuZHZXs"
+        "category": "evento"
       },
       {
+        "season": "Prólogo",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240324232973",
-        "caption": "Apresentações - Apresentação de Kaito e Nagare",
+        "eventId": "prologo__apresentacoes__apresentacao-de-kaito-e-nagare",
         "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__apresentacoes__apresentacao-de-kaito-e-nagare"
+        "caption": "Apresentações - Apresentação de Kaito e Nagare"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259",
         "caption": "Famílias - Família Senju",
-        "category": "evento",
         "season": "Prólogo",
         "eventId": "prologo__familias__familia-senju-completa"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263",
         "caption": "Famílias - Senjus e Sabakus",
-        "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__familias__senjus-e-sabakus"
+        "eventId": "prologo__familias__senjus-e-sabakus",
+        "season": "Prólogo"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854",
-        "caption": "Nascimentos - Nascimento de Kaito e Nagare",
         "category": "evento",
         "season": "Prólogo",
+        "caption": "Nascimentos - Nascimento de Kaito e Nagare",
         "eventId": "prologo__nascimentos__nascimento-de-kaito-e-nagare"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FHisoka_%20Nagare_%20Kaito%20e%20Ayumi.png?alt=media&v=1784240338344000",
+        "eventId": "prologo__primeiras-missoes__primeira-missao-de-nagare-kaito-e-ayumi",
+        "season": "Clássico",
         "caption": "Primeiras Missões - Hisoka, Nagare, Kaito e Ayumi",
         "category": "evento",
-        "season": "Clássico",
-        "eventId": "prologo__primeiras-missoes__primeira-missao-de-nagare-kaito-e-ayumi"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FHisoka_%20Nagare_%20Kaito%20e%20Ayumi.png?alt=media&v=1784240338344000"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Nagare.png?alt=media&v=1784240339195598",
         "caption": "Academia Ninja - Kaito e Nagare",
         "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Nagare.png?alt=media&v=1784240339195598",
         "season": "Clássico",
         "eventId": "prologo__treinamentos__kaito-e-nagare"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Tobirama.png?alt=media&v=1784240339463439",
+        "eventId": "prologo__treinamentos__kaito-e-tobirama",
         "caption": "Academia Ninja - Kaito e Tobirama",
-        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Tobirama.png?alt=media&v=1784240339463439",
         "season": "Clássico",
-        "eventId": "prologo__treinamentos__kaito-e-tobirama"
+        "category": "evento"
+      },
+      {
+        "category": "evento",
+        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin",
+        "season": "2ª Temporada de Konoha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKatsumi%20e%20Hoshiro%2FNishinoya%20o%20Terceiro%20Hokage.png?alt=media&v=1784240355082399",
+        "caption": "Reunindo reforços - Nishinoya o Terceiro Hokage",
+        "eventId": "OdRVfvhWWEPFjuLBGk1x",
+        "season": "2ª Temporada de Konoha",
+        "category": "evento"
+      },
+      {
+        "caption": "Reunindo reforços - Conversa com o novo Terceiro Hokage",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FConversa%20com%20o%20novo%20Terceiro%20Hokage.png?alt=media&v=1784240328356796",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__conversa-com-o-novo-terceiro-hokage"
+      },
+      {
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884",
+        "caption": "Reunindo reforços - Os Jinchuurikis de Gyomei e Son Goku"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
+        "caption": "Reunindo reforços - Os Mestres do Ranton",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton"
       }
     ]
   },
@@ -4855,210 +4883,238 @@
     "arsenal": [],
     "gallery": [
       {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FPr_logo.png?alt=media&v=1784658555583435",
         "category": "era",
-        "caption": "Prólogo",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FPr_logo.png?alt=media&v=1784658555583435"
+        "caption": "Prólogo"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FCl_ssico.png?alt=media&v=1786370732772004",
+        "caption": "Clássico",
         "category": "era",
-        "caption": "Clássico"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FCl_ssico.png?alt=media&v=1786370732772004"
       },
       {
+        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F1__Temporada.png?alt=media&v=1784579801884678",
-        "caption": "1ª Temporada",
-        "category": "era"
+        "caption": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F2__Temporada.png?alt=media&v=1784579804356218",
         "caption": "2ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F2__Temporada.png?alt=media&v=1784579804356218",
         "category": "era"
       },
       {
-        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FAmbu.png?alt=media&v=1784579806879806",
+        "category": "era",
         "caption": "Ambu"
       },
       {
-        "caption": "Luta contra o Omega",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_o_Omega.png?alt=media&v=1784579809561973",
         "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_o_Omega.png?alt=media&v=1784579809561973"
+        "caption": "Luta contra o Omega"
       },
       {
-        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F3__Temporada.png?alt=media&v=1784579812202149",
+        "category": "era",
         "caption": "3ª Temporada"
       },
       {
-        "caption": "4ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F4__Temporada.png?alt=media&v=1784579814862411",
+        "caption": "4ª Temporada",
         "category": "era"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_os_Kages.png?alt=media&v=1786370763032342",
-        "caption": "Luta contra os Kages",
-        "category": "era"
+        "category": "era",
+        "caption": "Luta contra os Kages"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
-        "caption": "Início - Todos da Ambu desmaiam",
-        "category": "evento",
+        "eventId": "0vY1igdFWYE5xfh859Mg",
         "season": "1ª Temporada",
-        "eventId": "0vY1igdFWYE5xfh859Mg"
+        "caption": "Início - Todos da Ambu desmaiam",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
+        "category": "evento"
       },
       {
+        "eventId": "1-temporada__inicio__os-7-de-konoha",
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
         "caption": "Início - Os 7 de Konoha",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
         "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
-        "category": "evento",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya"
+        "category": "evento"
       },
       {
+        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
+        "season": "1ª Temporada",
         "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
+        "category": "evento",
         "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
         "caption": "Início - Os 7 de Konoha olhando o painel com senha",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
+        "category": "evento",
         "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
         "caption": "Início - Os 7 de Konoha VS Equipe 40%",
-        "category": "evento",
         "season": "1ª Temporada",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
         "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
-        "caption": "Início - Painel escrito Salvador se abre",
-        "category": "evento",
+        "eventId": "1-temporada__inicio__painel-escrito-salvador",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__painel-escrito-salvador"
+        "category": "evento",
+        "caption": "Início - Painel escrito Salvador se abre"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Byakugan%20de%20Katsumi.png?alt=media&v=1784240331803456",
-        "caption": "Masmorra - Torturas - Extração do chakra do Byakugan de Katsumi",
-        "category": "evento",
+        "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi"
+        "caption": "Masmorra - Torturas - Extração do chakra do Byakugan de Katsumi"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados",
+        "season": "1ª Temporada",
+        "category": "evento",
         "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
         "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
-        "category": "evento",
         "season": "1ª Temporada",
         "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
-        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
-        "category": "evento",
-        "season": "2ª Temporada de Konoha",
-        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
-        "caption": "Início - Os 7 de Konoha descansam",
         "category": "evento",
         "season": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
         "eventId": "4jzvbD6odljSwAL7sHxM"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
         "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX",
         "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
-        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
         "season": "1ª Temporada",
-        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+        "category": "evento"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "eventId": "NxFSZXETJh6PjNXggwy2",
+        "category": "evento",
         "caption": "Início - Os 7 de Konoha derrotam os Robos",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "NxFSZXETJh6PjNXggwy2"
+        "season": "1ª Temporada"
       },
       {
+        "season": "1ª Temporada",
+        "eventId": "iPALRrrtWANQc8GXKv9t",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
-        "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "iPALRrrtWANQc8GXKv9t"
+        "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu"
       },
       {
+        "season": "1ª Temporada",
+        "category": "evento",
+        "eventId": "mwiqbH4poB4O4VkNoctJ",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
-        "caption": "Início - O acampamento da Ambu",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "mwiqbH4poB4O4VkNoctJ"
+        "caption": "Início - O acampamento da Ambu"
       },
       {
+        "category": "evento",
+        "season": "Prólogo",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742",
-        "caption": "Apresentações - Apresentação de Katsumi, Borashi e Ryuta",
-        "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi"
+        "eventId": "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi",
+        "caption": "Apresentações - Apresentação de Katsumi, Borashi e Ryuta"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832",
+        "eventId": "prologo__familias__familia-hyuga",
+        "season": "Prólogo",
         "caption": "Famílias - Família Hyuga",
-        "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__familias__familia-hyuga"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832",
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento_de_Katsumi.png?alt=media&v=1784750316421",
+        "eventId": "prologo__nascimentos__nascimento-de-katsumi",
         "caption": "Nascimentos - Nascimento de Katsumi",
-        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento_de_Katsumi.png?alt=media&v=1784750316421",
         "season": "Prólogo",
-        "eventId": "prologo__nascimentos__nascimento-de-katsumi"
+        "category": "evento"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNishinoya_%20Oddy_%20Katsumi%20e%20Airi.png?alt=media&v=1784240358202895",
-        "caption": "Primeiras Missões - Nishinoya, Oddy, Katsumi e Airi",
+        "eventId": "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi",
         "category": "evento",
         "season": "Clássico",
-        "eventId": "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi"
+        "caption": "Primeiras Missões - Nishinoya, Oddy, Katsumi e Airi"
+      },
+      {
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin",
+        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
+        "season": "2ª Temporada de Konoha",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
+        "category": "evento"
+      },
+      {
+        "eventId": "OdRVfvhWWEPFjuLBGk1x",
+        "caption": "Reunindo reforços - Nishinoya o Terceiro Hokage",
+        "season": "2ª Temporada de Konoha",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKatsumi%20e%20Hoshiro%2FNishinoya%20o%20Terceiro%20Hokage.png?alt=media&v=1784240355082399",
+        "category": "evento"
+      },
+      {
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__conversa-com-o-novo-terceiro-hokage",
+        "season": "2ª Temporada de Konoha",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FConversa%20com%20o%20novo%20Terceiro%20Hokage.png?alt=media&v=1784240328356796",
+        "category": "evento",
+        "caption": "Reunindo reforços - Conversa com o novo Terceiro Hokage"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
+        "season": "2ª Temporada de Konoha",
+        "caption": "Reunindo reforços - Os Jinchuurikis de Gyomei e Son Goku",
+        "category": "evento"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
+        "caption": "Reunindo reforços - Os Mestres do Ranton",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton"
       }
     ]
   },
@@ -6942,8 +6998,8 @@
     "gallery": [
       {
         "caption": "Prólogo",
-        "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FPr_logo.png?alt=media&v=1784658585741971"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FPr_logo.png?alt=media&v=1784658585741971",
+        "category": "era"
       },
       {
         "category": "era",
@@ -6951,14 +7007,14 @@
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FCl_ssico.png?alt=media&v=1786370728817391"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651877205683",
         "category": "era",
-        "caption": "1ª Temporada"
+        "caption": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651877205683"
       },
       {
-        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651877190422",
-        "caption": "2ª Temporada"
+        "caption": "2ª Temporada",
+        "category": "era"
       },
       {
         "category": "era",
@@ -6966,168 +7022,196 @@
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Ambu.png?alt=media&v=1786651878717683"
       },
       {
-        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F3__Temporada.png?alt=media&v=1786454450385307",
+        "category": "era",
         "caption": "3ª Temporada"
       },
       {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F4__Temporada.png?alt=media&v=1784658584260783",
         "category": "era",
-        "caption": "4ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F4__Temporada.png?alt=media&v=1784658584260783"
+        "caption": "4ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
         "caption": "Início - Todos da Ambu desmaiam",
-        "category": "evento",
+        "eventId": "0vY1igdFWYE5xfh859Mg",
         "season": "1ª Temporada",
-        "eventId": "0vY1igdFWYE5xfh859Mg"
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273"
       },
       {
+        "eventId": "1-temporada__exame-chunin__quartas__najin-vs-oddy",
+        "category": "evento",
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FNajin%20VS%20Oddy.png?alt=media&v=1784240350650136",
-        "caption": "Exame Chunin - Quartas - Najin VS Oddy",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__quartas__najin-vs-oddy"
+        "caption": "Exame Chunin - Quartas - Najin VS Oddy"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
         "caption": "Início - Os 7 de Konoha",
-        "category": "evento",
         "season": "1ª Temporada",
         "eventId": "1-temporada__inicio__os-7-de-konoha"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
         "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
-        "category": "evento",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
         "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
         "category": "evento",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714"
       },
       {
+        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
         "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
         "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
-        "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
+        "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40",
         "caption": "Início - Os 7 de Konoha VS Equipe 40%",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
+        "category": "evento",
+        "season": "1ª Temporada",
         "caption": "Início - Painel escrito Salvador se abre",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__painel-escrito-salvador"
+        "eventId": "1-temporada__inicio__painel-escrito-salvador",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados",
+        "season": "1ª Temporada",
         "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "category": "evento"
       },
       {
+        "season": "1ª Temporada",
+        "category": "evento",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
-        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
-        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
         "category": "evento",
-        "season": "2ª Temporada de Konoha",
-        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
         "caption": "Início - Os 7 de Konoha descansam",
-        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
         "season": "1ª Temporada",
         "eventId": "4jzvbD6odljSwAL7sHxM"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
-        "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "category": "evento",
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
+        "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
         "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
-        "category": "evento",
         "season": "1ª Temporada",
         "eventId": "N9Yif0B1P5XNfPKQAfbX"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
         "caption": "Início - Os 7 de Konoha derrotam os Robos",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "NxFSZXETJh6PjNXggwy2"
+        "eventId": "NxFSZXETJh6PjNXggwy2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
+        "eventId": "iPALRrrtWANQc8GXKv9t",
         "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "iPALRrrtWANQc8GXKv9t"
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
+        "eventId": "mwiqbH4poB4O4VkNoctJ",
+        "season": "1ª Temporada",
         "caption": "Início - O acampamento da Ambu",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "mwiqbH4poB4O4VkNoctJ"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173",
         "caption": "Apresentações - Apresentação de Takeshi e Najin",
-        "category": "evento",
+        "eventId": "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173",
         "season": "Prólogo",
-        "eventId": "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1784240353667278",
-        "caption": "Nascimentos - Nascimento de Najin e Takeshi",
         "category": "evento",
+        "eventId": "prologo__nascimentos__nascimento-de-najin-e-takeshi",
         "season": "Prólogo",
-        "eventId": "prologo__nascimentos__nascimento-de-najin-e-takeshi"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1784240353667278",
+        "caption": "Nascimentos - Nascimento de Najin e Takeshi"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387",
-        "caption": "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi",
-        "category": "evento",
         "season": "Clássico",
+        "category": "evento",
+        "caption": "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi",
         "eventId": "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi"
+      },
+      {
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin",
+        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
+        "season": "2ª Temporada de Konoha",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619"
+      },
+      {
+        "eventId": "OdRVfvhWWEPFjuLBGk1x",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "caption": "Reunindo reforços - Nishinoya o Terceiro Hokage",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKatsumi%20e%20Hoshiro%2FNishinoya%20o%20Terceiro%20Hokage.png?alt=media&v=1784240355082399"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FConversa%20com%20o%20novo%20Terceiro%20Hokage.png?alt=media&v=1784240328356796",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__conversa-com-o-novo-terceiro-hokage",
+        "season": "2ª Temporada de Konoha",
+        "caption": "Reunindo reforços - Conversa com o novo Terceiro Hokage",
+        "category": "evento"
+      },
+      {
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
+        "caption": "Reunindo reforços - Os Jinchuurikis de Gyomei e Son Goku",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
+        "caption": "Reunindo reforços - Os Mestres do Ranton",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton"
       }
     ]
   },
@@ -7926,24 +8010,24 @@
     "arsenal": [],
     "gallery": [
       {
-        "caption": "Prólogo",
+        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media&v=1786651865211217",
-        "category": "era"
+        "caption": "Prólogo"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062",
         "caption": "Clássico",
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651865147231",
+        "caption": "1ª Temporada",
         "category": "era"
       },
       {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651865181625",
         "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651865147231",
-        "caption": "1ª Temporada"
-      },
-      {
-        "category": "era",
-        "caption": "2ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651865181625"
+        "caption": "2ª Temporada"
       },
       {
         "caption": "Terceiro Hokage",
@@ -7951,8 +8035,8 @@
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1786651865146365"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249",
         "caption": "Luta contra o Omega",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249",
         "category": "era"
       },
       {
@@ -7961,98 +8045,105 @@
         "category": "transformacao"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1787068549641572",
         "category": "transformacao",
-        "caption": "Manto Matatabi V1"
+        "caption": "Manto Matatabi V1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1787068549641572"
       },
       {
-        "category": "transformacao",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1787068551838796",
         "caption": "Manto Matatabi V2 + Modo Sábio",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1787068551838796"
+        "category": "transformacao"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
+        "category": "evento",
+        "season": "1ª Temporada",
         "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
         "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20treinando%20com%20Nishinoya.png?alt=media&v=1784240344515030",
+        "eventId": "OGaWrvEWWhg8Re34uPVj",
+        "category": "evento",
         "caption": "Academia Ninja - Kaito treinando com Nishinoya",
-        "category": "evento",
-        "season": "Clássico",
-        "eventId": "OGaWrvEWWhg8Re34uPVj"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20treinando%20com%20Nishinoya.png?alt=media&v=1784240344515030",
+        "season": "Clássico"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKatsumi%20e%20Hoshiro%2FNishinoya%20o%20Terceiro%20Hokage.png?alt=media&v=1784240355082399",
-        "caption": "Reunindo reforços - Nishinoya o Terceiro Hokage",
         "category": "evento",
-        "season": "2ª Temporada de Konoha",
-        "eventId": "OdRVfvhWWEPFjuLBGk1x"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1784745046581094",
         "caption": "Próxima Geração - Nishinoya, Naoki, Hisoka, Ryuta e Naomi",
-        "category": "evento",
         "season": "Prólogo",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1784745046581094",
         "eventId": "WWkGeyfd1b7wAlFhLxIX"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Nishinoya.png?alt=media&v=1784240324645407",
         "caption": "Apresentações - Apresentação de Nishinoya",
-        "category": "evento",
+        "eventId": "YkByLTxJxPmy1KtF9lXB",
         "season": "Prólogo",
-        "eventId": "YkByLTxJxPmy1KtF9lXB"
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Nishinoya.png?alt=media&v=1784240324645407"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%20treinando%20Hiraishin%20com%20Tobirama.png?alt=media&v=1784240355616010",
-        "caption": "Próxima Geração - Nishinoya treinando Hiraishin com Tobirama",
-        "category": "evento",
         "season": "Prólogo",
-        "eventId": "lTDlQG6Vp6BNFPkJxip3"
+        "eventId": "lTDlQG6Vp6BNFPkJxip3",
+        "category": "evento",
+        "caption": "Próxima Geração - Nishinoya treinando Hiraishin com Tobirama"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FCasa%20Senju.png?alt=media&v=1784240328151860",
+        "eventId": "pBLmHzr0sLVwiyuZHZXs",
         "caption": "Famílias - Casa Senju",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FCasa%20Senju.png?alt=media&v=1784240328151860",
         "category": "evento",
-        "season": "Prólogo",
-        "eventId": "pBLmHzr0sLVwiyuZHZXs"
+        "season": "Prólogo"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259",
+        "eventId": "prologo__familias__familia-senju-completa",
+        "season": "Prólogo",
+        "category": "evento",
         "caption": "Famílias - Família Senju",
-        "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__familias__familia-senju-completa"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNishinoya_%20Oddy_%20Katsumi%20e%20Airi.png?alt=media&v=1784240358202895",
+        "eventId": "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi",
+        "season": "Clássico",
         "caption": "Primeiras Missões - Nishinoya, Oddy, Katsumi e Airi",
         "category": "evento",
-        "season": "Clássico",
-        "eventId": "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNishinoya_%20Oddy_%20Katsumi%20e%20Airi.png?alt=media&v=1784240358202895"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%20treinando%20Katon%20com%20Tobirama.png?alt=media&v=1784240355760464",
-        "caption": "Próxima Geração - Nishinoya treinando Katon com Tobirama",
-        "category": "evento",
         "season": "Prólogo",
-        "eventId": "vivGYMAsx981zU2HSSKC"
+        "eventId": "vivGYMAsx981zU2HSSKC",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%20treinando%20Katon%20com%20Tobirama.png?alt=media&v=1784240355760464",
+        "caption": "Próxima Geração - Nishinoya treinando Katon com Tobirama"
       },
       {
+        "season": "Prólogo",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Nishinoya.png?alt=media&v=1784240354339422",
         "caption": "Nascimentos - Nascimento de Nishinoya",
         "category": "evento",
-        "season": "Prólogo",
         "eventId": "wsDdwy87EJbJEuZKqxeI"
+      },
+      {
+        "caption": "Reunindo reforços - Nishinoya o Terceiro Hokage",
+        "eventId": "OdRVfvhWWEPFjuLBGk1x",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKatsumi%20e%20Hoshiro%2FNishinoya%20o%20Terceiro%20Hokage.png?alt=media&v=1784240355082399",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FConversa%20com%20o%20novo%20Terceiro%20Hokage.png?alt=media&v=1784240328356796",
+        "caption": "Reunindo reforços - Conversa com o novo Terceiro Hokage",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__conversa-com-o-novo-terceiro-hokage"
       }
     ]
   },
@@ -8273,301 +8364,329 @@
     ],
     "gallery": [
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1786454452859639",
+        "caption": "Prólogo",
         "category": "era",
-        "caption": "Prólogo"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1786454452859639"
       },
       {
-        "caption": "Clássico",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FCl_ssico.png?alt=media&v=1786370726545874",
+        "caption": "Clássico",
         "category": "era"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651871199159",
         "caption": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651871199159",
         "category": "era"
       },
       {
         "caption": "2ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651872673152",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media&v=1786651872707676",
         "category": "era",
-        "caption": "Ambu"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651872673152"
       },
       {
         "category": "era",
+        "caption": "Ambu",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media&v=1786651872707676"
+      },
+      {
         "caption": "3ª Temporada",
+        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651872746667"
       },
       {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F4__Temporada.png?alt=media&v=1784658587696755",
         "category": "era",
-        "caption": "4ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F4__Temporada.png?alt=media&v=1784658587696755"
+        "caption": "4ª Temporada"
       },
       {
-        "caption": "Luta contra os Kages",
+        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FLuta_contra_os_Kages.png?alt=media&token=19f7261e-95ea-44b5-8892-4b9165616ab8&v=1785778195230",
+        "caption": "Luta contra os Kages"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.jpeg?alt=media&v=1786981418240355",
+        "caption": "5ª Temporada",
         "category": "era"
       },
       {
-        "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.jpeg?alt=media&v=1786981418240355",
-        "caption": "5ª Temporada"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
         "caption": "Início - Todos da Ambu desmaiam",
-        "category": "evento",
+        "eventId": "0vY1igdFWYE5xfh859Mg",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
         "season": "1ª Temporada",
-        "eventId": "0vY1igdFWYE5xfh859Mg"
+        "category": "evento"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FFinal%2FKaito%20VS%20Oddy.png?alt=media&v=1784240347077250",
         "caption": "Exame Chunin - Final - Kaito VS Oddy",
+        "eventId": "1-temporada__exame-chunin__final__kaito-vs-oddy",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__final__kaito-vs-oddy"
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FNajin%20VS%20Oddy.png?alt=media&v=1784240350650136",
+        "eventId": "1-temporada__exame-chunin__quartas__najin-vs-oddy",
         "caption": "Exame Chunin - Quartas - Najin VS Oddy",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__quartas__najin-vs-oddy"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FNajin%20VS%20Oddy.png?alt=media&v=1784240350650136"
       },
       {
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
-        "caption": "Início - Os 7 de Konoha",
+        "eventId": "1-temporada__inicio__os-7-de-konoha",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha"
+        "caption": "Início - Os 7 de Konoha"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
-        "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
-        "category": "evento",
         "season": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
+        "category": "evento",
+        "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
         "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
-        "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
         "category": "evento",
+        "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
         "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya"
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
         "caption": "Início - Os 7 de Konoha olhando o painel com senha",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
+        "category": "evento",
         "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "season": "1ª Temporada",
+        "category": "evento",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40",
         "caption": "Início - Os 7 de Konoha VS Equipe 40%",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
+        "season": "1ª Temporada",
         "caption": "Início - Painel escrito Salvador se abre",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__painel-escrito-salvador"
+        "eventId": "1-temporada__inicio__painel-escrito-salvador",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121"
       },
       {
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Sharingan%20de%20Oddy.png?alt=media&v=1784240332140188",
         "caption": "Masmorra - Torturas - Extração do chakra do Sharingan de Oddy",
         "category": "evento",
-        "season": "1ª Temporada",
         "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-sharingan-de-oddy"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
-        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
         "category": "evento",
         "season": "1ª Temporada",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
         "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
-        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra",
+        "category": "evento",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - A e B chegam",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam"
+        "category": "evento",
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - A e B chegam"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%20encontram%20Oddy%20e%20Naoki.png?alt=media&v=1784240454051693",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito e Hisoka encontram Oddy e Naoki",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-encontram-oddy-e-naoki"
+        "category": "evento",
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-encontram-oddy-e-naoki",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito e Hisoka encontram Oddy e Naoki"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito, Hisoka, Oddy e Naoki VS A e B",
         "category": "evento",
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Kaito, Hisoka, Oddy e Naoki VS A e B",
         "season": "1ª Temporada",
         "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FRetorno%20a%20Konoha.png?alt=media&v=1784240465179766",
-        "caption": "Treinamentos Individuais - Kaito e Hisoka - Retorno a Konoha de Kaito, Hisoka, Oddy e Naoki",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__retorno-a-konoha-de-kaito-hisoka-oddy-e-naoki"
+        "caption": "Treinamentos Individuais - Kaito e Hisoka - Retorno a Konoha de Kaito, Hisoka, Oddy e Naoki",
+        "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__retorno-a-konoha-de-kaito-hisoka-oddy-e-naoki",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FRetorno%20a%20Konoha.png?alt=media&v=1784240465179766"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FO%20Treinamento%20de%20Oddy.png?alt=media&v=1784240359738931",
         "caption": "Treinamentos Individuais - Oddy e Naoki - O Treinamento de Oddy",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__o-treinamento-de-oddy"
+        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__o-treinamento-de-oddy",
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20aprendendo%20a%20usar%20a%20Kusanagi.png?alt=media&v=1784240359279371",
+        "category": "evento",
         "caption": "Treinamentos Individuais - Oddy e Naoki - Oddy aprendendo a usar a Kusanagi",
-        "category": "evento",
+        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-aprendendo-a-usar-a-kusanagi",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-aprendendo-a-usar-a-kusanagi"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20aprendendo%20a%20usar%20a%20Kusanagi.png?alt=media&v=1784240359279371"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20descobrindo%20a%20verdade%20sobre%20Naoki.png?alt=media&v=1784240361196829",
         "caption": "Treinamentos Individuais - Oddy e Naoki - Oddy descobrindo a verdade sobre Naoki",
-        "category": "evento",
         "season": "1ª Temporada",
         "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-descobrindo-a-verdade-sobre-naoki"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20e%20Naoki%20recebem%20o%20sinal%20de%20Nishinoya.png?alt=media&v=1784240362049714",
         "caption": "Treinamentos Individuais - Oddy e Naoki - Oddy e Naoki recebem o sinal de Nishinoya",
-        "category": "evento",
         "season": "1ª Temporada",
+        "category": "evento",
         "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-e-naoki-recebem-o-sinal-de-nishinoya"
       },
       {
+        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-no-final-do-treinamento",
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20no%20final%20do%20treinamento.png?alt=media&v=1784240362880354",
         "caption": "Treinamentos Individuais - Oddy e Naoki - Oddy no final do treinamento",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-no-final-do-treinamento"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20olhando%20os%20rostos%20dos%20Hokage%20de%20longe.png?alt=media&v=1784240362828639",
+        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-olhando-os-rostos-dos-hokage",
+        "season": "1ª Temporada",
         "caption": "Treinamentos Individuais - Oddy e Naoki - Oddy olhando os rostos dos Hokage de longe",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20olhando%20os%20rostos%20dos%20Hokage%20de%20longe.png?alt=media&v=1784240362828639",
+        "category": "evento"
+      },
+      {
         "category": "evento",
+        "eventId": "4jzvbD6odljSwAL7sHxM",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-olhando-os-rostos-dos-hokage"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
-        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
-        "category": "evento",
-        "season": "2ª Temporada de Konoha",
-        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
         "caption": "Início - Os 7 de Konoha descansam",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "4jzvbD6odljSwAL7sHxM"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "category": "evento",
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
         "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX",
+        "category": "evento",
         "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131"
       },
       {
+        "eventId": "NxFSZXETJh6PjNXggwy2",
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
         "caption": "Início - Os 7 de Konoha derrotam os Robos",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "NxFSZXETJh6PjNXggwy2"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20indo%20treinar%20com%20Naoki.png?alt=media&v=1784240362560688",
+        "season": "1ª Temporada",
+        "eventId": "hJA7d8cbV9hpubwpSPrf",
         "caption": "Treinamentos Individuais - Oddy e Naoki - Oddy indo treinar com Naoki",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "hJA7d8cbV9hpubwpSPrf"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20indo%20treinar%20com%20Naoki.png?alt=media&v=1784240362560688"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
         "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "iPALRrrtWANQc8GXKv9t"
+        "eventId": "iPALRrrtWANQc8GXKv9t",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
-        "caption": "Início - O acampamento da Ambu",
-        "category": "evento",
         "season": "1ª Temporada",
+        "category": "evento",
+        "caption": "Início - O acampamento da Ambu",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
         "eventId": "mwiqbH4poB4O4VkNoctJ"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604",
+        "season": "Prólogo",
+        "eventId": "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi",
+        "category": "evento",
         "caption": "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi",
-        "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Oddy%20e%20Kuromi.png?alt=media&v=1784240354620281",
         "caption": "Nascimentos - Nascimento de Oddy e Kuromi",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Oddy%20e%20Kuromi.png?alt=media&v=1784240354620281",
         "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__nascimentos__nascimento-de-oddy-e-kuromi"
+        "eventId": "prologo__nascimentos__nascimento-de-oddy-e-kuromi",
+        "season": "Prólogo"
       },
       {
+        "eventId": "prologo__nascimentos__nascimento-de-shizume-e-ayumi",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240356193657",
-        "caption": "Nascimentos - Nascimento de Shizumi e Ayumi",
         "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__nascimentos__nascimento-de-shizume-e-ayumi"
+        "caption": "Nascimentos - Nascimento de Shizumi e Ayumi",
+        "season": "Prólogo"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNishinoya_%20Oddy_%20Katsumi%20e%20Airi.png?alt=media&v=1784240358202895",
-        "caption": "Primeiras Missões - Nishinoya, Oddy, Katsumi e Airi",
         "category": "evento",
         "season": "Clássico",
+        "caption": "Primeiras Missões - Nishinoya, Oddy, Katsumi e Airi",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNishinoya_%20Oddy_%20Katsumi%20e%20Airi.png?alt=media&v=1784240358202895",
         "eventId": "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi"
+      },
+      {
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin",
+        "caption": "Reunindo reforços - Reencontro de Kaito Oddy Katsumi e Najin",
+        "season": "2ª Temporada de Konoha",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
+        "category": "evento"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKatsumi%20e%20Hoshiro%2FNishinoya%20o%20Terceiro%20Hokage.png?alt=media&v=1784240355082399",
+        "category": "evento",
+        "eventId": "OdRVfvhWWEPFjuLBGk1x",
+        "season": "2ª Temporada de Konoha",
+        "caption": "Reunindo reforços - Nishinoya o Terceiro Hokage"
+      },
+      {
+        "caption": "Reunindo reforços - Conversa com o novo Terceiro Hokage",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__conversa-com-o-novo-terceiro-hokage",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FConversa%20com%20o%20novo%20Terceiro%20Hokage.png?alt=media&v=1784240328356796",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha"
+      },
+      {
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884",
+        "caption": "Reunindo reforços - Os Jinchuurikis de Gyomei e Son Goku"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
+        "caption": "Reunindo reforços - Os Mestres do Ranton",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton"
       }
     ]
   },
@@ -9217,23 +9336,6 @@
     "chakra": 132,
     "isDead": true,
     "killedBy": "Delta",
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2FPr_logo.png?alt=media&v=1784569544304314",
-        "caption": "Clássico",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F1__Temporada.png?alt=media&v=1784751340626",
-        "caption": "1ª Temporada",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F2__Temporada.png?alt=media&v=1784569541710133",
-        "caption": "2ª Temporada",
-        "category": "era"
-      }
-    ],
     "powers": [
       {
         "name": "Gyuki",
@@ -9343,7 +9445,38 @@
       "perception": 26
     },
     "hp": 200,
-    "arsenal": []
+    "arsenal": [],
+    "gallery": [
+      {
+        "caption": "Clássico",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2FPr_logo.png?alt=media&v=1784569544304314",
+        "category": "era"
+      },
+      {
+        "category": "era",
+        "caption": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F1__Temporada.png?alt=media&v=1784751340626"
+      },
+      {
+        "category": "era",
+        "caption": "2ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F2__Temporada.png?alt=media&v=1784569541710133"
+      },
+      {
+        "caption": "Reunindo reforços - Os Jinchuurikis de Gyomei e Son Goku",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884",
+        "season": "2ª Temporada de Konoha",
+        "category": "evento"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
+        "caption": "Reunindo reforços - Os Mestres do Ranton",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton"
+      }
+    ]
   },
   {
     "__docId": "ryuta-hyuga",
@@ -10486,174 +10619,188 @@
     "chakra": 65,
     "gallery": [
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1784658602065060",
+        "category": "era",
         "caption": "Prólogo",
-        "category": "era"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1784658602065060"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FCl_ssico.png?alt=media&v=1786370723909827",
         "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FCl_ssico.png?alt=media&v=1786370723909827",
         "caption": "Clássico"
       },
       {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F1__Temporada.png?alt=media&v=1784579833440494",
         "caption": "1ª Temporada",
-        "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F1__Temporada.png?alt=media&v=1784579833440494"
+        "category": "era"
       },
       {
-        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F2__Temporada.png?alt=media&v=1784579836036249",
         "caption": "2ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F2__Temporada.png?alt=media&v=1784579836036249"
-      },
-      {
-        "caption": "Ambu",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FAmbu.png?alt=media&v=1784579838698504",
         "category": "era"
       },
       {
         "category": "era",
-        "caption": "Luta contra o Omega",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FLuta_contra_o_Omega.png?alt=media&v=1784658599993727"
+        "caption": "Ambu",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FAmbu.png?alt=media&v=1784579838698504"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FLuta_contra_o_Omega.png?alt=media&v=1784658599993727",
+        "caption": "Luta contra o Omega",
+        "category": "era"
+      },
+      {
+        "eventId": "0vY1igdFWYE5xfh859Mg",
+        "season": "1ª Temporada",
         "caption": "Início - Todos da Ambu desmaiam",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "0vY1igdFWYE5xfh859Mg"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
         "caption": "Início - Os 7 de Konoha",
-        "category": "evento",
         "season": "1ª Temporada",
         "eventId": "1-temporada__inicio__os-7-de-konoha"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
-        "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
-        "category": "evento",
         "season": "1ª Temporada",
+        "category": "evento",
+        "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
         "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
-        "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela"
+        "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
+        "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
-        "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
         "category": "evento",
         "season": "1ª Temporada",
+        "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
         "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
-        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
+        "category": "evento"
       },
       {
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
         "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida"
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
-        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "category": "evento"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
-        "caption": "Início - Painel escrito Salvador se abre",
         "category": "evento",
+        "caption": "Início - Painel escrito Salvador se abre",
         "season": "1ª Temporada",
         "eventId": "1-temporada__inicio__painel-escrito-salvador"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
         "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
-        "category": "evento",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
+        "category": "evento"
       },
       {
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra",
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
-        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra"
       },
       {
+        "eventId": "4jzvbD6odljSwAL7sHxM",
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
         "caption": "Início - Os 7 de Konoha descansam",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "4jzvbD6odljSwAL7sHxM"
+        "category": "evento"
       },
       {
+        "season": "1ª Temporada",
+        "category": "evento",
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
-        "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados"
       },
       {
+        "season": "1ª Temporada",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
-        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
-        "caption": "Início - Os 7 de Konoha derrotam os Robos",
         "category": "evento",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
         "season": "1ª Temporada",
         "eventId": "NxFSZXETJh6PjNXggwy2"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
         "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu",
-        "category": "evento",
         "season": "1ª Temporada",
         "eventId": "iPALRrrtWANQc8GXKv9t"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
-        "caption": "Início - O acampamento da Ambu",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "mwiqbH4poB4O4VkNoctJ"
+        "caption": "Início - O acampamento da Ambu",
+        "eventId": "mwiqbH4poB4O4VkNoctJ",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745739390926",
-        "caption": "Apresentações - Apresentação de Shoei e Apollo",
         "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745739390926",
         "season": "Prólogo",
+        "caption": "Apresentações - Apresentação de Shoei e Apollo",
         "eventId": "prologo__apresentacoes__tobirama-conversando-com-shoei"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745743430187",
         "caption": "Nascimentos - Nascimento de Shoei e Apollo",
-        "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__nascimentos__nascimento-de-shoei-e-apollo"
+        "eventId": "prologo__nascimentos__nascimento-de-shoei-e-apollo",
+        "season": "Prólogo"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937",
+        "eventId": "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi",
         "caption": "Primeiras Missões - Naoki, Shoei, Apollo e Kuromi",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937",
         "category": "evento",
-        "season": "Clássico",
-        "eventId": "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi"
+        "season": "Clássico"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
+        "category": "evento",
+        "caption": "Reunindo reforços - Os Jinchuurikis de Gyomei e Son Goku"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
+        "caption": "Reunindo reforços - Os Mestres do Ranton",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton"
       }
     ]
   },
@@ -11023,33 +11170,33 @@
     ],
     "gallery": [
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1784658775265048",
         "caption": "Prólogo",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1786370721697470",
         "category": "era",
-        "caption": "Clássico"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1784658775265048"
       },
       {
-        "caption": "1ª Temporada",
         "category": "era",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F1__Temporada.png?alt=media&v=1784579820193594"
+        "caption": "Clássico",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1786370721697470"
       },
       {
-        "caption": "2ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F1__Temporada.png?alt=media&v=1784579820193594",
+        "category": "era",
+        "caption": "1ª Temporada"
+      },
+      {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F2__Temporada.png?alt=media&v=1784579822782599",
+        "caption": "2ª Temporada",
         "category": "era"
       },
       {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FAmbu.png?alt=media&v=1784658608995206",
         "category": "era",
-        "caption": "Ambu",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FAmbu.png?alt=media&v=1784658608995206"
+        "caption": "Ambu"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FLuta_contra_o_Omega.png?alt=media&v=1786454447744733",
         "caption": "Luta contra o Omega",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FLuta_contra_o_Omega.png?alt=media&v=1786454447744733",
         "category": "era"
       },
       {
@@ -11058,9 +11205,9 @@
         "category": "era"
       },
       {
+        "category": "era",
         "caption": "4ª Temporada",
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F4__Temporada.png?alt=media&v=1784658606921125",
-        "category": "era"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F4__Temporada.png?alt=media&v=1784658606921125"
       },
       {
         "caption": "5ª Temporada",
@@ -11068,151 +11215,158 @@
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F5__Temporada.png?alt=media&v=1786370792667214"
       },
       {
+        "eventId": "0vY1igdFWYE5xfh859Mg",
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
         "caption": "Início - Todos da Ambu desmaiam",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "0vY1igdFWYE5xfh859Mg"
+        "season": "1ª Temporada"
       },
       {
+        "eventId": "1-temporada__exame-chunin__semi__kaito-vs-takeshi",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FSemi%2FKaito%20VS%20Takeshi.png?alt=media&v=1784240347948867",
         "caption": "Exame Chunin - Semi - Kaito VS Takeshi",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__exame-chunin__semi__kaito-vs-takeshi"
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
         "caption": "Início - Os 7 de Konoha",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "1-temporada__inicio__os-7-de-konoha"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
+        "season": "1ª Temporada",
         "caption": "Início - Os 7 de Konoha comendo lámen com Nishinoya",
         "category": "evento",
-        "season": "1ª Temporada",
         "eventId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
-        "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
         "category": "evento",
         "season": "1ª Temporada",
+        "caption": "Início - Os 7 de Konoha e Katsuo vão atrás dela",
         "eventId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
         "caption": "Início - Os 7 de Konoha na fogueira com Nishinoya",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya",
         "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya"
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
-        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+        "category": "evento",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
         "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida"
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
-        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
         "category": "evento",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
         "season": "1ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
         "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
         "caption": "Início - Painel escrito Salvador se abre",
-        "category": "evento",
+        "eventId": "1-temporada__inicio__painel-escrito-salvador",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__inicio__painel-escrito-salvador"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
+        "category": "evento"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
-        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
-        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
         "category": "evento",
         "season": "1ª Temporada",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
         "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
       },
       {
+        "category": "evento",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
-        "caption": "Início - Os 7 de Konoha descansam",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "4jzvbD6odljSwAL7sHxM"
+        "eventId": "4jzvbD6odljSwAL7sHxM",
+        "caption": "Início - Os 7 de Konoha descansam"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "category": "evento",
         "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
+        "season": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX",
+        "category": "evento",
         "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131"
       },
       {
+        "season": "1ª Temporada",
+        "category": "evento",
+        "eventId": "NxFSZXETJh6PjNXggwy2",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
-        "caption": "Início - Os 7 de Konoha derrotam os Robos",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "NxFSZXETJh6PjNXggwy2"
+        "caption": "Início - Os 7 de Konoha derrotam os Robos"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
-        "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu",
-        "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "iPALRrrtWANQc8GXKv9t"
+        "category": "evento",
+        "eventId": "iPALRrrtWANQc8GXKv9t",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
+        "caption": "Início - Os 7 de Konoha dormem no acampamento da Ambu"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
-        "caption": "Início - O acampamento da Ambu",
-        "category": "evento",
+        "eventId": "mwiqbH4poB4O4VkNoctJ",
         "season": "1ª Temporada",
-        "eventId": "mwiqbH4poB4O4VkNoctJ"
+        "caption": "Início - O acampamento da Ambu",
+        "category": "evento"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173",
         "caption": "Apresentações - Apresentação de Takeshi e Najin",
         "category": "evento",
-        "season": "Prólogo",
-        "eventId": "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama"
+        "eventId": "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173",
+        "season": "Prólogo"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1784240353667278",
-        "caption": "Nascimentos - Nascimento de Najin e Takeshi",
         "category": "evento",
         "season": "Prólogo",
-        "eventId": "prologo__nascimentos__nascimento-de-najin-e-takeshi"
+        "eventId": "prologo__nascimentos__nascimento-de-najin-e-takeshi",
+        "caption": "Nascimentos - Nascimento de Najin e Takeshi"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387",
-        "caption": "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi",
         "category": "evento",
+        "caption": "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387",
         "season": "Clássico",
         "eventId": "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
+        "caption": "Reunindo reforços - Os Mestres do Ranton",
+        "category": "evento",
+        "season": "2ª Temporada de Konoha",
+        "eventId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton"
       }
     ]
   },

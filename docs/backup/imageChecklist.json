@@ -2724,7 +2724,14 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FConversa%20com%20o%20novo%20Terceiro%20Hokage.png?alt=media&v=1784240328356796",
-    "order": 50203
+    "order": 50203,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Nishinoya Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__em-busca-de-shoei",
@@ -2737,7 +2744,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FEm%20busca%20de%20Shoei.png?alt=media&v=1784240328286636",
     "order": 50206,
     "personagens": [
-      "Shoei Sarutobi"
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha"
     ]
   },
   {
@@ -2749,7 +2759,13 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FEquipe%20KONK.png?alt=media&v=1784240331827408",
-    "order": 50204
+    "order": 50204,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku",
@@ -2760,7 +2776,15 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884",
-    "order": 50207
+    "order": 50207,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Rock Gunma",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton",
@@ -2771,7 +2795,16 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959",
-    "order": 50208
+    "order": 50208,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha",
+      "Rock Gunma",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__primeira-missao-da-konk",
@@ -2782,7 +2815,13 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FPrimeira%20miss%C3%A3o%20da%20KONK.png?alt=media&v=1784240372521289",
-    "order": 50205
+    "order": 50205,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__reencontro-de-kaito-oddy-katsumi-e-najin",
@@ -2811,7 +2850,13 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809",
-    "order": 50209
+    "order": 50209,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "20WI1drW3HKSbyFaXsJf",
@@ -5904,10 +5949,14 @@
     "arco": "Reunindo reforços",
     "temporada": "2ª Temporada de Konoha",
     "order": 50202,
+    "elencoFechado": true,
     "personagens": [
-      "Nishinoya Senju"
-    ],
-    "elencoFechado": true
+      "Nishinoya Senju",
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "OGaWrvEWWhg8Re34uPVj",
