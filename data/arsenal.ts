@@ -3,7 +3,7 @@ import { Equipment } from '../types/Equipment';
 export const arsenalData: Equipment[] = [
   {
     id: 1,
-    name: "Sōen no Kage",
+    name: "Soen no Kage",
     classification: "Z",
     nature: "Fuinjutsu + Senjutsu + Bijuu",
     origin: "Konohagakure",
@@ -12,7 +12,7 @@ export const arsenalData: Equipment[] = [
     originalOwner: "Nishinoya Senju",
     currentOwner: "Nishinoya Senju",
     variants: [
-      { name: "Guren no Kage", owner: "Kaito Senju", image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F03%20-%20Guren%20no%20Kage.png?alt=media&v=1784037989555669", description: "Uma variação única da Sōen no Kage, herdada por Kaito Senju e marcada por uma mutação energética sem precedentes. Originalmente imbuída com o chakra azul da Matatabi, a arma reagiu ao fluxo de chakra vital de Kaito, transmutando sua essência para um tom vermelho carmesim profundo. Esse fenômeno indica uma sincronia absoluta entre o herdeiro e a vontade da arma, liberando chamas de calor solar que podem incinerar o campo de batalha em segundos. A kunai mantém as propriedades de teleporte do Hiraishin, mas cada salto deixa para trás uma explosão de chamas vermelhas residuais. Suas lâminas de chakra podem estender-se para formar chicotes de fogo ou barreiras defensivas impenetráveis. É considerada uma 'arma viva' que evolui conforme o espírito de Kaito se fortalece, simbolizando o despertar de um novo poder ancestral." },
+      { name: "Guren no Kage", owner: "Kaito Senju", image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F03%20-%20Guren%20no%20Kage.png?alt=media&v=1784037989555669", description: "Uma variação única da Soen no Kage, herdada por Kaito Senju e marcada por uma mutação energética sem precedentes. Originalmente imbuída com o chakra azul da Matatabi, a arma reagiu ao fluxo de chakra vital de Kaito, transmutando sua essência para um tom vermelho carmesim profundo. Esse fenômeno indica uma sincronia absoluta entre o herdeiro e a vontade da arma, liberando chamas de calor solar que podem incinerar o campo de batalha em segundos. A kunai mantém as propriedades de teleporte do Hiraishin, mas cada salto deixa para trás uma explosão de chamas vermelhas residuais. Suas lâminas de chakra podem estender-se para formar chicotes de fogo ou barreiras defensivas impenetráveis. É considerada uma 'arma viva' que evolui conforme o espírito de Kaito se fortalece, simbolizando o despertar de um novo poder ancestral." },
       { name: "Shiden no Kage", owner: "Naomi Uzumaki", image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2Fvariantes%2FGuren%20no%20Kage%2FShiden%20no%20Kage.png?alt=media&v=1785956662899" }
     ]
   },
@@ -22,7 +22,7 @@ export const arsenalData: Equipment[] = [
     classification: "Z",
     nature: "Fuinjutsu + Senjutsu + Bijuu",
     origin: "Konohagakure",
-    description: "O manto lendário de Nishinoya Senju, tecido com fibras especiais impregnadas por selos avançados de fuinjutsu que o tornam indestrutível por meios convencionais. Este traje atua como um núcleo secundário de chakra, conectado diretamente ao selo da Sōen no Kage, permitindo que o usuário acumule energia natural e chakra da Matatabi passivamente. Durante o combate, o manto pode liberar essa energia para formar uma armadura de chamas azuis ou amortecer impactos físicos e espirituais de nível catastrófico. Suas bordas são reforçadas com lâminas de chakra invisíveis que cortam inimigos que se aproximam demais do portador. Além disso, o tecido oculta completamente a assinatura de chakra do usuário, tornando-o um mestre da infiltração. É a vestimenta definitiva para um Jinchuuriki que alcançou a maestria total sobre sua besta.",
+    description: "O manto lendário de Nishinoya Senju, tecido com fibras especiais impregnadas por selos avançados de fuinjutsu que o tornam indestrutível por meios convencionais. Este traje atua como um núcleo secundário de chakra, conectado diretamente ao selo da Soen no Kage, permitindo que o usuário acumule energia natural e chakra da Matatabi passivamente. Durante o combate, o manto pode liberar essa energia para formar uma armadura de chamas azuis ou amortecer impactos físicos e espirituais de nível catastrófico. Suas bordas são reforçadas com lâminas de chakra invisíveis que cortam inimigos que se aproximam demais do portador. Além disso, o tecido oculta completamente a assinatura de chakra do usuário, tornando-o um mestre da infiltração. É a vestimenta definitiva para um Jinchuuriki que alcançou a maestria total sobre sua besta.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F02%20-%20S%C5%8Den%20no%20Gaunt%C5%8D.png?alt=media&v=1784038053119773",
     originalOwner: "Nishinoya Senju",
     currentOwner: "Oddy Uchiha",
@@ -185,7 +185,7 @@ export const arsenalData: Equipment[] = [
     origin: "Konohagakure",
     description: "Mais do que um simples acessório, esta presilha de cabelo é o último vínculo físico de Furyuzan com sua falecida irmã, Etsuko Senjuya. O objeto foi imbuído com resquícios do chakra profano de Etsuko durante o incidente que marcou a vida de Furyuzan, transformando-se em uma âncora mental inquebrável. Em momentos de desespero absoluto ou exaustão emocional, a presilha emite uma leve pulsação que fortalece a determinação do usuário, impedindo o colapso psicológico diante de ameaças Rank Z. Ela atua como um escudo espiritual passivo, filtrando genjutsus de baixo nível que tentam atacar a sanidade do portador. A energia contida no objeto reage à vontade de Furyuzan, brilhando com uma luz suave que parece acalmá-lo mesmo no centro do caos. É um símbolo de luto transformado em força, servindo como lembrete constante da promessa de justiça que guia o usuário. No mundo ninja, onde o estado mental define a sobrevivência, este artefato é o trunfo secreto contra o vazio.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F17%20-%20Presilha%20de%20Cabelo%20de%20Etsuko.png?alt=media&v=1784038033226174",
-    originalOwner: "Etsuko Senjuya",
+    originalOwner: "Etsuko Senju",
     currentOwner: "Furyuzan Chinoike"
   },
   {
@@ -350,7 +350,7 @@ export const arsenalData: Equipment[] = [
     origin: "Iwagakure",
     description: "O Seimei no Saidan, conhecido como o 'Altar da Vida', é uma relíquia proibida de Iwagakure que desafia a barreira entre os vivos e os mortos através da manipulação do Doton Ancestral e da Seimeiryoku (Energia Vital). Este artefato possui a habilidade herética de realizar ressurreições completas, reconectando a alma ao corpo físico, mas exige um sacrifício de chakra ou vida equivalente para equilibrar a balança existencial. O altar julga a pureza do coração e a força de vontade de quem tenta utilizá-lo, podendo rejeitar usuários indignos com explosões de energia vital descontrolada. Hades utiliza este artefato como o pilar central de seus planos, manipulando as leis da morte para garantir a imortalidade de seus servos mais leais. Em combate, o altar pode ser usado para drenar a vitalidade de inimigos em uma área extensa, convertendo-a em cura imediata para o portador e seus aliados. É uma arma de poder divino e amaldiçoado, cuja simples ativação altera o equilíbrio espiritual do mundo ninja. Sua posse garante o domínio sobre a existência, mas cobra um preço que poucos estão dispostos a pagar pela eternidade.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F31%20-%20Seimei%20no%20Saidan.png?alt=media&v=1784038046169391",
-    originalOwner: "Kaien Ishi",
+    originalOwner: "Kaien Ishi (Omega)",
     currentOwner: "Hades"
   },
   {
@@ -372,7 +372,7 @@ export const arsenalData: Equipment[] = [
     origin: "Konohagakure",
     description: "O Uzumaki En'yō é um artefato lendário em formato de ioiô, forjado nas forjas secretas do clã Uzumaki e imbuído com selos de fuinjutsu de alta complexidade. Esta arma desafia a física convencional ao responder diretamente à vontade e ao fluxo de chakra do portador, podendo ser controlada no ar com precisão milimétrica através de fios de chakra invisíveis. Ao ser carregado com Katon ou Futon, o ioiô gera vórtices de chamas carmesim e furacões cortantes que podem incinerar e selar múltiplos alvos simultaneamente. Shoyu Uzumaki utiliza esta arma para criar um estilo de combate imprevisível, atacando de ângulos impossíveis e prendendo inimigos em redes de fogo e correntes de vedação. O artefato possui um núcleo rotativo que armazena energia cinética, tornando cada impacto contra o inimigo exponencialmente mais forte do que o anterior. Além do poder ofensivo, o En'yō pode ser usado para criar escudos de vento e fogo que desviam projéteis e técnicas elementais inimigas. É uma arma que simboliza a engenhosidade e a versatilidade do clã Uzumaki, transformando um objeto aparentemente simples em um instrumento de destruição em massa.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F33%20-%20Uzumaki%20En'y%C5%8D.png?alt=media&v=1784038061710423",
-    originalOwner: "Daiki Uzumaki",
+    originalOwner: "Daiki Uzumaki (D)",
     currentOwner: "Shoyu Uzumaki"
   },
   {
@@ -395,7 +395,7 @@ export const arsenalData: Equipment[] = [
     origin: "Konohagakure",
     description: "Estas esferas metálicas compactas, conhecidas como Dama no Hiraishin, são ferramentas de suporte tático revolucionárias criadas para maximizar a mobilidade em combate de guerrilha. Cada 'bolinha de gude' é gravada com uns selos simplificados da Técnica do Deus Voador do Trovão, permitindo que o usuário as espalhe pelo campo de batalha para criar uma rede de teleporte instantânea e onipresente. Shoyu Uzumaki as utiliza com maestria, arremessando as esferas em trajetórias complexas para flanquear oponentes ou escapar de ataques fatais em milésimos de segundo. Devido ao seu tamanho reduzido e assinatura de chakra mínima, as Damas são quase impossíveis de serem detectadas pelo inimigo até que o teleporte ocorra. Elas também podem ser usadas para transportar projéteis ou redirecionar técnicas inimigas, agindo como portais móveis que distorcem o espaço ao redor do usuário. A rede de teleporte gerada por essas esferas permite que um único ninja pareça estar em múltiplos lugares ao mesmo tempo, confundindo a percepção do adversário. É o auge da aplicação prática de fuinjutsu para combate individual, garantindo que o portador mantenha sempre a iniciativa e a superioridade posicional.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F35%20-%20Dama%20no%20Hiraishin.png?alt=media&v=1784037982628608",
-    originalOwner: "Shiraki Chinoiki",
+    originalOwner: "Shiraki Chinoike",
     currentOwner: "Shoyu Uzumaki"
   },
   {
