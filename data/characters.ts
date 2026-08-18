@@ -4336,12 +4336,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Sannin dos Cães", "Predadora de Bijus", "Mangekyou mais Forte"],
-    nc: 16,
+    nc: 24,
     position: "Terceiro Degrau",
     role: "Suporte",
     description: "Uma kunoichi envolta em mistério e temida por seu poder. \n\nIrmã gêmea secreta de Oddy Uchiha, Kuromi foi criada nas sombras e treinada pelo lendário ninja Raikun, que lhe ensinou técnicas de combate, selamentos e o Modo Sábio dos Cães.\n\nDurante uma missão envolvendo a liberação de bijuu, Kuromi despertou seu Mangekyou Sharingan e, em meio ao caos, conseguiu estabilizar o selo da besta dentro de Shoei Sarutobi. O choque entre seu poder, o chakra da bijuu e os selamentos usados na batalha deixou uma marca permanente em seu abdômen.\n\nPortadora de um Mangekyou com habilidades únicas de manipulação mental e invocadora do lendário lobo Okami, Kuromi se tornou conhecida no mundo shinobi como a Predadora de Bijus.",
-    hp: 114,
-    chakra: 58,
+    hp: 184,
+    chakra: 82,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1786651902544933",
     techniques: [
       {
@@ -4413,11 +4413,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F4__Temporada.png?alt=media&v=1784751326929", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F5__Temporada.png?alt=media&v=1784751328466", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 16, spirit: 16, vigor: 8, perception: 16 },
+    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [
-      { name: "Katon", level: 8 },
-      { name: "Fuinjutsu", level: 8 },
-      { name: "Senjutsu", level: 8 }
+      { name: "Senjutsu", level: 12 },
+      { name: "Rasengan", level: 12 },
+      { name: "Katon", level: 12 },
+      { name: "Fuinjutsu", level: 12 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -4525,12 +4526,12 @@ export const initialData: Character[] = [
     clan: "Yuki",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Soberano do Inverno Profano", "Olho da Nevasca", "Coruja do Gelo Negro"],
-    nc: 16,
+    nc: 22,
     position: "Terceiro Degrau",
     role: "Controle / Sensorial",
     description: "Nagi Yuki nasceu na Vila da Névoa durante um dos períodos mais sombrios de sua história — uma guerra civil silenciosa, onde traições, execuções e desaparecimentos eram comuns até mesmo entre aliados.\nDesde muito jovem, Nagi foi exposto à brutalidade do próprio sistema shinobi da vila, onde fraqueza não era tolerada e laços eram vistos como vulnerabilidade.\nFilho de um pequeno clã especializado em técnicas de gelo, Nagi cresceu sob constante vigilância, já que habilidades raras eram tanto uma bênção quanto uma sentença de morte.\nSua família vivia escondida, evitando conflitos diretos, até o dia em que foram descobertos por uma facção interna da própria Névoa.\nConsiderados um risco em meio à instabilidade da guerra civil, seus pais foram eliminados sem julgamento — não por inimigos, mas por sua própria vila.\nNagi sobreviveu por pouco.\nGravemente ferido e tomado pelo frio que sempre dominou seu chakra, ele foi encontrado por um alto oficial da Névoa, responsável por recrutar e moldar jovens talentos em armas vivas.\nSem escolha, Nagi foi forçado a servir.\nSua dor foi ignorada, sua identidade reduzida a um recurso militar.\nCom a guerra se intensificando e a vila à beira do colapso interno, a liderança da Névoa tomou uma decisão estratégica: enviar jovens promissores para o Exame Chunin em Konoha, não apenas como demonstração de poder, mas como uma possível rota de fuga para ativos valiosos.\nNagi foi escolhido — não por mérito, mas por utilidade.\nSem vontade própria, carregando o peso da perda e da traição, Nagi partiu para Konoha como uma peça descartável em um jogo maior.\nFoi nesse ambiente estranho, longe do caos da Névoa, que ele encontrou algo que nunca havia conhecido: pessoas que não tentavam matá-lo.\nAo lado de Yasuo Kurogane e Apollo Netsu, pela primeira vez, Nagi sentiu que talvez pudesse existir além da guerra.\nApós falharem no Exame Chunin e iniciarem o retorno, o grupo foi interceptado no caminho por Shikure e Togo Kage, figuras que pareciam enxergar além de suas dores superficiais.\nDiferente de todos que haviam cruzado seu caminho até então, eles não ofereciam ordens — ofereciam escolha.\nShikure expôs a fragilidade das vilas e o ciclo interminável de uso e descarte de shinobis, enquanto Togo apresentou a OCA como algo diferente: um lugar onde poder não seria imposto, mas conquistado.\nPara Nagi, aquilo não era apenas uma proposta — era a primeira vez que alguém o tratava como algo além de uma ferramenta.\nCansado de servir uma vila que destruiu sua família e o transformou em arma, ele aceitou.\nNaquele momento, Nagi não apenas mudou de caminho — ele abandonou completamente a Névoa, deixando para trás seu passado, seu nome e qualquer esperança de retorno.\nMas, mesmo seguindo em frente, o frio dentro dele nunca desapareceu.",
-    hp: 123,
-    chakra: 58,
+    hp: 168,
+    chakra: 76,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1786651903970876",
     techniques: [
       {
@@ -4599,11 +4600,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F4__Temporada.png?alt=media&v=1784658581849728", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F5__Temporada.png?alt=media&v=1784751332824", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 13, spirit: 16, vigor: 11, perception: 16 },
+    stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [
-      { name: "Hyōton", level: 8 },
-      { name: "Iryou Ninjutsu", level: 8 },
-      { name: "Kuchiyose", level: 8 }
+      { name: "Hyōton", level: 11 },
+      { name: "Iryou Ninjutsu", level: 11 },
+      { name: "Kuchiyose", level: 11 }
     ],
     aptitudes: [
       "Kaminari",
@@ -4626,12 +4627,12 @@ export const initialData: Character[] = [
     clan: "Kurogane",
     categories: ["NPC", "Sunagakure", "OCA"],
     titles: ["Imperador da Areia", "Guardião Dourado", "Deserto Negro"],
-    nc: 16,
+    nc: 22,
     position: "Terceiro Degrau",
     role: "Suporte",
     description: "Yasuo Kurogane é um ninja da Vila da Areia, marcado por uma infância destruída pela guerra e pela perda. Após ver sua família de Konoha ser brutalmente assassinada diante de seus próprios olhos por Nishinoya, Shoei, Katsumi e Oddy, Yasuo passou a nutrir um ódio profundo pela vila que um dia chamou de lar.\nAbandonado e sem rumo, foi acolhido pela Kazekage, que o adotou como filho — uma relação que nunca foi verdadeiramente aceita por ele, enxergando nela mais uma imposição do que um ato de carinho.\nCrescendo sob o peso da revolta e da dor, Yasuo foi forçado a participar do Exame Chunin por ordem da Kazekage, o que intensificou ainda mais seu ressentimento.\nDurante sua estadia em Konoha, no entanto, encontrou algo inesperado: compreensão. Ao lado de Nagi Yuki e Apollo Netsu, criou laços com aqueles que também carregavam cicatrizes profundas, formando uma conexão baseada na dor compartilhada.\nApós falharem no exame e retornarem derrotados, Yasuo e seus companheiros foram encurralados por Shikure e Togo Kage.\nEm um momento decisivo, tiveram seus ideais questionados e, diante da promessa de um novo propósito e poder, aceitaram se juntar à OCA.\nPara Yasuo, esse não foi apenas um caminho — foi uma ruptura definitiva com tudo que restava de seu passado, abraçando de vez a escuridão que sempre cresceu dentro de si.",
-    hp: 123,
-    chakra: 58,
+    hp: 174,
+    chakra: 76,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1786651905637475",
     techniques: [
       {
@@ -4690,12 +4691,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F4__Temporada.png?alt=media&v=1784658611008184", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F5__Temporada.png?alt=media&v=1784751368845", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 13, spirit: 16, vigor: 11, perception: 16 },
+    stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 20, spirit: 22, vigor: 18, perception: 22 },
     powers: [
-      { name: "Kinjiton", level: 8 },
-      { name: "Sakin", level: 8 },
-      { name: "Satetsu", level: 8 },
-      { name: "Fuinjutsu", level: 8 }
+      { name: "Jiton", level: 11 },
+      { name: "Sakin", level: 11 },
+      { name: "Satetsu", level: 11 },
+      { name: "Fuinjutsu", level: 11 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -4717,12 +4718,12 @@ export const initialData: Character[] = [
     clan: "Sarutobi",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Herdeiro do Sol", "Eco de Son Goku", "Rastreador Primordial"],
-    nc: 16,
+    nc: 24,
     position: "Terceiro Degrau",
     role: "Sensor / Ofensivo",
     description: "Apollo Netsu é uma anomalia no mundo shinobi — um nome falso carregando uma linhagem que não deveria existir.\n\nIrmão biológico de Shoei Sarutobi, foi separado dele ainda criança após o incidente com a Bijuu Son Goku. Enquanto Shoei teve a mente reescrita por Kuromi, perdendo todo o passado, Apollo foi removido das sombras antes de ser encontrado.\n\nEle estava presente no dia em que Son Goku foi selado.\n\nNaquele momento, viu Shoei perder completamente o controle. O chakra colapsou, o ambiente foi consumido e, no meio do caos, Apollo foi atingido diretamente. As chamas e o chakra avançaram sem controle, queimando completamente seus braços.\n\nNão foi intencional.\nMas foi o primeiro impacto entre os dois irmãos — uma marca permanente.\n\nPara protegê-lo de caçadores e do próprio sistema shinobi, Tobirama tomou uma decisão extrema: apagar sua existência.\n\nApollo Sarutobi deixou de existir.\nApollo Netsu nasceu.\n\nCriado em segredo, longe de qualquer vila, foi treinado diretamente por Tobirama não como um soldado, mas como uma peça estratégica.\n\nDesde cedo, demonstrou um chakra natural absurdo — puro, denso, em constante ressonância com o ambiente. Mas seu maior diferencial era o vínculo com os macacos sábios.\n\nEles não o viam como humano.\nViam algo próximo deles.\n\nIsso levantou uma hipótese perigosa: sua linhagem poderia estar ligada aos antigos Sarutobi conectados ao legado de Son Goku. Talvez por isso, seu destino sempre esteve atrelado à Bijuu.\n\nApollo cresceu com fragmentos da verdade. Sabia que estava sendo escondido. Sabia que havia alguém com o mesmo sangue. Mas nunca soube quem.\n\nDurante o Exame Chunin, encontrou algo novo: conexão.\nAo lado de Nagi Yuki e Yasuo Kurogane, viu pessoas tão quebradas quanto ele.\n\nFoi nesse mesmo exame que tudo quase veio à tona.\n\nAo presenciar Shoei liberar o chakra de Son Goku, algo dentro dele reagiu. Não foi consciente — foi instinto. Seu corpo entrou em ressonância, sua percepção se rompeu.\n\nNaquele instante, ele soube:\n\nNão era apenas um jinchūriki.\nEra seu irmão.\n\nMas essa verdade nunca se completou.\n\nUm infiltrado agiu no momento exato, usando Chakra Profano e Genjutsu para apagar aquele instante e selar a conexão recém-desperta.\n\nSeu nome era Beta.\n\nPara Apollo, aquele momento nunca existiu.\n\nA sensação permaneceu — sem memória, sem forma, sem explicação.\n\nApós o exame e o encontro com Shikure e Togo Kage, Apollo tomou sua decisão não por revolta, mas por clareza:\n\nO mundo shinobi estava errado.\n\nE ele seguiria até o fim para entender o porquê.",
-    hp: 138,
-    chakra: 55,
+    hp: 202,
+    chakra: 82,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1786651905190869",
     techniques: [
       {
@@ -4814,11 +4815,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F4__Temporada.png?alt=media&v=1784751299027", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F5__Temporada.png?alt=media&v=1784751300695", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 9, spirit: 15, vigor: 16, perception: 6 },
+    stats: { strength: 24, dexterity: 9, agility: 24, intelligence: 18, spirit: 24, vigor: 24, perception: 9 },
     powers: [
-      { name: "Senjutsu", level: 8 },
-      { name: "Katon", level: 8 },
-      { name: "Kuchiyose", level: 8 }
+      { name: "Senjutsu", level: 12 },
+      { name: "Katon", level: 12 },
+      { name: "Kuchiyose", level: 12 },
+      { name: "Hachimon Tonkou", level: 6 }
     ],
     aptitudes: [
       "Sensor Supremo",
