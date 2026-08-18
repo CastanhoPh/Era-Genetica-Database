@@ -5507,6 +5507,7 @@ export const initialData: Character[] = [
   {
     id: 47,
     name: "Chigiri Chinoike",
+    chakraColor: "#8e0f36",
     clan: "Chinoike",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar da Memória", "O Homem que Lembra pelos Mortos"],
@@ -5547,6 +5548,7 @@ export const initialData: Character[] = [
   {
     id: 45,
     name: "Tetsu Sabaku",
+    chakraColor: "#8b8b9a",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar da Renúncia", "O Herdeiro do Caçador do Deserto", "Arqueiro de Ferro Negro"],
@@ -5587,6 +5589,7 @@ export const initialData: Character[] = [
   {
     id: 48,
     name: "Mizue Dokuhana",
+    chakraColor: "#00ff41",
     clan: "Dokuhana",
     categories: ["NPC", "Sunagakure"],
     titles: [ "Pilar do Sacrifício", "A Cirurgiã da Areia Branca", "A Médica que Escolhe quem Vive"],
@@ -5626,6 +5629,7 @@ export const initialData: Character[] = [
   {
     id: 49,
     name: "Tessai Enshaku",
+    chakraColor: "#b5793a",
     clan: "Enshaku",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar da Construção", "O Arquiteto das Pontes Impossíveis"],
@@ -5666,6 +5670,7 @@ export const initialData: Character[] = [
   {
     id: 46,
     name: "Sayuri Sabaku",
+    chakraColor: "#e8fbff",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar da Liberdade", "A Herdeira que Escolheu o Vento"],
@@ -5713,6 +5718,7 @@ export const initialData: Character[] = [
   {
     id: 50,
     name: "Kurohime Kazeori",
+    chakraColor: "#3d3d4a",
     clan: "Kurohime",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar do Julgamento", "A Pantera Negra da Areia", "A Voz Antes da Sentença"],
@@ -6210,6 +6216,7 @@ export const initialData: Character[] = [
   {
     id: 84,
     name: "Shiita Sabaku (Theta)",
+    chakraColor: "#00ff41",
     clan: "Dabado",
     categories: [
       "NPC",
@@ -6286,6 +6293,7 @@ export const initialData: Character[] = [
   {
     id: 20,
     name: "Ryuta Hyuga",
+    chakraColor: "#2dd4bf",
     clan: "Hyuga",
     categories: [],
     titles: [],

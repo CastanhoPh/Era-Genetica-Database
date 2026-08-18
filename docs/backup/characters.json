@@ -1187,7 +1187,8 @@
         "name": "Fuinjutsu",
         "level": 13
       }
-    ]
+    ],
+    "chakraColor": "#8e0f36"
   },
   {
     "__docId": "chisaki-dokuhana-c",
@@ -4706,7 +4707,8 @@
         "caption": "5ª Temporada",
         "category": "era"
       }
-    ]
+    ],
+    "chakraColor": "#3d3d4a"
   },
   {
     "__docId": "kuromi-uchiha",
@@ -5160,7 +5162,8 @@
     "categories": [
       "NPC",
       "Sunagakure"
-    ]
+    ],
+    "chakraColor": "#00ff41"
   },
   {
     "__docId": "nagare-uzumaki",
@@ -7470,7 +7473,8 @@
         "caption": "1ª Temporada",
         "category": "era"
       }
-    ]
+    ],
+    "chakraColor": "#2dd4bf"
   },
   {
     "__docId": "satoshi-namikaze",
@@ -7673,7 +7677,8 @@
     "id": 46,
     "timelineAppearance": "Clássico",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media&v=1786651910608044",
-    "position": "Pilar de Sunagakure"
+    "position": "Pilar de Sunagakure",
+    "chakraColor": "#e8fbff"
   },
   {
     "__docId": "shiita-sabaku-theta",
@@ -7750,7 +7755,8 @@
     "birthVillage": "Sunagakure",
     "clan": "Dabado",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTheta%2FTheta.png?alt=media&v=1786651897904547",
-    "id": 84
+    "id": 84,
+    "chakraColor": "#00ff41"
   },
   {
     "__docId": "shikaki-nara",
@@ -8991,7 +8997,8 @@
         "name": "Fuinjutsu",
         "level": 12
       }
-    ]
+    ],
+    "chakraColor": "#b5793a"
   },
   {
     "__docId": "tetsu-sabaku",
@@ -9067,7 +9074,8 @@
       "spirit": 23,
       "vigor": 23,
       "perception": 23
-    }
+    },
+    "chakraColor": "#8b8b9a"
   },
   {
     "__docId": "tobirama-senju",
