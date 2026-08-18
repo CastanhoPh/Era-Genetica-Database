@@ -1,6 +1,8 @@
 // Acesso aos dados no Firestore (leitura e escrita de admin).
 import { collection, getDocs, doc, addDoc, setDoc, deleteDoc, updateDoc, onSnapshot, writeBatch } from 'firebase/firestore';
 import { db } from '../firebase';
+import { ref as storageRef, getBytes, getMetadata, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
+import { storage } from '../firebaseStorage';
 import { Character, ChecklistItem, GalleryImage, PrototypeEntry, FamilyTree } from '../types';
 import { Equipment } from '../types/Equipment';
 import { groupItems } from './checklistGrouping';
@@ -211,16 +213,59 @@ export async function setEventCastClosed(
   await batch.commit();
 }
 
+/** Mesma regra do ImageUploadButton, para o arquivo renomeado seguir o padrão da pasta. */
+const sanitizeArquivo = (nome: string) => nome.replace(/[^a-zA-Z0-9._-]/g, '_');
+
 /**
- * Renomeia um item da checklist. Em evento, arrasta a legenda gravada na Galeria de cada
- * participante junto — ela é uma CÓPIA feita na hora de publicar, então sem isto a ficha continuaria
- * mostrando o nome antigo da cena para sempre.
+ * Renomeia o arquivo no Storage para acompanhar o nome novo do item. O Storage não tem "mover":
+ * é baixar, subir com o nome novo e apagar o antigo.
  *
- * Busca só as fichas de quem está no `personagens` (no máximo uma dúzia), não as 86.
+ * A ordem é à prova de falha — o antigo só é apagado depois de o novo existir. Se qualquer passo
+ * falhar, devolve null e o chamador segue com a URL antiga: o arquivo fica com o nome velho, o que é
+ * cosmético, em vez de a ficha ficar sem imagem, que é grave.
+ */
+async function renomearArquivo(url: string, nomeNovo: string): Promise<string | null> {
+  try {
+    const caminho = decodeURIComponent(url.split('/o/')[1].split('?')[0]);
+    const pasta = caminho.slice(0, caminho.lastIndexOf('/'));
+    const arquivoAntigo = caminho.slice(caminho.lastIndexOf('/') + 1);
+    const ext = arquivoAntigo.match(/\.[a-zA-Z0-9]+$/)?.[0] ?? '';
+    const arquivoNovo = `${sanitizeArquivo(nomeNovo)}${ext}`;
+    if (arquivoNovo === arquivoAntigo) return null;
+
+    const antigo = storageRef(storage, caminho);
+    const bytes = await getBytes(antigo);
+    const meta = await getMetadata(antigo);
+    const novo = storageRef(storage, `${pasta}/${arquivoNovo}`);
+    await uploadBytes(novo, bytes, { contentType: meta.contentType, cacheControl: meta.cacheControl ?? 'public, max-age=86400' });
+    const urlNova = await getDownloadURL(novo);
+    await deleteObject(antigo);   // só depois de o novo existir e ter URL
+    return `${urlNova}${urlNova.includes('?') ? '&' : '?'}v=${Date.now()}`;
+  } catch (e) {
+    console.error('Não consegui renomear o arquivo no Storage — o item foi renomeado e a URL antiga continua valendo:', e);
+    return null;
+  }
+}
+
+/**
+ * Renomeia um item da checklist e leva o resto junto: o arquivo no Storage, a URL do item, e a
+ * legenda e a URL gravadas na Galeria de cada participante.
+ *
+ * A Galeria da ficha guarda CÓPIAS da legenda e da URL — a ficha não lê o checklist. Sem propagar,
+ * renomear deixaria a ficha mostrando o nome antigo da cena para sempre, e trocar o arquivo
+ * quebraria a imagem dela.
+ *
+ * Se o Storage não colaborar (CORS, permissão, rede), o rename do arquivo é abandonado sem prejuízo:
+ * o item e as fichas ficam com o nome novo e a URL antiga, que continua funcionando.
  */
 export async function renameChecklistItem(item: ChecklistItem, nome: string): Promise<void> {
   if (!item.docId) throw new Error('item sem docId');
-  await updateDoc(doc(db, 'imageChecklist', item.docId), { name: nome });
+
+  const urlNova = item.imageUrl ? await renomearArquivo(item.imageUrl, nome) : null;
+  await updateDoc(doc(db, 'imageChecklist', item.docId), {
+    name: nome,
+    ...(urlNova ? { imageUrl: urlNova } : {}),
+  });
 
   const ehEvento = (item.type ?? 'evento') === 'evento';
   const gente = item.personagens ?? [];
@@ -234,9 +279,13 @@ export async function renameChecklistItem(item: ChecklistItem, nome: string): Pr
     const c = d2.data() as Character;
     if (!gente.includes(c.name)) continue;
     const gal = c.gallery ?? [];
-    if (!gal.some(g => g.eventId === item.docId && g.caption !== legenda)) continue;
+    const precisa = gal.some(g => g.eventId === item.docId
+      && (g.caption !== legenda || (urlNova && g.url !== urlNova)));
+    if (!precisa) continue;
     batch.update(d2.ref, {
-      gallery: gal.map(g => (g.eventId === item.docId ? { ...g, caption: legenda } : g)),
+      gallery: gal.map(g => (g.eventId === item.docId
+        ? { ...g, caption: legenda, ...(urlNova ? { url: urlNova } : {}) }
+        : g)),
     });
     mexeu++;
   }

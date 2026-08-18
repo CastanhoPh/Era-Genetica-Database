@@ -39,31 +39,46 @@ service firebase.storage {
     // "Characters/<Nome>/", sem o número do id — o id é ordem de exibição e muda.
     match /Characters/{resto=**} {
       allow read: if true;
-      allow write: if isAdmin() && ehImagem();
+      allow create, update: if isAdmin() && ehImagem();
+      // delete nao tem request.resource, entao o ehImagem() negaria — checa so quem e
+
+      allow delete: if isAdmin();
     }
 
     // Galeria: linha do tempo, eventos e capas. É por aqui que o Liu e o Zeck sobem.
     match /Galeria/{resto=**} {
       allow read: if true;
-      allow write: if isChecklistEditor() && ehImagem();
+      allow create, update: if isChecklistEditor() && ehImagem();
+      // delete nao tem request.resource, entao o ehImagem() negaria — checa so quem e
+
+      allow delete: if isChecklistEditor();
     }
 
     match /Arsenal/{resto=**} {
       allow read: if true;
-      allow write: if isAdmin() && ehImagem();
+      allow create, update: if isAdmin() && ehImagem();
+      // delete nao tem request.resource, entao o ehImagem() negaria — checa so quem e
+
+      allow delete: if isAdmin();
     }
 
     // Protótipos são spoiler, mas a imagem é servida por URL direta na aba do Painel, que já é
     // restrita ao admin. Manter a leitura aberta é o que faz a imagem carregar lá.
     match /Prototipo/{resto=**} {
       allow read: if true;
-      allow write: if isAdmin() && ehImagem();
+      allow create, update: if isAdmin() && ehImagem();
+      // delete nao tem request.resource, entao o ehImagem() negaria — checa so quem e
+
+      allow delete: if isAdmin();
     }
 
     // Fallback do AddCharacterModal quando o personagem ainda não tem nome definido.
     match /Uploads/{resto=**} {
       allow read: if true;
-      allow write: if isAdmin() && ehImagem();
+      allow create, update: if isAdmin() && ehImagem();
+      // delete nao tem request.resource, entao o ehImagem() negaria — checa so quem e
+
+      allow delete: if isAdmin();
     }
 
     // O que não estiver acima fica negado: sem escrita anônima e sem pasta nova por acidente.
