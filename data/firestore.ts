@@ -1,7 +1,7 @@
 // Acesso aos dados no Firestore (leitura e escrita de admin).
 import { collection, getDocs, doc, addDoc, setDoc, deleteDoc, updateDoc, onSnapshot, writeBatch } from 'firebase/firestore';
 import { db } from '../firebase';
-import { Character, ChecklistItem, PrototypeEntry, FamilyTree } from '../types';
+import { Character, ChecklistItem, GalleryImage, PrototypeEntry, FamilyTree } from '../types';
 import { Equipment } from '../types/Equipment';
 import { groupItems } from './checklistGrouping';
 
@@ -133,6 +133,48 @@ export function subscribeChecklist(
 
 export async function setChecklistItemDone(docId: string, done: boolean, doneBy?: string | null): Promise<void> {
   await updateDoc(doc(db, 'imageChecklist', docId), { done, doneBy: done ? (doneBy ?? null) : null });
+}
+
+/**
+ * Grava quem estava num evento e reflete isso na Galeria de cada ficha, numa tacada.
+ *
+ * O `personagens` do item é a fonte da verdade; as entradas na `gallery` são o reflexo. Reconcilia
+ * as duas coisas: quem entrou ganha a imagem do evento na aba Eventos, quem saiu perde. A entrada é
+ * casada pelo `eventId` (o docId do item), e não pela URL: quatro eventos estão duplicados no
+ * checklist com dois itens apontando para a mesma imagem, e por URL um sobrescreveria o outro.
+ *
+ * Evento sem imagem ainda guarda o `personagens`: nada aparece em ficha nenhuma, e no dia em que a
+ * arte for anexada basta chamar isto de novo para materializar. Nome de protótipo ou de pendente
+ * também pode entrar, e simplesmente não casa com ficha nenhuma até a ficha existir.
+ */
+export async function setEventParticipants(
+  item: ChecklistItem,
+  nomes: string[],
+  chars: Character[],
+): Promise<void> {
+  if (!item.docId) throw new Error('item sem docId');
+  const url = item.imageUrl || null;
+  const legenda = [item.arco, item.subarco, item.name].filter(Boolean).join(' - ');
+  const alvo = new Set(nomes);
+  const batch = writeBatch(db);
+
+  batch.update(doc(db, 'imageChecklist', item.docId), { personagens: nomes });
+
+  if (url) {
+    for (const c of chars) {
+      if (!c.docId) continue;
+      const gal = c.gallery ?? [];
+      const daquele = (g: GalleryImage) => g.eventId === item.docId;
+      const tem = gal.some(daquele);
+      const deve = alvo.has(c.name);
+      if (tem === deve) continue;
+      const nova = deve
+        ? [...gal, { url, caption: legenda, category: 'evento' as const, season: item.temporada, eventId: item.docId }]
+        : gal.filter(g => !daquele(g));
+      batch.update(doc(db, 'characters', c.docId), { gallery: nova });
+    }
+  }
+  await batch.commit();
 }
 
 // Edição administrativa da checklist (texto, ordem, placeholder, criação e remoção de itens).

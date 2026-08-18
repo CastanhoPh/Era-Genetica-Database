@@ -3499,53 +3499,6 @@
       "Capitão Escarlate",
       "Legado de Katsumi Hyūga"
     ],
-    "gallery": [
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1784658553093310",
-        "caption": "Prólogo",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1786370734644029",
-        "caption": "Clássico",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F1__Temporada.png?alt=media&v=1786454424413629",
-        "caption": "1ª Temporada",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1786454427005356",
-        "caption": "2ª Temporada",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1786454421852750",
-        "caption": "Ambu",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1786651869676385",
-        "caption": "Luta contra o Omega",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651869676164",
-        "caption": "3ª Temporada",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1786454429614752",
-        "caption": "4ª Temporada",
-        "category": "era"
-      },
-      {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651869725277",
-        "caption": "5ª Temporada",
-        "category": "era"
-      }
-    ],
     "techniques": [
       {
         "name": "Mokuton: Eien no Tomo",
@@ -3681,6 +3634,60 @@
       {
         "name": "Senjutsu",
         "level": 8
+      }
+    ],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1784658553093310",
+        "caption": "Prólogo",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1786370734644029",
+        "caption": "Clássico",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F1__Temporada.png?alt=media&v=1786454424413629",
+        "caption": "1ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1786454427005356",
+        "caption": "2ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1786454421852750",
+        "caption": "Ambu",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1786651869676385",
+        "caption": "Luta contra o Omega",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651869676164",
+        "caption": "3ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1786454429614752",
+        "caption": "4ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651869725277",
+        "caption": "5ª Temporada",
+        "category": "era"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854",
+        "caption": "Nascimentos - Nascimento de Kaito e Nagare",
+        "category": "evento",
+        "season": "Prólogo",
+        "eventId": "prologo__nascimentos__nascimento-de-kaito-e-nagare"
       }
     ]
   },
@@ -5336,6 +5343,33 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media&v=1786651886403581"
       }
     ],
+    "chakraColor": "#ff3b46",
+    "nc": 18,
+    "stats": {
+      "dexterity": 7,
+      "strength": 18,
+      "vigor": 18,
+      "spirit": 18,
+      "agility": 18,
+      "intelligence": 10,
+      "perception": 7
+    },
+    "hp": 154,
+    "chakra": 96,
+    "powers": [
+      {
+        "name": "Raiton",
+        "level": 9
+      },
+      {
+        "name": "Nintaijutsu",
+        "level": 9
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 8
+      }
+    ],
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FPr_logo.png?alt=media&v=1784658579901730",
@@ -5381,33 +5415,13 @@
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651884030712",
         "caption": "5ª Temporada",
         "category": "era"
-      }
-    ],
-    "chakraColor": "#ff3b46",
-    "nc": 18,
-    "stats": {
-      "dexterity": 7,
-      "strength": 18,
-      "vigor": 18,
-      "spirit": 18,
-      "agility": 18,
-      "intelligence": 10,
-      "perception": 7
-    },
-    "hp": 154,
-    "chakra": 96,
-    "powers": [
-      {
-        "name": "Raiton",
-        "level": 9
       },
       {
-        "name": "Nintaijutsu",
-        "level": 9
-      },
-      {
-        "name": "Fuinjutsu",
-        "level": 8
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854",
+        "caption": "Nascimentos - Nascimento de Kaito e Nagare",
+        "category": "evento",
+        "season": "Prólogo",
+        "eventId": "prologo__nascimentos__nascimento-de-kaito-e-nagare"
       }
     ]
   },

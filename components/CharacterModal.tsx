@@ -229,8 +229,19 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
     goTo(`${charBasePath}/${abaDaImagem(characterGallery[idx])}/${encodeURIComponent(gallerySlugFor(characterGallery[idx], idx))}`);
 
   const SEM_TEMPORADA = 'Sem Temporada';
-  const seasonOrder = [...EVENT_SEASONS, SEM_TEMPORADA];
-  const eventosBySeason = seasonOrder
+  // O `season` do evento vem do checklist, e lá ele não é só "1ª a 5ª Temporada": tem Prólogo,
+  // Clássico e as duas 2ª Temporada (de Konoha e da OCA). Ordena pelo que a lista conhece e
+  // deixa o resto em ordem cronológica declarada, senão tudo isso cairia em "Sem Temporada".
+  const ORDEM_TEMPORADA = ['Prólogo', 'Clássico', '1ª Temporada', '2ª Temporada',
+    '2ª Temporada de Konoha', '2ª Temporada da OCA', '3ª Temporada', '4ª Temporada', '5ª Temporada'];
+  const rankTemporada = (s: string) => {
+    const i = ORDEM_TEMPORADA.indexOf(s);
+    if (i >= 0) return i;
+    const j = (EVENT_SEASONS as readonly string[]).indexOf(s);
+    return j >= 0 ? j : 99;
+  };
+  const eventosBySeason = [...new Set(eventoGallery.map(({ img }) => img.season || SEM_TEMPORADA))]
+    .sort((a, b) => rankTemporada(a) - rankTemporada(b) || a.localeCompare(b))
     .map(season => ({
       season,
       items: eventoGallery.filter(({ img }) => (img.season || SEM_TEMPORADA) === season),

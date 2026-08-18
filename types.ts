@@ -37,6 +37,12 @@ export interface GalleryImage {
   category: 'era' | 'evento' | 'transformacao';
   /** Só relevante para category "evento": qual temporada/arco (1ª a 5ª Temporada). */
   season?: string;
+  /**
+   * Só para category "evento": docId do item do checklist que gerou esta entrada. É por ele que a
+   * entrada é encontrada quando os participantes mudam — a URL não serve de chave porque quatro
+   * eventos estão duplicados no checklist e dois itens apontam para a mesma imagem.
+   */
+  eventId?: string;
 }
 
 export const EVENT_SEASONS = ['1ª Temporada', '2ª Temporada', '3ª Temporada', '4ª Temporada', '5ª Temporada'] as const;
@@ -71,6 +77,13 @@ export interface ChecklistItem {
   doneBy?: string | null;
   /** URL da imagem já produzida para este item (exibida na aba Galeria). */
   imageUrl?: string | null;
+  /**
+   * Só para evento: quem estava na cena, por nome completo. É a fonte da verdade — a imagem do
+   * evento aparece na aba Eventos da ficha de cada um desses, e sai de lá quando o nome sai daqui.
+   * Aceita nome de protótipo ou de pendente: quem ainda não tem ficha fica guardado aqui e passa a
+   * aparecer no dia em que a ficha existir.
+   */
+  personagens?: string[];
 }
 
 // Rascunho livre de personagem em desenvolvimento (aba "Protótipo" do Painel): o Pedro manda

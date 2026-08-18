@@ -4,7 +4,7 @@ import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, L
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
-import { subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS } from '../data/firestore';
+import { subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants } from '../data/firestore';
 import { Character, ChecklistItem, PrototypeEntry, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
 import { Equipment } from '../types/Equipment';
 
@@ -123,6 +123,11 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [canvaSearch, setCanvaSearch] = useState('');
   const [canvaState, setCanvaState] = useState<'todos' | 'falta' | 'pronta'>('todos');
   const [canvaTextOf, setCanvaTextOf] = useState<string | null>(null);
+  // evento aberto no seletor de participantes, e busca dentro dele
+  const [quemDoEvento, setQuemDoEvento] = useState<string | null>(null);
+  const [quemBusca, setQuemBusca] = useState('');
+  const [quemSalvando, setQuemSalvando] = useState<string | null>(null);
+  const [quemErro, setQuemErro] = useState<string | null>(null);
   const [linkSearch, setLinkSearch] = useState('');
   const [linkKind, setLinkKind] = useState<ImageLinkKind | 'Todas'>('Todas');
   const [linkWithVersion, setLinkWithVersion] = useState(false);
@@ -346,10 +351,53 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         pronta: !!i.imageUrl,
         placeholder: !!i.placeholder,
         doneBy: i.doneBy ?? null,
+        personagens: i.personagens ?? [],
+        item: i,
       }));
     const prontas = itens.filter(i => i.pronta).length;
     return { ...p, itens, prontas, pct: itens.length ? Math.round((prontas / itens.length) * 100) : 0 };
   }), [CANVA_PROJETOS, checklistItems]);
+
+  // Todo mundo que pode estar num evento: ficha, protótipo e pendente. Nome completo sempre —
+  // com os três grupos juntos o primeiro nome deixa de ser único (Raizen Kurogane x Raizen
+  // Kuroshio, Inazuma Kazuchi x Inazuma Uchiha), e o vínculo é feito por nome.
+  const gentePossivel = useMemo(() => {
+    const comFicha = characters.map(c => ({ nome: c.name, curto: c.name.split(' ')[0], grupo: 'ficha' as const, id: c.id, extra: '' }));
+    const nomesFicha = new Set(comFicha.map(p => p.nome));
+    const protos = prototypeEntries
+      .filter(e => !nomesFicha.has(e.title))
+      .map(e => ({ nome: e.title, curto: e.title, grupo: 'prototipo' as const, id: null, extra: e.village ?? '' }));
+    const nomesProto = new Set(protos.map(p => p.nome));
+    const pendentes = PENDING_CHARACTERS.flatMap(g => g.entries.map(e => ({ ...e, village: g.village })))
+      .filter(e => !nomesFicha.has(e.name) && !nomesProto.has(e.name))
+      .map(e => ({ nome: e.name, curto: e.name, grupo: 'pendente' as const, id: null, extra: e.role ?? e.village }));
+    return [
+      ...comFicha.sort((a, b) => a.id - b.id),
+      ...protos.sort((a, b) => a.nome.localeCompare(b.nome)),
+      ...pendentes.sort((a, b) => a.nome.localeCompare(b.nome)),
+    ];
+  }, [characters, prototypeEntries]);
+
+  const eventoAberto = useMemo(
+    () => (quemDoEvento ? checklistItems.find(i => i.docId === quemDoEvento) ?? null : null),
+    [quemDoEvento, checklistItems],
+  );
+
+  const alternaParticipante = useCallback(async (nome: string) => {
+    if (!eventoAberto?.docId) return;
+    const atuais = eventoAberto.personagens ?? [];
+    const novos = atuais.includes(nome) ? atuais.filter(n => n !== nome) : [...atuais, nome];
+    setQuemSalvando(eventoAberto.docId);
+    setQuemErro(null);
+    try {
+      await setEventParticipants(eventoAberto, novos, characters);
+    } catch (e) {
+      console.error('Erro ao gravar participantes do evento:', e);
+      setQuemErro('Não foi possível gravar. Tente de novo.');
+    } finally {
+      setQuemSalvando(null);
+    }
+  }, [eventoAberto, characters]);
 
   const canvaFiltrado = useMemo(() => {
     const termo = canvaSearch.trim().toLowerCase();
@@ -359,7 +407,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         (canvaState === 'todos'
           || (canvaState === 'pronta' && i.pronta)
           || (canvaState === 'falta' && !i.pronta))
-        && (!termo || i.titulo.toLowerCase().includes(termo))),
+        && (!termo || i.titulo.toLowerCase().includes(termo) || (i.personagens ?? []).some(n => n.toLowerCase().includes(termo)))),
     }));
   }, [canvaData, canvaSearch, canvaState]);
 
@@ -1842,9 +1890,32 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 <table className="w-full text-[11px]">
                   <tbody>
                     {p.visiveis.map(i => (
-                      <tr key={i.docId ?? i.pag} className="border-b border-tech-border/40 last:border-0 hover:bg-tech-panel/50">
+                      <tr key={i.docId ?? i.pag} className="border-b border-tech-border/40 last:border-0 hover:bg-tech-panel/50 align-top">
                         <td className="py-1 pl-3 pr-3 text-right w-12 text-tech-primary/40 tabular-nums">{i.pag}</td>
                         <td className="py-1 pr-3 text-tech-primary/90">{i.titulo}</td>
+                        {p.tipo === 'evento' && (
+                          <td className="py-1 pr-3 w-[34%]">
+                            <div className="flex flex-wrap items-center gap-1">
+                              {i.personagens.map(n => (
+                                <span
+                                  key={n}
+                                  title={characters.some(c => c.name === n) ? n : `${n} — sem ficha ainda, guardado`}
+                                  className={`text-[9px] px-1.5 py-0.5 border ${characters.some(c => c.name === n) ? 'border-tech-primary/60 text-tech-primary' : 'border-dashed border-orange-400/50 text-orange-400/80'}`}
+                                >
+                                  {n.split(' ')[0]}
+                                </span>
+                              ))}
+                              <button
+                                type="button"
+                                onClick={() => { setQuemDoEvento(i.docId ?? null); setQuemBusca(''); setQuemErro(null); }}
+                                className="text-[9px] uppercase tracking-widest px-1.5 py-0.5 border border-dashed border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary"
+                              >
+                                {i.personagens.length ? 'editar' : '+ quem estava'}
+                              </button>
+                              {quemSalvando === i.docId && <Loader size={10} className="animate-spin text-tech-primary" />}
+                            </div>
+                          </td>
+                        )}
                         <td className="py-1 pr-3 w-24 whitespace-nowrap">
                           {i.pronta
                             ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary border border-tech-primary px-1.5 py-0.5">pronta</span>
@@ -1855,7 +1926,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                       </tr>
                     ))}
                     {p.visiveis.length === 0 && (
-                      <tr><td colSpan={3} className="py-5 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nada neste projeto com esse filtro.</td></tr>
+                      <tr><td colSpan={p.tipo === 'evento' ? 4 : 3} className="py-5 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nada neste projeto com esse filtro.</td></tr>
                     )}
                   </tbody>
                 </table>
@@ -1879,6 +1950,77 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
             </div>
           ))}
         </div>
+
+        {/* Seletor de participantes: fixo no rodapé, um evento por vez. Cada clique grava na hora,
+            no item do checklist e na Galeria de quem tem ficha — não existe botão de salvar. */}
+        {eventoAberto && (
+          <div className="fixed inset-x-0 bottom-0 z-50 bg-black border-t-2 border-tech-primary max-h-[62vh] overflow-auto p-4 shadow-[0_-20px_50px_-20px_rgba(0,0,0,0.9)]">
+            <div className="flex flex-wrap items-center gap-3 mb-3">
+              <span className="text-[10px] font-black uppercase tracking-widest text-tech-primary">Quem estava</span>
+              <span className="text-[10px] text-tech-primary/50">
+                {[eventoAberto.temporada, eventoAberto.arco, eventoAberto.subarco, eventoAberto.name].filter(Boolean).join(' · ')}
+              </span>
+              {!eventoAberto.imageUrl && (
+                <span className="text-[9px] uppercase tracking-widest text-orange-400 border border-orange-400/60 px-1.5 py-0.5">
+                  sem arte — fica guardado e aparece quando a imagem entrar
+                </span>
+              )}
+              {quemErro && <span className="text-[10px] text-red-400">{quemErro}</span>}
+              <div className="relative ml-auto">
+                <Search size={11} className="absolute left-2 top-1/2 -translate-y-1/2 text-tech-primary/40" />
+                <input
+                  type="search"
+                  value={quemBusca}
+                  onChange={e => setQuemBusca(e.target.value)}
+                  placeholder="filtrar..."
+                  className="bg-tech-panel/40 border border-tech-border pl-7 pr-2 py-1.5 text-[11px] text-tech-primary placeholder:text-tech-primary/30 focus:border-tech-primary outline-none w-40"
+                />
+              </div>
+              <button
+                type="button"
+                onClick={() => setQuemDoEvento(null)}
+                className="flex items-center gap-1 px-2 py-1.5 border border-tech-border text-[9px] font-bold uppercase tracking-widest text-tech-primary/60 hover:text-tech-primary"
+              >
+                <X size={11} /> fechar
+              </button>
+            </div>
+
+            {([
+              { g: 'ficha' as const, rot: 'Com ficha' },
+              { g: 'prototipo' as const, rot: 'Protótipos' },
+              { g: 'pendente' as const, rot: 'Pendentes' },
+            ]).map(bloco => {
+              const termo = quemBusca.trim().toLowerCase();
+              const lista = gentePossivel.filter(p => p.grupo === bloco.g
+                && (!termo || p.nome.toLowerCase().includes(termo) || (p.extra ?? '').toLowerCase().includes(termo)));
+              if (!lista.length) return null;
+              return (
+                <div key={bloco.g} className="mb-3">
+                  <div className="text-[9px] font-black uppercase tracking-widest text-tech-primary/40 mb-1.5">
+                    {bloco.rot} <span className="text-tech-primary/25">{lista.length}</span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-1">
+                    {lista.map(p => {
+                      const marcado = (eventoAberto.personagens ?? []).includes(p.nome);
+                      return (
+                        <button
+                          key={p.nome}
+                          type="button"
+                          title={p.extra || p.nome}
+                          onClick={() => alternaParticipante(p.nome)}
+                          className={`flex items-baseline gap-1.5 px-2 py-1 border text-left text-[10px] transition-all ${marcado ? 'bg-tech-primary text-black border-tech-primary font-bold' : 'bg-tech-panel/30 border-tech-border text-tech-primary/70 hover:border-tech-primary/60 hover:text-tech-primary'}`}
+                        >
+                          <span className="opacity-50 tabular-nums text-[8px]">{p.id ?? '·'}</span>
+                          <span className="truncate">{p.grupo === 'ficha' ? p.curto : p.nome}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </section>
       )}
 

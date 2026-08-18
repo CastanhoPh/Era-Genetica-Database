@@ -5419,7 +5419,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854",
-    "order": 50000
+    "order": 50000,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki"
+    ]
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-katsumi",
