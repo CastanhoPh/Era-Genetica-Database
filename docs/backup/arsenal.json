@@ -894,7 +894,6 @@
     "origin": "Konohagakure",
     "description": "A lendária kunai de Nishinoya, o Terceiro Hokage, forjada em metal condutor de chakra e gravada com selos complexos do Hiraishin. Ela possui a capacidade única de armazenar fragmentos do chakra da Matatabi, permitindo que a lâmina ignore a resistência física e corte através do espaço-tempo. Quando ativa, os selos em sua superfície brilham em um azul intenso, emitindo uma aura de calor espiritual que distorce o ar ao redor. Além de servir como ponto de teleporte, a kunai pode expandir sua lâmina em uma projeção de fogo azul denso. É considerada o símbolo máximo da Vontade do Fogo de Nishinoya, reagindo apenas ao toque de quem possui o vínculo com a Duas-Caudas.",
     "originalOwner": "Nishinoya Senju",
-    "currentOwner": "Nishinoya Senju",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F01%20-%20S%C5%8Den%20no%20Kage.png?alt=media&v=1784038054326735",
     "variants": [
       {
@@ -908,6 +907,10 @@
         "owner": "Naomi Uzumaki",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2Fvariantes%2FGuren%20no%20Kage%2FShiden%20no%20Kage.png?alt=media&v=1785956662899"
       }
+    ],
+    "currentOwner": "Kaito Senju",
+    "diedHolding": [
+      "Nishinoya Senju"
     ]
   },
   {

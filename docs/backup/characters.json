@@ -6179,10 +6179,6 @@
     ],
     "isDead": true,
     "killedBy": "Omega",
-    "arsenal": [
-      1,
-      2
-    ],
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.jpg?alt=media&v=1786651865147176",
     "aptitudes": [
       "Deus Shinobi",
@@ -6435,7 +6431,10 @@
       "vigor": 24,
       "perception": 30
     },
-    "hp": 232
+    "hp": 232,
+    "arsenal": [
+      2
+    ]
   },
   {
     "__docId": "oddy-uchiha",
