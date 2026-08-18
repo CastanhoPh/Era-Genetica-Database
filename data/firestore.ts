@@ -136,16 +136,49 @@ export async function setChecklistItemDone(docId: string, done: boolean, doneBy?
 }
 
 /**
- * Grava quem estava num evento e reflete isso na Galeria de cada ficha, numa tacada.
+ * Reconcilia a Galeria das fichas com um evento. Não grava nada do item — só o reflexo.
  *
- * O `personagens` do item é a fonte da verdade; as entradas na `gallery` são o reflexo. Reconcilia
- * as duas coisas: quem entrou ganha a imagem do evento na aba Eventos, quem saiu perde. A entrada é
- * casada pelo `eventId` (o docId do item), e não pela URL: quatro eventos estão duplicados no
- * checklist com dois itens apontando para a mesma imagem, e por URL um sobrescreveria o outro.
+ * Três condições para a imagem aparecer numa ficha: o evento tem arte, o elenco está FECHADO, e a
+ * pessoa está na lista. Enquanto o elenco está aberto o evento existe só na Galeria pública, que lê
+ * o checklist direto — assim ninguém abre uma ficha e vê uma cena com metade do elenco.
  *
- * Evento sem imagem ainda guarda o `personagens`: nada aparece em ficha nenhuma, e no dia em que a
- * arte for anexada basta chamar isto de novo para materializar. Nome de protótipo ou de pendente
- * também pode entrar, e simplesmente não casa com ficha nenhuma até a ficha existir.
+ * A entrada é casada pelo `eventId` (o docId do item), e não pela URL: quatro eventos estão
+ * duplicados no checklist com dois itens apontando para a mesma imagem, e por URL um sobrescreveria
+ * o outro.
+ */
+function planoDaGaleria(
+  item: ChecklistItem,
+  nomes: string[],
+  fechado: boolean,
+  chars: Character[],
+): { docId: string; gallery: GalleryImage[] }[] {
+  const publica = !!item.imageUrl && fechado;
+  const alvo = new Set(publica ? nomes : []);
+  const legenda = [item.arco, item.subarco, item.name].filter(Boolean).join(' - ');
+  const saida: { docId: string; gallery: GalleryImage[] }[] = [];
+  for (const c of chars) {
+    if (!c.docId) continue;
+    const gal = c.gallery ?? [];
+    const daquele = (g: GalleryImage) => g.eventId === item.docId;
+    const tem = gal.some(daquele);
+    const deve = alvo.has(c.name);
+    if (tem === deve) continue;
+    saida.push({
+      docId: c.docId,
+      gallery: deve
+        ? [...gal, { url: item.imageUrl!, caption: legenda, category: 'evento' as const, season: item.temporada, eventId: item.docId }]
+        : gal.filter(g => !daquele(g)),
+    });
+  }
+  return saida;
+}
+
+/**
+ * Grava quem estava num evento. O `personagens` do item é a fonte da verdade; a Galeria das fichas é
+ * o reflexo, e só recebe quando o elenco está fechado.
+ *
+ * Nome de protótipo ou de pendente também pode entrar, e simplesmente não casa com ficha nenhuma até
+ * a ficha existir.
  */
 export async function setEventParticipants(
   item: ChecklistItem,
@@ -153,33 +186,29 @@ export async function setEventParticipants(
   chars: Character[],
 ): Promise<void> {
   if (!item.docId) throw new Error('item sem docId');
-  const url = item.imageUrl || null;
-  const legenda = [item.arco, item.subarco, item.name].filter(Boolean).join(' - ');
-  const alvo = new Set(nomes);
   const batch = writeBatch(db);
-
   batch.update(doc(db, 'imageChecklist', item.docId), { personagens: nomes });
-
-  if (url) {
-    for (const c of chars) {
-      if (!c.docId) continue;
-      const gal = c.gallery ?? [];
-      const daquele = (g: GalleryImage) => g.eventId === item.docId;
-      const tem = gal.some(daquele);
-      const deve = alvo.has(c.name);
-      if (tem === deve) continue;
-      const nova = deve
-        ? [...gal, { url, caption: legenda, category: 'evento' as const, season: item.temporada, eventId: item.docId }]
-        : gal.filter(g => !daquele(g));
-      batch.update(doc(db, 'characters', c.docId), { gallery: nova });
-    }
-  }
+  planoDaGaleria(item, nomes, !!item.elencoFechado, chars)
+    .forEach(p => batch.update(doc(db, 'characters', p.docId), { gallery: p.gallery }));
   await batch.commit();
 }
 
-/** Marca/desmarca "já marquei todo mundo dessa imagem". Não mexe em quem está marcado. */
-export async function setEventCastClosed(docId: string, fechado: boolean): Promise<void> {
-  await updateDoc(doc(db, 'imageChecklist', docId), { elencoFechado: fechado });
+/**
+ * Marca/desmarca "já adicionei todo mundo dessa imagem". Não mexe em quem está marcado, mas é o que
+ * publica ou despublica o evento nas fichas: fechar materializa a imagem em cada participante,
+ * reabrir tira de todos.
+ */
+export async function setEventCastClosed(
+  item: ChecklistItem,
+  fechado: boolean,
+  chars: Character[],
+): Promise<void> {
+  if (!item.docId) throw new Error('item sem docId');
+  const batch = writeBatch(db);
+  batch.update(doc(db, 'imageChecklist', item.docId), { elencoFechado: fechado });
+  planoDaGaleria(item, item.personagens ?? [], fechado, chars)
+    .forEach(p => batch.update(doc(db, 'characters', p.docId), { gallery: p.gallery }));
+  await batch.commit();
 }
 
 // Edição administrativa da checklist (texto, ordem, placeholder, criação e remoção de itens).

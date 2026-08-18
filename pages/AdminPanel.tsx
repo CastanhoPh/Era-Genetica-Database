@@ -449,18 +449,18 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const eventosComAlguem = useMemo(() => eventosLista.filter(i => i.personagens.length).length, [eventosLista]);
   const eventosFechados = useMemo(() => eventosLista.filter(i => i.fechado).length, [eventosLista]);
 
-  const alternaFechado = useCallback(async (docId: string, fechado: boolean) => {
-    setQuemSalvando(docId);
+  const alternaFechado = useCallback(async (item: ChecklistItem, fechado: boolean) => {
+    setQuemSalvando(item.docId ?? null);
     setQuemErro(null);
     try {
-      await setEventCastClosed(docId, fechado);
+      await setEventCastClosed(item, fechado, characters);
     } catch (e) {
       console.error('Erro ao marcar elenco fechado:', e);
       setQuemErro('Não foi possível marcar. Tente de novo.');
     } finally {
       setQuemSalvando(null);
     }
-  }, []);
+  }, [characters]);
 
   const canvaFiltrado = useMemo(() => {
     const termo = canvaSearch.trim().toLowerCase();
@@ -2122,7 +2122,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                   <td className="py-1.5 pr-3 w-28">
                     <button
                       type="button"
-                      onClick={() => i.docId && alternaFechado(i.docId, !i.fechado)}
+                      onClick={() => alternaFechado(i.item, !i.fechado)}
                       title={i.fechado ? 'Elenco fechado — clique para reabrir' : 'Marcar que já adicionei todo mundo dessa imagem'}
                       className={`flex items-center gap-1.5 px-2 py-1 border text-[9px] font-bold uppercase tracking-widest transition-all whitespace-nowrap ${i.fechado
                         ? 'bg-tech-primary text-black border-tech-primary'

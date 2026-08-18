@@ -61,8 +61,10 @@
       "Katsumi Hyuga",
       "Najin Hatake",
       "Takeshi Hatake",
-      "Shoei Sarutobi"
-    ]
+      "Shoei Sarutobi",
+      "Katsuo Uzumaki"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__chegada-de-raikun__sera-adicionado-em-breve",
@@ -211,7 +213,8 @@
     "personagens": [
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__exame-chunin__final__oddy-campeao",
@@ -292,7 +295,8 @@
     "personagens": [
       "Kaito Senju",
       "Ayumi Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__kazuki-vs-nagare",
@@ -402,7 +406,8 @@
     "order": 50114,
     "personagens": [
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__exame-chunin__prova-teorica-de-najin",
@@ -440,7 +445,8 @@
     "personagens": [
       "Nagare Uzumaki",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__exame-chunin__quartas__najin-vs-oddy",
@@ -456,7 +462,8 @@
     "personagens": [
       "Najin Hatake",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__exame-chunin__quartas__shoei-vs-katsumi",
@@ -519,7 +526,8 @@
     "personagens": [
       "Takeshi Hatake",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__exame-chunin__semi__oddy-vs-shoei",
@@ -553,7 +561,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya",
@@ -574,7 +583,8 @@
       "Najin Hatake",
       "Shoei Sarutobi",
       "Takeshi Hatake"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela",
@@ -595,7 +605,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya",
@@ -616,7 +627,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
@@ -636,7 +648,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
@@ -649,7 +662,6 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
     "order": 50046,
     "personagens": [
-      "Shizumi Uchiha",
       "Kaito Senju",
       "Nagare Uzumaki",
       "Oddy Uchiha",
@@ -657,7 +669,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40",
@@ -679,7 +692,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__inicio__painel-escrito-salvador",
@@ -690,7 +704,17 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FPainel%20escrito%20Salvador%20se%20abre.png?alt=media&v=1784240372927121",
-    "order": 50057
+    "order": 50057,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__a-fuga-impossivel-najin-com-shizumi-no-colo",
@@ -876,7 +900,8 @@
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-investigando-a-masmorra",
@@ -1093,7 +1118,8 @@
       "Takeshi Hatake",
       "Najin Hatake",
       "Beta"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-de-celulas-de-kaito",
@@ -1109,7 +1135,8 @@
     "personagens": [
       "Kaito Senju",
       "Beta"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-chakra-de-nagare",
@@ -1125,7 +1152,8 @@
     "personagens": [
       "Nagare Uzumaki",
       "Beta"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi",
@@ -1141,7 +1169,8 @@
     "personagens": [
       "Katsumi Hyuga",
       "Beta"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-sharingan-de-oddy",
@@ -1157,7 +1186,8 @@
     "personagens": [
       "Oddy Uchiha",
       "Beta"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-son-goku-de-shoei",
@@ -1171,7 +1201,8 @@
     "personagens": [
       "Shoei Sarutobi",
       "Beta"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados",
@@ -1192,7 +1223,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra",
@@ -1213,7 +1245,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__missoes-para-treinamento__hisoka-kaito-e-nagare-na-vila-da-nuvem__sera-adicionado-em-breve",
@@ -1311,9 +1344,9 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FP%C3%B3s-Exame%2FKaito%20lendo%20a%20carta%20de%20Nagare.png?alt=media&v=1784240342516624",
     "order": 50150,
     "personagens": [
-      "Nagare Uzumaki",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__pos-exame__katsumi-treinando-com-hoshiro",
@@ -1445,7 +1478,8 @@
     "personagens": [
       "Nagare Uzumaki",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__chegada-de-nagi-e-yasuo",
@@ -1486,7 +1520,8 @@
     "personagens": [
       "Kaito Senju",
       "Ayumi Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__kaito-e-oddy-apostando-corrida",
@@ -1598,8 +1633,13 @@
     "order": 50167,
     "personagens": [
       "Hisoka Senju",
-      "Kaito Senju"
-    ]
+      "Kaito Senju",
+      "Akairo Uchiha (A)",
+      "Borashi Hyuga (B)",
+      "Oddy Uchiha",
+      "Naoki Uchiha"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-aprendendo-rasengan",
@@ -1615,7 +1655,8 @@
     "personagens": [
       "Hisoka Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-encontram-oddy-e-naoki",
@@ -1633,7 +1674,8 @@
       "Kaito Senju",
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-recebem-o-sinal-de-nishinoya",
@@ -1647,10 +1689,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20e%20Hisoka%20recebem%20o%20sinal%20de%20Nishinoya.png?alt=media&v=1784240338833127",
     "order": 50165,
     "personagens": [
-      "Nishinoya Senju",
       "Hisoka Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-encontrando-celulas-do-hashirama",
@@ -1664,10 +1706,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20encontrando%20c%C3%A9lulas%20do%20Hashirama.png?alt=media&v=1784240341914076",
     "order": 50162,
     "personagens": [
-      "Hashirama Senju",
       "Hisoka Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b",
@@ -1684,8 +1726,11 @@
       "Hisoka Senju",
       "Kaito Senju",
       "Naoki Uchiha",
-      "Oddy Uchiha"
-    ]
+      "Oddy Uchiha",
+      "Akairo Uchiha (A)",
+      "Borashi Hyuga (B)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-no-final-do-treinamento",
@@ -1701,7 +1746,8 @@
     "personagens": [
       "Hisoka Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-olhando-konoha-de-longe",
@@ -1717,7 +1763,8 @@
     "personagens": [
       "Hisoka Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__o-treinamento-de-kaito",
@@ -1733,7 +1780,8 @@
     "personagens": [
       "Hisoka Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__retorno-a-konoha-de-kaito-hisoka-oddy-e-naoki",
@@ -1751,7 +1799,8 @@
       "Kaito Senju",
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__hoshiro-mostra-seu-fujogan-a-katsumi",
@@ -2055,7 +2104,8 @@
     "personagens": [
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-aprendendo-a-usar-a-kusanagi",
@@ -2071,7 +2121,8 @@
     "personagens": [
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-descobrindo-a-verdade-sobre-naoki",
@@ -2087,7 +2138,8 @@
     "personagens": [
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-e-naoki-recebem-o-sinal-de-nishinoya",
@@ -2101,10 +2153,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20e%20Naoki%20recebem%20o%20sinal%20de%20Nishinoya.png?alt=media&v=1784240362049714",
     "order": 50177,
     "personagens": [
-      "Nishinoya Senju",
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-no-final-do-treinamento",
@@ -2120,7 +2172,8 @@
     "personagens": [
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-olhando-os-rostos-dos-hokage",
@@ -2136,7 +2189,8 @@
     "personagens": [
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__retorno-a-konoha-de-kaito-hisoka-oddy-e-naoki",
@@ -2745,7 +2799,8 @@
       "Kaito Senju",
       "Najin Hatake",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos",
@@ -3034,7 +3089,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "4nugj0sDY5ZTA2Hc5kGi",
@@ -3284,7 +3340,8 @@
     "personagens": [
       "Furyuzan Chinoike",
       "Kazuki Hoshigaki"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "891XR2nnfo733mcW5I3t",
@@ -3967,7 +4024,8 @@
       "Reto Sabaku",
       "Tetsu Sabaku",
       "Sayuri Sabaku"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "CJPODNy2sXOMOZ3uzKwM",
@@ -4203,8 +4261,13 @@
     "order": 50169,
     "personagens": [
       "Hisoka Senju",
-      "Kaito Senju"
-    ]
+      "Kaito Senju",
+      "Oddy Uchiha",
+      "Naoki Uchiha",
+      "Akairo Uchiha (A)",
+      "Borashi Hyuga (B)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "EddUy29R3vTtigdNQyZz",
@@ -4328,7 +4391,8 @@
     "personagens": [
       "Hisoka Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "EVPXCEItfj486ZQRelVs",
@@ -4708,7 +4772,8 @@
     "personagens": [
       "Hoshiro Hyuga",
       "Ryuta Hyuga"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "H5FZLmOAjVadlnz6LLqR",
@@ -4812,7 +4877,8 @@
     "personagens": [
       "Naoki Uchiha",
       "Oddy Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "hKsUjD3FeiDcI2yT8iCI",
@@ -5028,7 +5094,8 @@
     "personagens": [
       "Madara Uchiha",
       "Naoki Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "iicPmoTj90ZpN1qtyUuj",
@@ -5061,6 +5128,7 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
     "order": 50049,
+    "elencoFechado": true,
     "personagens": [
       "Kaito Senju",
       "Nagare Uzumaki",
@@ -5068,7 +5136,8 @@
       "Katsumi Hyuga",
       "Najin Hatake",
       "Takeshi Hatake",
-      "Shoei Sarutobi"
+      "Shoei Sarutobi",
+      "Katsuo Uzumaki"
     ]
   },
   {
@@ -5407,8 +5476,16 @@
     "order": 50060,
     "personagens": [
       "Furyuzan Chinoike",
-      "Kazuki Hoshigaki"
-    ]
+      "Kazuki Hoshigaki",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "LsaA97vjbGeZII3HlMPH",
@@ -5445,7 +5522,8 @@
     "personagens": [
       "Nishinoya Senju",
       "Tobirama Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "ltpNFaBtEacM5K2cH3lY",
@@ -5548,7 +5626,8 @@
     "personagens": [
       "Hashirama Senju",
       "Hisoka Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "MmB0cTwNaHF4goNcVb73",
@@ -5613,8 +5692,10 @@
       "Katsumi Hyuga",
       "Najin Hatake",
       "Takeshi Hatake",
-      "Shoei Sarutobi"
-    ]
+      "Shoei Sarutobi",
+      "Katsuo Uzumaki"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "mxxKxXvgrAhCLrap6TfK",
@@ -5661,7 +5742,6 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
     "order": 50055,
     "personagens": [
-      "Shizumi Uchiha",
       "Kaito Senju",
       "Nagare Uzumaki",
       "Oddy Uchiha",
@@ -5669,7 +5749,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "nGgOrPVPIR4mnra6fyXL",
@@ -5788,7 +5869,8 @@
       "Najin Hatake",
       "Takeshi Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "O5I0B8wQc7ApipUs5Pe0",
@@ -5824,7 +5906,8 @@
     "order": 50202,
     "personagens": [
       "Nishinoya Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "OGaWrvEWWhg8Re34uPVj",
@@ -5839,7 +5922,8 @@
     "personagens": [
       "Nishinoya Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "ogRfzXPvdsatJ4AADL6D",
@@ -5886,7 +5970,8 @@
     "personagens": [
       "Tobirama Senju",
       "Naomi Uzumaki"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "OqfYXUdpLM2DsQhNvMWj",
@@ -5992,7 +6077,8 @@
       "Tobirama Senju",
       "Yumi Uzumaki",
       "Nishinoya Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "PbNf2EyZIKzjsjIPhQap",
@@ -6121,7 +6207,8 @@
       "Airi Senju",
       "Hashirama Senju",
       "Mito Uzumaki"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__apresentacoes__apresentacao-de-kaito-e-nagare",
@@ -6138,7 +6225,8 @@
       "Kaito Senju",
       "Tobirama Senju",
       "Yumi Uzumaki"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi",
@@ -6157,7 +6245,8 @@
       "Hoshiro Hyuga",
       "Asami Hyuga",
       "Kaizuka Hyuga"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi",
@@ -6179,7 +6268,8 @@
       "Konan Uchiha",
       "Sho Uchiha",
       "Akairo Uchiha (A)"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama",
@@ -6196,7 +6286,8 @@
       "Najin Hatake",
       "Raikun Hatake",
       "Amai Inuzuka"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__apresentacoes__tobirama-conversando-com-shoei",
@@ -6213,7 +6304,8 @@
       "Shoei Sarutobi",
       "Hiruzen Sarutobi",
       "Hina Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__familias__familia-hyuga",
@@ -6233,7 +6325,8 @@
       "Kaizuka Hyuga",
       "Borashi Hyuga (B)",
       "Renji Hyuga"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__familias__familia-senju-completa",
@@ -6245,6 +6338,7 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259",
     "order": 50015,
+    "elencoFechado": true,
     "personagens": [
       "Nishinoya Senju",
       "Kaito Senju",
@@ -6258,7 +6352,8 @@
       "Yumi Uzumaki",
       "Katsuo Uzumaki",
       "Mito Uzumaki",
-      "Sakura Namikaze"
+      "Sakura Namikaze",
+      "Satoshi Namikaze"
     ]
   },
   {
@@ -6289,7 +6384,8 @@
       "Yumi Uzumaki",
       "Kaito Senju",
       "Tobirama Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-airi",
@@ -6305,7 +6401,8 @@
       "Airi Senju",
       "Hashirama Senju",
       "Mito Uzumaki"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-kaito-e-nagare",
@@ -6322,7 +6419,8 @@
       "Kaito Senju",
       "Tobirama Senju",
       "Yumi Uzumaki"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-katsumi",
@@ -6337,8 +6435,10 @@
     "personagens": [
       "Katsumi Hyuga",
       "Hoshiro Hyuga",
-      "Asami Hyuga"
-    ]
+      "Asami Hyuga",
+      "Borashi Hyuga (B)"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-najin-e-takeshi",
@@ -6355,7 +6455,8 @@
       "Najin Hatake",
       "Raikun Hatake",
       "Amai Inuzuka"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-oddy-e-kuromi",
@@ -6372,7 +6473,8 @@
       "Oddy Uchiha",
       "Madara Uchiha",
       "Konan Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-shizume-e-ayumi",
@@ -6391,7 +6493,8 @@
       "Kuromi Uchiha",
       "Konan Uchiha",
       "Madara Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-shoei-e-apollo",
@@ -6408,7 +6511,8 @@
       "Shoei Sarutobi",
       "Hiruzen Sarutobi",
       "Hina Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-nagare-kaito-e-ayumi",
@@ -6425,7 +6529,8 @@
       "Hisoka Senju",
       "Kaito Senju",
       "Ayumi Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi",
@@ -6442,7 +6547,8 @@
       "Shizumi Uchiha",
       "Najin Hatake",
       "Ryuta Hyuga"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi",
@@ -6459,7 +6565,8 @@
       "Katsumi Hyuga",
       "Oddy Uchiha",
       "Airi Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi",
@@ -6476,7 +6583,8 @@
       "Apollo Sarutobi",
       "Shoei Sarutobi",
       "Naoki Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__kaito-e-nagare",
@@ -6491,7 +6599,8 @@
     "personagens": [
       "Nagare Uzumaki",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__kaito-e-tobirama",
@@ -6506,7 +6615,8 @@
     "personagens": [
       "Tobirama Senju",
       "Kaito Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__kaito-treinando-com-iwaki",
@@ -6519,7 +6629,8 @@
     "personagens": [
       "Kaito Senju",
       "Iwaki Haruno"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__katsumi-treinando-com-renji",
@@ -6532,7 +6643,8 @@
     "personagens": [
       "Katsumi Hyuga",
       "Renji Hyuga"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__nagare-treinando-com-yumi",
@@ -6545,7 +6657,8 @@
     "personagens": [
       "Nagare Uzumaki",
       "Yumi Uzumaki"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__najin-treinando-sozinho",
@@ -6557,7 +6670,8 @@
     "order": 50036,
     "personagens": [
       "Najin Hatake"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__nishinoya-dando-aula",
@@ -6582,7 +6696,8 @@
     "personagens": [
       "Oddy Uchiha",
       "Sho Uchiha"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__shoei-treinando-com-nishinoya",
@@ -6595,7 +6710,8 @@
     "personagens": [
       "Nishinoya Senju",
       "Shoei Sarutobi"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__takeshi-treinando-sozinho",
@@ -6608,7 +6724,8 @@
     "personagens": [
       "Takeshi Hatake",
       "Ryuta Hyuga"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "Ps2OJxfNLqwpw5PXUHD2",
@@ -7249,7 +7366,8 @@
     "personagens": [
       "Nishinoya Senju",
       "Tobirama Senju"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "vlrynv2k4q7XLXCXXBzX",
@@ -7485,7 +7603,8 @@
       "Nishinoya Senju",
       "Kawarama Senju",
       "Sakura Namikaze"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "Wt6O4O8n9mx9YXB6Wmiz",
@@ -7525,7 +7644,8 @@
       "Naomi Uzumaki",
       "Naoki Uchiha",
       "Ryuta Hyuga"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "wwYm14FzVE16meMbcdMA",
@@ -7786,7 +7906,8 @@
       "Nishinoya Senju",
       "Kawarama Senju",
       "Sakura Namikaze"
-    ]
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "YrftQbGbarQnwuErWOVu",
