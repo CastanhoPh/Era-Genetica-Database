@@ -62,7 +62,10 @@
     "name": "Será adicionado em breve",
     "done": false,
     "placeholder": true,
-    "order": 50094
+    "order": 50094,
+    "personagens": [
+      "Raikun Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__16-avos__ayumi-vs-koharu",
@@ -72,7 +75,10 @@
     "done": false,
     "placeholder": false,
     "subarco": "16 Avos",
-    "order": 50119
+    "order": 50119,
+    "personagens": [
+      "Ayumi Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__16-avos__chaveamento",
@@ -92,7 +98,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "16 Avos",
-    "order": 50124
+    "order": 50124,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Yasuo Kurogane"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__16-avos__nagare-vs-inazuma",
@@ -102,7 +112,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "16 Avos",
-    "order": 50120
+    "order": 50120,
+    "personagens": [
+      "Inazuma Kazuchi",
+      "Nagare Uzumaki"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__16-avos__oddy-vs-shikaki",
@@ -112,7 +126,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "16 Avos",
-    "order": 50122
+    "order": 50122,
+    "personagens": [
+      "Shikaki Nara",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__16-avos__shigetsu-vs-kotaro",
@@ -132,7 +150,10 @@
     "done": false,
     "placeholder": false,
     "subarco": "16 Avos",
-    "order": 50123
+    "order": 50123,
+    "personagens": [
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__16-avos__takeshi-vs-haru",
@@ -142,7 +163,10 @@
     "done": false,
     "placeholder": false,
     "subarco": "16 Avos",
-    "order": 50126
+    "order": 50126,
+    "personagens": [
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__16-avos__yamato-vs-ren",
@@ -174,7 +198,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FFinal%2FKaito%20VS%20Oddy.png?alt=media&v=1784240347077250",
-    "order": 50145
+    "order": 50145,
+    "personagens": [
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__final__oddy-campeao",
@@ -184,7 +212,10 @@
     "placeholder": false,
     "subarco": "Final",
     "done": false,
-    "order": 50146
+    "order": 50146,
+    "personagens": [
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__airi-vs-takeshi",
@@ -194,7 +225,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Oitavas",
-    "order": 50130
+    "order": 50130,
+    "personagens": [
+      "Takeshi Hatake",
+      "Airi Senju"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__apollo-vs-shoei",
@@ -204,7 +239,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Oitavas",
-    "order": 50128
+    "order": 50128,
+    "personagens": [
+      "Apollo Sarutobi",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__chaveamento",
@@ -224,7 +263,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Oitavas",
-    "order": 50134
+    "order": 50134,
+    "personagens": [
+      "Furyuzan Chinoike",
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__kaito-vs-ayumi",
@@ -236,7 +279,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FOitavas%2FKaito%20VS%20Ayumi.png?alt=media&v=1784240346053279",
-    "order": 50129
+    "order": 50129,
+    "personagens": [
+      "Kaito Senju",
+      "Ayumi Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__kazuki-vs-nagare",
@@ -246,7 +293,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Oitavas",
-    "order": 50135
+    "order": 50135,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Kazuki Hoshigaki"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__nagi-vs-yamato",
@@ -256,7 +307,10 @@
     "done": false,
     "placeholder": false,
     "subarco": "Oitavas",
-    "order": 50132
+    "order": 50132,
+    "personagens": [
+      "Nagi Yuki"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__najin-vs-shigetsu",
@@ -266,7 +320,10 @@
     "done": false,
     "placeholder": false,
     "subarco": "Oitavas",
-    "order": 50131
+    "order": 50131,
+    "personagens": [
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__oitavas__shizumi-vs-oddy",
@@ -276,7 +333,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Oitavas",
-    "order": 50133
+    "order": 50133,
+    "personagens": [
+      "Shizumi Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__os-7-de-konoha-equipe-40-fazendo-a-prova-teorica",
@@ -303,7 +364,10 @@
     "name": "Prova Teórica de Airi",
     "done": false,
     "placeholder": false,
-    "order": 50115
+    "order": 50115,
+    "personagens": [
+      "Airi Senju"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__prova-teorica-de-apollo",
@@ -312,7 +376,10 @@
     "name": "Prova Teórica de Apollo",
     "done": false,
     "placeholder": false,
-    "order": 50113
+    "order": 50113,
+    "personagens": [
+      "Apollo Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__prova-teorica-de-kaito",
@@ -323,7 +390,10 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FProva%20Te%C3%B3rica%20de%20Kaito.png?alt=media&v=1784240373397775",
-    "order": 50114
+    "order": 50114,
+    "personagens": [
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__prova-teorica-de-najin",
@@ -332,7 +402,10 @@
     "name": "Prova Teórica de Najin",
     "done": false,
     "placeholder": false,
-    "order": 50116
+    "order": 50116,
+    "personagens": [
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__quartas__chaveamento",
@@ -354,7 +427,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FKaito%20VS%20Nagare.png?alt=media&v=1784240346081131",
-    "order": 50137
+    "order": 50137,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__quartas__najin-vs-oddy",
@@ -366,7 +443,11 @@
     "done": true,
     "doneBy": "Liu",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FNajin%20VS%20Oddy.png?alt=media&v=1784240350650136",
-    "order": 50138
+    "order": 50138,
+    "personagens": [
+      "Najin Hatake",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__quartas__shoei-vs-katsumi",
@@ -376,7 +457,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Quartas",
-    "order": 50139
+    "order": 50139,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__quartas__takeshi-vs-nagi",
@@ -386,7 +471,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Quartas",
-    "order": 50140
+    "order": 50140,
+    "personagens": [
+      "Takeshi Hatake",
+      "Nagi Yuki"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__resultado-da-prova-teorica",
@@ -417,7 +506,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FSemi%2FKaito%20VS%20Takeshi.png?alt=media&v=1784240347948867",
-    "order": 50142
+    "order": 50142,
+    "personagens": [
+      "Takeshi Hatake",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__exame-chunin__semi__oddy-vs-shoei",
@@ -427,7 +520,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Semi",
-    "order": 50143
+    "order": 50143,
+    "personagens": [
+      "Shoei Sarutobi",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha",
@@ -449,7 +546,10 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
-    "order": 50044
+    "order": 50044,
+    "personagens": [
+      "Nishinoya Senju"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela",
@@ -460,7 +560,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
-    "order": 50047
+    "order": 50047,
+    "personagens": [
+      "Katsuo Uzumaki"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-na-fogueira-com-nishinoya",
@@ -471,7 +574,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
-    "order": 50045
+    "order": 50045,
+    "personagens": [
+      "Nishinoya Senju"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha",
@@ -493,7 +599,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
-    "order": 50046
+    "order": 50046,
+    "personagens": [
+      "Shizumi Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40",
@@ -525,7 +634,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50092
+    "order": 50092,
+    "personagens": [
+      "Shizumi Uchiha",
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__kaito-katsumi-oddy-e-nagare-encontram-shoei-najin-e-takeshi",
@@ -535,7 +648,16 @@
     "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50084
+    "order": 50084,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Takeshi Hatake",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Shoei Sarutobi",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__najin-pegando-shizumi-no-colo",
@@ -545,7 +667,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50091
+    "order": 50091,
+    "personagens": [
+      "Shizumi Uchiha",
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__naoki-e-hisoka-levam-os-7-de-konoha-e-shizumi-para-casa",
@@ -555,7 +681,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50093
+    "order": 50093,
+    "personagens": [
+      "Shizumi Uchiha",
+      "Hisoka Senju",
+      "Naoki Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__os-7-de-konoha-ativando-a-alavanca",
@@ -625,7 +756,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50073
+    "order": 50073,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-e-katsumi-encontram-oddy-e-nagare-desmaiados",
@@ -635,7 +772,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50074
+    "order": 50074,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-injetando-uma-seringa-verde",
@@ -645,7 +788,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50072
+    "order": 50072,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-acordam-em-celas-separadas",
@@ -655,7 +804,13 @@
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
     "name": "Kaito e Katsumi, Oddy e Nagare acordam em celas separadas",
-    "order": 50067
+    "order": 50067,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-investigando-a-masmorra",
@@ -665,7 +820,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50075
+    "order": 50075,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__nagare-e-levado-pelo-beta-sem-um-sapato",
@@ -675,7 +836,14 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50071
+    "order": 50071,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha",
+      "Beta"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__nagare-joga-seu-sapato",
@@ -685,7 +853,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50070
+    "order": 50070,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__oddy-e-levado-pelo-beta",
@@ -695,7 +869,14 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50069
+    "order": 50069,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha",
+      "Beta"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__oddy-gritando",
@@ -705,7 +886,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50068
+    "order": 50068,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__najin-e-takeshi-abrem-a-fechadura",
@@ -715,7 +902,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50078
+    "order": 50078,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__najin-e-takeshi-acham-uma-chave-no-chao",
@@ -725,7 +917,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50077
+    "order": 50077,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__najin-e-takeshi-acordam-em-um-poco-lotado-de-corpos",
@@ -735,7 +932,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50076
+    "order": 50076,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__najin-e-takeshi-explorando-a-masmorra",
@@ -745,7 +947,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50079
+    "order": 50079,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__shoei-acorda-em-um-laboratorio",
@@ -755,7 +962,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50080
+    "order": 50080,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__shoei-encontra-najin-e-takeshi",
@@ -765,7 +977,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50082
+    "order": 50082,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__shoei-najin-e-takeshi-investigando-a-masmorra",
@@ -775,7 +992,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50083
+    "order": 50083,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__shoei-usa-seu-chakra-para-quebrar-a-porta",
@@ -785,7 +1007,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
-    "order": 50081
+    "order": 50081,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__beta-jogando-najin-e-takeshi-no-poco",
@@ -795,7 +1022,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Torturas",
-    "order": 50066
+    "order": 50066,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Beta"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-de-celulas-de-kaito",
@@ -807,7 +1039,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20de%20c%C3%A9lulas%20de%20Kaito.png?alt=media&v=1784240332019035",
-    "order": 50061
+    "order": 50061,
+    "personagens": [
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-chakra-de-nagare",
@@ -819,7 +1054,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20de%20Nagare.png?alt=media&v=1784240332058786",
-    "order": 50062
+    "order": 50062,
+    "personagens": [
+      "Nagare Uzumaki"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi",
@@ -831,7 +1069,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Byakugan%20de%20Katsumi.png?alt=media&v=1784240331803456",
-    "order": 50064
+    "order": 50064,
+    "personagens": [
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-sharingan-de-oddy",
@@ -843,7 +1084,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Sharingan%20de%20Oddy.png?alt=media&v=1784240332140188",
-    "order": 50063
+    "order": 50063,
+    "personagens": [
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__extracao-do-son-goku-de-shoei",
@@ -853,7 +1097,10 @@
     "done": false,
     "placeholder": false,
     "subarco": "Torturas",
-    "order": 50065
+    "order": 50065,
+    "personagens": [
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados",
@@ -887,7 +1134,12 @@
     "done": false,
     "placeholder": true,
     "subarco": "Hisoka, Kaito e Nagare na Vila da Nuvem",
-    "order": 50096
+    "order": 50096,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__missoes-para-treinamento__nishinoya-oddy-katsumi-e-shoei-na-vila-da-areia__sera-adicionado-em-breve",
@@ -897,7 +1149,13 @@
     "done": false,
     "placeholder": true,
     "subarco": "Nishinoya, Oddy, Katsumi e Shoei na Vila da Areia",
-    "order": 50095
+    "order": 50095,
+    "personagens": [
+      "Nishinoya Senju",
+      "Katsumi Hyuga",
+      "Shoei Sarutobi",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__missoes-para-treinamento__raikun-e-najin-treinando-os-8-portoes__sera-adicionado-em-breve",
@@ -907,7 +1165,11 @@
     "done": false,
     "placeholder": true,
     "subarco": "Raikun e Najin treinando os 8 Portões",
-    "order": 50097
+    "order": 50097,
+    "personagens": [
+      "Raikun Hatake",
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__missoes-para-treinamento__takeshi-treinando-sozinho__sera-adicionado-em-breve",
@@ -917,7 +1179,10 @@
     "done": false,
     "placeholder": true,
     "subarco": "Takeshi treinando sozinho",
-    "order": 50098
+    "order": 50098,
+    "personagens": [
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__hanzo-buscando-takeshi-com-nishinoya",
@@ -926,7 +1191,11 @@
     "name": "Hanzo buscando Takeshi com Nishinoya",
     "done": false,
     "placeholder": false,
-    "order": 50155
+    "order": 50155,
+    "personagens": [
+      "Nishinoya Senju",
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__kaito-indo-treinar-com-hisoka",
@@ -936,7 +1205,11 @@
     "name": "Kaito falando com Hisoka na entrada da vila",
     "done": false,
     "doneBy": null,
-    "order": 50151
+    "order": 50151,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__kaito-lendo-a-carta-de-nagare",
@@ -947,7 +1220,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FP%C3%B3s-Exame%2FKaito%20lendo%20a%20carta%20de%20Nagare.png?alt=media&v=1784240342516624",
-    "order": 50150
+    "order": 50150,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__katsumi-treinando-com-hoshiro",
@@ -956,7 +1233,11 @@
     "name": "Katsumi treinando com Hoshiro",
     "done": false,
     "placeholder": false,
-    "order": 50158
+    "order": 50158,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__nagare-brigando-com-tobirama",
@@ -965,7 +1246,11 @@
     "name": "Nagare brigando com Tobirama",
     "done": false,
     "placeholder": false,
-    "order": 50147
+    "order": 50147,
+    "personagens": [
+      "Tobirama Senju",
+      "Nagare Uzumaki"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__nagare-escrevendo-a-carta-para-kaito",
@@ -974,7 +1259,11 @@
     "name": "Nagare escrevendo a carta para Kaito",
     "done": false,
     "placeholder": false,
-    "order": 50148
+    "order": 50148,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__nagare-indo-embora-da-vila",
@@ -983,7 +1272,10 @@
     "name": "Nagare indo embora da vila",
     "done": false,
     "placeholder": false,
-    "order": 50149
+    "order": 50149,
+    "personagens": [
+      "Nagare Uzumaki"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__najin-e-raikun-no-laboratorio",
@@ -992,7 +1284,11 @@
     "name": "Najin e Raikun no laboratório",
     "done": false,
     "placeholder": false,
-    "order": 50157
+    "order": 50157,
+    "personagens": [
+      "Raikun Hatake",
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__najin-treinando-com-raikun",
@@ -1001,7 +1297,11 @@
     "name": "Najin treinando com Raikun",
     "done": false,
     "placeholder": false,
-    "order": 50156
+    "order": 50156,
+    "personagens": [
+      "Raikun Hatake",
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__oddy-indo-treinar-com-naoki",
@@ -1010,7 +1310,11 @@
     "done": false,
     "placeholder": false,
     "name": "Oddy pedindo para Naoki treinar ele",
-    "order": 50152
+    "order": 50152,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__rock-buscando-shoei-com-nishinoya",
@@ -1019,7 +1323,12 @@
     "name": "Rock buscando Shoei com Nishinoya",
     "done": false,
     "placeholder": false,
-    "order": 50154
+    "order": 50154,
+    "personagens": [
+      "Nishinoya Senju",
+      "Shoei Sarutobi",
+      "Rock Gunma"
+    ]
   },
   {
     "__docId": "1-temporada__pos-exame__shoei-treinando-com-nishinoya",
@@ -1028,7 +1337,11 @@
     "name": "Shoei treinando com Nishinoya",
     "done": false,
     "placeholder": false,
-    "order": 50153
+    "order": 50153,
+    "personagens": [
+      "Nishinoya Senju",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__briga-de-kaito-e-nagare",
@@ -1039,7 +1352,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FPr%C3%A9-Exame%20Chunin%2FBriga%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240328373868",
-    "order": 50105
+    "order": 50105,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__chegada-de-nagi-e-yasuo",
@@ -1048,7 +1365,11 @@
     "name": "Chegada de Nagi e Yasuo",
     "done": false,
     "placeholder": false,
-    "order": 50100
+    "order": 50100,
+    "personagens": [
+      "Yasuo Kurogane",
+      "Nagi Yuki"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__furyuzan-e-kazuki-chegando-a-vila",
@@ -1057,7 +1378,11 @@
     "name": "Furyuzan e Kazuki chegando à vila",
     "done": false,
     "placeholder": false,
-    "order": 50104
+    "order": 50104,
+    "personagens": [
+      "Furyuzan Chinoike",
+      "Kazuki Hoshigaki"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__kaito-conhecendo-ayumi",
@@ -1068,7 +1393,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FPr%C3%A9-Exame%20Chunin%2FKaito%20conhecendo%20Ayumi.png?alt=media&v=1784240339403481",
-    "order": 50101
+    "order": 50101,
+    "personagens": [
+      "Kaito Senju",
+      "Ayumi Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__kaito-e-oddy-apostando-corrida",
@@ -1077,7 +1406,11 @@
     "name": "Kaito e Oddy apostando corrida",
     "done": false,
     "placeholder": false,
-    "order": 50106
+    "order": 50106,
+    "personagens": [
+      "Kaito Senju",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__katsumi-encontrando-yasuo",
@@ -1086,7 +1419,11 @@
     "name": "Katsumi encontrando Yasuo",
     "done": false,
     "placeholder": false,
-    "order": 50103
+    "order": 50103,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Yasuo Kurogane"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__najin-acordando-atrasado",
@@ -1095,7 +1432,10 @@
     "name": "Najin acordando atrasado",
     "done": false,
     "placeholder": false,
-    "order": 50107
+    "order": 50107,
+    "personagens": [
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__nishinoya-separando-katsumi-e-furyuzan",
@@ -1104,7 +1444,12 @@
     "name": "Nishinoya separando Katsumi e Furyuzan",
     "done": false,
     "placeholder": false,
-    "order": 50110
+    "order": 50110,
+    "personagens": [
+      "Nishinoya Senju",
+      "Furyuzan Chinoike",
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__oddy-conhecendo-airi",
@@ -1113,7 +1458,11 @@
     "name": "Oddy conhecendo Airi",
     "done": false,
     "placeholder": false,
-    "order": 50102
+    "order": 50102,
+    "personagens": [
+      "Oddy Uchiha",
+      "Airi Senju"
+    ]
   },
   {
     "__docId": "1-temporada__pre-exame-chunin__os-7-de-konoha-conversando",
@@ -1140,7 +1489,12 @@
     "name": "Retorno de Renji, Ayumi, Airi e Apollo para a vila",
     "done": false,
     "placeholder": false,
-    "order": 50099
+    "order": 50099,
+    "personagens": [
+      "Apollo Sarutobi",
+      "Ayumi Uchiha",
+      "Airi Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam",
@@ -1152,7 +1506,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419",
-    "order": 50167
+    "order": 50167,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-aprendendo-rasengan",
@@ -1164,7 +1522,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20aprendendo%20Rasengan.png?alt=media&v=1784240339017516",
-    "order": 50161
+    "order": 50161,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-encontram-oddy-e-naoki",
@@ -1176,7 +1538,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%20encontram%20Oddy%20e%20Naoki.png?alt=media&v=1784240454051693",
-    "order": 50166
+    "order": 50166,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju",
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-e-hisoka-recebem-o-sinal-de-nishinoya",
@@ -1188,7 +1556,12 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20e%20Hisoka%20recebem%20o%20sinal%20de%20Nishinoya.png?alt=media&v=1784240338833127",
-    "order": 50165
+    "order": 50165,
+    "personagens": [
+      "Nishinoya Senju",
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-encontrando-celulas-do-hashirama",
@@ -1200,7 +1573,12 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20encontrando%20c%C3%A9lulas%20do%20Hashirama.png?alt=media&v=1784240341914076",
-    "order": 50162
+    "order": 50162,
+    "personagens": [
+      "Hashirama Senju",
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b",
@@ -1212,7 +1590,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914",
-    "order": 50168
+    "order": 50168,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju",
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-no-final-do-treinamento",
@@ -1224,7 +1608,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20no%20final%20do%20treinamento.png?alt=media&v=1784240345868183",
-    "order": 50164
+    "order": 50164,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-olhando-konoha-de-longe",
@@ -1236,7 +1624,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20olhando%20Konoha%20de%20longe.png?alt=media&v=1784240346749887",
-    "order": 50163
+    "order": 50163,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__o-treinamento-de-kaito",
@@ -1248,7 +1640,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FO%20Treinamento%20de%20Kaito.png?alt=media&v=1784240359259893",
-    "order": 50160
+    "order": 50160,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__retorno-a-konoha-de-kaito-hisoka-oddy-e-naoki",
@@ -1260,7 +1656,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FRetorno%20a%20Konoha.png?alt=media&v=1784240465179766",
-    "order": 50170
+    "order": 50170,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju",
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__hoshiro-mostra-seu-fujogan-a-katsumi",
@@ -1270,7 +1672,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50194
+    "order": 50194,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-acordando-com-dor-de-cabeca-e-veias-roxas",
@@ -1280,7 +1686,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50186
+    "order": 50186,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-assiste-kai-vs-hades",
@@ -1290,7 +1700,12 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50191
+    "order": 50191,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga",
+      "Hades"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-conversando-com-hoshiro",
@@ -1300,7 +1715,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50193
+    "order": 50193,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-desperta-o-fujogan",
@@ -1310,7 +1729,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50190
+    "order": 50190,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-e-kai-treinando-o-fujogan",
@@ -1320,7 +1743,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50189
+    "order": 50189,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-encontra-kai-fora-da-vila",
@@ -1330,7 +1757,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50188
+    "order": 50188,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-sobe-no-telhado",
@@ -1340,7 +1771,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50195
+    "order": 50195,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-vai-treinar-fora-da-vila",
@@ -1350,7 +1785,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50187
+    "order": 50187,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-vendo-tobirama-yumi-sho-hoshiro-asami-e-raikun-partindo",
@@ -1360,7 +1799,16 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50197
+    "order": 50197,
+    "personagens": [
+      "Tobirama Senju",
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga",
+      "Raikun Hatake",
+      "Asami Hyuga",
+      "Yumi Uzumaki",
+      "Sho Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-vendo-uma-explosao-ao-fundo",
@@ -1370,7 +1818,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50196
+    "order": 50196,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__katsumi-volta-a-vila",
@@ -1380,7 +1832,11 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50192
+    "order": 50192,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__tobirama-nomeando-nishinoya-senju-como-terceiro-hokage",
@@ -1390,7 +1846,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50198
+    "order": 50198,
+    "personagens": [
+      "Nishinoya Senju",
+      "Tobirama Senju",
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__katsumi-e-hoshiro__tobirama-yumi-sho-hoshiro-asami-e-raikun-partindo",
@@ -1400,7 +1862,16 @@
     "done": false,
     "placeholder": false,
     "subarco": "Katsumi e Hoshiro",
-    "order": 50199
+    "order": 50199,
+    "personagens": [
+      "Tobirama Senju",
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga",
+      "Raikun Hatake",
+      "Asami Hyuga",
+      "Yumi Uzumaki",
+      "Sho Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__nagare-e-a-vila-da-nuvem__sera-adicionado-em-breve",
@@ -1410,7 +1881,10 @@
     "done": false,
     "placeholder": true,
     "subarco": "Nagare e a Vila da Nuvem",
-    "order": 50200
+    "order": 50200,
+    "personagens": [
+      "Nagare Uzumaki"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__najin-e-raikun__sera-adicionado-em-breve",
@@ -1420,7 +1894,11 @@
     "done": false,
     "placeholder": true,
     "subarco": "Najin e Raikun",
-    "order": 50185
+    "order": 50185,
+    "personagens": [
+      "Raikun Hatake",
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__a-e-b-chegam",
@@ -1432,7 +1910,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419",
-    "order": 50179
+    "order": 50179,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__kaito-e-hisoka-encontram-oddy-e-naoki",
@@ -1444,7 +1926,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%20encontram%20Oddy%20e%20Naoki.png?alt=media&v=1784240454051693",
-    "order": 50178
+    "order": 50178,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju",
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__kaito-hisoka-oddy-e-naoki-vs-a-e-b",
@@ -1456,7 +1944,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914",
-    "order": 50180
+    "order": 50180,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju",
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__o-treinamento-de-oddy",
@@ -1468,7 +1962,11 @@
     "done": true,
     "doneBy": "Liu",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FO%20Treinamento%20de%20Oddy.png?alt=media&v=1784240359738931",
-    "order": 50172
+    "order": 50172,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-aprendendo-a-usar-a-kusanagi",
@@ -1480,7 +1978,11 @@
     "done": true,
     "doneBy": "Liu",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20aprendendo%20a%20usar%20a%20Kusanagi.png?alt=media&v=1784240359279371",
-    "order": 50173
+    "order": 50173,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-descobrindo-a-verdade-sobre-naoki",
@@ -1492,7 +1994,11 @@
     "done": true,
     "doneBy": "Liu",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20descobrindo%20a%20verdade%20sobre%20Naoki.png?alt=media&v=1784240361196829",
-    "order": 50174
+    "order": 50174,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-e-naoki-recebem-o-sinal-de-nishinoya",
@@ -1504,7 +2010,12 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20e%20Naoki%20recebem%20o%20sinal%20de%20Nishinoya.png?alt=media&v=1784240362049714",
-    "order": 50177
+    "order": 50177,
+    "personagens": [
+      "Nishinoya Senju",
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-no-final-do-treinamento",
@@ -1516,7 +2027,11 @@
     "done": true,
     "doneBy": "Liu",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20no%20final%20do%20treinamento.png?alt=media&v=1784240362880354",
-    "order": 50176
+    "order": 50176,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__oddy-olhando-os-rostos-dos-hokage",
@@ -1528,7 +2043,11 @@
     "done": true,
     "doneBy": "Liu",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20olhando%20os%20rostos%20dos%20Hokage%20de%20longe.png?alt=media&v=1784240362828639",
-    "order": 50175
+    "order": 50175,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__oddy-e-naoki__retorno-a-konoha-de-kaito-hisoka-oddy-e-naoki",
@@ -1540,7 +2059,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FRetorno%20a%20Konoha.png?alt=media&v=1784240465179766",
-    "order": 50182
+    "order": 50182,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju",
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__shoei-e-rock__sera-adicionado-em-breve",
@@ -1550,7 +2075,11 @@
     "done": false,
     "placeholder": true,
     "subarco": "Shoei e Rock",
-    "order": 50183
+    "order": 50183,
+    "personagens": [
+      "Shoei Sarutobi",
+      "Rock Gunma"
+    ]
   },
   {
     "__docId": "1-temporada__treinamentos-individuais__takeshi-e-hanzo__sera-adicionado-em-breve",
@@ -1560,7 +2089,10 @@
     "done": false,
     "placeholder": true,
     "subarco": "Takeshi e Hanzo",
-    "order": 50184
+    "order": 50184,
+    "personagens": [
+      "Takeshi Hatake"
+    ]
   },
   {
     "__docId": "1eyj3b99kmZolOEmB1Wb",
@@ -1673,7 +2205,10 @@
     "name": "Será adicionado em breve",
     "done": false,
     "placeholder": true,
-    "order": 50242
+    "order": 50242,
+    "personagens": [
+      "Hayato Hanzo (H)"
+    ]
   },
   {
     "__docId": "2-temporada-da-oca__omega__sera-adicionado-em-breve",
@@ -1700,7 +2235,10 @@
     "name": "Será adicionado em breve",
     "done": false,
     "placeholder": true,
-    "order": 50236
+    "order": 50236,
+    "personagens": [
+      "Beta"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-d__sera-adicionado-em-breve",
@@ -1720,7 +2258,12 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374",
-    "order": 50232
+    "order": 50232,
+    "personagens": [
+      "Kaito Senju",
+      "Ayumi Uchiha",
+      "Airi Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito",
@@ -1731,7 +2274,12 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581",
-    "order": 50233
+    "order": 50233,
+    "personagens": [
+      "Kaito Senju",
+      "Ayumi Uchiha",
+      "Airi Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__f-e-g-aparecendo",
@@ -1751,7 +2299,10 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20e%20G%20levando%20Shoei.png?alt=media&v=1784240335300514",
-    "order": 50227
+    "order": 50227,
+    "personagens": [
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__f-envenenando-kaito",
@@ -1762,7 +2313,10 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20envenenando%20Kaito.png?alt=media&v=1784240335515898",
-    "order": 50225
+    "order": 50225,
+    "personagens": [
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__g-foge",
@@ -1791,7 +2345,10 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20escolhendo%20morrer.png?alt=media&v=1784240342375590",
-    "order": 50224
+    "order": 50224,
+    "personagens": [
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego",
@@ -1802,7 +2359,10 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496",
-    "order": 50234
+    "order": 50234,
+    "personagens": [
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__kaito-esta-morto",
@@ -1813,7 +2373,10 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20morto.png?alt=media&v=1784240342650031",
-    "order": 50226
+    "order": 50226,
+    "personagens": [
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__najin-destroi-nucleo-de-chakra",
@@ -1822,7 +2385,10 @@
     "name": "Najin destrói núcleo de chakra",
     "done": false,
     "placeholder": false,
-    "order": 50222
+    "order": 50222,
+    "personagens": [
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__naoki-rapta-f",
@@ -1831,7 +2397,10 @@
     "name": "Naoki rapta F",
     "done": false,
     "placeholder": false,
-    "order": 50229
+    "order": 50229,
+    "personagens": [
+      "Naoki Uchiha"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam",
@@ -1842,7 +2411,12 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713",
-    "order": 50228
+    "order": 50228,
+    "personagens": [
+      "Nishinoya Senju",
+      "Kaito Senju",
+      "Naoki Uchiha"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-f__novo-sinal-de-chakra-artificial",
@@ -1898,7 +2472,10 @@
     "doneBy": "Zeck",
     "name": "Katsumi deixando o cubo de isca para a equipe sair viva",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20G%2FKatsumi%20deixando%20o%20cubo%20de%20isca%20para%20a%20equipe%20sair%20viva.png?alt=media&v=1784240349494143",
-    "order": 50216
+    "order": 50216,
+    "personagens": [
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-encontrando-o-cubo-de-son-goku",
@@ -1909,7 +2486,10 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20G%2FKatsumi%20encontrando%20o%20cubo%20de%20Son%20Goku.png?alt=media&v=1784240349519432",
-    "order": 50214
+    "order": 50214,
+    "personagens": [
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-encontrando-scanner-de-chakra-profano",
@@ -1918,7 +2498,10 @@
     "name": "Katsumi encontrando Scanner de Chakra Profano",
     "done": false,
     "placeholder": false,
-    "order": 50215
+    "order": 50215,
+    "personagens": [
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-entregando-scanner-de-chakra-profano-a-nishinoya",
@@ -1927,7 +2510,11 @@
     "name": "Katsumi entregando Scanner de Chakra Profano a Nishinoya",
     "done": false,
     "placeholder": false,
-    "order": 50218
+    "order": 50218,
+    "personagens": [
+      "Nishinoya Senju",
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-recebendo-o-selo-de-nishinoya-e-sendo-reconhecido-como-capitao",
@@ -1938,7 +2525,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20G%2FKatsumi%20recebendo%20o%20selo%20de%20Nishinoya%20e%20sendo%20reconhecido%20como%20capit%C3%A3o.png?alt=media&v=1784240349858176",
-    "order": 50211
+    "order": 50211,
+    "personagens": [
+      "Nishinoya Senju",
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__katsumi-recebendo-seu-radar",
@@ -1949,7 +2540,10 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20G%2FKatsumi%20recebendo%20seu%20radar.png?alt=media&v=1784240349957741",
-    "order": 50210
+    "order": 50210,
+    "personagens": [
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__base-do-g__voltam-a-konoha-apos-base-do-g",
@@ -1998,7 +2592,10 @@
     "placeholder": false,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FEm%20busca%20de%20Shoei.png?alt=media&v=1784240328286636",
-    "order": 50206
+    "order": 50206,
+    "personagens": [
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__equipe-konk",
@@ -2053,7 +2650,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FReencontro%20de%20Kaito%20Oddy%20Katsumi%20e%20Najin.png?alt=media&v=1784240373986619",
-    "order": 50201
+    "order": 50201,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Kaito Senju",
+      "Najin Hatake",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos",
@@ -2170,7 +2773,10 @@
     "name": "Será adicionado em breve",
     "done": false,
     "placeholder": true,
-    "order": 50246
+    "order": 50246,
+    "personagens": [
+      "Madara Uchiha"
+    ]
   },
   {
     "__docId": "3-temporada__gama-e-a-vila-da-nevoa__sera-adicionado-em-breve",
@@ -2298,7 +2904,10 @@
     "done": false,
     "placeholder": true,
     "temporada": "4ª Temporada",
-    "order": 50251
+    "order": 50251,
+    "personagens": [
+      "Naomi Uzumaki"
+    ]
   },
   {
     "__docId": "4-temporada__retorno-a-konoha__sera-adicionado-em-breve",
@@ -2424,7 +3033,11 @@
     "done": false,
     "name": "A e B fogem",
     "temporada": "1ª Temporada",
-    "order": 50181
+    "order": 50181,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "5X4aIrA9E0L7eY516zuz",
@@ -3246,7 +3859,13 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Sabaku.png?alt=media&v=1784240335828677",
-    "order": 50019
+    "order": 50019,
+    "personagens": [
+      "Hana Sabaku",
+      "Reto Sabaku",
+      "Tetsu Sabaku",
+      "Sayuri Sabaku"
+    ]
   },
   {
     "__docId": "CJPODNy2sXOMOZ3uzKwM",
@@ -3479,7 +4098,11 @@
     "done": false,
     "placeholder": false,
     "arco": "Treinamentos Individuais",
-    "order": 50169
+    "order": 50169,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "EddUy29R3vTtigdNQyZz",
@@ -3599,7 +4222,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%20e%20Hisoka%2FKaito%20indo%20treinar%20com%20Hisoka.png?alt=media&v=1784240343395112",
-    "order": 50159
+    "order": 50159,
+    "personagens": [
+      "Hisoka Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "EVPXCEItfj486ZQRelVs",
@@ -3728,7 +4355,11 @@
     "name": "Naomi com Manto Kurama Perfeito, Modo Sábio de Nishinoya Perfeito, Shiden no Kage e Shiden no Gauntō",
     "done": false,
     "placeholder": false,
-    "order": 50257
+    "order": 50257,
+    "personagens": [
+      "Nishinoya Senju",
+      "Naomi Uzumaki"
+    ]
   },
   {
     "__docId": "FQrzoaoMbEB9sZcXhCtV",
@@ -3971,7 +4602,11 @@
     "name": "Ryuta treinando com Hoshiro",
     "done": false,
     "placeholder": false,
-    "order": 50025
+    "order": 50025,
+    "personagens": [
+      "Hoshiro Hyuga",
+      "Ryuta Hyuga"
+    ]
   },
   {
     "__docId": "H5FZLmOAjVadlnz6LLqR",
@@ -4071,7 +4706,11 @@
     "done": true,
     "doneBy": "Liu",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FOddy%20e%20Naoki%2FOddy%20indo%20treinar%20com%20Naoki.png?alt=media&v=1784240362560688",
-    "order": 50171
+    "order": 50171,
+    "personagens": [
+      "Naoki Uchiha",
+      "Oddy Uchiha"
+    ]
   },
   {
     "__docId": "hKsUjD3FeiDcI2yT8iCI",
@@ -4283,7 +4922,11 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNaoki_treinando_com_Madara.png?alt=media&v=1785168629025",
-    "order": 50022
+    "order": 50022,
+    "personagens": [
+      "Madara Uchiha",
+      "Naoki Uchiha"
+    ]
   },
   {
     "__docId": "iicPmoTj90ZpN1qtyUuj",
@@ -4650,7 +5293,11 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
-    "order": 50060
+    "order": 50060,
+    "personagens": [
+      "Furyuzan Chinoike",
+      "Kazuki Hoshigaki"
+    ]
   },
   {
     "__docId": "LsaA97vjbGeZII3HlMPH",
@@ -4683,7 +5330,11 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%20treinando%20Hiraishin%20com%20Tobirama.png?alt=media&v=1784240355616010",
-    "order": 50023
+    "order": 50023,
+    "personagens": [
+      "Nishinoya Senju",
+      "Tobirama Senju"
+    ]
   },
   {
     "__docId": "ltpNFaBtEacM5K2cH3lY",
@@ -4782,7 +5433,11 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FHisoka%20treinando%20com%20Hashirama.png?alt=media&v=1784240334310274",
-    "order": 50021
+    "order": 50021,
+    "personagens": [
+      "Hashirama Senju",
+      "Hisoka Senju"
+    ]
   },
   {
     "__docId": "MmB0cTwNaHF4goNcVb73",
@@ -4884,7 +5539,10 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
-    "order": 50055
+    "order": 50055,
+    "personagens": [
+      "Shizumi Uchiha"
+    ]
   },
   {
     "__docId": "nGgOrPVPIR4mnra6fyXL",
@@ -5025,7 +5683,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKatsumi%20e%20Hoshiro%2FNishinoya%20o%20Terceiro%20Hokage.png?alt=media&v=1784240355082399",
     "arco": "Reunindo reforços",
     "temporada": "2ª Temporada de Konoha",
-    "order": 50202
+    "order": 50202,
+    "personagens": [
+      "Nishinoya Senju"
+    ]
   },
   {
     "__docId": "OGaWrvEWWhg8Re34uPVj",
@@ -5036,7 +5697,11 @@
     "arco": "Academia Ninja",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20treinando%20com%20Nishinoya.png?alt=media&v=1784240344515030",
     "temporada": "Clássico",
-    "order": 50029
+    "order": 50029,
+    "personagens": [
+      "Nishinoya Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "ogRfzXPvdsatJ4AADL6D",
@@ -5079,7 +5744,11 @@
     "name": "Naomi treinando com Tobirama",
     "done": false,
     "placeholder": false,
-    "order": 50026
+    "order": 50026,
+    "personagens": [
+      "Tobirama Senju",
+      "Naomi Uzumaki"
+    ]
   },
   {
     "__docId": "OqfYXUdpLM2DsQhNvMWj",
@@ -5178,7 +5847,14 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FCasa%20Senju.png?alt=media&v=1784240328151860",
-    "order": 50016
+    "order": 50016,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Tobirama Senju",
+      "Yumi Uzumaki",
+      "Nishinoya Senju"
+    ]
   },
   {
     "__docId": "PbNf2EyZIKzjsjIPhQap",
@@ -5300,7 +5976,14 @@
     "placeholder": false,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Airi_%20Hisoka%20e%20Naomi.png?alt=media&v=1784240324673237",
-    "order": 50011
+    "order": 50011,
+    "personagens": [
+      "Hisoka Senju",
+      "Naomi Uzumaki",
+      "Airi Senju",
+      "Hashirama Senju",
+      "Mito Uzumaki"
+    ]
   },
   {
     "__docId": "prologo__apresentacoes__apresentacao-de-kaito-e-nagare",
@@ -5311,7 +5994,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240324232973",
-    "order": 50008
+    "order": 50008,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Kaito Senju",
+      "Tobirama Senju",
+      "Yumi Uzumaki"
+    ]
   },
   {
     "__docId": "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi",
@@ -5322,7 +6011,15 @@
     "placeholder": false,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742",
-    "order": 50009
+    "order": 50009,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Borashi Hyuga (B)",
+      "Ryuta Hyuga",
+      "Hoshiro Hyuga",
+      "Asami Hyuga",
+      "Kaizuka Hyuga"
+    ]
   },
   {
     "__docId": "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi",
@@ -5333,7 +6030,18 @@
     "doneBy": "Zeck",
     "name": "Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604",
-    "order": 50010
+    "order": 50010,
+    "personagens": [
+      "Shizumi Uchiha",
+      "Kuromi Uchiha",
+      "Ayumi Uchiha",
+      "Naoki Uchiha",
+      "Oddy Uchiha",
+      "Madara Uchiha",
+      "Konan Uchiha",
+      "Sho Uchiha",
+      "Akairo Uchiha (A)"
+    ]
   },
   {
     "__docId": "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama",
@@ -5344,7 +6052,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173",
-    "order": 50013
+    "order": 50013,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Raikun Hatake",
+      "Amai Inuzuka"
+    ]
   },
   {
     "__docId": "prologo__apresentacoes__tobirama-conversando-com-shoei",
@@ -5355,7 +6069,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745739390926",
-    "order": 50012
+    "order": 50012,
+    "personagens": [
+      "Apollo Sarutobi",
+      "Shoei Sarutobi",
+      "Hiruzen Sarutobi",
+      "Hina Sarutobi"
+    ]
   },
   {
     "__docId": "prologo__familias__familia-hyuga",
@@ -5366,7 +6086,16 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832",
-    "order": 50018
+    "order": 50018,
+    "personagens": [
+      "Hoshiro Hyuga",
+      "Asami Hyuga",
+      "Katsumi Hyuga",
+      "Ryuta Hyuga",
+      "Kaizuka Hyuga",
+      "Borashi Hyuga (B)",
+      "Renji Hyuga"
+    ]
   },
   {
     "__docId": "prologo__familias__familia-senju-completa",
@@ -5377,7 +6106,22 @@
     "name": "Família Senju",
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259",
-    "order": 50015
+    "order": 50015,
+    "personagens": [
+      "Nishinoya Senju",
+      "Kaito Senju",
+      "Airi Senju",
+      "Hisoka Senju",
+      "Tobirama Senju",
+      "Hashirama Senju",
+      "Kawarama Senju",
+      "Nagare Uzumaki",
+      "Naomi Uzumaki",
+      "Yumi Uzumaki",
+      "Katsuo Uzumaki",
+      "Mito Uzumaki",
+      "Sakura Namikaze"
+    ]
   },
   {
     "__docId": "prologo__familias__familia-uchiha",
@@ -5397,7 +6141,17 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263",
-    "order": 50020
+    "order": 50020,
+    "personagens": [
+      "Hana Sabaku",
+      "Reto Sabaku",
+      "Tetsu Sabaku",
+      "Sayuri Sabaku",
+      "Nagare Uzumaki",
+      "Yumi Uzumaki",
+      "Kaito Senju",
+      "Tobirama Senju"
+    ]
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-airi",
@@ -5408,7 +6162,12 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Airi.png?alt=media&v=1784240352969066",
-    "order": 50001
+    "order": 50001,
+    "personagens": [
+      "Airi Senju",
+      "Hashirama Senju",
+      "Mito Uzumaki"
+    ]
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-kaito-e-nagare",
@@ -5421,8 +6180,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854",
     "order": 50000,
     "personagens": [
+      "Nagare Uzumaki",
       "Kaito Senju",
-      "Nagare Uzumaki"
+      "Tobirama Senju",
+      "Yumi Uzumaki"
     ]
   },
   {
@@ -5434,7 +6195,12 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento_de_Katsumi.png?alt=media&v=1784750316421",
-    "order": 50004
+    "order": 50004,
+    "personagens": [
+      "Katsumi Hyuga",
+      "Hoshiro Hyuga",
+      "Asami Hyuga"
+    ]
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-najin-e-takeshi",
@@ -5445,7 +6211,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1784240353667278",
-    "order": 50006
+    "order": 50006,
+    "personagens": [
+      "Takeshi Hatake",
+      "Najin Hatake",
+      "Raikun Hatake",
+      "Amai Inuzuka"
+    ]
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-oddy-e-kuromi",
@@ -5456,7 +6228,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Oddy%20e%20Kuromi.png?alt=media&v=1784240354620281",
-    "order": 50002
+    "order": 50002,
+    "personagens": [
+      "Kuromi Uchiha",
+      "Oddy Uchiha",
+      "Madara Uchiha",
+      "Konan Uchiha"
+    ]
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-shizume-e-ayumi",
@@ -5467,7 +6245,15 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240356193657",
-    "order": 50003
+    "order": 50003,
+    "personagens": [
+      "Shizumi Uchiha",
+      "Ayumi Uchiha",
+      "Oddy Uchiha",
+      "Kuromi Uchiha",
+      "Konan Uchiha",
+      "Madara Uchiha"
+    ]
   },
   {
     "__docId": "prologo__nascimentos__nascimento-de-shoei-e-apollo",
@@ -5478,7 +6264,13 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745743430187",
-    "order": 50005
+    "order": 50005,
+    "personagens": [
+      "Apollo Sarutobi",
+      "Shoei Sarutobi",
+      "Hiruzen Sarutobi",
+      "Hina Sarutobi"
+    ]
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-nagare-kaito-e-ayumi",
@@ -5489,7 +6281,13 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FHisoka_%20Nagare_%20Kaito%20e%20Ayumi.png?alt=media&v=1784240338344000",
     "temporada": "Clássico",
-    "order": 50039
+    "order": 50039,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Hisoka Senju",
+      "Kaito Senju",
+      "Ayumi Uchiha"
+    ]
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi",
@@ -5500,7 +6298,13 @@
     "done": true,
     "doneBy": "Zeck",
     "temporada": "Clássico",
-    "order": 50041
+    "order": 50041,
+    "personagens": [
+      "Takeshi Hatake",
+      "Shizumi Uchiha",
+      "Najin Hatake",
+      "Ryuta Hyuga"
+    ]
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi",
@@ -5511,7 +6315,13 @@
     "done": true,
     "doneBy": "Pedro",
     "temporada": "Clássico",
-    "order": 50040
+    "order": 50040,
+    "personagens": [
+      "Nishinoya Senju",
+      "Katsumi Hyuga",
+      "Oddy Uchiha",
+      "Airi Senju"
+    ]
   },
   {
     "__docId": "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi",
@@ -5522,7 +6332,13 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937",
     "temporada": "Clássico",
-    "order": 50042
+    "order": 50042,
+    "personagens": [
+      "Kuromi Uchiha",
+      "Apollo Sarutobi",
+      "Shoei Sarutobi",
+      "Naoki Uchiha"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__kaito-e-nagare",
@@ -5533,7 +6349,11 @@
     "arco": "Academia Ninja",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Nagare.png?alt=media&v=1784240339195598",
     "temporada": "Clássico",
-    "order": 50037
+    "order": 50037,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__kaito-e-tobirama",
@@ -5544,7 +6364,11 @@
     "arco": "Academia Ninja",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Tobirama.png?alt=media&v=1784240339463439",
     "temporada": "Clássico",
-    "order": 50038
+    "order": 50038,
+    "personagens": [
+      "Tobirama Senju",
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__kaito-treinando-com-iwaki",
@@ -5553,7 +6377,10 @@
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50030
+    "order": 50030,
+    "personagens": [
+      "Kaito Senju"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__katsumi-treinando-com-renji",
@@ -5562,7 +6389,10 @@
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50034
+    "order": 50034,
+    "personagens": [
+      "Katsumi Hyuga"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__nagare-treinando-com-yumi",
@@ -5571,7 +6401,11 @@
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50031
+    "order": 50031,
+    "personagens": [
+      "Nagare Uzumaki",
+      "Yumi Uzumaki"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__najin-treinando-sozinho",
@@ -5580,7 +6414,10 @@
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50036
+    "order": 50036,
+    "personagens": [
+      "Najin Hatake"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__nishinoya-dando-aula",
@@ -5589,7 +6426,10 @@
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50028
+    "order": 50028,
+    "personagens": [
+      "Nishinoya Senju"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__oddy-treinando-com-sho",
@@ -5598,7 +6438,11 @@
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50032
+    "order": 50032,
+    "personagens": [
+      "Oddy Uchiha",
+      "Sho Uchiha"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__shoei-treinando-com-nishinoya",
@@ -5607,7 +6451,11 @@
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50033
+    "order": 50033,
+    "personagens": [
+      "Nishinoya Senju",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "prologo__treinamentos__takeshi-treinando-sozinho",
@@ -5616,7 +6464,11 @@
     "name": "Takeshi treinando com Ryuta",
     "arco": "Academia Ninja",
     "temporada": "Clássico",
-    "order": 50035
+    "order": 50035,
+    "personagens": [
+      "Takeshi Hatake",
+      "Ryuta Hyuga"
+    ]
   },
   {
     "__docId": "Ps2OJxfNLqwpw5PXUHD2",
@@ -6253,7 +7105,11 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%20treinando%20Katon%20com%20Tobirama.png?alt=media&v=1784240355760464",
-    "order": 50024
+    "order": 50024,
+    "personagens": [
+      "Nishinoya Senju",
+      "Tobirama Senju"
+    ]
   },
   {
     "__docId": "vlrynv2k4q7XLXCXXBzX",
@@ -6484,7 +7340,12 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Nishinoya.png?alt=media&v=1784240354339422",
-    "order": 50007
+    "order": 50007,
+    "personagens": [
+      "Nishinoya Senju",
+      "Kawarama Senju",
+      "Sakura Namikaze"
+    ]
   },
   {
     "__docId": "Wt6O4O8n9mx9YXB6Wmiz",
@@ -6517,7 +7378,14 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1784745046581094",
     "name": "Nishinoya, Naoki, Hisoka, Ryuta e Naomi",
-    "order": 50027
+    "order": 50027,
+    "personagens": [
+      "Nishinoya Senju",
+      "Hisoka Senju",
+      "Naomi Uzumaki",
+      "Naoki Uchiha",
+      "Ryuta Hyuga"
+    ]
   },
   {
     "__docId": "wwYm14FzVE16meMbcdMA",
@@ -6773,7 +7641,12 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Nishinoya.png?alt=media&v=1784240324645407",
-    "order": 50014
+    "order": 50014,
+    "personagens": [
+      "Nishinoya Senju",
+      "Kawarama Senju",
+      "Sakura Namikaze"
+    ]
   },
   {
     "__docId": "YrftQbGbarQnwuErWOVu",
