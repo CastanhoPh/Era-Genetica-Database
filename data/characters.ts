@@ -3140,7 +3140,6 @@ export const initialData: Character[] = [
         destruction: "Baixo ofensivo. Alto valor defensivo e regenerativo, podendo anular danos críticos em combate prolongado.",
         history: "Desenvolvida a partir da fusão entre ninjutsu médico e Mokuton, visando criar uma defesa autossustentável para aliados em campo.",
         status: "Consome chakra moderado. Uso simultâneo em múltiplos aliados reduz a eficiência individual de cada cápsula.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAiri%20Senju%2FTecnicas%2F03%20-%20Senpo%20Mokuton%3A%20Shinrin%20Seizon%20no%20Ky%C5%8Dmei.jpg?alt=media&v=1786651895311015"
       },
       {
         name: "Mokuton: Kisei no Hana",
@@ -3947,7 +3946,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FTecnicas%2F03%20-%20Senpo%3A%20Hiraishin.png?alt=media&v=1786651894264001"
       },
       {
-        name: "Kusari Rasengan: Enji",
+        name: "Kusari Rasengan: Guren",
         classification: "S++",
         nature: "Fuuton + Rasengan + Fuinjutsu",
         description: "Satoshi gira uma das pontas do Uzumaki no Kon em amplos círculos, como um mangual, enquanto concentra chakra na ponta oposta do bastão — não na própria mão. Ali, forma um Rasengan que nenhuma outra pessoa consegue reproduzir: uma esfera de coloração vinho profundo, tingida pela mistura única entre seu próprio chakra e a energia natural absorvida durante anos no Monte Myōboku. Como a esfera gira solta na ponta da corrente, sem duas mãos para estabilizá-la, Satoshi a envolve numa camada compacta de Futon que funciona como uma casca de vento comprimido, impedindo que a rotação a desfaça antes do impacto. Os selos gravados no nunchaku reagem ao movimento, reforçando a coesão da esfera até o instante exato da colisão.",
@@ -4023,7 +4022,7 @@ export const initialData: Character[] = [
         destruction: "Amplifica de forma homogênea tudo que Naomi já é — força, velocidade, densidade de chakra e alcance de suas técnicas de Suiton — sem o custo emocional do manto de Kurama. Permite sustentar batalhas de atrito prolongado sem o desgaste vital que suas outras fusões com a Bijuu exigem.",
         history: "Nascida na Luta contra os Kages, quando Naomi encontrou a Soen no Kage e a Sōen no Gauntō ainda no campo de batalha onde Nishinoya já havia caído — os dois nunca chegaram a se reencontrar depois de sua captura. Ao reivindicar as relíquias, que se tornaram a Shiden no Kage e a Shiden no Gauntō em suas mãos, sentiu o resquício de chakra da Matatabi que restava nelas, e foi esse eco — não a presença dele, mas o que sobrou de sua vontade — que serviu de catalisador para algo que Kurama, sozinha, nunca havia conseguido: equilibrar por completo sua energia com a de Naomi. Ela não herdou o modo de Nishinoya; herdou dele apenas o resquício necessário para finalmente alcançar o seu.",
         status: "Estável mesmo após longos períodos de ativação, desde que Naomi mantenha o vínculo com Kurama calmo — diferente do Kurama Rinku, picos de raiva ou desespero não fortalecem o Sennin Fuka, apenas o desestabilizam.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Sennin%20Rinku.png?alt=media&v=1786651900555350"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Sennin%20Fuka.png?alt=media&v=1787062956415598"
       },
       {
         name: "Ketsuryū Kaiyō",

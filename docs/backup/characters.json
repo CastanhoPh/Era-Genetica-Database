@@ -45,6 +45,41 @@
       }
     ],
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAiri%20Senju%2FAiri%20Senju.png?alt=media&v=1786651895744108",
+    "chakraColor": "#00ff41",
+    "nc": 18,
+    "stats": {
+      "dexterity": 18,
+      "strength": 7,
+      "vigor": 10,
+      "spirit": 18,
+      "agility": 7,
+      "intelligence": 18,
+      "perception": 18
+    },
+    "hp": 130,
+    "chakra": 96,
+    "powers": [
+      {
+        "name": "Mokuton",
+        "level": 9
+      },
+      {
+        "name": "Doton",
+        "level": 1
+      },
+      {
+        "name": "Suiton",
+        "level": 1
+      },
+      {
+        "name": "Senjutsu",
+        "level": 9
+      },
+      {
+        "name": "Iryou Ninjutsu",
+        "level": 9
+      }
+    ],
     "techniques": [
       {
         "name": "Senpo Mokuton: Sōshin Mokujin",
@@ -103,8 +138,7 @@
         "description": "Airi cria estruturas vegetais que envolvem aliados em cápsulas protetoras vivas. Essas cápsulas filtram toxinas, estabilizam ferimentos e aceleram drasticamente a regeneração, ao mesmo tempo em que reduzem o impacto de ataques externos. As plantas reagem automaticamente ao perigo, reforçando sua defesa conforme necessário.",
         "destruction": "Baixo ofensivo. Alto valor defensivo e regenerativo, podendo anular danos críticos em combate prolongado.",
         "history": "Desenvolvida a partir da fusão entre ninjutsu médico e Mokuton, visando criar uma defesa autossustentável para aliados em campo.",
-        "status": "Consome chakra moderado. Uso simultâneo em múltiplos aliados reduz a eficiência individual de cada cápsula.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAiri%20Senju%2FTecnicas%2F03%20-%20Senpo%20Mokuton%3A%20Shinrin%20Seizon%20no%20Ky%C5%8Dmei.jpg?alt=media&v=1786651895311015"
+        "status": "Consome chakra moderado. Uso simultâneo em múltiplos aliados reduz a eficiência individual de cada cápsula."
       },
       {
         "name": "Mokuton: Kisei no Hana",
@@ -115,41 +149,6 @@
         "history": "Criada para complementar seu estilo de suporte, permitindo controle passivo do campo de batalha e enfraquecimento progressivo dos inimigos.",
         "status": "Requer contato inicial. A drenagem é gradual e pode ser removida por usuários com alto controle de chakra.",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAiri%20Senju%2FTecnicas%2F07%20-%20Mokuton%3A%20Kisei%20no%20Hana.jpg?alt=media&v=1786651896388465"
-      }
-    ],
-    "chakraColor": "#00ff41",
-    "nc": 18,
-    "stats": {
-      "dexterity": 18,
-      "strength": 7,
-      "vigor": 10,
-      "spirit": 18,
-      "agility": 7,
-      "intelligence": 18,
-      "perception": 18
-    },
-    "hp": 130,
-    "chakra": 96,
-    "powers": [
-      {
-        "name": "Mokuton",
-        "level": 9
-      },
-      {
-        "name": "Doton",
-        "level": 1
-      },
-      {
-        "name": "Suiton",
-        "level": 1
-      },
-      {
-        "name": "Senjutsu",
-        "level": 9
-      },
-      {
-        "name": "Iryou Ninjutsu",
-        "level": 9
       }
     ]
   },
@@ -5987,68 +5986,6 @@
     "id": 17,
     "description": "Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.\n\nSua libertação só veio com a Luta contra os Kages — mas não pelas mãos de Nishinoya. Os dois nunca voltaram a se encontrar depois do dia em que ela foi capturada; quando as linhas de frente se romperam e a fortaleza Yumei finalmente cedeu em meio ao caos da guerra, Nishinoya já estava morto, caído nas mãos de Ômega antes mesmo daquela batalha terminar. Foi em meio aos destroços que Naomi encontrou a Soen no Kage e a Sōen no Gauntō, as relíquias que ele carregara a vida inteira, abandonadas onde ele caiu. Ao tocá-las, sentiu o resquício do chakra da Matatabi que ainda pulsava dentro delas — e, pela primeira vez desde o cativeiro, Kurama respondeu a algo além da própria dor de Naomi. As duas relíquias se transformaram em suas mãos, tornando-se a Shiden no Kage e a Shiden no Gauntō, e foi nesse instante — não de resgate pessoal, mas de conexão póstuma através do que restava dele — que algo se rompeu e se reorganizou dentro de Naomi. Kurama, que por anos apenas sobrevivera trancada junto com sua hospedeira, reconheceu naquele eco de energia externa um equilíbrio que já devia ter encontrado por conta própria — e o usou como catalisador para finalmente se fundir por completo à natureza de Naomi. Ela saiu da Yumei sem nunca ter revisto Nishinoya, mas carregando um Modo Sábio exclusivo, nascido daquele instante: a fusão entre sua ligação com a Bijuu e o Suiton que sempre foi seu.",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1786651900548392",
-    "techniques": [
-      {
-        "name": "Kurama Rinku",
-        "classification": "Z",
-        "nature": "Chakra de Bijuu",
-        "description": "Naomi desperta o chakra de Kurama em sua forma mais bruta e visceral, sem tentar moldá-lo a nenhuma outra natureza sua. Um manto de chamas alaranjadas e douradas — a cor mais pura e mais reconhecível da raposa — irrompe de seu corpo, subindo em espirais de fogo que se comportam como caudas vivas ao seu redor. Marcas negras em espiral avançam pelos braços e pelo peito, com o símbolo 「9」 gravado em ambas as mangas — o selo do vínculo entre as duas. Suas íris desaparecem por trás de um vermelho abissal, e seus movimentos passam a deixar rastros de fogo suspensos no ar por um instante antes de se apagarem. O manto amplifica sua força física e velocidade a níveis sobre-humanos, e cada golpe carrega o peso quase bruto do chakra de Kurama correndo solto por seu corpo.",
-        "destruction": "O simples ato de Naomi se mover dentro do manto gera ondas de calor que fraturam e incineram o terreno ao redor. Golpes físicos carregam o impacto bruto do chakra de Kurama, destruindo defesas de alto nível com facilidade, e o rastro de fogo deixado por cada movimento continua queimando por instantes depois que ela já passou, tornando qualquer aproximação arriscada mesmo sem contato direto.",
-        "history": "O vínculo de Naomi com Kurama não foi construído por força — foi por compreensão. Durante seu treinamento intenso com Tobirama, em um momento de exaustão extrema e colapso emocional no campo de batalha, Kurama pela primeira vez estendeu seu chakra voluntariamente a Naomi, reconhecendo nela não uma jaula, mas uma parceira. Desde então, o manto passou a responder à sua emoção e intenção.",
-        "status": "O manto consome chakra de Kurama em ritmo acelerado e exige que Naomi mantenha equilíbrio emocional constante. Raiva descontrolada pode fazer o manto evoluir de forma não intencional, correndo o risco de atingir aliados. O uso prolongado causa marcas de chakra pelo corpo e exaustão profunda após o término.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F02%20-%20Kurama%20Rinku.png?alt=media&v=1786651900554633"
-      },
-      {
-        "name": "Kurama Modo",
-        "classification": "Z",
-        "nature": "Chakra de Bijuu",
-        "description": "Diferente do Kurama Rinku, que veste Naomi com o manto da raposa, o Kurama Modo dissolve completamente a fronteira entre as duas: Naomi desaparece por dentro, e Kurama assume forma física completa, em tamanho colossal, composta inteiramente por chakra vivo em chamas alaranjadas. As nove caudas se erguem como labaredas independentes, cada uma capaz de agir por conta própria, e o rugido que sai da garganta da raposa carrega a vontade consciente de Naomi guiando cada movimento por dentro. Não é uma possessão nem uma perda de controle — é a materialização de cem por cento do chakra de Kurama, com Naomi ainda no centro, comandando o gigante como extensão exata do próprio corpo.",
-        "destruction": "Em escala colossal. Cada passo do Kurama Modo abre crateras, cada movimento das nove caudas devasta formações inteiras, e o simples deslocamento de ar ao redor da forma já é suficiente para arrancar estruturas do chão. É o nível de destruição bruta mais alto que Naomi consegue alcançar, comparável a forças de nível vila.",
-        "history": "Depois de anos equilibrando o vínculo com Kurama através do Sennin Fuka e do Kurama Rinku, Naomi finalmente pediu à raposa o que sempre soubera ser possível, mas nunca ousara pedir: liberar cem por cento do chakra dela de uma vez, sem freios. Kurama aceitou não como um teste, mas como reconhecimento — a mesma confiança que a levou, anos antes, a estender chakra voluntariamente a Naomi em pleno campo de batalha, agora levada ao limite absoluto.",
-        "status": "Consome as reservas de chakra de Naomi e de Kurama em ritmo extremo — a técnica não pode ser sustentada por muito tempo sem risco real à vida de ambas. Usada apenas em situações de última necessidade, quando nenhuma outra fusão com a Bijuu seria suficiente.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F03%20-%20Kurama%20Modo.png?alt=media&v=1786651900551000"
-      },
-      {
-        "name": "Senpo Enka Suiton: Oodama Rasen Shuriken",
-        "classification": "S++",
-        "nature": "Senjutsu + Suiton + Rasengan",
-        "description": "Naomi funde sua afinidade natural com o Suiton ao núcleo giratório do Rasengan, moldando uma esfera imensa de chakra vivo revestida por lâminas de água comprimida que se projetam como as pontas de um Rasen Shuriken. A instabilidade natural da técnica, que normalmente impede seu arremesso, é contida pelo equilíbrio do Sennin Fuka — o fluxo constante de energia natural absorvida através do vínculo com Kurama estabiliza a rotação caótica sem apagar seu poder de corte. O resultado é um Oodama Rasen Shuriken que Naomi consegue lançar a distância, girando pelo ar como um furacão de água e chakra até se chocar contra o alvo, onde libera toda a energia comprimida numa explosão giratória de escala devastadora.",
-        "destruction": "Escala devastadora. Ao atingir o alvo, a esfera libera incontáveis lâminas de chakra-água em rotação, cortando e encharcando tecido, estruturas e defesas num raio amplo antes de culminar numa explosão final que arrasa e inunda tudo o que resta em pé.",
-        "history": "Só se tornou possível depois que Naomi conquistou o Sennin Fuka através do resquício de chakra que restava na Soen no Kage e na Sōen no Gauntō de Nishinoya — o mesmo Modo Sábio que ele levara ao limite tantas vezes sem ela nunca ter voltado a vê-lo. Ao perceber que também conseguia controlar chakra sábio para arremessar chakra a distância, assim como ele fazia com o próprio Rasengan, adaptou a técnica à sua natureza de Suiton. Toda vez que a executa, porém, alguma coisa se solta dentro dela — a lembrança do amor que nunca teve a chance de aceitar, e que só voltou a alcançá-la depois que já não havia mais tempo.",
-        "status": "Exige domínio simultâneo do Sennin Fuka e controle refinado da rotação instável do Rasen Shuriken — qualquer falha na estabilização pode fazer a esfera colapsar prematuramente nas próprias mãos de Naomi. Emocionalmente, também é uma das técnicas mais custosas que ela possui: a lembrança de Nishinoya que a acompanha a cada uso deixa sua concentração vulnerável por um instante logo após o arremesso, uma fração de segundo que adversários atentos podem aprender a explorar.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F05%20-%20Senpo%20Enka%20Suiton_%20Oodama%20Rasen%20Shuriken.png?alt=media&v=1786651900531224"
-      },
-      {
-        "name": "Sennin Fuka",
-        "classification": "S++",
-        "nature": "Senjutsu + Kurama + Suiton",
-        "description": "Naomi fecha os olhos e, por um instante, para de lutar contra o próprio corpo — deixa de tentar separar sua energia da de Kurama e permite que as duas se equilibrem. Energia natural é absorvida pelo ambiente e flui direto para o vínculo entre ela e a Bijuu, banhando seu chakra em um vermelho mais escuro, quase negro nas bordas, com marcas finas subindo pelo rosto e braços como veios de tinta líquida. Diferente do Kurama Rinku, aqui não há fúria — há controle absoluto. Cada movimento de Naomi passa a carregar o peso e a precisão da natureza ao seu redor, e sua afinidade com o Suiton deixa de ser apenas técnica: a água ao seu redor responde antes mesmo de ela gesticular, como se fizesse parte do próprio corpo dela.",
-        "destruction": "Amplifica de forma homogênea tudo que Naomi já é — força, velocidade, densidade de chakra e alcance de suas técnicas de Suiton — sem o custo emocional do manto de Kurama. Permite sustentar batalhas de atrito prolongado sem o desgaste vital que suas outras fusões com a Bijuu exigem.",
-        "history": "Nascida na Luta contra os Kages, quando Naomi encontrou a Soen no Kage e a Sōen no Gauntō ainda no campo de batalha onde Nishinoya já havia caído — os dois nunca chegaram a se reencontrar depois de sua captura. Ao reivindicar as relíquias, que se tornaram a Shiden no Kage e a Shiden no Gauntō em suas mãos, sentiu o resquício de chakra da Matatabi que restava nelas, e foi esse eco — não a presença dele, mas o que sobrou de sua vontade — que serviu de catalisador para algo que Kurama, sozinha, nunca havia conseguido: equilibrar por completo sua energia com a de Naomi. Ela não herdou o modo de Nishinoya; herdou dele apenas o resquício necessário para finalmente alcançar o seu.",
-        "status": "Estável mesmo após longos períodos de ativação, desde que Naomi mantenha o vínculo com Kurama calmo — diferente do Kurama Rinku, picos de raiva ou desespero não fortalecem o Sennin Fuka, apenas o desestabilizam.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Sennin%20Rinku.png?alt=media&v=1786651900555350"
-      },
-      {
-        "name": "Ketsuryū Kaiyō",
-        "classification": "S++",
-        "nature": "Suiton + Kurama",
-        "description": "Quando ativado, o chão se rompe e uma maré vermelha começa a emergir como se o mundo estivesse sangrando. O campo de batalha desaparece — tudo vira oceano. O céu escurece e a superfície reflete como um espelho de sangue. No centro disso tudo, Naomi flutua como uma deusa do abismo. O oceano carmesim não é água comum — é uma fusão de Suiton, chakra vital e energia emocional, criando um domínio absoluto onde ela é literalmente a soberana do mar. Dentro do oceano, Naomi pode invocar criaturas únicas: serpentes abissais gigantes que se movem como sombras líquidas, tubarões de chakra que atravessam o mar e o ar, leviatãs colossais para ataques devastadores em área e criaturas híbridas formadas pelo próprio medo do inimigo. As criaturas não são invocações comuns — são extensões diretas de sua vontade. Se Naomi sentir raiva, elas ficam mais violentas. Se ela focar, ficam mais precisas. Qualquer inimigo dentro do oceano sofre a Pressão do Abismo: sensação de afogamento mesmo fora da água, chakra sendo drenado lentamente e movimentos pesados como se estivesse a quilômetros de profundidade. Dentro do domínio, Naomi pode ativar os Shinkai no Shokushu — gigantescos tentáculos de chakra líquido que emergem do oceano, prendem o inimigo, invadem seu sistema de chakra e podem esmagá-lo ou drená-lo completamente.",
-        "destruction": "O Ketsuryū Kaiyō não destrói — ele consome. Quando o oceano carmesim se manifesta, o campo de batalha deixa de existir como território neutro e passa a ser uma extensão da vontade de Naomi. Estruturas inteiras são engolidas pela maré vermelha, o solo se dissolve sob a pressão do chakra vital líquido e o ar ao redor perde estabilidade energética, sufocando técnicas que dependem de elementos externos. As criaturas abissais amplificam a destruição de forma orgânica — enquanto os leviatãs colossais fragmentam terrenos e derrubam formações inteiras, as serpentes e tubarões de chakra eliminam alvos isolados com precisão cirúrgica. Em seu pico, a técnica pode engolir uma vila inteira sob o mar carmesim, deixando apenas silêncio e superfície vermelha refletindo o céu escuro.",
-        "history": "Naomi aprendeu e desenvolveu essa técnica ao treinar intensamente com Tobirama ao lado de Nishinoya. Enquanto Nishinoya aprendia o Hiraishin, Naomi dominava sua natureza de chakra — o Suiton. Tobirama a observava com certeza crescente de que ela o superaria em controle aquático. Na época em que Tobirama dominava apenas um Dragão de Água, Naomi já controlava três simultaneamente. Foi nesse período de maestria absoluta sobre o Suiton que ela começou a corromper o próprio chakra em estado líquido, fundindo-o com sua energia vital e emocional até criar algo que nunca havia existido antes — não apenas água, mas um oceano vivo que obedecia à sua vontade.",
-        "status": "O Ketsuryū Kaiyō exige que Naomi alimente a técnica continuamente com seu próprio chakra vital, drenando a si mesma quanto mais tempo o domínio permanece ativo. O uso dos Shinkai no Shokushu amplifica drasticamente o consumo, podendo esgotar suas reservas em combates prolongados. O estado emocional de Naomi influencia diretamente a estabilidade da técnica — se ela perder o foco ou o controle emocional, as criaturas abissais podem se tornar imprevisíveis. Em casos extremos de sobrecarga, o chakra vital que compõe o oceano pode começar a corroer o próprio corpo dela por dentro.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%20Kaiy%C5%8D.png?alt=media&v=1786651900550947"
-      },
-      {
-        "name": "Suiton: Hakuryū no Ken",
-        "classification": "S++",
-        "nature": "Suiton + Absorção de Chakra",
-        "description": "Naomi infunde seu chakra vital diretamente na Hakuryū no Ken, despertando os selamentos adormecidos em sua lâmina e fundindo-a completamente com sua natureza de Suiton. A partir desse momento, cada movimento seu deixa um rastro vivo de água carmesim no ar e no chão — não respingos, mas fios precisos e elegantes que obedecem à trajetória exata de seus passos e golpes, como se o próprio terreno estivesse sendo reescrito por sua presença. O ambiente ao redor começa a se moldar silenciosamente: o chão onde ela passa se torna úmido e fluido, paredes d'água finas como véus surgem nas laterais de seu caminho, e o ar ao redor da lâmina vibra com uma pressão aquática contida. Naomi luta com a elegância de quem dança — movimentos curtos, precisos e absolutamente letais. Cada estocada da rapier libera um fio de Suiton concentrado que corta o alvo antes mesmo que a lâmina o toque. Cada desvio remodela o terreno ao seu redor, criando vantagem de posicionamento e armadilhas naturais de água que se ativam conforme o combate avança. A absorção de chakra da Hakuryū no Ken permanece ativa durante toda a técnica, acumulando energia a cada contato com o oponente e alimentando continuamente o Suiton que envolve a lâmina.",
-        "destruction": "Diferente de suas técnicas de domínio em larga escala, o Suiton: Hakuryū no Ken opera na destruição cirúrgica. O terreno remodelado cria um campo de batalha exclusivamente favorável a Naomi — o chão fluido retarda inimigos, os véus d'água bloqueiam linhas de visão e os fios de Suiton lançados pela lâmina cortam defesas de chakra com precisão absoluta. Em combate prolongado, o acúmulo de chakra absorvido pela rapier pode ser liberado em uma única onda concentrada capaz de atravessar múltiplas camadas de proteção.",
-        "history": "Após receber a Hakuryū no Ken de Minoru Hyuga, Naomi percebeu que a arma respondia de forma única ao seu chakra — diferente de qualquer outro usuário que havia tentado empunhá-la antes. Durante sessões de treinamento solitário às margens de um rio, ela descobriu que ao infundir Suiton na lâmina, os selamentos do clã Hyuga gravados nela não resistiam — eles abraçavam a energia aquática, como se a arma sempre tivesse esperado por alguém com essa natureza de chakra. Foi nesse momento que nasceu o Suiton: Hakuryū no Ken.",
-        "status": "A técnica exige concentração contínua para manter a fusão entre o Suiton e os selamentos da rapier estável. Qualquer quebra no fluxo de chakra pode dissolver o rastro e interromper o remodelamento do terreno. O uso prolongado drena as reservas de Suiton de Naomi gradualmente, tornando a técnica menos eficiente em batalhas de longa duração sem recarga de chakra.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1786651900528806"
-      }
-    ],
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FPr_logo.png?alt=media&v=1784569527682750",
@@ -6092,7 +6029,69 @@
       "vigor": 27,
       "perception": 30
     },
-    "hp": 241
+    "hp": 241,
+    "techniques": [
+      {
+        "name": "Kurama Rinku",
+        "classification": "Z",
+        "nature": "Chakra de Bijuu",
+        "description": "Naomi desperta o chakra de Kurama em sua forma mais bruta e visceral, sem tentar moldá-lo a nenhuma outra natureza sua. Um manto de chamas alaranjadas e douradas — a cor mais pura e mais reconhecível da raposa — irrompe de seu corpo, subindo em espirais de fogo que se comportam como caudas vivas ao seu redor. Marcas negras em espiral avançam pelos braços e pelo peito, com o símbolo 「9」 gravado em ambas as mangas — o selo do vínculo entre as duas. Suas íris desaparecem por trás de um vermelho abissal, e seus movimentos passam a deixar rastros de fogo suspensos no ar por um instante antes de se apagarem. O manto amplifica sua força física e velocidade a níveis sobre-humanos, e cada golpe carrega o peso quase bruto do chakra de Kurama correndo solto por seu corpo.",
+        "destruction": "O simples ato de Naomi se mover dentro do manto gera ondas de calor que fraturam e incineram o terreno ao redor. Golpes físicos carregam o impacto bruto do chakra de Kurama, destruindo defesas de alto nível com facilidade, e o rastro de fogo deixado por cada movimento continua queimando por instantes depois que ela já passou, tornando qualquer aproximação arriscada mesmo sem contato direto.",
+        "history": "O vínculo de Naomi com Kurama não foi construído por força — foi por compreensão. Durante seu treinamento intenso com Tobirama, em um momento de exaustão extrema e colapso emocional no campo de batalha, Kurama pela primeira vez estendeu seu chakra voluntariamente a Naomi, reconhecendo nela não uma jaula, mas uma parceira. Desde então, o manto passou a responder à sua emoção e intenção.",
+        "status": "O manto consome chakra de Kurama em ritmo acelerado e exige que Naomi mantenha equilíbrio emocional constante. Raiva descontrolada pode fazer o manto evoluir de forma não intencional, correndo o risco de atingir aliados. O uso prolongado causa marcas de chakra pelo corpo e exaustão profunda após o término.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F02%20-%20Kurama%20Rinku.png?alt=media&v=1786651900554633"
+      },
+      {
+        "name": "Kurama Modo",
+        "classification": "Z",
+        "nature": "Chakra de Bijuu",
+        "description": "Diferente do Kurama Rinku, que veste Naomi com o manto da raposa, o Kurama Modo dissolve completamente a fronteira entre as duas: Naomi desaparece por dentro, e Kurama assume forma física completa, em tamanho colossal, composta inteiramente por chakra vivo em chamas alaranjadas. As nove caudas se erguem como labaredas independentes, cada uma capaz de agir por conta própria, e o rugido que sai da garganta da raposa carrega a vontade consciente de Naomi guiando cada movimento por dentro. Não é uma possessão nem uma perda de controle — é a materialização de cem por cento do chakra de Kurama, com Naomi ainda no centro, comandando o gigante como extensão exata do próprio corpo.",
+        "destruction": "Em escala colossal. Cada passo do Kurama Modo abre crateras, cada movimento das nove caudas devasta formações inteiras, e o simples deslocamento de ar ao redor da forma já é suficiente para arrancar estruturas do chão. É o nível de destruição bruta mais alto que Naomi consegue alcançar, comparável a forças de nível vila.",
+        "history": "Depois de anos equilibrando o vínculo com Kurama através do Sennin Fuka e do Kurama Rinku, Naomi finalmente pediu à raposa o que sempre soubera ser possível, mas nunca ousara pedir: liberar cem por cento do chakra dela de uma vez, sem freios. Kurama aceitou não como um teste, mas como reconhecimento — a mesma confiança que a levou, anos antes, a estender chakra voluntariamente a Naomi em pleno campo de batalha, agora levada ao limite absoluto.",
+        "status": "Consome as reservas de chakra de Naomi e de Kurama em ritmo extremo — a técnica não pode ser sustentada por muito tempo sem risco real à vida de ambas. Usada apenas em situações de última necessidade, quando nenhuma outra fusão com a Bijuu seria suficiente.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F03%20-%20Kurama%20Modo.png?alt=media&v=1786651900551000"
+      },
+      {
+        "name": "Senpo Enka Suiton: Oodama Rasen Shuriken",
+        "classification": "S++",
+        "nature": "Senjutsu + Suiton + Rasengan",
+        "description": "Naomi funde sua afinidade natural com o Suiton ao núcleo giratório do Rasengan, moldando uma esfera imensa de chakra vivo revestida por lâminas de água comprimida que se projetam como as pontas de um Rasen Shuriken. A instabilidade natural da técnica, que normalmente impede seu arremesso, é contida pelo equilíbrio do Sennin Fuka — o fluxo constante de energia natural absorvida através do vínculo com Kurama estabiliza a rotação caótica sem apagar seu poder de corte. O resultado é um Oodama Rasen Shuriken que Naomi consegue lançar a distância, girando pelo ar como um furacão de água e chakra até se chocar contra o alvo, onde libera toda a energia comprimida numa explosão giratória de escala devastadora.",
+        "destruction": "Escala devastadora. Ao atingir o alvo, a esfera libera incontáveis lâminas de chakra-água em rotação, cortando e encharcando tecido, estruturas e defesas num raio amplo antes de culminar numa explosão final que arrasa e inunda tudo o que resta em pé.",
+        "history": "Só se tornou possível depois que Naomi conquistou o Sennin Fuka através do resquício de chakra que restava na Soen no Kage e na Sōen no Gauntō de Nishinoya — o mesmo Modo Sábio que ele levara ao limite tantas vezes sem ela nunca ter voltado a vê-lo. Ao perceber que também conseguia controlar chakra sábio para arremessar chakra a distância, assim como ele fazia com o próprio Rasengan, adaptou a técnica à sua natureza de Suiton. Toda vez que a executa, porém, alguma coisa se solta dentro dela — a lembrança do amor que nunca teve a chance de aceitar, e que só voltou a alcançá-la depois que já não havia mais tempo.",
+        "status": "Exige domínio simultâneo do Sennin Fuka e controle refinado da rotação instável do Rasen Shuriken — qualquer falha na estabilização pode fazer a esfera colapsar prematuramente nas próprias mãos de Naomi. Emocionalmente, também é uma das técnicas mais custosas que ela possui: a lembrança de Nishinoya que a acompanha a cada uso deixa sua concentração vulnerável por um instante logo após o arremesso, uma fração de segundo que adversários atentos podem aprender a explorar.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F05%20-%20Senpo%20Enka%20Suiton_%20Oodama%20Rasen%20Shuriken.png?alt=media&v=1786651900531224"
+      },
+      {
+        "name": "Sennin Fuka",
+        "classification": "S++",
+        "nature": "Senjutsu + Kurama + Suiton",
+        "description": "Naomi fecha os olhos e, por um instante, para de lutar contra o próprio corpo — deixa de tentar separar sua energia da de Kurama e permite que as duas se equilibrem. Energia natural é absorvida pelo ambiente e flui direto para o vínculo entre ela e a Bijuu, banhando seu chakra em um vermelho mais escuro, quase negro nas bordas, com marcas finas subindo pelo rosto e braços como veios de tinta líquida. Diferente do Kurama Rinku, aqui não há fúria — há controle absoluto. Cada movimento de Naomi passa a carregar o peso e a precisão da natureza ao seu redor, e sua afinidade com o Suiton deixa de ser apenas técnica: a água ao seu redor responde antes mesmo de ela gesticular, como se fizesse parte do próprio corpo dela.",
+        "destruction": "Amplifica de forma homogênea tudo que Naomi já é — força, velocidade, densidade de chakra e alcance de suas técnicas de Suiton — sem o custo emocional do manto de Kurama. Permite sustentar batalhas de atrito prolongado sem o desgaste vital que suas outras fusões com a Bijuu exigem.",
+        "history": "Nascida na Luta contra os Kages, quando Naomi encontrou a Soen no Kage e a Sōen no Gauntō ainda no campo de batalha onde Nishinoya já havia caído — os dois nunca chegaram a se reencontrar depois de sua captura. Ao reivindicar as relíquias, que se tornaram a Shiden no Kage e a Shiden no Gauntō em suas mãos, sentiu o resquício de chakra da Matatabi que restava nelas, e foi esse eco — não a presença dele, mas o que sobrou de sua vontade — que serviu de catalisador para algo que Kurama, sozinha, nunca havia conseguido: equilibrar por completo sua energia com a de Naomi. Ela não herdou o modo de Nishinoya; herdou dele apenas o resquício necessário para finalmente alcançar o seu.",
+        "status": "Estável mesmo após longos períodos de ativação, desde que Naomi mantenha o vínculo com Kurama calmo — diferente do Kurama Rinku, picos de raiva ou desespero não fortalecem o Sennin Fuka, apenas o desestabilizam.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Sennin%20Fuka.png?alt=media&v=1787062956415598"
+      },
+      {
+        "name": "Ketsuryū Kaiyō",
+        "classification": "S++",
+        "nature": "Suiton + Kurama",
+        "description": "Quando ativado, o chão se rompe e uma maré vermelha começa a emergir como se o mundo estivesse sangrando. O campo de batalha desaparece — tudo vira oceano. O céu escurece e a superfície reflete como um espelho de sangue. No centro disso tudo, Naomi flutua como uma deusa do abismo. O oceano carmesim não é água comum — é uma fusão de Suiton, chakra vital e energia emocional, criando um domínio absoluto onde ela é literalmente a soberana do mar. Dentro do oceano, Naomi pode invocar criaturas únicas: serpentes abissais gigantes que se movem como sombras líquidas, tubarões de chakra que atravessam o mar e o ar, leviatãs colossais para ataques devastadores em área e criaturas híbridas formadas pelo próprio medo do inimigo. As criaturas não são invocações comuns — são extensões diretas de sua vontade. Se Naomi sentir raiva, elas ficam mais violentas. Se ela focar, ficam mais precisas. Qualquer inimigo dentro do oceano sofre a Pressão do Abismo: sensação de afogamento mesmo fora da água, chakra sendo drenado lentamente e movimentos pesados como se estivesse a quilômetros de profundidade. Dentro do domínio, Naomi pode ativar os Shinkai no Shokushu — gigantescos tentáculos de chakra líquido que emergem do oceano, prendem o inimigo, invadem seu sistema de chakra e podem esmagá-lo ou drená-lo completamente.",
+        "destruction": "O Ketsuryū Kaiyō não destrói — ele consome. Quando o oceano carmesim se manifesta, o campo de batalha deixa de existir como território neutro e passa a ser uma extensão da vontade de Naomi. Estruturas inteiras são engolidas pela maré vermelha, o solo se dissolve sob a pressão do chakra vital líquido e o ar ao redor perde estabilidade energética, sufocando técnicas que dependem de elementos externos. As criaturas abissais amplificam a destruição de forma orgânica — enquanto os leviatãs colossais fragmentam terrenos e derrubam formações inteiras, as serpentes e tubarões de chakra eliminam alvos isolados com precisão cirúrgica. Em seu pico, a técnica pode engolir uma vila inteira sob o mar carmesim, deixando apenas silêncio e superfície vermelha refletindo o céu escuro.",
+        "history": "Naomi aprendeu e desenvolveu essa técnica ao treinar intensamente com Tobirama ao lado de Nishinoya. Enquanto Nishinoya aprendia o Hiraishin, Naomi dominava sua natureza de chakra — o Suiton. Tobirama a observava com certeza crescente de que ela o superaria em controle aquático. Na época em que Tobirama dominava apenas um Dragão de Água, Naomi já controlava três simultaneamente. Foi nesse período de maestria absoluta sobre o Suiton que ela começou a corromper o próprio chakra em estado líquido, fundindo-o com sua energia vital e emocional até criar algo que nunca havia existido antes — não apenas água, mas um oceano vivo que obedecia à sua vontade.",
+        "status": "O Ketsuryū Kaiyō exige que Naomi alimente a técnica continuamente com seu próprio chakra vital, drenando a si mesma quanto mais tempo o domínio permanece ativo. O uso dos Shinkai no Shokushu amplifica drasticamente o consumo, podendo esgotar suas reservas em combates prolongados. O estado emocional de Naomi influencia diretamente a estabilidade da técnica — se ela perder o foco ou o controle emocional, as criaturas abissais podem se tornar imprevisíveis. Em casos extremos de sobrecarga, o chakra vital que compõe o oceano pode começar a corroer o próprio corpo dela por dentro.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%20Kaiy%C5%8D.png?alt=media&v=1786651900550947"
+      },
+      {
+        "name": "Suiton: Hakuryū no Ken",
+        "classification": "S++",
+        "nature": "Suiton + Absorção de Chakra",
+        "description": "Naomi infunde seu chakra vital diretamente na Hakuryū no Ken, despertando os selamentos adormecidos em sua lâmina e fundindo-a completamente com sua natureza de Suiton. A partir desse momento, cada movimento seu deixa um rastro vivo de água carmesim no ar e no chão — não respingos, mas fios precisos e elegantes que obedecem à trajetória exata de seus passos e golpes, como se o próprio terreno estivesse sendo reescrito por sua presença. O ambiente ao redor começa a se moldar silenciosamente: o chão onde ela passa se torna úmido e fluido, paredes d'água finas como véus surgem nas laterais de seu caminho, e o ar ao redor da lâmina vibra com uma pressão aquática contida. Naomi luta com a elegância de quem dança — movimentos curtos, precisos e absolutamente letais. Cada estocada da rapier libera um fio de Suiton concentrado que corta o alvo antes mesmo que a lâmina o toque. Cada desvio remodela o terreno ao seu redor, criando vantagem de posicionamento e armadilhas naturais de água que se ativam conforme o combate avança. A absorção de chakra da Hakuryū no Ken permanece ativa durante toda a técnica, acumulando energia a cada contato com o oponente e alimentando continuamente o Suiton que envolve a lâmina.",
+        "destruction": "Diferente de suas técnicas de domínio em larga escala, o Suiton: Hakuryū no Ken opera na destruição cirúrgica. O terreno remodelado cria um campo de batalha exclusivamente favorável a Naomi — o chão fluido retarda inimigos, os véus d'água bloqueiam linhas de visão e os fios de Suiton lançados pela lâmina cortam defesas de chakra com precisão absoluta. Em combate prolongado, o acúmulo de chakra absorvido pela rapier pode ser liberado em uma única onda concentrada capaz de atravessar múltiplas camadas de proteção.",
+        "history": "Após receber a Hakuryū no Ken de Minoru Hyuga, Naomi percebeu que a arma respondia de forma única ao seu chakra — diferente de qualquer outro usuário que havia tentado empunhá-la antes. Durante sessões de treinamento solitário às margens de um rio, ela descobriu que ao infundir Suiton na lâmina, os selamentos do clã Hyuga gravados nela não resistiam — eles abraçavam a energia aquática, como se a arma sempre tivesse esperado por alguém com essa natureza de chakra. Foi nesse momento que nasceu o Suiton: Hakuryū no Ken.",
+        "status": "A técnica exige concentração contínua para manter a fusão entre o Suiton e os selamentos da rapier estável. Qualquer quebra no fluxo de chakra pode dissolver o rastro e interromper o remodelamento do terreno. O uso prolongado drena as reservas de Suiton de Naomi gradualmente, tornando a técnica menos eficiente em batalhas de longa duração sem recarga de chakra.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1786651900528806"
+      }
+    ]
   },
   {
     "__docId": "nayara-kazemori",
@@ -7556,6 +7555,22 @@
         "level": 13
       }
     ],
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786651893496752",
+    "categories": [
+      "NPC",
+      "Konohagakure"
+    ],
+    "chakraColor": "#ff3b46",
+    "stats": {
+      "strength": 11,
+      "dexterity": 27,
+      "agility": 11,
+      "intelligence": 27,
+      "spirit": 27,
+      "vigor": 20,
+      "perception": 27
+    },
+    "hp": 205,
     "techniques": [
       {
         "name": "Sennin Fuka",
@@ -7588,7 +7603,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FTecnicas%2F03%20-%20Senpo%3A%20Hiraishin.png?alt=media&v=1786651894264001"
       },
       {
-        "name": "Kusari Rasengan: Enji",
+        "name": "Kusari Rasengan: Guren",
         "classification": "S++",
         "nature": "Fuuton + Rasengan + Fuinjutsu",
         "description": "Satoshi gira uma das pontas do Uzumaki no Kon em amplos círculos, como um mangual, enquanto concentra chakra na ponta oposta do bastão — não na própria mão. Ali, forma um Rasengan que nenhuma outra pessoa consegue reproduzir: uma esfera de coloração vinho profundo, tingida pela mistura única entre seu próprio chakra e a energia natural absorvida durante anos no Monte Myōboku. Como a esfera gira solta na ponta da corrente, sem duas mãos para estabilizá-la, Satoshi a envolve numa camada compacta de Futon que funciona como uma casca de vento comprimido, impedindo que a rotação a desfaça antes do impacto. Os selos gravados no nunchaku reagem ao movimento, reforçando a coesão da esfera até o instante exato da colisão.",
@@ -7606,23 +7621,7 @@
         "history": "Satoshi descobriu essa fusão por necessidade, não por treino — durante os primeiros confrontos para impedir que a OCA extraísse à força o chakra natural do Monte Myōboku. Sabendo que o selo central do Uzumaki no Kon já existia para estabilizar reservas de chakra, tentou, no meio de uma defesa desesperada, canalizar energia natural diretamente para esse núcleo em vez de para o próprio corpo. A corrente de chakra vivo aceitou o fluxo sem resistência, como se a arma de Katsuo — forjada havia gerações para canalizar o poder de selamento Uzumaki — sempre tivesse esperado por exatamente esse tipo de energia.",
         "status": "Exige que Satoshi mantenha o Modo Sábio ativo durante toda a duração da técnica — o Uzumaki no Kon não armazena energia natural por conta própria, apenas a canaliza enquanto ela continua sendo fornecida. Se o fluxo de senjutsu for interrompido, mesmo que por um instante, a corrente perde a coloração verde-musgo e a arma volta a se comportar como o nunchaku comum que sempre foi, deixando Satoshi sem o alcance e a força extra no meio do combate."
       }
-    ],
-    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786651893496752",
-    "categories": [
-      "NPC",
-      "Konohagakure"
-    ],
-    "chakraColor": "#ff3b46",
-    "stats": {
-      "strength": 11,
-      "dexterity": 27,
-      "agility": 11,
-      "intelligence": 27,
-      "spirit": 27,
-      "vigor": 20,
-      "perception": 27
-    },
-    "hp": 205
+    ]
   },
   {
     "__docId": "sayuri-sabaku",
