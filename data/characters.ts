@@ -208,7 +208,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690"
       }
     ],
-    arsenal: [2],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media&v=1786651865211217", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062", caption: "Clássico", category: "era" },
@@ -715,7 +715,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F09%20-%20Tenketsu%20Byakugan.png?alt=media&v=1786651877167781"
       }
     ],
-    arsenal: [74, 75, 8],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FPr_logo.png?alt=media&v=1784658555583435", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FCl_ssico.png?alt=media&v=1786370732772004", caption: "Clássico", category: "era" },
@@ -1394,7 +1394,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FTecnicas%2F01%20-%20Kraken%3A%20Oodama%20Rasengan.png?alt=media&v=1786651886146711"
       },
     ],
-    arsenal: [17],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FPr_logo.png?alt=media&v=1784658565874696", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FCl_ssico.png?alt=media&v=1786370760579906", caption: "Clássico", category: "era" },
@@ -1773,7 +1773,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FTecnicas%2F06%20-%20Doton%3A%20Daichi%20no%20Ky%C5%8Dkai.jpg?alt=media&v=1786651888638807"
       }
     ],
-    arsenal: [26],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2FPr_logo.png?alt=media&v=1784569544304314", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F1__Temporada.png?alt=media&v=1784751340626", caption: "1ª Temporada", category: "era" },
@@ -1869,7 +1869,7 @@ export const initialData: Character[] = [
     isDead: true,
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTobirama%20Senju%2FTobirama%20Senju.jpg?alt=media&v=1786651888615856",
-    arsenal: [40, 41],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FPr_logo.png?alt=media&v=1784579842794518", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FCl_ssico.png?alt=media&v=1784579845339511", caption: "Clássico", category: "era" },
@@ -2224,7 +2224,7 @@ export const initialData: Character[] = [
     isDead: true,
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.jpg?alt=media&v=1786651890536434",
-    arsenal: [4],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHirato%20Ishi%2F2__Temporada.png?alt=media&v=1784665887463666", caption: "2ª Temporada", category: "era" },
     ],
@@ -2265,7 +2265,7 @@ export const initialData: Character[] = [
     isDead: true,
     killedBy: "Nagare Uzumaki",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.jpg?alt=media&v=1786651890537382",
-    arsenal: [30],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHikaru%20Ishi%2F2__Temporada.png?alt=media&v=1784665885201237", caption: "2ª Temporada", category: "era" },
     ],
@@ -2337,7 +2337,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FTecnicas%2F03%20-%20Eternal%20Fujogan%3A%20Asami.jpg?alt=media&v=1786651890534122"
       }
     ],
-    arsenal: [31],
+    arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaien%20Ishi%20(Omega)%2F2__Temporada.png?alt=media&v=1784665890017497", caption: "2ª Temporada", category: "era" },
     ],

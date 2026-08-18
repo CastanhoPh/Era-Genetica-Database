@@ -2883,9 +2883,6 @@
     "chakra": 70,
     "isDead": true,
     "killedBy": "Nagare Uzumaki",
-    "arsenal": [
-      30
-    ],
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHikaru%20Ishi%2F2__Temporada.png?alt=media&v=1784665885201237",
@@ -2928,7 +2925,8 @@
     ],
     "id": 37,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.jpg?alt=media&v=1786651890537382",
-    "chakraColor": "#0ea5e9"
+    "chakraColor": "#0ea5e9",
+    "arsenal": []
   },
   {
     "__docId": "hirato-ishi",
@@ -2951,9 +2949,6 @@
     "chakra": 70,
     "isDead": true,
     "killedBy": "Omega",
-    "arsenal": [
-      4
-    ],
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHirato%20Ishi%2F2__Temporada.png?alt=media&v=1784665887463666",
@@ -2997,7 +2992,8 @@
     ],
     "id": 36,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.jpg?alt=media&v=1786651890536434",
-    "chakraColor": "#ff3b46"
+    "chakraColor": "#ff3b46",
+    "arsenal": []
   },
   {
     "__docId": "hiroshi-hanzo",
@@ -3346,9 +3342,6 @@
     "hp": 250,
     "isDead": true,
     "killedBy": "Nishinoya Senju",
-    "arsenal": [
-      31
-    ],
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaien%20Ishi%20(Omega)%2F2__Temporada.png?alt=media&v=1784665890017497",
@@ -3449,7 +3442,8 @@
       "vigor": 30,
       "perception": 30
     },
-    "chakra": 82
+    "chakra": 82,
+    "arsenal": []
   },
   {
     "__docId": "kaito-senju",
@@ -3911,11 +3905,6 @@
     "chakra": 58,
     "isDead": true,
     "killedBy": "Kai",
-    "arsenal": [
-      74,
-      75,
-      8
-    ],
     "stats": {
       "strength": 6,
       "dexterity": 16,
@@ -4145,7 +4134,8 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F09%20-%20Tenketsu%20Byakugan.png?alt=media&v=1786651877167781"
       }
     ],
-    "description": "Líder e capitão da última força de Konoha\n\nJovem prodígio do clã Hyuga, Katsumi desde jovem convive com a pressão de corresponder às expectativas de todos como sucessor direto de seu clã. Aos 10 anos viveu um verdadeiro pesadelo ao ser sequestrado pela OCA, onde chegou bem perto de morrer sendo salvo por seus companheiros com o uso de uma substância até então desconhecida\n\nKatsumi passou a sofrer com dores de cabeça recorrentes e insuportáveis que vieram a acabar com a ajuda de seu tio, uma pessoa que até então era desconhecida em sua vida. Com a ajuda de seu tio Kai, Katsumi aprendeu que aquelas dores tinham um motivo, o despertar da arma mais poderosa do clã Hyuga, o Fujogan.\n\nAos 12 anos mesmo não tendo o desempenho que esperava no exame chunin, foi reconhecido por Nishinoya como o mais qualificado a ser capitão da mais nova divisão ANBU de Konoha.\n\nJá vivenciou diversas situações traumáticas em suas missões, como a morte de seu pai e de Shoei bem a sua frente, mortes essas responsáveis por despertar ainda mais seu Fujogan, mas ao mesmo tempo tornar seu estado mental algo preocupante\n\nAgora Katsumi tem uma vila inteira em sua responsabilidade além da vida de seus amigos, todas em suas mãos.\n\nEm uma luta contra Alpha, Gama, Delta e Theta, os quatro Kages da OCA, bastou medir a força do que tinha à frente para Katsumi se ver contra a parede. Ainda no início do confronto recorreu ao último recurso: injetou na própria veia a seringa de chakra profano de Kai — a mesma que antes havia sido oferecida a Takeshi como um convite para a OCA. O corpo aceitou o segundo chakra profano, e com ele veio um Fujogan em cada olho: o frio que sempre foi seu de um lado, o orgulho de Kai do outro. Naquele estado, Katsumi alcançou um patamar que pouquíssimos shinobis atingiram em toda a história e passou a executar técnicas que nenhum outro Hyuga jamais executou. Morreu pouco depois, pelas mãos do próprio Kai — o homem de quem viera todo aquele poder."
+    "description": "Líder e capitão da última força de Konoha\n\nJovem prodígio do clã Hyuga, Katsumi desde jovem convive com a pressão de corresponder às expectativas de todos como sucessor direto de seu clã. Aos 10 anos viveu um verdadeiro pesadelo ao ser sequestrado pela OCA, onde chegou bem perto de morrer sendo salvo por seus companheiros com o uso de uma substância até então desconhecida\n\nKatsumi passou a sofrer com dores de cabeça recorrentes e insuportáveis que vieram a acabar com a ajuda de seu tio, uma pessoa que até então era desconhecida em sua vida. Com a ajuda de seu tio Kai, Katsumi aprendeu que aquelas dores tinham um motivo, o despertar da arma mais poderosa do clã Hyuga, o Fujogan.\n\nAos 12 anos mesmo não tendo o desempenho que esperava no exame chunin, foi reconhecido por Nishinoya como o mais qualificado a ser capitão da mais nova divisão ANBU de Konoha.\n\nJá vivenciou diversas situações traumáticas em suas missões, como a morte de seu pai e de Shoei bem a sua frente, mortes essas responsáveis por despertar ainda mais seu Fujogan, mas ao mesmo tempo tornar seu estado mental algo preocupante\n\nAgora Katsumi tem uma vila inteira em sua responsabilidade além da vida de seus amigos, todas em suas mãos.\n\nEm uma luta contra Alpha, Gama, Delta e Theta, os quatro Kages da OCA, bastou medir a força do que tinha à frente para Katsumi se ver contra a parede. Ainda no início do confronto recorreu ao último recurso: injetou na própria veia a seringa de chakra profano de Kai — a mesma que antes havia sido oferecida a Takeshi como um convite para a OCA. O corpo aceitou o segundo chakra profano, e com ele veio um Fujogan em cada olho: o frio que sempre foi seu de um lado, o orgulho de Kai do outro. Naquele estado, Katsumi alcançou um patamar que pouquíssimos shinobis atingiram em toda a história e passou a executar técnicas que nenhum outro Hyuga jamais executou. Morreu pouco depois, pelas mãos do próprio Kai — o homem de quem viera todo aquele poder.",
+    "arsenal": []
   },
   {
     "__docId": "katsuo-uzumaki",
@@ -4309,9 +4299,6 @@
     "chakra": 46,
     "isDead": true,
     "killedBy": "Omega",
-    "arsenal": [
-      17
-    ],
     "stats": {
       "strength": 12,
       "dexterity": 4,
@@ -4387,7 +4374,8 @@
         "category": "era"
       }
     ],
-    "chakraColor": "#00ff41"
+    "chakraColor": "#00ff41",
+    "arsenal": []
   },
   {
     "__docId": "kenma-soryo",
@@ -6432,9 +6420,7 @@
       "perception": 30
     },
     "hp": 232,
-    "arsenal": [
-      2
-    ]
+    "arsenal": []
   },
   {
     "__docId": "oddy-uchiha",
@@ -7307,9 +7293,6 @@
     "chakra": 132,
     "isDead": true,
     "killedBy": "Delta",
-    "arsenal": [
-      26
-    ],
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2FPr_logo.png?alt=media&v=1784569544304314",
@@ -7435,7 +7418,8 @@
       "vigor": 20,
       "perception": 26
     },
-    "hp": 200
+    "hp": 200,
+    "arsenal": []
   },
   {
     "__docId": "ryuta-hyuga",
@@ -9110,10 +9094,6 @@
     "chakra": 100,
     "isDead": true,
     "killedBy": "Omega",
-    "arsenal": [
-      40,
-      41
-    ],
     "powers": [
       {
         "name": "Suiton",
@@ -9182,7 +9162,8 @@
       "vigor": 24,
       "perception": 30
     },
-    "hp": 232
+    "hp": 232,
+    "arsenal": []
   },
   {
     "__docId": "yasuo-kurogane",

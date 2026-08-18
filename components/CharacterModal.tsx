@@ -134,24 +134,30 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   };
 
   // Se a arma tem uma variação manifestada por ESTE personagem (ex: Kaito com a Guren no
-  // Kage, dentro da Sōen no Kage), mostra o nome/imagem/descrição da variação dele aqui —
+  // Kage, dentro da Sōen no Kage), mostra o nome/imagem/descrição da variação dele —
   // não os da arma-base, que seriam de outro portador.
+  const comVariacaoDele = (item: typeof arsenalOptions[number]) => {
+    const variant = item.variants?.find(v => v.owner.trim().toLowerCase() === char.name.trim().toLowerCase());
+    if (!variant) return item;
+    return { ...item, name: variant.name, image: variant.image ?? item.image, description: variant.description ?? item.description };
+  };
+
   const characterArsenal = (char.arsenal || [])
     .map(id => arsenalOptions.find(item => item.id === id))
     .filter(Boolean)
-    .map(item => {
-      const variant = item!.variants?.find(v => v.owner.trim().toLowerCase() === char.name.trim().toLowerCase());
-      if (!variant) return item!;
-      return { ...item!, name: variant.name, image: variant.image ?? item!.image, description: variant.description ?? item!.description };
-    });
+    .map(item => comVariacaoDele(item!));
 
   // Armas marcadas (campo `diedHolding`) como estando com ESTE personagem quando ele morreu,
   // mas que não estão no `arsenal` pessoal dele (senão já apareceriam ali) — junta com
-  // characterArsenal pra formar a seção de cima, sem duplicar.
-  const characterDiedHoldingArsenal = arsenalOptions.filter(item =>
-    !characterArsenal.some(w => w.id === item.id) &&
-    (item.diedHolding || []).some(name => name.trim().toLowerCase() === char.name.trim().toLowerCase())
-  );
+  // characterArsenal pra formar a seção de cima, sem duplicar. Passa pelo mesmo
+  // comVariacaoDele: quem morreu com a própria variação tem que ver o nome dela, não o da
+  // arma-base.
+  const characterDiedHoldingArsenal = arsenalOptions
+    .filter(item =>
+      !characterArsenal.some(w => w.id === item.id) &&
+      (item.diedHolding || []).some(name => name.trim().toLowerCase() === char.name.trim().toLowerCase())
+    )
+    .map(comVariacaoDele);
 
   // Seção de cima: pra quem já morreu, é tudo que ele tinha (arsenal pessoal + o que foi
   // marcado como "morreu em posse" na arma) — não faz sentido separar os dois, é a mesma
@@ -170,11 +176,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
       const wasVariantOwner = (item.variants || []).some(v => v.owner.trim().toLowerCase() === nameLower);
       return wasOriginal || wasPast || wasVariantOwner;
     })
-    .map(item => {
-      const variant = item.variants?.find(v => v.owner.trim().toLowerCase() === char.name.trim().toLowerCase());
-      if (!variant) return item;
-      return { ...item, name: variant.name, image: variant.image ?? item.image, description: variant.description ?? item.description };
-    });
+    .map(comVariacaoDele);
 
   // Lista combinada (seção de cima + já utilizou), só pra rotear/abrir o detalhe de
   // qualquer uma das seções a partir de um índice único.
