@@ -1131,7 +1131,37 @@
       }
     ],
     "chakraColor": "#00ff41",
-    "id": 85
+    "id": 85,
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20de%20c%C3%A9lulas%20de%20Kaito.png?alt=media&v=1784240332019035",
+        "caption": "Masmorra - Torturas - Extração de células de Kaito",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__extracao-de-celulas-de-kaito"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20de%20Nagare.png?alt=media&v=1784240332058786",
+        "caption": "Masmorra - Torturas - Extração do chakra de Nagare",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-de-nagare"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Sharingan%20de%20Oddy.png?alt=media&v=1784240332140188",
+        "caption": "Masmorra - Torturas - Extração do chakra do Sharingan de Oddy",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-sharingan-de-oddy"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Byakugan%20de%20Katsumi.png?alt=media&v=1784240331803456",
+        "caption": "Masmorra - Torturas - Extração do chakra do Byakugan de Katsumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi"
+      }
+    ]
   },
   {
     "__docId": "borashi-hyuga-b",
@@ -2226,24 +2256,24 @@
         "category": "era"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1786370783777480",
         "caption": "Clássico",
-        "category": "era"
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1786370783777480"
       },
       {
+        "category": "era",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F1__Temporada.png?alt=media&v=1784658537782136",
-        "caption": "1ª Temporada",
-        "category": "era"
+        "caption": "1ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F2__Temporada.png?alt=media&v=1784658540232570",
         "caption": "2ª Temporada",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F2__Temporada.png?alt=media&v=1784658540232570",
         "category": "era"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F3__Temporada.png?alt=media&v=1784658542974015",
         "caption": "3ª Temporada",
-        "category": "era"
+        "category": "era",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F3__Temporada.png?alt=media&v=1784658542974015"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F4__Temporada.png?alt=media&v=1784658545291662",
@@ -2252,15 +2282,36 @@
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F5__Temporada.png?alt=media&v=1786479671087996",
-        "caption": "5ª Temporada",
-        "category": "era"
+        "category": "era",
+        "caption": "5ª Temporada"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
         "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
+        "category": "evento",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "season": "1ª Temporada"
+      },
+      {
+        "season": "1ª Temporada",
+        "category": "evento",
+        "caption": "Início - Equipe 40%",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FEquipe%2040_.png?alt=media&v=1784240331794783",
+        "eventId": "7sGURt47CMoguA19sy4C"
+      },
+      {
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "category": "evento",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "season": "1ª Temporada"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "eventId": "NxFSZXETJh6PjNXggwy2"
       }
     ]
   },
@@ -4383,6 +4434,55 @@
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "0vY1igdFWYE5xfh859Mg"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "4jzvbD6odljSwAL7sHxM"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       }
     ]
   },
@@ -5001,6 +5101,55 @@
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "0vY1igdFWYE5xfh859Mg"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "4jzvbD6odljSwAL7sHxM"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       }
     ]
   },
@@ -5237,31 +5386,52 @@
         "category": "era"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FCl_ssico.png?alt=media&v=1786370760579906",
         "caption": "Clássico",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FCl_ssico.png?alt=media&v=1786370760579906",
         "category": "era"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F1__Temporada.png?alt=media&v=1784658558132242",
+        "category": "era",
         "caption": "1ª Temporada",
-        "category": "era"
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F1__Temporada.png?alt=media&v=1784658558132242"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F2__Temporada.png?alt=media&v=1784658560720202",
-        "caption": "2ª Temporada",
-        "category": "era"
+        "category": "era",
+        "caption": "2ª Temporada"
       },
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FLuta_contra_o_Omega.png?alt=media&v=1784658563457575",
-        "caption": "Luta contra o Omega",
-        "category": "era"
+        "category": "era",
+        "caption": "Luta contra o Omega"
       },
       {
+        "eventId": "LPg3ZhP6Jbm40ilbY1mj",
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330",
+        "category": "evento",
         "caption": "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados",
+        "season": "1ª Temporada"
+      },
+      {
+        "season": "1ª Temporada",
+        "category": "evento",
+        "caption": "Início - Equipe 40%",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FEquipe%2040_.png?alt=media&v=1784240331794783",
+        "eventId": "7sGURt47CMoguA19sy4C"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
         "category": "evento",
         "season": "1ª Temporada",
-        "eventId": "LPg3ZhP6Jbm40ilbY1mj"
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
       }
     ]
   },
@@ -6462,6 +6632,55 @@
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "0vY1igdFWYE5xfh859Mg"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "4jzvbD6odljSwAL7sHxM"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       }
     ]
   },
@@ -6909,6 +7128,55 @@
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "0vY1igdFWYE5xfh859Mg"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "4jzvbD6odljSwAL7sHxM"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       }
     ]
   },
@@ -8363,6 +8631,55 @@
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "0vY1igdFWYE5xfh859Mg"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "4jzvbD6odljSwAL7sHxM"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       }
     ]
   },
@@ -10062,18 +10379,18 @@
         "eventId": "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
-        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
-        "category": "evento",
-        "season": "1ª Temporada",
-        "eventId": "N9Yif0B1P5XNfPKQAfbX"
-      },
-      {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
         "caption": "Início - Os 7 de Konoha vendo que Shizumi está desaparecida",
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
       }
     ]
   },
@@ -10407,6 +10724,55 @@
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "0vY1igdFWYE5xfh859Mg"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "4jzvbD6odljSwAL7sHxM"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       }
     ]
   },
@@ -10903,6 +11269,55 @@
         "category": "evento",
         "season": "1ª Temporada",
         "eventId": "0vY1igdFWYE5xfh859Mg"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
+        "caption": "Início - Os 7 de Konoha VS Equipe 40%",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-vs-equipe-40"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
+        "caption": "Início - Os 7 de Konoha derrotam os Robos",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "NxFSZXETJh6PjNXggwy2"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
+        "caption": "Início - Os 7 de Konoha descansam",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "4jzvbD6odljSwAL7sHxM"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
+        "caption": "Início - Os 7 de Konoha continuam a exploração em busca de Shizumi",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "N9Yif0B1P5XNfPKQAfbX"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
+        "caption": "Início - Os 7 de Konoha olhando o painel com senha",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__inicio__os-7-de-konoha-olhando-o-painel-com-senha"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha entram na masmorra",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra"
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
+        "caption": "Masmorra - Torturas - Os 7 de Konoha desmaiados",
+        "category": "evento",
+        "season": "1ª Temporada",
+        "eventId": "1-temporada__masmorra__torturas__os-7-de-konoha-desmaiados"
       }
     ]
   },

@@ -627,7 +627,16 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20olhando%20o%20painel%20com%20senha.png?alt=media&v=1784240369191705",
-    "order": 50056
+    "order": 50056,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-vendo-que-shizumi-esta-desaparecida",
@@ -659,7 +668,18 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033",
-    "order": 50052
+    "order": 50052,
+    "personagens": [
+      "Furyuzan Chinoike",
+      "Kazuki Hoshigaki",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__painel-escrito-salvador",
@@ -1087,7 +1107,8 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20de%20c%C3%A9lulas%20de%20Kaito.png?alt=media&v=1784240332019035",
     "order": 50061,
     "personagens": [
-      "Kaito Senju"
+      "Kaito Senju",
+      "Beta"
     ]
   },
   {
@@ -1102,7 +1123,8 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20de%20Nagare.png?alt=media&v=1784240332058786",
     "order": 50062,
     "personagens": [
-      "Nagare Uzumaki"
+      "Nagare Uzumaki",
+      "Beta"
     ]
   },
   {
@@ -1117,7 +1139,8 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Byakugan%20de%20Katsumi.png?alt=media&v=1784240331803456",
     "order": 50064,
     "personagens": [
-      "Katsumi Hyuga"
+      "Katsumi Hyuga",
+      "Beta"
     ]
   },
   {
@@ -1132,7 +1155,8 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Sharingan%20de%20Oddy.png?alt=media&v=1784240332140188",
     "order": 50063,
     "personagens": [
-      "Oddy Uchiha"
+      "Oddy Uchiha",
+      "Beta"
     ]
   },
   {
@@ -1145,7 +1169,8 @@
     "subarco": "Torturas",
     "order": 50065,
     "personagens": [
-      "Shoei Sarutobi"
+      "Shoei Sarutobi",
+      "Beta"
     ]
   },
   {
@@ -1158,7 +1183,16 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20desmaiados.png?alt=media&v=1784240366485564",
-    "order": 50059
+    "order": 50059,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__torturas__os-7-de-konoha-entram-na-masmorra",
@@ -1170,7 +1204,16 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FOs%207%20de%20Konoha%20entram%20na%20masmorra.png?alt=media&v=1784240368139702",
-    "order": 50058
+    "order": 50058,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__missoes-para-treinamento__hisoka-kaito-e-nagare-na-vila-da-nuvem__sera-adicionado-em-breve",
@@ -2982,7 +3025,16 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20descansam.png?alt=media&v=1784240366082205",
-    "order": 50054
+    "order": 50054,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "4nugj0sDY5ZTA2Hc5kGi",
@@ -3228,7 +3280,11 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FEquipe%2040_.png?alt=media&v=1784240331794783",
-    "order": 50051
+    "order": 50051,
+    "personagens": [
+      "Furyuzan Chinoike",
+      "Kazuki Hoshigaki"
+    ]
   },
   {
     "__docId": "891XR2nnfo733mcW5I3t",
@@ -5605,7 +5661,14 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20continuam%20a%20explora%C3%A7%C3%A3o%20em%20busca%20de%20Shizumi.png?alt=media&v=1784240364563131",
     "order": 50055,
     "personagens": [
-      "Shizumi Uchiha"
+      "Shizumi Uchiha",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
     ]
   },
   {
@@ -5714,7 +5777,18 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975",
-    "order": 50053
+    "order": 50053,
+    "personagens": [
+      "Furyuzan Chinoike",
+      "Kazuki Hoshigaki",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "O5I0B8wQc7ApipUs5Pe0",
