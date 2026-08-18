@@ -84,6 +84,13 @@ export interface ChecklistItem {
    * aparecer no dia em que a ficha existir.
    */
   personagens?: string[];
+  /**
+   * Só para evento: o elenco está fechado, ou seja, todo mundo que aparece na imagem já foi
+   * marcado. Separado do `done`, que é sobre a ARTE existir — um evento pode ter a arte pronta e o
+   * elenco pela metade, e sem esta marca não há como distinguir "só duas pessoas nessa cena" de
+   * "parei de marcar na segunda".
+   */
+  elencoFechado?: boolean;
 }
 
 // Rascunho livre de personagem em desenvolvimento (aba "Protótipo" do Painel): o Pedro manda

@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, MapPin, FlaskConical, Trash2, UserCheck, UserX, HeartPulse, Award, Sparkles, Link as LinkIcon } from 'lucide-react';
+import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, Square, MapPin, FlaskConical, Trash2, UserCheck, UserX, HeartPulse, Award, Sparkles, Link as LinkIcon } from 'lucide-react';
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
-import { subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants } from '../data/firestore';
+import { subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed } from '../data/firestore';
 import { Character, ChecklistItem, PrototypeEntry, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
 import { Equipment } from '../types/Equipment';
 
@@ -124,7 +124,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [canvaState, setCanvaState] = useState<'todos' | 'falta' | 'pronta'>('todos');
   const [canvaTextOf, setCanvaTextOf] = useState<string | null>(null);
   const [evBusca, setEvBusca] = useState('');
-  const [evFiltro, setEvFiltro] = useState<'todos' | 'vazios' | 'preenchidos' | 'comArte'>('todos');
+  const [evFiltro, setEvFiltro] = useState<'todos' | 'vazios' | 'aberto' | 'fechado' | 'comArte'>('todos');
   const [evTemporada, setEvTemporada] = useState<string | null>(null);
   // evento aberto no seletor de participantes, e busca dentro dele
   const [quemDoEvento, setQuemDoEvento] = useState<string | null>(null);
@@ -355,6 +355,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         placeholder: !!i.placeholder,
         doneBy: i.doneBy ?? null,
         personagens: i.personagens ?? [],
+        fechado: !!i.elencoFechado,
         item: i,
       }));
     const prontas = itens.filter(i => i.pronta).length;
@@ -439,12 +440,27 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     return eventosLista.filter(i =>
       (evFiltro === 'todos'
         || (evFiltro === 'vazios' && !i.personagens.length)
-        || (evFiltro === 'preenchidos' && i.personagens.length > 0)
+        || (evFiltro === 'aberto' && !i.fechado)
+        || (evFiltro === 'fechado' && i.fechado)
         || (evFiltro === 'comArte' && i.pronta))
       && (!evTemporada || i.item.temporada === evTemporada)
       && (!termo || i.titulo.toLowerCase().includes(termo) || i.personagens.some(n => n.toLowerCase().includes(termo))));
   }, [eventosLista, evBusca, evFiltro, evTemporada]);
   const eventosComAlguem = useMemo(() => eventosLista.filter(i => i.personagens.length).length, [eventosLista]);
+  const eventosFechados = useMemo(() => eventosLista.filter(i => i.fechado).length, [eventosLista]);
+
+  const alternaFechado = useCallback(async (docId: string, fechado: boolean) => {
+    setQuemSalvando(docId);
+    setQuemErro(null);
+    try {
+      await setEventCastClosed(docId, fechado);
+    } catch (e) {
+      console.error('Erro ao marcar elenco fechado:', e);
+      setQuemErro('Não foi possível marcar. Tente de novo.');
+    } finally {
+      setQuemSalvando(null);
+    }
+  }, []);
 
   const canvaFiltrado = useMemo(() => {
     const termo = canvaSearch.trim().toLowerCase();
@@ -1994,13 +2010,20 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         <div className="border border-tech-border bg-tech-panel/30 p-4 mb-5">
           <div className="flex flex-wrap items-center gap-3 mb-3">
             <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide">
-              <span className="text-white text-lg font-black">{eventosComAlguem}</span>
-              <span className="text-tech-primary/40">/{eventosLista.length} eventos com alguém marcado</span>
+              <span className="text-white text-lg font-black">{eventosFechados}</span>
+              <span className="text-tech-primary/40">/{eventosLista.length} com elenco fechado</span>
+              <span className="text-tech-primary/25"> · {eventosComAlguem} com alguém marcado</span>
             </div>
-            <div className="flex-1 min-w-[120px] h-1 bg-black border border-tech-border overflow-hidden">
+            {/* Duas barras empilhadas: a de baixo, mais fraca, é quem tem alguém; a de cima, cheia,
+                é quem está fechado. A diferença entre elas é o trabalho pela metade. */}
+            <div className="flex-1 min-w-[140px] relative h-2 bg-black border border-tech-border overflow-hidden">
               <div
-                className="h-full bg-tech-primary transition-all duration-500"
-                style={{ width: `${eventosLista.length ? Math.round((eventosComAlguem / eventosLista.length) * 100) : 0}%` }}
+                className="absolute inset-y-0 left-0 bg-tech-primary/25"
+                style={{ width: `${eventosLista.length ? (eventosComAlguem / eventosLista.length) * 100 : 0}%` }}
+              />
+              <div
+                className="absolute inset-y-0 left-0 bg-tech-primary transition-all duration-500"
+                style={{ width: `${eventosLista.length ? (eventosFechados / eventosLista.length) * 100 : 0}%` }}
               />
             </div>
           </div>
@@ -2018,8 +2041,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
             </div>
             {([
               { k: 'todos' as const, l: 'Todos' },
+              { k: 'aberto' as const, l: 'Em aberto' },
+              { k: 'fechado' as const, l: 'Fechados' },
               { k: 'vazios' as const, l: 'Sem ninguém' },
-              { k: 'preenchidos' as const, l: 'Preenchidos' },
               { k: 'comArte' as const, l: 'Com arte' },
             ]).map(f => (
               <button
@@ -2054,13 +2078,19 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 <th className="py-2 pl-3 pr-3 text-right w-12 font-normal">Pág.</th>
                 <th className="py-2 pr-3 text-left font-normal">Evento</th>
                 <th className="py-2 pr-3 text-left font-normal">Quem estava</th>
+                <th className="py-2 pr-3 text-left font-normal w-28">Elenco</th>
                 <th className="py-2 pr-3 text-left font-normal w-20">Arte</th>
               </tr>
             </thead>
             <tbody>
               {eventosFiltrados.map(i => (
-                <tr key={i.docId} className="border-t border-tech-border/40 hover:bg-tech-panel/50 align-top">
-                  <td className="py-1.5 pl-3 pr-3 text-right text-tech-primary/40 tabular-nums">{i.pag}</td>
+                <tr
+                  key={i.docId}
+                  className={`border-t border-tech-border/40 align-top transition-colors ${i.fechado ? 'bg-tech-primary/[0.07] hover:bg-tech-primary/[0.12]' : 'hover:bg-tech-panel/50'}`}
+                >
+                  {/* faixa verde na borda esquerda: dá pra correr o olho pela coluna e ver
+                      de onde até onde o elenco já foi fechado */}
+                  <td className={`py-1.5 pl-3 pr-3 text-right tabular-nums border-l-2 ${i.fechado ? 'border-tech-primary text-tech-primary/70' : 'border-transparent text-tech-primary/40'}`}>{i.pag}</td>
                   <td className="py-1.5 pr-3 text-tech-primary/90 max-w-[360px]">
                     <span className="block text-[9px] uppercase tracking-widest text-tech-primary/35">{i.item.temporada}</span>
                     {[i.item.arco, i.item.subarco, i.item.name].filter(Boolean).join(' · ')}
@@ -2089,6 +2119,19 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                       {quemSalvando === i.docId && <Loader size={10} className="animate-spin text-tech-primary" />}
                     </div>
                   </td>
+                  <td className="py-1.5 pr-3 w-28">
+                    <button
+                      type="button"
+                      onClick={() => i.docId && alternaFechado(i.docId, !i.fechado)}
+                      title={i.fechado ? 'Elenco fechado — clique para reabrir' : 'Marcar que já adicionei todo mundo dessa imagem'}
+                      className={`flex items-center gap-1.5 px-2 py-1 border text-[9px] font-bold uppercase tracking-widest transition-all whitespace-nowrap ${i.fechado
+                        ? 'bg-tech-primary text-black border-tech-primary'
+                        : 'border-tech-border text-tech-primary/35 hover:text-tech-primary hover:border-tech-primary/60'}`}
+                    >
+                      {i.fechado ? <CheckSquare size={11} /> : <Square size={11} />}
+                      {i.fechado ? 'fechado' : 'fechar'}
+                    </button>
+                  </td>
                   <td className="py-1.5 pr-3 whitespace-nowrap">
                     {i.pronta
                       ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary border border-tech-primary px-1.5 py-0.5">pronta</span>
@@ -2099,7 +2142,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 </tr>
               ))}
               {eventosFiltrados.length === 0 && (
-                <tr><td colSpan={4} className="py-6 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nenhum evento com esse filtro.</td></tr>
+                <tr><td colSpan={5} className="py-6 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nenhum evento com esse filtro.</td></tr>
               )}
             </tbody>
           </table>

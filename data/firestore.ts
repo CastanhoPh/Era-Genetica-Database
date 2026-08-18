@@ -177,6 +177,11 @@ export async function setEventParticipants(
   await batch.commit();
 }
 
+/** Marca/desmarca "já marquei todo mundo dessa imagem". Não mexe em quem está marcado. */
+export async function setEventCastClosed(docId: string, fechado: boolean): Promise<void> {
+  await updateDoc(doc(db, 'imageChecklist', docId), { elencoFechado: fechado });
+}
+
 // Edição administrativa da checklist (texto, ordem, placeholder, criação e remoção de itens).
 export async function updateChecklistItem(docId: string, changes: Partial<ChecklistItem>): Promise<void> {
   const { docId: _omit, ...rest } = changes as ChecklistItem;
