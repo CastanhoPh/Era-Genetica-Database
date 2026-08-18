@@ -365,21 +365,44 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   // com os três grupos juntos o primeiro nome deixa de ser único (Raizen Kurogane x Raizen
   // Kuroshio, Inazuma Kazuchi x Inazuma Uchiha), e o vínculo é feito por nome.
   const gentePossivel = useMemo(() => {
-    const comFicha = characters.map(c => ({ nome: c.name, curto: c.name.split(' ')[0], grupo: 'ficha' as const, id: c.id, extra: '' }));
+    const comFicha = characters.map(c => ({ nome: c.name, curto: c.name.split(' ')[0], grupo: 'ficha' as const, id: c.id, cla: c.clan || 'Desconhecido', extra: c.clan || '' }));
     const nomesFicha = new Set(comFicha.map(p => p.nome));
     const protos = prototypeEntries
       .filter(e => !nomesFicha.has(e.title))
-      .map(e => ({ nome: e.title, curto: e.title, grupo: 'prototipo' as const, id: null, extra: e.village ?? '' }));
+      .map(e => ({ nome: e.title, curto: e.title, grupo: 'prototipo' as const, id: null, cla: e.village || 'Outros', extra: e.village ?? '' }));
     const nomesProto = new Set(protos.map(p => p.nome));
     const pendentes = PENDING_CHARACTERS.flatMap(g => g.entries.map(e => ({ ...e, village: g.village })))
       .filter(e => !nomesFicha.has(e.name) && !nomesProto.has(e.name))
-      .map(e => ({ nome: e.name, curto: e.name, grupo: 'pendente' as const, id: null, extra: e.role ?? e.village }));
+      .map(e => ({ nome: e.name, curto: e.name, grupo: 'pendente' as const, id: null, cla: e.village, extra: e.role ?? e.village }));
     return [
       ...comFicha.sort((a, b) => a.id - b.id),
       ...protos.sort((a, b) => a.nome.localeCompare(b.nome)),
       ...pendentes.sort((a, b) => a.nome.localeCompare(b.nome)),
     ];
   }, [characters, prototypeEntries]);
+
+  /**
+   * Quebra um grupo do seletor em subgrupos. Nas fichas o subgrupo é o clã; nos protótipos e
+   * pendentes é a vila, que é o que existe pra eles.
+   *
+   * Clã com uma pessoa só vai pra "Outros": dos 35 clãs das fichas, 18 têm um membro, e dar
+   * cabeçalho a cada um deixaria pior de varrer do que a grade plana que estava aqui antes.
+   * A ordem é a do menor id do grupo, então Senju, Uzumaki e Uchiha vêm primeiro, como no resto
+   * do projeto.
+   */
+  const subgrupos = useCallback((lista: typeof gentePossivel) => {
+    const mapa = new Map<string, typeof gentePossivel>();
+    lista.forEach(p => { const k = p.cla || 'Outros'; mapa.set(k, [...(mapa.get(k) ?? []), p]); });
+    const grandes: { cla: string; gente: typeof gentePossivel }[] = [];
+    const sozinhos: typeof gentePossivel = [];
+    for (const [cla, gente] of mapa) {
+      if (gente.length > 1 && cla !== 'Outros') grandes.push({ cla, gente });
+      else sozinhos.push(...gente);
+    }
+    const peso = (g: typeof gentePossivel) => Math.min(...g.map(p => p.id ?? 9999));
+    grandes.sort((a, b) => peso(a.gente) - peso(b.gente) || a.cla.localeCompare(b.cla));
+    return [...grandes, ...(sozinhos.length ? [{ cla: 'Outros', gente: sozinhos.sort((a, b) => (a.id ?? 9999) - (b.id ?? 9999) || a.nome.localeCompare(b.nome)) }] : [])];
+  }, []);
 
   const eventoAberto = useMemo(
     () => (quemDoEvento ? checklistItems.find(i => i.docId === quemDoEvento) ?? null : null),
@@ -2103,8 +2126,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                   type="search"
                   value={quemBusca}
                   onChange={e => setQuemBusca(e.target.value)}
-                  placeholder="filtrar..."
-                  className="bg-tech-panel/40 border border-tech-border pl-7 pr-2 py-1.5 text-[11px] text-tech-primary placeholder:text-tech-primary/30 focus:border-tech-primary outline-none w-40"
+                  autoFocus
+                  placeholder="buscar nome, clã ou vila..."
+                  className="bg-black border border-tech-primary/50 pl-7 pr-2 py-2 text-[11px] text-tech-primary placeholder:text-tech-primary/30 focus:border-tech-primary outline-none w-64"
                 />
               </div>
               <button
@@ -2126,26 +2150,35 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 && (!termo || p.nome.toLowerCase().includes(termo) || (p.extra ?? '').toLowerCase().includes(termo)));
               if (!lista.length) return null;
               return (
-                <div key={bloco.g} className="mb-3">
-                  <div className="text-[9px] font-black uppercase tracking-widest text-tech-primary/40 mb-1.5">
+                <div key={bloco.g} className="mb-4">
+                  <div className="text-[9px] font-black uppercase tracking-widest text-tech-primary/50 mb-2 pb-1 border-b border-tech-border">
                     {bloco.rot} <span className="text-tech-primary/25">{lista.length}</span>
                   </div>
-                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-1">
-                    {lista.map(p => {
-                      const marcado = (eventoAberto.personagens ?? []).includes(p.nome);
-                      return (
-                        <button
-                          key={p.nome}
-                          type="button"
-                          title={p.extra || p.nome}
-                          onClick={() => alternaParticipante(p.nome)}
-                          className={`flex items-baseline gap-1.5 px-2 py-1 border text-left text-[10px] transition-all ${marcado ? 'bg-tech-primary text-black border-tech-primary font-bold' : 'bg-tech-panel/30 border-tech-border text-tech-primary/70 hover:border-tech-primary/60 hover:text-tech-primary'}`}
-                        >
-                          <span className="opacity-50 tabular-nums text-[8px]">{p.id ?? '·'}</span>
-                          <span className="truncate">{p.grupo === 'ficha' ? p.curto : p.nome}</span>
-                        </button>
-                      );
-                    })}
+                  <div className="space-y-2">
+                    {subgrupos(lista).map(sg => (
+                      <div key={sg.cla} className="flex flex-wrap items-start gap-x-3 gap-y-1">
+                        <div className="w-24 shrink-0 text-[9px] uppercase tracking-wide text-tech-primary/35 pt-1 text-right">
+                          {sg.cla}
+                        </div>
+                        <div className="flex-1 min-w-[200px] grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-1">
+                          {sg.gente.map(p => {
+                            const marcado = (eventoAberto.personagens ?? []).includes(p.nome);
+                            return (
+                              <button
+                                key={p.nome}
+                                type="button"
+                                title={`${p.nome}${p.extra ? ` · ${p.extra}` : ''}`}
+                                onClick={() => alternaParticipante(p.nome)}
+                                className={`flex items-baseline gap-1.5 px-2 py-1 border text-left text-[10px] transition-all ${marcado ? 'bg-tech-primary text-black border-tech-primary font-bold' : 'bg-tech-panel/30 border-tech-border text-tech-primary/70 hover:border-tech-primary/60 hover:text-tech-primary'}`}
+                              >
+                                <span className="opacity-50 tabular-nums text-[8px]">{p.id ?? '·'}</span>
+                                <span className="truncate">{p.grupo === 'ficha' ? p.curto : p.nome}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               );
