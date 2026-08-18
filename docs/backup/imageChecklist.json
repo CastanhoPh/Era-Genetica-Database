@@ -3067,9 +3067,10 @@
     "temporada": "Kaizuka Hyuga",
     "arco": "3ª Temporada",
     "name": "3ª Temporada",
-    "done": false,
-    "imageUrl": null,
-    "order": 10160
+    "order": 10160,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F3__Temporada.png?alt=media&v=1787071799896590",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "bRYLoolHkCBPxhFsQFDB",
