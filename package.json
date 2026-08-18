@@ -18,7 +18,8 @@
     "backup:check": "node scripts/backup-firestore.mjs --check",
     "eventos:check": "node scripts/reconcile-eventos.mjs",
     "eventos:fix": "node scripts/reconcile-eventos.mjs --apply",
-    "eventos:lote": "node scripts/eventos-lote.mjs"
+    "eventos:lote": "node scripts/eventos-lote.mjs",
+    "canva:nomes": "node scripts/canva-nomes.mjs"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
