@@ -53,7 +53,16 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273",
-    "order": 50050
+    "order": 50050,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__chegada-de-raikun__sera-adicionado-em-breve",
@@ -535,7 +544,16 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha.png?alt=media&v=1784240370413693",
-    "order": 50043
+    "order": 50043,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "1-temporada__inicio__os-7-de-konoha-comendo-lamen-com-nishinoya",
@@ -548,7 +566,14 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20comendo%20l%C3%A1men%20com%20Nishinoya.png?alt=media&v=1784240362922711",
     "order": 50044,
     "personagens": [
-      "Nishinoya Senju"
+      "Nishinoya Senju",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Shoei Sarutobi",
+      "Takeshi Hatake"
     ]
   },
   {
@@ -562,7 +587,14 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714",
     "order": 50047,
     "personagens": [
-      "Katsuo Uzumaki"
+      "Katsuo Uzumaki",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
     ]
   },
   {
@@ -576,7 +608,14 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20na%20fogueira%20com%20Nishinoya.png?alt=media&v=1784240368846198",
     "order": 50045,
     "personagens": [
-      "Nishinoya Senju"
+      "Nishinoya Senju",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
     ]
   },
   {
@@ -601,7 +640,14 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20vendo%20que%20Shizumi%20est%C3%A1%20desaparecida.png?alt=media&v=1784240369610061",
     "order": 50046,
     "personagens": [
-      "Shizumi Uchiha"
+      "Shizumi Uchiha",
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
     ]
   },
   {
@@ -4958,7 +5004,16 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540",
-    "order": 50049
+    "order": 50049,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "iPwIUs9iGZQn0X48rXrX",
@@ -5494,7 +5549,16 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463",
-    "order": 50048
+    "order": 50048,
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi"
+    ]
   },
   {
     "__docId": "mxxKxXvgrAhCLrap6TfK",
@@ -6379,7 +6443,8 @@
     "temporada": "Clássico",
     "order": 50030,
     "personagens": [
-      "Kaito Senju"
+      "Kaito Senju",
+      "Iwaki Haruno"
     ]
   },
   {
@@ -6391,7 +6456,8 @@
     "temporada": "Clássico",
     "order": 50034,
     "personagens": [
-      "Katsumi Hyuga"
+      "Katsumi Hyuga",
+      "Renji Hyuga"
     ]
   },
   {
