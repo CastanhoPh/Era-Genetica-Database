@@ -8643,36 +8643,94 @@
     "chakraColor": "#ff3b46"
   },
   {
-    "__docId": "souma-uzumaki",
-    "name": "Souma Uzumaki",
-    "clan": "Uzumaki",
-    "categories": [
-      "NPC",
-      "Konohagakure",
-      "OCA"
+    "__docId": "souma-namikaze",
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FSouma%20Namikaze.jpg?alt=media&v=1787067007838294",
+    "role": "DPS",
+    "chakraColor": "#0ea5e9",
+    "aptitudes": [
+      "Acuidade",
+      "Intuição",
+      "Instinto de Batalha: LM, CD",
+      "Chakra Expandido Uzumaki"
     ],
+    "hp": 59,
+    "chakra": 42,
+    "description": "Souma Namikaze não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.",
     "titles": [
       "Essência do Abismo",
       "Fonte Carmesim"
     ],
     "nc": 8,
-    "position": "Genin",
-    "role": "DPS",
-    "description": "Souma Uzumaki não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.",
-    "hp": 59,
-    "chakra": 42,
-    "arsenal": [
-      40
-    ],
     "stats": {
-      "strength": 2,
       "dexterity": 8,
+      "strength": 2,
+      "vigor": 3,
+      "spirit": 6,
       "agility": 2,
       "intelligence": 7,
-      "spirit": 6,
-      "vigor": 3,
       "perception": 8
     },
+    "techniques": [
+      {
+        "name": "Ketsuryū: Shinkai Enkai",
+        "classification": "S++",
+        "nature": "Suiton + Katon ",
+        "description": "Souma libera o limite de sua contenção e cria uma zona abissal onde o mar carmesim e o fogo azul coexistem sob pressão extrema. A água não evapora e o fogo não se apaga — ambos colidem e se comprimem continuamente, gerando um campo onde tudo é esmagado, distorcido e desintegrado. Inimigos dentro da área sofrem impacto constante, como se estivessem no fundo de um oceano em combustão.",
+        "destruction": "Destruição massiva em área. Distorce chakra, quebra defesas e causa colapso estrutural contínuo.",
+        "history": "Manifestada durante um pico emocional extremo onde Souma perdeu completamente o controle e sobreviveu ao próprio poder.",
+        "status": "Altíssimo consumo. Risco de colapso físico e perda total de controle.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20Shinkai%20Enkai.jpg?alt=media&v=1787067008612619"
+      },
+      {
+        "name": "Ketsuryū: Umi no Ikari",
+        "classification": "S+",
+        "nature": "Ketsuryū + Chakra Vital",
+        "description": "Uma maré carmesim comprimida explode ao redor de Souma. Ao invés de se espalhar, a água colide com densidade absurda, esmagando tudo como pressão oceânica concentrada.",
+        "destruction": "Alta destruição em curta área. Lança múltiplos inimigos e quebra defesas.",
+        "history": "Primeira manifestação instável do poder abissal.",
+        "status": "Alto consumo.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F02%20-%20Ketsury%C5%AB%3A%20Umi%20no%20Ikari.jpg?alt=media&v=1787067009379965"
+      },
+      {
+        "name": "Katon: Aoi Enshō",
+        "classification": "S+",
+        "nature": "Katon Abissal",
+        "description": "Souma libera chamas azuis densas que não queimam superficialmente, mas comprimem e implodem o alvo de dentro para fora.",
+        "destruction": "Dano interno extremo. Ignora resistência superficial.",
+        "history": "Resultado da mutação genética baseada em Nishinoya.",
+        "status": "Instável — pode afetar o próprio usuário.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F03%20-%20Katon%3A%20Aoi%20Ensh%C5%8D.jpg?alt=media&v=1787067010157971"
+      },
+      {
+        "name": "Suiton: Raijin Ryūdō",
+        "classification": "S++",
+        "nature": "Raijin no Ken",
+        "description": "A lâmina abandona sua forma sólida e se torna um fluxo vivo de água altamente comprimida e eletrificada por chakra. Seus cortes não seguem trajetórias fixas, moldando-se em tempo real como uma entidade líquida consciente, atravessando defesas físicas e penetrando diretamente no fluxo interno do alvo.",
+        "destruction": "Extrema perfuração. Ignora armaduras e defesas convencionais, causando dano interno direto e imprevisível.",
+        "history": "Evolução máxima do controle de Suiton de Tobirama, transformando a arma em uma extensão fluida do próprio chakra.",
+        "status": "Consumo contínuo elevado. Exige controle absoluto de chakra.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F04%20-%20Suiton%3A%20Raijin%20Ry%C5%ABd%C5%8D.jpg?alt=media&v=1787067010943489"
+      },
+      {
+        "name": "Suiton: Hakushin no Ryūsatsu",
+        "classification": "S++",
+        "nature": "Suiton + Raijin no Ken",
+        "description": "Ao atingir um domínio absoluto sobre o Suiton, o usuário condensa a água ao seu redor em um estado de pressão extrema, alterando completamente sua estrutura. A água assume uma coloração branca pura, resultado da compressão absurda do chakra, tornando-se mais densa que aço. Sob controle da espada, esse fluxo se molda em lâminas, ondas ou projéteis, rasgando tudo que toca em nível molecular. O corte não é apenas físico — ele destrói a coesão do alvo no ponto de impacto, como se a própria matéria fosse separada pela pressão.",
+        "destruction": "Extremamente elevado. Capaz de cortar defesas absolutas, atravessar estruturas massivas e desintegrar alvos com precisão cirúrgica.",
+        "history": "Desenvolvido como a evolução máxima do controle de pressão do Suiton, inspirado na manipulação de fluxo do Raijin no Ken. Considerado um estado proibido da água, onde ela deixa de ser um elemento fluido comum e se torna uma arma de pressão absoluta.",
+        "status": "Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode causar colapso físico e perda de controle da técnica.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F05%20-%20Suiton%3A%20Hakushin%20no%20Ry%C5%ABsatsu.png?alt=media&v=1787067011716509"
+      }
+    ],
+    "clan": "Namikaze",
+    "name": "Souma Namikaze",
+    "categories": [
+      "NPC",
+      "Konohagakure",
+      "OCA"
+    ],
+    "id": 39,
+    "position": "Genin",
     "powers": [
       {
         "name": "Suiton",
@@ -8683,67 +8741,9 @@
         "level": 4
       }
     ],
-    "aptitudes": [
-      "Acuidade",
-      "Intuição",
-      "Instinto de Batalha: LM, CD",
-      "Chakra Expandido Uzumaki"
-    ],
-    "id": 39,
-    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FSouma%20Uzumaki.jpg?alt=media&v=1786651901790839",
-    "techniques": [
-      {
-        "name": "Ketsuryū: Shinkai Enkai",
-        "classification": "S++",
-        "nature": "Suiton + Katon ",
-        "description": "Souma libera o limite de sua contenção e cria uma zona abissal onde o mar carmesim e o fogo azul coexistem sob pressão extrema. A água não evapora e o fogo não se apaga — ambos colidem e se comprimem continuamente, gerando um campo onde tudo é esmagado, distorcido e desintegrado. Inimigos dentro da área sofrem impacto constante, como se estivessem no fundo de um oceano em combustão.",
-        "destruction": "Destruição massiva em área. Distorce chakra, quebra defesas e causa colapso estrutural contínuo.",
-        "history": "Manifestada durante um pico emocional extremo onde Souma perdeu completamente o controle e sobreviveu ao próprio poder.",
-        "status": "Altíssimo consumo. Risco de colapso físico e perda total de controle.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20Shinkai%20Enkai.jpg?alt=media&v=1786651901814239"
-      },
-      {
-        "name": "Ketsuryū: Umi no Ikari",
-        "classification": "S+",
-        "nature": "Ketsuryū + Chakra Vital",
-        "description": "Uma maré carmesim comprimida explode ao redor de Souma. Ao invés de se espalhar, a água colide com densidade absurda, esmagando tudo como pressão oceânica concentrada.",
-        "destruction": "Alta destruição em curta área. Lança múltiplos inimigos e quebra defesas.",
-        "history": "Primeira manifestação instável do poder abissal.",
-        "status": "Alto consumo.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F02%20-%20Ketsury%C5%AB%3A%20Umi%20no%20Ikari.jpg?alt=media&v=1786651901783257"
-      },
-      {
-        "name": "Katon: Aoi Enshō",
-        "classification": "S+",
-        "nature": "Katon Abissal",
-        "description": "Souma libera chamas azuis densas que não queimam superficialmente, mas comprimem e implodem o alvo de dentro para fora.",
-        "destruction": "Dano interno extremo. Ignora resistência superficial.",
-        "history": "Resultado da mutação genética baseada em Nishinoya.",
-        "status": "Instável — pode afetar o próprio usuário.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F03%20-%20Katon%3A%20Aoi%20Ensh%C5%8D.jpg?alt=media&v=1786651902689750"
-      },
-      {
-        "name": "Suiton: Raijin Ryūdō",
-        "classification": "S++",
-        "nature": "Raijin no Ken",
-        "description": "A lâmina abandona sua forma sólida e se torna um fluxo vivo de água altamente comprimida e eletrificada por chakra. Seus cortes não seguem trajetórias fixas, moldando-se em tempo real como uma entidade líquida consciente, atravessando defesas físicas e penetrando diretamente no fluxo interno do alvo.",
-        "destruction": "Extrema perfuração. Ignora armaduras e defesas convencionais, causando dano interno direto e imprevisível.",
-        "history": "Evolução máxima do controle de Suiton de Tobirama, transformando a arma em uma extensão fluida do próprio chakra.",
-        "status": "Consumo contínuo elevado. Exige controle absoluto de chakra.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Raijin%20Ry%C5%ABd%C5%8D.jpg?alt=media&v=1786651902535155"
-      },
-      {
-        "name": "Suiton: Hakushin no Ryūsatsu",
-        "classification": "S++",
-        "nature": "Suiton + Raijin no Ken",
-        "description": "Ao atingir um domínio absoluto sobre o Suiton, o usuário condensa a água ao seu redor em um estado de pressão extrema, alterando completamente sua estrutura. A água assume uma coloração branca pura, resultado da compressão absurda do chakra, tornando-se mais densa que aço. Sob controle da espada, esse fluxo se molda em lâminas, ondas ou projéteis, rasgando tudo que toca em nível molecular. O corte não é apenas físico — ele destrói a coesão do alvo no ponto de impacto, como se a própria matéria fosse separada pela pressão.",
-        "destruction": "Extremamente elevado. Capaz de cortar defesas absolutas, atravessar estruturas massivas e desintegrar alvos com precisão cirúrgica.",
-        "history": "Desenvolvido como a evolução máxima do controle de pressão do Suiton, inspirado na manipulação de fluxo do Raijin no Ken. Considerado um estado proibido da água, onde ela deixa de ser um elemento fluido comum e se torna uma arma de pressão absoluta.",
-        "status": "Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode causar colapso físico e perda de controle da técnica.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F05%20-%20Suiton%3A%20Hakushin%20no%20Ry%C5%ABsatsu.png?alt=media&v=1786651902791995"
-      }
-    ],
-    "chakraColor": "#0ea5e9"
+    "arsenal": [
+      40
+    ]
   },
   {
     "__docId": "takeshi-hatake",

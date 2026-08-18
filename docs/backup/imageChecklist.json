@@ -3390,13 +3390,13 @@
   {
     "__docId": "ECG9XsAWf5RY9epAIq4A",
     "type": "capa",
-    "temporada": "Souma Uzumaki",
-    "arco": "Souma Uzumaki",
-    "name": "Souma Uzumaki",
     "order": 579,
     "done": false,
     "placeholder": false,
-    "doneBy": null
+    "doneBy": null,
+    "arco": "Souma Namikaze",
+    "temporada": "Souma Namikaze",
+    "name": "Souma Namikaze"
   },
   {
     "__docId": "ecSh0j4EDjedEFsOb2lh",

@@ -4251,18 +4251,18 @@ export const initialData: Character[] = [
   },
   {
     id: 39,
-    name: "Souma Uzumaki",
+    name: "Souma Namikaze",
     chakraColor: "#0ea5e9",
-    clan: "Uzumaki",
+    clan: "Namikaze",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Essência do Abismo", "Fonte Carmesim"],
     nc: 8,
     position: "Genin",
     role: "DPS",
-    description: "Souma Uzumaki não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.",
+    description: "Souma Namikaze não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.",
     hp: 59,
     chakra: 42,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FSouma%20Uzumaki.jpg?alt=media&v=1786651901790839",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FSouma%20Namikaze.jpg?alt=media&v=1787067007838294",
     techniques: [
       {
         name: "Ketsuryū: Shinkai Enkai",
@@ -4272,7 +4272,7 @@ export const initialData: Character[] = [
         destruction: "Destruição massiva em área. Distorce chakra, quebra defesas e causa colapso estrutural contínuo.",
         history: "Manifestada durante um pico emocional extremo onde Souma perdeu completamente o controle e sobreviveu ao próprio poder.",
         status: "Altíssimo consumo. Risco de colapso físico e perda total de controle.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20Shinkai%20Enkai.jpg?alt=media&v=1786651901814239"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F01%20-%20Ketsury%C5%AB%3A%20Shinkai%20Enkai.jpg?alt=media&v=1787067008612619"
       },
       {
         name: "Ketsuryū: Umi no Ikari",
@@ -4282,7 +4282,7 @@ export const initialData: Character[] = [
         destruction: "Alta destruição em curta área. Lança múltiplos inimigos e quebra defesas.",
         history: "Primeira manifestação instável do poder abissal.",
         status: "Alto consumo.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F02%20-%20Ketsury%C5%AB%3A%20Umi%20no%20Ikari.jpg?alt=media&v=1786651901783257"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F02%20-%20Ketsury%C5%AB%3A%20Umi%20no%20Ikari.jpg?alt=media&v=1787067009379965"
       },
       {
         name: "Katon: Aoi Enshō",
@@ -4292,7 +4292,7 @@ export const initialData: Character[] = [
         destruction: "Dano interno extremo. Ignora resistência superficial.",
         history: "Resultado da mutação genética baseada em Nishinoya.",
         status: "Instável — pode afetar o próprio usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F03%20-%20Katon%3A%20Aoi%20Ensh%C5%8D.jpg?alt=media&v=1786651902689750"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F03%20-%20Katon%3A%20Aoi%20Ensh%C5%8D.jpg?alt=media&v=1787067010157971"
       },
       {
         name: "Suiton: Raijin Ryūdō",
@@ -4302,7 +4302,7 @@ export const initialData: Character[] = [
         destruction: "Extrema perfuração. Ignora armaduras e defesas convencionais, causando dano interno direto e imprevisível.",
         history: "Evolução máxima do controle de Suiton de Tobirama, transformando a arma em uma extensão fluida do próprio chakra.",
         status: "Consumo contínuo elevado. Exige controle absoluto de chakra.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Raijin%20Ry%C5%ABd%C5%8D.jpg?alt=media&v=1786651902535155"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F04%20-%20Suiton%3A%20Raijin%20Ry%C5%ABd%C5%8D.jpg?alt=media&v=1787067010943489"
       },
       {
         name: "Suiton: Hakushin no Ryūsatsu",
@@ -4312,7 +4312,7 @@ export const initialData: Character[] = [
         destruction: "Extremamente elevado. Capaz de cortar defesas absolutas, atravessar estruturas massivas e desintegrar alvos com precisão cirúrgica.",
         history: "Desenvolvido como a evolução máxima do controle de pressão do Suiton, inspirado na manipulação de fluxo do Raijin no Ken. Considerado um estado proibido da água, onde ela deixa de ser um elemento fluido comum e se torna uma arma de pressão absoluta.",
         status: "Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode causar colapso físico e perda de controle da técnica.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Uzumaki%2FTecnicas%2F05%20-%20Suiton%3A%20Hakushin%20no%20Ry%C5%ABsatsu.png?alt=media&v=1786651902791995"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F05%20-%20Suiton%3A%20Hakushin%20no%20Ry%C5%ABsatsu.png?alt=media&v=1787067011716509"
       }
     ],
     arsenal: [40],

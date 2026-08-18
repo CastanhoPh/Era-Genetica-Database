@@ -716,13 +716,13 @@
     "classification": "Z",
     "nature": "Suiton + Raiton",
     "origin": "Konohagakure",
-    "description": "A lendária Raijin no Ken é a espada divina do Segundo Hokage, Tobirama Senju, famosa por ser a arma que selou o destino de inúmeros inimigos lendários. Diferente de sua forma adormecida, a lâmina pode liquefazer-se completamente em um fluxo vivo de água altamente pressurizada e eletrificada por Raiton de nível divino. Esta forma mutável permite que a espada ignore defesas físicas convencionais, atravessando escudos e armaduras para atingir o sistema nervoso e de chakra do alvo diretamente. O usuário pode controlar a Raijin no Ken como um chicote de raios ou uma tempestade giratória que desintegra tudo em seu alcance molecular. Atualmente em posse de Souma Uzumaki, a espada reagiu ao seu chakra, ampliando sua escala destrutiva para níveis capazes de partir o solo e ferir seres divinos. É uma relíquia de autoridade absoluta sobre os elementos água e trovão, simbolizando a velocidade e a fúria do Deus do Trovão no campo de batalha. Sua ativação ilumina o horizonte com um brilho azul ofuscante que anuncia o fim eminente do duelo.",
     "originalOwner": "Tobirama Senju",
-    "currentOwner": "Souma Uzumaki",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F40%20-%20Raijin%20no%20Ken.png?alt=media&v=1784038035445769",
     "diedHolding": [
       "Tobirama Senju"
-    ]
+    ],
+    "currentOwner": "Souma Namikaze",
+    "description": "A lendária Raijin no Ken é a espada divina do Segundo Hokage, Tobirama Senju, famosa por ser a arma que selou o destino de inúmeros inimigos lendários. Diferente de sua forma adormecida, a lâmina pode liquefazer-se completamente em um fluxo vivo de água altamente pressurizada e eletrificada por Raiton de nível divino. Esta forma mutável permite que a espada ignore defesas físicas convencionais, atravessando escudos e armaduras para atingir o sistema nervoso e de chakra do alvo diretamente. O usuário pode controlar a Raijin no Ken como um chicote de raios ou uma tempestade giratória que desintegra tudo em seu alcance molecular. Atualmente em posse de Souma Namikaze, a espada reagiu ao seu chakra, ampliando sua escala destrutiva para níveis capazes de partir o solo e ferir seres divinos. É uma relíquia de autoridade absoluta sobre os elementos água e trovão, simbolizando a velocidade e a fúria do Deus do Trovão no campo de batalha. Sua ativação ilumina o horizonte com um brilho azul ofuscante que anuncia o fim eminente do duelo."
   },
   {
     "__docId": "raion",
