@@ -96,12 +96,13 @@ export async function saveCharacter(
  */
 export async function setCombatProfile(
   docId: string,
-  perfil: { combatStyle?: Character['combatStyle']; focoAtributo?: Character['focoAtributo'] },
+  perfil: { combatStyle?: Character['combatStyle']; focosAtributo?: Character['focosAtributo'] },
 ): Promise<void> {
-  // clean() tira undefined, entao passar so um dos dois campos nao apaga o outro
-  const limpo: Record<string, string> = {};
+  // so grava o que veio: passar um dos dois campos nao apaga o outro. O array de focos pode vir
+  // vazio de proposito (= dividido), entao ele e testado por !== undefined, nao por veracidade.
+  const limpo: { combatStyle?: string; focosAtributo?: string[] } = {};
   if (perfil.combatStyle) limpo.combatStyle = perfil.combatStyle;
-  if (perfil.focoAtributo) limpo.focoAtributo = perfil.focoAtributo;
+  if (perfil.focosAtributo !== undefined) limpo.focosAtributo = perfil.focosAtributo;
   await updateDoc(doc(db, 'characters', docId), limpo);
 }
 

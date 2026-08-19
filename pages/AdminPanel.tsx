@@ -6,7 +6,7 @@ import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
 import { setCombatProfile, subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed } from '../data/firestore';
 import { Character, ChecklistItem, PrototypeEntry, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
-import { distribuirAtributos, FOCOS, MIN_POR_NC, type EstiloCombate, type FocoAtributo } from '../data/atributos';
+import { distribuirAtributos, LIVRES, MAX_FOCOS, MIN_POR_NC, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 
 interface AdminPanelProps {
@@ -440,7 +440,8 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     const termo = perfilBusca.trim().toLowerCase();
     return characters
       .filter(c => {
-        const completo = !!c.combatStyle && !!c.focoAtributo;
+        // focos pode ser array VAZIO de proposito (= dividido), so ausente conta como pendente
+        const completo = !!c.combatStyle && Array.isArray(c.focosAtributo);
         return (perfilFiltro === 'todos'
           || (perfilFiltro === 'completos' && completo)
           || (perfilFiltro === 'faltando' && !completo))
@@ -448,8 +449,8 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       })
       .map(c => {
         // A prévia só existe quando os dois estão escolhidos e o NC está na tabela.
-        const previa = c.combatStyle && c.focoAtributo && MIN_POR_NC[c.nc] !== undefined
-          ? distribuirAtributos(c.nc, c.combatStyle as EstiloCombate, c.focoAtributo as FocoAtributo)
+        const previa = c.combatStyle && Array.isArray(c.focosAtributo) && MIN_POR_NC[c.nc] !== undefined
+          ? distribuirAtributos(c.nc, c.combatStyle as EstiloCombate, c.focosAtributo as AtributoLivre[])
           : null;
         const atual = ['strength', 'dexterity', 'agility', 'intelligence', 'spirit', 'vigor', 'perception']
           .map(k => Number((c.stats as unknown as Record<string, unknown>)?.[k]) || 0);
@@ -461,9 +462,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       });
   }, [characters, perfilBusca, perfilFiltro]);
 
-  const perfilCompletos = useMemo(() => characters.filter(c => c.combatStyle && c.focoAtributo).length, [characters]);
+  const perfilCompletos = useMemo(() => characters.filter(c => c.combatStyle && Array.isArray(c.focosAtributo)).length, [characters]);
 
-  const gravaPerfil = useCallback(async (c: Character, mudanca: { combatStyle?: Character['combatStyle']; focoAtributo?: Character['focoAtributo'] }) => {
+  const gravaPerfil = useCallback(async (c: Character, mudanca: { combatStyle?: Character['combatStyle']; focosAtributo?: Character['focosAtributo'] }) => {
     if (!c.docId) return;
     setPerfilSalvando(c.docId);
     setPerfilErro(null);
@@ -1016,7 +1017,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           Duas escolhas por personagem resolvem os sete atributos de qualquer NC. Nada disso aparece
           no site — é só para distribuir. <span className="text-tech-primary">Estilo</span> manda o par
           dele ao teto e o par oposto ao mínimo; <span className="text-tech-primary">foco</span> diz qual
-          dos três livres puxa a sobra primeiro. A prévia mostra o resultado no NC de hoje.
+          dos três livres puxa a sobra primeiro — até <span className="text-tech-primary">dois</span>, ou nenhum para dividir entre os três. A prévia mostra o resultado no NC de hoje.
         </p>
 
         <div className="border border-tech-border bg-tech-panel/30 p-4 mb-5">
@@ -1065,7 +1066,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 <th className="py-2 pl-3 pr-3 text-left font-normal">Personagem</th>
                 <th className="py-2 pr-3 text-right font-normal w-12">NC</th>
                 <th className="py-2 pr-3 text-left font-normal w-52">Estilo</th>
-                <th className="py-2 pr-3 text-left font-normal">Foco da sobra</th>
+                <th className="py-2 pr-3 text-left font-normal">Foco da sobra — até 2</th>
                 <th className="py-2 pr-3 text-left font-normal w-56">Prévia · F/D/A/I/E/V/P</th>
               </tr>
             </thead>
@@ -1094,25 +1095,52 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                     </div>
                   </td>
                   <td className="py-1.5 pr-3">
-                    <div className="flex flex-wrap gap-1">
-                      {FOCOS.map(f => (
+                    {/* Até dois focos. Clicar num marcado desmarca; com dois marcados, os outros
+                        ficam desabilitados — em vez de trocar o mais antigo em silêncio. */}
+                    <div className="flex flex-wrap items-center gap-1">
+                      {LIVRES.map(f => {
+                        const atuais = c.focosAtributo ?? [];
+                        const marcado = atuais.includes(f.key);
+                        const cheio = atuais.length >= MAX_FOCOS && !marcado;
+                        return (
+                          <button
+                            key={f.key}
+                            type="button"
+                            disabled={cheio}
+                            title={cheio ? `Já são ${MAX_FOCOS} focos — desmarque um para trocar` : undefined}
+                            onClick={() => gravaPerfil(c, {
+                              focosAtributo: marcado ? atuais.filter(k => k !== f.key) : [...atuais, f.key],
+                            })}
+                            className={`px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wide transition-all ${marcado
+                              ? 'bg-tech-primary text-black border-tech-primary'
+                              : cheio
+                                ? 'border-tech-border/40 text-tech-primary/15 cursor-not-allowed'
+                                : 'border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60'}`}
+                          >
+                            {f.label}
+                          </button>
+                        );
+                      })}
+                      {/* array vazio é uma escolha: "dividido". Ausente é pendente. */}
+                      {Array.isArray(c.focosAtributo) && c.focosAtributo.length === 0 && (
+                        <span className="text-[9px] uppercase tracking-widest text-tech-primary/50 ml-1">dividido</span>
+                      )}
+                      {!Array.isArray(c.focosAtributo) && (
                         <button
-                          key={f.key}
                           type="button"
-                          onClick={() => gravaPerfil(c, { focoAtributo: c.focoAtributo === f.key ? undefined : f.key })}
-                          disabled={c.focoAtributo === f.key}
-                          className={`px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wide transition-all ${c.focoAtributo === f.key ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60'}`}
+                          onClick={() => gravaPerfil(c, { focosAtributo: [] })}
+                          className="px-2 py-0.5 border border-dashed border-tech-border text-[9px] font-bold uppercase tracking-wide text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60 ml-1"
                         >
-                          {f.label}
+                          dividido
                         </button>
-                      ))}
+                      )}
                       {perfilSalvando === c.docId && <Loader size={10} className="animate-spin text-tech-primary self-center" />}
                     </div>
                   </td>
                   <td className="py-1.5 pr-3 whitespace-nowrap">
                     {!prev ? (
                       <span className="text-tech-primary/25 text-[10px] uppercase tracking-wide">
-                        {!c.nc ? 'sem NC' : 'escolha os dois'}
+                        {!c.nc ? 'sem NC' : 'escolha estilo e foco'}
                       </span>
                     ) : (
                       <div className="flex flex-col gap-0.5 font-mono text-[10px] tabular-nums">

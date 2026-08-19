@@ -2,11 +2,13 @@
 //
 // Duas escolhas por ficha resolvem os sete atributos:
 //
-//   combatStyle    Corporal  -> Força e Agilidade no teto (= NC), Destreza e Percepção no mínimo
-//                  Distância -> Destreza e Percepção no teto, Força e Agilidade no mínimo
-//   focoAtributo   qual dos três livres (Inteligência, Vigor, Espírito) puxa a sobra primeiro
+//   combatStyle     Corporal  -> Força e Agilidade no teto (= NC), Destreza e Percepção no mínimo
+//                   Distância -> Destreza e Percepção no teto, Força e Agilidade no mínimo
+//   focosAtributo   quais dos três livres (Inteligência, Vigor, Espírito) recebem primeiro.
+//                   Nenhum = os três dividem por igual. Um = ele enche antes. Dois = os dois
+//                   enchem juntos, e o terceiro fica com o resto.
 //
-// Regras que isto obedece, todas em docs/Regras/regras_do_universo.md:
+// Regras obedecidas, todas em docs/Regras/regras_do_universo.md:
 //   soma dos sete = 6 × NC − 12   ·   nenhum atributo acima do NC   ·   nenhum abaixo do mínimo
 import { Stats } from '../types';
 
@@ -16,66 +18,54 @@ export const MIN_POR_NC: Record<number, number> = {
 };
 
 export type EstiloCombate = 'Corporal' | 'Distância';
-export type FocoAtributo = 'inteligencia' | 'vigor' | 'espirito' | 'dividido';
+export type AtributoLivre = 'inteligencia' | 'vigor' | 'espirito';
 
-export const FOCOS: { key: FocoAtributo; label: string }[] = [
+/** Ordem fixa de desempate, para o resultado ser sempre o mesmo. */
+export const LIVRES: { key: AtributoLivre; label: string }[] = [
   { key: 'inteligencia', label: 'Inteligência' },
   { key: 'vigor', label: 'Vigor' },
   { key: 'espirito', label: 'Espírito' },
-  { key: 'dividido', label: 'Dividido' },
 ];
 
+export const MAX_FOCOS = 2;
 export const somaMaxima = (nc: number) => 6 * nc - 12;
+/** Teto de poder: o poder mais alto tem que ser exatamente isto. */
+export const tetoDePoder = (nc: number) => Math.floor(nc / 2);
 
 /**
- * Distribui os sete atributos para um NC, dado o estilo e o foco.
+ * Distribui os sete atributos de um NC, dado o estilo e até dois focos.
  *
- * O par do estilo vai ao teto e o par oposto ao mínimo; a sobra fica com Inteligência, Vigor e
- * Espírito. O foco recebe o quanto puder (até o teto), e o que ainda restar é dividido entre os
- * outros dois — em "dividido" os três repartem por igual. Sobra de divisão inexata vai para o
- * primeiro na ordem Inteligência, Vigor, Espírito, para o resultado ser sempre o mesmo.
+ * Os três livres começam no mínimo e sobem de um em um, em rodadas: primeiro só os focados, em
+ * ciclo, até baterem no teto; depois os outros. Isso vale para 0, 1 ou 2 focos sem caso especial,
+ * e nunca falha — quando dois focos não cabem no teto (NC 13 ou menos), eles simplesmente repartem
+ * o que existe em vez de estourar a soma.
  *
  * Devolve null em NC fora da tabela.
  */
 export function distribuirAtributos(
   nc: number,
   estilo: EstiloCombate,
-  foco: FocoAtributo,
+  focos: AtributoLivre[] = [],
 ): { stats: Stats; teto: number; minimo: number; soma: number } | null {
   const minimo = MIN_POR_NC[nc];
   if (minimo === undefined) return null;
   const teto = nc;
-  const total = somaMaxima(nc);
 
-  // sobra para os três livres, depois de fixar os dois pares
-  let sobra = total - 2 * teto - 2 * minimo;
+  const valor: Record<AtributoLivre, number> = { inteligencia: minimo, vigor: minimo, espirito: minimo };
+  const ordem = LIVRES.map(l => l.key);
+  const focados = ordem.filter(k => focos.includes(k));
+  const resto = ordem.filter(k => !focos.includes(k));
+  // sem foco, todo mundo sobe junto; com foco, os focados primeiro
+  const rodadas = focados.length ? [focados, resto] : [ordem];
 
-  const livres: FocoAtributo[] = foco === 'dividido'
-    ? ['inteligencia', 'vigor', 'espirito']
-    : [foco, ...(['inteligencia', 'vigor', 'espirito'] as FocoAtributo[]).filter(k => k !== foco)];
-
-  const valor: Record<string, number> = { inteligencia: minimo, vigor: minimo, espirito: minimo };
-  sobra -= 3 * minimo;   // cada um já começa no mínimo
-
-  // enche na ordem: o foco primeiro até o teto, depois os outros dois em paralelo.
-  // em "dividido" a ordem é a natural, então os três sobem juntos.
-  if (foco === 'dividido') {
-    const cada = Math.floor(sobra / 3);
-    livres.forEach(k => { valor[k] = Math.min(teto, minimo + cada); });
-    let resto = total - 2 * teto - 2 * minimo - livres.reduce((s, k) => s + valor[k], 0);
-    for (const k of livres) {
-      while (resto > 0 && valor[k] < teto) { valor[k]++; resto--; }
-    }
-  } else {
-    const podeNoFoco = Math.min(teto - minimo, sobra);
-    valor[livres[0]] = minimo + podeNoFoco;
-    let resto = sobra - podeNoFoco;
-    const outros = livres.slice(1);
-    const cada = Math.floor(resto / outros.length);
-    outros.forEach(k => { valor[k] = Math.min(teto, minimo + cada); });
-    resto -= outros.reduce((s, k) => s + (valor[k] - minimo), 0);
-    for (const k of outros) {
-      while (resto > 0 && valor[k] < teto) { valor[k]++; resto--; }
+  let sobra = somaMaxima(nc) - 2 * teto - 2 * minimo - 3 * minimo;
+  for (const grupo of rodadas) {
+    let mudou = true;
+    while (sobra > 0 && mudou) {
+      mudou = false;
+      for (const k of grupo) {
+        if (sobra > 0 && valor[k] < teto) { valor[k]++; sobra--; mudou = true; }
+      }
     }
   }
 
@@ -89,9 +79,5 @@ export function distribuirAtributos(
     vigor: valor.vigor,
     spirit: valor.espirito,
   };
-  const soma = Object.values(stats).reduce((s, v) => s + Number(v), 0);
-  return { stats, teto, minimo, soma };
+  return { stats, teto, minimo, soma: Object.values(stats).reduce((s, v) => s + Number(v), 0) };
 }
-
-/** Teto de poder: o poder mais alto tem que ser exatamente isto. */
-export const tetoDePoder = (nc: number) => Math.floor(nc / 2);

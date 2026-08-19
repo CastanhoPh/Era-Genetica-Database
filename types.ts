@@ -203,11 +203,14 @@ export interface Character {
    */
   combatStyle?: 'Corporal' | 'Distância';
   /**
-   * Qual dos três atributos livres (Inteligência, Vigor, Espírito) puxa a sobra primeiro quando o NC
-   * sobe. "dividido" reparte entre os três. Interno, como o combatStyle — junto com ele, os sete
-   * atributos ficam determinados por dois cliques. Ver data/atributos.ts.
+   * Quais dos três atributos livres (Inteligência, Vigor, Espírito) recebem a sobra primeiro quando o
+   * NC sobe. Até dois. Vazio ou ausente = os três dividem por igual.
+   *
+   * Interno, como o combatStyle — junto com ele, os sete atributos de qualquer NC ficam determinados.
+   * Dois focos porque um só não descrevia o roster: o Kaito e o Takeshi têm Espírito no teto e
+   * repartem o resto entre Inteligência e Vigor em proporções diferentes. Ver data/atributos.ts.
    */
-  focoAtributo?: 'inteligencia' | 'vigor' | 'espirito' | 'dividido';
+  focosAtributo?: ('inteligencia' | 'vigor' | 'espirito')[];
 }
 
 /** Peso de cada rank, do mais forte para o mais fraco. Usado para ordenar o Arsenal. */
