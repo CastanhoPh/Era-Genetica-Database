@@ -2021,8 +2021,8 @@ export const initialData: Character[] = [
     position: "Hokage das Sombras",
     role: "Tank",
     description: "DESCONHECIDO",
-    hp: 142,
-    chakra: 64,
+    hp: 154,
+    chakra: 40,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1786651887737084",
     techniques: [
       {
@@ -2063,7 +2063,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
     ],
-    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 14, spirit: 18, vigor: 14, perception: 18 },
+    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 10, vigor: 18, perception: 18 },
     powers: [
       { name: "Mokuton", level: 9 },
       { name: "Doton", level: 9 },
@@ -2094,8 +2094,8 @@ export const initialData: Character[] = [
     position: "Tsuchikage",
     role: "Tank e Suporte",
     description: "Rock Gunma nasceu em uma era marcada por conflitos constantes, crescendo em meio à guerra e sendo exposto desde cedo à sua realidade brutal. Com o tempo, tornou-se jinchūriki do Gyūki. Diferente da maioria, não enfrentou a besta como um fardo, mas construiu uma relação de respeito mútuo.\n\nCom o passar dos anos, Rock participou de diversas batalhas importantes, acumulando experiência real de combate e adquirindo cicatrizes que marcaram seu corpo. Sua força e liderança o levaram a assumir o cargo de Segundo Tsuchikage, guiando a vila em um dos períodos mais instáveis de sua história.\n\nDurante seu governo, destacou-se ao encerrar a guerra entre monges e samurais sem recorrer à destruição total, impondo sua presença e restaurando o equilíbrio ao devolver artefatos sagrados aos seus verdadeiros guardiões.\n\nFoi nesse período como Tsuchikage que surgiu uma ameaça fora de qualquer padrão conhecido — um ser chamado Delta, capaz de distorcer a realidade através do controle absoluto de gravidade e metal. Diferente de outros inimigos, Delta não buscava apenas caos, mas o próprio posto de Tsuchikage.\n\nO confronto entre os dois foi inevitável.\n\nMesmo com o chakra massivo de Gyūki reforçando seu corpo, Rock enfrentou algo além da força convencional. Durante a luta, Delta alterou o campo gravitacional ao redor de Rock, comprimindo seu corpo de dentro para fora enquanto manipulava partículas metálicas microscópicas presentes no ambiente.\n\nAo invés de romper a defesa de Gyūki pela força, Delta distorceu o espaço ao redor do chakra, fazendo com que o metal atravessasse a proteção como se ela não existisse.\n\nO ataque atingiu diretamente o estômago de Rock.\n\nO dano não foi imediato — foi contínuo.\n\nFragmentos metálicos permaneceram dentro de seu corpo, reagindo ao seu chakra e se expandindo lentamente. Rock caiu, mas se recusou a perder. Concentrando todo o seu chakra na região abdominal, ele conseguiu conter a expansão do metal, impedindo sua morte naquele momento.\n\nMesmo assim, ele venceu a batalha.\n\nMas não saiu inteiro dela.\n\nSem demonstrar fraqueza e sem pedir ajuda, Rock continuou liderando a vila. No entanto, com o passar do tempo, o desgaste interno começou a cobrar seu preço. As dores se tornaram constantes, e seu corpo já não respondia como antes.\n\nReconhecendo seus limites, Rock tomou a decisão de renunciar ao cargo de Tsuchikage — não por derrota, mas por consciência.\n\nApós deixar o posto, passou a atuar como mentor, dedicando-se a treinar e orientar a próxima geração. Entre seus alunos, Noya se destacou como alguém que superou seu próprio nível.\n\nMesmo afastado do campo de batalha, Rock continuou ativo nos bastidores, acompanhando conflitos e tentando influenciar o rumo das guerras, embora nem sempre com sucesso.\n\nDurante a Guerra da Fortaleza Yumei, seu corpo finalmente chegou ao limite.\n\nO chakra que mantinha o metal contido falhou.\n\nO que antes era controle se tornou colapso.\n\nSem conseguir mais sustentar a contenção interna, Rock foi consumido pelo próprio dano que carregava desde a luta contra Delta.\n\nSua morte não foi causada por um inimigo presente.\n\nMas por uma batalha que nunca realmente terminou.\n\nMesmo após sua queda, seu legado permaneceu. Rock Gunma é lembrado como um dos maiores Tsuchikages da história — não apenas por sua força, mas pela forma como carregou seu fardo até o fim, preparando aqueles que viriam depois dele.",
-    hp: 200,
-    chakra: 132,
+    hp: 218,
+    chakra: 105,
     isDead: true,
     killedBy: "Delta",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.jpg?alt=media&v=1786651887730216",
@@ -2170,7 +2170,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959", caption: "Reunindo reforços - Os Mestres do Ranton", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809", caption: "Reunindo reforços - Retorno a Konoha com reforços", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos" }
     ],
-    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
+    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 20, vigor: 26, perception: 26 },
     powers: [
       { name: "Gyuki", level: 13 },
       { name: "Fuinjutsu", level: 13 },
@@ -2323,7 +2323,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FLuta_contra_o_Hades.png?alt=media&v=1786371788573376", caption: "Luta contra o Hades", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" }
     ],
-    stats: { strength: 28, dexterity: 12, agility: 28, intelligence: 12, spirit: 28, vigor: 28, perception: 20 },
+    stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 22, spirit: 28, vigor: 28, perception: 11 },
     powers: [
       { name: "Katon", level: 14 },
       { name: "Doton", level: 14 },
@@ -2361,7 +2361,7 @@ export const initialData: Character[] = [
     role: "DPS e Suporte",
     description: "",
     hp: 234,
-    chakra: 70,
+    chakra: 76,
     isDead: true,
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.jpg?alt=media&v=1786651888636967",
@@ -2374,7 +2374,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" }
     ],
-    stats: { strength: 12, dexterity: 28, agility: 12, intelligence: 28, spirit: 20, vigor: 28, perception: 28 },
+    stats: { strength: 11, dexterity: 28, agility: 11, intelligence: 28, spirit: 22, vigor: 28, perception: 28 },
     powers: [
       { name: "Juken", level: 14 },
       { name: "Hyuga no Fujo", level: 14 },
@@ -4076,7 +4076,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKoji%20Ishizuma%2F3__Temporada.png?alt=media&v=1784751323948", caption: "3ª Temporada", category: "era" },
     ],
-    stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 7, spirit: 18, vigor: 18, perception: 10 },
+    stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 10, spirit: 18, vigor: 18, perception: 7 },
     powers: [
       { name: "Bakuton", level: 9 },
       { name: "Raiton", level: 9 },
@@ -4166,7 +4166,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShin%20Mizukari%2F3__Temporada.png?alt=media&v=1784751360239", caption: "3ª Temporada", category: "era" },
     ],
-    stats: { strength: 18, dexterity: 10, agility: 18, intelligence: 7, spirit: 18, vigor: 18, perception: 7 },
+    stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 10, spirit: 18, vigor: 18, perception: 7 },
     powers: [
       { name: "Jiogu", level: 9 },
       { name: "Yoton", level: 9 }
@@ -4293,8 +4293,8 @@ export const initialData: Character[] = [
     position: "Aposentado",
     role: "DPS e Suporte",
     description: "Katsuo Uzumaki é um nome que não deveria existir — não porque foi esquecido, mas porque deveria ter morrido. Aos 28 anos, durante o momento mais crítico da história recente ninja, ele realizou um ato proibido que quebrou as próprias leis da vida: ao presenciar a extração da Kurama de Naomi Uzumaki, Katsuo utilizou um Fuinjutsu perdido para converter 30 anos de sua própria vida em chakra vital puro, forçando o corpo dela a continuar funcionando mesmo após a perda parcial da Bijuu. Naomi sobreviveu… mas o preço foi pago por ele.\n\nEsse evento jamais veio à tona. O sacrifício de Katsuo foi mantido em absoluto sigilo, conhecido apenas por Tobirama, que compreendeu o peso e as consequências daquele ato. Em silêncio, permitiu que Katsuo se afastasse da linha de frente, oficialmente se aposentando do campo de batalha — não como punição, mas como necessidade. Incapaz de continuar lutando como antes, Katsuo assumiu uma nova função, tornando-se o líder da equipe de rastreamento de Konoha, onde sua experiência e percepção ainda poderiam ser usadas sem levá-lo à morte imediata.\n\nDesde aquele dia, Katsuo carrega um corpo que envelheceu décadas em instantes, com um sistema de chakra permanentemente danificado e instável. Ele não foi reconhecido, não foi celebrado — apenas continuou vivo. Nos anos seguintes, assistiu à consequência de sua escolha se desdobrar em tragédia: Naomi capturada, experimentos iniciados e o surgimento de novas vidas marcadas pela dor.\n\nMas o mundo seguiu… e Katsuo não.\n\nApós Hanzo fugir de Konoha com a chegada de Hades, algo nele quebrou de forma definitiva. Incapaz de aceitar o rumo que Konoha tomou — e principalmente a existência de Hades — Katsuo abandonou sua posição e desapareceu. Desde então, vaga pelo mundo ninja como uma sombra, rastreando incansavelmente aquele que fugiu no momento em que tudo começou.\n\nKatsuo não luta por redenção… ele luta para corrigir o erro que ele mesmo criou.",
-    hp: 184,
-    chakra: 123,
+    hp: 202,
+    chakra: 96,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.jpg?alt=media&v=1786651899866930",
     techniques: [
       {
@@ -4367,7 +4367,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540", caption: "Início - Os 7 de Konoha dormem no acampamento da Ambu", category: "evento", season: "1ª Temporada", eventId: "iPALRrrtWANQc8GXKv9t" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273", caption: "Início - Todos da Ambu desmaiam", category: "evento", season: "1ª Temporada", eventId: "0vY1igdFWYE5xfh859Mg" }
     ],
-    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
+    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 18, vigor: 24, perception: 24 },
     powers: [
       { name: "Fuinjutsu", level: 12 },
       { name: "Katon", level: 12 },
@@ -5373,7 +5373,7 @@ export const initialData: Character[] = [
     position: "Líder da Kiba",
     role: "DPS",
     description: "Yuji Yotsuki nasceu como uma anomalia dentro da Vila da Nuvem.\n\nEnquanto outros shinobis aprendiam a controlar chakra com treinamento, Yuji simplesmente nasceu conectado a ele.\n\nO Ranton corria naturalmente em suas veias.\n\nDesde criança, seu corpo produzia descargas elétricas rosadas involuntárias, fenômeno considerado impossível até mesmo pelos cientistas de Kumogakure.\n\nSeu chakra não era apenas poderoso.\nEra preciso.\n\nYuji conseguia sentir exatamente o limite do próprio corpo, a quantidade de chakra ao seu redor e até pequenas oscilações no fluxo energético de outras pessoas.\n\nIsso chamou a atenção de Hanzo, que passou a treiná-lo secretamente.\n\nDiferente de outros prodígios da Nuvem, Yuji não demonstrava interesse em fama ou combate direto. Era preguiçoso, desmotivado e frequentemente ignorava treinamentos inteiros.\n\nMas tudo mudava quando algo despertava sua curiosidade.\n\nNesse estado, Yuji se tornava obsessivo.\n\nDurante sua infância, desenvolveu uma amizade profunda com Hayato. Os dois compartilhavam o sonho de transformar Kumogakure na maior potência shinobi do mundo.\n\nMas após os incidentes envolvendo Hayato e a ascensão da OCA dentro da Vila da Nuvem, Yuji perdeu completamente a fé no sistema.\n\nAo lado de Yoru e Reito, desapareceu das forças oficiais e iniciou estudos secretos envolvendo tecnologia shinobi, armas experimentais e chakra artificial.\n\nFoi durante uma missão de infiltração em um laboratório da OCA que Yuji roubou pesquisas proibidas relacionadas a Katsumi e ao chamado Chakra Profano.\n\nUtilizando os dados roubados e o núcleo de chakra extraído durante a operação, Yuji criou sua obra-prima absoluta:\n\nA Yuji no Hōkō.\n\nUma Sniper Rifle capaz de condensar Chakra Profano em um único ponto microscópico e disparar projéteis com poder destrutivo equivalente a uma mini Bijuu Dama.\n\nA arma não produz som.\nNão deixa assinatura de chakra.\nE torna o disparo impossível de detectar até o impacto.\n\nApós isso, Yuji fundou oficialmente a Kiba.\n\nUma organização fantasma criada para destruir a OCA, eliminar Alpha e recuperar a verdadeira Kumogakure.\n\nHoje, laboratórios secretos da Nuvem possuem uma regra não oficial:\n\nSe o ar ficar silencioso demais...\nYuji Yotsuki já está mirando.",
-    hp: 178,
+    hp: 184,
     chakra: 82,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media&v=1786651907013158",
     techniques: [
@@ -5453,7 +5453,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F4__Temporada.png?alt=media&v=1784658616065338", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1784751370128", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 10, dexterity: 24, agility: 10, intelligence: 24, spirit: 24, vigor: 16, perception: 24 },
+    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [
       { name: "Ranton", level: 12 },
       { name: "Raiton", level: 12 },
@@ -5540,7 +5540,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReito%20Kurogami%2F4__Temporada.png?alt=media&v=1784658589886957", caption: "4ª Temporada", category: "era" },
     ],
-    stats: { strength: 20, dexterity: 8, agility: 20, intelligence: 8, spirit: 20, vigor: 20, perception: 12 },
+    stats: { strength: 20, dexterity: 8, agility: 20, intelligence: 12, spirit: 20, vigor: 20, perception: 8 },
     powers: [
       { name: "Raiton", level: 10 },
       { name: "Nintaijutsu", level: 10 }
@@ -5576,8 +5576,8 @@ export const initialData: Character[] = [
     position: "Vice líder da Kiba",
     role: "Suporte",
     description: "Yoru Kurogami é considerado o membro mais misterioso e perigoso da Kiba.\n\nDiferente de Yuji Yotsuki e Reito Kurogami, Yoru não domina batalhas através de força ou destruição.\n\nEle domina através do desaparecimento.\n\nEspecialista absoluto em infiltração, suporte tático, sabotagem e guerra sensorial, Yoru transformou Ranton e Raiton em ferramentas de ocultação e manipulação extremamente avançadas.\n\nSeu corpo alto, extremamente magro e de aparência quase doentia causa desconforto imediato em qualquer ambiente.\n\nVestindo roupas elegantes completamente negras com detalhes em verde água, Yoru utiliza constantemente o Kasa.\n\nUm chapéu tecnológico lendário criado pela Kiba utilizando pesquisas roubadas da OCA.\n\nO Kasa possui sistemas avançados de ocultação sensorial e emissão microscópica de chakra.\n\nAlém disso, Yoru possui um braço tecnológico integrado diretamente ao sistema central da Kiba.\n\nO braço contém:\n\n• Hardware tático\n• Banco de dados de chakra\n• Comunicação holográfica\n• Rastreamento neural\n• Sensores de leitura biológica\n• Análise tecnológica\n\nSeu estilo de combate não busca derrotar inimigos diretamente.\n\nYoru transforma aliados em fantasmas impossíveis de detectar enquanto destrói completamente a percepção do campo de batalha.\n\nDentro da Kiba existe uma frase conhecida sobre ele:\n\n'Se Yoru estiver presente...\nEntão vocês já desapareceram.'",
-    hp: 170,
-    chakra: 46,
+    hp: 146,
+    chakra: 70,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1786651908022138",
     techniques: [
       {
@@ -5626,7 +5626,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F4__Temporada.png?alt=media&v=1784658613297962", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F5__Temporada.png?alt=media&v=1786370800271701", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 12, vigor: 20, perception: 20 },
+    stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 20, vigor: 12, perception: 20 },
     powers: [
       { name: "Ranton", level: 10 },
       { name: "Raiton", level: 10 },
@@ -5735,8 +5735,8 @@ export const initialData: Character[] = [
     position: "Vice Líder da Kiba",
     role: "Tank",
     description: "Enrai Hanzo é o médico clandestino, engenheiro biológico e especialista em corpos modificados da Kiba.\n\nAntes de desaparecer dos registros oficiais de Kumogakure, Enrai trabalhou nos setores médicos avançados da Vila da Nuvem, onde se tornou conhecido por uma habilidade assustadora:\n\nEle conseguia manter vivo aquilo que já deveria ter morrido.\n\nEnrai não era famoso como guerreiro, assassino ou prodígio militar.\n\nMas entre cirurgiões, cientistas e unidades médicas secretas, seu nome era tratado com desconforto.\n\nSeu domínio sobre Raiton médico permitia estimular nervos, reiniciar músculos, estabilizar órgãos em falência e costurar fluxo de chakra danificado através de impulsos elétricos dourado âmbar.\n\nEsse Raiton não era explosivo como o de guerreiros comuns da Nuvem.\n\nEra preciso.\n\nEra clínico.\n\nEra invasivo.\n\nCada descarga elétrica podia forçar um músculo morto a responder, fazer um coração prestes a parar bater por mais alguns minutos, cauterizar ferimentos internos ou reativar sistemas nervosos danificados.\n\nPara outros médicos, cura significava salvar uma vida.\n\nPara Enrai, cura significava impedir que uma ferramenta útil parasse de funcionar.\n\nQuando a OCA começou a corromper Kumogakure por dentro, Enrai foi um dos poucos médicos capazes de compreender a extensão real dos experimentos envolvendo Chakra Profano, Shiroki Kaminari e corpos artificiais.\n\nEle viu pacientes se tornarem armas.\n\nViu cobaias serem chamadas de progresso.\n\nViu cadáveres funcionais serem mantidos ativos apenas para gerar mais dados.\n\nE viu Reito Kurogami sobreviver ao que deveria ter sido uma execução científica.\n\nFoi Enrai quem ajudou a estabilizar o corpo destruído de Reito após os experimentos da OCA.\n\nPor isso, Reito ainda respira.\n\nOu algo próximo disso.\n\nDentro da Kiba, Enrai é responsável por tratar ferimentos impossíveis, remover rastreadores, adaptar próteses, estabilizar armas proibidas, conter reações ao Chakra Profano e impedir que os membros da organização morram antes da missão terminar.\n\nEle não é gentil.\n\nEle é necessário.\n\nEnrai fala pouco, observa sinais vitais como quem lê sentenças de morte e costuma tratar dor como uma informação útil.\n\nSeu corpo é forte, resistente e treinado para operar em campo mesmo sob ataque. Diferente de médicos frágeis de retaguarda, Enrai consegue lutar na linha de frente enquanto mantém aliados vivos através de impulsos elétricos cirúrgicos.\n\nSeu combate é sujo, técnico e assustadoramente eficiente.\n\nEle não precisa destruir o corpo de um inimigo.\n\nBasta interromper o impulso correto, travar o músculo certo ou enviar uma descarga dourado âmbar pelo ponto exato do sistema nervoso.\n\nEnrai não gosta da OCA.\n\nMas entende seus métodos bem demais.\n\nEsse é o que torna sua presença tão perigosa dentro da Kiba.\n\nEle sabe como a OCA pensa.\n\nSabe como desmonta pessoas.\n\nSabe como transforma corpos em armas.\n\nE, às vezes, suas soluções parecem perigosamente parecidas com as soluções do inimigo.\n\nPor isso, Mika desconfia dele.\nYoru evita ficar sozinho com ele.\nReito confia nele em silêncio.\nE Yuji sabe que, sem Enrai, a Kiba já teria acabado.\n\nEnrai é o tipo de homem que a Kiba jamais deveria aceitar.\n\nMas também é o tipo de homem sem o qual a Kiba não sobreviveria.\n\nDentro da organização existe uma frase associada a ele:\n\n'Morto é inútil. Vivo ainda pode servir de experimentos.'",
-    hp: 218,
-    chakra: 64,
+    hp: 200,
+    chakra: 88,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1786651908733812",
     techniques: [
       {
@@ -5805,7 +5805,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F4__Temporada.png?alt=media&v=1786370774357473", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F5__Temporada.png?alt=media&v=1786370778715377", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 26, dexterity: 11, agility: 26, intelligence: 26, spirit: 18, vigor: 26, perception: 11 },
+    stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 26, spirit: 26, vigor: 20, perception: 10 },
     powers: [
       { name: "Raiton", level: 13 },
       { name: "Iryou Ninjutsu", level: 13 },
@@ -6897,7 +6897,7 @@ export const initialData: Character[] = [
     position: "NoGuns",
     role: "DPS",
     description: "Shikatsu Nara, conhecido hoje como Togo Kage, é o que restou de um sonho que foi quebrado cedo demais. Nascido no clã Nara, cresceu como uma criança feliz, curiosa e orgulhosa de seu nome, cercado por figuras lendárias — seus pais eram próximos de Hashirama e Tobirama, e por isso Shikatsu viveu parte de sua infância ao lado dos Senju. Ele jantava com eles, ouvia histórias, aprendia estratégias e carregava um único objetivo no coração: se tornar Hokage. Tobirama era seu herói. Hashirama, sua inspiração. Mas tudo isso morreu na noite da invasão da Vila da Nuvem. Seus pais lutaram até o fim para proteger Konoha, sacrificando suas vidas com orgulho. Shikatsu assistiu tudo. E então viu aquilo que destruiu sua mente por completo: Tobirama, o homem que ele mais admirava, passar por ele sem sequer olhar para trás, seguindo sozinho para enfrentar Hades. Para o mundo, foi um ato de coragem. Para Shikatsu, foi abandono. Traição. Nesse momento, algo dentro dele quebrou de forma irreversível. Sem família, sem propósito e sem seu herói, sua mente colapsou. Ele fugiu, desapareceu, e ao longo dos anos se perdeu completamente de si mesmo. A esquizofrenia induzida pelo trauma fragmentou sua identidade, apagando o garoto que queria ser Hokage. Em seu lugar, nasceu Togo — uma sombra instintiva em forma humana. Vagando por florestas e campos de batalha, atacava por reflexo, sobrevivia por impulso e existia sem direção. Até encontrar Daichi. No primeiro encontro, tentou matá-lo como fazia com todos… mas foi derrotado. E poupado. Mais do que isso — foi visto. Daichi lhe fez uma promessa: encontraria uma cura. Pela primeira vez desde a queda dos Nara, alguém o tratou como humano. Desde então, Togo passou a existir preso a esse único fio de realidade. Hoje, ele é instável, silencioso e imprevisível — incapaz de viver em sociedade, mas extremamente letal em combate. Sua mente pode estar quebrada, mas seu instinto nunca falha. E enquanto o mundo o enxerga como um fragmento perdido… Togo ainda caminha, sustentado apenas por uma promessa que se recusa a esquecer.",
-    hp: 130,
+    hp: 154,
     chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTogo%20Kage%2FTogo%20Kage.png?alt=media&v=1786651899869770",
     techniques: [
@@ -6923,9 +6923,9 @@ export const initialData: Character[] = [
       strength: 7,
       dexterity: 18,
       agility: 7,
-      intelligence: 18,
+      intelligence: 10,
       spirit: 18,
-      vigor: 10,
+      vigor: 18,
       perception: 18
     },
     powers: [
