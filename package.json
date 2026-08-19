@@ -20,7 +20,8 @@
     "eventos:fix": "node scripts/reconcile-eventos.mjs --apply",
     "eventos:lote": "node scripts/eventos-lote.mjs",
     "canva:nomes": "node scripts/canva-nomes.mjs",
-    "perfil:derivar": "node scripts/perfil-derivar.mjs"
+    "perfil:derivar": "node scripts/perfil-derivar.mjs",
+    "perfil:conferir": "node scripts/perfil-conferir.mjs"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
