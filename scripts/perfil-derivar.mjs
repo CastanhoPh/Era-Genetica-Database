@@ -161,6 +161,15 @@ const rotulo = ({ focos, divisao, iguais }) => {
   return `${f.padEnd(9)} ${d}`;
 };
 
+/** Perfil já gravado que não reproduz os sete atributos. Quase sempre é clique errado na aba. */
+function conferido(c) {
+  if (!c.combatStyle || !Array.isArray(c.focosAtributo)) return null;
+  const r = distribuirAtributos(c.nc, c.combatStyle, c.focosAtributo, c.divisaoAtributo);
+  const alvo = vetor(c.stats);
+  if (r && vetor(r.stats).every((v, i) => v === alvo[i])) return null;
+  return { atual: r ? vetor(r.stats) : null, alvo };
+}
+
 const gravar = [], soEstilo = [], adiados = [], falhos = [];
 for (const c of chars) {
   const r = deduz(c);
@@ -194,11 +203,31 @@ if (falhos.length) {
   falhos.forEach(({ c, erro }) => console.log(`  ${String(c.nc || '-').padStart(2)}  ${c.name.padEnd(20)} ${erro}`));
 }
 
+// Roda DEPOIS da gravação hipotética: o que este script vai escrever já foi conferido, então o que
+// sobra aqui é perfil que alguém escolheu na mão e não fecha.
+const vaiSerEscrito = new Set(gravar.map(x => x.c.__docId));
+const errados = chars.filter(c => !vaiSerEscrito.has(c.__docId) && conferido(c));
+if (errados.length) {
+  console.log(`\n=== PERFIL GRAVADO QUE NÃO REPRODUZ A FICHA (${errados.length}) ===`);
+  console.log('  For/Des/Agi/Int/Esp/Vig/Per — não vou mexer nesses, mas aplicá-los mudaria a ficha');
+  for (const c of errados) {
+    const { atual, alvo } = conferido(c);
+    const d = deduz(c);
+    const diz = d.erro ? d.erro : `atributos dizem ${d.estilo}${d.focos ? ' · ' + (d.focos.length ? d.focos.map(curto).join('+') : 'sem foco') : ''}`;
+    console.log(`  ${String(c.nc || '-').padStart(2)}  ${c.name.padEnd(24)} perfil daria ${(atual ? atual.join('/') : 'null').padEnd(24)} ficha tem ${alvo.join('/').padEnd(24)} ${diz}`);
+  }
+}
+
 // quantos ganham informação nova, para o Pedro saber o tamanho da mudança
 const novos = gravar.filter(({ c }) => !Array.isArray(c.focosAtributo)).length;
 const trocaEstilo = [...gravar, ...soEstilo].filter(({ c, estilo }) => c.combatStyle && c.combatStyle !== estilo);
+// Foco gravado que não bate com o deduzido: alguém escolheu à mão na aba Perfil e o resultado não
+// reproduz a ficha. Sobrescrever é o certo — os atributos são a verdade — mas em silêncio, não.
+const trocaFoco = gravar.filter(({ c, focos }) => Array.isArray(c.focosAtributo)
+  && (c.focosAtributo.length !== focos.length || c.focosAtributo.some((k, i) => k !== focos[i])));
 console.log(`\n${gravar.length} perfil completo · ${soEstilo.length} só o estilo · ${novos} sem foco até agora · ${trocaEstilo.length} com estilo diferente do gravado`);
-trocaEstilo.forEach(({ c, estilo }) => console.log(`  ! ${c.name}: gravado ${c.combatStyle}, atributos dizem ${estilo}`));
+trocaEstilo.forEach(({ c, estilo }) => console.log(`  ! ${c.name}: estilo gravado ${c.combatStyle}, atributos dizem ${estilo}`));
+trocaFoco.forEach(({ c, focos }) => console.log(`  ! ${c.name}: foco gravado [${c.focosAtributo.map(curto).join('+')}], atributos dizem [${focos.map(curto).join('+')}]`));
 
 if (!APPLY) {
   console.log('\nDry run. Rode com --apply para gravar.');

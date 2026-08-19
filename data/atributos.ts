@@ -29,7 +29,16 @@ export const LIVRES: { key: AtributoLivre; label: string; curto: string }[] = [
 ];
 
 export const MAX_FOCOS = 2;
-export const PASSO_DIVISAO = 5;
+/**
+ * Granularidade da proporção. Era 5, e desceu para 2,5 porque duas fichas certas não caberiam:
+ * o Najin quer Int 37,5 / Esp 62,5 e o Yasuo Int 52,5 / Vig 47,5. Nada do que já existia mudou —
+ * 60/40 e 55/45 do Kaito e do Takeshi seguem sendo múltiplos de 2,5.
+ */
+export const PASSO_DIVISAO = 2.5;
+
+/** Percentual para leitura: 37.5 vira "37,5%" e 60 vira "60%", sem casa decimal sobrando. */
+export const formataPct = (v: number): string =>
+  `${(Math.round(v * 10) / 10).toString().replace('.', ',')}%`;
 export const somaMaxima = (nc: number) => 6 * nc - 12;
 /** Teto de poder: o poder mais alto tem que ser exatamente isto. */
 export const tetoDePoder = (nc: number) => Math.floor(nc / 2);

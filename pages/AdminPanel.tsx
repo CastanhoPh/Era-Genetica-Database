@@ -6,7 +6,7 @@ import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
 import { setCombatProfile, subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed } from '../data/firestore';
 import { Character, ChecklistItem, PrototypeEntry, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
-import { distribuirAtributos, ajustaDivisao, divisaoInicial, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
+import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 
 /** Se a ficha tem uma proporção explícita para estes divididos. Objeto vazio, ou proporção sobre
@@ -1169,19 +1169,19 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                                     type="button"
                                     onClick={() => gravaPerfil(c, { divisaoAtributo: ajustaDivisao(divididos, c.divisaoAtributo, k, -1) })}
                                     disabled={valor <= 0}
-                                    title={`-${PASSO_DIVISAO}%`}
+                                    title={`-${formataPct(PASSO_DIVISAO)}`}
                                     className="px-1.5 text-[11px] leading-4 text-tech-primary/50 hover:text-tech-primary hover:bg-tech-panel disabled:text-tech-primary/15 disabled:hover:bg-transparent"
                                   >
                                     −
                                   </button>
                                   <span className="px-1 text-[9px] font-bold uppercase tracking-wide text-tech-primary/70 tabular-nums">
-                                    {curto} {valor}%
+                                    {curto} {formataPct(valor)}
                                   </span>
                                   <button
                                     type="button"
                                     onClick={() => gravaPerfil(c, { divisaoAtributo: ajustaDivisao(divididos, c.divisaoAtributo, k, 1) })}
                                     disabled={valor >= 100}
-                                    title={`+${PASSO_DIVISAO}%`}
+                                    title={`+${formataPct(PASSO_DIVISAO)}`}
                                     className="px-1.5 text-[11px] leading-4 text-tech-primary/50 hover:text-tech-primary hover:bg-tech-panel disabled:text-tech-primary/15 disabled:hover:bg-transparent"
                                   >
                                     +
