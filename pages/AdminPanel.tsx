@@ -590,6 +590,18 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     ? classificationChars.filter(c => NC_BANDS[classificationFilter](c.nc))
     : classificationChars;
 
+  // Agrupa por NC para a lista sair com uma barra por faixa. A lista já vem ordenada do maior NC
+  // pro menor, então basta cortar quando o número muda.
+  const classificationPorNc = useMemo(() => {
+    const grupos: { nc: number; gente: typeof classificationFiltered }[] = [];
+    for (const c of classificationFiltered) {
+      const ultimo = grupos[grupos.length - 1];
+      if (ultimo && ultimo.nc === c.nc) ultimo.gente.push(c);
+      else grupos.push({ nc: c.nc, gente: [c] });
+    }
+    return grupos;
+  }, [classificationFiltered]);
+
   // Personagens por clã — combina quem já tem ficha (campo `clan`) com quem ainda está pendente.
   // A lista de pendentes não guarda clã explicitamente, mas a convenção de nomes do universo é
   // "Nome Clã" (o sobrenome é sempre o clã), então dá pra derivar do próprio nome.
@@ -1898,17 +1910,34 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
               {classificationChars.length === 0 ? `Nenhum personagem com ficha em ${classificationVillage}.` : 'Nenhum personagem nessa faixa.'}
             </div>
           ) : (
-            <div className="border border-tech-border/60 bg-black/30 divide-y divide-tech-border/40">
-              {classificationFiltered.map(c => (
-                <div key={c.name} className="flex items-center justify-between px-3 py-2">
-                  <div className="flex items-center gap-2">
-                    <span className={`font-bold text-sm ${c.pending ? 'text-tech-primary/70 italic' : 'text-white'}`}>{c.name}</span>
-                    {c.dead && <Skull size={12} className="text-red-500 shrink-0" />}
-                    {c.pending && (
-                      <span className="text-tech-primary/40 text-[10px] uppercase tracking-wide">(pendente{c.clan ? ` — ${c.clan}` : ''})</span>
-                    )}
+            <div className="border border-tech-border/60 bg-black/30">
+              {classificationPorNc.map(g => (
+                <div key={g.nc}>
+                  {/* barra do NC: o numero sai das linhas e vira cabecalho, senao ele se repetiria
+                      em toda linha do grupo sem dizer nada de novo */}
+                  <div className="flex items-center gap-3 bg-tech-primary/10 border-y border-tech-primary/25 px-3 py-1">
+                    <span className="text-tech-primary font-black text-xs tracking-wide">NC {g.nc}</span>
+                    <span className="flex-1 h-px bg-tech-primary/15"></span>
+                    <span className="text-[9px] text-tech-primary/45 uppercase tracking-widest">
+                      {g.gente.length} {g.gente.length === 1 ? 'personagem' : 'personagens'}
+                    </span>
                   </div>
-                  <span className="text-tech-primary font-black text-sm">NC {c.nc}</span>
+                  <div className="divide-y divide-tech-border/40">
+                    {g.gente.map(c => (
+                      <div key={c.name} className="flex items-center justify-between gap-3 px-3 py-2">
+                        <div className="flex items-center gap-2 min-w-0">
+                          <span className={`font-bold text-sm truncate ${c.pending ? 'text-tech-primary/70 italic' : 'text-white'}`}>{c.name}</span>
+                          {c.dead && <Skull size={12} className="text-red-500 shrink-0" />}
+                          {c.pending && (
+                            <span className="text-tech-primary/40 text-[10px] uppercase tracking-wide shrink-0">pendente</span>
+                          )}
+                        </div>
+                        {c.clan && (
+                          <span className="text-tech-primary/45 text-[10px] uppercase tracking-wide shrink-0 truncate max-w-[45%]" title={c.clan}>{c.clan}</span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
