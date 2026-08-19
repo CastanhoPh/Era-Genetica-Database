@@ -4,8 +4,9 @@ import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, L
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
-import { subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed } from '../data/firestore';
+import { setCombatProfile, subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed } from '../data/firestore';
 import { Character, ChecklistItem, PrototypeEntry, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
+import { distribuirAtributos, FOCOS, MIN_POR_NC, type EstiloCombate, type FocoAtributo } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 
 interface AdminPanelProps {
@@ -73,7 +74,7 @@ const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.
 
 // A ordem aqui e a ordem da barra de abas. A rota da aba de Listas segue 'canva' mesmo depois de
 // renomeada, para nao quebrar link que alguem tenha guardado.
-const PANEL_TABS = ['geral', 'classificacoes', 'personagens', 'arsenal', 'invocacoes', 'canva', 'eventos', 'links', 'producao', 'prototipos'] as const;
+const PANEL_TABS = ['geral', 'classificacoes', 'personagens', 'arsenal', 'invocacoes', 'canva', 'eventos', 'links', 'perfil', 'producao', 'prototipos'] as const;
 type PanelTab = typeof PANEL_TABS[number];
 
 const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => {
@@ -123,6 +124,10 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [classificationVillage, setClassificationVillage] = useState('Konohagakure');
   const [classificationFilter, setClassificationFilter] = useState<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8' | null>(null);
   const [classificationFicha, setClassificationFicha] = useState<'todos' | 'ficha' | 'pendente'>('todos');
+  const [perfilBusca, setPerfilBusca] = useState('');
+  const [perfilFiltro, setPerfilFiltro] = useState<'todos' | 'faltando' | 'completos'>('todos');
+  const [perfilSalvando, setPerfilSalvando] = useState<string | null>(null);
+  const [perfilErro, setPerfilErro] = useState<string | null>(null);
   const [canvaSearch, setCanvaSearch] = useState('');
   const [canvaState, setCanvaState] = useState<'todos' | 'falta' | 'pronta'>('todos');
   const [canvaTextOf, setCanvaTextOf] = useState<string | null>(null);
@@ -428,6 +433,49 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       setQuemSalvando(null);
     }
   }, [eventoAberto, characters]);
+
+  // Aba Perfil: estilo de combate + foco de atributo por ficha. Com os dois, os sete atributos de
+  // qualquer NC ficam determinados — é o que dispensa mandar atributo a atributo quando alguém sobe.
+  const perfilLista = useMemo(() => {
+    const termo = perfilBusca.trim().toLowerCase();
+    return characters
+      .filter(c => {
+        const completo = !!c.combatStyle && !!c.focoAtributo;
+        return (perfilFiltro === 'todos'
+          || (perfilFiltro === 'completos' && completo)
+          || (perfilFiltro === 'faltando' && !completo))
+          && (!termo || c.name.toLowerCase().includes(termo) || (c.clan ?? '').toLowerCase().includes(termo));
+      })
+      .map(c => {
+        // A prévia só existe quando os dois estão escolhidos e o NC está na tabela.
+        const previa = c.combatStyle && c.focoAtributo && MIN_POR_NC[c.nc] !== undefined
+          ? distribuirAtributos(c.nc, c.combatStyle as EstiloCombate, c.focoAtributo as FocoAtributo)
+          : null;
+        const atual = ['strength', 'dexterity', 'agility', 'intelligence', 'spirit', 'vigor', 'perception']
+          .map(k => Number((c.stats as unknown as Record<string, unknown>)?.[k]) || 0);
+        const prev = previa
+          ? [previa.stats.strength, previa.stats.dexterity, previa.stats.agility,
+            previa.stats.intelligence, previa.stats.spirit, previa.stats.vigor, previa.stats.perception].map(Number)
+          : null;
+        return { c, previa, atual, prev, igual: !!prev && prev.every((v, i) => v === atual[i]) };
+      });
+  }, [characters, perfilBusca, perfilFiltro]);
+
+  const perfilCompletos = useMemo(() => characters.filter(c => c.combatStyle && c.focoAtributo).length, [characters]);
+
+  const gravaPerfil = useCallback(async (c: Character, mudanca: { combatStyle?: Character['combatStyle']; focoAtributo?: Character['focoAtributo'] }) => {
+    if (!c.docId) return;
+    setPerfilSalvando(c.docId);
+    setPerfilErro(null);
+    try {
+      await setCombatProfile(c.docId, mudanca);
+    } catch (e) {
+      console.error('Erro ao gravar perfil de combate:', e);
+      setPerfilErro('Não foi possível gravar. Tente de novo.');
+    } finally {
+      setPerfilSalvando(null);
+    }
+  }, []);
 
   // Aba Eventos: os mesmos itens do projeto Eventos, mas o assunto aqui é quem estava em cada um.
   const eventosLista = useMemo(
@@ -843,6 +891,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           { key: 'canva' as const, label: 'Listas' },
           { key: 'eventos' as const, label: 'Eventos' },
           { key: 'links' as const, label: 'Links' },
+          { key: 'perfil' as const, label: 'Perfil' },
           { key: 'producao' as const, label: 'Produção' },
           { key: 'prototipos' as const, label: 'Protótipos' },
         ]).map(t => (
@@ -954,6 +1003,137 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         </div>
       </section>
       </>
+      )}
+
+      {activeTab === 'perfil' && (
+      <section>
+        <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <span>Perfil de combate</span>
+          <span className="flex-1 h-px bg-tech-border"></span>
+        </div>
+
+        <p className="text-[11px] text-tech-primary/50 mb-4 max-w-3xl leading-relaxed">
+          Duas escolhas por personagem resolvem os sete atributos de qualquer NC. Nada disso aparece
+          no site — é só para distribuir. <span className="text-tech-primary">Estilo</span> manda o par
+          dele ao teto e o par oposto ao mínimo; <span className="text-tech-primary">foco</span> diz qual
+          dos três livres puxa a sobra primeiro. A prévia mostra o resultado no NC de hoje.
+        </p>
+
+        <div className="border border-tech-border bg-tech-panel/30 p-4 mb-5">
+          <div className="flex flex-wrap items-center gap-3 mb-3">
+            <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide">
+              <span className="text-white text-lg font-black">{perfilCompletos}</span>
+              <span>/{characters.length} com estilo e foco definidos</span>
+            </div>
+            <div className="flex-1 min-w-[120px] h-1 bg-black border border-tech-border overflow-hidden">
+              <div className="h-full bg-tech-primary transition-all duration-500" style={{ width: `${characters.length ? (perfilCompletos / characters.length) * 100 : 0}%` }} />
+            </div>
+            {perfilErro && <span className="text-[10px] text-red-400">{perfilErro}</span>}
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="relative flex-1 min-w-[200px]">
+              <Search size={12} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-tech-primary/40" />
+              <input
+                type="search"
+                value={perfilBusca}
+                onChange={e => setPerfilBusca(e.target.value)}
+                placeholder="buscar personagem ou clã..."
+                className="w-full bg-black border border-tech-border pl-8 pr-2 py-2 text-[11px] text-tech-primary placeholder:text-tech-primary/30 focus:border-tech-primary outline-none"
+              />
+            </div>
+            {([
+              { k: 'todos' as const, l: 'Todos' },
+              { k: 'faltando' as const, l: 'Faltando' },
+              { k: 'completos' as const, l: 'Definidos' },
+            ]).map(f => (
+              <button
+                key={f.k}
+                type="button"
+                onClick={() => setPerfilFiltro(f.k)}
+                className={`px-2.5 py-2 border text-[9px] font-bold uppercase tracking-widest transition-all ${perfilFiltro === f.k ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/50 hover:text-tech-primary'}`}
+              >
+                {f.l}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="border border-tech-border bg-tech-panel/20 overflow-x-auto">
+          <table className="w-full text-[11px]">
+            <thead>
+              <tr className="bg-tech-panel/60 text-tech-primary/40 text-[9px] uppercase tracking-widest">
+                <th className="py-2 pl-3 pr-3 text-left font-normal">Personagem</th>
+                <th className="py-2 pr-3 text-right font-normal w-12">NC</th>
+                <th className="py-2 pr-3 text-left font-normal w-52">Estilo</th>
+                <th className="py-2 pr-3 text-left font-normal">Foco da sobra</th>
+                <th className="py-2 pr-3 text-left font-normal w-56">Prévia · F/D/A/I/E/V/P</th>
+              </tr>
+            </thead>
+            <tbody>
+              {perfilLista.map(({ c, previa, atual, prev, igual }) => (
+                <tr key={c.docId ?? c.name} className="border-t border-tech-border/40 hover:bg-tech-panel/40">
+                  <td className="py-1.5 pl-3 pr-3">
+                    <span className="text-white font-bold">{c.name}</span>
+                    {c.clan && <span className="text-tech-primary/30 text-[9px] uppercase tracking-wide ml-2">{c.clan}</span>}
+                  </td>
+                  <td className="py-1.5 pr-3 text-right tabular-nums text-tech-primary/60">{c.nc || '—'}</td>
+                  <td className="py-1.5 pr-3">
+                    <div className="flex gap-1">
+                      {(['Corporal', 'Distância'] as const).map(e => (
+                        <button
+                          key={e}
+                          type="button"
+                          onClick={() => gravaPerfil(c, { combatStyle: c.combatStyle === e ? undefined : e })}
+                          disabled={c.combatStyle === e}
+                          title={e === 'Corporal' ? 'Força e Agilidade no teto' : 'Destreza e Percepção no teto'}
+                          className={`px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wide transition-all ${c.combatStyle === e ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60'}`}
+                        >
+                          {e === 'Distância' ? 'Distância' : 'Corporal'}
+                        </button>
+                      ))}
+                    </div>
+                  </td>
+                  <td className="py-1.5 pr-3">
+                    <div className="flex flex-wrap gap-1">
+                      {FOCOS.map(f => (
+                        <button
+                          key={f.key}
+                          type="button"
+                          onClick={() => gravaPerfil(c, { focoAtributo: c.focoAtributo === f.key ? undefined : f.key })}
+                          disabled={c.focoAtributo === f.key}
+                          className={`px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wide transition-all ${c.focoAtributo === f.key ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60'}`}
+                        >
+                          {f.label}
+                        </button>
+                      ))}
+                      {perfilSalvando === c.docId && <Loader size={10} className="animate-spin text-tech-primary self-center" />}
+                    </div>
+                  </td>
+                  <td className="py-1.5 pr-3 whitespace-nowrap">
+                    {!prev ? (
+                      <span className="text-tech-primary/25 text-[10px] uppercase tracking-wide">
+                        {!c.nc ? 'sem NC' : 'escolha os dois'}
+                      </span>
+                    ) : (
+                      <div className="flex flex-col gap-0.5 font-mono text-[10px] tabular-nums">
+                        {/* verde quando a prévia bate com o que já está na ficha; âmbar quando difere,
+                            porque aí aplicar mudaria atributo — e o Pedro precisa ver isso antes */}
+                        <span className={igual ? 'text-tech-primary' : 'text-orange-400'}>
+                          {prev.join('/')} <span className="opacity-50">= {previa!.soma}</span>
+                        </span>
+                        {!igual && <span className="text-tech-primary/30">hoje {atual.join('/')}</span>}
+                      </div>
+                    )}
+                  </td>
+                </tr>
+              ))}
+              {perfilLista.length === 0 && (
+                <tr><td colSpan={5} className="py-6 text-center text-[10px] text-tech-primary/30 uppercase tracking-widest">Nenhum personagem com esse filtro.</td></tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      </section>
       )}
 
       {activeTab === 'producao' && (

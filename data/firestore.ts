@@ -90,6 +90,21 @@ export async function saveCharacter(
   return docId;
 }
 
+/**
+ * Grava o perfil de combate de um personagem: estilo e foco de atributo. Os dois são internos e
+ * juntos determinam os sete atributos quando o NC sobe — ver data/atributos.ts.
+ */
+export async function setCombatProfile(
+  docId: string,
+  perfil: { combatStyle?: Character['combatStyle']; focoAtributo?: Character['focoAtributo'] },
+): Promise<void> {
+  // clean() tira undefined, entao passar so um dos dois campos nao apaga o outro
+  const limpo: Record<string, string> = {};
+  if (perfil.combatStyle) limpo.combatStyle = perfil.combatStyle;
+  if (perfil.focoAtributo) limpo.focoAtributo = perfil.focoAtributo;
+  await updateDoc(doc(db, 'characters', docId), limpo);
+}
+
 export async function deleteCharacter(docId: string): Promise<void> {
   await deleteDoc(doc(db, 'characters', docId));
 }

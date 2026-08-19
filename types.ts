@@ -202,6 +202,12 @@ export interface Character {
    * Distância com a aptidão Acuidade, que 54 das 86 fichas têm.
    */
   combatStyle?: 'Corporal' | 'Distância';
+  /**
+   * Qual dos três atributos livres (Inteligência, Vigor, Espírito) puxa a sobra primeiro quando o NC
+   * sobe. "dividido" reparte entre os três. Interno, como o combatStyle — junto com ele, os sete
+   * atributos ficam determinados por dois cliques. Ver data/atributos.ts.
+   */
+  focoAtributo?: 'inteligencia' | 'vigor' | 'espirito' | 'dividido';
 }
 
 /** Peso de cada rank, do mais forte para o mais fraco. Usado para ordenar o Arsenal. */
