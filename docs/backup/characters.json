@@ -1835,28 +1835,6 @@
     "position": "Tsuchikage",
     "role": "?",
     "description": "",
-    "powers": [
-      {
-        "name": "Juryūkuton",
-        "level": 0
-      },
-      {
-        "name": "Koton",
-        "level": 0
-      },
-      {
-        "name": "Doton",
-        "level": 0
-      },
-      {
-        "name": "Raiton",
-        "level": 0
-      },
-      {
-        "name": "Futon",
-        "level": 0
-      }
-    ],
     "aptitudes": [
       "Desconhecido",
       "Desconhecido",
@@ -1985,7 +1963,29 @@
       "perception": 28
     },
     "hp": 234,
-    "chakra": 76
+    "chakra": 76,
+    "powers": [
+      {
+        "name": "Juryūkuton",
+        "level": 14
+      },
+      {
+        "name": "Koton",
+        "level": 14
+      },
+      {
+        "name": "Doton",
+        "level": 14
+      },
+      {
+        "name": "Raiton",
+        "level": 14
+      },
+      {
+        "name": "Futon",
+        "level": 14
+      }
+    ]
   },
   {
     "__docId": "enrai-hanzo",
@@ -2610,28 +2610,6 @@
     "position": "Mizukage",
     "role": "?",
     "description": "Desconhecido",
-    "powers": [
-      {
-        "name": "Saiken",
-        "level": 0
-      },
-      {
-        "name": "Purazomaton",
-        "level": 0
-      },
-      {
-        "name": "Katon",
-        "level": 0
-      },
-      {
-        "name": "Suiton",
-        "level": 0
-      },
-      {
-        "name": "Raiton",
-        "level": 0
-      }
-    ],
     "aptitudes": [
       "Chakra Expandido: Saiken",
       "Desconhecido",
@@ -2740,7 +2718,29 @@
       "perception": 28
     },
     "hp": 216,
-    "chakra": 141
+    "chakra": 141,
+    "powers": [
+      {
+        "name": "Saiken",
+        "level": 14
+      },
+      {
+        "name": "Purazomaton",
+        "level": 14
+      },
+      {
+        "name": "Katon",
+        "level": 14
+      },
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Raiton",
+        "level": 14
+      }
+    ]
   },
   {
     "__docId": "genei-g",
@@ -5024,32 +5024,6 @@
     "position": "Raikage",
     "role": "?",
     "description": "",
-    "powers": [
-      {
-        "name": "Kosaton",
-        "level": 0
-      },
-      {
-        "name": "Futon",
-        "level": 0
-      },
-      {
-        "name": "Suiton",
-        "level": 0
-      },
-      {
-        "name": "Raiton",
-        "level": 0
-      },
-      {
-        "name": "Ranton",
-        "level": 0
-      },
-      {
-        "name": "Nintaijutsu",
-        "level": 0
-      }
-    ],
     "aptitudes": [
       "Shiroki Kaminari",
       "Kaminari",
@@ -5158,7 +5132,33 @@
       "perception": 11
     },
     "hp": 234,
-    "chakra": 94
+    "chakra": 94,
+    "powers": [
+      {
+        "name": "Kosaton",
+        "level": 14
+      },
+      {
+        "name": "Futon",
+        "level": 14
+      },
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Raiton",
+        "level": 14
+      },
+      {
+        "name": "Ranton",
+        "level": 14
+      },
+      {
+        "name": "Nintaijutsu",
+        "level": 14
+      }
+    ]
   },
   {
     "__docId": "katsumi-hyuga",
@@ -10542,7 +10542,6 @@
     "role": "",
     "description": "",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1786651889641519",
-    "powers": [],
     "aptitudes": [],
     "timelineAppearance": "Prólogo",
     "timelineDeath": "1ª Temporada",
@@ -10611,7 +10610,25 @@
       "perception": 7
     },
     "hp": 130,
-    "chakra": 64
+    "chakra": 64,
+    "powers": [
+      {
+        "name": "Juken",
+        "level": 9
+      },
+      {
+        "name": "Iryou Ninjutsu",
+        "level": 9
+      },
+      {
+        "name": "Senjutsu",
+        "level": 9
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 9
+      }
+    ]
   },
   {
     "__docId": "satoshi-namikaze",
@@ -10866,36 +10883,6 @@
     "role": "?",
     "description": "",
     "techniques": [],
-    "powers": [
-      {
-        "name": "Sakin",
-        "level": 0
-      },
-      {
-        "name": "Satetsu",
-        "level": 0
-      },
-      {
-        "name": "Saton",
-        "level": 0
-      },
-      {
-        "name": "Doton",
-        "level": 0
-      },
-      {
-        "name": "Fuuton",
-        "level": 0
-      },
-      {
-        "name": "Iryou Ninjutsu",
-        "level": 0
-      },
-      {
-        "name": "Fuinjutsu",
-        "level": 0
-      }
-    ],
     "aptitudes": [
       "Desconhecido",
       "Desconhecido",
@@ -10932,7 +10919,37 @@
       "perception": 28
     },
     "hp": 216,
-    "chakra": 94
+    "chakra": 94,
+    "powers": [
+      {
+        "name": "Sakin",
+        "level": 14
+      },
+      {
+        "name": "Satetsu",
+        "level": 14
+      },
+      {
+        "name": "Saton",
+        "level": 14
+      },
+      {
+        "name": "Doton",
+        "level": 14
+      },
+      {
+        "name": "Fuuton",
+        "level": 14
+      },
+      {
+        "name": "Iryou Ninjutsu",
+        "level": 14
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 14
+      }
+    ]
   },
   {
     "__docId": "shikaki-nara",

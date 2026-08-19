@@ -6401,27 +6401,27 @@ export const initialData: Character[] = [
     powers: [
       {
         name: "Kosaton",
-        level: 0
+        level: 14
       },
       {
         name: "Futon",
-        level: 0
+        level: 14
       },
       {
         name: "Suiton",
-        level: 0
+        level: 14
       },
       {
         name: "Raiton",
-        level: 0
+        level: 14
       },
       {
         name: "Ranton",
-        level: 0
+        level: 14
       },
       {
         name: "Nintaijutsu",
-        level: 0
+        level: 14
       }
     ],
     aptitudes: [
@@ -6546,23 +6546,23 @@ export const initialData: Character[] = [
     powers: [
       {
         name: "Saiken",
-        level: 0
+        level: 14
       },
       {
         name: "Purazomaton",
-        level: 0
+        level: 14
       },
       {
         name: "Katon",
-        level: 0
+        level: 14
       },
       {
         name: "Suiton",
-        level: 0
+        level: 14
       },
       {
         name: "Raiton",
-        level: 0
+        level: 14
       }
     ],
     aptitudes: [
@@ -6707,23 +6707,23 @@ export const initialData: Character[] = [
     powers: [
       {
         name: "Juryūkuton",
-        level: 0
+        level: 14
       },
       {
         name: "Koton",
-        level: 0
+        level: 14
       },
       {
         name: "Doton",
-        level: 0
+        level: 14
       },
       {
         name: "Raiton",
-        level: 0
+        level: 14
       },
       {
         name: "Futon",
-        level: 0
+        level: 14
       }
     ],
     aptitudes: [
@@ -6793,31 +6793,31 @@ export const initialData: Character[] = [
     powers: [
       {
         name: "Sakin",
-        level: 0
+        level: 14
       },
       {
         name: "Satetsu",
-        level: 0
+        level: 14
       },
       {
         name: "Saton",
-        level: 0
+        level: 14
       },
       {
         name: "Doton",
-        level: 0
+        level: 14
       },
       {
         name: "Fuuton",
-        level: 0
+        level: 14
       },
       {
         name: "Iryou Ninjutsu",
-        level: 0
+        level: 14
       },
       {
         name: "Fuinjutsu",
-        level: 0
+        level: 14
       }
     ],
     aptitudes: [
@@ -6869,7 +6869,12 @@ export const initialData: Character[] = [
       vigor: 10,
       perception: 7
     },
-    powers: [],
+    powers: [
+      { name: "Juken", level: 9 },
+      { name: "Iryou Ninjutsu", level: 9 },
+      { name: "Senjutsu", level: 9 },
+      { name: "Fuinjutsu", level: 9 }
+    ],
     aptitudes: [],
     timelineAppearance: "Prólogo",
     timelineDeath: "1ª Temporada",
