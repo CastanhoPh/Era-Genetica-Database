@@ -31,7 +31,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const [pending, setPending] = useState<Set<string>>(new Set());
   const [editMode, setEditMode] = useState(false);
   const [activeFilter, setActiveFilter] = useState<'none' | 'pendentes' | 'sem-galeria'>('none');
-  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'geral'>('geral');
+  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'geral'>('geral');
 
   // formulários de "adicionar" abertos (chave = temporada, temporada::arco, ou temporada::arco::subarco)
   const [addingTemporada, setAddingTemporada] = useState(false);
@@ -67,10 +67,18 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const isTimeline = activeType === 'timeline';
   const isCapa = activeType === 'capa';
   const isTransformacao = activeType === 'transformacao';
+  const isInvocacao = activeType === 'invocacao';
+  const isCapaInvocacao = activeType === 'capaInvocacao';
   const isGeral = activeType === 'geral';
+  // As duas capas se comportam igual no formulário: o nome É o item, não existe fase separada.
+  const capaLike = isCapa || isCapaInvocacao;
   // Tipo usado ao criar um item novo — a aba "Geral" mistura os outros tipos, então criar
   // por lá sempre cai em "evento" (comportamento já existente, só nomeado agora).
-  const currentType: ChecklistItem['type'] = isTimeline ? 'timeline' : isCapa ? 'capa' : isTransformacao ? 'transformacao' : 'evento';
+  const currentType: ChecklistItem['type'] = isTimeline ? 'timeline'
+    : isCapa ? 'capa'
+      : isCapaInvocacao ? 'capaInvocacao'
+        : isInvocacao ? 'invocacao'
+          : isTransformacao ? 'transformacao' : 'evento';
   const labels = isTransformacao
     ? {
       subtitle: 'Marque aqui os modos e transformações já finalizados de cada personagem',
@@ -95,6 +103,18 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
       addArcoTitle: 'Adicionar fase',
       emptyChecklist: 'Nenhum item na linha do tempo ainda.',
     }
+    : isInvocacao
+    ? {
+      subtitle: 'Marque aqui as artes de invocação já finalizadas, agrupadas pelo dono',
+      temporadaLabel: 'Dono',
+      arcoLabel: 'Invocação',
+      newTemporadaBtn: 'Novo Dono',
+      temporadaPlaceholder: 'Primeiro nome do dono',
+      firstArcoPlaceholder: 'Nome da primeira invocação',
+      arcoPlaceholder: 'Nome da invocação',
+      addArcoTitle: 'Adicionar invocação',
+      emptyChecklist: 'Nenhuma invocação cadastrada ainda.',
+    }
     : isCapa
       ? {
         subtitle: 'Marque aqui quais personagens já têm a capa (imagem de perfil) atualizada',
@@ -107,9 +127,21 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
         addArcoTitle: '',
         emptyChecklist: 'Nenhuma capa cadastrada ainda.',
       }
+      : isCapaInvocacao
+      ? {
+        subtitle: 'Marque aqui quais invocações já têm capa',
+        temporadaLabel: 'Invocação',
+        arcoLabel: '',
+        newTemporadaBtn: 'Nova Invocação',
+        temporadaPlaceholder: 'Nome da invocação',
+        firstArcoPlaceholder: '',
+        arcoPlaceholder: '',
+        addArcoTitle: '',
+        emptyChecklist: 'Nenhuma capa de invocação cadastrada ainda.',
+      }
       : isGeral
         ? {
-          subtitle: 'Todas as imagens de Eventos, Linha do Tempo, Modos e Capa, juntas',
+          subtitle: 'Todas as imagens de Eventos, Linha do Tempo, Modos, Invocações e Capas, juntas',
           temporadaLabel: '',
           arcoLabel: '',
           newTemporadaBtn: '',
@@ -287,9 +319,9 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
 
   const confirmAddTemporada = async () => {
     const temporada = newTemporadaFields.temporada.trim();
-    // Em Capa não existe fase/item separado: o personagem já É o item (arco = name = temporada).
-    const arco = isCapa ? temporada : newTemporadaFields.arco.trim();
-    const name = isCapa ? temporada : newTemporadaFields.item.trim();
+    // Nas duas Capas não existe fase/item separado: o nome já É o item (arco = name = temporada).
+    const arco = capaLike ? temporada : newTemporadaFields.arco.trim();
+    const name = capaLike ? temporada : newTemporadaFields.item.trim();
     if (!temporada || !arco || !name) return;
     // Faixa do tipo como piso: sem isso um personagem novo na Linha do Tempo pegaria o order
     // máximo GLOBAL (hoje na faixa de Eventos, a última) e cairia no projeto errado. O piso
@@ -490,7 +522,21 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
             onClick={() => setActiveType('capa')}
             className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'capa' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
-            <ImageIcon size={12} /> Capa
+            <ImageIcon size={12} /> Capas de Personagens
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveType('invocacao')}
+            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'invocacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+          >
+            <Sparkles size={12} /> Invocações
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveType('capaInvocacao')}
+            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'capaInvocacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+          >
+            <ImageIcon size={12} /> Capas de Invocações
           </button>
         </div>
 
@@ -535,14 +581,14 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
             onChange={e => setNewTemporadaFields(f => ({ ...f, temporada: e.target.value }))}
             className="bg-black border border-tech-border text-white text-sm px-2 py-1.5 flex-1 outline-none focus:border-tech-accent"
           />
-          {!isCapa && (
+          {!capaLike && (
             <input
               type="text" placeholder={labels.firstArcoPlaceholder} value={newTemporadaFields.arco}
               onChange={e => setNewTemporadaFields(f => ({ ...f, arco: e.target.value }))}
               className="bg-black border border-tech-border text-white text-sm px-2 py-1.5 flex-1 outline-none focus:border-tech-accent"
             />
           )}
-          {!isCapa && (
+          {!capaLike && (
             <input
               type="text" placeholder="Nome do primeiro item" value={newTemporadaFields.item}
               onChange={e => setNewTemporadaFields(f => ({ ...f, item: e.target.value }))}
@@ -600,7 +646,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
                     <span className="text-white font-black uppercase tracking-wide truncate text-lg">{group.temporada}</span>
                   </button>
                   <div className="flex items-center gap-3 shrink-0">
-                    {canEdit && editMode && !isGeral && !isCapa && (
+                    {canEdit && editMode && !isGeral && !capaLike && (
                       <button type="button" onClick={() => openAddArco(group.temporada)} title={labels.addArcoTitle} className="p-1 border border-tech-accent/40 text-tech-accent hover:bg-tech-accent/10">
                         <Plus size={13} />
                       </button>

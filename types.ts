@@ -60,6 +60,23 @@ export const EVENT_SEASONS = ['1ª Temporada', '2ª Temporada', '3ª Temporada',
 // Cada type corresponde a um projeto do Canva, 1 pra 1 — é o que permite mapear página do
 // design para item do checklist. Por isso Modos e Transformações é um type próprio, e não
 // mais fases avulsas dentro de "timeline".
+/**
+ * Uma invocação na ficha do dono. Vem de dois projetos do Canva, ambos 4:3: a `capa` é o retrato
+ * que o card mostra, e a `arte` é a ilustração cheia que abre ao clicar.
+ */
+export interface Invocacao {
+  /** Nome próprio da criatura — "Gurenmaru", "Yuki Fukuro", "Zotora". */
+  nome: string;
+  /** Capa 4:3, do projeto "Capas Invocação". É a imagem do card. */
+  capaUrl?: string;
+  /** Arte cheia 4:3, do projeto "Invocações". É o que abre ao clicar no card. */
+  arteUrl?: string;
+  /** Rank na mesma escala do arsenal (Z, S++, S+, S, A+). Ainda não definido para nenhuma. */
+  rank?: string;
+  /** A arte é uma página em branco: existe arquivo, não existe desenho. */
+  placeholder?: boolean;
+}
+
 export interface ChecklistItem {
   docId?: string;
   /**
@@ -187,6 +204,14 @@ export interface Character {
   techniques?: Technique[];
   arsenal?: number[];
   gallery?: GalleryImage[];
+  /**
+   * Invocações do personagem, cópia desnormalizada do checklist — mesma escolha da `gallery`: a
+   * ficha é pública e não pode ler as 741 linhas do `imageChecklist` só para achar as suas.
+   *
+   * Reconstruído por `npm run invocacoes:fix`, que casa o `temporada` do item (o primeiro nome do
+   * dono) com a ficha. Editar aqui à mão é perder na próxima reconciliação.
+   */
+  invocacoes?: Invocacao[];
   /** Temporada da 1ª aparição na história (padrão: "Prólogo"). Fases antes disso não existem. */
   timelineAppearance?: string;
   /** Temporada em que o personagem morreu, se aplicável — nada depois disso existe. */

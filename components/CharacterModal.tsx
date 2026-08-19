@@ -4,7 +4,7 @@ import {
   X, Shield, Zap, Star, Backpack, Scroll, Heart, Activity,
   BicepsFlexed, Hand, Move, Brain, Ghost, Eye, Terminal, Lock, Skull, Flame,
   AlertTriangle, Fingerprint, Binary, Image as ImageIcon,
-  ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine
+  ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine, Sparkles
 } from 'lucide-react';
 import { Character, EVENT_SEASONS } from '../types';
 import { Equipment } from '../types/Equipment';
@@ -190,6 +190,11 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const transformacaoGallery = galleryWithIndex.filter(({ img }) => img.category === 'transformacao');
   const eventoGallery = galleryWithIndex.filter(({ img }) => img.category === 'evento');
 
+  // As invocações vêm desnormalizadas na ficha (`invocacoes`), não do checklist: a ficha é pública
+  // e não pode ler as 741 linhas do imageChecklist para achar as suas. A ordem gravada é a das
+  // páginas do Canva, então nada de reordenar aqui.
+  const characterInvocacoes = char.invocacoes || [];
+
   // Aba ativa e item selecionado (jutsu/arma/imagem) vêm direto da URL — segmentos depois
   // do slug do personagem: /<slug>/jutsus[/<tecnica>], /<slug>/arsenal[/<arma>], /<slug>/galeria[/<imagem>].
   // Sem estado próprio pra duplicar (mesmo princípio já usado pra aba principal em App.tsx).
@@ -198,9 +203,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const itemSlugRaw = restSegments[1] ? decodeURIComponent(restSegments[1]) : undefined;
   // "galeria" continua valendo como rota da Linha do Tempo: é o que os links já compartilhados
   // usam, e a aba foi só renomeada e dividida em duas.
-  const activeTab: 'data' | 'techniques' | 'arsenal' | 'gallery' | 'eventos' =
+  const activeTab: 'data' | 'techniques' | 'arsenal' | 'invocacoes' | 'gallery' | 'eventos' =
     subTabRaw === 'jutsus' ? 'techniques' :
     subTabRaw === 'arsenal' ? 'arsenal' :
+    subTabRaw === 'invocacoes' ? 'invocacoes' :
     subTabRaw === 'eventos' ? 'eventos' :
     subTabRaw === 'linha-do-tempo' || subTabRaw === 'galeria' ? 'gallery' : 'data';
 
@@ -212,19 +218,27 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   const selectedWeaponIndex = activeTab === 'arsenal' && itemSlugRaw
     ? (() => { const i = characterArsenalAll.findIndex(w => w && slugify(w.name) === itemSlugRaw); return i >= 0 ? i : null; })()
     : null;
+  const selectedInvocacaoIndex = activeTab === 'invocacoes' && itemSlugRaw
+    ? (() => { const i = characterInvocacoes.findIndex(x => slugify(x.nome) === itemSlugRaw); return i >= 0 ? i : null; })()
+    : null;
   const selectedGalleryIndex = (activeTab === 'gallery' || activeTab === 'eventos') && itemSlugRaw
     ? (() => { const i = characterGallery.findIndex((g, gi) => gallerySlugFor(g, gi) === itemSlugRaw); return i >= 0 ? i : null; })()
     : null;
 
   const charBasePath = `/${encodeURIComponent(char.docId!)}`;
   const goTo = (path: string) => navigate(path, { state: location.state });
-  const goToTab = (tab: 'data' | 'techniques' | 'arsenal' | 'gallery' | 'eventos') => goTo(
+  const goToTab = (tab: 'data' | 'techniques' | 'arsenal' | 'invocacoes' | 'gallery' | 'eventos') => goTo(
     tab === 'data' ? charBasePath
       : tab === 'techniques' ? `${charBasePath}/jutsus`
       : tab === 'arsenal' ? `${charBasePath}/arsenal`
+      : tab === 'invocacoes' ? `${charBasePath}/invocacoes`
       : tab === 'eventos' ? `${charBasePath}/eventos`
       : `${charBasePath}/linha-do-tempo`
   );
+  const goToInvocacao = (idx: number) => {
+    const inv = characterInvocacoes[idx];
+    if (inv) goTo(`${charBasePath}/invocacoes/${encodeURIComponent(slugify(inv.nome))}`);
+  };
   const goToTechnique = (idx: number) => goTo(`${charBasePath}/jutsus/${encodeURIComponent(slugify(allTechniques[idx].name))}`);
   const goToWeapon = (idx: number) => {
     const w = characterArsenalAll[idx];
@@ -404,6 +418,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                         >
                             Arsenal [{characterCurrentSectionArsenal.length}]
                         </button>
+                        {characterInvocacoes.length > 0 && (
+                            <button
+                                onClick={() => goToTab('invocacoes')}
+                                className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'invocacoes' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                            >
+                                Invocações [{characterInvocacoes.length}]
+                            </button>
+                        )}
                         <button
                             onClick={() => goToTab('gallery')}
                             className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'gallery' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
@@ -819,6 +841,104 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     );
                                 })()}
                             </div>
+                        )}
+                    </div>
+                ) : activeTab === 'invocacoes' ? (
+                    <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
+                        {selectedInvocacaoIndex === null ? (
+                            <>
+                                <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
+                                    <span>Invocações</span>
+                                    <span className="flex-1 h-px bg-tech-border"></span>
+                                    <span className="text-tech-primary/30">{characterInvocacoes.length}</span>
+                                </div>
+                                {/* 4:3 porque é o formato real das duas artes — recortar em quadrado
+                                    como o arsenal faz jogaria fora um quarto do desenho */}
+                                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                                    {characterInvocacoes.map((inv, idx) => (
+                                        <button
+                                            key={inv.nome}
+                                            onClick={() => goToInvocacao(idx)}
+                                            className="group relative aspect-[4/3] border border-tech-border bg-tech-panel/40 overflow-hidden hover:border-tech-accent transition-all duration-300 text-left"
+                                        >
+                                            <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
+
+                                            {inv.rank && (
+                                                <div className="absolute top-2 left-2 z-30">
+                                                    <div className="bg-tech-accent text-black text-[8px] font-black px-1.5 py-0.5 clip-corner-sm shadow-[0_0_10px_rgba(255,176,0,0.3)] border-r-2 border-black/20">
+                                                        {inv.rank}
+                                                    </div>
+                                                </div>
+                                            )}
+
+                                            {inv.capaUrl && !inv.placeholder ? (
+                                                <img
+                                                    loading="lazy"
+                                                    decoding="async"
+                                                    src={formatImageUrl(inv.capaUrl)}
+                                                    alt={inv.nome}
+                                                    className={`w-full h-full object-cover group-hover:scale-110 transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
+                                                />
+                                            ) : (
+                                                /* placeholder é página em branco: mostrar a imagem seria
+                                                   fingir que a arte existe */
+                                                <div className="w-full h-full flex flex-col items-center justify-center gap-1.5 text-tech-dim">
+                                                    <Sparkles size={26} className="opacity-20" />
+                                                    <span className="text-[8px] uppercase tracking-widest text-tech-primary/25">arte pendente</span>
+                                                </div>
+                                            )}
+
+                                            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent pointer-events-none z-20" />
+                                            <span className="absolute bottom-1 left-1.5 right-1.5 text-[10px] text-white leading-tight line-clamp-2 pointer-events-none z-20">{inv.nome}</span>
+
+                                            <div className="absolute top-2 right-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <div className="bg-tech-accent text-black p-1">
+                                                    <ChevronRight size={12} />
+                                                </div>
+                                            </div>
+                                        </button>
+                                    ))}
+                                </div>
+                            </>
+                        ) : (
+                            (() => {
+                                const inv = characterInvocacoes[selectedInvocacaoIndex];
+                                // a arte cheia é o que faz sentido na tela aberta; a capa é o recorte de card
+                                const imagem = inv.arteUrl || inv.capaUrl;
+                                return (
+                                    <div className="animate-in fade-in duration-300">
+                                        <button
+                                            onClick={() => goToTab('invocacoes')}
+                                            className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest text-tech-primary/50 hover:text-tech-primary transition-colors mb-4"
+                                        >
+                                            <ChevronLeft size={12} /> voltar às invocações
+                                        </button>
+                                        <div className="flex items-baseline gap-3 flex-wrap mb-3">
+                                            <h3 className="text-xl font-black text-white uppercase tracking-wide">{inv.nome}</h3>
+                                            {inv.rank && (
+                                                <span className="bg-tech-accent text-black text-[9px] font-black px-2 py-0.5 clip-corner-sm">{inv.rank}</span>
+                                            )}
+                                            {inv.placeholder && (
+                                                <span className="text-[9px] font-black uppercase tracking-widest text-tech-primary/30 border border-tech-primary/30 px-2 py-0.5">arte pendente</span>
+                                            )}
+                                        </div>
+                                        {imagem && !inv.placeholder ? (
+                                            <div className="border border-tech-border bg-black overflow-hidden">
+                                                <img
+                                                    src={formatImageUrl(imagem)}
+                                                    alt={inv.nome}
+                                                    className="w-full h-auto"
+                                                />
+                                            </div>
+                                        ) : (
+                                            <div className="border border-tech-border bg-tech-panel/20 aspect-[4/3] flex flex-col items-center justify-center gap-2">
+                                                <Sparkles size={32} className="text-tech-primary/15" />
+                                                <span className="text-[10px] uppercase tracking-widest text-tech-primary/30">a arte desta invocação ainda não foi feita</span>
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })()
                         )}
                     </div>
                 ) : activeTab === 'arsenal' ? (

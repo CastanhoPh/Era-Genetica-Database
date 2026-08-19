@@ -205,7 +205,33 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "invocacoes": [
+      {
+        "nome": "Madeiroso",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMadeiroso.png?alt=media&v=1787163036172568",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FMadeiroso.png?alt=media&v=1787163035461735",
+        "placeholder": true
+      },
+      {
+        "nome": "Tronquinho",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTronquinho.png?alt=media&v=1787163037611908",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FTronquinho.png?alt=media&v=1787163036892294",
+        "placeholder": true
+      },
+      {
+        "nome": "Hash-hash",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHash-hash.png?alt=media&v=1787163039033762",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787163038316215",
+        "placeholder": true
+      },
+      {
+        "nome": "Sakura",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSakura.png?alt=media&v=1787163040436652",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FSakura.png?alt=media&v=1787163039733868",
+        "placeholder": true
+      }
+    ]
   },
   {
     "__docId": "akairo-uchiha-a",
@@ -496,6 +522,13 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
+    ],
+    "invocacoes": [
+      {
+        "nome": "Mizuchi",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMizuchi.png?alt=media&v=1787163029269377",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAkira%2FMizuchi.png?alt=media&v=1787163027853771"
+      }
     ]
   },
   {
@@ -698,7 +731,14 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "invocacoes": [
+      {
+        "nome": "Enma",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FEnma.png?alt=media&v=1787162998813299",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FApollo%2FEnma.png?alt=media&v=1787162996905893"
+      }
+    ]
   },
   {
     "__docId": "arashi-shidehara",
@@ -859,7 +899,14 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "invocacoes": [
+      {
+        "nome": "Shotora",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShotora.png?alt=media&v=1787163049436833",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAsami%2FShotora.png?alt=media&v=1787163047987047"
+      }
+    ]
   },
   {
     "__docId": "ayumi-uchiha",
@@ -1413,7 +1460,34 @@
         "level": 13
       }
     ],
-    "description": "Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.\n\nAinda jovem, quando a Organização do Chakra Profano ameaçou diretamente o clã Hyuga, uma decisão impossível foi tomada: uma criança deveria ser entregue em troca da sobrevivência de todos. Antes que qualquer escolha fosse feita por ele, Borashi tomou a decisão por si mesmo. Consciente do que estava em jogo, se ofereceu voluntariamente, acreditando que sua entrega salvaria sua família e garantiria o futuro de seu irmão mais novo, Katsumi.\n\nNo entanto, ao cair nas mãos da organização, seu destino foi distorcido. Suas memórias foram manipuladas através de genjutsus e alterações profundas de chakra, fazendo-o acreditar que havia sido abandonado, substituído e esquecido. Essa mentira se tornou uma cicatriz permanente, criando um bloqueio emocional que o impede de buscar a verdade.\n\nDurante os experimentos, seu poder evoluiu de forma anormal, despertando o raro Tenketsu Byakugan — uma variação avançada que lhe concede controle absoluto sobre os pontos de chakra, permitindo selar e interromper o fluxo interno de um oponente com precisão cirúrgica.\n\nParalelamente, após Furyuzan roubar as codificações genéticas de Katsumi, a organização iniciou uma série de testes visando recriar e aperfeiçoar esse poder, culminando na criação de um Fujogan artificial — uma evolução experimental que representa o ápice de suas pesquisas sobre o potencial do clã Hyuga.\n\nDiferente dos demais, Borashi não se tornou instável. Ele se tornou perfeito.\n\nFrio, calculista e extremamente estratégico, ele atua como o verdadeiro cérebro da Equipe 75%, coordenando cada movimento com precisão impecável. Sua presença é o único fator que mantém o Inferno Vermelho sob controle, sendo capaz de neutralizar Akairo com golpes precisos antes que a destruição fuja do controle.\n\nDominando o Suiton, a Liberação de Corrosão e o Juken em níveis avançados, Borashi luta como uma lâmina invisível — silenciosa, inevitável e letal.\n\nEle não levanta a voz. Não hesita. Não falha.\n\nPara a equipe, ele é liderança. Para a organização, ele é eficiência absoluta. E para si mesmo… ele é apenas alguém que aprendeu a congelar tudo o que sente para continuar seguindo em frente."
+    "description": "Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.\n\nAinda jovem, quando a Organização do Chakra Profano ameaçou diretamente o clã Hyuga, uma decisão impossível foi tomada: uma criança deveria ser entregue em troca da sobrevivência de todos. Antes que qualquer escolha fosse feita por ele, Borashi tomou a decisão por si mesmo. Consciente do que estava em jogo, se ofereceu voluntariamente, acreditando que sua entrega salvaria sua família e garantiria o futuro de seu irmão mais novo, Katsumi.\n\nNo entanto, ao cair nas mãos da organização, seu destino foi distorcido. Suas memórias foram manipuladas através de genjutsus e alterações profundas de chakra, fazendo-o acreditar que havia sido abandonado, substituído e esquecido. Essa mentira se tornou uma cicatriz permanente, criando um bloqueio emocional que o impede de buscar a verdade.\n\nDurante os experimentos, seu poder evoluiu de forma anormal, despertando o raro Tenketsu Byakugan — uma variação avançada que lhe concede controle absoluto sobre os pontos de chakra, permitindo selar e interromper o fluxo interno de um oponente com precisão cirúrgica.\n\nParalelamente, após Furyuzan roubar as codificações genéticas de Katsumi, a organização iniciou uma série de testes visando recriar e aperfeiçoar esse poder, culminando na criação de um Fujogan artificial — uma evolução experimental que representa o ápice de suas pesquisas sobre o potencial do clã Hyuga.\n\nDiferente dos demais, Borashi não se tornou instável. Ele se tornou perfeito.\n\nFrio, calculista e extremamente estratégico, ele atua como o verdadeiro cérebro da Equipe 75%, coordenando cada movimento com precisão impecável. Sua presença é o único fator que mantém o Inferno Vermelho sob controle, sendo capaz de neutralizar Akairo com golpes precisos antes que a destruição fuja do controle.\n\nDominando o Suiton, a Liberação de Corrosão e o Juken em níveis avançados, Borashi luta como uma lâmina invisível — silenciosa, inevitável e letal.\n\nEle não levanta a voz. Não hesita. Não falha.\n\nPara a equipe, ele é liderança. Para a organização, ele é eficiência absoluta. E para si mesmo… ele é apenas alguém que aprendeu a congelar tudo o que sente para continuar seguindo em frente.",
+    "invocacoes": [
+      {
+        "nome": "Seitora",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSeitora.png?alt=media&v=1787163055595693",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FSeitora.png?alt=media&v=1787163054126683"
+      },
+      {
+        "nome": "Shhei",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShhei.png?alt=media&v=1787163058505594",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FShhei.png?alt=media&v=1787163056963576"
+      },
+      {
+        "nome": "Daiju",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FDaiju.png?alt=media&v=1787163061580496",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FDaiju.png?alt=media&v=1787163059994460"
+      },
+      {
+        "nome": "Kokuryu",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKokuryu.png?alt=media&v=1787163064471840",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FKokuryu.png?alt=media&v=1787163063051234"
+      },
+      {
+        "nome": "Tsurugijin",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTsurugijin.png?alt=media&v=1787163067397128",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FTsurugijin.png?alt=media&v=1787163065926312"
+      }
+    ]
   },
   {
     "__docId": "chigiri-chinoike",
@@ -3905,7 +3979,39 @@
       "intelligence": 18
     },
     "hp": 154,
-    "chakra": 40
+    "chakra": 40,
+    "invocacoes": [
+      {
+        "nome": "Gono",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGono.png?alt=media&v=1787163009752774",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FGono.png?alt=media&v=1787163007873563"
+      },
+      {
+        "nome": "Kirr",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKirr.png?alt=media&v=1787163013570815",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FKirr.png?alt=media&v=1787163011644521"
+      },
+      {
+        "nome": "Hiiro",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHiiro.png?alt=media&v=1787163017314844",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FHiiro.png?alt=media&v=1787163015430487"
+      },
+      {
+        "nome": "Neter",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNeter.png?alt=media&v=1787163020414529",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FNeter.png?alt=media&v=1787163018918004"
+      },
+      {
+        "nome": "Chroll",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FChroll.png?alt=media&v=1787163023425148",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FChroll.png?alt=media&v=1787163021875782"
+      },
+      {
+        "nome": "Meruem",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMeruem.png?alt=media&v=1787163026365021",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FMeruem.png?alt=media&v=1787163024922413"
+      }
+    ]
   },
   {
     "__docId": "hoshiro-hyuga",
@@ -4020,7 +4126,14 @@
       "spirit": 22,
       "agility": 11
     },
-    "chakra": 76
+    "chakra": 76,
+    "invocacoes": [
+      {
+        "nome": "Ketsutora",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKetsutora.png?alt=media&v=1787163043461654",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHoshiro%2FKetsutora.png?alt=media&v=1787163041911354"
+      }
+    ]
   },
   {
     "__docId": "inazuma-kazuchi",
@@ -4901,7 +5014,59 @@
     "divisaoAtributo": {
       "inteligencia": 60,
       "vigor": 40
-    }
+    },
+    "invocacoes": [
+      {
+        "nome": "Nishinoya",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNishinoya.png?alt=media&v=1787162919286325",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNishinoya.png?alt=media&v=1787162916812588"
+      },
+      {
+        "nome": "Katsumi",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKatsumi.png?alt=media&v=1787162924011061",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FKatsumi.png?alt=media&v=1787162921599819"
+      },
+      {
+        "nome": "Oddy",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOddy.png?alt=media&v=1787162928427106",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FOddy.png?alt=media&v=1787162926159719"
+      },
+      {
+        "nome": "Shoei",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShoei.png?alt=media&v=1787162932987017",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FShoei.png?alt=media&v=1787162930626841"
+      },
+      {
+        "nome": "Takeshi",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTakeshi.png?alt=media&v=1787162937608938",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FTakeshi.png?alt=media&v=1787162935262103"
+      },
+      {
+        "nome": "Najin",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNajin.png?alt=media&v=1787162942173529",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNajin.png?alt=media&v=1787162939864213"
+      },
+      {
+        "nome": "Kenma",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKenma.png?alt=media&v=1787162946800724",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FKenma.png?alt=media&v=1787162944442854"
+      },
+      {
+        "nome": "Ayumi",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAyumi.png?alt=media&v=1787162951428690",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FAyumi.png?alt=media&v=1787162949114512"
+      },
+      {
+        "nome": "Furyuzan",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FFuryuzan.png?alt=media&v=1787162955998492",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FFuryuzan.png?alt=media&v=1787162953709859"
+      },
+      {
+        "nome": "Nagare",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNagare.png?alt=media&v=1787162960372418",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNagare.png?alt=media&v=1787162958076280"
+      }
+    ]
   },
   {
     "__docId": "kaizuka-hyuga",
@@ -5006,7 +5171,14 @@
       "inteligencia",
       "vigor"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "invocacoes": [
+      {
+        "nome": "Hokotora",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHokotora.png?alt=media&v=1787163046469149",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaizuka%2FHokotora.png?alt=media&v=1787163045031291"
+      }
+    ]
   },
   {
     "__docId": "katakana-yotsuki-alpha",
@@ -5712,6 +5884,18 @@
         "status": "Técnica fundamental do clã Hyuga. Embora a ativação seja natural para seus membros, o nível avançado de percepção e alcance visual demonstrado nesta forma exige grande experiência, controle refinado de chakra e treinamento contínuo do usuário.",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F09%20-%20Tenketsu%20Byakugan.png?alt=media&v=1786651877167781"
       }
+    ],
+    "invocacoes": [
+      {
+        "nome": "Kintora",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKintora.png?alt=media&v=1787162965037982",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FKintora.png?alt=media&v=1787162962669815"
+      },
+      {
+        "nome": "Yomatora",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYomatora.png?alt=media&v=1787162969648084",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FYomatora.png?alt=media&v=1787162967351042"
+      }
     ]
   },
   {
@@ -6379,7 +6563,14 @@
     },
     "hp": 178,
     "chakra": 52,
-    "clan": "Kazeori"
+    "clan": "Kazeori",
+    "invocacoes": [
+      {
+        "nome": "Kurotsume",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKurotsume.png?alt=media&v=1787162974209383",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKurohime%2FKurotsume.png?alt=media&v=1787162971888764"
+      }
+    ]
   },
   {
     "__docId": "kuromi-uchiha",
@@ -7486,7 +7677,14 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "invocacoes": [
+      {
+        "nome": "Yuki Fukuro",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYuki_Fukuro.png?alt=media&v=1787163752486854",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNagi%2FYuki_Fukuro.png?alt=media&v=1787163751694125"
+      }
+    ]
   },
   {
     "__docId": "najin-hatake",
@@ -9030,6 +9228,13 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
+    ],
+    "invocacoes": [
+      {
+        "nome": "Matatabi",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMatatabi.png?alt=media&v=1787162977909448",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNishinoya%2FMatatabi.png?alt=media&v=1787162975985860"
+      }
     ]
   },
   {
@@ -9691,7 +9896,14 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "invocacoes": [
+      {
+        "nome": "Oddyo",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOddyo.png?alt=media&v=1787162981641750",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FOddy%2FOddyo.png?alt=media&v=1787162979697505"
+      }
+    ]
   },
   {
     "__docId": "raiden-yotsuki",
@@ -10773,7 +10985,24 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "invocacoes": [
+      {
+        "nome": "Gamarai",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamarai.png?alt=media&v=1787162985397047",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamarai.png?alt=media&v=1787162983570716"
+      },
+      {
+        "nome": "Gamasen",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamasen.png?alt=media&v=1787162988585286",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamasen.png?alt=media&v=1787162986743503"
+      },
+      {
+        "nome": "Gurenmaru",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGurenmaru.png?alt=media&v=1787162991878811",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGurenmaru.png?alt=media&v=1787162990419669"
+      }
+    ]
   },
   {
     "__docId": "sayuri-sabaku",
@@ -11195,7 +11424,29 @@
       "vigor": 18,
       "intelligence": 10
     },
-    "hp": 154
+    "hp": 154,
+    "invocacoes": [
+      {
+        "nome": "Anken",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAnken.png?alt=media&v=1787163070412743",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FAnken.png?alt=media&v=1787163068851748"
+      },
+      {
+        "nome": "Meiryu",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMeiryu.png?alt=media&v=1787163073397322",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FMeiryu.png?alt=media&v=1787163071989788"
+      },
+      {
+        "nome": "Kagejin",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKagejin.png?alt=media&v=1787163076543649",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FKagejin.png?alt=media&v=1787163074994540"
+      },
+      {
+        "nome": "Tamatama",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTamatama.png?alt=media&v=1787163079573811",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FTamatama.png?alt=media&v=1787163078010972"
+      }
+    ]
   },
   {
     "__docId": "shikure-chinoike",
@@ -11284,6 +11535,18 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
+    ],
+    "invocacoes": [
+      {
+        "nome": "Akeganai",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAkeganai.png?alt=media&v=1787163032120472",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FAkeganai.png?alt=media&v=1787163030660251"
+      },
+      {
+        "nome": "Ketsujin",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKetsujin.png?alt=media&v=1787163034805753",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FKetsujin.png?alt=media&v=1787163033466216"
+      }
     ]
   },
   {
@@ -12173,7 +12436,14 @@
       "inteligencia": 45,
       "espirito": 37.5,
       "vigor": 17.5
-    }
+    },
+    "invocacoes": [
+      {
+        "nome": "Kurama",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKurama.png?alt=media&v=1787163006042082",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShoyu%2FKurama.png?alt=media&v=1787163004205877"
+      }
+    ]
   },
   {
     "__docId": "souma-namikaze",
@@ -12714,7 +12984,14 @@
     "divisaoAtributo": {
       "inteligencia": 52.5,
       "vigor": 47.5
-    }
+    },
+    "invocacoes": [
+      {
+        "nome": "Okami Hatake",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOkami_Hatake.png?alt=media&v=1787162995537728",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FTakeshi%2FOkami_Hatake.png?alt=media&v=1787162993688449"
+      }
+    ]
   },
   {
     "__docId": "tessai-enshaku",

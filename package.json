@@ -21,7 +21,9 @@
     "eventos:lote": "node scripts/eventos-lote.mjs",
     "canva:nomes": "node scripts/canva-nomes.mjs",
     "perfil:derivar": "node scripts/perfil-derivar.mjs",
-    "perfil:conferir": "node scripts/perfil-conferir.mjs"
+    "perfil:conferir": "node scripts/perfil-conferir.mjs",
+    "invocacoes:check": "node scripts/reconcile-invocacoes.mjs",
+    "invocacoes:fix": "node scripts/reconcile-invocacoes.mjs --apply"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
