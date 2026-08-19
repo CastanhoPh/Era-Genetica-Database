@@ -4116,13 +4116,13 @@
   {
     "__docId": "ARpiOUNP6Gd06Kbv8dHt",
     "type": "capaInvocacao",
-    "temporada": "Fukuro",
-    "arco": "Fukuro",
-    "name": "Fukuro",
     "order": 60020,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FFukuro.png?alt=media&v=1787163002553677"
+    "arco": "Yuki Fukuro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYuki_Fukuro.png?alt=media&v=1787163752486854",
+    "temporada": "Yuki Fukuro",
+    "name": "Yuki Fukuro"
   },
   {
     "__docId": "AVj0ilBAk8TgSxsPtcmW",
@@ -8986,13 +8986,13 @@
   {
     "__docId": "y7TEe7l9eCA4qABrvyKv",
     "type": "invocacao",
-    "temporada": "Yuki",
-    "arco": "Fukuro",
-    "name": "Fukuro",
     "order": 40020,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FYuki%2FFukuro.png?alt=media&v=1787163000630365"
+    "arco": "Yuki Fukuro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNagi%2FYuki_Fukuro.png?alt=media&v=1787163751694125",
+    "temporada": "Nagi",
+    "name": "Yuki Fukuro"
   },
   {
     "__docId": "yAVZBFkM8NKBjJTrBTbb",
