@@ -358,12 +358,12 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       .map((i, k) => ({
         pag: k + 1,
         docId: i.docId,
-        // capa repete o nome do personagem nos três campos; evento tem até quatro níveis
-        titulo: p.tipo === 'capa'
-          ? i.temporada
-          : p.tipo === 'evento'
-            ? [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' - ')
-            : `${i.temporada} - ${i.arco}`,
+        // O nome do arquivo no Storage é o `name` do item nos quatro tipos, sem a hierarquia: a capa
+        // do Yumi é "Yumi Uzumaki.png", a fase do Takeshi é "Clássico.png" dentro da pasta dele, e a
+        // cena é "Todos da Ambu desmaiam.png" dentro de 1ª Temporada/Início. A lista mostra isso.
+        titulo: i.name,
+        // texto de busca: tudo que identifica o item, inclusive o que a coluna deixou de mostrar
+        busca: [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' ').toLowerCase(),
         pronta: !!i.imageUrl,
         placeholder: !!i.placeholder,
         doneBy: i.doneBy ?? null,
@@ -508,7 +508,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         || (evFiltro === 'fechado' && i.fechado)
         || (evFiltro === 'comArte' && i.pronta))
       && (!evTemporada || i.item.temporada === evTemporada)
-      && (!termo || i.titulo.toLowerCase().includes(termo) || i.personagens.some(n => n.toLowerCase().includes(termo))));
+      && (!termo || i.busca.includes(termo) || i.personagens.some(n => n.toLowerCase().includes(termo))));
   }, [eventosLista, evBusca, evFiltro, evTemporada]);
   const eventosComAlguem = useMemo(() => eventosLista.filter(i => i.personagens.length).length, [eventosLista]);
   const eventosFechados = useMemo(() => eventosLista.filter(i => i.fechado).length, [eventosLista]);
@@ -534,7 +534,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         (canvaState === 'todos'
           || (canvaState === 'pronta' && i.pronta)
           || (canvaState === 'falta' && !i.pronta))
-        && (!termo || i.titulo.toLowerCase().includes(termo) || (i.personagens ?? []).some(n => n.toLowerCase().includes(termo)))),
+        && (!termo || i.busca.includes(termo) || (i.personagens ?? []).some(n => n.toLowerCase().includes(termo)))),
     }));
   }, [canvaData, canvaSearch, canvaState]);
 
