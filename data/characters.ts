@@ -2645,7 +2645,7 @@ export const initialData: Character[] = [
     position: "Sannin",
     role: "DPS",
     description: "Hirato Ishi é o filho mais novo da família Ishi, nascido como herdeiro direto da espada do rei e criado sob forte proteção e privilégio. Desde a infância, foi tratado como sucessor natural, principalmente por estar destinado a herdar a lendária Homura no Chikai, a espada ancestral capaz de controlar o Purazomaton.\n\nNo entanto, Hirato nasceu com uma limitação incomum: possuía apenas afinidade natural com o elemento Katon. Como resultado, a própria espada se adaptou ao seu chakra, restringindo seu poder ao controle de fogo, mantendo seu verdadeiro potencial selado.\n\nAos 12 anos, participou de uma missão de rastreamento envolvendo o Chōmei. Durante essa operação, conheceu Raikun Uzumaki, um shinobi que investigava a organização OCA. Os dois cooperaram na missão e estabeleceram uma relação de confiança. Como resultado direto dessa operação, Raikun obteve um chip contendo um Byakugan natural, que posteriormente possibilitou o desenvolvimento de um sistema de rastreamento de chakra artificial.\n\nApós a missão, seguiram caminhos diferentes.\n\nAos 16 anos, Hirato herdou oficialmente a Homura no Chikai e recebeu a missão de localizar seu irmão Kaien, que havia desertado, e recuperar a Seimei no Saidan. Durante essa busca, infiltrou-se em uma base onde encontrou Katsumi Hyuga, Kaito Senju, Oddy Uchiha, Shoei Sarutobi, Najin Hatake e Takeshi Hatake. Todos compartilhavam o mesmo objetivo: localizar um indivíduo conhecido como Omega.\n\nDiante disso, formaram uma aliança temporária.\n\nO grupo entrou em confronto com um membro da chamada “Equipe 75%”, identificado como D, que apresentava alterações físicas anormais, incluindo veias azuis e sinais de controle externo. Após um combate intenso, foram salvos pela intervenção de outros três membros da organização.\n\nAo retornarem para Konoha, Hirato participou de um acordo estratégico com Nishinoya, Hokage da época, formalizando cooperação diante da ameaça crescente.\n\nSeu destino foi selado durante a batalha na Fortaleza Yumei. Hirato foi morto por seu próprio irmão, Kaien, agora conhecido como Omega. Durante o confronto, Kaien afirmou que Hirato jamais compreenderia o peso da linhagem que carregava, alegando que o poder que lhe foi concedido era responsável por inúmeras mortes.\n\nEm seus momentos finais, Hirato tomou uma última decisão: transferiu a Homura no Chikai para Oddy Uchiha, reconhecendo nele a determinação de proteger os outros, mesmo ao custo da própria vida.\n\nHirato é lembrado como um herdeiro que nunca alcançou o verdadeiro potencial que lhe foi destinado, mas que, no fim, escolheu agir por vontade própria — não como sucessor de um legado, mas como alguém disposto a confiar o futuro a quem julgou digno.",
-    hp: 170,
+    hp: 146,
     chakra: 70,
     isDead: true,
     killedBy: "Omega",
@@ -2654,7 +2654,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHirato%20Ishi%2F2__Temporada.png?alt=media&v=1784665887463666", caption: "2ª Temporada", category: "era" },
     ],
-    stats: { strength: 8, dexterity: 20, agility: 20, intelligence: 12, spirit: 20, vigor: 20, perception: 8 },
+    stats: { strength: 20, dexterity: 8, agility: 20, intelligence: 20, spirit: 20, vigor: 12, perception: 8 },
     powers: [
       { name: "Katon", level: 10 },
       { name: "Doton", level: 10 }
@@ -2727,8 +2727,8 @@ export const initialData: Character[] = [
     position: "Vice Líder da OCA",
     role: "DPS",
     description: "Kaien Ishi, conhecido hoje como Ômega, nasceu no topo do mundo — herdeiro da família que governava todo o País da Terra. Cercado por luxo, poder e privilégios, foi criado para se tornar o próximo soberano absoluto. Ele era o herdeiro da lendária Seimei no Saidan e tinha tudo ao seu alcance, exceto paz.\n\nDesde cedo, Kaien enxergava o que os outros ignoravam: servos famintos, soldados descartáveis e camponeses esmagados pelo peso de um sistema construído sobre sangue. Quando questionava, recebia sempre a mesma resposta — ele era diferente, superior, destinado a governar.\n\nMas Kaien nunca aceitou essa verdade. Para ele, não havia honra em um trono erguido sobre sofrimento.\n\nEm um ato que ecoaria como heresia, ele renunciou ao próprio nome, abandonou o palácio e desapareceu do mundo. Tornou-se um andarilho, um samurai sem rosto, conhecido apenas como uma lenda que surgia onde havia injustiça e desaparecia sem aceitar recompensa.\n\nCom o tempo, o nome Ishi foi apagado de seus registros — e Kaien deixou de existir. Em seu lugar, nasceu Ômega: o fim de uma linhagem, o último herdeiro de uma era que ele jurou destruir.\n\nAnos depois, ao ouvir rumores sobre Hades — um homem que rejeitava o poder herdado e buscava criar força através do chakra artificial e amplificação de chakra profano —, Kaien viu algo que nunca havia encontrado: alguém que compartilhava sua visão.\n\nQuando finalmente o encontrou, não hesitou em lutar ao seu lado, defendendo-o como se aquele fosse seu próprio propósito. Questionado sobre o motivo, respondeu apenas que não lutava por sangue — assim como Hades.\n\nA partir desse momento, os dois formaram uma aliança inquebrável. Hades encontrou em Ômega não uma criação, mas um sucessor por escolha. Ômega encontrou em Hades não um mestre, mas um igual.\n\nJuntos, tornaram-se o núcleo de uma revolução — a mente e a lâmina. Para o mundo, são ameaças. Para si mesmos, são inevitáveis.\n\nPois enquanto o poder for definido pelo nascimento, Ômega continuará existindo como aquilo que ele sempre declarou ser: o fim de tudo.",
-    hp: 250,
-    chakra: 82,
+    hp: 232,
+    chakra: 100,
     isDead: true,
     killedBy: "Nishinoya Senju",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media&v=1786651890565160",
@@ -2768,7 +2768,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaien%20Ishi%20(Omega)%2F2__Temporada.png?alt=media&v=1784665890017497", caption: "2ª Temporada", category: "era" },
     ],
-    stats: { strength: 30, dexterity: 12, agility: 12, intelligence: 30, spirit: 24, vigor: 30, perception: 30 },
+    stats: { strength: 30, dexterity: 12, agility: 30, intelligence: 30, spirit: 30, vigor: 24, perception: 12 },
     powers: [
       { name: "Doton", level: 15 },
       { name: "Hyuga no Fujo", level: 15 },
@@ -2873,7 +2873,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - A e B chegam", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - Kaito, Hisoka, Oddy e Naoki VS A e B", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b" }
     ],
-    stats: { strength: 8, dexterity: 20, agility: 20, intelligence: 12, spirit: 20, vigor: 20, perception: 8 },
+    stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 12, spirit: 20, vigor: 20, perception: 20 },
     powers: [
       { name: "Son Goku", level: 10 },
       { name: "Yoton", level: 10 },
@@ -3338,7 +3338,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20e%20G%20levando%20Shoei.png?alt=media&v=1784240335300514", caption: "Base do F - F e G levando Shoei", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__f-e-g-levando-shoei" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" }
     ],
-    stats: { strength: 8, dexterity: 20, agility: 20, intelligence: 12, spirit: 20, vigor: 20, perception: 8 },
+    stats: { strength: 20, dexterity: 8, agility: 20, intelligence: 12, spirit: 20, vigor: 20, perception: 8 },
     powers: [
       { name: "Koton", level: 10 },
       { name: "Fuinjutsu", level: 10 },
@@ -5837,7 +5837,7 @@ export const initialData: Character[] = [
     position: "2º Kazekage",
     role: "DPS",
     description: "Hana Sabaku é uma das maiores lendas vivas de Sunagakure e a principal razão pela qual a Cidade Dourada continua de pé mesmo diante das ameaças da Era Genética.\n\nEsposa de Reto, o Primeiro Kazekage, Hana assumiu a liderança da vila após a queda de seu marido no incidente do OASIS. Diferente de Reto, que fundou a civilização da Areia através da esperança, Hana a protege através de disciplina, vigilância e poder absoluto.\n\nConhecida como a Muralha Dourada e a Leoa da Areia, Hana é Jinchuuriki do Shukaku, usuária da rara Areia de Ouro e uma ninja sensorial de alcance extraordinário. Seu estilo de combate é focado em longa distância, controle territorial, defesa absoluta e esmagamento estratégico do inimigo antes que ele consiga se aproximar.\n\nEm batalha, Hana não luta como uma assassina impulsiva. Ela transforma o campo inteiro em uma extensão de sua vontade. A areia observa, prende, pesa, corta, sela e destrói. Poucos inimigos conseguem chegar perto dela; menos ainda sobrevivem tempo suficiente para entender que já estavam dentro de sua zona de domínio desde o início.\n\nApesar de seu poder monstruoso, Hana é profundamente movida pelo amor por Sunagakure, por Reto e por seu povo. Ela acredita que talvez não possua força suficiente para destruir completamente a OCA, mas dedicou sua vida a garantir que, mesmo diante do fim, o povo da Areia viva protegido até o último instante.",
-    hp: 232,
+    hp: 241,
     chakra: 150,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1786651908709301",
     techniques: [
@@ -5909,7 +5909,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Sabaku.png?alt=media&v=1784240335828677", caption: "Famílias - Família Sabaku", category: "evento", season: "Prólogo", eventId: "CJmr7hbnLoIcclsCtoyi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" }
     ],
-    stats: { strength: 12, dexterity: 30, agility: 30, intelligence: 30, spirit: 30, vigor: 24, perception: 12 },
+    stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 27, spirit: 30, vigor: 27, perception: 30 },
     powers: [
       { name: "Shukaku", level: 15 },
       { name: "Sakin", level: 15 },
@@ -6183,7 +6183,7 @@ export const initialData: Character[] = [
     role: "Tank",
     description: "Tessai Enshaku, conhecido hoje como o Pilar da Construção, é um homem que nasceu em uma vila de guerreiros, mas decidiu admirar aqueles que erguiam paredes. Desde criança, enquanto outros sonhavam com técnicas destrutivas e vitórias em campo de batalha, Tessai observava pedreiros, escavadores, ferreiros, engenheiros e arquitetos de canais subterrâneos.\n\nPara ele, os verdadeiros heróis de Sunagakure não eram apenas os que derrotavam invasores, mas os que garantiam que haveria uma casa para onde voltar depois da guerra. O clã Enshaku sempre carregou essa filosofia: areia, argila, metal e pedra não servem apenas para soterrar inimigos, mas para criar muralhas, pontes, abrigos, túneis, torres e caminhos onde antes só havia morte.\n\nTessai cresceu ouvindo a história de Reto Sabaku, o homem que transformou um deserto impossível em civilização. Para ele, a maior vitória de Reto não foi derrotar inimigos, mas deixar algo de pé depois deles. Por isso, Tessai nunca aceitou que poder shinobi fosse medido apenas pela destruição.\n\nCom Doton, Koton, minerais, argila selada e engenharia shinobi, Tessai aprendeu a moldar o terreno como se a própria vila se expandisse através dele. Em combate, ele não luta apenas defendendo; ele constrói. Muros protegem civis, túneis se abrem para evacuação, torres dão vantagem aos arqueiros, bunkers emergem sob a areia e armadilhas estruturais prendem inimigos no próprio peso do campo.\n\nHoje, como Pilar da Construção, Tessai representa a permanência de Sunagakure. Seu papel é lembrar que a Areia não pode se tornar apenas uma máquina de guerra movida por medo da OCA. A vila precisa continuar sendo uma cidade, com mercados, canais, jardins artificiais, oficinas, famílias e crianças correndo sob torres douradas. Para Tessai, Sunagakure não é forte porque nunca quebra. É forte porque sempre volta a ficar de pé.",
     hp: 210,
-    chakra: 85,
+    chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1786651909974548",
     techniques: [],
     arsenal: [54],
@@ -6191,7 +6191,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1786370753266721", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1786370781545317", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 25, dexterity: 10, agility: 10, intelligence: 18, spirit: 25, vigor: 25, perception: 25 },
+    stats: { strength: 25, dexterity: 10, agility: 25, intelligence: 25, spirit: 18, vigor: 25, perception: 10 },
 
     powers: [
       { name: "Doton", level: 12 },
@@ -6237,11 +6237,11 @@ export const initialData: Character[] = [
     stats: {
       strength: 8,
       dexterity: 21,
-      agility: 21,
+      agility: 8,
       intelligence: 21,
       spirit: 21,
       vigor: 14,
-      perception: 8
+      perception: 21
     },
     powers: [
       { name: "Futon", level: 10 },
@@ -6273,8 +6273,8 @@ export const initialData: Character[] = [
     position: "Pilar de Sunagakure",
     role: "DPS e Suporte",
     description: "Kurohime é uma dos seis Pilares de Sunagakure e representa o Pilar do Julgamento. Diferente de Hana, que carrega a sentença final da Areia, Kurohime existe para revelar a verdade antes que o julgamento seja dado.\n\nNascida na Vila da Areia em meio a intrigas políticas e conflitos familiares, Kurohime cresceu entendendo que nem toda ameaça vinha de fora das muralhas. Algumas nasciam dentro da própria vila, escondidas atrás de mentiras, medo, culpa e falsas lealdades. Desde jovem, demonstrou uma habilidade rara: a capacidade de entrar na mente de outras pessoas, atravessando memórias, traumas, intenções ocultas e pensamentos enterrados.\n\nSeu talento físico também se destacou cedo. Kurohime tornou-se uma combatente de taijutsu brutal, usando força, disciplina e pressão constante para dominar inimigos no corpo a corpo. Porém, quando invade a mente de um alvo, seu corpo físico fica vulnerável. É nesse momento que sua companheira, a pantera negra Kurotsume, protege seu corpo de qualquer ameaça.\n\nCom o tempo, Kurohime se tornou uma das melhores amigas de Hana e uma das poucas pessoas capazes de entrar em sua mente para acalmar crises, organizar pensamentos e silenciar o caos emocional que a Kazekage carrega. Dentro de Sunagakure, Kurohime é chamada antes das grandes sentenças. Ela não decide o destino dos culpados; ela revela a verdade para que Hana possa julgar sem estar no escuro.",
-    hp: 157,
-    chakra: 73,
+    hp: 178,
+    chakra: 52,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1786651910583724",
     techniques: [],
     arsenal: [],
@@ -6283,12 +6283,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKurohime%20Kazeori%2F5__Temporada.png?alt=media&v=1786370746284487", caption: "5ª Temporada", category: "era" },
     ],
     stats: {
-      strength: 8,
-      dexterity: 21,
+      strength: 21,
+      dexterity: 8,
       agility: 21,
       intelligence: 21,
-      spirit: 21,
-      vigor: 14,
+      spirit: 14,
+      vigor: 21,
       perception: 8
     },
     powers: [

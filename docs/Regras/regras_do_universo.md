@@ -208,7 +208,7 @@ Vale registrar que a regra "atributo acima do mínimo não desce" e a fórmula a
 
 `combatStyle` está em 83 das 86 fichas, e `focosAtributo` + `divisaoAtributo` em 54 — todas conferidas rodando o perfil de volta e exigindo os sete atributos exatos. O que falta:
 
-- **8 de build mista** — um atributo de cada par no teto (Hirato, Hana, Sayuri, Tessai, Kurohime, Akairo, Genei, Kaien). Só o Pedro resolve.
+- **Build mista: resolvido em 2026-08-19.** As oito (Hirato, Hana, Sayuri, Tessai, Kurohime, Akairo, Genei, Kaien) tinham um atributo de cada par no teto. O Pedro decidiu manter o perfil e reescrever a ficha, então os atributos passaram a ser o que o perfil produz — e HP e Chakra foram recalculados, porque Vigor ou Espírito mudaram em cinco delas.
 - **8 com o par oposto acima do mínimo** — a seção acima.
 - **5 fichas em branco** — Ryuta e os quatro da Elite (Katakana, Ganmasen, Deruta, Shiita).
 - **Hades e Beta**, que não têm NC: os dois ficam com `nc: 0`, e a aba Perfil mostra "sem NC" em vez de tentar distribuir.

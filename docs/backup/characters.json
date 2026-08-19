@@ -230,15 +230,6 @@
     "chakra": 105,
     "isDead": true,
     "killedBy": "Nagare Uzumaki",
-    "stats": {
-      "strength": 8,
-      "dexterity": 20,
-      "agility": 20,
-      "intelligence": 12,
-      "spirit": 20,
-      "vigor": 20,
-      "perception": 8
-    },
     "powers": [
       {
         "name": "Son Goku",
@@ -366,7 +357,16 @@
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "stats": {
+      "strength": 8,
+      "dexterity": 20,
+      "intelligence": 12,
+      "spirit": 20,
+      "vigor": 20,
+      "agility": 8,
+      "perception": 20
+    }
   },
   {
     "__docId": "akane-sumigami",
@@ -2762,15 +2762,6 @@
     "chakra": 105,
     "isDead": true,
     "killedBy": "Kaito Senju",
-    "stats": {
-      "strength": 8,
-      "dexterity": 20,
-      "agility": 20,
-      "intelligence": 12,
-      "spirit": 20,
-      "vigor": 20,
-      "perception": 8
-    },
     "powers": [
       {
         "name": "Koton",
@@ -2886,7 +2877,16 @@
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "stats": {
+      "agility": 20,
+      "intelligence": 12,
+      "spirit": 20,
+      "vigor": 20,
+      "perception": 8,
+      "dexterity": 8,
+      "strength": 20
+    }
   },
   {
     "__docId": "gorai-arashiumi",
@@ -3142,16 +3142,6 @@
     "timelineAppearance": "Clássico",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1786651908709301",
     "chakraColor": "#00ff41",
-    "stats": {
-      "strength": 12,
-      "dexterity": 30,
-      "agility": 30,
-      "intelligence": 30,
-      "spirit": 30,
-      "vigor": 24,
-      "perception": 12
-    },
-    "hp": 232,
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F4__Temporada.png?alt=media&v=1784569487205904",
@@ -3185,7 +3175,17 @@
     "divisaoAtributo": {
       "inteligencia": 50,
       "vigor": 50
-    }
+    },
+    "stats": {
+      "strength": 12,
+      "dexterity": 30,
+      "spirit": 30,
+      "vigor": 27,
+      "agility": 12,
+      "intelligence": 27,
+      "perception": 30
+    },
+    "hp": 241
   },
   {
     "__docId": "hashirama-senju",
@@ -3491,7 +3491,6 @@
     "position": "Sannin",
     "role": "DPS",
     "description": "Hirato Ishi é o filho mais novo da família Ishi, nascido como herdeiro direto da espada do rei e criado sob forte proteção e privilégio. Desde a infância, foi tratado como sucessor natural, principalmente por estar destinado a herdar a lendária Homura no Chikai, a espada ancestral capaz de controlar o Purazomaton.\n\nNo entanto, Hirato nasceu com uma limitação incomum: possuía apenas afinidade natural com o elemento Katon. Como resultado, a própria espada se adaptou ao seu chakra, restringindo seu poder ao controle de fogo, mantendo seu verdadeiro potencial selado.\n\nAos 12 anos, participou de uma missão de rastreamento envolvendo o Chōmei. Durante essa operação, conheceu Raikun Uzumaki, um shinobi que investigava a organização OCA. Os dois cooperaram na missão e estabeleceram uma relação de confiança. Como resultado direto dessa operação, Raikun obteve um chip contendo um Byakugan natural, que posteriormente possibilitou o desenvolvimento de um sistema de rastreamento de chakra artificial.\n\nApós a missão, seguiram caminhos diferentes.\n\nAos 16 anos, Hirato herdou oficialmente a Homura no Chikai e recebeu a missão de localizar seu irmão Kaien, que havia desertado, e recuperar a Seimei no Saidan. Durante essa busca, infiltrou-se em uma base onde encontrou Katsumi Hyuga, Kaito Senju, Oddy Uchiha, Shoei Sarutobi, Najin Hatake e Takeshi Hatake. Todos compartilhavam o mesmo objetivo: localizar um indivíduo conhecido como Omega.\n\nDiante disso, formaram uma aliança temporária.\n\nO grupo entrou em confronto com um membro da chamada “Equipe 75%”, identificado como D, que apresentava alterações físicas anormais, incluindo veias azuis e sinais de controle externo. Após um combate intenso, foram salvos pela intervenção de outros três membros da organização.\n\nAo retornarem para Konoha, Hirato participou de um acordo estratégico com Nishinoya, Hokage da época, formalizando cooperação diante da ameaça crescente.\n\nSeu destino foi selado durante a batalha na Fortaleza Yumei. Hirato foi morto por seu próprio irmão, Kaien, agora conhecido como Omega. Durante o confronto, Kaien afirmou que Hirato jamais compreenderia o peso da linhagem que carregava, alegando que o poder que lhe foi concedido era responsável por inúmeras mortes.\n\nEm seus momentos finais, Hirato tomou uma última decisão: transferiu a Homura no Chikai para Oddy Uchiha, reconhecendo nele a determinação de proteger os outros, mesmo ao custo da própria vida.\n\nHirato é lembrado como um herdeiro que nunca alcançou o verdadeiro potencial que lhe foi destinado, mas que, no fim, escolheu agir por vontade própria — não como sucessor de um legado, mas como alguém disposto a confiar o futuro a quem julgou digno.",
-    "hp": 170,
     "chakra": 70,
     "isDead": true,
     "killedBy": "Omega",
@@ -3502,15 +3501,6 @@
         "category": "era"
       }
     ],
-    "stats": {
-      "strength": 8,
-      "dexterity": 20,
-      "agility": 20,
-      "intelligence": 12,
-      "spirit": 20,
-      "vigor": 20,
-      "perception": 8
-    },
     "powers": [
       {
         "name": "Katon",
@@ -3545,7 +3535,17 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "stats": {
+      "agility": 20,
+      "spirit": 20,
+      "perception": 8,
+      "dexterity": 8,
+      "strength": 20,
+      "vigor": 12,
+      "intelligence": 20
+    },
+    "hp": 146
   },
   {
     "__docId": "hiroshi-hanzo",
@@ -4094,7 +4094,6 @@
     "position": "Vice Líder da OCA",
     "role": "DPS",
     "description": "Kaien Ishi, conhecido hoje como Ômega, nasceu no topo do mundo — herdeiro da família que governava todo o País da Terra. Cercado por luxo, poder e privilégios, foi criado para se tornar o próximo soberano absoluto. Ele era o herdeiro da lendária Seimei no Saidan e tinha tudo ao seu alcance, exceto paz.\n\nDesde cedo, Kaien enxergava o que os outros ignoravam: servos famintos, soldados descartáveis e camponeses esmagados pelo peso de um sistema construído sobre sangue. Quando questionava, recebia sempre a mesma resposta — ele era diferente, superior, destinado a governar.\n\nMas Kaien nunca aceitou essa verdade. Para ele, não havia honra em um trono erguido sobre sofrimento.\n\nEm um ato que ecoaria como heresia, ele renunciou ao próprio nome, abandonou o palácio e desapareceu do mundo. Tornou-se um andarilho, um samurai sem rosto, conhecido apenas como uma lenda que surgia onde havia injustiça e desaparecia sem aceitar recompensa.\n\nCom o tempo, o nome Ishi foi apagado de seus registros — e Kaien deixou de existir. Em seu lugar, nasceu Ômega: o fim de uma linhagem, o último herdeiro de uma era que ele jurou destruir.\n\nAnos depois, ao ouvir rumores sobre Hades — um homem que rejeitava o poder herdado e buscava criar força através do chakra artificial e amplificação de chakra profano —, Kaien viu algo que nunca havia encontrado: alguém que compartilhava sua visão.\n\nQuando finalmente o encontrou, não hesitou em lutar ao seu lado, defendendo-o como se aquele fosse seu próprio propósito. Questionado sobre o motivo, respondeu apenas que não lutava por sangue — assim como Hades.\n\nA partir desse momento, os dois formaram uma aliança inquebrável. Hades encontrou em Ômega não uma criação, mas um sucessor por escolha. Ômega encontrou em Hades não um mestre, mas um igual.\n\nJuntos, tornaram-se o núcleo de uma revolução — a mente e a lâmina. Para o mundo, são ameaças. Para si mesmos, são inevitáveis.\n\nPois enquanto o poder for definido pelo nascimento, Ômega continuará existindo como aquilo que ele sempre declarou ser: o fim de tudo.",
-    "hp": 250,
     "isDead": true,
     "killedBy": "Nishinoya Senju",
     "gallery": [
@@ -4188,23 +4187,24 @@
     ],
     "chakraColor": "#e8fbff",
     "id": 80,
-    "stats": {
-      "strength": 30,
-      "dexterity": 12,
-      "agility": 12,
-      "intelligence": 30,
-      "spirit": 24,
-      "vigor": 30,
-      "perception": 30
-    },
-    "chakra": 82,
     "arsenal": [],
     "combatStyle": "Corporal",
     "divisaoAtributo": {},
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "stats": {
+      "strength": 30,
+      "dexterity": 12,
+      "intelligence": 30,
+      "vigor": 24,
+      "spirit": 30,
+      "agility": 30,
+      "perception": 12
+    },
+    "hp": 232,
+    "chakra": 100
   },
   {
     "__docId": "kaito-senju",
@@ -6317,19 +6317,8 @@
     "position": "Pilar de Sunagakure",
     "role": "DPS e Suporte",
     "description": "Kurohime é uma dos seis Pilares de Sunagakure e representa o Pilar do Julgamento. Diferente de Hana, que carrega a sentença final da Areia, Kurohime existe para revelar a verdade antes que o julgamento seja dado.\n\nNascida na Vila da Areia em meio a intrigas políticas e conflitos familiares, Kurohime cresceu entendendo que nem toda ameaça vinha de fora das muralhas. Algumas nasciam dentro da própria vila, escondidas atrás de mentiras, medo, culpa e falsas lealdades. Desde jovem, demonstrou uma habilidade rara: a capacidade de entrar na mente de outras pessoas, atravessando memórias, traumas, intenções ocultas e pensamentos enterrados.\n\nSeu talento físico também se destacou cedo. Kurohime tornou-se uma combatente de taijutsu brutal, usando força, disciplina e pressão constante para dominar inimigos no corpo a corpo. Porém, quando invade a mente de um alvo, seu corpo físico fica vulnerável. É nesse momento que sua companheira, a pantera negra Kurotsume, protege seu corpo de qualquer ameaça.\n\nCom o tempo, Kurohime se tornou uma das melhores amigas de Hana e uma das poucas pessoas capazes de entrar em sua mente para acalmar crises, organizar pensamentos e silenciar o caos emocional que a Kazekage carrega. Dentro de Sunagakure, Kurohime é chamada antes das grandes sentenças. Ela não decide o destino dos culpados; ela revela a verdade para que Hana possa julgar sem estar no escuro.",
-    "hp": 157,
-    "chakra": 73,
     "techniques": [],
     "arsenal": [],
-    "stats": {
-      "strength": 8,
-      "dexterity": 21,
-      "agility": 21,
-      "intelligence": 21,
-      "spirit": 21,
-      "vigor": 14,
-      "perception": 8
-    },
     "powers": [
       {
         "name": "Shinjutsu",
@@ -6379,7 +6368,18 @@
     "focosAtributo": [
       "inteligencia",
       "vigor"
-    ]
+    ],
+    "stats": {
+      "agility": 21,
+      "intelligence": 21,
+      "perception": 8,
+      "dexterity": 8,
+      "strength": 21,
+      "vigor": 21,
+      "spirit": 14
+    },
+    "hp": 178,
+    "chakra": 52
   },
   {
     "__docId": "kuromi-uchiha",
@@ -10780,15 +10780,6 @@
       53,
       57
     ],
-    "stats": {
-      "strength": 8,
-      "dexterity": 21,
-      "agility": 21,
-      "intelligence": 21,
-      "spirit": 21,
-      "vigor": 14,
-      "perception": 8
-    },
     "powers": [
       {
         "name": "Futon",
@@ -10848,7 +10839,16 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "stats": {
+      "strength": 8,
+      "dexterity": 21,
+      "intelligence": 21,
+      "spirit": 21,
+      "vigor": 14,
+      "agility": 8,
+      "perception": 21
+    }
   },
   {
     "__docId": "shiita-sabaku-theta",
@@ -12746,17 +12746,7 @@
       }
     ],
     "nc": 25,
-    "stats": {
-      "strength": 25,
-      "dexterity": 10,
-      "agility": 10,
-      "intelligence": 18,
-      "spirit": 25,
-      "vigor": 25,
-      "perception": 25
-    },
     "hp": 210,
-    "chakra": 85,
     "powers": [
       {
         "name": "Doton",
@@ -12777,7 +12767,17 @@
     "focosAtributo": [
       "vigor",
       "inteligencia"
-    ]
+    ],
+    "stats": {
+      "strength": 25,
+      "dexterity": 10,
+      "vigor": 25,
+      "spirit": 18,
+      "agility": 25,
+      "intelligence": 25,
+      "perception": 10
+    },
+    "chakra": 64
   },
   {
     "__docId": "tetsu-sabaku",
