@@ -1337,24 +1337,6 @@
     },
     "hp": 218,
     "chakra": 132,
-    "powers": [
-      {
-        "name": "Juuken",
-        "level": 13
-      },
-      {
-        "name": "Isobu",
-        "level": 13
-      },
-      {
-        "name": "Isobu Suiton",
-        "level": 13
-      },
-      {
-        "name": "Hyouton",
-        "level": 13
-      }
-    ],
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1786996820348030",
     "gallery": [
       {
@@ -1413,7 +1395,25 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "powers": [
+      {
+        "name": "Juken",
+        "level": 13
+      },
+      {
+        "name": "Isobu",
+        "level": 13
+      },
+      {
+        "name": "Isobu Suiton",
+        "level": 13
+      },
+      {
+        "name": "Hyouton",
+        "level": 13
+      }
+    ]
   },
   {
     "__docId": "chigiri-chinoike",
@@ -5227,136 +5227,6 @@
       "O Punho Roxo de Konoha"
     ],
     "chakraColor": "#a855f7",
-    "techniques": [
-      {
-        "name": "Shippū Hyōkai: Reiki to Kyōji",
-        "chakraColors": [
-          "#a855f7",
-          "#ffd60a"
-        ],
-        "classification": "Z",
-        "nature": "Chakra Profano + Futon + Controle de Campo + Jūken",
-        "description": "A forma final do Shippū Hyōkai, alcançada apenas depois de Katsumi injetar em si a seringa de chakra profano de Kai. Dentro do domínio já erguido, ele passa a manipular dois chakras profanos ao mesmo tempo: o seu próprio, que carrega o frio, e o de Kai, que carrega o orgulho. Katsumi mistura as duas naturezas no interior do campo e o ambiente inteiro deixa de ser apenas seu território para se tornar uma lâmina. O ar dentro do domínio se enche de fagulhas minúsculas de Futon, quase invisíveis, giradas pela pressão dos dois chakras profanos até adquirirem densidade de corte. Cada fagulha atravessa tudo o que encontra e volta a circular pelo campo, de modo que não existe direção segura nem instante de pausa. Nada que esteja dentro do domínio quando a técnica é liberada permanece inteiro: corpo, arma, técnica em formação e o próprio terreno são reduzidos por um número incontável de cortes microscópicos executados simultaneamente.",
-        "destruction": "Aniquilação total da área interna. A técnica não escolhe alvo — tudo o que estiver dentro do domínio é destruído junto, incluindo aliados e o próprio terreno. As fagulhas de Futon são pequenas demais para serem bloqueadas por defesas convencionais e, por serem conduzidas pelos dois chakras profanos, atravessam barreiras de chakra e continuam cortando o sistema energético do alvo depois de perfurar a proteção física.",
-        "history": "Nasceu de um ato de desespero. Encurralado, Katsumi injetou na própria veia a seringa de chakra profano de Kai — a mesma que antes havia sido entregue a Takeshi como convite para a OCA. Ao receber o segundo chakra profano, Katsumi se tornou um dos shinobis mais fortes já vistos na história e compreendeu de imediato o que sempre faltara ao seu domínio: um segundo chakra para se opor ao seu. O frio e o orgulho, forçados a coexistir dentro do mesmo campo, transformaram o 'Território do Rei' em uma sentença.",
-        "status": "Desbloqueada momentos antes de sua morte. Exige o domínio simultâneo de dois chakras profanos de origens diferentes, algo que o corpo de Katsumi só suportou por causa da injeção direta. Uma vez liberada, a técnica não pode ser interrompida nem redirecionada.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F10%20-%20Shipp%C5%AB%20Hy%C5%8Dkai%3A%20Reiki%20to%20Ky%C5%8Dji.jpg?alt=media&v=1786651877247656"
-      },
-      {
-        "name": "Fujogan: Reikō Kuchiyose",
-        "chakraColors": [
-          "#a855f7",
-          "#ffd60a"
-        ],
-        "classification": "Z",
-        "nature": "Fujogan + Chakra Profano + Kuchiyose no Jutsu",
-        "description": "O ápice do que Katsumi alcançou ao portar dois chakras profanos. Com um Fujogan em cada olho — o seu, roxo, e o de Kai, dourado —, ele forma dois círculos de selamento simultâneos e invoca as duas feras do plano invocatório do Fujogan ao mesmo tempo: Yomatora, o leopardo de chakra profano roxo, e Kintora, o leopardo dourado de Kai. Cada olho conduz uma das invocações de forma independente, e Katsumi combate com as duas ao mesmo tempo sem perder precisão sobre nenhuma delas. Yomatora ataca em silêncio, lendo a percepção de Katsumi e fechando tenketsus com cortes cirúrgicos; Kintora avança de frente, destruindo tudo o que estiver no caminho. Entre os dois, o alvo é obrigado a se defender de duas naturezas opostas de chakra profano ao mesmo tempo, e qualquer abertura criada por uma das feras é imediatamente explorada pela outra.",
-        "destruction": "Extremo. As duas invocações operam em ritmos e alcances diferentes, cobrindo simultaneamente o combate de precisão e o de força bruta, sem ponto cego entre elas. Defesas montadas contra um dos leopardos são inúteis contra o outro, e o chakra profano de ambos, ao se acumular no sistema energético do alvo, provoca colapso muito mais rápido do que qualquer das invocações isoladamente.",
-        "history": "Nenhum portador do Fujogan registrado na história do clã Hyuga jamais conduziu duas invocações ao mesmo tempo, porque nenhum jamais carregou dois Fujogans. Katsumi só chegou a essa forma depois de injetar o chakra profano de Kai em sua veia, passando a manifestar um Fujogan distinto em cada olho.",
-        "status": "Desbloqueada pouco antes de sua morte. Manter as duas invocações exige conduzir dois chakras profanos de origens diferentes sem que se anulem, dividindo a percepção absoluta do Fujogan entre dois alvos de controle. O desgaste é imenso e cresce a cada segundo de manutenção.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F12%20-%20Fujogan%3A%20Reik%C5%8D%20Kuchiyose.jpg?alt=media&v=1786651877227009"
-      },
-      {
-        "name": "Shippū Hyōkai",
-        "classification": "Z",
-        "nature": "Chakra Profano + Controle de Campo + Jūken",
-        "description": "Após um intenso treinamento com Kai, Katsumi compreendeu a verdadeira natureza do chakra profano — uma chakra que atua no cerebro e não diretamente nos tenketsus com isso ele foi capaz de dominar o ambiente ao redor. Ao ativar essa técnica, ele expande seu chakra profano para fora do corpo, criando um campo espiritual denso que envolve toda a área ao seu redor. Dentro desse domínio, o fluxo de chakra deixa de seguir as leis naturais e passa a responder diretamente à vontade de Katsumi. O campo distorce o ambiente energético e conecta tudo à sua percepção, permitindo que ele sinta, manipule e controle cada movimento dentro da área. Ataques corporais executados por Katsumi são amplificados pelo próprio campo, tornando cada golpe do Jūken muito mais destrutivo. Em contraste, ataques à distância lançados contra ele perdem força e estabilidade ao atravessar o domínio, tendo seu chakra drenado e desorganizado. Como o campo recicla constantemente a energia profana presente no ambiente, Katsumi pode atacar e se mover dentro do domínio com gasto mínimo de chakra, governando o espaço como um verdadeiro rei.",
-        "destruction": "Extremamente alto em combate prolongado. Dentro do domínio, Katsumi possui supremacia quase absoluta em confrontos de curta distância. Técnicas baseadas em projéteis ou disparos de chakra perdem potência e precisão conforme entram no campo. A pressão espiritual do chakra profano também pode desestabilizar o sistema de chakra de inimigos dentro da área, causando lentidão de reação, colapso energético progressivo e dificuldade para moldar chakra.",
-        "history": "A técnica surgiu após Katsumi compreender completamente o comportamento do chakra profano durante seu treinamento com Kai. Diferente de técnicas tradicionais que apenas utilizam chakra como combustível, Katsumi aprendeu a expandir sua energia e transformar o ambiente em um reservatório vivo de chakra profano. Entre registros ocultos, esse domínio passou a ser conhecido como o 'Território do Rei', pois dentro dele o usuário governa o fluxo energético como um soberano absoluto.",
-        "status": "Requer domínio extremamente avançado do chakra profano e grande estabilidade mental. Quanto maior o controle emocional de Katsumi, mais perfeito se torna o domínio. Caso a concentração do usuário seja quebrada, o campo pode enfraquecer ou se dissipar temporariamente.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F01%20-%20Shipp%C5%AB%20Hy%C5%8Dkai.png?alt=media&v=1786651875749070"
-      },
-      {
-        "name": "Fujogan: Hakke Hyaku Nijūhachi Shō",
-        "classification": "S++",
-        "nature": "Fujogan + Chakra Profano + Jūken",
-        "description": "Uma técnica devastadora onde Katsumi combina o clássico estilo dos Cento e Vinte e Oito Golpes dos Oito Trigramas com a manifestação dos Leopardos Profanos. Após ativar o campo dos Oito Trigramas através do Fujogan, os leopardos de chakra profano surgem envolvendo seus braços. Quando a sequência de 128 golpes começa, cada palma executada pelo Punho Suave é acompanhada por ataques sincronizados dos leopardos espirituais. Enquanto Katsumi fecha os tenketsus com precisão absoluta, os leopardos avançam mordendo e rasgando o fluxo de chakra do inimigo. A sequência se torna extremamente violenta: golpes, investidas e mordidas energéticas acontecem simultaneamente dentro do campo dos Oito Trigramas. Conforme os ataques se acumulam, o chakra profano se espalha pela rede energética do alvo. No último golpe, ambos os leopardos convergem e liberam toda a energia acumulada dos 128 impactos em uma explosão concentrada diretamente no núcleo do sistema de chakra do inimigo.",
-        "destruction": "Nível extremamente elevado. A sequência de 128 golpes sela completamente os tenketsus enquanto os leopardos destroem e corrompem os canais internos de chakra do oponente. O impacto final pode causar o colapso total do sistema de chakra do alvo.",
-        "history": "Criada por Katsumi como uma evolução do estilo Hyuga tradicional. Após dominar os Leopardos Profanos, ele passou a integrá-los diretamente na sequência dos 128 Trigramas, transformando uma técnica clássica do clã em um estilo muito mais agressivo e destrutivo.",
-        "status": "Extremamente difícil de executar. Requer domínio absoluto do Punho Suave, percepção perfeita dos tenketsus através do Fujogan e controle total do chakra profano durante toda a sequência de 128 golpes.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F02%20-%20Fujogan%3A%20Hakke%20Hyaku%20Nij%C5%ABhachi%20Sh%C5%8D.png?alt=media&v=1786651875667225"
-      },
-      {
-        "name": "Fujogan: Reitetsu no Kuchiyose",
-        "classification": "S++",
-        "nature": "Fujogan + Chakra Profano + Kuchiyose no Jutsu",
-        "description": "Através do Fujogan, Katsumi ativa o selo espiritual herdado da família principal e projeta seu chakra profano no plano invocatório. O símbolo ocular pulsa em roxo intenso enquanto um círculo de selamento se forma sob seus pés, composto por inscrições espirituais negras. Do centro do selo emerge um leopardo colossal feito 100% de chakra profano condensado. Seu corpo é elegante e denso, com fissuras luminosas roxas percorrendo sua estrutura energética. Seus olhos brilham na mesma frequência do Fujogan de Katsumi, mantendo conexão direta com sua percepção absoluta. O leopardo não é apenas uma criatura invocada — ele é uma extensão espiritual do próprio usuário, reagindo aos pensamentos, emoções e intenções de combate em tempo real. Essa invocação é conhecida como Yomatora.",
-        "destruction": "Extremamente perigoso em combates de médio e longo alcance. O Kurohyō pode atravessar defesas físicas comuns por ser composto de chakra puro, atacar diretamente o sistema de chakra do oponente com mordidas e garras que fecham tenketsus ao contato, e liberar rugidos que desestabilizam emocionalmente adversários sensíveis à pressão espiritual. Em estado avançado, pode se fragmentar em múltiplas silhuetas de chakra para cercar o alvo antes de recompor seu corpo principal para um golpe final concentrado.",
-        "history": "Registros antigos da família principal descrevem a Kuchiyose Profana como um pacto espiritual selado por ancestrais que dominavam uma vertente proibida do chakra ocular. Cada herdeiro manifesta uma forma animal diferente baseada em sua essência espiritual. O leopardo de Katsumi representa precisão, velocidade e letalidade silenciosa — um reflexo direto de sua afinidade com ataques cirúrgicos aos tenketsus. Por ser formado exclusivamente de chakra profano, apenas portadores do Fujogan com controle emocional elevado conseguem mantê-lo estável.",
-        "status": "Requer domínio avançado do Fujogan e grande reserva de chakra. Caso o controle emocional oscile, o leopardo pode perder coesão momentaneamente ou amplificar instintos agressivos de forma perigosa. Quanto maior o equilíbrio espiritual de Katsumi, mais sólido, veloz e inteligente o Kurohyō se torna, podendo até antecipar movimentos hostis antes mesmo da ação física do inimigo.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F06%20-%20Fujogan%3A%20Reitetsu%20no%20Kuchiyose.png?alt=media&v=1786651875731711"
-      },
-      {
-        "name": "Fujogan: Hokori no Kuchiyose",
-        "classification": "S++",
-        "nature": "Fujogan + Chakra Profano + Kuchiyose no Jutsu",
-        "description": "Com o chakra profano de Kai correndo em suas veias, Katsumi passa a ter acesso ao plano invocatório do Fujogan de Kai, e não apenas ao seu. Ao projetar esse chakra no selo, o círculo de selamento se forma com inscrições douradas em vez das negras habituais, e do centro emerge um leopardo colossal com a coloração do Fujogan de Kai — dourado, luminoso, muito maior e mais denso que a invocação comum de Katsumi. Seu nome é Kintora. Diferente de Yomatora, que responde silenciosamente à percepção de Katsumi como uma extensão sua, Kintora carrega a personalidade de quem o originou: é extremamente orgulhoso, avança antes de receber ordem e trata cada oponente como algo indigno de sua atenção. Sua força bruta supera com folga a da invocação original, e cada investida sua desloca o próprio terreno junto com o alvo.",
-        "destruction": "Muito superior à invocação comum. O corpo de chakra profano dourado de Kintora é denso o bastante para atravessar defesas físicas e romper barreiras de chakra pelo impacto puro. Suas garras e mordidas fecham tenketsus ao contato, como as de Yomatora, mas com potência suficiente para destruir os canais em vez de apenas selá-los. O rugido de Kintora impõe pressão espiritual capaz de fazer adversários hesitarem ou perderem completamente a moldagem de chakra.",
-        "history": "Só se tornou possível depois de Katsumi injetar em si a seringa de chakra profano de Kai. A Kuchiyose do Fujogan é um pacto que se manifesta conforme a essência espiritual de quem o carrega — ao passar a portar o chakra de Kai, Katsumi passou a poder invocar a forma que pertencia a ele. O leopardo que surgiu não era o seu: era o de Kai, com o orgulho de Kai.",
-        "status": "Requer o chakra profano de Kai, e por isso não pode ser reproduzida por outro portador do Fujogan. Kintora não obedece por vínculo espiritual como Yomatora, e sim por imposição: qualquer oscilação na convicção de Katsumi faz a invocação agir por conta própria.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F11%20-%20Fujogan%3A%20Hokori%20no%20Kuchiyose.png?alt=media&v=1786651877261556"
-      },
-      {
-        "name": "Fujogan: Sōhyō Rasengan",
-        "classification": "S+",
-        "nature": "Chakra Profano + Jūken + Rasengan",
-        "description": "Uma evolução devastadora da técnica dos Leopardos Profanos. Katsumi concentra chakra profano nos braços através do Jūken, manifestando os Leopardos Profanos Gêmeos envolvendo seus braços. Diferente da forma original, ele passa a condensar um Rasengan dentro da boca de cada leopardo. As mandíbulas das entidades se abrem revelando uma esfera densa de chakra rotativo envolta por energia profana pulsante. Quando Katsumi ataca com o Punho Suave, os leopardos avançam primeiro, como predadores espirituais, e no momento do impacto liberam o Rasengan diretamente no corpo do alvo. A esfera rotativa penetra profundamente enquanto o chakra profano se espalha pelo sistema de chakra do oponente, dilacerando múltiplos tenketsus simultaneamente e causando uma explosão interna de energia distorcida.",
-        "destruction": "Extremamente elevado. O impacto combina a perfuração rotativa do Rasengan com a precisão destrutiva do Jūken, enquanto o chakra profano invade o sistema de chakra do inimigo, destruindo diversos tenketsus de uma só vez e causando danos internos massivos.",
-        "history": "Após dominar completamente a manifestação dos Leopardos Profanos, Katsumi buscou aumentar ainda mais seu poder ofensivo. Inspirado na técnica Rasengan, ele desenvolveu a capacidade de formar a esfera rotativa dentro da boca das entidades espirituais, criando um ataque predatório onde os leopardos literalmente devoram o fluxo de chakra do inimigo.",
-        "status": "Dominada por Katsumi, porém extremamente exigente. Requer controle absoluto de chakra profano e precisão no fluxo rotativo do Rasengan para evitar instabilidade nas entidades.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F03%20-%20Fujogan%3A%20S%C5%8Dhy%C5%8D%20Rasengan.png?alt=media&v=1786651875732524"
-      },
-      {
-        "name": "Hyuga no Fujo: Jūho Sōshiken",
-        "classification": "S+",
-        "nature": "Chakra Profano + Jūken",
-        "description": "Katsumi concentra chakra profano nos braços e o molda através do estilo Punho Suave, fazendo com que duas entidades de energia tomem forma: os Leopardos Profanos Gêmeos. Esses leopardos possuem aparência predatória e são compostos de chakra roxo intenso que pulsa como uma energia viva. Cada leopardo envolve um dos braços de Katsumi e reage diretamente aos seus movimentos de combate. Sempre que ele executa golpes do Jūken, os leopardos avançam junto com as palmas, atacando como presas espirituais que rasgam o fluxo de chakra do inimigo. Durante os ataques, suas mandíbulas podem se abrir liberando rajadas curtas de chakra profano que invadem o sistema circulatório de energia do alvo, ampliando drasticamente o impacto de cada golpe.",
-        "destruction": "Muito elevado em combate corpo a corpo. Os leopardos amplificam cada golpe de Katsumi, permitindo que seus ataques atinjam múltiplos tenketsus simultaneamente enquanto o chakra profano distorce o fluxo energético do oponente.",
-        "history": "Criada por Katsumi após estudar profundamente a manifestação de chakra usada no estilo dos Leões Gêmeos do clã Hyuga. Ao invés de reproduzir a técnica tradicional, ele a transformou através da fusão com chakra profano, criando entidades muito mais agressivas e instáveis: os Leopardos Profanos.",
-        "status": "Dominada por Katsumi. Requer controle refinado de chakra profano para manter as manifestações estáveis durante o combate.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F04%20-%20Hyuga%20no%20Fujo%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media&v=1786651875702872"
-      },
-      {
-        "name": "Fujogan: Shishin Kuroten",
-        "classification": "S+",
-        "nature": "Fujogan + Chakra Profano + Jūken",
-        "description": "Utilizando o Fujogan, katsumi canaliza seu chakra profano através da rede de tenketsus do braço até concentrá-lo na ponta do dedo indicador. O símbolo espiritual manifestado no olho se intensifica e pulsa em sincronia com o fluxo interno de chakra. Ao disparar, um feixe fino e extremamente denso de chakra profano é lançado em linha reta, quase invisível a olhos comuns. Diferente de um projétil convencional, o disparo é guiado pela percepção absoluta do Fujogan, podendo ajustar sua trajetória em frações de segundo para atingir diretamente os tenketsus do oponente. Ao contato, o chakra profano invade o sistema circulatório de chakra da vítima, desestabilizando emoções, interrompendo fluxos e causando colapsos internos controlados.",
-        "destruction": "Extremamente letal em combate técnico. O Shishin Kuroten não causa explosões externas, mas atinge pontos vitais com precisão cirúrgica. Pode fechar múltiplos tenketsus à distância, interromper técnicas em ativação e até romper defesas baseadas em fluxo contínuo de chakra. Em casos extremos, pode causar paralisia parcial ou total ao desregular completamente a circulação energética do alvo.",
-        "history": "Registros secretos da família principal do Clã Hyuga descrevem essa técnica como uma evolução proibida do Punho Suave. Surgiu após o despertar de um dos primeiros portadores do Fujogan, que buscava uma forma de aplicar o domínio absoluto dos tenketsus sem precisar de contato físico. Por seu potencial de desestabilizar aliados e inimigos indistintamente caso perca o controle emocional, a técnica foi mantida em sigilo por gerações.",
-        "status": "Requer domínio avançado do Fujogan e controle emocional refinado. O uso excessivo pode sobrecarregar o dedo e os canais de chakra do braço, causando dormência temporária ou microfissuras internas nos próprios tenketsus do usuário. Quanto maior o equilíbrio espiritual do portador, mais preciso e penetrante o disparo se torna.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F05%20-%20Fujogan%3A%20Shishin%20Kuroten.png?alt=media&v=1786651875664656"
-      },
-      {
-        "name": "Fujogan",
-        "classification": "S+",
-        "nature": "Dōjutsu",
-        "description": "O Fujogan é um lendário dōjutsu exclusivo de membros da família principal do Clã Hyuga que, ao romperem a tradicional calma e disciplina do clã sob extrema adrenalina e emoção, despertam um poder oculto. Ao ativar o Fujogan, os olhos do usuário assumem um padrão único e sagrado, manifestando um símbolo exclusivo que representa a essência espiritual daquele Hyuga. Esse símbolo se molda e muda conforme a natureza e coloração do chakra do portador, criando um padrão visual singular. O Fujogan amplia drasticamente a percepção do fluxo de chakra, permitindo enxergar não apenas os tenketsus, mas também emoções, intenções hostis e distorções energéticas. Além disso, o usuário passa a manipular o próprio chakra com extrema fluidez, tornando seus golpes do Punho Suave mais rápidos, precisos e adaptáveis a qualquer defesa.",
-        "destruction": "Altamente perigoso em combate direto. Embora não seja uma técnica destrutiva em larga escala, o Fujogan transforma o usuário em uma arma viva. Seus ataques podem quebrar defesas, selamentos e técnicas de chakra ao atingir pontos vitais com precisão absoluta. O controle refinado permite bloquear ou desestabilizar técnicas inimigas, interrompendo o fluxo de chakra e causando danos internos severos.",
-        "history": "Antigos registros do Clã Hyuga mencionam o Fujogan como um fenômeno raro e temido, conhecido como 'o olhar que rompe a calmaria'. Diz-se que apenas Hyugas que desafiaram a tradição emocional do clã, enfrentando situações de vida ou morte, conseguiram despertá-lo. Muitos líderes tentaram ocultar sua existência por medo de que esse poder tornasse seus usuários imprevisíveis e difíceis de controlar.",
-        "status": "Exige grande equilíbrio emocional e físico. O uso prolongado pode causar exaustão mental e sobrecarga sensorial. No entanto, quanto mais o usuário domina suas emoções, mais o Fujogan evolui, permitindo novas formas e símbolos que refletem o crescimento espiritual do portador.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F07%20-%20Fujogan.jpg?alt=media&v=1786651877216665"
-      },
-      {
-        "name": "Juuken: Jūho Sōshiken",
-        "classification": "S",
-        "nature": "Jūken",
-        "description": "Uma técnica secreta da família principal Hyuga que exige domínio avançado do Byakugan. Katsumi canaliza chakra através de toda a rede de tenketsus dos braços enquanto ativa os Punhos de Leões Gêmeos, a tradicional manifestação avançada de chakra do estilo Hyuga. Ao iniciar a sequência dentro do campo dos Oito Trigramas, dois leões colossais de chakra branco surgem envolvendo seus braços e amplificando cada golpe do estilo Punho Suave. A técnica executa uma variação intensificada dos Sessenta e Quatro Golpes dos Oito Trigramas, onde cada impacto atinge com precisão absoluta os tenketsus do inimigo, selando progressivamente sua circulação de chakra. A força espiritual dos leões amplifica o impacto de cada palma, permitindo que o fluxo de chakra do adversário seja bloqueado com muito mais rapidez e eficiência do que na versão tradicional da técnica. O ataque final concentra todo o chakra acumulado nos leões gêmeos e libera um golpe devastador diretamente contra o núcleo do sistema de chakra do alvo.",
-        "destruction": "Extremamente elevado em combate direto. Cada golpe sela ou danifica os tenketsus enquanto a pressão do chakra dos leões gêmeos amplifica o impacto do Punho Suave. Quando executado completamente, pode bloquear quase toda a rede de chakra do alvo, tornando extremamente difícil a moldagem de chakra. Dentro do campo dos Oito Trigramas, múltiplos adversários podem ser atingidos caso entrem no alcance da sequência.",
-        "history": "Mantida em segredo absoluto pela família principal do Clã Hyuga. Registros antigos indicam que esta técnica surgiu como uma evolução do estilo Sessenta e Quatro Palmas quando mestres do clã aprenderam a manifestar os lendários Punhos de Leões Gêmeos, considerados um dos níveis mais avançados do controle de chakra do Punho Suave.",
-        "status": "Uso extremamente restrito. Requer domínio absoluto do Punho Suave, percepção avançada dos tenketsus através do Byakugan e controle preciso da sequência dos 64 Trigramas. A manifestação contínua dos Leões Gêmeos exige grande controle de chakra e resistência física do usuário.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F08%20-%20Juuken%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media&v=1786651877174931"
-      },
-      {
-        "name": "Tenketsu Byakugan",
-        "classification": "A+",
-        "nature": "Juuken",
-        "description": "Uma técnica avançada de ativação e amplificação do Byakugan desenvolvida após anos de treinamento intensivo dentro do clã Hyuga. Ao ativar o Byakugan, Katsumi concentra chakra diretamente nos nervos ópticos e nos tenketsus localizados ao redor dos olhos, expandindo drasticamente sua percepção visual e sensorial. As veias ao redor dos olhos se expandem enquanto sua visão penetra obstáculos físicos, permitindo enxergar através de estruturas sólidas, rastrear fluxos de chakra e identificar com precisão absoluta todos os tenketsus presentes no corpo de qualquer alvo. Durante a ativação completa, o campo de visão se expande para quase 360 graus ao redor do usuário, deixando apenas um pequeno ponto cego nas costas. Além disso, Katsumi consegue perceber mínimas distorções no fluxo de chakra no ambiente, detectar inimigos ocultos, identificar genjutsus e prever movimentos através da leitura da circulação de chakra nos músculos do oponente. O Byakugan ativo também permite calcular com extrema precisão distâncias, velocidades e trajetórias dentro do campo de combate.",
-        "destruction": "Baixo em destruição direta, porém extremamente alto em valor estratégico. A percepção absoluta do campo de batalha permite prever ataques, identificar fraquezas estruturais no fluxo de chakra do oponente e preparar técnicas do Punho Suave com precisão perfeita. Quando combinado com técnicas do estilo Jūken, torna o usuário extremamente letal em combate corpo a corpo.",
-        "history": "O Byakugan é a dōjutsu hereditária do Clã Hyuga, descendente direto do poder ocular do clã Ōtsutsuki. Desde tempos antigos, membros do clã treinam desde a infância para dominar sua ativação e explorar seu potencial máximo em combate, espionagem e análise de chakra.",
-        "status": "Técnica fundamental do clã Hyuga. Embora a ativação seja natural para seus membros, o nível avançado de percepção e alcance visual demonstrado nesta forma exige grande experiência, controle refinado de chakra e treinamento contínuo do usuário.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F09%20-%20Tenketsu%20Byakugan.png?alt=media&v=1786651877167781"
-      }
-    ],
     "description": "Líder e capitão da última força de Konoha\n\nJovem prodígio do clã Hyuga, Katsumi desde jovem convive com a pressão de corresponder às expectativas de todos como sucessor direto de seu clã. Aos 10 anos viveu um verdadeiro pesadelo ao ser sequestrado pela OCA, onde chegou bem perto de morrer sendo salvo por seus companheiros com o uso de uma substância até então desconhecida\n\nKatsumi passou a sofrer com dores de cabeça recorrentes e insuportáveis que vieram a acabar com a ajuda de seu tio, uma pessoa que até então era desconhecida em sua vida. Com a ajuda de seu tio Kai, Katsumi aprendeu que aquelas dores tinham um motivo, o despertar da arma mais poderosa do clã Hyuga, o Fujogan.\n\nAos 12 anos mesmo não tendo o desempenho que esperava no exame chunin, foi reconhecido por Nishinoya como o mais qualificado a ser capitão da mais nova divisão ANBU de Konoha.\n\nJá vivenciou diversas situações traumáticas em suas missões, como a morte de seu pai e de Shoei bem a sua frente, mortes essas responsáveis por despertar ainda mais seu Fujogan, mas ao mesmo tempo tornar seu estado mental algo preocupante\n\nAgora Katsumi tem uma vila inteira em sua responsabilidade além da vida de seus amigos, todas em suas mãos.\n\nEm uma luta contra Alpha, Gama, Delta e Theta, os quatro Kages da OCA, bastou medir a força do que tinha à frente para Katsumi se ver contra a parede. Ainda no início do confronto recorreu ao último recurso: injetou na própria veia a seringa de chakra profano de Kai — a mesma que antes havia sido oferecida a Takeshi como um convite para a OCA. O corpo aceitou o segundo chakra profano, e com ele veio um Fujogan em cada olho: o frio que sempre foi seu de um lado, o orgulho de Kai do outro. Naquele estado, Katsumi alcançou um patamar que pouquíssimos shinobis atingiram em toda a história e passou a executar técnicas que nenhum outro Hyuga jamais executou. Morreu pouco depois, pelas mãos do próprio Kai — o homem de quem viera todo aquele poder.",
     "arsenal": [],
     "gallery": [
@@ -5712,7 +5582,137 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "techniques": [
+      {
+        "name": "Shippū Hyōkai: Reiki to Kyōji",
+        "chakraColors": [
+          "#a855f7",
+          "#ffd60a"
+        ],
+        "classification": "Z",
+        "nature": "Chakra Profano + Futon + Controle de Campo + Juken",
+        "description": "A forma final do Shippū Hyōkai, alcançada apenas depois de Katsumi injetar em si a seringa de chakra profano de Kai. Dentro do domínio já erguido, ele passa a manipular dois chakras profanos ao mesmo tempo: o seu próprio, que carrega o frio, e o de Kai, que carrega o orgulho. Katsumi mistura as duas naturezas no interior do campo e o ambiente inteiro deixa de ser apenas seu território para se tornar uma lâmina. O ar dentro do domínio se enche de fagulhas minúsculas de Futon, quase invisíveis, giradas pela pressão dos dois chakras profanos até adquirirem densidade de corte. Cada fagulha atravessa tudo o que encontra e volta a circular pelo campo, de modo que não existe direção segura nem instante de pausa. Nada que esteja dentro do domínio quando a técnica é liberada permanece inteiro: corpo, arma, técnica em formação e o próprio terreno são reduzidos por um número incontável de cortes microscópicos executados simultaneamente.",
+        "destruction": "Aniquilação total da área interna. A técnica não escolhe alvo — tudo o que estiver dentro do domínio é destruído junto, incluindo aliados e o próprio terreno. As fagulhas de Futon são pequenas demais para serem bloqueadas por defesas convencionais e, por serem conduzidas pelos dois chakras profanos, atravessam barreiras de chakra e continuam cortando o sistema energético do alvo depois de perfurar a proteção física.",
+        "history": "Nasceu de um ato de desespero. Encurralado, Katsumi injetou na própria veia a seringa de chakra profano de Kai — a mesma que antes havia sido entregue a Takeshi como convite para a OCA. Ao receber o segundo chakra profano, Katsumi se tornou um dos shinobis mais fortes já vistos na história e compreendeu de imediato o que sempre faltara ao seu domínio: um segundo chakra para se opor ao seu. O frio e o orgulho, forçados a coexistir dentro do mesmo campo, transformaram o 'Território do Rei' em uma sentença.",
+        "status": "Desbloqueada momentos antes de sua morte. Exige o domínio simultâneo de dois chakras profanos de origens diferentes, algo que o corpo de Katsumi só suportou por causa da injeção direta. Uma vez liberada, a técnica não pode ser interrompida nem redirecionada.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F10%20-%20Shipp%C5%AB%20Hy%C5%8Dkai%3A%20Reiki%20to%20Ky%C5%8Dji.jpg?alt=media&v=1786651877247656"
+      },
+      {
+        "name": "Fujogan: Reikō Kuchiyose",
+        "chakraColors": [
+          "#a855f7",
+          "#ffd60a"
+        ],
+        "classification": "Z",
+        "nature": "Fujogan + Chakra Profano + Kuchiyose no Jutsu",
+        "description": "O ápice do que Katsumi alcançou ao portar dois chakras profanos. Com um Fujogan em cada olho — o seu, roxo, e o de Kai, dourado —, ele forma dois círculos de selamento simultâneos e invoca as duas feras do plano invocatório do Fujogan ao mesmo tempo: Yomatora, o leopardo de chakra profano roxo, e Kintora, o leopardo dourado de Kai. Cada olho conduz uma das invocações de forma independente, e Katsumi combate com as duas ao mesmo tempo sem perder precisão sobre nenhuma delas. Yomatora ataca em silêncio, lendo a percepção de Katsumi e fechando tenketsus com cortes cirúrgicos; Kintora avança de frente, destruindo tudo o que estiver no caminho. Entre os dois, o alvo é obrigado a se defender de duas naturezas opostas de chakra profano ao mesmo tempo, e qualquer abertura criada por uma das feras é imediatamente explorada pela outra.",
+        "destruction": "Extremo. As duas invocações operam em ritmos e alcances diferentes, cobrindo simultaneamente o combate de precisão e o de força bruta, sem ponto cego entre elas. Defesas montadas contra um dos leopardos são inúteis contra o outro, e o chakra profano de ambos, ao se acumular no sistema energético do alvo, provoca colapso muito mais rápido do que qualquer das invocações isoladamente.",
+        "history": "Nenhum portador do Fujogan registrado na história do clã Hyuga jamais conduziu duas invocações ao mesmo tempo, porque nenhum jamais carregou dois Fujogans. Katsumi só chegou a essa forma depois de injetar o chakra profano de Kai em sua veia, passando a manifestar um Fujogan distinto em cada olho.",
+        "status": "Desbloqueada pouco antes de sua morte. Manter as duas invocações exige conduzir dois chakras profanos de origens diferentes sem que se anulem, dividindo a percepção absoluta do Fujogan entre dois alvos de controle. O desgaste é imenso e cresce a cada segundo de manutenção.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F12%20-%20Fujogan%3A%20Reik%C5%8D%20Kuchiyose.jpg?alt=media&v=1786651877227009"
+      },
+      {
+        "name": "Shippū Hyōkai",
+        "classification": "Z",
+        "nature": "Chakra Profano + Controle de Campo + Juken",
+        "description": "Após um intenso treinamento com Kai, Katsumi compreendeu a verdadeira natureza do chakra profano — uma chakra que atua no cerebro e não diretamente nos tenketsus com isso ele foi capaz de dominar o ambiente ao redor. Ao ativar essa técnica, ele expande seu chakra profano para fora do corpo, criando um campo espiritual denso que envolve toda a área ao seu redor. Dentro desse domínio, o fluxo de chakra deixa de seguir as leis naturais e passa a responder diretamente à vontade de Katsumi. O campo distorce o ambiente energético e conecta tudo à sua percepção, permitindo que ele sinta, manipule e controle cada movimento dentro da área. Ataques corporais executados por Katsumi são amplificados pelo próprio campo, tornando cada golpe do Juken muito mais destrutivo. Em contraste, ataques à distância lançados contra ele perdem força e estabilidade ao atravessar o domínio, tendo seu chakra drenado e desorganizado. Como o campo recicla constantemente a energia profana presente no ambiente, Katsumi pode atacar e se mover dentro do domínio com gasto mínimo de chakra, governando o espaço como um verdadeiro rei.",
+        "destruction": "Extremamente alto em combate prolongado. Dentro do domínio, Katsumi possui supremacia quase absoluta em confrontos de curta distância. Técnicas baseadas em projéteis ou disparos de chakra perdem potência e precisão conforme entram no campo. A pressão espiritual do chakra profano também pode desestabilizar o sistema de chakra de inimigos dentro da área, causando lentidão de reação, colapso energético progressivo e dificuldade para moldar chakra.",
+        "history": "A técnica surgiu após Katsumi compreender completamente o comportamento do chakra profano durante seu treinamento com Kai. Diferente de técnicas tradicionais que apenas utilizam chakra como combustível, Katsumi aprendeu a expandir sua energia e transformar o ambiente em um reservatório vivo de chakra profano. Entre registros ocultos, esse domínio passou a ser conhecido como o 'Território do Rei', pois dentro dele o usuário governa o fluxo energético como um soberano absoluto.",
+        "status": "Requer domínio extremamente avançado do chakra profano e grande estabilidade mental. Quanto maior o controle emocional de Katsumi, mais perfeito se torna o domínio. Caso a concentração do usuário seja quebrada, o campo pode enfraquecer ou se dissipar temporariamente.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F01%20-%20Shipp%C5%AB%20Hy%C5%8Dkai.png?alt=media&v=1786651875749070"
+      },
+      {
+        "name": "Fujogan: Hakke Hyaku Nijūhachi Shō",
+        "classification": "S++",
+        "nature": "Fujogan + Chakra Profano + Juken",
+        "description": "Uma técnica devastadora onde Katsumi combina o clássico estilo dos Cento e Vinte e Oito Golpes dos Oito Trigramas com a manifestação dos Leopardos Profanos. Após ativar o campo dos Oito Trigramas através do Fujogan, os leopardos de chakra profano surgem envolvendo seus braços. Quando a sequência de 128 golpes começa, cada palma executada pelo Punho Suave é acompanhada por ataques sincronizados dos leopardos espirituais. Enquanto Katsumi fecha os tenketsus com precisão absoluta, os leopardos avançam mordendo e rasgando o fluxo de chakra do inimigo. A sequência se torna extremamente violenta: golpes, investidas e mordidas energéticas acontecem simultaneamente dentro do campo dos Oito Trigramas. Conforme os ataques se acumulam, o chakra profano se espalha pela rede energética do alvo. No último golpe, ambos os leopardos convergem e liberam toda a energia acumulada dos 128 impactos em uma explosão concentrada diretamente no núcleo do sistema de chakra do inimigo.",
+        "destruction": "Nível extremamente elevado. A sequência de 128 golpes sela completamente os tenketsus enquanto os leopardos destroem e corrompem os canais internos de chakra do oponente. O impacto final pode causar o colapso total do sistema de chakra do alvo.",
+        "history": "Criada por Katsumi como uma evolução do estilo Hyuga tradicional. Após dominar os Leopardos Profanos, ele passou a integrá-los diretamente na sequência dos 128 Trigramas, transformando uma técnica clássica do clã em um estilo muito mais agressivo e destrutivo.",
+        "status": "Extremamente difícil de executar. Requer domínio absoluto do Punho Suave, percepção perfeita dos tenketsus através do Fujogan e controle total do chakra profano durante toda a sequência de 128 golpes.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F02%20-%20Fujogan%3A%20Hakke%20Hyaku%20Nij%C5%ABhachi%20Sh%C5%8D.png?alt=media&v=1786651875667225"
+      },
+      {
+        "name": "Fujogan: Reitetsu no Kuchiyose",
+        "classification": "S++",
+        "nature": "Fujogan + Chakra Profano + Kuchiyose no Jutsu",
+        "description": "Através do Fujogan, Katsumi ativa o selo espiritual herdado da família principal e projeta seu chakra profano no plano invocatório. O símbolo ocular pulsa em roxo intenso enquanto um círculo de selamento se forma sob seus pés, composto por inscrições espirituais negras. Do centro do selo emerge um leopardo colossal feito 100% de chakra profano condensado. Seu corpo é elegante e denso, com fissuras luminosas roxas percorrendo sua estrutura energética. Seus olhos brilham na mesma frequência do Fujogan de Katsumi, mantendo conexão direta com sua percepção absoluta. O leopardo não é apenas uma criatura invocada — ele é uma extensão espiritual do próprio usuário, reagindo aos pensamentos, emoções e intenções de combate em tempo real. Essa invocação é conhecida como Yomatora.",
+        "destruction": "Extremamente perigoso em combates de médio e longo alcance. O Kurohyō pode atravessar defesas físicas comuns por ser composto de chakra puro, atacar diretamente o sistema de chakra do oponente com mordidas e garras que fecham tenketsus ao contato, e liberar rugidos que desestabilizam emocionalmente adversários sensíveis à pressão espiritual. Em estado avançado, pode se fragmentar em múltiplas silhuetas de chakra para cercar o alvo antes de recompor seu corpo principal para um golpe final concentrado.",
+        "history": "Registros antigos da família principal descrevem a Kuchiyose Profana como um pacto espiritual selado por ancestrais que dominavam uma vertente proibida do chakra ocular. Cada herdeiro manifesta uma forma animal diferente baseada em sua essência espiritual. O leopardo de Katsumi representa precisão, velocidade e letalidade silenciosa — um reflexo direto de sua afinidade com ataques cirúrgicos aos tenketsus. Por ser formado exclusivamente de chakra profano, apenas portadores do Fujogan com controle emocional elevado conseguem mantê-lo estável.",
+        "status": "Requer domínio avançado do Fujogan e grande reserva de chakra. Caso o controle emocional oscile, o leopardo pode perder coesão momentaneamente ou amplificar instintos agressivos de forma perigosa. Quanto maior o equilíbrio espiritual de Katsumi, mais sólido, veloz e inteligente o Kurohyō se torna, podendo até antecipar movimentos hostis antes mesmo da ação física do inimigo.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F06%20-%20Fujogan%3A%20Reitetsu%20no%20Kuchiyose.png?alt=media&v=1786651875731711"
+      },
+      {
+        "name": "Fujogan: Hokori no Kuchiyose",
+        "classification": "S++",
+        "nature": "Fujogan + Chakra Profano + Kuchiyose no Jutsu",
+        "description": "Com o chakra profano de Kai correndo em suas veias, Katsumi passa a ter acesso ao plano invocatório do Fujogan de Kai, e não apenas ao seu. Ao projetar esse chakra no selo, o círculo de selamento se forma com inscrições douradas em vez das negras habituais, e do centro emerge um leopardo colossal com a coloração do Fujogan de Kai — dourado, luminoso, muito maior e mais denso que a invocação comum de Katsumi. Seu nome é Kintora. Diferente de Yomatora, que responde silenciosamente à percepção de Katsumi como uma extensão sua, Kintora carrega a personalidade de quem o originou: é extremamente orgulhoso, avança antes de receber ordem e trata cada oponente como algo indigno de sua atenção. Sua força bruta supera com folga a da invocação original, e cada investida sua desloca o próprio terreno junto com o alvo.",
+        "destruction": "Muito superior à invocação comum. O corpo de chakra profano dourado de Kintora é denso o bastante para atravessar defesas físicas e romper barreiras de chakra pelo impacto puro. Suas garras e mordidas fecham tenketsus ao contato, como as de Yomatora, mas com potência suficiente para destruir os canais em vez de apenas selá-los. O rugido de Kintora impõe pressão espiritual capaz de fazer adversários hesitarem ou perderem completamente a moldagem de chakra.",
+        "history": "Só se tornou possível depois de Katsumi injetar em si a seringa de chakra profano de Kai. A Kuchiyose do Fujogan é um pacto que se manifesta conforme a essência espiritual de quem o carrega — ao passar a portar o chakra de Kai, Katsumi passou a poder invocar a forma que pertencia a ele. O leopardo que surgiu não era o seu: era o de Kai, com o orgulho de Kai.",
+        "status": "Requer o chakra profano de Kai, e por isso não pode ser reproduzida por outro portador do Fujogan. Kintora não obedece por vínculo espiritual como Yomatora, e sim por imposição: qualquer oscilação na convicção de Katsumi faz a invocação agir por conta própria.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F11%20-%20Fujogan%3A%20Hokori%20no%20Kuchiyose.png?alt=media&v=1786651877261556"
+      },
+      {
+        "name": "Fujogan: Sōhyō Rasengan",
+        "classification": "S+",
+        "nature": "Chakra Profano + Juken + Rasengan",
+        "description": "Uma evolução devastadora da técnica dos Leopardos Profanos. Katsumi concentra chakra profano nos braços através do Juken, manifestando os Leopardos Profanos Gêmeos envolvendo seus braços. Diferente da forma original, ele passa a condensar um Rasengan dentro da boca de cada leopardo. As mandíbulas das entidades se abrem revelando uma esfera densa de chakra rotativo envolta por energia profana pulsante. Quando Katsumi ataca com o Punho Suave, os leopardos avançam primeiro, como predadores espirituais, e no momento do impacto liberam o Rasengan diretamente no corpo do alvo. A esfera rotativa penetra profundamente enquanto o chakra profano se espalha pelo sistema de chakra do oponente, dilacerando múltiplos tenketsus simultaneamente e causando uma explosão interna de energia distorcida.",
+        "destruction": "Extremamente elevado. O impacto combina a perfuração rotativa do Rasengan com a precisão destrutiva do Juken, enquanto o chakra profano invade o sistema de chakra do inimigo, destruindo diversos tenketsus de uma só vez e causando danos internos massivos.",
+        "history": "Após dominar completamente a manifestação dos Leopardos Profanos, Katsumi buscou aumentar ainda mais seu poder ofensivo. Inspirado na técnica Rasengan, ele desenvolveu a capacidade de formar a esfera rotativa dentro da boca das entidades espirituais, criando um ataque predatório onde os leopardos literalmente devoram o fluxo de chakra do inimigo.",
+        "status": "Dominada por Katsumi, porém extremamente exigente. Requer controle absoluto de chakra profano e precisão no fluxo rotativo do Rasengan para evitar instabilidade nas entidades.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F03%20-%20Fujogan%3A%20S%C5%8Dhy%C5%8D%20Rasengan.png?alt=media&v=1786651875732524"
+      },
+      {
+        "name": "Hyuga no Fujo: Jūho Sōshiken",
+        "classification": "S+",
+        "nature": "Chakra Profano + Juken",
+        "description": "Katsumi concentra chakra profano nos braços e o molda através do estilo Punho Suave, fazendo com que duas entidades de energia tomem forma: os Leopardos Profanos Gêmeos. Esses leopardos possuem aparência predatória e são compostos de chakra roxo intenso que pulsa como uma energia viva. Cada leopardo envolve um dos braços de Katsumi e reage diretamente aos seus movimentos de combate. Sempre que ele executa golpes do Juken, os leopardos avançam junto com as palmas, atacando como presas espirituais que rasgam o fluxo de chakra do inimigo. Durante os ataques, suas mandíbulas podem se abrir liberando rajadas curtas de chakra profano que invadem o sistema circulatório de energia do alvo, ampliando drasticamente o impacto de cada golpe.",
+        "destruction": "Muito elevado em combate corpo a corpo. Os leopardos amplificam cada golpe de Katsumi, permitindo que seus ataques atinjam múltiplos tenketsus simultaneamente enquanto o chakra profano distorce o fluxo energético do oponente.",
+        "history": "Criada por Katsumi após estudar profundamente a manifestação de chakra usada no estilo dos Leões Gêmeos do clã Hyuga. Ao invés de reproduzir a técnica tradicional, ele a transformou através da fusão com chakra profano, criando entidades muito mais agressivas e instáveis: os Leopardos Profanos.",
+        "status": "Dominada por Katsumi. Requer controle refinado de chakra profano para manter as manifestações estáveis durante o combate.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F04%20-%20Hyuga%20no%20Fujo%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media&v=1786651875702872"
+      },
+      {
+        "name": "Fujogan: Shishin Kuroten",
+        "classification": "S+",
+        "nature": "Fujogan + Chakra Profano + Juken",
+        "description": "Utilizando o Fujogan, katsumi canaliza seu chakra profano através da rede de tenketsus do braço até concentrá-lo na ponta do dedo indicador. O símbolo espiritual manifestado no olho se intensifica e pulsa em sincronia com o fluxo interno de chakra. Ao disparar, um feixe fino e extremamente denso de chakra profano é lançado em linha reta, quase invisível a olhos comuns. Diferente de um projétil convencional, o disparo é guiado pela percepção absoluta do Fujogan, podendo ajustar sua trajetória em frações de segundo para atingir diretamente os tenketsus do oponente. Ao contato, o chakra profano invade o sistema circulatório de chakra da vítima, desestabilizando emoções, interrompendo fluxos e causando colapsos internos controlados.",
+        "destruction": "Extremamente letal em combate técnico. O Shishin Kuroten não causa explosões externas, mas atinge pontos vitais com precisão cirúrgica. Pode fechar múltiplos tenketsus à distância, interromper técnicas em ativação e até romper defesas baseadas em fluxo contínuo de chakra. Em casos extremos, pode causar paralisia parcial ou total ao desregular completamente a circulação energética do alvo.",
+        "history": "Registros secretos da família principal do Clã Hyuga descrevem essa técnica como uma evolução proibida do Punho Suave. Surgiu após o despertar de um dos primeiros portadores do Fujogan, que buscava uma forma de aplicar o domínio absoluto dos tenketsus sem precisar de contato físico. Por seu potencial de desestabilizar aliados e inimigos indistintamente caso perca o controle emocional, a técnica foi mantida em sigilo por gerações.",
+        "status": "Requer domínio avançado do Fujogan e controle emocional refinado. O uso excessivo pode sobrecarregar o dedo e os canais de chakra do braço, causando dormência temporária ou microfissuras internas nos próprios tenketsus do usuário. Quanto maior o equilíbrio espiritual do portador, mais preciso e penetrante o disparo se torna.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F05%20-%20Fujogan%3A%20Shishin%20Kuroten.png?alt=media&v=1786651875664656"
+      },
+      {
+        "name": "Fujogan",
+        "classification": "S+",
+        "nature": "Dōjutsu",
+        "description": "O Fujogan é um lendário dōjutsu exclusivo de membros da família principal do Clã Hyuga que, ao romperem a tradicional calma e disciplina do clã sob extrema adrenalina e emoção, despertam um poder oculto. Ao ativar o Fujogan, os olhos do usuário assumem um padrão único e sagrado, manifestando um símbolo exclusivo que representa a essência espiritual daquele Hyuga. Esse símbolo se molda e muda conforme a natureza e coloração do chakra do portador, criando um padrão visual singular. O Fujogan amplia drasticamente a percepção do fluxo de chakra, permitindo enxergar não apenas os tenketsus, mas também emoções, intenções hostis e distorções energéticas. Além disso, o usuário passa a manipular o próprio chakra com extrema fluidez, tornando seus golpes do Punho Suave mais rápidos, precisos e adaptáveis a qualquer defesa.",
+        "destruction": "Altamente perigoso em combate direto. Embora não seja uma técnica destrutiva em larga escala, o Fujogan transforma o usuário em uma arma viva. Seus ataques podem quebrar defesas, selamentos e técnicas de chakra ao atingir pontos vitais com precisão absoluta. O controle refinado permite bloquear ou desestabilizar técnicas inimigas, interrompendo o fluxo de chakra e causando danos internos severos.",
+        "history": "Antigos registros do Clã Hyuga mencionam o Fujogan como um fenômeno raro e temido, conhecido como 'o olhar que rompe a calmaria'. Diz-se que apenas Hyugas que desafiaram a tradição emocional do clã, enfrentando situações de vida ou morte, conseguiram despertá-lo. Muitos líderes tentaram ocultar sua existência por medo de que esse poder tornasse seus usuários imprevisíveis e difíceis de controlar.",
+        "status": "Exige grande equilíbrio emocional e físico. O uso prolongado pode causar exaustão mental e sobrecarga sensorial. No entanto, quanto mais o usuário domina suas emoções, mais o Fujogan evolui, permitindo novas formas e símbolos que refletem o crescimento espiritual do portador.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F07%20-%20Fujogan.jpg?alt=media&v=1786651877216665"
+      },
+      {
+        "name": "Juken: Jūho Sōshiken",
+        "classification": "S",
+        "nature": "Juken",
+        "description": "Uma técnica secreta da família principal Hyuga que exige domínio avançado do Byakugan. Katsumi canaliza chakra através de toda a rede de tenketsus dos braços enquanto ativa os Punhos de Leões Gêmeos, a tradicional manifestação avançada de chakra do estilo Hyuga. Ao iniciar a sequência dentro do campo dos Oito Trigramas, dois leões colossais de chakra branco surgem envolvendo seus braços e amplificando cada golpe do estilo Punho Suave. A técnica executa uma variação intensificada dos Sessenta e Quatro Golpes dos Oito Trigramas, onde cada impacto atinge com precisão absoluta os tenketsus do inimigo, selando progressivamente sua circulação de chakra. A força espiritual dos leões amplifica o impacto de cada palma, permitindo que o fluxo de chakra do adversário seja bloqueado com muito mais rapidez e eficiência do que na versão tradicional da técnica. O ataque final concentra todo o chakra acumulado nos leões gêmeos e libera um golpe devastador diretamente contra o núcleo do sistema de chakra do alvo.",
+        "destruction": "Extremamente elevado em combate direto. Cada golpe sela ou danifica os tenketsus enquanto a pressão do chakra dos leões gêmeos amplifica o impacto do Punho Suave. Quando executado completamente, pode bloquear quase toda a rede de chakra do alvo, tornando extremamente difícil a moldagem de chakra. Dentro do campo dos Oito Trigramas, múltiplos adversários podem ser atingidos caso entrem no alcance da sequência.",
+        "history": "Mantida em segredo absoluto pela família principal do Clã Hyuga. Registros antigos indicam que esta técnica surgiu como uma evolução do estilo Sessenta e Quatro Palmas quando mestres do clã aprenderam a manifestar os lendários Punhos de Leões Gêmeos, considerados um dos níveis mais avançados do controle de chakra do Punho Suave.",
+        "status": "Uso extremamente restrito. Requer domínio absoluto do Punho Suave, percepção avançada dos tenketsus através do Byakugan e controle preciso da sequência dos 64 Trigramas. A manifestação contínua dos Leões Gêmeos exige grande controle de chakra e resistência física do usuário.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F08%20-%20Juken%3A%20J%C5%ABho%20S%C5%8Dshiken.png?alt=media&v=1787156172012870"
+      },
+      {
+        "name": "Tenketsu Byakugan",
+        "classification": "A+",
+        "nature": "Juken",
+        "description": "Uma técnica avançada de ativação e amplificação do Byakugan desenvolvida após anos de treinamento intensivo dentro do clã Hyuga. Ao ativar o Byakugan, Katsumi concentra chakra diretamente nos nervos ópticos e nos tenketsus localizados ao redor dos olhos, expandindo drasticamente sua percepção visual e sensorial. As veias ao redor dos olhos se expandem enquanto sua visão penetra obstáculos físicos, permitindo enxergar através de estruturas sólidas, rastrear fluxos de chakra e identificar com precisão absoluta todos os tenketsus presentes no corpo de qualquer alvo. Durante a ativação completa, o campo de visão se expande para quase 360 graus ao redor do usuário, deixando apenas um pequeno ponto cego nas costas. Além disso, Katsumi consegue perceber mínimas distorções no fluxo de chakra no ambiente, detectar inimigos ocultos, identificar genjutsus e prever movimentos através da leitura da circulação de chakra nos músculos do oponente. O Byakugan ativo também permite calcular com extrema precisão distâncias, velocidades e trajetórias dentro do campo de combate.",
+        "destruction": "Baixo em destruição direta, porém extremamente alto em valor estratégico. A percepção absoluta do campo de batalha permite prever ataques, identificar fraquezas estruturais no fluxo de chakra do oponente e preparar técnicas do Punho Suave com precisão perfeita. Quando combinado com técnicas do estilo Juken, torna o usuário extremamente letal em combate corpo a corpo.",
+        "history": "O Byakugan é a dōjutsu hereditária do Clã Hyuga, descendente direto do poder ocular do clã Ōtsutsuki. Desde tempos antigos, membros do clã treinam desde a infância para dominar sua ativação e explorar seu potencial máximo em combate, espionagem e análise de chakra.",
+        "status": "Técnica fundamental do clã Hyuga. Embora a ativação seja natural para seus membros, o nível avançado de percepção e alcance visual demonstrado nesta forma exige grande experiência, controle refinado de chakra e treinamento contínuo do usuário.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FTecnicas%2F09%20-%20Tenketsu%20Byakugan.png?alt=media&v=1786651877167781"
+      }
+    ]
   },
   {
     "__docId": "katsuo-uzumaki",

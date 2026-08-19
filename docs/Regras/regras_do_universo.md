@@ -162,6 +162,13 @@ Um NC 16 tem teto 16 em cada atributo; um NC 23, teto 23. O 30 aparece como limi
 
 ---
 
+## Grafia: Juken, sem macron e com um u
+
+O Punho Suave dos Hyuga se escreve **`Juken`**. É exceção à convenção de macrons do projeto, junto com [Fujogan] — e o nome composto mantém os macrons das outras palavras: `Juken: Jūho Sōshiken`.
+
+O projeto tinha três grafias ao mesmo tempo, separadas por onde apareciam: `Juken` nos nomes de poder, `Jūken` nos campos `nature` das técnicas do Katsumi, e `Juuken` em dois lugares. As 18 ocorrências foram unificadas em 2026-08-19, incluindo o nome da técnica do Katsumi e o arquivo dela no Storage.
+
+---
 ## Estilo de combate — como distribuir quando o NC sobe
 
 Todo personagem é de **combate corporal** ou de **combate a distância**. Isso nunca aparece no site: é informação interna, e serve só para distribuir atributo.
