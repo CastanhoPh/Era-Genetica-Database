@@ -9,6 +9,7 @@ export interface InvocacaoCardData {
   capaUrl?: string;
   arteUrl?: string;
   rank?: string;
+  nature?: string;
   placeholder: boolean;
   /** Página no projeto Invocações do Canva. */
   pagina: number;
@@ -116,7 +117,9 @@ const InvocacaoCard: React.FC<Props> = ({ inv, index, onClick }) => {
           </h3>
         </div>
         <div className="mt-3 flex justify-between items-center gap-2 relative z-10">
-          <span className="text-[10px] uppercase tracking-widest text-tech-primary/40 truncate">{inv.dono}</span>
+          <span className="text-[10px] uppercase tracking-widest text-tech-primary/40 truncate">
+            {inv.dono}{inv.nature && <span className="text-tech-primary/25"> · {inv.nature}</span>}
+          </span>
           <span className="text-[10px] flex items-center gap-1 group-hover:gap-2 transition-all text-tech-primary whitespace-nowrap">
             ACESSAR_DADOS <ChevronRight size={10} />
           </span>

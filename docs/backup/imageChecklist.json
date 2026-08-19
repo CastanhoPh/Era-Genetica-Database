@@ -2209,7 +2209,9 @@
     "order": 40013,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNishinoya%2FMatatabi.png?alt=media&v=1787162975985860"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNishinoya%2FMatatabi.png?alt=media&v=1787162975985860",
+    "nature": "Matatabi",
+    "rank": "Z"
   },
   {
     "__docId": "1n8v52fZe6J2ZcLj5pkt",
@@ -3319,7 +3321,9 @@
     "order": 40008,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FFuryuzan.png?alt=media&v=1787162953709859",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "4bF9qcPe2LD4tiCmWZUb",
@@ -3472,7 +3476,9 @@
     "done": false,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FSakura.png?alt=media&v=1787163039733868",
-    "placeholder": true
+    "placeholder": true,
+    "nature": "Mokuton",
+    "rank": "S+"
   },
   {
     "__docId": "5znDrjETeeTFW6A4nsJ6",
@@ -3539,7 +3545,9 @@
     "order": 40010,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FKintora.png?alt=media&v=1787162962669815"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FKintora.png?alt=media&v=1787162962669815",
+    "nature": "Fujogan",
+    "rank": "S++"
   },
   {
     "__docId": "6uqrNtkWbXBWNLswkX8w",
@@ -3732,7 +3740,9 @@
     "order": 40019,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FApollo%2FEnma.png?alt=media&v=1787162996905893"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FApollo%2FEnma.png?alt=media&v=1787162996905893",
+    "nature": "Senjutsu",
+    "rank": "S++"
   },
   {
     "__docId": "8yhcFfF3YSZBaLz0dp53",
@@ -3941,7 +3951,9 @@
     "order": 40035,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHoshiro%2FKetsutora.png?alt=media&v=1787163041911354"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHoshiro%2FKetsutora.png?alt=media&v=1787163041911354",
+    "nature": "Fujogan",
+    "rank": "Z"
   },
   {
     "__docId": "a0HxyUouqz4VRf6Xm5zZ",
@@ -4009,7 +4021,9 @@
     "order": 40042,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FKokuryu.png?alt=media&v=1787163063051234"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FKokuryu.png?alt=media&v=1787163063051234",
+    "nature": "Fujogan",
+    "rank": "S++"
   },
   {
     "__docId": "acMDy11z2pJd5BKzs0S2",
@@ -4020,7 +4034,9 @@
     "order": 40025,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FNeter.png?alt=media&v=1787163018918004"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FNeter.png?alt=media&v=1787163018918004",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "aewyNHn1QCFGqH1zw49t",
@@ -4345,7 +4361,9 @@
     "order": 40000,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNishinoya.png?alt=media&v=1787162916812588",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "C79LPNOAqowjolSnSLaO",
@@ -4443,7 +4461,9 @@
     "order": 40024,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FHiiro.png?alt=media&v=1787163015430487"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FHiiro.png?alt=media&v=1787163015430487",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "CJmr7hbnLoIcclsCtoyi",
@@ -4960,7 +4980,9 @@
     "order": 40029,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FAkeganai.png?alt=media&v=1787163030660251"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FAkeganai.png?alt=media&v=1787163030660251",
+    "nature": "Ketton",
+    "rank": "S++"
   },
   {
     "__docId": "FF2PIyhS1dkHbCpNulKC",
@@ -4981,7 +5003,9 @@
     "order": 40039,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FSeitora.png?alt=media&v=1787163054126683"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FSeitora.png?alt=media&v=1787163054126683",
+    "nature": "Fujogan",
+    "rank": "S++"
   },
   {
     "__docId": "FhPUCipfara0PfNlcIyJ",
@@ -5090,7 +5114,9 @@
     "order": 40014,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FOddy%2FOddyo.png?alt=media&v=1787162979697505"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FOddy%2FOddyo.png?alt=media&v=1787162979697505",
+    "nature": "Doton",
+    "rank": "S+"
   },
   {
     "__docId": "gE560wIEwu8N3ChB34Xk",
@@ -5134,7 +5160,9 @@
     "order": 40044,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FAnken.png?alt=media&v=1787163068851748"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FAnken.png?alt=media&v=1787163068851748",
+    "nature": "Kage Mane",
+    "rank": "S"
   },
   {
     "__docId": "gj1qGTwdbbIszhMJrv3T",
@@ -5269,7 +5297,9 @@
     "order": 40021,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShoyu%2FKurama.png?alt=media&v=1787163004205877"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShoyu%2FKurama.png?alt=media&v=1787163004205877",
+    "nature": "Kurama",
+    "rank": "Z"
   },
   {
     "__docId": "Gw23pu0CAOtmGw1n64de",
@@ -5328,7 +5358,9 @@
     "order": 40015,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamarai.png?alt=media&v=1787162983570716"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamarai.png?alt=media&v=1787162983570716",
+    "nature": "Senjutsu",
+    "rank": "Z"
   },
   {
     "__docId": "H5FZLmOAjVadlnz6LLqR",
@@ -5426,7 +5458,9 @@
     "order": 40047,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FTamatama.png?alt=media&v=1787163078010972"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FTamatama.png?alt=media&v=1787163078010972",
+    "nature": "Kage Mane",
+    "rank": "Z"
   },
   {
     "__docId": "hI7ZSLpQx1BHsPXZpqr0",
@@ -5449,7 +5483,9 @@
     "order": 40003,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FShoei.png?alt=media&v=1787162930626841",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "hJA7d8cbV9hpubwpSPrf",
@@ -5532,7 +5568,9 @@
     "order": 40041,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FDaiju.png?alt=media&v=1787163059994460"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FDaiju.png?alt=media&v=1787163059994460",
+    "nature": "Fujogan",
+    "rank": "S+"
   },
   {
     "__docId": "Hw17gzyom62I3g2yyfmZ",
@@ -5600,7 +5638,9 @@
     "order": 40009,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNagare.png?alt=media&v=1787162958076280",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "I447PiqCg1tc7pP3q41X",
@@ -5700,7 +5740,9 @@
     "order": 40037,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAsami%2FShotora.png?alt=media&v=1787163047987047"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAsami%2FShotora.png?alt=media&v=1787163047987047",
+    "nature": "Fujogan",
+    "rank": "Z"
   },
   {
     "__docId": "IgVE8u2ZTLxNjtXNbcUW",
@@ -5759,7 +5801,9 @@
     "order": 40026,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FChroll.png?alt=media&v=1787163021875782"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FChroll.png?alt=media&v=1787163021875782",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "iPALRrrtWANQc8GXKv9t",
@@ -5937,7 +5981,9 @@
     "order": 40012,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKurohime%2FKurotsume.png?alt=media&v=1787162971888764"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKurohime%2FKurotsume.png?alt=media&v=1787162971888764",
+    "nature": "Senjutsu",
+    "rank": "S+"
   },
   {
     "__docId": "Jsyf5YixJYDBJcvW6xMj",
@@ -5971,7 +6017,9 @@
     "order": 40002,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FOddy.png?alt=media&v=1787162926159719",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "JXQsaVGDpcQjgPToBZNU",
@@ -6092,7 +6140,9 @@
     "order": 40022,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FGono.png?alt=media&v=1787163007873563"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FGono.png?alt=media&v=1787163007873563",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "koDBzbkdVJH3Gf9xwzMJ",
@@ -6261,7 +6311,9 @@
     "order": 40016,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamasen.png?alt=media&v=1787162986743503"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamasen.png?alt=media&v=1787162986743503",
+    "nature": "Senjutsu",
+    "rank": "Z"
   },
   {
     "__docId": "LsaA97vjbGeZII3HlMPH",
@@ -6284,7 +6336,9 @@
     "done": false,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FTronquinho.png?alt=media&v=1787163036892294",
-    "placeholder": true
+    "placeholder": true,
+    "nature": "Mokuton",
+    "rank": "S+"
   },
   {
     "__docId": "LT0V7zO6ufq0Y48eCnLq",
@@ -6560,7 +6614,9 @@
     "order": 40004,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FTakeshi.png?alt=media&v=1787162935262103",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "NCjLe1Qa0WvRZraAXmFr",
@@ -6571,7 +6627,9 @@
     "order": 40005,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNajin.png?alt=media&v=1787162939864213",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "nGgOrPVPIR4mnra6fyXL",
@@ -6637,7 +6695,9 @@
     "order": 40045,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FMeiryu.png?alt=media&v=1787163071989788"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FMeiryu.png?alt=media&v=1787163071989788",
+    "nature": "Kage Mane",
+    "rank": "S+"
   },
   {
     "__docId": "NVEmTWEBzMpFoydYUbyU",
@@ -6713,7 +6773,9 @@
     "order": 40006,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FKenma.png?alt=media&v=1787162944442854",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "O5I0B8wQc7ApipUs5Pe0",
@@ -6829,7 +6891,9 @@
     "order": 40023,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FKirr.png?alt=media&v=1787163011644521"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FKirr.png?alt=media&v=1787163011644521",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "OqfYXUdpLM2DsQhNvMWj",
@@ -6884,7 +6948,9 @@
     "order": 40046,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FKagejin.png?alt=media&v=1787163074994540"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FKagejin.png?alt=media&v=1787163074994540",
+    "nature": "Kage Mane",
+    "rank": "S++"
   },
   {
     "__docId": "OXZBpMvVlmbEc5m9fM8Y",
@@ -7057,7 +7123,9 @@
     "order": 40028,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAkira%2FMizuchi.png?alt=media&v=1787163027853771"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAkira%2FMizuchi.png?alt=media&v=1787163027853771",
+    "nature": "Senjutsu",
+    "rank": "S+"
   },
   {
     "__docId": "po850CxPhIavm0ii1GzT",
@@ -7069,7 +7137,9 @@
     "done": false,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FMadeiroso.png?alt=media&v=1787163035461735",
-    "placeholder": true
+    "placeholder": true,
+    "nature": "Mokuton",
+    "rank": "S+"
   },
   {
     "__docId": "PoRHINIogjAgxv84lSa6",
@@ -7826,7 +7896,9 @@
     "order": 40011,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FYomatora.png?alt=media&v=1787162967351042"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FYomatora.png?alt=media&v=1787162967351042",
+    "nature": "Fujogan",
+    "rank": "S+"
   },
   {
     "__docId": "qwMrl1xrWeQsVGrFryYR",
@@ -7837,7 +7909,9 @@
     "order": 40027,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FMeruem.png?alt=media&v=1787163024922413"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FMeruem.png?alt=media&v=1787163024922413",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "qwSh76QX7k6AfnhmlBN5",
@@ -7860,7 +7934,9 @@
     "order": 40007,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FAyumi.png?alt=media&v=1787162949114512",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "qZ1u8F0o200UWTxdRIis",
@@ -7948,7 +8024,9 @@
     "order": 40030,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FKetsujin.png?alt=media&v=1787163033466216"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FKetsujin.png?alt=media&v=1787163033466216",
+    "nature": "Ketton",
+    "rank": "S+"
   },
   {
     "__docId": "rqTLuIPw4boXQEKobG2o",
@@ -8069,7 +8147,9 @@
     "order": 40018,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FTakeshi%2FOkami_Hatake.png?alt=media&v=1787162993688449"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FTakeshi%2FOkami_Hatake.png?alt=media&v=1787162993688449",
+    "nature": "Senjutsu",
+    "rank": "S+"
   },
   {
     "__docId": "sn1vR0uhYl8vzEI1YXdF",
@@ -8234,7 +8314,9 @@
     "order": 40040,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FShhei.png?alt=media&v=1787163056963576"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FShhei.png?alt=media&v=1787163056963576",
+    "nature": "Fujogan",
+    "rank": "S"
   },
   {
     "__docId": "u3iRXAC95LLBssqS0Vz1",
@@ -8311,7 +8393,9 @@
     "done": false,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787163038316215",
-    "placeholder": true
+    "placeholder": true,
+    "nature": "Mokuton",
+    "rank": "S+"
   },
   {
     "__docId": "UglsqJUsOvpNjE0yTRsD",
@@ -8536,7 +8620,9 @@
     "order": 40017,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGurenmaru.png?alt=media&v=1787162990419669"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGurenmaru.png?alt=media&v=1787162990419669",
+    "nature": "Senjutsu",
+    "rank": "Z"
   },
   {
     "__docId": "vXgyfDlg0st0jIDZcgv0",
@@ -8580,7 +8666,9 @@
     "order": 40036,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaizuka%2FHokotora.png?alt=media&v=1787163045031291"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaizuka%2FHokotora.png?alt=media&v=1787163045031291",
+    "nature": "Fujogan",
+    "rank": "Z"
   },
   {
     "__docId": "wFUkgd0tcL8434X2ays2",
@@ -8814,7 +8902,9 @@
     "order": 40001,
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FKatsumi.png?alt=media&v=1787162921599819",
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "nature": "Mokuton",
+    "rank": "S++"
   },
   {
     "__docId": "X3s7bYBzHtjakvmFGqNk",
@@ -8892,7 +8982,9 @@
     "order": 40043,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FTsurugijin.png?alt=media&v=1787163065926312"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FTsurugijin.png?alt=media&v=1787163065926312",
+    "nature": "Fujogan",
+    "rank": "Z"
   },
   {
     "__docId": "XmgIyvBHzdwTwUv4gQJB",
@@ -8992,7 +9084,9 @@
     "arco": "Yuki Fukuro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNagi%2FYuki_Fukuro.png?alt=media&v=1787163751694125",
     "temporada": "Nagi",
-    "name": "Yuki Fukuro"
+    "name": "Yuki Fukuro",
+    "nature": "Hyouton",
+    "rank": "S+"
   },
   {
     "__docId": "yAVZBFkM8NKBjJTrBTbb",
@@ -9151,7 +9245,9 @@
     "order": 40038,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHaruki%2FZotora.png?alt=media&v=1787163050994386"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHaruki%2FZotora.png?alt=media&v=1787163050994386",
+    "nature": "Fujogan",
+    "rank": "Z"
   },
   {
     "__docId": "yzDVBsFLuFpfKSoLVz0X",

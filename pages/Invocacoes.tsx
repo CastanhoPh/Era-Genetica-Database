@@ -20,6 +20,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const [busca, setBusca] = useState('');
   const [dono, setDono] = useState('Todos');
   const [rank, setRank] = useState('Todos');
+  const [natureza, setNatureza] = useState('Todos');
   const [ordem, setOrdem] = useState('pagina');
 
   // Mesma fonte da Galeria: a lista de verdade é o checklist. A ficha carrega uma cópia
@@ -46,6 +47,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           capaUrl: capa?.imageUrl ?? undefined,
           arteUrl: i.imageUrl ?? undefined,
           rank: i.rank,
+          nature: i.nature,
           placeholder: !!(i.placeholder || capa?.placeholder),
           pagina: k + 1,
         };
@@ -56,18 +58,24 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
     () => Array.from(new Set(invocacoes.map(i => i.dono))).sort((a, b) => a.localeCompare(b)),
     [invocacoes],
   );
-  // Nenhuma invocação tem rank ainda. Um seletor vazio só ocuparia espaço, então ele aparece no dia
-  // em que a primeira tiver.
+  // Os seletores de rank e natureza só aparecem quando há valor para escolher — um seletor vazio
+  // ocuparia espaço sem servir.
   const ranks = useMemo(() => {
     const set = new Set(invocacoes.map(i => i.rank).filter((r): r is string => !!r));
     return Array.from(set).sort((a, b) => (CLASSIFICATION_PRIORITY[b] ?? 0) - (CLASSIFICATION_PRIORITY[a] ?? 0));
   }, [invocacoes]);
+
+  const naturezas = useMemo(
+    () => Array.from(new Set(invocacoes.map(i => i.nature).filter((n): n is string => !!n))).sort((a, b) => a.localeCompare(b)),
+    [invocacoes],
+  );
 
   const filtradas = useMemo(() => {
     const termo = busca.trim().toLowerCase();
     const lista = invocacoes.filter(i =>
       (dono === 'Todos' || i.dono === dono)
       && (rank === 'Todos' || i.rank === rank)
+      && (natureza === 'Todos' || i.nature === natureza)
       && (!termo || i.nome.toLowerCase().includes(termo) || i.dono.toLowerCase().includes(termo)));
     if (ordem === 'alfabetico') return [...lista].sort((a, b) => a.nome.localeCompare(b.nome));
     if (ordem === 'dono') return [...lista].sort((a, b) => a.dono.localeCompare(b.dono) || a.pagina - b.pagina);
@@ -77,10 +85,10 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
         || a.pagina - b.pagina);
     }
     return lista;
-  }, [invocacoes, busca, dono, rank, ordem]);
+  }, [invocacoes, busca, dono, rank, natureza, ordem]);
 
-  const filtrosAtivos = dono !== 'Todos' || rank !== 'Todos' || busca !== '';
-  const limpar = () => { setDono('Todos'); setRank('Todos'); setBusca(''); };
+  const filtrosAtivos = dono !== 'Todos' || rank !== 'Todos' || natureza !== 'Todos' || busca !== '';
+  const limpar = () => { setDono('Todos'); setRank('Todos'); setNatureza('Todos'); setBusca(''); };
 
   // /invocacoes/<nome> abre a arte cheia. Fica na URL para o link ser compartilhável.
   const slugAberto = location.pathname.replace(/^\/+|\/+$/g, '').split('/')[1];
@@ -162,7 +170,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 border-t border-tech-border/50 pt-4 mt-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 border-t border-tech-border/50 pt-4 mt-2">
             {ranks.length > 0 && (
               <div className="flex flex-col gap-1">
                 <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
@@ -176,6 +184,25 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                   >
                     <option value="Todos" className="bg-black">TODOS</option>
                     {ranks.map(r => <option key={r} value={r} className="bg-black">{r}</option>)}
+                  </select>
+                  <ChevronDown className="absolute right-2 top-2.5 text-tech-dim group-hover:text-tech-primary transition-colors pointer-events-none" size={14} />
+                </div>
+              </div>
+            )}
+
+            {naturezas.length > 0 && (
+              <div className="flex flex-col gap-1">
+                <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
+                  <Database size={10} /> NATUREZA
+                </label>
+                <div className="relative group">
+                  <select
+                    value={natureza}
+                    onChange={e => setNatureza(e.target.value)}
+                    className="w-full bg-black border border-tech-border text-tech-primary text-xs py-2 pl-2 pr-8 outline-none focus:border-tech-primary appearance-none uppercase cursor-pointer hover:bg-tech-dim/20 transition-all"
+                  >
+                    <option value="Todos" className="bg-black">TODOS</option>
+                    {naturezas.map(n => <option key={n} value={n} className="bg-black">{n.toUpperCase()}</option>)}
                   </select>
                   <ChevronDown className="absolute right-2 top-2.5 text-tech-dim group-hover:text-tech-primary transition-colors pointer-events-none" size={14} />
                 </div>
@@ -283,6 +310,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
             <div className="flex items-baseline gap-3 flex-wrap mb-3">
               <h3 className="text-xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
               {aberta.rank && <span className="bg-tech-accent text-black text-[9px] font-black px-2 py-0.5 clip-corner-sm">{aberta.rank}</span>}
+              {aberta.nature && <span className="text-[10px] uppercase tracking-widest text-tech-primary/40">{aberta.nature}</span>}
               {fichaAberta ? (
                 <button
                   onClick={() => onOpenCharacter(fichaAberta)}

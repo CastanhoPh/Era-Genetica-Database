@@ -62,6 +62,7 @@ for (const i of arte) {
     ...(capa?.imageUrl ? { capaUrl: capa.imageUrl } : {}),
     ...(i.imageUrl ? { arteUrl: i.imageUrl } : {}),
     ...(i.rank ? { rank: i.rank } : {}),
+    ...(i.nature ? { nature: i.nature } : {}),
     ...(i.placeholder || capa?.placeholder ? { placeholder: true } : {}),
   };
   const alvo = porPrimeiro.get(i.temporada);
@@ -76,7 +77,7 @@ for (const i of arte) {
 }
 
 // ---- compara conteúdo, não ordem de serialização ----
-const chave = lista => JSON.stringify((lista || []).map(x => [x.nome, x.capaUrl ?? '', x.arteUrl ?? '', x.rank ?? '', !!x.placeholder]));
+const chave = lista => JSON.stringify((lista || []).map(x => [x.nome, x.capaUrl ?? '', x.arteUrl ?? '', x.rank ?? '', x.nature ?? '', !!x.placeholder]));
 
 const mudam = [];
 for (const doc of snapChars.docs) {

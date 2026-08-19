@@ -71,8 +71,10 @@ export interface Invocacao {
   capaUrl?: string;
   /** Arte cheia 4:3, do projeto "Invocações". É o que abre ao clicar no card. */
   arteUrl?: string;
-  /** Rank na mesma escala do arsenal (Z, S++, S+, S, A+). Ainda não definido para nenhuma. */
+  /** Rank na mesma escala do arsenal: Z, S++, S+, S. */
   rank?: string;
+  /** Natureza, herdada do dono: Mokuton, Fujogan, Senjutsu, Kage Mane, Ketton, Doton, Hyouton, Matatabi, Kurama. */
+  nature?: string;
   /** A arte é uma página em branco: existe arquivo, não existe desenho. */
   placeholder?: boolean;
 }
@@ -114,7 +116,9 @@ export interface ChecklistItem {
   * Rank da invocação, na mesma escala do arsenal (Z, S++, S+, S, A+). Só faz sentido nos tipos
   * `invocacao` e `capaInvocacao`, e o reconciliador leva ele para a ficha.
   */
-   rank?: string;
+  rank?: string;
+  /** Natureza da invocação — o caminho de chakra do dono (Mokuton, Fujogan, Senjutsu…). */
+  nature?: string;
   personagens?: string[];
   /**
    * Só para evento: o elenco está fechado, ou seja, todo mundo que aparece na imagem já foi
