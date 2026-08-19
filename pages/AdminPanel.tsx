@@ -1910,31 +1910,32 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
               {classificationChars.length === 0 ? `Nenhum personagem com ficha em ${classificationVillage}.` : 'Nenhum personagem nessa faixa.'}
             </div>
           ) : (
-            <div className="border border-tech-border/60 bg-black/30">
+            <div className="flex flex-col gap-5">
+              {/* Sem moldura em volta da lista inteira: com 17 faixas preenchidas dentro de um
+                  quadro só, virava zebrado. Cada NC é um bloco solto, e o cabeçalho usa o idioma
+                  que o projeto já tem pra grupo — etiqueta sólida de canto cortado + fio até a
+                  borda, igual às seções da Galeria da ficha. */}
               {classificationPorNc.map(g => (
                 <div key={g.nc}>
-                  {/* barra do NC: o numero sai das linhas e vira cabecalho, senao ele se repetiria
-                      em toda linha do grupo sem dizer nada de novo */}
-                  <div className="flex items-center gap-3 bg-tech-primary/10 border-y border-tech-primary/25 px-3 py-1">
-                    <span className="text-tech-primary font-black text-xs tracking-wide">NC {g.nc}</span>
-                    <span className="flex-1 h-px bg-tech-primary/15"></span>
-                    <span className="text-[9px] text-tech-primary/45 uppercase tracking-widest">
-                      {g.gente.length} {g.gente.length === 1 ? 'personagem' : 'personagens'}
+                  <div className="flex items-center gap-2.5 mb-1.5">
+                    <span className="text-[11px] font-black text-black bg-tech-primary px-2 py-0.5 uppercase tracking-wide clip-corner-sm shrink-0">
+                      NC {g.nc}
+                    </span>
+                    <span className="flex-1 h-px bg-tech-border"></span>
+                    <span className="text-[9px] text-tech-primary/35 uppercase tracking-widest shrink-0 tabular-nums">
+                      {g.gente.length}
                     </span>
                   </div>
-                  <div className="divide-y divide-tech-border/40">
+                  <div className="border border-tech-border/50 bg-black/25 divide-y divide-tech-border/30">
                     {g.gente.map(c => (
-                      <div key={c.name} className="flex items-center justify-between gap-3 px-3 py-2">
-                        <div className="flex items-center gap-2 min-w-0">
-                          <span className={`font-bold text-sm truncate ${c.pending ? 'text-tech-primary/70 italic' : 'text-white'}`}>{c.name}</span>
-                          {c.dead && <Skull size={12} className="text-red-500 shrink-0" />}
-                          {c.pending && (
-                            <span className="text-tech-primary/40 text-[10px] uppercase tracking-wide shrink-0">pendente</span>
-                          )}
+                      <div key={c.name} className="flex items-baseline justify-between gap-3 px-3 py-1.5 hover:bg-tech-panel/40 transition-colors">
+                        <div className="flex items-baseline gap-2 min-w-0">
+                          <span className={`text-sm truncate ${c.pending ? 'text-tech-primary/60 italic font-medium' : 'text-white font-bold'}`}>{c.name}</span>
+                          {c.dead && <Skull size={11} className="text-red-500/80 shrink-0 self-center" />}
                         </div>
-                        {c.clan && (
-                          <span className="text-tech-primary/45 text-[10px] uppercase tracking-wide shrink-0 truncate max-w-[45%]" title={c.clan}>{c.clan}</span>
-                        )}
+                        <span className="text-[10px] uppercase tracking-wide shrink-0 truncate max-w-[48%] text-tech-primary/40" title={c.clan || undefined}>
+                          {c.pending ? (c.clan || 'pendente') : c.clan}
+                        </span>
                       </div>
                     ))}
                   </div>
