@@ -2,7 +2,7 @@
 //
 // Motivo: `characters` e `arsenal` têm o data/*.ts como rede de proteção, mas `imageChecklist`,
 // `familyTrees` e `prototypeEntries` existiam SÓ no Firestore — um batch errado ou a perda do
-// projeto levaria meses de produção. Agora as cinco coleções ficam no git.
+// projeto levaria meses de produção. Agora as seis coleções ficam no git.
 //
 //   npm run backup            grava em docs/backup/<colecao>.json
 //   npm run backup -- --check compara com o que está gravado e só relata a diferença
@@ -15,7 +15,7 @@ import admin from 'firebase-admin';
 
 const CHECK = process.argv.includes('--check');
 const DESTINO = join(process.cwd(), 'docs', 'backup');
-const COLECOES = ['characters', 'arsenal', 'imageChecklist', 'familyTrees', 'prototypeEntries'];
+const COLECOES = ['characters', 'arsenal', 'imageChecklist', 'familyTrees', 'prototypeEntries', 'aFazer'];
 
 const d = join(os.homedir(), 'Downloads');
 const key = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))

@@ -55,5 +55,12 @@ service cloud.firestore {
       allow read: if isAdmin();
       allow write: if isAdmin();
     }
+
+    // Lista de pendências do Painel. Anotação interna do Pedro, não conteúdo do site —
+    // mesma postura dos protótipos: ninguém além do admin lê.
+    match /aFazer/{docId} {
+      allow read: if isAdmin();
+      allow write: if isAdmin();
+    }
   }
 }

@@ -255,6 +255,24 @@ export const SEASON_LORE: { season: string; title: string; start: string; end: s
 // Baseado na lista mestre que o Pedro mantém à parte — atualizar conforme ele for adicionando.
 // `role` é só pra lembrete (parentesco/cargo), não é dado oficial de ficha. `nc` é opcional —
 // só preenchido quando o Pedro já decidiu o NC do personagem antes de ele virar ficha oficial.
+/**
+ * Um item da aba "A Fazer" do Painel. É a lista de pendências do RPG que não cabem em código nem no
+ * checklist de imagens: decisões de lore, dados que só o Pedro tem, coisas para não esquecer.
+ *
+ * Vive em coleção própria (`aFazer`) e só o admin lê, como os protótipos — é anotação interna.
+ */
+export interface TodoItem {
+  docId?: string;
+  texto: string;
+  /** Agrupador livre, digitado à mão: "Invocações", "Arte", "Fichas"… Vazio cai em "Sem grupo". */
+  grupo?: string;
+  feito?: boolean;
+  /** Posição dentro do grupo. Item novo entra no fim. */
+  ordem: number;
+  /** ms desde a época. Serve para o "há N dias" e para desempatar ordem igual. */
+  criadoEm?: number;
+}
+
 export const PENDING_CHARACTERS: { village: string; entries: { name: string; role?: string; dead?: boolean; nc?: number }[] }[] = [
   {
     village: 'Konohagakure',

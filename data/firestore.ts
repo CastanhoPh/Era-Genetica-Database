@@ -3,7 +3,7 @@ import { collection, getDocs, doc, addDoc, setDoc, deleteDoc, updateDoc, onSnaps
 import { db } from '../firebase';
 import { ref as storageRef, getBytes, getMetadata, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 import { storage } from '../firebaseStorage';
-import { Character, ChecklistItem, GalleryImage, PrototypeEntry, FamilyTree } from '../types';
+import { Character, ChecklistItem, GalleryImage, PrototypeEntry, FamilyTree, TodoItem } from '../types';
 import { Equipment } from '../types/Equipment';
 import { groupItems } from './checklistGrouping';
 
@@ -390,6 +390,58 @@ export function subscribePrototype(
 
 export async function deletePrototypeEntry(docId: string): Promise<void> {
   await deleteDoc(doc(db, 'prototypeEntries', docId));
+}
+
+// A Fazer (aba "A Fazer") — pendências do RPG que não cabem em código nem no checklist de imagens.
+// Coleção isolada e só de admin, como os protótipos: é anotação interna, não conteúdo do site.
+export function subscribeAFazer(
+  onData: (items: TodoItem[]) => void,
+  onError?: (err: Error) => void,
+): () => void {
+  return onSnapshot(
+    collection(db, 'aFazer'),
+    snap => {
+      const data = snap.docs
+        .map(d => ({ ...(d.data() as TodoItem), docId: d.id }))
+        // feito desce; entre iguais vale a ordem, e criadoEm desempata
+        .sort((a, b) => Number(!!a.feito) - Number(!!b.feito)
+          || (a.ordem ?? 0) - (b.ordem ?? 0)
+          || (a.criadoEm ?? 0) - (b.criadoEm ?? 0));
+      onData(data);
+    },
+    onError,
+  );
+}
+
+/** Cria um item no fim do grupo. Devolve o docId. */
+export async function addAFazer(texto: string, grupo?: string): Promise<string> {
+  const limpo = texto.trim();
+  if (!limpo) throw new Error('texto vazio');
+  const snap = await getDocs(collection(db, 'aFazer'));
+  const ordem = snap.docs.reduce((m, d) => Math.max(m, Number((d.data() as TodoItem).ordem) || 0), 0) + 1;
+  const ref = await addDoc(collection(db, 'aFazer'), {
+    texto: limpo,
+    ...(grupo?.trim() ? { grupo: grupo.trim() } : {}),
+    feito: false,
+    ordem,
+    criadoEm: Date.now(),
+  });
+  return ref.id;
+}
+
+export async function setAFazerFeito(docId: string, feito: boolean): Promise<void> {
+  await updateDoc(doc(db, 'aFazer', docId), { feito });
+}
+
+export async function editAFazer(docId: string, campos: { texto?: string; grupo?: string }): Promise<void> {
+  const limpo: { texto?: string; grupo?: string } = {};
+  if (campos.texto !== undefined) limpo.texto = campos.texto.trim();
+  if (campos.grupo !== undefined) limpo.grupo = campos.grupo.trim();
+  await updateDoc(doc(db, 'aFazer', docId), limpo);
+}
+
+export async function deleteAFazer(docId: string): Promise<void> {
+  await deleteDoc(doc(db, 'aFazer', docId));
 }
 
 // Árvores genealógicas (aba "Árvore") — recurso experimental, coleção isolada de propósito:
