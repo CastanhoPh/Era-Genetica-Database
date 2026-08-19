@@ -71,7 +71,9 @@ const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.
   </div>
 );
 
-const PANEL_TABS = ['geral', 'personagens', 'arsenal', 'producao', 'prototipos', 'classificacoes', 'canva', 'eventos', 'links'] as const;
+// A ordem aqui e a ordem da barra de abas. A rota da aba de Listas segue 'canva' mesmo depois de
+// renomeada, para nao quebrar link que alguem tenha guardado.
+const PANEL_TABS = ['geral', 'classificacoes', 'personagens', 'arsenal', 'invocacoes', 'canva', 'eventos', 'links', 'producao', 'prototipos'] as const;
 type PanelTab = typeof PANEL_TABS[number];
 
 const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => {
@@ -816,14 +818,15 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       <div className="flex items-center gap-1 border-b border-tech-border overflow-x-auto">
         {([
           { key: 'geral' as const, label: 'Visão Geral' },
+          { key: 'classificacoes' as const, label: 'Classificações' },
           { key: 'personagens' as const, label: 'Personagens' },
           { key: 'arsenal' as const, label: 'Arsenal' },
-          { key: 'producao' as const, label: 'Produção' },
-          { key: 'prototipos' as const, label: 'Protótipos' },
-          { key: 'classificacoes' as const, label: 'Classificações' },
-          { key: 'canva' as const, label: 'Canva' },
+          { key: 'invocacoes' as const, label: 'Invocações' },
+          { key: 'canva' as const, label: 'Listas' },
           { key: 'eventos' as const, label: 'Eventos' },
           { key: 'links' as const, label: 'Links' },
+          { key: 'producao' as const, label: 'Produção' },
+          { key: 'prototipos' as const, label: 'Protótipos' },
         ]).map(t => (
           <button
             key={t.key}
@@ -1884,6 +1887,24 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
               ))}
             </div>
           )}
+        </div>
+      </section>
+      )}
+
+      {activeTab === 'invocacoes' && (
+      <section>
+        <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <span>Invocações</span>
+          <span className="flex-1 h-px bg-tech-border"></span>
+        </div>
+        <div className="border border-tech-border border-dashed bg-tech-panel/10 p-10 flex flex-col items-center justify-center text-center gap-3">
+          <Sparkles size={28} className="text-tech-primary/30" />
+          <span className="text-xs text-tech-dim uppercase tracking-widest">Será adicionado em breve</span>
+          <p className="text-[10px] text-tech-primary/35 max-w-md leading-relaxed">
+            A faixa <span className="text-tech-primary/60">40000</span> do checklist já está reservada
+            para o projeto de Invocações, então quando os itens entrarem eles não deslocam a
+            numeração de nenhum dos outros quatro.
+          </p>
         </div>
       </section>
       )}
