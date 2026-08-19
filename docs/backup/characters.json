@@ -1835,17 +1835,6 @@
     "position": "Tsuchikage",
     "role": "?",
     "description": "",
-    "hp": 0,
-    "chakra": 0,
-    "stats": {
-      "strength": 0,
-      "dexterity": 0,
-      "agility": 0,
-      "intelligence": 0,
-      "spirit": 0,
-      "vigor": 0,
-      "perception": 0
-    },
     "powers": [
       {
         "name": "Juryūkuton",
@@ -1985,7 +1974,18 @@
     "focosAtributo": [
       "inteligencia",
       "vigor"
-    ]
+    ],
+    "stats": {
+      "dexterity": 28,
+      "strength": 11,
+      "vigor": 28,
+      "spirit": 22,
+      "agility": 11,
+      "intelligence": 28,
+      "perception": 28
+    },
+    "hp": 234,
+    "chakra": 76
   },
   {
     "__docId": "enrai-hanzo",
@@ -2610,17 +2610,6 @@
     "position": "Mizukage",
     "role": "?",
     "description": "Desconhecido",
-    "hp": 0,
-    "chakra": 0,
-    "stats": {
-      "strength": 0,
-      "dexterity": 0,
-      "agility": 0,
-      "intelligence": 0,
-      "spirit": 0,
-      "vigor": 0,
-      "perception": 0
-    },
     "powers": [
       {
         "name": "Saiken",
@@ -2740,7 +2729,18 @@
     "focosAtributo": [
       "espirito",
       "inteligencia"
-    ]
+    ],
+    "stats": {
+      "dexterity": 28,
+      "strength": 11,
+      "vigor": 22,
+      "spirit": 28,
+      "agility": 11,
+      "intelligence": 28,
+      "perception": 28
+    },
+    "hp": 216,
+    "chakra": 141
   },
   {
     "__docId": "genei-g",
@@ -5024,17 +5024,6 @@
     "position": "Raikage",
     "role": "?",
     "description": "",
-    "hp": 0,
-    "chakra": 0,
-    "stats": {
-      "strength": 0,
-      "dexterity": 0,
-      "agility": 0,
-      "intelligence": 0,
-      "spirit": 0,
-      "vigor": 0,
-      "perception": 0
-    },
     "powers": [
       {
         "name": "Kosaton",
@@ -5158,7 +5147,18 @@
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "stats": {
+      "dexterity": 11,
+      "strength": 28,
+      "vigor": 28,
+      "spirit": 28,
+      "agility": 28,
+      "intelligence": 22,
+      "perception": 11
+    },
+    "hp": 234,
+    "chakra": 94
   },
   {
     "__docId": "katsumi-hyuga",
@@ -10541,18 +10541,7 @@
     "position": "",
     "role": "",
     "description": "",
-    "hp": 0,
-    "chakra": 0,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1786651889641519",
-    "stats": {
-      "strength": 0,
-      "dexterity": 0,
-      "agility": 0,
-      "intelligence": 0,
-      "spirit": 0,
-      "vigor": 0,
-      "perception": 0
-    },
     "powers": [],
     "aptitudes": [],
     "timelineAppearance": "Prólogo",
@@ -10611,7 +10600,18 @@
       "inteligencia",
       "espirito"
     ],
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "stats": {
+      "dexterity": 7,
+      "strength": 18,
+      "vigor": 10,
+      "spirit": 18,
+      "agility": 18,
+      "intelligence": 18,
+      "perception": 7
+    },
+    "hp": 130,
+    "chakra": 64
   },
   {
     "__docId": "satoshi-namikaze",
@@ -10865,18 +10865,7 @@
     "position": "Kazekage",
     "role": "?",
     "description": "",
-    "hp": 0,
-    "chakra": 0,
     "techniques": [],
-    "stats": {
-      "strength": 0,
-      "dexterity": 0,
-      "agility": 0,
-      "intelligence": 0,
-      "spirit": 0,
-      "vigor": 0,
-      "perception": 0
-    },
     "powers": [
       {
         "name": "Sakin",
@@ -10932,7 +10921,18 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "stats": {
+      "dexterity": 28,
+      "strength": 11,
+      "vigor": 22,
+      "spirit": 28,
+      "agility": 11,
+      "intelligence": 28,
+      "perception": 28
+    },
+    "hp": 216,
+    "chakra": 94
   },
   {
     "__docId": "shikaki-nara",

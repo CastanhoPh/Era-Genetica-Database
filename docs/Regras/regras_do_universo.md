@@ -206,7 +206,7 @@ Vale registrar que a regra "atributo acima do mínimo não desce" e a fórmula a
 
 ### Onde isso está preenchido
 
-`combatStyle` está em 84 das 86 fichas, e `focosAtributo` + `divisaoAtributo` em 84 — as 79 com ficha preenchida reproduzem os sete atributos exatos, e as 5 em branco esperam o perfil ser aplicado. Só Beta e Hades ficam de fora, por não terem NC — todas conferidas rodando o perfil de volta e exigindo os sete atributos exatos. O que falta:
+`combatStyle`, `focosAtributo` e `divisaoAtributo` estão em 84 das 86 fichas, e **as 84 reproduzem os sete atributos exatos**. Só Beta e Hades ficam de fora, por não terem NC — e nos dois isso é proposital. Confira com `npm run perfil:conferir` — todas conferidas rodando o perfil de volta e exigindo os sete atributos exatos. O que falta:
 
 - **Build mista: resolvido em 2026-08-19.** As oito (Hirato, Hana, Sayuri, Tessai, Kurohime, Akairo, Genei, Kaien) tinham um atributo de cada par no teto. O Pedro decidiu manter o perfil e reescrever a ficha, então os atributos passaram a ser o que o perfil produz — e HP e Chakra foram recalculados, porque Vigor ou Espírito mudaram em cinco delas.
 - **Par oposto acima do mínimo: resolvido em 2026-08-19.** As sete que sobravam (Sho, Hoshiro, Yuji, Reito, Enrai, Koji, Shin, mais o Oddy antes delas) seguiram o mesmo caminho das de build mista: o perfil manda, o par oposto desceu ao mínimo e os pontos voltaram aos livres. O campo de piso ficou sem uso — mas a lacuna que ele fecharia segue aberta, e vai reaparecer na primeira ficha que precise de um atributo acima do mínimo.

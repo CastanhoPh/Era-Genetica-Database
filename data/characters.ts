@@ -6331,8 +6331,8 @@ export const initialData: Character[] = [
     position: "Raikage",
     role: "?",
     description: "",
-    hp: 0,
-    chakra: 0,
+    hp: 234,
+    chakra: 94,
     isDead: true,
     killedBy: "Yuji Yotsuki",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatakana%20Yotsuki%20(Alpha)%2FKatakana%20Yotsuki%20(Alpha).jpg?alt=media&v=1786651908720600",
@@ -6390,13 +6390,13 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     stats: {
-      strength: 0,
-      dexterity: 0,
-      agility: 0,
-      intelligence: 0,
-      spirit: 0,
-      vigor: 0,
-      perception: 0
+      strength: 28,
+      dexterity: 11,
+      agility: 28,
+      intelligence: 22,
+      spirit: 28,
+      vigor: 28,
+      perception: 11
     },
     powers: [
       {
@@ -6476,8 +6476,8 @@ export const initialData: Character[] = [
     position: "Mizukage",
     role: "?",
     description: "Desconhecido",
-    hp: 0,
-    chakra: 0,
+    hp: 216,
+    chakra: 141,
     isDead: true,
     killedBy: "Oddy Uchiha",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmasen%20Yuki%20(Gama)%2FGanmasen%20Yuki%20(Gama).png?alt=media&v=1786651909338394",
@@ -6535,13 +6535,13 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     stats: {
-      strength: 0,
-      dexterity: 0,
-      agility: 0,
-      intelligence: 0,
-      spirit: 0,
-      vigor: 0,
-      perception: 0
+      strength: 11,
+      dexterity: 28,
+      agility: 11,
+      intelligence: 28,
+      spirit: 28,
+      vigor: 22,
+      perception: 28
     },
     powers: [
       {
@@ -6617,8 +6617,8 @@ export const initialData: Character[] = [
     position: "Tsuchikage",
     role: "?",
     description: "",
-    hp: 0,
-    chakra: 0,
+    hp: 234,
+    chakra: 76,
     isDead: true,
     killedBy: "Najin Hatake",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDeruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).jpg?alt=media&v=1786651909947775",
@@ -6696,13 +6696,13 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     stats: {
-      strength: 0,
-      dexterity: 0,
-      agility: 0,
-      intelligence: 0,
-      spirit: 0,
-      vigor: 0,
-      perception: 0
+      strength: 11,
+      dexterity: 28,
+      agility: 11,
+      intelligence: 28,
+      spirit: 22,
+      vigor: 28,
+      perception: 28
     },
     powers: [
       {
@@ -6777,18 +6777,18 @@ export const initialData: Character[] = [
     position: "Kazekage",
     role: "?",
     description: "",
-    hp: 0,
-    chakra: 0,
+    hp: 216,
+    chakra: 94,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTheta%2FTheta.png?alt=media&v=1786651897904547",
     techniques: [],
     stats: {
-      strength: 0,
-      dexterity: 0,
-      agility: 0,
-      intelligence: 0,
-      spirit: 0,
-      vigor: 0,
-      perception: 0
+      strength: 11,
+      dexterity: 28,
+      agility: 11,
+      intelligence: 28,
+      spirit: 28,
+      vigor: 22,
+      perception: 28
     },
     powers: [
       {
@@ -6848,8 +6848,8 @@ export const initialData: Character[] = [
     position: "",
     role: "",
     description: "",
-    hp: 0,
-    chakra: 0,
+    hp: 130,
+    chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1786651889641519",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FPr_logo.png?alt=media&v=1784751344945", caption: "Prólogo", category: "era" },
@@ -6861,13 +6861,13 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387", caption: "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi" }
     ],
     stats: {
-      strength: 0,
-      dexterity: 0,
-      agility: 0,
-      intelligence: 0,
-      spirit: 0,
-      vigor: 0,
-      perception: 0
+      strength: 18,
+      dexterity: 7,
+      agility: 18,
+      intelligence: 18,
+      spirit: 18,
+      vigor: 10,
+      perception: 7
     },
     powers: [],
     aptitudes: [],
