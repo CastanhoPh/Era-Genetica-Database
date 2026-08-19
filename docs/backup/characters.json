@@ -9204,15 +9204,6 @@
     ],
     "chakraColor": "#8b8b9a",
     "nc": 18,
-    "stats": {
-      "intelligence": 8,
-      "dexterity": 18,
-      "strength": 9,
-      "vigor": 18,
-      "spirit": 18,
-      "agility": 7,
-      "perception": 18
-    },
     "hp": 172,
     "chakra": 82,
     "powers": [
@@ -9676,7 +9667,16 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "stats": {
+      "dexterity": 18,
+      "vigor": 18,
+      "spirit": 18,
+      "agility": 7,
+      "perception": 18,
+      "strength": 8,
+      "intelligence": 9
+    }
   },
   {
     "__docId": "raiden-yotsuki",

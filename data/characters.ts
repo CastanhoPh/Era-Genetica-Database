@@ -696,7 +696,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
     ],
-    stats: { strength: 9, dexterity: 18, agility: 7, intelligence: 8, spirit: 18, vigor: 18, perception: 18 },
+    stats: { strength: 8, dexterity: 18, agility: 7, intelligence: 9, spirit: 18, vigor: 18, perception: 18 },
     powers: [
       { name: "Katon", level: 9 },
       { name: "Doton", level: 9 },
