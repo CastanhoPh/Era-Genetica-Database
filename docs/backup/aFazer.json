@@ -112,6 +112,14 @@
     "criadoEm": 1787158497991
   },
   {
+    "__docId": "jl8fMVJlmsxjKQFtUxZY",
+    "texto": "Kurohime Kazeori tem o poder Kuchiyose e nenhuma técnica de invocação — invoca o quê?",
+    "grupo": "Fichas",
+    "feito": false,
+    "ordem": 27,
+    "criadoEm": 1787160291581
+  },
+  {
     "__docId": "K528Nu0Cye8X3sqHF7bz",
     "texto": "Mandar a lista de invocações por personagem: dono, nome, e fases (ou \"única\")",
     "grupo": "Invocações",
@@ -158,6 +166,22 @@
     "feito": false,
     "ordem": 20,
     "criadoEm": 1787158498001
+  },
+  {
+    "__docId": "UvJHepVqthSpAWi6L3Ku",
+    "texto": "Reika Uzumaki carrega duas bijuu (Kurama + Gyūki), e o Kurama está em três fichas: Naomi, Shoyu e Reika",
+    "grupo": "Fichas",
+    "feito": false,
+    "ordem": 26,
+    "criadoEm": 1787160291520
+  },
+  {
+    "__docId": "WC3022VYvNhBAhsvCbUO",
+    "texto": "Chōmei (bijuu de 7 caudas) não tem jinchūriki em ficha nenhuma, mas é citada no lore do Hirato Ishi",
+    "grupo": "Fichas",
+    "feito": false,
+    "ordem": 25,
+    "criadoEm": 1787160291426
   },
   {
     "__docId": "xp5qybWYtvR3d1EnNkXe",

@@ -162,6 +162,15 @@ Um NC 16 tem teto 16 em cada atributo; um NC 23, teto 23. O 30 aparece como limi
 
 ---
 
+## Bijuu não são invocáveis
+
+Ser jinchūriki não dá direito a invocar a besta. A bijuu aparece na ficha como **poder** e sustenta modos e mantos — `Modo Isobu`, `Isobu Rinku`, `Modo Shukaku Ōgon` — mas nada disso é invocação: é o portador vestindo o chakra dela, não trazendo a criatura ao campo.
+
+**A única exceção é o Nishinoya Senju**, que invoca a Matatabi pelo `Senpo Fuinjutsu: Matatabi Kōrin`. Só ele.
+
+Isso importa na hora de montar a lista de invocações: as 13 entradas de bijuu espalhadas por 12 fichas **não** entram como invocação, com a exceção acima. Contá-las seria inflar a lista com nove bestas que ninguém traz ao campo.
+
+---
 ## Grafia: Juken, sem macron e com um u
 
 O Punho Suave dos Hyuga se escreve **`Juken`**. É exceção à convenção de macrons do projeto, junto com [Fujogan] — e o nome composto mantém os macrons das outras palavras: `Juken: Jūho Sōshiken`.
