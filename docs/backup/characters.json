@@ -9674,9 +9674,14 @@
       "spirit": 18,
       "agility": 7,
       "perception": 18,
-      "strength": 8,
-      "intelligence": 9
-    }
+      "strength": 7,
+      "intelligence": 10
+    },
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "raiden-yotsuki",
