@@ -194,7 +194,26 @@ Duas ressalvas:
 
 A conta sempre fecha. Com dois atributos no teto e dois no mínimo, a sobra para os outros três é `4 × NC − 12 − 2 × mínimo`, e ela cai dentro da faixa `[3 × mínimo, 3 × NC]` em **todo NC de 4 a 30** — nunca dá impossível. Exemplo no NC 29: dois em 29 e dois em 12 somam 82, e sobram 80 para três atributos que aceitam de 36 a 87.
 
-O estilo fica no campo `combatStyle` da ficha. Está preenchido em 71 das 86; as 15 restantes têm build mista (um atributo de cada par no teto), ficha em branco, ou nenhum NC.
+O estilo fica no campo `combatStyle` da ficha; o foco e a proporção, em `focosAtributo` e `divisaoAtributo`.
+
+### Quando o par oposto está acima do mínimo
+
+Oito fichas têm o par do estilo no teto mas o par oposto **acima** do mínimo — o Oddy tem Força 9 num NC 18 cujo mínimo é 7, o Sho tem Percepção 20 num mínimo de 11. O estilo delas é inequívoco, mas o orçamento dos três livres fica menor que o da fórmula, então nenhuma combinação de foco e proporção reproduz a ficha.
+
+Essas oito ficam com **só o `combatStyle` gravado**, sem foco nem proporção. Gravar um foco que não reproduz a ficha seria pior que deixar em branco: na próxima subida de NC ele aplicaria atributos errados em silêncio.
+
+Vale registrar que a regra "atributo acima do mínimo não desce" e a fórmula ainda não conversam nesses casos: subir o Oddy de 18 para 19 levaria o mínimo a 8, e a fórmula poria Força 8 — abaixo dos 9 que ele tem hoje. Está em aberto.
+
+### Onde isso está preenchido
+
+`combatStyle` está em 82 das 86 fichas, e `focosAtributo` + `divisaoAtributo` em 52 — todas conferidas rodando o perfil de volta e exigindo os sete atributos exatos. O que falta:
+
+- **8 de build mista** — um atributo de cada par no teto (Hirato, Hana, Sayuri, Tessai, Kurohime, Akairo, Genei, Kaien). Só o Pedro resolve.
+- **2 que pediriam passo de 2,5%** — Najin (Int 37,5 / Esp 62,5) e Yasuo (Int 52,6 / Vig 47,4).
+- **8 com o par oposto acima do mínimo** — a seção acima.
+- **6 fichas em branco**, mais o Hades, que não tem NC.
+
+`npm run perfil:derivar` deduz e confere tudo isso; sem `--apply` só relata.
 
 ---
 

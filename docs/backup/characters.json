@@ -200,7 +200,12 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "akairo-uchiha-a",
@@ -402,7 +407,12 @@
         "caption": "Raiei Sōsei",
         "category": "transformacao"
       }
-    ]
+    ],
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "akira-dokuhana",
@@ -672,7 +682,12 @@
         "eventId": "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi"
       }
     ],
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "arashi-shidehara",
@@ -719,7 +734,12 @@
         "caption": "Shikigami no Mai",
         "category": "transformacao"
       }
-    ]
+    ],
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "asami-hyuga",
@@ -823,7 +843,12 @@
         "eventId": "prologo__familias__familia-hyuga"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "ayumi-uchiha",
@@ -1033,7 +1058,12 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "beta",
@@ -1367,7 +1397,12 @@
         "eventId": "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "chigiri-chinoike",
@@ -1441,7 +1476,12 @@
       }
     ],
     "chakraColor": "#8e0f36",
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "chisaki-dokuhana-c",
@@ -1546,7 +1586,12 @@
       }
     ],
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).png?alt=media&v=1786996822018571",
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "daichi-muuji",
@@ -1619,7 +1664,14 @@
     "id": 56,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muuji%2FDaichi%20Muuji.png?alt=media&v=1786651899270418",
     "chakraColor": "#c9d1d9",
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "espirito"
+    ],
+    "divisaoAtributo": {
+      "inteligencia": 60,
+      "vigor": 40
+    }
   },
   {
     "__docId": "daiki-uzumaki-d",
@@ -1749,7 +1801,12 @@
     ],
     "chakraColor": "#00ff41",
     "id": 75,
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "deruta-muujin-delta",
@@ -1911,7 +1968,8 @@
       }
     ],
     "chakraColor": "#ffd60a",
-    "id": 83
+    "id": 83,
+    "combatStyle": "Distância"
   },
   {
     "__docId": "enrai-hanzo",
@@ -2139,7 +2197,14 @@
     ],
     "chakraColor": "#ffd60a",
     "id": 76,
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "espirito"
+    ],
+    "divisaoAtributo": {
+      "inteligencia": 65,
+      "vigor": 35
+    }
   },
   {
     "__docId": "furyuzan-chinoike",
@@ -2375,7 +2440,12 @@
         "eventId": "LPg3ZhP6Jbm40ilbY1mj"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "fuyuki-dokuhana-f",
@@ -2494,7 +2564,14 @@
         "eventId": "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "espirito"
+    ],
+    "divisaoAtributo": {
+      "inteligencia": 65,
+      "vigor": 35
+    }
   },
   {
     "__docId": "ganmasen-yuki-gama",
@@ -2636,7 +2713,8 @@
       }
     ],
     "chakraColor": "#0ea5e9",
-    "id": 82
+    "id": 82,
+    "combatStyle": "Distância"
   },
   {
     "__docId": "genei-g",
@@ -2776,7 +2854,8 @@
         "season": "2ª Temporada de Konoha",
         "eventId": "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam"
       }
-    ]
+    ],
+    "combatStyle": "Corporal"
   },
   {
     "__docId": "gorai-arashiumi",
@@ -2825,7 +2904,12 @@
         "category": "transformacao"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "hades",
@@ -3062,7 +3146,8 @@
         "season": "Prólogo",
         "eventId": "prologo__familias__senjus-e-sabakus"
       }
-    ]
+    ],
+    "combatStyle": "Distância"
   },
   {
     "__docId": "hashirama-senju",
@@ -3170,7 +3255,12 @@
         "eventId": "mljqWCfErX8fSv3QhyZc"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "hayato-hanzo-h",
@@ -3266,7 +3356,13 @@
     ],
     "chakraColor": "#e8fbff",
     "id": 79,
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focoAtributo": "inteligencia",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "hikaru-ishi",
@@ -3333,6 +3429,11 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.jpg?alt=media&v=1786651890537382",
     "chakraColor": "#0ea5e9",
     "arsenal": [],
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {},
     "combatStyle": "Distância"
   },
   {
@@ -3400,7 +3501,8 @@
     "id": 36,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.jpg?alt=media&v=1786651890536434",
     "chakraColor": "#ff3b46",
-    "arsenal": []
+    "arsenal": [],
+    "combatStyle": "Corporal"
   },
   {
     "__docId": "hiroshi-hanzo",
@@ -3907,7 +4009,12 @@
         "caption": "Raiton no Yoroi",
         "category": "transformacao"
       }
-    ]
+    ],
+    "focosAtributo": [
+      "inteligencia",
+      "vigor"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "kaien-ishi-omega",
@@ -4033,7 +4140,8 @@
       "perception": 30
     },
     "chakra": 82,
-    "arsenal": []
+    "arsenal": [],
+    "combatStyle": "Corporal"
   },
   {
     "__docId": "kaito-senju",
@@ -4722,7 +4830,15 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focoAtributo": "dividido",
+    "focosAtributo": [
+      "espirito"
+    ],
+    "divisaoAtributo": {
+      "inteligencia": 60,
+      "vigor": 40
+    }
   },
   {
     "__docId": "kaizuka-hyuga",
@@ -4822,7 +4938,12 @@
         "eventId": "prologo__familias__familia-hyuga"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "vigor"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "katakana-yotsuki-alpha",
@@ -4968,7 +5089,8 @@
       }
     ],
     "chakraColor": "#e8fbff",
-    "id": 81
+    "id": 81,
+    "combatStyle": "Corporal"
   },
   {
     "__docId": "katsumi-hyuga",
@@ -5517,7 +5639,12 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "katsuo-uzumaki",
@@ -5822,7 +5949,12 @@
         "eventId": "LPg3ZhP6Jbm40ilbY1mj"
       }
     ],
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "kenma-soryo",
@@ -5961,7 +6093,12 @@
         "level": 8
       }
     ],
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "inteligencia",
+      "vigor"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "kiyoshi-hagane",
@@ -6010,7 +6147,12 @@
         "category": "transformacao"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "koji-ishizuma",
@@ -6153,7 +6295,8 @@
         "category": "era"
       }
     ],
-    "chakraColor": "#3d3d4a"
+    "chakraColor": "#3d3d4a",
+    "combatStyle": "Corporal"
   },
   {
     "__docId": "kuromi-uchiha",
@@ -6341,7 +6484,12 @@
         "eventId": "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "madara-uchiha",
@@ -6441,7 +6589,12 @@
         "eventId": "IhreiTYi6xhZbgbIc0Xj"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "midori-kurogane",
@@ -6488,7 +6641,12 @@
         "caption": "Raiden Buki Ayatsuri",
         "category": "transformacao"
       }
-    ]
+    ],
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "mika-yotsuki",
@@ -6603,7 +6761,12 @@
         "level": 12
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "mizue-dokuhana",
@@ -6679,7 +6842,12 @@
       "Sunagakure"
     ],
     "chakraColor": "#00ff41",
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "vigor"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "nagare-uzumaki",
@@ -7085,7 +7253,12 @@
         "eventId": "1-temporada__exame-chunin__quartas__kaito-vs-nagare"
       }
     ],
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "nagi-yuki",
@@ -7225,7 +7398,12 @@
         "level": 11
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "najin-hatake",
@@ -8247,7 +8425,11 @@
         "eventId": "WWkGeyfd1b7wAlFhLxIX"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "nayara-kazemori",
@@ -8294,7 +8476,12 @@
         "caption": "Tenshi no Keshin",
         "category": "transformacao"
       }
-    ]
+    ],
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "nishinoya-senju",
@@ -8742,7 +8929,13 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focoAtributo": "espirito",
+    "divisaoAtributo": {},
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ]
   },
   {
     "__docId": "oddy-uchiha",
@@ -9447,7 +9640,12 @@
         "category": "transformacao"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "raikun-hatake",
@@ -9598,7 +9796,12 @@
         "eventId": "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama"
       }
     ],
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "inteligencia",
+      "vigor"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "raizen-kurogane",
@@ -9645,7 +9848,12 @@
         "caption": "Raichū Keshin",
         "category": "transformacao"
       }
-    ]
+    ],
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "reika-uzumaki",
@@ -9746,7 +9954,13 @@
       }
     ],
     "chakraColor": "#b5793a",
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [],
+    "divisaoAtributo": {
+      "inteligencia": 45,
+      "espirito": 35,
+      "vigor": 20
+    }
   },
   {
     "__docId": "reito-kurogami",
@@ -10027,6 +10241,13 @@
         "eventId": "prologo__familias__senjus-e-sabakus"
       }
     ],
+    "focosAtributo": [
+      "espirito"
+    ],
+    "divisaoAtributo": {
+      "inteligencia": 50,
+      "vigor": 50
+    },
     "combatStyle": "Distância"
   },
   {
@@ -10414,7 +10635,12 @@
         "eventId": "prologo__familias__familia-senju-completa"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "sayuri-sabaku",
@@ -10500,7 +10726,8 @@
         "season": "Prólogo",
         "eventId": "prologo__familias__senjus-e-sabakus"
       }
-    ]
+    ],
+    "combatStyle": "Distância"
   },
   {
     "__docId": "shiita-sabaku-theta",
@@ -10578,7 +10805,8 @@
     "clan": "Dabado",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTheta%2FTheta.png?alt=media&v=1786651897904547",
     "id": 84,
-    "chakraColor": "#00ff41"
+    "chakraColor": "#00ff41",
+    "combatStyle": "Distância"
   },
   {
     "__docId": "shikaki-nara",
@@ -10712,7 +10940,12 @@
         "level": 11
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "shikatsu-nara-togo-kage",
@@ -11134,7 +11367,12 @@
         "eventId": "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "shizuru-kurogane",
@@ -11183,7 +11421,12 @@
         "category": "transformacao"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "sho-uchiha",
@@ -11623,7 +11866,13 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [],
+    "divisaoAtributo": {
+      "inteligencia": 30,
+      "espirito": 40,
+      "vigor": 30
+    }
   },
   {
     "__docId": "shoyu-uzumaki",
@@ -11755,7 +12004,13 @@
       }
     ],
     "chakraColor": "#ff3b46",
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [],
+    "divisaoAtributo": {
+      "inteligencia": 45,
+      "espirito": 35,
+      "vigor": 20
+    }
   },
   {
     "__docId": "souma-namikaze",
@@ -11859,7 +12114,13 @@
     "arsenal": [
       40
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [],
+    "divisaoAtributo": {
+      "inteligencia": 45,
+      "espirito": 35,
+      "vigor": 20
+    }
   },
   {
     "__docId": "takeshi-hatake",
@@ -12283,7 +12544,14 @@
         "eventId": "2-temporada-de-konoha__base-do-f__kaito-esta-cego"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "espirito"
+    ],
+    "divisaoAtributo": {
+      "inteligencia": 55,
+      "vigor": 45
+    }
   },
   {
     "__docId": "tessai-enshaku",
@@ -12357,7 +12625,8 @@
         "level": 12
       }
     ],
-    "chakraColor": "#b5793a"
+    "chakraColor": "#b5793a",
+    "combatStyle": "Corporal"
   },
   {
     "__docId": "tetsu-sabaku",
@@ -12449,7 +12718,12 @@
         "eventId": "prologo__familias__senjus-e-sabakus"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "tobirama-senju",
@@ -12597,7 +12871,12 @@
         "eventId": "prologo__treinamentos__kaito-e-tobirama"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "yasuo-kurogane",
@@ -13131,7 +13410,12 @@
         "eventId": "prologo__familias__senjus-e-sabakus"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   },
   {
     "__docId": "yuuto-han",
@@ -13213,6 +13497,11 @@
       }
     ],
     "chakraColor": "#e8fbff",
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ],
+    "divisaoAtributo": {}
   }
 ]
