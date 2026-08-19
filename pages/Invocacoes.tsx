@@ -6,6 +6,13 @@ import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
 import { formatImageUrl } from '../utils/formatters';
 import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
 
+/**
+ * Os chips são fixos, não derivados dos dados: uma vila sem invocação tem que aparecer e dizer que
+ * não existe nenhuma, em vez de simplesmente não estar lá. A ordem é a que o projeto já usa em
+ * PrototypeEntry, com a OCA no fim porque ela não é vila.
+ */
+const VILAS = ['Konohagakure', 'Kirigakure', 'Sunagakure', 'Iwagakure', 'Kumogakure', 'OCA'] as const;
+
 interface InvocacoesProps {
   characters: Character[];
   onOpenCharacter: (char: Character) => void;
@@ -18,6 +25,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const [loading, setLoading] = useState(true);
   const [erro, setErro] = useState<string | null>(null);
   const [busca, setBusca] = useState('');
+  const [vila, setVila] = useState('Todos');
   const [dono, setDono] = useState('Todos');
   const [rank, setRank] = useState('Todos');
   const [natureza, setNatureza] = useState('Todos');
@@ -48,6 +56,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           arteUrl: i.imageUrl ?? undefined,
           rank: i.rank,
           nature: i.nature,
+          village: i.village,
           placeholder: !!(i.placeholder || capa?.placeholder),
           pagina: k + 1,
         };
@@ -73,7 +82,8 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const filtradas = useMemo(() => {
     const termo = busca.trim().toLowerCase();
     const lista = invocacoes.filter(i =>
-      (dono === 'Todos' || i.dono === dono)
+      (vila === 'Todos' || i.village === vila)
+      && (dono === 'Todos' || i.dono === dono)
       && (rank === 'Todos' || i.rank === rank)
       && (natureza === 'Todos' || i.nature === natureza)
       && (!termo || i.nome.toLowerCase().includes(termo) || i.dono.toLowerCase().includes(termo)));
@@ -85,10 +95,16 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
         || a.pagina - b.pagina);
     }
     return lista;
-  }, [invocacoes, busca, dono, rank, natureza, ordem]);
+  }, [invocacoes, busca, vila, dono, rank, natureza, ordem]);
 
-  const filtrosAtivos = dono !== 'Todos' || rank !== 'Todos' || natureza !== 'Todos' || busca !== '';
-  const limpar = () => { setDono('Todos'); setRank('Todos'); setNatureza('Todos'); setBusca(''); };
+  const filtrosAtivos = vila !== 'Todos' || dono !== 'Todos' || rank !== 'Todos' || natureza !== 'Todos' || busca !== '';
+  const limpar = () => { setVila('Todos'); setDono('Todos'); setRank('Todos'); setNatureza('Todos'); setBusca(''); };
+  /** Quantas invocações cada vila tem, para o chip poder dizer que não existe nenhuma. */
+  const porVila = useMemo(() => {
+    const m: Record<string, number> = {};
+    invocacoes.forEach(i => { if (i.village) m[i.village] = (m[i.village] ?? 0) + 1; });
+    return m;
+  }, [invocacoes]);
 
   // /invocacoes/<nome> abre a arte cheia. Fica na URL para o link ser compartilhável.
   const slugAberto = location.pathname.replace(/^\/+|\/+$/g, '').split('/')[1];
@@ -140,20 +156,27 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
         <div className="bg-tech-panel/80 backdrop-blur-sm border border-tech-border p-4 mb-8 flex flex-col gap-4 clip-corner shadow-[0_0_20px_rgba(0,255,65,0.05)] animate-fade-in-up" style={{ animationDelay: '100ms' }}>
 
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            {/* Um chip por dono. São 20, então eles rolam na horizontal em vez de quebrar a barra. */}
+            {/* Vila fixa, não derivada: a que não tem invocação aparece apagada e continua clicável,
+                para a resposta ser "não existe nenhuma" em vez do chip simplesmente faltar. */}
             <div className="flex flex-nowrap gap-1.5 min-w-0 overflow-x-auto">
-              {['Todos', ...donos].map(d => (
-                <button
-                  key={d}
-                  onClick={() => setDono(d)}
-                  className={`shrink-0 whitespace-nowrap px-2.5 py-1.5 border uppercase text-[11px] font-bold tracking-wider transition-all duration-300 clip-corner-sm
-                    ${dono === d
-                      ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_15px_rgba(0,255,65,0.4)] translate-y-[-2px]'
-                      : 'bg-transparent text-tech-primary border-tech-border hover:border-tech-primary hover:text-white hover:bg-tech-primary/10'}`}
-                >
-                  {d}
-                </button>
-              ))}
+              {['Todos', ...VILAS].map(v => {
+                const vazia = v !== 'Todos' && !porVila[v];
+                return (
+                  <button
+                    key={v}
+                    onClick={() => setVila(v)}
+                    title={vazia ? `Nenhuma invocação de ${v}` : undefined}
+                    className={`shrink-0 whitespace-nowrap px-2.5 py-1.5 border uppercase text-[11px] font-bold tracking-wider transition-all duration-300 clip-corner-sm
+                      ${vila === v
+                        ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_15px_rgba(0,255,65,0.4)] translate-y-[-2px]'
+                        : vazia
+                          ? 'bg-transparent text-tech-primary/25 border-tech-border/50 hover:border-tech-primary/40 hover:text-tech-primary/50'
+                          : 'bg-transparent text-tech-primary border-tech-border hover:border-tech-primary hover:text-white hover:bg-tech-primary/10'}`}
+                  >
+                    {v}
+                  </button>
+                );
+              })}
             </div>
 
             <div className="flex gap-4 w-full md:w-auto">
@@ -283,7 +306,12 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
             {filtradas.length === 0 && (
               <div className="border border-tech-border bg-tech-panel/20 py-16 text-center">
                 <Sparkles size={24} className="mx-auto text-tech-primary/20 mb-3" />
-                <p className="text-[11px] uppercase tracking-widest text-tech-primary/30">Nenhuma invocação com esse filtro.</p>
+                {/* quando o único filtro é a vila, o motivo exato é mais útil que "nenhuma com esse filtro" */}
+                <p className="text-[11px] uppercase tracking-widest text-tech-primary/30">
+                  {vila !== 'Todos' && !porVila[vila] && dono === 'Todos' && rank === 'Todos' && natureza === 'Todos' && !busca
+                    ? `Não existe invocação de ${vila}.`
+                    : 'Nenhuma invocação com esse filtro.'}
+                </p>
               </div>
             )}
           </>
@@ -311,6 +339,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
               <h3 className="text-xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
               {aberta.rank && <span className="bg-tech-accent text-black text-[9px] font-black px-2 py-0.5 clip-corner-sm">{aberta.rank}</span>}
               {aberta.nature && <span className="text-[10px] uppercase tracking-widest text-tech-primary/40">{aberta.nature}</span>}
+              {aberta.village && <span className="text-[10px] uppercase tracking-widest text-tech-primary/25">{aberta.village}</span>}
               {fichaAberta ? (
                 <button
                   onClick={() => onOpenCharacter(fichaAberta)}

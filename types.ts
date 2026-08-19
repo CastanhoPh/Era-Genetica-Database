@@ -75,6 +75,8 @@ export interface Invocacao {
   rank?: string;
   /** Natureza, herdada do dono: Mokuton, Fujogan, Senjutsu, Kage Mane, Ketton, Doton, Hyouton, Matatabi, Kurama. */
   nature?: string;
+  /** Vila de origem da invocação. */
+  village?: string;
   /** A arte é uma página em branco: existe arquivo, não existe desenho. */
   placeholder?: boolean;
 }
@@ -119,6 +121,9 @@ export interface ChecklistItem {
   rank?: string;
   /** Natureza da invocação — o caminho de chakra do dono (Mokuton, Fujogan, Senjutsu…). */
   nature?: string;
+  /** Vila da invocação. É a origem DELA, não a do dono: o Nagi tem ficha em Konohagakure e a
+   *  invocação dele é de Kirigakure, de onde vem o clã Yuki. */
+  village?: string;
   personagens?: string[];
   /**
    * Só para evento: o elenco está fechado, ou seja, todo mundo que aparece na imagem já foi

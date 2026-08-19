@@ -10,6 +10,7 @@ export interface InvocacaoCardData {
   arteUrl?: string;
   rank?: string;
   nature?: string;
+  village?: string;
   placeholder: boolean;
   /** Página no projeto Invocações do Canva. */
   pagina: number;
