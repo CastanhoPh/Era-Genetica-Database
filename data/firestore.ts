@@ -332,12 +332,21 @@ export async function deleteChecklistItem(docId: string): Promise<void> {
 // cada um: assim a numeração do item já diz em qual arquivo ele mora, e acrescentar um
 // personagem só renumera a faixa dele em vez de empurrar tudo. A ordem das faixas é a ordem
 // dos projetos.
-export const CHECKLIST_BLOCOS: Record<NonNullable<ChecklistItem['type']> | 'invocacao', number> = {
+/**
+ * Faixa de `order` de cada projeto. O bloco isola a numeração: renumerar um projeto nunca mexe na
+ * página de outro, e o número da página é a posição DENTRO do bloco, não o order cru.
+ *
+ * O evento ficou em 50_000 desde o começo e tem 253 itens numerados ali, então os projetos novos
+ * entram depois dele em vez de empurrar tudo.
+ */
+export const CHECKLIST_BLOCOS: Record<NonNullable<ChecklistItem['type']> | 'arsenal', number> = {
   timeline: 10_000,
   transformacao: 20_000,
   capa: 30_000,
-  invocacao: 40_000, // reservado — projeto ainda não existe
+  invocacao: 40_000,
   evento: 50_000,
+  capaInvocacao: 60_000,
+  arsenal: 70_000,   // reservado — o projeto Arsenal 1080×1080 ainda não existe
 };
 
 // Renumera o campo `order` dentro da faixa de cada tipo (10000, 10001...), sem lacunas nem

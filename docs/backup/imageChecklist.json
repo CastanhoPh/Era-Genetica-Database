@@ -22,6 +22,17 @@
     "order": 10261
   },
   {
+    "__docId": "0Hy6haYHpYMiY0A6qikE",
+    "type": "capaInvocacao",
+    "temporada": "Kagejin",
+    "arco": "Kagejin",
+    "name": "Kagejin",
+    "order": 60046,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKagejin.png?alt=media&v=1787163076543649"
+  },
+  {
     "__docId": "0pBsIS2jMpPB0HGNFqtu",
     "type": "capa",
     "temporada": "Yumi Uzumaki",
@@ -2190,6 +2201,17 @@
     "order": 10119
   },
   {
+    "__docId": "1MB1sK6sTXdj01tDvY9I",
+    "type": "invocacao",
+    "temporada": "Nishinoya",
+    "arco": "Matatabi",
+    "name": "Matatabi",
+    "order": 40013,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNishinoya%2FMatatabi.png?alt=media&v=1787162975985860"
+  },
+  {
     "__docId": "1n8v52fZe6J2ZcLj5pkt",
     "type": "timeline",
     "temporada": "Shikure Chinoike",
@@ -3089,6 +3111,17 @@
     "order": 10045
   },
   {
+    "__docId": "2tfBQ5SEsxOhSe2ltsGG",
+    "type": "capaInvocacao",
+    "temporada": "Matatabi",
+    "arco": "Matatabi",
+    "name": "Matatabi",
+    "order": 60013,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMatatabi.png?alt=media&v=1787162977909448"
+  },
+  {
     "__docId": "2x2GH7QgP2Dlqkjmd1cK",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -3202,6 +3235,18 @@
     "order": 10007
   },
   {
+    "__docId": "3YKic9SsLU5hV86iVSog",
+    "type": "capaInvocacao",
+    "temporada": "Hash-hash",
+    "arco": "Hash-hash",
+    "name": "Hash-hash",
+    "order": 60033,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHash-hash.png?alt=media&v=1787163039033762",
+    "placeholder": true
+  },
+  {
     "__docId": "4-temporada__alpha-e-a-vila-da-nuvem__sera-adicionado-em-breve",
     "arco": "Alpha e a Vila da Nuvem",
     "name": "Será adicionado em breve",
@@ -3264,6 +3309,28 @@
     "placeholder": true,
     "temporada": "4ª Temporada",
     "order": 50250
+  },
+  {
+    "__docId": "44JkN1gJ68QprmHHr0br",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Furyuzan",
+    "name": "Furyuzan",
+    "order": 40008,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FFuryuzan.png?alt=media&v=1787162953709859"
+  },
+  {
+    "__docId": "4bF9qcPe2LD4tiCmWZUb",
+    "type": "capaInvocacao",
+    "temporada": "Gamarai",
+    "arco": "Gamarai",
+    "name": "Gamarai",
+    "order": 60015,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamarai.png?alt=media&v=1787162985397047"
   },
   {
     "__docId": "4jzvbD6odljSwAL7sHxM",
@@ -3341,6 +3408,17 @@
     "order": 10254
   },
   {
+    "__docId": "5LZYUzFepWbqpxX65DYc",
+    "type": "capaInvocacao",
+    "temporada": "Akeganai",
+    "arco": "Akeganai",
+    "name": "Akeganai",
+    "order": 60029,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAkeganai.png?alt=media&v=1787163032120472"
+  },
+  {
     "__docId": "5r2jHCTpfXFBH24dNN2t",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -3385,6 +3463,18 @@
     "order": 10006
   },
   {
+    "__docId": "5Xw1ChlboxPmvTIPHrgJ",
+    "type": "invocacao",
+    "temporada": "Airi",
+    "arco": "Sakura",
+    "name": "Sakura",
+    "order": 40034,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FSakura.png?alt=media&v=1787163039733868",
+    "placeholder": true
+  },
+  {
     "__docId": "5znDrjETeeTFW6A4nsJ6",
     "type": "timeline",
     "temporada": "Shikaki Nara",
@@ -3394,6 +3484,17 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F4__Temporada.png?alt=media&v=1784658594089126",
     "doneBy": "Zeck",
     "order": 10180
+  },
+  {
+    "__docId": "67BWtOeSCSnxF857q41H",
+    "type": "capaInvocacao",
+    "temporada": "Meiryu",
+    "arco": "Meiryu",
+    "name": "Meiryu",
+    "order": 60045,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMeiryu.png?alt=media&v=1787163073397322"
   },
   {
     "__docId": "6dsdXoat4FuThfrpWl9T",
@@ -3428,6 +3529,17 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FLuta_contra_o_Omega.png?alt=media&v=1786454447744733",
     "order": 10054
+  },
+  {
+    "__docId": "6snWcbBuFsPM5kLor7hi",
+    "type": "invocacao",
+    "temporada": "Katsumi",
+    "arco": "Kintora",
+    "name": "Kintora",
+    "order": 40010,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FKintora.png?alt=media&v=1787162962669815"
   },
   {
     "__docId": "6uqrNtkWbXBWNLswkX8w",
@@ -3545,6 +3657,17 @@
     "order": 10286
   },
   {
+    "__docId": "8crhoSY4MDJsD4ub3axB",
+    "type": "capaInvocacao",
+    "temporada": "Enma",
+    "arco": "Enma",
+    "name": "Enma",
+    "order": 60019,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FEnma.png?alt=media&v=1787162998813299"
+  },
+  {
     "__docId": "8I0scJvRUFNTyphmnU72",
     "type": "timeline",
     "temporada": "Furyuzan Chinoike",
@@ -3599,6 +3722,28 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30065
+  },
+  {
+    "__docId": "8yCuGvNeGeiRGVTtM3mM",
+    "type": "invocacao",
+    "temporada": "Apollo",
+    "arco": "Enma",
+    "name": "Enma",
+    "order": 40019,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FApollo%2FEnma.png?alt=media&v=1787162996905893"
+  },
+  {
+    "__docId": "8yhcFfF3YSZBaLz0dp53",
+    "type": "capaInvocacao",
+    "temporada": "Gono",
+    "arco": "Gono",
+    "name": "Gono",
+    "order": 60022,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGono.png?alt=media&v=1787163009752774"
   },
   {
     "__docId": "8zfzbhYinfY40PwffSwq",
@@ -3777,6 +3922,28 @@
     "order": 10049
   },
   {
+    "__docId": "9zZ1jEFMijmp6aM5FF4p",
+    "type": "capaInvocacao",
+    "temporada": "Shotora",
+    "arco": "Shotora",
+    "name": "Shotora",
+    "order": 60037,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShotora.png?alt=media&v=1787163049436833"
+  },
+  {
+    "__docId": "a0dhItXfUCoaIXNBwCTW",
+    "type": "invocacao",
+    "temporada": "Hoshiro",
+    "arco": "Ketsutora",
+    "name": "Ketsutora",
+    "order": 40035,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHoshiro%2FKetsutora.png?alt=media&v=1787163041911354"
+  },
+  {
     "__docId": "a0HxyUouqz4VRf6Xm5zZ",
     "type": "transformacao",
     "temporada": "Raiden Yotsuki",
@@ -3832,6 +3999,28 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F5__Temporada.png?alt=media&v=1786479689458849",
     "order": 10132
+  },
+  {
+    "__docId": "aBnXRumAM3ac5BJTofGX",
+    "type": "invocacao",
+    "temporada": "Borashi",
+    "arco": "Kokuryu",
+    "name": "Kokuryu",
+    "order": 40042,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FKokuryu.png?alt=media&v=1787163063051234"
+  },
+  {
+    "__docId": "acMDy11z2pJd5BKzs0S2",
+    "type": "invocacao",
+    "temporada": "Hisoka",
+    "arco": "Neter",
+    "name": "Neter",
+    "order": 40025,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FNeter.png?alt=media&v=1787163018918004"
   },
   {
     "__docId": "aewyNHn1QCFGqH1zw49t",
@@ -3903,6 +4092,18 @@
     "order": 30054
   },
   {
+    "__docId": "aq8JMPRQ7HL8lJDT7b39",
+    "type": "capaInvocacao",
+    "temporada": "Tronquinho",
+    "arco": "Tronquinho",
+    "name": "Tronquinho",
+    "order": 60032,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTronquinho.png?alt=media&v=1787163037611908",
+    "placeholder": true
+  },
+  {
     "__docId": "aRKAwDA1QRYHILsYrv2T",
     "type": "timeline",
     "temporada": "Hashirama Senju",
@@ -3911,6 +4112,17 @@
     "done": false,
     "imageUrl": null,
     "order": 10174
+  },
+  {
+    "__docId": "ARpiOUNP6Gd06Kbv8dHt",
+    "type": "capaInvocacao",
+    "temporada": "Fukuro",
+    "arco": "Fukuro",
+    "name": "Fukuro",
+    "order": 60020,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FFukuro.png?alt=media&v=1787163002553677"
   },
   {
     "__docId": "AVj0ilBAk8TgSxsPtcmW",
@@ -3989,6 +4201,17 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FCl_ssico.png?alt=media&v=1786370776418716",
     "order": 10147
+  },
+  {
+    "__docId": "Bac9omXA20GJlAuFdzLi",
+    "type": "capaInvocacao",
+    "temporada": "Nagare",
+    "arco": "Nagare",
+    "name": "Nagare",
+    "order": 60009,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNagare.png?alt=media&v=1787162960372418"
   },
   {
     "__docId": "BMnmcwpSWptlEipyPso5",
@@ -4103,6 +4326,28 @@
     "order": 30005
   },
   {
+    "__docId": "c2UKa6kcFISb432sY6r3",
+    "type": "capaInvocacao",
+    "temporada": "Kokuryu",
+    "arco": "Kokuryu",
+    "name": "Kokuryu",
+    "order": 60042,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKokuryu.png?alt=media&v=1787163064471840"
+  },
+  {
+    "__docId": "C41t49kk26H3RuUrH0ik",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Nishinoya",
+    "name": "Nishinoya",
+    "order": 40000,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNishinoya.png?alt=media&v=1787162916812588"
+  },
+  {
     "__docId": "C79LPNOAqowjolSnSLaO",
     "type": "capa",
     "temporada": "Kaito Senju",
@@ -4188,6 +4433,17 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FCl_ssico.png?alt=media&v=1786479680116806",
     "order": 10139
+  },
+  {
+    "__docId": "CfmaIMTngSHtgmjc9Msy",
+    "type": "invocacao",
+    "temporada": "Hisoka",
+    "arco": "Hiiro",
+    "name": "Hiiro",
+    "order": 40024,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FHiiro.png?alt=media&v=1787163015430487"
   },
   {
     "__docId": "CJmr7hbnLoIcclsCtoyi",
@@ -4306,6 +4562,17 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2F1__Temporada.png?alt=media&v=1786370758297745",
     "order": 10155
+  },
+  {
+    "__docId": "dKeSVxPC2KDMDJrc5HcC",
+    "type": "capaInvocacao",
+    "temporada": "Daiju",
+    "arco": "Daiju",
+    "name": "Daiju",
+    "order": 60041,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FDaiju.png?alt=media&v=1787163061580496"
   },
   {
     "__docId": "DldfgALXfnUZsQ2aGmP4",
@@ -4459,6 +4726,17 @@
     "placeholder": false,
     "doneBy": null,
     "order": 30020
+  },
+  {
+    "__docId": "eGE1ypTWfE68Sd8CcjHD",
+    "type": "capaInvocacao",
+    "temporada": "Takeshi",
+    "arco": "Takeshi",
+    "name": "Takeshi",
+    "order": 60004,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTakeshi.png?alt=media&v=1787162937608938"
   },
   {
     "__docId": "eiypf30WmY6YWHjkyask",
@@ -4674,6 +4952,17 @@
     "order": 10025
   },
   {
+    "__docId": "fejike4MaMuT6rynBBKX",
+    "type": "invocacao",
+    "temporada": "Shikure",
+    "arco": "Akeganai",
+    "name": "Akeganai",
+    "order": 40029,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FAkeganai.png?alt=media&v=1787163030660251"
+  },
+  {
     "__docId": "FF2PIyhS1dkHbCpNulKC",
     "type": "timeline",
     "arco": "4ª Temporada",
@@ -4682,6 +4971,17 @@
     "imageUrl": null,
     "temporada": "Souma Namikaze",
     "order": 10191
+  },
+  {
+    "__docId": "FFgdqCSA21YivKWFvd88",
+    "type": "invocacao",
+    "temporada": "Borashi",
+    "arco": "Seitora",
+    "name": "Seitora",
+    "order": 40039,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FSeitora.png?alt=media&v=1787163054126683"
   },
   {
     "__docId": "FhPUCipfara0PfNlcIyJ",
@@ -4703,6 +5003,28 @@
     "placeholder": false,
     "personagens": [],
     "order": 50252
+  },
+  {
+    "__docId": "FK3Rm1s8q7pCHsHJaM9F",
+    "type": "capaInvocacao",
+    "temporada": "Tamatama",
+    "arco": "Tamatama",
+    "name": "Tamatama",
+    "order": 60047,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTamatama.png?alt=media&v=1787163079573811"
+  },
+  {
+    "__docId": "fo3U4CKmcZ5CxqYalFj5",
+    "type": "capaInvocacao",
+    "temporada": "Hiiro",
+    "arco": "Hiiro",
+    "name": "Hiiro",
+    "order": 60024,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHiiro.png?alt=media&v=1787163017314844"
   },
   {
     "__docId": "FQrzoaoMbEB9sZcXhCtV",
@@ -4760,6 +5082,17 @@
     "order": 10158
   },
   {
+    "__docId": "G7BJp0aSofRy0kuZ4dJl",
+    "type": "invocacao",
+    "temporada": "Oddy",
+    "arco": "Oddyo",
+    "name": "Oddyo",
+    "order": 40014,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FOddy%2FOddyo.png?alt=media&v=1787162979697505"
+  },
+  {
     "__docId": "gE560wIEwu8N3ChB34Xk",
     "type": "timeline",
     "temporada": "Kaito Senju",
@@ -4791,6 +5124,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 20013
+  },
+  {
+    "__docId": "Ggo2HG4sUZyMxL3VnzBh",
+    "type": "invocacao",
+    "temporada": "Shikatsu",
+    "arco": "Anken",
+    "name": "Anken",
+    "order": 40044,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FAnken.png?alt=media&v=1787163068851748"
   },
   {
     "__docId": "gj1qGTwdbbIszhMJrv3T",
@@ -4860,6 +5204,18 @@
     "order": 10076
   },
   {
+    "__docId": "gSv0nejhpUxT2SEUbdpD",
+    "type": "capaInvocacao",
+    "temporada": "Madeiroso",
+    "arco": "Madeiroso",
+    "name": "Madeiroso",
+    "order": 60031,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMadeiroso.png?alt=media&v=1787163036172568",
+    "placeholder": true
+  },
+  {
     "__docId": "GSySnmjVND7vraTrS2xs",
     "type": "transformacao",
     "temporada": "Nishinoya Senju",
@@ -4903,6 +5259,17 @@
     "doneBy": null,
     "imageUrl": null,
     "order": 10084
+  },
+  {
+    "__docId": "GVij6wJwQEwkOQhRre0N",
+    "type": "invocacao",
+    "temporada": "Shoyu",
+    "arco": "Kurama",
+    "name": "Kurama",
+    "order": 40021,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShoyu%2FKurama.png?alt=media&v=1787163004205877"
   },
   {
     "__docId": "Gw23pu0CAOtmGw1n64de",
@@ -4951,6 +5318,17 @@
       "Ryuta Hyuga"
     ],
     "elencoFechado": true
+  },
+  {
+    "__docId": "h4em13EQFbLeHdoSxVi1",
+    "type": "invocacao",
+    "temporada": "Satoshi",
+    "arco": "Gamarai",
+    "name": "Gamarai",
+    "order": 40015,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamarai.png?alt=media&v=1787162983570716"
   },
   {
     "__docId": "H5FZLmOAjVadlnz6LLqR",
@@ -5008,6 +5386,17 @@
     "order": 10250
   },
   {
+    "__docId": "HEIFDMEPxkbF1bYvevFU",
+    "type": "capaInvocacao",
+    "temporada": "Ayumi",
+    "arco": "Ayumi",
+    "name": "Ayumi",
+    "order": 60007,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAyumi.png?alt=media&v=1787162951428690"
+  },
+  {
     "__docId": "HEj8cQ3xnyJBW4XM0hB8",
     "type": "timeline",
     "arco": "1ª Temporada",
@@ -5029,6 +5418,17 @@
     "order": 10168
   },
   {
+    "__docId": "hHTh4ao4Vvz5b2pXA3mD",
+    "type": "invocacao",
+    "temporada": "Shikatsu",
+    "arco": "Tamatama",
+    "name": "Tamatama",
+    "order": 40047,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FTamatama.png?alt=media&v=1787163078010972"
+  },
+  {
     "__docId": "hI7ZSLpQx1BHsPXZpqr0",
     "type": "capa",
     "temporada": "Akane Sumigami",
@@ -5039,6 +5439,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30069
+  },
+  {
+    "__docId": "HIN7UL7dH8YysFHNKUnZ",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Shoei",
+    "name": "Shoei",
+    "order": 40003,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FShoei.png?alt=media&v=1787162930626841"
   },
   {
     "__docId": "hJA7d8cbV9hpubwpSPrf",
@@ -5113,6 +5524,17 @@
     "order": 10206
   },
   {
+    "__docId": "hvGzPOpCGMKIowH5RPu6",
+    "type": "invocacao",
+    "temporada": "Borashi",
+    "arco": "Daiju",
+    "name": "Daiju",
+    "order": 40041,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FDaiju.png?alt=media&v=1787163059994460"
+  },
+  {
     "__docId": "Hw17gzyom62I3g2yyfmZ",
     "type": "capa",
     "temporada": "Daiki Uzumaki (D)",
@@ -5170,6 +5592,17 @@
     "order": 10205
   },
   {
+    "__docId": "i3O1doT6dJX2MDzTLr36",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Nagare",
+    "name": "Nagare",
+    "order": 40009,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNagare.png?alt=media&v=1787162958076280"
+  },
+  {
     "__docId": "I447PiqCg1tc7pP3q41X",
     "type": "timeline",
     "arco": "3ª Temporada",
@@ -5178,6 +5611,17 @@
     "imageUrl": null,
     "temporada": "Borashi Hyuga (B)",
     "order": 10258
+  },
+  {
+    "__docId": "i6sa3Z7AZ777D8swEKL2",
+    "type": "capaInvocacao",
+    "temporada": "Anken",
+    "arco": "Anken",
+    "name": "Anken",
+    "order": 60044,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAnken.png?alt=media&v=1787163070412743"
   },
   {
     "__docId": "iAFalWagbKvf8XycKY4X",
@@ -5248,6 +5692,17 @@
     "order": 10185
   },
   {
+    "__docId": "IgMr7MbtfvxsQLE9pCFA",
+    "type": "invocacao",
+    "temporada": "Asami",
+    "arco": "Shotora",
+    "name": "Shotora",
+    "order": 40037,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAsami%2FShotora.png?alt=media&v=1787163047987047"
+  },
+  {
     "__docId": "IgVE8u2ZTLxNjtXNbcUW",
     "type": "capa",
     "temporada": "Yuji Yotsuki",
@@ -5294,6 +5749,17 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F3__Temporada.png?alt=media&v=1784751335715",
     "order": 10117
+  },
+  {
+    "__docId": "IMUN0sn83gKCCNttqmJZ",
+    "type": "invocacao",
+    "temporada": "Hisoka",
+    "arco": "Chroll",
+    "name": "Chroll",
+    "order": 40026,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FChroll.png?alt=media&v=1787163021875782"
   },
   {
     "__docId": "iPALRrrtWANQc8GXKv9t",
@@ -5352,6 +5818,17 @@
     "order": 10104
   },
   {
+    "__docId": "iyuVoVGMRWpl2Dq2VP0M",
+    "type": "capaInvocacao",
+    "temporada": "Katsumi",
+    "arco": "Katsumi",
+    "name": "Katsumi",
+    "order": 60001,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKatsumi.png?alt=media&v=1787162924011061"
+  },
+  {
     "__docId": "J7BcjoF23t8tfl60eNFE",
     "type": "capa",
     "temporada": "Inazuma Kazuchi",
@@ -5362,6 +5839,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30070
+  },
+  {
+    "__docId": "JarTwVuuoaUsAw17hIVt",
+    "type": "capaInvocacao",
+    "temporada": "Neter",
+    "arco": "Neter",
+    "name": "Neter",
+    "order": 60025,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNeter.png?alt=media&v=1787163020414529"
   },
   {
     "__docId": "JdpFB430ExRo9r5N809u",
@@ -5398,6 +5886,17 @@
     "order": 30003
   },
   {
+    "__docId": "JpahVcGvHAYMma80YYJi",
+    "type": "capaInvocacao",
+    "temporada": "Kintora",
+    "arco": "Kintora",
+    "name": "Kintora",
+    "order": 60010,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKintora.png?alt=media&v=1787162965037982"
+  },
+  {
     "__docId": "Jpj4tkbDqmwrxL2IxxZo",
     "type": "timeline",
     "arco": "1ª Temporada",
@@ -5430,6 +5929,17 @@
     "name": "Daichi Muujin"
   },
   {
+    "__docId": "Jss6qjvI85ueoskwthTi",
+    "type": "invocacao",
+    "temporada": "Kurohime",
+    "arco": "Kurotsume",
+    "name": "Kurotsume",
+    "order": 40012,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKurohime%2FKurotsume.png?alt=media&v=1787162971888764"
+  },
+  {
     "__docId": "Jsyf5YixJYDBJcvW6xMj",
     "type": "transformacao",
     "temporada": "Kiyoshi Hagane",
@@ -5453,6 +5963,17 @@
     "order": 10034
   },
   {
+    "__docId": "jvJcTlXlJHCyGzBo8kOj",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Oddy",
+    "name": "Oddy",
+    "order": 40002,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FOddy.png?alt=media&v=1787162926159719"
+  },
+  {
     "__docId": "JXQsaVGDpcQjgPToBZNU",
     "type": "capa",
     "temporada": "Shikatsu Nara (Togo Kage)",
@@ -5462,6 +5983,29 @@
     "placeholder": false,
     "doneBy": null,
     "order": 30034
+  },
+  {
+    "__docId": "k0tOoO5GN08kdyRH5261",
+    "type": "capaInvocacao",
+    "temporada": "Ketsujin",
+    "arco": "Ketsujin",
+    "name": "Ketsujin",
+    "order": 60030,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKetsujin.png?alt=media&v=1787163034805753"
+  },
+  {
+    "__docId": "K93QJK78DwdMQbcusPMp",
+    "type": "capaInvocacao",
+    "temporada": "Sakura",
+    "arco": "Sakura",
+    "name": "Sakura",
+    "order": 60034,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSakura.png?alt=media&v=1787163040436652",
+    "placeholder": true
   },
   {
     "__docId": "K9FxcspWRGtHpUx8ZvhR",
@@ -5518,6 +6062,17 @@
     "order": 10280
   },
   {
+    "__docId": "kImZTBowqfSjtJDSKkg9",
+    "type": "capaInvocacao",
+    "temporada": "Okami Hatake",
+    "arco": "Okami Hatake",
+    "name": "Okami Hatake",
+    "order": 60018,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOkami_Hatake.png?alt=media&v=1787162995537728"
+  },
+  {
     "__docId": "KlNf8hdefr76SjZLk4vj",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -5527,6 +6082,17 @@
     "name": "4ª Temporada",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F4__Temporada.png?alt=media&v=1784658577459275",
     "order": 10022
+  },
+  {
+    "__docId": "KmlHB6aMv7R3MBdCxt5H",
+    "type": "invocacao",
+    "temporada": "Hisoka",
+    "arco": "Gono",
+    "name": "Gono",
+    "order": 40022,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FGono.png?alt=media&v=1787163007873563"
   },
   {
     "__docId": "koDBzbkdVJH3Gf9xwzMJ",
@@ -5630,6 +6196,28 @@
     "order": 10014
   },
   {
+    "__docId": "LblwdsBxmchOifjVNLue",
+    "type": "capaInvocacao",
+    "temporada": "Furyuzan",
+    "arco": "Furyuzan",
+    "name": "Furyuzan",
+    "order": 60008,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FFuryuzan.png?alt=media&v=1787162955998492"
+  },
+  {
+    "__docId": "lBzsTvzk2peBsqicWobh",
+    "type": "capaInvocacao",
+    "temporada": "Kurama",
+    "arco": "Kurama",
+    "name": "Kurama",
+    "order": 60021,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKurama.png?alt=media&v=1787163006042082"
+  },
+  {
     "__docId": "ll0sIbs9CtXo1BDFY11e",
     "type": "timeline",
     "temporada": "Chigiri Chinoike",
@@ -5665,6 +6253,17 @@
     "elencoFechado": true
   },
   {
+    "__docId": "lrAutknGTcyCltX5nsvP",
+    "type": "invocacao",
+    "temporada": "Satoshi",
+    "arco": "Gamasen",
+    "name": "Gamasen",
+    "order": 40016,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamasen.png?alt=media&v=1787162986743503"
+  },
+  {
     "__docId": "LsaA97vjbGeZII3HlMPH",
     "type": "timeline",
     "temporada": "Ayumi Uchiha",
@@ -5674,6 +6273,18 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2FCl_ssico.png?alt=media&v=1784751309226",
     "order": 10086
+  },
+  {
+    "__docId": "Lsi4Z88aRsAiWtgfNIHR",
+    "type": "invocacao",
+    "temporada": "Airi",
+    "arco": "Tronquinho",
+    "name": "Tronquinho",
+    "order": 40032,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FTronquinho.png?alt=media&v=1787163036892294",
+    "placeholder": true
   },
   {
     "__docId": "LT0V7zO6ufq0Y48eCnLq",
@@ -5853,6 +6464,17 @@
     "order": 10223
   },
   {
+    "__docId": "MvmG2exRfO12d5y33Uiy",
+    "type": "capaInvocacao",
+    "temporada": "Meruem",
+    "arco": "Meruem",
+    "name": "Meruem",
+    "order": 60027,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMeruem.png?alt=media&v=1787163026365021"
+  },
+  {
     "__docId": "mwiqbH4poB4O4VkNoctJ",
     "placeholder": false,
     "arco": "Início",
@@ -5930,6 +6552,28 @@
     "elencoFechado": true
   },
   {
+    "__docId": "nAhXykIMC0ORLKqHa1JX",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Takeshi",
+    "name": "Takeshi",
+    "order": 40004,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FTakeshi.png?alt=media&v=1787162935262103"
+  },
+  {
+    "__docId": "NCjLe1Qa0WvRZraAXmFr",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Najin",
+    "name": "Najin",
+    "order": 40005,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FNajin.png?alt=media&v=1787162939864213"
+  },
+  {
     "__docId": "nGgOrPVPIR4mnra6fyXL",
     "type": "timeline",
     "temporada": "Ayumi Uchiha",
@@ -5983,6 +6627,17 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F3__Temporada.png?alt=media&v=1784658604434695",
     "doneBy": "Zeck",
     "order": 10055
+  },
+  {
+    "__docId": "nR1YvHa5kaaqQm1Bbyiq",
+    "type": "invocacao",
+    "temporada": "Shikatsu",
+    "arco": "Meiryu",
+    "name": "Meiryu",
+    "order": 40045,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FMeiryu.png?alt=media&v=1787163071989788"
   },
   {
     "__docId": "NVEmTWEBzMpFoydYUbyU",
@@ -6048,6 +6703,17 @@
       "Shoei Sarutobi"
     ],
     "elencoFechado": true
+  },
+  {
+    "__docId": "Nypvb69RSqNxLPyT2Al0",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Kenma",
+    "name": "Kenma",
+    "order": 40006,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FKenma.png?alt=media&v=1787162944442854"
   },
   {
     "__docId": "O5I0B8wQc7ApipUs5Pe0",
@@ -6155,6 +6821,17 @@
     "elencoFechado": true
   },
   {
+    "__docId": "oLmsSa8mBYaz3X5zN75e",
+    "type": "invocacao",
+    "temporada": "Hisoka",
+    "arco": "Kirr",
+    "name": "Kirr",
+    "order": 40023,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FKirr.png?alt=media&v=1787163011644521"
+  },
+  {
     "__docId": "OqfYXUdpLM2DsQhNvMWj",
     "type": "timeline",
     "temporada": "Oddy Uchiha",
@@ -6197,6 +6874,28 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuyuki%20Dokuhana%20(F)%2F2__Temporada.png?alt=media&v=1784665873288940",
     "doneBy": "Zeck",
     "order": 10272
+  },
+  {
+    "__docId": "OWOHDAKBk6qN7xkqmOPL",
+    "type": "invocacao",
+    "temporada": "Shikatsu",
+    "arco": "Kagejin",
+    "name": "Kagejin",
+    "order": 40046,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikatsu%2FKagejin.png?alt=media&v=1787163074994540"
+  },
+  {
+    "__docId": "OXZBpMvVlmbEc5m9fM8Y",
+    "type": "capaInvocacao",
+    "temporada": "Mizuchi",
+    "arco": "Mizuchi",
+    "name": "Mizuchi",
+    "order": 60028,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMizuchi.png?alt=media&v=1787163029269377"
   },
   {
     "__docId": "P0XMN3K8CoX1oJIsssBE",
@@ -6348,6 +7047,40 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F5__Temporada.png?alt=media&v=1784751300695",
     "order": 10106
+  },
+  {
+    "__docId": "pngd2ZN81C3vxYXd04yE",
+    "type": "invocacao",
+    "temporada": "Akira",
+    "arco": "Mizuchi",
+    "name": "Mizuchi",
+    "order": 40028,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAkira%2FMizuchi.png?alt=media&v=1787163027853771"
+  },
+  {
+    "__docId": "po850CxPhIavm0ii1GzT",
+    "type": "invocacao",
+    "temporada": "Airi",
+    "arco": "Madeiroso",
+    "name": "Madeiroso",
+    "order": 40031,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FMadeiroso.png?alt=media&v=1787163035461735",
+    "placeholder": true
+  },
+  {
+    "__docId": "PoRHINIogjAgxv84lSa6",
+    "type": "capaInvocacao",
+    "temporada": "Tsurugijin",
+    "arco": "Tsurugijin",
+    "name": "Tsurugijin",
+    "order": 60043,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTsurugijin.png?alt=media&v=1787163067397128"
   },
   {
     "__docId": "PpnUBomBvVUcuIh5ENVn",
@@ -6943,6 +7676,17 @@
     "order": 30037
   },
   {
+    "__docId": "pVcYqLMW6OBhNPRABmgq",
+    "type": "capaInvocacao",
+    "temporada": "Nishinoya",
+    "arco": "Nishinoya",
+    "name": "Nishinoya",
+    "order": 60000,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNishinoya.png?alt=media&v=1787162919286325"
+  },
+  {
     "__docId": "pVJMQJFAXdopnki1mb7X",
     "type": "timeline",
     "temporada": "Kazuki Hoshigaki",
@@ -7074,6 +7818,28 @@
     "order": 10283
   },
   {
+    "__docId": "qVHP5WMzEOJbtKNegfeX",
+    "type": "invocacao",
+    "temporada": "Katsumi",
+    "arco": "Yomatora",
+    "name": "Yomatora",
+    "order": 40011,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKatsumi%2FYomatora.png?alt=media&v=1787162967351042"
+  },
+  {
+    "__docId": "qwMrl1xrWeQsVGrFryYR",
+    "type": "invocacao",
+    "temporada": "Hisoka",
+    "arco": "Meruem",
+    "name": "Meruem",
+    "order": 40027,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHisoka%2FMeruem.png?alt=media&v=1787163024922413"
+  },
+  {
     "__docId": "qwSh76QX7k6AfnhmlBN5",
     "type": "capa",
     "temporada": "Yoru Kurogami",
@@ -7084,6 +7850,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30052
+  },
+  {
+    "__docId": "qYuwZJSUIjP4hneLjqym",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Ayumi",
+    "name": "Ayumi",
+    "order": 40007,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FAyumi.png?alt=media&v=1787162949114512"
   },
   {
     "__docId": "qZ1u8F0o200UWTxdRIis",
@@ -7108,6 +7885,17 @@
     "order": 10114
   },
   {
+    "__docId": "R0T9w3dm3PKR5a8XVT6b",
+    "type": "capaInvocacao",
+    "temporada": "Ketsutora",
+    "arco": "Ketsutora",
+    "name": "Ketsutora",
+    "order": 60035,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKetsutora.png?alt=media&v=1787163043461654"
+  },
+  {
     "__docId": "r13216Gfn4TWvErx7962",
     "type": "capa",
     "temporada": "Ryuta Hyuga",
@@ -7129,6 +7917,17 @@
     "order": 10282
   },
   {
+    "__docId": "RayS4Jy2uAVOo75at0d1",
+    "type": "capaInvocacao",
+    "temporada": "Yomatora",
+    "arco": "Yomatora",
+    "name": "Yomatora",
+    "order": 60011,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYomatora.png?alt=media&v=1787162969648084"
+  },
+  {
     "__docId": "roKgdSuMEqam1vcdyBqZ",
     "type": "transformacao",
     "temporada": "Nishinoya Senju",
@@ -7139,6 +7938,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 20001
+  },
+  {
+    "__docId": "RQc7qbZUwzPqkE85GdRj",
+    "type": "invocacao",
+    "temporada": "Shikure",
+    "arco": "Ketsujin",
+    "name": "Ketsujin",
+    "order": 40030,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FShikure%2FKetsujin.png?alt=media&v=1787163033466216"
   },
   {
     "__docId": "rqTLuIPw4boXQEKobG2o",
@@ -7173,6 +7983,28 @@
     "placeholder": false,
     "doneBy": null,
     "order": 30022
+  },
+  {
+    "__docId": "ruxPX1EJoDSKGWQPhW7e",
+    "type": "capaInvocacao",
+    "temporada": "Gurenmaru",
+    "arco": "Gurenmaru",
+    "name": "Gurenmaru",
+    "order": 60017,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGurenmaru.png?alt=media&v=1787162991878811"
+  },
+  {
+    "__docId": "rVWWRps07DlGoWcOvH6K",
+    "type": "capaInvocacao",
+    "temporada": "Oddy",
+    "arco": "Oddy",
+    "name": "Oddy",
+    "order": 60002,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOddy.png?alt=media&v=1787162928427106"
   },
   {
     "__docId": "S3h1PNB5IipGzJWqTZmw",
@@ -7216,6 +8048,28 @@
     "imageUrl": null,
     "temporada": "Daiki Uzumaki (D)",
     "order": 10268
+  },
+  {
+    "__docId": "SFIAlIuJBFWpXcKfcGfx",
+    "type": "capaInvocacao",
+    "temporada": "Kurotsume",
+    "arco": "Kurotsume",
+    "name": "Kurotsume",
+    "order": 60012,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKurotsume.png?alt=media&v=1787162974209383"
+  },
+  {
+    "__docId": "sIlAOv5iLEf4PLDWMMvf",
+    "type": "invocacao",
+    "temporada": "Takeshi",
+    "arco": "Okami Hatake",
+    "name": "Okami Hatake",
+    "order": 40018,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FTakeshi%2FOkami_Hatake.png?alt=media&v=1787162993688449"
   },
   {
     "__docId": "sn1vR0uhYl8vzEI1YXdF",
@@ -7372,6 +8226,17 @@
     "order": 30033
   },
   {
+    "__docId": "TZR0bjZpfT7KL7Gubreb",
+    "type": "invocacao",
+    "temporada": "Borashi",
+    "arco": "Shhei",
+    "name": "Shhei",
+    "order": 40040,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FShhei.png?alt=media&v=1787163056963576"
+  },
+  {
     "__docId": "u3iRXAC95LLBssqS0Vz1",
     "type": "timeline",
     "temporada": "Ayumi Uchiha",
@@ -7437,6 +8302,29 @@
     "order": 10017
   },
   {
+    "__docId": "uFONz2Hvj5lP6WhCkAxO",
+    "type": "invocacao",
+    "temporada": "Airi",
+    "arco": "Hash-hash",
+    "name": "Hash-hash",
+    "order": 40033,
+    "done": false,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787163038316215",
+    "placeholder": true
+  },
+  {
+    "__docId": "UglsqJUsOvpNjE0yTRsD",
+    "type": "capaInvocacao",
+    "temporada": "Shhei",
+    "arco": "Shhei",
+    "name": "Shhei",
+    "order": 60040,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShhei.png?alt=media&v=1787163058505594"
+  },
+  {
     "__docId": "UniNqiRGOW3OTsBzdknV",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -7467,6 +8355,17 @@
     "done": false,
     "imageUrl": null,
     "order": 10287
+  },
+  {
+    "__docId": "uYoX7zxyt3RmaEjAoRWa",
+    "type": "capaInvocacao",
+    "temporada": "Seitora",
+    "arco": "Seitora",
+    "name": "Seitora",
+    "order": 60039,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSeitora.png?alt=media&v=1787163055595693"
   },
   {
     "__docId": "UywthWTTyDi4XsZMYudg",
@@ -7551,6 +8450,17 @@
     "elencoFechado": true
   },
   {
+    "__docId": "vkJ5KsZW7g8BlHbHD3Rb",
+    "type": "capaInvocacao",
+    "temporada": "Hokotora",
+    "arco": "Hokotora",
+    "name": "Hokotora",
+    "order": 60036,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHokotora.png?alt=media&v=1787163046469149"
+  },
+  {
     "__docId": "vlrynv2k4q7XLXCXXBzX",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -7618,6 +8528,17 @@
     "order": 30045
   },
   {
+    "__docId": "VuWa6SNArgwtVKcXTWhr",
+    "type": "invocacao",
+    "temporada": "Satoshi",
+    "arco": "Gurenmaru",
+    "name": "Gurenmaru",
+    "order": 40017,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGurenmaru.png?alt=media&v=1787162990419669"
+  },
+  {
     "__docId": "vXgyfDlg0st0jIDZcgv0",
     "type": "timeline",
     "temporada": "Kazuki Hoshigaki",
@@ -7649,6 +8570,17 @@
     "doneBy": null,
     "imageUrl": null,
     "order": 10082
+  },
+  {
+    "__docId": "wfeXH6OsXT9lIBBlRlpG",
+    "type": "invocacao",
+    "temporada": "Kaizuka",
+    "arco": "Hokotora",
+    "name": "Hokotora",
+    "order": 40036,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaizuka%2FHokotora.png?alt=media&v=1787163045031291"
   },
   {
     "__docId": "wFUkgd0tcL8434X2ays2",
@@ -7840,6 +8772,17 @@
     "order": 10252
   },
   {
+    "__docId": "wXhYSNGTKz2uMc7iBXqS",
+    "type": "capaInvocacao",
+    "temporada": "Gamasen",
+    "arco": "Gamasen",
+    "name": "Gamasen",
+    "order": 60016,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamasen.png?alt=media&v=1787162988585286"
+  },
+  {
     "__docId": "wYBkXrdZuQ2IDIM9qhT0",
     "type": "timeline",
     "temporada": "Naomi Uzumaki",
@@ -7863,6 +8806,17 @@
     "order": 10181
   },
   {
+    "__docId": "x25CtrflHk6EAggY93kQ",
+    "type": "invocacao",
+    "temporada": "Kaito",
+    "arco": "Katsumi",
+    "name": "Katsumi",
+    "order": 40001,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FKaito%2FKatsumi.png?alt=media&v=1787162921599819"
+  },
+  {
     "__docId": "X3s7bYBzHtjakvmFGqNk",
     "type": "timeline",
     "temporada": "Shin Mizukari",
@@ -7884,6 +8838,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30047
+  },
+  {
+    "__docId": "xBTbMbCoyluabsZ1nLC2",
+    "type": "capaInvocacao",
+    "temporada": "Shoei",
+    "arco": "Shoei",
+    "name": "Shoei",
+    "order": 60003,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShoei.png?alt=media&v=1787162932987017"
   },
   {
     "__docId": "xdNQUu7jXv8kXwIa2axc",
@@ -7917,6 +8882,17 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F2__Temporada.png?alt=media&v=1784569513074564",
     "order": 10116
+  },
+  {
+    "__docId": "Xk8m7rqrtVMFGU408DfV",
+    "type": "invocacao",
+    "temporada": "Borashi",
+    "arco": "Tsurugijin",
+    "name": "Tsurugijin",
+    "order": 40043,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FTsurugijin.png?alt=media&v=1787163065926312"
   },
   {
     "__docId": "XmgIyvBHzdwTwUv4gQJB",
@@ -8008,6 +8984,28 @@
     "order": 30061
   },
   {
+    "__docId": "y7TEe7l9eCA4qABrvyKv",
+    "type": "invocacao",
+    "temporada": "Yuki",
+    "arco": "Fukuro",
+    "name": "Fukuro",
+    "order": 40020,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FYuki%2FFukuro.png?alt=media&v=1787163000630365"
+  },
+  {
+    "__docId": "yAVZBFkM8NKBjJTrBTbb",
+    "type": "capaInvocacao",
+    "temporada": "Oddyo",
+    "arco": "Oddyo",
+    "name": "Oddyo",
+    "order": 60014,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOddyo.png?alt=media&v=1787162981641750"
+  },
+  {
     "__docId": "YbzJcSGZOZCGhjGNLFJ2",
     "type": "timeline",
     "arco": "5ª Temporada",
@@ -8074,6 +9072,17 @@
     "order": 10264
   },
   {
+    "__docId": "YjcCTFYv7fIF7lUt47iV",
+    "type": "capaInvocacao",
+    "temporada": "Kenma",
+    "arco": "Kenma",
+    "name": "Kenma",
+    "order": 60006,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKenma.png?alt=media&v=1787162946800724"
+  },
+  {
     "__docId": "YkByLTxJxPmy1KtF9lXB",
     "name": "Apresentação de Nishinoya",
     "temporada": "Prólogo",
@@ -8089,6 +9098,17 @@
       "Sakura Namikaze"
     ],
     "elencoFechado": true
+  },
+  {
+    "__docId": "YN9KiMqmVct95dY7uUDr",
+    "type": "capaInvocacao",
+    "temporada": "Najin",
+    "arco": "Najin",
+    "name": "Najin",
+    "order": 60005,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNajin.png?alt=media&v=1787162942173529"
   },
   {
     "__docId": "YrftQbGbarQnwuErWOVu",
@@ -8123,6 +9143,17 @@
     "order": 10182
   },
   {
+    "__docId": "Yvzbqb5DR3VaC3o9cYGd",
+    "type": "invocacao",
+    "temporada": "Haruki",
+    "arco": "Zotora",
+    "name": "Zotora",
+    "order": 40038,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FHaruki%2FZotora.png?alt=media&v=1787163050994386"
+  },
+  {
     "__docId": "yzDVBsFLuFpfKSoLVz0X",
     "type": "timeline",
     "temporada": "Nishinoya Senju",
@@ -8144,6 +9175,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30085
+  },
+  {
+    "__docId": "Z8igKFhrZwbcPQj1GZb9",
+    "type": "capaInvocacao",
+    "temporada": "Chroll",
+    "arco": "Chroll",
+    "name": "Chroll",
+    "order": 60026,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FChroll.png?alt=media&v=1787163023425148"
   },
   {
     "__docId": "ZBnysAg6X2x2ftThoQjy",
@@ -8177,6 +9219,17 @@
     "placeholder": false,
     "doneBy": null,
     "order": 30021
+  },
+  {
+    "__docId": "ZIgRprTEAGy2jPstbek6",
+    "type": "capaInvocacao",
+    "temporada": "Zotora",
+    "arco": "Zotora",
+    "name": "Zotora",
+    "order": 60038,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FZotora.png?alt=media&v=1787163052532990"
   },
   {
     "__docId": "ZJClzOg2SFmMibXsLGNG",
@@ -8269,6 +9322,17 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30067
+  },
+  {
+    "__docId": "zVLAUiClb0hvWkBKtAcT",
+    "type": "capaInvocacao",
+    "temporada": "Kirr",
+    "arco": "Kirr",
+    "name": "Kirr",
+    "order": 60023,
+    "done": true,
+    "doneBy": "Pedro",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKirr.png?alt=media&v=1787163013570815"
   },
   {
     "__docId": "Zw0maTAwSKt9OYD49rIl",

@@ -358,7 +358,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const CANVA_PROJETOS = useMemo(() => ([
     { tipo: 'timeline' as const, nome: 'Linha do Tempo', tam: '1080 × 1620', base: CHECKLIST_BLOCOS.timeline },
     { tipo: 'transformacao' as const, nome: 'Modos e Transformações', tam: '1080 × 1620', base: CHECKLIST_BLOCOS.transformacao },
-    { tipo: 'capa' as const, nome: 'Capas', tam: '1024 × 768 (4:3)', base: CHECKLIST_BLOCOS.capa },
+    { tipo: 'capa' as const, nome: 'Capas Personagens', tam: '1024 × 768 (4:3)', base: CHECKLIST_BLOCOS.capa },
+    { tipo: 'capaInvocacao' as const, nome: 'Capas Invocação', tam: '1024 × 768 (4:3)', base: CHECKLIST_BLOCOS.capaInvocacao },
+    { tipo: 'invocacao' as const, nome: 'Invocações', tam: '1024 × 768 (4:3)', base: CHECKLIST_BLOCOS.invocacao },
     { tipo: 'evento' as const, nome: 'Eventos', tam: '1600 × 900 (16:9)', base: CHECKLIST_BLOCOS.evento },
   ]), []);
 
@@ -375,7 +377,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         // personagem nos três campos, então ali os dois formatos dão o mesmo texto.
         titulo: p.tipo === 'evento'
           ? i.name
-          : p.tipo === 'capa'
+          : p.tipo === 'capa' || p.tipo === 'capaInvocacao'
             ? i.temporada
             : `${i.temporada} - ${i.arco}`,
         // texto de busca: tudo que identifica o item, inclusive o que a coluna deixou de mostrar
@@ -2381,10 +2383,10 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                         <td className="py-1 pl-3 pr-3 text-right w-12 text-tech-primary/40 tabular-nums">{i.pag}</td>
                         <td className="py-1 pr-3 text-tech-primary/90">{i.titulo}</td>
                         <td className="py-1 pr-3 w-24 whitespace-nowrap">
-                          {i.pronta
-                            ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary border border-tech-primary px-1.5 py-0.5">pronta</span>
-                            : i.placeholder
-                              ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary/30 border border-tech-primary/30 px-1.5 py-0.5">placeholder</span>
+                          {i.placeholder
+                            ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary/30 border border-tech-primary/30 px-1.5 py-0.5">placeholder</span>
+                            : i.pronta
+                              ? <span className="text-[9px] font-bold uppercase tracking-widest text-tech-primary border border-tech-primary px-1.5 py-0.5">pronta</span>
                               : <span className="text-[9px] font-bold uppercase tracking-widest text-orange-400 border border-orange-400/60 px-1.5 py-0.5">a fazer</span>}
                         </td>
                       </tr>

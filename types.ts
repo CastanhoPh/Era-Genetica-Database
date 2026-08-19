@@ -62,8 +62,18 @@ export const EVENT_SEASONS = ['1ª Temporada', '2ª Temporada', '3ª Temporada',
 // mais fases avulsas dentro de "timeline".
 export interface ChecklistItem {
   docId?: string;
-  /** Ausente ou "evento" = checklist de Eventos (padrão). "timeline" = Linha do Tempo. "capa" = Capa. "transformacao" = Modos e Transformações. */
-  type?: 'evento' | 'timeline' | 'capa' | 'transformacao';
+  /**
+   * Um por projeto do Canva, porque cada projeto tem um formato próprio. Ausente = "evento", que é
+   * o padrão histórico.
+   *
+   *   evento         16:9         Eventos
+   *   timeline       1080×1620    Linha do Tempo
+   *   transformacao  1080×1620    Modos e Transformações
+   *   capa           4:3          Capas Personagens
+   *   invocacao      4:3          Invocações — a arte da criatura
+   *   capaInvocacao  4:3          Capas Invocação — a capa de cada invocação
+   */
+  type?: 'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao';
   temporada: string;
   arco: string;
   subarco?: string;
