@@ -189,8 +189,19 @@ export interface Character {
   birthVillage?: string;
   /** Cor do chakra em hex. Pinta os dois fachos do anel nas técnicas e armas de rank Z. */
   chakraColor?: string;
-  /** Estilo de combate: Corporal, Distância ou Híbrido. Guardado, ainda não exibido na ficha. */
-  combatStyle?: string;
+  /**
+   * Estilo de combate. Nunca é exibido — serve só para distribuir atributo quando o NC sobe:
+   *
+   *   Corporal   → Força e Agilidade vão ao teto (= NC), Destreza e Percepção ao mínimo
+   *   Distância  → Destreza e Percepção vão ao teto, Força e Agilidade ao mínimo
+   *
+   * O que sobra fica com Vigor, Espírito e Inteligência, que o Pedro informa. A conta fecha em
+   * todo NC de 4 a 30 — a sobra nunca cai fora da faixa [3 × mínimo, 3 × NC].
+   *
+   * Atributo já acima do mínimo NÃO desce. E não existe "Híbrido": o que era marcado assim é
+   * Distância com a aptidão Acuidade, que 54 das 86 fichas têm.
+   */
+  combatStyle?: 'Corporal' | 'Distância';
 }
 
 /** Peso de cada rank, do mais forte para o mais fraco. Usado para ordenar o Arsenal. */

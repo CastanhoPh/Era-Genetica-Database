@@ -162,6 +162,28 @@ Um NC 16 tem teto 16 em cada atributo; um NC 23, teto 23. O 30 aparece como limi
 
 ---
 
+## Estilo de combate — como distribuir quando o NC sobe
+
+Todo personagem é de **combate corporal** ou de **combate a distância**. Isso nunca aparece no site: é informação interna, e serve só para distribuir atributo.
+
+| Estilo | Vão ao **teto** (= NC) | Vão ao **mínimo** |
+|---|---|---|
+| **Corporal** | Força e Agilidade | Destreza e Percepção |
+| **Distância** | Destreza e Percepção | Força e Agilidade |
+
+**Vigor, Espírito e Inteligência** ficam com o que sobra, e são os únicos três que precisam ser informados a cada subida de NC.
+
+Duas ressalvas:
+
+- **Atributo que já está acima do mínimo não desce.** A regra só empurra para cima.
+- **Não existe "Híbrido".** O que já foi marcado assim é Distância com a aptidão **Acuidade** — que 54 das 86 fichas têm, e portanto não distingue nada.
+
+A conta sempre fecha. Com dois atributos no teto e dois no mínimo, a sobra para os outros três é `4 × NC − 12 − 2 × mínimo`, e ela cai dentro da faixa `[3 × mínimo, 3 × NC]` em **todo NC de 4 a 30** — nunca dá impossível. Exemplo no NC 29: dois em 29 e dois em 12 somam 82, e sobram 80 para três atributos que aceitam de 36 a 87.
+
+O estilo fica no campo `combatStyle` da ficha. Está preenchido em 71 das 86; as 15 restantes têm build mista (um atributo de cada par no teto), ficha em branco, ou nenhum NC.
+
+---
+
 ## Máximo de atributos
 
 O **total dos sete atributos somados** é limitado pelo NC. É o orçamento de pontos do personagem:
