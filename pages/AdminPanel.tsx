@@ -358,10 +358,15 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       .map((i, k) => ({
         pag: k + 1,
         docId: i.docId,
-        // O nome do arquivo no Storage é o `name` do item nos quatro tipos, sem a hierarquia: a capa
-        // do Yumi é "Yumi Uzumaki.png", a fase do Takeshi é "Clássico.png" dentro da pasta dele, e a
-        // cena é "Todos da Ambu desmaiam.png" dentro de 1ª Temporada/Início. A lista mostra isso.
-        titulo: i.name,
+        // Só o evento mostra apenas o nome do arquivo. Nos outros três a hierarquia é o que
+        // identifica a linha: sem "Takeshi Hatake" na frente, as 292 fases da Linha do Tempo viram
+        // "Clássico" e "1ª Temporada" repetidos, sem dizer de quem são. A capa repete o nome do
+        // personagem nos três campos, então ali os dois formatos dão o mesmo texto.
+        titulo: p.tipo === 'evento'
+          ? i.name
+          : p.tipo === 'capa'
+            ? i.temporada
+            : `${i.temporada} - ${i.arco}`,
         // texto de busca: tudo que identifica o item, inclusive o que a coluna deixou de mostrar
         busca: [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' ').toLowerCase(),
         pronta: !!i.imageUrl,
