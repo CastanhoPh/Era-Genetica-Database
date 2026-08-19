@@ -3917,7 +3917,7 @@ export const initialData: Character[] = [
     clan: "Desconhecido",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["Líder do Terceiro Degrau", "O Mutador"],
-    nc: 28,
+    nc: 0,
     position: "Líder do Terceiro Degrau",
     role: "?",
     description: "Desconhecido",

@@ -1089,7 +1089,6 @@
       "Líder do Terceiro Degrau",
       "O Mutador"
     ],
-    "nc": 28,
     "position": "Líder do Terceiro Degrau",
     "role": "?",
     "description": "Desconhecido",
@@ -1235,7 +1234,8 @@
         "season": "1ª Temporada",
         "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi"
       }
-    ]
+    ],
+    "nc": 0
   },
   {
     "__docId": "borashi-hyuga-b",
@@ -4015,7 +4015,12 @@
         "eventId": "prologo__familias__familia-hyuga"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "divisaoAtributo": {},
+    "focosAtributo": [
+      "inteligencia",
+      "vigor"
+    ]
   },
   {
     "__docId": "inazuma-kazuchi",
@@ -5884,7 +5889,12 @@
         "eventId": "0vY1igdFWYE5xfh859Mg"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "divisaoAtributo": {},
+    "focosAtributo": [
+      "inteligencia",
+      "vigor"
+    ]
   },
   {
     "__docId": "kazuki-hoshigaki",
@@ -10600,7 +10610,8 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "combatStyle": "Corporal"
   },
   {
     "__docId": "satoshi-namikaze",
@@ -10832,7 +10843,12 @@
         "eventId": "prologo__familias__senjus-e-sabakus"
       }
     ],
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "divisaoAtributo": {},
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ]
   },
   {
     "__docId": "shiita-sabaku-theta",
@@ -11649,7 +11665,12 @@
         "eventId": "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi"
       }
     ],
-    "combatStyle": "Corporal"
+    "combatStyle": "Corporal",
+    "divisaoAtributo": {},
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ]
   },
   {
     "__docId": "shoei-sarutobi",

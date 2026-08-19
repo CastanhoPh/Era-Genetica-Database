@@ -210,7 +210,8 @@ Vale registrar que a regra "atributo acima do mínimo não desce" e a fórmula a
 
 - **8 de build mista** — um atributo de cada par no teto (Hirato, Hana, Sayuri, Tessai, Kurohime, Akairo, Genei, Kaien). Só o Pedro resolve.
 - **8 com o par oposto acima do mínimo** — a seção acima.
-- **6 fichas em branco**, mais o Hades, que não tem NC.
+- **5 fichas em branco** — Ryuta e os quatro da Elite (Katakana, Ganmasen, Deruta, Shiita).
+- **Hades e Beta**, que não têm NC: os dois ficam com `nc: 0`, e a aba Perfil mostra "sem NC" em vez de tentar distribuir.
 
 `npm run perfil:derivar` deduz e confere tudo isso; sem `--apply` só relata.
 
