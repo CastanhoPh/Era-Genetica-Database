@@ -1605,8 +1605,8 @@
     "divisaoAtributo": {}
   },
   {
-    "__docId": "daichi-muuji",
-    "name": "Daichi Muuji",
+    "__docId": "daichi-muujin",
+    "name": "Daichi Muujin",
     "clan": "Muujin",
     "categories": [
       "NPC",
@@ -1625,12 +1625,12 @@
     "chakra": 64,
     "gallery": [
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F3__Temporada.png?alt=media&v=1784751312034",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1787158174217423",
         "caption": "3ª Temporada",
         "category": "era"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F5__Temporada.png?alt=media&v=1784751313537",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1787158175750350",
         "caption": "5ª Temporada",
         "category": "era"
       }
@@ -1673,7 +1673,7 @@
       "Potencializar"
     ],
     "id": 56,
-    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muuji%2FDaichi%20Muuji.png?alt=media&v=1786651899270418",
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1787158172524277",
     "chakraColor": "#c9d1d9",
     "combatStyle": "Distância",
     "focosAtributo": [
@@ -6303,7 +6303,6 @@
   {
     "__docId": "kurohime-kazeori",
     "name": "Kurohime Kazeori",
-    "clan": "Kurohime",
     "categories": [
       "NPC",
       "Sunagakure"
@@ -6379,7 +6378,8 @@
       "spirit": 14
     },
     "hp": 178,
-    "chakra": 52
+    "chakra": 52,
+    "clan": "Kazeori"
   },
   {
     "__docId": "kuromi-uchiha",
@@ -12956,6 +12956,12 @@
     },
     "hp": 232,
     "arsenal": [],
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {},
     "gallery": [
       {
         "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FPr_logo.png?alt=media&v=1784579842794518",
@@ -12968,7 +12974,7 @@
         "category": "era"
       },
       {
-        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1784579847926558",
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FSegundo_Hokage.png?alt=media&v=1787158067478818",
         "caption": "Segundo Hokage",
         "category": "era"
       },
@@ -13038,13 +13044,7 @@
         "season": "Clássico",
         "eventId": "prologo__treinamentos__kaito-e-tobirama"
       }
-    ],
-    "combatStyle": "Distância",
-    "focosAtributo": [
-      "inteligencia",
-      "espirito"
-    ],
-    "divisaoAtributo": {}
+    ]
   },
   {
     "__docId": "yasuo-kurogane",

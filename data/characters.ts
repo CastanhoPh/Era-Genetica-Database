@@ -4021,7 +4021,7 @@ export const initialData: Character[] = [
   },
   {
     id: 56,
-    name: "Daichi Muuji",
+    name: "Daichi Muujin",
     chakraColor: "#c9d1d9",
     combatStyle: "Distância",
     clan: "Muujin",
@@ -4033,10 +4033,10 @@ export const initialData: Character[] = [
     description: "",
     hp: 133,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muuji%2FDaichi%20Muuji.png?alt=media&v=1786651899270418",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1786651899270418",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F3__Temporada.png?alt=media&v=1784751312034", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F5__Temporada.png?alt=media&v=1784751313537", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1784751312034", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1784751313537", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 17, spirit: 18, vigor: 11, perception: 18 },
     powers: [
@@ -6266,7 +6266,7 @@ export const initialData: Character[] = [
     id: 50,
     name: "Kurohime Kazeori",
     chakraColor: "#3d3d4a",
-    clan: "Kurohime",
+    clan: "Kazeori",
     categories: ["NPC", "Sunagakure"],
     titles: ["Pilar do Julgamento", "A Pantera Negra da Areia", "A Voz Antes da Sentença"],
     nc: 21,

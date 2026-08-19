@@ -4266,13 +4266,13 @@
   {
     "__docId": "cXgQCLsQ8OsBWYTGRU8N",
     "type": "timeline",
-    "temporada": "Daichi Muuji",
     "arco": "3ª Temporada",
     "name": "3ª Temporada",
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F3__Temporada.png?alt=media&v=1784751312034",
-    "order": 10230
+    "order": 10230,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1787158174217423",
+    "temporada": "Daichi Muujin"
   },
   {
     "__docId": "D0kCnGcaXl98zJUwZmIi",
@@ -4400,13 +4400,13 @@
   {
     "__docId": "e4C6uCSqFRvCUqxHyL9i",
     "type": "timeline",
-    "temporada": "Daichi Muuji",
     "arco": "5ª Temporada",
     "name": "5ª Temporada",
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muuji%2F5__Temporada.png?alt=media&v=1784751313537",
-    "order": 10231
+    "order": 10231,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1787158175750350",
+    "temporada": "Daichi Muujin"
   },
   {
     "__docId": "EB9Snkd7nzGBhmeR2mRf",
@@ -5421,13 +5421,13 @@
   {
     "__docId": "jS7SBAAu23YQCPQCB9Rc",
     "type": "capa",
-    "temporada": "Daichi Muuji",
-    "arco": "Daichi Muuji",
-    "name": "Daichi Muuji",
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30055
+    "order": 30055,
+    "arco": "Daichi Muujin",
+    "temporada": "Daichi Muujin",
+    "name": "Daichi Muujin"
   },
   {
     "__docId": "Jsyf5YixJYDBJcvW6xMj",
@@ -6203,11 +6203,11 @@
     "type": "timeline",
     "temporada": "Tobirama Senju",
     "done": true,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1784579847926558",
     "doneBy": "Zeck",
     "arco": "Segundo Hokage",
     "name": "Segundo Hokage",
-    "order": 10135
+    "order": 10135,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FSegundo_Hokage.png?alt=media&v=1787158067478818"
   },
   {
     "__docId": "p4naUnyT4JXGlsThaXIr",
