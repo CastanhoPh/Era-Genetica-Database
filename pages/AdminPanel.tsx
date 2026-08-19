@@ -122,6 +122,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [prototypeViewMode, setPrototypeViewMode] = useState<'grid' | 'kanban'>('grid');
   const [classificationVillage, setClassificationVillage] = useState('Konohagakure');
   const [classificationFilter, setClassificationFilter] = useState<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8' | null>(null);
+  const [classificationFicha, setClassificationFicha] = useState<'todos' | 'ficha' | 'pendente'>('todos');
   const [canvaSearch, setCanvaSearch] = useState('');
   const [canvaState, setCanvaState] = useState<'todos' | 'falta' | 'pronta'>('todos');
   const [canvaTextOf, setCanvaTextOf] = useState<string | null>(null);
@@ -564,7 +565,12 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     setCopiedLink(id);
     setTimeout(() => setCopiedLink(prev => (prev === id ? null : prev)), 1800);
   }, []);
-  const classificationChars = classificationVillage === 'Todos' ? classificationAllVillages : (classificationsByVillage.get(classificationVillage) ?? []);
+  const classificationBase = classificationVillage === 'Todos' ? classificationAllVillages : (classificationsByVillage.get(classificationVillage) ?? []);
+  // A lista traz ficha e pendente juntos, marcados por `pending` — os dois botoes da direita
+  // separam os dois lados sem mexer na vila escolhida.
+  const classificationChars = classificationFicha === 'todos'
+    ? classificationBase
+    : classificationBase.filter(c => (classificationFicha === 'pendente') === !!c.pending);
   // Faixas exclusivas (não cumulativas): NC 30 é só o topo; 26+ é 26-29; 20+ é 20-25; etc.
   const NC_BANDS: Record<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8', (nc: number) => boolean> = {
     nc30: nc => nc === 30,
@@ -1811,26 +1817,46 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         <div className="border border-tech-border bg-tech-panel/30 p-5 space-y-4">
           <div className="flex items-center gap-2 text-tech-primary/70 mb-1">
             <Award size={14} />
-            <span className="text-[10px] font-black uppercase tracking-widest">NC por vila — só quem já tem ficha</span>
+            <span className="text-[10px] font-black uppercase tracking-widest">NC por vila — ficha e pendente juntos</span>
           </div>
           <p className="text-[9px] text-tech-primary/40 uppercase tracking-wide">
             Referência pra decidir o NC de personagens novos. Ordenado do maior NC pro menor dentro de cada vila.
           </p>
 
-          <div className="flex flex-nowrap gap-1.5 overflow-x-auto">
-            {['Todos', ...CLASSIFICATION_GROUPS].map(v => {
-              const count = v === 'Todos' ? classificationAllVillages.length : (classificationsByVillage.get(v)?.length ?? 0);
-              return (
+          {/* As vilas rolam quando não cabem; os dois botões de ficha ficam fixos na direita, fora
+              da área de rolagem, para não sumirem de vista. */}
+          <div className="flex items-center gap-3">
+            <div className="flex flex-nowrap gap-1.5 overflow-x-auto flex-1 min-w-0">
+              {['Todos', ...CLASSIFICATION_GROUPS].map(v => {
+                const count = v === 'Todos' ? classificationAllVillages.length : (classificationsByVillage.get(v)?.length ?? 0);
+                return (
+                  <button
+                    key={v}
+                    type="button"
+                    onClick={() => { setClassificationVillage(v); setClassificationFilter(null); }}
+                    className={`shrink-0 whitespace-nowrap px-2.5 py-1 border text-[10px] font-bold uppercase tracking-wide transition-all ${classificationVillage === v ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/70 hover:border-tech-primary/50'}`}
+                  >
+                    {v} {count > 0 && `(${count})`}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="flex gap-1.5 shrink-0">
+              {([
+                { k: 'ficha' as const, l: 'Com Ficha', n: classificationBase.filter(c => !c.pending).length },
+                { k: 'pendente' as const, l: 'Sem Ficha', n: classificationBase.filter(c => c.pending).length },
+              ]).map(b => (
                 <button
-                  key={v}
+                  key={b.k}
                   type="button"
-                  onClick={() => { setClassificationVillage(v); setClassificationFilter(null); }}
-                  className={`shrink-0 whitespace-nowrap px-2.5 py-1 border text-[10px] font-bold uppercase tracking-wide transition-all ${classificationVillage === v ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/70 hover:border-tech-primary/50'}`}
+                  // clicar no que já está ativo volta pra todos, então não fica preso num filtro
+                  onClick={() => setClassificationFicha(classificationFicha === b.k ? 'todos' : b.k)}
+                  className={`whitespace-nowrap px-2.5 py-1 border text-[10px] font-bold uppercase tracking-wide transition-all ${classificationFicha === b.k ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/70 hover:border-tech-primary/50'}`}
                 >
-                  {v} {count > 0 && `(${count})`}
+                  {b.l} ({b.n})
                 </button>
-              );
-            })}
+              ))}
+            </div>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
