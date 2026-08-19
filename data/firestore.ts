@@ -91,18 +91,23 @@ export async function saveCharacter(
 }
 
 /**
- * Grava o perfil de combate de um personagem: estilo e foco de atributo. Os dois são internos e
- * juntos determinam os sete atributos quando o NC sobe — ver data/atributos.ts.
+ * Grava o perfil de combate de um personagem: estilo, foco de atributo e proporção da divisão. Os
+ * três são internos e juntos determinam os sete atributos quando o NC sobe — ver data/atributos.ts.
  */
 export async function setCombatProfile(
   docId: string,
-  perfil: { combatStyle?: Character['combatStyle']; focosAtributo?: Character['focosAtributo'] },
+  perfil: {
+    combatStyle?: Character['combatStyle'];
+    focosAtributo?: Character['focosAtributo'];
+    divisaoAtributo?: Character['divisaoAtributo'];
+  },
 ): Promise<void> {
-  // so grava o que veio: passar um dos dois campos nao apaga o outro. O array de focos pode vir
-  // vazio de proposito (= dividido), entao ele e testado por !== undefined, nao por veracidade.
-  const limpo: { combatStyle?: string; focosAtributo?: string[] } = {};
+  // so grava o que veio: passar um dos campos nao apaga os outros. O array de focos e o objeto de
+  // divisao podem vir vazios de proposito, entao sao testados por !== undefined, nao por veracidade.
+  const limpo: Partial<Pick<Character, 'combatStyle' | 'focosAtributo' | 'divisaoAtributo'>> = {};
   if (perfil.combatStyle) limpo.combatStyle = perfil.combatStyle;
   if (perfil.focosAtributo !== undefined) limpo.focosAtributo = perfil.focosAtributo;
+  if (perfil.divisaoAtributo !== undefined) limpo.divisaoAtributo = perfil.divisaoAtributo;
   await updateDoc(doc(db, 'characters', docId), limpo);
 }
 

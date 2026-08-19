@@ -207,10 +207,18 @@ export interface Character {
    * NC sobe. Até dois. Vazio ou ausente = os três dividem por igual.
    *
    * Interno, como o combatStyle — junto com ele, os sete atributos de qualquer NC ficam determinados.
-   * Dois focos porque um só não descrevia o roster: o Kaito e o Takeshi têm Espírito no teto e
-   * repartem o resto entre Inteligência e Vigor em proporções diferentes. Ver data/atributos.ts.
+   * O que sobra é repartido pelo divisaoAtributo, logo abaixo. Ver data/atributos.ts.
    */
   focosAtributo?: ('inteligencia' | 'vigor' | 'espirito')[];
+  /**
+   * Em que proporção os livres que NÃO são foco repartem o que sobrou, em percentuais que somam 100
+   * (passos de 5). Ausente = partes iguais.
+   *
+   * É o que separa dois personagens com o mesmo foco: Kaito e Takeshi têm Espírito no teto, mas o
+   * Kaito reparte Inteligência/Vigor 60/40 (→ 17/11) e o Takeshi 55/45 (→ 15/13). A proporção incide
+   * sobre o total que sobrou, não sobre o excedente do mínimo. Ver data/atributos.ts.
+   */
+  divisaoAtributo?: Partial<Record<'inteligencia' | 'vigor' | 'espirito', number>>;
 }
 
 /** Peso de cada rank, do mais forte para o mais fraco. Usado para ordenar o Arsenal. */

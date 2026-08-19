@@ -171,7 +171,21 @@ Todo personagem é de **combate corporal** ou de **combate a distância**. Isso 
 | **Corporal** | Força e Agilidade | Destreza e Percepção |
 | **Distância** | Destreza e Percepção | Força e Agilidade |
 
-**Vigor, Espírito e Inteligência** ficam com o que sobra, e são os únicos três que precisam ser informados a cada subida de NC.
+**Vigor, Espírito e Inteligência** ficam com o que sobra. Duas escolhas, também internas, decidem como:
+
+- **Foco** — quais desses três vão ao teto. Até dois.
+- **Proporção** — em que percentual os que não são foco repartem o resto, em passos de 5%. Sem proporção definida, repartem em partes iguais.
+
+A proporção incide sobre **todo o valor que sobrou**, não sobre o excedente do mínimo. É o que separa dois personagens com o mesmo foco:
+
+| | Foco | Proporção | Resultado no NC 18 |
+|---|---|---|---|
+| **Kaito** | Espírito → 18 | Int 60 / Vig 40 | Int **17** · Vig **11** |
+| **Takeshi** | Espírito → 18 | Int 55 / Vig 45 | Int **15** · Vig **13** |
+
+Os dois têm Destreza 18, Percepção 18, Força 7, Agilidade 7 e Espírito 18 — 5% de diferença na proporção é toda a distância entre as duas fichas.
+
+Isso vive nos campos `combatStyle`, `focosAtributo` e `divisaoAtributo` da ficha, e é editável na aba **Perfil** do Painel, que mostra a prévia dos sete atributos antes de qualquer coisa ser aplicada. A implementação é `data/atributos.ts`.
 
 Duas ressalvas:
 

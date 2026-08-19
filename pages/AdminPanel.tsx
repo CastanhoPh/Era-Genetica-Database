@@ -6,8 +6,13 @@ import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
 import { setCombatProfile, subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed } from '../data/firestore';
 import { Character, ChecklistItem, PrototypeEntry, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
-import { distribuirAtributos, LIVRES, MAX_FOCOS, MIN_POR_NC, type EstiloCombate, type AtributoLivre } from '../data/atributos';
+import { distribuirAtributos, ajustaDivisao, divisaoInicial, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
+
+/** Se a ficha tem uma proporção explícita para estes divididos. Objeto vazio, ou proporção sobre
+ *  outros divididos (sobra de uma troca de foco), conta como "não tem" — aí vale partes iguais. */
+const temProporcao = (c: Character, divididos: AtributoLivre[]) =>
+  divididos.some(k => (c.divisaoAtributo?.[k] ?? 0) > 0);
 
 interface AdminPanelProps {
   characters: Character[];
@@ -434,7 +439,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     }
   }, [eventoAberto, characters]);
 
-  // Aba Perfil: estilo de combate + foco de atributo por ficha. Com os dois, os sete atributos de
+  // Aba Perfil: estilo de combate, foco de atributo e proporção da divisão por ficha. Com os dois, os sete atributos de
   // qualquer NC ficam determinados — é o que dispensa mandar atributo a atributo quando alguém sobe.
   const perfilLista = useMemo(() => {
     const termo = perfilBusca.trim().toLowerCase();
@@ -448,9 +453,12 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           && (!termo || c.name.toLowerCase().includes(termo) || (c.clan ?? '').toLowerCase().includes(termo));
       })
       .map(c => {
+        const focos = (c.focosAtributo ?? []) as AtributoLivre[];
+        // os livres que sobraram: é entre eles que a proporção reparte
+        const divididos = LIVRES.map(l => l.key).filter(k => !focos.includes(k));
         // A prévia só existe quando os dois estão escolhidos e o NC está na tabela.
         const previa = c.combatStyle && Array.isArray(c.focosAtributo) && MIN_POR_NC[c.nc] !== undefined
-          ? distribuirAtributos(c.nc, c.combatStyle as EstiloCombate, c.focosAtributo as AtributoLivre[])
+          ? distribuirAtributos(c.nc, c.combatStyle as EstiloCombate, focos, c.divisaoAtributo)
           : null;
         const atual = ['strength', 'dexterity', 'agility', 'intelligence', 'spirit', 'vigor', 'perception']
           .map(k => Number((c.stats as unknown as Record<string, unknown>)?.[k]) || 0);
@@ -458,13 +466,17 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           ? [previa.stats.strength, previa.stats.dexterity, previa.stats.agility,
             previa.stats.intelligence, previa.stats.spirit, previa.stats.vigor, previa.stats.perception].map(Number)
           : null;
-        return { c, previa, atual, prev, igual: !!prev && prev.every((v, i) => v === atual[i]) };
+        return { c, previa, atual, prev, divididos, igual: !!prev && prev.every((v, i) => v === atual[i]) };
       });
   }, [characters, perfilBusca, perfilFiltro]);
 
   const perfilCompletos = useMemo(() => characters.filter(c => c.combatStyle && Array.isArray(c.focosAtributo)).length, [characters]);
 
-  const gravaPerfil = useCallback(async (c: Character, mudanca: { combatStyle?: Character['combatStyle']; focosAtributo?: Character['focosAtributo'] }) => {
+  const gravaPerfil = useCallback(async (c: Character, mudanca: {
+    combatStyle?: Character['combatStyle'];
+    focosAtributo?: Character['focosAtributo'];
+    divisaoAtributo?: Character['divisaoAtributo'];
+  }) => {
     if (!c.docId) return;
     setPerfilSalvando(c.docId);
     setPerfilErro(null);
@@ -1066,12 +1078,12 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 <th className="py-2 pl-3 pr-3 text-left font-normal">Personagem</th>
                 <th className="py-2 pr-3 text-right font-normal w-12">NC</th>
                 <th className="py-2 pr-3 text-left font-normal w-52">Estilo</th>
-                <th className="py-2 pr-3 text-left font-normal">Foco da sobra — até 2</th>
+                <th className="py-2 pr-3 text-left font-normal">Foco da sobra e proporção do resto</th>
                 <th className="py-2 pr-3 text-left font-normal w-56">Prévia · F/D/A/I/E/V/P</th>
               </tr>
             </thead>
             <tbody>
-              {perfilLista.map(({ c, previa, atual, prev, igual }) => (
+              {perfilLista.map(({ c, previa, atual, prev, divididos, igual }) => (
                 <tr key={c.docId ?? c.name} className="border-t border-tech-border/40 hover:bg-tech-panel/40">
                   <td className="py-1.5 pl-3 pr-3">
                     <span className="text-white font-bold">{c.name}</span>
@@ -1096,45 +1108,110 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                   </td>
                   <td className="py-1.5 pr-3">
                     {/* Até dois focos. Clicar num marcado desmarca; com dois marcados, os outros
-                        ficam desabilitados — em vez de trocar o mais antigo em silêncio. */}
-                    <div className="flex flex-wrap items-center gap-1">
-                      {LIVRES.map(f => {
-                        const atuais = c.focosAtributo ?? [];
-                        const marcado = atuais.includes(f.key);
-                        const cheio = atuais.length >= MAX_FOCOS && !marcado;
-                        return (
+                        ficam desabilitados — em vez de trocar o mais antigo em silêncio. Quem não é
+                        foco cai na linha de proporção, logo abaixo. */}
+                    <div className="flex flex-col gap-1">
+                      <div className="flex flex-wrap items-center gap-1">
+                        {LIVRES.map(f => {
+                          const atuais = c.focosAtributo ?? [];
+                          const marcado = atuais.includes(f.key);
+                          const cheio = atuais.length >= MAX_FOCOS && !marcado;
+                          return (
+                            <button
+                              key={f.key}
+                              type="button"
+                              disabled={cheio}
+                              title={cheio ? `Já são ${MAX_FOCOS} focos — desmarque um para trocar` : undefined}
+                              onClick={() => gravaPerfil(c, {
+                                focosAtributo: marcado ? atuais.filter(k => k !== f.key) : [...atuais, f.key],
+                                // trocar de foco troca quem são os divididos, e a proporção gravada
+                                // era sobre os antigos: zerar é mais honesto que reaproveitar
+                                divisaoAtributo: {},
+                              })}
+                              className={`px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wide transition-all ${marcado
+                                ? 'bg-tech-primary text-black border-tech-primary'
+                                : cheio
+                                  ? 'border-tech-border/40 text-tech-primary/15 cursor-not-allowed'
+                                  : 'border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60'}`}
+                            >
+                              {f.label}
+                            </button>
+                          );
+                        })}
+                        {/* array vazio é uma escolha: "dividido". Ausente é pendente. */}
+                        {Array.isArray(c.focosAtributo) && c.focosAtributo.length === 0 && (
+                          <span className="text-[9px] uppercase tracking-widest text-tech-primary/50 ml-1">os três dividem</span>
+                        )}
+                        {!Array.isArray(c.focosAtributo) && (
                           <button
-                            key={f.key}
                             type="button"
-                            disabled={cheio}
-                            title={cheio ? `Já são ${MAX_FOCOS} focos — desmarque um para trocar` : undefined}
-                            onClick={() => gravaPerfil(c, {
-                              focosAtributo: marcado ? atuais.filter(k => k !== f.key) : [...atuais, f.key],
-                            })}
-                            className={`px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wide transition-all ${marcado
-                              ? 'bg-tech-primary text-black border-tech-primary'
-                              : cheio
-                                ? 'border-tech-border/40 text-tech-primary/15 cursor-not-allowed'
-                                : 'border-tech-border text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60'}`}
+                            onClick={() => gravaPerfil(c, { focosAtributo: [] })}
+                            className="px-2 py-0.5 border border-dashed border-tech-border text-[9px] font-bold uppercase tracking-wide text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60 ml-1"
                           >
-                            {f.label}
+                            dividido
                           </button>
-                        );
-                      })}
-                      {/* array vazio é uma escolha: "dividido". Ausente é pendente. */}
-                      {Array.isArray(c.focosAtributo) && c.focosAtributo.length === 0 && (
-                        <span className="text-[9px] uppercase tracking-widest text-tech-primary/50 ml-1">dividido</span>
+                        )}
+                        {perfilSalvando === c.docId && <Loader size={10} className="animate-spin text-tech-primary self-center" />}
+                      </div>
+
+                      {/* Proporção: aparece quando sobrou mais de um para repartir. Sem proporção
+                          gravada a divisão é em partes iguais — e partes iguais entre três não cabe
+                          em passos de 5%, então fica assim até o Pedro definir. */}
+                      {Array.isArray(c.focosAtributo) && divididos.length >= 2 && (
+                        temProporcao(c, divididos) ? (
+                          <div className="flex flex-wrap items-center gap-1.5">
+                            {divididos.map(k => {
+                              const curto = LIVRES.find(l => l.key === k)!.curto;
+                              const valor = c.divisaoAtributo?.[k] ?? 0;
+                              return (
+                                <span key={k} className="flex items-center border border-tech-border/60">
+                                  <button
+                                    type="button"
+                                    onClick={() => gravaPerfil(c, { divisaoAtributo: ajustaDivisao(divididos, c.divisaoAtributo, k, -1) })}
+                                    disabled={valor <= 0}
+                                    title={`-${PASSO_DIVISAO}%`}
+                                    className="px-1.5 text-[11px] leading-4 text-tech-primary/50 hover:text-tech-primary hover:bg-tech-panel disabled:text-tech-primary/15 disabled:hover:bg-transparent"
+                                  >
+                                    −
+                                  </button>
+                                  <span className="px-1 text-[9px] font-bold uppercase tracking-wide text-tech-primary/70 tabular-nums">
+                                    {curto} {valor}%
+                                  </span>
+                                  <button
+                                    type="button"
+                                    onClick={() => gravaPerfil(c, { divisaoAtributo: ajustaDivisao(divididos, c.divisaoAtributo, k, 1) })}
+                                    disabled={valor >= 100}
+                                    title={`+${PASSO_DIVISAO}%`}
+                                    className="px-1.5 text-[11px] leading-4 text-tech-primary/50 hover:text-tech-primary hover:bg-tech-panel disabled:text-tech-primary/15 disabled:hover:bg-transparent"
+                                  >
+                                    +
+                                  </button>
+                                </span>
+                              );
+                            })}
+                            <button
+                              type="button"
+                              onClick={() => gravaPerfil(c, { divisaoAtributo: {} })}
+                              className="text-[9px] uppercase tracking-widest text-tech-primary/30 hover:text-tech-primary underline decoration-dotted"
+                            >
+                              partes iguais
+                            </button>
+                          </div>
+                        ) : (
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span className="text-[9px] uppercase tracking-widest text-tech-primary/30">
+                              {divididos.map(k => LIVRES.find(l => l.key === k)!.curto).join(' e ')} em partes iguais
+                            </span>
+                            <button
+                              type="button"
+                              onClick={() => gravaPerfil(c, { divisaoAtributo: divisaoInicial(divididos) })}
+                              className="px-2 py-0.5 border border-dashed border-tech-border text-[9px] font-bold uppercase tracking-wide text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60"
+                            >
+                              definir proporção
+                            </button>
+                          </div>
+                        )
                       )}
-                      {!Array.isArray(c.focosAtributo) && (
-                        <button
-                          type="button"
-                          onClick={() => gravaPerfil(c, { focosAtributo: [] })}
-                          className="px-2 py-0.5 border border-dashed border-tech-border text-[9px] font-bold uppercase tracking-wide text-tech-primary/40 hover:text-tech-primary hover:border-tech-primary/60 ml-1"
-                        >
-                          dividido
-                        </button>
-                      )}
-                      {perfilSalvando === c.docId && <Loader size={10} className="animate-spin text-tech-primary self-center" />}
                     </div>
                   </td>
                   <td className="py-1.5 pr-3 whitespace-nowrap">
