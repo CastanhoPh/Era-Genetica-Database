@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch } from 'lucide-react';
+import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
@@ -15,6 +15,7 @@ const AddEquipmentModal = lazy(() => import('./components/AddEquipmentModal'));
 const LoginModal = lazy(() => import('./components/LoginModal'));
 const EquipmentModal = lazy(() => import('./components/EquipmentModal'));
 const Arsenal = lazy(() => import('./pages/Arsenal'));
+const Invocacoes = lazy(() => import('./pages/Invocacoes'));
 const AdminPanel = lazy(() => import('./pages/AdminPanel'));
 const ChecklistPanel = lazy(() => import('./pages/ChecklistPanel'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
@@ -29,7 +30,7 @@ export default function App() {
     // Aba ativa e slug (ficha aberta) vêm direto da URL — nada de estado próprio pra
     // duplicar o que o navegador já sabe. Isso é o que torna cada aba uma página de
     // verdade (compartilhável, com voltar/avançar funcionando).
-    const KNOWN_TABS = ['characters', 'arsenal', 'painel', 'checklist', 'galeria', 'arvore', 'login'] as const;
+    const KNOWN_TABS = ['characters', 'arsenal', 'invocacoes', 'painel', 'checklist', 'galeria', 'arvore', 'login'] as const;
     type MainTab = typeof KNOWN_TABS[number];
     const pathSegments = location.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean);
     const firstSegment = pathSegments[0] ?? '';
@@ -394,6 +395,16 @@ export default function App() {
                                 }`}
                         >
                             <Shield size={10} /> ARSENAL
+                        </button>
+                        <button
+                            onClick={() => navigate('/invocacoes')}
+                            title="Todas as invocações do RPG"
+                            className={`px-3 py-0.5 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center gap-1.5 ${activeMainTab === 'invocacoes'
+                                    ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]'
+                                    : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50 hover:text-tech-primary'
+                                }`}
+                        >
+                            <Sparkles size={10} /> INVOCAÇÕES
                         </button>
                         <button
                             onClick={() => navigate('/galeria')}
@@ -764,6 +775,8 @@ export default function App() {
                                 selectedOrigin={selectedOrigin}
                                 onSelectOrigin={handleSelectOrigin}
                             />
+                        ) : activeMainTab === 'invocacoes' ? (
+                            <Invocacoes characters={characters} onOpenCharacter={openCharacter} />
                         ) : activeMainTab === 'checklist' ? (
                             <ChecklistPanel canEdit={isChecklistEditor} displayName={user?.displayName ?? null} onRequestLogin={() => navigate('/login')} />
                         ) : activeMainTab === 'galeria' ? (

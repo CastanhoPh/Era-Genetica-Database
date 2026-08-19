@@ -110,6 +110,11 @@ export interface ChecklistItem {
    * Aceita nome de protótipo ou de pendente: quem ainda não tem ficha fica guardado aqui e passa a
    * aparecer no dia em que a ficha existir.
    */
+  /**
+  * Rank da invocação, na mesma escala do arsenal (Z, S++, S+, S, A+). Só faz sentido nos tipos
+  * `invocacao` e `capaInvocacao`, e o reconciliador leva ele para a ficha.
+  */
+   rank?: string;
   personagens?: string[];
   /**
    * Só para evento: o elenco está fechado, ou seja, todo mundo que aparece na imagem já foi
