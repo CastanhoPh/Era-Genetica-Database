@@ -1,24 +1,14 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Sparkles, Search, ChevronDown, Loader, AlertTriangle, X, ChevronLeft, ChevronRight, User } from 'lucide-react';
+import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
 import { formatImageUrl } from '../utils/formatters';
+import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
 
 interface InvocacoesProps {
   characters: Character[];
   onOpenCharacter: (char: Character) => void;
-}
-
-/** Uma invocação montada dos dois projetos: a capa é o card, a arte é o que abre. */
-interface Inv {
-  nome: string;
-  dono: string;
-  capaUrl?: string;
-  arteUrl?: string;
-  rank?: string;
-  placeholder: boolean;
-  pagina: number;
 }
 
 const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) => {
@@ -30,6 +20,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const [busca, setBusca] = useState('');
   const [dono, setDono] = useState('Todos');
   const [rank, setRank] = useState('Todos');
+  const [ordem, setOrdem] = useState('pagina');
 
   // Mesma fonte da Galeria: a lista de verdade é o checklist. A ficha carrega uma cópia
   // desnormalizada, mas ela só tem as invocações de quem TEM ficha — aqui a página é sobre
@@ -42,7 +33,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
     return () => unsubscribe();
   }, []);
 
-  const invocacoes = useMemo<Inv[]>(() => {
+  const invocacoes = useMemo<InvocacaoCardData[]>(() => {
     const capas = new Map(items.filter(i => i.type === 'capaInvocacao').map(i => [i.name, i]));
     return items
       .filter(i => i.type === 'invocacao')
@@ -65,27 +56,37 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
     () => Array.from(new Set(invocacoes.map(i => i.dono))).sort((a, b) => a.localeCompare(b)),
     [invocacoes],
   );
-  // O rank ainda não foi definido para nenhuma. Um filtro vazio só ocuparia espaço, então ele
-  // aparece no dia em que a primeira invocação tiver rank.
+  // Nenhuma invocação tem rank ainda. Um seletor vazio só ocuparia espaço, então ele aparece no dia
+  // em que a primeira tiver.
   const ranks = useMemo(() => {
     const set = new Set(invocacoes.map(i => i.rank).filter((r): r is string => !!r));
-    return Array.from(set).sort((a, b) =>
-      (CLASSIFICATION_PRIORITY[b] ?? 0) - (CLASSIFICATION_PRIORITY[a] ?? 0));
+    return Array.from(set).sort((a, b) => (CLASSIFICATION_PRIORITY[b] ?? 0) - (CLASSIFICATION_PRIORITY[a] ?? 0));
   }, [invocacoes]);
 
   const filtradas = useMemo(() => {
     const termo = busca.trim().toLowerCase();
-    return invocacoes.filter(i =>
+    const lista = invocacoes.filter(i =>
       (dono === 'Todos' || i.dono === dono)
       && (rank === 'Todos' || i.rank === rank)
       && (!termo || i.nome.toLowerCase().includes(termo) || i.dono.toLowerCase().includes(termo)));
-  }, [invocacoes, busca, dono, rank]);
+    if (ordem === 'alfabetico') return [...lista].sort((a, b) => a.nome.localeCompare(b.nome));
+    if (ordem === 'dono') return [...lista].sort((a, b) => a.dono.localeCompare(b.dono) || a.pagina - b.pagina);
+    if (ordem === 'rank') {
+      return [...lista].sort((a, b) =>
+        (CLASSIFICATION_PRIORITY[b.rank ?? ''] ?? -1) - (CLASSIFICATION_PRIORITY[a.rank ?? ''] ?? -1)
+        || a.pagina - b.pagina);
+    }
+    return lista;
+  }, [invocacoes, busca, dono, rank, ordem]);
 
-  // /invocacoes/<nome> abre a arte. Fica na URL para o link ser compartilhável, como no resto do site.
+  const filtrosAtivos = dono !== 'Todos' || rank !== 'Todos' || busca !== '';
+  const limpar = () => { setDono('Todos'); setRank('Todos'); setBusca(''); };
+
+  // /invocacoes/<nome> abre a arte cheia. Fica na URL para o link ser compartilhável.
   const slugAberto = location.pathname.replace(/^\/+|\/+$/g, '').split('/')[1];
   const aberta = slugAberto ? filtradas.find(i => slugify(i.nome) === decodeURIComponent(slugAberto)) : undefined;
   const idxAberta = aberta ? filtradas.indexOf(aberta) : -1;
-  const abre = (i: Inv) => navigate(`/invocacoes/${encodeURIComponent(slugify(i.nome))}`);
+  const abre = (i: InvocacaoCardData) => navigate(`/invocacoes/${encodeURIComponent(slugify(i.nome))}`);
   const fecha = () => navigate('/invocacoes');
   const anda = (passo: 1 | -1) => {
     if (idxAberta < 0) return;
@@ -106,171 +107,174 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
 
   /** Ficha do dono, quando existe: o vínculo é pelo primeiro nome, como no reconciliador. */
   const fichaDo = (primeiro: string) => characters.find(c => c.name.split(' ')[0] === primeiro);
-
-  const prontas = invocacoes.filter(i => !i.placeholder).length;
+  const fichaAberta = aberta ? fichaDo(aberta.dono) : undefined;
+  const pendentes = invocacoes.filter(i => i.placeholder).length;
 
   return (
-    <div className="animate-in fade-in duration-300">
-      <div className="mb-6">
-        <div className="flex items-end justify-between gap-4 flex-wrap border-l-4 border-tech-primary pl-4">
-          <div>
-            <h2 className="text-2xl sm:text-4xl font-black text-white uppercase tracking-wider flex items-center gap-3">
-              <Sparkles className="text-tech-primary" size={26} />
-              Invocações
-            </h2>
-            <p className="text-[10px] text-tech-primary/50 uppercase tracking-widest mt-1">
-              {invocacoes.length} invocações · {donos.length} donos
-              {prontas < invocacoes.length && ` · ${invocacoes.length - prontas} com arte pendente`}
-            </p>
-          </div>
-        </div>
-      </div>
+    <>
+      <div className="animate-fade-in-up">
 
-      <div className="flex flex-wrap gap-3 mb-6">
-        <div className="relative flex-1 min-w-[220px]">
-          <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-tech-primary/40" />
-          <input
-            type="text"
-            value={busca}
-            onChange={e => setBusca(e.target.value)}
-            placeholder="Buscar invocação ou dono"
-            className="w-full bg-black border border-tech-border pl-9 pr-3 py-2 text-[12px] text-tech-primary placeholder:text-tech-primary/25 outline-none focus:border-tech-primary"
-          />
-        </div>
-        <div className="relative">
-          <select
-            value={dono}
-            onChange={e => setDono(e.target.value)}
-            className="appearance-none bg-black border border-tech-border pl-3 pr-9 py-2 text-[12px] text-tech-primary outline-none focus:border-tech-primary cursor-pointer"
-          >
-            <option value="Todos">Todos os donos</option>
-            {donos.map(d => <option key={d} value={d}>{d}</option>)}
-          </select>
-          <ChevronDown size={13} className="absolute right-3 top-1/2 -translate-y-1/2 text-tech-primary/40 pointer-events-none" />
-        </div>
-        {ranks.length > 0 && (
-          <div className="relative">
-            <select
-              value={rank}
-              onChange={e => setRank(e.target.value)}
-              className="appearance-none bg-black border border-tech-border pl-3 pr-9 py-2 text-[12px] text-tech-primary outline-none focus:border-tech-primary cursor-pointer"
-            >
-              <option value="Todos">Todos os ranks</option>
-              {ranks.map(r => <option key={r} value={r}>{r}</option>)}
-            </select>
-            <ChevronDown size={13} className="absolute right-3 top-1/2 -translate-y-1/2 text-tech-primary/40 pointer-events-none" />
+        <header className="mb-8 pl-6 py-2 relative group cursor-default">
+          <div className="absolute left-0 top-0 bottom-0 w-1 bg-tech-primary group-hover:h-full transition-all duration-500 h-1/2" />
+          <div className="flex items-center gap-3 mb-2">
+            <Sparkles size={28} className="text-tech-primary" />
+            <h1 className="text-3xl md:text-5xl font-black text-white tracking-tighter uppercase group-hover:animate-glitch relative inline-block">
+              INVOCAÇÕES<span className="text-tech-primary">_DB</span>
+            </h1>
           </div>
+          <p className="text-tech-primary/80 text-base flex items-center gap-2">
+            <Terminal size={14} />
+            <span className="typing-animation border-r-2 border-tech-primary pr-1 animate-pulse">CRIATURAS INVOCÁVEIS E SEUS CONTRATOS</span>
+          </p>
+        </header>
+
+        {/* Barra de controles */}
+        <div className="bg-tech-panel/80 backdrop-blur-sm border border-tech-border p-4 mb-8 flex flex-col gap-4 clip-corner shadow-[0_0_20px_rgba(0,255,65,0.05)] animate-fade-in-up" style={{ animationDelay: '100ms' }}>
+
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            {/* Um chip por dono. São 20, então eles rolam na horizontal em vez de quebrar a barra. */}
+            <div className="flex flex-nowrap gap-1.5 min-w-0 overflow-x-auto">
+              {['Todos', ...donos].map(d => (
+                <button
+                  key={d}
+                  onClick={() => setDono(d)}
+                  className={`shrink-0 whitespace-nowrap px-2.5 py-1.5 border uppercase text-[11px] font-bold tracking-wider transition-all duration-300 clip-corner-sm
+                    ${dono === d
+                      ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_15px_rgba(0,255,65,0.4)] translate-y-[-2px]'
+                      : 'bg-transparent text-tech-primary border-tech-border hover:border-tech-primary hover:text-white hover:bg-tech-primary/10'}`}
+                >
+                  {d}
+                </button>
+              ))}
+            </div>
+
+            <div className="flex gap-4 w-full md:w-auto">
+              <div className="flex-1 md:w-80 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
+                <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
+                <input
+                  type="text"
+                  placeholder="BUSCAR_INVOCAÇÃO..."
+                  value={busca}
+                  onChange={e => setBusca(e.target.value)}
+                  className="bg-transparent border-none outline-none text-tech-primary w-full ml-2 placeholder:text-tech-dim uppercase text-xs"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 border-t border-tech-border/50 pt-4 mt-2">
+            {ranks.length > 0 && (
+              <div className="flex flex-col gap-1">
+                <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
+                  <Shield size={10} /> RANK
+                </label>
+                <div className="relative group">
+                  <select
+                    value={rank}
+                    onChange={e => setRank(e.target.value)}
+                    className="w-full bg-black border border-tech-border text-tech-primary text-xs py-2 pl-2 pr-8 outline-none focus:border-tech-primary appearance-none uppercase cursor-pointer hover:bg-tech-dim/20 transition-all"
+                  >
+                    <option value="Todos" className="bg-black">TODOS</option>
+                    {ranks.map(r => <option key={r} value={r} className="bg-black">{r}</option>)}
+                  </select>
+                  <ChevronDown className="absolute right-2 top-2.5 text-tech-dim group-hover:text-tech-primary transition-colors pointer-events-none" size={14} />
+                </div>
+              </div>
+            )}
+
+            <div className="flex flex-col gap-1">
+              <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
+                <User size={10} /> DONO
+              </label>
+              <div className="relative group">
+                <select
+                  value={dono}
+                  onChange={e => setDono(e.target.value)}
+                  className="w-full bg-black border border-tech-border text-tech-primary text-xs py-2 pl-2 pr-8 outline-none focus:border-tech-primary appearance-none uppercase cursor-pointer hover:bg-tech-dim/20 transition-all"
+                >
+                  <option value="Todos" className="bg-black">TODOS</option>
+                  {donos.map(d => <option key={d} value={d} className="bg-black">{d.toUpperCase()}</option>)}
+                </select>
+                <ChevronDown className="absolute right-2 top-2.5 text-tech-dim group-hover:text-tech-primary transition-colors pointer-events-none" size={14} />
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-1">
+              <label className="text-[10px] text-tech-accent font-bold uppercase flex items-center gap-1">
+                <Database size={10} /> CLASSIFICAR
+              </label>
+              <div className="relative group">
+                <select
+                  value={ordem}
+                  onChange={e => setOrdem(e.target.value)}
+                  className="w-full bg-black border border-tech-accent/30 text-tech-accent text-xs py-2 pl-2 pr-8 outline-none focus:border-tech-accent appearance-none uppercase cursor-pointer hover:bg-tech-accent/5 transition-all"
+                >
+                  <option value="pagina" className="bg-black">PÁGINA (PADRÃO)</option>
+                  <option value="dono" className="bg-black">DONO (A-Z)</option>
+                  <option value="alfabetico" className="bg-black">ALFABÉTICO (A-Z)</option>
+                  {ranks.length > 0 && <option value="rank" className="bg-black">RANK (Z &gt; F)</option>}
+                </select>
+                <ChevronDown className="absolute right-2 top-2.5 text-tech-accent/60 group-hover:text-tech-accent transition-colors pointer-events-none" size={14} />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-4 text-xs text-tech-dim flex items-center gap-2 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
+          <Sparkles size={12} />
+          <span>INVOCAÇÕES ENCONTRADAS: {filtradas.length}</span>
+          {pendentes > 0 && <span className="text-tech-primary/30">· {pendentes} COM ARTE PENDENTE</span>}
+          <div className="h-px bg-tech-border flex-1" />
+          {filtrosAtivos && (
+            <button onClick={limpar} className="text-[10px] text-red-500 hover:text-red-400 uppercase font-bold tracking-wider border border-transparent hover:border-red-900/50 px-2 transition-colors">
+              [Limpar Filtros]
+            </button>
+          )}
+        </div>
+
+        {loading ? (
+          <div className="flex flex-col items-center justify-center py-24 text-tech-primary animate-pulse">
+            <Loader size={32} className="animate-spin mb-4" />
+            <span className="text-xs uppercase tracking-widest">Carregando invocações...</span>
+            <div className="w-48 h-1 bg-tech-dim mt-4 overflow-hidden relative">
+              <div className="absolute inset-0 bg-tech-primary animate-[scanline_1.5s_ease-in-out_infinite]" />
+            </div>
+          </div>
+        ) : erro ? (
+          <div className="border border-orange-400/50 bg-orange-400/5 p-5 flex items-center gap-3">
+            <AlertTriangle size={16} className="text-orange-400" />
+            <span className="text-[12px] text-orange-400">{erro}</span>
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {filtradas.map((inv, index) => (
+                <InvocacaoCard key={inv.nome} inv={inv} index={index} onClick={() => abre(inv)} />
+              ))}
+            </div>
+
+            {filtradas.length === 0 && (
+              <div className="border border-tech-border bg-tech-panel/20 py-16 text-center">
+                <Sparkles size={24} className="mx-auto text-tech-primary/20 mb-3" />
+                <p className="text-[11px] uppercase tracking-widest text-tech-primary/30">Nenhuma invocação com esse filtro.</p>
+              </div>
+            )}
+          </>
         )}
       </div>
 
-      {loading ? (
-        <div className="py-20 flex flex-col items-center gap-3">
-          <Loader size={22} className="animate-spin text-tech-primary" />
-          <span className="text-[10px] uppercase tracking-widest text-tech-primary/40">carregando invocações</span>
-        </div>
-      ) : erro ? (
-        <div className="border border-orange-400/50 bg-orange-400/5 p-5 flex items-center gap-3">
-          <AlertTriangle size={16} className="text-orange-400" />
-          <span className="text-[12px] text-orange-400">{erro}</span>
-        </div>
-      ) : (
-        <>
-          {/* 4:3 é o formato real das artes; quadrado cortaria um quarto do desenho */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            {filtradas.map(inv => {
-              const ficha = fichaDo(inv.dono);
-              return (
-                <div key={inv.nome} className="group relative">
-                  <button
-                    onClick={() => abre(inv)}
-                    className="relative w-full aspect-[4/3] border border-tech-border bg-tech-panel/40 overflow-hidden hover:border-tech-accent transition-all duration-300 text-left"
-                  >
-                    <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
-
-                    {inv.rank && (
-                      <div className="absolute top-2 left-2 z-30">
-                        <div className="bg-tech-accent text-black text-[8px] font-black px-1.5 py-0.5 clip-corner-sm shadow-[0_0_10px_rgba(255,176,0,0.3)] border-r-2 border-black/20">
-                          {inv.rank}
-                        </div>
-                      </div>
-                    )}
-
-                    {inv.capaUrl && !inv.placeholder ? (
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        src={formatImageUrl(inv.capaUrl)}
-                        alt={inv.nome}
-                        className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
-                      />
-                    ) : (
-                      /* placeholder é página em branco — mostrar seria fingir que a arte existe */
-                      <div className="w-full h-full flex flex-col items-center justify-center gap-1.5 text-tech-dim">
-                        <Sparkles size={26} className="opacity-20" />
-                        <span className="text-[8px] uppercase tracking-widest text-tech-primary/25">arte pendente</span>
-                      </div>
-                    )}
-
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent pointer-events-none z-20" />
-                    <span className="absolute bottom-1 left-1.5 right-1.5 text-[11px] text-white leading-tight line-clamp-2 pointer-events-none z-20">{inv.nome}</span>
-                  </button>
-
-                  {/* o dono fica FORA do botão: ele é um link próprio para a ficha, e um botão
-                      dentro de outro botão não é clicável nem navegável por teclado */}
-                  {ficha ? (
-                    <button
-                      onClick={() => onOpenCharacter(ficha)}
-                      title={`Abrir a ficha de ${ficha.name}`}
-                      className="mt-1 flex items-center gap-1 text-[9px] uppercase tracking-widest text-tech-primary/40 hover:text-tech-primary transition-colors"
-                    >
-                      <User size={9} /> {inv.dono}
-                    </button>
-                  ) : (
-                    <span
-                      title="Este dono ainda não tem ficha"
-                      className="mt-1 flex items-center gap-1 text-[9px] uppercase tracking-widest text-tech-primary/25"
-                    >
-                      <User size={9} /> {inv.dono}
-                    </span>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-
-          {filtradas.length === 0 && (
-            <div className="border border-tech-border bg-tech-panel/20 py-14 text-center">
-              <Sparkles size={22} className="mx-auto text-tech-primary/20 mb-2" />
-              <p className="text-[10px] uppercase tracking-widest text-tech-primary/30">Nenhuma invocação com esse filtro.</p>
-            </div>
-          )}
-        </>
-      )}
-
-      {/* ---- a arte cheia ---- */}
+      {/* a arte cheia */}
       {aberta && (
         <div className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4" onClick={fecha}>
-          <button
-            onClick={fecha}
-            title="Fechar"
-            className="absolute top-4 right-4 text-tech-primary/60 hover:text-tech-primary transition-colors z-10"
-          >
+          <button onClick={fecha} title="Fechar" className="absolute top-4 right-4 text-tech-primary/60 hover:text-tech-primary transition-colors z-10">
             <X size={22} />
           </button>
           {filtradas.length > 1 && (
             <>
-              <button
-                onClick={e => { e.stopPropagation(); anda(-1); }}
-                title="Anterior"
-                className="absolute left-3 sm:left-6 text-tech-primary/40 hover:text-tech-primary transition-colors z-10"
-              >
+              <button onClick={e => { e.stopPropagation(); anda(-1); }} title="Anterior" className="absolute left-3 sm:left-6 text-tech-primary/40 hover:text-tech-primary transition-colors z-10">
                 <ChevronLeft size={30} />
               </button>
-              <button
-                onClick={e => { e.stopPropagation(); anda(1); }}
-                title="Próxima"
-                className="absolute right-3 sm:right-6 text-tech-primary/40 hover:text-tech-primary transition-colors z-10"
-              >
+              <button onClick={e => { e.stopPropagation(); anda(1); }} title="Próxima" className="absolute right-3 sm:right-6 text-tech-primary/40 hover:text-tech-primary transition-colors z-10">
                 <ChevronRight size={30} />
               </button>
             </>
@@ -279,7 +283,19 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
             <div className="flex items-baseline gap-3 flex-wrap mb-3">
               <h3 className="text-xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
               {aberta.rank && <span className="bg-tech-accent text-black text-[9px] font-black px-2 py-0.5 clip-corner-sm">{aberta.rank}</span>}
-              <span className="text-[10px] uppercase tracking-widest text-tech-primary/40">de {aberta.dono}</span>
+              {fichaAberta ? (
+                <button
+                  onClick={() => onOpenCharacter(fichaAberta)}
+                  title={`Abrir a ficha de ${fichaAberta.name}`}
+                  className="text-[10px] uppercase tracking-widest text-tech-primary/50 hover:text-tech-primary transition-colors flex items-center gap-1"
+                >
+                  <User size={10} /> de {aberta.dono}
+                </button>
+              ) : (
+                <span title="Este dono ainda não tem ficha" className="text-[10px] uppercase tracking-widest text-tech-primary/25 flex items-center gap-1">
+                  <User size={10} /> de {aberta.dono}
+                </span>
+              )}
               <span className="text-[10px] font-mono text-tech-primary/25 ml-auto">{idxAberta + 1} / {filtradas.length}</span>
             </div>
             {aberta.arteUrl && !aberta.placeholder ? (
@@ -293,7 +309,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
