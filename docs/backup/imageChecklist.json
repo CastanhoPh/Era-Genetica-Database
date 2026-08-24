@@ -1008,7 +1008,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Najin e Takeshi abrem a fechadura",
-    "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
     "order": 50078,
@@ -1016,7 +1015,9 @@
       "Takeshi Hatake",
       "Najin Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__najin-e-takeshi-acham-uma-chave-no-chao",
