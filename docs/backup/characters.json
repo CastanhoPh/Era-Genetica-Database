@@ -209,39 +209,27 @@
     "invocacoes": [
       {
         "nome": "Madeiroso",
-        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMadeiroso.png?alt=media&v=1787163036172568",
-        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FMadeiroso.png?alt=media&v=1787163035461735",
         "rank": "S+",
         "nature": "Mokuton",
-        "village": "Konohagakure",
-        "placeholder": true
+        "village": "Konohagakure"
       },
       {
         "nome": "Tronquinho",
-        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTronquinho.png?alt=media&v=1787163037611908",
-        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FTronquinho.png?alt=media&v=1787163036892294",
         "rank": "S+",
         "nature": "Mokuton",
-        "village": "Konohagakure",
-        "placeholder": true
+        "village": "Konohagakure"
       },
       {
         "nome": "Hash-hash",
-        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHash-hash.png?alt=media&v=1787163039033762",
-        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787163038316215",
         "rank": "S+",
         "nature": "Mokuton",
-        "village": "Konohagakure",
-        "placeholder": true
+        "village": "Konohagakure"
       },
       {
         "nome": "Sakura",
-        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSakura.png?alt=media&v=1787163040436652",
-        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FSakura.png?alt=media&v=1787163039733868",
         "rank": "S+",
         "nature": "Mokuton",
-        "village": "Konohagakure",
-        "placeholder": true
+        "village": "Konohagakure"
       }
     ]
   },

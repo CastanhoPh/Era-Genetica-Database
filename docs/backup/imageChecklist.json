@@ -3243,9 +3243,6 @@
     "arco": "Hash-hash",
     "name": "Hash-hash",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHash-hash.png?alt=media&v=1787163039033762",
-    "placeholder": true,
     "order": 60017,
     "temporada": "Airi"
   },
@@ -3475,9 +3472,6 @@
     "arco": "Sakura",
     "name": "Sakura",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FSakura.png?alt=media&v=1787163039733868",
-    "placeholder": true,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
@@ -4121,9 +4115,6 @@
     "arco": "Tronquinho",
     "name": "Tronquinho",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTronquinho.png?alt=media&v=1787163037611908",
-    "placeholder": true,
     "order": 60016,
     "temporada": "Airi"
   },
@@ -5251,9 +5242,6 @@
     "arco": "Madeiroso",
     "name": "Madeiroso",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMadeiroso.png?alt=media&v=1787163036172568",
-    "placeholder": true,
     "order": 60015,
     "temporada": "Airi"
   },
@@ -6074,9 +6062,6 @@
     "arco": "Sakura",
     "name": "Sakura",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSakura.png?alt=media&v=1787163040436652",
-    "placeholder": true,
     "order": 60018,
     "temporada": "Airi"
   },
@@ -6360,9 +6345,6 @@
     "arco": "Tronquinho",
     "name": "Tronquinho",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FTronquinho.png?alt=media&v=1787163036892294",
-    "placeholder": true,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
@@ -7170,9 +7152,6 @@
     "arco": "Madeiroso",
     "name": "Madeiroso",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FMadeiroso.png?alt=media&v=1787163035461735",
-    "placeholder": true,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
@@ -7695,7 +7674,6 @@
   },
   {
     "__docId": "prologo__treinamentos__najin-treinando-sozinho",
-    "name": "Najin treinando sozinho",
     "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
@@ -7704,7 +7682,8 @@
     "personagens": [
       "Najin Hatake"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "name": "Najin treinando sozinho e Raikun observando de Longe"
   },
   {
     "__docId": "prologo__treinamentos__nishinoya-dando-aula",
@@ -7764,7 +7743,6 @@
     "__docId": "prologo__treinamentos__takeshi-treinando-sozinho",
     "done": false,
     "placeholder": false,
-    "name": "Takeshi treinando com Ryuta",
     "arco": "Academia Ninja",
     "temporada": "Clássico",
     "order": 50035,
@@ -7772,7 +7750,8 @@
       "Takeshi Hatake",
       "Ryuta Hyuga"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "name": "Takeshi treinando com Tobirama"
   },
   {
     "__docId": "Ps2OJxfNLqwpw5PXUHD2",
@@ -8459,9 +8438,6 @@
     "arco": "Hash-hash",
     "name": "Hash-hash",
     "done": false,
-    "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787163038316215",
-    "placeholder": true,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
