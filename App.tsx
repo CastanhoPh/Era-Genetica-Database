@@ -538,11 +538,11 @@ export default function App() {
                         <header className="mb-12 pl-6 py-2 relative group cursor-default">
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-tech-primary group-hover:h-full transition-all duration-500 h-1/2"></div>
 
-                            <h1 className="text-4xl md:text-6xl font-black text-white mb-2 tracking-tighter uppercase group-hover:animate-glitch relative inline-block">
+                            <h1 className="text-3xl md:text-5xl font-black text-white mb-2 tracking-tighter uppercase group-hover:animate-glitch relative inline-block">
                                 ERA<span className="text-tech-primary">_GENÉTICA</span>
                             </h1>
-                            <p className="text-tech-primary/80 text-lg flex items-center gap-2">
-                                <Terminal size={16} />
+                            <p className="text-tech-primary/80 text-base flex items-center gap-2">
+                                <Terminal size={14} />
                                 <span className="typing-animation border-r-2 border-tech-primary pr-1 animate-pulse">ACESSO AO BANCO DE DADOS GENÉTICO</span>
                             </p>
                         </header>
