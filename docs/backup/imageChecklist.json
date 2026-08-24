@@ -7633,7 +7633,6 @@
   {
     "__docId": "prologo__treinamentos__kaito-treinando-com-iwaki",
     "name": "Kaito treinando com Iwaki",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7642,7 +7641,9 @@
       "Kaito Senju",
       "Iwaki Haruno"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__treinamentos__katsumi-treinando-com-renji",
