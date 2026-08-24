@@ -967,7 +967,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Oddy é levado pelo Beta",
-    "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
     "personagens": [
@@ -977,7 +976,9 @@
       "Oddy Uchiha",
       "Beta"
     ],
-    "order": 50070
+    "order": 50070,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__oddy-gritando",
