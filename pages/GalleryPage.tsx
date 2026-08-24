@@ -5,6 +5,14 @@ import { subscribeChecklist, slugify } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem } from '../types';
 
+/**
+ * Os dois tipos que pertencem a um personagem em vez de a uma temporada. Eles compartilham a forma
+ * dos dados — `temporada` é o personagem e `arco` é a fase ou o modo — e por isso compartilham a
+ * URL de dois níveis `/galeria/<personagem>/<fase-ou-modo>`, o agrupamento e a grade retrato.
+ */
+const TIPOS_DO_PERSONAGEM = ['timeline', 'transformacao'];
+const ehDoPersonagem = (t?: string) => TIPOS_DO_PERSONAGEM.includes(t ?? 'evento');
+
 const GalleryPage: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -46,8 +54,16 @@ const GalleryPage: React.FC = () => {
 
   const withImages = useMemo(() => items.filter(i => !!i.imageUrl), [items]);
   const typedWithImages = useMemo(() => {
-    const byType = activeType === 'geral' ? withImages : withImages.filter(i => (i.type ?? 'evento') === activeType);
+    // A aba Linha do Tempo traz os Modos e Transformações junto, porque os dois são do mesmo
+    // personagem e é onde a pessoa espera ver o boneco dele inteiro. Dentro do grupo eles
+    // aparecem separados por rótulo, não misturados.
+    const byType = activeType === 'geral'
+      ? withImages
+      : activeType === 'timeline'
+        ? withImages.filter(i => ehDoPersonagem(i.type))
+        : withImages.filter(i => (i.type ?? 'evento') === activeType);
     if (activeType !== 'timeline' || !hideAmbu) return byType;
+    // Ambu é fase da linha do tempo; nenhum modo se chama assim, então o filtro não os alcança
     return byType.filter(i => i.arco !== 'Ambu');
   }, [withImages, activeType, hideAmbu]);
   const groups = useMemo(() => groupItems(typedWithImages), [typedWithImages]);
@@ -101,7 +117,7 @@ const GalleryPage: React.FC = () => {
   // o de cima limpa os accordions, este aqui reaplica a pasta certa por cima.
   useEffect(() => {
     if (loading || !personagemSlugFromUrl) return;
-    const timelineItems = items.filter(i => i.type === 'timeline' && i.imageUrl);
+    const timelineItems = items.filter(i => ehDoPersonagem(i.type) && i.imageUrl);
     const personagemItem = timelineItems.find(i => slugify(i.temporada) === personagemSlugFromUrl);
     if (!personagemItem) return;
     if (activeType !== 'timeline') setActiveType('timeline');
@@ -139,7 +155,7 @@ const GalleryPage: React.FC = () => {
   }, [loading, items, personagemSlugFromUrl, faseSlugFromUrl, eventoSeg3FromUrl, eventoSeg4FromUrl, activeType]);
 
   const subtitle = activeType === 'timeline'
-    ? 'Todas as imagens da linha do tempo já produzidas, por personagem'
+    ? 'Linha do tempo e modos de cada personagem, já produzidos'
     : activeType === 'geral'
       ? 'Todas as imagens de Eventos e Linha do Tempo, juntas'
       : 'Todas as imagens já produzidas, por temporada/arco';
@@ -174,7 +190,9 @@ const GalleryPage: React.FC = () => {
 
   const openLightbox = (item: ChecklistItem) => {
     setLightbox(item);
-    if (item.type === 'timeline') {
+    // O modo tem a mesma forma da fase — personagem + nome —, então usa a URL de dois níveis. Com a
+    // de evento, de três, o link não reabriria a imagem e o "fechar" cairia num caminho morto.
+    if (ehDoPersonagem(item.type)) {
       navigate(`/galeria/${encodeURIComponent(slugify(item.temporada))}/${encodeURIComponent(slugify(item.arco))}`);
     } else {
       navigate(eventoItemPath(item));
@@ -183,7 +201,7 @@ const GalleryPage: React.FC = () => {
   const closeLightbox = () => {
     setLightbox(null);
     if (!lightbox) return;
-    if (lightbox.type === 'timeline') {
+    if (ehDoPersonagem(lightbox.type)) {
       navigate(`/galeria/${encodeURIComponent(slugify(lightbox.temporada))}`);
     } else {
       navigate(eventoFolderPath(lightbox));
@@ -359,7 +377,9 @@ const GalleryPage: React.FC = () => {
           {filteredGroups.map(group => {
             const isSearching = searchTerm.trim().length > 0;
             const temporadaOpen = isSearching || expandedTemporadas.has(group.temporada);
-            const groupIsTimeline = group.items[0]?.type === 'timeline';
+            // Grupo de personagem: linha do tempo e modos entram aqui, e nenhum dos dois tem
+            // arco/subarco pra navegar — a fase e o modo já SÃO a imagem.
+            const groupIsTimeline = ehDoPersonagem(group.items[0]?.type);
             const toggleGroup = () => {
               const wasOpen = expandedTemporadas.has(group.temporada);
               toggleKey(expandedTemporadas, setExpandedTemporadas, group.temporada);
@@ -387,13 +407,35 @@ const GalleryPage: React.FC = () => {
 
                 {temporadaOpen && (
                   <div className="border-t border-tech-border px-3 py-3 space-y-2">
-                    {groupIsTimeline ? (
-                      // Linha do Tempo não tem arco/subarco: cada fase já é a imagem, mostra tudo
-                      // direto numa grade só, sem o nível extra de accordion.
-                      <div className={timelineGridClass}>
-                        {group.arcos.flatMap(a => a.subarcos.flatMap(s => s.items)).map(item => renderTile(item, timelineTileClass))}
-                      </div>
-                    ) : group.arcos.map(arco => {
+                    {groupIsTimeline ? (() => {
+                      // Nem fase nem modo tem arco/subarco pra navegar, então não existe accordion
+                      // interno: é grade direta. O que existe é a separação por tipo, com rótulo —
+                      // "Modos e Transformações" só aparece em quem tem.
+                      const todos = group.arcos.flatMap(a => a.subarcos.flatMap(s => s.items));
+                      const linha = todos.filter(i => (i.type ?? 'evento') === 'timeline');
+                      const modos = todos.filter(i => i.type === 'transformacao');
+                      const secao = (rotulo: string, lista: typeof todos) => (
+                        <div>
+                          <div className="text-xs font-black text-tech-primary/50 uppercase tracking-widest mb-2 flex items-center gap-2">
+                            <span>{rotulo}</span>
+                            <span className="text-tech-primary/25">{lista.length}</span>
+                            <span className="flex-1 h-px bg-tech-border/60" />
+                          </div>
+                          <div className={timelineGridClass}>
+                            {lista.map(item => renderTile(item, timelineTileClass))}
+                          </div>
+                        </div>
+                      );
+                      // Só um dos dois? Sem rótulo: ele não separa nada de nada.
+                      if (!modos.length) return <div className={timelineGridClass}>{linha.map(item => renderTile(item, timelineTileClass))}</div>;
+                      if (!linha.length) return secao('Modos e Transformações', modos);
+                      return (
+                        <div className="space-y-5">
+                          {secao('Linha do Tempo', linha)}
+                          {secao('Modos e Transformações', modos)}
+                        </div>
+                      );
+                    })() : group.arcos.map(arco => {
                       const arcoKey = `${group.temporada}::${arco.arco}`;
                       const arcoOpen = isSearching || expandedArcos.has(arcoKey);
                       const toggleArco = () => {
