@@ -7662,7 +7662,6 @@
   {
     "__docId": "prologo__treinamentos__nagare-treinando-com-yumi",
     "name": "Nagare treinando com Yumi",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7671,7 +7670,9 @@
       "Nagare Uzumaki",
       "Yumi Uzumaki"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__treinamentos__najin-treinando-sozinho",
