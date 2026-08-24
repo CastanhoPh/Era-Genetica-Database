@@ -1088,7 +1088,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Shoei encontra Najin e Takeshi",
-    "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
     "order": 50082,
@@ -1096,7 +1095,9 @@
       "Takeshi Hatake",
       "Najin Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__shoei-najin-e-takeshi-investigando-a-masmorra",
@@ -1118,7 +1119,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Shoei usa seu chakra para quebrar a porta",
-    "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
     "order": 50081,
@@ -1126,7 +1126,9 @@
       "Takeshi Hatake",
       "Najin Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__torturas__beta-jogando-najin-e-takeshi-no-poco",
