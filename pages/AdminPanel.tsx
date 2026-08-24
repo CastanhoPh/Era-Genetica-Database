@@ -375,9 +375,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         // identifica a linha: sem "Takeshi Hatake" na frente, as 292 fases da Linha do Tempo viram
         // "Clássico" e "1ª Temporada" repetidos, sem dizer de quem são. A capa repete o nome do
         // personagem nos três campos, então ali os dois formatos dão o mesmo texto.
-        titulo: p.tipo === 'evento'
+        titulo: p.tipo === 'evento' || p.tipo === 'capaInvocacao'
           ? i.name
-          : p.tipo === 'capa' || p.tipo === 'capaInvocacao'
+          : p.tipo === 'capa'
             ? i.temporada
             : `${i.temporada} - ${i.arco}`,
         // texto de busca: tudo que identifica o item, inclusive o que a coluna deixou de mostrar

@@ -70,8 +70,6 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const isInvocacao = activeType === 'invocacao';
   const isCapaInvocacao = activeType === 'capaInvocacao';
   const isGeral = activeType === 'geral';
-  // As duas capas se comportam igual no formulário: o nome É o item, não existe fase separada.
-  const capaLike = isCapa || isCapaInvocacao;
   // Tipo usado ao criar um item novo — a aba "Geral" mistura os outros tipos, então criar
   // por lá sempre cai em "evento" (comportamento já existente, só nomeado agora).
   const currentType: ChecklistItem['type'] = isTimeline ? 'timeline'
@@ -129,14 +127,14 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
       }
       : isCapaInvocacao
       ? {
-        subtitle: 'Marque aqui quais invocações já têm capa',
-        temporadaLabel: 'Invocação',
-        arcoLabel: '',
-        newTemporadaBtn: 'Nova Invocação',
-        temporadaPlaceholder: 'Nome da invocação',
-        firstArcoPlaceholder: '',
-        arcoPlaceholder: '',
-        addArcoTitle: '',
+        subtitle: 'Marque aqui quais invocações já têm capa, agrupadas pelo dono',
+        temporadaLabel: 'Dono',
+        arcoLabel: 'Invocação',
+        newTemporadaBtn: 'Novo Dono',
+        temporadaPlaceholder: 'Primeiro nome do dono',
+        firstArcoPlaceholder: 'Nome da primeira invocação',
+        arcoPlaceholder: 'Nome da invocação',
+        addArcoTitle: 'Adicionar capa de invocação',
         emptyChecklist: 'Nenhuma capa de invocação cadastrada ainda.',
       }
       : isGeral
@@ -319,9 +317,10 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
 
   const confirmAddTemporada = async () => {
     const temporada = newTemporadaFields.temporada.trim();
-    // Nas duas Capas não existe fase/item separado: o nome já É o item (arco = name = temporada).
-    const arco = capaLike ? temporada : newTemporadaFields.arco.trim();
-    const name = capaLike ? temporada : newTemporadaFields.item.trim();
+    // Na capa de PERSONAGEM não existe fase separada: o personagem já É o item. A capa de invocação
+    // não entra aqui — ela agrupa por dono, como a invocação.
+    const arco = isCapa ? temporada : newTemporadaFields.arco.trim();
+    const name = isCapa ? temporada : newTemporadaFields.item.trim();
     if (!temporada || !arco || !name) return;
     // Faixa do tipo como piso: sem isso um personagem novo na Linha do Tempo pegaria o order
     // máximo GLOBAL (hoje na faixa de Eventos, a última) e cairia no projeto errado. O piso
@@ -581,14 +580,14 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
             onChange={e => setNewTemporadaFields(f => ({ ...f, temporada: e.target.value }))}
             className="bg-black border border-tech-border text-white text-sm px-2 py-1.5 flex-1 outline-none focus:border-tech-accent"
           />
-          {!capaLike && (
+          {!isCapa && (
             <input
               type="text" placeholder={labels.firstArcoPlaceholder} value={newTemporadaFields.arco}
               onChange={e => setNewTemporadaFields(f => ({ ...f, arco: e.target.value }))}
               className="bg-black border border-tech-border text-white text-sm px-2 py-1.5 flex-1 outline-none focus:border-tech-accent"
             />
           )}
-          {!capaLike && (
+          {!isCapa && (
             <input
               type="text" placeholder="Nome do primeiro item" value={newTemporadaFields.item}
               onChange={e => setNewTemporadaFields(f => ({ ...f, item: e.target.value }))}
@@ -646,7 +645,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
                     <span className="text-white font-black uppercase tracking-wide truncate text-lg">{group.temporada}</span>
                   </button>
                   <div className="flex items-center gap-3 shrink-0">
-                    {canEdit && editMode && !isGeral && !capaLike && (
+                    {canEdit && editMode && !isGeral && !isCapa && (
                       <button type="button" onClick={() => openAddArco(group.temporada)} title={labels.addArcoTitle} className="p-1 border border-tech-accent/40 text-tech-accent hover:bg-tech-accent/10">
                         <Plus size={13} />
                       </button>
