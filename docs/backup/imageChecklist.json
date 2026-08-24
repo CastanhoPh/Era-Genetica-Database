@@ -7677,7 +7677,6 @@
   },
   {
     "__docId": "prologo__treinamentos__najin-treinando-sozinho",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7686,7 +7685,9 @@
       "Najin Hatake"
     ],
     "elencoFechado": true,
-    "name": "Najin treinando sozinho e Raikun observando de Longe"
+    "name": "Najin treinando sozinho e Raikun observando de Longe",
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__treinamentos__nishinoya-dando-aula",
