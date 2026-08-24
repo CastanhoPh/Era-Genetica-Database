@@ -7751,14 +7751,14 @@
     "arco": "Academia Ninja",
     "temporada": "Clássico",
     "order": 50035,
-    "personagens": [
-      "Takeshi Hatake",
-      "Ryuta Hyuga"
-    ],
     "elencoFechado": true,
     "name": "Takeshi treinando com Tobirama",
     "done": true,
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "personagens": [
+      "Takeshi Hatake",
+      "Tobirama Senju"
+    ]
   },
   {
     "__docId": "Ps2OJxfNLqwpw5PXUHD2",
