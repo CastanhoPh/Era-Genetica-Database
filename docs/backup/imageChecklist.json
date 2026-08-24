@@ -5358,11 +5358,11 @@
     "done": false,
     "placeholder": false,
     "order": 50025,
+    "elencoFechado": true,
     "personagens": [
-      "Hoshiro Hyuga",
-      "Ryuta Hyuga"
-    ],
-    "elencoFechado": true
+      "Ryuta Hyuga",
+      "Hoshiro Hyuga"
+    ]
   },
   {
     "__docId": "h4em13EQFbLeHdoSxVi1",
@@ -6907,11 +6907,11 @@
     "done": false,
     "placeholder": false,
     "order": 50026,
+    "elencoFechado": true,
     "personagens": [
-      "Tobirama Senju",
-      "Naomi Uzumaki"
-    ],
-    "elencoFechado": true
+      "Naomi Uzumaki",
+      "Tobirama Senju"
+    ]
   },
   {
     "__docId": "oLmsSa8mBYaz3X5zN75e",
@@ -7382,7 +7382,18 @@
     "name": "Família Uchiha",
     "done": false,
     "placeholder": false,
-    "order": 50017
+    "order": 50017,
+    "personagens": [
+      "Oddy Uchiha",
+      "Madara Uchiha",
+      "Konan Uchiha",
+      "Kuromi Uchiha",
+      "Ayumi Uchiha",
+      "Shizumi Uchiha",
+      "Akairo Uchiha (A)",
+      "Sho Uchiha"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__familias__senjus-e-sabakus",
@@ -7701,8 +7712,21 @@
     "temporada": "Clássico",
     "order": 50028,
     "personagens": [
-      "Nishinoya Senju"
-    ]
+      "Nishinoya Senju",
+      "Kaito Senju",
+      "Oddy Uchiha",
+      "Katsumi Hyuga",
+      "Najin Hatake",
+      "Takeshi Hatake",
+      "Shoei Sarutobi",
+      "Nagare Uzumaki",
+      "Airi Senju",
+      "Ayumi Uchiha",
+      "Shizumi Uchiha",
+      "Shikaki Nara",
+      "Apollo Sarutobi"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "prologo__treinamentos__oddy-treinando-com-sho",
