@@ -871,7 +871,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Kaito e Katsumi encontram Oddy e Nagare desmaiados",
-    "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
     "personagens": [
@@ -880,7 +879,9 @@
       "Kaito Senju",
       "Oddy Uchiha"
     ],
-    "order": 50075
+    "order": 50075,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-injetando-uma-seringa-verde",
