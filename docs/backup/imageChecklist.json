@@ -5355,14 +5355,15 @@
     "temporada": "Prólogo",
     "arco": "Próxima Geração",
     "name": "Ryuta treinando com Hoshiro",
-    "done": false,
     "placeholder": false,
     "order": 50025,
     "elencoFechado": true,
     "personagens": [
       "Ryuta Hyuga",
       "Hoshiro Hyuga"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "h4em13EQFbLeHdoSxVi1",
@@ -6904,14 +6905,15 @@
     "temporada": "Prólogo",
     "arco": "Próxima Geração",
     "name": "Naomi treinando com Tobirama",
-    "done": false,
     "placeholder": false,
     "order": 50026,
     "elencoFechado": true,
     "personagens": [
       "Naomi Uzumaki",
       "Tobirama Senju"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "oLmsSa8mBYaz3X5zN75e",
@@ -7380,7 +7382,6 @@
     "temporada": "Prólogo",
     "arco": "Famílias",
     "name": "Família Uchiha",
-    "done": false,
     "placeholder": false,
     "order": 50017,
     "personagens": [
@@ -7393,7 +7394,9 @@
       "Akairo Uchiha (A)",
       "Sho Uchiha"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__familias__senjus-e-sabakus",
@@ -7706,7 +7709,6 @@
   {
     "__docId": "prologo__treinamentos__nishinoya-dando-aula",
     "name": "Nishinoya dando aula",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7726,7 +7728,9 @@
       "Shikaki Nara",
       "Apollo Sarutobi"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__treinamentos__oddy-treinando-com-sho",
