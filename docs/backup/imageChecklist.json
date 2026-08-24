@@ -1072,7 +1072,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Shoei acorda em um laboratório",
-    "done": false,
     "placeholder": false,
     "subarco": "Najin, Takeshi e Shoei",
     "order": 50080,
@@ -1080,7 +1079,9 @@
       "Takeshi Hatake",
       "Najin Hatake",
       "Shoei Sarutobi"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__shoei-encontra-najin-e-takeshi",
