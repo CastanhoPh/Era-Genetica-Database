@@ -487,53 +487,55 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
           />
         </div>
 
-        <div className="flex border border-tech-border">
+        {/* Sete filtros de tipo agora. Sem o scroll eles se comprimiam no celular e rótulos como
+            "Linha do Tempo" e "Capas de Personagens" quebravam dentro do próprio botão. */}
+        <div className="flex border border-tech-border max-w-full overflow-x-auto">
           <button
             type="button"
             onClick={() => setActiveType('geral')}
-            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all ${activeType === 'geral' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all ${activeType === 'geral' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <LayoutGrid size={12} /> Geral
           </button>
           <button
             type="button"
             onClick={() => setActiveType('evento')}
-            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'evento' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'evento' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <ListChecks size={12} /> Eventos
           </button>
           <button
             type="button"
             onClick={() => setActiveType('timeline')}
-            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'timeline' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'timeline' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <Clock size={12} /> Linha do Tempo
           </button>
           <button
             type="button"
             onClick={() => setActiveType('transformacao')}
-            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'transformacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'transformacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <Sparkles size={12} /> Modos
           </button>
           <button
             type="button"
             onClick={() => setActiveType('capa')}
-            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'capa' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'capa' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <ImageIcon size={12} /> Capas de Personagens
           </button>
           <button
             type="button"
             onClick={() => setActiveType('invocacao')}
-            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'invocacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'invocacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <Sparkles size={12} /> Invocações
           </button>
           <button
             type="button"
             onClick={() => setActiveType('capaInvocacao')}
-            className={`flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'capaInvocacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'capaInvocacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <ImageIcon size={12} /> Capas de Invocações
           </button>
