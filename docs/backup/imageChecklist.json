@@ -901,7 +901,6 @@
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-acordam-em-celas-separadas",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
-    "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
     "order": 50067,
@@ -910,7 +909,9 @@
     "personagens": [
       "Kaito Senju",
       "Nagare Uzumaki"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-investigando-a-masmorra",
@@ -983,7 +984,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Oddy gritando",
-    "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
     "personagens": [
@@ -992,7 +992,9 @@
       "Kaito Senju",
       "Oddy Uchiha"
     ],
-    "order": 50069
+    "order": 50069,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__najin-e-takeshi-abrem-a-fechadura",
