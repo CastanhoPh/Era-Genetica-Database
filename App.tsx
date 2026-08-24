@@ -479,10 +479,10 @@ export default function App() {
             </div>
 
             {/* Mobile Tab Navigation */}
-            <div className="sm:hidden fixed top-8 left-0 right-0 h-9 bg-black/95 backdrop-blur border-b border-tech-border z-40 flex items-center justify-center gap-2 px-4">
+            <div className="sm:hidden fixed top-8 left-0 right-0 h-9 bg-black/95 backdrop-blur border-b border-tech-border z-40 flex items-center gap-2 px-4 overflow-x-auto">
                 <button
                     onClick={() => navigate(mainTabPath('characters'))}
-                    className={`flex-1 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'characters'
+                    className={`shrink-0 px-2.5 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'characters'
                             ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]'
                             : 'text-tech-primary/50 border-tech-border'
                         }`}
@@ -491,17 +491,26 @@ export default function App() {
                 </button>
                 <button
                     onClick={() => navigate(mainTabPath('arsenal'))}
-                    className={`flex-1 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'arsenal'
+                    className={`shrink-0 px-2.5 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'arsenal'
                             ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]'
                             : 'text-tech-primary/50 border-tech-border'
                         }`}
                 >
                     <Shield size={10} /> ARSENAL
                 </button>
+                <button
+                    onClick={() => navigate('/invocacoes')}
+                    className={`shrink-0 px-2.5 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'invocacoes'
+                            ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]'
+                            : 'text-tech-primary/50 border-tech-border'
+                        }`}
+                >
+                    <Sparkles size={10} /> INVOCAÇÕES
+                </button>
                 {isChecklistEditor && (
                     <button
                         onClick={() => navigate('/checklist')}
-                        className={`flex-1 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'checklist'
+                        className={`shrink-0 px-2.5 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'checklist'
                                 ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]'
                                 : 'text-tech-primary/50 border-tech-border'
                             }`}
@@ -511,7 +520,7 @@ export default function App() {
                 )}
                 <button
                     onClick={() => navigate('/galeria')}
-                    className={`flex-1 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'galeria'
+                    className={`shrink-0 px-2.5 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'galeria'
                             ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]'
                             : 'text-tech-primary/50 border-tech-border'
                         }`}
@@ -520,7 +529,7 @@ export default function App() {
                 </button>
                 <button
                     onClick={() => navigate('/arvore')}
-                    className={`flex-1 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'arvore'
+                    className={`shrink-0 px-2.5 py-1 text-[10px] font-black uppercase tracking-widest border transition-all flex items-center justify-center gap-1.5 ${activeMainTab === 'arvore'
                             ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]'
                             : 'text-tech-primary/50 border-tech-border'
                         }`}
