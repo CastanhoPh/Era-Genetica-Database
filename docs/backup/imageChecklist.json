@@ -857,13 +857,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50073,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "order": 50074
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-e-katsumi-encontram-oddy-e-nagare-desmaiados",
@@ -873,13 +873,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50074,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "order": 50075
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-injetando-uma-seringa-verde",
@@ -889,13 +889,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50072,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "order": 50073
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-acordam-em-celas-separadas",
@@ -904,7 +904,6 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "name": "Kaito e Katsumi, Oddy e Nagare acordam em celas separadas",
     "order": 50067,
     "personagens": [
       "Katsumi Hyuga",
@@ -912,7 +911,8 @@
       "Kaito Senju",
       "Oddy Uchiha"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "name": "Kaito e Nagare acordam em celas separadas"
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-investigando-a-masmorra",
@@ -922,13 +922,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50075,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "order": 50093.5
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__nagare-e-levado-pelo-beta-sem-um-sapato",
@@ -938,14 +938,14 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50071,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha",
       "Beta"
-    ]
+    ],
+    "order": 50072
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__nagare-joga-seu-sapato",
@@ -955,13 +955,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50070,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "order": 50071
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__oddy-e-levado-pelo-beta",
@@ -971,14 +971,14 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50069,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha",
       "Beta"
-    ]
+    ],
+    "order": 50070
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__oddy-gritando",
@@ -988,13 +988,13 @@
     "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
-    "order": 50068,
     "personagens": [
       "Katsumi Hyuga",
       "Nagare Uzumaki",
       "Kaito Senju",
       "Oddy Uchiha"
-    ]
+    ],
+    "order": 50069
   },
   {
     "__docId": "1-temporada__masmorra__najin-takeshi-e-shoei__najin-e-takeshi-abrem-a-fechadura",
@@ -6154,6 +6154,18 @@
     "rank": "S++",
     "village": "Konohagakure",
     "order": 40020
+  },
+  {
+    "__docId": "kN9UCtvpc1wYHBW5BP2v",
+    "type": "evento",
+    "temporada": "1ª Temporada",
+    "arco": "Masmorra",
+    "subarco": "Kaito, Katsumi, Nagare e Oddy",
+    "placeholder": false,
+    "order": 50068,
+    "name": "Oddy e Katsumi acordam em celas separadas",
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "koDBzbkdVJH3Gf9xwzMJ",
