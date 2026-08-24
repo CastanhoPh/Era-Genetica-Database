@@ -7716,7 +7716,6 @@
   {
     "__docId": "prologo__treinamentos__oddy-treinando-com-sho",
     "name": "Oddy treinando com Sho",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7725,7 +7724,9 @@
       "Oddy Uchiha",
       "Sho Uchiha"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__treinamentos__shoei-treinando-com-nishinoya",
