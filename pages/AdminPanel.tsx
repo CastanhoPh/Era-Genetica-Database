@@ -26,7 +26,7 @@ interface StorageStats {
 
 // Aba "Links": catálogo de toda imagem do sistema, para pegar a URL de qualquer uma sem
 // precisar abrir a ficha ou o console do Firebase.
-const IMAGE_LINK_KINDS = ['Capas', 'Linha do Tempo', 'Modos e Transformações', 'Eventos', 'Técnicas', 'Arsenal'] as const;
+const IMAGE_LINK_KINDS = ['Capas', 'Linha do Tempo', 'Modos e Transformações', 'Invocações', 'Capas de Invocações', 'Eventos', 'Técnicas', 'Arsenal'] as const;
 type ImageLinkKind = typeof IMAGE_LINK_KINDS[number];
 
 interface ImageLink {
@@ -627,7 +627,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   //  · O item do checklist é classificado pelo `type` dele, não como um balde "Checklist" — é
   //    assim que a arte de evento (que só existe no checklist) chega à categoria "Eventos".
   const imageLinks = useMemo<ImageLink[]>(() => {
-    const PRIORIDADE: ImageLinkKind[] = ['Capas', 'Linha do Tempo', 'Modos e Transformações', 'Técnicas', 'Arsenal', 'Eventos'];
+    // Só importa quando duas fontes trazem a MESMA url: fica a de cima. O Eventos é o último
+    // porque é o rótulo genérico — se algo cair nele por descuido, qualquer outro o vence.
+    const PRIORIDADE: ImageLinkKind[] = ['Capas', 'Linha do Tempo', 'Modos e Transformações', 'Invocações', 'Capas de Invocações', 'Técnicas', 'Arsenal', 'Eventos'];
     const porUrl = new Map<string, ImageLink>();
     const registra = (l: ImageLink) => {
       const chave = stripVersion(l.url);
@@ -660,18 +662,22 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     for (const i of checklistItems) {
       if (!i.imageUrl) continue;
       const tipo = i.type ?? 'evento';
-      // Em item de capa, `temporada`, `arco` e `name` são todos o nome do personagem — montar o
-      // rótulo com os três sairia "Oddy Uchiha · Oddy Uchiha · Oddy Uchiha".
+      // Em capa de personagem, `temporada`, `arco` e `name` são todos o nome dele — montar o
+      // rótulo com os três sairia "Oddy Uchiha · Oddy Uchiha · Oddy Uchiha". Nas invocações o
+      // `owner` já é o dono e `arco` repete o `name`, então o nome da criatura basta: sem isso as
+      // duas linhas da mesma invocação, a arte e a capa, saíam idênticas.
       const detail = tipo === 'capa'
         ? 'capa no checklist de produção'
         : tipo === 'transformacao' ? i.arco
+        : tipo === 'invocacao' || tipo === 'capaInvocacao' ? i.name
         : i.subarco ? `${i.arco} · ${i.subarco} · ${i.name}` : `${i.arco} · ${i.name}`;
-      registra({
-        kind: tipo === 'timeline' ? 'Linha do Tempo' : tipo === 'transformacao' ? 'Modos e Transformações' : tipo === 'capa' ? 'Capas' : 'Eventos',
-        owner: i.temporada,
-        detail,
-        url: i.imageUrl,
-      });
+      const kind: ImageLinkKind = tipo === 'timeline' ? 'Linha do Tempo'
+        : tipo === 'transformacao' ? 'Modos e Transformações'
+        : tipo === 'capa' ? 'Capas'
+        : tipo === 'invocacao' ? 'Invocações'
+        : tipo === 'capaInvocacao' ? 'Capas de Invocações'
+        : 'Eventos';
+      registra({ kind, owner: i.temporada, detail, url: i.imageUrl });
     }
     return [...porUrl.values()].sort((a, b) => a.owner.localeCompare(b.owner) || a.detail.localeCompare(b.detail));
   }, [characters, arsenalItems, checklistItems]);
