@@ -854,7 +854,6 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Kaito e Katsumi desviando de armadilhas",
-    "done": false,
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
     "personagens": [
@@ -863,7 +862,9 @@
       "Kaito Senju",
       "Oddy Uchiha"
     ],
-    "order": 50074
+    "order": 50074,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-e-katsumi-encontram-oddy-e-nagare-desmaiados",
