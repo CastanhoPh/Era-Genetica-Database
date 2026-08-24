@@ -1000,12 +1000,13 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           <span>Banco de Dados</span>
           <span className="flex-1 h-px bg-tech-border"></span>
         </div>
-        {/* Nove cards: 3×3 no médio e 5+4 no grande. Em sete colunas os dois novos sobrariam
-            numa linha solta. */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-          <StatCard icon={Database} label="Total" value={totalImageRefs} sub="Personagens + Arsenal + Técnicas + Galeria" />
+        {/* Os nove numa linha só, como o Pedro pediu. Por isso os rótulos aqui são curtos: em
+            nove colunas "Técnicas cadastradas" quebraria em três linhas e empurraria a altura de
+            todos os cards. */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-9 gap-3">
+          <StatCard icon={Database} label="Total" value={totalImageRefs} sub="Soma dos 8 ao lado" />
           <StatCard icon={Users} label="Personagens" value={characters.length} sub={characters.length ? `${deadCount} mortos (${((deadCount / characters.length) * 100).toFixed(0)}%)` : undefined} />
-          <StatCard icon={Scroll} label="Técnicas cadastradas" value={totalTechniques} />
+          <StatCard icon={Scroll} label="Técnicas" value={totalTechniques} />
           <StatCard icon={Shield} label="Arsenal" value={arsenalItems.length} />
           <StatCard icon={Clock} label="Linha do tempo" value={totalTimelineImages} />
           <StatCard icon={Sparkles} label="Modos e transf." value={totalTransformacaoImages} />
