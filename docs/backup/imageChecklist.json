@@ -7648,7 +7648,6 @@
   {
     "__docId": "prologo__treinamentos__katsumi-treinando-com-renji",
     "name": "Katsumi treinando com Renji",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7657,7 +7656,9 @@
       "Katsumi Hyuga",
       "Renji Hyuga"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__treinamentos__nagare-treinando-com-yumi",
@@ -7731,7 +7732,6 @@
   {
     "__docId": "prologo__treinamentos__shoei-treinando-com-nishinoya",
     "name": "Shoei treinando com Nishinoya",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7740,7 +7740,9 @@
       "Nishinoya Senju",
       "Shoei Sarutobi"
     ],
-    "elencoFechado": true
+    "elencoFechado": true,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "prologo__treinamentos__takeshi-treinando-sozinho",
