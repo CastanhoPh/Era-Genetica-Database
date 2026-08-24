@@ -7747,7 +7747,6 @@
   },
   {
     "__docId": "prologo__treinamentos__takeshi-treinando-sozinho",
-    "done": false,
     "placeholder": false,
     "arco": "Academia Ninja",
     "temporada": "Clássico",
@@ -7757,7 +7756,9 @@
       "Ryuta Hyuga"
     ],
     "elencoFechado": true,
-    "name": "Takeshi treinando com Tobirama"
+    "name": "Takeshi treinando com Tobirama",
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "Ps2OJxfNLqwpw5PXUHD2",
