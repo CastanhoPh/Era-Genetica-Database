@@ -227,7 +227,12 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const totalTimelineImages = checklistItems.filter(i => i.type === 'timeline' && !!i.imageUrl).length;
   const totalTransformacaoImages = checklistItems.filter(i => i.type === 'transformacao' && !!i.imageUrl).length;
   const totalEventoImages = checklistItems.filter(i => (i.type ?? 'evento') === 'evento' && !!i.imageUrl).length;
-  const totalGalleryImages = totalTimelineImages + totalTransformacaoImages + totalEventoImages;
+  const totalInvocacaoImages = checklistItems.filter(i => i.type === 'invocacao' && !!i.imageUrl).length;
+  const totalCapaInvocacaoImages = checklistItems.filter(i => i.type === 'capaInvocacao' && !!i.imageUrl).length;
+  // A capa de personagem fica fora de propósito: ela é o retrato da ficha, já contado em
+  // "Personagens". As de invocação não têm onde mais ser contadas, então entram aqui.
+  const totalGalleryImages = totalTimelineImages + totalTransformacaoImages + totalEventoImages
+    + totalInvocacaoImages + totalCapaInvocacaoImages;
   const totalImageRefs = characters.length + arsenalItems.length + totalTechniques + totalGalleryImages;
 
   // Painel de personagens (aba Personagens): com ficha vs. só pendentes, vivos/mortos, e o
@@ -995,7 +1000,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           <span>Banco de Dados</span>
           <span className="flex-1 h-px bg-tech-border"></span>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
+        {/* Nove cards: 3×3 no médio e 5+4 no grande. Em sete colunas os dois novos sobrariam
+            numa linha solta. */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
           <StatCard icon={Database} label="Total" value={totalImageRefs} sub="Personagens + Arsenal + Técnicas + Galeria" />
           <StatCard icon={Users} label="Personagens" value={characters.length} sub={characters.length ? `${deadCount} mortos (${((deadCount / characters.length) * 100).toFixed(0)}%)` : undefined} />
           <StatCard icon={Scroll} label="Técnicas cadastradas" value={totalTechniques} />
@@ -1003,6 +1010,8 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           <StatCard icon={Clock} label="Linha do tempo" value={totalTimelineImages} />
           <StatCard icon={Sparkles} label="Modos e transf." value={totalTransformacaoImages} />
           <StatCard icon={Images} label="Eventos" value={totalEventoImages} />
+          <StatCard icon={Sparkles} label="Invocações" value={totalInvocacaoImages} />
+          <StatCard icon={Images} label="Capas de invoc." value={totalCapaInvocacaoImages} />
         </div>
       </section>
 
