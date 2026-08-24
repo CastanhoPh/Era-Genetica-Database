@@ -905,14 +905,12 @@
     "placeholder": false,
     "subarco": "Kaito, Katsumi, Nagare e Oddy",
     "order": 50067,
-    "personagens": [
-      "Katsumi Hyuga",
-      "Nagare Uzumaki",
-      "Kaito Senju",
-      "Oddy Uchiha"
-    ],
     "elencoFechado": true,
-    "name": "Kaito e Nagare acordam em celas separadas"
+    "name": "Kaito e Nagare acordam em celas separadas",
+    "personagens": [
+      "Kaito Senju",
+      "Nagare Uzumaki"
+    ]
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-katsumi-oddy-e-nagare-investigando-a-masmorra",
@@ -6165,7 +6163,12 @@
     "order": 50068,
     "name": "Oddy e Katsumi acordam em celas separadas",
     "done": true,
-    "doneBy": "Zeck"
+    "doneBy": "Zeck",
+    "personagens": [
+      "Oddy Uchiha",
+      "Katsumi Hyuga"
+    ],
+    "elencoFechado": true
   },
   {
     "__docId": "koDBzbkdVJH3Gf9xwzMJ",
