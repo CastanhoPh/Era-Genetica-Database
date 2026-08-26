@@ -1940,10 +1940,10 @@ A técnica surgiu após Nagare obter e utilizar uma seringa contendo chakra de R
 Status de Uso:
 Uso extremamente perigoso e limitado. O consumo de chakra é colossal e exige total estabilidade ocular e mental. O uso prolongado pode causar sobrecarga no sistema nervoso, danos oculares severos e colapso temporário do fluxo de chakra.
 
-### 2. Shiroki Kaminari: Raimei no Kami
+### 2. Shiroki Kaminari: Shinpan
 Classificação: S++ | Natureza: Shiroki Kaminari
 
-![Shiroki Kaminari: Raimei no Kami](https://res.cloudinary.com/dokl8hfqz/image/upload/v1779456368/nagare9_czwnzy.jpg)
+![Shiroki Kaminari: Shinpan](https://res.cloudinary.com/dokl8hfqz/image/upload/v1779456368/nagare9_czwnzy.jpg)
 
 Descrição:
 Nagare interrompe completamente seus movimentos e inicia um processo extremo de condensação do Shiroki Kaminari dentro do próprio corpo. Durante a preparação, bilhões de partículas elétricas brancas começam a circular violentamente através de seu sistema nervoso e fluxo de chakra, transformando seu corpo em um verdadeiro núcleo de tempestade viva.
@@ -1952,7 +1952,7 @@ Nagare interrompe completamente seus movimentos e inicia um processo extremo de 
 
 Quando Nagare alcança o estado máximo, praticamente todo seu corpo se encontra coberto pelas marcas brilhantes do Shiroki Kaminari. Seus olhos assumem uma coloração branca absoluta enquanto sua presença elétrica domina completamente a área. Nesse momento, ele ergue uma das mãos e libera toda a energia acumulada em um único disparo.
 
-O ataque assume a forma de um colossal feixe de destruição branca, comprimido ao limite máximo possível. Diferente de um simples raio, o Raimei no Kami avança como uma ruptura elétrica absoluta, apagando tudo em sua trajetória. O impacto não apenas destrói matéria física, mas também desintegra chakra, rompe barreiras energéticas e colapsa técnicas defensivas através de pura sobrecarga elétrica.
+O ataque assume a forma de um colossal feixe de destruição branca, comprimido ao limite máximo possível. Diferente de um simples raio, o Shinpan avança como uma ruptura elétrica absoluta, apagando tudo em sua trajetória. O impacto não apenas destrói matéria física, mas também desintegra chakra, rompe barreiras energéticas e colapsa técnicas defensivas através de pura sobrecarga elétrica.
 
 A pressão gerada pelo disparo é tão monstruosa que o céu parece rasgar-se durante a execução, criando uma tempestade branca gigantesca ao redor do feixe principal. O ataque deixa cicatrizes permanentes no campo de batalha, vitrificando o solo e transformando a região atingida em uma zona morta tomada por eletricidade residual.
 
