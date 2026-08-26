@@ -3493,7 +3493,6 @@
     "chakraColor": "#e8fbff",
     "id": 79,
     "combatStyle": "Distância",
-    "focoAtributo": "inteligencia",
     "focosAtributo": [
       "inteligencia",
       "espirito"
@@ -5052,7 +5051,6 @@
       }
     ],
     "combatStyle": "Distância",
-    "focoAtributo": "dividido",
     "focosAtributo": [
       "espirito"
     ],
@@ -7249,108 +7247,6 @@
       19,
       66
     ],
-    "techniques": [
-      {
-        "name": "Shiroki Kaminari: Amenotejikara no Ranton",
-        "classification": "S++",
-        "nature": "Shiroki Kaminari + Ranton + Amenotejikara",
-        "description": "Após injetar em si a seringa contendo o chakra de Ranton, Nagare eleva drasticamente sua capacidade de manipulação elétrica e espacial. O Shiroki Kaminari passa a se fundir com o Ranton, criando correntes de energia branca que se espalham invisivelmente pelo campo de batalha. Enquanto essa energia circula, Nagare pode aplicar o princípio do Amenotejikara não apenas em si mesmo, mas também em qualquer alvo ou massa de chakra que esteja dentro do seu campo de visão. Com um simples foco visual, ele pode trocar instantaneamente a posição de pessoas, ataques, projéteis ou fluxos de chakra, deslocando-os através do espaço como se fossem conduzidos por relâmpagos brancos. Essa manipulação transforma o campo de batalha em uma rede espacial controlada por Nagare, onde posições, ataques e defesas podem ser reorganizados em frações de segundo.",
-        "destruction": "Extremamente elevado. Embora a técnica seja focada em manipulação espacial, ela permite redirecionar ataques massivos, teleportar inimigos para posições fatais ou condensar grandes quantidades de chakra em pontos específicos do campo de batalha.",
-        "history": "A técnica surgiu após Nagare obter e utilizar uma seringa contendo chakra de Ranton, permitindo-lhe expandir drasticamente o alcance e a aplicação do Amenotejikara. Ao combinar esse poder com o Shiroki Kaminari, ele criou uma forma avançada de controle espacial capaz de manipular não apenas sua própria posição, mas qualquer alvo visível.",
-        "status": "Uso extremamente perigoso e limitado. O consumo de chakra é colossal e exige total estabilidade ocular e mental. O uso prolongado pode causar sobrecarga no sistema nervoso, danos oculares severos e colapso temporário do fluxo de chakra.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Ranton.png?alt=media&v=1786651884024310"
-      },
-      {
-        "name": "Shiroki Kaminari: Raimei no Kami",
-        "classification": "S++",
-        "nature": "Shiroki Kaminari",
-        "description": "Nagare interrompe completamente seus movimentos e inicia um processo extremo de condensação do Shiroki Kaminari dentro do próprio corpo. Durante a preparação, bilhões de partículas elétricas brancas começam a circular violentamente através de seu sistema nervoso e fluxo de chakra, transformando seu corpo em um verdadeiro núcleo de tempestade viva.\n\nÀ medida que a energia cresce, as marcas brancas espalhadas por sua pele começam a se expandir lentamente, avançando pelo corpo como rachaduras luminosas. Cada estágio de carregamento faz as marcas brilharem com maior intensidade, liberando descargas elétricas constantes no ambiente. O chão ao redor passa a se partir, o ar se distorce devido à pressão eletromagnética e relâmpagos brancos começam a cair espontaneamente do céu atraídos pela concentração absurda de energia.\n\nQuando Nagare alcança o estado máximo, praticamente todo seu corpo se encontra coberto pelas marcas brilhantes do Shiroki Kaminari. Seus olhos assumem uma coloração branca absoluta enquanto sua presença elétrica domina completamente a área. Nesse momento, ele ergue uma das mãos e libera toda a energia acumulada em um único disparo.\n\nO ataque assume a forma de um colossal feixe de destruição branca, comprimido ao limite máximo possível. Diferente de um simples raio, o Raimei no Kami avança como uma ruptura elétrica absoluta, apagando tudo em sua trajetória. O impacto não apenas destrói matéria física, mas também desintegra chakra, rompe barreiras energéticas e colapsa técnicas defensivas através de pura sobrecarga elétrica.\n\nA pressão gerada pelo disparo é tão monstruosa que o céu parece rasgar-se durante a execução, criando uma tempestade branca gigantesca ao redor do feixe principal. O ataque deixa cicatrizes permanentes no campo de batalha, vitrificando o solo e transformando a região atingida em uma zona morta tomada por eletricidade residual.",
-        "destruction": "Catastrófico. Considerado o ataque máximo do Shiroki Kaminari. Possui poder suficiente para obliterar múltiplas defesas de alto nível simultaneamente, atravessar quilômetros de terreno e desintegrar praticamente qualquer alvo atingido diretamente.",
-        "history": "Nagare desenvolveu esta técnica ao ultrapassar os limites naturais do Shiroki Kaminari, percebendo que seu corpo podia funcionar como um acumulador vivo de energia elétrica espiritual. Após anos refinando sua resistência física e seu controle de chakra, ele criou um método capaz de armazenar quantidades absurdas de energia antes da liberação final.",
-        "status": "Uso extremamente proibitivo. Quanto maior o tempo de carregamento, maior o poder destrutivo do ataque. Entretanto, o corpo de Nagare sofre uma sobrecarga monstruosa durante a concentração. Caso o controle seja perdido antes da liberação, a energia acumulada pode consumir completamente seu sistema nervoso e causar colapso interno fatal. Após o disparo máximo, Nagare normalmente entra em estado de exaustão severa e perde grande parte de sua capacidade de combate temporariamente.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F02%20-%20Shiroki%20Kaminari%3A%20Raimei%20no%20Kami.jpg?alt=media&v=1786651885098697"
-      },
-      {
-        "name": "Fūinjutsu: Jigoku no Kyūin",
-        "classification": "S++",
-        "nature": "Fūinjutsu + Shiroki Kaminari",
-        "description": "Nagare realiza uma sequência extremamente veloz de selos e marca discretamente o ambiente com inscrições de fūinjutsu invisíveis a olho nu. Essas marcas criam uma zona espiritual conhecida como ‘Polo Negativo’, um campo eletromagnético selado que altera completamente o fluxo natural de chakra e eletricidade ao redor do alvo. Qualquer inimigo dentro dessa área passa a carregar involuntariamente uma polaridade oposta ao Shiroki Kaminari de Nagare.\n\nApós ativar o selo, Nagare dispara relâmpagos brancos de alta densidade através do campo de batalha. Diferente de um Raiton comum, os raios do Shiroki Kaminari passam a ser violentamente atraídos pelo Polo Negativo, curvando trajetórias, ignorando obstáculos menores e perseguindo automaticamente qualquer alvo marcado pela área selada. Enquanto o inimigo permanecer dentro da zona do selo, os relâmpagos inevitavelmente convergem em sua direção, transformando os disparos em ataques praticamente impossíveis de evitar.\n\nO efeito é tão absurdo que até mesmo mudanças bruscas de movimento, clones ou tentativas de fuga são parcialmente anuladas, pois o campo magnético do fūinjutsu reposiciona naturalmente a descarga elétrica para atingir o alvo correto. Em campos fechados ou áreas previamente preparadas por Nagare, o céu e o solo passam a emitir pequenas partículas brancas de eletricidade, indicando que toda a região foi transformada em uma gigantesca armadilha de execução.",
-        "destruction": "Extremamente elevado. O jutsu transforma qualquer técnica do Shiroki Kaminari em um ataque de perseguição inevitável dentro da área marcada. Múltiplos inimigos podem ser atingidos simultaneamente, sofrendo perfuração elétrica, paralisia severa e destruição massiva do sistema nervoso e do fluxo de chakra.",
-        "history": "Nagare desenvolveu esta técnica após aprofundar seus estudos em Fūinjutsu Uzumaki e perceber que poderia aplicar conceitos de polaridade espiritual ao Raiton. Utilizando selos de atração eletromagnética alimentados pelo Shiroki Kaminari, ele criou um campo onde seus relâmpagos literalmente ‘caçam’ qualquer alvo preso na polaridade negativa.",
-        "status": "Uso extremamente perigoso e estratégico. Requer preparação do ambiente ou contato prévio para aplicar os selos. O consumo de chakra cresce drasticamente conforme o tamanho da área marcada. Caso o fluxo do selo seja interrompido, a polaridade pode colapsar e gerar descargas caóticas capazes de atingir aliados e o próprio Nagare.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F03%20-%20F%C5%ABinjutsu%3A%20Jigoku%20no%20Ky%C5%ABin.jpg?alt=media&v=1786651885072695"
-      },
-      {
-        "name": "Shiroki Kaminari: Amenotejikara Chidori",
-        "classification": "S+",
-        "nature": "Shiroki Kaminari + Amenotejikara",
-        "description": "Nagare canaliza o chakra profano obtido de H para amplificar seu antigo raio negro, transformando-o em um Shiroki Kaminari — um relâmpago branco de altíssima pureza e instabilidade. Ao fundir essa energia ao seu Raiton, ele cria um Chidori Branco extremamente concentrado e penetrante. No instante da investida, ativa o Amenotejikara para romper a barreira do espaço-tempo e trocar instantaneamente de posição, surgindo atrás ou ao lado do inimigo no momento exato do ataque. A combinação de velocidade elétrica, teleporte imediato e poder perfurante torna a técnica quase impossível de prever ou desviar.",
-        "destruction": "Muito elevado. Possui poder de perfuração capaz de atravessar defesas de alto nível e causar destruição interna massiva no ponto de impacto. A natureza instável do relâmpago branco amplifica o dano elétrico no interior do alvo.",
-        "history": "Desenvolvida por Nagare após herdar o poder ocular e o chakra profano de H. Tornou-se sua técnica assinatura, conhecida por eliminar adversários antes mesmo que percebam o deslocamento espacial.",
-        "status": "Uso altamente restrito. Requer grande controle de chakra, domínio do Amenotejikara e resistência física para suportar a tensão espaço-temporal. O uso excessivo pode causar severo desgaste ocular.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F04%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20Chidori.png?alt=media&v=1786651885529882"
-      },
-      {
-        "name": "Shiroki Kaminari: Shageki",
-        "classification": "S+",
-        "nature": "Shiroki Kaminari",
-        "description": "Nagare concentra o poder do Shiroki Kaminari na palma de sua mão dominante, comprimindo a eletricidade branca em um núcleo extremamente denso e instável. O chakra elétrico gira em alta velocidade, emitindo faíscas brancas intensas e um som agudo semelhante a mil relâmpagos ecoando ao mesmo tempo. Ao disparar, o núcleo se transforma em um feixe perfurante de raio branco puro, avançando em linha reta com velocidade quase instantânea. O impacto gera uma explosão elétrica concentrada, capaz de atravessar defesas e desintegrar barreiras energéticas de alto nível. A técnica pode ser carregada por alguns segundos para aumentar drasticamente seu poder de penetração e alcance.",
-        "destruction": "Muito elevado. O disparo possui alto poder perfurante e explosão elétrica concentrada no ponto de impacto, podendo atravessar múltiplos alvos alinhados e causar paralisia severa em sobreviventes.",
-        "history": "Desenvolvida por Nagare como evolução ofensiva da Shiroki Kaminari: Armadura de Raios, essa técnica surgiu da necessidade de ataques de longo alcance mantendo a pureza e densidade máxima do raio branco.",
-        "status": "Uso controlado. Exige grande precisão e controle de chakra. Carregamentos prolongados aumentam o poder, mas podem causar sobrecarga muscular no braço e tremores temporários devido à intensidade elétrica concentrada.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F05%20-%20Shiroki%20Kaminari%3A%20Shageki.png?alt=media&v=1786651885077711"
-      },
-      {
-        "name": "Nintaijutsu: Armadura de Raios",
-        "classification": "S+",
-        "nature": "Nintaijutsu",
-        "description": "Nagare libera e condensa o poder do Shiroki Kaminari, envolvendo completamente seu corpo com uma armadura de raios brancos de alta densidade. A eletricidade assume uma forma fluida e constante, criando uma camada protetora que reage automaticamente a qualquer ameaça. Diversos relâmpagos brancos giram ao redor de seu corpo, interceptando ataques físicos e ninjutsus antes mesmo de alcançá-lo. Essa armadura não apenas protege, mas também amplifica seus reflexos e velocidade, permitindo que Nagare se mova com extrema agilidade enquanto qualquer contato direto com seu corpo resulta em choques devastadores. A energia elétrica também reforça seus golpes corpo a corpo, tornando cada ataque carregado com destruição concentrada.",
-        "destruction": "Elevado. A armadura fornece defesa automática contra ataques diretos e causa danos severos a qualquer oponente que entre em contato com o campo elétrico. Pode neutralizar múltiplos inimigos próximos devido à liberação contínua de raios.",
-        "history": "Criada por Nagare após anos de treinamento para dominar o Shiroki Kaminari, esta técnica representa a fusão perfeita entre defesa absoluta e mobilidade. Tornou-se sua principal forma de combate em batalhas de alto nível.",
-        "status": "Uso controlado. Exige alto controle de chakra e grande resistência física. Uso prolongado pode causar fadiga extrema e sobrecarga no sistema nervoso.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F06%20-%20Nintaijutsu%3A%20Armadura%20de%20Raios.jpg?alt=media&v=1786651885085522"
-      },
-      {
-        "name": "Nintaijutsu: Guillotine Drop",
-        "classification": "S+",
-        "nature": "Nintaijutsu",
-        "description": "Nagare envolve completamente suas pernas com o poder do Shiroki Kaminari, condensando relâmpagos brancos de altíssima densidade até formar lâminas elétricas giratórias ao redor de seus membros inferiores. Em seguida, ele dispara para o alto com uma explosão de chakra, movendo-se a velocidades quase invisíveis. No ponto máximo do salto, Nagare trava o alvo com sua percepção ampliada e despenca verticalmente como uma guilhotina viva. Durante a queda, a eletricidade se comprime ainda mais, criando um campo de pressão que paralisa o oponente e impede sua fuga. Ao impactar, a energia é liberada em uma descarga devastadora, esmagando e cortando o alvo ao mesmo tempo, enquanto relâmpagos brancos se espalham pelo solo, causando dano em área e desestabilizando inimigos próximos.",
-        "destruction": "Muito elevado. O impacto direto pode perfurar defesas de alto nível e causar destruição localizada massiva. A onda elétrica gerada após o golpe paralisa múltiplos alvos e pode incapacitar adversários resistentes.",
-        "history": "Nagare desenvolveu esta técnica após perceber que sua Armadura de Raios era perfeita para combate contínuo, mas faltava um golpe final decisivo. Inspirado em movimentos de execução, ele criou o Guillotine Drop como sua técnica de finalização suprema, combinando velocidade, precisão e poder destrutivo.",
-        "status": "Uso limitado. Requer grande concentração, controle preciso de chakra e preparo físico extremo. Caso falhe ou seja interrompido, Nagare pode sofrer danos devido à compressão elétrica acumulada em suas pernas.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F07%20-%20Nintaijutsu%3A%20Guillotine%20Drop.png?alt=media&v=1786651885071323"
-      },
-      {
-        "name": "Nintaijutsu: Straight",
-        "classification": "S",
-        "nature": "Nintaijutsu",
-        "description": "Nagare concentra o poder do Shiroki Kaminari em um único punho, comprimindo relâmpagos brancos de altíssima densidade até formar uma lâmina elétrica linear ao redor de seu braço. A energia assume uma forma extremamente estável e precisa, reduzindo dispersões e focando toda a destruição em um único ponto. Em um instante, ele avança com um movimento direto e explosivo, alcançando o alvo com um soco reto carregado de eletricidade pura. No momento do impacto, a descarga perfura defesas físicas e campos de chakra, liberando uma onda de choque elétrica que atravessa o corpo do oponente, causando paralisia, danos internos severos e desestabilização do fluxo de chakra. A técnica é conhecida por sua velocidade e precisão, sendo difícil de prever ou bloquear.",
-        "destruction": "Elevado. Pode atravessar defesas resistentes e causar danos internos críticos. A descarga elétrica paralisa temporariamente o alvo e pode afetar inimigos próximos devido à propagação da corrente.",
-        "history": "Criada por Nagare como uma técnica de combate direto e rápido, o Straight foi desenvolvido após intensos treinamentos focados em controle absoluto de energia elétrica. Ele buscava um golpe simples, eficiente e mortal, capaz de encerrar batalhas sem desperdício de chakra.",
-        "status": "Uso controlado. Exige sincronização perfeita entre velocidade corporal e liberação de chakra. O uso repetido pode causar fadiga muscular e sobrecarga elétrica nos nervos do braço.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F08%20-%20Nintaijutsu%3A%20Straight.png?alt=media&v=1786651885065684"
-      },
-      {
-        "name": "Kongō Fūsa",
-        "classification": "S",
-        "nature": "Uzumaki",
-        "description": "Nagare manifesta o Kongō Fūsa, correntes de chakra extremamente densas e resistentes que emergem de seu corpo e se estendem pelo campo de batalha. Essas correntes possuem propriedades de selamento, permitindo restringir, imobilizar e suprimir o chakra de qualquer alvo capturado. Ao envolver o inimigo, elas drenam gradualmente sua energia, enfraquecendo técnicas, bloqueando transformações e anulando invocações. A estrutura das correntes é quase indestrutível, capaz de conter adversários de alto nível e até selar entidades com reservas massivas de chakra. Além disso, Nagare pode moldar livremente a forma, alcance e velocidade dessas correntes, utilizando-as tanto para defesa quanto para ataques de contenção rápida.",
-        "destruction": "Moderado. Embora não seja focada em dano direto, a técnica é devastadora em combate ao neutralizar o fluxo de chakra, enfraquecer oponente e criar aberturas estratégicas decisivas.",
-        "history": "Inspirado em antigas técnicas de selamento de clãs lendários, Nagare estudou profundamente o Fūinjutsu até dominar a criação de correntes espirituais próprias. O Kongō Fūsa tornou-se sua principal habilidade de controle e captura em batalhas contra inimigos poderosos.",
-        "status": "Uso controlado. Consome grande quantidade de chakra para manter múltiplos alvos contidos. Uso prolongado pode causar exaustão e perda de controle das correntes.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F09%20-%20Kong%C5%8D%20F%C5%ABsa.png?alt=media&v=1786651885091909"
-      },
-      {
-        "name": "Kagura Shingan",
-        "classification": "A+",
-        "nature": "Uzumaki",
-        "description": "Nagare desperta o Kagura Shingan, uma habilidade sensorial de altíssimo nível que amplia drasticamente sua percepção de chakra. Seus olhos assumem um brilho sutil enquanto sua mente se conecta ao fluxo energético do ambiente, permitindo que ele detecte a presença, localização, intenção hostil e variações emocionais de qualquer ser vivo dentro de uma vasta área. Diferente de sensores comuns, Nagare consegue distinguir assinaturas de chakra com precisão absoluta, identificando indivíduos específicos, rastreando alvos ocultos e antecipando ataques antes mesmo de serem executados. Essa técnica também permite que ele perceba distorções no espaço, selos ocultos e concentrações de energia, tornando-o extremamente difícil de surpreender em combate.",
-        "destruction": "Baixo. O Kagura Shingan não é uma técnica ofensiva, mas fornece vantagem estratégica extrema ao permitir controle total do campo de batalha e leitura precisa dos movimentos inimigos.",
-        "history": "Nagare desenvolveu essa habilidade após anos de treinamento focado em controle mental, percepção espiritual e análise de chakra. Com o tempo, seu domínio evoluiu a ponto de rivalizar com sensores lendários.",
-        "status": "Uso controlado. Exige grande concentração e resistência mental. Uso prolongado pode causar fadiga sensorial, dores de cabeça e sobrecarga cognitiva.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media&v=1786651886403581"
-      }
-    ],
     "chakraColor": "#ff3b46",
     "nc": 18,
     "stats": {
@@ -7619,7 +7515,109 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "techniques": [
+      {
+        "name": "Shiroki Kaminari: Amenotejikara no Ranton",
+        "classification": "S++",
+        "nature": "Shiroki Kaminari + Ranton + Amenotejikara",
+        "description": "Após injetar em si a seringa contendo o chakra de Ranton, Nagare eleva drasticamente sua capacidade de manipulação elétrica e espacial. O Shiroki Kaminari passa a se fundir com o Ranton, criando correntes de energia branca que se espalham invisivelmente pelo campo de batalha. Enquanto essa energia circula, Nagare pode aplicar o princípio do Amenotejikara não apenas em si mesmo, mas também em qualquer alvo ou massa de chakra que esteja dentro do seu campo de visão. Com um simples foco visual, ele pode trocar instantaneamente a posição de pessoas, ataques, projéteis ou fluxos de chakra, deslocando-os através do espaço como se fossem conduzidos por relâmpagos brancos. Essa manipulação transforma o campo de batalha em uma rede espacial controlada por Nagare, onde posições, ataques e defesas podem ser reorganizados em frações de segundo.",
+        "destruction": "Extremamente elevado. Embora a técnica seja focada em manipulação espacial, ela permite redirecionar ataques massivos, teleportar inimigos para posições fatais ou condensar grandes quantidades de chakra em pontos específicos do campo de batalha.",
+        "history": "A técnica surgiu após Nagare obter e utilizar uma seringa contendo chakra de Ranton, permitindo-lhe expandir drasticamente o alcance e a aplicação do Amenotejikara. Ao combinar esse poder com o Shiroki Kaminari, ele criou uma forma avançada de controle espacial capaz de manipular não apenas sua própria posição, mas qualquer alvo visível.",
+        "status": "Uso extremamente perigoso e limitado. O consumo de chakra é colossal e exige total estabilidade ocular e mental. O uso prolongado pode causar sobrecarga no sistema nervoso, danos oculares severos e colapso temporário do fluxo de chakra.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Ranton.png?alt=media&v=1786651884024310"
+      },
+      {
+        "name": "Shiroki Kaminari: Shinpan",
+        "classification": "S++",
+        "nature": "Shiroki Kaminari",
+        "description": "Nagare interrompe completamente seus movimentos e inicia um processo extremo de condensação do Shiroki Kaminari dentro do próprio corpo. Durante a preparação, bilhões de partículas elétricas brancas começam a circular violentamente através de seu sistema nervoso e fluxo de chakra, transformando seu corpo em um verdadeiro núcleo de tempestade viva.\n\nÀ medida que a energia cresce, as marcas brancas espalhadas por sua pele começam a se expandir lentamente, avançando pelo corpo como rachaduras luminosas. Cada estágio de carregamento faz as marcas brilharem com maior intensidade, liberando descargas elétricas constantes no ambiente. O chão ao redor passa a se partir, o ar se distorce devido à pressão eletromagnética e relâmpagos brancos começam a cair espontaneamente do céu atraídos pela concentração absurda de energia.\n\nQuando Nagare alcança o estado máximo, praticamente todo seu corpo se encontra coberto pelas marcas brilhantes do Shiroki Kaminari. Seus olhos assumem uma coloração branca absoluta enquanto sua presença elétrica domina completamente a área. Nesse momento, ele ergue uma das mãos e libera toda a energia acumulada em um único disparo.\n\nO ataque assume a forma de um colossal feixe de destruição branca, comprimido ao limite máximo possível. Diferente de um simples raio, o Shinpan avança como uma ruptura elétrica absoluta, apagando tudo em sua trajetória. O impacto não apenas destrói matéria física, mas também desintegra chakra, rompe barreiras energéticas e colapsa técnicas defensivas através de pura sobrecarga elétrica.\n\nA pressão gerada pelo disparo é tão monstruosa que o céu parece rasgar-se durante a execução, criando uma tempestade branca gigantesca ao redor do feixe principal. O ataque deixa cicatrizes permanentes no campo de batalha, vitrificando o solo e transformando a região atingida em uma zona morta tomada por eletricidade residual.",
+        "destruction": "Catastrófico. Considerado o ataque máximo do Shiroki Kaminari. Possui poder suficiente para obliterar múltiplas defesas de alto nível simultaneamente, atravessar quilômetros de terreno e desintegrar praticamente qualquer alvo atingido diretamente.",
+        "history": "Nagare desenvolveu esta técnica ao ultrapassar os limites naturais do Shiroki Kaminari, percebendo que seu corpo podia funcionar como um acumulador vivo de energia elétrica espiritual. Após anos refinando sua resistência física e seu controle de chakra, ele criou um método capaz de armazenar quantidades absurdas de energia antes da liberação final.",
+        "status": "Uso extremamente proibitivo. Quanto maior o tempo de carregamento, maior o poder destrutivo do ataque. Entretanto, o corpo de Nagare sofre uma sobrecarga monstruosa durante a concentração. Caso o controle seja perdido antes da liberação, a energia acumulada pode consumir completamente seu sistema nervoso e causar colapso interno fatal. Após o disparo máximo, Nagare normalmente entra em estado de exaustão severa e perde grande parte de sua capacidade de combate temporariamente.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F02%20-%20Shiroki%20Kaminari%3A%20Shinpan.jpg?alt=media&v=1787754983052128"
+      },
+      {
+        "name": "Fūinjutsu: Jigoku no Kyūin",
+        "classification": "S++",
+        "nature": "Fūinjutsu + Shiroki Kaminari",
+        "description": "Nagare realiza uma sequência extremamente veloz de selos e marca discretamente o ambiente com inscrições de fūinjutsu invisíveis a olho nu. Essas marcas criam uma zona espiritual conhecida como ‘Polo Negativo’, um campo eletromagnético selado que altera completamente o fluxo natural de chakra e eletricidade ao redor do alvo. Qualquer inimigo dentro dessa área passa a carregar involuntariamente uma polaridade oposta ao Shiroki Kaminari de Nagare.\n\nApós ativar o selo, Nagare dispara relâmpagos brancos de alta densidade através do campo de batalha. Diferente de um Raiton comum, os raios do Shiroki Kaminari passam a ser violentamente atraídos pelo Polo Negativo, curvando trajetórias, ignorando obstáculos menores e perseguindo automaticamente qualquer alvo marcado pela área selada. Enquanto o inimigo permanecer dentro da zona do selo, os relâmpagos inevitavelmente convergem em sua direção, transformando os disparos em ataques praticamente impossíveis de evitar.\n\nO efeito é tão absurdo que até mesmo mudanças bruscas de movimento, clones ou tentativas de fuga são parcialmente anuladas, pois o campo magnético do fūinjutsu reposiciona naturalmente a descarga elétrica para atingir o alvo correto. Em campos fechados ou áreas previamente preparadas por Nagare, o céu e o solo passam a emitir pequenas partículas brancas de eletricidade, indicando que toda a região foi transformada em uma gigantesca armadilha de execução.",
+        "destruction": "Extremamente elevado. O jutsu transforma qualquer técnica do Shiroki Kaminari em um ataque de perseguição inevitável dentro da área marcada. Múltiplos inimigos podem ser atingidos simultaneamente, sofrendo perfuração elétrica, paralisia severa e destruição massiva do sistema nervoso e do fluxo de chakra.",
+        "history": "Nagare desenvolveu esta técnica após aprofundar seus estudos em Fūinjutsu Uzumaki e perceber que poderia aplicar conceitos de polaridade espiritual ao Raiton. Utilizando selos de atração eletromagnética alimentados pelo Shiroki Kaminari, ele criou um campo onde seus relâmpagos literalmente ‘caçam’ qualquer alvo preso na polaridade negativa.",
+        "status": "Uso extremamente perigoso e estratégico. Requer preparação do ambiente ou contato prévio para aplicar os selos. O consumo de chakra cresce drasticamente conforme o tamanho da área marcada. Caso o fluxo do selo seja interrompido, a polaridade pode colapsar e gerar descargas caóticas capazes de atingir aliados e o próprio Nagare.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F03%20-%20F%C5%ABinjutsu%3A%20Jigoku%20no%20Ky%C5%ABin.jpg?alt=media&v=1786651885072695"
+      },
+      {
+        "name": "Shiroki Kaminari: Amenotejikara Chidori",
+        "classification": "S+",
+        "nature": "Shiroki Kaminari + Amenotejikara",
+        "description": "Nagare canaliza o chakra profano obtido de H para amplificar seu antigo raio negro, transformando-o em um Shiroki Kaminari — um relâmpago branco de altíssima pureza e instabilidade. Ao fundir essa energia ao seu Raiton, ele cria um Chidori Branco extremamente concentrado e penetrante. No instante da investida, ativa o Amenotejikara para romper a barreira do espaço-tempo e trocar instantaneamente de posição, surgindo atrás ou ao lado do inimigo no momento exato do ataque. A combinação de velocidade elétrica, teleporte imediato e poder perfurante torna a técnica quase impossível de prever ou desviar.",
+        "destruction": "Muito elevado. Possui poder de perfuração capaz de atravessar defesas de alto nível e causar destruição interna massiva no ponto de impacto. A natureza instável do relâmpago branco amplifica o dano elétrico no interior do alvo.",
+        "history": "Desenvolvida por Nagare após herdar o poder ocular e o chakra profano de H. Tornou-se sua técnica assinatura, conhecida por eliminar adversários antes mesmo que percebam o deslocamento espacial.",
+        "status": "Uso altamente restrito. Requer grande controle de chakra, domínio do Amenotejikara e resistência física para suportar a tensão espaço-temporal. O uso excessivo pode causar severo desgaste ocular.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F04%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20Chidori.png?alt=media&v=1786651885529882"
+      },
+      {
+        "name": "Shiroki Kaminari: Shageki",
+        "classification": "S+",
+        "nature": "Shiroki Kaminari",
+        "description": "Nagare concentra o poder do Shiroki Kaminari na palma de sua mão dominante, comprimindo a eletricidade branca em um núcleo extremamente denso e instável. O chakra elétrico gira em alta velocidade, emitindo faíscas brancas intensas e um som agudo semelhante a mil relâmpagos ecoando ao mesmo tempo. Ao disparar, o núcleo se transforma em um feixe perfurante de raio branco puro, avançando em linha reta com velocidade quase instantânea. O impacto gera uma explosão elétrica concentrada, capaz de atravessar defesas e desintegrar barreiras energéticas de alto nível. A técnica pode ser carregada por alguns segundos para aumentar drasticamente seu poder de penetração e alcance.",
+        "destruction": "Muito elevado. O disparo possui alto poder perfurante e explosão elétrica concentrada no ponto de impacto, podendo atravessar múltiplos alvos alinhados e causar paralisia severa em sobreviventes.",
+        "history": "Desenvolvida por Nagare como evolução ofensiva da Shiroki Kaminari: Armadura de Raios, essa técnica surgiu da necessidade de ataques de longo alcance mantendo a pureza e densidade máxima do raio branco.",
+        "status": "Uso controlado. Exige grande precisão e controle de chakra. Carregamentos prolongados aumentam o poder, mas podem causar sobrecarga muscular no braço e tremores temporários devido à intensidade elétrica concentrada.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F05%20-%20Shiroki%20Kaminari%3A%20Shageki.png?alt=media&v=1786651885077711"
+      },
+      {
+        "name": "Nintaijutsu: Armadura de Raios",
+        "classification": "S+",
+        "nature": "Nintaijutsu",
+        "description": "Nagare libera e condensa o poder do Shiroki Kaminari, envolvendo completamente seu corpo com uma armadura de raios brancos de alta densidade. A eletricidade assume uma forma fluida e constante, criando uma camada protetora que reage automaticamente a qualquer ameaça. Diversos relâmpagos brancos giram ao redor de seu corpo, interceptando ataques físicos e ninjutsus antes mesmo de alcançá-lo. Essa armadura não apenas protege, mas também amplifica seus reflexos e velocidade, permitindo que Nagare se mova com extrema agilidade enquanto qualquer contato direto com seu corpo resulta em choques devastadores. A energia elétrica também reforça seus golpes corpo a corpo, tornando cada ataque carregado com destruição concentrada.",
+        "destruction": "Elevado. A armadura fornece defesa automática contra ataques diretos e causa danos severos a qualquer oponente que entre em contato com o campo elétrico. Pode neutralizar múltiplos inimigos próximos devido à liberação contínua de raios.",
+        "history": "Criada por Nagare após anos de treinamento para dominar o Shiroki Kaminari, esta técnica representa a fusão perfeita entre defesa absoluta e mobilidade. Tornou-se sua principal forma de combate em batalhas de alto nível.",
+        "status": "Uso controlado. Exige alto controle de chakra e grande resistência física. Uso prolongado pode causar fadiga extrema e sobrecarga no sistema nervoso.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F06%20-%20Nintaijutsu%3A%20Armadura%20de%20Raios.jpg?alt=media&v=1786651885085522"
+      },
+      {
+        "name": "Nintaijutsu: Guillotine Drop",
+        "classification": "S+",
+        "nature": "Nintaijutsu",
+        "description": "Nagare envolve completamente suas pernas com o poder do Shiroki Kaminari, condensando relâmpagos brancos de altíssima densidade até formar lâminas elétricas giratórias ao redor de seus membros inferiores. Em seguida, ele dispara para o alto com uma explosão de chakra, movendo-se a velocidades quase invisíveis. No ponto máximo do salto, Nagare trava o alvo com sua percepção ampliada e despenca verticalmente como uma guilhotina viva. Durante a queda, a eletricidade se comprime ainda mais, criando um campo de pressão que paralisa o oponente e impede sua fuga. Ao impactar, a energia é liberada em uma descarga devastadora, esmagando e cortando o alvo ao mesmo tempo, enquanto relâmpagos brancos se espalham pelo solo, causando dano em área e desestabilizando inimigos próximos.",
+        "destruction": "Muito elevado. O impacto direto pode perfurar defesas de alto nível e causar destruição localizada massiva. A onda elétrica gerada após o golpe paralisa múltiplos alvos e pode incapacitar adversários resistentes.",
+        "history": "Nagare desenvolveu esta técnica após perceber que sua Armadura de Raios era perfeita para combate contínuo, mas faltava um golpe final decisivo. Inspirado em movimentos de execução, ele criou o Guillotine Drop como sua técnica de finalização suprema, combinando velocidade, precisão e poder destrutivo.",
+        "status": "Uso limitado. Requer grande concentração, controle preciso de chakra e preparo físico extremo. Caso falhe ou seja interrompido, Nagare pode sofrer danos devido à compressão elétrica acumulada em suas pernas.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F07%20-%20Nintaijutsu%3A%20Guillotine%20Drop.png?alt=media&v=1786651885071323"
+      },
+      {
+        "name": "Nintaijutsu: Straight",
+        "classification": "S",
+        "nature": "Nintaijutsu",
+        "description": "Nagare concentra o poder do Shiroki Kaminari em um único punho, comprimindo relâmpagos brancos de altíssima densidade até formar uma lâmina elétrica linear ao redor de seu braço. A energia assume uma forma extremamente estável e precisa, reduzindo dispersões e focando toda a destruição em um único ponto. Em um instante, ele avança com um movimento direto e explosivo, alcançando o alvo com um soco reto carregado de eletricidade pura. No momento do impacto, a descarga perfura defesas físicas e campos de chakra, liberando uma onda de choque elétrica que atravessa o corpo do oponente, causando paralisia, danos internos severos e desestabilização do fluxo de chakra. A técnica é conhecida por sua velocidade e precisão, sendo difícil de prever ou bloquear.",
+        "destruction": "Elevado. Pode atravessar defesas resistentes e causar danos internos críticos. A descarga elétrica paralisa temporariamente o alvo e pode afetar inimigos próximos devido à propagação da corrente.",
+        "history": "Criada por Nagare como uma técnica de combate direto e rápido, o Straight foi desenvolvido após intensos treinamentos focados em controle absoluto de energia elétrica. Ele buscava um golpe simples, eficiente e mortal, capaz de encerrar batalhas sem desperdício de chakra.",
+        "status": "Uso controlado. Exige sincronização perfeita entre velocidade corporal e liberação de chakra. O uso repetido pode causar fadiga muscular e sobrecarga elétrica nos nervos do braço.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F08%20-%20Nintaijutsu%3A%20Straight.png?alt=media&v=1786651885065684"
+      },
+      {
+        "name": "Kongō Fūsa",
+        "classification": "S",
+        "nature": "Uzumaki",
+        "description": "Nagare manifesta o Kongō Fūsa, correntes de chakra extremamente densas e resistentes que emergem de seu corpo e se estendem pelo campo de batalha. Essas correntes possuem propriedades de selamento, permitindo restringir, imobilizar e suprimir o chakra de qualquer alvo capturado. Ao envolver o inimigo, elas drenam gradualmente sua energia, enfraquecendo técnicas, bloqueando transformações e anulando invocações. A estrutura das correntes é quase indestrutível, capaz de conter adversários de alto nível e até selar entidades com reservas massivas de chakra. Além disso, Nagare pode moldar livremente a forma, alcance e velocidade dessas correntes, utilizando-as tanto para defesa quanto para ataques de contenção rápida.",
+        "destruction": "Moderado. Embora não seja focada em dano direto, a técnica é devastadora em combate ao neutralizar o fluxo de chakra, enfraquecer oponente e criar aberturas estratégicas decisivas.",
+        "history": "Inspirado em antigas técnicas de selamento de clãs lendários, Nagare estudou profundamente o Fūinjutsu até dominar a criação de correntes espirituais próprias. O Kongō Fūsa tornou-se sua principal habilidade de controle e captura em batalhas contra inimigos poderosos.",
+        "status": "Uso controlado. Consome grande quantidade de chakra para manter múltiplos alvos contidos. Uso prolongado pode causar exaustão e perda de controle das correntes.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F09%20-%20Kong%C5%8D%20F%C5%ABsa.png?alt=media&v=1786651885091909"
+      },
+      {
+        "name": "Kagura Shingan",
+        "classification": "A+",
+        "nature": "Uzumaki",
+        "description": "Nagare desperta o Kagura Shingan, uma habilidade sensorial de altíssimo nível que amplia drasticamente sua percepção de chakra. Seus olhos assumem um brilho sutil enquanto sua mente se conecta ao fluxo energético do ambiente, permitindo que ele detecte a presença, localização, intenção hostil e variações emocionais de qualquer ser vivo dentro de uma vasta área. Diferente de sensores comuns, Nagare consegue distinguir assinaturas de chakra com precisão absoluta, identificando indivíduos específicos, rastreando alvos ocultos e antecipando ataques antes mesmo de serem executados. Essa técnica também permite que ele perceba distorções no espaço, selos ocultos e concentrações de energia, tornando-o extremamente difícil de surpreender em combate.",
+        "destruction": "Baixo. O Kagura Shingan não é uma técnica ofensiva, mas fornece vantagem estratégica extrema ao permitir controle total do campo de batalha e leitura precisa dos movimentos inimigos.",
+        "history": "Nagare desenvolveu essa habilidade após anos de treinamento focado em controle mental, percepção espiritual e análise de chakra. Com o tempo, seu domínio evoluiu a ponto de rivalizar com sensores lendários.",
+        "status": "Uso controlado. Exige grande concentração e resistência mental. Uso prolongado pode causar fadiga sensorial, dores de cabeça e sobrecarga cognitiva.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media&v=1786651886403581"
+      }
+    ]
   },
   {
     "__docId": "nagi-yuki",
@@ -9313,7 +9311,6 @@
       }
     ],
     "combatStyle": "Distância",
-    "focoAtributo": "espirito",
     "divisaoAtributo": {},
     "focosAtributo": [
       "inteligencia",

@@ -5266,10 +5266,11 @@
     "type": "timeline",
     "arco": "4ª Temporada",
     "name": "4ª Temporada",
-    "done": false,
     "imageUrl": null,
     "temporada": "Souma Namikaze",
-    "order": 10191
+    "order": 10191,
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "FFgdqCSA21YivKWFvd88",
@@ -6121,9 +6122,10 @@
     "temporada": "Shoyu Uzumaki",
     "arco": "4ª Temporada",
     "name": "4ª Temporada",
-    "done": false,
     "imageUrl": null,
-    "order": 10189
+    "order": 10189,
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "ilCwit92vU9xGewRpKVy",
