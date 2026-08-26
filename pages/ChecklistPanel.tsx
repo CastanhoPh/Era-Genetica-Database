@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles } from 'lucide-react';
+import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles, Shield } from 'lucide-react';
 import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, CHECKLIST_BLOCOS } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem } from '../types';
@@ -31,7 +31,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const [pending, setPending] = useState<Set<string>>(new Set());
   const [editMode, setEditMode] = useState(false);
   const [activeFilter, setActiveFilter] = useState<'none' | 'pendentes' | 'sem-galeria'>('none');
-  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'geral'>('geral');
+  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'arsenal' | 'geral'>('geral');
 
   // formulários de "adicionar" abertos (chave = temporada, temporada::arco, ou temporada::arco::subarco)
   const [addingTemporada, setAddingTemporada] = useState(false);
@@ -69,6 +69,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const isTransformacao = activeType === 'transformacao';
   const isInvocacao = activeType === 'invocacao';
   const isCapaInvocacao = activeType === 'capaInvocacao';
+  const isArsenal = activeType === 'arsenal';
   const isGeral = activeType === 'geral';
   // Tipo usado ao criar um item novo — a aba "Geral" mistura os outros tipos, então criar
   // por lá sempre cai em "evento" (comportamento já existente, só nomeado agora).
@@ -76,7 +77,8 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
     : isCapa ? 'capa'
       : isCapaInvocacao ? 'capaInvocacao'
         : isInvocacao ? 'invocacao'
-          : isTransformacao ? 'transformacao' : 'evento';
+          : isArsenal ? 'arsenal'
+            : isTransformacao ? 'transformacao' : 'evento';
   const labels = isTransformacao
     ? {
       subtitle: 'Marque aqui os modos e transformações já finalizados de cada personagem',
@@ -100,6 +102,18 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
       arcoPlaceholder: 'Nome da imagem',
       addArcoTitle: 'Adicionar fase',
       emptyChecklist: 'Nenhum item na linha do tempo ainda.',
+    }
+    : isArsenal
+    ? {
+      subtitle: 'Marque aqui as artes de arma já finalizadas, agrupadas pela origem',
+      temporadaLabel: 'Origem',
+      arcoLabel: 'Arma',
+      newTemporadaBtn: 'Nova Origem',
+      temporadaPlaceholder: 'Vila ou organização de origem',
+      firstArcoPlaceholder: 'Nome da primeira arma',
+      arcoPlaceholder: 'Nome da arma',
+      addArcoTitle: 'Adicionar arma',
+      emptyChecklist: 'Nenhuma arma cadastrada ainda.',
     }
     : isInvocacao
     ? {
@@ -139,7 +153,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
       }
       : isGeral
         ? {
-          subtitle: 'Todas as imagens de Eventos, Linha do Tempo, Modos, Invocações e Capas, juntas',
+          subtitle: 'Todas as imagens de Eventos, Linha do Tempo, Modos, Invocações, Capas e Arsenal, juntas',
           temporadaLabel: '',
           arcoLabel: '',
           newTemporadaBtn: '',
@@ -375,6 +389,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
                   : item.type === 'capa' ? `Galeria/Capas/${item.temporada}`
                     : item.type === 'invocacao' ? `Galeria/Invocações/${item.temporada}`
                       : item.type === 'capaInvocacao' ? 'Galeria/Capas Invocações'
+                        : item.type === 'arsenal' ? 'Arsenal'
                         : `Galeria/${item.temporada}/${item.arco}${item.subarco ? `/${item.subarco}` : ''}`}
             fileName={item.name}
             onUploaded={url => handleSetImage(item, url)}
@@ -538,6 +553,13 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
             className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'capaInvocacao' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <ImageIcon size={12} /> Capas de Invocações
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveType('arsenal')}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'arsenal' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+          >
+            <Shield size={12} /> Arsenal
           </button>
         </div>
 

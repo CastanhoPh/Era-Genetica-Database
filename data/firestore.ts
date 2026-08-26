@@ -339,14 +339,14 @@ export async function deleteChecklistItem(docId: string): Promise<void> {
  * O evento ficou em 50_000 desde o começo e tem 253 itens numerados ali, então os projetos novos
  * entram depois dele em vez de empurrar tudo.
  */
-export const CHECKLIST_BLOCOS: Record<NonNullable<ChecklistItem['type']> | 'arsenal', number> = {
+export const CHECKLIST_BLOCOS: Record<NonNullable<ChecklistItem['type']>, number> = {
   timeline: 10_000,
   transformacao: 20_000,
   capa: 30_000,
   invocacao: 40_000,
   evento: 50_000,
   capaInvocacao: 60_000,
-  arsenal: 70_000,   // reservado — o projeto Arsenal 1080×1080 ainda não existe
+  arsenal: 70_000,
 };
 
 // Renumera o campo `order` dentro da faixa de cada tipo (10000, 10001...), sem lacunas nem

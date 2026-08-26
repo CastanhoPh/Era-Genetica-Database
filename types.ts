@@ -93,8 +93,9 @@ export interface ChecklistItem {
    *   capa           4:3          Capas Personagens
    *   invocacao      4:3          Invocações — a arte da criatura
    *   capaInvocacao  4:3          Capas Invocação — a capa de cada invocação
+   *   arsenal        1080×1080    Arsenal — a arte de cada arma
    */
-  type?: 'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao';
+  type?: 'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'arsenal';
   temporada: string;
   arco: string;
   subarco?: string;

@@ -367,6 +367,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     { tipo: 'capaInvocacao' as const, nome: 'Capas Invocação', tam: '1024 × 768 (4:3)', base: CHECKLIST_BLOCOS.capaInvocacao },
     { tipo: 'invocacao' as const, nome: 'Invocações', tam: '1024 × 768 (4:3)', base: CHECKLIST_BLOCOS.invocacao },
     { tipo: 'evento' as const, nome: 'Eventos', tam: '1600 × 900 (16:9)', base: CHECKLIST_BLOCOS.evento },
+    { tipo: 'arsenal' as const, nome: 'Arsenal', tam: '1080 × 1080 (1:1)', base: CHECKLIST_BLOCOS.arsenal },
   ]), []);
 
   const canvaData = useMemo(() => CANVA_PROJETOS.map(p => {
@@ -380,7 +381,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         // identifica a linha: sem "Takeshi Hatake" na frente, as 292 fases da Linha do Tempo viram
         // "Clássico" e "1ª Temporada" repetidos, sem dizer de quem são. A capa repete o nome do
         // personagem nos três campos, então ali os dois formatos dão o mesmo texto.
-        titulo: p.tipo === 'evento' || p.tipo === 'capaInvocacao'
+        titulo: p.tipo === 'evento' || p.tipo === 'capaInvocacao' || p.tipo === 'arsenal'
           ? i.name
           : p.tipo === 'capa'
             ? i.temporada
@@ -674,13 +675,14 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       const detail = tipo === 'capa'
         ? 'capa no checklist de produção'
         : tipo === 'transformacao' ? i.arco
-        : tipo === 'invocacao' || tipo === 'capaInvocacao' ? i.name
+        : tipo === 'invocacao' || tipo === 'capaInvocacao' || tipo === 'arsenal' ? i.name
         : i.subarco ? `${i.arco} · ${i.subarco} · ${i.name}` : `${i.arco} · ${i.name}`;
       const kind: ImageLinkKind = tipo === 'timeline' ? 'Linha do Tempo'
         : tipo === 'transformacao' ? 'Modos e Transformações'
         : tipo === 'capa' ? 'Capas'
         : tipo === 'invocacao' ? 'Invocações'
         : tipo === 'capaInvocacao' ? 'Capas de Invocações'
+        : tipo === 'arsenal' ? 'Arsenal'
         : 'Eventos';
       registra({ kind, owner: i.temporada, detail, url: i.imageUrl });
     }

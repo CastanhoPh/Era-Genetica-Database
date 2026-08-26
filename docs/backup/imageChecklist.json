@@ -1,5 +1,15 @@
 [
   {
+    "__docId": "03zH9MrSmptqwN8PrzOB",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Hakuryū",
+    "name": "Hakuryū",
+    "order": 70040,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F41%20-%20Hakury%C5%AB.png?alt=media&v=1784037990645067"
+  },
+  {
     "__docId": "04ejTITMScSVSSlqI3Uv",
     "type": "capa",
     "temporada": "Raikun Hatake",
@@ -76,6 +86,16 @@
       "Katsuo Uzumaki"
     ],
     "elencoFechado": true
+  },
+  {
+    "__docId": "0Z9tiHYfBFOzCacxkirf",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Mugen",
+    "name": "Mugen",
+    "order": 70059,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F60%20-%20Mugen.png?alt=media&v=1784038025906021"
   },
   {
     "__docId": "1-temporada__chegada-de-raikun__sera-adicionado-em-breve",
@@ -3140,6 +3160,16 @@
     "temporada": "Nishinoya"
   },
   {
+    "__docId": "2VfVWSH4tjOYLv4Ms1fN",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Kongōnyo",
+    "name": "Kongōnyo",
+    "order": 70038,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F39%20-%20Kong%C5%8Dnyo.png?alt=media&v=1784038017389404"
+  },
+  {
     "__docId": "2x2GH7QgP2Dlqkjmd1cK",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -3208,6 +3238,16 @@
     "order": 30081
   },
   {
+    "__docId": "3bESypCaHQdRY5QYBjqB",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Hekireki no Yumi",
+    "name": "Hekireki no Yumi",
+    "order": 70044,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F45%20-%20Hekireki%20no%20Yumi.png?alt=media&v=1784037995787241"
+  },
+  {
     "__docId": "3deqEQv7qcEbhf303Cym",
     "type": "timeline",
     "temporada": "Tetsu Sabaku",
@@ -3240,6 +3280,26 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 10172
+  },
+  {
+    "__docId": "3oTxuaypvzFsP8Nyas59",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Raigan",
+    "name": "Raigan",
+    "order": 70048,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F49%20-%20Raigan.png?alt=media&v=1784038034280807"
+  },
+  {
+    "__docId": "3puQhe9Mg9IkRFdGbFwl",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Suiryū no Reigan",
+    "name": "Suiryū no Reigan",
+    "order": 70068,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F69%20-%20Suiry%C5%AB%20no%20Reigan.png?alt=media&v=1784038057987898"
   },
   {
     "__docId": "3wzUtEINtULZICzz2ud0",
@@ -3340,6 +3400,16 @@
     "order": 40009
   },
   {
+    "__docId": "44yhm7fGVXEBvCFIVq2c",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Kiba",
+    "name": "Kiba",
+    "order": 70042,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F43%20-%20Kiba.png?alt=media&v=1784038012622189"
+  },
+  {
     "__docId": "4bF9qcPe2LD4tiCmWZUb",
     "type": "capaInvocacao",
     "arco": "Gamarai",
@@ -3383,6 +3453,16 @@
     "order": 10136
   },
   {
+    "__docId": "4obpnGRr4OvgctgEIOl8",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Ishi no Seimei",
+    "name": "Ishi no Seimei",
+    "order": 70017,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F19%20-%20Ishi%20no%20Seimei.png?alt=media&v=1784038004178989"
+  },
+  {
     "__docId": "4vzSc4luBieUKZzgBxpC",
     "type": "timeline",
     "temporada": "Furyuzan Chinoike",
@@ -3403,6 +3483,16 @@
     "placeholder": false,
     "doneBy": null,
     "order": 30031
+  },
+  {
+    "__docId": "55NSrjxcjXhNtgV13neJ",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Protótipo de Reigan",
+    "name": "Protótipo de Reigan",
+    "order": 70014,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F16%20-%20Reigan.png?alt=media&v=1784038037759533"
   },
   {
     "__docId": "56bf8VbsRTnUei1C5Yk3",
@@ -3470,6 +3560,16 @@
     "order": 30026
   },
   {
+    "__docId": "5tg6e3WdbRYcQem9WcFo",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Colar dos Hatake",
+    "name": "Colar dos Hatake",
+    "order": 70012,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F14%20-%20Colar%20dos%20Hatake.png?alt=media&v=1784037981385421"
+  },
+  {
     "__docId": "5X4aIrA9E0L7eY516zuz",
     "type": "timeline",
     "temporada": "Kaito Senju",
@@ -3491,6 +3591,16 @@
     "rank": "S+",
     "village": "Konohagakure",
     "order": 40018
+  },
+  {
+    "__docId": "5ykzk8FBvuzUvPwePoT9",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Samehada",
+    "name": "Samehada",
+    "order": 70016,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F18%20-%20Samehada.png?alt=media&v=1784038043902105"
   },
   {
     "__docId": "5znDrjETeeTFW6A4nsJ6",
@@ -3586,6 +3696,16 @@
     "order": 20009
   },
   {
+    "__docId": "73k55DevR8zyqdBJdl8W",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Ryokushin no Seikonseki",
+    "name": "Ryokushin no Seikonseki",
+    "order": 70021,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F23%20-%20Ryokushin%20no%20Seikonseki.png?alt=media&v=1784038040396862"
+  },
+  {
     "__docId": "7Fi3SkProGUUuITmHCmD",
     "type": "capa",
     "temporada": "Koji Ishizuma",
@@ -3655,6 +3775,16 @@
       "Kazuki Hoshigaki"
     ],
     "elencoFechado": true
+  },
+  {
+    "__docId": "826ZFVgor3C4U3imZHb7",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Sakin no Reigan",
+    "name": "Sakin no Reigan",
+    "order": 70054,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F55%20-%20Sakin%20no%20Reigan.png?alt=media&v=1784038041579828"
   },
   {
     "__docId": "891XR2nnfo733mcW5I3t",
@@ -3814,6 +3944,16 @@
     "order": 10088
   },
   {
+    "__docId": "9hFH3p4jd9ydoN7l7zCy",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Raijin no Ken",
+    "name": "Raijin no Ken",
+    "order": 70039,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F40%20-%20Raijin%20no%20Ken.png?alt=media&v=1784038035445769"
+  },
+  {
     "__docId": "9lzUzx2EGuANM0BL3y7P",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -3823,6 +3963,16 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651884032791",
     "order": 10021
+  },
+  {
+    "__docId": "9O74IoBopKRjjOU3OXLd",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Seimei no Saidan",
+    "name": "Seimei no Saidan",
+    "order": 70030,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F31%20-%20Seimei%20no%20Saidan.png?alt=media&v=1784038046169391"
   },
   {
     "__docId": "9PBYrjBwh8aljKHaVusS",
@@ -4079,6 +4229,16 @@
     "order": 30079
   },
   {
+    "__docId": "akFgHPhRU28bJrrSoNSB",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Hyōton Artificial",
+    "name": "Hyōton Artificial",
+    "order": 70010,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485"
+  },
+  {
     "__docId": "aLl3coeWVlqm4DNN2yg1",
     "type": "timeline",
     "temporada": "Katsumi Hyuga",
@@ -4177,6 +4337,16 @@
     "order": 10228
   },
   {
+    "__docId": "AY7RTwsGmFWQAr8VoYEE",
+    "type": "arsenal",
+    "temporada": "Sunagakure",
+    "arco": "Satetsu no Rinne",
+    "name": "Satetsu no Rinne",
+    "order": 70057,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F58%20-%20Satetsu%20no%20Rinne.png?alt=media&v=1784038045060398"
+  },
+  {
     "__docId": "azIWTQoRp2TfDoXqq7wy",
     "type": "timeline",
     "temporada": "Kenma Soryo",
@@ -4198,6 +4368,16 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30039
+  },
+  {
+    "__docId": "B3jiV9oK1Qtm9GRNrpBs",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Hiramekarei",
+    "name": "Hiramekarei",
+    "order": 70041,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F42%20-%20Hiramekarei.png?alt=media&v=1784037997045181"
   },
   {
     "__docId": "b3QhzG9DUyESf2gZN3uB",
@@ -4242,6 +4422,16 @@
     "doneBy": "Zeck",
     "order": 60010,
     "temporada": "Kaito"
+  },
+  {
+    "__docId": "Bjo3pJBIlyJZoeYmeJ2K",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Kabutowari",
+    "name": "Kabutowari",
+    "order": 70024,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F25%20-%20Kabutowari.png?alt=media&v=1784038006584006"
   },
   {
     "__docId": "BMnmcwpSWptlEipyPso5",
@@ -4436,6 +4626,16 @@
     "order": 10260
   },
   {
+    "__docId": "CafBpGdh9AYqQ9pXaVJR",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Kage no Kyōkai",
+    "name": "Kage no Kyōkai",
+    "order": 70037,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F38%20-%20Kage%20no%20Ky%C5%8Dkai.png?alt=media&v=1784038007994490"
+  },
+  {
     "__docId": "cap53iujB6jDRz9j5YFt",
     "type": "timeline",
     "temporada": "Hoshiro Hyuga",
@@ -4482,6 +4682,16 @@
     "order": 40022
   },
   {
+    "__docId": "Cg4sncXciFf5R94suzgx",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Uzumaki no Kon",
+    "name": "Uzumaki no Kon",
+    "order": 70033,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F34%20-%20Uzumaki%20no%20Kon.png?alt=media&v=1784038063051072"
+  },
+  {
     "__docId": "CJmr7hbnLoIcclsCtoyi",
     "placeholder": false,
     "name": "Família Sabaku",
@@ -4521,6 +4731,16 @@
     "doneBy": null,
     "imageUrl": null,
     "order": 10081
+  },
+  {
+    "__docId": "CrfzFrB0c40AtCZUjQMQ",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Hyōga no Seihai",
+    "name": "Hyōga no Seihai",
+    "order": 70072,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1784037999255246"
   },
   {
     "__docId": "CSTVyjPd8r2TR6KmbJO4",
@@ -4644,6 +4864,16 @@
     "order": 30035
   },
   {
+    "__docId": "DXuiMAU4KBfp12O2nEe3",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Umitsuchi no Teisatsu",
+    "name": "Umitsuchi no Teisatsu",
+    "order": 70071,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F72%20-%20Umitsuchi%20no%20Teisatsu.png?alt=media&v=1784038060358754"
+  },
+  {
     "__docId": "Dz6dkKouMXHoN8hnvNIv",
     "type": "capa",
     "temporada": "Shizuru Kurogane",
@@ -4665,6 +4895,16 @@
     "doneBy": null,
     "imageUrl": null,
     "order": 10209
+  },
+  {
+    "__docId": "e0sHJzqRfipJls3QOeeQ",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Akashin no Seikonseki",
+    "name": "Akashin no Seikonseki",
+    "order": 70022,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F76%20-%20Akashin%20no%20Seikonseki.png?alt=media&v=1785775302899"
   },
   {
     "__docId": "E1Yf37W59EmmfpS1nEu7",
@@ -4773,6 +5013,16 @@
     "doneBy": "Zeck",
     "order": 60005,
     "temporada": "Kaito"
+  },
+  {
+    "__docId": "EivVnkp3Qu9ATvYq6Rsf",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Kusanagi",
+    "name": "Kusanagi",
+    "order": 70004,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F06%20-%20Kusanagi.png?alt=media&v=1784038022511186"
   },
   {
     "__docId": "eiypf30WmY6YWHjkyask",
@@ -4988,6 +5238,16 @@
     "order": 10025
   },
   {
+    "__docId": "fEf2IV19SYVYBa1WA4fM",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Yuji no Hōkō",
+    "name": "Yuji no Hōkō",
+    "order": 70049,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F50%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.png?alt=media&v=1784038064308805"
+  },
+  {
     "__docId": "fejike4MaMuT6rynBBKX",
     "type": "invocacao",
     "temporada": "Shikure",
@@ -5138,6 +5398,16 @@
     "order": 40011
   },
   {
+    "__docId": "g7RPEtEo4diteSrTX9RC",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Hakuryū no Ken",
+    "name": "Hakuryū no Ken",
+    "order": 70073,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F74%20-%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1784037991714755"
+  },
+  {
     "__docId": "gE560wIEwu8N3ChB34Xk",
     "type": "timeline",
     "temporada": "Kaito Senju",
@@ -5252,6 +5522,16 @@
     "order": 10076
   },
   {
+    "__docId": "grK0tAhe7dYg6X5pnsLt",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Akai Hoshi",
+    "name": "Akai Hoshi",
+    "order": 70047,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F48%20-%20Akai%20Hoshi.png?alt=media&v=1784037974932121"
+  },
+  {
     "__docId": "gSv0nejhpUxT2SEUbdpD",
     "type": "capaInvocacao",
     "arco": "Madeiroso",
@@ -5284,6 +5564,16 @@
     "order": 10203
   },
   {
+    "__docId": "gutJXRS0IYx98QrpITiB",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Raion",
+    "name": "Raion",
+    "order": 70062,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F63%20-%20Raion.png?alt=media&v=1784038036734732"
+  },
+  {
     "__docId": "guXBfufB7oNSBUxK4oZ6",
     "type": "timeline",
     "temporada": "Koji Ishizuma",
@@ -5304,6 +5594,16 @@
     "doneBy": null,
     "imageUrl": null,
     "order": 10084
+  },
+  {
+    "__docId": "gvb9JyWq6lcXFPr2e7UY",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Luvas de Chakra Profano 'F'",
+    "name": "Luvas de Chakra Profano 'F'",
+    "order": 70009,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F11%20-%20Luvas%20de%20Chakra%20Profano%20'F'.png?alt=media&v=1784038023686359"
   },
   {
     "__docId": "GVij6wJwQEwkOQhRre0N",
@@ -5549,6 +5849,16 @@
     "order": 10179
   },
   {
+    "__docId": "hKWct0nLab69kz6a66aK",
+    "type": "arsenal",
+    "temporada": "Sunagakure",
+    "arco": "Kinjishi no Kōwan",
+    "name": "Kinjishi no Kōwan",
+    "order": 70053,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F54%20-%20Kinjishi%20no%20K%C5%8Dwan.png?alt=media&v=1784038013908004"
+  },
+  {
     "__docId": "HrCkrtk2VhEmQFLmTWQD",
     "type": "timeline",
     "temporada": "Hikaru Ishi",
@@ -5629,6 +5939,15 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 30049
+  },
+  {
+    "__docId": "HZNyiMwArPTE7urfE3oH",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Gama no Zōri",
+    "name": "Gama no Zōri",
+    "order": 70077,
+    "done": false
   },
   {
     "__docId": "hzyJ5ghBcuDCw3Isc3tu",
@@ -5911,6 +6230,16 @@
     "order": 30070
   },
   {
+    "__docId": "J7C72GtIhvOpYI6b98uz",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Aoshin no Seikonseki",
+    "name": "Aoshin no Seikonseki",
+    "order": 70023,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F24%20-%20Aoshin%20no%20Seikonseki.png?alt=media&v=1784037978921739"
+  },
+  {
     "__docId": "JarTwVuuoaUsAw17hIVt",
     "type": "capaInvocacao",
     "arco": "Neter",
@@ -5920,6 +6249,16 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNeter.png?alt=media&v=1787163020414529",
     "order": 60023,
     "temporada": "Hisoka"
+  },
+  {
+    "__docId": "jdDKv5VTyi2eQGvqW1l5",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Ganryū no Omori",
+    "name": "Ganryū no Omori",
+    "order": 70007,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F09%20-%20Ganry%C5%AB%20no%20Omori.png?alt=media&v=1784037985997094"
   },
   {
     "__docId": "JdpFB430ExRo9r5N809u",
@@ -5942,6 +6281,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F3__Temporada.png?alt=media&v=1784751293430",
     "order": 10239
+  },
+  {
+    "__docId": "jjEGRU1zXcAS0dIdPznt",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Rensha",
+    "name": "Rensha",
+    "order": 70064,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F65%20-%20Rensha.png?alt=media&v=1784038039105890"
   },
   {
     "__docId": "JKqhxwjaRFm6p49UTvRR",
@@ -6061,6 +6410,16 @@
     "order": 30034
   },
   {
+    "__docId": "JXyqdqxQnGbpQrDWcLkW",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Shinrin no Kanmuri",
+    "name": "Shinrin no Kanmuri",
+    "order": 70002,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F04%20-%20Shinrin%20no%20Kanmuri.png?alt=media&v=1784038048465039"
+  },
+  {
     "__docId": "k0tOoO5GN08kdyRH5261",
     "type": "capaInvocacao",
     "arco": "Ketsujin",
@@ -6114,6 +6473,16 @@
     "order": 10128
   },
   {
+    "__docId": "kcP4Cqujrv6LBlEz9qu0",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Kaikyō no Men",
+    "name": "Kaikyō no Men",
+    "order": 70066,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F67%20-%20Kaiky%C5%8D%20no%20Men.png?alt=media&v=1784038010250793"
+  },
+  {
     "__docId": "kDHRiYS4J2DIw75BorwG",
     "type": "timeline",
     "temporada": "Nagi Yuki",
@@ -6133,6 +6502,16 @@
     "imageUrl": null,
     "temporada": "Katakana Yotsuki (Alpha)",
     "order": 10280
+  },
+  {
+    "__docId": "kfZaYYlDy2fMNUvaWwW1",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Shibuki",
+    "name": "Shibuki",
+    "order": 70043,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F44%20-%20Shibuki.png?alt=media&v=1784038047384329"
   },
   {
     "__docId": "kImZTBowqfSjtJDSKkg9",
@@ -6234,6 +6613,16 @@
     "order": 30073
   },
   {
+    "__docId": "KvNW3p8wiJRixdLEWXeE",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Sōen no Gauntō",
+    "name": "Sōen no Gauntō",
+    "order": 70001,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F02%20-%20S%C5%8Den%20no%20Gaunt%C5%8D.png?alt=media&v=1784038053119773"
+  },
+  {
     "__docId": "kwjQLM1JBTGR3KPmgvsM",
     "type": "timeline",
     "temporada": "Raizen Kurogane",
@@ -6243,6 +6632,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizen%20Kurogane%2F5__Temporada.png?alt=media&v=1786652856297546",
     "order": 10242
+  },
+  {
+    "__docId": "KXBWUcy0o1aHXoQQfbAG",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Gan-tei no Gaitō",
+    "name": "Gan-tei no Gaitō",
+    "order": 70025,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F26%20-%20Gan-tei%20no%20Gait%C5%8D.png?alt=media&v=1784037984943423"
   },
   {
     "__docId": "L7qLBDGjUXBgotiswS4w",
@@ -6311,6 +6710,16 @@
     "temporada": "Shoyu"
   },
   {
+    "__docId": "lhQul1pErDT0zfRod4yX",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Homura no Chikai",
+    "name": "Homura no Chikai",
+    "order": 70003,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F05%20-%20Homura%20no%20Chikai.png?alt=media&v=1784037998097847"
+  },
+  {
     "__docId": "ll0sIbs9CtXo1BDFY11e",
     "type": "timeline",
     "temporada": "Chigiri Chinoike",
@@ -6358,6 +6767,16 @@
     "rank": "Z",
     "village": "Konohagakure",
     "order": 40031
+  },
+  {
+    "__docId": "LRY0TdbksU9OxirXUat0",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Ōja",
+    "name": "Ōja",
+    "order": 70063,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F64%20-%20%C5%8Cja.png?alt=media&v=1784038028409751"
   },
   {
     "__docId": "LsaA97vjbGeZII3HlMPH",
@@ -6408,6 +6827,16 @@
       "Tobirama Senju"
     ],
     "elencoFechado": true
+  },
+  {
+    "__docId": "lTp07ACUEU5uvgM85DPl",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Sōryū no Seikonseki",
+    "name": "Sōryū no Seikonseki",
+    "order": 70019,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F21%20-%20S%C5%8Dry%C5%AB%20no%20Seikonseki.png?alt=media&v=1784038056770087"
   },
   {
     "__docId": "ltpNFaBtEacM5K2cH3lY",
@@ -6526,6 +6955,16 @@
     "order": 30053
   },
   {
+    "__docId": "mmxvSbjMeBQd5rC4Zc5k",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Pergaminho de Invocação",
+    "name": "Pergaminho de Invocação",
+    "order": 70018,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F20%20-%20Pergaminho%20de%20Invoca%C3%A7%C3%A3o.png?alt=media&v=1784038032078536"
+  },
+  {
     "__docId": "MopvdzigLPgeGNQKqwEZ",
     "name": "5ª Temporada",
     "placeholder": false,
@@ -6536,6 +6975,16 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786370764835642",
     "order": 10152
+  },
+  {
+    "__docId": "MPLpRVOp2CemV6LBzvRm",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Hakuryū no Reipia",
+    "name": "Hakuryū no Reipia",
+    "order": 70031,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F32%20-%20Hakury%C5%AB%20no%20Reipia.png?alt=media&v=1784037994440294"
   },
   {
     "__docId": "mr8q0h4ZZzaiMRWLGQup",
@@ -6698,6 +7147,16 @@
     "order": 10243
   },
   {
+    "__docId": "nKZFVdQVMTaiXtSXiaDF",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Hakuryū no Men",
+    "name": "Hakuryū no Men",
+    "order": 70074,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F75%20-%20Hakury%C5%AB%20no%20Men.png?alt=media&v=1784037992958604"
+  },
+  {
     "__docId": "nopVYcbe9emQVbScKTMU",
     "type": "timeline",
     "temporada": "Arashi Shidehara",
@@ -6745,6 +7204,16 @@
     "order": 40034
   },
   {
+    "__docId": "NrUqanc3qN1WSHxziPug",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Hyōketsu no Sensu",
+    "name": "Hyōketsu no Sensu",
+    "order": 70067,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F68%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1784038000721324"
+  },
+  {
     "__docId": "NVEmTWEBzMpFoydYUbyU",
     "type": "timeline",
     "temporada": "Madara Uchiha",
@@ -6764,6 +7233,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F5__Temporada.png?alt=media&v=1784751318175",
     "order": 10161
+  },
+  {
+    "__docId": "nWuXLxdEQmEDPXEw13sE",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Soen no Kage",
+    "name": "Soen no Kage",
+    "order": 70000,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F01%20-%20S%C5%8Den%20no%20Kage.png?alt=media&v=1784038054326735"
   },
   {
     "__docId": "NX0jTkOvLNa103iP8OLn",
@@ -6881,6 +7360,16 @@
     "elencoFechado": true
   },
   {
+    "__docId": "Ogdtg3vWWt4D4E2kIAlX",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Sōryo no Kōwan",
+    "name": "Sōryo no Kōwan",
+    "order": 70020,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F22%20-%20S%C5%8Dryo%20no%20K%C5%8Dwan.png?alt=media&v=1784038055533656"
+  },
+  {
     "__docId": "ogRfzXPvdsatJ4AADL6D",
     "type": "timeline",
     "temporada": "Tobirama Senju",
@@ -6942,6 +7431,25 @@
     "rank": "S++",
     "village": "Konohagakure",
     "order": 40021
+  },
+  {
+    "__docId": "oM2jkeeg3f0nVWb0gHLq",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Hokage no Haori",
+    "name": "Hokage no Haori",
+    "order": 70075,
+    "done": false
+  },
+  {
+    "__docId": "ooM7Fpx2HTbIPEPlTLqh",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Meishi",
+    "name": "Meishi",
+    "order": 70051,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F52%20-%20Meishi.png?alt=media&v=1784038024820694"
   },
   {
     "__docId": "OqfYXUdpLM2DsQhNvMWj",
@@ -7011,6 +7519,16 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMizuchi.png?alt=media&v=1787163029269377",
     "order": 60042,
     "temporada": "Akira"
+  },
+  {
+    "__docId": "OzwEDmCwo6S7vRAHVP3y",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Fujō no Yubiwa",
+    "name": "Fujō no Yubiwa",
+    "order": 70027,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F28%20-%20Fuj%C5%8D%20no%20Yubiwa.png?alt=media&v=1784037983693423"
   },
   {
     "__docId": "P0XMN3K8CoX1oJIsssBE",
@@ -7176,6 +7694,16 @@
     "rank": "S+",
     "village": "Sunagakure",
     "order": 40042
+  },
+  {
+    "__docId": "pNrzBB87e2ev3SoYcaPp",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Shinsui no Yari",
+    "name": "Shinsui no Yari",
+    "order": 70070,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F71%20-%20Shinsui%20no%20Yari.png?alt=media&v=1784038049663389"
   },
   {
     "__docId": "po850CxPhIavm0ii1GzT",
@@ -7816,6 +8344,16 @@
     "order": 10240
   },
   {
+    "__docId": "PtQYKNzMXqt4XmmeduWV",
+    "type": "arsenal",
+    "temporada": "Sunagakure",
+    "arco": "Sakin no Shinra",
+    "name": "Sakin no Shinra",
+    "order": 70058,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F59%20-%20Sakin%20no%20Shinra.png?alt=media&v=1784038042837518"
+  },
+  {
     "__docId": "pUEUspxRC69OYgFIcXFd",
     "type": "capa",
     "temporada": "Shoyu Uzumaki",
@@ -7871,6 +8409,16 @@
     "order": 10067
   },
   {
+    "__docId": "pYGHntsvq9i4ONLNyF3i",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Jikan no Ōken",
+    "name": "Jikan no Ōken",
+    "order": 70029,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F30%20-%20Jikan%20no%20%C5%8Cken.png?alt=media&v=1784038005503978"
+  },
+  {
     "__docId": "pz8PP3jQs19SbxeJ2b7y",
     "type": "timeline",
     "temporada": "Nayara Kazemori",
@@ -7880,6 +8428,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNayara%20Kazemori%2F5__Temporada.png?alt=media&v=1786652867069868",
     "order": 10245
+  },
+  {
+    "__docId": "Q2x6qs471c6wqm2PmjPA",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Kiri-no-Kami no Yoroi",
+    "name": "Kiri-no-Kami no Yoroi",
+    "order": 70069,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F70%20-%20Kiri-no-Kami%20no%20Yoroi.png?alt=media&v=1784038016309659"
   },
   {
     "__docId": "Q7FGO1u08XJB2N4xECkD",
@@ -7913,6 +8471,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2FCl_ssico.png?alt=media&v=1784569493683142",
     "order": 10120
+  },
+  {
+    "__docId": "qbQRz1wXIafNpSGyFHJa",
+    "type": "arsenal",
+    "temporada": "Sunagakure",
+    "arco": "Tetsu no Sabaku-kyū",
+    "name": "Tetsu no Sabaku-kyū",
+    "order": 70056,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F57%20-%20Tetsu%20no%20Sabaku-ky%C5%AB.png?alt=media&v=1784038059222208"
   },
   {
     "__docId": "QHhUw94u06IUnMOKSuhq",
@@ -7957,6 +8525,16 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1784658602065060",
     "doneBy": "Zeck",
     "order": 10058
+  },
+  {
+    "__docId": "qti92yrJulRqHTpibhz7",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Akaryū no Yubiwa",
+    "name": "Akaryū no Yubiwa",
+    "order": 70005,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F07%20-%20Akary%C5%AB%20no%20Yubiwa.png?alt=media&v=1784037976161712"
   },
   {
     "__docId": "qVbzEzz6qlX21XC77N6y",
@@ -8077,6 +8655,16 @@
     "order": 10282
   },
   {
+    "__docId": "R6tfZNbShCyKAKr4X6BP",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Kagefūin no Kama",
+    "name": "Kagefūin no Kama",
+    "order": 70028,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F29%20-%20Kagef%C5%ABin%20no%20Kama.png?alt=media&v=1784038009187951"
+  },
+  {
     "__docId": "RayS4Jy2uAVOo75at0d1",
     "type": "capaInvocacao",
     "arco": "Yomatora",
@@ -8086,6 +8674,26 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYomatora.png?alt=media&v=1787162969648084",
     "order": 60013,
     "temporada": "Katsumi"
+  },
+  {
+    "__docId": "RcPIghgBwOdWOHBLBVZv",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Guren",
+    "name": "Guren",
+    "order": 70065,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F66%20-%20Guren.png?alt=media&v=1784037988465789"
+  },
+  {
+    "__docId": "rmJKtOOObNAOsxC6Oo0T",
+    "type": "arsenal",
+    "temporada": "Sunagakure",
+    "arco": "Bitei",
+    "name": "Bitei",
+    "order": 70055,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F56%20-%20Bitei.png?alt=media&v=1784037980009667"
   },
   {
     "__docId": "roKgdSuMEqam1vcdyBqZ",
@@ -8224,6 +8832,16 @@
     "temporada": "Kurohime"
   },
   {
+    "__docId": "sHxmC2tjonWW1ZLEFRjA",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Gunbai",
+    "name": "Gunbai",
+    "order": 70026,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F27%20-%20Gunbai.png?alt=media&v=1784037987242210"
+  },
+  {
     "__docId": "sIlAOv5iLEf4PLDWMMvf",
     "type": "invocacao",
     "temporada": "Takeshi",
@@ -8236,6 +8854,16 @@
     "rank": "S+",
     "village": "Konohagakure",
     "order": 40014
+  },
+  {
+    "__docId": "sJfgi7YkdydXPa8r8aQ1",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Uzumaki En'yō",
+    "name": "Uzumaki En'yō",
+    "order": 70032,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F33%20-%20Uzumaki%20En'y%C5%8D.png?alt=media&v=1784038061710423"
   },
   {
     "__docId": "sn1vR0uhYl8vzEI1YXdF",
@@ -8258,6 +8886,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F1__Temporada.png?alt=media&v=1784751361241",
     "order": 10093
+  },
+  {
+    "__docId": "SoUsMM390WDUtK8KTDw0",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Dama no Hiraishin",
+    "name": "Dama no Hiraishin",
+    "order": 70034,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F35%20-%20Dama%20no%20Hiraishin.png?alt=media&v=1784037982628608"
   },
   {
     "__docId": "ss7mVDmS8TXRScCSNwib",
@@ -8359,6 +8997,16 @@
     "order": 10183
   },
   {
+    "__docId": "tOQlvoOuyFMBH7nX9jx1",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Kasa",
+    "name": "Kasa",
+    "order": 70050,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F51%20-%20Kasa.png?alt=media&v=1784038011531511"
+  },
+  {
     "__docId": "TQnPuGzyp8I664IKPNTJ",
     "type": "timeline",
     "temporada": "Shoei Sarutobi",
@@ -8415,6 +9063,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F1__Temporada.png?alt=media&v=1784751303556",
     "order": 10087
+  },
+  {
+    "__docId": "u4HuYuf8YuEXAdYu6Ni2",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Shizuku",
+    "name": "Shizuku",
+    "order": 70061,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F62%20-%20Shizuku.png?alt=media&v=1784038050825687"
   },
   {
     "__docId": "u5lP6oQBY7WhRuZB7aHJ",
@@ -8492,6 +9150,15 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShhei.png?alt=media&v=1787163058505594",
     "order": 60044,
     "temporada": "Borashi"
+  },
+  {
+    "__docId": "Uk5GJwE7v2HzNBER1XCr",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Gama no Kaeruba",
+    "name": "Gama no Kaeruba",
+    "order": 70076,
+    "done": false
   },
   {
     "__docId": "UniNqiRGOW3OTsBzdknV",
@@ -8590,6 +9257,16 @@
     "imageUrl": null,
     "temporada": "Katakana Yotsuki (Alpha)",
     "order": 10279
+  },
+  {
+    "__docId": "vaPH55VgxRZ77W9aNOGU",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Kubikiribōchō",
+    "name": "Kubikiribōchō",
+    "order": 70008,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F10%20-%20Kubikirib%C5%8Dch%C5%8D.png?alt=media&v=1784038020061489"
   },
   {
     "__docId": "vDNO77POIx8VIpkZVdWX",
@@ -8744,6 +9421,16 @@
     "order": 10082
   },
   {
+    "__docId": "WCY9ZSatlUcvixECiJw1",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Aoi Hoshi",
+    "name": "Aoi Hoshi",
+    "order": 70046,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F47%20-%20Aoi%20Hoshi.png?alt=media&v=1784037977553216"
+  },
+  {
     "__docId": "wfeXH6OsXT9lIBBlRlpG",
     "type": "invocacao",
     "temporada": "Kaizuka",
@@ -8779,6 +9466,15 @@
     "order": 10285
   },
   {
+    "__docId": "wHfur79ZUOq1us0gAtys",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Gama Sennin no Keiyaku",
+    "name": "Gama Sennin no Keiyaku",
+    "order": 70078,
+    "done": false
+  },
+  {
     "__docId": "WI6T08PVnkqMy5ahlJ07",
     "type": "timeline",
     "temporada": "Oddy Uchiha",
@@ -8790,6 +9486,16 @@
     "order": 10028
   },
   {
+    "__docId": "wiY9oMUjqupKwluFRObm",
+    "type": "arsenal",
+    "temporada": "Sunagakure",
+    "arco": "Kinjishi no Tsume",
+    "name": "Kinjishi no Tsume",
+    "order": 70052,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F53%20-%20Kinjishi%20no%20Tsume.png?alt=media&v=1784038015215974"
+  },
+  {
     "__docId": "WjnJCZboK0BFZGEuBJji",
     "type": "timeline",
     "temporada": "Naomi Uzumaki",
@@ -8799,6 +9505,16 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F4__Temporada.png?alt=media&v=1786370769267296",
     "order": 10110
+  },
+  {
+    "__docId": "wlMvVJo6OIso0b9XsVk2",
+    "type": "arsenal",
+    "temporada": "Iwagakure",
+    "arco": "Ishi no Kubikazari",
+    "name": "Ishi no Kubikazari",
+    "order": 70006,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F08%20-%20Ishi%20no%20Kubikazari.png?alt=media&v=1784038003049463"
   },
   {
     "__docId": "WLSqtZ9RbJD2vvb7xrHD",
@@ -8958,6 +9674,16 @@
     "temporada": "Satoshi"
   },
   {
+    "__docId": "wy44Vg43dPARy4oO12N4",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Okami Earring",
+    "name": "Okami Earring",
+    "order": 70035,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F36%20-%20Okami%20Earring.png?alt=media&v=1784038029687673"
+  },
+  {
     "__docId": "wYBkXrdZuQ2IDIM9qhT0",
     "type": "timeline",
     "temporada": "Naomi Uzumaki",
@@ -9018,6 +9744,16 @@
     "order": 30047
   },
   {
+    "__docId": "XaJSRHfbzkp5gaNob8Ax",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Okami no Men",
+    "name": "Okami no Men",
+    "order": 70036,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F37%20-%20Okami%20no%20Men.png?alt=media&v=1784038030904533"
+  },
+  {
     "__docId": "xBTbMbCoyluabsZ1nLC2",
     "type": "capaInvocacao",
     "arco": "Shoei",
@@ -9038,6 +9774,26 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1784751370128",
     "order": 10222
+  },
+  {
+    "__docId": "xE4MSESpfffpuFPt156x",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Shōton Artificial",
+    "name": "Shōton Artificial",
+    "order": 70011,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F13%20-%20Sh%C5%8Dton%20Artificial.png?alt=media&v=1784038051999219"
+  },
+  {
+    "__docId": "xeJxaPWOe81EbogeSZ6x",
+    "type": "arsenal",
+    "temporada": "Kirigakure",
+    "arco": "Nuibari",
+    "name": "Nuibari",
+    "order": 70013,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F15%20-%20Nuibari.png?alt=media&v=1784038027069549"
   },
   {
     "__docId": "xg6S0qDSLEP6cSA6wo9U",
@@ -9188,6 +9944,16 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOddyo.png?alt=media&v=1787162981641750",
     "order": 60011,
     "temporada": "Oddy"
+  },
+  {
+    "__docId": "Yb9H58CiEMpHvCVGON8F",
+    "type": "arsenal",
+    "temporada": "Kumogakure",
+    "arco": "Kumo no Jū",
+    "name": "Kumo no Jū",
+    "order": 70045,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F46%20-%20Kumo%20no%20J%C5%AB.png?alt=media&v=1784038021425479"
   },
   {
     "__docId": "YbzJcSGZOZCGhjGNLFJ2",
@@ -9364,6 +10130,16 @@
     "order": 30085
   },
   {
+    "__docId": "z7vURoLRSglbF4EetpAK",
+    "type": "arsenal",
+    "temporada": "OCA",
+    "arco": "Kōrin",
+    "name": "Kōrin",
+    "order": 70060,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F61%20-%20K%C5%8Drin.png?alt=media&v=1784038019005159"
+  },
+  {
     "__docId": "Z8igKFhrZwbcPQj1GZb9",
     "type": "capaInvocacao",
     "arco": "Chroll",
@@ -9440,6 +10216,16 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 20008
+  },
+  {
+    "__docId": "ZlojjmfXGR7FHH8dQa1x",
+    "type": "arsenal",
+    "temporada": "Konohagakure",
+    "arco": "Presilha de Cabelo de Etsuko",
+    "name": "Presilha de Cabelo de Etsuko",
+    "order": 70015,
+    "done": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F17%20-%20Presilha%20de%20Cabelo%20de%20Etsuko.png?alt=media&v=1784038033226174"
   },
   {
     "__docId": "zmn7VKPHo813y1g2JEO9",
