@@ -15,12 +15,19 @@ import admin from 'firebase-admin';
 
 const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.length)
   ?? 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
+// Os sete projetos, na mesma ordem e com os mesmos nomes de pasta de scripts/canva-export.mjs.
 const PROJ = [
   { pasta: 'Linha do Tempo', tipo: 'timeline', tam: '1080x1620' },
   { pasta: 'Modos e Transformações', tipo: 'transformacao', tam: '1080x1620' },
-  { pasta: 'Capas', tipo: 'capa', tam: '1024x768' },
+  { pasta: 'Capas Personagens', tipo: 'capa', tam: '1024x768' },
+  { pasta: 'Capas Invocações', tipo: 'capaInvocacao', tam: '1024x768' },
+  { pasta: 'Invocações', tipo: 'invocacao', tam: '1024x768' },
+  { pasta: 'Arsenal', tipo: 'arsenal', tam: '1080x1080' },
   { pasta: 'Eventos', tipo: 'evento', tam: '1600x900' },
 ];
+// Invocação, capa de invocação e arma já têm um nome próprio e único no checklist — não precisam da
+// composição temporada/arco que os outros três montam.
+const PELO_NOME = new Set(['invocacao', 'capaInvocacao', 'arsenal']);
 
 const d = join(os.homedir(), 'Downloads');
 const chave = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
@@ -42,12 +49,14 @@ for (const p of PROJ) {
   itens.forEach((i, k) => {
     const prefixo = String(k + 1).padStart(largura, '0');
     // arquivo: nome completo; página: primeiro nome
-    const arquivoTitulo = p.tipo === 'capa' ? i.temporada
-      : p.tipo === 'evento' ? [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' - ')
-        : `${i.temporada} - ${i.arco}`;
-    const paginaTitulo = p.tipo === 'capa' ? curto(i.temporada)
-      : p.tipo === 'evento' ? [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' - ')
-        : `${curto(i.temporada)} - ${i.arco}`;
+    const arquivoTitulo = PELO_NOME.has(p.tipo) ? i.name
+      : p.tipo === 'capa' ? i.temporada
+        : p.tipo === 'evento' ? [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' - ')
+          : `${i.temporada} - ${i.arco}`;
+    const paginaTitulo = PELO_NOME.has(p.tipo) ? i.name
+      : p.tipo === 'capa' ? curto(i.temporada)
+        : p.tipo === 'evento' ? [i.temporada, i.arco, i.subarco, i.name].filter(Boolean).join(' - ')
+          : `${curto(i.temporada)} - ${i.arco}`;
     const ext = i.imageUrl
       ? (decodeURIComponent(i.imageUrl.split('/o/')[1].split('?')[0]).match(/\.(\w+)$/)?.[1].toLowerCase() ?? 'png')
       : 'png';

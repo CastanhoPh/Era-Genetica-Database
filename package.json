@@ -23,7 +23,9 @@
     "perfil:derivar": "node scripts/perfil-derivar.mjs",
     "perfil:conferir": "node scripts/perfil-conferir.mjs",
     "invocacoes:check": "node scripts/reconcile-invocacoes.mjs",
-    "invocacoes:fix": "node scripts/reconcile-invocacoes.mjs --apply"
+    "invocacoes:fix": "node scripts/reconcile-invocacoes.mjs --apply",
+    "canva:export": "node scripts/canva-export.mjs",
+    "canva:export:apply": "node scripts/canva-export.mjs --apply"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
