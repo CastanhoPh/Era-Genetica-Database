@@ -1492,7 +1492,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FTecnicas%2F10%20-%20Doton%3A%20Ketton%20K%C5%8Dchi%20no%20Yagura.png?alt=media&v=1786651882846482"
       }
     ],
-    arsenal: [15, 16],
+    arsenal: [15, 16, 45],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FPr_logo.png?alt=media&v=1784658547841356", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1786370783777480", caption: "Clássico", category: "era" },

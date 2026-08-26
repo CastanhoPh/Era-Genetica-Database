@@ -48,7 +48,7 @@
 | 42 | Hiramekarei | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
 | 43 | Kiba | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
 | 44 | Shibuki | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
-| 45 | Hekireki no Yumi | S++ | Raiton | Kumogakure | Desconhecido |
+| 45 | Hekireki no Yumi | S++ | Raiton | Kumogakure | Furyuzan Chinoike |
 | 46 | Kumo no Jū | S++ | Raiton | Kumogakure | Yoru Kurogami |
 | 47 | Aoi Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
 | 48 | Akai Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
@@ -751,8 +751,8 @@ ID: 45
 Classificação: S++
 Natureza: Raiton
 Origem: Kumogakure
-Dono Original: Desconhecido
-Dono Atual: Desconhecido
+Dono Original: Hiroshi Hanzo
+Dono Atual: Furyuzan Chinoike
 
 ![Hekireki no Yumi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F45%20-%20Hekireki%20no%20Yumi.png?alt=media&v=1784037995787241)
 

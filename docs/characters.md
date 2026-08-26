@@ -2131,6 +2131,14 @@ Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
 Descrição:
 Desconhecido
 
+### 3. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
 ## Técnicas
 ### 1. Bijuu Profana: Manto Profano 75%
 Classificação: S++ | Natureza: Chakra Profano

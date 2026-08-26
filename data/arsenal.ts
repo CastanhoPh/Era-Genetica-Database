@@ -516,8 +516,8 @@ export const arsenalData: Equipment[] = [
     origin: "Kumogakure",
     description: "O Hekireki no Yumi, ou 'Arco do Estrondo de Trovão', é uma arma de Rank S++ lendária do País do Trovão que desafia o conceito de arquearia tradicional ao não utilizar projéteis físicos. O usuário cria flechas de puro Raiton altamente compactado que, ao serem disparadas, atingem velocidades próximas à do som, tornando-as quase impossíveis de serem evitadas. No momento do impacto, a flecha libera uma explosão sônica e elétrica devastadora que atordoa o sistema nervoso de todos em um raio de 50 metros e perfura as defesas mais resistentes. O arco possui uma sintonização nervosa que permite ao atirador guiar a trajetória da flecha através do olhar, garantindo uma precisão cirúrgica mesmo em alvos em movimento. É a ferramenta definitiva para o atirador de elite que busca o domínio absoluto do campo de batalha a longas distâncias com poder de fogo comparável a jutsus de Rank S. A energia emitida pelo arco cria um campo magnético que protege o usuário de ataques metálicos, tornando-o um pilar defensivo e ofensivo. Sua posse garante que o portador seja o juiz supremo do campo de batalha, decidindo o destino dos inimigos com a força do trovão.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F45%20-%20Hekireki%20no%20Yumi.png?alt=media&v=1784037995787241",
-    originalOwner: "",
-    currentOwner: ""
+    originalOwner: "Hiroshi Hanzo",
+    currentOwner: "Furyuzan Chinoike"
   },
   {
     id: 46,
