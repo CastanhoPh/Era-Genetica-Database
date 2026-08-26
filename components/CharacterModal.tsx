@@ -44,6 +44,21 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   };
   const scrollEraStrip = (direction: 1 | -1) => scrollStrip(eraStripRef, direction);
 
+  // A faixa de abas do topo sempre rolou, mas com scrollbar-none nada dizia isso: numa ficha com as
+  // seis abas as duas ultimas ficam atras dos icones de acao e so um gesto de trackpad as alcancava.
+  const tabStripRef = useRef<HTMLDivElement>(null);
+  const [tabSobra, setTabSobra] = useState({ esq: false, dir: false });
+  const mediaTabs = () => {
+    const el = tabStripRef.current;
+    if (!el) return;
+    // 4px de tolerancia: navegador arredonda scrollLeft e a seta piscaria no fim da rolagem.
+    const folga = el.scrollWidth - el.clientWidth - el.scrollLeft;
+    const esq = el.scrollLeft > 4;
+    const dir = folga > 4;
+    setTabSobra(a => (a.esq === esq && a.dir === dir ? a : { esq, dir }));
+  };
+  const scrollTabs = (direction: 1 | -1) => scrollStrip(tabStripRef, direction);
+
   const copyLink = () => {
     if (!char?.docId) return;
     const url = `${window.location.origin}${location.pathname}`;
@@ -235,6 +250,20 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
       : tab === 'eventos' ? `${charBasePath}/eventos`
       : `${charBasePath}/linha-do-tempo`
   );
+  // O numero de abas muda com a ficha, e a largura disponivel muda com a janela.
+  useEffect(() => {
+    mediaTabs();
+    window.addEventListener('resize', mediaTabs);
+    return () => window.removeEventListener('resize', mediaTabs);
+  }, [char, characterInvocacoes.length]);
+
+  // Abrir a ficha por link direto numa aba escondida tem de mostrar a aba, nao so o conteudo.
+  useEffect(() => {
+    const btn = tabStripRef.current?.querySelector<HTMLButtonElement>('[data-aba-ativa="1"]');
+    btn?.scrollIntoView({ inline: 'nearest', block: 'nearest' });
+    mediaTabs();
+  }, [activeTab, char]);
+
   const goToInvocacao = (idx: number) => {
     const inv = characterInvocacoes[idx];
     if (inv) goTo(`${charBasePath}/invocacoes/${encodeURIComponent(slugify(inv.nome))}`);
@@ -399,45 +428,79 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                     de comprimir os botões ou empurrar os ícones de ação para fora. */}
                 <div className="flex items-center gap-4 min-w-0">
                     <Terminal size={14} className="text-tech-primary shrink-0" />
-                    <div className="flex gap-2 overflow-x-auto scrollbar-none">
-                        <button
-                            onClick={() => goToTab('data')}
-                            className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'data' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
-                        >
-                            DADOS_GERAIS
-                        </button>
-                        <button
-                            onClick={() => goToTab('techniques')}
-                            className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'techniques' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
-                        >
-                            Jutsus [{allTechniques.length}]
-                        </button>
-                        <button
-                            onClick={() => goToTab('arsenal')}
-                            className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'arsenal' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
-                        >
-                            Arsenal [{characterCurrentSectionArsenal.length}]
-                        </button>
-                        {characterInvocacoes.length > 0 && (
-                            <button
-                                onClick={() => goToTab('invocacoes')}
-                                className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'invocacoes' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
-                            >
-                                Invocações [{characterInvocacoes.length}]
-                            </button>
+                    {/* min-w-0 + flex-1: a faixa fica com a largura que sobra e rola dentro dela,
+                        em vez de empurrar os icones de acao para fora da tela. */}
+                    <div className="relative min-w-0 flex-1">
+                        {tabSobra.esq && (
+                            <>
+                                <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-10 bg-gradient-to-r from-tech-panel to-transparent z-10" />
+                                <button
+                                    onClick={() => scrollTabs(-1)}
+                                    title="Abas anteriores"
+                                    className="absolute left-0 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center h-6 w-6 bg-tech-panel border border-tech-border text-tech-primary hover:bg-tech-primary hover:text-black transition-colors clip-corner-sm"
+                                >
+                                    <ChevronLeft size={14} />
+                                </button>
+                            </>
                         )}
-                        <button
-                            onClick={() => goToTab('gallery')}
-                            className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'gallery' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
-                        >
-                            Linha do Tempo [{eraGallery.length + transformacaoGallery.length}]
-                        </button>
-                        <button
-                            onClick={() => goToTab('eventos')}
-                            className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'eventos' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
-                        >
-                            Eventos [{eventoGallery.length}]
-                        </button>
+                        <div ref={tabStripRef} onScroll={mediaTabs} className="flex gap-2 overflow-x-auto scrollbar-none">
+                            <button
+                                onClick={() => goToTab('data')}
+                                data-aba-ativa={activeTab === 'data' ? '1' : undefined}
+                                className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'data' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                            >
+                                DADOS_GERAIS
+                            </button>
+                            <button
+                                onClick={() => goToTab('techniques')}
+                                data-aba-ativa={activeTab === 'techniques' ? '1' : undefined}
+                                className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'techniques' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                            >
+                                Jutsus [{allTechniques.length}]
+                            </button>
+                            <button
+                                onClick={() => goToTab('arsenal')}
+                                data-aba-ativa={activeTab === 'arsenal' ? '1' : undefined}
+                                className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'arsenal' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                            >
+                                Arsenal [{characterCurrentSectionArsenal.length}]
+                            </button>
+                            {characterInvocacoes.length > 0 && (
+                                <button
+                                    onClick={() => goToTab('invocacoes')}
+                                data-aba-ativa={activeTab === 'invocacoes' ? '1' : undefined}
+                                    className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'invocacoes' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                                >
+                                    Invocações [{characterInvocacoes.length}]
+                                </button>
+                            )}
+                            <button
+                                onClick={() => goToTab('gallery')}
+                                data-aba-ativa={activeTab === 'gallery' ? '1' : undefined}
+                                className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'gallery' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                            >
+                                Linha do Tempo [{eraGallery.length + transformacaoGallery.length}]
+                            </button>
+                            <button
+                                onClick={() => goToTab('eventos')}
+                                data-aba-ativa={activeTab === 'eventos' ? '1' : undefined}
+                                className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'eventos' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                            >
+                                Eventos [{eventoGallery.length}]
+                            </button>
+                        </div>
+                        {tabSobra.dir && (
+                            <>
+                                <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-10 bg-gradient-to-l from-tech-panel to-transparent z-10" />
+                                <button
+                                    onClick={() => scrollTabs(1)}
+                                    title="Proximas abas"
+                                    className="absolute right-0 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center h-6 w-6 bg-tech-panel border border-tech-border text-tech-primary hover:bg-tech-primary hover:text-black transition-colors clip-corner-sm"
+                                >
+                                    <ChevronRight size={14} />
+                                </button>
+                            </>
+                        )}
                     </div>
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
