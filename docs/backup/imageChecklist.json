@@ -3795,9 +3795,7 @@
     "arco": "Sakin no Reigan",
     "name": "Sakin no Reigan",
     "order": 70054,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F55%20-%20Sakin%20no%20Reigan.png?alt=media&v=1784038041579828",
-    "done": true,
-    "doneBy": "Desconhecido"
+    "done": false
   },
   {
     "__docId": "891XR2nnfo733mcW5I3t",
@@ -3849,10 +3847,10 @@
     "arco": "Katsuo Uzumaki",
     "name": "Katsuo Uzumaki",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FKatsuo%20Uzumaki.jpg?alt=media&v=1786046061739",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30029
+    "order": 30029,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.jpg?alt=media&v=1786651899866930"
   },
   {
     "__docId": "8ryXgdJTP5vqhIA6fjfu",
@@ -4295,10 +4293,10 @@
     "arco": "Enrai Hanzo",
     "name": "Enrai Hanzo",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FEnrai%20Hanzo.png?alt=media&v=1786046038407",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30054
+    "order": 30054,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1786651908733812"
   },
   {
     "__docId": "aq8JMPRQ7HL8lJDT7b39",
@@ -4381,10 +4379,10 @@
     "arco": "Reika Uzumaki",
     "name": "Reika Uzumaki",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FReika%20Uzumaki.jpg?alt=media&v=1786046056342",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30039
+    "order": 30039,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.jpg?alt=media&v=1786651901803501"
   },
   {
     "__docId": "B3jiV9oK1Qtm9GRNrpBs",
@@ -4561,8 +4559,8 @@
     "done": true,
     "placeholder": false,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FNajin%20Hatake.png?alt=media&v=1786045822587",
-    "order": 30005
+    "order": 30005,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FNajin%20Hatake.png?alt=media&v=1786651878666225"
   },
   {
     "__docId": "c2UKa6kcFISb432sY6r3",
@@ -4598,8 +4596,8 @@
     "done": true,
     "placeholder": false,
     "doneBy": "Zeck",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FKaito%20Senju.png?alt=media&v=1786045825687",
-    "order": 30001
+    "order": 30001,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1786651869698045"
   },
   {
     "__docId": "C8bnOn8oCh5F05INLZmw",
@@ -5523,8 +5521,8 @@
     "done": true,
     "placeholder": false,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FNishinoya%20Senju.png?alt=media&v=1786045828927",
-    "order": 30000
+    "order": 30000,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.jpg?alt=media&v=1786651865147176"
   },
   {
     "__docId": "GQqMYrIWNN9cf1c2ujba",
@@ -5681,8 +5679,8 @@
     "done": true,
     "placeholder": false,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FKatsumi%20Hyuga.png?alt=media&v=1786045841637",
-    "order": 30004
+    "order": 30004,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FKatsumi%20Hyuga.png?alt=media&v=1786651875776672"
   },
   {
     "__docId": "H2YNOebiy0ysoZBFFMzj",
@@ -5967,10 +5965,10 @@
     "arco": "Kurohime Kazeori",
     "name": "Kurohime Kazeori",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FKurohime%20Kazeori.png?alt=media&v=1786046041697",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30049
+    "order": 30049,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1786651910583724"
   },
   {
     "__docId": "HZNyiMwArPTE7urfE3oH",
@@ -6090,10 +6088,10 @@
     "arco": "Chigiri Chinoike",
     "name": "Chigiri Chinoike",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FChigiri%20Chinoike.png?alt=media&v=1786046050937",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30046
+    "order": 30046,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1786651908728450"
   },
   {
     "__docId": "IfJLDvHkrSOUdbGY43fL",
@@ -6212,10 +6210,10 @@
     "arco": "Ayumi Uchiha",
     "name": "Ayumi Uchiha",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FAyumi%20Uchiha.png?alt=media&v=1786045695718",
     "done": true,
     "doneBy": "Zeck",
-    "order": 30012
+    "order": 30012,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyumi%20Uchiha%2FAyumi%20Uchiha.png?alt=media&v=1786651896398168"
   },
   {
     "__docId": "itpJoIgKe2XprMmXWTsX",
@@ -6337,8 +6335,8 @@
     "done": true,
     "placeholder": false,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FOddy%20Uchiha.png?alt=media&v=1786045831930",
-    "order": 30003
+    "order": 30003,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.jpg?alt=media&v=1786651872658006"
   },
   {
     "__docId": "JpahVcGvHAYMma80YYJi",
@@ -6993,10 +6991,10 @@
     "arco": "Mika Yotsuki",
     "name": "Mika Yotsuki",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FMika%20Yotsuki.png?alt=media&v=1786046032365",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30053
+    "order": 30053,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMika%20Yotsuki%2FMika%20Yotsuki.png?alt=media&v=1786651908714917"
   },
   {
     "__docId": "mmxvSbjMeBQd5rC4Zc5k",
@@ -7437,10 +7435,10 @@
     "arco": "Kenma Soryo",
     "name": "Kenma Soryo",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FKenma%20Soryo.png?alt=media&v=1786045246023",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30010
+    "order": 30010,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.jpg?alt=media&v=1786651886159192"
   },
   {
     "__docId": "OkCCjlnewuCpESF3GbfI",
@@ -7788,10 +7786,10 @@
     "arco": "Tessai Enshaku",
     "name": "Tessai Enshaku",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FTessai%20Enshaku.png?alt=media&v=1786046044854",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30048
+    "order": 30048,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1786651909974548"
   },
   {
     "__docId": "PPwEDk5aMnEJVGKJXiHX",
@@ -8382,8 +8380,8 @@
     "done": true,
     "placeholder": false,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FNagare%20Uzumaki.png?alt=media&v=1786045835209",
-    "order": 30002
+    "order": 30002,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.jpg?alt=media&v=1786651884017022"
   },
   {
     "__docId": "PTCfS0tGg1IMsrgMpBUI",
@@ -8639,10 +8637,10 @@
     "arco": "Yoru Kurogami",
     "name": "Yoru Kurogami",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FYoru%20Kurogami.png?alt=media&v=1786046029062",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30052
+    "order": 30052,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1786651908022138"
   },
   {
     "__docId": "qYuwZJSUIjP4hneLjqym",
@@ -8802,8 +8800,8 @@
     "placeholder": false,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FKazuki%20Hoshigaki.png?alt=media&v=1786045838379",
-    "order": 30009
+    "order": 30009,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.jpg?alt=media&v=1786651886146199"
   },
   {
     "__docId": "rSsmxJpWr1XStIvtWiZB",
@@ -9011,10 +9009,10 @@
     "arco": "Reito Kurogami",
     "name": "Reito Kurogami",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FReito%20Kurogami.png?alt=media&v=1786046035431",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30051
+    "order": 30051,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReito%20Kurogami%2FReito%20Kurogami.png?alt=media&v=1786651906964749"
   },
   {
     "__docId": "TIcsz4uyqSrBj5K8YBt6",
@@ -9276,10 +9274,10 @@
     "arco": "Reto Sabaku",
     "name": "Reto Sabaku",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FReto%20Sabaku.png?alt=media&v=1786046054162",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30043
+    "order": 30043,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1786651908717643"
   },
   {
     "__docId": "v4cekuT0ZX4CQvyxP00c",
@@ -9809,10 +9807,10 @@
     "arco": "Mizue Dokuhana",
     "name": "Mizue Dokuhana",
     "placeholder": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FMizue%20Dokuhana.png?alt=media&v=1786046047829",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30047
+    "order": 30047,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1786651909330322"
   },
   {
     "__docId": "XaJSRHfbzkp5gaNob8Ax",
@@ -9936,8 +9934,8 @@
     "placeholder": false,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FShoei%20Sarutobi.png?alt=media&v=1786045844538",
-    "order": 30007
+    "order": 30007,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.jpg?alt=media&v=1786651881731095"
   },
   {
     "__docId": "xT59z9wovyPAv2za16L7",
@@ -10050,8 +10048,8 @@
     "placeholder": false,
     "done": true,
     "doneBy": "Pedro",
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%2FSatoshi%20Namikaze.png?alt=media&v=1786046059674",
-    "order": 30030
+    "order": 30030,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786651893496752"
   },
   {
     "__docId": "Yfp8CiLSrtTHJdnble2l",

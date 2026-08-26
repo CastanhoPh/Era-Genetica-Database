@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles, Shield } from 'lucide-react';
-import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, CHECKLIST_BLOCOS } from '../data/firestore';
+import { subscribeChecklist, subscribeCharacters, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, setCapaDoPersonagem, pastaDoRetrato, CHECKLIST_BLOCOS } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
-import { ChecklistItem } from '../types';
+import { ChecklistItem, Character } from '../types';
 import ImageUploadButton from '../components/ImageUploadButton';
 
 const countable = (items: ChecklistItem[]) => items.filter(i => !i.placeholder);
@@ -23,6 +23,9 @@ interface ChecklistPanelProps {
 
 const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, onRequestLogin }) => {
   const [items, setItems] = useState<ChecklistItem[]>([]);
+  // Só para a capa: o upload precisa saber onde o retrato daquela ficha vive hoje, e o
+  // handleSetImage precisa atualizar a ficha junto.
+  const [characters, setCharacters] = useState<Character[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
@@ -45,6 +48,16 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
     const unsubscribe = subscribeChecklist(
       data => { setItems(data); setLoading(false); setError(null); },
       err => { console.error('Erro ao escutar checklist:', err); setError('Não foi possível carregar a checklist.'); setLoading(false); },
+    );
+    return () => unsubscribe();
+  }, []);
+
+  // As fichas entram só para a capa: dizem onde o retrato de cada personagem vive hoje. Falhar aqui
+  // não quebra o painel — o upload de capa cai na pasta padrão e o resto segue igual.
+  useEffect(() => {
+    const unsubscribe = subscribeCharacters(
+      setCharacters,
+      err => console.error('Erro ao escutar personagens (só afeta o upload de capa):', err),
     );
     return () => unsubscribe();
   }, []);
@@ -283,9 +296,22 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
     });
   };
 
+  const retratoDe = (nome: string) => characters.find(c => c.name === nome)?.image;
+
+  // A capa de personagem e o retrato da ficha sao a mesma arte, entao um upload tem de chegar aos
+  // dois lugares. Antes disso, o painel marcava "feito" e a ficha seguia com a capa da temporada
+  // anterior — e nada avisava.
   const handleSetImage = (item: ChecklistItem, url: string) => {
     if (!item.docId) return;
-    withPending(item.docId, () => updateChecklistItem(item.docId!, { imageUrl: url }));
+    withPending(item.docId, async () => {
+      await updateChecklistItem(item.docId!, { imageUrl: url });
+      if (item.type === 'capa') {
+        const ficha = await setCapaDoPersonagem(item.temporada, url);
+        if (!ficha) {
+          setError(`Capa salva no checklist, mas não achei a ficha "${item.temporada}" para atualizar o retrato.`);
+        }
+      }
+    });
   };
 
   const handleRemoveImage = (item: ChecklistItem) => {
@@ -386,7 +412,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
             pathPrefix={
               item.type === 'timeline' ? `Galeria/Linha do Tempo/${item.temporada}`
                 : item.type === 'transformacao' ? `Galeria/Modos e Transformações/${item.temporada}`
-                  : item.type === 'capa' ? `Galeria/Capas/${item.temporada}`
+                  : item.type === 'capa' ? pastaDoRetrato(item.temporada, retratoDe(item.temporada))
                     : item.type === 'invocacao' ? `Galeria/Invocações/${item.temporada}`
                       : item.type === 'capaInvocacao' ? 'Galeria/Capas Invocações'
                         : item.type === 'arsenal' ? 'Arsenal'

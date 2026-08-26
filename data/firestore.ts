@@ -1,5 +1,5 @@
 // Acesso aos dados no Firestore (leitura e escrita de admin).
-import { collection, getDocs, doc, addDoc, setDoc, deleteDoc, updateDoc, onSnapshot, writeBatch } from 'firebase/firestore';
+import { collection, getDocs, getDoc, doc, addDoc, setDoc, deleteDoc, updateDoc, onSnapshot, writeBatch } from 'firebase/firestore';
 import { db } from '../firebase';
 import { ref as storageRef, getBytes, getMetadata, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 import { storage } from '../firebaseStorage';
@@ -317,6 +317,45 @@ export async function renameChecklistItem(item: ChecklistItem, nome: string): Pr
 export async function updateChecklistItem(docId: string, changes: Partial<ChecklistItem>): Promise<void> {
   const { docId: _omit, ...rest } = changes as ChecklistItem;
   await updateDoc(doc(db, 'imageChecklist', docId), clean(rest));
+}
+
+/**
+ * A capa de personagem e o retrato da ficha sao a MESMA arte: o item `capa` do checklist rastreia a
+ * migracao dos 86 retratos para o desenho da temporada nova. Antes disso existir, subir uma capa
+ * pelo Checklist gravava so o `imageUrl` do item — o painel marcava "feito" e a ficha seguia com a
+ * arte velha, sem aviso nenhum. Quem quisesse os dois tinha de subir a imagem duas vezes.
+ *
+ * Retorna o nome da ficha atualizada, ou null quando nao existe ficha com esse nome (o item de capa
+ * e nomeado pelo personagem em `temporada`, e a ficha e encontrada pelo slug desse nome).
+ */
+export async function setCapaDoPersonagem(nomeDoPersonagem: string, url: string): Promise<string | null> {
+  const docId = slugify(nomeDoPersonagem);
+  if (!docId) return null;
+  const ref = doc(db, 'characters', docId);
+  const snap = await getDoc(ref);
+  if (!snap.exists()) return null;
+  await updateDoc(ref, { image: url });
+  return (snap.data() as Character).name;
+}
+
+/**
+ * A pasta onde o retrato de uma ficha vive hoje, para um upload novo cair ao lado do atual em vez de
+ * um caminho inventado a partir do nome. Dois personagens guardam o retrato numa pasta com o nome do
+ * apelido, nao do nome da ficha (`Characters/Theta`, `Characters/Togo Kage`) — derivar do nome os
+ * mandaria para outro lugar e deixaria o antigo orfao.
+ *
+ * Sem retrato cadastrado, cai em `Characters/<nome>`, que e a convencao para uma ficha nova.
+ */
+export function pastaDoRetrato(nomeDoPersonagem: string, imageUrl?: string): string {
+  const bruto = imageUrl?.split('/o/')[1]?.split('?')[0];
+  if (bruto) {
+    try {
+      const caminho = decodeURIComponent(bruto);
+      const barra = caminho.lastIndexOf('/');
+      if (barra > 0) return caminho.slice(0, barra);
+    } catch { /* URL torta: cai na convencao abaixo */ }
+  }
+  return `Characters/${nomeDoPersonagem.replace(/\//g, '-')}`;
 }
 
 export async function addChecklistItem(item: Omit<ChecklistItem, 'docId'>): Promise<string> {
