@@ -209,24 +209,40 @@
     "invocacoes": [
       {
         "nome": "Madeiroso",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMadeiroso.png?alt=media&v=1787776762603511",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FMadeiroso.png?alt=media&v=1787776723270367",
         "rank": "S+",
         "nature": "Mokuton",
         "village": "Konohagakure"
       },
       {
         "nome": "Tronquinho",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTronquinho.png?alt=media&v=1787776767132549",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FTronquinho.png?alt=media&v=1787776727121337",
         "rank": "S+",
         "nature": "Mokuton",
         "village": "Konohagakure"
       },
       {
         "nome": "Hash-hash",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHash-hash.png?alt=media&v=1787776760226141",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787776721072224",
         "rank": "S+",
         "nature": "Mokuton",
         "village": "Konohagakure"
       },
       {
         "nome": "Sakura",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSakura.png?alt=media&v=1787776764878250",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FSakura.png?alt=media&v=1787776725376998",
+        "rank": "S+",
+        "nature": "Mokuton",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Budinha",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FBudinha.png?alt=media&v=1787776757961358",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FBudinha.png?alt=media&v=1787776718199712",
         "rank": "S+",
         "nature": "Mokuton",
         "village": "Konohagakure"
@@ -11101,6 +11117,126 @@
         "nome": "Gurenmaru",
         "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGurenmaru.png?alt=media&v=1787162991878811",
         "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGurenmaru.png?alt=media&v=1787162990419669",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Fukasaku",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FFukasaku.png?alt=media&v=1787776769136090",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FFukasaku.png?alt=media&v=1787776728822693",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamabunsei",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamabunsei.png?alt=media&v=1787776771358520",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamabunsei.png?alt=media&v=1787776730836371",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamabunta",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamabunta.png?alt=media&v=1787776773526443",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamabunta.png?alt=media&v=1787776733008660",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamahocho",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamahocho.png?alt=media&v=1787776775697997",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamahocho.png?alt=media&v=1787776734777326",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamahomura",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamahomura.png?alt=media&v=1787776777518611",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamahomura.png?alt=media&v=1787776736855987",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamajosai",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamajosai.png?alt=media&v=1787776779687420",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamajosai.png?alt=media&v=1787776738912720",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamakaji",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamakaji.png?alt=media&v=1787776781958995",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamakaji.png?alt=media&v=1787776741017339",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamakoun",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamakoun.png?alt=media&v=1787776784236322",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamakoun.png?alt=media&v=1787776743191026",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamanui",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamanui.png?alt=media&v=1787776786429489",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamanui.png?alt=media&v=1787776745253643",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamakiri",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamakiri.png?alt=media&v=1787776788582681",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamakiri.png?alt=media&v=1787776747428511",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamatake",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamatake.png?alt=media&v=1787776790844254",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamatake.png?alt=media&v=1787776749183670",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamatama",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamatama.png?alt=media&v=1787776792623597",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamatama.png?alt=media&v=1787776750738290",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamatsuzumi",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamatsuzumi.png?alt=media&v=1787776794899318",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamatsuzumi.png?alt=media&v=1787776752809138",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Gamayakushi",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamayakushi.png?alt=media&v=1787776797121544",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamayakushi.png?alt=media&v=1787776754353106",
+        "rank": "Z",
+        "nature": "Senjutsu",
+        "village": "Konohagakure"
+      },
+      {
+        "nome": "Shima",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShima.png?alt=media&v=1787776798775702",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FShima.png?alt=media&v=1787776756327909",
         "rank": "Z",
         "nature": "Senjutsu",
         "village": "Konohagakure"

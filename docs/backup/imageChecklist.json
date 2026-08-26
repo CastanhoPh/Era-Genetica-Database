@@ -40,8 +40,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKagejin.png?alt=media&v=1787163076543649",
-    "order": 60035,
-    "temporada": "Shikatsu"
+    "temporada": "Shikatsu",
+    "order": 60050
   },
   {
     "__docId": "0pBsIS2jMpPB0HGNFqtu",
@@ -65,6 +65,20 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1786370721697470",
     "order": 10050
+  },
+  {
+    "__docId": "0tKJZDfi6LbR711qxZU0",
+    "temporada": "Satoshi",
+    "arco": "Gamahocho",
+    "name": "Gamahocho",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamahocho.png?alt=media&v=1787776734777326",
+    "order": 40036
   },
   {
     "__docId": "0vY1igdFWYE5xfh859Mg",
@@ -2216,6 +2230,17 @@
     "order": 50179
   },
   {
+    "__docId": "18mDs7oaTFF6oJJdmGWi",
+    "temporada": "Satoshi",
+    "arco": "Gamatama",
+    "name": "Gamatama",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamatama.png?alt=media&v=1787776792623597",
+    "order": 60044
+  },
+  {
     "__docId": "1eyj3b99kmZolOEmB1Wb",
     "type": "timeline",
     "arco": "2ª Temporada",
@@ -3140,6 +3165,20 @@
     "order": 30083
   },
   {
+    "__docId": "2kfz9B7Cq1Nv23pMh2ZN",
+    "temporada": "Satoshi",
+    "arco": "Gamahomura",
+    "name": "Gamahomura",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamahomura.png?alt=media&v=1787776736855987",
+    "order": 40037
+  },
+  {
     "__docId": "2QUvT69Xk0v3DVfGWPRJ",
     "type": "timeline",
     "temporada": "Najin Hatake",
@@ -3323,9 +3362,11 @@
     "type": "capaInvocacao",
     "arco": "Hash-hash",
     "name": "Hash-hash",
-    "done": false,
     "order": 60017,
-    "temporada": "Airi"
+    "temporada": "Airi",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHash-hash.png?alt=media&v=1787776760226141",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "4-temporada__alpha-e-a-vila-da-nuvem__sera-adicionado-em-breve",
@@ -3415,6 +3456,17 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F43%20-%20Kiba.png?alt=media&v=1784038012622189",
     "done": true,
     "doneBy": "Desconhecido"
+  },
+  {
+    "__docId": "48Y9RlTzCnpiZKgaXmc6",
+    "temporada": "Satoshi",
+    "arco": "Gamahocho",
+    "name": "Gamahocho",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamahocho.png?alt=media&v=1787776775697997",
+    "order": 60036
   },
   {
     "__docId": "4bF9qcPe2LD4tiCmWZUb",
@@ -3525,6 +3577,20 @@
     "order": 10254
   },
   {
+    "__docId": "5J4WNTqugCWk5aj5Vmxm",
+    "temporada": "Satoshi",
+    "arco": "Gamabunta",
+    "name": "Gamabunta",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamabunta.png?alt=media&v=1787776733008660",
+    "order": 40035
+  },
+  {
     "__docId": "5LZYUzFepWbqpxX65DYc",
     "type": "capaInvocacao",
     "arco": "Akeganai",
@@ -3532,8 +3598,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAkeganai.png?alt=media&v=1787163032120472",
-    "order": 60040,
-    "temporada": "Shikure"
+    "temporada": "Shikure",
+    "order": 60055
   },
   {
     "__docId": "5r2jHCTpfXFBH24dNN2t",
@@ -3596,11 +3662,13 @@
     "temporada": "Airi",
     "arco": "Sakura",
     "name": "Sakura",
-    "done": false,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
-    "order": 40018
+    "order": 40018,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FSakura.png?alt=media&v=1787776725376998",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "5ykzk8FBvuzUvPwePoT9",
@@ -3632,8 +3700,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMeiryu.png?alt=media&v=1787163073397322",
-    "order": 60034,
-    "temporada": "Shikatsu"
+    "temporada": "Shikatsu",
+    "order": 60049
   },
   {
     "__docId": "6dsdXoat4FuThfrpWl9T",
@@ -3789,6 +3857,17 @@
     "elencoFechado": true
   },
   {
+    "__docId": "80Ehre6m39zzULlWiukB",
+    "temporada": "Satoshi",
+    "arco": "Gamakaji",
+    "name": "Gamakaji",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamakaji.png?alt=media&v=1787776781958995",
+    "order": 60039
+  },
+  {
     "__docId": "826ZFVgor3C4U3imZHb7",
     "type": "arsenal",
     "temporada": "Kirigakure",
@@ -3823,11 +3902,11 @@
     "type": "capaInvocacao",
     "arco": "Enma",
     "name": "Enma",
-    "order": 60019,
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FEnma.png?alt=media&v=1787162998813299",
-    "temporada": "Apollo"
+    "temporada": "Apollo",
+    "order": 60020
   },
   {
     "__docId": "8I0scJvRUFNTyphmnU72",
@@ -3891,13 +3970,13 @@
     "temporada": "Apollo",
     "arco": "Enma",
     "name": "Enma",
-    "order": 40019,
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FApollo%2FEnma.png?alt=media&v=1787162996905893",
     "nature": "Senjutsu",
     "rank": "S++",
-    "village": "Konohagakure"
+    "village": "Konohagakure",
+    "order": 40020
   },
   {
     "__docId": "8yhcFfF3YSZBaLz0dp53",
@@ -3907,8 +3986,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGono.png?alt=media&v=1787163009752774",
-    "order": 60020,
-    "temporada": "Hisoka"
+    "temporada": "Hisoka",
+    "order": 60021
   },
   {
     "__docId": "8zfzbhYinfY40PwffSwq",
@@ -3920,6 +3999,20 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikure%20Chinoike%2F3__Temporada.png?alt=media&v=1784751357179",
     "order": 10237
+  },
+  {
+    "__docId": "90KoTQ2XEBQxG9PZJb9N",
+    "temporada": "Satoshi",
+    "arco": "Gamanui",
+    "name": "Gamanui",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamanui.png?alt=media&v=1787776745253643",
+    "order": 40041
   },
   {
     "__docId": "99SZqGfGtz0l86uUmqL7",
@@ -4054,6 +4147,20 @@
     "order": 30078
   },
   {
+    "__docId": "9vYBu4uBP95xPdSpKVLo",
+    "temporada": "Satoshi",
+    "arco": "Gamakoun",
+    "name": "Gamakoun",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamakoun.png?alt=media&v=1787776743191026",
+    "order": 40040
+  },
+  {
     "__docId": "9wAozcOWJnYvgfckIFLa",
     "type": "timeline",
     "arco": "1ª Temporada",
@@ -4116,8 +4223,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShotora.png?alt=media&v=1787163049436833",
-    "order": 60027,
-    "temporada": "Asami"
+    "temporada": "Asami",
+    "order": 60028
   },
   {
     "__docId": "a0dhItXfUCoaIXNBwCTW",
@@ -4131,7 +4238,7 @@
     "nature": "Fujogan",
     "rank": "Z",
     "village": "Konohagakure",
-    "order": 40026
+    "order": 40027
   },
   {
     "__docId": "a0HxyUouqz4VRf6Xm5zZ",
@@ -4202,7 +4309,32 @@
     "rank": "S++",
     "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40046
+    "order": 40061
+  },
+  {
+    "__docId": "aBRFeNIg0Qt5hAhxGEXN",
+    "temporada": "Satoshi",
+    "arco": "Gamakiri",
+    "name": "Gamakiri",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamakiri.png?alt=media&v=1787776788582681",
+    "order": 60042
+  },
+  {
+    "__docId": "acgv40uGU0JN8nBCFPPs",
+    "temporada": "Airi",
+    "arco": "Budinha",
+    "name": "Budinha",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "S+",
+    "nature": "Mokuton",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FBudinha.png?alt=media&v=1787776718199712",
+    "order": 40019
   },
   {
     "__docId": "acMDy11z2pJd5BKzs0S2",
@@ -4216,7 +4348,21 @@
     "nature": "Mokuton",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40023
+    "order": 40024
+  },
+  {
+    "__docId": "aeEIaXPwIy2g9N6dl5V7",
+    "temporada": "Satoshi",
+    "arco": "Shima",
+    "name": "Shima",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FShima.png?alt=media&v=1787776756327909",
+    "order": 40047
   },
   {
     "__docId": "aewyNHn1QCFGqH1zw49t",
@@ -4229,6 +4375,20 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 20004
+  },
+  {
+    "__docId": "AIMVFVwruPQLk8llKehH",
+    "temporada": "Satoshi",
+    "arco": "Gamakaji",
+    "name": "Gamakaji",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamakaji.png?alt=media&v=1787776741017339",
+    "order": 40039
   },
   {
     "__docId": "aJjQsVKVXyX70Htq1wzq",
@@ -4303,9 +4463,11 @@
     "type": "capaInvocacao",
     "arco": "Tronquinho",
     "name": "Tronquinho",
-    "done": false,
     "order": 60016,
-    "temporada": "Airi"
+    "temporada": "Airi",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTronquinho.png?alt=media&v=1787776767132549",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "aRKAwDA1QRYHILsYrv2T",
@@ -4325,8 +4487,8 @@
     "arco": "Yuki Fukuro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYuki_Fukuro.png?alt=media&v=1787163752486854",
     "name": "Yuki Fukuro",
-    "order": 60038,
-    "temporada": "Nagi"
+    "temporada": "Nagi",
+    "order": 60053
   },
   {
     "__docId": "AVj0ilBAk8TgSxsPtcmW",
@@ -4385,6 +4547,20 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.jpg?alt=media&v=1786651901803501"
   },
   {
+    "__docId": "B1NMV0tHq2WGULG5TaIT",
+    "temporada": "Satoshi",
+    "arco": "Gamatama",
+    "name": "Gamatama",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamatama.png?alt=media&v=1787776750738290",
+    "order": 40044
+  },
+  {
     "__docId": "B3jiV9oK1Qtm9GRNrpBs",
     "type": "arsenal",
     "temporada": "Kirigakure",
@@ -4405,6 +4581,17 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FLuta_contra_o_Hades.png?alt=media&v=1786371783301613",
     "order": 10149
+  },
+  {
+    "__docId": "B5gdTWNrLHBzty90TKbi",
+    "temporada": "Satoshi",
+    "arco": "Gamayakushi",
+    "name": "Gamayakushi",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamayakushi.png?alt=media&v=1787776797121544",
+    "order": 60046
   },
   {
     "__docId": "B7IHmpgdWyNdCZARw1XW",
@@ -4440,6 +4627,20 @@
     "temporada": "Kaito"
   },
   {
+    "__docId": "BhGtrZnV7oDY1IOeWUOW",
+    "temporada": "Satoshi",
+    "arco": "Gamatake",
+    "name": "Gamatake",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamatake.png?alt=media&v=1787776749183670",
+    "order": 40043
+  },
+  {
     "__docId": "Bjo3pJBIlyJZoeYmeJ2K",
     "type": "arsenal",
     "temporada": "Kirigakure",
@@ -4472,6 +4673,20 @@
     "doneBy": null,
     "imageUrl": null,
     "order": 10173
+  },
+  {
+    "__docId": "bN79glOeyhGaWutaCVs6",
+    "temporada": "Satoshi",
+    "arco": "Gamayakushi",
+    "name": "Gamayakushi",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamayakushi.png?alt=media&v=1787776754353106",
+    "order": 40046
   },
   {
     "__docId": "BNLdQrwdAg8B0FUCCaXr",
@@ -4570,8 +4785,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKokuryu.png?alt=media&v=1787163064471840",
-    "order": 60046,
-    "temporada": "Borashi"
+    "temporada": "Borashi",
+    "order": 60061
   },
   {
     "__docId": "C41t49kk26H3RuUrH0ik",
@@ -4665,6 +4880,17 @@
     "order": 10145
   },
   {
+    "__docId": "cAV6Lvjng5pcRwfWmj3L",
+    "temporada": "Satoshi",
+    "arco": "Fukasaku",
+    "name": "Fukasaku",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FFukasaku.png?alt=media&v=1787776769136090",
+    "order": 60033
+  },
+  {
     "__docId": "CBeZwW8hfpwrJWcSZQAF",
     "type": "timeline",
     "arco": "Prólogo",
@@ -4697,7 +4923,7 @@
     "nature": "Mokuton",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40022
+    "order": 40023
   },
   {
     "__docId": "Cg4sncXciFf5R94suzgx",
@@ -4774,6 +5000,20 @@
     "order": 10102
   },
   {
+    "__docId": "cuWTUO1YfLXhLT3Zmb0g",
+    "temporada": "Satoshi",
+    "arco": "Gamatsuzumi",
+    "name": "Gamatsuzumi",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamatsuzumi.png?alt=media&v=1787776752809138",
+    "order": 40045
+  },
+  {
     "__docId": "CVUFB9yEpnb8LnCktozV",
     "type": "timeline",
     "temporada": "Takeshi Hatake",
@@ -4847,8 +5087,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FDaiju.png?alt=media&v=1787163061580496",
-    "order": 60045,
-    "temporada": "Borashi"
+    "temporada": "Borashi",
+    "order": 60060
   },
   {
     "__docId": "DldfgALXfnUZsQ2aGmP4",
@@ -5145,6 +5385,20 @@
     "order": 10284
   },
   {
+    "__docId": "EVDQBbJSBFtjEa8LT9va",
+    "temporada": "Satoshi",
+    "arco": "Fukasaku",
+    "name": "Fukasaku",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FFukasaku.png?alt=media&v=1787776728822693",
+    "order": 40033
+  },
+  {
     "__docId": "eviujpIa3w1HxSoyY1Iy",
     "subarco": "Kaito e Hisoka",
     "name": "Kaito indo treinar com Hisoka",
@@ -5283,7 +5537,7 @@
     "nature": "Ketton",
     "rank": "S++",
     "village": "Sunagakure",
-    "order": 40040
+    "order": 40055
   },
   {
     "__docId": "FF2PIyhS1dkHbCpNulKC",
@@ -5308,7 +5562,7 @@
     "nature": "Fujogan",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40043
+    "order": 40058
   },
   {
     "__docId": "FhPUCipfara0PfNlcIyJ",
@@ -5339,8 +5593,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTamatama.png?alt=media&v=1787163079573811",
-    "order": 60036,
-    "temporada": "Shikatsu"
+    "temporada": "Shikatsu",
+    "order": 60051
   },
   {
     "__docId": "fo3U4CKmcZ5CxqYalFj5",
@@ -5350,8 +5604,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHiiro.png?alt=media&v=1787163017314844",
-    "order": 60022,
-    "temporada": "Hisoka"
+    "temporada": "Hisoka",
+    "order": 60023
   },
   {
     "__docId": "FQrzoaoMbEB9sZcXhCtV",
@@ -5478,7 +5732,7 @@
     "nature": "Kage Mane",
     "rank": "S",
     "village": "Konohagakure",
-    "order": 40033
+    "order": 40048
   },
   {
     "__docId": "gj1qGTwdbbIszhMJrv3T",
@@ -5563,9 +5817,11 @@
     "type": "capaInvocacao",
     "arco": "Madeiroso",
     "name": "Madeiroso",
-    "done": false,
     "order": 60015,
-    "temporada": "Airi"
+    "temporada": "Airi",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMadeiroso.png?alt=media&v=1787776762603511",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "GSySnmjVND7vraTrS2xs",
@@ -5646,7 +5902,7 @@
     "nature": "Kurama",
     "rank": "Z",
     "village": "Konohagakure",
-    "order": 40037
+    "order": 40052
   },
   {
     "__docId": "Gw23pu0CAOtmGw1n64de",
@@ -5810,7 +6066,7 @@
     "nature": "Kage Mane",
     "rank": "Z",
     "village": "Konohagakure",
-    "order": 40036
+    "order": 40051
   },
   {
     "__docId": "hI7ZSLpQx1BHsPXZpqr0",
@@ -5889,6 +6145,17 @@
     "doneBy": "Desconhecido"
   },
   {
+    "__docId": "hOMXaTV1AlrzxL0g67we",
+    "temporada": "Airi",
+    "arco": "Budinha",
+    "name": "Budinha",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FBudinha.png?alt=media&v=1787776757961358",
+    "order": 60019
+  },
+  {
     "__docId": "HrCkrtk2VhEmQFLmTWQD",
     "type": "timeline",
     "temporada": "Hikaru Ishi",
@@ -5933,7 +6200,7 @@
     "rank": "S+",
     "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40045
+    "order": 40060
   },
   {
     "__docId": "Hw17gzyom62I3g2yyfmZ",
@@ -6033,8 +6300,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FAnken.png?alt=media&v=1787163070412743",
-    "order": 60033,
-    "temporada": "Shikatsu"
+    "temporada": "Shikatsu",
+    "order": 60048
   },
   {
     "__docId": "iAFalWagbKvf8XycKY4X",
@@ -6105,6 +6372,20 @@
     "order": 10185
   },
   {
+    "__docId": "IfxdUVszaIKPbgVlwZDk",
+    "temporada": "Satoshi",
+    "arco": "Gamakiri",
+    "name": "Gamakiri",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamakiri.png?alt=media&v=1787776747428511",
+    "order": 40042
+  },
+  {
     "__docId": "IgMr7MbtfvxsQLE9pCFA",
     "type": "invocacao",
     "temporada": "Asami",
@@ -6116,7 +6397,7 @@
     "nature": "Fujogan",
     "rank": "Z",
     "village": "Konohagakure",
-    "order": 40027
+    "order": 40028
   },
   {
     "__docId": "IgVE8u2ZTLxNjtXNbcUW",
@@ -6179,7 +6460,7 @@
     "nature": "Mokuton",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40024
+    "order": 40025
   },
   {
     "__docId": "iPALRrrtWANQc8GXKv9t",
@@ -6272,6 +6553,20 @@
     "doneBy": "Desconhecido"
   },
   {
+    "__docId": "JaOClyRAbYO9XmtcZ1WU",
+    "temporada": "Satoshi",
+    "arco": "Gamabunsei",
+    "name": "Gamabunsei",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamabunsei.png?alt=media&v=1787776730836371",
+    "order": 40034
+  },
+  {
     "__docId": "JarTwVuuoaUsAw17hIVt",
     "type": "capaInvocacao",
     "arco": "Neter",
@@ -6279,8 +6574,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FNeter.png?alt=media&v=1787163020414529",
-    "order": 60023,
-    "temporada": "Hisoka"
+    "temporada": "Hisoka",
+    "order": 60024
   },
   {
     "__docId": "jdDKv5VTyi2eQGvqW1l5",
@@ -6393,7 +6688,7 @@
     "nature": "Senjutsu",
     "rank": "S+",
     "village": "Sunagakure",
-    "order": 40039
+    "order": 40054
   },
   {
     "__docId": "Jsyf5YixJYDBJcvW6xMj",
@@ -6462,17 +6757,19 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKetsujin.png?alt=media&v=1787163034805753",
-    "order": 60041,
-    "temporada": "Shikure"
+    "temporada": "Shikure",
+    "order": 60056
   },
   {
     "__docId": "K93QJK78DwdMQbcusPMp",
     "type": "capaInvocacao",
     "arco": "Sakura",
     "name": "Sakura",
-    "done": false,
     "order": 60018,
-    "temporada": "Airi"
+    "temporada": "Airi",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSakura.png?alt=media&v=1787776764878250",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "K9FxcspWRGtHpUx8ZvhR",
@@ -6584,7 +6881,7 @@
     "nature": "Mokuton",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40020
+    "order": 40021
   },
   {
     "__docId": "kN9UCtvpc1wYHBW5BP2v",
@@ -6745,8 +7042,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKurama.png?alt=media&v=1787163006042082",
-    "order": 60037,
-    "temporada": "Shoyu"
+    "temporada": "Shoyu",
+    "order": 60052
   },
   {
     "__docId": "lhQul1pErDT0zfRod4yX",
@@ -6836,11 +7133,13 @@
     "temporada": "Airi",
     "arco": "Tronquinho",
     "name": "Tronquinho",
-    "done": false,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
-    "order": 40016
+    "order": 40016,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FTronquinho.png?alt=media&v=1787776727121337",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "LT0V7zO6ufq0Y48eCnLq",
@@ -7060,8 +7359,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMeruem.png?alt=media&v=1787163026365021",
-    "order": 60025,
-    "temporada": "Hisoka"
+    "temporada": "Hisoka",
+    "order": 60026
   },
   {
     "__docId": "mwiqbH4poB4O4VkNoctJ",
@@ -7246,7 +7545,7 @@
     "nature": "Kage Mane",
     "rank": "S+",
     "village": "Konohagakure",
-    "order": 40034
+    "order": 40049
   },
   {
     "__docId": "NrUqanc3qN1WSHxziPug",
@@ -7359,6 +7658,17 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F5__Temporada.png?alt=media&v=1784751368845",
     "order": 10200
+  },
+  {
+    "__docId": "OBIknBN40uKshOpqLx7R",
+    "temporada": "Satoshi",
+    "arco": "Gamajosai",
+    "name": "Gamajosai",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamajosai.png?alt=media&v=1787776779687420",
+    "order": 60038
   },
   {
     "__docId": "OBwY60j8KwXYi8RS5TSh",
@@ -7478,7 +7788,7 @@
     "nature": "Mokuton",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40021
+    "order": 40022
   },
   {
     "__docId": "oM2jkeeg3f0nVWb0gHLq",
@@ -7556,7 +7866,7 @@
     "nature": "Kage Mane",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40035
+    "order": 40050
   },
   {
     "__docId": "OXZBpMvVlmbEc5m9fM8Y",
@@ -7566,8 +7876,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FMizuchi.png?alt=media&v=1787163029269377",
-    "order": 60042,
-    "temporada": "Akira"
+    "temporada": "Akira",
+    "order": 60057
   },
   {
     "__docId": "OzwEDmCwo6S7vRAHVP3y",
@@ -7743,7 +8053,7 @@
     "nature": "Senjutsu",
     "rank": "S+",
     "village": "Sunagakure",
-    "order": 40042
+    "order": 40057
   },
   {
     "__docId": "pNrzBB87e2ev3SoYcaPp",
@@ -7762,11 +8072,13 @@
     "temporada": "Airi",
     "arco": "Madeiroso",
     "name": "Madeiroso",
-    "done": false,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
-    "order": 40015
+    "order": 40015,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FMadeiroso.png?alt=media&v=1787776723270367",
+    "done": true,
+    "doneBy": "Pedro"
   },
   {
     "__docId": "PoRHINIogjAgxv84lSa6",
@@ -7776,8 +8088,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTsurugijin.png?alt=media&v=1787163067397128",
-    "order": 60047,
-    "temporada": "Borashi"
+    "temporada": "Borashi",
+    "order": 60062
   },
   {
     "__docId": "PpnUBomBvVUcuIh5ENVn",
@@ -8483,6 +8795,17 @@
     "order": 10245
   },
   {
+    "__docId": "q2d50aQFWsteY1OM554i",
+    "temporada": "Satoshi",
+    "arco": "Gamatsuzumi",
+    "name": "Gamatsuzumi",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamatsuzumi.png?alt=media&v=1787776794899318",
+    "order": 60045
+  },
+  {
     "__docId": "Q2x6qs471c6wqm2PmjPA",
     "type": "arsenal",
     "temporada": "Kirigakure",
@@ -8628,7 +8951,7 @@
     "nature": "Mokuton",
     "rank": "S++",
     "village": "Konohagakure",
-    "order": 40025
+    "order": 40026
   },
   {
     "__docId": "qwSh76QX7k6AfnhmlBN5",
@@ -8686,8 +9009,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKetsutora.png?alt=media&v=1787163043461654",
-    "order": 60026,
-    "temporada": "Hoshiro"
+    "temporada": "Hoshiro",
+    "order": 60027
   },
   {
     "__docId": "r13216Gfn4TWvErx7962",
@@ -8767,6 +9090,17 @@
     "order": 20001
   },
   {
+    "__docId": "rOkwbJClYBgfTOp0nITU",
+    "temporada": "Satoshi",
+    "arco": "Gamabunsei",
+    "name": "Gamabunsei",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamabunsei.png?alt=media&v=1787776771358520",
+    "order": 60034
+  },
+  {
     "__docId": "RQc7qbZUwzPqkE85GdRj",
     "type": "invocacao",
     "temporada": "Shikure",
@@ -8778,7 +9112,7 @@
     "nature": "Ketton",
     "rank": "S+",
     "village": "Sunagakure",
-    "order": 40041
+    "order": 40056
   },
   {
     "__docId": "rqTLuIPw4boXQEKobG2o",
@@ -8848,6 +9182,17 @@
     "order": 10175
   },
   {
+    "__docId": "S5WtFtaIVv9NwpQKeOoz",
+    "temporada": "Satoshi",
+    "arco": "Gamahomura",
+    "name": "Gamahomura",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamahomura.png?alt=media&v=1787776777518611",
+    "order": 60037
+  },
+  {
     "__docId": "saI9Et8dG41A0sbfKlLF",
     "type": "timeline",
     "temporada": "Kazuki Hoshigaki",
@@ -8887,8 +9232,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKurotsume.png?alt=media&v=1787162974209383",
-    "order": 60039,
-    "temporada": "Kurohime"
+    "temporada": "Kurohime",
+    "order": 60054
   },
   {
     "__docId": "sHxmC2tjonWW1ZLEFRjA",
@@ -9114,7 +9459,7 @@
     "rank": "S",
     "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40044
+    "order": 40059
   },
   {
     "__docId": "u3iRXAC95LLBssqS0Vz1",
@@ -9137,6 +9482,17 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F62%20-%20Shizuku.png?alt=media&v=1784038050825687",
     "done": true,
     "doneBy": "Desconhecido"
+  },
+  {
+    "__docId": "U5GL9FUKjxyq94KANTEt",
+    "temporada": "Satoshi",
+    "arco": "Shima",
+    "name": "Shima",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShima.png?alt=media&v=1787776798775702",
+    "order": 60047
   },
   {
     "__docId": "u5lP6oQBY7WhRuZB7aHJ",
@@ -9182,6 +9538,20 @@
     "order": 10095
   },
   {
+    "__docId": "ubm1JCQ4K31jY230Gled",
+    "temporada": "Satoshi",
+    "arco": "Gamajosai",
+    "name": "Gamajosai",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "invocacao",
+    "rank": "Z",
+    "nature": "Senjutsu",
+    "village": "Konohagakure",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamajosai.png?alt=media&v=1787776738912720",
+    "order": 40038
+  },
+  {
     "__docId": "uDfHfk1zkiN8gv55ZHCx",
     "type": "timeline",
     "temporada": "Nagare Uzumaki",
@@ -9198,11 +9568,24 @@
     "temporada": "Airi",
     "arco": "Hash-hash",
     "name": "Hash-hash",
-    "done": false,
     "nature": "Mokuton",
     "rank": "S+",
     "village": "Konohagakure",
-    "order": 40017
+    "order": 40017,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787776721072224",
+    "done": true,
+    "doneBy": "Pedro"
+  },
+  {
+    "__docId": "Ufzis5wXcCDkF9mVQj3W",
+    "temporada": "Satoshi",
+    "arco": "Gamabunta",
+    "name": "Gamabunta",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamabunta.png?alt=media&v=1787776773526443",
+    "order": 60035
   },
   {
     "__docId": "UglsqJUsOvpNjE0yTRsD",
@@ -9212,8 +9595,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShhei.png?alt=media&v=1787163058505594",
-    "order": 60044,
-    "temporada": "Borashi"
+    "temporada": "Borashi",
+    "order": 60059
   },
   {
     "__docId": "Uk5GJwE7v2HzNBER1XCr",
@@ -9257,6 +9640,17 @@
     "order": 10287
   },
   {
+    "__docId": "uvNYbR9GOtAz0nTZLDn0",
+    "temporada": "Satoshi",
+    "arco": "Gamakoun",
+    "name": "Gamakoun",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamakoun.png?alt=media&v=1787776784236322",
+    "order": 60040
+  },
+  {
     "__docId": "uYoX7zxyt3RmaEjAoRWa",
     "type": "capaInvocacao",
     "arco": "Seitora",
@@ -9264,8 +9658,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FSeitora.png?alt=media&v=1787163055595693",
-    "order": 60043,
-    "temporada": "Borashi"
+    "temporada": "Borashi",
+    "order": 60058
   },
   {
     "__docId": "UywthWTTyDi4XsZMYudg",
@@ -9368,8 +9762,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FHokotora.png?alt=media&v=1787163046469149",
-    "order": 60028,
-    "temporada": "Kaizuka"
+    "temporada": "Kaizuka",
+    "order": 60029
   },
   {
     "__docId": "vlrynv2k4q7XLXCXXBzX",
@@ -9453,6 +9847,17 @@
     "order": 40032
   },
   {
+    "__docId": "VV7zLeIVwLGlQNaXBckp",
+    "temporada": "Satoshi",
+    "arco": "Gamatake",
+    "name": "Gamatake",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamatake.png?alt=media&v=1787776790844254",
+    "order": 60043
+  },
+  {
     "__docId": "vXgyfDlg0st0jIDZcgv0",
     "type": "timeline",
     "temporada": "Kazuki Hoshigaki",
@@ -9462,6 +9867,17 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F1__Temporada.png?alt=media&v=1784658558132242",
     "doneBy": "Zeck",
     "order": 10073
+  },
+  {
+    "__docId": "vZG104LHuxBpUMYfsbMq",
+    "temporada": "Satoshi",
+    "arco": "Gamanui",
+    "name": "Gamanui",
+    "done": true,
+    "doneBy": "Pedro",
+    "type": "capaInvocacao",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FGamanui.png?alt=media&v=1787776786429489",
+    "order": 60041
   },
   {
     "__docId": "vZKXd6HfbYkaApkGUjsQ",
@@ -9508,7 +9924,7 @@
     "nature": "Fujogan",
     "rank": "Z",
     "village": "Konohagakure",
-    "order": 40028
+    "order": 40029
   },
   {
     "__docId": "wFUkgd0tcL8434X2ays2",
@@ -9901,7 +10317,7 @@
     "rank": "Z",
     "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40047
+    "order": 40062
   },
   {
     "__docId": "XmgIyvBHzdwTwUv4gQJB",
@@ -10004,7 +10420,7 @@
     "nature": "Hyouton",
     "rank": "S+",
     "village": "Kirigakure",
-    "order": 40038
+    "order": 40053
   },
   {
     "__docId": "yAVZBFkM8NKBjJTrBTbb",
@@ -10177,7 +10593,7 @@
     "nature": "Fujogan",
     "rank": "Z",
     "village": "Konohagakure",
-    "order": 40029
+    "order": 40063
   },
   {
     "__docId": "yzDVBsFLuFpfKSoLVz0X",
@@ -10221,8 +10637,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FChroll.png?alt=media&v=1787163023425148",
-    "order": 60024,
-    "temporada": "Hisoka"
+    "temporada": "Hisoka",
+    "order": 60025
   },
   {
     "__docId": "ZBnysAg6X2x2ftThoQjy",
@@ -10265,8 +10681,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FZotora.png?alt=media&v=1787163052532990",
-    "order": 60029,
-    "temporada": "Haruki"
+    "temporada": "Haruki",
+    "order": 60063
   },
   {
     "__docId": "ZJClzOg2SFmMibXsLGNG",
@@ -10379,8 +10795,8 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKirr.png?alt=media&v=1787163013570815",
-    "order": 60021,
-    "temporada": "Hisoka"
+    "temporada": "Hisoka",
+    "order": 60022
   },
   {
     "__docId": "Zw0maTAwSKt9OYD49rIl",
