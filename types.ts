@@ -185,18 +185,6 @@ export interface FamilyTree {
   order: number;
 }
 
-export interface Weapon {
-  name: string;
-  classification?: string;
-  nature?: string;
-  origin?: string;
-  description?: string;
-  destruction?: string;
-  history?: string;
-  status?: string;
-  image?: string;
-}
-
 export interface Character {
   docId?: string; // ID do documento no Firestore (slug do nome)
   id: number;
