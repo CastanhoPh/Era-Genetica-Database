@@ -6,8 +6,9 @@
     "arco": "Hakuryū",
     "name": "Hakuryū",
     "order": 70040,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F41%20-%20Hakury%C5%AB.png?alt=media&v=1784037990645067"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F41%20-%20Hakury%C5%AB.png?alt=media&v=1784037990645067",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "04ejTITMScSVSSlqI3Uv",
@@ -94,8 +95,9 @@
     "arco": "Mugen",
     "name": "Mugen",
     "order": 70059,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F60%20-%20Mugen.png?alt=media&v=1784038025906021"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F60%20-%20Mugen.png?alt=media&v=1784038025906021",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "1-temporada__chegada-de-raikun__sera-adicionado-em-breve",
@@ -3166,8 +3168,9 @@
     "arco": "Kongōnyo",
     "name": "Kongōnyo",
     "order": 70038,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F39%20-%20Kong%C5%8Dnyo.png?alt=media&v=1784038017389404"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F39%20-%20Kong%C5%8Dnyo.png?alt=media&v=1784038017389404",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "2x2GH7QgP2Dlqkjmd1cK",
@@ -3244,8 +3247,9 @@
     "arco": "Hekireki no Yumi",
     "name": "Hekireki no Yumi",
     "order": 70044,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F45%20-%20Hekireki%20no%20Yumi.png?alt=media&v=1784037995787241"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F45%20-%20Hekireki%20no%20Yumi.png?alt=media&v=1784037995787241",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "3deqEQv7qcEbhf303Cym",
@@ -3288,8 +3292,9 @@
     "arco": "Raigan",
     "name": "Raigan",
     "order": 70048,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F49%20-%20Raigan.png?alt=media&v=1784038034280807"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F49%20-%20Raigan.png?alt=media&v=1784038034280807",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "3puQhe9Mg9IkRFdGbFwl",
@@ -3298,8 +3303,9 @@
     "arco": "Suiryū no Reigan",
     "name": "Suiryū no Reigan",
     "order": 70068,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F69%20-%20Suiry%C5%AB%20no%20Reigan.png?alt=media&v=1784038057987898"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F69%20-%20Suiry%C5%AB%20no%20Reigan.png?alt=media&v=1784038057987898",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "3wzUtEINtULZICzz2ud0",
@@ -3406,8 +3412,9 @@
     "arco": "Kiba",
     "name": "Kiba",
     "order": 70042,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F43%20-%20Kiba.png?alt=media&v=1784038012622189"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F43%20-%20Kiba.png?alt=media&v=1784038012622189",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "4bF9qcPe2LD4tiCmWZUb",
@@ -3459,8 +3466,9 @@
     "arco": "Ishi no Seimei",
     "name": "Ishi no Seimei",
     "order": 70017,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F19%20-%20Ishi%20no%20Seimei.png?alt=media&v=1784038004178989"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F19%20-%20Ishi%20no%20Seimei.png?alt=media&v=1784038004178989",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "4vzSc4luBieUKZzgBxpC",
@@ -3491,8 +3499,9 @@
     "arco": "Protótipo de Reigan",
     "name": "Protótipo de Reigan",
     "order": 70014,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F16%20-%20Reigan.png?alt=media&v=1784038037759533"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F16%20-%20Reigan.png?alt=media&v=1784038037759533",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "56bf8VbsRTnUei1C5Yk3",
@@ -3566,8 +3575,9 @@
     "arco": "Colar dos Hatake",
     "name": "Colar dos Hatake",
     "order": 70012,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F14%20-%20Colar%20dos%20Hatake.png?alt=media&v=1784037981385421"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F14%20-%20Colar%20dos%20Hatake.png?alt=media&v=1784037981385421",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "5X4aIrA9E0L7eY516zuz",
@@ -3599,8 +3609,9 @@
     "arco": "Samehada",
     "name": "Samehada",
     "order": 70016,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F18%20-%20Samehada.png?alt=media&v=1784038043902105"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F18%20-%20Samehada.png?alt=media&v=1784038043902105",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "5znDrjETeeTFW6A4nsJ6",
@@ -3702,8 +3713,9 @@
     "arco": "Ryokushin no Seikonseki",
     "name": "Ryokushin no Seikonseki",
     "order": 70021,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F23%20-%20Ryokushin%20no%20Seikonseki.png?alt=media&v=1784038040396862"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F23%20-%20Ryokushin%20no%20Seikonseki.png?alt=media&v=1784038040396862",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "7Fi3SkProGUUuITmHCmD",
@@ -3783,8 +3795,9 @@
     "arco": "Sakin no Reigan",
     "name": "Sakin no Reigan",
     "order": 70054,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F55%20-%20Sakin%20no%20Reigan.png?alt=media&v=1784038041579828"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F55%20-%20Sakin%20no%20Reigan.png?alt=media&v=1784038041579828",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "891XR2nnfo733mcW5I3t",
@@ -3950,8 +3963,9 @@
     "arco": "Raijin no Ken",
     "name": "Raijin no Ken",
     "order": 70039,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F40%20-%20Raijin%20no%20Ken.png?alt=media&v=1784038035445769"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F40%20-%20Raijin%20no%20Ken.png?alt=media&v=1784038035445769",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "9lzUzx2EGuANM0BL3y7P",
@@ -3971,8 +3985,9 @@
     "arco": "Seimei no Saidan",
     "name": "Seimei no Saidan",
     "order": 70030,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F31%20-%20Seimei%20no%20Saidan.png?alt=media&v=1784038046169391"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F31%20-%20Seimei%20no%20Saidan.png?alt=media&v=1784038046169391",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "9PBYrjBwh8aljKHaVusS",
@@ -4235,8 +4250,9 @@
     "arco": "Hyōton Artificial",
     "name": "Hyōton Artificial",
     "order": 70010,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "aLl3coeWVlqm4DNN2yg1",
@@ -4343,8 +4359,9 @@
     "arco": "Satetsu no Rinne",
     "name": "Satetsu no Rinne",
     "order": 70057,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F58%20-%20Satetsu%20no%20Rinne.png?alt=media&v=1784038045060398"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F58%20-%20Satetsu%20no%20Rinne.png?alt=media&v=1784038045060398",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "azIWTQoRp2TfDoXqq7wy",
@@ -4376,8 +4393,9 @@
     "arco": "Hiramekarei",
     "name": "Hiramekarei",
     "order": 70041,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F42%20-%20Hiramekarei.png?alt=media&v=1784037997045181"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F42%20-%20Hiramekarei.png?alt=media&v=1784037997045181",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "b3QhzG9DUyESf2gZN3uB",
@@ -4430,8 +4448,9 @@
     "arco": "Kabutowari",
     "name": "Kabutowari",
     "order": 70024,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F25%20-%20Kabutowari.png?alt=media&v=1784038006584006"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F25%20-%20Kabutowari.png?alt=media&v=1784038006584006",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "BMnmcwpSWptlEipyPso5",
@@ -4632,8 +4651,9 @@
     "arco": "Kage no Kyōkai",
     "name": "Kage no Kyōkai",
     "order": 70037,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F38%20-%20Kage%20no%20Ky%C5%8Dkai.png?alt=media&v=1784038007994490"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F38%20-%20Kage%20no%20Ky%C5%8Dkai.png?alt=media&v=1784038007994490",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "cap53iujB6jDRz9j5YFt",
@@ -4688,8 +4708,9 @@
     "arco": "Uzumaki no Kon",
     "name": "Uzumaki no Kon",
     "order": 70033,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F34%20-%20Uzumaki%20no%20Kon.png?alt=media&v=1784038063051072"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F34%20-%20Uzumaki%20no%20Kon.png?alt=media&v=1784038063051072",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "CJmr7hbnLoIcclsCtoyi",
@@ -4739,8 +4760,9 @@
     "arco": "Hyōga no Seihai",
     "name": "Hyōga no Seihai",
     "order": 70072,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1784037999255246"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1784037999255246",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "CSTVyjPd8r2TR6KmbJO4",
@@ -4870,8 +4892,9 @@
     "arco": "Umitsuchi no Teisatsu",
     "name": "Umitsuchi no Teisatsu",
     "order": 70071,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F72%20-%20Umitsuchi%20no%20Teisatsu.png?alt=media&v=1784038060358754"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F72%20-%20Umitsuchi%20no%20Teisatsu.png?alt=media&v=1784038060358754",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "Dz6dkKouMXHoN8hnvNIv",
@@ -4903,8 +4926,9 @@
     "arco": "Akashin no Seikonseki",
     "name": "Akashin no Seikonseki",
     "order": 70022,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F76%20-%20Akashin%20no%20Seikonseki.png?alt=media&v=1785775302899"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F76%20-%20Akashin%20no%20Seikonseki.png?alt=media&v=1785775302899",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "E1Yf37W59EmmfpS1nEu7",
@@ -5021,8 +5045,9 @@
     "arco": "Kusanagi",
     "name": "Kusanagi",
     "order": 70004,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F06%20-%20Kusanagi.png?alt=media&v=1784038022511186"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F06%20-%20Kusanagi.png?alt=media&v=1784038022511186",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "eiypf30WmY6YWHjkyask",
@@ -5244,8 +5269,9 @@
     "arco": "Yuji no Hōkō",
     "name": "Yuji no Hōkō",
     "order": 70049,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F50%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.png?alt=media&v=1784038064308805"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F50%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.png?alt=media&v=1784038064308805",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "fejike4MaMuT6rynBBKX",
@@ -5405,8 +5431,9 @@
     "arco": "Hakuryū no Ken",
     "name": "Hakuryū no Ken",
     "order": 70073,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F74%20-%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1784037991714755"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F74%20-%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1784037991714755",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "gE560wIEwu8N3ChB34Xk",
@@ -5529,8 +5556,9 @@
     "arco": "Akai Hoshi",
     "name": "Akai Hoshi",
     "order": 70047,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F48%20-%20Akai%20Hoshi.png?alt=media&v=1784037974932121"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F48%20-%20Akai%20Hoshi.png?alt=media&v=1784037974932121",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "gSv0nejhpUxT2SEUbdpD",
@@ -5571,8 +5599,9 @@
     "arco": "Raion",
     "name": "Raion",
     "order": 70062,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F63%20-%20Raion.png?alt=media&v=1784038036734732"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F63%20-%20Raion.png?alt=media&v=1784038036734732",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "guXBfufB7oNSBUxK4oZ6",
@@ -5603,8 +5632,9 @@
     "arco": "Luvas de Chakra Profano 'F'",
     "name": "Luvas de Chakra Profano 'F'",
     "order": 70009,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F11%20-%20Luvas%20de%20Chakra%20Profano%20'F'.png?alt=media&v=1784038023686359"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F11%20-%20Luvas%20de%20Chakra%20Profano%20'F'.png?alt=media&v=1784038023686359",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "GVij6wJwQEwkOQhRre0N",
@@ -5856,8 +5886,9 @@
     "arco": "Kinjishi no Kōwan",
     "name": "Kinjishi no Kōwan",
     "order": 70053,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F54%20-%20Kinjishi%20no%20K%C5%8Dwan.png?alt=media&v=1784038013908004"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F54%20-%20Kinjishi%20no%20K%C5%8Dwan.png?alt=media&v=1784038013908004",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "HrCkrtk2VhEmQFLmTWQD",
@@ -6238,8 +6269,9 @@
     "arco": "Aoshin no Seikonseki",
     "name": "Aoshin no Seikonseki",
     "order": 70023,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F24%20-%20Aoshin%20no%20Seikonseki.png?alt=media&v=1784037978921739"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F24%20-%20Aoshin%20no%20Seikonseki.png?alt=media&v=1784037978921739",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "JarTwVuuoaUsAw17hIVt",
@@ -6259,8 +6291,9 @@
     "arco": "Ganryū no Omori",
     "name": "Ganryū no Omori",
     "order": 70007,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F09%20-%20Ganry%C5%AB%20no%20Omori.png?alt=media&v=1784037985997094"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F09%20-%20Ganry%C5%AB%20no%20Omori.png?alt=media&v=1784037985997094",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "JdpFB430ExRo9r5N809u",
@@ -6291,8 +6324,9 @@
     "arco": "Rensha",
     "name": "Rensha",
     "order": 70064,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F65%20-%20Rensha.png?alt=media&v=1784038039105890"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F65%20-%20Rensha.png?alt=media&v=1784038039105890",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "JKqhxwjaRFm6p49UTvRR",
@@ -6418,8 +6452,9 @@
     "arco": "Shinrin no Kanmuri",
     "name": "Shinrin no Kanmuri",
     "order": 70002,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F04%20-%20Shinrin%20no%20Kanmuri.png?alt=media&v=1784038048465039"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F04%20-%20Shinrin%20no%20Kanmuri.png?alt=media&v=1784038048465039",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "k0tOoO5GN08kdyRH5261",
@@ -6481,8 +6516,9 @@
     "arco": "Kaikyō no Men",
     "name": "Kaikyō no Men",
     "order": 70066,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F67%20-%20Kaiky%C5%8D%20no%20Men.png?alt=media&v=1784038010250793"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F67%20-%20Kaiky%C5%8D%20no%20Men.png?alt=media&v=1784038010250793",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "kDHRiYS4J2DIw75BorwG",
@@ -6512,8 +6548,9 @@
     "arco": "Shibuki",
     "name": "Shibuki",
     "order": 70043,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F44%20-%20Shibuki.png?alt=media&v=1784038047384329"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F44%20-%20Shibuki.png?alt=media&v=1784038047384329",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "kImZTBowqfSjtJDSKkg9",
@@ -6621,8 +6658,9 @@
     "arco": "Sōen no Gauntō",
     "name": "Sōen no Gauntō",
     "order": 70001,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F02%20-%20S%C5%8Den%20no%20Gaunt%C5%8D.png?alt=media&v=1784038053119773"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F02%20-%20S%C5%8Den%20no%20Gaunt%C5%8D.png?alt=media&v=1784038053119773",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "kwjQLM1JBTGR3KPmgvsM",
@@ -6642,8 +6680,9 @@
     "arco": "Gan-tei no Gaitō",
     "name": "Gan-tei no Gaitō",
     "order": 70025,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F26%20-%20Gan-tei%20no%20Gait%C5%8D.png?alt=media&v=1784037984943423"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F26%20-%20Gan-tei%20no%20Gait%C5%8D.png?alt=media&v=1784037984943423",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "L7qLBDGjUXBgotiswS4w",
@@ -6718,8 +6757,9 @@
     "arco": "Homura no Chikai",
     "name": "Homura no Chikai",
     "order": 70003,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F05%20-%20Homura%20no%20Chikai.png?alt=media&v=1784037998097847"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F05%20-%20Homura%20no%20Chikai.png?alt=media&v=1784037998097847",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "ll0sIbs9CtXo1BDFY11e",
@@ -6777,8 +6817,9 @@
     "arco": "Ōja",
     "name": "Ōja",
     "order": 70063,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F64%20-%20%C5%8Cja.png?alt=media&v=1784038028409751"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F64%20-%20%C5%8Cja.png?alt=media&v=1784038028409751",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "LsaA97vjbGeZII3HlMPH",
@@ -6837,8 +6878,9 @@
     "arco": "Sōryū no Seikonseki",
     "name": "Sōryū no Seikonseki",
     "order": 70019,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F21%20-%20S%C5%8Dry%C5%AB%20no%20Seikonseki.png?alt=media&v=1784038056770087"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F21%20-%20S%C5%8Dry%C5%AB%20no%20Seikonseki.png?alt=media&v=1784038056770087",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "ltpNFaBtEacM5K2cH3lY",
@@ -6963,8 +7005,9 @@
     "arco": "Pergaminho de Invocação",
     "name": "Pergaminho de Invocação",
     "order": 70018,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F20%20-%20Pergaminho%20de%20Invoca%C3%A7%C3%A3o.png?alt=media&v=1784038032078536"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F20%20-%20Pergaminho%20de%20Invoca%C3%A7%C3%A3o.png?alt=media&v=1784038032078536",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "MopvdzigLPgeGNQKqwEZ",
@@ -6985,8 +7028,9 @@
     "arco": "Hakuryū no Reipia",
     "name": "Hakuryū no Reipia",
     "order": 70031,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F32%20-%20Hakury%C5%AB%20no%20Reipia.png?alt=media&v=1784037994440294"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F32%20-%20Hakury%C5%AB%20no%20Reipia.png?alt=media&v=1784037994440294",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "mr8q0h4ZZzaiMRWLGQup",
@@ -7155,8 +7199,9 @@
     "arco": "Hakuryū no Men",
     "name": "Hakuryū no Men",
     "order": 70074,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F75%20-%20Hakury%C5%AB%20no%20Men.png?alt=media&v=1784037992958604"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F75%20-%20Hakury%C5%AB%20no%20Men.png?alt=media&v=1784037992958604",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "nopVYcbe9emQVbScKTMU",
@@ -7212,8 +7257,9 @@
     "arco": "Hyōketsu no Sensu",
     "name": "Hyōketsu no Sensu",
     "order": 70067,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F68%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1784038000721324"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F68%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1784038000721324",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "NVEmTWEBzMpFoydYUbyU",
@@ -7243,8 +7289,9 @@
     "arco": "Soen no Kage",
     "name": "Soen no Kage",
     "order": 70000,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F01%20-%20S%C5%8Den%20no%20Kage.png?alt=media&v=1784038054326735"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F01%20-%20S%C5%8Den%20no%20Kage.png?alt=media&v=1784038054326735",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "NX0jTkOvLNa103iP8OLn",
@@ -7368,8 +7415,9 @@
     "arco": "Sōryo no Kōwan",
     "name": "Sōryo no Kōwan",
     "order": 70020,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F22%20-%20S%C5%8Dryo%20no%20K%C5%8Dwan.png?alt=media&v=1784038055533656"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F22%20-%20S%C5%8Dryo%20no%20K%C5%8Dwan.png?alt=media&v=1784038055533656",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "ogRfzXPvdsatJ4AADL6D",
@@ -7450,8 +7498,9 @@
     "arco": "Meishi",
     "name": "Meishi",
     "order": 70051,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F52%20-%20Meishi.png?alt=media&v=1784038024820694"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F52%20-%20Meishi.png?alt=media&v=1784038024820694",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "OqfYXUdpLM2DsQhNvMWj",
@@ -7529,8 +7578,9 @@
     "arco": "Fujō no Yubiwa",
     "name": "Fujō no Yubiwa",
     "order": 70027,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F28%20-%20Fuj%C5%8D%20no%20Yubiwa.png?alt=media&v=1784037983693423"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F28%20-%20Fuj%C5%8D%20no%20Yubiwa.png?alt=media&v=1784037983693423",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "P0XMN3K8CoX1oJIsssBE",
@@ -7704,8 +7754,9 @@
     "arco": "Shinsui no Yari",
     "name": "Shinsui no Yari",
     "order": 70070,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F71%20-%20Shinsui%20no%20Yari.png?alt=media&v=1784038049663389"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F71%20-%20Shinsui%20no%20Yari.png?alt=media&v=1784038049663389",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "po850CxPhIavm0ii1GzT",
@@ -8352,8 +8403,9 @@
     "arco": "Sakin no Shinra",
     "name": "Sakin no Shinra",
     "order": 70058,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F59%20-%20Sakin%20no%20Shinra.png?alt=media&v=1784038042837518"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F59%20-%20Sakin%20no%20Shinra.png?alt=media&v=1784038042837518",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "pUEUspxRC69OYgFIcXFd",
@@ -8417,8 +8469,9 @@
     "arco": "Jikan no Ōken",
     "name": "Jikan no Ōken",
     "order": 70029,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F30%20-%20Jikan%20no%20%C5%8Cken.png?alt=media&v=1784038005503978"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F30%20-%20Jikan%20no%20%C5%8Cken.png?alt=media&v=1784038005503978",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "pz8PP3jQs19SbxeJ2b7y",
@@ -8438,8 +8491,9 @@
     "arco": "Kiri-no-Kami no Yoroi",
     "name": "Kiri-no-Kami no Yoroi",
     "order": 70069,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F70%20-%20Kiri-no-Kami%20no%20Yoroi.png?alt=media&v=1784038016309659"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F70%20-%20Kiri-no-Kami%20no%20Yoroi.png?alt=media&v=1784038016309659",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "Q7FGO1u08XJB2N4xECkD",
@@ -8481,8 +8535,9 @@
     "arco": "Tetsu no Sabaku-kyū",
     "name": "Tetsu no Sabaku-kyū",
     "order": 70056,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F57%20-%20Tetsu%20no%20Sabaku-ky%C5%AB.png?alt=media&v=1784038059222208"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F57%20-%20Tetsu%20no%20Sabaku-ky%C5%AB.png?alt=media&v=1784038059222208",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "QHhUw94u06IUnMOKSuhq",
@@ -8535,8 +8590,9 @@
     "arco": "Akaryū no Yubiwa",
     "name": "Akaryū no Yubiwa",
     "order": 70005,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F07%20-%20Akary%C5%AB%20no%20Yubiwa.png?alt=media&v=1784037976161712"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F07%20-%20Akary%C5%AB%20no%20Yubiwa.png?alt=media&v=1784037976161712",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "qVbzEzz6qlX21XC77N6y",
@@ -8663,8 +8719,9 @@
     "arco": "Kagefūin no Kama",
     "name": "Kagefūin no Kama",
     "order": 70028,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F29%20-%20Kagef%C5%ABin%20no%20Kama.png?alt=media&v=1784038009187951"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F29%20-%20Kagef%C5%ABin%20no%20Kama.png?alt=media&v=1784038009187951",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "RayS4Jy2uAVOo75at0d1",
@@ -8684,8 +8741,9 @@
     "arco": "Guren",
     "name": "Guren",
     "order": 70065,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F66%20-%20Guren.png?alt=media&v=1784037988465789"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F66%20-%20Guren.png?alt=media&v=1784037988465789",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "rmJKtOOObNAOsxC6Oo0T",
@@ -8694,8 +8752,9 @@
     "arco": "Bitei",
     "name": "Bitei",
     "order": 70055,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F56%20-%20Bitei.png?alt=media&v=1784037980009667"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F56%20-%20Bitei.png?alt=media&v=1784037980009667",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "roKgdSuMEqam1vcdyBqZ",
@@ -8840,8 +8899,9 @@
     "arco": "Gunbai",
     "name": "Gunbai",
     "order": 70026,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F27%20-%20Gunbai.png?alt=media&v=1784037987242210"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F27%20-%20Gunbai.png?alt=media&v=1784037987242210",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "sIlAOv5iLEf4PLDWMMvf",
@@ -8864,8 +8924,9 @@
     "arco": "Uzumaki En'yō",
     "name": "Uzumaki En'yō",
     "order": 70032,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F33%20-%20Uzumaki%20En'y%C5%8D.png?alt=media&v=1784038061710423"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F33%20-%20Uzumaki%20En'y%C5%8D.png?alt=media&v=1784038061710423",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "sn1vR0uhYl8vzEI1YXdF",
@@ -8896,8 +8957,9 @@
     "arco": "Dama no Hiraishin",
     "name": "Dama no Hiraishin",
     "order": 70034,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F35%20-%20Dama%20no%20Hiraishin.png?alt=media&v=1784037982628608"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F35%20-%20Dama%20no%20Hiraishin.png?alt=media&v=1784037982628608",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "ss7mVDmS8TXRScCSNwib",
@@ -9005,8 +9067,9 @@
     "arco": "Kasa",
     "name": "Kasa",
     "order": 70050,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F51%20-%20Kasa.png?alt=media&v=1784038011531511"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F51%20-%20Kasa.png?alt=media&v=1784038011531511",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "TQnPuGzyp8I664IKPNTJ",
@@ -9073,8 +9136,9 @@
     "arco": "Shizuku",
     "name": "Shizuku",
     "order": 70061,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F62%20-%20Shizuku.png?alt=media&v=1784038050825687"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F62%20-%20Shizuku.png?alt=media&v=1784038050825687",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "u5lP6oQBY7WhRuZB7aHJ",
@@ -9267,8 +9331,9 @@
     "arco": "Kubikiribōchō",
     "name": "Kubikiribōchō",
     "order": 70008,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F10%20-%20Kubikirib%C5%8Dch%C5%8D.png?alt=media&v=1784038020061489"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F10%20-%20Kubikirib%C5%8Dch%C5%8D.png?alt=media&v=1784038020061489",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "vDNO77POIx8VIpkZVdWX",
@@ -9429,8 +9494,9 @@
     "arco": "Aoi Hoshi",
     "name": "Aoi Hoshi",
     "order": 70046,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F47%20-%20Aoi%20Hoshi.png?alt=media&v=1784037977553216"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F47%20-%20Aoi%20Hoshi.png?alt=media&v=1784037977553216",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "wfeXH6OsXT9lIBBlRlpG",
@@ -9494,8 +9560,9 @@
     "arco": "Kinjishi no Tsume",
     "name": "Kinjishi no Tsume",
     "order": 70052,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F53%20-%20Kinjishi%20no%20Tsume.png?alt=media&v=1784038015215974"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F53%20-%20Kinjishi%20no%20Tsume.png?alt=media&v=1784038015215974",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "WjnJCZboK0BFZGEuBJji",
@@ -9515,8 +9582,9 @@
     "arco": "Ishi no Kubikazari",
     "name": "Ishi no Kubikazari",
     "order": 70006,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F08%20-%20Ishi%20no%20Kubikazari.png?alt=media&v=1784038003049463"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F08%20-%20Ishi%20no%20Kubikazari.png?alt=media&v=1784038003049463",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "WLSqtZ9RbJD2vvb7xrHD",
@@ -9682,8 +9750,9 @@
     "arco": "Okami Earring",
     "name": "Okami Earring",
     "order": 70035,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F36%20-%20Okami%20Earring.png?alt=media&v=1784038029687673"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F36%20-%20Okami%20Earring.png?alt=media&v=1784038029687673",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "wYBkXrdZuQ2IDIM9qhT0",
@@ -9752,8 +9821,9 @@
     "arco": "Okami no Men",
     "name": "Okami no Men",
     "order": 70036,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F37%20-%20Okami%20no%20Men.png?alt=media&v=1784038030904533"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F37%20-%20Okami%20no%20Men.png?alt=media&v=1784038030904533",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "xBTbMbCoyluabsZ1nLC2",
@@ -9784,8 +9854,9 @@
     "arco": "Shōton Artificial",
     "name": "Shōton Artificial",
     "order": 70011,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F13%20-%20Sh%C5%8Dton%20Artificial.png?alt=media&v=1784038051999219"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F13%20-%20Sh%C5%8Dton%20Artificial.png?alt=media&v=1784038051999219",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "xeJxaPWOe81EbogeSZ6x",
@@ -9794,8 +9865,9 @@
     "arco": "Nuibari",
     "name": "Nuibari",
     "order": 70013,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F15%20-%20Nuibari.png?alt=media&v=1784038027069549"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F15%20-%20Nuibari.png?alt=media&v=1784038027069549",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "xg6S0qDSLEP6cSA6wo9U",
@@ -9954,8 +10026,9 @@
     "arco": "Kumo no Jū",
     "name": "Kumo no Jū",
     "order": 70045,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F46%20-%20Kumo%20no%20J%C5%AB.png?alt=media&v=1784038021425479"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F46%20-%20Kumo%20no%20J%C5%AB.png?alt=media&v=1784038021425479",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "YbzJcSGZOZCGhjGNLFJ2",
@@ -10138,8 +10211,9 @@
     "arco": "Kōrin",
     "name": "Kōrin",
     "order": 70060,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F61%20-%20K%C5%8Drin.png?alt=media&v=1784038019005159"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F61%20-%20K%C5%8Drin.png?alt=media&v=1784038019005159",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "Z8igKFhrZwbcPQj1GZb9",
@@ -10226,8 +10300,9 @@
     "arco": "Presilha de Cabelo de Etsuko",
     "name": "Presilha de Cabelo de Etsuko",
     "order": 70015,
-    "done": false,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F17%20-%20Presilha%20de%20Cabelo%20de%20Etsuko.png?alt=media&v=1784038033226174"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F17%20-%20Presilha%20de%20Cabelo%20de%20Etsuko.png?alt=media&v=1784038033226174",
+    "done": true,
+    "doneBy": "Desconhecido"
   },
   {
     "__docId": "zmn7VKPHo813y1g2JEO9",

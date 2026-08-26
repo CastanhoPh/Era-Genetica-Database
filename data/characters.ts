@@ -5979,7 +5979,7 @@ export const initialData: Character[] = [
         destruction: "Baixa a média destruição direta, mas altíssimo impacto estratégico. A técnica transforma Reto em um atirador praticamente onisciente dentro de sua zona de caça, permitindo ataques de longa distância com precisão quase inevitável.",
         history: "O Sakin no Reigan tornou-se uma das principais ferramentas de inteligência de Sunagakure. Nas mãos de Reto, ele deixou de ser apenas um artefato de espionagem e se tornou parte de seu estilo de caça, garantindo que nenhum inimigo pudesse se esconder do Primeiro Kazekage.",
         status: "Exige concentração contínua. Quanto maior o número de partículas espalhadas, maior o fluxo de informação recebido por Reto. Usuários sem disciplina mental podem ser sobrecarregados por excesso sensorial.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FTecnicas%2F03%20-%20Sakin%20no%20Reigan%3A%20Mezame%20do%20Ca%C3%A7ador.png?alt=media&v=1786651908722411"
+        image: ""
       },
       {
         name: "Satetsu Kyūjutsu: Kuroyari no Sabaku",

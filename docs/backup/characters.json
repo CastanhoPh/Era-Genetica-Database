@@ -10551,68 +10551,6 @@
     "id": 44,
     "timelineAppearance": "Clássico",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1786651908717643",
-    "techniques": [
-      {
-        "name": "Kyūgu: Sabaku no Tenkyū",
-        "classification": "Z",
-        "nature": "Sakin + Satetsu + Fuinjutsu",
-        "description": "Reto ativa o arco lendário de Sunagakure, uma relíquia de Rank Z criada para condensar grandes quantidades de chakra em disparos de precisão absoluta. Ao puxar a corda, o arco absorve chakra do próprio usuário, partículas de Areia de Ouro e fragmentos de areia metálica extraídos do ambiente através do magnetismo.\n\nA flecha formada não é física no sentido comum. Ela nasce como uma lança viva de metal dourado e ferro negro comprimidos, girando em alta velocidade enquanto acumula pressão magnética. Ao ser disparada, atravessa o campo de batalha como um raio silencioso, corrigindo sua trajetória através do controle sensorial de Reto e da resposta magnética do Satetsu.\n\nO disparo pode perfurar barreiras, atravessar armaduras, romper defesas de chakra e atingir alvos a distâncias absurdas. Em seu estado máximo, a flecha não apenas acerta o inimigo: ela arrasta todo o campo magnético ao redor do alvo, prendendo-o no ponto de impacto antes da explosão final.",
-        "destruction": "Extremamente elevada em alvo único e longa distância. A flecha pode perfurar defesas de nível Kage, destruir estruturas fortificadas e causar uma explosão magnética concentrada no ponto de impacto. Sua letalidade vem da precisão, velocidade e força de penetração.",
-        "history": "O Sabaku no Tenkyū é o arco lendário associado ao Primeiro Kazekage. Dizem que Reto o utilizou para caçar líderes de tribos hostis, assassinos do deserto e monstros que ameaçavam as primeiras rotas comerciais de Sunagakure. Com o tempo, o arco tornou-se símbolo do Caçador do Deserto.",
-        "status": "Arma suprema de longa distância. Exige controle absoluto de chakra, mira perfeita e domínio magnético avançado. Sem preparo mental, o usuário pode perder o controle da condensação e sofrer dano pelo recuo magnético.",
-        "image": ""
-      },
-      {
-        "name": "Satetsu no Rinne: Samsara da Areia de Ferro",
-        "classification": "Z",
-        "nature": "Satetsu + Sakin + Fuinjutsu",
-        "description": "Reto ativa a máscara ancestral Satetsu no Rinne, permitindo que sua consciência se conecte às correntes magnéticas profundas do deserto. Ao vestir a máscara, sua percepção se expande como se cada grão de ferro do mundo se tornasse parte de seu corpo.\n\nA técnica permite extrair ferro do solo, da poeira, da atmosfera, de armas inimigas e até de traços minerais presentes no sangue de seres vivos. Esse material é convertido em areia de ferro sob seu comando, formando tempestades negras, muralhas metálicas, flechas, lanças, esferas defensivas e prisões magnéticas.\n\nEnquanto a técnica está ativa, ataques metálicos perdem eficiência contra Reto, pois podem ser desviados, absorvidos ou desmanchados em partículas. Jutsus elementais que dependem de trajetória física também podem ser distorcidos pela pressão magnética criada ao redor do campo.",
-        "destruction": "Cataclísmica em larga escala. Em uso máximo, pode gerar tempestades de areia de ferro capazes de cobrir regiões inteiras, esmagar exércitos, partir estruturas subterrâneas e transformar o terreno em um domínio magnético hostil.",
-        "history": "O Satetsu no Rinne é considerado um dos símbolos supremos do Kazekage. Para Reto, a máscara não era apenas uma arma, mas uma responsabilidade. Ela representava o ciclo do deserto: tudo nasce da poeira, tudo retorna à poeira e tudo pode ser moldado por aquele que compreende a vontade da areia.",
-        "status": "Uso extremamente perigoso. A máscara exige resistência mental sobre-humana para que o portador não seja consumido pela consciência coletiva das dunas. Quanto mais tempo ativa, maior a pressão espiritual sobre a mente de Reto.",
-        "image": ""
-      },
-      {
-        "name": "Sakin no Reigan: Mezame do Caçador",
-        "classification": "S++",
-        "nature": "Sakin + Fuinjutsu",
-        "description": "Reto libera o Sakin no Reigan, o Olho Espectral de Areia Dourada, espalhando bilhões de nano-partículas douradas pelo campo de batalha. Essas partículas se condensam em pequenos olhos flutuantes, quase invisíveis a sentidos comuns, capazes de transmitir imagens térmicas, assinaturas de chakra, vibrações sonoras e alterações no terreno diretamente para sua mente.\n\nCom essa técnica ativa, Reto enxerga o campo inteiro como um mapa vivo. Ele identifica emboscadas, rastreia movimentos subterrâneos, acompanha inimigos ocultos e calcula rotas de disparo para suas flechas de areia metálica. Mesmo alvos escondidos atrás de muralhas, fumaça, clones ou ilusões físicas podem ser localizados através da leitura combinada de calor, chakra e vibração.\n\nCaso necessário, o Reigan pode condensar suas partículas em projéteis perfurantes ou explodir em uma nuvem dourada sufocante, cegando e marcando inimigos para disparos posteriores.",
-        "destruction": "Baixa a média destruição direta, mas altíssimo impacto estratégico. A técnica transforma Reto em um atirador praticamente onisciente dentro de sua zona de caça, permitindo ataques de longa distância com precisão quase inevitável.",
-        "history": "O Sakin no Reigan tornou-se uma das principais ferramentas de inteligência de Sunagakure. Nas mãos de Reto, ele deixou de ser apenas um artefato de espionagem e se tornou parte de seu estilo de caça, garantindo que nenhum inimigo pudesse se esconder do Primeiro Kazekage.",
-        "status": "Exige concentração contínua. Quanto maior o número de partículas espalhadas, maior o fluxo de informação recebido por Reto. Usuários sem disciplina mental podem ser sobrecarregados por excesso sensorial.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FTecnicas%2F03%20-%20Sakin%20no%20Reigan%3A%20Mezame%20do%20Ca%C3%A7ador.png?alt=media&v=1786651908722411"
-      },
-      {
-        "name": "Satetsu Kyūjutsu: Kuroyari no Sabaku",
-        "classification": "S++",
-        "nature": "Satetsu + Sakin",
-        "description": "Reto ergue seu arco e cria dezenas de flechas negras de areia de ferro ao seu redor. Cada flecha é comprimida magneticamente até assumir a forma de uma lança fina, escura e extremamente densa. Ao disparar a primeira flecha, todas as outras seguem em sequência, como uma chuva de lanças guiadas por magnetismo.\n\nEssas flechas não seguem trajetórias comuns. Elas podem curvar no ar, contornar defesas, perseguir assinaturas metálicas, atravessar frestas e atacar o inimigo de múltiplos ângulos. Quando uma flecha atinge o alvo, ela libera uma descarga magnética que atrai as demais para o mesmo ponto, criando uma execução em cadeia.\n\nReto costuma usar essa técnica contra inimigos velozes ou formações inteiras, forçando o alvo a se defender de ataques vindos do céu, do solo, das laterais e da própria poeira metálica ao redor.",
-        "destruction": "Extremamente elevada contra múltiplos alvos e defesas móveis. A técnica pode perfurar barreiras, destruir pelotões, rasgar armaduras e prender inimigos através de campos magnéticos acumulados.",
-        "history": "Essa técnica consolidou o título de Reto como Caçador do Deserto. Relatos antigos afirmam que seus inimigos só ouviam o primeiro disparo; depois disso, o céu escurecia com flechas metálicas e a batalha terminava antes que pudessem fugir.",
-        "status": "Consumo alto. Exige controle simultâneo de múltiplos projéteis e cálculo preciso de trajetória. Em ambientes ricos em metal, a técnica se torna ainda mais perigosa.",
-        "image": ""
-      },
-      {
-        "name": "Sakin: Ōgon no Shuryōba",
-        "classification": "S+",
-        "nature": "Sakin + Fuinjutsu",
-        "description": "Reto espalha uma fina camada de Areia de Ouro pelo campo de batalha, transformando a região em seu território de caça. A areia se infiltra em rachaduras, cobre o solo, marca pegadas, detecta vibrações e registra o deslocamento de qualquer inimigo dentro da área.\n\nQuando um alvo é identificado, a areia dourada cria pequenas marcas ao redor dele, funcionando como pontos de referência para os disparos do arco de Reto. A partir desse momento, suas flechas passam a perseguir o inimigo com muito mais precisão, como se o próprio deserto indicasse o caminho do disparo.\n\nAlém da função sensorial, Reto pode erguer armadilhas instantâneas de areia dourada, prendendo tornozelos, reduzindo mobilidade ou forçando o inimigo a se mover exatamente para onde ele deseja.",
-        "destruction": "Moderada em dano direto, mas extremamente alta em controle de campo. A técnica aumenta drasticamente a precisão de Reto e transforma a movimentação inimiga em uma desvantagem.",
-        "history": "Reto desenvolveu esta técnica durante o período de unificação do deserto. Em vez de enfrentar tribos inteiras em combate direto, ele transformava o terreno em uma rede de rastreamento e eliminava líderes hostis com disparos impossíveis.",
-        "status": "Uso sustentado. A técnica exige foco constante, mas possui excelente eficiência de chakra. É uma das bases do estilo de combate do Caçador do Deserto.",
-        "image": ""
-      },
-      {
-        "name": "Futon: Sajin no Ya",
-        "classification": "S+",
-        "nature": "Futon + Satetsu",
-        "description": "Reto combina vento cortante com areia de ferro para criar flechas extremamente rápidas e silenciosas. Ao puxar a corda do arco, ele envolve a flecha metálica com uma camada espiral de Futon, reduzindo resistência do ar e aumentando drasticamente sua velocidade.\n\nO disparo resultante é quase invisível a olho nu. A flecha atravessa o campo como uma linha de pressão, perfurando defesas antes que o som do arco alcance o inimigo. Após o impacto, a areia de ferro se espalha dentro ou ao redor do alvo, podendo imobilizar membros, rasgar pontos de chakra ou servir como marcador para técnicas magnéticas posteriores.\n\nReto usa essa técnica quando precisa eliminar um alvo específico sem destruir o ambiente ao redor.",
-        "destruction": "Alta precisão destrutiva em alvo único. A técnica é ideal para perfuração, interrupção de jutsus, abate de comandantes inimigos e ataques surpresa de longa distância.",
-        "history": "Entre os arqueiros de Sunagakure, esta técnica é considerada uma das formas mais puras de assassinato à distância. Nas mãos de Reto, tornou-se uma assinatura: um disparo sem alarde, sem desperdício e sem segunda chance.",
-        "status": "Consumo moderado. Exige mira perfeita e controle refinado de Futon. Contra inimigos com percepção elevada, é mais eficiente quando combinada ao Sakin no Reigan.",
-        "image": ""
-      }
-    ],
     "timelineSkipped": [
       "2ª Temporada",
       "3ª Temporada",
@@ -10658,7 +10596,69 @@
       "inteligencia": 50,
       "vigor": 50
     },
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "techniques": [
+      {
+        "name": "Kyūgu: Sabaku no Tenkyū",
+        "classification": "Z",
+        "nature": "Sakin + Satetsu + Fuinjutsu",
+        "description": "Reto ativa o arco lendário de Sunagakure, uma relíquia de Rank Z criada para condensar grandes quantidades de chakra em disparos de precisão absoluta. Ao puxar a corda, o arco absorve chakra do próprio usuário, partículas de Areia de Ouro e fragmentos de areia metálica extraídos do ambiente através do magnetismo.\n\nA flecha formada não é física no sentido comum. Ela nasce como uma lança viva de metal dourado e ferro negro comprimidos, girando em alta velocidade enquanto acumula pressão magnética. Ao ser disparada, atravessa o campo de batalha como um raio silencioso, corrigindo sua trajetória através do controle sensorial de Reto e da resposta magnética do Satetsu.\n\nO disparo pode perfurar barreiras, atravessar armaduras, romper defesas de chakra e atingir alvos a distâncias absurdas. Em seu estado máximo, a flecha não apenas acerta o inimigo: ela arrasta todo o campo magnético ao redor do alvo, prendendo-o no ponto de impacto antes da explosão final.",
+        "destruction": "Extremamente elevada em alvo único e longa distância. A flecha pode perfurar defesas de nível Kage, destruir estruturas fortificadas e causar uma explosão magnética concentrada no ponto de impacto. Sua letalidade vem da precisão, velocidade e força de penetração.",
+        "history": "O Sabaku no Tenkyū é o arco lendário associado ao Primeiro Kazekage. Dizem que Reto o utilizou para caçar líderes de tribos hostis, assassinos do deserto e monstros que ameaçavam as primeiras rotas comerciais de Sunagakure. Com o tempo, o arco tornou-se símbolo do Caçador do Deserto.",
+        "status": "Arma suprema de longa distância. Exige controle absoluto de chakra, mira perfeita e domínio magnético avançado. Sem preparo mental, o usuário pode perder o controle da condensação e sofrer dano pelo recuo magnético.",
+        "image": ""
+      },
+      {
+        "name": "Satetsu no Rinne: Samsara da Areia de Ferro",
+        "classification": "Z",
+        "nature": "Satetsu + Sakin + Fuinjutsu",
+        "description": "Reto ativa a máscara ancestral Satetsu no Rinne, permitindo que sua consciência se conecte às correntes magnéticas profundas do deserto. Ao vestir a máscara, sua percepção se expande como se cada grão de ferro do mundo se tornasse parte de seu corpo.\n\nA técnica permite extrair ferro do solo, da poeira, da atmosfera, de armas inimigas e até de traços minerais presentes no sangue de seres vivos. Esse material é convertido em areia de ferro sob seu comando, formando tempestades negras, muralhas metálicas, flechas, lanças, esferas defensivas e prisões magnéticas.\n\nEnquanto a técnica está ativa, ataques metálicos perdem eficiência contra Reto, pois podem ser desviados, absorvidos ou desmanchados em partículas. Jutsus elementais que dependem de trajetória física também podem ser distorcidos pela pressão magnética criada ao redor do campo.",
+        "destruction": "Cataclísmica em larga escala. Em uso máximo, pode gerar tempestades de areia de ferro capazes de cobrir regiões inteiras, esmagar exércitos, partir estruturas subterrâneas e transformar o terreno em um domínio magnético hostil.",
+        "history": "O Satetsu no Rinne é considerado um dos símbolos supremos do Kazekage. Para Reto, a máscara não era apenas uma arma, mas uma responsabilidade. Ela representava o ciclo do deserto: tudo nasce da poeira, tudo retorna à poeira e tudo pode ser moldado por aquele que compreende a vontade da areia.",
+        "status": "Uso extremamente perigoso. A máscara exige resistência mental sobre-humana para que o portador não seja consumido pela consciência coletiva das dunas. Quanto mais tempo ativa, maior a pressão espiritual sobre a mente de Reto.",
+        "image": ""
+      },
+      {
+        "name": "Sakin no Reigan: Mezame do Caçador",
+        "classification": "S++",
+        "nature": "Sakin + Fuinjutsu",
+        "description": "Reto libera o Sakin no Reigan, o Olho Espectral de Areia Dourada, espalhando bilhões de nano-partículas douradas pelo campo de batalha. Essas partículas se condensam em pequenos olhos flutuantes, quase invisíveis a sentidos comuns, capazes de transmitir imagens térmicas, assinaturas de chakra, vibrações sonoras e alterações no terreno diretamente para sua mente.\n\nCom essa técnica ativa, Reto enxerga o campo inteiro como um mapa vivo. Ele identifica emboscadas, rastreia movimentos subterrâneos, acompanha inimigos ocultos e calcula rotas de disparo para suas flechas de areia metálica. Mesmo alvos escondidos atrás de muralhas, fumaça, clones ou ilusões físicas podem ser localizados através da leitura combinada de calor, chakra e vibração.\n\nCaso necessário, o Reigan pode condensar suas partículas em projéteis perfurantes ou explodir em uma nuvem dourada sufocante, cegando e marcando inimigos para disparos posteriores.",
+        "destruction": "Baixa a média destruição direta, mas altíssimo impacto estratégico. A técnica transforma Reto em um atirador praticamente onisciente dentro de sua zona de caça, permitindo ataques de longa distância com precisão quase inevitável.",
+        "history": "O Sakin no Reigan tornou-se uma das principais ferramentas de inteligência de Sunagakure. Nas mãos de Reto, ele deixou de ser apenas um artefato de espionagem e se tornou parte de seu estilo de caça, garantindo que nenhum inimigo pudesse se esconder do Primeiro Kazekage.",
+        "status": "Exige concentração contínua. Quanto maior o número de partículas espalhadas, maior o fluxo de informação recebido por Reto. Usuários sem disciplina mental podem ser sobrecarregados por excesso sensorial.",
+        "image": ""
+      },
+      {
+        "name": "Satetsu Kyūjutsu: Kuroyari no Sabaku",
+        "classification": "S++",
+        "nature": "Satetsu + Sakin",
+        "description": "Reto ergue seu arco e cria dezenas de flechas negras de areia de ferro ao seu redor. Cada flecha é comprimida magneticamente até assumir a forma de uma lança fina, escura e extremamente densa. Ao disparar a primeira flecha, todas as outras seguem em sequência, como uma chuva de lanças guiadas por magnetismo.\n\nEssas flechas não seguem trajetórias comuns. Elas podem curvar no ar, contornar defesas, perseguir assinaturas metálicas, atravessar frestas e atacar o inimigo de múltiplos ângulos. Quando uma flecha atinge o alvo, ela libera uma descarga magnética que atrai as demais para o mesmo ponto, criando uma execução em cadeia.\n\nReto costuma usar essa técnica contra inimigos velozes ou formações inteiras, forçando o alvo a se defender de ataques vindos do céu, do solo, das laterais e da própria poeira metálica ao redor.",
+        "destruction": "Extremamente elevada contra múltiplos alvos e defesas móveis. A técnica pode perfurar barreiras, destruir pelotões, rasgar armaduras e prender inimigos através de campos magnéticos acumulados.",
+        "history": "Essa técnica consolidou o título de Reto como Caçador do Deserto. Relatos antigos afirmam que seus inimigos só ouviam o primeiro disparo; depois disso, o céu escurecia com flechas metálicas e a batalha terminava antes que pudessem fugir.",
+        "status": "Consumo alto. Exige controle simultâneo de múltiplos projéteis e cálculo preciso de trajetória. Em ambientes ricos em metal, a técnica se torna ainda mais perigosa.",
+        "image": ""
+      },
+      {
+        "name": "Sakin: Ōgon no Shuryōba",
+        "classification": "S+",
+        "nature": "Sakin + Fuinjutsu",
+        "description": "Reto espalha uma fina camada de Areia de Ouro pelo campo de batalha, transformando a região em seu território de caça. A areia se infiltra em rachaduras, cobre o solo, marca pegadas, detecta vibrações e registra o deslocamento de qualquer inimigo dentro da área.\n\nQuando um alvo é identificado, a areia dourada cria pequenas marcas ao redor dele, funcionando como pontos de referência para os disparos do arco de Reto. A partir desse momento, suas flechas passam a perseguir o inimigo com muito mais precisão, como se o próprio deserto indicasse o caminho do disparo.\n\nAlém da função sensorial, Reto pode erguer armadilhas instantâneas de areia dourada, prendendo tornozelos, reduzindo mobilidade ou forçando o inimigo a se mover exatamente para onde ele deseja.",
+        "destruction": "Moderada em dano direto, mas extremamente alta em controle de campo. A técnica aumenta drasticamente a precisão de Reto e transforma a movimentação inimiga em uma desvantagem.",
+        "history": "Reto desenvolveu esta técnica durante o período de unificação do deserto. Em vez de enfrentar tribos inteiras em combate direto, ele transformava o terreno em uma rede de rastreamento e eliminava líderes hostis com disparos impossíveis.",
+        "status": "Uso sustentado. A técnica exige foco constante, mas possui excelente eficiência de chakra. É uma das bases do estilo de combate do Caçador do Deserto.",
+        "image": ""
+      },
+      {
+        "name": "Futon: Sajin no Ya",
+        "classification": "S+",
+        "nature": "Futon + Satetsu",
+        "description": "Reto combina vento cortante com areia de ferro para criar flechas extremamente rápidas e silenciosas. Ao puxar a corda do arco, ele envolve a flecha metálica com uma camada espiral de Futon, reduzindo resistência do ar e aumentando drasticamente sua velocidade.\n\nO disparo resultante é quase invisível a olho nu. A flecha atravessa o campo como uma linha de pressão, perfurando defesas antes que o som do arco alcance o inimigo. Após o impacto, a areia de ferro se espalha dentro ou ao redor do alvo, podendo imobilizar membros, rasgar pontos de chakra ou servir como marcador para técnicas magnéticas posteriores.\n\nReto usa essa técnica quando precisa eliminar um alvo específico sem destruir o ambiente ao redor.",
+        "destruction": "Alta precisão destrutiva em alvo único. A técnica é ideal para perfuração, interrupção de jutsus, abate de comandantes inimigos e ataques surpresa de longa distância.",
+        "history": "Entre os arqueiros de Sunagakure, esta técnica é considerada uma das formas mais puras de assassinato à distância. Nas mãos de Reto, tornou-se uma assinatura: um disparo sem alarde, sem desperdício e sem segunda chance.",
+        "status": "Consumo moderado. Exige mira perfeita e controle refinado de Futon. Contra inimigos com percepção elevada, é mais eficiente quando combinada ao Sakin no Reigan.",
+        "image": ""
+      }
+    ]
   },
   {
     "__docId": "rock-gunma",

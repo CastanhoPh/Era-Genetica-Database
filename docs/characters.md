@@ -6286,7 +6286,7 @@ Uso extremamente perigoso. A máscara exige resistência mental sobre-humana par
 ### 3. Sakin no Reigan: Mezame do Caçador
 Classificação: S++ | Natureza: Sakin + Fuinjutsu
 
-![Sakin no Reigan: Mezame do Caçador](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FTecnicas%2F03%20-%20Sakin%20no%20Reigan%3A%20Mezame%20do%20Ca%C3%A7ador.png?alt=media&v=1786651908722411)
+
 
 Descrição:
 Reto libera o Sakin no Reigan, o Olho Espectral de Areia Dourada, espalhando bilhões de nano-partículas douradas pelo campo de batalha. Essas partículas se condensam em pequenos olhos flutuantes, quase invisíveis a sentidos comuns, capazes de transmitir imagens térmicas, assinaturas de chakra, vibrações sonoras e alterações no terreno diretamente para sua mente.
