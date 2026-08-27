@@ -103,7 +103,7 @@ NC: 30
 HP: 232
 Chakra: 200
 Status: Morto (morto por Omega)
-Títulos: Deus Shinobi, Terceiro Hokage, Relâmpago Azul de Konoha, 3 Sannins Lendários, Jinchuuriki
+Títulos: Deus Shinobi, Relâmpago Azul de Konoha
 
 ![Nishinoya Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.jpg?alt=media&v=1786651865147176)
 

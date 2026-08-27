@@ -7,7 +7,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Senju",
     categories: ["NPC", "Konohagakure"],
-    titles: ["Deus Shinobi", "Terceiro Hokage", "Relâmpago Azul de Konoha", "3 Sannins Lendários", "Jinchuuriki"],
+    titles: ["Deus Shinobi", "Relâmpago Azul de Konoha"],
     nc: 30,
     position: "3º Hokage",
     role: "DPS",
