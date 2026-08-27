@@ -5,22 +5,22 @@
 | ID | Nome | Clã | Grupo | Posição | Função | NC | HP | Chakra | Status |
 |---:|---|---|---|---|---|---:|---:|---:|---|
 | 1 | Nishinoya Senju | Senju | NPC, Konohagakure | 3º Hokage | DPS | 30 | 232 | 200 | Morto (morto por Omega) |
-| 2 | Kaito Senju | Senju | Personagem, Konohagakure | Chunin | Tank e DPS | 18 | 133 | 64 | Vivo |
-| 3 | Nagare Uzumaki | Uzumaki | Personagem, Konohagakure, OCA | Chunin | DPS e Suporte | 18 | 154 | 96 | Vivo |
-| 4 | Oddy Uchiha | Uchiha | Personagem, Konohagakure | Chunin | DPS | 18 | 172 | 82 | Vivo |
-| 5 | Katsumi Hyuga | Hyuga | Personagem, Konohagakure | Chunin | Tank | 16 | 138 | 58 | Morto (morto por Kai) |
-| 6 | Najin Hatake | Hatake | Personagem, Konohagakure | Genin | DPS | 16 | 138 | 55 | Morto (morto por 9º Portão: Ressureição) |
-| 7 | Takeshi Hatake | Hatake | Personagem, Konohagakure | Chunin | DPS | 18 | 139 | 64 | Vivo |
-| 8 | Shoei Sarutobi | Sarutobi | Personagem, Konohagakure | Genin | DPS | 12 | 94 | 65 | Morto (morto por Omega) |
-| 9 | Furyuzan Chinoike | Chinoike | Personagem, OCA, Konohagakure | Genin | DPS | 18 | 130 | 96 | Vivo |
-| 10 | Kazuki Hoshigaki | Hoshigaki | Personagem, OCA, Kirigakure | Genin | Tank | 12 | 106 | 46 | Morto (morto por Omega) |
-| 11 | Kenma Soryo | Soryo | Personagem, Iwagakure | Jounin | Tank | 18 | 154 | 40 | Vivo |
-| 12 | Airi Senju | Senju | NPC, Konohagakure | Jounin de Elite | Suporte | 18 | 130 | 96 | Vivo |
-| 13 | Ayumi Uchiha | Uchiha | NPC, Konohagakure | Jounin de Elite | DPS | 18 | 154 | 64 | Vivo |
-| 14 | Shizumi Uchiha | Uchiha | NPC, Konohagakure | Jounin de Elite | DPS | 18 | 130 | 64 | Vivo |
+| 2 | Kaito Senju | Senju | Personagem, Konohagakure |  | Tank e DPS | 18 | 133 | 64 | Vivo |
+| 3 | Nagare Uzumaki | Uzumaki | Personagem, Konohagakure, OCA |  | DPS e Suporte | 18 | 154 | 96 | Vivo |
+| 4 | Oddy Uchiha | Uchiha | Personagem, Konohagakure |  | DPS | 18 | 172 | 82 | Vivo |
+| 5 | Katsumi Hyuga | Hyuga | Personagem, Konohagakure |  | Tank | 16 | 138 | 58 | Morto (morto por Kai) |
+| 6 | Najin Hatake | Hatake | Personagem, Konohagakure |  | DPS | 16 | 138 | 55 | Morto (morto por 9º Portão: Ressureição) |
+| 7 | Takeshi Hatake | Hatake | Personagem, Konohagakure |  | DPS | 18 | 139 | 64 | Vivo |
+| 8 | Shoei Sarutobi | Sarutobi | Personagem, Konohagakure |  | DPS | 12 | 94 | 65 | Morto (morto por Omega) |
+| 9 | Furyuzan Chinoike | Chinoike | Personagem, OCA, Konohagakure |  | DPS | 18 | 130 | 96 | Vivo |
+| 10 | Kazuki Hoshigaki | Hoshigaki | Personagem, OCA, Kirigakure |  | Tank | 12 | 106 | 46 | Morto (morto por Omega) |
+| 11 | Kenma Soryo | Soryo | Personagem, Iwagakure |  | Tank | 18 | 154 | 40 | Vivo |
+| 12 | Airi Senju | Senju | NPC, Konohagakure |  | Suporte | 18 | 130 | 96 | Vivo |
+| 13 | Ayumi Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 18 | 154 | 64 | Vivo |
+| 14 | Shizumi Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 18 | 130 | 64 | Vivo |
 | 15 | Kuromi Uchiha | Uchiha | NPC, Konohagakure, OCA | Terceiro Degrau | Suporte | 24 | 184 | 82 | Vivo |
 | 16 | Apollo Sarutobi | Sarutobi | NPC, Konohagakure, OCA | Terceiro Degrau | Sensor / Ofensivo | 24 | 202 | 82 | Vivo |
-| 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure, OCA | 3 Sannins Lendários | DPS | 30 | 241 | 200 | Vivo |
+| 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | DPS | 30 | 241 | 200 | Vivo |
 | 18 | Naoki Uchiha | Uchiha | NPC, Konohagakure | Hokage das Sombras | Suporte e DPS | 18 | 130 | 64 | Vivo |
 | 19 | Hisoka Senju | Senju | NPC, Konohagakure, OCA | Hokage das Sombras | Tank | 18 | 154 | 40 | Vivo |
 | 20 | Ryuta Hyuga | Hyuga |  |  | Desconhecido | 18 | 130 | 64 | Vivo |
@@ -29,21 +29,21 @@
 | 23 | Tobirama Senju | Senju | NPC, Konohagakure, OCA | 2º Hokage | DPS | 30 | 232 | 100 | Morto (morto por Omega) |
 | 24 | Sho Uchiha | Uchiha | NPC, Konohagakure | Hokage das Sombras | Tanque | 28 | 234 | 94 | Morto (morto por Omega) |
 | 25 | Hoshiro Hyuga | Hyuga | NPC, Konohagakure | Hokage das Sombras | DPS e Suporte | 28 | 234 | 76 | Morto (morto por Omega) |
-| 26 | Yumi Uzumaki | Uzumaki | NPC, Konohagakure | Sannin | Suporte | 25 | 189 | 128 | Vivo |
-| 27 | Asami Hyuga | Hyuga | NPC, Konohagakure | Sannin | DPS e Suporte | 25 | 210 | 85 | Morto (morto por Omega) |
+| 26 | Yumi Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 25 | 189 | 128 | Vivo |
+| 27 | Asami Hyuga | Hyuga | NPC, Konohagakure |  | DPS e Suporte | 25 | 210 | 85 | Morto (morto por Omega) |
 | 28 | Kaizuka Hyuga | Hyuga | NPC, Konohagakure | Hokage das Sombras | Tanque, DPS e Suporte | 30 | 250 | 82 | Vivo |
 | 29 | Raikun Hatake | Hatake | NPC, Konohagakure, OCA | Hokage das Sombras | Tanque e DPS | 30 | 250 | 123 | Morto (morto por Chip da OCA) |
 | 30 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure | 3º Líder da Ambu | DPS e Suporte | 24 | 202 | 96 | Vivo |
-| 31 | Satoshi Namikaze | Namikaze | NPC, Konohagakure | Sannin de Elite | DPS | 27 | 205 | 137 | Vivo |
+| 31 | Satoshi Namikaze | Namikaze | NPC, Konohagakure |  | DPS | 27 | 205 | 137 | Vivo |
 | 32 | Hashirama Senju | Senju | NPC, Konohagakure | 1º Hokage | Tanque e DPS | 20 | 146 | 70 | Morto (morto por ?) |
 | 33 | Madara Uchiha | Uchiha | NPC, Konohagakure | Hokage das Sombras | Tanque e DPS | 20 | 146 | 70 | Morto (morto por Hashirama Senju) |
 | 34 | Shikaki Nara | Nara | NPC, Konohagakure, OCA | Terceiro Degrau | Suporte | 22 | 168 | 76 | Vivo |
 | 35 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure | NoGuns | DPS | 18 | 154 | 64 | Vivo |
-| 36 | Hirato Ishi | Ishi | NPC, Iwagakure | Sannin | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
-| 37 | Hikaru Ishi | Ishi | NPC, Iwagakure | Sannin | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
-| 38 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure, OCA | Chunin | Suporte | 8 | 59 | 56 | Vivo |
-| 39 | Souma Namikaze | Namikaze | NPC, Konohagakure, OCA | Genin | DPS | 8 | 59 | 42 | Vivo |
-| 40 | Reika Uzumaki | Uzumaki | NPC, Konohagakure, OCA | Genin | Suporte | 8 | 59 | 70 | Vivo |
+| 36 | Hirato Ishi | Ishi | NPC, Iwagakure |  | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
+| 37 | Hikaru Ishi | Ishi | NPC, Iwagakure |  | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
+| 38 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | Suporte | 8 | 59 | 56 | Vivo |
+| 39 | Souma Namikaze | Namikaze | NPC, Konohagakure, OCA |  | DPS | 8 | 59 | 42 | Vivo |
+| 40 | Reika Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | Suporte | 8 | 59 | 70 | Vivo |
 | 41 | Nagi Yuki | Yuki | NPC, Konohagakure, OCA | Terceiro Degrau | Controle / Sensorial | 22 | 168 | 76 | Vivo |
 | 42 | Yasuo Kurogane | Kurogane | NPC, Sunagakure, OCA | Terceiro Degrau | Suporte | 22 | 174 | 76 | Vivo |
 | 43 | Hana Sabaku | Sabaku | NPC, Sunagakure | 2º Kazekage | DPS | 30 | 241 | 150 | Vivo |
@@ -78,11 +78,11 @@
 | 72 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure | Líder dos 75% | DPS | 20 | 170 | 105 | Morto (morto por Nagare Uzumaki) |
 | 73 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure | Vice Líder dos 75% | DPS | 26 | 218 | 132 | Vivo |
 | 74 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure | Vice Líder dos 75% | Suporte | 25 | 189 | 85 | Vivo |
-| 75 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure | Sannin | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
-| 76 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure | Sannin | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
-| 77 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure | Sannin | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
+| 75 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
+| 76 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
+| 77 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
 | 78 | Genei (G) | Desconhecido | NPC, OCA | Vice Líder dos 75% | Tank e DPS | 20 | 170 | 105 | Morto (morto por Kaito Senju) |
-| 79 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure | Sannin | Suporte | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
+| 79 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
 | 80 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure | Vice Líder da OCA | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
 | 81 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure | Raikage | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
 | 82 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure | Mizukage | ? | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
@@ -527,7 +527,6 @@ Uso simples e de baixo custo de chakra em comparação às demais técnicas de S
 ID: 2
 Clã: Senju
 Grupos: Personagem, Konohagakure
-Posição: Chunin
 Função: Tank e DPS
 NC: 18
 HP: 133
@@ -761,7 +760,6 @@ Uso extremamente exaustivo. Requer Modo Sábio ativo e grande controle para evit
 ID: 3
 Clã: Uzumaki
 Grupos: Personagem, Konohagakure, OCA
-Posição: Chunin
 Função: DPS e Suporte
 NC: 18
 HP: 154
@@ -1005,7 +1003,6 @@ Uso controlado. Exige grande concentração e resistência mental. Uso prolongad
 ID: 4
 Clã: Uchiha
 Grupos: Personagem, Konohagakure
-Posição: Chunin
 Função: DPS
 NC: 18
 HP: 172
@@ -1354,7 +1351,6 @@ Alto consumo de chakra. Requer excelente controle respiratório e resistência f
 ID: 5
 Clã: Hyuga
 Grupos: Personagem, Konohagakure
-Posição: Chunin
 Função: Tank
 NC: 16
 HP: 138
@@ -1611,7 +1607,6 @@ Técnica fundamental do clã Hyuga. Embora a ativação seja natural para seus m
 ID: 6
 Clã: Hatake
 Grupos: Personagem, Konohagakure
-Posição: Genin
 Função: DPS
 NC: 16
 HP: 138
@@ -1844,7 +1839,6 @@ Risco extremo ao usuário. O Quinto Portão impõe enorme estresse muscular, rup
 ID: 7
 Clã: Hatake
 Grupos: Personagem, Konohagakure
-Posição: Chunin
 Função: DPS
 NC: 18
 HP: 139
@@ -2017,7 +2011,6 @@ Exigente e perigoso. O uso incorreto pode causar danos severos ao próprio usuá
 ID: 8
 Clã: Sarutobi
 Grupos: Personagem, Konohagakure
-Posição: Genin
 Função: DPS
 NC: 12
 HP: 94
@@ -2128,7 +2121,6 @@ Nenhuma técnica cadastrada.
 ID: 9
 Clã: Chinoike
 Grupos: Personagem, OCA, Konohagakure
-Posição: Genin
 Função: DPS
 NC: 18
 HP: 130
@@ -2367,7 +2359,6 @@ Técnica versátil de suporte e defesa. Consome chakra moderado e pode ser usada
 ID: 10
 Clã: Hoshigaki
 Grupos: Personagem, OCA, Kirigakure
-Posição: Genin
 Função: Tank
 NC: 12
 HP: 106
@@ -2424,7 +2415,6 @@ Uso moderadamente restrito. Exige controle preciso do manto profano e alto consu
 ID: 11
 Clã: Soryo
 Grupos: Personagem, Iwagakure
-Posição: Jounin
 Função: Tank
 NC: 18
 HP: 154
@@ -2608,7 +2598,6 @@ Uso eficiente e estratégico. Consome chakra proporcionalmente ao tamanho e à e
 ID: 12
 Clã: Senju
 Grupos: NPC, Konohagakure
-Posição: Jounin de Elite
 Função: Suporte
 NC: 18
 HP: 130
@@ -2769,7 +2758,6 @@ Requer contato inicial. A drenagem é gradual e pode ser removida por usuários 
 ID: 13
 Clã: Uchiha
 Grupos: NPC, Konohagakure
-Posição: Jounin de Elite
 Função: DPS
 NC: 18
 HP: 154
@@ -2911,7 +2899,6 @@ Requer preparação ou contato inicial. Manter múltiplas marcas consome chakra 
 ID: 14
 Clã: Uchiha
 Grupos: NPC, Konohagakure
-Posição: Jounin de Elite
 Função: DPS
 NC: 18
 HP: 130
@@ -3541,7 +3528,6 @@ Consumo contínuo de energia natural. Pode causar petrificação parcial caso o 
 ID: 17
 Clã: Uzumaki
 Grupos: NPC, Konohagakure, OCA
-Posição: 3 Sannins Lendários
 Função: DPS
 NC: 30
 HP: 241
@@ -4419,7 +4405,6 @@ Nenhuma técnica cadastrada.
 ID: 26
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
-Posição: Sannin
 Função: Suporte
 NC: 25
 HP: 189
@@ -4463,7 +4448,6 @@ Nenhuma técnica cadastrada.
 ID: 27
 Clã: Hyuga
 Grupos: NPC, Konohagakure
-Posição: Sannin
 Função: DPS e Suporte
 NC: 25
 HP: 210
@@ -4815,7 +4799,6 @@ Requer preparo e posicionamento estratégico.
 ID: 31
 Clã: Namikaze
 Grupos: NPC, Konohagakure
-Posição: Sannin de Elite
 Função: DPS
 NC: 27
 HP: 205
@@ -5240,7 +5223,6 @@ Extremamente perigosa para o usuário. Requer alto consumo de chakra e estabilid
 ID: 36
 Clã: Ishi
 Grupos: NPC, Iwagakure
-Posição: Sannin
 Função: DPS
 NC: 20
 HP: 146
@@ -5301,7 +5283,6 @@ Nenhuma técnica cadastrada.
 ID: 37
 Clã: Ishi
 Grupos: NPC, Iwagakure
-Posição: Sannin
 Função: Suporte
 NC: 20
 HP: 146
@@ -5356,7 +5337,6 @@ Nenhuma técnica cadastrada.
 ID: 38
 Clã: Uzumaki
 Grupos: NPC, Konohagakure, OCA
-Posição: Chunin
 Função: Suporte
 NC: 8
 HP: 59
@@ -5529,7 +5509,6 @@ Consome uma quantidade razoável de chakra para o nível de Shoyu, tornando o us
 ID: 39
 Clã: Namikaze
 Grupos: NPC, Konohagakure, OCA
-Posição: Genin
 Função: DPS
 NC: 8
 HP: 59
@@ -5659,7 +5638,6 @@ Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode c
 ID: 40
 Clã: Uzumaki
 Grupos: NPC, Konohagakure, OCA
-Posição: Genin
 Função: Suporte
 NC: 8
 HP: 59
@@ -9366,7 +9344,6 @@ Altamente estável enquanto houver energia natural disponível. Em ambientes ár
 ID: 75
 Clã: Uzumaki
 Grupos: NPC, OCA, Konohagakure
-Posição: Sannin
 Função: Suporte e DPS
 NC: 18
 HP: 154
@@ -9511,7 +9488,6 @@ Habilidade avançada. Consome chakra constantemente e pode causar fadiga mental 
 ID: 76
 Clã: Senju
 Grupos: NPC, OCA, Konohagakure
-Posição: Sannin
 Função: DPS
 NC: 14
 HP: 101
@@ -9590,7 +9566,6 @@ Uso restrito. Requer domínio absoluto de Hiraishin e controle preciso do elemen
 ID: 77
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
-Posição: Sannin
 Função: DPS
 NC: 14
 HP: 101
@@ -9772,7 +9747,6 @@ Extremamente instável. O uso prolongado sobrecarrega o núcleo artificial e pod
 ID: 79
 Clã: Hanzo
 Grupos: NPC, OCA, Kumogakure
-Posição: Sannin
 Função: Suporte
 NC: 18
 HP: 130

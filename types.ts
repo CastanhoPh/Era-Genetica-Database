@@ -224,6 +224,16 @@ export interface Character {
   /** Boss final ou similar: não tem Linha do Tempo nenhuma, de propósito. */
   timelineExcluded?: boolean;
   /**
+   * Graduação de ninja: Genin, Chunin, Jounin, Jounin de Elite, Sannin, Sannin de Elite.
+   * Separada de `position` em 2026-08-27, quando ficou claro que aquele campo guardava três
+   * coisas diferentes: cargo de vila, patente de organização e esta escada.
+   *
+   * Não é exibida em lugar nenhum ainda — o card e a ficha mostram só o `position`. Sai do NC,
+   * então quando for implementada vira valor derivado e não escolha; até lá é o valor que o
+   * campo antigo tinha, preservado para não se perder.
+   */
+  graduacao?: string;
+  /**
    * Vilas do personagem, migrado de `categories` (2026-08-27). Lista porque uma ficha pode ter
    * duas vilas — o Hiroshi Hanzo e o Rock Gunma têm. Todo mundo tem pelo menos uma, mesmo quem é
    * só membro sem cargo; as duas exceções propositais são o Genei e o Hades, deixados sem vila.

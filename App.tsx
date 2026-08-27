@@ -214,6 +214,9 @@ export default function App() {
                 c.name.toLowerCase().includes(term) ||
                 c.clan.toLowerCase().includes(term) ||
                 c.position.toLowerCase().includes(term) ||
+                // A graduação saiu do position e não é exibida em lugar nenhum, mas buscar
+                // "chunin" ou "sannin" tem que continuar achando quem é.
+                (c.graduacao ?? '').toLowerCase().includes(term) ||
                 c.titles.some(t => t.toLowerCase().includes(term)) ||
                 c.aptitudes.some(a => a.toLowerCase().includes(term));
 
