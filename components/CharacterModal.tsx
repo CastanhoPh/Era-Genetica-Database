@@ -48,6 +48,9 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   // seis abas as duas ultimas ficam atras dos icones de acao e so um gesto de trackpad as alcancava.
   const tabStripRef = useRef<HTMLDivElement>(null);
   const [tabSobra, setTabSobra] = useState({ esq: false, dir: false });
+  // Os campos de consulta do jutsu (escala, protocolo, histórico) entram recolhidos: a leitura que
+  // importa é a description, e os quatro juntos davam 1.405 caracteres de uma vez.
+  const [detalheTech, setDetalheTech] = useState(false);
   const mediaTabs = () => {
     const el = tabStripRef.current;
     if (!el) return;
@@ -256,6 +259,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
     window.addEventListener('resize', mediaTabs);
     return () => window.removeEventListener('resize', mediaTabs);
   }, [char, characterInvocacoes.length]);
+
+  // Trocar de jutsu fecha os detalhes do anterior — abrir um jutsu novo já expandido devolveria
+  // o problema que o recolhimento resolve.
+  useEffect(() => { setDetalheTech(false); }, [selectedTechIndex]);
 
   // Abrir a ficha por link direto numa aba escondida tem de mostrar a aba, nao so o conteudo.
   useEffect(() => {
@@ -833,68 +840,67 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                             )}
                                                         </div>
 
-                                                        {/* Technical Specs Grid */}
-                                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
-                                                            {tech.nature && (
-                                                                <div className="space-y-1.5 p-3 bg-white/5 border-l-2 border-tech-accent/40">
-                                                                    <span className="text-[10px] text-tech-accent font-black uppercase flex items-center gap-2">
-                                                                        <Zap size={12} /> Natureza & Elementalismo
+                                                        {/* Natureza: é rótulo, não texto — vale uma linha, não um cartão */}
+                                                        {tech.nature && (
+                                                            <div className="flex items-center gap-2 flex-wrap">
+                                                                <Zap size={12} className="text-tech-accent shrink-0" />
+                                                                {tech.nature.split('+').map((n, i) => (
+                                                                    <span key={i} className="text-[10px] font-mono uppercase tracking-wider text-tech-accent border border-tech-accent/30 bg-tech-accent/5 px-2 py-0.5">
+                                                                        {n.trim()}
                                                                     </span>
-                                                                    <p className="text-xs text-slate-200 font-mono leading-relaxed pl-5">
-                                                                        {tech.nature}
-                                                                    </p>
-                                                                </div>
-                                                            )}
-                                                            
-                                                            {tech.destruction && (
-                                                                <div className="space-y-1.5 p-3 bg-white/5 border-l-2 border-red-500/40">
-                                                                    <span className="text-[10px] text-red-500 font-black uppercase flex items-center gap-2">
-                                                                        <AlertTriangle size={12} /> Escala de Destruição
-                                                                    </span>
-                                                                    <p className="text-xs text-slate-200 font-mono leading-relaxed pl-5">
-                                                                        {tech.destruction}
-                                                                    </p>
-                                                                </div>
-                                                            )}
-
-                                                            {tech.status && (
-                                                                <div className="md:col-span-2 space-y-1.5 p-3 bg-tech-accent/5 border border-tech-accent/20">
-                                                                    <span className="text-[10px] text-tech-accent font-black uppercase flex items-center gap-2">
-                                                                        <Lock size={12} /> Protocolo de Utilização
-                                                                    </span>
-                                                                    <p className="text-xs text-tech-accent/90 font-bold font-mono italic pl-5">
-                                                                        {tech.status}
-                                                                    </p>
-                                                                </div>
-                                                            )}
-                                                        </div>
-
-                                                        {/* Deep Intelligence / Description */}
-                                                        {tech.description && (
-                                                            <div className="relative group/desc">
-                                                                <div className="absolute -top-2 left-4 bg-black px-2 text-[9px] font-black text-tech-accent/60 border border-tech-accent/20 z-20">
-                                                                    ANÁLISE_DO_PROCESSO
-                                                                </div>
-                                                                <div className="bg-tech-panel/80 border border-tech-accent/10 p-4 pt-5 group-hover/desc:border-tech-accent/30 transition-colors">
-                                                                    <p className="text-[11px] text-slate-400 font-mono leading-relaxed text-justify first-letter:text-lg first-letter:font-black first-letter:text-tech-accent first-letter:mr-1">
-                                                                        {tech.description}
-                                                                    </p>
-                                                                </div>
+                                                                ))}
                                                             </div>
                                                         )}
 
-                                                        {/* Historical Data Snippet */}
-                                                        {tech.history && (
-                                                            <div className="flex gap-4 items-start pt-2 opacity-80 hover:opacity-100 transition-opacity">
-                                                                <div className="p-2 bg-tech-accent/10 border border-tech-accent/20 text-tech-accent shrink-0">
-                                                                    <Fingerprint size={20} />
-                                                                </div>
-                                                                <div className="space-y-1">
-                                                                    <span className="text-[9px] text-tech-accent/60 font-black uppercase tracking-tighter italic block">ARQUIVOS_HISTORICOS.TXT</span>
-                                                                    <p className="text-[10px] text-slate-500 italic leading-snug border-l-2 border-tech-dim pl-3">
-                                                                        "{tech.history}"
-                                                                    </p>
-                                                                </div>
+                                                        {/* A leitura principal: o que a técnica faz. Sem justificar — a 11px
+                                                            justificado, os nomes longos em japonês abriam rios de espaço. */}
+                                                        {tech.description && (
+                                                            <p className="text-[13.5px] text-slate-200 leading-[1.8] max-w-[70ch] first-letter:text-2xl first-letter:font-black first-letter:text-tech-accent first-letter:mr-1.5 first-letter:float-left first-letter:leading-none first-letter:mt-1">
+                                                                {tech.description}
+                                                            </p>
+                                                        )}
+
+                                                        {/* Escala, protocolo e histórico são consulta, não leitura corrida */}
+                                                        {(tech.destruction || tech.status || tech.history) && (
+                                                            <div className="border-t border-tech-border pt-3">
+                                                                <button
+                                                                    type="button"
+                                                                    onClick={() => setDetalheTech(v => !v)}
+                                                                    aria-expanded={detalheTech}
+                                                                    className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-tech-accent/70 hover:text-tech-accent transition-colors"
+                                                                >
+                                                                    <ChevronDown size={13} className={`transition-transform ${detalheTech ? 'rotate-180' : ''}`} />
+                                                                    {detalheTech ? 'Ocultar' : 'Escala, protocolo e histórico'}
+                                                                </button>
+
+                                                                {detalheTech && (
+                                                                    <div className="mt-3 space-y-3">
+                                                                        {tech.destruction && (
+                                                                            <div className="border-l-2 border-red-500/40 pl-3">
+                                                                                <span className="text-[9px] text-red-500 font-black uppercase tracking-widest flex items-center gap-1.5 mb-1">
+                                                                                    <AlertTriangle size={11} /> Escala de Destruição
+                                                                                </span>
+                                                                                <p className="text-[12px] text-slate-300 leading-relaxed max-w-[70ch]">{tech.destruction}</p>
+                                                                            </div>
+                                                                        )}
+                                                                        {tech.status && (
+                                                                            <div className="border-l-2 border-tech-accent/40 pl-3">
+                                                                                <span className="text-[9px] text-tech-accent font-black uppercase tracking-widest flex items-center gap-1.5 mb-1">
+                                                                                    <Lock size={11} /> Protocolo de Utilização
+                                                                                </span>
+                                                                                <p className="text-[12px] text-slate-300 leading-relaxed max-w-[70ch]">{tech.status}</p>
+                                                                            </div>
+                                                                        )}
+                                                                        {tech.history && (
+                                                                            <div className="border-l-2 border-tech-dim pl-3">
+                                                                                <span className="text-[9px] text-slate-500 font-black uppercase tracking-widest flex items-center gap-1.5 mb-1">
+                                                                                    <Fingerprint size={11} /> Origem
+                                                                                </span>
+                                                                                <p className="text-[12px] text-slate-400 italic leading-relaxed max-w-[70ch]">{tech.history}</p>
+                                                                            </div>
+                                                                        )}
+                                                                    </div>
+                                                                )}
                                                             </div>
                                                         )}
                                                     </div>
