@@ -146,7 +146,7 @@ function buildIndex(characters) {
   for (const c of characters) {
     const nc = typeof c.nc === "number" ? Math.min(c.nc, 30) : esc(c.nc);
     lines.push(
-      `| ${esc(c.id)} | ${esc(c.name)} | ${esc(c.clan)} | ${Array.isArray(c.categories) ? c.categories.join(", ") : esc(c.categories)} | ${esc(c.position)} | ${esc(c.role)} | ${nc} | ${esc(c.hp)} | ${esc(c.chakra)} | ${statusText(c)} |`
+      `| ${esc(c.id)} | ${esc(c.name)} | ${esc(c.clan)} | ${Array.isArray(c.categories) ? c.categories.join(", ") : esc(c.categories)} | ${c.position ? esc(c.position) : ""} | ${esc(c.role)} | ${nc} | ${esc(c.hp)} | ${esc(c.chakra)} | ${statusText(c)} |`
     );
   }
 
@@ -166,7 +166,7 @@ function buildCharacterBlock(c) {
     `ID: ${esc(c.id)}`,
     `Clã: ${esc(c.clan)}`,
     `Grupos: ${groups}`,
-    `Posição: ${esc(c.position)}`,
+    ...(c.position ? [`Posição: ${esc(c.position)}`] : []),
     `Função: ${esc(c.role)}`,
     `NC: ${nc}`,
     `HP: ${esc(c.hp)}`,

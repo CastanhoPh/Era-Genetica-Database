@@ -369,8 +369,15 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                 <h1 className={`text-2xl uppercase font-bold tracking-tighter mb-1 text-glow ${char.isDead ? 'text-red-700 decoration-line-through' : 'text-white'}`}>{char.name}</h1>
                 <div className="flex items-center gap-4 text-sm text-tech-secondary font-bold border-b border-tech-dim pb-2 mb-2">
                     <span>{(char.titles[0] || 'Desconhecido').toUpperCase()}</span>
-                    <span>//</span>
-                    <span>RANK: {char.position.toUpperCase()}</span>
+                    {/* Ficha sem rank não mostra nada no lugar — nem o rótulo, nem a barra que o separa
+                        do título. Hoje é o caso do Ryuta Hyuga, e vai ser o de todo mundo que só tinha
+                        graduação quando ela sair deste campo. */}
+                    {char.position && (
+                        <>
+                            <span>//</span>
+                            <span>RANK: {char.position.toUpperCase()}</span>
+                        </>
+                    )}
                 </div>
                 <div className="flex flex-wrap gap-2">
                     {char.titles.slice(1).map((t, i) => (

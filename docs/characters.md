@@ -23,7 +23,7 @@
 | 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure, OCA | 3 Sannins Lendários | DPS | 30 | 241 | 200 | Vivo |
 | 18 | Naoki Uchiha | Uchiha | NPC, Konohagakure | Hokage das Sombras | Suporte e DPS | 18 | 130 | 64 | Vivo |
 | 19 | Hisoka Senju | Senju | NPC, Konohagakure, OCA | Hokage das Sombras | Tank | 18 | 154 | 40 | Vivo |
-| 20 | Ryuta Hyuga | Hyuga |  | Desconhecido | Desconhecido | 18 | 130 | 64 | Vivo |
+| 20 | Ryuta Hyuga | Hyuga |  |  | Desconhecido | 18 | 130 | 64 | Vivo |
 | 21 | Rock Gunma | Gunma | NPC, Konohagakure, Iwagakure | Tsuchikage | Tank e Suporte | 26 | 218 | 105 | Morto (morto por Delta) |
 | 22 | Hiroshi Hanzo | Hanzo | NPC, Konohagakure, OCA, Kumogakure | Vice Líder da OCA | Suporte | 26 | 200 | 88 | Vivo |
 | 23 | Tobirama Senju | Senju | NPC, Konohagakure, OCA | 2º Hokage | DPS | 30 | 232 | 100 | Morto (morto por Omega) |
@@ -535,7 +535,7 @@ Chakra: 64
 Status: Vivo
 Títulos: Sangue mais puro de Konoha, Assassino de F e G, Capitão Escarlate, Legado de Katsumi Hyūga
 
-![Kaito Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1786651869698045)
+![Kaito Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1787851081495084)
 
 ## Descrição
 O prodígio que já é uma realidade, um gênio dentro do campo de batalha com suas habilidades técnicas e seu estilo de luta versátil e completo, sua resistência é invejável, dominante no estilo madeira, usuário do Oodama Rasengan Vermelho e treinado no modo eremita mokuton, misturando inteligência, resistência e determinação, é o ninja coringa de Konoha.
@@ -588,7 +588,7 @@ Desconhecido
 ### 1. Mokuton: Eien no Tomo
 Classificação: Z | Natureza: Mokuton
 
-![Mokuton: Eien no Tomo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FTecnicas%2F01%20-%20Mokuton%3A%20Eien%20no%20Tomo.jpg?alt=media&v=1786651869716761)
+![Mokuton: Eien no Tomo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FTecnicas%2F01%20-%20Mokuton%3A%20Eien%20no%20Tomo.png?alt=media&v=1787851503020855)
 
 Descrição:
 Kaito finca as mãos no solo e funde seu chakra vermelho às raízes vivas do Mokuton, evocando a lembrança de Katsumi, Najin e Shoei. Da terra emergem três golens colossais de madeira ancestral, cada um esculpido não como uma arma, mas como um símbolo do legado deixado por um companheiro que partiu. As raízes se entrelaçam formando corpos imponentes que carregam a vontade, os ensinamentos e os ideais de quem os inspirou: um guardião de Coragem, que avança contra qualquer ameaça sem hesitar; um guardião de Lealdade, que se posiciona entre o inimigo e os aliados de Kaito sem jamais recuar; e um guardião de Esperança, que continua de pé mesmo quando tudo indica que deveria cair. Os três não são espíritos presos ao mundo, mas manifestações do vínculo inquebrável criado em vida, lutando em perfeita sincronia com Kaito, como se seus amigos ainda estivessem ao lado dele no campo de batalha. Quanto mais forte for a determinação de Kaito em proteger aqueles que ama, mais resistentes e poderosos os golens se tornam. Ao ativar a técnica, Kaito declara: "Enquanto a Vontade do Fogo arder em meu coração, meus amigos jamais desaparecerão. Levantem-se mais uma vez… Mokuton: Eien no Tomo!"
@@ -3960,7 +3960,6 @@ Uso extremamente restrito. Consome enorme quantidade de chakra, exige domínio d
 ID: 20
 Clã: Hyuga
 Grupos: 
-Posição: Desconhecido
 Função: Desconhecido
 NC: 18
 HP: 130
@@ -8239,7 +8238,7 @@ Chakra: 64
 Status: Vivo
 Títulos: Vice Líder da NoGuns, O Herdeiro que Negou o Trono
 
-![Daichi Muujin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1786651899270418)
+![Daichi Muujin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1787158172524277)
 
 ## Descrição
 Desconhecido
