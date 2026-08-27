@@ -1011,7 +1011,7 @@ NC: 18
 HP: 172
 Chakra: 82
 Status: Vivo
-Títulos: Chama Viva de Konoha, Vencedor do Exame Chunin, Sol de Konoha, Legado de Najin Hatake
+Títulos: Sol de Konoha, Chama Viva de Konoha, Vencedor do Exame Chunin, Legado de Najin Hatake
 
 ![Oddy Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.jpg?alt=media&v=1786651872658006)
 
@@ -1035,10 +1035,10 @@ Criador e usuário de técnicas únicas, entre elas:
 - Estilo Ryūka no Nintō (O Caminho das Dos Chamas)
 
 ## Atributos
-- Força: 7
+- Força: 9
 - Destreza: 18
 - Agilidade: 7
-- Inteligência: 10
+- Inteligência: 7
 - Espírito: 18
 - Vigor: 18
 - Percepção: 18
@@ -1051,7 +1051,7 @@ Criador e usuário de técnicas únicas, entre elas:
 - Senjutsu — Nível 2
 
 ## Aptidões
-Sharingan, Mangekyou Sharingan, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar
+Acuidade, Potencializar, Ilusão Profunda, Sandan Sharingan, Intuição, Técnica Poderosa, Mangekyou Sharingan, Saque Rápido, Maestria: CC, Ambidestria, Mímica Sharingan, Sharingan, Maestria: CD, Domínio do Fogo, Nidan Sharingan, Usar Arma: Katana, Ponto Cego, Elemento Natural: Katon, Perito: Prestidigitação
 
 ## Arsenal
 ### 1. Desconhecido

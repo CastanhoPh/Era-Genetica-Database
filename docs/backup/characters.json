@@ -9380,32 +9380,8 @@
     "position": "Chunin",
     "role": "DPS",
     "description": "O herdeiro do fogo. Um espadachim moldado pela dor.\nO homem que se recusa a deixar Konoha morrer.\n\nDesde muito jovem, Oddy Uchiha já era reconhecido por sua determinação e liderança natural, mesmo carregando o fardo de ser filho de Madara Uchiha. Seu poder não nasceu da ambição por domínio, mas da vontade de proteger a vila que escolheu como lar. Ainda criança, despertou o Sharingan ao perder o pai no Vale do Fim, marcando o início de um destino selado pela dor e pela escolha.\n\nApós ingressar na Nova ANBU, Oddy lutou na linha de frente contra a OCA, presenciando a queda de Konoha e a morte de figuras que moldaram sua vida — Nishinoya, Tobirama, Sho Uchiha e seus companheiros. Foi nesse massacre que despertou o Mangekyō Sharingan, não movido pelo ódio, mas pela perda absoluta de tudo o que jurou proteger.\n\nOddy é capaz de unir o poder do Katon Uchiha, o Mangekyō Sharingan e o caminho das duas lâminas, empunhando a Kusanagi do clã Uchiha e a Homura no Chikai, a espada de fogo herdada de Hirato. Seu estilo permite que ele use as chamas tanto para destruir quanto para salvar, manifestando a verdadeira Vontade do Fogo em sua forma mais pura.\n\nOddy Uchiha busca se tornar um deus shinobi, não por título, mas para que ninguém mais precise nascer das cinzas\n\nCriador e usuário de técnicas únicas, entre elas:\n\n- Amaterasu: Hi no Ishi (Chamas da Extinção e da Vida)\n- Katon: Ryūen no Jutsu (Dragão de Fogo)\n- Katon: Flechas Ígneas\n- Estilo Ryūka no Nintō (O Caminho das Dos Chamas)",
-    "aptitudes": [
-      "Sharingan",
-      "Mangekyou Sharingan",
-      "Mímica Sharingan",
-      "Elemento Natural: Katon",
-      "Maestria: CD",
-      "Maestria: CC",
-      "Intuição",
-      "Ponto Cego",
-      "Acuidade",
-      "Perito em Prestidigitação",
-      "Ilusão Profunda",
-      "Usar Katana",
-      "Saque Rápido",
-      "Ambidestria",
-      "Técnica Poderosa",
-      "Potencializar"
-    ],
     "id": 4,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.jpg?alt=media&v=1786651872658006",
-    "titles": [
-      "Chama Viva de Konoha",
-      "Vencedor do Exame Chunin",
-      "Sol de Konoha",
-      "Legado de Najin Hatake"
-    ],
     "techniques": [
       {
         "name": "Katon Doton: Byakko no Hakai",
@@ -10015,15 +9991,6 @@
       }
     ],
     "combatStyle": "Distância",
-    "stats": {
-      "dexterity": 18,
-      "vigor": 18,
-      "spirit": 18,
-      "agility": 7,
-      "perception": 18,
-      "strength": 7,
-      "intelligence": 10
-    },
     "focosAtributo": [
       "vigor",
       "espirito"
@@ -10038,6 +10005,42 @@
         "nature": "Doton",
         "village": "Konohagakure"
       }
+    ],
+    "stats": {
+      "dexterity": 18,
+      "vigor": 18,
+      "spirit": 18,
+      "agility": 7,
+      "perception": 18,
+      "strength": 9,
+      "intelligence": 7
+    },
+    "aptitudes": [
+      "Acuidade",
+      "Potencializar",
+      "Ilusão Profunda",
+      "Sandan Sharingan",
+      "Intuição",
+      "Técnica Poderosa",
+      "Mangekyou Sharingan",
+      "Saque Rápido",
+      "Maestria: CC",
+      "Ambidestria",
+      "Mímica Sharingan",
+      "Sharingan",
+      "Maestria: CD",
+      "Domínio do Fogo",
+      "Nidan Sharingan",
+      "Usar Arma: Katana",
+      "Ponto Cego",
+      "Elemento Natural: Katon",
+      "Perito: Prestidigitação"
+    ],
+    "titles": [
+      "Sol de Konoha",
+      "Chama Viva de Konoha",
+      "Vencedor do Exame Chunin",
+      "Legado de Najin Hatake"
     ]
   },
   {
