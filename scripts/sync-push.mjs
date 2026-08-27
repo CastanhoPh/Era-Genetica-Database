@@ -121,6 +121,20 @@ async function pushCollection(db, collectionName, items, existingDocs) {
     }
   }
 
+  // Campos que vivem SÓ no Firestore por natureza: derivados por script ou denormalizados a
+  // partir do checklist. O arquivo local nunca os teve e nunca vai ter, então avisar sobre eles
+  // não protege nada — só faz o guard gritar em toda ficha e o aviso perder o sentido.
+  //
+  // Sem esta lista o push abortava com 315 avisos falsos, e os 15 casos de divergência real
+  // (combatStyle em 13 fichas, techniques em 2) ficavam invisíveis no meio.
+  const SO_NO_FIRESTORE = new Set([
+    'vila',            // migrado de categories, etapa 1 do modelo de organização
+    'organizacao',     // idem
+    'focosAtributo',   // perfil de combate, gravado por perfil:derivar
+    'divisaoAtributo', // idem
+    'invocacoes',      // denormalizado do checklist por invocacoes:fix
+  ]);
+
   // Risco 2: doc já existe no Firestore e tem um campo preenchido que o
   // arquivo local não tem — provável edição feita direto no Painel (ex:
   // isDead/killedBy) que um push completo apagaria silenciosamente.
@@ -129,13 +143,26 @@ async function pushCollection(db, collectionName, items, existingDocs) {
   // com VALOR diferente. Não dá pra saber se é a mudança que eu quis fazer
   // ou se estou sobrescrevendo uma edição ao vivo — só deixa visível.
   const fieldChanges = [];
+  // Firestore devolve os campos de um mapa em ordem alfabética; o objeto literal do
+  // arquivo local vem na ordem em que foi escrito. Um JSON.stringify cru trata isso como
+  // valor diferente — era o que fazia `stats` aparecer como alterado em 40 fichas sem que
+  // um único atributo tivesse mudado. Ordena as chaves de todo mapa antes de comparar.
+  // A ordem dos ARRAYS não é normalizada de propósito: reordenar a gallery muda a ordem
+  // de exibição na ficha, então isso é divergência real e tem que continuar aparecendo.
+  const canonico = v => JSON.stringify(v, (_, x) =>
+    x && typeof x === 'object' && !Array.isArray(x)
+      ? Object.keys(x).sort().reduce((a, k) => ((a[k] = x[k]), a), {})
+      : x);
   for (const { docId, data } of entries) {
     const existing = existingDocs.get(docId);
     if (!existing) continue;
     for (const key of Object.keys(existing)) {
       if (existing[key] === undefined || existing[key] === null) continue;
-      if (!(key in data)) { fieldDrops.push({ docId, field: key, oldValue: existing[key] }); continue; }
-      if (JSON.stringify(existing[key]) !== JSON.stringify(data[key])) {
+      if (!(key in data)) {
+        if (!SO_NO_FIRESTORE.has(key)) fieldDrops.push({ docId, field: key, oldValue: existing[key] });
+        continue;
+      }
+      if (canonico(existing[key]) !== canonico(data[key])) {
         fieldChanges.push({ docId, field: key });
       }
     }
@@ -157,7 +184,10 @@ async function pushCollection(db, collectionName, items, existingDocs) {
     }
     if (fieldDrops.length) {
       console.log(`  Campos que existem no Firestore e sumiriam com esse push (arquivo local não tem):`);
-      for (const d of fieldDrops) console.log(`    ${d.docId}.${d.field} = ${JSON.stringify(d.oldValue)}`);
+      for (const d of fieldDrops) {
+        const v = JSON.stringify(d.oldValue);
+        console.log(`    ${d.docId}.${d.field} = ${v.length > 120 ? v.slice(0, 117) + '...' : v}`);
+      }
     }
     if (!FORCE) {
       console.log(`\n  Push de ${collectionName} ABORTADO por segurança — nada foi gravado nesta coleção.`);

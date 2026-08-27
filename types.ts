@@ -223,6 +223,21 @@ export interface Character {
   timelineSkipped?: string[];
   /** Boss final ou similar: não tem Linha do Tempo nenhuma, de propósito. */
   timelineExcluded?: boolean;
+  /**
+   * Vilas do personagem, migrado de `categories` (2026-08-27). Lista porque uma ficha pode ter
+   * duas vilas — o Hiroshi Hanzo e o Rock Gunma têm. Todo mundo tem pelo menos uma, mesmo quem é
+   * só membro sem cargo; as duas exceções propositais são o Genei e o Hades, deixados sem vila.
+   *
+   * Escrito e mantido só no Firestore, como o `focosAtributo` — `data/characters.ts` não tem esse
+   * campo, e por isso ele está na whitelist `SO_NO_FIRESTORE` do `scripts/sync-push.mjs`.
+   */
+  vila?: string[];
+  /**
+   * Organizações do personagem, também migrado de `categories`. Diferente da vila, é opcional:
+   * 44 das 86 fichas têm. Três têm duas (Shikatsu Nara, Shikure Chinoike, Yuuto Han). Só no
+   * Firestore, igual ao `vila`.
+   */
+  organizacao?: string[];
   /** Vila de nascença (única, mesmo quando `categories` lista mais de uma vila de afiliação/atuação). */
   birthVillage?: string;
   /** Cor do chakra em hex. Pinta os dois fachos do anel nas técnicas e armas de rank Z. */

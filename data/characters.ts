@@ -2317,7 +2317,7 @@ export const initialData: Character[] = [
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FPr_logo.png?alt=media&v=1784579842794518", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FCl_ssico.png?alt=media&v=1784579845339511", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1784579847926558", caption: "Segundo Hokage", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FSegundo_Hokage.png?alt=media&v=1787158067478818", caption: "Segundo Hokage", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1786479673629960", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FLuta_contra_o_Hades.png?alt=media&v=1786479675492581", caption: "Luta contra o Hades", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854", caption: "Nascimentos - Nascimento de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-kaito-e-nagare" },
@@ -2351,6 +2351,7 @@ export const initialData: Character[] = [
   {
     id: 24,
     name: "Sho Uchiha",
+    techniques: [],
     chakraColor: "#c01a3c",
     combatStyle: "Corporal",
     clan: "Uchiha",
@@ -2400,6 +2401,7 @@ export const initialData: Character[] = [
   {
     id: 25,
     name: "Hoshiro Hyuga",
+    techniques: [],
     chakraColor: "#00ff41",
     combatStyle: "Distância",
     clan: "Hyuga",
@@ -2686,6 +2688,7 @@ export const initialData: Character[] = [
   {
     id: 36,
     name: "Hirato Ishi",
+    combatStyle: "Corporal",
     chakraColor: "#ff3b46",
     clan: "Ishi",
     categories: ["NPC", "Iwagakure"],
@@ -2768,6 +2771,7 @@ export const initialData: Character[] = [
   {
     id: 80,
     name: "Kaien Ishi (Omega)",
+    combatStyle: "Corporal",
     chakraColor: "#e8fbff",
     clan: "Ishi",
     categories: ["NPC", "OCA", "Iwagakure"],
@@ -2859,6 +2863,7 @@ export const initialData: Character[] = [
   {
     id: 72,
     name: "Akairo Uchiha (A)",
+    combatStyle: "Distância",
     chakraColor: "#ff3b46",
     clan: "Uchiha",
     categories: ["NPC", "OCA", "Konohagakure"],
@@ -3343,6 +3348,7 @@ export const initialData: Character[] = [
   {
     id: 78,
     name: "Genei (G)",
+    combatStyle: "Corporal",
     chakraColor: "#8b8b9a",
     clan: "Desconhecido",
     categories: ["NPC", "OCA"],
@@ -4082,10 +4088,10 @@ export const initialData: Character[] = [
     description: "",
     hp: 133,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1786651899270418",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1787158172524277",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1784751312034", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1784751313537", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1787158174217423", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1787158175750350", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 17, spirit: 18, vigor: 11, perception: 18 },
     powers: [
@@ -5878,6 +5884,7 @@ export const initialData: Character[] = [
   {
     id: 43,
     name: "Hana Sabaku",
+    combatStyle: "Distância",
     chakraColor: "#00ff41",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
@@ -6223,6 +6230,7 @@ export const initialData: Character[] = [
   {
     id: 49,
     name: "Tessai Enshaku",
+    combatStyle: "Corporal",
     chakraColor: "#b5793a",
     clan: "Enshaku",
     categories: ["NPC", "Sunagakure"],
@@ -6264,6 +6272,7 @@ export const initialData: Character[] = [
   {
     id: 46,
     name: "Sayuri Sabaku",
+    combatStyle: "Distância",
     chakraColor: "#e8fbff",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
@@ -6314,6 +6323,7 @@ export const initialData: Character[] = [
   {
     id: 50,
     name: "Kurohime Kazeori",
+    combatStyle: "Corporal",
     chakraColor: "#3d3d4a",
     clan: "Kazeori",
     categories: ["NPC", "Sunagakure"],
@@ -6365,6 +6375,7 @@ export const initialData: Character[] = [
   {
     id: 81,
     name: "Katakana Yotsuki (Alpha)",
+    combatStyle: "Corporal",
     chakraColor: "#e8fbff",
     clan: "Yotsuki",
     categories: [
@@ -6510,6 +6521,7 @@ export const initialData: Character[] = [
   {
     id: 82,
     name: "Ganmasen Yuki (Gama)",
+    combatStyle: "Distância",
     chakraColor: "#0ea5e9",
     clan: "Yuki",
     categories: [
@@ -6651,6 +6663,7 @@ export const initialData: Character[] = [
   {
     id: 83,
     name: "Deruta Muujin (Delta)",
+    combatStyle: "Distância",
     chakraColor: "#ffd60a",
     clan: "Muujin",
     categories: [
@@ -6812,6 +6825,7 @@ export const initialData: Character[] = [
   {
     id: 84,
     name: "Shiita Sabaku (Theta)",
+    combatStyle: "Distância",
     chakraColor: "#00ff41",
     clan: "Dabado",
     categories: [
@@ -6889,6 +6903,7 @@ export const initialData: Character[] = [
   {
     id: 20,
     name: "Ryuta Hyuga",
+    combatStyle: "Corporal",
     chakraColor: "#2dd4bf",
     clan: "Hyuga",
     categories: [],
