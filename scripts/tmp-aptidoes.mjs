@@ -60,6 +60,13 @@ const LOTE = {
     'Ataque em Movimento', 'Mestre dos Selos', 'Velocista',
     'Chakra Expandido: Uzumaki', 'Potencializar',
   ],
+  'furyuzan-chinoike': [
+    'Acuidade', 'Ketsuryugan', 'Técnica Poderosa',
+    'Atirador', 'Maestria: CD', 'Usar Arma: Garras',
+    'Diligente', 'Ponto Cego', 'Velocista',
+    'Duro de Matar', 'Regeneração', 'Chakra Expandido: Aokiba',
+    'Intuição', 'Réplica Enganadora',
+  ],
 };
 
 const d = join(os.homedir(), 'Downloads');

@@ -2357,20 +2357,6 @@
     "position": "Genin",
     "role": "DPS",
     "description": "Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.\n\nDesde muito jovem já era reconhecido por sua inteligência e personalidade inabaláveis mesmo sem ter lembranças dos seus pais. Com poucos anos de idade foi resgatado no meio de uma guerra pelos capangas de um tal Hades, que o levaram a um laboratório onde virou o primeiro experimento de chakra artificial, conseguindo resistir ao experimento, tornou-se o início de algo maior para a OCA, onde muitas crianças foram manipuladas e testadas visando ajudar a conquistar os objetivos do Hades.\n\nCom 13 anos, Furyuzan sofreu experiências traumáticas em um curto período de tempo que afetaram fortemente seu psicológico. Descobriu a manipulação que a OCA havia feito durante sua vida toda, sofreu pela morte do Kazuke e principalmente pela morte da E por quem se apaixonou. Após esses acontecimentos, Furyuzan prometeu vingança ao Hades e busca uma forma de trazer a E de volta à vida.\n\nEle utiliza um Arco de Sangue junto do Doton para formar barreiras e vencer o inimigo de forma estratégica (muitas vezes saindo ileso de combates), além de poder lutar corpo a corpo utilizando a Nuibari. Furyuzan ainda potencializa seu poder total quando usa sua Bijuu artificial em forma de Velociraptor.",
-    "aptitudes": [
-      "Chakra Expandido: Aokiba",
-      "Ketsuryugan",
-      "Regeneração",
-      "Maestria: CD",
-      "Intuição",
-      "Ponto Cego",
-      "Velocista",
-      "Diligente",
-      "Réplica Enganadora",
-      "Técnica Poderosa",
-      "Acuidade",
-      "Usar arma: Garras"
-    ],
     "id": 9,
     "techniques": [
       {
@@ -2581,6 +2567,22 @@
       15,
       16,
       45
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Ketsuryugan",
+      "Técnica Poderosa",
+      "Atirador",
+      "Maestria: CD",
+      "Usar Arma: Garras",
+      "Diligente",
+      "Ponto Cego",
+      "Velocista",
+      "Duro de Matar",
+      "Regeneração",
+      "Chakra Expandido: Aokiba",
+      "Intuição",
+      "Réplica Enganadora"
     ]
   },
   {

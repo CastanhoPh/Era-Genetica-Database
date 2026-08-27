@@ -2163,7 +2163,7 @@ Ele utiliza um Arco de Sangue junto do Doton para formar barreiras e vencer o in
 - Bakuton — Nível 4
 
 ## Aptidões
-Chakra Expandido: Aokiba, Ketsuryugan, Regeneração, Maestria: CD, Intuição, Ponto Cego, Velocista, Diligente, Réplica Enganadora, Técnica Poderosa, Acuidade, Usar arma: Garras
+Acuidade, Ketsuryugan, Técnica Poderosa, Atirador, Maestria: CD, Usar Arma: Garras, Diligente, Ponto Cego, Velocista, Duro de Matar, Regeneração, Chakra Expandido: Aokiba, Intuição, Réplica Enganadora
 
 ## Arsenal
 ### 1. Desconhecido

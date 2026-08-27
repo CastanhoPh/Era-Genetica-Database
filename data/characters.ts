@@ -1551,18 +1551,20 @@ export const initialData: Character[] = [
       { name: "Bakuton", level: 4 }
     ],
     aptitudes: [
-      "Chakra Expandido: Aokiba",
+      "Acuidade",
       "Ketsuryugan",
-      "Regeneração",
+      "Técnica Poderosa",
+      "Atirador",
       "Maestria: CD",
-      "Intuição",
+      "Usar Arma: Garras",
+      "Diligente",
       "Ponto Cego",
       "Velocista",
-      "Diligente",
-      "Réplica Enganadora",
-      "Técnica Poderosa",
-      "Acuidade",
-      "Usar arma: Garras"
+      "Duro de Matar",
+      "Regeneração",
+      "Chakra Expandido: Aokiba",
+      "Intuição",
+      "Réplica Enganadora"
     ],
   },
   {
