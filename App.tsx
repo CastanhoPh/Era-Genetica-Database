@@ -5,7 +5,7 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl } from './utils/formatters';
+import { formatImageUrl, seloDe } from './utils/formatters';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
 // depois de uma interação do usuário (abrir ficha, trocar de aba, editar, logar).
@@ -199,9 +199,12 @@ export default function App() {
         return Array.from(clans).sort();
     }, [characters]);
 
-    // Extract unique positions dynamically
+    // O selo do card e o filtro de posição saem do mesmo lugar: patente da organização primeiro,
+    // porque quem tem organização mostra a patente dela; depois o primeiro cargo da vila, que na
+    // lista do Pedro é sempre o posto mais alto; e o position antigo por último, para as fichas
+    // que ainda não foram migradas. String vazia = sem selo, pela regra "sem rank, nada no lugar".
     const uniquePositions = useMemo(() => {
-        const positions = new Set(characters.map(c => c.position).filter(Boolean));
+        const positions = new Set(characters.map(seloDe).filter(Boolean));
         return Array.from(positions).sort();
     }, [characters]);
 
@@ -213,6 +216,8 @@ export default function App() {
             const matchesSearch = term === '' ||
                 c.name.toLowerCase().includes(term) ||
                 c.clan.toLowerCase().includes(term) ||
+                (c.patente ?? '').toLowerCase().includes(term) ||
+                (c.cargo ?? []).some(x => x.toLowerCase().includes(term)) ||
                 c.position.toLowerCase().includes(term) ||
                 // A graduação saiu do position e não é exibida em lugar nenhum, mas buscar
                 // "chunin" ou "sannin" tem que continuar achando quem é.
@@ -222,7 +227,7 @@ export default function App() {
 
             // Advanced Filters
             const matchesClan = selectedClan === 'Todos' || c.clan === selectedClan;
-            const matchesPosition = selectedPosition === 'Todos' || c.position === selectedPosition;
+            const matchesPosition = selectedPosition === 'Todos' || seloDe(c) === selectedPosition;
 
             let matchesRole = true;
             if (selectedRole !== 'Todos') {
@@ -748,11 +753,11 @@ export default function App() {
                                                     passam de 40 caracteres (o Gorai Arashiumi soma 53), e a patente curta é a
                                                     que precisa ser lida por completo. O título inteiro está na ficha aberta. */}
                                                 <span className="text-xs text-tech-secondary font-bold uppercase truncate">{char.titles[0]}</span>
-                                                {char.position && (
+                                                {seloDe(char) && (
                                                     <span className={`text-[10px] uppercase tracking-wide px-1.5 py-px border shrink-0 whitespace-nowrap ${char.isDead
                                                             ? 'text-red-500/80 border-red-900/50 bg-red-950/30'
                                                             : 'text-tech-accent border-tech-accent/50 bg-tech-accent/10'
-                                                        }`}>{char.position}</span>
+                                                        }`}>{seloDe(char)}</span>
                                                 )}
                                             </div>
 

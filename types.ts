@@ -224,6 +224,23 @@ export interface Character {
   /** Boss final ou similar: não tem Linha do Tempo nenhuma, de propósito. */
   timelineExcluded?: boolean;
   /**
+   * Cargos de liderança da vila, da lista que o Pedro validou (2026-08-27). Lista porque oito
+   * fichas têm dois: o Nishinoya é 3º Hokage e 2º Líder da Equipe de Elite, o Hiroshi Hanzo é
+   * 3º Líder de Rastreio em Konoha e 2º General em Kumo. A ordem é a da lista dele, do posto
+   * mais alto para o mais baixo — o card mostra só o primeiro.
+   *
+   * Só no Firestore, como `vila` e `organizacao`.
+   */
+  cargo?: string[];
+  /**
+   * Patente dentro da organização, separada de `position` na mesma data. Texto único porque
+   * ninguém tem duas patentes, mesmo entre os três que têm duas organizações.
+   *
+   * Tem prioridade sobre o `cargo` na exibição: quem tem organização mostra a patente dela.
+   * Só no Firestore.
+   */
+  patente?: string;
+  /**
    * Graduação de ninja: Genin, Chunin, Jounin, Jounin de Elite, Sannin, Sannin de Elite.
    * Separada de `position` em 2026-08-27, quando ficou claro que aquele campo guardava três
    * coisas diferentes: cargo de vila, patente de organização e esta escada.

@@ -11,7 +11,7 @@ import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
 import ResourceBar from './ResourceBar';
-import { formatImageUrl } from '../utils/formatters';
+import { formatImageUrl, seloDe } from '../utils/formatters';
 
 // Carregado sob demanda: chart.js + react-chartjs-2 só entram no bundle quando
 // alguém realmente clica em "Radar" (a ficha abre com a visão de barras por padrão).
@@ -372,10 +372,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                     {/* Ficha sem rank não mostra nada no lugar — nem o rótulo, nem a barra que o separa
                         do título. Hoje é o caso do Ryuta Hyuga, e vai ser o de todo mundo que só tinha
                         graduação quando ela sair deste campo. */}
-                    {char.position && (
+                    {seloDe(char) && (
                         <>
                             <span>//</span>
-                            <span>RANK: {char.position.toUpperCase()}</span>
+                            <span>RANK: {seloDe(char).toUpperCase()}</span>
+                            {/* O card mostra só o primeiro cargo; aqui cabe o resto. */}
+                            {(char.cargo?.length ?? 0) > 1 && (
+                                <span className="text-tech-secondary/60">+ {char.cargo!.slice(1).join(' · ').toUpperCase()}</span>
+                            )}
                         </>
                     )}
                 </div>

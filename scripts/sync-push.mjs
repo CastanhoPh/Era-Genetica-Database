@@ -133,6 +133,8 @@ async function pushCollection(db, collectionName, items, existingDocs) {
     'focosAtributo',   // perfil de combate, gravado por perfil:derivar
     'divisaoAtributo', // idem
     'invocacoes',      // denormalizado do checklist por invocacoes:fix
+    'cargo',           // cargos de vila, da lista validada pelo Pedro
+    'patente',         // patente de organização, separada do position
   ]);
 
   // Risco 2: doc já existe no Firestore e tem um campo preenchido que o

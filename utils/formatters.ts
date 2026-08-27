@@ -29,3 +29,17 @@ export const formatImageUrl = (url: string): string => {
   
   return formattedUrl;
 };
+
+/**
+ * O selo de hierarquia da ficha, numa função só para o card, a ficha aberta e o filtro nunca
+ * discordarem. A precedência é a regra que o Pedro definiu em 27/08/2026:
+ *
+ *   1. patente da organização — quem tem organização mostra a patente dela
+ *   2. primeiro cargo da vila — na lista dele o primeiro é sempre o posto mais alto
+ *   3. position — o campo antigo, para o que ainda não foi migrado
+ *
+ * String vazia significa sem selo, e quem consome tem que não mostrar nada no lugar: nem
+ * rótulo, nem traço, nem espaço reservado. Hoje 20 das 86 fichas caem nesse caso.
+ */
+export const seloDe = (c: { patente?: string; cargo?: string[]; position?: string }): string =>
+  c.patente || c.cargo?.[0] || c.position || '';
