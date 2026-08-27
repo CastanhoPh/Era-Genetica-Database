@@ -1873,7 +1873,7 @@ Desconhecido
 - Senjutsu — Nível 9
 
 ## Aptidões
-Amenotejikara, Acuidade, Maestria: CD, Domínio do Raio, Espada de Chakra, Ambidestria, Ponto Cego, Instinto de Batalha: LM, CD, Réplica Enganadora, Potencializar, Perito em Mecanismos, Técnica Eficiente
+Acuidade, Shiroki Kaminari, Lutar às Cegas, Potencializar, Ambidestria, Usar Arma: Katana, Maestria: CD, Réplica Enganadora, Domínio da Água, Usar Arma: Espada, Perito: Prestidigitação, Técnica Poderosa, Domínio do Raio, Maestria: CC, Perito: Mecanismos, Kaminari, Instinto de Batalha: LM, CD, Ponto Cego
 
 ## Arsenal
 ### 1. Desconhecido
@@ -2395,7 +2395,7 @@ Desconhecido
 - Rasengan — Nível 6
 
 ## Aptidões
-Reflexos, Maestria: CC, Velocista, Ataque Poderoso, Ambidestria, Bloqueio Ambidestro, Lutar as Cegas, Crítico Aprimorado, Potencializar, Rasteira
+Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado (CC), Lutar às Cegas, Maestria: CC, Potencializar, Rasteira, Reflexos, Velocista
 
 ## Arsenal
 Nenhum item cadastrado.

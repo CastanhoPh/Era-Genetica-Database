@@ -6228,18 +6228,6 @@
         "level": 6
       }
     ],
-    "aptitudes": [
-      "Reflexos",
-      "Maestria: CC",
-      "Velocista",
-      "Ataque Poderoso",
-      "Ambidestria",
-      "Bloqueio Ambidestro",
-      "Lutar as Cegas",
-      "Crítico Aprimorado",
-      "Potencializar",
-      "Rasteira"
-    ],
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.jpg?alt=media&v=1786651886146199",
     "techniques": [
       {
@@ -6315,7 +6303,19 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "aptitudes": [
+      "Ambidestria",
+      "Ataque Poderoso",
+      "Bloqueio Ambidestro",
+      "Crítico Aprimorado (CC)",
+      "Lutar às Cegas",
+      "Maestria: CC",
+      "Potencializar",
+      "Rasteira",
+      "Reflexos",
+      "Velocista"
+    ]
   },
   {
     "__docId": "kenma-soryo",
@@ -12859,20 +12859,6 @@
     "position": "Chunin",
     "role": "DPS",
     "description": "",
-    "aptitudes": [
-      "Amenotejikara",
-      "Acuidade",
-      "Maestria: CD",
-      "Domínio do Raio",
-      "Espada de Chakra",
-      "Ambidestria",
-      "Ponto Cego",
-      "Instinto de Batalha: LM, CD",
-      "Réplica Enganadora",
-      "Potencializar",
-      "Perito em Mecanismos",
-      "Técnica Eficiente"
-    ],
     "id": 7,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1786651880256457",
     "titles": [
@@ -13287,6 +13273,26 @@
         "nature": "Senjutsu",
         "village": "Konohagakure"
       }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Shiroki Kaminari",
+      "Lutar às Cegas",
+      "Potencializar",
+      "Ambidestria",
+      "Usar Arma: Katana",
+      "Maestria: CD",
+      "Réplica Enganadora",
+      "Domínio da Água",
+      "Usar Arma: Espada",
+      "Perito: Prestidigitação",
+      "Técnica Poderosa",
+      "Domínio do Raio",
+      "Maestria: CC",
+      "Perito: Mecanismos",
+      "Kaminari",
+      "Instinto de Batalha: LM, CD",
+      "Ponto Cego"
     ]
   },
   {

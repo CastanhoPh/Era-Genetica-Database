@@ -1312,18 +1312,24 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 9 }
     ],
     aptitudes: [
-      "Amenotejikara",
       "Acuidade",
-      "Maestria: CD",
-      "Domínio do Raio",
-      "Espada de Chakra",
-      "Ambidestria",
-      "Ponto Cego",
-      "Instinto de Batalha: LM, CD",
-      "Réplica Enganadora",
+      "Shiroki Kaminari",
+      "Lutar às Cegas",
       "Potencializar",
-      "Perito em Mecanismos",
-      "Técnica Eficiente"
+      "Ambidestria",
+      "Usar Arma: Katana",
+      "Maestria: CD",
+      "Réplica Enganadora",
+      "Domínio da Água",
+      "Usar Arma: Espada",
+      "Perito: Prestidigitação",
+      "Técnica Poderosa",
+      "Domínio do Raio",
+      "Maestria: CC",
+      "Perito: Mecanismos",
+      "Kaminari",
+      "Instinto de Batalha: LM, CD",
+      "Ponto Cego"
     ],
   },
   {
@@ -1785,16 +1791,16 @@ export const initialData: Character[] = [
       { name: "Rasengan", level: 6 }
     ],
     aptitudes: [
-      "Reflexos",
-      "Maestria: CC",
-      "Velocista",
-      "Ataque Poderoso",
       "Ambidestria",
+      "Ataque Poderoso",
       "Bloqueio Ambidestro",
-      "Lutar as Cegas",
-      "Crítico Aprimorado",
+      "Crítico Aprimorado (CC)",
+      "Lutar às Cegas",
+      "Maestria: CC",
       "Potencializar",
-      "Rasteira"
+      "Rasteira",
+      "Reflexos",
+      "Velocista"
     ],
   },
   {

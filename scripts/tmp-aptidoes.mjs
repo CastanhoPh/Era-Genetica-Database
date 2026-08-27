@@ -28,6 +28,17 @@ const LOTE = {
     'Lutar às Cegas', 'Perito: Rastrear',
     'Ponto Cego', 'Técnica Poderosa',
   ],
+  'takeshi-hatake': [
+    'Acuidade', 'Shiroki Kaminari', 'Lutar às Cegas', 'Potencializar',
+    'Ambidestria', 'Usar Arma: Katana', 'Maestria: CD', 'Réplica Enganadora',
+    'Domínio da Água', 'Usar Arma: Espada', 'Perito: Prestidigitação', 'Técnica Poderosa',
+    'Domínio do Raio', 'Maestria: CC', 'Perito: Mecanismos',
+    'Kaminari', 'Instinto de Batalha: LM, CD', 'Ponto Cego',
+  ],
+  'kazuki-hoshigaki': [
+    'Ambidestria', 'Ataque Poderoso', 'Bloqueio Ambidestro', 'Crítico Aprimorado (CC)',
+    'Lutar às Cegas', 'Maestria: CC', 'Potencializar', 'Rasteira', 'Reflexos', 'Velocista',
+  ],
 };
 
 const d = join(os.homedir(), 'Downloads');
