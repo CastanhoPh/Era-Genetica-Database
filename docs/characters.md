@@ -565,7 +565,7 @@ A revolução de Kaito não busca poder; ela nasce do desespero de um mundo à b
 - Senjutsu — Nível 8
 
 ## Aptidões
-Hiraishin, Regeneração, Lutar as Cegas, Ponto Cego, Potencializar, Acuidade, Perito: Rastrear, Sensor, Técnica Poderosa
+Acuidade, Intuição, Hiraishin, Regeneração, Potencializar, Hiraishin: Deus do Trovão, Maestria: CD, Maestria: CC, Chakra Expandido: Uzumaki, Lutar às Cegas, Perito: Rastrear, Ponto Cego, Técnica Poderosa
 
 ## Arsenal
 ### 1. Desconhecido

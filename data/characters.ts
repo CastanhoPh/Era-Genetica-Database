@@ -494,14 +494,18 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 8 }
     ],
     aptitudes: [
+      "Acuidade",
+      "Intuição",
       "Hiraishin",
       "Regeneração",
-      "Lutar as Cegas",
-      "Ponto Cego",
       "Potencializar",
-      "Acuidade",
+      "Hiraishin: Deus do Trovão",
+      "Maestria: CD",
+      "Maestria: CC",
+      "Chakra Expandido: Uzumaki",
+      "Lutar às Cegas",
       "Perito: Rastrear",
-      "Sensor",
+      "Ponto Cego",
       "Técnica Poderosa"
     ],
   },

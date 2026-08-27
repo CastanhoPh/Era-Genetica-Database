@@ -4398,17 +4398,6 @@
       1,
       3
     ],
-    "aptitudes": [
-      "Hiraishin",
-      "Regeneração",
-      "Lutar as Cegas",
-      "Ponto Cego",
-      "Potencializar",
-      "Acuidade",
-      "Perito: Rastrear",
-      "Sensor",
-      "Técnica Poderosa"
-    ],
     "titles": [
       "Sangue mais puro de Konoha",
       "Assassino de F e G",
@@ -5157,6 +5146,21 @@
         "nature": "Mokuton",
         "village": "Konohagakure"
       }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Intuição",
+      "Hiraishin",
+      "Regeneração",
+      "Potencializar",
+      "Hiraishin: Deus do Trovão",
+      "Maestria: CD",
+      "Maestria: CC",
+      "Chakra Expandido: Uzumaki",
+      "Lutar às Cegas",
+      "Perito: Rastrear",
+      "Ponto Cego",
+      "Técnica Poderosa"
     ]
   },
   {
