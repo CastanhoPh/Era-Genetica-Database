@@ -227,7 +227,11 @@ export interface Character {
    * Cargos de liderança da vila, da lista que o Pedro validou (2026-08-27). Lista porque oito
    * fichas têm dois: o Nishinoya é 3º Hokage e 2º Líder da Equipe de Elite, o Hiroshi Hanzo é
    * 3º Líder de Rastreio em Konoha e 2º General em Kumo. A ordem é a da lista dele, do posto
-   * mais alto para o mais baixo — o card mostra só o primeiro.
+   * Ordenada por chefia de vila primeiro: Hokage, Kazekage, Raikage, Mizukage, Tsuchikage,
+   * General e Governador vêm antes de qualquer liderança de divisão. Dentro do mesmo nível a
+   * ordem é a da lista do Pedro, que não define precedência entre divisões — por isso o par
+   * Ambu/Rastreio do Katsuo, Equipe de Elite/Inovações do Raikun e Dama/Força Médica da Yumi
+   * estão na ordem em que ele escreveu, não numa hierarquia. O card mostra só o primeiro.
    *
    * Só no Firestore, como `vila` e `organizacao`.
    */
