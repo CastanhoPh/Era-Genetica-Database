@@ -2332,6 +2332,16 @@
     "order": 30075
   },
   {
+    "__docId": "1xIY9uzrpAQdC7BTWpYH",
+    "type": "transformacao",
+    "temporada": "Oddy Uchiha",
+    "arco": "Modo Javali",
+    "name": "Modo Javali",
+    "placeholder": false,
+    "done": false,
+    "order": 20007
+  },
+  {
     "__docId": "2-temporada-da-oca__base-do-f__sera-adicionado-em-breve",
     "temporada": "2ª Temporada da OCA",
     "arco": "Base do F",
@@ -3302,6 +3312,16 @@
     "order": 10209
   },
   {
+    "__docId": "3dIaEw94JXgosW2KLdFe",
+    "type": "transformacao",
+    "temporada": "Nagare Uzumaki",
+    "arco": "Armadura de Raios",
+    "name": "Armadura de Raios",
+    "placeholder": false,
+    "done": false,
+    "order": 20005
+  },
+  {
     "__docId": "3EDk7aetQ09OWcIunIPx",
     "type": "capa",
     "temporada": "Apollo Sarutobi",
@@ -3591,6 +3611,16 @@
     "order": 40035
   },
   {
+    "__docId": "5JPynQsZg61TAJy6uTk5",
+    "type": "transformacao",
+    "temporada": "Takeshi Hatake",
+    "arco": "Modo Sábio",
+    "name": "Modo Sábio",
+    "placeholder": false,
+    "done": false,
+    "order": 20014
+  },
+  {
     "__docId": "5LZYUzFepWbqpxX65DYc",
     "type": "capaInvocacao",
     "arco": "Akeganai",
@@ -3733,7 +3763,7 @@
     "name": "Modo Javali",
     "placeholder": false,
     "done": false,
-    "order": 20006
+    "order": 20013
   },
   {
     "__docId": "6nWqxGy5gMT1XRcRQMBc",
@@ -3782,7 +3812,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FShizuru%20Kurogane%2FAnrai%20Getsurin.png?alt=media&v=1787068565296598",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20015
+    "order": 20027
   },
   {
     "__docId": "73k55DevR8zyqdBJdl8W",
@@ -4260,7 +4290,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaiden%20Yotsuki%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068559540311",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20012
+    "order": 20024
   },
   {
     "__docId": "A4tV6VdLNjIdzj11Sy5j",
@@ -4384,7 +4414,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FArashi%20Shidehara%2FShikigami%20no%20Mai.png?alt=media&v=1787068555647914",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20010
+    "order": 20022
   },
   {
     "__docId": "AIMVFVwruPQLk8llKehH",
@@ -4399,6 +4429,16 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FSatoshi%2FGamakaji.png?alt=media&v=1787776741017339",
     "order": 40039,
     "rank": "S++"
+  },
+  {
+    "__docId": "aIsX86hXheawGCVfvz2J",
+    "type": "transformacao",
+    "temporada": "Kaito Senju",
+    "arco": "Modo Sábio",
+    "name": "Modo Sábio",
+    "placeholder": false,
+    "done": false,
+    "order": 20003
   },
   {
     "__docId": "aJjQsVKVXyX70Htq1wzq",
@@ -4443,7 +4483,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMidori%20Kurogane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068567258618",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20016
+    "order": 20028
   },
   {
     "__docId": "AnXiKJNklClZaEGClARa",
@@ -4508,7 +4548,7 @@
     "name": "Modo Sábio",
     "placeholder": false,
     "done": false,
-    "order": 20004
+    "order": 20011
   },
   {
     "__docId": "AVj0ilBAk8TgSxsPtcmW",
@@ -4654,7 +4694,7 @@
     "name": "Manto Kurama + Modo Sábio",
     "placeholder": false,
     "done": false,
-    "order": 20009
+    "order": 20021
   },
   {
     "__docId": "BhGtrZnV7oDY1IOeWUOW",
@@ -4864,7 +4904,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGorai%20Arashiumi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068561534624",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20013
+    "order": 20025
   },
   {
     "__docId": "c9Qc6kPWlHvVNtGDSflB",
@@ -4994,7 +5034,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaizen%20Kurogane%2FRaich%C5%AB%20Keshin.png?alt=media&v=1787068557598909",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20011
+    "order": 20023
   },
   {
     "__docId": "Cmfpv9mBjwfP3wOjkZ8F",
@@ -5196,6 +5236,16 @@
     "doneBy": null,
     "imageUrl": null,
     "order": 10211
+  },
+  {
+    "__docId": "e0qlCdayD3ACckPs7Duk",
+    "type": "transformacao",
+    "temporada": "Oddy Uchiha",
+    "arco": "Armadura Susanoo Pessoal",
+    "name": "Armadura Susanoo Pessoal",
+    "placeholder": false,
+    "done": false,
+    "order": 20006
   },
   {
     "__docId": "e0sHJzqRfipJls3QOeeQ",
@@ -5728,6 +5778,16 @@
     "doneBy": "Desconhecido"
   },
   {
+    "__docId": "Gb4hyG9xWAnrk7z0HbB4",
+    "type": "transformacao",
+    "temporada": "Nagare Uzumaki",
+    "arco": "Kogou Fusa",
+    "name": "Kogou Fusa",
+    "placeholder": false,
+    "done": false,
+    "order": 20004
+  },
+  {
     "__docId": "gE560wIEwu8N3ChB34Xk",
     "type": "timeline",
     "temporada": "Kaito Senju",
@@ -5758,7 +5818,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FInazuma%20Kazuchi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068573119507",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20019
+    "order": 20031
   },
   {
     "__docId": "Ggo2HG4sUZyMxL3VnzBh",
@@ -6263,7 +6323,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNaomi%20Uzumaki%2FModo%20S%C3%A1bio.png?alt=media&v=1787068553699113",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20007
+    "order": 20019
   },
   {
     "__docId": "hXMQSgxPexs1YK9vE6P0",
@@ -6344,6 +6404,16 @@
     "order": 60048
   },
   {
+    "__docId": "ia4bxcgKRV1fFTn0drW1",
+    "type": "transformacao",
+    "temporada": "Furyuzan Chinoike",
+    "arco": "Manto 75%",
+    "name": "Manto 75%",
+    "placeholder": false,
+    "done": false,
+    "order": 20017
+  },
+  {
     "__docId": "iAFalWagbKvf8XycKY4X",
     "type": "timeline",
     "temporada": "Katsuo Uzumaki",
@@ -6365,6 +6435,16 @@
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FLuta_contra_o_Hades.png?alt=media&v=1785263393623",
     "order": 10167
+  },
+  {
+    "__docId": "iBMGkn2JbrlHCVx9F3ZV",
+    "type": "transformacao",
+    "temporada": "Oddy Uchiha",
+    "arco": "Hachimon Tonkou: Kyomon",
+    "name": "Hachimon Tonkou: Kyomon",
+    "placeholder": false,
+    "done": false,
+    "order": 20008
   },
   {
     "__docId": "iDvnE4pTtj3RbrdFyPsh",
@@ -6476,6 +6556,16 @@
     "done": true,
     "doneBy": "Pedro",
     "order": 10191
+  },
+  {
+    "__docId": "iKX4A8EfpywCijb9uHZt",
+    "type": "transformacao",
+    "temporada": "Kenma Soryo",
+    "arco": "Modo Sábio",
+    "name": "Modo Sábio",
+    "placeholder": false,
+    "done": false,
+    "order": 20018
   },
   {
     "__docId": "ilCwit92vU9xGewRpKVy",
@@ -6740,7 +6830,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FKiyoshi%20Hagane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068569487831",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20017
+    "order": 20029
   },
   {
     "__docId": "Jtg2i7TaqOx1y61bJiQw",
@@ -6897,6 +6987,16 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FOkami_Hatake.png?alt=media&v=1787162995537728",
     "order": 60014,
     "temporada": "Takeshi"
+  },
+  {
+    "__docId": "kLENitF2g7br2HFKeEv5",
+    "type": "transformacao",
+    "temporada": "Furyuzan Chinoike",
+    "arco": "Manto 10%",
+    "name": "Manto 10%",
+    "placeholder": false,
+    "done": false,
+    "order": 20015
   },
   {
     "__docId": "KlNf8hdefr76SjZLk4vj",
@@ -7466,7 +7566,7 @@
     "name": "Manto Saiken",
     "placeholder": false,
     "done": false,
-    "order": 20020
+    "order": 20032
   },
   {
     "__docId": "N9Yif0B1P5XNfPKQAfbX",
@@ -8885,7 +8985,7 @@
     "name": "Armadura Susanoo Pessoal",
     "placeholder": false,
     "done": false,
-    "order": 20005
+    "order": 20012
   },
   {
     "__docId": "QaTWRkQlz2m3fWWiCd5k",
@@ -9264,6 +9364,16 @@
     "order": 10076
   },
   {
+    "__docId": "sBHU85PCCTxXCqITl5Zh",
+    "type": "transformacao",
+    "temporada": "Furyuzan Chinoike",
+    "arco": "Manto 45%",
+    "name": "Manto 45%",
+    "placeholder": false,
+    "done": false,
+    "order": 20016
+  },
+  {
     "__docId": "SDVCot5OU8cBWO0ctTqt",
     "type": "timeline",
     "temporada": "Takeshi Hatake",
@@ -9374,6 +9484,16 @@
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F2__Temporada.png?alt=media&v=1786479684868340",
     "order": 10132
+  },
+  {
+    "__docId": "STXM4QkK3O26ebIDLWsE",
+    "type": "transformacao",
+    "temporada": "Oddy Uchiha",
+    "arco": "Modo Sábio",
+    "name": "Modo Sábio",
+    "placeholder": false,
+    "done": false,
+    "order": 20009
   },
   {
     "__docId": "SWNcrdOQKO8K5taNUzJU",
@@ -9504,7 +9624,7 @@
     "name": "Hachimon Tonkou: Kyomon",
     "placeholder": false,
     "done": false,
-    "order": 20003
+    "order": 20010
   },
   {
     "__docId": "TuxOAoEpFDRLgX8lYYt6",
@@ -9878,7 +9998,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAkane%20Sumigami%2FRaiei%20S%C5%8Dsei.png?alt=media&v=1787068571463916",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20018
+    "order": 20030
   },
   {
     "__docId": "vUo1nUOBPkoa2ZVmyfiE",
@@ -10100,7 +10220,7 @@
     "name": "Manto Kurama",
     "placeholder": false,
     "done": false,
-    "order": 20008
+    "order": 20020
   },
   {
     "__docId": "wLXr5jfClhi122YSd8V4",
@@ -10795,7 +10915,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNayara%20Kazemori%2FTenshi%20no%20Keshin.png?alt=media&v=1787068563433413",
     "done": true,
     "doneBy": "Pedro",
-    "order": 20014
+    "order": 20026
   },
   {
     "__docId": "ZlojjmfXGR7FHH8dQa1x",
