@@ -4091,20 +4091,6 @@
     "hp": 234,
     "isDead": true,
     "killedBy": "Omega",
-    "powers": [
-      {
-        "name": "Juken",
-        "level": 14
-      },
-      {
-        "name": "Hyuga no Fujo",
-        "level": 14
-      },
-      {
-        "name": "Hashoumon Tonkou",
-        "level": 2
-      }
-    ],
     "aptitudes": [
       "Fujogan",
       "Eternal Fujogan",
@@ -4193,6 +4179,21 @@
         "rank": "Z",
         "nature": "Fujogan",
         "village": "Konohagakure"
+      }
+    ],
+    "techniques": [],
+    "powers": [
+      {
+        "name": "Juken",
+        "level": 14
+      },
+      {
+        "name": "Hyuga no Fujo",
+        "level": 14
+      },
+      {
+        "name": "Hachimon Tonkou",
+        "level": 2
       }
     ]
   },
@@ -7816,20 +7817,6 @@
       "vigor": 16,
       "perception": 6
     },
-    "powers": [
-      {
-        "name": "Hashoumon Tonkou",
-        "level": 8
-      },
-      {
-        "name": "Senjutsu",
-        "level": 2
-      },
-      {
-        "name": "Hyuga no Fujo",
-        "level": 2
-      }
-    ],
     "aptitudes": [
       "Eien Mangekyou Sharingan",
       "Sharingan",
@@ -7855,118 +7842,6 @@
       "O Rejeitado",
       "Ninja Mais Forte da Nova Konoha",
       "Lenda dos Oito Portões"
-    ],
-    "techniques": [
-      {
-        "name": "Mangekyou Kyômon: Chōtotsu Mōshin Susanoo no Shingeki",
-        "classification": "Z",
-        "nature": "Oito Portões Internos + Chakra Profano + Senjutsu + Mangekyou Sharingan de Sho + Susanoo",
-        "description": "Após transplantar o olho de Sho, que anteriormente estava em posse de A, Najin levou o Chōtotsu Mōshin a uma evolução ainda mais brutal. Ao ativar essa versão, Najin abre os Oito Portões Internos e redireciona todo o chakra liberado diretamente para o coração, transformando-o em um núcleo de energia instável. O chakra profano passa a revestir cada veia e canal de chakra, enquanto o Modo Sábio é imbuído em sua circulação, estabilizando parcialmente a energia e aumentando drasticamente a precisão, o alcance e o impacto de seus ataques. O Mangekyou Sharingan de Sho acelera sua capacidade muscular em um nível absurdo, permitindo que Najin force seus músculos além do limite natural sem perder controle imediato dos movimentos. Nesse estado, seu corpo entra em uma superaceleração absoluta, seus sentidos captam microvariações no fluxo de chakra, vibrações no ar e movimentos quase imperceptíveis, enquanto sua força física, velocidade e reflexos ultrapassam completamente os limites humanos. Para suportar a pressão da técnica, Najin se reveste com uma armadura parcial de Susanoo, criada a partir do poder ocular de Sho, e manifesta uma lança de chakra do próprio Sho, concentrando nela chakra profano, chakra sábio e a energia destrutiva dos Oito Portões. O golpe final consiste em uma investida direta, onde Najin dispara como uma entidade de pura destruição, perfurando o campo de batalha com a lança de chakra e liberando todo o poder acumulado em um único impacto.",
-        "destruction": "Nível apocalíptico. A combinação entre Oito Portões, chakra profano, senjutsu, aceleração muscular pelo Mangekyou de Sho, armadura de Susanoo e lança de chakra transforma o ataque em uma técnica de aniquilação direta. O chakra sábio amplia drasticamente o acerto e o dano, permitindo que a investida ignore grande parte das defesas convencionais de chakra. Ao atingir o alvo, a lança libera uma explosão concentrada capaz de destruir barreiras, perfurar armaduras espirituais, romper defesas de Susanoo inferiores e devastar uma região inteira ao redor do ponto de impacto. O golpe não apenas causa dano físico massivo, mas também contamina o sistema de chakra do inimigo com chakra profano venenoso, dificultando regeneração, substituição ou fuga.",
-        "history": "Najin despertou originalmente o Chōtotsu Mōshin após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi, que o auxiliou a dispersar o chakra profano gradualmente por todo o corpo e estabilizar sua circulação de energia. Mais tarde, após o transplante do olho de Sho que estava em A, Najin passou a acessar uma fração do poder ocular de Sho, incluindo sua aceleração muscular, sua manifestação de Susanoo e a criação de sua lança de chakra. Ao fundir esse poder com seu próprio Modo Sábio, Najin criou uma evolução proibida do Chōtotsu Mōshin: uma técnica de investida absoluta, feita não para prolongar combate, mas para finalizar inimigos de nível extremo com um único ataque destrutivo.",
-        "status": "Uso absolutamente proibido. A técnica força simultaneamente o coração, o sistema circulatório, os músculos, os canais de chakra, o olho transplantado e a energia espiritual de Najin. Mesmo com a armadura de Susanoo reduzindo parte do impacto externo, o dano interno é devastador. O uso pode causar ruptura muscular generalizada, hemorragia interna, colapso cardíaco, necrose dos canais de chakra, rejeição ocular temporária e perda parcial da consciência após o golpe. Caso Najin erre o ataque ou seja forçado a manter a técnica por tempo prolongado, o risco de morte aumenta drasticamente.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F01%20-%20Mangekyou%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin%20Susanoo%20no%20Shingeki.jpg?alt=media&v=1786651878753877"
-      },
-      {
-        "name": "Susanoo Pessoal",
-        "classification": "S++",
-        "nature": "Mangekyō Sharingan",
-        "description": "Após transplantar o olho de Sho que estava em posse de A, Najin Hatake passa a utilizar o Susanoo de Sho, derivado de seu único olho, moldando-o diretamente sobre o próprio corpo como uma armadura viva de chakra. Diferente das manifestações gigantescas tradicionais, este Susanoo não se projeta como uma entidade colossal, mas se adapta à estrutura corporal de Najin, formando uma couraça parcial extremamente densa, agressiva e funcional. A armadura cobre pontos vitais, braços, torso e pernas com placas espirituais de chakra, mantendo sua mobilidade preservada e permitindo movimentação rápida em combate direto. Sua estrutura possui aparência imponente, com camadas sobrepostas de chakra sólido, bordas afiadas e uma pressão espiritual intensa ao redor do corpo. O poder ocular de Sho estabiliza a armadura e permite que Najin manifeste uma lança de chakra associada ao Susanoo, transformando sua defesa em uma extensão ofensiva. Nessa forma, Najin não apenas se protege contra ataques de alto nível, mas transforma o próprio corpo em uma arma de avanço direto, capaz de perfurar defesas enquanto resiste ao impacto de técnicas destrutivas.",
-        "destruction": "Amplia drasticamente a resistência, força física, velocidade de avanço e letalidade de Najin. A armadura reduz danos recebidos, absorve parte do impacto de técnicas ofensivas e permite que Najin lute em combate corporal contra inimigos de altíssimo nível sem depender de uma forma gigante do Susanoo. As placas espirituais reforçam seus golpes e tornam seus ataques mais pesados, precisos e difíceis de bloquear. A lança de chakra de Sho, manifestada a partir do Susanoo, pode ser usada para investidas perfurantes, ataques de média distância e golpes concentrados capazes de romper barreiras, armaduras espirituais e defesas reforçadas.",
-        "history": "Essa técnica nasce após Najin transplantar o olho de Sho que estava em A e começar a adaptar o poder ocular ao seu próprio estilo de combate. Diferente de usuários que dependem de manifestações colossais do Susanoo, Najin moldou essa energia como uma armadura pessoal, usando-a não apenas como proteção, mas como uma extensão direta de seu corpo. A técnica representa a adaptação do poder herdado de Sho ao estilo agressivo de Najin, criando uma defesa ofensiva feita para combates diretos, avanço constante e finalizações rápidas.",
-        "status": "Uso extremamente perigoso. Apesar de ser mais eficiente e móvel que uma forma completa de Susanoo, ainda consome grandes quantidades de chakra e impõe desgaste severo ao olho transplantado. O uso prolongado pode causar dor ocular intensa, falhas de visão, rejeição temporária do Mangekyō, fadiga extrema e perda progressiva da eficiência da armadura.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F02%20-%20Susanoo%20Pessoal.png?alt=media&v=1786651878899503"
-      },
-      {
-        "name": "Yari no Sho",
-        "classification": "S++",
-        "nature": "Mangekyō Sharingan de Sho + Chakra do Susanoo",
-        "description": "Com o Mangekyō esquerdo de Sho ativo e o Susanoo Pessoal manifestado sobre seu corpo, Najin Hatake consegue acessar a lendária lança de Sho Uchiha. A arma surge como uma extensão direta da armadura de Susanoo, formada por chakra condensado em uma haste longa, densa e extremamente afiada. Sua aparência carrega a assinatura espiritual de Sho, com uma estrutura imponente, lâmina alongada e pressão ocular concentrada em sua ponta. Diferente de uma lança comum, ela não foi criada apenas para perfurar matéria física, mas para atingir diretamente o chakra do oponente. Ao entrar em contato com o alvo, a lança atravessa a defesa externa e interfere no fluxo energético interno, afetando canais de chakra, barreiras espirituais e técnicas ativas.",
-        "destruction": "Nível extremamente destrutivo contra usuários de chakra. A lança de Sho pode perfurar defesas físicas e espirituais, mas seu verdadeiro poder está em atingir diretamente o chakra do inimigo. Um golpe certeiro pode desestabilizar o fluxo de chakra, interromper a execução de jutsus, enfraquecer barreiras, desfazer mantos de chakra e causar dano interno mesmo quando a defesa externa permanece intacta. Contra oponentes dependentes de técnicas de alta concentração energética, a arma é ainda mais perigosa, pois pode romper o controle do chakra no ponto de impacto e abrir brechas fatais para ataques consecutivos.",
-        "history": "A lendária lança de Sho Uchiha era uma manifestação exclusiva de seu poder ocular, ligada ao seu Susanoo e ao domínio avançado do Mangekyō Sharingan. Após transplantar o olho esquerdo de Sho, que anteriormente estava em posse de A, Najin passou a acessar fragmentos desse poder. Inicialmente, a arma surgia de forma instável, incompleta e difícil de manter. Somente após dominar o Susanoo Pessoal, Najin conseguiu estabilizar a lança como uma extensão direta da armadura, adaptando-a ao seu próprio estilo de combate. A técnica representa a herança ofensiva de Sho dentro do arsenal de Najin, transformando o poder ocular transplantado em uma arma precisa, espiritual e letal.",
-        "status": "Uso extremamente perigoso. A lança só pode ser manifestada com o Mangekyō esquerdo de Sho ativo e com o Susanoo Pessoal já estabilizado. Sua criação consome uma grande quantidade de chakra e impõe desgaste severo ao olho transplantado. O uso repetido pode causar dor ocular intensa, sangramento, falhas de visão, instabilidade na armadura de Susanoo e perda temporária de controle sobre a arma. Caso Najin force a técnica além do limite, a lança pode se desfazer durante o ataque ou causar rejeição temporária do Mangekyō.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F03%20-%20Yari%20no%20Sho.jpg?alt=media&v=1786651878710371"
-      },
-      {
-        "name": "Mangekyō Sharingan",
-        "classification": "S+",
-        "nature": "Mangekyō Sharingan",
-        "description": "Najin Hatake passa a utilizar o Mangekyō Sharingan de Sho após transplantar o olho que anteriormente estava em posse de A. Por não ser o despertador original do poder ocular, Najin não acessa o Mangekyō da mesma forma natural que Sho, mas adapta suas propriedades ao próprio corpo através de controle intenso de chakra. Ao ativar o olho, sua percepção de combate se expande drasticamente, permitindo enxergar fluxos de chakra, microcontrações musculares, intenções hostis e pequenas alterações no ambiente antes que o inimigo conclua o movimento. O poder ocular de Sho também acelera a resposta muscular de Najin, fazendo com que seus movimentos acompanhem a leitura visual ampliada. Essa aceleração permite ataques explosivos, esquivas precisas e correções de trajetória durante investidas. O olho também serve como base para a manifestação da armadura de Susanoo pessoal e da lança de chakra de Sho.",
-        "destruction": "Potencial de combate drasticamente ampliado. O Mangekyō aumenta a precisão, a reação, a leitura de movimentos e a capacidade ofensiva de Najin, permitindo que ele acerte inimigos extremamente rápidos ou difíceis de prever. A aceleração muscular concedida pelo olho torna seus ataques mais violentos e difíceis de acompanhar. Em combate direto, Najin consegue antecipar ataques, ajustar sua movimentação em frações de segundo e concentrar seus golpes no ponto exato de impacto, aumentando tanto o acerto quanto o dano causado.",
-        "history": "Após o olho de Sho passar por A, Najin realiza o transplante e incorpora o Mangekyō ao seu próprio sistema de combate. Inicialmente, o olho apresenta instabilidade por não pertencer originalmente a ele, causando dor e dificuldade de sincronização. Com treinamento, Najin aprende a equilibrar o poder ocular e transforma o Mangekyō de Sho em um catalisador para sua evolução. A partir dessa adaptação, Najin passa a acessar a aceleração muscular, a percepção avançada e as manifestações de Susanoo ligadas ao poder de Sho.",
-        "status": "Uso de alto risco. Como o olho não pertence originalmente a Najin, o consumo de chakra é elevado e o desgaste ocular é severo. Ativações prolongadas podem causar visão turva, sangramento ocular, dor intensa, falhas de percepção e rejeição temporária do transplante. Quanto mais tempo Najin mantém o Mangekyō ativo, maior o risco de sobrecarga neural e dano permanente ao olho.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F04%20-%20Mangeky%C5%8D%20Sharingan.png?alt=media&v=1786651878694860"
-      },
-      {
-        "name": "Kyômon: Chōtotsu Mōshin",
-        "classification": "S++",
-        "nature": "Hashoumon Tonkou + Chakra Profano + Senjutsu",
-        "description": "Chōtotsu Mōshin é uma técnica proibida que leva o uso dos Oito Portões Internos a um nível nunca antes alcançado. Ao ativá-la, Najin redireciona todo o chakra liberado pelos portões diretamente para o coração, transformando-o em um gerador de energia pura. O coração passa a bombear chakra em níveis extremos, comprimindo essa energia em todas as veias e canais de chakra do corpo. Cada veia é revestida por chakra profano venenoso, criando um circuito híbrido entre força vital, chakra bruto e energia maldita. Nesse estado, o corpo de Najin entra em uma superaceleração absoluta: seus sentidos se expandem drasticamente, permitindo perceber microvariações no fluxo de chakra, vibrações no ar e movimentos quase imperceptíveis. Sua força física, velocidade e reflexos ultrapassam os limites humanos, e cada movimento gera distorções no ar devido à pressão colossal liberada pelo corpo.",
-        "destruction": "Nível catastrófico. A compressão extrema de chakra no sistema circulatório transforma cada golpe em uma liberação explosiva de energia. Socos e chutes liberam ondas de choque capazes de devastar grandes áreas, romper defesas de chakra e pulverizar estruturas físicas ao redor.",
-        "history": "Najin despertou essa técnica após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi. Durante um intenso treinamento, Katsumi o ajudou a dispersar o chakra profano gradualmente por todo o corpo, estabilizando sua circulação de energia. Com o tempo, Najin aprendeu não apenas a suportar essa energia, mas também a direcioná-la conscientemente através de seus canais de chakra. Dessa adaptação extrema nasceu o Chōtotsu Mōshin, onde Najin combina o poder bruto do Hashoumon Tonkou com o chakra profano que agora flui permanentemente em seu corpo e o senjutsu que amplia sua resistência.",
-        "status": "Uso extremamente proibido. A pressão imposta ao coração e ao sistema circulatório é absurda, podendo causar hemorragias internas, ruptura cardíaca, falência dos canais de chakra e colapso total do corpo. Mesmo quando executada com perfeição, Najin sofre danos severos após o término da técnica.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F05%20-%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin.png?alt=media&v=1786651878666707"
-      },
-      {
-        "name": "Hakuro no Kan",
-        "classification": "S+",
-        "nature": "Chakra Profano",
-        "description": "Após aprender a dispersar corretamente o chakra profano em seu corpo com a ajuda de Katsumi, Najin desenvolveu um estado raro de percepção de combate. Ao ativar essa técnica, ele suprime temporariamente seus pensamentos conscientes e permite que seu corpo reaja puramente por instinto. O chakra profano circula por seus nervos e músculos de forma extremamente precisa, criando um estado de resposta automática onde cada movimento do corpo ocorre antes mesmo da mente processar o perigo. Nesse estado, Najin se move com fluidez animal, desviando de golpes que normalmente o atingiriam e respondendo a ataques com reflexos impossíveis para um lutador comum. Seus olhos assumem um brilho azul enquanto o chakra profano pulsa em seu sistema nervoso, ampliando drasticamente sua percepção de movimento, intenção hostil e microvariações de chakra ao redor.",
-        "destruction": "Focado em evasão e combate corpo a corpo de altíssimo nível. Embora não seja uma técnica de destruição massiva, ela permite que Najin evite ataques mortais e contra-ataque com precisão absoluta, tornando-o extremamente perigoso em combates diretos.",
-        "history": "Durante o processo de estabilização do chakra profano dentro de seu corpo, Katsumi ajudou Najin a redistribuir essa energia de forma correta pelos canais de chakra. Ao perceber que o chakra profano reagia fortemente aos impulsos instintivos do corpo, Najin treinou para permitir que essa energia guiasse suas reações em combate. Assim nasceu essa técnica, onde ele abandona momentaneamente o pensamento racional para lutar apenas com seus instintos.",
-        "status": "Difícil de manter por longos períodos. Quanto mais Najin depende desse estado, maior o risco de perder o controle emocional ou permitir que o chakra profano influencie excessivamente suas decisões.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F06%20-%20Hakuro%20no%20Kan.png?alt=media&v=1786651878728315"
-      },
-      {
-        "name": "Kyōmon: Chakra Profano 'F'",
-        "classification": "S+",
-        "nature": "Hashoumon Tonkou + Chakra Profano",
-        "description": "Após abrir o Sétimo Portão — o Portão da Maravilha (Kyōmon) — Najin envolve seus braços com suas Luvas de Chakra Profano de Veneno, que passam a pulsar com uma aura densa e tóxica de coloração púrpura-esverdeada. A pressão absurda gerada pelo Kyōmon é fundida ao chakra profano venenoso, criando uma massa gigantesca de ar comprimido contaminada por energia corrosiva. Ao desferir um golpe devastador no vazio, Najin comprime violentamente a atmosfera ao redor e forma um colossal tigre espectral envolto por vapores tóxicos. A criatura é composta por pura pressão atmosférica condensada misturada ao chakra profano venenoso e avança em velocidade extrema contra o alvo. Ao atingir o impacto, o tigre explode em uma onda de choque brutal acompanhada por uma névoa venenosa que corrói carne, chakra e até defesas espirituais.",
-        "destruction": "Extremamente elevado. Além do impacto físico comparável ao Hirudora original, a técnica libera uma nuvem tóxica de grande alcance que contamina o campo de batalha, enfraquecendo adversários, corroendo estruturas e dificultando regeneração.",
-        "history": "Criada por Najin após dominar o controle do Sétimo Portão sem perder a consciência de combate. A fusão entre a força brutal do Kyōmon e o Chakra Profano Venenoso marcou sua evolução como um usuário híbrido de taijutsu extremo e energia maldita.",
-        "status": "Uso extremamente restrito. A combinação do Sétimo Portão com chakra profano venenoso acelera drasticamente o desgaste celular, podendo causar falência muscular temporária, hemorragias internas e risco severo de envenenamento reverso caso o controle falhe.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F07%20-%20Ky%C5%8Dmon%3A%20Chakra%20Profano%20'F'.png?alt=media&v=1786651880204632"
-      },
-      {
-        "name": "Kyōmon: Hirudora",
-        "classification": "S+",
-        "nature": "Hashoumon Tonkou",
-        "description": "Após abrir o Sétimo Portão — o Portão da Maravilha (Kyōmon) — o usuário realiza um único selo de mão e assume uma postura ofensiva, concentrando sua energia vital ao limite máximo. Em seguida, desfere um golpe colossal que comprime violentamente o ar ao redor, formando uma gigantesca massa de pressão com a aparência de um tigre. A entidade de ar pressurizado avança em altíssima velocidade contra o alvo e, ao contato, explode brutalmente, liberando uma onda de choque devastadora que varre tudo ao redor.",
-        "destruction": "Muito elevado. Capaz de destruir grandes estruturas, dissipar defesas massivas e causar danos severos em larga escala no campo de batalha. A explosão de pressão pode devastar áreas extensas e ferir até adversários de resistência extrema.",
-        "history": "Reconhecida como a técnica suprema do Sétimo Portão. Registrada como capaz de ferir adversários de nível Kage e entidades de altíssima resistência física, tornando-se um marco entre as artes corporais supremas dos Oito Portões Internos.",
-        "status": "Uso extremamente restrito. Requer a abertura do Sétimo Portão, causando desgaste extremo ao corpo, danos internos severos e alto risco de colapso físico após a execução.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F08%20-%20Ky%C5%8Dmon%3A%20Hirudora.jpg?alt=media&v=1786651880176497"
-      },
-      {
-        "name": "Sennin Fuka",
-        "classification": "A+",
-        "nature": "Senjutsu",
-        "description": "Após estudar cuidadosamente a antiga bandana de Raikun, Najin percebe um símbolo escondido em sua parte interna acompanhado da inscrição: 'Se precisar, utilize'. Investigando o significado daquele selo ancestral, ele descobre que se trata de um contrato espiritual ligado aos lendários cães sábios. Ao realizar o ritual de invocação descrito no símbolo, Najin convoca um antigo espírito canino que imediatamente reconhece o chakra de Raikun fluindo dentro dele. Ao perceber que Najin é filho do antigo guerreiro, o cão lendário aceita treiná-lo nas artes do Senjutsu canino. Durante o treinamento nas montanhas espirituais, Najin consegue despertar uma forma inicial do Modo Sábio dos Cães. Porém, devido ao chakra profano que circula permanentemente em seu corpo, o equilíbrio entre energia natural e chakra interno torna-se extremamente instável. Ao ativar essa forma incompleta, uma aura azul densa misturada com tons arroxeados envolve seu corpo, enquanto marcas luminosas surgem em seu rosto lembrando presas e padrões tribais caninos. Seus olhos assumem um brilho predatório e seus sentidos são drasticamente amplificados, permitindo detectar chakra oculto e intenções hostis. No entanto, Najin ainda não domina completamente o fluxo de energia natural, fazendo com que o modo seja irregular e difícil de sustentar.",
-        "destruction": "Altamente destrutiva, porém imprevisível. O aumento de força física, velocidade e percepção transforma Najin em um combatente extremamente perigoso. Entretanto, por ser uma forma incompleta, a energia pode explodir de maneira instável, gerando ondas de choque descontroladas ou falhas no fluxo de chakra durante o combate.",
-        "history": "Após a morte de Raikun, Najin manteve consigo a bandana que pertencia ao pai. Anos depois, ao analisá-la com atenção, descobriu um símbolo oculto costurado no interior junto a uma mensagem deixada por Raikun. Seguindo as instruções do selo, ele conseguiu invocar um antigo cão sábio que havia treinado seu pai no passado. Reconhecendo o espírito de Raikun em Najin, o espírito aceitou treiná-lo. Contudo, o chakra profano existente no corpo de Najin impede que ele alcance o verdadeiro equilíbrio necessário para dominar completamente o Senjutsu.",
-        "status": "Técnica incompleta e extremamente perigosa. Najin ainda não possui controle total do Modo Sábio, e a mistura entre chakra natural e chakra profano pode causar perda de controle, petrificação parcial ou explosões de energia dentro do próprio corpo.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F09%20-%20Sennin%20Fuka.png?alt=media&v=1786651880211422"
-      },
-      {
-        "name": "Keimon: Asa Kujaku",
-        "classification": "S",
-        "nature": "Hashoumon Tonkou",
-        "description": "Najin abre o Sexto Portão — o Portão da Visão (Keimon) — liberando uma explosão súbita de energia corporal que eleva drasticamente sua força, velocidade e resistência. O ataque começa com um chute ascendente poderoso que lança o inimigo aos céus. Em seguida, Najin salta em perseguição e desfere uma sequência quase incontável de socos em altíssima velocidade. O atrito gerado pela intensidade dos golpes aquece o ar ao redor, fazendo com que seus punhos entrem em combustão pela pura velocidade, criando um espetáculo flamejante semelhante à cauda aberta de um pavão. As chamas formam um leque ardente ao redor do oponente, envolvendo-o em uma tempestade de impactos consecutivos.",
-        "destruction": "Extremamente ofensiva e devastadora em combate direto. A sequência de golpes causa danos massivos internos e externos, podendo quebrar ossos e carbonizar parcialmente a superfície do alvo devido ao calor gerado. Ao final do ataque, o inimigo é lançado violentamente de volta ao solo, envolto na aura flamejante residual do impacto. Pode incapacitar adversários de alta resistência física.",
-        "history": "Najin dominou esta técnica após intenso treinamento corporal e controle avançado dos Portões Internos. Ao compreender os limites do Sexto Portão, ele passou a utilizar a explosão temporária de poder para executar o Asa Kujaku com precisão letal, transformando seu próprio corpo em uma arma incendiária de pura velocidade.",
-        "status": "Técnica de altíssimo desgaste físico. O uso prolongado do Sexto Portão causa severa fadiga muscular e microlesões internas. Deve ser utilizada como finalização ou em momentos decisivos da batalha.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F10%20-%20Keimon%3A%20Asa%20Kujaku.jpg?alt=media&v=1786651880197665"
-      },
-      {
-        "name": "Tomon: Ura Renge",
-        "classification": "S",
-        "nature": "Hashoumon Tonkou",
-        "description": "Najin ativa o Quinto Portão — o Portão do Limite (Tomon) — liberando uma explosão avassaladora de força, velocidade e pressão de chakra que distorce o ar ao seu redor. Seus músculos se expandem sob intensa energia, as veias se evidenciam e o solo se fragmenta sob seus pés no instante da ativação. Após utilizar o Kage Buyō para surgir atrás do oponente no ar, ele inicia uma sequência brutal e quase invisível de golpes, alternando socos, chutes e impactos corporais em altíssima velocidade, cada ataque gerando ondas de choque no ar. O inimigo é lançado repetidamente para cima enquanto Najin altera a trajetória do combo com mudanças bruscas de direção. No clímax, ele agarra o adversário, gira violentamente com força centrífuga amplificada pelo Tomon e despenca em queda acelerada, concentrando todo o poder do Quinto Portão em um impacto devastador que esmaga o oponente contra o solo, criando uma cratera massiva.",
-        "destruction": "Extremamente destrutiva. A velocidade e potência ampliadas pelo Quinto Portão resultam em fraturas generalizadas, ruptura interna severa e possível incapacitação imediata. O impacto final pode devastar uma grande área ao redor, levantando destroços e rachando o terreno. Ideal como técnica de finalização contra inimigos de alto nível.",
-        "history": "Após superar os limites do Seimon, Najin treinou intensamente para suportar o Tomon, elevando o Ura Renge a um patamar muito superior. O domínio do Quinto Portão transformou a técnica em uma execução praticamente imparável, utilizada apenas em situações críticas.",
-        "status": "Risco extremo ao usuário. O Quinto Portão impõe enorme estresse muscular, ruptura de fibras, sobrecarga circulatória e possível colapso físico após o uso. Najin só ativa essa versão como último recurso decisivo.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F11%20-%20Tomon%3A%20Ura%20Renge.jpg?alt=media&v=1786651880375866"
-      }
     ],
     "chakraColor": "#e8fbff",
     "arsenal": [],
@@ -8308,7 +8183,133 @@
     "divisaoAtributo": {
       "inteligencia": 37.5,
       "espirito": 62.5
-    }
+    },
+    "techniques": [
+      {
+        "name": "Mangekyou Kyômon: Chōtotsu Mōshin Susanoo no Shingeki",
+        "classification": "Z",
+        "nature": "Oito Portões Internos + Chakra Profano + Senjutsu + Mangekyou Sharingan de Sho + Susanoo",
+        "description": "Após transplantar o olho de Sho, que anteriormente estava em posse de A, Najin levou o Chōtotsu Mōshin a uma evolução ainda mais brutal. Ao ativar essa versão, Najin abre os Oito Portões Internos e redireciona todo o chakra liberado diretamente para o coração, transformando-o em um núcleo de energia instável. O chakra profano passa a revestir cada veia e canal de chakra, enquanto o Modo Sábio é imbuído em sua circulação, estabilizando parcialmente a energia e aumentando drasticamente a precisão, o alcance e o impacto de seus ataques. O Mangekyou Sharingan de Sho acelera sua capacidade muscular em um nível absurdo, permitindo que Najin force seus músculos além do limite natural sem perder controle imediato dos movimentos. Nesse estado, seu corpo entra em uma superaceleração absoluta, seus sentidos captam microvariações no fluxo de chakra, vibrações no ar e movimentos quase imperceptíveis, enquanto sua força física, velocidade e reflexos ultrapassam completamente os limites humanos. Para suportar a pressão da técnica, Najin se reveste com uma armadura parcial de Susanoo, criada a partir do poder ocular de Sho, e manifesta uma lança de chakra do próprio Sho, concentrando nela chakra profano, chakra sábio e a energia destrutiva dos Oito Portões. O golpe final consiste em uma investida direta, onde Najin dispara como uma entidade de pura destruição, perfurando o campo de batalha com a lança de chakra e liberando todo o poder acumulado em um único impacto.",
+        "destruction": "Nível apocalíptico. A combinação entre Oito Portões, chakra profano, senjutsu, aceleração muscular pelo Mangekyou de Sho, armadura de Susanoo e lança de chakra transforma o ataque em uma técnica de aniquilação direta. O chakra sábio amplia drasticamente o acerto e o dano, permitindo que a investida ignore grande parte das defesas convencionais de chakra. Ao atingir o alvo, a lança libera uma explosão concentrada capaz de destruir barreiras, perfurar armaduras espirituais, romper defesas de Susanoo inferiores e devastar uma região inteira ao redor do ponto de impacto. O golpe não apenas causa dano físico massivo, mas também contamina o sistema de chakra do inimigo com chakra profano venenoso, dificultando regeneração, substituição ou fuga.",
+        "history": "Najin despertou originalmente o Chōtotsu Mōshin após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi, que o auxiliou a dispersar o chakra profano gradualmente por todo o corpo e estabilizar sua circulação de energia. Mais tarde, após o transplante do olho de Sho que estava em A, Najin passou a acessar uma fração do poder ocular de Sho, incluindo sua aceleração muscular, sua manifestação de Susanoo e a criação de sua lança de chakra. Ao fundir esse poder com seu próprio Modo Sábio, Najin criou uma evolução proibida do Chōtotsu Mōshin: uma técnica de investida absoluta, feita não para prolongar combate, mas para finalizar inimigos de nível extremo com um único ataque destrutivo.",
+        "status": "Uso absolutamente proibido. A técnica força simultaneamente o coração, o sistema circulatório, os músculos, os canais de chakra, o olho transplantado e a energia espiritual de Najin. Mesmo com a armadura de Susanoo reduzindo parte do impacto externo, o dano interno é devastador. O uso pode causar ruptura muscular generalizada, hemorragia interna, colapso cardíaco, necrose dos canais de chakra, rejeição ocular temporária e perda parcial da consciência após o golpe. Caso Najin erre o ataque ou seja forçado a manter a técnica por tempo prolongado, o risco de morte aumenta drasticamente.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F01%20-%20Mangekyou%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin%20Susanoo%20no%20Shingeki.jpg?alt=media&v=1786651878753877"
+      },
+      {
+        "name": "Susanoo Pessoal",
+        "classification": "S++",
+        "nature": "Mangekyō Sharingan",
+        "description": "Após transplantar o olho de Sho que estava em posse de A, Najin Hatake passa a utilizar o Susanoo de Sho, derivado de seu único olho, moldando-o diretamente sobre o próprio corpo como uma armadura viva de chakra. Diferente das manifestações gigantescas tradicionais, este Susanoo não se projeta como uma entidade colossal, mas se adapta à estrutura corporal de Najin, formando uma couraça parcial extremamente densa, agressiva e funcional. A armadura cobre pontos vitais, braços, torso e pernas com placas espirituais de chakra, mantendo sua mobilidade preservada e permitindo movimentação rápida em combate direto. Sua estrutura possui aparência imponente, com camadas sobrepostas de chakra sólido, bordas afiadas e uma pressão espiritual intensa ao redor do corpo. O poder ocular de Sho estabiliza a armadura e permite que Najin manifeste uma lança de chakra associada ao Susanoo, transformando sua defesa em uma extensão ofensiva. Nessa forma, Najin não apenas se protege contra ataques de alto nível, mas transforma o próprio corpo em uma arma de avanço direto, capaz de perfurar defesas enquanto resiste ao impacto de técnicas destrutivas.",
+        "destruction": "Amplia drasticamente a resistência, força física, velocidade de avanço e letalidade de Najin. A armadura reduz danos recebidos, absorve parte do impacto de técnicas ofensivas e permite que Najin lute em combate corporal contra inimigos de altíssimo nível sem depender de uma forma gigante do Susanoo. As placas espirituais reforçam seus golpes e tornam seus ataques mais pesados, precisos e difíceis de bloquear. A lança de chakra de Sho, manifestada a partir do Susanoo, pode ser usada para investidas perfurantes, ataques de média distância e golpes concentrados capazes de romper barreiras, armaduras espirituais e defesas reforçadas.",
+        "history": "Essa técnica nasce após Najin transplantar o olho de Sho que estava em A e começar a adaptar o poder ocular ao seu próprio estilo de combate. Diferente de usuários que dependem de manifestações colossais do Susanoo, Najin moldou essa energia como uma armadura pessoal, usando-a não apenas como proteção, mas como uma extensão direta de seu corpo. A técnica representa a adaptação do poder herdado de Sho ao estilo agressivo de Najin, criando uma defesa ofensiva feita para combates diretos, avanço constante e finalizações rápidas.",
+        "status": "Uso extremamente perigoso. Apesar de ser mais eficiente e móvel que uma forma completa de Susanoo, ainda consome grandes quantidades de chakra e impõe desgaste severo ao olho transplantado. O uso prolongado pode causar dor ocular intensa, falhas de visão, rejeição temporária do Mangekyō, fadiga extrema e perda progressiva da eficiência da armadura.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F02%20-%20Susanoo%20Pessoal.png?alt=media&v=1786651878899503"
+      },
+      {
+        "name": "Yari no Sho",
+        "classification": "S++",
+        "nature": "Mangekyō Sharingan de Sho + Chakra do Susanoo",
+        "description": "Com o Mangekyō esquerdo de Sho ativo e o Susanoo Pessoal manifestado sobre seu corpo, Najin Hatake consegue acessar a lendária lança de Sho Uchiha. A arma surge como uma extensão direta da armadura de Susanoo, formada por chakra condensado em uma haste longa, densa e extremamente afiada. Sua aparência carrega a assinatura espiritual de Sho, com uma estrutura imponente, lâmina alongada e pressão ocular concentrada em sua ponta. Diferente de uma lança comum, ela não foi criada apenas para perfurar matéria física, mas para atingir diretamente o chakra do oponente. Ao entrar em contato com o alvo, a lança atravessa a defesa externa e interfere no fluxo energético interno, afetando canais de chakra, barreiras espirituais e técnicas ativas.",
+        "destruction": "Nível extremamente destrutivo contra usuários de chakra. A lança de Sho pode perfurar defesas físicas e espirituais, mas seu verdadeiro poder está em atingir diretamente o chakra do inimigo. Um golpe certeiro pode desestabilizar o fluxo de chakra, interromper a execução de jutsus, enfraquecer barreiras, desfazer mantos de chakra e causar dano interno mesmo quando a defesa externa permanece intacta. Contra oponentes dependentes de técnicas de alta concentração energética, a arma é ainda mais perigosa, pois pode romper o controle do chakra no ponto de impacto e abrir brechas fatais para ataques consecutivos.",
+        "history": "A lendária lança de Sho Uchiha era uma manifestação exclusiva de seu poder ocular, ligada ao seu Susanoo e ao domínio avançado do Mangekyō Sharingan. Após transplantar o olho esquerdo de Sho, que anteriormente estava em posse de A, Najin passou a acessar fragmentos desse poder. Inicialmente, a arma surgia de forma instável, incompleta e difícil de manter. Somente após dominar o Susanoo Pessoal, Najin conseguiu estabilizar a lança como uma extensão direta da armadura, adaptando-a ao seu próprio estilo de combate. A técnica representa a herança ofensiva de Sho dentro do arsenal de Najin, transformando o poder ocular transplantado em uma arma precisa, espiritual e letal.",
+        "status": "Uso extremamente perigoso. A lança só pode ser manifestada com o Mangekyō esquerdo de Sho ativo e com o Susanoo Pessoal já estabilizado. Sua criação consome uma grande quantidade de chakra e impõe desgaste severo ao olho transplantado. O uso repetido pode causar dor ocular intensa, sangramento, falhas de visão, instabilidade na armadura de Susanoo e perda temporária de controle sobre a arma. Caso Najin force a técnica além do limite, a lança pode se desfazer durante o ataque ou causar rejeição temporária do Mangekyō.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F03%20-%20Yari%20no%20Sho.jpg?alt=media&v=1786651878710371"
+      },
+      {
+        "name": "Mangekyō Sharingan",
+        "classification": "S+",
+        "nature": "Mangekyō Sharingan",
+        "description": "Najin Hatake passa a utilizar o Mangekyō Sharingan de Sho após transplantar o olho que anteriormente estava em posse de A. Por não ser o despertador original do poder ocular, Najin não acessa o Mangekyō da mesma forma natural que Sho, mas adapta suas propriedades ao próprio corpo através de controle intenso de chakra. Ao ativar o olho, sua percepção de combate se expande drasticamente, permitindo enxergar fluxos de chakra, microcontrações musculares, intenções hostis e pequenas alterações no ambiente antes que o inimigo conclua o movimento. O poder ocular de Sho também acelera a resposta muscular de Najin, fazendo com que seus movimentos acompanhem a leitura visual ampliada. Essa aceleração permite ataques explosivos, esquivas precisas e correções de trajetória durante investidas. O olho também serve como base para a manifestação da armadura de Susanoo pessoal e da lança de chakra de Sho.",
+        "destruction": "Potencial de combate drasticamente ampliado. O Mangekyō aumenta a precisão, a reação, a leitura de movimentos e a capacidade ofensiva de Najin, permitindo que ele acerte inimigos extremamente rápidos ou difíceis de prever. A aceleração muscular concedida pelo olho torna seus ataques mais violentos e difíceis de acompanhar. Em combate direto, Najin consegue antecipar ataques, ajustar sua movimentação em frações de segundo e concentrar seus golpes no ponto exato de impacto, aumentando tanto o acerto quanto o dano causado.",
+        "history": "Após o olho de Sho passar por A, Najin realiza o transplante e incorpora o Mangekyō ao seu próprio sistema de combate. Inicialmente, o olho apresenta instabilidade por não pertencer originalmente a ele, causando dor e dificuldade de sincronização. Com treinamento, Najin aprende a equilibrar o poder ocular e transforma o Mangekyō de Sho em um catalisador para sua evolução. A partir dessa adaptação, Najin passa a acessar a aceleração muscular, a percepção avançada e as manifestações de Susanoo ligadas ao poder de Sho.",
+        "status": "Uso de alto risco. Como o olho não pertence originalmente a Najin, o consumo de chakra é elevado e o desgaste ocular é severo. Ativações prolongadas podem causar visão turva, sangramento ocular, dor intensa, falhas de percepção e rejeição temporária do transplante. Quanto mais tempo Najin mantém o Mangekyō ativo, maior o risco de sobrecarga neural e dano permanente ao olho.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F04%20-%20Mangeky%C5%8D%20Sharingan.png?alt=media&v=1786651878694860"
+      },
+      {
+        "name": "Kyômon: Chōtotsu Mōshin",
+        "classification": "S++",
+        "nature": "Hachimon Tonkou + Chakra Profano + Senjutsu",
+        "description": "Chōtotsu Mōshin é uma técnica proibida que leva o uso dos Oito Portões Internos a um nível nunca antes alcançado. Ao ativá-la, Najin redireciona todo o chakra liberado pelos portões diretamente para o coração, transformando-o em um gerador de energia pura. O coração passa a bombear chakra em níveis extremos, comprimindo essa energia em todas as veias e canais de chakra do corpo. Cada veia é revestida por chakra profano venenoso, criando um circuito híbrido entre força vital, chakra bruto e energia maldita. Nesse estado, o corpo de Najin entra em uma superaceleração absoluta: seus sentidos se expandem drasticamente, permitindo perceber microvariações no fluxo de chakra, vibrações no ar e movimentos quase imperceptíveis. Sua força física, velocidade e reflexos ultrapassam os limites humanos, e cada movimento gera distorções no ar devido à pressão colossal liberada pelo corpo.",
+        "destruction": "Nível catastrófico. A compressão extrema de chakra no sistema circulatório transforma cada golpe em uma liberação explosiva de energia. Socos e chutes liberam ondas de choque capazes de devastar grandes áreas, romper defesas de chakra e pulverizar estruturas físicas ao redor.",
+        "history": "Najin despertou essa técnica após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi. Durante um intenso treinamento, Katsumi o ajudou a dispersar o chakra profano gradualmente por todo o corpo, estabilizando sua circulação de energia. Com o tempo, Najin aprendeu não apenas a suportar essa energia, mas também a direcioná-la conscientemente através de seus canais de chakra. Dessa adaptação extrema nasceu o Chōtotsu Mōshin, onde Najin combina o poder bruto do Hachimon Tonkou com o chakra profano que agora flui permanentemente em seu corpo e o senjutsu que amplia sua resistência.",
+        "status": "Uso extremamente proibido. A pressão imposta ao coração e ao sistema circulatório é absurda, podendo causar hemorragias internas, ruptura cardíaca, falência dos canais de chakra e colapso total do corpo. Mesmo quando executada com perfeição, Najin sofre danos severos após o término da técnica.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F05%20-%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin.png?alt=media&v=1786651878666707"
+      },
+      {
+        "name": "Hakuro no Kan",
+        "classification": "S+",
+        "nature": "Chakra Profano",
+        "description": "Após aprender a dispersar corretamente o chakra profano em seu corpo com a ajuda de Katsumi, Najin desenvolveu um estado raro de percepção de combate. Ao ativar essa técnica, ele suprime temporariamente seus pensamentos conscientes e permite que seu corpo reaja puramente por instinto. O chakra profano circula por seus nervos e músculos de forma extremamente precisa, criando um estado de resposta automática onde cada movimento do corpo ocorre antes mesmo da mente processar o perigo. Nesse estado, Najin se move com fluidez animal, desviando de golpes que normalmente o atingiriam e respondendo a ataques com reflexos impossíveis para um lutador comum. Seus olhos assumem um brilho azul enquanto o chakra profano pulsa em seu sistema nervoso, ampliando drasticamente sua percepção de movimento, intenção hostil e microvariações de chakra ao redor.",
+        "destruction": "Focado em evasão e combate corpo a corpo de altíssimo nível. Embora não seja uma técnica de destruição massiva, ela permite que Najin evite ataques mortais e contra-ataque com precisão absoluta, tornando-o extremamente perigoso em combates diretos.",
+        "history": "Durante o processo de estabilização do chakra profano dentro de seu corpo, Katsumi ajudou Najin a redistribuir essa energia de forma correta pelos canais de chakra. Ao perceber que o chakra profano reagia fortemente aos impulsos instintivos do corpo, Najin treinou para permitir que essa energia guiasse suas reações em combate. Assim nasceu essa técnica, onde ele abandona momentaneamente o pensamento racional para lutar apenas com seus instintos.",
+        "status": "Difícil de manter por longos períodos. Quanto mais Najin depende desse estado, maior o risco de perder o controle emocional ou permitir que o chakra profano influencie excessivamente suas decisões.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F06%20-%20Hakuro%20no%20Kan.png?alt=media&v=1786651878728315"
+      },
+      {
+        "name": "Kyōmon: Chakra Profano 'F'",
+        "classification": "S+",
+        "nature": "Hachimon Tonkou + Chakra Profano",
+        "description": "Após abrir o Sétimo Portão — o Portão da Maravilha (Kyōmon) — Najin envolve seus braços com suas Luvas de Chakra Profano de Veneno, que passam a pulsar com uma aura densa e tóxica de coloração púrpura-esverdeada. A pressão absurda gerada pelo Kyōmon é fundida ao chakra profano venenoso, criando uma massa gigantesca de ar comprimido contaminada por energia corrosiva. Ao desferir um golpe devastador no vazio, Najin comprime violentamente a atmosfera ao redor e forma um colossal tigre espectral envolto por vapores tóxicos. A criatura é composta por pura pressão atmosférica condensada misturada ao chakra profano venenoso e avança em velocidade extrema contra o alvo. Ao atingir o impacto, o tigre explode em uma onda de choque brutal acompanhada por uma névoa venenosa que corrói carne, chakra e até defesas espirituais.",
+        "destruction": "Extremamente elevado. Além do impacto físico comparável ao Hirudora original, a técnica libera uma nuvem tóxica de grande alcance que contamina o campo de batalha, enfraquecendo adversários, corroendo estruturas e dificultando regeneração.",
+        "history": "Criada por Najin após dominar o controle do Sétimo Portão sem perder a consciência de combate. A fusão entre a força brutal do Kyōmon e o Chakra Profano Venenoso marcou sua evolução como um usuário híbrido de taijutsu extremo e energia maldita.",
+        "status": "Uso extremamente restrito. A combinação do Sétimo Portão com chakra profano venenoso acelera drasticamente o desgaste celular, podendo causar falência muscular temporária, hemorragias internas e risco severo de envenenamento reverso caso o controle falhe.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F07%20-%20Ky%C5%8Dmon%3A%20Chakra%20Profano%20'F'.png?alt=media&v=1786651880204632"
+      },
+      {
+        "name": "Kyōmon: Hirudora",
+        "classification": "S+",
+        "nature": "Hachimon Tonkou",
+        "description": "Após abrir o Sétimo Portão — o Portão da Maravilha (Kyōmon) — o usuário realiza um único selo de mão e assume uma postura ofensiva, concentrando sua energia vital ao limite máximo. Em seguida, desfere um golpe colossal que comprime violentamente o ar ao redor, formando uma gigantesca massa de pressão com a aparência de um tigre. A entidade de ar pressurizado avança em altíssima velocidade contra o alvo e, ao contato, explode brutalmente, liberando uma onda de choque devastadora que varre tudo ao redor.",
+        "destruction": "Muito elevado. Capaz de destruir grandes estruturas, dissipar defesas massivas e causar danos severos em larga escala no campo de batalha. A explosão de pressão pode devastar áreas extensas e ferir até adversários de resistência extrema.",
+        "history": "Reconhecida como a técnica suprema do Sétimo Portão. Registrada como capaz de ferir adversários de nível Kage e entidades de altíssima resistência física, tornando-se um marco entre as artes corporais supremas dos Oito Portões Internos.",
+        "status": "Uso extremamente restrito. Requer a abertura do Sétimo Portão, causando desgaste extremo ao corpo, danos internos severos e alto risco de colapso físico após a execução.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F08%20-%20Ky%C5%8Dmon%3A%20Hirudora.jpg?alt=media&v=1786651880176497"
+      },
+      {
+        "name": "Sennin Fuka",
+        "classification": "A+",
+        "nature": "Senjutsu",
+        "description": "Após estudar cuidadosamente a antiga bandana de Raikun, Najin percebe um símbolo escondido em sua parte interna acompanhado da inscrição: 'Se precisar, utilize'. Investigando o significado daquele selo ancestral, ele descobre que se trata de um contrato espiritual ligado aos lendários cães sábios. Ao realizar o ritual de invocação descrito no símbolo, Najin convoca um antigo espírito canino que imediatamente reconhece o chakra de Raikun fluindo dentro dele. Ao perceber que Najin é filho do antigo guerreiro, o cão lendário aceita treiná-lo nas artes do Senjutsu canino. Durante o treinamento nas montanhas espirituais, Najin consegue despertar uma forma inicial do Modo Sábio dos Cães. Porém, devido ao chakra profano que circula permanentemente em seu corpo, o equilíbrio entre energia natural e chakra interno torna-se extremamente instável. Ao ativar essa forma incompleta, uma aura azul densa misturada com tons arroxeados envolve seu corpo, enquanto marcas luminosas surgem em seu rosto lembrando presas e padrões tribais caninos. Seus olhos assumem um brilho predatório e seus sentidos são drasticamente amplificados, permitindo detectar chakra oculto e intenções hostis. No entanto, Najin ainda não domina completamente o fluxo de energia natural, fazendo com que o modo seja irregular e difícil de sustentar.",
+        "destruction": "Altamente destrutiva, porém imprevisível. O aumento de força física, velocidade e percepção transforma Najin em um combatente extremamente perigoso. Entretanto, por ser uma forma incompleta, a energia pode explodir de maneira instável, gerando ondas de choque descontroladas ou falhas no fluxo de chakra durante o combate.",
+        "history": "Após a morte de Raikun, Najin manteve consigo a bandana que pertencia ao pai. Anos depois, ao analisá-la com atenção, descobriu um símbolo oculto costurado no interior junto a uma mensagem deixada por Raikun. Seguindo as instruções do selo, ele conseguiu invocar um antigo cão sábio que havia treinado seu pai no passado. Reconhecendo o espírito de Raikun em Najin, o espírito aceitou treiná-lo. Contudo, o chakra profano existente no corpo de Najin impede que ele alcance o verdadeiro equilíbrio necessário para dominar completamente o Senjutsu.",
+        "status": "Técnica incompleta e extremamente perigosa. Najin ainda não possui controle total do Modo Sábio, e a mistura entre chakra natural e chakra profano pode causar perda de controle, petrificação parcial ou explosões de energia dentro do próprio corpo.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F09%20-%20Sennin%20Fuka.png?alt=media&v=1786651880211422"
+      },
+      {
+        "name": "Keimon: Asa Kujaku",
+        "classification": "S",
+        "nature": "Hachimon Tonkou",
+        "description": "Najin abre o Sexto Portão — o Portão da Visão (Keimon) — liberando uma explosão súbita de energia corporal que eleva drasticamente sua força, velocidade e resistência. O ataque começa com um chute ascendente poderoso que lança o inimigo aos céus. Em seguida, Najin salta em perseguição e desfere uma sequência quase incontável de socos em altíssima velocidade. O atrito gerado pela intensidade dos golpes aquece o ar ao redor, fazendo com que seus punhos entrem em combustão pela pura velocidade, criando um espetáculo flamejante semelhante à cauda aberta de um pavão. As chamas formam um leque ardente ao redor do oponente, envolvendo-o em uma tempestade de impactos consecutivos.",
+        "destruction": "Extremamente ofensiva e devastadora em combate direto. A sequência de golpes causa danos massivos internos e externos, podendo quebrar ossos e carbonizar parcialmente a superfície do alvo devido ao calor gerado. Ao final do ataque, o inimigo é lançado violentamente de volta ao solo, envolto na aura flamejante residual do impacto. Pode incapacitar adversários de alta resistência física.",
+        "history": "Najin dominou esta técnica após intenso treinamento corporal e controle avançado dos Portões Internos. Ao compreender os limites do Sexto Portão, ele passou a utilizar a explosão temporária de poder para executar o Asa Kujaku com precisão letal, transformando seu próprio corpo em uma arma incendiária de pura velocidade.",
+        "status": "Técnica de altíssimo desgaste físico. O uso prolongado do Sexto Portão causa severa fadiga muscular e microlesões internas. Deve ser utilizada como finalização ou em momentos decisivos da batalha.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F10%20-%20Keimon%3A%20Asa%20Kujaku.jpg?alt=media&v=1786651880197665"
+      },
+      {
+        "name": "Tomon: Ura Renge",
+        "classification": "S",
+        "nature": "Hachimon Tonkou",
+        "description": "Najin ativa o Quinto Portão — o Portão do Limite (Tomon) — liberando uma explosão avassaladora de força, velocidade e pressão de chakra que distorce o ar ao seu redor. Seus músculos se expandem sob intensa energia, as veias se evidenciam e o solo se fragmenta sob seus pés no instante da ativação. Após utilizar o Kage Buyō para surgir atrás do oponente no ar, ele inicia uma sequência brutal e quase invisível de golpes, alternando socos, chutes e impactos corporais em altíssima velocidade, cada ataque gerando ondas de choque no ar. O inimigo é lançado repetidamente para cima enquanto Najin altera a trajetória do combo com mudanças bruscas de direção. No clímax, ele agarra o adversário, gira violentamente com força centrífuga amplificada pelo Tomon e despenca em queda acelerada, concentrando todo o poder do Quinto Portão em um impacto devastador que esmaga o oponente contra o solo, criando uma cratera massiva.",
+        "destruction": "Extremamente destrutiva. A velocidade e potência ampliadas pelo Quinto Portão resultam em fraturas generalizadas, ruptura interna severa e possível incapacitação imediata. O impacto final pode devastar uma grande área ao redor, levantando destroços e rachando o terreno. Ideal como técnica de finalização contra inimigos de alto nível.",
+        "history": "Após superar os limites do Seimon, Najin treinou intensamente para suportar o Tomon, elevando o Ura Renge a um patamar muito superior. O domínio do Quinto Portão transformou a técnica em uma execução praticamente imparável, utilizada apenas em situações críticas.",
+        "status": "Risco extremo ao usuário. O Quinto Portão impõe enorme estresse muscular, ruptura de fibras, sobrecarga circulatória e possível colapso físico após o uso. Najin só ativa essa versão como último recurso decisivo.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F11%20-%20Tomon%3A%20Ura%20Renge.jpg?alt=media&v=1786651880375866"
+      }
+    ],
+    "powers": [
+      {
+        "name": "Hachimon Tonkou",
+        "level": 8
+      },
+      {
+        "name": "Senjutsu",
+        "level": 2
+      },
+      {
+        "name": "Hyuga no Fujo",
+        "level": 2
+      }
+    ]
   },
   {
     "__docId": "naoki-uchiha",
@@ -10112,20 +10113,6 @@
     "hp": 250,
     "isDead": true,
     "killedBy": "Chip da OCA",
-    "powers": [
-      {
-        "name": "Hashoumon Tonkou",
-        "level": 15
-      },
-      {
-        "name": "Senjutsu",
-        "level": 15
-      },
-      {
-        "name": "Fuinjutsu",
-        "level": 15
-      }
-    ],
     "aptitudes": [
       "Punho de Ferro",
       "Lutador",
@@ -10244,7 +10231,21 @@
       "inteligencia",
       "vigor"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "powers": [
+      {
+        "name": "Hachimon Tonkou",
+        "level": 15
+      },
+      {
+        "name": "Senjutsu",
+        "level": 15
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 15
+      }
+    ]
   },
   {
     "__docId": "raizen-kurogane",
@@ -12147,24 +12148,6 @@
     "chakra": 94,
     "isDead": true,
     "killedBy": "Omega",
-    "powers": [
-      {
-        "name": "Katon",
-        "level": 14
-      },
-      {
-        "name": "Doton",
-        "level": 14
-      },
-      {
-        "name": "Fuinjutsu",
-        "level": 14
-      },
-      {
-        "name": "Hashomon Tonkou",
-        "level": 7
-      }
-    ],
     "aptitudes": [
       "Mangekyou Sharingan",
       "Punho de Ferro",
@@ -12228,7 +12211,26 @@
       "dexterity": 11,
       "intelligence": 22,
       "perception": 11
-    }
+    },
+    "techniques": [],
+    "powers": [
+      {
+        "name": "Katon",
+        "level": 14
+      },
+      {
+        "name": "Doton",
+        "level": 14
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 14
+      },
+      {
+        "name": "Hachimon Tonkou",
+        "level": 7
+      }
+    ]
   },
   {
     "__docId": "shoei-sarutobi",
@@ -14202,20 +14204,6 @@
       "vigor": 18,
       "perception": 7
     },
-    "powers": [
-      {
-        "name": "Kokuo",
-        "level": 9
-      },
-      {
-        "name": "Gobi Futon",
-        "level": 9
-      },
-      {
-        "name": "Hashoumon Tonkou",
-        "level": 2
-      }
-    ],
     "aptitudes": [
       "Maestria: CC",
       "Reflexos",
@@ -14248,6 +14236,20 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "powers": [
+      {
+        "name": "Kokuo",
+        "level": 9
+      },
+      {
+        "name": "Gobi Futon",
+        "level": 9
+      },
+      {
+        "name": "Hachimon Tonkou",
+        "level": 2
+      }
+    ]
   }
 ]

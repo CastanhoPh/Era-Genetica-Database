@@ -1640,7 +1640,7 @@ Sua principal habilidade se baseia em explosão de chakra conhecida como técnic
 - Percepção: 6
 
 ## Poderes e Elementos
-- Hashoumon Tonkou — Nível 8
+- Hachimon Tonkou — Nível 8
 - Senjutsu — Nível 2
 - Hyuga no Fujo — Nível 2
 
@@ -1720,7 +1720,7 @@ Status de Uso:
 Uso de alto risco. Como o olho não pertence originalmente a Najin, o consumo de chakra é elevado e o desgaste ocular é severo. Ativações prolongadas podem causar visão turva, sangramento ocular, dor intensa, falhas de percepção e rejeição temporária do transplante. Quanto mais tempo Najin mantém o Mangekyō ativo, maior o risco de sobrecarga neural e dano permanente ao olho.
 
 ### 5. Kyômon: Chōtotsu Mōshin
-Classificação: S++ | Natureza: Hashoumon Tonkou + Chakra Profano + Senjutsu
+Classificação: S++ | Natureza: Hachimon Tonkou + Chakra Profano + Senjutsu
 
 ![Kyômon: Chōtotsu Mōshin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F05%20-%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin.png?alt=media&v=1786651878666707)
 
@@ -1731,7 +1731,7 @@ Destruição:
 Nível catastrófico. A compressão extrema de chakra no sistema circulatório transforma cada golpe em uma liberação explosiva de energia. Socos e chutes liberam ondas de choque capazes de devastar grandes áreas, romper defesas de chakra e pulverizar estruturas físicas ao redor.
 
 História:
-Najin despertou essa técnica após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi. Durante um intenso treinamento, Katsumi o ajudou a dispersar o chakra profano gradualmente por todo o corpo, estabilizando sua circulação de energia. Com o tempo, Najin aprendeu não apenas a suportar essa energia, mas também a direcioná-la conscientemente através de seus canais de chakra. Dessa adaptação extrema nasceu o Chōtotsu Mōshin, onde Najin combina o poder bruto do Hashoumon Tonkou com o chakra profano que agora flui permanentemente em seu corpo e o senjutsu que amplia sua resistência.
+Najin despertou essa técnica após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi. Durante um intenso treinamento, Katsumi o ajudou a dispersar o chakra profano gradualmente por todo o corpo, estabilizando sua circulação de energia. Com o tempo, Najin aprendeu não apenas a suportar essa energia, mas também a direcioná-la conscientemente através de seus canais de chakra. Dessa adaptação extrema nasceu o Chōtotsu Mōshin, onde Najin combina o poder bruto do Hachimon Tonkou com o chakra profano que agora flui permanentemente em seu corpo e o senjutsu que amplia sua resistência.
 
 Status de Uso:
 Uso extremamente proibido. A pressão imposta ao coração e ao sistema circulatório é absurda, podendo causar hemorragias internas, ruptura cardíaca, falência dos canais de chakra e colapso total do corpo. Mesmo quando executada com perfeição, Najin sofre danos severos após o término da técnica.
@@ -1754,7 +1754,7 @@ Status de Uso:
 Difícil de manter por longos períodos. Quanto mais Najin depende desse estado, maior o risco de perder o controle emocional ou permitir que o chakra profano influencie excessivamente suas decisões.
 
 ### 7. Kyōmon: Chakra Profano 'F'
-Classificação: S+ | Natureza: Hashoumon Tonkou + Chakra Profano
+Classificação: S+ | Natureza: Hachimon Tonkou + Chakra Profano
 
 ![Kyōmon: Chakra Profano 'F'](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F07%20-%20Ky%C5%8Dmon%3A%20Chakra%20Profano%20'F'.png?alt=media&v=1786651880204632)
 
@@ -1771,7 +1771,7 @@ Status de Uso:
 Uso extremamente restrito. A combinação do Sétimo Portão com chakra profano venenoso acelera drasticamente o desgaste celular, podendo causar falência muscular temporária, hemorragias internas e risco severo de envenenamento reverso caso o controle falhe.
 
 ### 8. Kyōmon: Hirudora
-Classificação: S+ | Natureza: Hashoumon Tonkou
+Classificação: S+ | Natureza: Hachimon Tonkou
 
 ![Kyōmon: Hirudora](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F08%20-%20Ky%C5%8Dmon%3A%20Hirudora.jpg?alt=media&v=1786651880176497)
 
@@ -1805,7 +1805,7 @@ Status de Uso:
 Técnica incompleta e extremamente perigosa. Najin ainda não possui controle total do Modo Sábio, e a mistura entre chakra natural e chakra profano pode causar perda de controle, petrificação parcial ou explosões de energia dentro do próprio corpo.
 
 ### 10. Keimon: Asa Kujaku
-Classificação: S | Natureza: Hashoumon Tonkou
+Classificação: S | Natureza: Hachimon Tonkou
 
 ![Keimon: Asa Kujaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F10%20-%20Keimon%3A%20Asa%20Kujaku.jpg?alt=media&v=1786651880197665)
 
@@ -1822,7 +1822,7 @@ Status de Uso:
 Técnica de altíssimo desgaste físico. O uso prolongado do Sexto Portão causa severa fadiga muscular e microlesões internas. Deve ser utilizada como finalização ou em momentos decisivos da batalha.
 
 ### 11. Tomon: Ura Renge
-Classificação: S | Natureza: Hashoumon Tonkou
+Classificação: S | Natureza: Hachimon Tonkou
 
 ![Tomon: Ura Renge](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F11%20-%20Tomon%3A%20Ura%20Renge.jpg?alt=media&v=1786651880375866)
 
@@ -4361,7 +4361,7 @@ Desconhecido
 - Katon — Nível 14
 - Doton — Nível 14
 - Fuinjutsu — Nível 14
-- Hashomon Tonkou — Nível 7
+- Hachimon Tonkou — Nível 7
 
 ## Aptidões
 Mangekyou Sharingan, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Ataque Progressivo
@@ -4403,7 +4403,7 @@ Desconhecido
 ## Poderes e Elementos
 - Juken — Nível 14
 - Hyuga no Fujo — Nível 14
-- Hashoumon Tonkou — Nível 2
+- Hachimon Tonkou — Nível 2
 
 ## Aptidões
 Fujogan, Eternal Fujogan, Hiraishin, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Ataque Progressivo
@@ -4578,7 +4578,7 @@ Desconhecido
 - Percepção: 12
 
 ## Poderes e Elementos
-- Hashoumon Tonkou — Nível 15
+- Hachimon Tonkou — Nível 15
 - Senjutsu — Nível 15
 - Fuinjutsu — Nível 15
 
@@ -8341,7 +8341,7 @@ Yuuto Han é a prova viva de que até a morte pode ser apenas o começo. Nascido
 ## Poderes e Elementos
 - Kokuo — Nível 9
 - Gobi Futon — Nível 9
-- Hashoumon Tonkou — Nível 2
+- Hachimon Tonkou — Nível 2
 
 ## Aptidões
 Maestria: CC, Reflexos, Punho de Ferro, Dano Extra, Crítico Aprimorado, Ataque Giratório, Chute Giratório, Arremessar, Seguir Sombra, Chakra Expandido

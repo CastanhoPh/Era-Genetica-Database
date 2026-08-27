@@ -1024,10 +1024,10 @@ export const initialData: Character[] = [
       {
         name: "Kyômon: Chōtotsu Mōshin",
         classification: "S++",
-        nature: "Hashoumon Tonkou + Chakra Profano + Senjutsu",
+        nature: "Hachimon Tonkou + Chakra Profano + Senjutsu",
         description: "Chōtotsu Mōshin é uma técnica proibida que leva o uso dos Oito Portões Internos a um nível nunca antes alcançado. Ao ativá-la, Najin redireciona todo o chakra liberado pelos portões diretamente para o coração, transformando-o em um gerador de energia pura. O coração passa a bombear chakra em níveis extremos, comprimindo essa energia em todas as veias e canais de chakra do corpo. Cada veia é revestida por chakra profano venenoso, criando um circuito híbrido entre força vital, chakra bruto e energia maldita. Nesse estado, o corpo de Najin entra em uma superaceleração absoluta: seus sentidos se expandem drasticamente, permitindo perceber microvariações no fluxo de chakra, vibrações no ar e movimentos quase imperceptíveis. Sua força física, velocidade e reflexos ultrapassam os limites humanos, e cada movimento gera distorções no ar devido à pressão colossal liberada pelo corpo.",
         destruction: "Nível catastrófico. A compressão extrema de chakra no sistema circulatório transforma cada golpe em uma liberação explosiva de energia. Socos e chutes liberam ondas de choque capazes de devastar grandes áreas, romper defesas de chakra e pulverizar estruturas físicas ao redor.",
-        history: "Najin despertou essa técnica após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi. Durante um intenso treinamento, Katsumi o ajudou a dispersar o chakra profano gradualmente por todo o corpo, estabilizando sua circulação de energia. Com o tempo, Najin aprendeu não apenas a suportar essa energia, mas também a direcioná-la conscientemente através de seus canais de chakra. Dessa adaptação extrema nasceu o Chōtotsu Mōshin, onde Najin combina o poder bruto do Hashoumon Tonkou com o chakra profano que agora flui permanentemente em seu corpo e o senjutsu que amplia sua resistência.",
+        history: "Najin despertou essa técnica após engolir a lendária Pedra de Chakra Profano pertencente aos monges guardiões dessa energia maldita. A pedra se dissolveu dentro de seu corpo, aprisionando uma quantidade absurda de chakra profano em seu sistema de chakra. Incapaz de controlar essa energia inicialmente, Najin teria sido consumido por ela se não fosse pela ajuda de Katsumi. Durante um intenso treinamento, Katsumi o ajudou a dispersar o chakra profano gradualmente por todo o corpo, estabilizando sua circulação de energia. Com o tempo, Najin aprendeu não apenas a suportar essa energia, mas também a direcioná-la conscientemente através de seus canais de chakra. Dessa adaptação extrema nasceu o Chōtotsu Mōshin, onde Najin combina o poder bruto do Hachimon Tonkou com o chakra profano que agora flui permanentemente em seu corpo e o senjutsu que amplia sua resistência.",
         status: "Uso extremamente proibido. A pressão imposta ao coração e ao sistema circulatório é absurda, podendo causar hemorragias internas, ruptura cardíaca, falência dos canais de chakra e colapso total do corpo. Mesmo quando executada com perfeição, Najin sofre danos severos após o término da técnica.",
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FTecnicas%2F05%20-%20Ky%C3%B4mon%3A%20Ch%C5%8Dtotsu%20M%C5%8Dshin.png?alt=media&v=1786651878666707"
       },
@@ -1044,7 +1044,7 @@ export const initialData: Character[] = [
       {
         name: "Kyōmon: Chakra Profano 'F'",
         classification: "S+",
-        nature: "Hashoumon Tonkou + Chakra Profano",
+        nature: "Hachimon Tonkou + Chakra Profano",
         description: "Após abrir o Sétimo Portão — o Portão da Maravilha (Kyōmon) — Najin envolve seus braços com suas Luvas de Chakra Profano de Veneno, que passam a pulsar com uma aura densa e tóxica de coloração púrpura-esverdeada. A pressão absurda gerada pelo Kyōmon é fundida ao chakra profano venenoso, criando uma massa gigantesca de ar comprimido contaminada por energia corrosiva. Ao desferir um golpe devastador no vazio, Najin comprime violentamente a atmosfera ao redor e forma um colossal tigre espectral envolto por vapores tóxicos. A criatura é composta por pura pressão atmosférica condensada misturada ao chakra profano venenoso e avança em velocidade extrema contra o alvo. Ao atingir o impacto, o tigre explode em uma onda de choque brutal acompanhada por uma névoa venenosa que corrói carne, chakra e até defesas espirituais.",
         destruction: "Extremamente elevado. Além do impacto físico comparável ao Hirudora original, a técnica libera uma nuvem tóxica de grande alcance que contamina o campo de batalha, enfraquecendo adversários, corroendo estruturas e dificultando regeneração.",
         history: "Criada por Najin após dominar o controle do Sétimo Portão sem perder a consciência de combate. A fusão entre a força brutal do Kyōmon e o Chakra Profano Venenoso marcou sua evolução como um usuário híbrido de taijutsu extremo e energia maldita.",
@@ -1054,7 +1054,7 @@ export const initialData: Character[] = [
       {
         name: "Kyōmon: Hirudora",
         classification: "S+",
-        nature: "Hashoumon Tonkou",
+        nature: "Hachimon Tonkou",
         description: "Após abrir o Sétimo Portão — o Portão da Maravilha (Kyōmon) — o usuário realiza um único selo de mão e assume uma postura ofensiva, concentrando sua energia vital ao limite máximo. Em seguida, desfere um golpe colossal que comprime violentamente o ar ao redor, formando uma gigantesca massa de pressão com a aparência de um tigre. A entidade de ar pressurizado avança em altíssima velocidade contra o alvo e, ao contato, explode brutalmente, liberando uma onda de choque devastadora que varre tudo ao redor.",
         destruction: "Muito elevado. Capaz de destruir grandes estruturas, dissipar defesas massivas e causar danos severos em larga escala no campo de batalha. A explosão de pressão pode devastar áreas extensas e ferir até adversários de resistência extrema.",
         history: "Reconhecida como a técnica suprema do Sétimo Portão. Registrada como capaz de ferir adversários de nível Kage e entidades de altíssima resistência física, tornando-se um marco entre as artes corporais supremas dos Oito Portões Internos.",
@@ -1074,7 +1074,7 @@ export const initialData: Character[] = [
       {
         name: "Keimon: Asa Kujaku",
         classification: "S",
-        nature: "Hashoumon Tonkou",
+        nature: "Hachimon Tonkou",
         description: "Najin abre o Sexto Portão — o Portão da Visão (Keimon) — liberando uma explosão súbita de energia corporal que eleva drasticamente sua força, velocidade e resistência. O ataque começa com um chute ascendente poderoso que lança o inimigo aos céus. Em seguida, Najin salta em perseguição e desfere uma sequência quase incontável de socos em altíssima velocidade. O atrito gerado pela intensidade dos golpes aquece o ar ao redor, fazendo com que seus punhos entrem em combustão pela pura velocidade, criando um espetáculo flamejante semelhante à cauda aberta de um pavão. As chamas formam um leque ardente ao redor do oponente, envolvendo-o em uma tempestade de impactos consecutivos.",
         destruction: "Extremamente ofensiva e devastadora em combate direto. A sequência de golpes causa danos massivos internos e externos, podendo quebrar ossos e carbonizar parcialmente a superfície do alvo devido ao calor gerado. Ao final do ataque, o inimigo é lançado violentamente de volta ao solo, envolto na aura flamejante residual do impacto. Pode incapacitar adversários de alta resistência física.",
         history: "Najin dominou esta técnica após intenso treinamento corporal e controle avançado dos Portões Internos. Ao compreender os limites do Sexto Portão, ele passou a utilizar a explosão temporária de poder para executar o Asa Kujaku com precisão letal, transformando seu próprio corpo em uma arma incendiária de pura velocidade.",
@@ -1084,7 +1084,7 @@ export const initialData: Character[] = [
       {
         name: "Tomon: Ura Renge",
         classification: "S",
-        nature: "Hashoumon Tonkou",
+        nature: "Hachimon Tonkou",
         description: "Najin ativa o Quinto Portão — o Portão do Limite (Tomon) — liberando uma explosão avassaladora de força, velocidade e pressão de chakra que distorce o ar ao seu redor. Seus músculos se expandem sob intensa energia, as veias se evidenciam e o solo se fragmenta sob seus pés no instante da ativação. Após utilizar o Kage Buyō para surgir atrás do oponente no ar, ele inicia uma sequência brutal e quase invisível de golpes, alternando socos, chutes e impactos corporais em altíssima velocidade, cada ataque gerando ondas de choque no ar. O inimigo é lançado repetidamente para cima enquanto Najin altera a trajetória do combo com mudanças bruscas de direção. No clímax, ele agarra o adversário, gira violentamente com força centrífuga amplificada pelo Tomon e despenca em queda acelerada, concentrando todo o poder do Quinto Portão em um impacto devastador que esmaga o oponente contra o solo, criando uma cratera massiva.",
         destruction: "Extremamente destrutiva. A velocidade e potência ampliadas pelo Quinto Portão resultam em fraturas generalizadas, ruptura interna severa e possível incapacitação imediata. O impacto final pode devastar uma grande área ao redor, levantando destroços e rachando o terreno. Ideal como técnica de finalização contra inimigos de alto nível.",
         history: "Após superar os limites do Seimon, Najin treinou intensamente para suportar o Tomon, elevando o Ura Renge a um patamar muito superior. O domínio do Quinto Portão transformou a técnica em uma execução praticamente imparável, utilizada apenas em situações críticas.",
@@ -1146,7 +1146,7 @@ export const initialData: Character[] = [
     ],
     stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 9, spirit: 15, vigor: 16, perception: 6 },
     powers: [
-      { name: "Hashoumon Tonkou", level: 8 },
+      { name: "Hachimon Tonkou", level: 8 },
       { name: "Senjutsu", level: 2 },
       { name: "Hyuga no Fujo", level: 2 }
 
@@ -2349,7 +2349,7 @@ export const initialData: Character[] = [
       { name: "Katon", level: 14 },
       { name: "Doton", level: 14 },
       { name: "Fuinjutsu", level: 14 },
-      { name: "Hashomon Tonkou", level: 7 }
+      { name: "Hachimon Tonkou", level: 7 }
     ],
     aptitudes: [
       "Mangekyou Sharingan",
@@ -2399,7 +2399,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Juken", level: 14 },
       { name: "Hyuga no Fujo", level: 14 },
-      { name: "Hashoumon Tonkou", level: 2 }
+      { name: "Hachimon Tonkou", level: 2 }
     ],
     aptitudes: [
       "Fujogan",
@@ -2633,7 +2633,7 @@ export const initialData: Character[] = [
     ],
     stats: { strength: 30, dexterity: 12, agility: 30, intelligence: 30, spirit: 24, vigor: 30, perception: 12 },
     powers: [
-      { name: "Hashoumon Tonkou", level: 15 },
+      { name: "Hachimon Tonkou", level: 15 },
       { name: "Senjutsu", level: 15 },
       { name: "Fuinjutsu", level: 15 }
     ],
@@ -4152,7 +4152,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Kokuo", level: 9 },
       { name: "Gobi Futon", level: 9 },
-      { name: "Hashoumon Tonkou", level: 2 }
+      { name: "Hachimon Tonkou", level: 2 }
     ],
     aptitudes: [
       "Maestria: CC",
