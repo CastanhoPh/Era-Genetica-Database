@@ -6698,11 +6698,10 @@ export const initialData: Character[] = [
       "Iwagakure"
     ],
     titles: [
-      "Tsuchikage",
       "O Núcleo"
     ],
     nc: 28,
-    position: "Tsuchikage",
+    position: "",
     role: "?",
     description: "",
     hp: 234,

@@ -86,7 +86,7 @@
 | 80 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure | Vice Líder da OCA | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
 | 81 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure | Raikage | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
 | 82 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure | Mizukage | ? | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
-| 83 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure | Tsuchikage | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
+| 83 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
 | 84 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure | Kazekage | ? | 28 | 216 | 94 | Vivo |
 | 85 | Beta | Desconhecido | NPC, OCA, Konohagakure | Líder do Terceiro Degrau | ? | 0 | 0 | 0 | Vivo |
 | 86 | Hades | Desconhecido | NPC, OCA | Líder da OCA | ? | 0 | 0 | 0 | Vivo |
@@ -10199,13 +10199,12 @@ Consome enormes reservas de chakra e exige controle minucioso da pressão intern
 ID: 83
 Clã: Muujin
 Grupos: NPC, OCA, Iwagakure
-Posição: Tsuchikage
 Função: ?
 NC: 28
 HP: 234
 Chakra: 76
 Status: Morto (morto por Najin Hatake)
-Títulos: Tsuchikage, O Núcleo
+Títulos: O Núcleo
 
 ![Deruta Muujin (Delta)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDeruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).jpg?alt=media&v=1786651909947775)
 
