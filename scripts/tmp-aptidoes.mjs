@@ -67,6 +67,13 @@ const LOTE = {
     'Duro de Matar', 'Regeneração', 'Chakra Expandido: Aokiba',
     'Intuição', 'Réplica Enganadora',
   ],
+  'katsumi-hyuga': [
+    'Acuidade', 'Contragolpe', 'Fujogan', 'Tenketsu Byakugan',
+    'Ataque Giratório', 'Crítico Aprimorado', 'Intuição', 'Chakra Expandido: Profano',
+    'Ataque Múltiplo', 'Dano Extra', 'Lutador',
+    'Byakugan', 'Duro de Matar', 'Rasteira',
+    'Chute Giratório', 'Maestria: CC', 'Soco em Gancho',
+  ],
 };
 
 const d = join(os.homedir(), 'Downloads');

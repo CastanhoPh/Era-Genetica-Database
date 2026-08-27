@@ -5474,21 +5474,6 @@
         "level": 2
       }
     ],
-    "aptitudes": [
-      "Byakugan",
-      "Tenketsu Byakugan",
-      "Fujogan",
-      "Acuidade",
-      "Especialista: Desarmado",
-      "Ataque Giratório",
-      "Chute Giratório",
-      "Ataque Múltiplo",
-      "Intuição",
-      "Lutador",
-      "Soco em Gancho",
-      "Rasteira",
-      "Crítico Aprimorado"
-    ],
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FKatsumi%20Hyuga.png?alt=media&v=1786651875776672",
     "id": 5,
     "titles": [
@@ -6002,6 +5987,25 @@
         "nature": "Fujogan",
         "village": "Konohagakure"
       }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Contragolpe",
+      "Fujogan",
+      "Tenketsu Byakugan",
+      "Ataque Giratório",
+      "Crítico Aprimorado",
+      "Intuição",
+      "Chakra Expandido: Profano",
+      "Ataque Múltiplo",
+      "Dano Extra",
+      "Lutador",
+      "Byakugan",
+      "Duro de Matar",
+      "Rasteira",
+      "Chute Giratório",
+      "Maestria: CC",
+      "Soco em Gancho"
     ]
   },
   {

@@ -1395,7 +1395,7 @@ Em uma luta contra Alpha, Gama, Delta e Theta, os quatro Kages da OCA, bastou me
 - Futon — Nível 2
 
 ## Aptidões
-Byakugan, Tenketsu Byakugan, Fujogan, Acuidade, Especialista: Desarmado, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Intuição, Lutador, Soco em Gancho, Rasteira, Crítico Aprimorado
+Acuidade, Contragolpe, Fujogan, Tenketsu Byakugan, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Dano Extra, Lutador, Byakugan, Duro de Matar, Rasteira, Chute Giratório, Maestria: CC, Soco em Gancho
 
 ## Arsenal
 Nenhum item cadastrado.
