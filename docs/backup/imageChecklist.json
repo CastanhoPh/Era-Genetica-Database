@@ -9569,12 +9569,12 @@
     "arco": "Hash-hash",
     "name": "Hash-hash",
     "nature": "Mokuton",
-    "rank": "S+",
     "village": "Konohagakure",
     "order": 40017,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FAiri%2FHash-hash.png?alt=media&v=1787776721072224",
     "done": true,
-    "doneBy": "Pedro"
+    "doneBy": "Pedro",
+    "rank": "S++"
   },
   {
     "__docId": "Ufzis5wXcCDkF9mVQj3W",
