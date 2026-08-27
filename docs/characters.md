@@ -385,7 +385,24 @@ Foi a resposta de Nishinoya a uma pergunta que o Shiki Fūjin não resolvia: com
 Status de Uso:
 Requer Modo Sábio, Fuinjutsu de altíssimo nível e cooperação da Matatabi — o chakra dela sustenta os pilares, e ela precisa concordar em emprestá-lo por tempo prolongado. Nishinoya fica ancorado: enquanto a cúpula está de pé, boa parte do fluxo dele está comprometido nos pilares, o que o deixa muito mais frágil em combate direto. Os quatro pilares são o ponto fraco — destruir dois desestabiliza a cúpula, três a rompem, e um aliado do prisioneiro atacando de fora é a forma mais simples de anulá-la.
 
-### 15. Senpo: Hiraishin
+### 15. Senpō Aoi Katon: Sōrai Gōka Mekkyaku
+Classificação: S++ | Natureza: Senjutsu + Aoi Katon
+
+![Senpō Aoi Katon: Sōrai Gōka Mekkyaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F20%20-%20Senp%C5%8D%20Aoi%20Katon%3A%20S%C5%8Drai%20G%C5%8Dka%20Mekkyaku.png?alt=media&v=1787847021263645)
+
+Descrição:
+Desconhecido
+
+Destruição:
+Desconhecido
+
+História:
+Desconhecido
+
+Status de Uso:
+Desconhecido
+
+### 16. Senpo: Hiraishin
 Classificação: S+ | Natureza: Hiraishin + Senjutsu
 
 ![Senpo: Hiraishin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F12%20-%20Senpo%20Hiraishin.jpg?alt=media&v=1786651868218835)
@@ -402,7 +419,7 @@ Desenvolvida por Nishinoya após anos de treinamento em Senjutsu e estudo das pr
 Status de Uso:
 Uso avançado e exigente. Para alcançar a velocidade máxima, Nishinoya deve manter o Modo Sábio ativo e ter selos pré-posicionados pelo campo. O uso imprudente pode causar fadiga extrema, colapsos momentâneos e sobrecarga nos pontos de chakra.
 
-### 16. Senpo: Oodama Rasengan
+### 17. Senpo: Oodama Rasengan
 Classificação: S+ | Natureza: Senjutsu + Oodama Rasengan
 
 ![Senpo: Oodama Rasengan](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F13%20-%20Senpo%3A%20Oodama%20Rasengan.jpg?alt=media&v=1786651868193816)
@@ -419,7 +436,7 @@ Após dominar o Modo Sábio, Nishinoya começou a experimentar maneiras de aprim
 Status de Uso:
 Requer Modo Sábio ativo e controle preciso da mistura entre chakra e energia natural. Embora seja mais estável que muitas técnicas de senjutsu avançado, ainda exige grande quantidade de chakra e concentração para manter a rotação do Rasengan em escala ampliada.
 
-### 17. Senpo Aoi Katon: Ryūen Aoi
+### 18. Senpo Aoi Katon: Ryūen Aoi
 Classificação: S+ | Natureza: Aoi Katon + Senjutsu
 
 ![Senpo Aoi Katon: Ryūen Aoi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F14%20-%20Senpo%20Aoi%20Katon%3A%20Ry%C5%ABen%20Aoi.png?alt=media&v=1787843401061883)
@@ -436,7 +453,7 @@ Após dominar o Aoi Katon concedido pela Matatabi, Nishinoya buscou uma forma de
 Status de Uso:
 Exige controle avançado de chakra e equilíbrio constante com a energia natural. O consumo é elevado, mas sustentável para usuários experientes em Modo Sábio. Quanto maior a quantidade de senjutsu aplicada, mais resistente e devastador o dragão se torna.
 
-### 18. Senpo Hiraishin: Aoi Ryōiki
+### 19. Senpo Hiraishin: Aoi Ryōiki
 Classificação: S+ | Natureza: Hiraishin + Aoi Katon + Fuinjutsu + Senjutsu
 
 ![Senpo Hiraishin: Aoi Ryōiki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F19%20-%20Senp%C5%8D%20Hiraishin%3A%20Aoi%20Ry%C5%8Diki.png?alt=media&v=1786651869646802)
@@ -453,27 +470,10 @@ Nasceu de um limite do Aoi Katon: Komyunikēshon. A rede de marcas dava a Nishin
 Status de Uso:
 Exige Modo Sábio ativo e preparação: o perímetro precisa ser semeado antes ou nos primeiros instantes do combate, o que a torna forte em terreno escolhido e quase inútil em emboscada. A malha é fixa — se o inimigo consegue arrastar o combate para fora dela, Nishinoya perde toda a vantagem e precisa semear de novo. Manter os selos acesos consome chakra continuamente, e destruir o solo em volume suficiente rompe trechos da rede.
 
-### 19. Senpo Rasengan
-Classificação: S | Natureza: Senjutsu + Rasengan
-
-![Senpo Rasengan](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690)
-
-Descrição:
-Versão mais simples e rápida do Rasengan de Nishinoya, moldada com o auxílio da energia natural do Modo Sábio. Diferente da variante Oodama, aqui ele prioriza velocidade de execução sobre escala: a esfera atinge o tamanho padrão em uma fração do tempo normal, permitindo encaixá-la no meio de uma sequência de golpes sem quebrar o ritmo do combate.
-
-Destruição:
-Moderada e concentrada em um único ponto de impacto — suficiente para romper defesas comuns e causar dano interno localizado, sem o alcance ou a escala da versão Oodama.
-
-História:
-Foi a primeira adaptação de Nishinoya do Rasengan ao Modo Sábio, desenvolvida antes de ele dominar a escala necessária para o Senpo: Oodama Rasengan. Manteve-se em seu repertório mesmo depois, útil justamente por ser mais rápida de formar.
-
-Status de Uso:
-Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.
-
 ### 20. Senpo Aoi Katon: Gōkakyū no Jutsu
 Classificação: S+ | Natureza: Senjutsu + Aoi Katon
 
-
+![Senpo Aoi Katon: Gōkakyū no Jutsu](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F21%20-%20Senpo%20Aoi%20Katon%3A%20G%C5%8Dkaky%C5%AB%20no%20Jutsu.png?alt=media&v=1787847023394293)
 
 Descrição:
 Desconhecido
@@ -490,7 +490,7 @@ Desconhecido
 ### 21. Senpo Aoi Katon: Hōsenka no Jutsu
 Classificação: S+ | Natureza: Senjutsu + Aoi Katon
 
-
+![Senpo Aoi Katon: Hōsenka no Jutsu](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F22%20-%20Senpo%20Aoi%20Katon%3A%20H%C5%8Dsenka%20no%20Jutsu.png?alt=media&v=1787847025584481)
 
 Descrição:
 Pode atacar até 4 inimigos com o mesmo dano.
@@ -504,22 +504,22 @@ Desconhecido
 Status de Uso:
 Desconhecido
 
-### 22. Senpō Aoi Katon: Sōrai Gōka Mekkyaku
-Classificação: Z | Natureza: Senjutsu + Aoi Katon
+### 22. Senpo Rasengan
+Classificação: S | Natureza: Senjutsu + Rasengan
 
-
+![Senpo Rasengan](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690)
 
 Descrição:
-Desconhecido
+Versão mais simples e rápida do Rasengan de Nishinoya, moldada com o auxílio da energia natural do Modo Sábio. Diferente da variante Oodama, aqui ele prioriza velocidade de execução sobre escala: a esfera atinge o tamanho padrão em uma fração do tempo normal, permitindo encaixá-la no meio de uma sequência de golpes sem quebrar o ritmo do combate.
 
 Destruição:
-Desconhecido
+Moderada e concentrada em um único ponto de impacto — suficiente para romper defesas comuns e causar dano interno localizado, sem o alcance ou a escala da versão Oodama.
 
 História:
-Desconhecido
+Foi a primeira adaptação de Nishinoya do Rasengan ao Modo Sábio, desenvolvida antes de ele dominar a escala necessária para o Senpo: Oodama Rasengan. Manteve-se em seu repertório mesmo depois, útil justamente por ser mais rápida de formar.
 
 Status de Uso:
-Desconhecido
+Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.
 
 ---
 

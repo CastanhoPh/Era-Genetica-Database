@@ -159,6 +159,13 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F18%20-%20Senp%C5%8D%20F%C5%ABinjutsu%3A%20Aoi%20Tenr%C5%8D.png?alt=media&v=1786651868185930"
       },
       {
+        name: "Senpō Aoi Katon: Sōrai Gōka Mekkyaku",
+        classification: "S++",
+        nature: "Senjutsu + Aoi Katon",
+        description: "",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F20%20-%20Senp%C5%8D%20Aoi%20Katon%3A%20S%C5%8Drai%20G%C5%8Dka%20Mekkyaku.png?alt=media&v=1787847021263645"
+      },
+      {
         name: "Senpo: Hiraishin",
         classification: "S+",
         nature: "Hiraishin + Senjutsu",
@@ -199,6 +206,20 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F19%20-%20Senp%C5%8D%20Hiraishin%3A%20Aoi%20Ry%C5%8Diki.png?alt=media&v=1786651869646802"
       },
       {
+        name: "Senpo Aoi Katon: Gōkakyū no Jutsu",
+        classification: "S+",
+        nature: "Senjutsu + Aoi Katon",
+        description: "",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F21%20-%20Senpo%20Aoi%20Katon%3A%20G%C5%8Dkaky%C5%AB%20no%20Jutsu.png?alt=media&v=1787847023394293"
+      },
+      {
+        name: "Senpo Aoi Katon: Hōsenka no Jutsu",
+        classification: "S+",
+        nature: "Senjutsu + Aoi Katon",
+        description: "Pode atacar até 4 inimigos com o mesmo dano.",
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F22%20-%20Senpo%20Aoi%20Katon%3A%20H%C5%8Dsenka%20no%20Jutsu.png?alt=media&v=1787847025584481"
+      },
+      {
         name: "Senpo Rasengan",
         classification: "S",
         nature: "Senjutsu + Rasengan",
@@ -207,24 +228,6 @@ export const initialData: Character[] = [
         history: "Foi a primeira adaptação de Nishinoya do Rasengan ao Modo Sábio, desenvolvida antes de ele dominar a escala necessária para o Senpo: Oodama Rasengan. Manteve-se em seu repertório mesmo depois, útil justamente por ser mais rápida de formar.",
         status: "Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.",
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690"
-      },
-      {
-        name: "Senpo Aoi Katon: Gōkakyū no Jutsu",
-        classification: "S+",
-        nature: "Senjutsu + Aoi Katon",
-        description: ""
-      },
-      {
-        name: "Senpo Aoi Katon: Hōsenka no Jutsu",
-        classification: "S+",
-        nature: "Senjutsu + Aoi Katon",
-        description: "Pode atacar até 4 inimigos com o mesmo dano."
-      },
-      {
-        name: "Senpō Aoi Katon: Sōrai Gōka Mekkyaku",
-        classification: "Z",
-        nature: "Senjutsu + Aoi Katon",
-        description: ""
       }
     ],
     arsenal: [],
