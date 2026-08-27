@@ -33,7 +33,7 @@
 | 27 | Asami Hyuga | Hyuga | NPC, Konohagakure | Sannin | DPS e Suporte | 25 | 210 | 85 | Morto (morto por Omega) |
 | 28 | Kaizuka Hyuga | Hyuga | NPC, Konohagakure | Hokage das Sombras | Tanque, DPS e Suporte | 30 | 250 | 82 | Vivo |
 | 29 | Raikun Hatake | Hatake | NPC, Konohagakure, OCA | Hokage das Sombras | Tanque e DPS | 30 | 250 | 123 | Morto (morto por Chip da OCA) |
-| 30 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure, OCA | Aposentado | DPS e Suporte | 24 | 202 | 96 | Vivo |
+| 30 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure | 3º Líder da Ambu | DPS e Suporte | 24 | 202 | 96 | Vivo |
 | 31 | Satoshi Namikaze | Namikaze | NPC, Konohagakure | Sannin de Elite | DPS | 27 | 205 | 137 | Vivo |
 | 32 | Hashirama Senju | Senju | NPC, Konohagakure | 1º Hokage | Tanque e DPS | 20 | 146 | 70 | Morto (morto por ?) |
 | 33 | Madara Uchiha | Uchiha | NPC, Konohagakure | Hokage das Sombras | Tanque e DPS | 20 | 146 | 70 | Morto (morto por Hashirama Senju) |
@@ -56,8 +56,8 @@
 | 50 | Kurohime Kazeori | Kazeori | NPC, Sunagakure | Pilar de Sunagakure | DPS e Suporte | 21 | 178 | 52 | Vivo |
 | 51 | Yuji Yotsuki | Yotsuki | NPC, Kiba, Kumogakure | Líder da Kiba | DPS | 24 | 184 | 82 | Vivo |
 | 52 | Reito Kurogami | Kurogami | NPC, Kiba, Kumogakure | Vice Líder da Kiba | Tank | 20 | 170 | 70 | Vivo |
-| 53 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure | Vice líder da Kiba | Suporte | 20 | 146 | 70 | Vivo |
-| 54 | Mika Yotsuki | Yotsuki | NPC, Kiba, Kumogakure | Lider da Kiba | Suporte | 24 | 184 | 82 | Vivo |
+| 53 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure | Vice Líder da Kiba | Suporte | 20 | 146 | 70 | Vivo |
+| 54 | Mika Yotsuki | Yotsuki | NPC, Kiba, Kumogakure | Líder da Kiba | Suporte | 24 | 184 | 82 | Vivo |
 | 55 | Enrai Hanzo | Hanzo | NPC, Kiba, Kumogakure | Vice Líder da Kiba | Tank | 26 | 200 | 88 | Vivo |
 | 56 | Daichi Muujin | Muujin | NPC, NoGuns, Iwagakure | Vice Líder da NoGuns | DPS | 18 | 133 | 64 | Vivo |
 | 57 | Koji Ishizuma | Ishizuma | NPC, NoGuns, Kumogakure | Vice Líder da NoGuns | DPS | 18 | 154 | 64 | Morto (morto por Hades) |
@@ -4661,8 +4661,8 @@ Cada uso consome uma quantidade significativa do chakra profano armazenado no ch
 # Katsuo Uzumaki
 ID: 30
 Clã: Uzumaki
-Grupos: NPC, Konohagakure, OCA
-Posição: Aposentado
+Grupos: NPC, Konohagakure
+Posição: 3º Líder da Ambu
 Função: DPS e Suporte
 NC: 24
 HP: 202
@@ -7460,7 +7460,7 @@ Alto desgaste corporal e risco de ruptura muscular em uso excessivo.
 ID: 53
 Clã: Kurogami
 Grupos: NPC, Kiba, Kumogakure
-Posição: Vice líder da Kiba
+Posição: Vice Líder da Kiba
 Função: Suporte
 NC: 20
 HP: 146
@@ -7699,7 +7699,7 @@ Necessita contato visual direto.
 ID: 54
 Clã: Yotsuki
 Grupos: NPC, Kiba, Kumogakure
-Posição: Lider da Kiba
+Posição: Líder da Kiba
 Função: Suporte
 NC: 24
 HP: 184
