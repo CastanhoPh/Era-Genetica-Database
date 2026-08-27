@@ -740,10 +740,18 @@ export default function App() {
                                                 }`}>
                                                 {char.name}
                                             </h3>
-                                            <div className="flex justify-between items-center mt-1">
-                                                <span className="text-xs text-tech-secondary font-bold uppercase">{char.titles[0]}</span>
-                                                <span className="text-[10px] text-tech-dim uppercase border border-tech-dim px-1 bg-black/50">{char.role}</span>
-                                            </div>
+                                            <p className="text-xs text-tech-secondary font-bold uppercase mt-1">{char.titles[0]}</p>
+                                            {/* Patente em linha própria, não ao lado do título: em 32 das 86 fichas os dois
+                                                juntos passam de 40 caracteres, e a mais longa soma 53 — na mesma linha o
+                                                título é que seria truncado. */}
+                                            {char.position && (
+                                                <p className="mt-1.5">
+                                                    <span className={`inline-block text-[10px] uppercase tracking-wide px-1.5 py-px border ${char.isDead
+                                                            ? 'text-red-500/80 border-red-900/50 bg-red-950/30'
+                                                            : 'text-tech-accent border-tech-accent/50 bg-tech-accent/10'
+                                                        }`}>{char.position}</span>
+                                                </p>
+                                            )}
 
                                             {/* Killer Info on Card */}
                                             {char.isDead && (
