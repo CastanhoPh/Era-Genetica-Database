@@ -8926,215 +8926,7 @@
     "isDead": true,
     "killedBy": "Omega",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.jpg?alt=media&v=1786651865147176",
-    "aptitudes": [
-      "Deus Shinobi",
-      "Relâmpago Azul",
-      "Clone Perfeito",
-      "Hiraishin",
-      "Hiraishin: Deus do Trovão",
-      "Instinto de Batalha: LM, CD",
-      "Chakra Expandido Namikaze",
-      "Chakra Expandido Matatabi",
-      "Domínio do AOI Katon",
-      "Saque Rápido",
-      "Ponto Cego",
-      "Acuidade",
-      "Intuição",
-      "Técnica Poderosa"
-    ],
     "description": "Um líder nato, portador da verdadeira Vontade do Fogo — uma força da natureza no campo de batalha.\n\nDesde a infância, Nishinoya já demonstrava uma genialidade fora dos padrões, mesmo sem herdar as habilidades tradicionais do prestigiado clã Senju.\n\nAos 14 anos, em meio à guerra, foi reconhecido como o Relâmpago Azul de Konoha após ser escolhido por Matatabi e alcançar a harmonia entre seu poder, o lendário Hiraishin e seu domínio absoluto do Katon.\n\nAos 16 anos, foi nomeado o Terceiro Hokage por Tobirama Senju, liderando Konoha durante um dos períodos mais turbulentos de sua história. Em batalha, enfrentou inimigos de nível absurdo — incluindo o vice-líder da OCA, que o reconheceu como um verdadeiro Deus Shinobi.\n\nNishinoya é capaz de fundir o chakra de Matatabi, o Hiraishin e seu exclusivo Modo Sábio Aoi Katon, criando um estilo de combate único baseado em velocidade absoluta e destruição precisa.\n\nCriador de técnicas lendárias, entre elas:\n- Senpo: Enka Aoi Katon Bijūdama: Oodama Rasenshuriken\n- Sennin Fuka\n- Aoi Katon: Komyunikēshon\n- Clone Perfeito",
-    "techniques": [
-      {
-        "classification": "Z",
-        "destruction": "Extremamente elevado. Capaz de devastar áreas equivalentes a múltiplos quarteirões ou mais, dependendo da quantidade de chakra investida.",
-        "description": "O usuário ativa simultaneamente o Modo Sábio e o Manto de Chakra da Matatabi (Duas-Caudas). A técnica combina o controle refinado e a amplificação sensorial do Senjutsu com o chakra avassalador da Bijuu Matatabi. A partir dessa fusão, o usuário cria um Oodama Rasen Shuriken de proporções colossais, infundido com chakra natural e chakra de Bijuu. Em seguida, incorpora integralmente o poder de uma Bijuudama à estrutura da técnica, resultando em uma variação híbrida de destruição massiva.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F01%20-%20Senpo%20Enka%20Aoi%20Katon%3A%20Bijuudama%20OodamaRasenShuriken.jpg?alt=media&v=1786651865146293",
-        "nature": "Senjutsu + Aoi Katon + Bijuu + Rasengan + Fuinjutsu",
-        "status": "Uso extremamente restrito. Requer compatibilidade com Bijuu e domínio avançado de Senjutsu.",
-        "history": "Registros indicam que nenhum inimigo sobreviveu após ser atingido diretamente por esta técnica. Considerada uma das técnicas mais destrutivas já documentadas no mundo shinobi.",
-        "name": "Senpo Enka Aoi Katon: Bijuudama OodamaRasenShuriken"
-      },
-      {
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F02%20-%20Senpo%3A%20Modo%20Matatabi.png?alt=media&v=1786651865146975",
-        "name": "Senpo: Modo Matatabi",
-        "destruction": "Cataclísmica em larga escala. O simples liberar de chakra gera tempestades de fogo azul que consomem campos inteiros de batalha. As chamas sábias não apenas queimam o corpo, mas afetam diretamente o fluxo de chakra do oponente, causando dano interno severo e dificultando regeneração. Seus ataques de cauda criam crateras massivas, e uma única investida pode obliterar defesas de nível Kage com facilidade.",
-        "description": "Ao atingir a harmonia absoluta com a essência da Matatabi, Nishinoya ativa o Senpo: Modo Matatabi e seu corpo é consumido por uma erupção de chamas azuis espirituais. Em questão de segundos, ele se transforma em um gigantesco avatar felino de duas caudas, semelhante à lendária Matatabi, porém envolto por chakra sábio condensado. Seu corpo torna-se uma manifestação híbrida de energia natural e fogo azul divino, com padrões luminosos percorrendo sua forma colossal. Cada passo incinera o solo, e cada movimento libera ondas de calor espiritual capazes de distorcer o ar e vaporizar técnicas de menor nível. Seus rugidos se convertem em explosões sônicas flamejantes, enquanto suas garras concentram Aoi Katon comprimido com senjutsu, rasgando defesas físicas e espirituais simultaneamente.",
-        "status": "Forma suprema e extremamente rara. Exige sincronia total entre Nishinoya e Matatabi, além de absorção constante de energia natural. O consumo de chakra é colossal, e qualquer desequilíbrio pode romper a transformação ou causar danos severos ao corpo do usuário. Quando estabilizada, porém, torna-se uma manifestação quase divina do fogo azul sábio.",
-        "nature": "Senjutsu + Bijuu",
-        "history": "Após ultrapassar os limites do Senpo e dominar completamente o chakra da Matatabi, Nishinoya buscou não apenas utilizar o poder da besta, mas fundir sua própria essência à dela. Inspirado nas transformações supremas dos jinchūriki lendários, ele refinou o controle do chakra azul e o combinou com energia natural em perfeita simbiose. Assim nasceu o Avatar da Chama Azul Sábia — uma forma que transcende a transformação comum de jinchūriki e alcança o ápice do Rank Z.",
-        "classification": "Z"
-      },
-      {
-        "classification": "Z",
-        "history": "Forma raríssima alcançada apenas quando há sincronia total entre o jinchuuriki e a Matatabi, aliada ao domínio completo do Senjutsu. Diz-se que poucos na história conseguiram equilibrar a energia natural com o chakra ardente da Duas-Caudas sem perder o controle.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F03%20-%20Senpo%3A%20Matatabi%20Rinku.png?alt=media&v=1786651866753718",
-        "destruction": "Extremamente elevado. Todas as técnicas de fogo azul são potencializadas a um nível devastador, capazes de incinerar vastas áreas instantaneamente, evaporar defesas de alto nível e gerar explosões térmicas comparáveis a cataclismos naturais.",
-        "description": "Nishinoya ativa simultaneamente o Modo Sábio e o Manto Completo do Matatabi fundindo perfeitamente a energia natural ao fogo azul da Duas-Caudas. Seu corpo é envolvido por chamas azuis intensas e densas, que oscilam como uma aura viva ao seu redor. Seus olhos assumem um brilho felino ancestral, enquanto marcas sábias se misturam às chamas espirituais. O chakra natural amplifica o poder da Bijuu, elevando drasticamente sua força física, velocidade, reflexos e percepção sensorial, permitindo que ele sinta vibrações e presenças a quilômetros de distância.",
-        "name": "Senpo: Matatabi Rinku",
-        "nature": "Senjutsu + Bijuu",
-        "status": "Uso altamente restrito. Exige domínio absoluto do Senjutsu e harmonia perfeita com a Matatabi. Caso o equilíbrio falhe, o excesso de energia natural ou o descontrole do chakra da Bijuu pode causar colapso físico severo."
-      },
-      {
-        "history": "Matatabi não foi selada em Nishinoya à força. Ela escolheu se abrigar nele por enxergar no jovem Senju um amigo, um herdeiro da Vontade do Fogo e alguém que jamais a trataria como uma arma. Com o passar dos anos, o vínculo entre os dois deixou de ser uma relação entre jinchuuriki e Bijuu para se tornar um pacto espiritual de confiança absoluta. A partir desse laço, Nishinoya desenvolveu o Senpo Fuinjutsu: Matatabi Korin, uma técnica que permite à Duas-Caudas deixar temporariamente o selo sem romper sua conexão com ele. Considerada uma manifestação lendária de amizade entre humano e Bijuu, essa técnica simboliza o momento em que Matatabi luta não como poder emprestado, mas como companheira de Nishinoya.",
-        "classification": "Z",
-        "nature": "Senjutsu + Fuinjutsu + Bijuu + Aoi Katon",
-        "status": "Técnica suprema e extremamente rara. Exige harmonia perfeita entre Nishinoya e Matatabi, domínio absoluto de Fuinjutsu, controle avançado de Senjutsu e estabilidade emocional total de ambos. A técnica só pode ser ativada se Matatabi aceitar sair voluntariamente do selo. Caso Nishinoya perca a consciência, tenha seu fluxo de chakra bloqueado ou sofra uma ruptura no selo, a manifestação se desfaz imediatamente e Matatabi retorna ao seu interior. Durante a ativação, Nishinoya fica impedido de usar técnicas derivadas diretamente do chakra da Matatabi até que ela retorne ao selo.",
-        "name": "Senpo Fuinjutsu: Matatabi Korin",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F04%20-%20Senpo%20Fuinjutsu%3A%20Matatabi%20Korin.jpg?alt=media&v=1786651866660481",
-        "destruction": "Cataclísmica em larga escala. A presença da Matatabi no campo de batalha altera completamente o ambiente, liberando ondas de calor espiritual, tempestades de chamas azuis e pressão de chakra capaz de intimidar inimigos de alto nível. Suas garras podem rasgar defesas físicas e espirituais, suas caudas criam impactos massivos, e suas chamas azuis queimam matéria e chakra simultaneamente. Apesar do poder absurdo, a técnica exige que Nishinoya abdique temporariamente do uso direto dos poderes da Matatabi em seu próprio corpo, tornando a invocação uma escolha estratégica entre lutar junto da Bijuu ou canalizar seu poder internamente.",
-        "description": "Nishinoya abre voluntariamente o selo espiritual criado entre ele e Matatabi, permitindo que a Duas-Caudas manifeste seu corpo flamejante fora de seu corpo por tempo limitado. Diferente de uma Kuchiyose comum ou de uma extração forçada, a essência principal da Bijuu permanece ancorada ao selo de Nishinoya, enquanto uma forma física temporária, composta por chakra da Matatabi, Aoi Katon e energia natural, surge no campo de batalha. A manifestação assume a forma colossal da Matatabi, envolta por chamas azuis espirituais e marcas sábias luminosas, podendo agir como uma aliada independente, atacar com suas garras, caudas e rajadas de fogo azul, além de proteger Nishinoya e seus aliados. Enquanto Matatabi estiver manifestada fora do selo, Nishinoya não pode utilizar técnicas derivadas diretamente do chakra da Bijuu, como Matatabi Rinku, Modo Matatabi ou Bijuudama, pois o fluxo principal desse poder está sendo sustentado na manifestação externa."
-      },
-      {
-        "description": "A Soen no Kage atinge seu estado máximo nas mãos de Nishinoya, seu portador original e oficial. Ao invés de criar uma nova técnica, ele simplesmente libera o verdadeiro potencial da arma ao ativar o chakra da Matatabi armazenado em seu selo interno. Quando isso ocorre, os selos azuis da kunai brilham intensamente e o chakra da Bijū é canalizado para fora da lâmina, fazendo com que ela ganhe uma extensão maior composta inteiramente pelo Aoi Katon da Matatabi — chamas azuis densas, espirituais e extremamente concentradas. Essa lâmina expandida não substitui o metal da kunai, mas o envolve e o prolonga, mantendo o núcleo selado intacto enquanto o poder é projetado externamente sob total controle de Nishinoya.",
-        "destruction": "A lâmina ampliada de Aoi Katon queima matéria física e chakra simultaneamente, sendo extremamente eficaz em curta e média distância. O fogo azul da Matatabi possui alta temperatura espiritual, capaz de atravessar defesas comuns e consumir energia ao contato direto. Mesmo em sua forma máxima, o chakra permanece contido no selo da Soen no Kage, sendo apenas canalizado e moldado por Nishinoya.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F05%20-%20Soen%20no%20Kage.png?alt=media&v=1786651866673439",
-        "name": "Soen no Kage",
-        "status": "A ativação do chakra da Matatabi exige controle preciso e fluxo estável. Caso o chakra de Nishinoya oscile, a lâmina de Aoi Katon pode perder densidade momentaneamente antes de se estabilizar. Ainda assim, o selo interno nunca é rompido — o poder permanece guardado na Soen no Kage, sendo apenas exteriorizado de forma controlada por seu verdadeiro dono.",
-        "nature": "Senjutsu + Aoi Katon + Bijuu + Fuinjutsu",
-        "classification": "Z",
-        "history": "Desde sua infância, Nishinoya empunhou a Soen no Kage como sua arma principal. Ao longo de inúmeras batalhas, a kunai absorveu resquícios energéticos e tornou-se receptáculo selado para fragmentos de chakra do Terceiro Hokage e da Matatabi. Com o passar dos anos, o vínculo entre usuário e arma se tornou absoluto. O estado Rank Z representa não uma nova habilidade, mas a revelação completa do potencial que sempre existiu dentro da kunai, acessível apenas por seu portador legítimo."
-      },
-      {
-        "destruction": "Extremamente destrutiva em curto alcance. O impacto inicial perfura defesas com a rotação do Rasenshuriken, enquanto as chamas azuis ampliadas por senjutsu causam uma explosão concentrada que incinera e dilacera a área ao redor do alvo. O dano celular causado pela natureza cortante da técnica torna a regeneração difícil e deixa o oponente gravemente incapacitado.",
-        "description": "Nishinoya arremessa sua kunai marcada com o selo do Hiraishin como uma finta estratégica, forçando o oponente a reagir ao projétil. No instante exato em que a atenção do inimigo se volta para a lâmina, ele ativa o Senpo: Hiraishin e se teletransporta para frente do alvo como um clarão azul. Em um único movimento fluido, materializa um Aoi Katon: Oodama Rasenshuriken — uma colossal shuriken espiral envolta por chamas azuis intensificadas por energia natural. A técnica é lançada à queima-roupa, comprimindo calor, rotação e senjutsu em uma explosão devastadora. Antes que a detonação o alcance, Nishinoya ativa novamente o Hiraishin e retorna instantaneamente para a marca original de sua kunai, deixando apenas um rastro elétrico azul no campo de batalha.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F06%20-%20Senpo%20Hiraishin%3A%20Rel%C3%A2mpago%20Azul.png?alt=media&v=1786651866647756",
-        "history": "Após dominar o Senpo: Hiraishin, técnica inspirada no lendário Hiraishin de Tobirama, Nishinoya buscou elevar sua letalidade ofensiva. Ele fundiu seu Aoi Katon com energia natural, criando uma variação azul de poder esmagador. O resultado foi o Relâmpago Azul — uma execução quase impossível de reagir.",
-        "status": "Uso extremamente exigente. Requer Modo Sábio ativo, controle absoluto de chakra elemental e precisão milimétrica na ativação do Hiraishin antes e depois do impacto. Qualquer atraso no teleporte pode resultar em danos severos ao próprio usuário devido à explosão do Oodama Rasenshuriken.",
-        "nature": "Senjutsu + Aoi Katon + Rasengan + Fuinjutsu",
-        "classification": "Z",
-        "name": "Senpo Hiraishin: Relâmpago Azul"
-      },
-      {
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F07%20-%20Aoi%20Katon%3A%20Komyunik%C4%93shon.png?alt=media&v=1786651866705921",
-        "name": "Aoi Katon: Komyunikēshon",
-        "destruction": "Baixo poder destrutivo direto, porém impacto estratégico absoluto. A técnica transforma o campo de batalha em uma extensão da percepção de Nishinoya, anulando emboscadas, permitindo respostas instantâneas e coordenação perfeita entre aliados mesmo durante guerras em larga escala.",
-        "description": "Nishinoya espalha discretamente pequenas marcas de chakra azul em aliados, armas, estruturas ou até no próprio ambiente. Essas marcas funcionam como pontos de transmissão ligados diretamente ao seu chakra através do Hiraishin. Ao ativar a técnica, os selos brilham em azul intenso e criam uma rede invisível de comunicação espiritual entre todos os marcados. Informações, coordenadas, sensações de perigo e sinais de chakra são transmitidos instantaneamente através das marcas, ignorando distância, fumaça, barreiras físicas e interferência sonora. Em situações críticas, Nishinoya também consegue usar os selos como pontos de retorno instantâneo para resgatar aliados ou reagrupar tropas em combate.",
-        "history": "Após assumir o cargo de Terceiro Hokage, Nishinoya percebeu que batalhas modernas não eram vencidas apenas por força bruta, mas por velocidade de informação. Inspirado no funcionamento do Hiraishin e em antigos sistemas de selamento dos Uzumaki, ele criou o Aoi Katon: Komyunikēshon para manter conexão constante com Naoki, Hisoka e os esquadrões de Konoha durante missões secretas contra a OCA. A técnica rapidamente se tornou um dos pilares estratégicos da Folha durante a Era Genética.",
-        "nature": "Aoi Katon + Hiraishin + Fuinjutsu",
-        "status": "Uso altamente avançado. Exige enorme precisão no controle do Hiraishin e capacidade de manter múltiplos selos ativos simultaneamente. Quanto maior a quantidade de pessoas conectadas, maior o consumo mental e espiritual de Nishinoya.",
-        "classification": "Z"
-      },
-      {
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F08%20-%20Clone%20Perfeito.png?alt=media&v=1786651866664364",
-        "destruction": "Extremamente elevado para uma técnica de duplicação. O Clone Perfeito mantém capacidades ofensivas comparáveis às de um Kage, podendo utilizar Hiraishin, Aoi Katon e técnicas de combate avançadas de forma independente. Sua existência permite que Nishinoya lute em múltiplas frentes simultaneamente.",
-        "description": "Diferente de clones convencionais, o Clone Perfeito é uma réplica absoluta criada a partir de fragmentos reais do chakra, consciência e energia vital de Nishinoya. O clone possui presença física estável, acesso total às técnicas originais e capacidade de agir independentemente por longos períodos sem dissipação natural. Graças ao Hiraishin e aos selos internos de fuinjutsu, Nishinoya mantém conexão constante com a réplica, podendo compartilhar memórias, percepção sensorial e até redistribuir chakra em tempo real. Quando necessário, o clone pode liberar temporariamente o chakra azul da Matatabi e acessar versões reduzidas do Senpo, tornando-se praticamente indistinguível do verdadeiro Hokage.",
-        "name": "Clone Perfeito",
-        "classification": "Z",
-        "status": "Técnica proibida e extremamente desgastante. A criação do clone divide parte da essência espiritual de Nishinoya, causando enorme consumo de chakra e fadiga mental prolongada. Caso o clone seja destruído violentamente, parte do impacto espiritual retorna diretamente ao usuário original.",
-        "nature": "Fuinjutsu + Hiraishin + Senjutsu + Matatabi",
-        "history": "Após perceber que Konoha se tornava vulnerável sempre que deixava a vila, Nishinoya desenvolveu uma solução considerada impossível até mesmo pelos maiores especialistas em ninjutsu. Utilizando conhecimento avançado de fuinjutsu, propriedades espaço-temporais do Hiraishin e chakra estabilizado da Matatabi, ele criou o Clone Perfeito — uma réplica capaz de proteger Konoha enquanto o verdadeiro Nishinoya travava batalhas secretas contra a OCA. A técnica foi considerada uma anomalia até mesmo entre os Hokages."
-      },
-      {
-        "history": "Foi essa fusão, alcançada aos 14 anos junto ao domínio absoluto do Katon e do lendário Hiraishin, que fez Nishinoya ser reconhecido como o Relâmpago Azul de Konoha. Diferente de outros usuários de Senjutsu, ele nunca precisou buscar um mestre ou selar um pacto — a fonte já estava dentro dele, na própria chama que carregava desde criança.",
-        "destruction": "Amplifica proporcionalmente todo o Aoi Katon de Nishinoya, elevando velocidade, força e precisão de cada chama azul muito além do alcançável sem o modo ativo — a base que sustenta sua fama de Relâmpago Azul de Konoha.",
-        "description": "Aos 14 anos, em meio à guerra, Nishinoya alcança a harmonia entre a energia natural absorvida pelo Senjutsu e o Aoi Katon — a chama azul que já era exclusivamente sua antes de qualquer vínculo com a Matatabi ou o Hiraishin. Diferente de um pacto espiritual externo, essa fusão não depende de mestre, linhagem ou espírito-guia: é a energia natural aperfeiçoando aquilo que ele já é. Ao ativar o modo, chamas azuis espirituais percorrem sua pele como veios luminosos, seus olhos ganham um brilho felino intenso, e sua percepção de chakra se expande a ponto de sentir a menor oscilação de energia hostil a grande distância.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F15%20-%20Sennin%20Fuka%3A%20Modo%20S%C3%A1bio%20Aoi%20Katon.jpg?alt=media&v=1786651868141191",
-        "nature": "Senjutsu + Aoi Katon",
-        "status": "Estado estável e sustentável por longos períodos, sem os riscos de instabilidade comuns em fusões incompletas. É a base sobre a qual Nishinoya constrói o Senpo: Modo Matatabi (fusão com a Matatabi) e o Senpo Enka Aoi Katon: Bijuudama OodamaRasenShuriken, suas formas mais extremas.",
-        "name": "Sennin Fuka",
-        "classification": "S++"
-      },
-      {
-        "history": "Desde os 14 anos, Nishinoya e Matatabi compartilham um vínculo raro entre Jinchuuriki e Bijuu. Diferente da maioria dos casos, Matatabi escolheu voluntariamente se selar dentro dele após reconhecer sua determinação e espírito. Com o passar dos anos, os dois se tornaram melhores amigos e parceiros de batalha. Graças a essa confiança absoluta, Nishinoya consegue manifestar a Bijuudama com estabilidade excepcional, canalizando o poder da Nibi como uma extensão natural de si mesmo.",
-        "destruction": "Devastação em larga escala. A explosão vaporiza o ponto de impacto e cria uma cratera gigantesca. As chamas azuis da Matatabi continuam queimando após a detonação inicial, consumindo chakra e incendiando tudo ao redor com fogo espiritual extremamente intenso.",
-        "status": "Técnica de poder extremo que exige grande quantidade de chakra. No entanto, graças à amizade e sincronização perfeita entre Nishinoya e Matatabi, o risco de perda de controle é drasticamente reduzido.",
-        "nature": "Matatabi",
-        "description": "Nishinoya ergue a mão enquanto o chakra da Matatabi flui livremente através dele. Uma esfera negra extremamente densa começa a se formar enquanto chamas azuis intensas da Nibi giram ao redor como uma tempestade viva. Graças à perfeita sincronização entre Nishinoya e Matatabi, a energia é comprimida de forma estável até atingir seu ponto máximo. Ao ser disparada, a Bijuudama corta o campo de batalha como um cometa envolto em fogo azul. No impacto, a esfera detona em uma explosão colossal, liberando uma onda de choque devastadora seguida por um mar de chamas azuis espirituais que se espalham pelo terreno.",
-        "classification": "S++",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F09%20-%20Bijuudama.png?alt=media&v=1786651866657220",
-        "name": "Bijuudama"
-      },
-      {
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F10%20-%20Senpo%20Enka%20Aoi%20Katon%3A%20Oodama%20Rasenshuriken.png?alt=media&v=1786651866636047",
-        "history": "Após dominar o controle do Aoi Katon, Nishinoya buscou aprimorar ainda mais suas técnicas baseadas no Rasengan. Inspirando-se no conceito do Rasenshuriken criado por lendários shinobi, ele desenvolveu uma versão própria alimentada por suas chamas azuis especiais. Com o domínio do Modo Sábio, passou a incorporar energia natural à técnica, criando o Senpo Enka Aoi Katon: Oodama Rasenshuriken — uma forma ainda mais poderosa que combina calor extremo, rotação absoluta e senjutsu em um único ataque devastador.",
-        "nature": "Aoi Katon + Oodama Rasenshuriken + Senjutsu",
-        "status": "Uso extremamente exigente. Requer Modo Sábio ativo, controle avançado de chakra e domínio da natureza Aoi Katon para manter a estabilidade das chamas durante a rotação do Rasenshuriken. Se mal controlada, a técnica pode causar danos graves ao próprio usuário.",
-        "name": "Senpo Enka Aoi Katon: Oodama Rasenshuriken",
-        "classification": "S++",
-        "description": "Nishinoya concentra uma quantidade massiva de chakra na palma da mão enquanto molda uma gigantesca esfera rotatória de energia. A estrutura do Rasengan evolui rapidamente para um Oodama Rasenshuriken, suas lâminas espirais girando com velocidade extrema. Diferente de versões comuns, o núcleo da técnica é envolvido por Enka Aoi Katon — chamas azuis intensas que giram junto à rotação da shuriken. Ao ativar o Modo Sábio, Nishinoya infunde energia natural na técnica, aumentando drasticamente sua estabilidade, poder destrutivo e velocidade de rotação. O calor, a rotação e o senjutsu se combinam criando uma arma devastadora que pode ser arremessada contra o alvo como um disco colossal de energia e fogo azul. Ao atingir o inimigo, a técnica explode em uma tempestade de lâminas microscópicas de chakra e fogo espiritual, dilacerando tudo na área de impacto.",
-        "destruction": "Extremamente destrutiva. O impacto inicial causa perfuração massiva devido à rotação do Rasenshuriken, enquanto as chamas azuis ampliadas pelo senjutsu intensificam a explosão e espalham fogo de alta intensidade pelo campo. A técnica também causa dano celular profundo devido às lâminas microscópicas de chakra, dificultando regeneração e recuperação do alvo."
-      },
-      {
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F11%20-%20Shiki%20F%C5%ABjin.png?alt=media&v=1786651868165058",
-        "name": "Shiki Fūjin",
-        "status": "Técnica proibida e de uso extremo. Uma vez iniciada, não pode ser interrompida. O preço é a própria alma do usuário, que também é consumida pelo Ceifador após o selamento. Considerada um último recurso absoluto, utilizada apenas quando não existe outra forma de vitória.",
-        "nature": "Fuinjutsu",
-        "destruction": "Absoluta contra alvos individuais. O selamento resulta na remoção completa da alma, anulando regeneração, reencarnação, possessão ou transferência de consciência. A pressão espiritual liberada durante o ritual também pode causar colapso de chakra em inimigos próximos, enfraquecendo-os temporariamente.",
-        "description": "Nishinoya executa os selos proibidos e invoca o Ceifador da Morte, uma entidade espiritual que apenas ele é capaz de enxergar. A presença do Shinigami envolve o campo com uma pressão espiritual esmagadora, paralisando momentaneamente alvos com menor força de vontade. Ao estender o braço, o Ceifador atravessa o corpo de Nishinoya e projeta correntes espirituais invisíveis que se conectam diretamente à alma do oponente. A essência do alvo é então arrancada do corpo físico e selada dentro da entidade, aprisionada eternamente em um plano onde o tempo e o espaço não existem. A técnica ignora quase todas as defesas físicas e espirituais, focando unicamente na alma.",
-        "classification": "S++",
-        "history": "Após estudar pergaminhos proibidos e registros antigos de técnicas supremas de selamento, Nishinoya dominou o Shiki Fūjin como uma arma definitiva contra inimigos imortais ou entidades espirituais. Seu domínio refinado e força espiritual elevam o jutsu a um nível superior, permitindo execução mais rápida e com maior estabilidade do ritual."
-      },
-      {
-        "name": "Senpo Fūinjutsu: Sōen Kaigi",
-        "classification": "S++",
-        "nature": "Fuinjutsu + Aoi Katon + Senjutsu + Hiraishin",
-        "description": "Nishinoya crava a Soen no Kage no centro do campo e abre um selo de convergência: a chama azul se espalha pelo solo em veios finos, alcançando cada aliado marcado e cada ponto que ele já semeou com o Hiraishin. Dentro dessa área, o chakra passa a circular por um circuito único — o dele. Um aliado exausto recebe fluxo pelos veios e volta a executar técnicas; uma técnica que um deles molda pode ser empurrada pela reserva de Nishinoya e sair um rank acima do que aquele shinobi alcançaria sozinho; e qualquer golpe que atravesse os veios é lido antes de acertar, porque ele sente a distorção no circuito como uma corda tocada. O campo não fica dele por força — fica dele porque tudo o que acontece ali passa pelo chakra dele primeiro.",
-        "destruction": "Indireta e multiplicadora. Não abre crateras nem incinera terreno: eleva o time inteiro por uma faixa de rank enquanto o circuito aguenta, e nega o elemento surpresa em toda a área coberta pelos veios. Contra exércitos, é a diferença entre uma linha que cede e uma que sustenta; contra um único adversário muito superior, é o que dá aos aliados dano suficiente para ameaçá-lo.",
-        "history": "Nasceu do que Nishinoya mais temia como Hokage: ser o único capaz de resolver, e não conseguir estar em dois lugares. O Clone Perfeito era a resposta bruta — dividir a si mesmo. O Sōen Kaigi é a resposta madura: em vez de virar dois, tornar os outros capazes. Ele desenhou o selo depois de perder homens em uma frente enquanto vencia sozinho em outra.",
-        "status": "Ancora Nishinoya ao selo central — sair da área derruba o circuito, então ele fica preso ao ponto onde cravou a kunai, o oposto de tudo o que o Hiraishin lhe dá. O chakra emprestado sai da reserva dele, e sustentar muitos aliados o esvazia numa velocidade perigosa. Um inimigo que entenda o mecanismo tem um alvo óbvio: matar o Nishinoya parado no centro é mais fácil que enfrentar o time reforçado.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F17%20-%20Senp%C5%8D%20F%C5%ABinjutsu%3A%20S%C5%8Den%20Kaigi.png?alt=media&v=1786651868223741"
-      },
-      {
-        "name": "Senpo Fūinjutsu: Aoi Tenrō",
-        "classification": "S++",
-        "nature": "Fuinjutsu + Aoi Katon + Bijuu + Senjutsu",
-        "description": "Nishinoya bate as mãos no solo e ergue quatro pilares de fuinjutsu nos limites da área, cada um alimentado por um fio de chakra da Matatabi puxado direto do selo. Entre os pilares sobe uma cúpula de chama azul espiritual — não uma parede de fogo, mas uma superfície selada: quem tenta atravessar de dentro para fora encontra resistência sólida, e o próprio esforço de romper alimenta os pilares. O fogo da Duas-Caudas queima matéria e chakra ao mesmo tempo, e dentro da cúpula ele queima apenas o segundo: o ar não esquenta, a pele não cozinha, mas cada técnica que o prisioneiro tenta moldar se desfaz antes de terminar, e a reserva dele escorre para as paredes. O cárcere não mata — esgota. Nishinoya entra e sai à vontade pelo Hiraishin, e costuma ficar de fora, esperando.",
-        "destruction": "Deliberadamente baixa em dano direto e altíssima em impacto de combate. Anula usuários dependentes de ninjutsu, isola o alvo de reforços e contém explosões de dentro para fora — o que a torna a única técnica do arsenal de Nishinoya capaz de neutralizar uma ameaça sem levar o campo de batalha junto. Contra adversários que dependem de força física crua, apenas atrasa.",
-        "history": "Foi a resposta de Nishinoya a uma pergunta que o Shiki Fūjin não resolvia: como parar algo que não se pode destruir sem destruir tudo em volta, e sem pagar a própria alma. Ele estudou o selo que carrega no próprio corpo — o que mantém a Matatabi contida sem sufocá-la — e o virou do avesso: em vez de guardar uma Bijuu dentro de uma pessoa, guardar uma pessoa dentro de um pedaço da Bijuu. A cúpula é o mesmo princípio do selo dele, em escala de campo e com as paredes voltadas para dentro.",
-        "status": "Requer Modo Sábio, Fuinjutsu de altíssimo nível e cooperação da Matatabi — o chakra dela sustenta os pilares, e ela precisa concordar em emprestá-lo por tempo prolongado. Nishinoya fica ancorado: enquanto a cúpula está de pé, boa parte do fluxo dele está comprometido nos pilares, o que o deixa muito mais frágil em combate direto. Os quatro pilares são o ponto fraco — destruir dois desestabiliza a cúpula, três a rompem, e um aliado do prisioneiro atacando de fora é a forma mais simples de anulá-la.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F18%20-%20Senp%C5%8D%20F%C5%ABinjutsu%3A%20Aoi%20Tenr%C5%8D.png?alt=media&v=1786651868185930"
-      },
-      {
-        "history": "Desenvolvida por Nishinoya após anos de treinamento em Senjutsu e estudo das propriedades espaço-temporais, esta técnica foi inspirada no lendário *Hiraishin no Jutsu* de Tobirama. Ao infundir energia natural no núcleo da técnica, Nishinoya atingiu uma velocidade reflexiva que ultrapassa o limite humano convencional.",
-        "name": "Senpo: Hiraishin",
-        "destruction": "Não é uma técnica de destruição em massa, mas sua letalidade é extrema em duelos — ataques sucessivos embasados em teleporte são quase impossíveis de bloquear ou prever. Perfurações rápidas, esquivas instantâneas e interceptações relâmpago deixam adversários desorientados e incapazes de reagir.",
-        "description": "Nishinoya eleva o *Hiraishin* ao aplicar chakra sábio diretamente na técnica, encurtando virtualmente o espaço-tempo ao seu redor. Ao marcar um alvo com um selo único ativado por energia natural, ele pode instantaneamente deslocar seu corpo pelo campo de batalha como uma faísca luminosa. Em Modo Sábio, sua velocidade atinge níveis quase impossíveis de rastrear, seus sentidos naturais se ampliam e sua consciência corporal opera em múltiplas coordenadas, permitindo que ele antecipe e reaja a ataques mesmo enquanto se desloca.",
-        "status": "Uso avançado e exigente. Para alcançar a velocidade máxima, Nishinoya deve manter o Modo Sábio ativo e ter selos pré-posicionados pelo campo. O uso imprudente pode causar fadiga extrema, colapsos momentâneos e sobrecarga nos pontos de chakra.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F12%20-%20Senpo%20Hiraishin.jpg?alt=media&v=1786651868218835",
-        "nature": "Hiraishin + Senjutsu",
-        "classification": "S+"
-      },
-      {
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F13%20-%20Senpo%3A%20Oodama%20Rasengan.jpg?alt=media&v=1786651868193816",
-        "name": "Senpo: Oodama Rasengan",
-        "history": "Após dominar o Modo Sábio, Nishinoya começou a experimentar maneiras de aprimorar técnicas clássicas de alto nível com energia natural. Inspirado pelo poder bruto do Oodama Rasengan utilizado por lendários shinobi, ele adaptou a técnica ao Senjutsu, criando uma versão mais estável e muito mais poderosa. O Senpo: Oodama Rasengan tornou-se uma de suas principais técnicas de impacto direto em combate.",
-        "description": "Com o Modo Sábio ativado, Nishinoya reúne chakra na palma da mão enquanto absorve energia natural do ambiente, fundindo-a perfeitamente ao seu fluxo de chakra. A esfera resultante cresce rapidamente até formar um Oodama Rasengan massivo, girando com intensidade muito superior à versão comum. A energia natural amplifica a densidade e a estabilidade da técnica, fazendo com que a esfera libere ondas de pressão visíveis ao redor. Quando Nishinoya avança e atinge o alvo com o Rasengan, a rotação esmagadora e o chakra senjutsu são liberados de uma só vez, gerando um impacto devastador que lança o oponente violentamente para trás e destrói tudo ao redor do ponto de colisão.",
-        "destruction": "Altamente destrutiva em combate direto. O impacto do Oodama Rasengan amplificado por senjutsu cria uma explosão concentrada de força rotatória capaz de destruir grandes estruturas, abrir crateras no solo e causar danos internos massivos ao alvo atingido.",
-        "classification": "S+",
-        "status": "Requer Modo Sábio ativo e controle preciso da mistura entre chakra e energia natural. Embora seja mais estável que muitas técnicas de senjutsu avançado, ainda exige grande quantidade de chakra e concentração para manter a rotação do Rasengan em escala ampliada.",
-        "nature": "Senjutsu + Oodama Rasengan"
-      },
-      {
-        "nature": "Aoi Katon + Senjutsu",
-        "status": "Exige controle avançado de chakra e equilíbrio constante com a energia natural. O consumo é elevado, mas sustentável para usuários experientes em Modo Sábio. Quanto maior a quantidade de senjutsu aplicada, mais resistente e devastador o dragão se torna.",
-        "history": "Após dominar o Aoi Katon concedido pela Matatabi, Nishinoya buscou uma forma de transformar suas chamas em algo mais versátil e imponente. Inspirado nas antigas técnicas de dragões elementais e ao aperfeiçoar seu controle de energia natural, ele desenvolveu o Ryūen Aoi — uma técnica que simboliza a fusão entre instinto bestial e sabedoria espiritual.",
-        "description": "Nishinoya canaliza o Aoi Katon herdado da Matatabi e molda as chamas azuis em forma de um imenso dragão espiritual. A criatura surge em meio a uma explosão de fogo azul intenso, serpenteando pelo campo de batalha com movimentos fluidos e majestosos. Em seguida, ele infunde o dragão com chakra sábio, densificando sua estrutura e tornando-o uma manifestação semi-sólida de energia natural e fogo divino. O dragão ruge e avança contra o alvo, podendo perseguir o oponente com precisão guiada pelo controle de chakra de Nishinoya. Ao colidir, libera uma explosão concentrada de chamas azuis espirituais que se expandem como uma tempestade incandescente.",
-        "name": "Senpo: Ryūen Aoi",
-        "destruction": "Altamente destrutiva em médio e longo alcance. O impacto do dragão gera uma detonação massiva de fogo azul amplificado por senjutsu, capaz de devastar grandes áreas e incinerar múltiplos inimigos simultaneamente. As chamas sábias queimam não apenas a matéria física, mas também desestabilizam o fluxo de chakra do oponente, dificultando técnicas defensivas e regenerativas.",
-        "classification": "S+",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F14%20-%20Senpo%3A%20Ry%C5%ABen%20Aoi.png?alt=media&v=1786651868247973"
-      },
-      {
-        "name": "Senpo Hiraishin: Aoi Ryōiki",
-        "classification": "S+",
-        "nature": "Hiraishin + Aoi Katon + Fuinjutsu + Senjutsu",
-        "description": "Com o Modo Sábio ativo, Nishinoya crava e dispersa dezenas de kunais e marcas de fuinjutsu em um perímetro escolhido, cada selo aceso por uma brasa de Aoi Katon do tamanho de uma vela. Os pontos se enxergam entre si: o chakra sábio corre pelo solo ligando marca a marca até fechar uma malha invisível sobre a área. Dentro dela, Nishinoya deixa de se deslocar — ele simplesmente está em qualquer ponto da malha no instante em que decide, sem gesto nem tempo de reação. E a malha responde a quem não é ele: qualquer corpo que atravesse a linha entre dois selos rompe o circuito, e o Aoi Katon acumulado naquele trecho sobe do chão em uma coluna de chama azul. Não é uma armadilha única, é um tabuleiro em que cada passo do inimigo escolhe qual armadilha acende — mover-se custa, e ficar parado custa mais, porque Nishinoya aparece onde ninguém está olhando.",
-        "destruction": "Baixa por acionamento individual — cada coluna de fogo azul queima e desestabiliza, mas não vaporiza. O poder está no acúmulo e na negação: um alvo encurralado leva dezenas de acionamentos, e nenhuma rota de fuga é gratuita. Contra grupos, a malha separa formações e obriga o inimigo a lutar isolado.",
-        "history": "Nasceu de um limite do Aoi Katon: Komyunikēshon. A rede de marcas dava a Nishinoya informação perfeita do campo e nada além disso — ele sabia exatamente onde o inimigo estava, mas ainda precisava chegar até lá. Como Hokage, percebeu que a diferença entre vencer uma batalha e impedir que ela se espalhasse estava em decidir onde ela poderia acontecer. Passou a acender as marcas em vez de apenas escutá-las.",
-        "status": "Exige Modo Sábio ativo e preparação: o perímetro precisa ser semeado antes ou nos primeiros instantes do combate, o que a torna forte em terreno escolhido e quase inútil em emboscada. A malha é fixa — se o inimigo consegue arrastar o combate para fora dela, Nishinoya perde toda a vantagem e precisa semear de novo. Manter os selos acesos consome chakra continuamente, e destruir o solo em volume suficiente rompe trechos da rede.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F19%20-%20Senp%C5%8D%20Hiraishin%3A%20Aoi%20Ry%C5%8Diki.png?alt=media&v=1786651869646802"
-      },
-      {
-        "name": "Senpo Rasengan",
-        "classification": "S",
-        "nature": "Senjutsu + Rasengan",
-        "description": "Versão mais simples e rápida do Rasengan de Nishinoya, moldada com o auxílio da energia natural do Modo Sábio. Diferente da variante Oodama, aqui ele prioriza velocidade de execução sobre escala: a esfera atinge o tamanho padrão em uma fração do tempo normal, permitindo encaixá-la no meio de uma sequência de golpes sem quebrar o ritmo do combate.",
-        "destruction": "Moderada e concentrada em um único ponto de impacto — suficiente para romper defesas comuns e causar dano interno localizado, sem o alcance ou a escala da versão Oodama.",
-        "history": "Foi a primeira adaptação de Nishinoya do Rasengan ao Modo Sábio, desenvolvida antes de ele dominar a escala necessária para o Senpo: Oodama Rasengan. Manteve-se em seu repertório mesmo depois, útil justamente por ser mais rápida de formar.",
-        "status": "Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690"
-      }
-    ],
     "chakraColor": "#0ea5e9",
     "stats": {
       "strength": 12,
@@ -9342,6 +9134,235 @@
         "nature": "Matatabi",
         "village": "Konohagakure"
       }
+    ],
+    "techniques": [
+      {
+        "classification": "Z",
+        "destruction": "Extremamente elevado. Capaz de devastar áreas equivalentes a múltiplos quarteirões ou mais, dependendo da quantidade de chakra investida.",
+        "description": "O usuário ativa simultaneamente o Modo Sábio e o Manto de Chakra da Matatabi (Duas-Caudas). A técnica combina o controle refinado e a amplificação sensorial do Senjutsu com o chakra avassalador da Bijuu Matatabi. A partir dessa fusão, o usuário cria um Oodama Rasen Shuriken de proporções colossais, infundido com chakra natural e chakra de Bijuu. Em seguida, incorpora integralmente o poder de uma Bijuudama à estrutura da técnica, resultando em uma variação híbrida de destruição massiva.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F01%20-%20Senpo%20Enka%20Aoi%20Katon%3A%20Bijuudama%20OodamaRasenShuriken.jpg?alt=media&v=1786651865146293",
+        "nature": "Senjutsu + Aoi Katon + Bijuu + Rasengan + Fuinjutsu",
+        "status": "Uso extremamente restrito. Requer compatibilidade com Bijuu e domínio avançado de Senjutsu.",
+        "history": "Registros indicam que nenhum inimigo sobreviveu após ser atingido diretamente por esta técnica. Considerada uma das técnicas mais destrutivas já documentadas no mundo shinobi.",
+        "name": "Senpo Enka Aoi Katon: Bijuudama OodamaRasenShuriken"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F02%20-%20Senpo%3A%20Modo%20Matatabi.png?alt=media&v=1786651865146975",
+        "name": "Senpo: Modo Matatabi",
+        "destruction": "Cataclísmica em larga escala. O simples liberar de chakra gera tempestades de fogo azul que consomem campos inteiros de batalha. As chamas sábias não apenas queimam o corpo, mas afetam diretamente o fluxo de chakra do oponente, causando dano interno severo e dificultando regeneração. Seus ataques de cauda criam crateras massivas, e uma única investida pode obliterar defesas de nível Kage com facilidade.",
+        "description": "Ao atingir a harmonia absoluta com a essência da Matatabi, Nishinoya ativa o Senpo: Modo Matatabi e seu corpo é consumido por uma erupção de chamas azuis espirituais. Em questão de segundos, ele se transforma em um gigantesco avatar felino de duas caudas, semelhante à lendária Matatabi, porém envolto por chakra sábio condensado. Seu corpo torna-se uma manifestação híbrida de energia natural e fogo azul divino, com padrões luminosos percorrendo sua forma colossal. Cada passo incinera o solo, e cada movimento libera ondas de calor espiritual capazes de distorcer o ar e vaporizar técnicas de menor nível. Seus rugidos se convertem em explosões sônicas flamejantes, enquanto suas garras concentram Aoi Katon comprimido com senjutsu, rasgando defesas físicas e espirituais simultaneamente.",
+        "status": "Forma suprema e extremamente rara. Exige sincronia total entre Nishinoya e Matatabi, além de absorção constante de energia natural. O consumo de chakra é colossal, e qualquer desequilíbrio pode romper a transformação ou causar danos severos ao corpo do usuário. Quando estabilizada, porém, torna-se uma manifestação quase divina do fogo azul sábio.",
+        "nature": "Senjutsu + Bijuu",
+        "history": "Após ultrapassar os limites do Senpo e dominar completamente o chakra da Matatabi, Nishinoya buscou não apenas utilizar o poder da besta, mas fundir sua própria essência à dela. Inspirado nas transformações supremas dos jinchūriki lendários, ele refinou o controle do chakra azul e o combinou com energia natural em perfeita simbiose. Assim nasceu o Avatar da Chama Azul Sábia — uma forma que transcende a transformação comum de jinchūriki e alcança o ápice do Rank Z.",
+        "classification": "Z"
+      },
+      {
+        "classification": "Z",
+        "history": "Forma raríssima alcançada apenas quando há sincronia total entre o jinchuuriki e a Matatabi, aliada ao domínio completo do Senjutsu. Diz-se que poucos na história conseguiram equilibrar a energia natural com o chakra ardente da Duas-Caudas sem perder o controle.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F03%20-%20Senpo%3A%20Matatabi%20Rinku.png?alt=media&v=1786651866753718",
+        "destruction": "Extremamente elevado. Todas as técnicas de fogo azul são potencializadas a um nível devastador, capazes de incinerar vastas áreas instantaneamente, evaporar defesas de alto nível e gerar explosões térmicas comparáveis a cataclismos naturais.",
+        "description": "Nishinoya ativa simultaneamente o Modo Sábio e o Manto Completo do Matatabi fundindo perfeitamente a energia natural ao fogo azul da Duas-Caudas. Seu corpo é envolvido por chamas azuis intensas e densas, que oscilam como uma aura viva ao seu redor. Seus olhos assumem um brilho felino ancestral, enquanto marcas sábias se misturam às chamas espirituais. O chakra natural amplifica o poder da Bijuu, elevando drasticamente sua força física, velocidade, reflexos e percepção sensorial, permitindo que ele sinta vibrações e presenças a quilômetros de distância.",
+        "name": "Senpo: Matatabi Rinku",
+        "nature": "Senjutsu + Bijuu",
+        "status": "Uso altamente restrito. Exige domínio absoluto do Senjutsu e harmonia perfeita com a Matatabi. Caso o equilíbrio falhe, o excesso de energia natural ou o descontrole do chakra da Bijuu pode causar colapso físico severo."
+      },
+      {
+        "history": "Matatabi não foi selada em Nishinoya à força. Ela escolheu se abrigar nele por enxergar no jovem Senju um amigo, um herdeiro da Vontade do Fogo e alguém que jamais a trataria como uma arma. Com o passar dos anos, o vínculo entre os dois deixou de ser uma relação entre jinchuuriki e Bijuu para se tornar um pacto espiritual de confiança absoluta. A partir desse laço, Nishinoya desenvolveu o Senpo Fuinjutsu: Matatabi Korin, uma técnica que permite à Duas-Caudas deixar temporariamente o selo sem romper sua conexão com ele. Considerada uma manifestação lendária de amizade entre humano e Bijuu, essa técnica simboliza o momento em que Matatabi luta não como poder emprestado, mas como companheira de Nishinoya.",
+        "classification": "Z",
+        "nature": "Senjutsu + Fuinjutsu + Bijuu + Aoi Katon",
+        "status": "Técnica suprema e extremamente rara. Exige harmonia perfeita entre Nishinoya e Matatabi, domínio absoluto de Fuinjutsu, controle avançado de Senjutsu e estabilidade emocional total de ambos. A técnica só pode ser ativada se Matatabi aceitar sair voluntariamente do selo. Caso Nishinoya perca a consciência, tenha seu fluxo de chakra bloqueado ou sofra uma ruptura no selo, a manifestação se desfaz imediatamente e Matatabi retorna ao seu interior. Durante a ativação, Nishinoya fica impedido de usar técnicas derivadas diretamente do chakra da Matatabi até que ela retorne ao selo.",
+        "name": "Senpo Fuinjutsu: Matatabi Korin",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F04%20-%20Senpo%20Fuinjutsu%3A%20Matatabi%20Korin.jpg?alt=media&v=1786651866660481",
+        "destruction": "Cataclísmica em larga escala. A presença da Matatabi no campo de batalha altera completamente o ambiente, liberando ondas de calor espiritual, tempestades de chamas azuis e pressão de chakra capaz de intimidar inimigos de alto nível. Suas garras podem rasgar defesas físicas e espirituais, suas caudas criam impactos massivos, e suas chamas azuis queimam matéria e chakra simultaneamente. Apesar do poder absurdo, a técnica exige que Nishinoya abdique temporariamente do uso direto dos poderes da Matatabi em seu próprio corpo, tornando a invocação uma escolha estratégica entre lutar junto da Bijuu ou canalizar seu poder internamente.",
+        "description": "Nishinoya abre voluntariamente o selo espiritual criado entre ele e Matatabi, permitindo que a Duas-Caudas manifeste seu corpo flamejante fora de seu corpo por tempo limitado. Diferente de uma Kuchiyose comum ou de uma extração forçada, a essência principal da Bijuu permanece ancorada ao selo de Nishinoya, enquanto uma forma física temporária, composta por chakra da Matatabi, Aoi Katon e energia natural, surge no campo de batalha. A manifestação assume a forma colossal da Matatabi, envolta por chamas azuis espirituais e marcas sábias luminosas, podendo agir como uma aliada independente, atacar com suas garras, caudas e rajadas de fogo azul, além de proteger Nishinoya e seus aliados. Enquanto Matatabi estiver manifestada fora do selo, Nishinoya não pode utilizar técnicas derivadas diretamente do chakra da Bijuu, como Matatabi Rinku, Modo Matatabi ou Bijuudama, pois o fluxo principal desse poder está sendo sustentado na manifestação externa."
+      },
+      {
+        "description": "A Soen no Kage atinge seu estado máximo nas mãos de Nishinoya, seu portador original e oficial. Ao invés de criar uma nova técnica, ele simplesmente libera o verdadeiro potencial da arma ao ativar o chakra da Matatabi armazenado em seu selo interno. Quando isso ocorre, os selos azuis da kunai brilham intensamente e o chakra da Bijū é canalizado para fora da lâmina, fazendo com que ela ganhe uma extensão maior composta inteiramente pelo Aoi Katon da Matatabi — chamas azuis densas, espirituais e extremamente concentradas. Essa lâmina expandida não substitui o metal da kunai, mas o envolve e o prolonga, mantendo o núcleo selado intacto enquanto o poder é projetado externamente sob total controle de Nishinoya.",
+        "destruction": "A lâmina ampliada de Aoi Katon queima matéria física e chakra simultaneamente, sendo extremamente eficaz em curta e média distância. O fogo azul da Matatabi possui alta temperatura espiritual, capaz de atravessar defesas comuns e consumir energia ao contato direto. Mesmo em sua forma máxima, o chakra permanece contido no selo da Soen no Kage, sendo apenas canalizado e moldado por Nishinoya.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F05%20-%20Soen%20no%20Kage.png?alt=media&v=1786651866673439",
+        "name": "Soen no Kage",
+        "status": "A ativação do chakra da Matatabi exige controle preciso e fluxo estável. Caso o chakra de Nishinoya oscile, a lâmina de Aoi Katon pode perder densidade momentaneamente antes de se estabilizar. Ainda assim, o selo interno nunca é rompido — o poder permanece guardado na Soen no Kage, sendo apenas exteriorizado de forma controlada por seu verdadeiro dono.",
+        "nature": "Senjutsu + Aoi Katon + Bijuu + Fuinjutsu",
+        "classification": "Z",
+        "history": "Desde sua infância, Nishinoya empunhou a Soen no Kage como sua arma principal. Ao longo de inúmeras batalhas, a kunai absorveu resquícios energéticos e tornou-se receptáculo selado para fragmentos de chakra do Terceiro Hokage e da Matatabi. Com o passar dos anos, o vínculo entre usuário e arma se tornou absoluto. O estado Rank Z representa não uma nova habilidade, mas a revelação completa do potencial que sempre existiu dentro da kunai, acessível apenas por seu portador legítimo."
+      },
+      {
+        "destruction": "Extremamente destrutiva em curto alcance. O impacto inicial perfura defesas com a rotação do Rasenshuriken, enquanto as chamas azuis ampliadas por senjutsu causam uma explosão concentrada que incinera e dilacera a área ao redor do alvo. O dano celular causado pela natureza cortante da técnica torna a regeneração difícil e deixa o oponente gravemente incapacitado.",
+        "description": "Nishinoya arremessa sua kunai marcada com o selo do Hiraishin como uma finta estratégica, forçando o oponente a reagir ao projétil. No instante exato em que a atenção do inimigo se volta para a lâmina, ele ativa o Senpo: Hiraishin e se teletransporta para frente do alvo como um clarão azul. Em um único movimento fluido, materializa um Aoi Katon: Oodama Rasenshuriken — uma colossal shuriken espiral envolta por chamas azuis intensificadas por energia natural. A técnica é lançada à queima-roupa, comprimindo calor, rotação e senjutsu em uma explosão devastadora. Antes que a detonação o alcance, Nishinoya ativa novamente o Hiraishin e retorna instantaneamente para a marca original de sua kunai, deixando apenas um rastro elétrico azul no campo de batalha.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F06%20-%20Senpo%20Hiraishin%3A%20Rel%C3%A2mpago%20Azul.png?alt=media&v=1786651866647756",
+        "history": "Após dominar o Senpo: Hiraishin, técnica inspirada no lendário Hiraishin de Tobirama, Nishinoya buscou elevar sua letalidade ofensiva. Ele fundiu seu Aoi Katon com energia natural, criando uma variação azul de poder esmagador. O resultado foi o Relâmpago Azul — uma execução quase impossível de reagir.",
+        "status": "Uso extremamente exigente. Requer Modo Sábio ativo, controle absoluto de chakra elemental e precisão milimétrica na ativação do Hiraishin antes e depois do impacto. Qualquer atraso no teleporte pode resultar em danos severos ao próprio usuário devido à explosão do Oodama Rasenshuriken.",
+        "nature": "Senjutsu + Aoi Katon + Rasengan + Fuinjutsu",
+        "classification": "Z",
+        "name": "Senpo Hiraishin: Relâmpago Azul"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F07%20-%20Aoi%20Katon%3A%20Komyunik%C4%93shon.png?alt=media&v=1786651866705921",
+        "name": "Aoi Katon: Komyunikēshon",
+        "destruction": "Baixo poder destrutivo direto, porém impacto estratégico absoluto. A técnica transforma o campo de batalha em uma extensão da percepção de Nishinoya, anulando emboscadas, permitindo respostas instantâneas e coordenação perfeita entre aliados mesmo durante guerras em larga escala.",
+        "description": "Nishinoya espalha discretamente pequenas marcas de chakra azul em aliados, armas, estruturas ou até no próprio ambiente. Essas marcas funcionam como pontos de transmissão ligados diretamente ao seu chakra através do Hiraishin. Ao ativar a técnica, os selos brilham em azul intenso e criam uma rede invisível de comunicação espiritual entre todos os marcados. Informações, coordenadas, sensações de perigo e sinais de chakra são transmitidos instantaneamente através das marcas, ignorando distância, fumaça, barreiras físicas e interferência sonora. Em situações críticas, Nishinoya também consegue usar os selos como pontos de retorno instantâneo para resgatar aliados ou reagrupar tropas em combate.",
+        "history": "Após assumir o cargo de Terceiro Hokage, Nishinoya percebeu que batalhas modernas não eram vencidas apenas por força bruta, mas por velocidade de informação. Inspirado no funcionamento do Hiraishin e em antigos sistemas de selamento dos Uzumaki, ele criou o Aoi Katon: Komyunikēshon para manter conexão constante com Naoki, Hisoka e os esquadrões de Konoha durante missões secretas contra a OCA. A técnica rapidamente se tornou um dos pilares estratégicos da Folha durante a Era Genética.",
+        "nature": "Aoi Katon + Hiraishin + Fuinjutsu",
+        "status": "Uso altamente avançado. Exige enorme precisão no controle do Hiraishin e capacidade de manter múltiplos selos ativos simultaneamente. Quanto maior a quantidade de pessoas conectadas, maior o consumo mental e espiritual de Nishinoya.",
+        "classification": "Z"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F08%20-%20Clone%20Perfeito.png?alt=media&v=1786651866664364",
+        "destruction": "Extremamente elevado para uma técnica de duplicação. O Clone Perfeito mantém capacidades ofensivas comparáveis às de um Kage, podendo utilizar Hiraishin, Aoi Katon e técnicas de combate avançadas de forma independente. Sua existência permite que Nishinoya lute em múltiplas frentes simultaneamente.",
+        "description": "Diferente de clones convencionais, o Clone Perfeito é uma réplica absoluta criada a partir de fragmentos reais do chakra, consciência e energia vital de Nishinoya. O clone possui presença física estável, acesso total às técnicas originais e capacidade de agir independentemente por longos períodos sem dissipação natural. Graças ao Hiraishin e aos selos internos de fuinjutsu, Nishinoya mantém conexão constante com a réplica, podendo compartilhar memórias, percepção sensorial e até redistribuir chakra em tempo real. Quando necessário, o clone pode liberar temporariamente o chakra azul da Matatabi e acessar versões reduzidas do Senpo, tornando-se praticamente indistinguível do verdadeiro Hokage.",
+        "name": "Clone Perfeito",
+        "classification": "Z",
+        "status": "Técnica proibida e extremamente desgastante. A criação do clone divide parte da essência espiritual de Nishinoya, causando enorme consumo de chakra e fadiga mental prolongada. Caso o clone seja destruído violentamente, parte do impacto espiritual retorna diretamente ao usuário original.",
+        "nature": "Fuinjutsu + Hiraishin + Senjutsu + Matatabi",
+        "history": "Após perceber que Konoha se tornava vulnerável sempre que deixava a vila, Nishinoya desenvolveu uma solução considerada impossível até mesmo pelos maiores especialistas em ninjutsu. Utilizando conhecimento avançado de fuinjutsu, propriedades espaço-temporais do Hiraishin e chakra estabilizado da Matatabi, ele criou o Clone Perfeito — uma réplica capaz de proteger Konoha enquanto o verdadeiro Nishinoya travava batalhas secretas contra a OCA. A técnica foi considerada uma anomalia até mesmo entre os Hokages."
+      },
+      {
+        "history": "Foi essa fusão, alcançada aos 14 anos junto ao domínio absoluto do Katon e do lendário Hiraishin, que fez Nishinoya ser reconhecido como o Relâmpago Azul de Konoha. Diferente de outros usuários de Senjutsu, ele nunca precisou buscar um mestre ou selar um pacto — a fonte já estava dentro dele, na própria chama que carregava desde criança.",
+        "destruction": "Amplifica proporcionalmente todo o Aoi Katon de Nishinoya, elevando velocidade, força e precisão de cada chama azul muito além do alcançável sem o modo ativo — a base que sustenta sua fama de Relâmpago Azul de Konoha.",
+        "description": "Aos 14 anos, em meio à guerra, Nishinoya alcança a harmonia entre a energia natural absorvida pelo Senjutsu e o Aoi Katon — a chama azul que já era exclusivamente sua antes de qualquer vínculo com a Matatabi ou o Hiraishin. Diferente de um pacto espiritual externo, essa fusão não depende de mestre, linhagem ou espírito-guia: é a energia natural aperfeiçoando aquilo que ele já é. Ao ativar o modo, chamas azuis espirituais percorrem sua pele como veios luminosos, seus olhos ganham um brilho felino intenso, e sua percepção de chakra se expande a ponto de sentir a menor oscilação de energia hostil a grande distância.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F15%20-%20Sennin%20Fuka%3A%20Modo%20S%C3%A1bio%20Aoi%20Katon.jpg?alt=media&v=1786651868141191",
+        "nature": "Senjutsu + Aoi Katon",
+        "status": "Estado estável e sustentável por longos períodos, sem os riscos de instabilidade comuns em fusões incompletas. É a base sobre a qual Nishinoya constrói o Senpo: Modo Matatabi (fusão com a Matatabi) e o Senpo Enka Aoi Katon: Bijuudama OodamaRasenShuriken, suas formas mais extremas.",
+        "name": "Sennin Fuka",
+        "classification": "S++"
+      },
+      {
+        "history": "Desde os 14 anos, Nishinoya e Matatabi compartilham um vínculo raro entre Jinchuuriki e Bijuu. Diferente da maioria dos casos, Matatabi escolheu voluntariamente se selar dentro dele após reconhecer sua determinação e espírito. Com o passar dos anos, os dois se tornaram melhores amigos e parceiros de batalha. Graças a essa confiança absoluta, Nishinoya consegue manifestar a Bijuudama com estabilidade excepcional, canalizando o poder da Nibi como uma extensão natural de si mesmo.",
+        "destruction": "Devastação em larga escala. A explosão vaporiza o ponto de impacto e cria uma cratera gigantesca. As chamas azuis da Matatabi continuam queimando após a detonação inicial, consumindo chakra e incendiando tudo ao redor com fogo espiritual extremamente intenso.",
+        "status": "Técnica de poder extremo que exige grande quantidade de chakra. No entanto, graças à amizade e sincronização perfeita entre Nishinoya e Matatabi, o risco de perda de controle é drasticamente reduzido.",
+        "nature": "Matatabi",
+        "description": "Nishinoya ergue a mão enquanto o chakra da Matatabi flui livremente através dele. Uma esfera negra extremamente densa começa a se formar enquanto chamas azuis intensas da Nibi giram ao redor como uma tempestade viva. Graças à perfeita sincronização entre Nishinoya e Matatabi, a energia é comprimida de forma estável até atingir seu ponto máximo. Ao ser disparada, a Bijuudama corta o campo de batalha como um cometa envolto em fogo azul. No impacto, a esfera detona em uma explosão colossal, liberando uma onda de choque devastadora seguida por um mar de chamas azuis espirituais que se espalham pelo terreno.",
+        "classification": "S++",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F09%20-%20Senpo%3A%20Bijuudama.png?alt=media&v=1787843397195127",
+        "name": "Senpo: Bijuudama"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F10%20-%20Senpo%20Aoi%20Enka%20Katon%3A%20Oodama%20Rasenshuriken.png?alt=media&v=1787843399309081",
+        "history": "Após dominar o controle do Aoi Katon, Nishinoya buscou aprimorar ainda mais suas técnicas baseadas no Rasengan. Inspirando-se no conceito do Rasenshuriken criado por lendários shinobi, ele desenvolveu uma versão própria alimentada por suas chamas azuis especiais. Com o domínio do Modo Sábio, passou a incorporar energia natural à técnica, criando o Senpo Enka Aoi Katon: Oodama Rasenshuriken — uma forma ainda mais poderosa que combina calor extremo, rotação absoluta e senjutsu em um único ataque devastador.",
+        "nature": "Aoi Katon + Oodama Rasenshuriken + Senjutsu",
+        "status": "Uso extremamente exigente. Requer Modo Sábio ativo, controle avançado de chakra e domínio da natureza Aoi Katon para manter a estabilidade das chamas durante a rotação do Rasenshuriken. Se mal controlada, a técnica pode causar danos graves ao próprio usuário.",
+        "name": "Senpo Aoi Enka Katon: Oodama Rasenshuriken",
+        "classification": "S++",
+        "description": "Nishinoya concentra uma quantidade massiva de chakra na palma da mão enquanto molda uma gigantesca esfera rotatória de energia. A estrutura do Rasengan evolui rapidamente para um Oodama Rasenshuriken, suas lâminas espirais girando com velocidade extrema. Diferente de versões comuns, o núcleo da técnica é envolvido por Enka Aoi Katon — chamas azuis intensas que giram junto à rotação da shuriken. Ao ativar o Modo Sábio, Nishinoya infunde energia natural na técnica, aumentando drasticamente sua estabilidade, poder destrutivo e velocidade de rotação. O calor, a rotação e o senjutsu se combinam criando uma arma devastadora que pode ser arremessada contra o alvo como um disco colossal de energia e fogo azul. Ao atingir o inimigo, a técnica explode em uma tempestade de lâminas microscópicas de chakra e fogo espiritual, dilacerando tudo na área de impacto.",
+        "destruction": "Extremamente destrutiva. O impacto inicial causa perfuração massiva devido à rotação do Rasenshuriken, enquanto as chamas azuis ampliadas pelo senjutsu intensificam a explosão e espalham fogo de alta intensidade pelo campo. A técnica também causa dano celular profundo devido às lâminas microscópicas de chakra, dificultando regeneração e recuperação do alvo."
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F11%20-%20Shiki%20F%C5%ABjin.png?alt=media&v=1786651868165058",
+        "name": "Shiki Fūjin",
+        "status": "Técnica proibida e de uso extremo. Uma vez iniciada, não pode ser interrompida. O preço é a própria alma do usuário, que também é consumida pelo Ceifador após o selamento. Considerada um último recurso absoluto, utilizada apenas quando não existe outra forma de vitória.",
+        "nature": "Fuinjutsu",
+        "destruction": "Absoluta contra alvos individuais. O selamento resulta na remoção completa da alma, anulando regeneração, reencarnação, possessão ou transferência de consciência. A pressão espiritual liberada durante o ritual também pode causar colapso de chakra em inimigos próximos, enfraquecendo-os temporariamente.",
+        "description": "Nishinoya executa os selos proibidos e invoca o Ceifador da Morte, uma entidade espiritual que apenas ele é capaz de enxergar. A presença do Shinigami envolve o campo com uma pressão espiritual esmagadora, paralisando momentaneamente alvos com menor força de vontade. Ao estender o braço, o Ceifador atravessa o corpo de Nishinoya e projeta correntes espirituais invisíveis que se conectam diretamente à alma do oponente. A essência do alvo é então arrancada do corpo físico e selada dentro da entidade, aprisionada eternamente em um plano onde o tempo e o espaço não existem. A técnica ignora quase todas as defesas físicas e espirituais, focando unicamente na alma.",
+        "classification": "S++",
+        "history": "Após estudar pergaminhos proibidos e registros antigos de técnicas supremas de selamento, Nishinoya dominou o Shiki Fūjin como uma arma definitiva contra inimigos imortais ou entidades espirituais. Seu domínio refinado e força espiritual elevam o jutsu a um nível superior, permitindo execução mais rápida e com maior estabilidade do ritual."
+      },
+      {
+        "name": "Senpo Fūinjutsu: Sōen Kaigi",
+        "classification": "S++",
+        "nature": "Fuinjutsu + Aoi Katon + Senjutsu + Hiraishin",
+        "description": "Nishinoya crava a Soen no Kage no centro do campo e abre um selo de convergência: a chama azul se espalha pelo solo em veios finos, alcançando cada aliado marcado e cada ponto que ele já semeou com o Hiraishin. Dentro dessa área, o chakra passa a circular por um circuito único — o dele. Um aliado exausto recebe fluxo pelos veios e volta a executar técnicas; uma técnica que um deles molda pode ser empurrada pela reserva de Nishinoya e sair um rank acima do que aquele shinobi alcançaria sozinho; e qualquer golpe que atravesse os veios é lido antes de acertar, porque ele sente a distorção no circuito como uma corda tocada. O campo não fica dele por força — fica dele porque tudo o que acontece ali passa pelo chakra dele primeiro.",
+        "destruction": "Indireta e multiplicadora. Não abre crateras nem incinera terreno: eleva o time inteiro por uma faixa de rank enquanto o circuito aguenta, e nega o elemento surpresa em toda a área coberta pelos veios. Contra exércitos, é a diferença entre uma linha que cede e uma que sustenta; contra um único adversário muito superior, é o que dá aos aliados dano suficiente para ameaçá-lo.",
+        "history": "Nasceu do que Nishinoya mais temia como Hokage: ser o único capaz de resolver, e não conseguir estar em dois lugares. O Clone Perfeito era a resposta bruta — dividir a si mesmo. O Sōen Kaigi é a resposta madura: em vez de virar dois, tornar os outros capazes. Ele desenhou o selo depois de perder homens em uma frente enquanto vencia sozinho em outra.",
+        "status": "Ancora Nishinoya ao selo central — sair da área derruba o circuito, então ele fica preso ao ponto onde cravou a kunai, o oposto de tudo o que o Hiraishin lhe dá. O chakra emprestado sai da reserva dele, e sustentar muitos aliados o esvazia numa velocidade perigosa. Um inimigo que entenda o mecanismo tem um alvo óbvio: matar o Nishinoya parado no centro é mais fácil que enfrentar o time reforçado.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F17%20-%20Senp%C5%8D%20F%C5%ABinjutsu%3A%20S%C5%8Den%20Kaigi.png?alt=media&v=1786651868223741"
+      },
+      {
+        "name": "Senpo Fūinjutsu: Aoi Tenrō",
+        "classification": "S++",
+        "nature": "Fuinjutsu + Aoi Katon + Bijuu + Senjutsu",
+        "description": "Nishinoya bate as mãos no solo e ergue quatro pilares de fuinjutsu nos limites da área, cada um alimentado por um fio de chakra da Matatabi puxado direto do selo. Entre os pilares sobe uma cúpula de chama azul espiritual — não uma parede de fogo, mas uma superfície selada: quem tenta atravessar de dentro para fora encontra resistência sólida, e o próprio esforço de romper alimenta os pilares. O fogo da Duas-Caudas queima matéria e chakra ao mesmo tempo, e dentro da cúpula ele queima apenas o segundo: o ar não esquenta, a pele não cozinha, mas cada técnica que o prisioneiro tenta moldar se desfaz antes de terminar, e a reserva dele escorre para as paredes. O cárcere não mata — esgota. Nishinoya entra e sai à vontade pelo Hiraishin, e costuma ficar de fora, esperando.",
+        "destruction": "Deliberadamente baixa em dano direto e altíssima em impacto de combate. Anula usuários dependentes de ninjutsu, isola o alvo de reforços e contém explosões de dentro para fora — o que a torna a única técnica do arsenal de Nishinoya capaz de neutralizar uma ameaça sem levar o campo de batalha junto. Contra adversários que dependem de força física crua, apenas atrasa.",
+        "history": "Foi a resposta de Nishinoya a uma pergunta que o Shiki Fūjin não resolvia: como parar algo que não se pode destruir sem destruir tudo em volta, e sem pagar a própria alma. Ele estudou o selo que carrega no próprio corpo — o que mantém a Matatabi contida sem sufocá-la — e o virou do avesso: em vez de guardar uma Bijuu dentro de uma pessoa, guardar uma pessoa dentro de um pedaço da Bijuu. A cúpula é o mesmo princípio do selo dele, em escala de campo e com as paredes voltadas para dentro.",
+        "status": "Requer Modo Sábio, Fuinjutsu de altíssimo nível e cooperação da Matatabi — o chakra dela sustenta os pilares, e ela precisa concordar em emprestá-lo por tempo prolongado. Nishinoya fica ancorado: enquanto a cúpula está de pé, boa parte do fluxo dele está comprometido nos pilares, o que o deixa muito mais frágil em combate direto. Os quatro pilares são o ponto fraco — destruir dois desestabiliza a cúpula, três a rompem, e um aliado do prisioneiro atacando de fora é a forma mais simples de anulá-la.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F18%20-%20Senp%C5%8D%20F%C5%ABinjutsu%3A%20Aoi%20Tenr%C5%8D.png?alt=media&v=1786651868185930"
+      },
+      {
+        "history": "Desenvolvida por Nishinoya após anos de treinamento em Senjutsu e estudo das propriedades espaço-temporais, esta técnica foi inspirada no lendário *Hiraishin no Jutsu* de Tobirama. Ao infundir energia natural no núcleo da técnica, Nishinoya atingiu uma velocidade reflexiva que ultrapassa o limite humano convencional.",
+        "name": "Senpo: Hiraishin",
+        "destruction": "Não é uma técnica de destruição em massa, mas sua letalidade é extrema em duelos — ataques sucessivos embasados em teleporte são quase impossíveis de bloquear ou prever. Perfurações rápidas, esquivas instantâneas e interceptações relâmpago deixam adversários desorientados e incapazes de reagir.",
+        "description": "Nishinoya eleva o *Hiraishin* ao aplicar chakra sábio diretamente na técnica, encurtando virtualmente o espaço-tempo ao seu redor. Ao marcar um alvo com um selo único ativado por energia natural, ele pode instantaneamente deslocar seu corpo pelo campo de batalha como uma faísca luminosa. Em Modo Sábio, sua velocidade atinge níveis quase impossíveis de rastrear, seus sentidos naturais se ampliam e sua consciência corporal opera em múltiplas coordenadas, permitindo que ele antecipe e reaja a ataques mesmo enquanto se desloca.",
+        "status": "Uso avançado e exigente. Para alcançar a velocidade máxima, Nishinoya deve manter o Modo Sábio ativo e ter selos pré-posicionados pelo campo. O uso imprudente pode causar fadiga extrema, colapsos momentâneos e sobrecarga nos pontos de chakra.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F12%20-%20Senpo%20Hiraishin.jpg?alt=media&v=1786651868218835",
+        "nature": "Hiraishin + Senjutsu",
+        "classification": "S+"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F13%20-%20Senpo%3A%20Oodama%20Rasengan.jpg?alt=media&v=1786651868193816",
+        "name": "Senpo: Oodama Rasengan",
+        "history": "Após dominar o Modo Sábio, Nishinoya começou a experimentar maneiras de aprimorar técnicas clássicas de alto nível com energia natural. Inspirado pelo poder bruto do Oodama Rasengan utilizado por lendários shinobi, ele adaptou a técnica ao Senjutsu, criando uma versão mais estável e muito mais poderosa. O Senpo: Oodama Rasengan tornou-se uma de suas principais técnicas de impacto direto em combate.",
+        "description": "Com o Modo Sábio ativado, Nishinoya reúne chakra na palma da mão enquanto absorve energia natural do ambiente, fundindo-a perfeitamente ao seu fluxo de chakra. A esfera resultante cresce rapidamente até formar um Oodama Rasengan massivo, girando com intensidade muito superior à versão comum. A energia natural amplifica a densidade e a estabilidade da técnica, fazendo com que a esfera libere ondas de pressão visíveis ao redor. Quando Nishinoya avança e atinge o alvo com o Rasengan, a rotação esmagadora e o chakra senjutsu são liberados de uma só vez, gerando um impacto devastador que lança o oponente violentamente para trás e destrói tudo ao redor do ponto de colisão.",
+        "destruction": "Altamente destrutiva em combate direto. O impacto do Oodama Rasengan amplificado por senjutsu cria uma explosão concentrada de força rotatória capaz de destruir grandes estruturas, abrir crateras no solo e causar danos internos massivos ao alvo atingido.",
+        "classification": "S+",
+        "status": "Requer Modo Sábio ativo e controle preciso da mistura entre chakra e energia natural. Embora seja mais estável que muitas técnicas de senjutsu avançado, ainda exige grande quantidade de chakra e concentração para manter a rotação do Rasengan em escala ampliada.",
+        "nature": "Senjutsu + Oodama Rasengan"
+      },
+      {
+        "nature": "Aoi Katon + Senjutsu",
+        "status": "Exige controle avançado de chakra e equilíbrio constante com a energia natural. O consumo é elevado, mas sustentável para usuários experientes em Modo Sábio. Quanto maior a quantidade de senjutsu aplicada, mais resistente e devastador o dragão se torna.",
+        "history": "Após dominar o Aoi Katon concedido pela Matatabi, Nishinoya buscou uma forma de transformar suas chamas em algo mais versátil e imponente. Inspirado nas antigas técnicas de dragões elementais e ao aperfeiçoar seu controle de energia natural, ele desenvolveu o Ryūen Aoi — uma técnica que simboliza a fusão entre instinto bestial e sabedoria espiritual.",
+        "description": "Nishinoya canaliza o Aoi Katon herdado da Matatabi e molda as chamas azuis em forma de um imenso dragão espiritual. A criatura surge em meio a uma explosão de fogo azul intenso, serpenteando pelo campo de batalha com movimentos fluidos e majestosos. Em seguida, ele infunde o dragão com chakra sábio, densificando sua estrutura e tornando-o uma manifestação semi-sólida de energia natural e fogo divino. O dragão ruge e avança contra o alvo, podendo perseguir o oponente com precisão guiada pelo controle de chakra de Nishinoya. Ao colidir, libera uma explosão concentrada de chamas azuis espirituais que se expandem como uma tempestade incandescente.",
+        "name": "Senpo Aoi Katon: Ryūen Aoi",
+        "destruction": "Altamente destrutiva em médio e longo alcance. O impacto do dragão gera uma detonação massiva de fogo azul amplificado por senjutsu, capaz de devastar grandes áreas e incinerar múltiplos inimigos simultaneamente. As chamas sábias queimam não apenas a matéria física, mas também desestabilizam o fluxo de chakra do oponente, dificultando técnicas defensivas e regenerativas.",
+        "classification": "S+",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F14%20-%20Senpo%20Aoi%20Katon%3A%20Ry%C5%ABen%20Aoi.png?alt=media&v=1787843401061883"
+      },
+      {
+        "name": "Senpo Hiraishin: Aoi Ryōiki",
+        "classification": "S+",
+        "nature": "Hiraishin + Aoi Katon + Fuinjutsu + Senjutsu",
+        "description": "Com o Modo Sábio ativo, Nishinoya crava e dispersa dezenas de kunais e marcas de fuinjutsu em um perímetro escolhido, cada selo aceso por uma brasa de Aoi Katon do tamanho de uma vela. Os pontos se enxergam entre si: o chakra sábio corre pelo solo ligando marca a marca até fechar uma malha invisível sobre a área. Dentro dela, Nishinoya deixa de se deslocar — ele simplesmente está em qualquer ponto da malha no instante em que decide, sem gesto nem tempo de reação. E a malha responde a quem não é ele: qualquer corpo que atravesse a linha entre dois selos rompe o circuito, e o Aoi Katon acumulado naquele trecho sobe do chão em uma coluna de chama azul. Não é uma armadilha única, é um tabuleiro em que cada passo do inimigo escolhe qual armadilha acende — mover-se custa, e ficar parado custa mais, porque Nishinoya aparece onde ninguém está olhando.",
+        "destruction": "Baixa por acionamento individual — cada coluna de fogo azul queima e desestabiliza, mas não vaporiza. O poder está no acúmulo e na negação: um alvo encurralado leva dezenas de acionamentos, e nenhuma rota de fuga é gratuita. Contra grupos, a malha separa formações e obriga o inimigo a lutar isolado.",
+        "history": "Nasceu de um limite do Aoi Katon: Komyunikēshon. A rede de marcas dava a Nishinoya informação perfeita do campo e nada além disso — ele sabia exatamente onde o inimigo estava, mas ainda precisava chegar até lá. Como Hokage, percebeu que a diferença entre vencer uma batalha e impedir que ela se espalhasse estava em decidir onde ela poderia acontecer. Passou a acender as marcas em vez de apenas escutá-las.",
+        "status": "Exige Modo Sábio ativo e preparação: o perímetro precisa ser semeado antes ou nos primeiros instantes do combate, o que a torna forte em terreno escolhido e quase inútil em emboscada. A malha é fixa — se o inimigo consegue arrastar o combate para fora dela, Nishinoya perde toda a vantagem e precisa semear de novo. Manter os selos acesos consome chakra continuamente, e destruir o solo em volume suficiente rompe trechos da rede.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F19%20-%20Senp%C5%8D%20Hiraishin%3A%20Aoi%20Ry%C5%8Diki.png?alt=media&v=1786651869646802"
+      },
+      {
+        "name": "Senpo Rasengan",
+        "classification": "S",
+        "nature": "Senjutsu + Rasengan",
+        "description": "Versão mais simples e rápida do Rasengan de Nishinoya, moldada com o auxílio da energia natural do Modo Sábio. Diferente da variante Oodama, aqui ele prioriza velocidade de execução sobre escala: a esfera atinge o tamanho padrão em uma fração do tempo normal, permitindo encaixá-la no meio de uma sequência de golpes sem quebrar o ritmo do combate.",
+        "destruction": "Moderada e concentrada em um único ponto de impacto — suficiente para romper defesas comuns e causar dano interno localizado, sem o alcance ou a escala da versão Oodama.",
+        "history": "Foi a primeira adaptação de Nishinoya do Rasengan ao Modo Sábio, desenvolvida antes de ele dominar a escala necessária para o Senpo: Oodama Rasengan. Manteve-se em seu repertório mesmo depois, útil justamente por ser mais rápida de formar.",
+        "status": "Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690"
+      },
+      {
+        "name": "Senpo Aoi Katon: Gōkakyū no Jutsu",
+        "classification": "S+",
+        "nature": "Senjutsu + Aoi Katon",
+        "description": ""
+      },
+      {
+        "name": "Senpo Aoi Katon: Hōsenka no Jutsu",
+        "classification": "S+",
+        "nature": "Senjutsu + Aoi Katon",
+        "description": "Pode atacar até 4 inimigos com o mesmo dano."
+      },
+      {
+        "name": "Senpō Aoi Katon: Sōrai Gōka Mekkyaku",
+        "classification": "Z",
+        "nature": "Senjutsu + Aoi Katon",
+        "description": ""
+      }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Ponto Cego",
+      "Domínio do Fogo Azul",
+      "Crítico Avançado",
+      "Intuição",
+      "Saque Rápido",
+      "Instinto de Batalha: LM, CD",
+      "Velocista",
+      "Maestria: CD",
+      "Hiraishin",
+      "Clone Perfeito",
+      "Chakra Expandido: Namikaze",
+      "Hiraishin: Deus do Trovão",
+      "Maximizar",
+      "Técnica Poderosa",
+      "Maestria: CC",
+      "Crítico Aprimorado"
     ]
   },
   {

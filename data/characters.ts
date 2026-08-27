@@ -109,24 +109,24 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F15%20-%20Sennin%20Fuka%3A%20Modo%20S%C3%A1bio%20Aoi%20Katon.jpg?alt=media&v=1786651868141191"
       },
       {
-        name: "Bijuudama",
+        name: "Senpo: Bijuudama",
         classification: "S++",
         nature: "Matatabi",
         description: "Nishinoya ergue a mão enquanto o chakra da Matatabi flui livremente através dele. Uma esfera negra extremamente densa começa a se formar enquanto chamas azuis intensas da Nibi giram ao redor como uma tempestade viva. Graças à perfeita sincronização entre Nishinoya e Matatabi, a energia é comprimida de forma estável até atingir seu ponto máximo. Ao ser disparada, a Bijuudama corta o campo de batalha como um cometa envolto em fogo azul. No impacto, a esfera detona em uma explosão colossal, liberando uma onda de choque devastadora seguida por um mar de chamas azuis espirituais que se espalham pelo terreno.",
         destruction: "Devastação em larga escala. A explosão vaporiza o ponto de impacto e cria uma cratera gigantesca. As chamas azuis da Matatabi continuam queimando após a detonação inicial, consumindo chakra e incendiando tudo ao redor com fogo espiritual extremamente intenso.",
         history: "Desde os 14 anos, Nishinoya e Matatabi compartilham um vínculo raro entre Jinchuuriki e Bijuu. Diferente da maioria dos casos, Matatabi escolheu voluntariamente se selar dentro dele após reconhecer sua determinação e espírito. Com o passar dos anos, os dois se tornaram melhores amigos e parceiros de batalha. Graças a essa confiança absoluta, Nishinoya consegue manifestar a Bijuudama com estabilidade excepcional, canalizando o poder da Nibi como uma extensão natural de si mesmo.",
         status: "Técnica de poder extremo que exige grande quantidade de chakra. No entanto, graças à amizade e sincronização perfeita entre Nishinoya e Matatabi, o risco de perda de controle é drasticamente reduzido.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F09%20-%20Bijuudama.png?alt=media&v=1786651866657220"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F09%20-%20Senpo%3A%20Bijuudama.png?alt=media&v=1787843397195127"
       },
       {
-        name: "Senpo Enka Aoi Katon: Oodama Rasenshuriken",
+        name: "Senpo Aoi Enka Katon: Oodama Rasenshuriken",
         classification: "S++",
         nature: "Aoi Katon + Oodama Rasenshuriken + Senjutsu",
         description: "Nishinoya concentra uma quantidade massiva de chakra na palma da mão enquanto molda uma gigantesca esfera rotatória de energia. A estrutura do Rasengan evolui rapidamente para um Oodama Rasenshuriken, suas lâminas espirais girando com velocidade extrema. Diferente de versões comuns, o núcleo da técnica é envolvido por Enka Aoi Katon — chamas azuis intensas que giram junto à rotação da shuriken. Ao ativar o Modo Sábio, Nishinoya infunde energia natural na técnica, aumentando drasticamente sua estabilidade, poder destrutivo e velocidade de rotação. O calor, a rotação e o senjutsu se combinam criando uma arma devastadora que pode ser arremessada contra o alvo como um disco colossal de energia e fogo azul. Ao atingir o inimigo, a técnica explode em uma tempestade de lâminas microscópicas de chakra e fogo espiritual, dilacerando tudo na área de impacto.",
         destruction: "Extremamente destrutiva. O impacto inicial causa perfuração massiva devido à rotação do Rasenshuriken, enquanto as chamas azuis ampliadas pelo senjutsu intensificam a explosão e espalham fogo de alta intensidade pelo campo. A técnica também causa dano celular profundo devido às lâminas microscópicas de chakra, dificultando regeneração e recuperação do alvo.",
         history: "Após dominar o controle do Aoi Katon, Nishinoya buscou aprimorar ainda mais suas técnicas baseadas no Rasengan. Inspirando-se no conceito do Rasenshuriken criado por lendários shinobi, ele desenvolveu uma versão própria alimentada por suas chamas azuis especiais. Com o domínio do Modo Sábio, passou a incorporar energia natural à técnica, criando o Senpo Enka Aoi Katon: Oodama Rasenshuriken — uma forma ainda mais poderosa que combina calor extremo, rotação absoluta e senjutsu em um único ataque devastador.",
         status: "Uso extremamente exigente. Requer Modo Sábio ativo, controle avançado de chakra e domínio da natureza Aoi Katon para manter a estabilidade das chamas durante a rotação do Rasenshuriken. Se mal controlada, a técnica pode causar danos graves ao próprio usuário.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F10%20-%20Senpo%20Enka%20Aoi%20Katon%3A%20Oodama%20Rasenshuriken.png?alt=media&v=1786651866636047"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F10%20-%20Senpo%20Aoi%20Enka%20Katon%3A%20Oodama%20Rasenshuriken.png?alt=media&v=1787843399309081"
       },
       {
         name: "Shiki Fūjin",
@@ -179,14 +179,14 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F13%20-%20Senpo%3A%20Oodama%20Rasengan.jpg?alt=media&v=1786651868193816"
       },
       {
-        name: "Senpo: Ryūen Aoi",
+        name: "Senpo Aoi Katon: Ryūen Aoi",
         classification: "S+",
         nature: "Aoi Katon + Senjutsu",
         description: "Nishinoya canaliza o Aoi Katon herdado da Matatabi e molda as chamas azuis em forma de um imenso dragão espiritual. A criatura surge em meio a uma explosão de fogo azul intenso, serpenteando pelo campo de batalha com movimentos fluidos e majestosos. Em seguida, ele infunde o dragão com chakra sábio, densificando sua estrutura e tornando-o uma manifestação semi-sólida de energia natural e fogo divino. O dragão ruge e avança contra o alvo, podendo perseguir o oponente com precisão guiada pelo controle de chakra de Nishinoya. Ao colidir, libera uma explosão concentrada de chamas azuis espirituais que se expandem como uma tempestade incandescente.",
         destruction: "Altamente destrutiva em médio e longo alcance. O impacto do dragão gera uma detonação massiva de fogo azul amplificado por senjutsu, capaz de devastar grandes áreas e incinerar múltiplos inimigos simultaneamente. As chamas sábias queimam não apenas a matéria física, mas também desestabilizam o fluxo de chakra do oponente, dificultando técnicas defensivas e regenerativas.",
         history: "Após dominar o Aoi Katon concedido pela Matatabi, Nishinoya buscou uma forma de transformar suas chamas em algo mais versátil e imponente. Inspirado nas antigas técnicas de dragões elementais e ao aperfeiçoar seu controle de energia natural, ele desenvolveu o Ryūen Aoi — uma técnica que simboliza a fusão entre instinto bestial e sabedoria espiritual.",
         status: "Exige controle avançado de chakra e equilíbrio constante com a energia natural. O consumo é elevado, mas sustentável para usuários experientes em Modo Sábio. Quanto maior a quantidade de senjutsu aplicada, mais resistente e devastador o dragão se torna.",
-        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F14%20-%20Senpo%3A%20Ry%C5%ABen%20Aoi.png?alt=media&v=1786651868247973"
+        image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F14%20-%20Senpo%20Aoi%20Katon%3A%20Ry%C5%ABen%20Aoi.png?alt=media&v=1787843401061883"
       },
       {
         name: "Senpo Hiraishin: Aoi Ryōiki",
@@ -207,6 +207,24 @@ export const initialData: Character[] = [
         history: "Foi a primeira adaptação de Nishinoya do Rasengan ao Modo Sábio, desenvolvida antes de ele dominar a escala necessária para o Senpo: Oodama Rasengan. Manteve-se em seu repertório mesmo depois, útil justamente por ser mais rápida de formar.",
         status: "Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.",
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690"
+      },
+      {
+        name: "Senpo Aoi Katon: Gōkakyū no Jutsu",
+        classification: "S+",
+        nature: "Senjutsu + Aoi Katon",
+        description: ""
+      },
+      {
+        name: "Senpo Aoi Katon: Hōsenka no Jutsu",
+        classification: "S+",
+        nature: "Senjutsu + Aoi Katon",
+        description: "Pode atacar até 4 inimigos com o mesmo dano."
+      },
+      {
+        name: "Senpō Aoi Katon: Sōrai Gōka Mekkyaku",
+        classification: "Z",
+        nature: "Senjutsu + Aoi Katon",
+        description: ""
       }
     ],
     arsenal: [],
@@ -249,20 +267,23 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Deus Shinobi",
-      "Relâmpago Azul",
-      "Clone Perfeito",
-      "Hiraishin",
-      "Hiraishin: Deus do Trovão",
-      "Instinto de Batalha: LM, CD",
-      "Chakra Expandido Namikaze",
-      "Chakra Expandido Matatabi",
-      "Domínio do AOI Katon",
-      "Saque Rápido",
-      "Ponto Cego",
       "Acuidade",
+      "Ponto Cego",
+      "Domínio do Fogo Azul",
+      "Crítico Avançado",
       "Intuição",
-      "Técnica Poderosa"
+      "Saque Rápido",
+      "Instinto de Batalha: LM, CD",
+      "Velocista",
+      "Maestria: CD",
+      "Hiraishin",
+      "Clone Perfeito",
+      "Chakra Expandido: Namikaze",
+      "Hiraishin: Deus do Trovão",
+      "Maximizar",
+      "Técnica Poderosa",
+      "Maestria: CC",
+      "Crítico Aprimorado"
     ],
   },
   {

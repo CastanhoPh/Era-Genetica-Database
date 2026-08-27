@@ -141,7 +141,7 @@ Criador de técnicas lendárias, entre elas:
 - Fuinjutsu — Nível 15
 
 ## Aptidões
-Deus Shinobi, Relâmpago Azul, Clone Perfeito, Hiraishin, Hiraishin: Deus do Trovão, Instinto de Batalha: LM, CD, Chakra Expandido Namikaze, Chakra Expandido Matatabi, Domínio do AOI Katon, Saque Rápido, Ponto Cego, Acuidade, Intuição, Técnica Poderosa
+Acuidade, Ponto Cego, Domínio do Fogo Azul, Crítico Avançado, Intuição, Saque Rápido, Instinto de Batalha: LM, CD, Velocista, Maestria: CD, Hiraishin, Clone Perfeito, Chakra Expandido: Namikaze, Hiraishin: Deus do Trovão, Maximizar, Técnica Poderosa, Maestria: CC, Crítico Aprimorado
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -300,10 +300,10 @@ Foi essa fusão, alcançada aos 14 anos junto ao domínio absoluto do Katon e do
 Status de Uso:
 Estado estável e sustentável por longos períodos, sem os riscos de instabilidade comuns em fusões incompletas. É a base sobre a qual Nishinoya constrói o Senpo: Modo Matatabi (fusão com a Matatabi) e o Senpo Enka Aoi Katon: Bijuudama OodamaRasenShuriken, suas formas mais extremas.
 
-### 10. Bijuudama
+### 10. Senpo: Bijuudama
 Classificação: S++ | Natureza: Matatabi
 
-![Bijuudama](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F09%20-%20Bijuudama.png?alt=media&v=1786651866657220)
+![Senpo: Bijuudama](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F09%20-%20Senpo%3A%20Bijuudama.png?alt=media&v=1787843397195127)
 
 Descrição:
 Nishinoya ergue a mão enquanto o chakra da Matatabi flui livremente através dele. Uma esfera negra extremamente densa começa a se formar enquanto chamas azuis intensas da Nibi giram ao redor como uma tempestade viva. Graças à perfeita sincronização entre Nishinoya e Matatabi, a energia é comprimida de forma estável até atingir seu ponto máximo. Ao ser disparada, a Bijuudama corta o campo de batalha como um cometa envolto em fogo azul. No impacto, a esfera detona em uma explosão colossal, liberando uma onda de choque devastadora seguida por um mar de chamas azuis espirituais que se espalham pelo terreno.
@@ -317,10 +317,10 @@ Desde os 14 anos, Nishinoya e Matatabi compartilham um vínculo raro entre Jinch
 Status de Uso:
 Técnica de poder extremo que exige grande quantidade de chakra. No entanto, graças à amizade e sincronização perfeita entre Nishinoya e Matatabi, o risco de perda de controle é drasticamente reduzido.
 
-### 11. Senpo Enka Aoi Katon: Oodama Rasenshuriken
+### 11. Senpo Aoi Enka Katon: Oodama Rasenshuriken
 Classificação: S++ | Natureza: Aoi Katon + Oodama Rasenshuriken + Senjutsu
 
-![Senpo Enka Aoi Katon: Oodama Rasenshuriken](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F10%20-%20Senpo%20Enka%20Aoi%20Katon%3A%20Oodama%20Rasenshuriken.png?alt=media&v=1786651866636047)
+![Senpo Aoi Enka Katon: Oodama Rasenshuriken](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F10%20-%20Senpo%20Aoi%20Enka%20Katon%3A%20Oodama%20Rasenshuriken.png?alt=media&v=1787843399309081)
 
 Descrição:
 Nishinoya concentra uma quantidade massiva de chakra na palma da mão enquanto molda uma gigantesca esfera rotatória de energia. A estrutura do Rasengan evolui rapidamente para um Oodama Rasenshuriken, suas lâminas espirais girando com velocidade extrema. Diferente de versões comuns, o núcleo da técnica é envolvido por Enka Aoi Katon — chamas azuis intensas que giram junto à rotação da shuriken. Ao ativar o Modo Sábio, Nishinoya infunde energia natural na técnica, aumentando drasticamente sua estabilidade, poder destrutivo e velocidade de rotação. O calor, a rotação e o senjutsu se combinam criando uma arma devastadora que pode ser arremessada contra o alvo como um disco colossal de energia e fogo azul. Ao atingir o inimigo, a técnica explode em uma tempestade de lâminas microscópicas de chakra e fogo espiritual, dilacerando tudo na área de impacto.
@@ -419,10 +419,10 @@ Após dominar o Modo Sábio, Nishinoya começou a experimentar maneiras de aprim
 Status de Uso:
 Requer Modo Sábio ativo e controle preciso da mistura entre chakra e energia natural. Embora seja mais estável que muitas técnicas de senjutsu avançado, ainda exige grande quantidade de chakra e concentração para manter a rotação do Rasengan em escala ampliada.
 
-### 17. Senpo: Ryūen Aoi
+### 17. Senpo Aoi Katon: Ryūen Aoi
 Classificação: S+ | Natureza: Aoi Katon + Senjutsu
 
-![Senpo: Ryūen Aoi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F14%20-%20Senpo%3A%20Ry%C5%ABen%20Aoi.png?alt=media&v=1786651868247973)
+![Senpo Aoi Katon: Ryūen Aoi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F14%20-%20Senpo%20Aoi%20Katon%3A%20Ry%C5%ABen%20Aoi.png?alt=media&v=1787843401061883)
 
 Descrição:
 Nishinoya canaliza o Aoi Katon herdado da Matatabi e molda as chamas azuis em forma de um imenso dragão espiritual. A criatura surge em meio a uma explosão de fogo azul intenso, serpenteando pelo campo de batalha com movimentos fluidos e majestosos. Em seguida, ele infunde o dragão com chakra sábio, densificando sua estrutura e tornando-o uma manifestação semi-sólida de energia natural e fogo divino. O dragão ruge e avança contra o alvo, podendo perseguir o oponente com precisão guiada pelo controle de chakra de Nishinoya. Ao colidir, libera uma explosão concentrada de chamas azuis espirituais que se expandem como uma tempestade incandescente.
@@ -469,6 +469,57 @@ Foi a primeira adaptação de Nishinoya do Rasengan ao Modo Sábio, desenvolvida
 
 Status de Uso:
 Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.
+
+### 20. Senpo Aoi Katon: Gōkakyū no Jutsu
+Classificação: S+ | Natureza: Senjutsu + Aoi Katon
+
+
+
+Descrição:
+Desconhecido
+
+Destruição:
+Desconhecido
+
+História:
+Desconhecido
+
+Status de Uso:
+Desconhecido
+
+### 21. Senpo Aoi Katon: Hōsenka no Jutsu
+Classificação: S+ | Natureza: Senjutsu + Aoi Katon
+
+
+
+Descrição:
+Pode atacar até 4 inimigos com o mesmo dano.
+
+Destruição:
+Desconhecido
+
+História:
+Desconhecido
+
+Status de Uso:
+Desconhecido
+
+### 22. Senpō Aoi Katon: Sōrai Gōka Mekkyaku
+Classificação: Z | Natureza: Senjutsu + Aoi Katon
+
+
+
+Descrição:
+Desconhecido
+
+Destruição:
+Desconhecido
+
+História:
+Desconhecido
+
+Status de Uso:
+Desconhecido
 
 ---
 
