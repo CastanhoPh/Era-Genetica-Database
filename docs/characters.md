@@ -1645,7 +1645,7 @@ Sua principal habilidade se baseia em explosão de chakra conhecida como técnic
 - Hyuga no Fujo — Nível 2
 
 ## Aptidões
-Eien Mangekyou Sharingan, Sharingan, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+Arremessar, Chute Giratório, Maestria: CC, Sharingan, Ataque em Movimento, Crítico Aprimorado, Ponto Cego, Nidan Sharingan, Ataque Giratório, Dano Extra, Punho de Ferro, Sandan Sharingan, Ataque Múltiplo, De Pé, Reflexos, Mangekyou Sharingan, Ataque Progressivo, Lutador, Seguir Sombra, Eternal Mangekyou Sharingan
 
 ## Arsenal
 Nenhum item cadastrado.

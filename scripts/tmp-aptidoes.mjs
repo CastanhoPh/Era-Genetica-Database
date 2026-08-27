@@ -74,6 +74,14 @@ const LOTE = {
     'Byakugan', 'Duro de Matar', 'Rasteira',
     'Chute Giratório', 'Maestria: CC', 'Soco em Gancho',
   ],
+  // 20/20: primeiro no teto de aptidoes da ficha de jogo.
+  'najin-hatake': [
+    'Arremessar', 'Chute Giratório', 'Maestria: CC', 'Sharingan',
+    'Ataque em Movimento', 'Crítico Aprimorado', 'Ponto Cego', 'Nidan Sharingan',
+    'Ataque Giratório', 'Dano Extra', 'Punho de Ferro', 'Sandan Sharingan',
+    'Ataque Múltiplo', 'De Pé', 'Reflexos', 'Mangekyou Sharingan',
+    'Ataque Progressivo', 'Lutador', 'Seguir Sombra', 'Eternal Mangekyou Sharingan',
+  ],
 };
 
 const d = join(os.homedir(), 'Downloads');

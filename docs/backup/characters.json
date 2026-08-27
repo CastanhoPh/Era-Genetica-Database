@@ -7829,24 +7829,6 @@
       "vigor": 16,
       "perception": 6
     },
-    "aptitudes": [
-      "Eien Mangekyou Sharingan",
-      "Sharingan",
-      "Punho de Ferro",
-      "Lutador",
-      "Ataque em Movimento",
-      "Arremessar",
-      "Seguir Sombra",
-      "Ataque Giratório",
-      "Chute Giratório",
-      "Reflexos",
-      "Maestria: CC",
-      "Ataque Múltiplo",
-      "Ponto Cego",
-      "Dano Extra",
-      "Crítico Aprimorado",
-      "Ataque Progressivo"
-    ],
     "id": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FNajin%20Hatake.png?alt=media&v=1786651878666225",
     "titles": [
@@ -8321,6 +8303,28 @@
         "name": "Hyuga no Fujo",
         "level": 2
       }
+    ],
+    "aptitudes": [
+      "Arremessar",
+      "Chute Giratório",
+      "Maestria: CC",
+      "Sharingan",
+      "Ataque em Movimento",
+      "Crítico Aprimorado",
+      "Ponto Cego",
+      "Nidan Sharingan",
+      "Ataque Giratório",
+      "Dano Extra",
+      "Punho de Ferro",
+      "Sandan Sharingan",
+      "Ataque Múltiplo",
+      "De Pé",
+      "Reflexos",
+      "Mangekyou Sharingan",
+      "Ataque Progressivo",
+      "Lutador",
+      "Seguir Sombra",
+      "Eternal Mangekyou Sharingan"
     ]
   },
   {
