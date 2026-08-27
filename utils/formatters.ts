@@ -65,13 +65,30 @@ export const vilasDe = (c: { vila?: string[]; categories?: string[] }): string[]
   return de.filter(v => v in CORES_DE_VILA);
 };
 
-/**
- * Cor do selo de patente: a da primeira vila da ficha. Neutro para quem não tem vila — hoje só
- * o Genei e o Hades, que o Pedro deixou de fora de propósito.
- */
+/** A cor de cada organização, definida pelo Pedro em 27/08/2026. Mesma regra dos literais. */
+export const CORES_DE_ORG: Record<string, { texto: string; borda: string; fundo: string }> = {
+  OCA:    { texto: 'text-white',      borda: 'border-white/45',      fundo: 'bg-white/10' },
+  NoGuns: { texto: 'text-slate-400',  borda: 'border-slate-400/45',  fundo: 'bg-slate-400/10' },
+  Kiba:   { texto: 'text-pink-400',   borda: 'border-pink-500/45',   fundo: 'bg-pink-500/10' },
+};
 export const CORES_NEUTRAS = { texto: 'text-slate-300', borda: 'border-slate-500/40', fundo: 'bg-slate-500/10' };
-export const corDoSelo = (c: { vila?: string[]; categories?: string[] }) =>
-  CORES_DE_VILA[vilasDe(c)[0]] ?? CORES_NEUTRAS;
+
+/**
+ * A cor do selo acompanha a ORIGEM do que ele mostra, não o personagem: se o selo é a patente de
+ * uma organização, a cor é da organização; se é um cargo de vila, a cor é da vila. Assim a cor
+ * responde "de onde vem esse posto" em vez de repetir uma informação que a tag já dá.
+ *
+ * Quem tem duas organizações usa a que a própria patente nomeia — o Shikatsu, o Shikure e o Yuuto
+ * têm NoGuns e OCA, e a patente dos três é NoGuns.
+ */
+export const corDoSelo = (c: { vila?: string[]; categories?: string[]; organizacao?: string[]; patente?: string }) => {
+  if (c.patente) {
+    const orgs = c.organizacao ?? [];
+    const citada = orgs.find(o => c.patente!.toLowerCase().includes(o.toLowerCase())) ?? orgs[0];
+    if (citada && CORES_DE_ORG[citada]) return CORES_DE_ORG[citada];
+  }
+  return CORES_DE_VILA[vilasDe(c)[0]] ?? CORES_NEUTRAS;
+};
 
 /**
  * O nome do posto sem o ordinal: "3º Hokage" e "2º Hokage" viram "Hokage", "3º Líder da Ambu"

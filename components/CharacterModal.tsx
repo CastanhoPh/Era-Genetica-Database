@@ -11,7 +11,7 @@ import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
 import ResourceBar from './ResourceBar';
-import { formatImageUrl, seloDe, CORES_DE_VILA } from '../utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, CORES_DE_VILA, CORES_DE_ORG } from '../utils/formatters';
 
 // Carregado sob demanda: chart.js + react-chartjs-2 só entram no bundle quando
 // alguém realmente clica em "Radar" (a ficha abre com a visão de barras por padrão).
@@ -376,10 +376,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                         Hoje são 20 das 86, todas sem cargo e sem patente. */}
                     {seloDe(char) && (
                         <p className="mt-1.5 flex flex-wrap items-baseline gap-x-2 gap-y-1 text-sm font-bold">
-                            <span className="text-tech-accent">RANK: {seloDe(char).toUpperCase()}</span>
+                            <span className={corDoSelo(char).texto}>RANK: {seloDe(char).toUpperCase()}</span>
                             {/* O card mostra só o primeiro cargo; aqui cabe o resto. */}
                             {(char.cargo?.length ?? 0) > 1 && (
-                                <span className="text-tech-accent/60 text-xs">+ {char.cargo!.slice(1).join(" · ").toUpperCase()}</span>
+                                <span className={`text-xs opacity-60 ${corDoSelo(char).texto}`}>+ {char.cargo!.slice(1).join(" · ").toUpperCase()}</span>
                             )}
                         </p>
                     )}
@@ -407,8 +407,9 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             key={i}
                             onClick={() => onFilterTag?.(cat)}
                             title={`Filtrar pela tag ${cat}`}
-                            className={`text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 border transition-colors ${CORES_DE_VILA[cat]
-                                    ? `${CORES_DE_VILA[cat].borda} ${CORES_DE_VILA[cat].texto} ${CORES_DE_VILA[cat].fundo} hover:brightness-150`
+                            // A vila e a organização pintam a própria tag; o resto (#NPC, #Personagem) segue no ciano.
+                            className={`text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 border transition-colors ${(CORES_DE_VILA[cat] ?? CORES_DE_ORG[cat])
+                                    ? `${(CORES_DE_VILA[cat] ?? CORES_DE_ORG[cat]).borda} ${(CORES_DE_VILA[cat] ?? CORES_DE_ORG[cat]).texto} ${(CORES_DE_VILA[cat] ?? CORES_DE_ORG[cat]).fundo} hover:brightness-150`
                                     : 'border-tech-secondary/40 text-tech-secondary bg-tech-secondary/5 hover:bg-tech-secondary hover:text-black'
                                 }`}
                         >
