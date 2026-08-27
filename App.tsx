@@ -5,7 +5,7 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe, vilasDe, CORES_DE_VILA } from './utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, postosDe } from './utils/formatters';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
 // depois de uma interação do usuário (abrir ficha, trocar de aba, editar, logar).
@@ -199,12 +199,12 @@ export default function App() {
         return Array.from(clans).sort();
     }, [characters]);
 
-    // O selo do card e o filtro de posição saem do mesmo lugar: patente da organização primeiro,
-    // porque quem tem organização mostra a patente dela; depois o primeiro cargo da vila, que na
-    // lista do Pedro é sempre o posto mais alto; e o position antigo por último, para as fichas
-    // que ainda não foram migradas. String vazia = sem selo, pela regra "sem rank, nada no lugar".
+    // O filtro oferece o POSTO, sem ordinal: um "Hokage" só, não 1º, 2º e 3º em três linhas.
+    // E casa contra todos os postos da ficha, não só o do selo — o Katsuo aparece tanto em
+    // "Líder da Ambu" quanto em "Líder de Rastreio". Cargo e patente entram os dois, senão as
+    // 25 fichas que só têm patente de organização ficariam de fora do filtro.
     const uniquePositions = useMemo(() => {
-        const positions = new Set(characters.map(seloDe).filter(Boolean));
+        const positions = new Set(characters.flatMap(postosDe));
         return Array.from(positions).sort();
     }, [characters]);
 
@@ -227,7 +227,7 @@ export default function App() {
 
             // Advanced Filters
             const matchesClan = selectedClan === 'Todos' || c.clan === selectedClan;
-            const matchesPosition = selectedPosition === 'Todos' || seloDe(c) === selectedPosition;
+            const matchesPosition = selectedPosition === 'Todos' || postosDe(c).includes(selectedPosition);
 
             let matchesRole = true;
             if (selectedRole !== 'Todos') {
@@ -685,15 +685,6 @@ export default function App() {
                                         }`}
                                     style={{ animationDelay: `${Math.min(index * 50, 1000)}ms` }}
                                 >
-                                    {/* Filete da vila: a única marca de vila no card, e o que
-                                        deixa cinco vilas distinguíveis de relance numa grade. Duas
-                                        vilas viram duas faixas lado a lado. */}
-                                    <div className="flex h-[3px] shrink-0">
-                                        {vilasDe(char).map(v => (
-                                            <div key={v} title={v} className={`flex-1 ${CORES_DE_VILA[v].barra}`}></div>
-                                        ))}
-                                    </div>
-
                                     {/* Header Strip */}
                                     <div className="h-6 bg-tech-dim/30 border-b border-tech-border flex justify-between items-center px-2 text-[10px] text-tech-primary font-mono shrink-0 group-hover:bg-tech-primary/10 transition-colors">
                                         <span>ID: {char.id.toString().padStart(4, '0')}</span>
@@ -763,10 +754,13 @@ export default function App() {
                                                     que precisa ser lida por completo. O título inteiro está na ficha aberta. */}
                                                 <span className="text-xs text-tech-secondary font-bold uppercase truncate">{char.titles[0]}</span>
                                                 {seloDe(char) && (
-                                                    <span className={`text-[10px] uppercase tracking-wide px-1.5 py-px border shrink-0 whitespace-nowrap ${char.isDead
-                                                            ? 'text-red-500/80 border-red-900/50 bg-red-950/30'
-                                                            : 'text-tech-accent border-tech-accent/50 bg-tech-accent/10'
-                                                        }`}>{seloDe(char)}</span>
+                                                    // A cor do selo é a da vila do personagem: Konoha vermelho, Suna verde, Kiri azul,
+                                                    // Kumo amarelo, Iwa laranja. Neutro para quem não tem vila. Sem tratamento próprio
+                                                    // para falecido — a tarja MORTO e o nome riscado já dizem isso, e o vermelho de
+                                                    // Konoha brigaria com ele.
+                                                    <span className={`text-[10px] uppercase tracking-wide px-1.5 py-px border shrink-0 whitespace-nowrap ${corDoSelo(char).borda} ${corDoSelo(char).texto} ${corDoSelo(char).fundo}`}>
+                                                        {seloDe(char)}
+                                                    </span>
                                                 )}
                                             </div>
 

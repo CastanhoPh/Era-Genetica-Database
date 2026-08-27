@@ -49,18 +49,39 @@ export const seloDe = (c: { patente?: string; cargo?: string[]; position?: strin
  * de propósito: o Tailwind varre este arquivo em busca de literais, então `text-red-400` montado
  * em tempo de execução não geraria CSS nenhum e a cor sumiria no build.
  *
- * `barra` é o filete no topo do card, `texto`/`borda`/`fundo` compõem o chip da ficha.
+ * `texto`/`borda`/`fundo` compõem o selo de patente no card e a tag da vila na ficha.
  */
-export const CORES_DE_VILA: Record<string, { barra: string; texto: string; borda: string; fundo: string }> = {
-  Konohagakure: { barra: 'bg-red-500',    texto: 'text-red-400',    borda: 'border-red-500/40',    fundo: 'bg-red-500/10' },
-  Sunagakure:   { barra: 'bg-green-500',  texto: 'text-green-400',  borda: 'border-green-500/40',  fundo: 'bg-green-500/10' },
-  Kirigakure:   { barra: 'bg-blue-500',   texto: 'text-blue-400',   borda: 'border-blue-500/40',   fundo: 'bg-blue-500/10' },
-  Kumogakure:   { barra: 'bg-yellow-400', texto: 'text-yellow-300', borda: 'border-yellow-400/40', fundo: 'bg-yellow-400/10' },
-  Iwagakure:    { barra: 'bg-orange-500', texto: 'text-orange-400', borda: 'border-orange-500/40', fundo: 'bg-orange-500/10' },
+export const CORES_DE_VILA: Record<string, { texto: string; borda: string; fundo: string }> = {
+  Konohagakure: { texto: 'text-red-400',    borda: 'border-red-500/40',    fundo: 'bg-red-500/10' },
+  Sunagakure:   { texto: 'text-green-400',  borda: 'border-green-500/40',  fundo: 'bg-green-500/10' },
+  Kirigakure:   { texto: 'text-blue-400',   borda: 'border-blue-500/40',   fundo: 'bg-blue-500/10' },
+  Kumogakure:   { texto: 'text-yellow-300', borda: 'border-yellow-400/40', fundo: 'bg-yellow-400/10' },
+  Iwagakure:    { texto: 'text-orange-400', borda: 'border-orange-500/40', fundo: 'bg-orange-500/10' },
 };
 
 /** As vilas da ficha, em ordem, olhando o campo `vila` e caindo em `categories` se ele faltar. */
 export const vilasDe = (c: { vila?: string[]; categories?: string[] }): string[] => {
   const de = c.vila?.length ? c.vila : (c.categories ?? []);
   return de.filter(v => v in CORES_DE_VILA);
+};
+
+/**
+ * Cor do selo de patente: a da primeira vila da ficha. Neutro para quem não tem vila — hoje só
+ * o Genei e o Hades, que o Pedro deixou de fora de propósito.
+ */
+export const CORES_NEUTRAS = { texto: 'text-slate-300', borda: 'border-slate-500/40', fundo: 'bg-slate-500/10' };
+export const corDoSelo = (c: { vila?: string[]; categories?: string[] }) =>
+  CORES_DE_VILA[vilasDe(c)[0]] ?? CORES_NEUTRAS;
+
+/**
+ * O nome do posto sem o ordinal: "3º Hokage" e "2º Hokage" viram "Hokage", "3º Líder da Ambu"
+ * vira "Líder da Ambu". É o que o filtro oferece — um Hokage é um Hokage, e listar os três
+ * separadamente só multiplicava as opções sem agrupar ninguém.
+ */
+export const postoDe = (v: string): string => v.replace(/^\d+[ºª]\s*/, '').trim();
+
+/** Todos os postos da ficha, cargo e patente, já sem ordinal. É por aqui que o filtro casa. */
+export const postosDe = (c: { cargo?: string[]; patente?: string; position?: string }): string[] => {
+  const brutos = [...(c.cargo ?? []), c.patente, c.cargo?.length || c.patente ? undefined : c.position];
+  return [...new Set(brutos.filter((x): x is string => !!x).map(postoDe))];
 };
