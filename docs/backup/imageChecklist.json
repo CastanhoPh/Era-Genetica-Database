@@ -768,21 +768,21 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "A Fuga Impossível — Najin com Shizumi no colo",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
     "order": 50092,
     "personagens": [
       "Shizumi Uchiha",
       "Najin Hatake"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__kaito-katsumi-oddy-e-nagare-encontram-shoei-najin-e-takeshi",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Kaito, Katsumi, Oddy e Nagare encontram Shoei, Najin e Takeshi",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
     "order": 50084,
@@ -794,28 +794,30 @@
       "Najin Hatake",
       "Shoei Sarutobi",
       "Oddy Uchiha"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__najin-pegando-shizumi-no-colo",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Najin pegando Shizumi no colo",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
     "order": 50091,
     "personagens": [
       "Shizumi Uchiha",
       "Najin Hatake"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__naoki-e-hisoka-levam-os-7-de-konoha-e-shizumi-para-casa",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Naoki e Hisoka levam os 7 de Konoha e Shizumi para casa",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
     "order": 50093,
@@ -823,57 +825,64 @@
       "Shizumi Uchiha",
       "Hisoka Senju",
       "Naoki Uchiha"
-    ]
+    ],
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__os-7-de-konoha-ativando-a-alavanca",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Os 7 de Konoha ativando a alavanca",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50090
+    "order": 50090,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__os-7-de-konoha-colocando-a-pedra-azul",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Os 7 de Konoha colocando a Pedra Azul",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50087
+    "order": 50087,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__os-7-de-konoha-colocando-a-pedra-branca",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Os 7 de Konoha colocando a Pedra Branca",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50086
+    "order": 50086,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__os-7-de-konoha-colocando-a-pedra-verde",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Os 7 de Konoha colocando a Pedra Verde",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50089
+    "order": 50089,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__os-7-de-konoha-colocando-a-pedra-vermelha",
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Os 7 de Konoha colocando a Pedra Vermelha",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50088
+    "order": 50088,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__a-fuga__os-7-de-konoha-contam-o-que-aconteceu-para-tobirama",
@@ -918,10 +927,11 @@
     "temporada": "1ª Temporada",
     "arco": "Masmorra",
     "name": "Os 7 de Konoha vendo o túmulo de Salvador com 13%",
-    "done": false,
     "placeholder": false,
     "subarco": "A Fuga",
-    "order": 50085
+    "order": 50085,
+    "done": true,
+    "doneBy": "Zeck"
   },
   {
     "__docId": "1-temporada__masmorra__kaito-katsumi-nagare-e-oddy__kaito-e-katsumi-desviando-de-armadilhas",
