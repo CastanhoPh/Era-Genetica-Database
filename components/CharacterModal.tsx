@@ -465,6 +465,15 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             >
                                 Jutsus [{allTechniques.length}]
                             </button>
+                            {characterInvocacoes.length > 0 && (
+                                <button
+                                    onClick={() => goToTab('invocacoes')}
+                                    data-aba-ativa={activeTab === 'invocacoes' ? '1' : undefined}
+                                    className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'invocacoes' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
+                                >
+                                    Invocações [{characterInvocacoes.length}]
+                                </button>
+                            )}
                             <button
                                 onClick={() => goToTab('arsenal')}
                                 data-aba-ativa={activeTab === 'arsenal' ? '1' : undefined}
@@ -472,15 +481,6 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             >
                                 Arsenal [{characterCurrentSectionArsenal.length}]
                             </button>
-                            {characterInvocacoes.length > 0 && (
-                                <button
-                                    onClick={() => goToTab('invocacoes')}
-                                data-aba-ativa={activeTab === 'invocacoes' ? '1' : undefined}
-                                    className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'invocacoes' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
-                                >
-                                    Invocações [{characterInvocacoes.length}]
-                                </button>
-                            )}
                             <button
                                 onClick={() => goToTab('gallery')}
                                 data-aba-ativa={activeTab === 'gallery' ? '1' : undefined}
