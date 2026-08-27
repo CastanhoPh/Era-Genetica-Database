@@ -5,7 +5,7 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe } from './utils/formatters';
+import { formatImageUrl, seloDe, vilasDe, CORES_DE_VILA } from './utils/formatters';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
 // depois de uma interação do usuário (abrir ficha, trocar de aba, editar, logar).
@@ -685,6 +685,15 @@ export default function App() {
                                         }`}
                                     style={{ animationDelay: `${Math.min(index * 50, 1000)}ms` }}
                                 >
+                                    {/* Filete da vila: a única marca de vila no card, e o que
+                                        deixa cinco vilas distinguíveis de relance numa grade. Duas
+                                        vilas viram duas faixas lado a lado. */}
+                                    <div className="flex h-[3px] shrink-0">
+                                        {vilasDe(char).map(v => (
+                                            <div key={v} title={v} className={`flex-1 ${CORES_DE_VILA[v].barra}`}></div>
+                                        ))}
+                                    </div>
+
                                     {/* Header Strip */}
                                     <div className="h-6 bg-tech-dim/30 border-b border-tech-border flex justify-between items-center px-2 text-[10px] text-tech-primary font-mono shrink-0 group-hover:bg-tech-primary/10 transition-colors">
                                         <span>ID: {char.id.toString().padStart(4, '0')}</span>

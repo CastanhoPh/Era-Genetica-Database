@@ -43,3 +43,24 @@ export const formatImageUrl = (url: string): string => {
  */
 export const seloDe = (c: { patente?: string; cargo?: string[]; position?: string }): string =>
   c.patente || c.cargo?.[0] || c.position || '';
+
+/**
+ * A cor de cada vila, definida pelo Pedro em 27/08/2026. As classes estão escritas por extenso
+ * de propósito: o Tailwind varre este arquivo em busca de literais, então `text-red-400` montado
+ * em tempo de execução não geraria CSS nenhum e a cor sumiria no build.
+ *
+ * `barra` é o filete no topo do card, `texto`/`borda`/`fundo` compõem o chip da ficha.
+ */
+export const CORES_DE_VILA: Record<string, { barra: string; texto: string; borda: string; fundo: string }> = {
+  Konohagakure: { barra: 'bg-red-500',    texto: 'text-red-400',    borda: 'border-red-500/40',    fundo: 'bg-red-500/10' },
+  Sunagakure:   { barra: 'bg-green-500',  texto: 'text-green-400',  borda: 'border-green-500/40',  fundo: 'bg-green-500/10' },
+  Kirigakure:   { barra: 'bg-blue-500',   texto: 'text-blue-400',   borda: 'border-blue-500/40',   fundo: 'bg-blue-500/10' },
+  Kumogakure:   { barra: 'bg-yellow-400', texto: 'text-yellow-300', borda: 'border-yellow-400/40', fundo: 'bg-yellow-400/10' },
+  Iwagakure:    { barra: 'bg-orange-500', texto: 'text-orange-400', borda: 'border-orange-500/40', fundo: 'bg-orange-500/10' },
+};
+
+/** As vilas da ficha, em ordem, olhando o campo `vila` e caindo em `categories` se ele faltar. */
+export const vilasDe = (c: { vila?: string[]; categories?: string[] }): string[] => {
+  const de = c.vila?.length ? c.vila : (c.categories ?? []);
+  return de.filter(v => v in CORES_DE_VILA);
+};
