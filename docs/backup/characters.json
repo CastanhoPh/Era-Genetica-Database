@@ -11,7 +11,6 @@
       "Legado de Senju Hashirama",
       "Herdeira do Mokuton"
     ],
-    "position": "Jounin de Elite",
     "role": "Suporte",
     "description": "",
     "aptitudes": [
@@ -247,7 +246,12 @@
         "nature": "Mokuton",
         "village": "Konohagakure"
       }
-    ]
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Jounin de Elite",
+    "position": ""
   },
   {
     "__docId": "akairo-uchiha-a",
@@ -408,7 +412,14 @@
       "vigor": 20,
       "agility": 8,
       "perception": 20
-    }
+    },
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Líder dos 75%"
   },
   {
     "__docId": "akane-sumigami",
@@ -460,7 +471,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "akira-dokuhana",
@@ -548,7 +565,14 @@
         "nature": "Senjutsu",
         "village": "Sunagakure"
       }
-    ]
+    ],
+    "organizacao": [
+      "NoGuns"
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "patente": "NoGuns"
   },
   {
     "__docId": "apollo-sarutobi",
@@ -760,7 +784,14 @@
         "nature": "Senjutsu",
         "village": "Konohagakure"
       }
-    ]
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Terceiro Degrau"
   },
   {
     "__docId": "arashi-shidehara",
@@ -812,7 +843,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "asami-hyuga",
@@ -826,7 +863,6 @@
       "Líder dos Hyuga"
     ],
     "nc": 25,
-    "position": "Sannin",
     "role": "DPS e Suporte",
     "description": "",
     "hp": 210,
@@ -931,6 +967,14 @@
         "nature": "Fujogan",
         "village": "Konohagakure"
       }
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Sannin",
+    "position": "",
+    "cargo": [
+      "2ª Líder da Força Médica"
     ]
   },
   {
@@ -945,7 +989,6 @@
       "Princesa do Sharingan",
       "A quebra da Maldição"
     ],
-    "position": "Jounin de Elite",
     "role": "DPS",
     "description": "",
     "aptitudes": [
@@ -1146,7 +1189,12 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Jounin de Elite",
+    "position": ""
   },
   {
     "__docId": "beta",
@@ -1307,7 +1355,14 @@
         "eventId": "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi"
       }
     ],
-    "nc": 0
+    "nc": 0,
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Líder do Terceiro Degrau"
   },
   {
     "__docId": "borashi-hyuga-b",
@@ -1527,7 +1582,14 @@
         "nature": "Hyouton",
         "village": "Konohagakure"
       }
-    ]
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Vice Líder dos 75%"
   },
   {
     "__docId": "chigiri-chinoike",
@@ -1606,7 +1668,14 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "2º Kazekage das Sombras",
+      "Pilar da Memória"
+    ]
   },
   {
     "__docId": "chisaki-dokuhana-c",
@@ -1716,7 +1785,14 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "patente": "Vice Líder dos 75%"
   },
   {
     "__docId": "daichi-muujin",
@@ -1796,7 +1872,14 @@
     "divisaoAtributo": {
       "inteligencia": 60,
       "vigor": 40
-    }
+    },
+    "organizacao": [
+      "NoGuns"
+    ],
+    "vila": [
+      "Iwagakure"
+    ],
+    "patente": "Vice Líder da NoGuns"
   },
   {
     "__docId": "daiki-uzumaki-d",
@@ -1813,7 +1896,6 @@
       "Sombra Silenciosa"
     ],
     "nc": 18,
-    "position": "Sannin",
     "role": "Suporte e DPS",
     "description": "Daiki, conhecido como D, é uma existência nascida de um dos momentos mais sombrios da história ninja. Sua origem está ligada diretamente a Hades, o homem que declarou guerra ao sistema, e a Yumi Uzumaki, cuja vida foi marcada por um evento que jamais foi revelado por completo.\n\nDurante a invasão de Konoha, Yumi foi levada por Hades, desaparecendo sem deixar rastros. Por um ano inteiro, Tobirama liderou buscas incessantes, determinado a encontrá-la. Quando finalmente conseguiu, Yumi estava viva — mas profundamente abalada — e ao seu lado estava uma criança recém-nascida: Daiki.\n\nO que aconteceu durante aquele período nunca foi dito. Yumi carregava um silêncio pesado, uma vergonha que ninguém conseguiu quebrar, nem mesmo Tobirama.\n\nDaiki cresceu sem conhecer a verdade, mas seu nascimento não foi natural — ele foi criado com um propósito. Hades o concebeu como um receptáculo ideal, um corpo capaz de suportar experimentos extremos com chakra artificial, bijuu e chakra profano.\n\nApós um incidente envolvendo selos instáveis, Daiki foi levado por Hades ainda em estado crítico, sendo reconstruído em uma cápsula ao longo de anos. Cada célula sua foi refeita, moldada para resistir ao que nenhum humano suportaria.\n\nDesse processo nasceu o Hoshasenton, a Liberação de Radiação — uma mutação rara que transforma seu corpo em uma fonte silenciosa de destruição, corroendo chakra e vida de forma invisível.\n\nCombinado ao domínio absoluto de Kagejutsu, Daiki se tornou uma arma perfeita: não faz barulho, não deixa rastros e raramente falha.\n\nDentro da Equipe 75%, atua como especialista em infiltração e eliminação silenciosa, sempre presente, mas quase nunca percebido.\n\nApesar de ser filho de Hades, essa verdade permanece oculta, até mesmo entre seus aliados. Sua única conexão real é com Etsuko, com quem compartilha um vínculo silencioso que vai além das palavras.\n\nDaiki é calmo, disciplinado e distante, mas carrega dentro de si um vazio constante — fragmentos de memórias, sensações que não entende, e sonhos recorrentes com uma mulher que ele mal consegue reconhecer como sua mãe.\n\nEle vive dividido entre duas existências: a arma que foi criado para ser… e o humano que talvez ainda exista dentro dele.",
     "hp": 154,
@@ -1931,7 +2013,15 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Sannin",
+    "position": ""
   },
   {
     "__docId": "deruta-muujin-delta",
@@ -1941,12 +2031,7 @@
       "OCA",
       "Iwagakure"
     ],
-    "titles": [
-      "Tsuchikage",
-      "O Núcleo"
-    ],
     "nc": 28,
-    "position": "Tsuchikage",
     "role": "?",
     "description": "",
     "aptitudes": [
@@ -2099,6 +2184,20 @@
         "name": "Futon",
         "level": 14
       }
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Iwagakure"
+    ],
+    "cargo": [
+      "3º Tsuchikage",
+      "2º Governador"
+    ],
+    "position": "",
+    "titles": [
+      "O Núcleo"
     ]
   },
   {
@@ -2241,7 +2340,14 @@
       "perception": 10
     },
     "hp": 200,
-    "chakra": 88
+    "chakra": 88,
+    "organizacao": [
+      "Kiba"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "patente": "Vice Líder da Kiba"
   },
   {
     "__docId": "etsuko-senju-e",
@@ -2258,7 +2364,6 @@
       "Namorada de Furyuzan"
     ],
     "nc": 14,
-    "position": "Sannin",
     "role": "DPS",
     "description": "Etsuko Senju, conhecida como E, é o equilíbrio entre genialidade estratégica e poder explosivo contido. Nascida da união entre um Senju fugitivo da guerra e uma usuária natural do Shakuton, sua existência já era, por si só, uma anomalia rara. Criada longe dos grandes conflitos, em uma vila escondida, cresceu em um ambiente onde a paz era prioridade — mas seu talento nunca passou despercebido.\n\nHerdando o controle de chakra refinado dos Senju e a manipulação térmica devastadora de sua mãe, Etsuko demonstrou desde cedo uma capacidade incomum de entender e moldar energia ao seu redor. Essa assinatura única acabou sendo detectada pela Organização do Chakra Artificial, que a caçou sem hesitação.\n\nCapturada e forçada a participar dos experimentos, seu corpo absorveu o chakra profano com uma eficiência incomum, elevando rapidamente seu potencial sem comprometer sua estabilidade. Diferente da maioria, Etsuko não perdeu o controle — ela adaptou o sistema ao seu próprio estilo.\n\nFoi assim que desenvolveu sua versão pessoal do Hiraishin, abandonando as marcações tradicionais e utilizando agulhas minúsculas impregnadas com sua assinatura de chakra, espalhadas estrategicamente pelo campo de batalha. Com isso, transformou mobilidade em domínio absoluto de espaço, podendo surgir em qualquer ponto com precisão instantânea.\n\nDentro da Equipe 75%, Etsuko atua como uma mente tática silenciosa, muitas vezes subestimada por sua postura aparentemente preguiçosa e desinteressada. No entanto, por trás de sua calmaria existe uma leitura de combate impecável, capaz de antecipar movimentos e encerrar confrontos em questão de segundos.\n\nSua função vai além da estratégia — ela é responsável por impedir colapsos internos, resgatando aliados no limite e mantendo a equipe funcional mesmo diante do caos.\n\nMantém uma relação próxima com Daiki, sendo uma das poucas pessoas com quem compartilha momentos de reflexão genuína. Sua visão sobre os outros é fria, mas precisa — especialmente em relação a Akairo, que ela enxerga como alguém poderoso, porém perdido em sua própria força.\n\nDominando o Shakuton, o Rasengan e o Hiraishin em conjunto, Etsuko luta como um fenômeno imprevisível: silenciosa, precisa e inevitável.\n\nPara seus aliados, ela é segurança invisível. Para seus inimigos, é o fim que chega antes mesmo de ser percebido.\n\nO que Etsuko não sabe é que sua verdadeira história nunca lhe foi contada. Sua origem não é natural — ela foi criada através de experimentos secretos, utilizando células de Hashirama fornecidas por Tobirama e a kekkei genkai de Shakuton de sua mãe. Sua concepção ocorreu de forma artificial, sendo posteriormente implantada no útero materno para que pudesse nascer.\n\nPor esse motivo, ela nunca conheceu seu pai. A identidade que carrega também não é totalmente verdadeira — seu sobrenome real não é Senjuya, mas sim Senju.\n\nE para si mesma… ela é apenas alguém que já entendeu tudo — e por isso não vê motivo para se apressar.",
     "hp": 101,
@@ -2339,7 +2444,15 @@
     "divisaoAtributo": {
       "inteligencia": 65,
       "vigor": 35
-    }
+    },
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Sannin",
+    "position": ""
   },
   {
     "__docId": "furyuzan-chinoike",
@@ -2354,7 +2467,6 @@
       "Primeiro Experimento",
       "Jinchuriki Artificial"
     ],
-    "position": "Genin",
     "role": "DPS",
     "description": "Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.\n\nDesde muito jovem já era reconhecido por sua inteligência e personalidade inabaláveis mesmo sem ter lembranças dos seus pais. Com poucos anos de idade foi resgatado no meio de uma guerra pelos capangas de um tal Hades, que o levaram a um laboratório onde virou o primeiro experimento de chakra artificial, conseguindo resistir ao experimento, tornou-se o início de algo maior para a OCA, onde muitas crianças foram manipuladas e testadas visando ajudar a conquistar os objetivos do Hades.\n\nCom 13 anos, Furyuzan sofreu experiências traumáticas em um curto período de tempo que afetaram fortemente seu psicológico. Descobriu a manipulação que a OCA havia feito durante sua vida toda, sofreu pela morte do Kazuke e principalmente pela morte da E por quem se apaixonou. Após esses acontecimentos, Furyuzan prometeu vingança ao Hades e busca uma forma de trazer a E de volta à vida.\n\nEle utiliza um Arco de Sangue junto do Doton para formar barreiras e vencer o inimigo de forma estratégica (muitas vezes saindo ileso de combates), além de poder lutar corpo a corpo utilizando a Nuibari. Furyuzan ainda potencializa seu poder total quando usa sua Bijuu artificial em forma de Velociraptor.",
     "id": 9,
@@ -2583,7 +2695,15 @@
       "Chakra Expandido: Aokiba",
       "Intuição",
       "Réplica Enganadora"
-    ]
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Genin",
+    "position": ""
   },
   {
     "__docId": "fuyuki-dokuhana-f",
@@ -2600,7 +2720,6 @@
       "Presa Venenosa"
     ],
     "nc": 14,
-    "position": "Sannin",
     "role": "DPS",
     "description": "Fuyuki Aranami, conhecido como F, é a personificação viva de um erro que se recusou a morrer. Nascido em um vilarejo esquecido entre os vales de Kusagakure, sua existência já começou como uma anomalia: seu corpo produzia toxinas naturalmente, liberando venenos através do suor e da respiração — uma condição tão perigosa quanto incompreendida.\n\nAinda criança, viveu em meio a guerras constantes até que, aos oito anos, sua vila foi completamente destruída. Soterrado, envenenado pelo próprio corpo e abandonado entre cadáveres, Fuyuki foi dado como morto e lançado em uma vala comum.\n\nMas ele não morreu.\n\nHoras depois, entre corpos sem vida, ainda respirava.\n\nFoi nesse momento que a Organização do Chakra Artificial o encontrou. Intrigados, o levaram como cobaia e iniciaram experimentos que deveriam tê-lo matado — mas, ao invés disso, o transformaram.\n\nO chakra artificial e bijuu se fundiu às suas toxinas genéticas, criando um organismo instável, imprevisível e letal. Suas glândulas passaram a produzir venenos de múltiplos efeitos, seus canais de chakra se tornaram impossíveis de rastrear e sua própria presença passou a oscilar entre invisível e mortal.\n\nAinda assim, o maior dano não foi físico — foi emocional. O trauma da guerra e a perda de sua mãe nunca o abandonaram.\n\nSeu primeiro surto aconteceu ao tocar uma enfermeira que tentava ajudá-lo. Ela morreu em segundos.\n\nDesde então, Fuyuki vive com medo constante de seu próprio toque.\n\nPor anos, foi mantido em confinamento, considerado instável demais até mesmo para a organização.\n\nTudo mudou quando G foi enviado até ele. Pela primeira vez, alguém não o viu como uma arma, mas como uma pessoa. Sob sua orientação, Fuyuki aprendeu a conter parcialmente seus venenos, desenvolvendo também o Iryou Ninjutsu para salvar vidas — uma tentativa desesperada de equilibrar a destruição que carrega.\n\nHoje, como membro da Equipe 75%, atua como suporte ofensivo e médico, embora permaneça um risco constante.\n\nImpulsivo, sarcástico e emocionalmente fragmentado, esconde sua dor atrás de comportamento caótico. Ele teme Akairo, cuja fúria o faz reviver o inferno que sobreviveu, respeita Borashi à distância e encontra em G sua única âncora real.\n\nFuyuki luta não para vencer, mas para compensar. Para provar a si mesmo que ainda pode salvar alguém.\n\nPara o mundo, ele é veneno. Para a equipe, ele é instabilidade controlada.\n\nE para si mesmo… ele é um sobrevivente que nunca deveria ter acordado.",
     "hp": 101,
@@ -2709,7 +2828,15 @@
     "divisaoAtributo": {
       "inteligencia": 65,
       "vigor": 35
-    }
+    },
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "graduacao": "Sannin",
+    "position": ""
   },
   {
     "__docId": "ganmasen-yuki-gama",
@@ -2857,6 +2984,15 @@
         "name": "Raiton",
         "level": 14
       }
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "2º Mizukage"
     ]
   },
   {
@@ -3003,7 +3139,11 @@
       "perception": 8,
       "dexterity": 8,
       "strength": 20
-    }
+    },
+    "organizacao": [
+      "OCA"
+    ],
+    "patente": "Vice Líder dos 75%"
   },
   {
     "__docId": "gorai-arashiumi",
@@ -3057,7 +3197,13 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Vice Líder da Elite"
+    ]
   },
   {
     "__docId": "hades",
@@ -3131,7 +3277,11 @@
     ],
     "chakraColor": "#e8fbff",
     "id": 86,
-    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.jpeg?alt=media&v=1786983073679558"
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.jpeg?alt=media&v=1786983073679558",
+    "organizacao": [
+      "OCA"
+    ],
+    "patente": "Líder da OCA"
   },
   {
     "__docId": "hana-sabaku",
@@ -3302,7 +3452,13 @@
       "intelligence": 27,
       "perception": 30
     },
-    "hp": 241
+    "hp": 241,
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "2º Kazekage"
+    ]
   },
   {
     "__docId": "hashirama-senju",
@@ -3415,7 +3571,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "1º Hokage"
+    ]
   },
   {
     "__docId": "hayato-hanzo-h",
@@ -3431,7 +3593,6 @@
       "Traidor da OCA"
     ],
     "nc": 18,
-    "position": "Sannin",
     "role": "Suporte",
     "description": "Hayato Hanzo, conhecido como H, é a personificação de uma tempestade que perdeu tudo e decidiu se tornar algo além da própria natureza. Filho de Hanzo, um dos Três Sábios da Vila da Nuvem, Hayato nasceu cercado por legado, disciplina e poder.\n\nDesde cedo demonstrou domínio excepcional do Estilo Tempestade (Ranton), uma rara fusão entre Raiton e Suiton, sendo reconhecido como um prodígio destinado a herdar o título de Sábio do Trovão. Além de seu talento natural, também se destacou como espadachim, refinando seu kenjutsu sob os ensinamentos rigorosos de seu pai.\n\nDurante sua juventude, ajudou a treinar Takeshi Hatake no controle de chakra elemental, consolidando ainda mais sua reputação como um dos ninjas mais promissores de sua geração.\n\nNo entanto, sua história foi marcada por uma tragédia irreversível.\n\nDurante uma invasão conduzida por um esquadrão renegado da Organização do Chakra Artificial, sua vila foi devastada em busca de núcleos de bijuu. No caos da batalha, Hayato perdeu seu filho ainda pequeno, morto diante de seus olhos, enquanto ele próprio foi gravemente ferido tentando protegê-lo.\n\nO que restou de sua fé desmoronou completamente quando o Raikage se recusou a retaliar, classificando o ocorrido como um dano colateral inevitável.\n\nConsumido pela dor, pelo ódio e pela sensação de impotência, Hayato abandonou tudo — sua vila, seu nome e sua honra — desaparecendo nas montanhas.\n\nFoi nesse estado que encontrou Hades. Diferente dos outros, Hayato não foi capturado. Ele escolheu se transformar.\n\nSubmeteu-se voluntariamente ao ritual de fusão com chakra artificial, onde seu Estilo Tempestade entrou em colapso com o Raio Negro da organização, dando origem a uma nova forma de energia: o Raio Branco, um chakra instável, capaz de distorcer e destruir jutsus ainda em formação.\n\nAo emergir desse processo, Hayato deixou de ser apenas um homem — tornou-se uma força.\n\nDentro da Equipe 75%, ele atua como uma arma viva, controlada apenas por sua própria disciplina. Frio, silencioso e contido, sua presença impõe respeito imediato.\n\nEle não confia em Akairo, enxerga em Chisaki uma mente digna de respeito e observa Gen’ei com uma reverência silenciosa, como se visse nele um reflexo fragmentado de si mesmo.\n\nDiferente dos outros, Hayato nunca esquece o motivo de estar ali. Ele não busca redenção. Não busca perdão.\n\nEle fez uma promessa a Hades — e pretende cumpri-la.\n\nPara o mundo, ele é uma anomalia. Para a equipe, é destruição controlada.\n\nE para si mesmo… ele é a tempestade que decidiu reescrever o próprio céu.",
     "hp": 130,
@@ -3516,7 +3677,15 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "graduacao": "Sannin",
+    "position": ""
   },
   {
     "__docId": "hikaru-ishi",
@@ -3532,7 +3701,6 @@
       "O Escolhido"
     ],
     "nc": 20,
-    "position": "Sannin",
     "role": "Suporte",
     "description": "Hikaru Ishi é o filho do meio da família Ishi, irmão de Kaien e Hirato. Desde cedo, cresceu sob constante comparação com Kaien, sendo pressionado a alcançar o mesmo nível de força. Durante a adolescência, desenvolveu um sentimento de rivalidade e ressentimento, motivado por repetidas derrotas. Apesar de sua evolução, nunca conseguiu superá-lo.\n\nAos 16 anos, Hikaru herdou a lendária espada do tempo, Jikan no Ōken — uma arma ancestral capaz de manipular o fluxo temporal. Seu chakra possui uma natureza única, permitindo interagir diretamente com o tempo. No entanto, devido à complexidade da habilidade, Hikaru não consegue utilizar todo o potencial da espada, limitando-se principalmente a um recurso específico: retroceder brevemente no tempo no momento em que recebe um ataque, anulando danos imediatos.\n\nApós a deserção de Kaien, que passou a ser conhecido como Omega, Hikaru recebeu a missão de localizá-lo e recuperar a Seimei no Saidan, a espada que controla a vida, originalmente concedida ao primogênito do rei.\n\nDurante a missão, Hikaru invadiu diversas bases inimigas em busca de informações. Em uma dessas operações, encontrou um indivíduo identificado como Beta, que afirmou que Kaien havia sido morto por três ex-integrantes da OCA: Nagare Uzumaki, Furyuzan Chinoike e Kazuki Hoshigaki.\n\nSeguindo as instruções de Beta, Hikaru foi enviado a uma base onde supostamente “F havia morrido”, sendo informado de que seus alvos seriam enviados até ele. Conforme o plano, os três foram direcionados ao local. No entanto, um quarto indivíduo, identificado como H, acompanhou o grupo sem autorização, interferindo diretamente na estratégia de Beta.\n\nDurante o confronto, Hikaru entrou em combate contra o grupo e conseguiu eliminar H, que sacrificou a própria vida para proteger Nagare. Logo em seguida, aproveitando a abertura criada, Nagare finalizou Hikaru em combate, interrompendo completamente os planos de Beta.\n\nDiante dessas circunstâncias, a missão de Hikaru chegou ao fim sem sucesso.\n\nAté seus últimos momentos, Hikaru manteve sua abordagem estratégica, utilizando suas habilidades temporais para compensar suas limitações. Sua capacidade de reação e adaptação o tornava um oponente extremamente difícil de atingir, mesmo sem domínio total de seu poder.",
     "hp": 146,
@@ -3588,7 +3756,15 @@
       "espirito"
     ],
     "divisaoAtributo": {},
-    "combatStyle": "Distância"
+    "combatStyle": "Distância",
+    "vila": [
+      "Iwagakure"
+    ],
+    "graduacao": "Sannin",
+    "position": "",
+    "cargo": [
+      "Linhagem Temporal"
+    ]
   },
   {
     "__docId": "hirato-ishi",
@@ -3604,7 +3780,6 @@
       "O Filho Mais Novo do Rei"
     ],
     "nc": 20,
-    "position": "Sannin",
     "role": "DPS",
     "description": "Hirato Ishi é o filho mais novo da família Ishi, nascido como herdeiro direto da espada do rei e criado sob forte proteção e privilégio. Desde a infância, foi tratado como sucessor natural, principalmente por estar destinado a herdar a lendária Homura no Chikai, a espada ancestral capaz de controlar o Purazomaton.\n\nNo entanto, Hirato nasceu com uma limitação incomum: possuía apenas afinidade natural com o elemento Katon. Como resultado, a própria espada se adaptou ao seu chakra, restringindo seu poder ao controle de fogo, mantendo seu verdadeiro potencial selado.\n\nAos 12 anos, participou de uma missão de rastreamento envolvendo o Chōmei. Durante essa operação, conheceu Raikun Uzumaki, um shinobi que investigava a organização OCA. Os dois cooperaram na missão e estabeleceram uma relação de confiança. Como resultado direto dessa operação, Raikun obteve um chip contendo um Byakugan natural, que posteriormente possibilitou o desenvolvimento de um sistema de rastreamento de chakra artificial.\n\nApós a missão, seguiram caminhos diferentes.\n\nAos 16 anos, Hirato herdou oficialmente a Homura no Chikai e recebeu a missão de localizar seu irmão Kaien, que havia desertado, e recuperar a Seimei no Saidan. Durante essa busca, infiltrou-se em uma base onde encontrou Katsumi Hyuga, Kaito Senju, Oddy Uchiha, Shoei Sarutobi, Najin Hatake e Takeshi Hatake. Todos compartilhavam o mesmo objetivo: localizar um indivíduo conhecido como Omega.\n\nDiante disso, formaram uma aliança temporária.\n\nO grupo entrou em confronto com um membro da chamada “Equipe 75%”, identificado como D, que apresentava alterações físicas anormais, incluindo veias azuis e sinais de controle externo. Após um combate intenso, foram salvos pela intervenção de outros três membros da organização.\n\nAo retornarem para Konoha, Hirato participou de um acordo estratégico com Nishinoya, Hokage da época, formalizando cooperação diante da ameaça crescente.\n\nSeu destino foi selado durante a batalha na Fortaleza Yumei. Hirato foi morto por seu próprio irmão, Kaien, agora conhecido como Omega. Durante o confronto, Kaien afirmou que Hirato jamais compreenderia o peso da linhagem que carregava, alegando que o poder que lhe foi concedido era responsável por inúmeras mortes.\n\nEm seus momentos finais, Hirato tomou uma última decisão: transferiu a Homura no Chikai para Oddy Uchiha, reconhecendo nele a determinação de proteger os outros, mesmo ao custo da própria vida.\n\nHirato é lembrado como um herdeiro que nunca alcançou o verdadeiro potencial que lhe foi destinado, mas que, no fim, escolheu agir por vontade própria — não como sucessor de um legado, mas como alguém disposto a confiar o futuro a quem julgou digno.",
     "chakra": 70,
@@ -3661,7 +3836,15 @@
       "vigor": 12,
       "intelligence": 20
     },
-    "hp": 146
+    "hp": 146,
+    "vila": [
+      "Iwagakure"
+    ],
+    "graduacao": "Sannin",
+    "position": "",
+    "cargo": [
+      "Linhagem Natural"
+    ]
   },
   {
     "__docId": "hiroshi-hanzo",
@@ -3773,6 +3956,18 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure",
+      "Kumogakure"
+    ],
+    "patente": "Vice Líder da OCA",
+    "cargo": [
+      "2º General",
+      "3º Líder de Rastreio"
     ]
   },
   {
@@ -4071,6 +4266,15 @@
         "nature": "Mokuton",
         "village": "Konohagakure"
       }
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "3º Braço Esquerdo"
     ]
   },
   {
@@ -4197,6 +4401,12 @@
         "name": "Hachimon Tonkou",
         "level": 2
       }
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "2º Braço Esquerdo"
     ]
   },
   {
@@ -4249,7 +4459,13 @@
       "inteligencia",
       "vigor"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "kaien-ishi-omega",
@@ -4381,7 +4597,17 @@
       "perception": 12
     },
     "hp": 232,
-    "chakra": 100
+    "chakra": 100,
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Iwagakure"
+    ],
+    "cargo": [
+      "Linhagem Espiritual"
+    ],
+    "patente": "Vice Líder da OCA"
   },
   {
     "__docId": "kaito-senju",
@@ -4392,7 +4618,6 @@
       "Personagem",
       "Konohagakure"
     ],
-    "position": "Chunin",
     "role": "Tank e DPS",
     "description": "O prodígio que já é uma realidade, um gênio dentro do campo de batalha com suas habilidades técnicas e seu estilo de luta versátil e completo, sua resistência é invejável, dominante no estilo madeira, usuário do Oodama Rasengan Vermelho e treinado no modo eremita mokuton, misturando inteligência, resistência e determinação, é o ninja coringa de Konoha.\n\nKaito não promete mais levar o legado de seu pai, ele promete salvar o mundo da sujeira ninja.\n\nEle acredita em uma revolução em todo o mundo ninja, onde todos se unem em uma mesma ideia, em uma mesma mente e em um único poder principal.\n\nEle luta apenas para proteger a paz, mas guerreiros também não são inocentes, ele já matou uma pessoa por vingança e o ódio que o consumiu é o mesmo ódio que o sistema ninja impõe na mente das pessoas para que haja guerra, e seu irmão é a prova disso.\n\nA revolução de Kaito não busca poder; ela nasce do desespero de um mundo à beira do fim.",
     "arsenal": [
@@ -5163,7 +5388,12 @@
         "status": "Uso extremamente exaustivo. Requer Modo Sábio ativo e grande controle para evitar danos colaterais. Quanto maior a área coberta, maior o consumo de chakra e energia vital.",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FTecnicas%2F08%20-%20Senpo%3A%20Daijurin%20no%20jutsu.jpg?alt=media&v=1786651871229375"
       }
-    ]
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Chunin",
+    "position": ""
   },
   {
     "__docId": "kaizuka-hyuga",
@@ -5278,6 +5508,12 @@
         "nature": "Fujogan",
         "village": "Konohagakure"
       }
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "3º Hokage das Sombras"
     ]
   },
   {
@@ -5430,6 +5666,15 @@
         "name": "Nintaijutsu",
         "level": 14
       }
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "2º Raikage"
     ]
   },
   {
@@ -5441,7 +5686,6 @@
       "Konohagakure"
     ],
     "nc": 16,
-    "position": "Chunin",
     "role": "Tank",
     "hp": 138,
     "chakra": 58,
@@ -6006,24 +6250,26 @@
       "Chute Giratório",
       "Maestria: CC",
       "Soco em Gancho"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Chunin",
+    "position": "",
+    "cargo": [
+      "3º Líder da Equipe de Elite"
     ]
   },
   {
     "__docId": "katsuo-uzumaki",
     "name": "Katsuo Uzumaki",
     "clan": "Uzumaki",
-    "categories": [
-      "NPC",
-      "Konohagakure",
-      "OCA"
-    ],
     "titles": [
       "O Sobrevivente do Tempo",
       "Portador do Sacrifício",
       "O Que Pagou o Preço"
     ],
     "nc": 24,
-    "position": "Aposentado",
     "role": "DPS e Suporte",
     "description": "Katsuo Uzumaki é um nome que não deveria existir — não porque foi esquecido, mas porque deveria ter morrido. Aos 28 anos, durante o momento mais crítico da história recente ninja, ele realizou um ato proibido que quebrou as próprias leis da vida: ao presenciar a extração da Kurama de Naomi Uzumaki, Katsuo utilizou um Fuinjutsu perdido para converter 30 anos de sua própria vida em chakra vital puro, forçando o corpo dela a continuar funcionando mesmo após a perda parcial da Bijuu. Naomi sobreviveu… mas o preço foi pago por ele.\n\nEsse evento jamais veio à tona. O sacrifício de Katsuo foi mantido em absoluto sigilo, conhecido apenas por Tobirama, que compreendeu o peso e as consequências daquele ato. Em silêncio, permitiu que Katsuo se afastasse da linha de frente, oficialmente se aposentando do campo de batalha — não como punição, mas como necessidade. Incapaz de continuar lutando como antes, Katsuo assumiu uma nova função, tornando-se o líder da equipe de rastreamento de Konoha, onde sua experiência e percepção ainda poderiam ser usadas sem levá-lo à morte imediata.\n\nDesde aquele dia, Katsuo carrega um corpo que envelheceu décadas em instantes, com um sistema de chakra permanentemente danificado e instável. Ele não foi reconhecido, não foi celebrado — apenas continuou vivo. Nos anos seguintes, assistiu à consequência de sua escolha se desdobrar em tragédia: Naomi capturada, experimentos iniciados e o surgimento de novas vidas marcadas pela dor.\n\nMas o mundo seguiu… e Katsuo não.\n\nApós Hanzo fugir de Konoha com a chegada de Hades, algo nele quebrou de forma definitiva. Incapaz de aceitar o rumo que Konoha tomou — e principalmente a existência de Hades — Katsuo abandonou sua posição e desapareceu. Desde então, vaga pelo mundo ninja como uma sombra, rastreando incansavelmente aquele que fugiu no momento em que tudo começou.\n\nKatsuo não luta por redenção… ele luta para corrigir o erro que ele mesmo criou.",
     "powers": [
@@ -6188,7 +6434,20 @@
       "spirit": 18
     },
     "hp": 202,
-    "chakra": 96
+    "chakra": 96,
+    "vila": [
+      "Konohagakure"
+    ],
+    "organizacao": [],
+    "categories": [
+      "NPC",
+      "Konohagakure"
+    ],
+    "position": "3º Líder da Ambu",
+    "cargo": [
+      "3º Líder da Ambu",
+      "2º Líder de Rastreio"
+    ]
   },
   {
     "__docId": "kazuki-hoshigaki",
@@ -6204,7 +6463,6 @@
       "Kraken da OCA"
     ],
     "nc": 12,
-    "position": "Genin",
     "role": "Tank",
     "description": "",
     "hp": 106,
@@ -6321,7 +6579,15 @@
       "Rasteira",
       "Reflexos",
       "Velocista"
-    ]
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Kirigakure"
+    ],
+    "graduacao": "Genin",
+    "position": ""
   },
   {
     "__docId": "kenma-soryo",
@@ -6332,7 +6598,6 @@
       "Personagem",
       "Iwagakure"
     ],
-    "position": "Jounin",
     "role": "Tank",
     "description": "O Punho Sagrado da Guerra e o Herdeiro da Pedra Viva\n\nKenma Soryo cresceu em meio ao maior conflito já registrado no País da Guerra: Monges contra Samurais. Aos 14 anos, tornou-se discípulo direto de Oshō, o lendário líder espiritual dos monges, um homem que possuía poder suficiente para dominar tudo, mas escolheu a paz. Kenma testemunhou a morte do irmão de seu mestre, um guerreiro que, antes de cair, derrotou dois portadores das Espadas Lendárias da Terra. Viu também Oshō derrotar o último espadachim — aquele cuja lâmina controlava vida e morte — selando o destino da guerra e dividindo o território em equilíbrio forçado.\n\nMesmo após o tratado que estabeleceu alternância de poder e a escolha cíclica do Tsuchikage, a paz começou a ruir com o surgimento de forças externas e o enfraquecimento espiritual das Pedras Sagradas. Enquanto o mundo mudava, Kenma nunca deixou de treinar. Nas sombras, longe da política e da instabilidade, ele aprimorou corpo e espírito, tornando-se algo além de um simples monge.\n\nDominador do Modo Sábio dos Monges, Kenma canaliza energia natural espiritual e cobre o corpo com marcas douradas que ampliam sua força, resistência e percepção de chakra a níveis extraordinários. Seu Doton avançado permite manipular rocha e solo como extensões do próprio corpo, criar armaduras de pedra viva e desferir golpes com impacto sísmico capazes de abrir crateras no campo de batalha.\n\nAo combinar Sennin e Doton, transforma o combate corpo a corpo em devastação absoluta — socos que partem a terra, pisadas que erguem muralhas e uma pele com resistência comparável ao granito. Ainda assim, carrega os ensinamentos pacifistas de Oshō no coração. Kenma não luta por dominação, mas para restaurar o equilíbrio espiritual que está à beira do colapso.\n\nPortador de Técnicas únicas:\n* Modo Sábio dos Monges\n* Armadura de Pedra Viva\n* Impacto Sísmico Sennin",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.jpg?alt=media&v=1786651886159192",
@@ -6466,6 +6731,14 @@
       "Reflexos",
       "Crítico Aprimorado",
       "Seguir Sombra"
+    ],
+    "vila": [
+      "Iwagakure"
+    ],
+    "graduacao": "Jounin",
+    "position": "",
+    "cargo": [
+      "Líder do Dojo"
     ]
   },
   {
@@ -6520,7 +6793,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Líder da Elite"
+    ]
   },
   {
     "__docId": "koji-ishizuma",
@@ -6593,7 +6872,14 @@
       "vigor": 18,
       "intelligence": 10,
       "perception": 7
-    }
+    },
+    "organizacao": [
+      "NoGuns"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "patente": "Vice Líder da NoGuns"
   },
   {
     "__docId": "kurohime-kazeori",
@@ -6684,6 +6970,12 @@
         "nature": "Senjutsu",
         "village": "Sunagakure"
       }
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "Pilar do Julgamento"
     ]
   },
   {
@@ -6877,7 +7169,14 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Terceiro Degrau"
   },
   {
     "__docId": "madara-uchiha",
@@ -6982,7 +7281,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "1º Hokage das Sombras"
+    ]
   },
   {
     "__docId": "midori-kurogane",
@@ -7034,7 +7339,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "mika-yotsuki",
@@ -7051,7 +7362,6 @@
       "Fundadora da Kiba"
     ],
     "nc": 24,
-    "position": "Lider da Kiba",
     "role": "Suporte",
     "description": "Mika Yotsuki é conhecida dentro da Kiba como a Inteligência da organização.\n\nDiferente de Yuji, Reito e Yoru, Mika não representa destruição, brutalidade ou presença fantasmagórica em campo.\n\nEla representa ausência.\n\nMika nasceu com uma alteração extremamente rara em seu fluxo de chakra. Seu chakra possui uma propriedade natural de ocultação, capaz de apagar não apenas sua assinatura energética, mas também a forma como sua existência é interpretada por sensores.\n\nEnquanto ninjas comuns escondem o corpo...\nMika esconde a leitura do próprio mundo.\n\nSua ocultação é tão refinada que consegue desaparecer até mesmo diante de métodos avançados de detecção, incluindo Byakugan, Fujogan e Kagura Shingan.\n\nPara sensores comuns, Mika não está escondida.\nEla simplesmente não existe.\n\nEssa anomalia fez com que a OCA tentasse capturá-la diversas vezes durante a corrupção de Kumogakure, pois seu chakra representava a base perfeita para tecnologia de infiltração absoluta.\n\nAntes que isso acontecesse, Mika desapareceu dos registros oficiais e passou a operar ao lado de Yuji, Reito e Yoru.\n\nFoi a partir do estudo de seu próprio chakra que Mika desenvolveu a tecnologia de ocultação utilizada no Kasa, o chapéu tecnológico de Yoru Kurogami.\n\nO Kasa não é apenas uma ferramenta de invisibilidade.\n\nEle é uma tentativa artificial de reproduzir uma fração da ocultação natural de Mika.\n\nDentro da Kiba, Mika coordena rotas, apaga rastros, intercepta comunicações, falsifica assinaturas de chakra, manipula dados roubados da OCA e impede que a organização seja encontrada.\n\nEla não costuma entrar em combate direto.\n\nMas quando entra, o inimigo raramente percebe que a luta começou.\n\nMika é calma, analítica e extremamente difícil de ler. Ela fala pouco, observa tudo e costuma prever falhas antes mesmo que os outros membros percebam o perigo.\n\nYuji é o líder da Kiba.\n\nMas Mika é a razão pela qual a Kiba continua sendo uma lenda urbana.\n\nExiste uma frase dita por Yoru sobre ela:\n\n'Se Mika quiser desaparecer, nem os deuses sensores saberão que ela nasceu.'",
     "hp": 184,
@@ -7154,7 +7464,18 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "organizacao": [
+      "Kiba"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "position": "Líder da Kiba",
+    "cargo": [
+      "Membro da Elite"
+    ],
+    "patente": "Líder da Kiba"
   },
   {
     "__docId": "mizue-dokuhana",
@@ -7235,7 +7556,13 @@
       "inteligencia",
       "vigor"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "Pilar do Sacrifício"
+    ]
   },
   {
     "__docId": "nagare-uzumaki",
@@ -7251,7 +7578,6 @@
       "O Teleportador",
       "Assassino de A"
     ],
-    "position": "Chunin",
     "role": "DPS e Suporte",
     "description": "O Fantasma dos Uzumaki e a Voz da Destruição\\n\\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\\n\\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\\n\\nPortador de Técnicas únicas:\\n* Kaminari Branco\\n* Amenotejikara",
     "id": 3,
@@ -7647,7 +7973,15 @@
       "Velocista",
       "Chakra Expandido: Uzumaki",
       "Potencializar"
-    ]
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Chunin",
+    "position": ""
   },
   {
     "__docId": "nagi-yuki",
@@ -7802,7 +8136,14 @@
         "nature": "Hyouton",
         "village": "Kirigakure"
       }
-    ]
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Terceiro Degrau"
   },
   {
     "__docId": "najin-hatake",
@@ -7813,7 +8154,6 @@
       "Konohagakure"
     ],
     "nc": 16,
-    "position": "Genin",
     "role": "DPS",
     "description": "Um ninja sempre muito ambicioso e ganancioso que buscava poder para restaurar a honra de seu clã acima de tudo.\n\nEm sua jornada ele encontrou desafios, mas com os ensinamentos de seu mestre ele entendeu que a paz e a guerra caminham na mesma corda, najin evoluiu, amadureceu e entendeu como alimentar o desejo no seu coração.\n\nAinda muito jovem entrou para anbu e logo se tornou o recurso final da folha, Najin entendeu que sua vida pode ser um sacrifício pelas pessoas da vila, mesmo que seu mestre tenha se revelado seu pai e tentou levar por um caminho sombrio, Najin escolheu o próprio caminho, ele perdoou seu pai e hoje luta não por honra ou glória, nem mesmo pelas fissuras no seu coração, mas como um protetor, protetor dos inocentes e dos seus amigos, ele luta por aquilo que julga justo e vai defender até a morte aqueles que ele julga que devem viver.\n\nSua principal habilidade se baseia em explosão de chakra conhecida como técnica dos oito portões e diferentes técnicas de luta que se unem em um estilo único conhecido como Lótus taijutsu",
     "hp": 138,
@@ -8325,7 +8665,12 @@
       "Lutador",
       "Seguir Sombra",
       "Eternal Mangekyou Sharingan"
-    ]
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Genin",
+    "position": ""
   },
   {
     "__docId": "naoki-uchiha",
@@ -8649,6 +8994,12 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "3º Braço Direito"
     ]
   },
   {
@@ -8665,7 +9016,6 @@
       "Aprendiz de Tobirama",
       "Criança da Profecia"
     ],
-    "position": "3 Sannins Lendários",
     "role": "DPS",
     "arsenal": [
       32,
@@ -8844,7 +9194,18 @@
     "focosAtributo": [
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "3 Sannins Lendários",
+    "position": "",
+    "cargo": [
+      "3ª Dama"
+    ]
   },
   {
     "__docId": "nayara-kazemori",
@@ -8896,7 +9257,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "nishinoya-senju",
@@ -8906,13 +9273,6 @@
     "categories": [
       "NPC",
       "Konohagakure"
-    ],
-    "titles": [
-      "Deus Shinobi",
-      "Terceiro Hokage",
-      "Relâmpago Azul de Konoha",
-      "3 Sannins Lendários",
-      "Jinchuuriki"
     ],
     "nc": 30,
     "position": "3º Hokage",
@@ -9383,6 +9743,17 @@
         "status": "Uso simples e de baixo custo de chakra em comparação às demais técnicas de Senjutsu de Nishinoya — não exige o mesmo nível de controle que o Oodama Rasengan.",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FTecnicas%2F16%20-%20Senpo%20Rasengan.jpg?alt=media&v=1786651868197690"
       }
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "3º Hokage",
+      "2º Líder da Equipe de Elite"
+    ],
+    "titles": [
+      "Deus Shinobi",
+      "Relâmpago Azul de Konoha"
     ]
   },
   {
@@ -9393,7 +9764,6 @@
       "Personagem",
       "Konohagakure"
     ],
-    "position": "Chunin",
     "role": "DPS",
     "description": "O herdeiro do fogo. Um espadachim moldado pela dor.\nO homem que se recusa a deixar Konoha morrer.\n\nDesde muito jovem, Oddy Uchiha já era reconhecido por sua determinação e liderança natural, mesmo carregando o fardo de ser filho de Madara Uchiha. Seu poder não nasceu da ambição por domínio, mas da vontade de proteger a vila que escolheu como lar. Ainda criança, despertou o Sharingan ao perder o pai no Vale do Fim, marcando o início de um destino selado pela dor e pela escolha.\n\nApós ingressar na Nova ANBU, Oddy lutou na linha de frente contra a OCA, presenciando a queda de Konoha e a morte de figuras que moldaram sua vida — Nishinoya, Tobirama, Sho Uchiha e seus companheiros. Foi nesse massacre que despertou o Mangekyō Sharingan, não movido pelo ódio, mas pela perda absoluta de tudo o que jurou proteger.\n\nOddy é capaz de unir o poder do Katon Uchiha, o Mangekyō Sharingan e o caminho das duas lâminas, empunhando a Kusanagi do clã Uchiha e a Homura no Chikai, a espada de fogo herdada de Hirato. Seu estilo permite que ele use as chamas tanto para destruir quanto para salvar, manifestando a verdadeira Vontade do Fogo em sua forma mais pura.\n\nOddy Uchiha busca se tornar um deus shinobi, não por título, mas para que ninguém mais precise nascer das cinzas\n\nCriador e usuário de técnicas únicas, entre elas:\n\n- Amaterasu: Hi no Ishi (Chamas da Extinção e da Vida)\n- Katon: Ryūen no Jutsu (Dragão de Fogo)\n- Katon: Flechas Ígneas\n- Estilo Ryūka no Nintō (O Caminho das Dos Chamas)",
     "id": 4,
@@ -10057,7 +10427,12 @@
       "Chama Viva de Konoha",
       "Vencedor do Exame Chunin",
       "Legado de Najin Hatake"
-    ]
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Chunin",
+    "position": ""
   },
   {
     "__docId": "raiden-yotsuki",
@@ -10111,7 +10486,13 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "raikun-hatake",
@@ -10267,6 +10648,16 @@
         "name": "Fuinjutsu",
         "level": 15
       }
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "1º Líder da Equipe de Elite",
+      "2º Líder de Inovações"
     ]
   },
   {
@@ -10319,7 +10710,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "reika-uzumaki",
@@ -10335,7 +10732,6 @@
       "Silêncio do Abismo"
     ],
     "nc": 8,
-    "position": "Genin",
     "role": "Suporte",
     "description": "Reika Uzumaki nasceu em meio ao sofrimento silencioso de sua mãe, mas sua existência nunca foi natural. Diferente de Shoyu, que ainda carregava traços de humanidade em sua origem, Reika foi concebida como experimento desde o primeiro instante — ainda no estágio de célula-ovo, Hades iniciou seu projeto mais ambicioso: fundir dois chakras de bijū estabilizados através de um núcleo de chakra profano. Kurama e Gyūki foram reduzidos a fragmentos manipuláveis e selados simultaneamente dentro de um único ser em formação, violando todas as leis naturais do mundo ninja. Reika não nasceu… ela foi construída. Durante seu desenvolvimento, o chakra profano atuou como um estabilizador artificial, impedindo que as duas forças se destruíssem mutuamente, criando uma fusão imperfeita, porém funcional. Seu corpo cresceu carregando traços sutis dessa dualidade, com padrões de chakra que oscilam entre o caos e a profundidade, como se duas presenças antigas coexistissem dentro dela em silêncio constante. Desde muito pequena, Reika demonstrava uma sensibilidade anormal ao chakra, não apenas percebendo energia, mas sentindo emoções como extensões físicas do ambiente. Dor, medo e desespero ecoavam dentro dela, amplificados pelas naturezas conflitantes em seu núcleo. Cresceu dentro da fortaleza Yumei, testemunhando a dor constante de Naomi e absorvendo cada fragmento emocional como parte de si mesma — não como trauma, mas como matéria-prima. Sua presença é calma, perturbadoramente calma. Reika não luta com raiva — luta com vazio, e esse vazio não é ausência, mas saturação. Ela é possivelmente a criatura com a maior reserva de chakra já registrada, possuindo níveis que ultrapassam em até três vezes o de um ninja comum. Ainda assim, esse poder não se manifesta de forma explosiva, mas como um abismo silencioso, denso e inevitável. No entanto, sua criação teve um custo: a fusão precoce e antinatural afetou seu desenvolvimento neurológico. Reika não fala — não por escolha, mas por incapacidade. Sua mente opera em um nível onde linguagem se torna irrelevante. Emoções, intenções e presença são sua forma de comunicação. Ela observa… sempre observa. E quando age, o mundo ao redor responde como se estivesse afundando junto com ela.",
     "hp": 59,
@@ -10426,7 +10822,15 @@
       "inteligencia": 45,
       "espirito": 37.5,
       "vigor": 17.5
-    }
+    },
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Genin",
+    "position": ""
   },
   {
     "__docId": "reito-kurogami",
@@ -10553,7 +10957,14 @@
       "vigor": 20,
       "intelligence": 12,
       "perception": 8
-    }
+    },
+    "organizacao": [
+      "Kiba"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "patente": "Vice Líder da Kiba"
   },
   {
     "__docId": "reto-sabaku",
@@ -10719,6 +11130,12 @@
         "status": "Consumo moderado. Exige mira perfeita e controle refinado de Futon. Contra inimigos com percepção elevada, é mais eficiente quando combinada ao Sakin no Reigan.",
         "image": ""
       }
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "1º Kazekage"
     ]
   },
   {
@@ -10895,7 +11312,15 @@
       "spirit": 20
     },
     "hp": 218,
-    "chakra": 105
+    "chakra": 105,
+    "vila": [
+      "Konohagakure",
+      "Iwagakure"
+    ],
+    "cargo": [
+      "2º Tsuchikage",
+      "3º Líder de Inovações"
+    ]
   },
   {
     "__docId": "ryuta-hyuga",
@@ -10994,6 +11419,9 @@
         "name": "Fuinjutsu",
         "level": 9
       }
+    ],
+    "vila": [
+      "Konohagakure"
     ]
   },
   {
@@ -11012,7 +11440,6 @@
     "aptitudes": [
       "Chakra Expandido Namikaze"
     ],
-    "position": "Sannin de Elite",
     "titles": [
       "Eremita de Myōboku"
     ],
@@ -11285,7 +11712,12 @@
         "nature": "Senjutsu",
         "village": "Konohagakure"
       }
-    ]
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Sannin de Elite",
+    "position": ""
   },
   {
     "__docId": "sayuri-sabaku",
@@ -11377,7 +11809,13 @@
       "vigor": 14,
       "agility": 8,
       "perception": 21
-    }
+    },
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "Pilar da Liberdade"
+    ]
   },
   {
     "__docId": "shiita-sabaku-theta",
@@ -11461,6 +11899,15 @@
         "name": "Fuinjutsu",
         "level": 14
       }
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "1º Kazekage das Sombras"
     ]
   },
   {
@@ -11600,7 +12047,14 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Terceiro Degrau"
   },
   {
     "__docId": "shikatsu-nara-togo-kage",
@@ -11741,7 +12195,15 @@
         "nature": "Kage Mane",
         "village": "Konohagakure"
       }
-    ]
+    ],
+    "organizacao": [
+      "NoGuns",
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "NoGuns"
   },
   {
     "__docId": "shikure-chinoike",
@@ -11848,7 +12310,15 @@
         "nature": "Ketton",
         "village": "Sunagakure"
       }
-    ]
+    ],
+    "organizacao": [
+      "NoGuns",
+      "OCA"
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "patente": "NoGuns"
   },
   {
     "__docId": "shin-mizukari",
@@ -11922,7 +12392,14 @@
       "perception": 7,
       "dexterity": 7,
       "intelligence": 10
-    }
+    },
+    "organizacao": [
+      "NoGuns"
+    ],
+    "vila": [
+      "Iwagakure"
+    ],
+    "patente": "NoGuns"
   },
   {
     "__docId": "shizumi-uchiha",
@@ -11936,7 +12413,6 @@
       "Espiã",
       "Olho da OCA"
     ],
-    "position": "Jounin de Elite",
     "role": "DPS",
     "description": "Shizumi Uchiha, reconhecida pelo próprio Tobirama como uma das mentes mais brilhantes de Konoha, sempre esteve muito à frente de sua geração. Desde a infância, demonstrou uma afinidade incomum com o Raiton, manipulando descargas elétricas com precisão e instinto quase naturais.\n\nNo entanto, seu verdadeiro diferencial nunca foi apenas poder — foi sua obsessão por compreender. Fascinada pelo lendário Hiraishin, Shizumi mergulhou profundamente no estudo de fuinjutsu, dedicando anos a desvendar os princípios por trás da manipulação de espaço, marcação e fluxo de chakra.\n\nSua trajetória, porém, foi brutalmente interrompida durante o fatídico sequestro das crianças de Konoha.\n\nCapturada, Shizumi foi submetida a um processo contínuo de tortura psicológica, onde sua mente foi levada ao limite repetidas vezes. Foi nesse abismo que seu Mangekyō Sharingan despertou — não como um símbolo de evolução, mas como resultado direto do colapso.\n\nDiferente de outros Uchiha, seus olhos não foram apenas despertados… foram forçados além do natural.\n\nMesmo após perder a visão, experimentos envolvendo chakra profano mantiveram seus olhos ativos artificialmente, obrigando-os a continuar funcionando contra todas as leis conhecidas. Nesse processo, algo inexplicável ocorreu: um dos tomoe de seu Sharingan simplesmente desapareceu, como se sua própria estrutura ocular estivesse sendo reescrita.\n\nSeu outro olho foi removido e implantado em um agente interno da OCA, criando uma conexão anômala. Através desse vínculo corrompido, Shizumi passou a enxergar pelo olho distante, transformando-se involuntariamente em um instrumento de vigilância viva da organização. Sua percepção deixou de estar presa ao próprio corpo.\n\nDurante o Exame Chunin, essa conexão atingiu um ponto crítico. Incapaz de controlar o fluxo instável de chakra e a sobrecarga sensorial, Shizumi sofreu um colapso, liberando o Amaterasu de forma caótica, incendiando tudo ao seu redor sem distinção.\n\nO evento marcou o fim de sua estabilidade mental.\n\nApós o incidente, Shizumi foi considerada instável demais para permanecer ativa. Ela foi contida e levada a um hospital secreto de Konoha, onde permanece em coma desde então.\n\nOficialmente, seu corpo repousa. Extraoficialmente, sua mente nunca deixou de observar.\n\nFragmentada, conectada e presa entre dois pontos, Shizumi existe em um estado indefinido — nem consciente, nem ausente.\n\nPara Konoha, ela é um risco selado. Para a OCA, um experimento ainda ativo.\n\nE para aqueles que entendem a profundidade do que ela se tornou… Shizumi não está dormindo. Ela está vendo.",
     "aptitudes": [
@@ -12094,7 +12570,12 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Jounin de Elite",
+    "position": ""
   },
   {
     "__docId": "shizuru-kurogane",
@@ -12148,7 +12629,13 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ]
   },
   {
     "__docId": "sho-uchiha",
@@ -12252,6 +12739,12 @@
         "name": "Hachimon Tonkou",
         "level": 7
       }
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "2º Braço Direito"
     ]
   },
   {
@@ -12268,7 +12761,6 @@
       "O Ninja do Amor"
     ],
     "nc": 12,
-    "position": "Genin",
     "role": "DPS",
     "description": "Shoei Sarutobi é uma tragédia viva dentro do mundo shinobi — um Genin do Clã Sarutobi carregando o peso de uma arma que nunca pediu para ser.\n\nRegistrado no cânone com o Status Morto, Shoei ficou conhecido por três títulos: Jinchūriki, Arma Secreta de Konoha e O Ninja do Amor.\n\nIrmão biológico de Apollo Netsu, originalmente Apollo Sarutobi, Shoei foi separado dele ainda criança após o incidente envolvendo a Bijuu Son Goku.\n\nNo dia em que Son Goku foi selado em seu corpo, Shoei perdeu completamente o controle. O chakra colapsou, o ambiente foi consumido pelas chamas e pela pressão brutal da Bijuu, e Apollo, que estava presente naquele momento, foi atingido diretamente.\n\nAs chamas avançaram sem intenção.\nMas deixaram uma marca eterna.\n\nOs braços de Apollo foram completamente queimados pelo poder descontrolado de Shoei, criando o primeiro impacto entre os dois irmãos antes mesmo que ambos pudessem compreender o próprio sangue que compartilhavam.\n\nApós o incidente, Kuromi reescreveu a mente de Shoei, apagando todo o seu passado. Suas memórias foram destruídas, sua origem foi enterrada e qualquer lembrança de Apollo desapareceu completamente.\n\nShoei cresceu sem saber quem era de verdade.\nSem saber que tinha um irmão.\nSem saber que sua maior tragédia havia começado no mesmo dia em que se tornou uma arma.\n\nEnquanto Apollo foi removido das sombras por Tobirama e teve sua existência apagada, Shoei permaneceu dentro do sistema shinobi, sendo tratado como uma peça estratégica de Konoha.\n\nDentro dele vivia Son Goku, a Quatro-Caudas.\n\nComo Jinchūriki, Shoei possuía acesso a um poder devastador, dominando o chakra de Son Goku em Nível 6, além de utilizar Yōton, Katon e Doton. Seu corpo carregava uma força destrutiva rara, capaz de transformar o campo de batalha em um inferno de lava, fogo e terra despedaçada.\n\nMas por trás da arma existia alguém diferente.\n\nShoei não era movido por ódio.\nNão era definido apenas pela Bijuu.\nNão era apenas o recipiente de Son Goku.\n\nEle era chamado de O Ninja do Amor porque, mesmo carregando uma besta dentro de si, ainda lutava por laços, por afeto e por aquilo que restava de humanidade no mundo shinobi.\n\nDurante o Exame Chūnin, ao liberar o chakra de Son Goku, algo impossível aconteceu.\n\nApollo reagiu.\n\nNão por memória.\nNão por consciência.\nMas por sangue.\n\nO chakra dos dois entrou em ressonância, e por um breve instante a verdade quase veio à tona: Shoei Sarutobi e Apollo Netsu não eram apenas conectados pela Bijuu.\n\nEram irmãos.\n\nAntes que essa conexão pudesse se completar, o infiltrado Beta agiu no momento exato. Usando Chakra Profano e Genjutsu, apagou aquele instante da percepção de Apollo e selou a ligação recém-despertada.\n\nPara Shoei, a verdade continuou enterrada.\nPara Apollo, restou apenas uma sensação sem nome.\n\nShoei empunhava a Kubikiribōchō, a lendária espada decapitadora das Sete Espadas da Névoa, capaz de se regenerar ao absorver o ferro presente no sangue dos inimigos.\n\nSua técnica mais poderosa permanece Desconhecida no cânone — um segredo ativo do universo, mantido como uma das maiores incógnitas ligadas ao seu verdadeiro potencial.\n\nShoei encontrou seu fim na Batalha da Fortaleza Yumei.\n\nEle foi morto por Ômega em um golpe rápido demais até mesmo para Nishinoya, usuário do Hiraishin, conseguir interceptar. Nishinoya viu o ataque.\nTentou reagir.\nE falhou.\n\n'Shoei foi morto em um golpe rápido demais. Nishinoya viu e falhou.'\n\nAssim morreu Shoei Sarutobi.\n\nNão apenas como Jinchūriki.\nNão apenas como arma secreta.\nMas como o irmão que nunca soube que tinha sido esquecido.\n\nO Ninja do Amor.",
     "hp": 94,
@@ -12600,7 +13092,12 @@
       "Maestria: CD",
       "Ponto Cego",
       "Potencializar"
-    ]
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Genin",
+    "position": ""
   },
   {
     "__docId": "shoyu-uzumaki",
@@ -12616,7 +13113,6 @@
       "Acidente Perfeito"
     ],
     "nc": 8,
-    "position": "Chunin",
     "role": "Suporte",
     "description": "Shoyu Uzumaki é, possivelmente, o maior prodígio que a história ninja já viu. Sua existência nasceu de um plano cruel: após inúmeras tentativas fracassadas de extrair o chakra da Kurama de sua mãe, Naomi, decidiram dividi-lo — mantendo metade nela e selando a outra metade em um filho, tornando a extração gradual possível. Mesmo diante desse destino, Naomi fez um único pedido: que a criança fosse de Nishinoya. Hades, no entanto, atendeu pessoalmente e, movido por ambição, roubou a identidade genética do Terceiro Hokage para criar aquele que viria a ser Shoyu. Nascido como um experimento, ele cresceu em meio à dor, ao medo e à necessidade de sobreviver. Ainda aos 5 anos, realizou o impossível: dominou o Katon com maestria e aprendeu o lendário Hiraishin, feito que desafia toda lógica ninja. Transformando simples bolinhas de gude em pontos de teleporte, Shoyu desenvolveu um estilo de combate imprevisível e absoluto. Cada habilidade sua nasceu da necessidade de proteger sua mãe. Não é apenas um gênio — é um erro que deu certo demais, um acidente perfeito que ultrapassou qualquer controle.",
     "hp": 59,
@@ -12748,7 +13244,15 @@
         "nature": "Kurama",
         "village": "Konohagakure"
       }
-    ]
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Chunin",
+    "position": ""
   },
   {
     "__docId": "souma-namikaze",
@@ -12838,7 +13342,6 @@
       "OCA"
     ],
     "id": 39,
-    "position": "Genin",
     "powers": [
       {
         "name": "Suiton",
@@ -12858,7 +13361,15 @@
       "inteligencia": 45,
       "espirito": 37.5,
       "vigor": 17.5
-    }
+    },
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Genin",
+    "position": ""
   },
   {
     "__docId": "takeshi-hatake",
@@ -12868,7 +13379,6 @@
       "Personagem",
       "Konohagakure"
     ],
-    "position": "Chunin",
     "role": "DPS",
     "description": "",
     "id": 7,
@@ -13305,7 +13815,12 @@
       "Kaminari",
       "Instinto de Batalha: LM, CD",
       "Ponto Cego"
-    ]
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Chunin",
+    "position": ""
   },
   {
     "__docId": "tessai-enshaku",
@@ -13385,7 +13900,13 @@
       "intelligence": 25,
       "perception": 10
     },
-    "chakra": 64
+    "chakra": 64,
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "Pilar da Construção"
+    ]
   },
   {
     "__docId": "tetsu-sabaku",
@@ -13482,7 +14003,13 @@
       "vigor",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Sunagakure"
+    ],
+    "cargo": [
+      "Pilar da Renúncia"
+    ]
   },
   {
     "__docId": "tobirama-senju",
@@ -13635,6 +14162,16 @@
         "season": "Clássico",
         "eventId": "prologo__treinamentos__kaito-e-tobirama"
       }
+    ],
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "cargo": [
+      "2º Hokage",
+      "1º Líder de Inovações"
     ]
   },
   {
@@ -13775,7 +14312,14 @@
     "divisaoAtributo": {
       "inteligencia": 52.5,
       "vigor": 47.5
-    }
+    },
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Sunagakure"
+    ],
+    "patente": "Terceiro Degrau"
   },
   {
     "__docId": "yoru-kurogami",
@@ -13792,7 +14336,6 @@
       "Vazio Sensorial"
     ],
     "nc": 20,
-    "position": "Vice líder da Kiba",
     "role": "Suporte",
     "description": "Yoru Kurogami é considerado o membro mais misterioso e perigoso da Kiba.\n\nDiferente de Yuji Yotsuki e Reito Kurogami, Yoru não domina batalhas através de força ou destruição.\n\nEle domina através do desaparecimento.\n\nEspecialista absoluto em infiltração, suporte tático, sabotagem e guerra sensorial, Yoru transformou Ranton e Raiton em ferramentas de ocultação e manipulação extremamente avançadas.\n\nSeu corpo alto, extremamente magro e de aparência quase doentia causa desconforto imediato em qualquer ambiente.\n\nVestindo roupas elegantes completamente negras com detalhes em verde água, Yoru utiliza constantemente o Kasa.\n\nUm chapéu tecnológico lendário criado pela Kiba utilizando pesquisas roubadas da OCA.\n\nO Kasa possui sistemas avançados de ocultação sensorial e emissão microscópica de chakra.\n\nAlém disso, Yoru possui um braço tecnológico integrado diretamente ao sistema central da Kiba.\n\nO braço contém:\n\n• Hardware tático\n• Banco de dados de chakra\n• Comunicação holográfica\n• Rastreamento neural\n• Sensores de leitura biológica\n• Análise tecnológica\n\nSeu estilo de combate não busca derrotar inimigos diretamente.\n\nYoru transforma aliados em fantasmas impossíveis de detectar enquanto destrói completamente a percepção do campo de batalha.\n\nDentro da Kiba existe uma frase conhecida sobre ele:\n\n'Se Yoru estiver presente...\nEntão vocês já desapareceram.'",
     "arsenal": [
@@ -13896,7 +14439,15 @@
       "spirit": 20
     },
     "hp": 146,
-    "chakra": 70
+    "chakra": 70,
+    "organizacao": [
+      "Kiba"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "position": "Vice Líder da Kiba",
+    "patente": "Vice Líder da Kiba"
   },
   {
     "__docId": "yuji-yotsuki",
@@ -14046,7 +14597,17 @@
       "vigor": 18,
       "agility": 9
     },
-    "hp": 184
+    "hp": 184,
+    "organizacao": [
+      "Kiba"
+    ],
+    "vila": [
+      "Kumogakure"
+    ],
+    "cargo": [
+      "Membro da Elite"
+    ],
+    "patente": "Líder da Kiba"
   },
   {
     "__docId": "yumi-uzumaki",
@@ -14062,7 +14623,6 @@
       "Assassina de Ryuzu"
     ],
     "nc": 25,
-    "position": "Sannin",
     "role": "Suporte",
     "description": "",
     "chakra": 128,
@@ -14191,7 +14751,16 @@
       "inteligencia",
       "espirito"
     ],
-    "divisaoAtributo": {}
+    "divisaoAtributo": {},
+    "vila": [
+      "Konohagakure"
+    ],
+    "graduacao": "Sannin",
+    "position": "",
+    "cargo": [
+      "2ª Dama",
+      "3ª Líder da Força Médica"
+    ]
   },
   {
     "__docId": "yuuto-han",
@@ -14278,6 +14847,14 @@
         "name": "Hachimon Tonkou",
         "level": 2
       }
-    ]
+    ],
+    "organizacao": [
+      "NoGuns",
+      "OCA"
+    ],
+    "vila": [
+      "Kirigakure"
+    ],
+    "patente": "NoGuns"
   }
 ]
