@@ -303,7 +303,7 @@ export const initialData: Character[] = [
     description: "O prodígio que já é uma realidade, um gênio dentro do campo de batalha com suas habilidades técnicas e seu estilo de luta versátil e completo, sua resistência é invejável, dominante no estilo madeira, usuário do Oodama Rasengan Vermelho e treinado no modo eremita mokuton, misturando inteligência, resistência e determinação, é o ninja coringa de Konoha.\n\nKaito não promete mais levar o legado de seu pai, ele promete salvar o mundo da sujeira ninja.\n\nEle acredita em uma revolução em todo o mundo ninja, onde todos se unem em uma mesma ideia, em uma mesma mente e em um único poder principal.\n\nEle luta apenas para proteger a paz, mas guerreiros também não são inocentes, ele já matou uma pessoa por vingança e o ódio que o consumiu é o mesmo ódio que o sistema ninja impõe na mente das pessoas para que haja guerra, e seu irmão é a prova disso.\n\nA revolução de Kaito não busca poder; ela nasce do desespero de um mundo à beira do fim.",
     hp: 133,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1786651869698045",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1787851081495084",
     techniques: [
       {
         name: "Mokuton: Eien no Tomo",
