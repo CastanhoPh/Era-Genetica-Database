@@ -740,18 +740,18 @@ export default function App() {
                                                 }`}>
                                                 {char.name}
                                             </h3>
-                                            <p className="text-xs text-tech-secondary font-bold uppercase mt-1">{char.titles[0]}</p>
-                                            {/* Patente em linha própria, não ao lado do título: em 32 das 86 fichas os dois
-                                                juntos passam de 40 caracteres, e a mais longa soma 53 — na mesma linha o
-                                                título é que seria truncado. */}
-                                            {char.position && (
-                                                <p className="mt-1.5">
-                                                    <span className={`inline-block text-[10px] uppercase tracking-wide px-1.5 py-px border ${char.isDead
+                                            <div className="flex items-baseline justify-between gap-2 mt-1">
+                                                {/* O título trunca e a patente fica inteira: em 32 das 86 fichas os dois juntos
+                                                    passam de 40 caracteres (o Gorai Arashiumi soma 53), e a patente curta é a
+                                                    que precisa ser lida por completo. O título inteiro está na ficha aberta. */}
+                                                <span className="text-xs text-tech-secondary font-bold uppercase truncate">{char.titles[0]}</span>
+                                                {char.position && (
+                                                    <span className={`text-[10px] uppercase tracking-wide px-1.5 py-px border shrink-0 whitespace-nowrap ${char.isDead
                                                             ? 'text-red-500/80 border-red-900/50 bg-red-950/30'
                                                             : 'text-tech-accent border-tech-accent/50 bg-tech-accent/10'
                                                         }`}>{char.position}</span>
-                                                </p>
-                                            )}
+                                                )}
+                                            </div>
 
                                             {/* Killer Info on Card */}
                                             {char.isDead && (
