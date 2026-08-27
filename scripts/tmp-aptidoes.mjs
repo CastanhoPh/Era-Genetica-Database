@@ -47,9 +47,18 @@ const LOTE = {
     'Crítico Aprimorado', 'Seguir Sombra',
   ],
   // "Shoei Barou" e "Shoei Sarutobi" sao a mesma pessoa, confirmado pelo Pedro.
+  // O Chakra Expandido: Son Goku voltou: era omissao da lista, nao perda pela historia.
   'shoei-sarutobi': [
+    'Chakra Expandido: Son Goku',
     'Acuidade', 'Ataque em Movimento', 'Duro de Matar', 'Intuição',
     'Lutar às Cegas', 'Maestria: CD', 'Ponto Cego', 'Potencializar',
+  ],
+  'nagare-uzumaki': [
+    'Domínio do Raio', 'Kagura Shingan', 'Maximizar',
+    'Kaminari', 'Kongou Fuusa', 'Punho de Ferro',
+    'Shiroki Kaminari', 'Maestria: CC', 'Reflexos',
+    'Ataque em Movimento', 'Mestre dos Selos', 'Velocista',
+    'Chakra Expandido: Uzumaki', 'Potencializar',
   ],
 };
 

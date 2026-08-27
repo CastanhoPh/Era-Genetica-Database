@@ -7248,21 +7248,6 @@
     "position": "Chunin",
     "role": "DPS e Suporte",
     "description": "O Fantasma dos Uzumaki e a Voz da Destruição\\n\\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\\n\\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\\n\\nPortador de Técnicas únicas:\\n* Kaminari Branco\\n* Amenotejikara",
-    "aptitudes": [
-      "Amenotejikara",
-      "Shiroki Kaminari",
-      "Kaminari",
-      "Chakra Expandido",
-      "Kagura Shigan",
-      "Velocista",
-      "Ataque em movimento",
-      "Punho de Ferro",
-      "Maestria: CC",
-      "Reflexos",
-      "Potencializar",
-      "Mestre dos Selos",
-      "Kongou Fuusa"
-    ],
     "id": 3,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.jpg?alt=media&v=1786651884017022",
     "arsenal": [
@@ -7640,6 +7625,22 @@
         "status": "Uso controlado. Exige grande concentração e resistência mental. Uso prolongado pode causar fadiga sensorial, dores de cabeça e sobrecarga cognitiva.",
         "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media&v=1786651886403581"
       }
+    ],
+    "aptitudes": [
+      "Domínio do Raio",
+      "Kagura Shingan",
+      "Maximizar",
+      "Kaminari",
+      "Kongou Fuusa",
+      "Punho de Ferro",
+      "Shiroki Kaminari",
+      "Maestria: CC",
+      "Reflexos",
+      "Ataque em Movimento",
+      "Mestre dos Selos",
+      "Velocista",
+      "Chakra Expandido: Uzumaki",
+      "Potencializar"
     ]
   },
   {
@@ -12580,6 +12581,7 @@
       "vigor": 27.5
     },
     "aptitudes": [
+      "Chakra Expandido: Son Goku",
       "Acuidade",
       "Ataque em Movimento",
       "Duro de Matar",

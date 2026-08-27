@@ -1401,6 +1401,7 @@ export const initialData: Character[] = [
       { name: "Doton", level: 6 }
     ],
     aptitudes: [
+      "Chakra Expandido: Son Goku",
       "Acuidade",
       "Ataque em Movimento",
       "Duro de Matar",
@@ -1727,19 +1728,20 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 8 }
     ],
     aptitudes: [
-      "Amenotejikara",
-      "Shiroki Kaminari",
+      "Domínio do Raio",
+      "Kagura Shingan",
+      "Maximizar",
       "Kaminari",
-      "Chakra Expandido",
-      "Kagura Shigan",
-      "Velocista",
-      "Ataque em movimento",
+      "Kongou Fuusa",
       "Punho de Ferro",
+      "Shiroki Kaminari",
       "Maestria: CC",
       "Reflexos",
-      "Potencializar",
+      "Ataque em Movimento",
       "Mestre dos Selos",
-      "Kongou Fuusa"
+      "Velocista",
+      "Chakra Expandido: Uzumaki",
+      "Potencializar"
     ],
   },
   {

@@ -789,7 +789,7 @@ O Fantasma dos Uzumaki e a Voz da Destruição\n\nNagare, desde muito cedo, foi 
 - Fuinjutsu — Nível 8
 
 ## Aptidões
-Amenotejikara, Shiroki Kaminari, Kaminari, Chakra Expandido, Kagura Shigan, Velocista, Ataque em movimento, Punho de Ferro, Maestria: CC, Reflexos, Potencializar, Mestre dos Selos, Kongou Fuusa
+Domínio do Raio, Kagura Shingan, Maximizar, Kaminari, Kongou Fuusa, Punho de Ferro, Shiroki Kaminari, Maestria: CC, Reflexos, Ataque em Movimento, Mestre dos Selos, Velocista, Chakra Expandido: Uzumaki, Potencializar
 
 ## Arsenal
 ### 1. Desconhecido
@@ -2114,7 +2114,7 @@ O Ninja do Amor.
 - Doton — Nível 6
 
 ## Aptidões
-Acuidade, Ataque em Movimento, Duro de Matar, Intuição, Lutar às Cegas, Maestria: CD, Ponto Cego, Potencializar
+Chakra Expandido: Son Goku, Acuidade, Ataque em Movimento, Duro de Matar, Intuição, Lutar às Cegas, Maestria: CD, Ponto Cego, Potencializar
 
 ## Arsenal
 Nenhum item cadastrado.
