@@ -39,6 +39,18 @@ const LOTE = {
     'Ambidestria', 'Ataque Poderoso', 'Bloqueio Ambidestro', 'Crítico Aprimorado (CC)',
     'Lutar às Cegas', 'Maestria: CC', 'Potencializar', 'Rasteira', 'Reflexos', 'Velocista',
   ],
+  'kenma-soryo': [
+    'Ambidestria', 'Dano Extra', 'Usar Arma: Martelo',
+    'Arremessar', 'Domínio da Terra', 'Usar Arma: Lança',
+    'Ataque em Movimento', 'Maestria: CC',
+    'Contragolpe', 'Reflexos',
+    'Crítico Aprimorado', 'Seguir Sombra',
+  ],
+  // "Shoei Barou" e "Shoei Sarutobi" sao a mesma pessoa, confirmado pelo Pedro.
+  'shoei-sarutobi': [
+    'Acuidade', 'Ataque em Movimento', 'Duro de Matar', 'Intuição',
+    'Lutar às Cegas', 'Maestria: CD', 'Ponto Cego', 'Potencializar',
+  ],
 };
 
 const d = join(os.homedir(), 'Downloads');

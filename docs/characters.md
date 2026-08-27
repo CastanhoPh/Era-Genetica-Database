@@ -2114,7 +2114,7 @@ O Ninja do Amor.
 - Doton — Nível 6
 
 ## Aptidões
-Chakra Expandido: Son Goku, Acuidade, Duro de Matar, Lutar as Cegas, Maestria: CD, Ponto Cego, Potencializar, Intuição, Ataque em Movimento
+Acuidade, Ataque em Movimento, Duro de Matar, Intuição, Lutar às Cegas, Maestria: CD, Ponto Cego, Potencializar
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -2465,7 +2465,7 @@ Portador de Técnicas únicas:
 - Fuinjutsu — Nível 8
 
 ## Aptidões
-Maestria: CC, Reflexos, Ataque em Movimento, Arremessar, Seguir Sombra, Dano Extra, Crítico Aprimorado, Contragolpe, Domínio da Terra, Ambidestria, Usar Arma (Kabutowari)
+Ambidestria, Dano Extra, Usar Arma: Martelo, Arremessar, Domínio da Terra, Usar Arma: Lança, Ataque em Movimento, Maestria: CC, Contragolpe, Reflexos, Crítico Aprimorado, Seguir Sombra
 
 ## Arsenal
 ### 1. Desconhecido

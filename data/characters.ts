@@ -1401,15 +1401,14 @@ export const initialData: Character[] = [
       { name: "Doton", level: 6 }
     ],
     aptitudes: [
-      "Chakra Expandido: Son Goku",
       "Acuidade",
+      "Ataque em Movimento",
       "Duro de Matar",
-      "Lutar as Cegas",
+      "Intuição",
+      "Lutar às Cegas",
       "Maestria: CD",
       "Ponto Cego",
-      "Potencializar",
-      "Intuição",
-      "Ataque em Movimento"
+      "Potencializar"
     ],
   },
   {
@@ -1883,17 +1882,18 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 8 }
     ],
     aptitudes: [
-      "Maestria: CC",
-      "Reflexos",
-      "Ataque em Movimento",
-      "Arremessar",
-      "Seguir Sombra",
-      "Dano Extra",
-      "Crítico Aprimorado",
-      "Contragolpe",
-      "Domínio da Terra",
       "Ambidestria",
-      "Usar Arma (Kabutowari)"
+      "Dano Extra",
+      "Usar Arma: Martelo",
+      "Arremessar",
+      "Domínio da Terra",
+      "Usar Arma: Lança",
+      "Ataque em Movimento",
+      "Maestria: CC",
+      "Contragolpe",
+      "Reflexos",
+      "Crítico Aprimorado",
+      "Seguir Sombra"
     ],
   },
   {
