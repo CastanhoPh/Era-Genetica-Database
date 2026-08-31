@@ -2250,12 +2250,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Sannin dos Cães", "Predadora de Bijus", "Mangekyou mais Forte"],
-    nc: 24,
+    nc: 27,
     position: "",
     role: "Suporte",
     description: "Uma kunoichi envolta em mistério e temida por seu poder. \n\nIrmã gêmea secreta de Oddy Uchiha, Kuromi foi criada nas sombras e treinada pelo lendário ninja Raikun, que lhe ensinou técnicas de combate, selamentos e o Modo Sábio dos Cães.\n\nDurante uma missão envolvendo a liberação de bijuu, Kuromi despertou seu Mangekyou Sharingan e, em meio ao caos, conseguiu estabilizar o selo da besta dentro de Shoei Sarutobi. O choque entre seu poder, o chakra da bijuu e os selamentos usados na batalha deixou uma marca permanente em seu abdômen.\n\nPortadora de um Mangekyou com habilidades únicas de manipulação mental e invocadora do lendário lobo Okami, Kuromi se tornou conhecida no mundo shinobi como a Predadora de Bijus.",
-    hp: 184,
-    chakra: 82,
+    hp: 205,
+    chakra: 91,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1786651902544933",
     techniques: [
       {
@@ -2331,12 +2331,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937", caption: "Primeiras Missões - Naoki, Shoei, Apollo e Kuromi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi" }
     ],
-    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
-      { name: "Senjutsu", level: 12 },
-      { name: "Rasengan", level: 12 },
-      { name: "Katon", level: 12 },
-      { name: "Fuinjutsu", level: 12 }
+      { name: "Senjutsu", level: 13 },
+      { name: "Rasengan", level: 13 },
+      { name: "Katon", level: 13 },
+      { name: "Fuinjutsu", level: 13 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -2599,11 +2599,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Legado de Uchiha Madara", "3 Sannins Lendários", "Terceiro Hokage das Sombras"],
-    nc: 18,
+    nc: 26,
     position: "",
     role: "Suporte e DPS",
-    description: "Naoki Uchiha, filho de Uchiha Madara, nasceu carregando um legado que nunca pediu. Diferente de Oddy, Shizumi, Ayumi e Kuromi, que eram crianças durante a lendária batalha do Vale do Fim, Naoki cresceu com toda a vila ciente de sua origem. Desde cedo, foi marcado como o “filho da desgraça”, alvo de medo e desprezo. Esse fardo moldou sua personalidade, transformando o ódio em combustível e alimentando uma sede de justiça fria e inabalável.\nDeterminado a superar seu nome, herdou a gunbai de seu pai e treinou incansavelmente, tornando-se um prodígio temido até entre os Uchiha. Aos 14 anos, após a aposentadoria de Sho, assumiu a liderança do clã por pura superioridade — sem contestação.\nIntegrante da lendária equipe ANBU liderada por Nishinoya, participou de missões de alto risco que consolidaram sua reputação como um executor implacável. Em uma delas, desobedeceu ordens e invadiu sozinho uma base da OCA para recuperar o corpo de Madara, eliminando todos no caminho com facilidade perturbadora.\nCom autorização de Tobirama, Yumi implantou os olhos de Madara em Naoki. O poder foi imediato e avassalador, mas trouxe um preço: um chakra corrompido que começou a consumir sua visão. Mesmo ciente, ele não recuou.\nNa Batalha da Fortaleza Yumei, perdeu completamente a visão. O Terceiro Hokage das Sombras, uma entidade que atuava nas trevas para manter o equilíbrio, carregando o legado e a maldição de Uchiha Madara.", hp: 130,
-    chakra: 64,
+    description: "Naoki Uchiha, filho de Uchiha Madara, nasceu carregando um legado que nunca pediu. Diferente de Oddy, Shizumi, Ayumi e Kuromi, que eram crianças durante a lendária batalha do Vale do Fim, Naoki cresceu com toda a vila ciente de sua origem. Desde cedo, foi marcado como o “filho da desgraça”, alvo de medo e desprezo. Esse fardo moldou sua personalidade, transformando o ódio em combustível e alimentando uma sede de justiça fria e inabalável.\nDeterminado a superar seu nome, herdou a gunbai de seu pai e treinou incansavelmente, tornando-se um prodígio temido até entre os Uchiha. Aos 14 anos, após a aposentadoria de Sho, assumiu a liderança do clã por pura superioridade — sem contestação.\nIntegrante da lendária equipe ANBU liderada por Nishinoya, participou de missões de alto risco que consolidaram sua reputação como um executor implacável. Em uma delas, desobedeceu ordens e invadiu sozinho uma base da OCA para recuperar o corpo de Madara, eliminando todos no caminho com facilidade perturbadora.\nCom autorização de Tobirama, Yumi implantou os olhos de Madara em Naoki. O poder foi imediato e avassalador, mas trouxe um preço: um chakra corrompido que começou a consumir sua visão. Mesmo ciente, ele não recuou.\nNa Batalha da Fortaleza Yumei, perdeu completamente a visão. O Terceiro Hokage das Sombras, uma entidade que atuava nas trevas para manter o equilíbrio, carregando o legado e a maldição de Uchiha Madara.",
+    hp: 200,
+    chakra: 88,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaoki%20Uchiha%2FNaoki%20Uchiha.png?alt=media&v=1786651887014149",
     techniques: [
       {
@@ -2715,12 +2716,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
     ],
-    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
+    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
-      { name: "Katon", level: 9 },
-      { name: "Doton", level: 9 },
-      { name: "Futon", level: 9 },
-      { name: "Fuinjutsu", level: 9 }
+      { name: "Katon", level: 13 },
+      { name: "Doton", level: 13 },
+      { name: "Futon", level: 13 },
+      { name: "Fuinjutsu", level: 13 }
     ],
     aptitudes: [
       "Eien Mangekyou Sharingan",
@@ -2749,12 +2750,12 @@ export const initialData: Character[] = [
     clan: "Senju",
     categories: ["NPC", "Konohagakure", "OCA"],
     titles: ["Legado de Senju Hashirama", "3 Sannins Lendários", "Terceiro Hokage das Sombras", "Traidor de Konoha"],
-    nc: 18,
+    nc: 28,
     position: "",
     role: "Tank",
     description: "DESCONHECIDO",
-    hp: 154,
-    chakra: 40,
+    hp: 234,
+    chakra: 76,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1786651887737084",
     techniques: [
       {
@@ -2795,12 +2796,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
     ],
-    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 10, vigor: 18, perception: 18 },
+    stats: { strength: 11, dexterity: 28, agility: 11, intelligence: 28, spirit: 22, vigor: 28, perception: 28 },
     powers: [
-      { name: "Mokuton", level: 9 },
-      { name: "Doton", level: 9 },
-      { name: "Suiton", level: 2 },
-      { name: "Senjutsu", level: 9 }
+      { name: "Mokuton", level: 14 },
+      { name: "Doton", level: 14 },
+      { name: "Suiton", level: 5 },
+      { name: "Senjutsu", level: 14 }
     ],
     aptitudes: [
       "Regeneração",
@@ -2867,12 +2868,12 @@ export const initialData: Character[] = [
     clan: "Gunma",
     categories: ["NPC", "Konohagakure", "Iwagakure"],
     titles: ["Jinchuuriki", "Tsuchikage Afastado", "Polvo Enjaulado"],
-    nc: 26,
+    nc: 29,
     position: "",
     role: "Tank e Suporte",
     description: "Rock Gunma nasceu em uma era marcada por conflitos constantes, crescendo em meio à guerra e sendo exposto desde cedo à sua realidade brutal. Com o tempo, tornou-se jinchūriki do Gyūki. Diferente da maioria, não enfrentou a besta como um fardo, mas construiu uma relação de respeito mútuo.\n\nCom o passar dos anos, Rock participou de diversas batalhas importantes, acumulando experiência real de combate e adquirindo cicatrizes que marcaram seu corpo. Sua força e liderança o levaram a assumir o cargo de Segundo Tsuchikage, guiando a vila em um dos períodos mais instáveis de sua história.\n\nDurante seu governo, destacou-se ao encerrar a guerra entre monges e samurais sem recorrer à destruição total, impondo sua presença e restaurando o equilíbrio ao devolver artefatos sagrados aos seus verdadeiros guardiões.\n\nFoi nesse período como Tsuchikage que surgiu uma ameaça fora de qualquer padrão conhecido — um ser chamado Delta, capaz de distorcer a realidade através do controle absoluto de gravidade e metal. Diferente de outros inimigos, Delta não buscava apenas caos, mas o próprio posto de Tsuchikage.\n\nO confronto entre os dois foi inevitável.\n\nMesmo com o chakra massivo de Gyūki reforçando seu corpo, Rock enfrentou algo além da força convencional. Durante a luta, Delta alterou o campo gravitacional ao redor de Rock, comprimindo seu corpo de dentro para fora enquanto manipulava partículas metálicas microscópicas presentes no ambiente.\n\nAo invés de romper a defesa de Gyūki pela força, Delta distorceu o espaço ao redor do chakra, fazendo com que o metal atravessasse a proteção como se ela não existisse.\n\nO ataque atingiu diretamente o estômago de Rock.\n\nO dano não foi imediato — foi contínuo.\n\nFragmentos metálicos permaneceram dentro de seu corpo, reagindo ao seu chakra e se expandindo lentamente. Rock caiu, mas se recusou a perder. Concentrando todo o seu chakra na região abdominal, ele conseguiu conter a expansão do metal, impedindo sua morte naquele momento.\n\nMesmo assim, ele venceu a batalha.\n\nMas não saiu inteiro dela.\n\nSem demonstrar fraqueza e sem pedir ajuda, Rock continuou liderando a vila. No entanto, com o passar do tempo, o desgaste interno começou a cobrar seu preço. As dores se tornaram constantes, e seu corpo já não respondia como antes.\n\nReconhecendo seus limites, Rock tomou a decisão de renunciar ao cargo de Tsuchikage — não por derrota, mas por consciência.\n\nApós deixar o posto, passou a atuar como mentor, dedicando-se a treinar e orientar a próxima geração. Entre seus alunos, Noya se destacou como alguém que superou seu próprio nível.\n\nMesmo afastado do campo de batalha, Rock continuou ativo nos bastidores, acompanhando conflitos e tentando influenciar o rumo das guerras, embora nem sempre com sucesso.\n\nDurante a Guerra da Fortaleza Yumei, seu corpo finalmente chegou ao limite.\n\nO chakra que mantinha o metal contido falhou.\n\nO que antes era controle se tornou colapso.\n\nSem conseguir mais sustentar a contenção interna, Rock foi consumido pelo próprio dano que carregava desde a luta contra Delta.\n\nSua morte não foi causada por um inimigo presente.\n\nMas por uma batalha que nunca realmente terminou.\n\nMesmo após sua queda, seu legado permaneceu. Rock Gunma é lembrado como um dos maiores Tsuchikages da história — não apenas por sua força, mas pela forma como carregou seu fardo até o fim, preparando aqueles que viriam depois dele.",
-    hp: 218,
-    chakra: 105,
+    hp: 242,
+    chakra: 114,
     isDead: true,
     killedBy: "Delta",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.jpg?alt=media&v=1786651887730216",
@@ -2947,12 +2948,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959", caption: "Reunindo reforços - Os Mestres do Ranton", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809", caption: "Reunindo reforços - Retorno a Konoha com reforços", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos" }
     ],
-    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 20, vigor: 26, perception: 26 },
+    stats: { strength: 12, dexterity: 29, agility: 12, intelligence: 29, spirit: 22, vigor: 29, perception: 29 },
     powers: [
-      { name: "Gyuki", level: 13 },
-      { name: "Fuinjutsu", level: 13 },
-      { name: "Bakuton", level: 13 },
-      { name: "Doton", level: 13 }
+      { name: "Gyuki", level: 14 },
+      { name: "Fuinjutsu", level: 14 },
+      { name: "Bakuton", level: 14 },
+      { name: "Doton", level: 14 }
     ],
     aptitudes: [
       "Chakra Expandido: Gyuki",
@@ -2979,12 +2980,12 @@ export const initialData: Character[] = [
     clan: "Hanzo",
     categories: ["NPC", "Konohagakure", "OCA", "Kumogakure"],
     titles: ["Vice líder da OCA", "Suporte Perfeito", "Traidor da OCA"],
-    nc: 26,
+    nc: 28,
     position: "",
     role: "Suporte e Controle",
     description: "",
-    hp: 200,
-    chakra: 88,
+    hp: 216,
+    chakra: 94,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.jpg?alt=media&v=1786651888625458",
     techniques: [
       {
@@ -3005,11 +3006,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959", caption: "Reunindo reforços - Os Mestres do Ranton", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809", caption: "Reunindo reforços - Retorno a Konoha com reforços", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos" }
     ],
-    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
+    stats: { strength: 11, dexterity: 28, agility: 11, intelligence: 28, spirit: 28, vigor: 22, perception: 28 },
     powers: [
-      { name: "Ranton", level: 13 },
-      { name: "Raiton", level: 13 },
-      { name: "Suiton", level: 13 },
+      { name: "Ranton", level: 14 },
+      { name: "Raiton", level: 14 },
+      { name: "Suiton", level: 14 },
       { name: "Iryou Ninjutsu", level: 8 }
     ],
     aptitudes: [
@@ -3085,12 +3086,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
     titles: ["Segundo Hokage das Sombras", "Líder dos Uchiha"],
-    nc: 28,
+    nc: 29,
     position: "",
     role: "Tanque",
     description: "",
-    hp: 234,
-    chakra: 94,
+    hp: 242,
+    chakra: 97,
     isDead: true,
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSho%20Uchiha%2FSho%20Uchiha.jpg?alt=media&v=1786651888623178",
@@ -3101,7 +3102,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FLuta_contra_o_Hades.png?alt=media&v=1786371788573376", caption: "Luta contra o Hades", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" }
     ],
-    stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 22, spirit: 28, vigor: 28, perception: 11 },
+    stats: { strength: 29, dexterity: 12, agility: 29, intelligence: 22, spirit: 29, vigor: 29, perception: 12 },
     powers: [
       { name: "Katon", level: 14 },
       { name: "Doton", level: 14 },
@@ -3135,11 +3136,11 @@ export const initialData: Character[] = [
     clan: "Hyuga",
     categories: ["NPC", "Konohagakure"],
     titles: ["Segundo Hokage das Sombras", "Líder dos Hyuga", "Assassino de Kai"],
-    nc: 28,
+    nc: 29,
     position: "",
     role: "DPS, Suporte e Controle",
     description: "",
-    hp: 234,
+    hp: 242,
     chakra: 76,
     isDead: true,
     killedBy: "Omega",
@@ -3153,7 +3154,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" }
     ],
-    stats: { strength: 11, dexterity: 28, agility: 11, intelligence: 28, spirit: 22, vigor: 28, perception: 28 },
+    stats: { strength: 12, dexterity: 29, agility: 12, intelligence: 29, spirit: 22, vigor: 29, perception: 29 },
     powers: [
       { name: "Juken", level: 14 },
       { name: "Hyuga no Fujo", level: 14 },
@@ -3421,12 +3422,12 @@ export const initialData: Character[] = [
     clan: "Uzumaki",
     categories: ["NPC", "Konohagakure"],
     titles: ["O Sobrevivente do Tempo", "Portador do Sacrifício", "O Que Pagou o Preço"],
-    nc: 24,
+    nc: 27,
     position: "",
     role: "DPS e Suporte",
     description: "Katsuo Uzumaki é um nome que não deveria existir — não porque foi esquecido, mas porque deveria ter morrido. Aos 28 anos, durante o momento mais crítico da história recente ninja, ele realizou um ato proibido que quebrou as próprias leis da vida: ao presenciar a extração da Kurama de Naomi Uzumaki, Katsuo utilizou um Fuinjutsu perdido para converter 30 anos de sua própria vida em chakra vital puro, forçando o corpo dela a continuar funcionando mesmo após a perda parcial da Bijuu. Naomi sobreviveu… mas o preço foi pago por ele.\n\nEsse evento jamais veio à tona. O sacrifício de Katsuo foi mantido em absoluto sigilo, conhecido apenas por Tobirama, que compreendeu o peso e as consequências daquele ato. Em silêncio, permitiu que Katsuo se afastasse da linha de frente, oficialmente se aposentando do campo de batalha — não como punição, mas como necessidade. Incapaz de continuar lutando como antes, Katsuo assumiu uma nova função, tornando-se o líder da equipe de rastreamento de Konoha, onde sua experiência e percepção ainda poderiam ser usadas sem levá-lo à morte imediata.\n\nDesde aquele dia, Katsuo carrega um corpo que envelheceu décadas em instantes, com um sistema de chakra permanentemente danificado e instável. Ele não foi reconhecido, não foi celebrado — apenas continuou vivo. Nos anos seguintes, assistiu à consequência de sua escolha se desdobrar em tragédia: Naomi capturada, experimentos iniciados e o surgimento de novas vidas marcadas pela dor.\n\nMas o mundo seguiu… e Katsuo não.\n\nApós Hanzo fugir de Konoha com a chegada de Hades, algo nele quebrou de forma definitiva. Incapaz de aceitar o rumo que Konoha tomou — e principalmente a existência de Hades — Katsuo abandonou sua posição e desapareceu. Desde então, vaga pelo mundo ninja como uma sombra, rastreando incansavelmente aquele que fugiu no momento em que tudo começou.\n\nKatsuo não luta por redenção… ele luta para corrigir o erro que ele mesmo criou.",
-    hp: 202,
-    chakra: 96,
+    hp: 226,
+    chakra: 105,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.jpg?alt=media&v=1786651899866930",
     techniques: [
       {
@@ -3499,12 +3500,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540", caption: "Início - Os 7 de Konoha dormem no acampamento da Ambu", category: "evento", season: "1ª Temporada", eventId: "iPALRrrtWANQc8GXKv9t" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273", caption: "Início - Todos da Ambu desmaiam", category: "evento", season: "1ª Temporada", eventId: "0vY1igdFWYE5xfh859Mg" }
     ],
-    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 18, vigor: 24, perception: 24 },
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 20, vigor: 27, perception: 27 },
     powers: [
-      { name: "Fuinjutsu", level: 12 },
-      { name: "Katon", level: 12 },
-      { name: "Futon", level: 12 },
-      { name: "Rasengan", level: 12 }
+      { name: "Fuinjutsu", level: 13 },
+      { name: "Katon", level: 13 },
+      { name: "Futon", level: 13 },
+      { name: "Rasengan", level: 13 }
     ],
     aptitudes: [
       "Acuidade",
@@ -3813,12 +3814,12 @@ export const initialData: Character[] = [
       "Arma Secreta da NoGuns",
       "Traidor da NoGuns"
     ],
-    nc: 18,
+    nc: 27,
     position: "",
     role: "DPS e Controle",
     description: "Shikatsu Nara, conhecido hoje como Togo Kage, é o que restou de um sonho que foi quebrado cedo demais. Nascido no clã Nara, cresceu como uma criança feliz, curiosa e orgulhosa de seu nome, cercado por figuras lendárias — seus pais eram próximos de Hashirama e Tobirama, e por isso Shikatsu viveu parte de sua infância ao lado dos Senju. Ele jantava com eles, ouvia histórias, aprendia estratégias e carregava um único objetivo no coração: se tornar Hokage. Tobirama era seu herói. Hashirama, sua inspiração. Mas tudo isso morreu na noite da invasão da Vila da Nuvem. Seus pais lutaram até o fim para proteger Konoha, sacrificando suas vidas com orgulho. Shikatsu assistiu tudo. E então viu aquilo que destruiu sua mente por completo: Tobirama, o homem que ele mais admirava, passar por ele sem sequer olhar para trás, seguindo sozinho para enfrentar Hades. Para o mundo, foi um ato de coragem. Para Shikatsu, foi abandono. Traição. Nesse momento, algo dentro dele quebrou de forma irreversível. Sem família, sem propósito e sem seu herói, sua mente colapsou. Ele fugiu, desapareceu, e ao longo dos anos se perdeu completamente de si mesmo. A esquizofrenia induzida pelo trauma fragmentou sua identidade, apagando o garoto que queria ser Hokage. Em seu lugar, nasceu Togo — uma sombra instintiva em forma humana. Vagando por florestas e campos de batalha, atacava por reflexo, sobrevivia por impulso e existia sem direção. Até encontrar Daichi. No primeiro encontro, tentou matá-lo como fazia com todos… mas foi derrotado. E poupado. Mais do que isso — foi visto. Daichi lhe fez uma promessa: encontraria uma cura. Pela primeira vez desde a queda dos Nara, alguém o tratou como humano. Desde então, Togo passou a existir preso a esse único fio de realidade. Hoje, ele é instável, silencioso e imprevisível — incapaz de viver em sociedade, mas extremamente letal em combate. Sua mente pode estar quebrada, mas seu instinto nunca falha. E enquanto o mundo o enxerga como um fragmento perdido… Togo ainda caminha, sustentado apenas por uma promessa que se recusa a esquecer.",
-    hp: 154,
-    chakra: 64,
+    hp: 226,
+    chakra: 91,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTogo%20Kage%2FTogo%20Kage.png?alt=media&v=1786651899869770",
     techniques: [
       {
@@ -3839,24 +3840,10 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F3__Temporada.png?alt=media&v=1784751352005", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F5__Temporada.png?alt=media&v=1784751353422", caption: "5ª Temporada", category: "era" },
     ],
-    stats: {
-      strength: 7,
-      dexterity: 18,
-      agility: 7,
-      intelligence: 10,
-      spirit: 18,
-      vigor: 18,
-      perception: 18
-    },
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 20, spirit: 27, vigor: 27, perception: 27 },
     powers: [
-      {
-        name: "Kage Mane",
-        level: 9
-      },
-      {
-        name: "Kuchiyose",
-        level: 9
-      }
+      { name: "Kage Mane", level: 13 },
+      { name: "Kuchiyose", level: 13 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -4909,12 +4896,12 @@ export const initialData: Character[] = [
     clan: "Yotsuki",
     categories: ["NPC", "Kiba", "Kumogakure"],
     titles: ["Predador Silencioso", "Fantasma da Tempestade", "Líder da Kiba"],
-    nc: 24,
+    nc: 26,
     position: "",
     role: "DPS",
     description: "Yuji Yotsuki nasceu como uma anomalia dentro da Vila da Nuvem.\n\nEnquanto outros shinobis aprendiam a controlar chakra com treinamento, Yuji simplesmente nasceu conectado a ele.\n\nO Ranton corria naturalmente em suas veias.\n\nDesde criança, seu corpo produzia descargas elétricas rosadas involuntárias, fenômeno considerado impossível até mesmo pelos cientistas de Kumogakure.\n\nSeu chakra não era apenas poderoso.\nEra preciso.\n\nYuji conseguia sentir exatamente o limite do próprio corpo, a quantidade de chakra ao seu redor e até pequenas oscilações no fluxo energético de outras pessoas.\n\nIsso chamou a atenção de Hanzo, que passou a treiná-lo secretamente.\n\nDiferente de outros prodígios da Nuvem, Yuji não demonstrava interesse em fama ou combate direto. Era preguiçoso, desmotivado e frequentemente ignorava treinamentos inteiros.\n\nMas tudo mudava quando algo despertava sua curiosidade.\n\nNesse estado, Yuji se tornava obsessivo.\n\nDurante sua infância, desenvolveu uma amizade profunda com Hayato. Os dois compartilhavam o sonho de transformar Kumogakure na maior potência shinobi do mundo.\n\nMas após os incidentes envolvendo Hayato e a ascensão da OCA dentro da Vila da Nuvem, Yuji perdeu completamente a fé no sistema.\n\nAo lado de Yoru e Reito, desapareceu das forças oficiais e iniciou estudos secretos envolvendo tecnologia shinobi, armas experimentais e chakra artificial.\n\nFoi durante uma missão de infiltração em um laboratório da OCA que Yuji roubou pesquisas proibidas relacionadas a Katsumi e ao chamado Chakra Profano.\n\nUtilizando os dados roubados e o núcleo de chakra extraído durante a operação, Yuji criou sua obra-prima absoluta:\n\nA Yuji no Hōkō.\n\nUma Sniper Rifle capaz de condensar Chakra Profano em um único ponto microscópico e disparar projéteis com poder destrutivo equivalente a uma mini Bijuu Dama.\n\nA arma não produz som.\nNão deixa assinatura de chakra.\nE torna o disparo impossível de detectar até o impacto.\n\nApós isso, Yuji fundou oficialmente a Kiba.\n\nUma organização fantasma criada para destruir a OCA, eliminar Alpha e recuperar a verdadeira Kumogakure.\n\nHoje, laboratórios secretos da Nuvem possuem uma regra não oficial:\n\nSe o ar ficar silencioso demais...\nYuji Yotsuki já está mirando.",
-    hp: 184,
-    chakra: 82,
+    hp: 200,
+    chakra: 88,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media&v=1786651907013158",
     techniques: [
       {
@@ -4993,11 +4980,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F4__Temporada.png?alt=media&v=1784658616065338", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1784751370128", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
+    stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
-      { name: "Ranton", level: 12 },
-      { name: "Raiton", level: 12 },
-      { name: "Fuinjutsu", level: 12 }
+      { name: "Ranton", level: 13 },
+      { name: "Raiton", level: 13 },
+      { name: "Fuinjutsu", level: 13 }
     ],
     aptitudes: [
       "Acuidade",
@@ -5112,12 +5099,12 @@ export const initialData: Character[] = [
     clan: "Kurogami",
     categories: ["NPC", "Kiba", "Kumogakure"],
     titles: ["O Fantasma da Kiba", "Shade", "Vazio Sensorial"],
-    nc: 20,
+    nc: 23,
     position: "",
     role: "Suporte e Controle",
     description: "Yoru Kurogami é considerado o membro mais misterioso e perigoso da Kiba.\n\nDiferente de Yuji Yotsuki e Reito Kurogami, Yoru não domina batalhas através de força ou destruição.\n\nEle domina através do desaparecimento.\n\nEspecialista absoluto em infiltração, suporte tático, sabotagem e guerra sensorial, Yoru transformou Ranton e Raiton em ferramentas de ocultação e manipulação extremamente avançadas.\n\nSeu corpo alto, extremamente magro e de aparência quase doentia causa desconforto imediato em qualquer ambiente.\n\nVestindo roupas elegantes completamente negras com detalhes em verde água, Yoru utiliza constantemente o Kasa.\n\nUm chapéu tecnológico lendário criado pela Kiba utilizando pesquisas roubadas da OCA.\n\nO Kasa possui sistemas avançados de ocultação sensorial e emissão microscópica de chakra.\n\nAlém disso, Yoru possui um braço tecnológico integrado diretamente ao sistema central da Kiba.\n\nO braço contém:\n\n• Hardware tático\n• Banco de dados de chakra\n• Comunicação holográfica\n• Rastreamento neural\n• Sensores de leitura biológica\n• Análise tecnológica\n\nSeu estilo de combate não busca derrotar inimigos diretamente.\n\nYoru transforma aliados em fantasmas impossíveis de detectar enquanto destrói completamente a percepção do campo de batalha.\n\nDentro da Kiba existe uma frase conhecida sobre ele:\n\n'Se Yoru estiver presente...\nEntão vocês já desapareceram.'",
-    hp: 146,
-    chakra: 70,
+    hp: 173,
+    chakra: 79,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1786651908022138",
     techniques: [
       {
@@ -5166,11 +5153,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F4__Temporada.png?alt=media&v=1784658613297962", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F5__Temporada.png?alt=media&v=1786370800271701", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 20, vigor: 12, perception: 20 },
+    stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 23, spirit: 23, vigor: 16, perception: 23 },
     powers: [
-      { name: "Ranton", level: 10 },
-      { name: "Raiton", level: 10 },
-      { name: "Fuinjutsu", level: 10 }
+      { name: "Ranton", level: 11 },
+      { name: "Raiton", level: 11 },
+      { name: "Fuinjutsu", level: 11 }
     ],
     aptitudes: [
       "Reflexos",
@@ -5374,23 +5361,23 @@ export const initialData: Character[] = [
     clan: "Muujin",
     categories: ["NPC", "NoGuns", "Iwagakure"],
     titles: ["Vice Líder da NoGuns", "O Herdeiro que Negou o Trono"],
-    nc: 18,
+    nc: 25,
     position: "",
     role: "DPS e Controle",
     description: "",
-    hp: 133,
-    chakra: 64,
+    hp: 189,
+    chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1787158172524277",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1787158174217423", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1787158175750350", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 17, spirit: 18, vigor: 11, perception: 18 },
+    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
-      { name: "Jinton", level: 9 },
-      { name: "Doton", level: 9 },
-      { name: "Katon", level: 9 },
-      { name: "Futon", level: 1 }
+      { name: "Jinton", level: 12 },
+      { name: "Doton", level: 12 },
+      { name: "Katon", level: 12 },
+      { name: "Futon", level: 4 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -5596,22 +5583,22 @@ export const initialData: Character[] = [
     clan: "Dokuhana",
     categories: ["NPC", "NoGuns", "Sunagakure"],
     titles: ["Sannin das Cobras", "Suporte Perfeito"],
-    nc: 18,
+    nc: 25,
     position: "",
     role: "DPS",
     description: "",
-    hp: 130,
-    chakra: 64,
+    hp: 189,
+    chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1786651899865877",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F3__Temporada.png?alt=media&v=1784751293430", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F5__Temporada.png?alt=media&v=1784751295515", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
+    stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
-      { name: "Dokujutsu", level: 9 },
-      { name: "Chokuton", level: 9 },
-      { name: "Senjutsu", level: 9 }
+      { name: "Dokujutsu", level: 12 },
+      { name: "Chokuton", level: 12 },
+      { name: "Senjutsu", level: 12 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -6587,12 +6574,12 @@ export const initialData: Character[] = [
     clan: "Uchiha",
     categories: ["NPC", "OCA", "Konohagakure"],
     titles: ["Jinchuuriki", "O Primeiro Experimento", "Líder dos 75%", "O Inferno Vermelho"],
-    nc: 20,
+    nc: 24,
     position: "",
     role: "DPS e Controle",
     description: "Akairo Uchiha, conhecido como o A, é a prova viva de que até mesmo os clãs mais poderosos podem gerar algo que foge completamente às suas próprias regras. Nascido dentro do clã Uchiha, ele carregava uma anomalia impossível: não possuía chakra natural. Em um clã onde o poder está ligado diretamente ao fluxo de chakra e à evolução do Sharingan, Akairo era visto como um erro, um fracasso, alguém que jamais despertaria o verdadeiro potencial de seu sangue.\n\nRejeitado e tratado como um pária, cresceu sem propósito — até se tornar alvo perfeito para a Organização do Chakra Artificial. Transformado em cobaia, seu corpo foi forçado além dos limites humanos, tendo seu sistema reconstruído com chakra artificial em níveis extremos.\n\nDurante esse processo, recebeu o transplante do olho esquerdo de Sho Uchiha, que, ao entrar em contato com chakra bijuu e profano, despertou um Mangekyō Sharingan incompleto — instável, doloroso e perigoso até para ele mesmo.\n\nO que deveria ser um experimento controlado se tornou um desastre quando Akairo perdeu o controle, desencadeando um massacre dentro de uma base da própria organização. Consumido por chamas e lava, ele quase destruiu tudo ao seu redor, incluindo a si mesmo. Foi contido apenas por Borashi, a única pessoa capaz de enfrentá-lo sem destruí-lo.\n\nDesde então, Akairo foi elevado à posição de líder de campo da Equipe 75%, não por controle, mas por puro poder bruto.\n\nDominando Katon e Yōton de forma devastadora, suas técnicas transformam o campo de batalha em um verdadeiro inferno vivo. Seu Mangekyō adiciona um nível ainda maior de destruição, embora cobre um preço constante em dor e instabilidade.\n\nAkairo vive em combustão — física e emocional. Impulsivo, violento e imprevisível, ele luta como alguém que nunca teve nada a perder.\n\nAinda assim, em meio ao caos que carrega, existe uma única âncora: Borashi, o único que ele reconhece como aliado.\n\nPara o mundo, Akairo é uma arma descontrolada. Para a organização, ele é necessário. E para si mesmo… ele é apenas o fogo que nunca pôde nascer — mas que agora queima mais do que qualquer outro.",
-    hp: 170,
-    chakra: 105,
+    hp: 202,
+    chakra: 123,
     isDead: true,
     killedBy: "Nagare Uzumaki",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).jpg?alt=media&v=1786651890553682",
@@ -6646,12 +6633,12 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - A e B chegam", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - Kaito, Hisoka, Oddy e Naoki VS A e B", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b" }
     ],
-    stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 12, spirit: 20, vigor: 20, perception: 20 },
+    stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 18, spirit: 24, vigor: 24, perception: 24 },
     powers: [
-      { name: "Son Goku", level: 10 },
-      { name: "Yoton", level: 10 },
-      { name: "Katon", level: 10 },
-      { name: "Doton", level: 10 }
+      { name: "Son Goku", level: 12 },
+      { name: "Yoton", level: 12 },
+      { name: "Katon", level: 12 },
+      { name: "Doton", level: 12 }
     ],
     aptitudes: [
       "Mangekyou Sharingan",
@@ -7072,12 +7059,12 @@ export const initialData: Character[] = [
     clan: "Desconhecido",
     categories: ["NPC", "OCA"],
     titles: ["Ser Humano Artificial", "Vice Líder dos 75%"],
-    nc: 20,
+    nc: 26,
     position: "",
     role: "Tank e DPS",
     description: "Gen’ei, conhecido como G, não é um humano no sentido tradicional — ele é uma criação. Forjado em um laboratório subterrâneo da Organização do Chakra Artificial, foi concebido como o primeiro ser totalmente gerado a partir de chakra artificial puro. Sem pais, sem passado e sem identidade própria, seu corpo foi construído utilizando fragmentos genéticos de ninjas lendários, incluindo traços de um Jinchūriki e de um membro do clã Kaguya, combinados com chakra profano.\n\nSeu desenvolvimento foi acelerado artificialmente, crescendo em apenas quatro anos até atingir a forma de uma criança. Desde o início, sua existência foi definida por testes, dor e comandos. Ele não aprendeu a viver — aprendeu a funcionar.\n\nApós os sucessos iniciais nos exames conduzidos por Furyuzan, Gen’ei recebeu algo que nunca havia experimentado: um objeto sem função — um pequeno grifo de brinquedo. Para os cientistas, era apenas um teste comportamental. Para ele, foi o primeiro contato com algo que não envolvia dor ou utilidade.\n\nParalelamente, os mesmos experimentos que consolidaram sua criação levaram ao desenvolvimento de uma nova entidade: uma bijuu profana, gerada artificialmente como extensão das pesquisas com chakra corrompido. O resultado foi algo além de humano: um ser cujo chakra deu origem a uma natureza inédita, o Kōton, a Liberação do Aço Negro, capaz de criar estruturas metálicas vivas, condutivas e letais.\n\nAliado ao seu Raiton modificado, o Raio Negro, Gen’ei se tornou uma arma perfeita de condução, destruição e controle, manipulando eletricidade, calor e magnetismo com precisão absoluta.\n\nNo entanto, sua maior característica não está em seu poder, mas em sua ausência — Gen’ei não possui emoções reais. Ele observa, analisa e reage. Sua calma não é serenidade, é vazio.\n\nAinda assim, algo inesperado surgiu quando foi designado para monitorar Fuyuki. Diante da instabilidade emocional e da dor constante do garoto, Gen’ei desenvolveu algo que não estava programado: uma forma primitiva de conexão. Desde então, tornou-se sua âncora, protegendo-o silenciosamente de tudo — inimigos, aliados e até de si mesmo.\n\nDentro da Equipe 75%, Gen’ei atua como uma presença constante e inevitável. Ele não lidera, não questiona, não hesita. Apenas executa. Respeita a estratégia de Chisaki, evita confrontos desnecessários com Akairo e observa o resto da equipe como variáveis em um sistema imperfeito.\n\nPara a organização, ele é o experimento perfeito. Para a equipe, ele é a defesa silenciosa que sempre chega a tempo.\n\nHá, porém, uma verdade oculta sobre sua existência: toda a sua consciência não está limitada ao corpo físico. Ela reside dentro dos sistemas centrais da própria OCA, funcionando como uma rede distribuída e protegida. Seu corpo é apenas um terminal.\n\nPor isso, Gen’ei não pode ser morto de forma convencional. Mesmo que sua forma física seja destruída, sua consciência permanece ativa, podendo ser transferida, reconstruída ou reativada conforme a vontade da organização.\n\nE para si mesmo… Gen’ei é apenas aquilo que foi criado para ser — até o momento em que começou, sem entender como, a se tornar algo mais.",
-    hp: 170,
-    chakra: 105,
+    hp: 218,
+    chakra: 132,
     isDead: true,
     killedBy: "Kaito Senju",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenei%20(G)%2FGenei%20(G).jpg?alt=media&v=1786651894248252",
@@ -7112,11 +7099,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20e%20G%20levando%20Shoei.png?alt=media&v=1784240335300514", caption: "Base do F - F e G levando Shoei", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__f-e-g-levando-shoei" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" }
     ],
-    stats: { strength: 20, dexterity: 8, agility: 20, intelligence: 12, spirit: 20, vigor: 20, perception: 8 },
+    stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 20, spirit: 26, vigor: 26, perception: 10 },
     powers: [
-      { name: "Koton", level: 10 },
-      { name: "Fuinjutsu", level: 10 },
-      { name: "Senjutsu", level: 10 }
+      { name: "Koton", level: 13 },
+      { name: "Fuinjutsu", level: 13 },
+      { name: "Senjutsu", level: 13 }
     ],
     aptitudes: [
       "Maestria: CC",

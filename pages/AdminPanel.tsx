@@ -9,6 +9,7 @@ import { Character, ChecklistItem, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_
 import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, rankDeNC, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
+import { ORDEM_DE_FORCA, posicaoDeForca, estaNaOrdemDeForca } from '../data/ordem-de-forca';
 
 /** Se a ficha tem uma proporção explícita para estes divididos. Objeto vazio, ou proporção sobre
  *  outros divididos (sobra de uma troca de foco), conta como "não tem" — aí vale partes iguais. */
@@ -143,6 +144,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [classificationVillage, setClassificationVillage] = useState('Konohagakure');
   const [classificationFilter, setClassificationFilter] = useState<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8' | null>(null);
   const [classificationFicha, setClassificationFicha] = useState<'todos' | 'ficha' | 'pendente'>('todos');
+  const [classificationForca, setClassificationForca] = useState(false);
   const [perfilBusca, setPerfilBusca] = useState('');
   const [perfilFiltro, setPerfilFiltro] = useState<'todos' | 'faltando' | 'completos'>('todos');
   const [perfilSalvando, setPerfilSalvando] = useState<string | null>(null);
@@ -710,17 +712,32 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     ? classificationChars.filter(c => NC_BANDS[classificationFilter](c.nc))
     : classificationChars;
 
+  // Ordenar por Força reordena DENTRO de cada bloco de NC, sem misturar blocos: o NC continua
+  // sendo o patamar, e a ordem ditada pelo Pedro decide quem é mais forte no mesmo patamar. Quem
+  // não está na lista (pendentes e as fichas que ele ainda não posicionou) cai no fim do bloco.
+  const classificationOrdenada = useMemo(() => (
+    classificationForca
+      ? [...classificationFiltered].sort((a, b) => b.nc - a.nc || posicaoDeForca(a.name) - posicaoDeForca(b.name))
+      : classificationFiltered
+  ), [classificationFiltered, classificationForca]);
+  // Quantos da lista atual ainda não têm lugar na ordem de força — só conta quem tem ficha, porque
+  // pendente não entra na ordem por definição.
+  const foraDaOrdem = useMemo(
+    () => classificationOrdenada.filter(c => !c.pending && !estaNaOrdemDeForca(c.name)).length,
+    [classificationOrdenada],
+  );
+
   // Agrupa por NC para a lista sair com uma barra por faixa. A lista já vem ordenada do maior NC
   // pro menor, então basta cortar quando o número muda.
   const classificationPorNc = useMemo(() => {
-    const grupos: { nc: number; gente: typeof classificationFiltered }[] = [];
-    for (const c of classificationFiltered) {
+    const grupos: { nc: number; gente: typeof classificationOrdenada }[] = [];
+    for (const c of classificationOrdenada) {
       const ultimo = grupos[grupos.length - 1];
       if (ultimo && ultimo.nc === c.nc) ultimo.gente.push(c);
       else grupos.push({ nc: c.nc, gente: [c] });
     }
     return grupos;
-  }, [classificationFiltered]);
+  }, [classificationOrdenada]);
 
   // Personagens por clã — combina quem já tem ficha (campo `clan`) com quem ainda está pendente.
   // A lista de pendentes não guarda clã explicitamente, mas a convenção de nomes do universo é
@@ -2102,6 +2119,18 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 );
               })}
             </div>
+            {/* Ordenar por Força é ORDEM, não filtro — por isso fica separado dos botões de vila
+                por um fio e usa o âmbar em vez do verde do painel: clicar nele não tira ninguém da
+                lista, só muda quem vem antes dentro do mesmo NC. */}
+            <span className="w-px self-stretch bg-tech-border shrink-0"></span>
+            <button
+              type="button"
+              onClick={() => setClassificationForca(v => !v)}
+              title={`Reordena dentro de cada NC seguindo a ordem de força ditada (${ORDEM_DE_FORCA.length} posições).`}
+              className={`shrink-0 whitespace-nowrap px-2.5 py-1 border text-[10px] font-bold uppercase tracking-wide transition-all flex items-center gap-1.5 ${classificationForca ? 'bg-amber-400 text-black border-amber-400' : 'border-tech-border text-amber-300/70 hover:border-amber-400/60'}`}
+            >
+              <ListOrdered size={11} /> Ordenar por Força
+            </button>
             <div className="flex gap-1.5 shrink-0">
               {([
                 { k: 'ficha' as const, l: 'Com Ficha', n: classificationBase.filter(c => !c.pending).length },
@@ -2144,6 +2173,13 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
             ))}
           </div>
 
+          {classificationForca && (
+            <p className="text-[9px] uppercase tracking-wide text-amber-300/60">
+              Dentro de cada NC, de cima pra baixo, do mais forte pro mais fraco.
+              {foraDaOrdem > 0 && ` ${foraDaOrdem} com ficha ainda sem posição — vão pro fim do bloco, marcados em âmbar.`}
+            </p>
+          )}
+
           {classificationFilter && (
             <button
               type="button"
@@ -2181,6 +2217,11 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                         <div className="flex items-baseline gap-2 min-w-0">
                           <span className={`text-sm truncate ${c.pending ? 'text-tech-primary/60 italic font-medium' : 'text-white font-bold'}`}>{c.name}</span>
                           {c.dead && <Skull size={11} className="text-red-500/80 shrink-0 self-center" />}
+                          {classificationForca && !c.pending && !estaNaOrdemDeForca(c.name) && (
+                            <span className="text-[8px] font-bold uppercase tracking-widest text-amber-300/70 border border-amber-400/40 px-1 shrink-0 self-center" title="Ainda não tem posição na ordem de força.">
+                              sem posição
+                            </span>
+                          )}
                         </div>
                         <span className="text-[10px] uppercase tracking-wide shrink-0 truncate max-w-[48%] text-tech-primary/40" title={c.clan || undefined}>
                           {c.pending ? (c.clan || 'pendente') : c.clan}

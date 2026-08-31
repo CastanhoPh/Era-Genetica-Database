@@ -18,27 +18,27 @@
 | 12 | Airi Senju | Senju | NPC, Konohagakure |  | Suporte | 18 | 130 | 96 | Vivo |
 | 13 | Ayumi Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 18 | 154 | 64 | Vivo |
 | 14 | Shizumi Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 18 | 130 | 64 | Vivo |
-| 15 | Kuromi Uchiha | Uchiha | NPC, Konohagakure, OCA |  | Suporte | 24 | 184 | 82 | Vivo |
+| 15 | Kuromi Uchiha | Uchiha | NPC, Konohagakure, OCA |  | Suporte | 27 | 205 | 91 | Vivo |
 | 16 | Apollo Sarutobi | Sarutobi | NPC, Konohagakure, OCA |  | Sensor, Ofensivo e Controle | 24 | 202 | 82 | Vivo |
 | 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | DPS | 30 | 241 | 200 | Vivo |
-| 18 | Naoki Uchiha | Uchiha | NPC, Konohagakure |  | Suporte e DPS | 18 | 130 | 64 | Vivo |
-| 19 | Hisoka Senju | Senju | NPC, Konohagakure, OCA |  | Tank | 18 | 154 | 40 | Vivo |
+| 18 | Naoki Uchiha | Uchiha | NPC, Konohagakure |  | Suporte e DPS | 26 | 200 | 88 | Vivo |
+| 19 | Hisoka Senju | Senju | NPC, Konohagakure, OCA |  | Tank | 28 | 234 | 76 | Vivo |
 | 20 | Ryuta Hyuga | Hyuga |  |  | Desconhecido | 18 | 130 | 64 | Vivo |
-| 21 | Rock Gunma | Gunma | NPC, Konohagakure, Iwagakure |  | Tank e Suporte | 26 | 218 | 105 | Morto (morto por Delta) |
-| 22 | Hiroshi Hanzo | Hanzo | NPC, Konohagakure, OCA, Kumogakure |  | Suporte e Controle | 26 | 200 | 88 | Vivo |
+| 21 | Rock Gunma | Gunma | NPC, Konohagakure, Iwagakure |  | Tank e Suporte | 29 | 242 | 114 | Morto (morto por Delta) |
+| 22 | Hiroshi Hanzo | Hanzo | NPC, Konohagakure, OCA, Kumogakure |  | Suporte e Controle | 28 | 216 | 94 | Vivo |
 | 23 | Tobirama Senju | Senju | NPC, Konohagakure, OCA |  | DPS | 30 | 232 | 100 | Morto (morto por Omega) |
-| 24 | Sho Uchiha | Uchiha | NPC, Konohagakure |  | Tanque | 28 | 234 | 94 | Morto (morto por Omega) |
-| 25 | Hoshiro Hyuga | Hyuga | NPC, Konohagakure |  | DPS, Suporte e Controle | 28 | 234 | 76 | Morto (morto por Omega) |
+| 24 | Sho Uchiha | Uchiha | NPC, Konohagakure |  | Tanque | 29 | 242 | 97 | Morto (morto por Omega) |
+| 25 | Hoshiro Hyuga | Hyuga | NPC, Konohagakure |  | DPS, Suporte e Controle | 29 | 242 | 76 | Morto (morto por Omega) |
 | 26 | Yumi Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 25 | 189 | 128 | Vivo |
 | 27 | Asami Hyuga | Hyuga | NPC, Konohagakure |  | DPS e Suporte | 25 | 210 | 85 | Morto (morto por Omega) |
 | 28 | Kaizuka Hyuga | Hyuga | NPC, Konohagakure |  | Tanque, DPS, Suporte e Controle | 30 | 250 | 82 | Vivo |
 | 29 | Raikun Hatake | Hatake | NPC, Konohagakure, OCA |  | Tanque e DPS | 30 | 250 | 123 | Morto (morto por Chip da OCA) |
-| 30 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS e Suporte | 24 | 202 | 96 | Vivo |
+| 30 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS e Suporte | 27 | 226 | 105 | Vivo |
 | 31 | Satoshi Namikaze | Namikaze | NPC, Konohagakure |  | DPS | 27 | 205 | 137 | Vivo |
 | 32 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 20 | 146 | 70 | Morto (morto por ?) |
 | 33 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 20 | 146 | 70 | Morto (morto por Hashirama Senju) |
 | 34 | Shikaki Nara | Nara | NPC, Konohagakure, OCA |  | Suporte | 22 | 168 | 76 | Vivo |
-| 35 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure |  | DPS e Controle | 18 | 154 | 64 | Vivo |
+| 35 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure |  | DPS e Controle | 27 | 226 | 91 | Vivo |
 | 36 | Hirato Ishi | Ishi | NPC, Iwagakure |  | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
 | 37 | Hikaru Ishi | Ishi | NPC, Iwagakure |  | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
 | 38 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | Suporte | 8 | 59 | 56 | Vivo |
@@ -54,17 +54,17 @@
 | 48 | Mizue Dokuhana | Dokuhana | NPC, Sunagakure |  | Suporte | 23 | 194 | 58 | Vivo |
 | 49 | Tessai Enshaku | Enshaku | NPC, Sunagakure |  | Tank e Controle | 25 | 210 | 64 | Vivo |
 | 50 | Kurohime Kazeori | Kazeori | NPC, Sunagakure |  | DPS e Suporte | 21 | 178 | 52 | Vivo |
-| 51 | Yuji Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | DPS | 24 | 184 | 82 | Vivo |
+| 51 | Yuji Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | DPS | 26 | 200 | 88 | Vivo |
 | 52 | Reito Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Tank | 20 | 170 | 70 | Vivo |
-| 53 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Suporte e Controle | 20 | 146 | 70 | Vivo |
+| 53 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Suporte e Controle | 23 | 173 | 79 | Vivo |
 | 54 | Mika Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | Suporte | 24 | 184 | 82 | Vivo |
 | 55 | Enrai Hanzo | Hanzo | NPC, Kiba, Kumogakure |  | Tank | 26 | 200 | 88 | Vivo |
-| 56 | Daichi Muujin | Muujin | NPC, NoGuns, Iwagakure |  | DPS e Controle | 18 | 133 | 64 | Vivo |
+| 56 | Daichi Muujin | Muujin | NPC, NoGuns, Iwagakure |  | DPS e Controle | 25 | 189 | 85 | Vivo |
 | 57 | Koji Ishizuma | Ishizuma | NPC, NoGuns, Kumogakure |  | DPS | 18 | 154 | 64 | Morto (morto por Hades) |
 | 58 | Yuuto Han | Han | NPC, NoGuns, OCA, Kirigakure |  | DPS | 18 | 154 | 96 | Morto (morto por Hades) |
 | 59 | Shin Mizukari | Mizukari | NPC, NoGuns, Iwagakure |  | Tanque | 18 | 154 | 64 | Morto (morto por Hades) |
 | 60 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 18 | 130 | 64 | Vivo |
-| 61 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 18 | 130 | 64 | Vivo |
+| 61 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 25 | 189 | 85 | Vivo |
 | 62 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
 | 63 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
 | 64 | Raiden Yotsuki | Yotsuki | NPC, Kumogakure |  | DPS / Tank | 23 | 194 | 79 | Vivo |
@@ -91,13 +91,13 @@
 | 85 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
 | 86 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
 | 87 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
-| 88 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 20 | 170 | 105 | Morto (morto por Nagare Uzumaki) |
+| 88 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
 | 89 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
 | 90 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
 | 91 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
 | 92 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
 | 93 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
-| 94 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 20 | 170 | 105 | Morto (morto por Kaito Senju) |
+| 94 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
 | 95 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
 | 96 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
 | 97 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
@@ -3071,9 +3071,9 @@ ID: 15
 Clã: Uchiha
 Grupos: NPC, Konohagakure, OCA
 Função: Suporte
-NC: 24
-HP: 184
-Chakra: 82
+NC: 27
+HP: 205
+Chakra: 91
 Status: Vivo
 Títulos: Sannin dos Cães, Predadora de Bijus, Mangekyou mais Forte
 
@@ -3089,19 +3089,19 @@ Durante uma missão envolvendo a liberação de bijuu, Kuromi despertou seu Mang
 Portadora de um Mangekyou com habilidades únicas de manipulação mental e invocadora do lendário lobo Okami, Kuromi se tornou conhecida no mundo shinobi como a Predadora de Bijus.
 
 ## Atributos
-- Força: 9
-- Destreza: 24
-- Agilidade: 9
-- Inteligência: 24
-- Espírito: 24
-- Vigor: 18
-- Percepção: 24
+- Força: 11
+- Destreza: 27
+- Agilidade: 11
+- Inteligência: 27
+- Espírito: 27
+- Vigor: 20
+- Percepção: 27
 
 ## Poderes e Elementos
-- Senjutsu — Nível 12
-- Rasengan — Nível 12
-- Katon — Nível 12
-- Fuinjutsu — Nível 12
+- Senjutsu — Nível 13
+- Rasengan — Nível 13
+- Katon — Nível 13
+- Fuinjutsu — Nível 13
 
 ## Aptidões
 Maestria: CD, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Sensor, Quimico, Potencializar
@@ -3701,9 +3701,9 @@ ID: 18
 Clã: Uchiha
 Grupos: NPC, Konohagakure
 Função: Suporte e DPS
-NC: 18
-HP: 130
-Chakra: 64
+NC: 26
+HP: 200
+Chakra: 88
 Status: Vivo
 Títulos: Legado de Uchiha Madara, 3 Sannins Lendários, Terceiro Hokage das Sombras
 
@@ -3717,19 +3717,19 @@ Com autorização de Tobirama, Yumi implantou os olhos de Madara em Naoki. O pod
 Na Batalha da Fortaleza Yumei, perdeu completamente a visão. O Terceiro Hokage das Sombras, uma entidade que atuava nas trevas para manter o equilíbrio, carregando o legado e a maldição de Uchiha Madara.
 
 ## Atributos
-- Força: 7
-- Destreza: 18
-- Agilidade: 7
-- Inteligência: 18
-- Espírito: 18
-- Vigor: 10
-- Percepção: 18
+- Força: 10
+- Destreza: 26
+- Agilidade: 10
+- Inteligência: 26
+- Espírito: 26
+- Vigor: 20
+- Percepção: 26
 
 ## Poderes e Elementos
-- Katon — Nível 9
-- Doton — Nível 9
-- Futon — Nível 9
-- Fuinjutsu — Nível 9
+- Katon — Nível 13
+- Doton — Nível 13
+- Futon — Nível 13
+- Fuinjutsu — Nível 13
 
 ## Aptidões
 Eien Mangekyou Sharingan, Sharingan, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar
@@ -3901,9 +3901,9 @@ ID: 19
 Clã: Senju
 Grupos: NPC, Konohagakure, OCA
 Função: Tank
-NC: 18
-HP: 154
-Chakra: 40
+NC: 28
+HP: 234
+Chakra: 76
 Status: Vivo
 Títulos: Legado de Senju Hashirama, 3 Sannins Lendários, Terceiro Hokage das Sombras, Traidor de Konoha
 
@@ -3913,19 +3913,19 @@ Títulos: Legado de Senju Hashirama, 3 Sannins Lendários, Terceiro Hokage das S
 DESCONHECIDO
 
 ## Atributos
-- Força: 7
-- Destreza: 18
-- Agilidade: 7
-- Inteligência: 18
-- Espírito: 10
-- Vigor: 18
-- Percepção: 18
+- Força: 11
+- Destreza: 28
+- Agilidade: 11
+- Inteligência: 28
+- Espírito: 22
+- Vigor: 28
+- Percepção: 28
 
 ## Poderes e Elementos
-- Mokuton — Nível 9
-- Doton — Nível 9
-- Suiton — Nível 2
-- Senjutsu — Nível 9
+- Mokuton — Nível 14
+- Doton — Nível 14
+- Suiton — Nível 5
+- Senjutsu — Nível 14
 
 ## Aptidões
 Regeneração, Potencializar, Maximizar, Sensor, Lutar as Cegas, Ponto Cego, Acuidade, Perito: Rastrear, Técnica Poderosa
@@ -4000,9 +4000,9 @@ ID: 21
 Clã: Gunma
 Grupos: NPC, Konohagakure, Iwagakure
 Função: Tank e Suporte
-NC: 26
-HP: 218
-Chakra: 105
+NC: 29
+HP: 242
+Chakra: 114
 Status: Morto (morto por Delta)
 Títulos: Jinchuuriki, Tsuchikage Afastado, Polvo Enjaulado
 
@@ -4056,19 +4056,19 @@ Mas por uma batalha que nunca realmente terminou.
 Mesmo após sua queda, seu legado permaneceu. Rock Gunma é lembrado como um dos maiores Tsuchikages da história — não apenas por sua força, mas pela forma como carregou seu fardo até o fim, preparando aqueles que viriam depois dele.
 
 ## Atributos
-- Força: 10
-- Destreza: 26
-- Agilidade: 10
-- Inteligência: 26
-- Espírito: 20
-- Vigor: 26
-- Percepção: 26
+- Força: 12
+- Destreza: 29
+- Agilidade: 12
+- Inteligência: 29
+- Espírito: 22
+- Vigor: 29
+- Percepção: 29
 
 ## Poderes e Elementos
-- Gyuki — Nível 13
-- Fuinjutsu — Nível 13
-- Bakuton — Nível 13
-- Doton — Nível 13
+- Gyuki — Nível 14
+- Fuinjutsu — Nível 14
+- Bakuton — Nível 14
+- Doton — Nível 14
 
 ## Aptidões
 Chakra Expandido: Gyuki, Elemento Natural: Doton, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar
@@ -4186,9 +4186,9 @@ ID: 22
 Clã: Hanzo
 Grupos: NPC, Konohagakure, OCA, Kumogakure
 Função: Suporte e Controle
-NC: 26
-HP: 200
-Chakra: 88
+NC: 28
+HP: 216
+Chakra: 94
 Status: Vivo
 Títulos: Vice líder da OCA, Suporte Perfeito, Traidor da OCA
 
@@ -4198,18 +4198,18 @@ Títulos: Vice líder da OCA, Suporte Perfeito, Traidor da OCA
 Desconhecido
 
 ## Atributos
-- Força: 10
-- Destreza: 26
-- Agilidade: 10
-- Inteligência: 26
-- Espírito: 26
-- Vigor: 20
-- Percepção: 26
+- Força: 11
+- Destreza: 28
+- Agilidade: 11
+- Inteligência: 28
+- Espírito: 28
+- Vigor: 22
+- Percepção: 28
 
 ## Poderes e Elementos
-- Ranton — Nível 13
-- Raiton — Nível 13
-- Suiton — Nível 13
+- Ranton — Nível 14
+- Raiton — Nível 14
+- Suiton — Nível 14
 - Iryou Ninjutsu — Nível 8
 
 ## Aptidões
@@ -4329,9 +4329,9 @@ ID: 24
 Clã: Uchiha
 Grupos: NPC, Konohagakure
 Função: Tanque
-NC: 28
-HP: 234
-Chakra: 94
+NC: 29
+HP: 242
+Chakra: 97
 Status: Morto (morto por Omega)
 Títulos: Segundo Hokage das Sombras, Líder dos Uchiha
 
@@ -4341,13 +4341,13 @@ Títulos: Segundo Hokage das Sombras, Líder dos Uchiha
 Desconhecido
 
 ## Atributos
-- Força: 28
-- Destreza: 11
-- Agilidade: 28
+- Força: 29
+- Destreza: 12
+- Agilidade: 29
 - Inteligência: 22
-- Espírito: 28
-- Vigor: 28
-- Percepção: 11
+- Espírito: 29
+- Vigor: 29
+- Percepção: 12
 
 ## Poderes e Elementos
 - Katon — Nível 14
@@ -4371,8 +4371,8 @@ ID: 25
 Clã: Hyuga
 Grupos: NPC, Konohagakure
 Função: DPS, Suporte e Controle
-NC: 28
-HP: 234
+NC: 29
+HP: 242
 Chakra: 76
 Status: Morto (morto por Omega)
 Títulos: Segundo Hokage das Sombras, Líder dos Hyuga, Assassino de Kai
@@ -4383,13 +4383,13 @@ Títulos: Segundo Hokage das Sombras, Líder dos Hyuga, Assassino de Kai
 Desconhecido
 
 ## Atributos
-- Força: 11
-- Destreza: 28
-- Agilidade: 11
-- Inteligência: 28
+- Força: 12
+- Destreza: 29
+- Agilidade: 12
+- Inteligência: 29
 - Espírito: 22
-- Vigor: 28
-- Percepção: 28
+- Vigor: 29
+- Percepção: 29
 
 ## Poderes e Elementos
 - Juken — Nível 14
@@ -4651,9 +4651,9 @@ ID: 30
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: DPS e Suporte
-NC: 24
-HP: 202
-Chakra: 96
+NC: 27
+HP: 226
+Chakra: 105
 Status: Vivo
 Títulos: O Sobrevivente do Tempo, Portador do Sacrifício, O Que Pagou o Preço
 
@@ -4673,19 +4673,19 @@ Após Hanzo fugir de Konoha com a chegada de Hades, algo nele quebrou de forma d
 Katsuo não luta por redenção… ele luta para corrigir o erro que ele mesmo criou.
 
 ## Atributos
-- Força: 9
-- Destreza: 24
-- Agilidade: 9
-- Inteligência: 24
-- Espírito: 18
-- Vigor: 24
-- Percepção: 24
+- Força: 11
+- Destreza: 27
+- Agilidade: 11
+- Inteligência: 27
+- Espírito: 20
+- Vigor: 27
+- Percepção: 27
 
 ## Poderes e Elementos
-- Fuinjutsu — Nível 12
-- Katon — Nível 12
-- Futon — Nível 12
-- Rasengan — Nível 12
+- Fuinjutsu — Nível 13
+- Katon — Nível 13
+- Futon — Nível 13
+- Rasengan — Nível 13
 
 ## Aptidões
 Acuidade, Intuição, Instinto de Batalha: LM, CD, Chakra Expandido, Perito em Rastrear, Kagura Shigan, Velocista, Ataque em movimento, Punho de Ferro, Maestria: CC, Reflexos, Potencializar, Mestre dos Selos, Kongou Fuusa
@@ -5168,9 +5168,9 @@ ID: 35
 Clã: Kage
 Grupos: NPC, NoGuns, OCA, Konohagakure
 Função: DPS e Controle
-NC: 18
-HP: 154
-Chakra: 64
+NC: 27
+HP: 226
+Chakra: 91
 Status: Vivo
 Títulos: Esquizofrênico, Arma Secreta da NoGuns, Traidor da NoGuns
 
@@ -5180,17 +5180,17 @@ Títulos: Esquizofrênico, Arma Secreta da NoGuns, Traidor da NoGuns
 Shikatsu Nara, conhecido hoje como Togo Kage, é o que restou de um sonho que foi quebrado cedo demais. Nascido no clã Nara, cresceu como uma criança feliz, curiosa e orgulhosa de seu nome, cercado por figuras lendárias — seus pais eram próximos de Hashirama e Tobirama, e por isso Shikatsu viveu parte de sua infância ao lado dos Senju. Ele jantava com eles, ouvia histórias, aprendia estratégias e carregava um único objetivo no coração: se tornar Hokage. Tobirama era seu herói. Hashirama, sua inspiração. Mas tudo isso morreu na noite da invasão da Vila da Nuvem. Seus pais lutaram até o fim para proteger Konoha, sacrificando suas vidas com orgulho. Shikatsu assistiu tudo. E então viu aquilo que destruiu sua mente por completo: Tobirama, o homem que ele mais admirava, passar por ele sem sequer olhar para trás, seguindo sozinho para enfrentar Hades. Para o mundo, foi um ato de coragem. Para Shikatsu, foi abandono. Traição. Nesse momento, algo dentro dele quebrou de forma irreversível. Sem família, sem propósito e sem seu herói, sua mente colapsou. Ele fugiu, desapareceu, e ao longo dos anos se perdeu completamente de si mesmo. A esquizofrenia induzida pelo trauma fragmentou sua identidade, apagando o garoto que queria ser Hokage. Em seu lugar, nasceu Togo — uma sombra instintiva em forma humana. Vagando por florestas e campos de batalha, atacava por reflexo, sobrevivia por impulso e existia sem direção. Até encontrar Daichi. No primeiro encontro, tentou matá-lo como fazia com todos… mas foi derrotado. E poupado. Mais do que isso — foi visto. Daichi lhe fez uma promessa: encontraria uma cura. Pela primeira vez desde a queda dos Nara, alguém o tratou como humano. Desde então, Togo passou a existir preso a esse único fio de realidade. Hoje, ele é instável, silencioso e imprevisível — incapaz de viver em sociedade, mas extremamente letal em combate. Sua mente pode estar quebrada, mas seu instinto nunca falha. E enquanto o mundo o enxerga como um fragmento perdido… Togo ainda caminha, sustentado apenas por uma promessa que se recusa a esquecer.
 
 ## Atributos
-- Força: 7
-- Destreza: 18
-- Agilidade: 7
-- Inteligência: 10
-- Espírito: 18
-- Vigor: 18
-- Percepção: 18
+- Força: 11
+- Destreza: 27
+- Agilidade: 11
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 27
 
 ## Poderes e Elementos
-- Kage Mane — Nível 9
-- Kuchiyose — Nível 9
+- Kage Mane — Nível 13
+- Kuchiyose — Nível 13
 
 ## Aptidões
 Maestria: CD, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Potencializar
@@ -6736,9 +6736,9 @@ ID: 51
 Clã: Yotsuki
 Grupos: NPC, Kiba, Kumogakure
 Função: DPS
-NC: 24
-HP: 184
-Chakra: 82
+NC: 26
+HP: 200
+Chakra: 88
 Status: Vivo
 Títulos: Predador Silencioso, Fantasma da Tempestade, Líder da Kiba
 
@@ -6794,18 +6794,18 @@ Se o ar ficar silencioso demais...
 Yuji Yotsuki já está mirando.
 
 ## Atributos
-- Força: 9
-- Destreza: 24
-- Agilidade: 9
-- Inteligência: 24
-- Espírito: 24
-- Vigor: 18
-- Percepção: 24
+- Força: 10
+- Destreza: 26
+- Agilidade: 10
+- Inteligência: 26
+- Espírito: 26
+- Vigor: 20
+- Percepção: 26
 
 ## Poderes e Elementos
-- Ranton — Nível 12
-- Raiton — Nível 12
-- Fuinjutsu — Nível 12
+- Ranton — Nível 13
+- Raiton — Nível 13
+- Fuinjutsu — Nível 13
 
 ## Aptidões
 Acuidade, Intuição, Instinto de Batalha: LM, CD, Domínio do Ranton, Técnica Poderosa, Ponto Cego, Saque Rápido
@@ -7426,9 +7426,9 @@ ID: 53
 Clã: Kurogami
 Grupos: NPC, Kiba, Kumogakure
 Função: Suporte e Controle
-NC: 20
-HP: 146
-Chakra: 70
+NC: 23
+HP: 173
+Chakra: 79
 Status: Vivo
 Títulos: O Fantasma da Kiba, Shade, Vazio Sensorial
 
@@ -7472,18 +7472,18 @@ Dentro da Kiba existe uma frase conhecida sobre ele:
 Então vocês já desapareceram.'
 
 ## Atributos
-- Força: 8
-- Destreza: 20
-- Agilidade: 8
-- Inteligência: 20
-- Espírito: 20
-- Vigor: 12
-- Percepção: 20
+- Força: 9
+- Destreza: 23
+- Agilidade: 9
+- Inteligência: 23
+- Espírito: 23
+- Vigor: 16
+- Percepção: 23
 
 ## Poderes e Elementos
-- Ranton — Nível 10
-- Raiton — Nível 10
-- Fuinjutsu — Nível 10
+- Ranton — Nível 11
+- Raiton — Nível 11
+- Fuinjutsu — Nível 11
 
 ## Aptidões
 Reflexos, Maestria: CD, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Perito: Rastrear
@@ -8193,9 +8193,9 @@ ID: 56
 Clã: Muujin
 Grupos: NPC, NoGuns, Iwagakure
 Função: DPS e Controle
-NC: 18
-HP: 133
-Chakra: 64
+NC: 25
+HP: 189
+Chakra: 85
 Status: Vivo
 Títulos: Vice Líder da NoGuns, O Herdeiro que Negou o Trono
 
@@ -8205,19 +8205,19 @@ Títulos: Vice Líder da NoGuns, O Herdeiro que Negou o Trono
 Desconhecido
 
 ## Atributos
-- Força: 7
-- Destreza: 18
-- Agilidade: 7
-- Inteligência: 17
-- Espírito: 18
-- Vigor: 11
-- Percepção: 18
+- Força: 10
+- Destreza: 25
+- Agilidade: 10
+- Inteligência: 25
+- Espírito: 25
+- Vigor: 18
+- Percepção: 25
 
 ## Poderes e Elementos
-- Jinton — Nível 9
-- Doton — Nível 9
-- Katon — Nível 9
-- Futon — Nível 1
+- Jinton — Nível 12
+- Doton — Nível 12
+- Katon — Nível 12
+- Futon — Nível 4
 
 ## Aptidões
 Maestria: CD, Intuição, Sensor, Apagar Presença, Fissão, Perito em Prestidigitação, Técnica Poderosa, Potencializar
@@ -8427,9 +8427,9 @@ ID: 61
 Clã: Dokuhana
 Grupos: NPC, NoGuns, Sunagakure
 Função: DPS
-NC: 18
-HP: 130
-Chakra: 64
+NC: 25
+HP: 189
+Chakra: 85
 Status: Vivo
 Títulos: Sannin das Cobras, Suporte Perfeito
 
@@ -8439,18 +8439,18 @@ Títulos: Sannin das Cobras, Suporte Perfeito
 Desconhecido
 
 ## Atributos
-- Força: 7
-- Destreza: 18
-- Agilidade: 7
-- Inteligência: 18
-- Espírito: 18
-- Vigor: 10
-- Percepção: 18
+- Força: 10
+- Destreza: 25
+- Agilidade: 10
+- Inteligência: 25
+- Espírito: 25
+- Vigor: 18
+- Percepção: 25
 
 ## Poderes e Elementos
-- Dokujutsu — Nível 9
-- Chokuton — Nível 9
-- Senjutsu — Nível 9
+- Dokujutsu — Nível 12
+- Chokuton — Nível 12
+- Senjutsu — Nível 12
 
 ## Aptidões
 Maestria: CD, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Sensor, Quimico, Potencializar
@@ -9685,9 +9685,9 @@ ID: 88
 Clã: Uchiha
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
-NC: 20
-HP: 170
-Chakra: 105
+NC: 24
+HP: 202
+Chakra: 123
 Status: Morto (morto por Nagare Uzumaki)
 Títulos: Jinchuuriki, O Primeiro Experimento, Líder dos 75%, O Inferno Vermelho
 
@@ -9713,19 +9713,19 @@ Ainda assim, em meio ao caos que carrega, existe uma única âncora: Borashi, o 
 Para o mundo, Akairo é uma arma descontrolada. Para a organização, ele é necessário. E para si mesmo… ele é apenas o fogo que nunca pôde nascer — mas que agora queima mais do que qualquer outro.
 
 ## Atributos
-- Força: 8
-- Destreza: 20
-- Agilidade: 8
-- Inteligência: 12
-- Espírito: 20
-- Vigor: 20
-- Percepção: 20
+- Força: 9
+- Destreza: 24
+- Agilidade: 9
+- Inteligência: 18
+- Espírito: 24
+- Vigor: 24
+- Percepção: 24
 
 ## Poderes e Elementos
-- Son Goku — Nível 10
-- Yoton — Nível 10
-- Katon — Nível 10
-- Doton — Nível 10
+- Son Goku — Nível 12
+- Yoton — Nível 12
+- Katon — Nível 12
+- Doton — Nível 12
 
 ## Aptidões
 Mangekyou Sharingan, Eien Mangekyou Sharingan, Maestria: CC, Maestria: CD, Chakra Expandido, Intuição, Reflexos, Domínio do Fogo, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
@@ -10348,9 +10348,9 @@ ID: 94
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: Tank e DPS
-NC: 20
-HP: 170
-Chakra: 105
+NC: 26
+HP: 218
+Chakra: 132
 Status: Morto (morto por Kaito Senju)
 Títulos: Ser Humano Artificial, Vice Líder dos 75%
 
@@ -10382,18 +10382,18 @@ Por isso, Gen’ei não pode ser morto de forma convencional. Mesmo que sua form
 E para si mesmo… Gen’ei é apenas aquilo que foi criado para ser — até o momento em que começou, sem entender como, a se tornar algo mais.
 
 ## Atributos
-- Força: 20
-- Destreza: 8
-- Agilidade: 20
-- Inteligência: 12
-- Espírito: 20
-- Vigor: 20
-- Percepção: 8
+- Força: 26
+- Destreza: 10
+- Agilidade: 26
+- Inteligência: 20
+- Espírito: 26
+- Vigor: 26
+- Percepção: 10
 
 ## Poderes e Elementos
-- Koton — Nível 10
-- Fuinjutsu — Nível 10
-- Senjutsu — Nível 10
+- Koton — Nível 13
+- Fuinjutsu — Nível 13
+- Senjutsu — Nível 13
 
 ## Aptidões
 Maestria: CC, Maestria: CD, Chakra Expandido, Intuição, Reflexos, Domínio do Fogo, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
