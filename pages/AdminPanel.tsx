@@ -1805,9 +1805,14 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                           <span className="text-tech-primary/25">—</span>
                         )}
                       </td>
-                      <td className="py-1.5">
+                      {/* Nowrap igual às outras 12: era a única coluna que podia quebrar, então a
+                          tabela descontava nela toda a largura que faltava. Quem tinha 3+ etiquetas
+                          (só o Ryuta) empilhava tudo e a linha ficava três vezes mais alta. Agora as
+                          etiquetas ficam em fila e o excesso vai pra rolagem horizontal, que a
+                          tabela já tem. */}
+                      <td className="py-1.5 whitespace-nowrap">
                         {faltas.length ? (
-                          <span className="flex flex-wrap gap-1">
+                          <span className="flex flex-nowrap gap-1">
                             {faltas.map(f => (
                               <span key={f} className="px-1.5 py-px border border-red-900/50 bg-red-950/30 text-red-400 text-[9px] uppercase tracking-wide">{f}</span>
                             ))}
