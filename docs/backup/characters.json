@@ -4651,6 +4651,100 @@
     ]
   },
   {
+    "__docId": "juzo-kuroshio",
+    "id": 91,
+    "name": "Juzo Kuroshio",
+    "clan": "Kuroshio",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Almirante Kraken"
+    ],
+    "nc": 29,
+    "position": "",
+    "role": "DPS e Controle",
+    "description": "Juzo, Almirante da Frota Kraken, é um dos homens mais influentes, formidáveis e cruéis da Névoa. Inteligente, paciente e articulado, atravessa guerras utilizando alianças, chantagens, informações e acordos secretos. Comanda uma extensa rede clandestina de agentes e intermediários espalhada por diversas vilas.\n\nPuramente mau e desprovido de limites morais, Juzo manipula, tortura e elimina qualquer pessoa em benefício próprio. Enxerga Kirigakure como um instrumento para ampliar seu poder. Apesar de sua arrogância, teme Ganmaren, pois compreende a verdadeira dimensão de seu poder e sabe do que ele seria capaz caso decidisse enfrentá-lo.\n\nPoucos sabem que Juzo perdeu um braço ao enfrentar secretamente o falso Mizukage Gama enquanto investigava a transformação de Ganmasen Yuki. Desde então, trabalhou para destituí-lo por vingança e orgulho. Apesar de sua monstruosidade, sempre cumpre recompensas, acordos e ameaças, pois sua reputação como homem de palavra fortalece sua influência e o medo provocado por seu nome.",
+    "hp": 230,
+    "chakra": 132,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702",
+    "stats": {
+      "strength": 29,
+      "agility": 29,
+      "dexterity": 12,
+      "perception": 12,
+      "intelligence": 29,
+      "vigor": 25,
+      "spirit": 26
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Futton",
+        "level": 14
+      },
+      {
+        "name": "Youton",
+        "level": 14
+      },
+      {
+        "name": "Fūinjutsu",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Futton Sufocante",
+      "Youton Corrosivo",
+      "Dupla Linhagem",
+      "Domínio da Água",
+      "Acuidade",
+      "Ambidestria",
+      "Ataque Poderoso",
+      "Bloqueio Ambidestro",
+      "Crítico Aprimorado",
+      "Lutar às Cegas",
+      "Arremessar",
+      "Ataque em Movimento",
+      "Ataque Progressivo",
+      "Lutador",
+      "Dano Extra",
+      "Reflexos",
+      "Punho de Ferro",
+      "Soco em Gancho",
+      "Duro de Matar",
+      "Chakra Expandido: Kraken"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190657436737",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#a855f7",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Almirante da Frota Kraken"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "inteligencia"
+    ],
+    "divisaoAtributo": {
+      "espirito": 50,
+      "vigor": 50
+    }
+  },
+  {
     "__docId": "kaien-ishi-omega",
     "name": "Kaien Ishi (Omega)",
     "clan": "Ishi",
@@ -6985,6 +7079,67 @@
     "role": "DPS, Tank e Controle"
   },
   {
+    "__docId": "koga-kirisame",
+    "id": 92,
+    "name": "Kōga Kirisame",
+    "clan": "Kirisame",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Rosto Sob a Máscara"
+    ],
+    "nc": 28,
+    "position": "",
+    "role": "DPS e Controle",
+    "description": "Kōga Kirisame é o Vice-Almirante da Frota Kraken. Já disputou o posto de Almirante e perdeu — a máscara que carrega esconde um rosto coberto de vergonha.\n\nImporta-se genuinamente com todos ao seu redor, mas só enquanto são úteis a ele. Não distingue afeto de manipulação, e acredita que todos existem para servi-lo. É um homem doente: vê criaturas coloridas que mais ninguém enxerga, e responde a elas.\n\nNada disso o torna menos perigoso. Sua fala funciona como uma maldição — onde ele abre a boca, o caos vem atrás. Dizem que seu nome não deve ser pronunciado. É só um boato.",
+    "hp": 225,
+    "chakra": 85,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256",
+    "stats": {
+      "strength": 28,
+      "agility": 28,
+      "dexterity": 11,
+      "perception": 11,
+      "intelligence": 28,
+      "vigor": 25,
+      "spirit": 25
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      }
+    ],
+    "aptitudes": [],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FK%C5%8Dga%20Kirisame%2F5__Temporada.png?alt=media&v=1788190662695638",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#3d3d4a",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Vice-Almirante da Frota Kraken"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "inteligencia"
+    ],
+    "divisaoAtributo": {
+      "espirito": 50,
+      "vigor": 50
+    }
+  },
+  {
     "__docId": "koji-ishizuma",
     "name": "Koji Ishizuma",
     "clan": "Ishizuma",
@@ -7470,6 +7625,64 @@
     ],
     "cargo": [
       "1º Hokage das Sombras"
+    ]
+  },
+  {
+    "__docId": "mei-yuki",
+    "id": 93,
+    "name": "Mei Yuki",
+    "clan": "Yuki",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Arquivo"
+    ],
+    "nc": 27,
+    "position": "",
+    "role": "Controle e DPS",
+    "description": "Mei Yuki é a Capitã da Frota Kraken, colecionadora de armas ninja e a maior especialista em história ninja da Névoa. Seu código de guerra é O Arquivo.\n\nDizem que tem olhos e ouvidos em todos os lugares. Ninguém a encontra: aparece nas reuniões oficiais da Marinha e em nenhum outro lugar, e sai sem deixar rastro. Seu Kekkei Genkai gera vapor do nada, e é dentro da própria névoa quente que ela é mais perigosa.\n\nSua tesoura, a Decapitadora, traz gravados em vermelho os nomes de suas vítimas, escritos com o sangue de cada uma. Mei não é formal, mas é melhor tê-la do seu lado do que contra você.",
+    "hp": 226,
+    "chakra": 91,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992",
+    "stats": {
+      "strength": 27,
+      "agility": 27,
+      "dexterity": 11,
+      "perception": 11,
+      "intelligence": 20,
+      "vigor": 27,
+      "spirit": 27
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 13
+      }
+    ],
+    "aptitudes": [],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788190667832903",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#0ea5e9",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitã da Frota Kraken"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
     ]
   },
   {
@@ -8854,6 +9067,64 @@
     ],
     "graduacao": "Genin",
     "position": ""
+  },
+  {
+    "__docId": "nao-arashio",
+    "id": 94,
+    "name": "Nao Arashio",
+    "clan": "Arashio",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Azarado da Névoa"
+    ],
+    "nc": 26,
+    "position": "",
+    "role": "DPS",
+    "description": "Nao Arashio, Capitão-Tenente da Frota Kraken, não é exatamente o que se chamaria de vilão. É, talvez, um homem muito azarado.\n\nNunca quis matar ninguém. Ainda assim, sem entender o que estava fazendo e sem nunca ter medido a própria força, já matou mais de mil homens. Alguns dizem que ele é sortudo; na verdade é só um bocó que teve a sorte de não morrer até agora.\n\nToda a Névoa o vê como um monstro, um vilão sanguinário. É o contrário disso: seu jeito é bobo, desajeitado e sem nenhuma pretensão.\n\nBom. Isso é o que ele diz.",
+    "hp": 218,
+    "chakra": 88,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061",
+    "stats": {
+      "strength": 26,
+      "agility": 26,
+      "dexterity": 10,
+      "perception": 10,
+      "intelligence": 20,
+      "vigor": 26,
+      "spirit": 26
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 13
+      }
+    ],
+    "aptitudes": [],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNao%20Arashio%2F5__Temporada.png?alt=media&v=1788190677348400",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#ff3b46",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitão-Tenente da Frota Kraken"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ]
   },
   {
     "__docId": "naoki-uchiha",

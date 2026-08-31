@@ -388,14 +388,10 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
   {
     village: 'Kirigakure',
     // A Marinha, oficializada em 27/08/2026: quatro frotas, quatro postos cada. Os quatro da
-    // Leviatã já têm ficha (ids 87 a 90) e saíram desta lista. Os doze que sobram têm NC e frota
-    // definidos, e esperam o resto da ficha.
+    // Leviatã e da Kraken já têm ficha (ids 87 a 94) e saíram desta lista. Os oito que sobram —
+    // Megalodon e Jörmungandr — têm NC e frota definidos, e esperam o resto da ficha.
     entries: [
       { name: 'Murasame Hoshigaki', role: 'Mãe de Kazuki, morta por Ganmasen', dead: true, nc: 18 },
-      { name: 'Juzo Kuroshio', role: 'Almirante da Frota Kraken', nc: 29 },
-      { name: 'Kōga Kirisame', role: 'Vice-Almirante da Frota Kraken', nc: 28 },
-      { name: 'Mei Yuki', role: 'Capitã da Frota Kraken; filha de Ganmasen', nc: 27 },
-      { name: 'Nao Arashio', role: 'Capitão-Tenente da Frota Kraken', nc: 26 },
       { name: 'Enkai Kuroshio', role: 'Almirante da Frota Megalodon', nc: 29 },
       { name: 'Ayame Sazanami', role: 'Vice-Almirante da Frota Megalodon', nc: 28 },
       { name: 'Tōma Umikage', role: 'Capitã da Frota Megalodon', nc: 27 },

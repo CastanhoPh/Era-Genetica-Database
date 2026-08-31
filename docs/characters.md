@@ -94,6 +94,10 @@
 | 88 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
 | 89 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
 | 90 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
+| 91 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
+| 92 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
+| 93 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
+| 94 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
 
 ---
 
@@ -10764,6 +10768,183 @@ Em combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu
 
 ## Aptidões
 Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CD, Intuição, Acuidade, Lutar às Cegas
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Juzo Kuroshio
+ID: 91
+Clã: Kuroshio
+Grupos: NPC, Kirigakure
+Função: DPS e Controle
+NC: 29
+HP: 230
+Chakra: 132
+Status: Vivo
+Títulos: O Almirante Kraken
+
+![Juzo Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702)
+
+## Descrição
+Juzo, Almirante da Frota Kraken, é um dos homens mais influentes, formidáveis e cruéis da Névoa. Inteligente, paciente e articulado, atravessa guerras utilizando alianças, chantagens, informações e acordos secretos. Comanda uma extensa rede clandestina de agentes e intermediários espalhada por diversas vilas.
+
+Puramente mau e desprovido de limites morais, Juzo manipula, tortura e elimina qualquer pessoa em benefício próprio. Enxerga Kirigakure como um instrumento para ampliar seu poder. Apesar de sua arrogância, teme Ganmaren, pois compreende a verdadeira dimensão de seu poder e sabe do que ele seria capaz caso decidisse enfrentá-lo.
+
+Poucos sabem que Juzo perdeu um braço ao enfrentar secretamente o falso Mizukage Gama enquanto investigava a transformação de Ganmasen Yuki. Desde então, trabalhou para destituí-lo por vingança e orgulho. Apesar de sua monstruosidade, sempre cumpre recompensas, acordos e ameaças, pois sua reputação como homem de palavra fortalece sua influência e o medo provocado por seu nome.
+
+## Atributos
+- Força: 29
+- Destreza: 12
+- Agilidade: 29
+- Inteligência: 29
+- Espírito: 26
+- Vigor: 25
+- Percepção: 12
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Futton — Nível 14
+- Youton — Nível 14
+- Fūinjutsu — Nível 14
+
+## Aptidões
+Futton Sufocante, Youton Corrosivo, Dupla Linhagem, Domínio da Água, Acuidade, Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado, Lutar às Cegas, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, Reflexos, Punho de Ferro, Soco em Gancho, Duro de Matar, Chakra Expandido: Kraken
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Kōga Kirisame
+ID: 92
+Clã: Kirisame
+Grupos: NPC, Kirigakure
+Função: DPS e Controle
+NC: 28
+HP: 225
+Chakra: 85
+Status: Vivo
+Títulos: O Rosto Sob a Máscara
+
+![Kōga Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256)
+
+## Descrição
+Kōga Kirisame é o Vice-Almirante da Frota Kraken. Já disputou o posto de Almirante e perdeu — a máscara que carrega esconde um rosto coberto de vergonha.
+
+Importa-se genuinamente com todos ao seu redor, mas só enquanto são úteis a ele. Não distingue afeto de manipulação, e acredita que todos existem para servi-lo. É um homem doente: vê criaturas coloridas que mais ninguém enxerga, e responde a elas.
+
+Nada disso o torna menos perigoso. Sua fala funciona como uma maldição — onde ele abre a boca, o caos vem atrás. Dizem que seu nome não deve ser pronunciado. É só um boato.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 28
+- Espírito: 25
+- Vigor: 25
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 14
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Mei Yuki
+ID: 93
+Clã: Yuki
+Grupos: NPC, Kirigakure
+Função: Controle e DPS
+NC: 27
+HP: 226
+Chakra: 91
+Status: Vivo
+Títulos: O Arquivo
+
+![Mei Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992)
+
+## Descrição
+Mei Yuki é a Capitã da Frota Kraken, colecionadora de armas ninja e a maior especialista em história ninja da Névoa. Seu código de guerra é O Arquivo.
+
+Dizem que tem olhos e ouvidos em todos os lugares. Ninguém a encontra: aparece nas reuniões oficiais da Marinha e em nenhum outro lugar, e sai sem deixar rastro. Seu Kekkei Genkai gera vapor do nada, e é dentro da própria névoa quente que ela é mais perigosa.
+
+Sua tesoura, a Decapitadora, traz gravados em vermelho os nomes de suas vítimas, escritos com o sangue de cada uma. Mei não é formal, mas é melhor tê-la do seu lado do que contra você.
+
+## Atributos
+- Força: 27
+- Destreza: 11
+- Agilidade: 27
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 13
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Nao Arashio
+ID: 94
+Clã: Arashio
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 26
+HP: 218
+Chakra: 88
+Status: Vivo
+Títulos: O Azarado da Névoa
+
+![Nao Arashio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061)
+
+## Descrição
+Nao Arashio, Capitão-Tenente da Frota Kraken, não é exatamente o que se chamaria de vilão. É, talvez, um homem muito azarado.
+
+Nunca quis matar ninguém. Ainda assim, sem entender o que estava fazendo e sem nunca ter medido a própria força, já matou mais de mil homens. Alguns dizem que ele é sortudo; na verdade é só um bocó que teve a sorte de não morrer até agora.
+
+Toda a Névoa o vê como um monstro, um vilão sanguinário. É o contrário disso: seu jeito é bobo, desajeitado e sem nenhuma pretensão.
+
+Bom. Isso é o que ele diz.
+
+## Atributos
+- Força: 26
+- Destreza: 10
+- Agilidade: 26
+- Inteligência: 20
+- Espírito: 26
+- Vigor: 26
+- Percepção: 10
+
+## Poderes e Elementos
+- Suiton — Nível 13
+
+## Aptidões
+Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
