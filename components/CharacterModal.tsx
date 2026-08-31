@@ -371,17 +371,34 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                 {/* Empilhado, não em linha: o título e a patente lado a lado quebravam a três colunas
                     nesta coluna estreita — o Katsuo, com "3º Líder da Ambu" mais um segundo cargo,
                     virava uma escada de duas palavras por linha. */}
-                <div className="border-b border-tech-border pb-2 mb-2">
-                    <p className="text-sm text-tech-secondary font-bold">{(char.titles[0] || 'Desconhecido').toUpperCase()}</p>
-                    {/* Ficha sem rank não mostra nada no lugar — nem o rótulo, nem a linha inteira.
-                        Hoje são 20 das 86, todas sem cargo e sem patente. */}
+                {/* Três linhas rotuladas, e as três dizem coisas diferentes:
+                      Título — como o personagem é conhecido (titles[0]).
+                      Cargo  — o posto que ele ocupa numa vila ou organização, que é conquistado.
+                      Rank   — a escada de ninja, que sai do NC pela `rankDeNC` e não é gravada.
+                    Sem o rótulo, "3º Hokage" e "Lenda Shinobi" pareciam a mesma coisa. */}
+                <div className="border-b border-tech-border pb-2 mb-2 space-y-1.5">
+                    <p className="text-sm font-bold">
+                        <span className="text-tech-primary/50">TÍTULO: </span>
+                        <span className="text-tech-secondary">{(char.titles[0] || 'Desconhecido').toUpperCase()}</span>
+                    </p>
+                    {/* Ficha sem cargo nem patente não mostra nada no lugar — nem o rótulo, nem a
+                        linha inteira. */}
                     {seloDe(char) && (
-                        <p className="mt-1.5 flex flex-wrap items-baseline gap-x-2 gap-y-1 text-sm font-bold">
-                            <span className={corDoSelo(char).texto}>RANK: {seloDe(char).toUpperCase()}</span>
+                        <p className="flex flex-wrap items-baseline gap-x-2 gap-y-1 text-sm font-bold">
+                            <span className={corDoSelo(char).texto}>
+                                <span className="opacity-50">CARGO: </span>{seloDe(char).toUpperCase()}
+                            </span>
                             {/* O card mostra só o primeiro cargo; aqui cabe o resto. */}
                             {(char.cargo?.length ?? 0) > 1 && (
                                 <span className={`text-xs opacity-60 ${corDoSelo(char).texto}`}>+ {char.cargo!.slice(1).join(" · ").toUpperCase()}</span>
                             )}
+                        </p>
+                    )}
+                    {/* Mesma regra do cargo: NC fora da escada (o Beta e o Hades, em 0) não rende
+                        rank nenhum, e aí a linha não existe. */}
+                    {rankDeNC(char.nc) && (
+                        <p className="text-sm font-bold text-tech-accent">
+                            <span className="opacity-50">RANK: </span>{rankDeNC(char.nc).toUpperCase()}
                         </p>
                     )}
                 </div>
