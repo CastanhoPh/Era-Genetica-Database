@@ -2929,6 +2929,104 @@
     "position": ""
   },
   {
+    "__docId": "ganmaren-yuki",
+    "id": 95,
+    "name": "Ganmaren Yuki",
+    "clan": "Yuki",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Escolhido"
+    ],
+    "nc": 30,
+    "position": "",
+    "role": "Controle",
+    "description": "Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.\n\nFoi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hōzuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.\n\nKirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.",
+    "hp": 250,
+    "chakra": 137,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643",
+    "stats": {
+      "strength": 12,
+      "agility": 12,
+      "dexterity": 30,
+      "perception": 30,
+      "intelligence": 27,
+      "vigor": 30,
+      "spirit": 27
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 15
+      },
+      {
+        "name": "Hyoton",
+        "level": 15
+      },
+      {
+        "name": "Kuchiyose",
+        "level": 15
+      },
+      {
+        "name": "Senjutsu",
+        "level": 15
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 15
+      }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Ponto Cego",
+      "Crítico Avançado",
+      "Intuição",
+      "Saque Rápido",
+      "Instinto de Batalha: LM, CD",
+      "Velocista",
+      "Maestria: CD",
+      "Técnica Poderosa",
+      "Maestria: CC",
+      "Crítico Aprimorado",
+      "Perito: Lidar com Animais",
+      "Perito: Ocultismo",
+      "Mestre dos Selos",
+      "Potencializar",
+      "Ataque em Movimento",
+      "Congelamento",
+      "Usar Arma: Pistola",
+      "Usar Arma: Marreta",
+      "Chakra Expandido: Jormungandr"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788190630704219",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#00ff41",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Almirante da Frota Jormungandr"
+    ],
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor"
+    ],
+    "divisaoAtributo": {
+      "espirito": 50,
+      "inteligencia": 50
+    }
+  },
+  {
     "__docId": "ganmasen-yuki-gama",
     "name": "Ganmasen Yuki (Gama)",
     "categories": [
@@ -3389,6 +3487,91 @@
     "role": "DPS, Tank e Controle"
   },
   {
+    "__docId": "gordon-kirisame",
+    "id": 96,
+    "name": "Gordon Kirisame",
+    "clan": "Kirisame",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Cego"
+    ],
+    "nc": 28,
+    "position": "",
+    "role": "Suporte e Tanque",
+    "description": "Gordon Kirisame, o Cego, é o Vice-Almirante da Frota Jormungandr e um dos membros mais respeitados do esquadrão — braço direito do ninja mais forte da Névoa. A cicatriz em seu peito foi feita pelo próprio almirante, e é dela que vem sua fidelidade: Gordon o vê como um deus ninja. O que persegue é impor a Kirigakure inteira uma justiça cega, que não enxerga cor nem raça, só caráter.\n\nÉ quieto, cuidadoso e tem senso de humor. Luta com correntes e jutsus de Suiton, e domina uma versão arcaica do Hiraishin que aperfeiçoou para o próprio estilo: o Flash Marítimo, que lhe permite trocar de lugar com qualquer gomo da própria corrente no meio do combate.\n\nVeio de uma vila vizinha da Névoa, em plena guerra, e lutou por Kirigakure mesmo sendo foragido. Sua origem não podia ser revelada, e foi — por um amigo próximo. Naquela época ainda não era um ninja sensorial: o amigo lhe tirou a visão e o denunciou. Passou dez anos no fundo de um poço até conseguir fugir, e saiu de lá assassino de aluguel.\n\nVoltou a confiar em alguém uma única vez, e foi depois de enfrentar o próprio almirante e quase morrer.",
+    "hp": 234,
+    "chakra": 94,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930",
+    "stats": {
+      "strength": 28,
+      "agility": 28,
+      "dexterity": 11,
+      "perception": 11,
+      "intelligence": 22,
+      "vigor": 28,
+      "spirit": 28
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Magen",
+        "level": 14
+      },
+      {
+        "name": "Senjutsu",
+        "level": 14
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Fascinar",
+      "Miragem",
+      "Ilusão Profunda",
+      "Réplica Enganadora",
+      "Potencializar",
+      "Técnica Elevada",
+      "Mestre dos Selos",
+      "Ponto Cego",
+      "Maestria: CC",
+      "Reflexos",
+      "Acuidade",
+      "Lutar às Cegas",
+      "Domínio da Água",
+      "Duro de Matar"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGordon%20Kirisame%2F5__Temporada.png?alt=media&v=1788190641355772",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#8b8b9a",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Vice-Almirante da Frota Jormungandr"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ]
+  },
+  {
     "__docId": "hades",
     "name": "Hades",
     "clan": "Desconhecido",
@@ -3465,6 +3648,90 @@
       "OCA"
     ],
     "patente": "Líder da OCA"
+  },
+  {
+    "__docId": "hahiko-shiosaki",
+    "id": 97,
+    "name": "Hahiko Shiosaki",
+    "clan": "Shiosaki",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "Criança Amaldiçoada"
+    ],
+    "nc": 28,
+    "position": "",
+    "role": "DPS",
+    "description": "Hahiko Shiosaki é a Capitã da Frota Jormungandr, e Kirigakure a chama de monstro. Cresceu isolada, tratada como criança amaldiçoada — ninguém se ofereceu para cuidar de um monstro.\n\nTem sede de sangue, e isso não a torna insensível. Cumpre ordens porque nunca teve muita liberdade para fazer outra coisa. É dramática, estranha, e boa parte da Névoa a considera assustadora, apesar da aparência fofa.\n\nNinguém na vila sabe o motivo: Hahiko é a jinchūriki de Chomei. Ganmaren e Gordon esconderam isso de Kirigakure inteira, e escondem por medo da OCA.",
+    "hp": 234,
+    "chakra": 141,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235",
+    "stats": {
+      "strength": 28,
+      "agility": 28,
+      "dexterity": 11,
+      "perception": 11,
+      "intelligence": 22,
+      "vigor": 28,
+      "spirit": 28
+    },
+    "powers": [
+      {
+        "name": "Chomei",
+        "level": 14
+      },
+      {
+        "name": "Futon",
+        "level": 14
+      },
+      {
+        "name": "Iryou Ninjutsu",
+        "level": 14
+      },
+      {
+        "name": "Magen",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Domínio do Vento",
+      "Chakra Expandido: Chomei",
+      "Maestria: CC",
+      "Regeneração",
+      "Duro de Matar",
+      "Reflexos",
+      "Potencializar",
+      "Intuição",
+      "Ataque Poderoso",
+      "Dano Extra",
+      "Crítico Aprimorado",
+      "Ataque Múltiplo",
+      "Voar"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788190646741509",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#2dd4bf",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitã da Frota Jormungandr"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ]
   },
   {
     "__docId": "hana-sabaku",
@@ -3947,6 +4214,94 @@
     "position": "",
     "cargo": [
       "Linhagem Temporal"
+    ]
+  },
+  {
+    "__docId": "himari-yuki",
+    "id": 98,
+    "name": "Himari Yuki",
+    "clan": "Yuki",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "A Heroína Morta"
+    ],
+    "nc": 27,
+    "position": "",
+    "role": "DPS",
+    "description": "Himari Yuki foi uma prodígio: a jōnin mais exemplar de sua época e uma heroína para Kirigakure inteira. Hoje é a Capitã-Tenente da Frota Jormungandr, e só uma casca do que foi.\n\nA vila acredita que ela foi atacada por ninjas de outra aldeia — foi o que Juzo Kuroshio fez todos acreditarem. O que houve é que ele a raptou. Via potencial demais nela e no seu Kekkei Genkai de alteração corporal, e acreditava que podia forjar o soldado perfeito, sem sentimentos e de poder inigualável, implantando nela um Sharingan roubado da Vila da Folha.\n\nEla foi torturada, desmembrada, costurada. Dezenas de técnicas de selo foram aplicadas e testadas em seu corpo. É o experimento mais monstruoso da história da Névoa, e ninguém em Kirigakure quer responder o que sobra de um ser tratado pior que um verme.\n\nSobrou o fantoche que Juzo tentou controlar. A heroína morreu, e o que restou mal pensa por si. Ganmaren a resgatou depois, em acordos que ninguém detalha.",
+    "hp": 226,
+    "chakra": 91,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490",
+    "stats": {
+      "strength": 27,
+      "agility": 27,
+      "dexterity": 11,
+      "perception": 11,
+      "intelligence": 20,
+      "vigor": 27,
+      "spirit": 27
+    },
+    "powers": [
+      {
+        "name": "Katon",
+        "level": 13
+      },
+      {
+        "name": "Kugutsu",
+        "level": 13
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 13
+      },
+      {
+        "name": "Jiogu",
+        "level": 13
+      }
+    ],
+    "aptitudes": [
+      "Sharingan",
+      "Nidan Sharingan",
+      "Sandan Sharingan",
+      "Mangekyou Sharingan",
+      "Eternal Mangekyou Sharingan",
+      "Regeneração",
+      "Mestre dos Selos",
+      "Ambidestria",
+      "Bloqueio Ambidestro",
+      "Duro de Matar",
+      "Acuidade",
+      "Maestria: CD",
+      "Reflexos",
+      "Potencializar",
+      "Dano Extra",
+      "Ataque Múltiplo",
+      "Ponto Cego"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHimari%20Yuki%2F5__Temporada.png?alt=media&v=1788190652071729",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#ff3b46",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitã-Tenente da Frota Jormungandr"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
     ]
   },
   {

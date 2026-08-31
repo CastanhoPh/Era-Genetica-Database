@@ -98,6 +98,10 @@
 | 92 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
 | 93 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
 | 94 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
+| 95 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
+| 96 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
+| 97 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
+| 98 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
 
 ---
 
@@ -10946,6 +10950,195 @@ Bom. Isso é o que ele diz.
 
 ## Aptidões
 Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Ganmaren Yuki
+ID: 95
+Clã: Yuki
+Grupos: NPC, Kirigakure
+Função: Controle
+NC: 30
+HP: 250
+Chakra: 137
+Status: Vivo
+Títulos: O Escolhido
+
+![Ganmaren Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643)
+
+## Descrição
+Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.
+
+Foi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hōzuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.
+
+Kirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.
+
+## Atributos
+- Força: 12
+- Destreza: 30
+- Agilidade: 12
+- Inteligência: 27
+- Espírito: 27
+- Vigor: 30
+- Percepção: 30
+
+## Poderes e Elementos
+- Suiton — Nível 15
+- Hyoton — Nível 15
+- Kuchiyose — Nível 15
+- Senjutsu — Nível 15
+- Fuinjutsu — Nível 15
+
+## Aptidões
+Acuidade, Ponto Cego, Crítico Avançado, Intuição, Saque Rápido, Instinto de Batalha: LM, CD, Velocista, Maestria: CD, Técnica Poderosa, Maestria: CC, Crítico Aprimorado, Perito: Lidar com Animais, Perito: Ocultismo, Mestre dos Selos, Potencializar, Ataque em Movimento, Congelamento, Usar Arma: Pistola, Usar Arma: Marreta, Chakra Expandido: Jormungandr
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Gordon Kirisame
+ID: 96
+Clã: Kirisame
+Grupos: NPC, Kirigakure
+Função: Suporte e Tanque
+NC: 28
+HP: 234
+Chakra: 94
+Status: Vivo
+Títulos: O Cego
+
+![Gordon Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930)
+
+## Descrição
+Gordon Kirisame, o Cego, é o Vice-Almirante da Frota Jormungandr e um dos membros mais respeitados do esquadrão — braço direito do ninja mais forte da Névoa. A cicatriz em seu peito foi feita pelo próprio almirante, e é dela que vem sua fidelidade: Gordon o vê como um deus ninja. O que persegue é impor a Kirigakure inteira uma justiça cega, que não enxerga cor nem raça, só caráter.
+
+É quieto, cuidadoso e tem senso de humor. Luta com correntes e jutsus de Suiton, e domina uma versão arcaica do Hiraishin que aperfeiçoou para o próprio estilo: o Flash Marítimo, que lhe permite trocar de lugar com qualquer gomo da própria corrente no meio do combate.
+
+Veio de uma vila vizinha da Névoa, em plena guerra, e lutou por Kirigakure mesmo sendo foragido. Sua origem não podia ser revelada, e foi — por um amigo próximo. Naquela época ainda não era um ninja sensorial: o amigo lhe tirou a visão e o denunciou. Passou dez anos no fundo de um poço até conseguir fugir, e saiu de lá assassino de aluguel.
+
+Voltou a confiar em alguém uma única vez, e foi depois de enfrentar o próprio almirante e quase morrer.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 22
+- Espírito: 28
+- Vigor: 28
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Magen — Nível 14
+- Senjutsu — Nível 14
+- Fuinjutsu — Nível 14
+
+## Aptidões
+Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Hahiko Shiosaki
+ID: 97
+Clã: Shiosaki
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 28
+HP: 234
+Chakra: 141
+Status: Vivo
+Títulos: Criança Amaldiçoada
+
+![Hahiko Shiosaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235)
+
+## Descrição
+Hahiko Shiosaki é a Capitã da Frota Jormungandr, e Kirigakure a chama de monstro. Cresceu isolada, tratada como criança amaldiçoada — ninguém se ofereceu para cuidar de um monstro.
+
+Tem sede de sangue, e isso não a torna insensível. Cumpre ordens porque nunca teve muita liberdade para fazer outra coisa. É dramática, estranha, e boa parte da Névoa a considera assustadora, apesar da aparência fofa.
+
+Ninguém na vila sabe o motivo: Hahiko é a jinchūriki de Chomei. Ganmaren e Gordon esconderam isso de Kirigakure inteira, e escondem por medo da OCA.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 22
+- Espírito: 28
+- Vigor: 28
+- Percepção: 11
+
+## Poderes e Elementos
+- Chomei — Nível 14
+- Futon — Nível 14
+- Iryou Ninjutsu — Nível 14
+- Magen — Nível 14
+
+## Aptidões
+Domínio do Vento, Chakra Expandido: Chomei, Maestria: CC, Regeneração, Duro de Matar, Reflexos, Potencializar, Intuição, Ataque Poderoso, Dano Extra, Crítico Aprimorado, Ataque Múltiplo, Voar
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Himari Yuki
+ID: 98
+Clã: Yuki
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 27
+HP: 226
+Chakra: 91
+Status: Vivo
+Títulos: A Heroína Morta
+
+![Himari Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490)
+
+## Descrição
+Himari Yuki foi uma prodígio: a jōnin mais exemplar de sua época e uma heroína para Kirigakure inteira. Hoje é a Capitã-Tenente da Frota Jormungandr, e só uma casca do que foi.
+
+A vila acredita que ela foi atacada por ninjas de outra aldeia — foi o que Juzo Kuroshio fez todos acreditarem. O que houve é que ele a raptou. Via potencial demais nela e no seu Kekkei Genkai de alteração corporal, e acreditava que podia forjar o soldado perfeito, sem sentimentos e de poder inigualável, implantando nela um Sharingan roubado da Vila da Folha.
+
+Ela foi torturada, desmembrada, costurada. Dezenas de técnicas de selo foram aplicadas e testadas em seu corpo. É o experimento mais monstruoso da história da Névoa, e ninguém em Kirigakure quer responder o que sobra de um ser tratado pior que um verme.
+
+Sobrou o fantoche que Juzo tentou controlar. A heroína morreu, e o que restou mal pensa por si. Ganmaren a resgatou depois, em acordos que ninguém detalha.
+
+## Atributos
+- Força: 27
+- Destreza: 11
+- Agilidade: 27
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 11
+
+## Poderes e Elementos
+- Katon — Nível 13
+- Kugutsu — Nível 13
+- Fuinjutsu — Nível 13
+- Jiogu — Nível 13
+
+## Aptidões
+Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan, Eternal Mangekyou Sharingan, Regeneração, Mestre dos Selos, Ambidestria, Bloqueio Ambidestro, Duro de Matar, Acuidade, Maestria: CD, Reflexos, Potencializar, Dano Extra, Ataque Múltiplo, Ponto Cego
 
 ## Arsenal
 Nenhum item cadastrado.
