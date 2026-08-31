@@ -91,7 +91,7 @@
 | 85 | Beta | Desconhecido | NPC, OCA, Konohagakure | Líder do Terceiro Degrau | ? | 0 | 0 | 0 | Vivo |
 | 86 | Hades | Desconhecido | NPC, OCA | Líder da OCA | ? | 0 | 0 | 0 | Vivo |
 | 87 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
-| 88 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 28 | 216 | 94 | Vivo |
+| 88 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
 | 89 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
 | 90 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
 
@@ -10642,9 +10642,9 @@ ID: 88
 Clã: Umikage
 Grupos: NPC, Kirigakure
 Função: Suporte e Controle
-NC: 28
-HP: 216
-Chakra: 94
+NC: 29
+HP: 221
+Chakra: 97
 Status: Vivo
 Títulos: O Sábio dos Mares
 
@@ -10658,13 +10658,13 @@ Sua proficiência com a água é extraordinária. Durante uma batalha, muitos ad
 Suas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsus de selamento. Genzō conhece milhares de fórmulas de Fūinjutsu, pois acredita que a melhor forma de eliminar uma ameaça não é derramando mais sangue, mas impedindo-a de continuar lutando. Sua principal técnica de selamento é a Rede, que funciona como uma rede de pesca capaz de capturar e selar grandes quantidades de chakra.
 
 ## Atributos
-- Força: 11
-- Destreza: 28
-- Agilidade: 11
-- Inteligência: 28
-- Espírito: 28
+- Força: 12
+- Destreza: 29
+- Agilidade: 12
+- Inteligência: 29
+- Espírito: 29
 - Vigor: 22
-- Percepção: 28
+- Percepção: 29
 
 ## Poderes e Elementos
 - Suiton — Nível 14

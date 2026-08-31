@@ -3247,22 +3247,10 @@
     "titles": [
       "O Sábio dos Mares"
     ],
-    "nc": 28,
     "position": "",
     "role": "Suporte e Controle",
     "description": "Genzō Umikage é um artesão, um simples pescador e, ao mesmo tempo, um grande Vice-Almirante. Age de maneira calma e pacífica em praticamente todas as situações, exceto quando alguém desafia ou ameaça sua vila. Costuma passar seu tempo com uma vara de pesca no porto. Embora sua aparência coberta por escamas possa assustar algumas pessoas, Genzō é um homem bondoso.\n\nSua proficiência com a água é extraordinária. Durante uma batalha, muitos adversários sequer conseguem enxergar seus movimentos. Genzō luta de maneira fluida como a água, mantendo a sabedoria de um monge e a serenidade de um pescador, mesmo diante das ameaças mais perigosas.\n\nSuas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsus de selamento. Genzō conhece milhares de fórmulas de Fūinjutsu, pois acredita que a melhor forma de eliminar uma ameaça não é derramando mais sangue, mas impedindo-a de continuar lutando. Sua principal técnica de selamento é a Rede, que funciona como uma rede de pesca capaz de capturar e selar grandes quantidades de chakra.",
-    "hp": 216,
-    "chakra": 94,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376",
-    "stats": {
-      "strength": 11,
-      "agility": 11,
-      "dexterity": 28,
-      "perception": 28,
-      "intelligence": 28,
-      "vigor": 22,
-      "spirit": 28
-    },
     "powers": [
       {
         "name": "Suiton",
@@ -3326,7 +3314,19 @@
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "nc": 29,
+    "stats": {
+      "strength": 12,
+      "agility": 12,
+      "dexterity": 29,
+      "perception": 29,
+      "intelligence": 29,
+      "vigor": 22,
+      "spirit": 29
+    },
+    "hp": 221,
+    "chakra": 97
   },
   {
     "__docId": "gorai-arashiumi",
