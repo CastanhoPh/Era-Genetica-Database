@@ -7496,7 +7496,7 @@ export const initialData: Character[] = [
     name: "Juzo Kuroshio",
     clan: "Kuroshio",
     categories: ["NPC", "Kirigakure"],
-    titles: ["O Almirante Kraken"],
+    titles: ["O Almirante Sujo"],
     nc: 29,
     position: "",
     role: "DPS e Controle",
@@ -7584,7 +7584,8 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992",
     stats: { strength: 27, dexterity: 11, agility: 27, intelligence: 20, spirit: 27, vigor: 27, perception: 11 },
     powers: [
-      { name: "Suiton", level: 13 }
+      { name: "Suiton", level: 13 },
+      { name: "Futton", level: 13 }
     ],
     aptitudes: [],
     isDead: false,

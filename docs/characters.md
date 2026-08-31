@@ -10786,7 +10786,7 @@ NC: 29
 HP: 230
 Chakra: 132
 Status: Vivo
-Títulos: O Almirante Kraken
+Títulos: O Almirante Sujo
 
 ![Juzo Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702)
 
@@ -10897,6 +10897,7 @@ Sua tesoura, a Decapitadora, traz gravados em vermelho os nomes de suas vítimas
 
 ## Poderes e Elementos
 - Suiton — Nível 13
+- Futton — Nível 13
 
 ## Aptidões
 Desconhecido

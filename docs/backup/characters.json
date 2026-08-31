@@ -4659,9 +4659,6 @@
       "NPC",
       "Kirigakure"
     ],
-    "titles": [
-      "O Almirante Kraken"
-    ],
     "nc": 29,
     "position": "",
     "role": "DPS e Controle",
@@ -4742,7 +4739,10 @@
     "divisaoAtributo": {
       "espirito": 50,
       "vigor": 50
-    }
+    },
+    "titles": [
+      "O Almirante Sujo"
+    ]
   },
   {
     "__docId": "kaien-ishi-omega",
@@ -7655,12 +7655,6 @@
       "vigor": 27,
       "spirit": 27
     },
-    "powers": [
-      {
-        "name": "Suiton",
-        "level": 13
-      }
-    ],
     "aptitudes": [],
     "isDead": false,
     "techniques": [],
@@ -7683,6 +7677,16 @@
     "focosAtributo": [
       "vigor",
       "espirito"
+    ],
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 13
+      },
+      {
+        "name": "Futton",
+        "level": 13
+      }
     ]
   },
   {
