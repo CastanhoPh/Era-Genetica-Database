@@ -73,7 +73,7 @@ export interface Invocacao {
   arteUrl?: string;
   /** Rank na mesma escala do arsenal: Z, S++, S+, S. */
   rank?: string;
-  /** Natureza, herdada do dono: Mokuton, Fujogan, Senjutsu, Kage Mane, Ketton, Doton, Hyouton, Matatabi, Kurama. */
+  /** Natureza, herdada do dono: Mokuton, Fujogan, Senjutsu, Kage Mane, Ketton, Doton, Hyoton, Matatabi, Kurama. */
   nature?: string;
   /** Vila de origem da invocação. */
   village?: string;

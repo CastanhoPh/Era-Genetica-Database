@@ -14,7 +14,7 @@
 | 8 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
 | 9 | Kubikiribōchō | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
 | 10 | Luvas de Chakra Profano 'F' | S+ | Chakra Profano | Konohagakure | Oddy Uchiha |
-| 11 | Hyōton Artificial | S | Chakra Artificial | Konohagakure | Takeshi Hatake |
+| 11 | Hyoton Artificial | S | Chakra Artificial | Konohagakure | Takeshi Hatake |
 | 12 | Shōton Artificial | S | Chakra Artificial | Konohagakure | Takeshi Hatake |
 | 13 | Colar dos Hatake | S+ | Chakra Profano | Konohagakure | Oddy Uchiha |
 | 14 | Nuibari | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
@@ -71,12 +71,12 @@
 | 65 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
 | 66 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
 | 67 | Kaikyō no Men | S+ | Suiton | Kirigakure | Desconhecido |
-| 68 | Hyōketsu no Sensu | S+ | Hyōton | Kirigakure | Desconhecido |
+| 68 | Hyōketsu no Sensu | S+ | Hyoton | Kirigakure | Desconhecido |
 | 69 | Suiryū no Reigan | S++ | Suiton | Kirigakure | Desconhecido |
 | 70 | Kiri-no-Kami no Yoroi | S++ | Suiton | Kirigakure | Desconhecido |
 | 71 | Shinsui no Yari | S++ | Suiton | Kirigakure | Desconhecido |
 | 72 | Umitsuchi no Teisatsu | Z | Suiton | Kirigakure | Desconhecido |
-| 73 | Hyōga no Seihai | Z | Hyōton | Kirigakure | Desconhecido |
+| 73 | Hyōga no Seihai | Z | Hyoton | Kirigakure | Desconhecido |
 | 74 | Hakuryū no Ken | Z | Chakra Profano + Fujogan | Konohagakure | Katsumi Hyuga |
 | 75 | Hakuryū no Men | Z | Chakra Profano + Fujogan | Konohagakure | Katsumi Hyuga |
 | 76 | Hokage no Haori | Z | Fuinjutsu + Vontade do Fogo | Konohagakure | Desconhecido |
@@ -236,7 +236,7 @@ Estas manoplas experimentais foram desenvolvidas pela OCA para canalizar o chakr
 
 ---
 
-# Hyōton Artificial
+# Hyoton Artificial
 ID: 11
 Classificação: S
 Natureza: Chakra Artificial
@@ -244,10 +244,10 @@ Origem: Konohagakure
 Dono Original: Takeshi Hatake
 Dono Atual: Takeshi Hatake
 
-![Hyōton Artificial](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485)
+![Hyoton Artificial](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485)
 
 ## Descrição
-Uma maravilha da engenharia de chakra, esta seringa tecnológica permite que qualquer usuário replique a rara linhagem avançada do Hyōton (Gelo). Através de um complexo sistema de fusão molecular entre Futon e Suiton em nanoescala, ela injeta um composto de chakra estabilizado que gela o ar ao redor instantaneamente. O gelo gerado é muito mais denso e resistente que o gelo natural, sendo capaz de suportar jutsus de Katon de alto nível sem derreter. Takeshi Hatake utiliza este recurso para criar barreiras de contenção absolutas, armas de gelo afiadas como diamante ou para imobilizar múltiplos oponentes em um campo de congelamento eterno. A técnica artificial elimina a necessidade de selos de mão tradicionais, permitindo uma ativação quase instantânea em situações de vida ou morte. É a prova de que a tecnologia da Folha pode desafiar os limites da genética ninja.
+Uma maravilha da engenharia de chakra, esta seringa tecnológica permite que qualquer usuário replique a rara linhagem avançada do Hyoton (Gelo). Através de um complexo sistema de fusão molecular entre Futon e Suiton em nanoescala, ela injeta um composto de chakra estabilizado que gela o ar ao redor instantaneamente. O gelo gerado é muito mais denso e resistente que o gelo natural, sendo capaz de suportar jutsus de Katon de alto nível sem derreter. Takeshi Hatake utiliza este recurso para criar barreiras de contenção absolutas, armas de gelo afiadas como diamante ou para imobilizar múltiplos oponentes em um campo de congelamento eterno. A técnica artificial elimina a necessidade de selos de mão tradicionais, permitindo uma ativação quase instantânea em situações de vida ou morte. É a prova de que a tecnologia da Folha pode desafiar os limites da genética ninja.
 
 ---
 
@@ -1116,7 +1116,7 @@ A Kaikyō no Men é uma máscara tradicional de Rank S+ utilizada pela elite dos
 # Hyōketsu no Sensu
 ID: 68
 Classificação: S+
-Natureza: Hyōton
+Natureza: Hyoton
 Origem: Kirigakure
 Dono Original: Desconhecido
 Dono Atual: Desconhecido
@@ -1124,7 +1124,7 @@ Dono Atual: Desconhecido
 ![Hyōketsu no Sensu](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F68%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1784038000721324)
 
 ## Descrição
-O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das montanhas eternas do País da Água, imbuído com a essência da Liberação de Gelo (Hyōton). Ao ser aberto, o leque libera uma névoa congelante de temperatura subzero que pode imobilizar os pés de exércitos inteiros instantaneamente ao tocar o solo ou a umidade do ar. O usuário pode manipular as correntes de ar geradas pelo leque para criar tempestades de estilhaços de gelo afiados como navalhas ou erguer espelhos de cristal de gelo para defesa e movimentação estratégica. O artefato atua como um catalisador de chakra que permite a usuários sem linhagem de gelo manifestarem técnicas básicas de Hyōton com grande eficiência. Em combate, cada abanada do leque drena o calor do ambiente, tornando o campo de batalha progressivamente mais letal para oponentes que não possuam resistência ao frio extremo. O Hyōketsu no Sensu também pode ser usado para selar jutsus de fogo de médio nível, extinguindo chamas através da absorção térmica imediata. É uma arma de controle de área elegante e devastadora, transformando o calor da batalha em um deserto de gelo silencioso e mortal sob o comando do mestre.
+O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das montanhas eternas do País da Água, imbuído com a essência da Liberação de Gelo (Hyoton). Ao ser aberto, o leque libera uma névoa congelante de temperatura subzero que pode imobilizar os pés de exércitos inteiros instantaneamente ao tocar o solo ou a umidade do ar. O usuário pode manipular as correntes de ar geradas pelo leque para criar tempestades de estilhaços de gelo afiados como navalhas ou erguer espelhos de cristal de gelo para defesa e movimentação estratégica. O artefato atua como um catalisador de chakra que permite a usuários sem linhagem de gelo manifestarem técnicas básicas de Hyoton com grande eficiência. Em combate, cada abanada do leque drena o calor do ambiente, tornando o campo de batalha progressivamente mais letal para oponentes que não possuam resistência ao frio extremo. O Hyōketsu no Sensu também pode ser usado para selar jutsus de fogo de médio nível, extinguindo chamas através da absorção térmica imediata. É uma arma de controle de área elegante e devastadora, transformando o calor da batalha em um deserto de gelo silencioso e mortal sob o comando do mestre.
 
 ---
 
@@ -1191,7 +1191,7 @@ O Umitsuchi no Teisatsu é o cetro lendário de Rank Z que pertenceu ao Primeiro
 # Hyōga no Seihai
 ID: 73
 Classificação: Z
-Natureza: Hyōton
+Natureza: Hyoton
 Origem: Kirigakure
 Dono Original: Desconhecido
 Dono Atual: Desconhecido

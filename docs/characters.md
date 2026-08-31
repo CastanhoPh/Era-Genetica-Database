@@ -5797,7 +5797,7 @@ Mas, mesmo seguindo em frente, o frio dentro dele nunca desapareceu.
 - Percepção: 22
 
 ## Poderes e Elementos
-- Hyōton — Nível 11
+- Hyoton — Nível 11
 - Iryou Ninjutsu — Nível 11
 - Kuchiyose — Nível 11
 
@@ -5808,17 +5808,17 @@ Kaminari, Maestria: CD, Intuição, Ponto Cego, Acuidade, Técnica Poderosa, Sen
 Nenhum item cadastrado.
 
 ## Técnicas
-### 1. Hyōton: Kaminari Mugen Kuro Fubuki
-Classificação: S++ | Natureza: Hyōton + Kaminari
+### 1. Hyoton: Kaminari Mugen Kuro Fubuki
+Classificação: S++ | Natureza: Hyoton + Kaminari
 
-![Hyōton: Kaminari Mugen Kuro Fubuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F01%20-%20Hy%C5%8Dton%3A%20Kaminari%20Mugen%20Kuro%20Fubuki.png?alt=media&v=1786651904570414)
+![Hyoton: Kaminari Mugen Kuro Fubuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F01%20-%20Hy%C5%8Dton%3A%20Kaminari%20Mugen%20Kuro%20Fubuki.png?alt=media&v=1786651904570414)
 
 Descrição:
 Nagi libera uma tempestade absoluta onde neve, gelo negro e relâmpagos profanos coexistem. Cada floco de neve se transforma em um ponto de condução elétrica, permitindo que o Kaminari percorra instantaneamente todo o campo.
 
 A tempestade cria uma rede invisível onde Nagi pode atacar qualquer ponto dentro da área com velocidade de raio, congelando e eletrocutando simultaneamente o sistema de chakra dos inimigos.
 
-O gelo formado dentro da técnica não é comum — é Kuro Hyōton, um gelo negro que absorve chakra e amplifica a descarga elétrica, criando um ciclo infinito de congelamento e destruição.
+O gelo formado dentro da técnica não é comum — é Kuro Hyoton, um gelo negro que absorve chakra e amplifica a descarga elétrica, criando um ciclo infinito de congelamento e destruição.
 
 Yuki Fukurō atua como núcleo da tempestade, guiando os relâmpagos e marcando alvos para execuções instantâneas.
 
@@ -5828,13 +5828,13 @@ Destruição:
 Aniquilação total de campo. Combina congelamento absoluto com destruição elétrica interna. Pode eliminar múltiplos alvos simultaneamente sem possibilidade de reação.
 
 História:
-Desenvolvida após Nagi perder o controle do Chakra Profano durante uma tempestade natural. Ao entrar em ressonância com relâmpagos reais, ele fundiu Hyōton com Kaminari, criando o primeiro gelo condutor de chakra.
+Desenvolvida após Nagi perder o controle do Chakra Profano durante uma tempestade natural. Ao entrar em ressonância com relâmpagos reais, ele fundiu Hyoton com Kaminari, criando o primeiro gelo condutor de chakra.
 
 Status de Uso:
 Extremamente instável. Alto risco de autodestruição caso o fluxo de chakra saia do controle.
 
 ### 2. Kuchiyose: Yuki Fukurō - Raijin Kyōmei
-Classificação: S++ | Natureza: Hyōton + Kaminari Negro + Chakra Profano
+Classificação: S++ | Natureza: Hyoton + Kaminari Negro + Chakra Profano
 
 ![Kuchiyose: Yuki Fukurō - Raijin Kyōmei](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Ky%C5%8Dmei.png?alt=media&v=1786651904574110)
 
@@ -5862,10 +5862,10 @@ Essa forma nasceu quando Yuki Fukurō foi completamente saturada pelo Kaminari N
 Status de Uso:
 Consome chakra de forma contínua e intensa. A fusão prolongada pode sobrecarregar o sistema nervoso de Nagi, causando colapso sensorial ou perda de controle sobre o Kaminari Negro.
 
-### 3. Hyōton: Kōri no Shōkyo
-Classificação: S++ | Natureza: Hyōton + Kaminari
+### 3. Hyoton: Kōri no Shōkyo
+Classificação: S++ | Natureza: Hyoton + Kaminari
 
-![Hyōton: Kōri no Shōkyo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F03%20-%20Hy%C5%8Dton%3A%20K%C5%8Dri%20no%20Sh%C5%8Dkyo.png?alt=media&v=1786651904559182)
+![Hyoton: Kōri no Shōkyo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F03%20-%20Hy%C5%8Dton%3A%20K%C5%8Dri%20no%20Sh%C5%8Dkyo.png?alt=media&v=1786651904559182)
 
 Descrição:
 Nagi toca o solo ou libera chakra pelo ar, criando uma expansão instantânea de gelo profano que se espalha em alta velocidade. Tudo que é alcançado pela técnica começa a congelar de fora para dentro, enquanto o chakra do alvo sofre interrupções bruscas, como se estivesse sendo apagado em camadas. Técnicas ativas atingidas pelo gelo perdem estabilidade e podem se desfazer antes de completar sua execução.
@@ -5879,10 +5879,10 @@ Foi a primeira técnica profana desenvolvida por Nagi, criada após perceber que
 Status de Uso:
 Consome chakra de forma moderada, mas exige contato visual ou percepção precisa da área congelada.
 
-### 4. Hyōton: Kuro Hyōga
-Classificação: S+ | Natureza: Hyōton
+### 4. Hyoton: Kuro Hyōga
+Classificação: S+ | Natureza: Hyoton
 
-![Hyōton: Kuro Hyōga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F04%20-%20Hy%C5%8Dton%3A%20Kuro%20Hy%C5%8Dga.png?alt=media&v=1786651904560507)
+![Hyoton: Kuro Hyōga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F04%20-%20Hy%C5%8Dton%3A%20Kuro%20Hy%C5%8Dga.png?alt=media&v=1786651904560507)
 
 Descrição:
 Nagi cria lâminas de gelo negro extremamente finas e densas, capazes de atravessar defesas comuns com precisão cirúrgica. Ao atingir o inimigo, as lâminas não causam apenas cortes físicos, mas liberam frio profano dentro do sistema de chakra, causando rigidez muscular, perda de reflexo e falhas momentâneas na execução de jutsus.
@@ -5897,7 +5897,7 @@ Status de Uso:
 Requer extrema precisão. Perde eficiência contra alvos muito rápidos caso Nagi não esteja com suporte sensorial ativo.
 
 ### 5. Kuchiyose: Yuki Fukurō - Raijin Mode
-Classificação: S++ | Natureza: Hyōton + Kaminari + Kuchiyose
+Classificação: S++ | Natureza: Hyoton + Kaminari + Kuchiyose
 
 ![Kuchiyose: Yuki Fukurō - Raijin Mode](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F05%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Mode.png?alt=media&v=1786651904570106)
 
@@ -5914,12 +5914,12 @@ Status de Uso:
 Alto consumo contínuo.
 
 ### 6. Kuchiyose: Yuki Fukurō
-Classificação: S+ | Natureza: Hyōton
+Classificação: S+ | Natureza: Hyoton
 
 ![Kuchiyose: Yuki Fukurō](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F06%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D.png?alt=media&v=1786651904583943)
 
 Descrição:
-Nagi invoca sua coruja espiritual, Yuki Fukurō, uma criatura formada por penas brancas, olhos azul-profanos e asas cobertas por cristais de gelo. A coruja se conecta diretamente à mente de Nagi, compartilhando visão aérea, percepção térmica e leitura de chakra. Além de atuar como suporte sensorial, Yuki Fukurō pode liberar rajadas de vento congelante, marcar inimigos com penas de gelo e servir como ponto de origem para técnicas de Hyōton à distância.
+Nagi invoca sua coruja espiritual, Yuki Fukurō, uma criatura formada por penas brancas, olhos azul-profanos e asas cobertas por cristais de gelo. A coruja se conecta diretamente à mente de Nagi, compartilhando visão aérea, percepção térmica e leitura de chakra. Além de atuar como suporte sensorial, Yuki Fukurō pode liberar rajadas de vento congelante, marcar inimigos com penas de gelo e servir como ponto de origem para técnicas de Hyoton à distância.
 
 Destruição:
 Suporte ofensivo e sensorial. Amplia drasticamente o alcance de Nagi e permite ataques coordenados de múltiplas direções.
@@ -9162,7 +9162,7 @@ Para a equipe, ele é liderança. Para a organização, ele é eficiência absol
 - Juken — Nível 13
 - Isobu — Nível 13
 - Isobu Suiton — Nível 13
-- Hyouton — Nível 13
+- Hyoton — Nível 13
 
 ## Aptidões
 Fujogan, Eternal Fujogan, Chakra Expandido: Isobu, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Água, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
@@ -9172,12 +9172,12 @@ Nenhum item cadastrado.
 
 ## Técnicas
 ### 1. Fujogan Hyōkai: Mugen Reimei no Gunzei
-Classificação: Z | Natureza: Chakra Profano + Fujogan + Hyōton + Isobu
+Classificação: Z | Natureza: Chakra Profano + Fujogan + Hyoton + Isobu
 
 ![Fujogan Hyōkai: Mugen Reimei no Gunzei](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F01%20-%20Fujogan%20Hy%C5%8Dkai%3A%20Mugen%20Reimei%20no%20Gunzei.png?alt=media&v=1786651891301210)
 
 Descrição:
-Borashi ativa o Fujogan e libera 100% de seu Chakra Profano Natural, fundindo-o completamente com o Hyōton. O ambiente é instantaneamente convertido em um domínio glacial absoluto onde temperatura, som e fluxo de energia são suprimidos. No centro do território congelado, ele materializa uma versão colossal de Isobu feita de gelo abissal e chakra profano condensado. Ao mesmo tempo, milhares de entidades congeladas emergem do solo e do ar — soldados cristalinos, bestas titânicas, dragões de gelo negro e gigantes armados com lâminas glaciais. Cada criação possui consciência limitada, instinto de combate e obediência absoluta à vontade de Borashi.
+Borashi ativa o Fujogan e libera 100% de seu Chakra Profano Natural, fundindo-o completamente com o Hyoton. O ambiente é instantaneamente convertido em um domínio glacial absoluto onde temperatura, som e fluxo de energia são suprimidos. No centro do território congelado, ele materializa uma versão colossal de Isobu feita de gelo abissal e chakra profano condensado. Ao mesmo tempo, milhares de entidades congeladas emergem do solo e do ar — soldados cristalinos, bestas titânicas, dragões de gelo negro e gigantes armados com lâminas glaciais. Cada criação possui consciência limitada, instinto de combate e obediência absoluta à vontade de Borashi.
 
 Destruição:
 Catastrófica. O domínio pode se expandir por dezenas de quilômetros, congelando oceanos, cidades e ecossistemas inteiros em questão de minutos. O exército congelado avança silenciosamente enquanto Isobu Profano executa ataques equivalentes a uma Bijūdama glacial corrompida.
@@ -10627,7 +10627,7 @@ Ele está longe de ser pacifista: para Amakumo, a paz é conquistada por meio de
 
 ## Poderes e Elementos
 - Suiton — Nível 14
-- Hyōton — Nível 14
+- Hyoton — Nível 14
 - Iryō Ninjutsu — Nível 14
 
 ## Aptidões

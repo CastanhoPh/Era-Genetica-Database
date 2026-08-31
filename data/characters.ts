@@ -2994,8 +2994,8 @@ export const initialData: Character[] = [
       {
         name: "Fujogan Hyōkai: Mugen Reimei no Gunzei",
         classification: "Z",
-        nature: "Chakra Profano + Fujogan + Hyōton + Isobu",
-        description: "Borashi ativa o Fujogan e libera 100% de seu Chakra Profano Natural, fundindo-o completamente com o Hyōton. O ambiente é instantaneamente convertido em um domínio glacial absoluto onde temperatura, som e fluxo de energia são suprimidos. No centro do território congelado, ele materializa uma versão colossal de Isobu feita de gelo abissal e chakra profano condensado. Ao mesmo tempo, milhares de entidades congeladas emergem do solo e do ar — soldados cristalinos, bestas titânicas, dragões de gelo negro e gigantes armados com lâminas glaciais. Cada criação possui consciência limitada, instinto de combate e obediência absoluta à vontade de Borashi.",
+        nature: "Chakra Profano + Fujogan + Hyoton + Isobu",
+        description: "Borashi ativa o Fujogan e libera 100% de seu Chakra Profano Natural, fundindo-o completamente com o Hyoton. O ambiente é instantaneamente convertido em um domínio glacial absoluto onde temperatura, som e fluxo de energia são suprimidos. No centro do território congelado, ele materializa uma versão colossal de Isobu feita de gelo abissal e chakra profano condensado. Ao mesmo tempo, milhares de entidades congeladas emergem do solo e do ar — soldados cristalinos, bestas titânicas, dragões de gelo negro e gigantes armados com lâminas glaciais. Cada criação possui consciência limitada, instinto de combate e obediência absoluta à vontade de Borashi.",
         destruction: "Catastrófica. O domínio pode se expandir por dezenas de quilômetros, congelando oceanos, cidades e ecossistemas inteiros em questão de minutos. O exército congelado avança silenciosamente enquanto Isobu Profano executa ataques equivalentes a uma Bijūdama glacial corrompida.",
         history: "Após sua primeira manifestação, regiões inteiras foram encontradas completamente congeladas e desertas, sem sinais de batalha. Sobreviventes relataram ouvir apenas o som do gelo se formando antes do silêncio absoluto tomar tudo.",
         status: "Classificada como ameaça de aniquilação global. Proibida e selada em registros ocultos por violar as leis naturais de percepção, energia e equilíbrio elemental.",
@@ -3047,7 +3047,7 @@ export const initialData: Character[] = [
       { name: "Juken", level: 13 },
       { name: "Isobu", level: 13 },
       { name: "Isobu Suiton", level: 13 },
-      { name: "Hyouton", level: 13 }
+      { name: "Hyoton", level: 13 }
     ],
     aptitudes: [
       "Fujogan",
@@ -5137,19 +5137,19 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1786651903970876",
     techniques: [
       {
-        name: "Hyōton: Kaminari Mugen Kuro Fubuki",
+        name: "Hyoton: Kaminari Mugen Kuro Fubuki",
         classification: "S++",
-        nature: "Hyōton + Kaminari",
-        description: "Nagi libera uma tempestade absoluta onde neve, gelo negro e relâmpagos profanos coexistem. Cada floco de neve se transforma em um ponto de condução elétrica, permitindo que o Kaminari percorra instantaneamente todo o campo.\n\nA tempestade cria uma rede invisível onde Nagi pode atacar qualquer ponto dentro da área com velocidade de raio, congelando e eletrocutando simultaneamente o sistema de chakra dos inimigos.\n\nO gelo formado dentro da técnica não é comum — é Kuro Hyōton, um gelo negro que absorve chakra e amplifica a descarga elétrica, criando um ciclo infinito de congelamento e destruição.\n\nYuki Fukurō atua como núcleo da tempestade, guiando os relâmpagos e marcando alvos para execuções instantâneas.\n\nNo ápice da técnica, o corpo do inimigo pode ser congelado internamente enquanto sua rede de chakra é completamente queimada por dentro.",
+        nature: "Hyoton + Kaminari",
+        description: "Nagi libera uma tempestade absoluta onde neve, gelo negro e relâmpagos profanos coexistem. Cada floco de neve se transforma em um ponto de condução elétrica, permitindo que o Kaminari percorra instantaneamente todo o campo.\n\nA tempestade cria uma rede invisível onde Nagi pode atacar qualquer ponto dentro da área com velocidade de raio, congelando e eletrocutando simultaneamente o sistema de chakra dos inimigos.\n\nO gelo formado dentro da técnica não é comum — é Kuro Hyoton, um gelo negro que absorve chakra e amplifica a descarga elétrica, criando um ciclo infinito de congelamento e destruição.\n\nYuki Fukurō atua como núcleo da tempestade, guiando os relâmpagos e marcando alvos para execuções instantâneas.\n\nNo ápice da técnica, o corpo do inimigo pode ser congelado internamente enquanto sua rede de chakra é completamente queimada por dentro.",
         destruction: "Aniquilação total de campo. Combina congelamento absoluto com destruição elétrica interna. Pode eliminar múltiplos alvos simultaneamente sem possibilidade de reação.",
-        history: "Desenvolvida após Nagi perder o controle do Chakra Profano durante uma tempestade natural. Ao entrar em ressonância com relâmpagos reais, ele fundiu Hyōton com Kaminari, criando o primeiro gelo condutor de chakra.",
+        history: "Desenvolvida após Nagi perder o controle do Chakra Profano durante uma tempestade natural. Ao entrar em ressonância com relâmpagos reais, ele fundiu Hyoton com Kaminari, criando o primeiro gelo condutor de chakra.",
         status: "Extremamente instável. Alto risco de autodestruição caso o fluxo de chakra saia do controle.",
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F01%20-%20Hy%C5%8Dton%3A%20Kaminari%20Mugen%20Kuro%20Fubuki.png?alt=media&v=1786651904570414"
       },
       {
         name: "Kuchiyose: Yuki Fukurō - Raijin Kyōmei",
         classification: "S++",
-        nature: "Hyōton + Kaminari Negro + Chakra Profano",
+        nature: "Hyoton + Kaminari Negro + Chakra Profano",
         description: "Yuki Fukurō não apenas assume sua forma Raijin — ela entra em ressonância total com Nagi, iniciando uma fusão simbiótica de consciência e chakra.\n\nA coruja se desfaz em partículas de gelo negro e relâmpagos, envolvendo o corpo de Nagi e formando uma armadura viva incompleta: asas elétricas surgem em suas costas, seus olhos assumem o padrão da coruja e sua percepção se expande para todo o campo.\n\nNesse estado, Nagi não enxerga mais apenas com seus próprios sentidos — ele vê através de cada partícula de gelo presente no ambiente, enquanto o Kaminari Negro funciona como um sistema nervoso externo, transmitindo informações em velocidade instantânea.\n\nAs asas permitem movimentação aérea e deslocamento em forma de raio, possibilitando que Nagi se desmaterialize em eletricidade e se reconstrua em qualquer ponto conectado ao gelo.\n\nAtaques realizados durante a fusão são automaticamente guiados: lâminas de gelo negro são envolvidas por relâmpagos que ajustam sua trajetória no meio do caminho, enquanto descargas elétricas podem ser disparadas diretamente do corpo de Nagi ou das asas.\n\nAlém disso, qualquer inimigo marcado pela presença anterior de Yuki Fukurō passa a ser rastreado constantemente, tendo seu fluxo de chakra exposto e vulnerável a ataques internos.\n\nEm seu nível máximo, a fusão cria um efeito de \"consciência dupla\": enquanto Nagi executa ações ofensivas, Yuki processa o campo de batalha em paralelo, antecipando movimentos inimigos e ativando respostas automáticas com gelo e relâmpagos.",
         destruction: "Extremamente alta. Combina mobilidade absoluta, ataque automático, leitura de campo total e execução precisa com gelo negro e eletricidade profana.",
         history: "Essa forma nasceu quando Yuki Fukurō foi completamente saturada pelo Kaminari Negro durante uma batalha crítica. Em vez de se dissipar, a invocação evoluiu, permitindo que sua existência fosse integrada diretamente ao corpo e mente de Nagi.",
@@ -5157,9 +5157,9 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Ky%C5%8Dmei.png?alt=media&v=1786651904574110"
       },
       {
-        name: "Hyōton: Kōri no Shōkyo",
+        name: "Hyoton: Kōri no Shōkyo",
         classification: "S++",
-        nature: "Hyōton + Kaminari",
+        nature: "Hyoton + Kaminari",
         description: "Nagi toca o solo ou libera chakra pelo ar, criando uma expansão instantânea de gelo profano que se espalha em alta velocidade. Tudo que é alcançado pela técnica começa a congelar de fora para dentro, enquanto o chakra do alvo sofre interrupções bruscas, como se estivesse sendo apagado em camadas. Técnicas ativas atingidas pelo gelo perdem estabilidade e podem se desfazer antes de completar sua execução.",
         destruction: "Alta capacidade de neutralização. Pode cancelar técnicas, prender inimigos e transformar grandes áreas em zonas congeladas.",
         history: "Foi a primeira técnica profana desenvolvida por Nagi, criada após perceber que seu gelo conseguia interferir diretamente na circulação de chakra.",
@@ -5167,9 +5167,9 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F03%20-%20Hy%C5%8Dton%3A%20K%C5%8Dri%20no%20Sh%C5%8Dkyo.png?alt=media&v=1786651904559182"
       },
       {
-        name: "Hyōton: Kuro Hyōga",
+        name: "Hyoton: Kuro Hyōga",
         classification: "S+",
-        nature: "Hyōton",
+        nature: "Hyoton",
         description: "Nagi cria lâminas de gelo negro extremamente finas e densas, capazes de atravessar defesas comuns com precisão cirúrgica. Ao atingir o inimigo, as lâminas não causam apenas cortes físicos, mas liberam frio profano dentro do sistema de chakra, causando rigidez muscular, perda de reflexo e falhas momentâneas na execução de jutsus.",
         destruction: "Altamente letal em combate direto. Ideal para perfurar defesas e causar dano interno energético.",
         history: "Desenvolvida para enfrentar inimigos com grande resistência física, permitindo que Nagi atacasse o fluxo de chakra em vez do corpo.",
@@ -5179,7 +5179,7 @@ export const initialData: Character[] = [
       {
         name: "Kuchiyose: Yuki Fukurō - Raijin Mode",
         classification: "S++",
-        nature: "Hyōton + Kaminari + Kuchiyose",
+        nature: "Hyoton + Kaminari + Kuchiyose",
         description: "Yuki Fukurō assume uma forma elétrica, com asas feitas de gelo negro e relâmpagos. Ela dispara raios guiados e marca inimigos para execuções instantâneas.",
         destruction: "Suporte ofensivo devastador.",
         history: "A coruja evoluiu após exposição ao Kaminari.",
@@ -5189,8 +5189,8 @@ export const initialData: Character[] = [
       {
         name: "Kuchiyose: Yuki Fukurō",
         classification: "S+",
-        nature: "Hyōton",
-        description: "Nagi invoca sua coruja espiritual, Yuki Fukurō, uma criatura formada por penas brancas, olhos azul-profanos e asas cobertas por cristais de gelo. A coruja se conecta diretamente à mente de Nagi, compartilhando visão aérea, percepção térmica e leitura de chakra. Além de atuar como suporte sensorial, Yuki Fukurō pode liberar rajadas de vento congelante, marcar inimigos com penas de gelo e servir como ponto de origem para técnicas de Hyōton à distância.",
+        nature: "Hyoton",
+        description: "Nagi invoca sua coruja espiritual, Yuki Fukurō, uma criatura formada por penas brancas, olhos azul-profanos e asas cobertas por cristais de gelo. A coruja se conecta diretamente à mente de Nagi, compartilhando visão aérea, percepção térmica e leitura de chakra. Além de atuar como suporte sensorial, Yuki Fukurō pode liberar rajadas de vento congelante, marcar inimigos com penas de gelo e servir como ponto de origem para técnicas de Hyoton à distância.",
         destruction: "Suporte ofensivo e sensorial. Amplia drasticamente o alcance de Nagi e permite ataques coordenados de múltiplas direções.",
         history: "Yuki Fukurō era originalmente uma coruja comum criada por Nagi desde jovem. Após anos exposta ao seu chakra, tornou-se uma invocação espiritual ligada permanentemente ao seu contrato de sangue.",
         status: "Enquanto ativa, consome chakra de forma constante. Se a coruja for destruída, Nagi sofre uma breve sobrecarga sensorial.",
@@ -5204,7 +5204,7 @@ export const initialData: Character[] = [
     ],
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [
-      { name: "Hyōton", level: 11 },
+      { name: "Hyoton", level: 11 },
       { name: "Iryou Ninjutsu", level: 11 },
       { name: "Kuchiyose", level: 11 }
     ],
@@ -7317,7 +7317,7 @@ export const initialData: Character[] = [
     stats: { strength: 29, dexterity: 12, agility: 29, intelligence: 25, spirit: 26, vigor: 29, perception: 12 },
     powers: [
       { name: "Suiton", level: 14 },
-      { name: "Hyōton", level: 14 },
+      { name: "Hyoton", level: 14 },
       { name: "Iryō Ninjutsu", level: 14 }
     ],
     aptitudes: [

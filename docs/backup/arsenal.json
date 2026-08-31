@@ -323,36 +323,36 @@
     "id": 73,
     "name": "Hyōga no Seihai",
     "classification": "Z",
-    "nature": "Hyōton",
     "origin": "Kirigakure",
     "description": "O Hyōga no Seihai é um receptáculo de Rank Z que contém em seu interior a essência primordial do 'Frio Absoluto', uma energia anterior à criação do próprio sistema de chakra ninja. Este artefato possui o poder cataclísmico de congelar o fluxo de chakra de um país inteiro instantaneamente, transformando territórios férteis em desertos de gelo eterno onde a vida se torna impossível. Ao ser aberto, o cálice libera uma onda de choque criogênica que anula a agitação molecular, paralisando jutsus ativos e transformando qualquer técnica elementar em estátuas de gelo quebradiças. O usuário pode manifestar estruturas de gelo eterno de dureza incalculável que jamais derretem, mesmo quando expostas a chamas de nível Enton ou calor solar. O Hyōga no Seihai atua como um vácuo térmico que absorve todo o calor e a energia ao seu redor, fortalecendo a aura defensiva do portador até torná-lo invulnerável a ataques térmicos. É a arma de 'Inverno Eterno', uma relíquia de fim de mundo que só deve ser utilizada em situações de desespero absoluto para garantir a sobrevivência da vila através da aniquilação total do inimigo. Sua posse é o peso da responsabilidade sobre o destino climático do mundo, guardado nas profundezas mais frias de Kirigakure como o trunfo final contra qualquer ameaça.",
     "originalOwner": "",
     "currentOwner": "",
-    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1784037999255246"
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1784037999255246",
+    "nature": "Hyoton"
   },
   {
     "__docId": "hyoketsu-no-sensu",
     "id": 68,
     "name": "Hyōketsu no Sensu",
     "classification": "S+",
-    "nature": "Hyōton",
     "origin": "Kirigakure",
-    "description": "O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das montanhas eternas do País da Água, imbuído com a essência da Liberação de Gelo (Hyōton). Ao ser aberto, o leque libera uma névoa congelante de temperatura subzero que pode imobilizar os pés de exércitos inteiros instantaneamente ao tocar o solo ou a umidade do ar. O usuário pode manipular as correntes de ar geradas pelo leque para criar tempestades de estilhaços de gelo afiados como navalhas ou erguer espelhos de cristal de gelo para defesa e movimentação estratégica. O artefato atua como um catalisador de chakra que permite a usuários sem linhagem de gelo manifestarem técnicas básicas de Hyōton com grande eficiência. Em combate, cada abanada do leque drena o calor do ambiente, tornando o campo de batalha progressivamente mais letal para oponentes que não possuam resistência ao frio extremo. O Hyōketsu no Sensu também pode ser usado para selar jutsus de fogo de médio nível, extinguindo chamas através da absorção térmica imediata. É uma arma de controle de área elegante e devastadora, transformando o calor da batalha em um deserto de gelo silencioso e mortal sob o comando do mestre.",
     "originalOwner": "",
     "currentOwner": "",
-    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F68%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1784038000721324"
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F68%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1784038000721324",
+    "nature": "Hyoton",
+    "description": "O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das montanhas eternas do País da Água, imbuído com a essência da Liberação de Gelo (Hyoton). Ao ser aberto, o leque libera uma névoa congelante de temperatura subzero que pode imobilizar os pés de exércitos inteiros instantaneamente ao tocar o solo ou a umidade do ar. O usuário pode manipular as correntes de ar geradas pelo leque para criar tempestades de estilhaços de gelo afiados como navalhas ou erguer espelhos de cristal de gelo para defesa e movimentação estratégica. O artefato atua como um catalisador de chakra que permite a usuários sem linhagem de gelo manifestarem técnicas básicas de Hyoton com grande eficiência. Em combate, cada abanada do leque drena o calor do ambiente, tornando o campo de batalha progressivamente mais letal para oponentes que não possuam resistência ao frio extremo. O Hyōketsu no Sensu também pode ser usado para selar jutsus de fogo de médio nível, extinguindo chamas através da absorção térmica imediata. É uma arma de controle de área elegante e devastadora, transformando o calor da batalha em um deserto de gelo silencioso e mortal sob o comando do mestre."
   },
   {
     "__docId": "hyoton-artificial",
     "id": 11,
-    "name": "Hyōton Artificial",
     "classification": "S",
     "nature": "Chakra Artificial",
     "origin": "Konohagakure",
-    "description": "Uma maravilha da engenharia de chakra, esta seringa tecnológica permite que qualquer usuário replique a rara linhagem avançada do Hyōton (Gelo). Através de um complexo sistema de fusão molecular entre Futon e Suiton em nanoescala, ela injeta um composto de chakra estabilizado que gela o ar ao redor instantaneamente. O gelo gerado é muito mais denso e resistente que o gelo natural, sendo capaz de suportar jutsus de Katon de alto nível sem derreter. Takeshi Hatake utiliza este recurso para criar barreiras de contenção absolutas, armas de gelo afiadas como diamante ou para imobilizar múltiplos oponentes em um campo de congelamento eterno. A técnica artificial elimina a necessidade de selos de mão tradicionais, permitindo uma ativação quase instantânea em situações de vida ou morte. É a prova de que a tecnologia da Folha pode desafiar os limites da genética ninja.",
     "originalOwner": "Takeshi Hatake",
     "currentOwner": "Takeshi Hatake",
-    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485"
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485",
+    "name": "Hyoton Artificial",
+    "description": "Uma maravilha da engenharia de chakra, esta seringa tecnológica permite que qualquer usuário replique a rara linhagem avançada do Hyoton (Gelo). Através de um complexo sistema de fusão molecular entre Futon e Suiton em nanoescala, ela injeta um composto de chakra estabilizado que gela o ar ao redor instantaneamente. O gelo gerado é muito mais denso e resistente que o gelo natural, sendo capaz de suportar jutsus de Katon de alto nível sem derreter. Takeshi Hatake utiliza este recurso para criar barreiras de contenção absolutas, armas de gelo afiadas como diamante ou para imobilizar múltiplos oponentes em um campo de congelamento eterno. A técnica artificial elimina a necessidade de selos de mão tradicionais, permitindo uma ativação quase instantânea em situações de vida ou morte. É a prova de que a tecnologia da Folha pode desafiar os limites da genética ninja."
   },
   {
     "__docId": "ishi-no-kubikazari",

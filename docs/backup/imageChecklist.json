@@ -4507,9 +4507,9 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FKokuryu.png?alt=media&v=1787163063051234",
     "rank": "S++",
-    "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40061
+    "order": 40061,
+    "nature": "Hyoton"
   },
   {
     "__docId": "aBRFeNIg0Qt5hAhxGEXN",
@@ -4615,12 +4615,12 @@
     "__docId": "akFgHPhRU28bJrrSoNSB",
     "type": "arsenal",
     "temporada": "Konohagakure",
-    "arco": "Hyōton Artificial",
-    "name": "Hyōton Artificial",
     "order": 70010,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1784038001745485",
     "done": true,
-    "doneBy": "Desconhecido"
+    "doneBy": "Desconhecido",
+    "arco": "Hyoton Artificial",
+    "name": "Hyoton Artificial"
   },
   {
     "__docId": "aLl3coeWVlqm4DNN2yg1",
@@ -6577,9 +6577,9 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FDaiju.png?alt=media&v=1787163059994460",
     "rank": "S+",
-    "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40060
+    "order": 40060,
+    "nature": "Hyoton"
   },
   {
     "__docId": "Hw17gzyom62I3g2yyfmZ",
@@ -10113,9 +10113,9 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FShhei.png?alt=media&v=1787163056963576",
     "rank": "S",
-    "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40059
+    "order": 40059,
+    "nature": "Hyoton"
   },
   {
     "__docId": "u3iRXAC95LLBssqS0Vz1",
@@ -11039,9 +11039,9 @@
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FTsurugijin.png?alt=media&v=1787163065926312",
     "rank": "Z",
-    "nature": "Hyouton",
     "village": "Konohagakure",
-    "order": 40062
+    "order": 40062,
+    "nature": "Hyoton"
   },
   {
     "__docId": "XmgIyvBHzdwTwUv4gQJB",
@@ -11141,10 +11141,10 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNagi%2FYuki_Fukuro.png?alt=media&v=1787163751694125",
     "temporada": "Nagi",
     "name": "Yuki Fukuro",
-    "nature": "Hyouton",
     "rank": "S+",
     "village": "Kirigakure",
-    "order": 40053
+    "order": 40053,
+    "nature": "Hyoton"
   },
   {
     "__docId": "yAVZBFkM8NKBjJTrBTbb",

@@ -602,20 +602,6 @@
       "vigor": 29,
       "spirit": 26
     },
-    "powers": [
-      {
-        "name": "Suiton",
-        "level": 14
-      },
-      {
-        "name": "Hyōton",
-        "level": 14
-      },
-      {
-        "name": "Iryō Ninjutsu",
-        "level": 14
-      }
-    ],
     "aptitudes": [
       "Ambidestria",
       "Maestria: CC",
@@ -662,7 +648,21 @@
     "divisaoAtributo": {
       "inteligencia": 50,
       "espirito": 50
-    }
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Hyoton",
+        "level": 14
+      },
+      {
+        "name": "Iryō Ninjutsu",
+        "level": 14
+      }
+    ]
   },
   {
     "__docId": "apollo-sarutobi",
@@ -1496,48 +1496,6 @@
       "Crítico Aprimorado",
       "Ataque Progressivo"
     ],
-    "techniques": [
-      {
-        "name": "Fujogan Hyōkai: Mugen Reimei no Gunzei",
-        "classification": "Z",
-        "nature": "Chakra Profano + Fujogan + Hyōton + Isobu",
-        "description": "Borashi ativa o Fujogan e libera 100% de seu Chakra Profano Natural, fundindo-o completamente com o Hyōton. O ambiente é instantaneamente convertido em um domínio glacial absoluto onde temperatura, som e fluxo de energia são suprimidos. No centro do território congelado, ele materializa uma versão colossal de Isobu feita de gelo abissal e chakra profano condensado. Ao mesmo tempo, milhares de entidades congeladas emergem do solo e do ar — soldados cristalinos, bestas titânicas, dragões de gelo negro e gigantes armados com lâminas glaciais. Cada criação possui consciência limitada, instinto de combate e obediência absoluta à vontade de Borashi.",
-        "destruction": "Catastrófica. O domínio pode se expandir por dezenas de quilômetros, congelando oceanos, cidades e ecossistemas inteiros em questão de minutos. O exército congelado avança silenciosamente enquanto Isobu Profano executa ataques equivalentes a uma Bijūdama glacial corrompida.",
-        "history": "Após sua primeira manifestação, regiões inteiras foram encontradas completamente congeladas e desertas, sem sinais de batalha. Sobreviventes relataram ouvir apenas o som do gelo se formando antes do silêncio absoluto tomar tudo.",
-        "status": "Classificada como ameaça de aniquilação global. Proibida e selada em registros ocultos por violar as leis naturais de percepção, energia e equilíbrio elemental.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F01%20-%20Fujogan%20Hy%C5%8Dkai%3A%20Mugen%20Reimei%20no%20Gunzei.png?alt=media&v=1786651891301210"
-      },
-      {
-        "name": "Fujogan: Modo Isobu",
-        "classification": "Z",
-        "nature": "Chakra Profano + Fujogan + Isobu",
-        "description": "Ao ativar plenamente o Fujogan, Borashi libera 100% de seu Chakra Profano Natural e o injeta diretamente no núcleo espiritual de Isobu. Diferente de uma simples sincronia jinchūriki, Borashi invade e domina completamente o cérebro e a consciência da Bijuu, sobrepondo sua própria vontade à da besta. O chakra profano envolve Isobu por dentro e por fora, transformando-o em uma entidade híbrida de água abissal e energia corrompida. Borashi assume controle absoluto dos instintos, percepção e poder destrutivo da tartaruga de três caudas, manifestando um avatar colossal onde carapaça e oceano se fundem em cristal líquido negro. Seus olhos refletem o padrão do Fujogan, simbolizando que a mente da Bijuu agora pertence exclusivamente ao seu portador.",
-        "destruction": "Nível de aniquilação oceânica. O simples movimento de Isobu Profano gera tsunamis negros carregados de chakra corrupto capazes de engolir cidades costeiras instantaneamente. Suas Bijūdama tornam-se esferas abissais que corroem matéria física e espiritual ao impacto. A pressão liberada por sua presença distorce correntes marítimas e pode alterar ecossistemas inteiros em larga escala.",
-        "history": "Após compreender que coexistir com Isobu não era suficiente, Borashi decidiu ultrapassar o conceito tradicional de parceria jinchūriki. Utilizando o poder ocular do Fujogan, ele desenvolveu um método proibido de supressão mental total, substituindo a consciência da Bijuu pela sua própria. O feito foi considerado uma violação absoluta do equilíbrio entre humano e besta com cauda, marcando o nascimento do Modo Isobu Profano Absoluto.",
-        "status": "Forma proibida e extremamente instável. Exige controle mental absoluto e fluxo contínuo de Chakra Profano para manter Isobu subjugado. Qualquer falha pode resultar em rebelião interna da Bijuu ou colapso espiritual do usuário. Quando estabilizado, porém, representa domínio total sobre o poder da Três-Caudas.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F02%20-%20Fujogan%3A%20Modo%20Isobu.png?alt=media&v=1786651891282981"
-      },
-      {
-        "name": "Fujogan: Isobu Rinku",
-        "classification": "S++",
-        "nature": "Chakra Profano + Fujogan + Controle Bijū Perfeito",
-        "description": "Ao ativar o padrão completo do Fujogan, Borashi não apenas domina a consciência da Bijū, mas condensa seu poder em uma forma de Manto Bijū absolutamente controlada. Diferente do estado bruto e instintivo comum aos jinchūriki, o chakra da besta é refinado pelo Chakra Profano e moldado pela vontade ocular do Fujogan, criando um manto fluido de energia negra translúcida com reflexos azul-abissais. O manto envolve o corpo como uma segunda pele viva, formando caudas de chakra perfeitamente definidas que se movem conforme o pensamento de Borashi. Marcas do Fujogan surgem sobre o manto, simbolizando que cada fragmento do poder da Bijū está sob comando mental direto. A aura pulsa como um oceano invertido, pesado e silencioso, transmitindo pressão espiritual esmagadora.",
-        "destruction": "Nível de devastação continental localizada. Cada movimento físico amplificado pelo Manto Bijū Profano gera ondas de impacto que fragmentam terreno e vaporizam massas de água ao redor. As Bijūdama criadas nessa forma são comprimidas com precisão absoluta, tornando-se projéteis de implosão espiritual capazes de desintegrar barreiras, anular técnicas energéticas e corroer estruturas físicas com contato mínimo. A presença do manto sozinho já distorce o fluxo de chakra no ambiente.",
-        "history": "Após dominar completamente o núcleo mental da Bijū através do Fujogan, Borashi percebeu que assumir a forma colossal nem sempre era estrategicamente ideal. Assim nasceu o Manto Bijū Profano — uma versão condensada e refinada do domínio total, permitindo mobilidade, velocidade e controle tático sem perder a supremacia sobre a consciência da besta. Essa forma é considerada a manifestação mais eficiente do controle absoluto do jinchūriki sobre sua Bijū.",
-        "status": "Altamente instável em níveis máximos. Embora o controle mental seja absoluto, o fluxo contínuo de Chakra Profano é necessário para impedir que a essência original da Bijū tente emergir. Quando estabilizado, concede equilíbrio perfeito entre mobilidade humana e poder de besta com cauda.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F03%20-%20Fujogan%3A%20Isobu%20Rinku.png?alt=media&v=1786651891290210"
-      },
-      {
-        "name": "Fujogan: Modo Chakra Profano",
-        "classification": "S++",
-        "nature": "Chakra Profano + Fujogan Natural",
-        "description": "Borashi suprime completamente seu chakra natural, silenciando sua própria assinatura vital como se apagasse a própria existência energética. Nesse vazio absoluto, o Fujogan assume o controle total e libera o Chakra Profano Primordial diretamente de sua fonte ocular. Seus olhos brilham em azul-abissal intenso, irradiando padrões circulares que se expandem pelo ar como ondas silenciosas. Ao entrar no Modo Chakra Profano, a energia negra com reflexos azulados envolve seu corpo de forma minimalista, concentrada e densa. A principal habilidade desse estado é a Animação Profana: Borashi pode infundir objetos inanimados com consciência temporária, movimento e função ofensiva ou defensiva. Rochas erguem-se como guardiões, armas quebradas se recompõem e atacam sozinhas, correntes ganham vida e estruturas do ambiente se tornam extensões de sua vontade. A materialização suprema do modo se manifesta na forma de um guepardo de chakra azul de tamanho médio, criado a partir da condensação da energia profana. A criatura possui movimentos extremamente rápidos, quase instantâneos, deixando rastros luminosos no ar, agindo como extensão direta do pensamento de Borashi e podendo atravessar matéria densa ao vibrar em frequência espiritual elevada.",
-        "destruction": "Nível de devastação de campo de batalha ampliado. O controle animado do ambiente transforma qualquer território em domínio absoluto, multiplicando vetores de ataque simultâneos. O guepardo espiritual pode perfurar defesas com investidas hipersônicas e desintegrar alvos ao atravessá-los, causando colapso energético interno. Estruturas animadas podem se autodestruir em explosões concentradas de Chakra Profano.",
-        "history": "Desenvolvido após Borashi compreender que o verdadeiro poder do Fujogan não estava apenas na dominação da Bijū, mas na reescrita da relação entre espírito e matéria. Ao aprender a desligar seu próprio fluxo natural de chakra, ele acessou a camada mais pura e instável do Chakra Profano, dando origem ao Modo Chakra Profano — uma forma que representa domínio criacional ao invés de pura destruição.",
-        "status": "Extremamente perigoso. A ausência temporária do chakra natural deixa Borashi vulnerável caso o fluxo profano seja interrompido abruptamente. Requer concentração absoluta e estabilidade emocional para manter a coesão das criações animadas.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F04%20-%20Fujogan%3A%20Modo%20Chakra%20Profano.png?alt=media&v=1786651892333703"
-      }
-    ],
     "chakraColor": "#0ea5e9",
     "id": 73,
     "nc": 26,
@@ -1611,25 +1569,57 @@
       "espirito"
     ],
     "divisaoAtributo": {},
-    "powers": [
+    "description": "Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.\n\nAinda jovem, quando a Organização do Chakra Profano ameaçou diretamente o clã Hyuga, uma decisão impossível foi tomada: uma criança deveria ser entregue em troca da sobrevivência de todos. Antes que qualquer escolha fosse feita por ele, Borashi tomou a decisão por si mesmo. Consciente do que estava em jogo, se ofereceu voluntariamente, acreditando que sua entrega salvaria sua família e garantiria o futuro de seu irmão mais novo, Katsumi.\n\nNo entanto, ao cair nas mãos da organização, seu destino foi distorcido. Suas memórias foram manipuladas através de genjutsus e alterações profundas de chakra, fazendo-o acreditar que havia sido abandonado, substituído e esquecido. Essa mentira se tornou uma cicatriz permanente, criando um bloqueio emocional que o impede de buscar a verdade.\n\nDurante os experimentos, seu poder evoluiu de forma anormal, despertando o raro Tenketsu Byakugan — uma variação avançada que lhe concede controle absoluto sobre os pontos de chakra, permitindo selar e interromper o fluxo interno de um oponente com precisão cirúrgica.\n\nParalelamente, após Furyuzan roubar as codificações genéticas de Katsumi, a organização iniciou uma série de testes visando recriar e aperfeiçoar esse poder, culminando na criação de um Fujogan artificial — uma evolução experimental que representa o ápice de suas pesquisas sobre o potencial do clã Hyuga.\n\nDiferente dos demais, Borashi não se tornou instável. Ele se tornou perfeito.\n\nFrio, calculista e extremamente estratégico, ele atua como o verdadeiro cérebro da Equipe 75%, coordenando cada movimento com precisão impecável. Sua presença é o único fator que mantém o Inferno Vermelho sob controle, sendo capaz de neutralizar Akairo com golpes precisos antes que a destruição fuja do controle.\n\nDominando o Suiton, a Liberação de Corrosão e o Juken em níveis avançados, Borashi luta como uma lâmina invisível — silenciosa, inevitável e letal.\n\nEle não levanta a voz. Não hesita. Não falha.\n\nPara a equipe, ele é liderança. Para a organização, ele é eficiência absoluta. E para si mesmo… ele é apenas alguém que aprendeu a congelar tudo o que sente para continuar seguindo em frente.",
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Vice Líder dos 75%",
+    "role": "DPS e Controle",
+    "techniques": [
       {
-        "name": "Juken",
-        "level": 13
+        "name": "Fujogan Hyōkai: Mugen Reimei no Gunzei",
+        "classification": "Z",
+        "nature": "Chakra Profano + Fujogan + Hyoton + Isobu",
+        "description": "Borashi ativa o Fujogan e libera 100% de seu Chakra Profano Natural, fundindo-o completamente com o Hyoton. O ambiente é instantaneamente convertido em um domínio glacial absoluto onde temperatura, som e fluxo de energia são suprimidos. No centro do território congelado, ele materializa uma versão colossal de Isobu feita de gelo abissal e chakra profano condensado. Ao mesmo tempo, milhares de entidades congeladas emergem do solo e do ar — soldados cristalinos, bestas titânicas, dragões de gelo negro e gigantes armados com lâminas glaciais. Cada criação possui consciência limitada, instinto de combate e obediência absoluta à vontade de Borashi.",
+        "destruction": "Catastrófica. O domínio pode se expandir por dezenas de quilômetros, congelando oceanos, cidades e ecossistemas inteiros em questão de minutos. O exército congelado avança silenciosamente enquanto Isobu Profano executa ataques equivalentes a uma Bijūdama glacial corrompida.",
+        "history": "Após sua primeira manifestação, regiões inteiras foram encontradas completamente congeladas e desertas, sem sinais de batalha. Sobreviventes relataram ouvir apenas o som do gelo se formando antes do silêncio absoluto tomar tudo.",
+        "status": "Classificada como ameaça de aniquilação global. Proibida e selada em registros ocultos por violar as leis naturais de percepção, energia e equilíbrio elemental.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F01%20-%20Fujogan%20Hy%C5%8Dkai%3A%20Mugen%20Reimei%20no%20Gunzei.png?alt=media&v=1786651891301210"
       },
       {
-        "name": "Isobu",
-        "level": 13
+        "name": "Fujogan: Modo Isobu",
+        "classification": "Z",
+        "nature": "Chakra Profano + Fujogan + Isobu",
+        "description": "Ao ativar plenamente o Fujogan, Borashi libera 100% de seu Chakra Profano Natural e o injeta diretamente no núcleo espiritual de Isobu. Diferente de uma simples sincronia jinchūriki, Borashi invade e domina completamente o cérebro e a consciência da Bijuu, sobrepondo sua própria vontade à da besta. O chakra profano envolve Isobu por dentro e por fora, transformando-o em uma entidade híbrida de água abissal e energia corrompida. Borashi assume controle absoluto dos instintos, percepção e poder destrutivo da tartaruga de três caudas, manifestando um avatar colossal onde carapaça e oceano se fundem em cristal líquido negro. Seus olhos refletem o padrão do Fujogan, simbolizando que a mente da Bijuu agora pertence exclusivamente ao seu portador.",
+        "destruction": "Nível de aniquilação oceânica. O simples movimento de Isobu Profano gera tsunamis negros carregados de chakra corrupto capazes de engolir cidades costeiras instantaneamente. Suas Bijūdama tornam-se esferas abissais que corroem matéria física e espiritual ao impacto. A pressão liberada por sua presença distorce correntes marítimas e pode alterar ecossistemas inteiros em larga escala.",
+        "history": "Após compreender que coexistir com Isobu não era suficiente, Borashi decidiu ultrapassar o conceito tradicional de parceria jinchūriki. Utilizando o poder ocular do Fujogan, ele desenvolveu um método proibido de supressão mental total, substituindo a consciência da Bijuu pela sua própria. O feito foi considerado uma violação absoluta do equilíbrio entre humano e besta com cauda, marcando o nascimento do Modo Isobu Profano Absoluto.",
+        "status": "Forma proibida e extremamente instável. Exige controle mental absoluto e fluxo contínuo de Chakra Profano para manter Isobu subjugado. Qualquer falha pode resultar em rebelião interna da Bijuu ou colapso espiritual do usuário. Quando estabilizado, porém, representa domínio total sobre o poder da Três-Caudas.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F02%20-%20Fujogan%3A%20Modo%20Isobu.png?alt=media&v=1786651891282981"
       },
       {
-        "name": "Isobu Suiton",
-        "level": 13
+        "name": "Fujogan: Isobu Rinku",
+        "classification": "S++",
+        "nature": "Chakra Profano + Fujogan + Controle Bijū Perfeito",
+        "description": "Ao ativar o padrão completo do Fujogan, Borashi não apenas domina a consciência da Bijū, mas condensa seu poder em uma forma de Manto Bijū absolutamente controlada. Diferente do estado bruto e instintivo comum aos jinchūriki, o chakra da besta é refinado pelo Chakra Profano e moldado pela vontade ocular do Fujogan, criando um manto fluido de energia negra translúcida com reflexos azul-abissais. O manto envolve o corpo como uma segunda pele viva, formando caudas de chakra perfeitamente definidas que se movem conforme o pensamento de Borashi. Marcas do Fujogan surgem sobre o manto, simbolizando que cada fragmento do poder da Bijū está sob comando mental direto. A aura pulsa como um oceano invertido, pesado e silencioso, transmitindo pressão espiritual esmagadora.",
+        "destruction": "Nível de devastação continental localizada. Cada movimento físico amplificado pelo Manto Bijū Profano gera ondas de impacto que fragmentam terreno e vaporizam massas de água ao redor. As Bijūdama criadas nessa forma são comprimidas com precisão absoluta, tornando-se projéteis de implosão espiritual capazes de desintegrar barreiras, anular técnicas energéticas e corroer estruturas físicas com contato mínimo. A presença do manto sozinho já distorce o fluxo de chakra no ambiente.",
+        "history": "Após dominar completamente o núcleo mental da Bijū através do Fujogan, Borashi percebeu que assumir a forma colossal nem sempre era estrategicamente ideal. Assim nasceu o Manto Bijū Profano — uma versão condensada e refinada do domínio total, permitindo mobilidade, velocidade e controle tático sem perder a supremacia sobre a consciência da besta. Essa forma é considerada a manifestação mais eficiente do controle absoluto do jinchūriki sobre sua Bijū.",
+        "status": "Altamente instável em níveis máximos. Embora o controle mental seja absoluto, o fluxo contínuo de Chakra Profano é necessário para impedir que a essência original da Bijū tente emergir. Quando estabilizado, concede equilíbrio perfeito entre mobilidade humana e poder de besta com cauda.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F03%20-%20Fujogan%3A%20Isobu%20Rinku.png?alt=media&v=1786651891290210"
       },
       {
-        "name": "Hyouton",
-        "level": 13
+        "name": "Fujogan: Modo Chakra Profano",
+        "classification": "S++",
+        "nature": "Chakra Profano + Fujogan Natural",
+        "description": "Borashi suprime completamente seu chakra natural, silenciando sua própria assinatura vital como se apagasse a própria existência energética. Nesse vazio absoluto, o Fujogan assume o controle total e libera o Chakra Profano Primordial diretamente de sua fonte ocular. Seus olhos brilham em azul-abissal intenso, irradiando padrões circulares que se expandem pelo ar como ondas silenciosas. Ao entrar no Modo Chakra Profano, a energia negra com reflexos azulados envolve seu corpo de forma minimalista, concentrada e densa. A principal habilidade desse estado é a Animação Profana: Borashi pode infundir objetos inanimados com consciência temporária, movimento e função ofensiva ou defensiva. Rochas erguem-se como guardiões, armas quebradas se recompõem e atacam sozinhas, correntes ganham vida e estruturas do ambiente se tornam extensões de sua vontade. A materialização suprema do modo se manifesta na forma de um guepardo de chakra azul de tamanho médio, criado a partir da condensação da energia profana. A criatura possui movimentos extremamente rápidos, quase instantâneos, deixando rastros luminosos no ar, agindo como extensão direta do pensamento de Borashi e podendo atravessar matéria densa ao vibrar em frequência espiritual elevada.",
+        "destruction": "Nível de devastação de campo de batalha ampliado. O controle animado do ambiente transforma qualquer território em domínio absoluto, multiplicando vetores de ataque simultâneos. O guepardo espiritual pode perfurar defesas com investidas hipersônicas e desintegrar alvos ao atravessá-los, causando colapso energético interno. Estruturas animadas podem se autodestruir em explosões concentradas de Chakra Profano.",
+        "history": "Desenvolvido após Borashi compreender que o verdadeiro poder do Fujogan não estava apenas na dominação da Bijū, mas na reescrita da relação entre espírito e matéria. Ao aprender a desligar seu próprio fluxo natural de chakra, ele acessou a camada mais pura e instável do Chakra Profano, dando origem ao Modo Chakra Profano — uma forma que representa domínio criacional ao invés de pura destruição.",
+        "status": "Extremamente perigoso. A ausência temporária do chakra natural deixa Borashi vulnerável caso o fluxo profano seja interrompido abruptamente. Requer concentração absoluta e estabilidade emocional para manter a coesão das criações animadas.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FTecnicas%2F04%20-%20Fujogan%3A%20Modo%20Chakra%20Profano.png?alt=media&v=1786651892333703"
       }
     ],
-    "description": "Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.\n\nAinda jovem, quando a Organização do Chakra Profano ameaçou diretamente o clã Hyuga, uma decisão impossível foi tomada: uma criança deveria ser entregue em troca da sobrevivência de todos. Antes que qualquer escolha fosse feita por ele, Borashi tomou a decisão por si mesmo. Consciente do que estava em jogo, se ofereceu voluntariamente, acreditando que sua entrega salvaria sua família e garantiria o futuro de seu irmão mais novo, Katsumi.\n\nNo entanto, ao cair nas mãos da organização, seu destino foi distorcido. Suas memórias foram manipuladas através de genjutsus e alterações profundas de chakra, fazendo-o acreditar que havia sido abandonado, substituído e esquecido. Essa mentira se tornou uma cicatriz permanente, criando um bloqueio emocional que o impede de buscar a verdade.\n\nDurante os experimentos, seu poder evoluiu de forma anormal, despertando o raro Tenketsu Byakugan — uma variação avançada que lhe concede controle absoluto sobre os pontos de chakra, permitindo selar e interromper o fluxo interno de um oponente com precisão cirúrgica.\n\nParalelamente, após Furyuzan roubar as codificações genéticas de Katsumi, a organização iniciou uma série de testes visando recriar e aperfeiçoar esse poder, culminando na criação de um Fujogan artificial — uma evolução experimental que representa o ápice de suas pesquisas sobre o potencial do clã Hyuga.\n\nDiferente dos demais, Borashi não se tornou instável. Ele se tornou perfeito.\n\nFrio, calculista e extremamente estratégico, ele atua como o verdadeiro cérebro da Equipe 75%, coordenando cada movimento com precisão impecável. Sua presença é o único fator que mantém o Inferno Vermelho sob controle, sendo capaz de neutralizar Akairo com golpes precisos antes que a destruição fuja do controle.\n\nDominando o Suiton, a Liberação de Corrosão e o Juken em níveis avançados, Borashi luta como uma lâmina invisível — silenciosa, inevitável e letal.\n\nEle não levanta a voz. Não hesita. Não falha.\n\nPara a equipe, ele é liderança. Para a organização, ele é eficiência absoluta. E para si mesmo… ele é apenas alguém que aprendeu a congelar tudo o que sente para continuar seguindo em frente.",
     "invocacoes": [
       {
         "nome": "Seitora",
@@ -1644,7 +1634,7 @@
         "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FShhei.png?alt=media&v=1787163058505594",
         "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FShhei.png?alt=media&v=1787163056963576",
         "rank": "S",
-        "nature": "Hyouton",
+        "nature": "Hyoton",
         "village": "Konohagakure"
       },
       {
@@ -1652,7 +1642,7 @@
         "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FDaiju.png?alt=media&v=1787163061580496",
         "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FDaiju.png?alt=media&v=1787163059994460",
         "rank": "S+",
-        "nature": "Hyouton",
+        "nature": "Hyoton",
         "village": "Konohagakure"
       },
       {
@@ -1660,7 +1650,7 @@
         "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FKokuryu.png?alt=media&v=1787163064471840",
         "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FKokuryu.png?alt=media&v=1787163063051234",
         "rank": "S++",
-        "nature": "Hyouton",
+        "nature": "Hyoton",
         "village": "Konohagakure"
       },
       {
@@ -1668,18 +1658,28 @@
         "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FTsurugijin.png?alt=media&v=1787163067397128",
         "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FBorashi%2FTsurugijin.png?alt=media&v=1787163065926312",
         "rank": "Z",
-        "nature": "Hyouton",
+        "nature": "Hyoton",
         "village": "Konohagakure"
       }
     ],
-    "organizacao": [
-      "OCA"
-    ],
-    "vila": [
-      "Konohagakure"
-    ],
-    "patente": "Vice Líder dos 75%",
-    "role": "DPS e Controle"
+    "powers": [
+      {
+        "name": "Juken",
+        "level": 13
+      },
+      {
+        "name": "Isobu",
+        "level": 13
+      },
+      {
+        "name": "Isobu Suiton",
+        "level": 13
+      },
+      {
+        "name": "Hyoton",
+        "level": 13
+      }
+    ]
   },
   {
     "__docId": "chigiri-chinoike",
@@ -8432,68 +8432,6 @@
     ],
     "id": 41,
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1786651903970876",
-    "techniques": [
-      {
-        "name": "Hyōton: Kaminari Mugen Kuro Fubuki",
-        "classification": "S++",
-        "nature": "Hyōton + Kaminari",
-        "description": "Nagi libera uma tempestade absoluta onde neve, gelo negro e relâmpagos profanos coexistem. Cada floco de neve se transforma em um ponto de condução elétrica, permitindo que o Kaminari percorra instantaneamente todo o campo.\n\nA tempestade cria uma rede invisível onde Nagi pode atacar qualquer ponto dentro da área com velocidade de raio, congelando e eletrocutando simultaneamente o sistema de chakra dos inimigos.\n\nO gelo formado dentro da técnica não é comum — é Kuro Hyōton, um gelo negro que absorve chakra e amplifica a descarga elétrica, criando um ciclo infinito de congelamento e destruição.\n\nYuki Fukurō atua como núcleo da tempestade, guiando os relâmpagos e marcando alvos para execuções instantâneas.\n\nNo ápice da técnica, o corpo do inimigo pode ser congelado internamente enquanto sua rede de chakra é completamente queimada por dentro.",
-        "destruction": "Aniquilação total de campo. Combina congelamento absoluto com destruição elétrica interna. Pode eliminar múltiplos alvos simultaneamente sem possibilidade de reação.",
-        "history": "Desenvolvida após Nagi perder o controle do Chakra Profano durante uma tempestade natural. Ao entrar em ressonância com relâmpagos reais, ele fundiu Hyōton com Kaminari, criando o primeiro gelo condutor de chakra.",
-        "status": "Extremamente instável. Alto risco de autodestruição caso o fluxo de chakra saia do controle.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F01%20-%20Hy%C5%8Dton%3A%20Kaminari%20Mugen%20Kuro%20Fubuki.png?alt=media&v=1786651904570414"
-      },
-      {
-        "name": "Kuchiyose: Yuki Fukurō - Raijin Kyōmei",
-        "classification": "S++",
-        "nature": "Hyōton + Kaminari Negro + Chakra Profano",
-        "description": "Yuki Fukurō não apenas assume sua forma Raijin — ela entra em ressonância total com Nagi, iniciando uma fusão simbiótica de consciência e chakra.\n\nA coruja se desfaz em partículas de gelo negro e relâmpagos, envolvendo o corpo de Nagi e formando uma armadura viva incompleta: asas elétricas surgem em suas costas, seus olhos assumem o padrão da coruja e sua percepção se expande para todo o campo.\n\nNesse estado, Nagi não enxerga mais apenas com seus próprios sentidos — ele vê através de cada partícula de gelo presente no ambiente, enquanto o Kaminari Negro funciona como um sistema nervoso externo, transmitindo informações em velocidade instantânea.\n\nAs asas permitem movimentação aérea e deslocamento em forma de raio, possibilitando que Nagi se desmaterialize em eletricidade e se reconstrua em qualquer ponto conectado ao gelo.\n\nAtaques realizados durante a fusão são automaticamente guiados: lâminas de gelo negro são envolvidas por relâmpagos que ajustam sua trajetória no meio do caminho, enquanto descargas elétricas podem ser disparadas diretamente do corpo de Nagi ou das asas.\n\nAlém disso, qualquer inimigo marcado pela presença anterior de Yuki Fukurō passa a ser rastreado constantemente, tendo seu fluxo de chakra exposto e vulnerável a ataques internos.\n\nEm seu nível máximo, a fusão cria um efeito de \"consciência dupla\": enquanto Nagi executa ações ofensivas, Yuki processa o campo de batalha em paralelo, antecipando movimentos inimigos e ativando respostas automáticas com gelo e relâmpagos.",
-        "destruction": "Extremamente alta. Combina mobilidade absoluta, ataque automático, leitura de campo total e execução precisa com gelo negro e eletricidade profana.",
-        "history": "Essa forma nasceu quando Yuki Fukurō foi completamente saturada pelo Kaminari Negro durante uma batalha crítica. Em vez de se dissipar, a invocação evoluiu, permitindo que sua existência fosse integrada diretamente ao corpo e mente de Nagi.",
-        "status": "Consome chakra de forma contínua e intensa. A fusão prolongada pode sobrecarregar o sistema nervoso de Nagi, causando colapso sensorial ou perda de controle sobre o Kaminari Negro.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Ky%C5%8Dmei.png?alt=media&v=1786651904574110"
-      },
-      {
-        "name": "Hyōton: Kōri no Shōkyo",
-        "classification": "S++",
-        "nature": "Hyōton + Kaminari",
-        "description": "Nagi toca o solo ou libera chakra pelo ar, criando uma expansão instantânea de gelo profano que se espalha em alta velocidade. Tudo que é alcançado pela técnica começa a congelar de fora para dentro, enquanto o chakra do alvo sofre interrupções bruscas, como se estivesse sendo apagado em camadas. Técnicas ativas atingidas pelo gelo perdem estabilidade e podem se desfazer antes de completar sua execução.",
-        "destruction": "Alta capacidade de neutralização. Pode cancelar técnicas, prender inimigos e transformar grandes áreas em zonas congeladas.",
-        "history": "Foi a primeira técnica profana desenvolvida por Nagi, criada após perceber que seu gelo conseguia interferir diretamente na circulação de chakra.",
-        "status": "Consome chakra de forma moderada, mas exige contato visual ou percepção precisa da área congelada.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F03%20-%20Hy%C5%8Dton%3A%20K%C5%8Dri%20no%20Sh%C5%8Dkyo.png?alt=media&v=1786651904559182"
-      },
-      {
-        "name": "Hyōton: Kuro Hyōga",
-        "classification": "S+",
-        "nature": "Hyōton",
-        "description": "Nagi cria lâminas de gelo negro extremamente finas e densas, capazes de atravessar defesas comuns com precisão cirúrgica. Ao atingir o inimigo, as lâminas não causam apenas cortes físicos, mas liberam frio profano dentro do sistema de chakra, causando rigidez muscular, perda de reflexo e falhas momentâneas na execução de jutsus.",
-        "destruction": "Altamente letal em combate direto. Ideal para perfurar defesas e causar dano interno energético.",
-        "history": "Desenvolvida para enfrentar inimigos com grande resistência física, permitindo que Nagi atacasse o fluxo de chakra em vez do corpo.",
-        "status": "Requer extrema precisão. Perde eficiência contra alvos muito rápidos caso Nagi não esteja com suporte sensorial ativo.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F04%20-%20Hy%C5%8Dton%3A%20Kuro%20Hy%C5%8Dga.png?alt=media&v=1786651904560507"
-      },
-      {
-        "name": "Kuchiyose: Yuki Fukurō - Raijin Mode",
-        "classification": "S++",
-        "nature": "Hyōton + Kaminari + Kuchiyose",
-        "description": "Yuki Fukurō assume uma forma elétrica, com asas feitas de gelo negro e relâmpagos. Ela dispara raios guiados e marca inimigos para execuções instantâneas.",
-        "destruction": "Suporte ofensivo devastador.",
-        "history": "A coruja evoluiu após exposição ao Kaminari.",
-        "status": "Alto consumo contínuo.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F05%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Mode.png?alt=media&v=1786651904570106"
-      },
-      {
-        "name": "Kuchiyose: Yuki Fukurō",
-        "classification": "S+",
-        "nature": "Hyōton",
-        "description": "Nagi invoca sua coruja espiritual, Yuki Fukurō, uma criatura formada por penas brancas, olhos azul-profanos e asas cobertas por cristais de gelo. A coruja se conecta diretamente à mente de Nagi, compartilhando visão aérea, percepção térmica e leitura de chakra. Além de atuar como suporte sensorial, Yuki Fukurō pode liberar rajadas de vento congelante, marcar inimigos com penas de gelo e servir como ponto de origem para técnicas de Hyōton à distância.",
-        "destruction": "Suporte ofensivo e sensorial. Amplia drasticamente o alcance de Nagi e permite ataques coordenados de múltiplas direções.",
-        "history": "Yuki Fukurō era originalmente uma coruja comum criada por Nagi desde jovem. Após anos exposta ao seu chakra, tornou-se uma invocação espiritual ligada permanentemente ao seu contrato de sangue.",
-        "status": "Enquanto ativa, consome chakra de forma constante. Se a coruja for destruída, Nagi sofre uma breve sobrecarga sensorial.",
-        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F06%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D.png?alt=media&v=1786651904583943"
-      }
-    ],
     "chakraColor": "#0ea5e9",
     "nc": 22,
     "stats": {
@@ -8507,9 +8445,94 @@
     },
     "hp": 168,
     "chakra": 76,
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ],
+    "divisaoAtributo": {},
+    "organizacao": [
+      "OCA"
+    ],
+    "vila": [
+      "Konohagakure"
+    ],
+    "patente": "Terceiro Degrau",
+    "techniques": [
+      {
+        "name": "Hyoton: Kaminari Mugen Kuro Fubuki",
+        "classification": "S++",
+        "nature": "Hyoton + Kaminari",
+        "description": "Nagi libera uma tempestade absoluta onde neve, gelo negro e relâmpagos profanos coexistem. Cada floco de neve se transforma em um ponto de condução elétrica, permitindo que o Kaminari percorra instantaneamente todo o campo.\n\nA tempestade cria uma rede invisível onde Nagi pode atacar qualquer ponto dentro da área com velocidade de raio, congelando e eletrocutando simultaneamente o sistema de chakra dos inimigos.\n\nO gelo formado dentro da técnica não é comum — é Kuro Hyoton, um gelo negro que absorve chakra e amplifica a descarga elétrica, criando um ciclo infinito de congelamento e destruição.\n\nYuki Fukurō atua como núcleo da tempestade, guiando os relâmpagos e marcando alvos para execuções instantâneas.\n\nNo ápice da técnica, o corpo do inimigo pode ser congelado internamente enquanto sua rede de chakra é completamente queimada por dentro.",
+        "destruction": "Aniquilação total de campo. Combina congelamento absoluto com destruição elétrica interna. Pode eliminar múltiplos alvos simultaneamente sem possibilidade de reação.",
+        "history": "Desenvolvida após Nagi perder o controle do Chakra Profano durante uma tempestade natural. Ao entrar em ressonância com relâmpagos reais, ele fundiu Hyoton com Kaminari, criando o primeiro gelo condutor de chakra.",
+        "status": "Extremamente instável. Alto risco de autodestruição caso o fluxo de chakra saia do controle.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F01%20-%20Hy%C5%8Dton%3A%20Kaminari%20Mugen%20Kuro%20Fubuki.png?alt=media&v=1786651904570414"
+      },
+      {
+        "name": "Kuchiyose: Yuki Fukurō - Raijin Kyōmei",
+        "classification": "S++",
+        "nature": "Hyoton + Kaminari Negro + Chakra Profano",
+        "description": "Yuki Fukurō não apenas assume sua forma Raijin — ela entra em ressonância total com Nagi, iniciando uma fusão simbiótica de consciência e chakra.\n\nA coruja se desfaz em partículas de gelo negro e relâmpagos, envolvendo o corpo de Nagi e formando uma armadura viva incompleta: asas elétricas surgem em suas costas, seus olhos assumem o padrão da coruja e sua percepção se expande para todo o campo.\n\nNesse estado, Nagi não enxerga mais apenas com seus próprios sentidos — ele vê através de cada partícula de gelo presente no ambiente, enquanto o Kaminari Negro funciona como um sistema nervoso externo, transmitindo informações em velocidade instantânea.\n\nAs asas permitem movimentação aérea e deslocamento em forma de raio, possibilitando que Nagi se desmaterialize em eletricidade e se reconstrua em qualquer ponto conectado ao gelo.\n\nAtaques realizados durante a fusão são automaticamente guiados: lâminas de gelo negro são envolvidas por relâmpagos que ajustam sua trajetória no meio do caminho, enquanto descargas elétricas podem ser disparadas diretamente do corpo de Nagi ou das asas.\n\nAlém disso, qualquer inimigo marcado pela presença anterior de Yuki Fukurō passa a ser rastreado constantemente, tendo seu fluxo de chakra exposto e vulnerável a ataques internos.\n\nEm seu nível máximo, a fusão cria um efeito de \"consciência dupla\": enquanto Nagi executa ações ofensivas, Yuki processa o campo de batalha em paralelo, antecipando movimentos inimigos e ativando respostas automáticas com gelo e relâmpagos.",
+        "destruction": "Extremamente alta. Combina mobilidade absoluta, ataque automático, leitura de campo total e execução precisa com gelo negro e eletricidade profana.",
+        "history": "Essa forma nasceu quando Yuki Fukurō foi completamente saturada pelo Kaminari Negro durante uma batalha crítica. Em vez de se dissipar, a invocação evoluiu, permitindo que sua existência fosse integrada diretamente ao corpo e mente de Nagi.",
+        "status": "Consome chakra de forma contínua e intensa. A fusão prolongada pode sobrecarregar o sistema nervoso de Nagi, causando colapso sensorial ou perda de controle sobre o Kaminari Negro.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F02%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Ky%C5%8Dmei.png?alt=media&v=1786651904574110"
+      },
+      {
+        "name": "Hyoton: Kōri no Shōkyo",
+        "classification": "S++",
+        "nature": "Hyoton + Kaminari",
+        "description": "Nagi toca o solo ou libera chakra pelo ar, criando uma expansão instantânea de gelo profano que se espalha em alta velocidade. Tudo que é alcançado pela técnica começa a congelar de fora para dentro, enquanto o chakra do alvo sofre interrupções bruscas, como se estivesse sendo apagado em camadas. Técnicas ativas atingidas pelo gelo perdem estabilidade e podem se desfazer antes de completar sua execução.",
+        "destruction": "Alta capacidade de neutralização. Pode cancelar técnicas, prender inimigos e transformar grandes áreas em zonas congeladas.",
+        "history": "Foi a primeira técnica profana desenvolvida por Nagi, criada após perceber que seu gelo conseguia interferir diretamente na circulação de chakra.",
+        "status": "Consome chakra de forma moderada, mas exige contato visual ou percepção precisa da área congelada.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F03%20-%20Hy%C5%8Dton%3A%20K%C5%8Dri%20no%20Sh%C5%8Dkyo.png?alt=media&v=1786651904559182"
+      },
+      {
+        "name": "Hyoton: Kuro Hyōga",
+        "classification": "S+",
+        "nature": "Hyoton",
+        "description": "Nagi cria lâminas de gelo negro extremamente finas e densas, capazes de atravessar defesas comuns com precisão cirúrgica. Ao atingir o inimigo, as lâminas não causam apenas cortes físicos, mas liberam frio profano dentro do sistema de chakra, causando rigidez muscular, perda de reflexo e falhas momentâneas na execução de jutsus.",
+        "destruction": "Altamente letal em combate direto. Ideal para perfurar defesas e causar dano interno energético.",
+        "history": "Desenvolvida para enfrentar inimigos com grande resistência física, permitindo que Nagi atacasse o fluxo de chakra em vez do corpo.",
+        "status": "Requer extrema precisão. Perde eficiência contra alvos muito rápidos caso Nagi não esteja com suporte sensorial ativo.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F04%20-%20Hy%C5%8Dton%3A%20Kuro%20Hy%C5%8Dga.png?alt=media&v=1786651904560507"
+      },
+      {
+        "name": "Kuchiyose: Yuki Fukurō - Raijin Mode",
+        "classification": "S++",
+        "nature": "Hyoton + Kaminari + Kuchiyose",
+        "description": "Yuki Fukurō assume uma forma elétrica, com asas feitas de gelo negro e relâmpagos. Ela dispara raios guiados e marca inimigos para execuções instantâneas.",
+        "destruction": "Suporte ofensivo devastador.",
+        "history": "A coruja evoluiu após exposição ao Kaminari.",
+        "status": "Alto consumo contínuo.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F05%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D%20-%20Raijin%20Mode.png?alt=media&v=1786651904570106"
+      },
+      {
+        "name": "Kuchiyose: Yuki Fukurō",
+        "classification": "S+",
+        "nature": "Hyoton",
+        "description": "Nagi invoca sua coruja espiritual, Yuki Fukurō, uma criatura formada por penas brancas, olhos azul-profanos e asas cobertas por cristais de gelo. A coruja se conecta diretamente à mente de Nagi, compartilhando visão aérea, percepção térmica e leitura de chakra. Além de atuar como suporte sensorial, Yuki Fukurō pode liberar rajadas de vento congelante, marcar inimigos com penas de gelo e servir como ponto de origem para técnicas de Hyoton à distância.",
+        "destruction": "Suporte ofensivo e sensorial. Amplia drasticamente o alcance de Nagi e permite ataques coordenados de múltiplas direções.",
+        "history": "Yuki Fukurō era originalmente uma coruja comum criada por Nagi desde jovem. Após anos exposta ao seu chakra, tornou-se uma invocação espiritual ligada permanentemente ao seu contrato de sangue.",
+        "status": "Enquanto ativa, consome chakra de forma constante. Se a coruja for destruída, Nagi sofre uma breve sobrecarga sensorial.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FTecnicas%2F06%20-%20Kuchiyose%3A%20Yuki%20Fukur%C5%8D.png?alt=media&v=1786651904583943"
+      }
+    ],
+    "invocacoes": [
+      {
+        "nome": "Yuki Fukuro",
+        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYuki_Fukuro.png?alt=media&v=1787163752486854",
+        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNagi%2FYuki_Fukuro.png?alt=media&v=1787163751694125",
+        "rank": "S+",
+        "nature": "Hyoton",
+        "village": "Kirigakure"
+      }
+    ],
     "powers": [
       {
-        "name": "Hyōton",
+        "name": "Hyoton",
         "level": 11
       },
       {
@@ -8520,30 +8543,7 @@
         "name": "Kuchiyose",
         "level": 11
       }
-    ],
-    "combatStyle": "Distância",
-    "focosAtributo": [
-      "inteligencia",
-      "espirito"
-    ],
-    "divisaoAtributo": {},
-    "invocacoes": [
-      {
-        "nome": "Yuki Fukuro",
-        "capaUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FCapas%20Invoca%C3%A7%C3%B5es%2FYuki_Fukuro.png?alt=media&v=1787163752486854",
-        "arteUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FInvoca%C3%A7%C3%B5es%2FNagi%2FYuki_Fukuro.png?alt=media&v=1787163751694125",
-        "rank": "S+",
-        "nature": "Hyouton",
-        "village": "Kirigakure"
-      }
-    ],
-    "organizacao": [
-      "OCA"
-    ],
-    "vila": [
-      "Konohagakure"
-    ],
-    "patente": "Terceiro Degrau"
+    ]
   },
   {
     "__docId": "najin-hatake",
