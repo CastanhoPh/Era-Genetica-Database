@@ -1736,7 +1736,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                   <th className="text-left font-black py-2 pr-3">Vila</th>
                   <th className="text-left font-black py-2 pr-3">Organização</th>
                   <th className="text-left font-black py-2 pr-3">Posto</th>
-                  <th className="text-left font-black py-2 pr-3">Rank</th>
+                  <th className="text-left font-black py-2 pr-3">Nível de Poder</th>
                   <th className="text-left font-black py-2 pr-3">Função</th>
                   <th className="text-left font-black py-2 pr-3">Aparição</th>
                   <th className="text-left font-black py-2 pr-3">Não apareceu</th>

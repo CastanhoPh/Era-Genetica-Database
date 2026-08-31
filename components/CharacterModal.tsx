@@ -589,11 +589,16 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
                                 <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-1">Nível de Combate</div>
                                 <div className="text-4xl text-tech-primary font-bold text-glow">{char.nc}</div>
-                                {/* O rank de ninja não é campo gravado: sai do NC pela escada em data/atributos.ts.
-                                    Fica aqui, embaixo do número, porque é a leitura dele. Abaixo de NC 4 não existe
-                                    rank — hoje só o Beta e o Hades, os dois com NC 0 de propósito. */}
+                                {/* Nível de poder: sai do NC pela escada em data/atributos.ts, não é campo gravado.
+                                    Precisa de rótulo porque os nomes dos degraus — Chunin, Jonin, Sannin — são os
+                                    mesmos dos cargos de mérito de Konoha, e as duas coisas divergem de propósito: o
+                                    Kaito é Jonin de Elite de poder e reconhecido como Chunin na Folha. Abaixo de NC 4
+                                    não há degrau — hoje só Beta e Hades, com NC 0. */}
                                 {rankDeNC(char.nc) && (
-                                    <div className="text-[11px] text-tech-primary/60 font-bold uppercase tracking-wide mt-1">{rankDeNC(char.nc)}</div>
+                                    <>
+                                        <div className="text-[9px] text-tech-primary/50 font-bold uppercase tracking-widest mt-2">Nível de Poder</div>
+                                        <div className="text-sm text-tech-accent font-bold uppercase tracking-wide">{rankDeNC(char.nc)}</div>
+                                    </>
                                 )}
                             </div>
                             <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
