@@ -107,8 +107,6 @@ export const ORDEM_DE_FORCA: string[] = [
   // NC 14
   'Etsuko Senju (E)',
   'Fuyuki Dokuhana (F)',
-  // NC 12
-  'Kazuki Hoshigaki',
   // NC 8
   'Shoyu Uzumaki',
   'Souma Namikaze',
@@ -127,6 +125,7 @@ export const FORA_DO_RANKING: string[] = [
   'Takeshi Hatake',
   'Furyuzan Chinoike',
   'Shoei Sarutobi',
+  'Kazuki Hoshigaki',
 ];
 const FORA = new Set(FORA_DO_RANKING);
 export const foraDoRanking = (nome: string): boolean => FORA.has(nome);
