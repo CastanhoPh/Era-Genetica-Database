@@ -419,9 +419,11 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Líder dos 75%",
     "role": "DPS e Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Líder dos 75%"
+    ]
   },
   {
     "__docId": "akane-sumigami",
@@ -573,8 +575,10 @@
     "vila": [
       "Sunagakure"
     ],
-    "patente": "NoGuns",
-    "position": ""
+    "position": "",
+    "patente": [
+      "NoGuns"
+    ]
   },
   {
     "__docId": "amakumo-hozuki",
@@ -665,7 +669,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Almirante da Frota Leviatã"
+    "patente": [
+      "Almirante da Frota Leviatã"
+    ]
   },
   {
     "__docId": "apollo-sarutobi",
@@ -882,9 +888,11 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Terceiro Degrau",
     "role": "Sensor, Ofensivo e Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 99%"
+    ]
   },
   {
     "__docId": "arashi-shidehara",
@@ -1156,7 +1164,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Vice-Almirante da Frota Megalodon"
+    "patente": [
+      "Vice-Almirante da Frota Megalodon"
+    ]
   },
   {
     "__docId": "ayumi-uchiha",
@@ -1544,8 +1554,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Líder do Terceiro Degrau",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Líder dos 99%"
+    ]
   },
   {
     "__docId": "borashi-hyuga-b",
@@ -1668,7 +1680,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Vice Líder dos 75%",
     "role": "DPS e Controle",
     "techniques": [
       {
@@ -1772,7 +1783,10 @@
         "level": 13
       }
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "1º Vice Líder dos 75%"
+    ]
   },
   {
     "__docId": "chigiri-chinoike",
@@ -1974,8 +1988,10 @@
     "vila": [
       "Sunagakure"
     ],
-    "patente": "Vice Líder dos 75%",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 75%"
+    ]
   },
   {
     "__docId": "daichi-muujin",
@@ -2060,9 +2076,11 @@
     "vila": [
       "Iwagakure"
     ],
-    "patente": "Vice Líder da NoGuns",
     "role": "DPS e Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Vice Líder da NoGuns"
+    ]
   },
   {
     "__docId": "daiki-uzumaki-d",
@@ -2203,7 +2221,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 75%"
+    ]
   },
   {
     "__docId": "deruta-muujin-delta",
@@ -2380,6 +2401,9 @@
     "position": "",
     "titles": [
       "O Núcleo"
+    ],
+    "patente": [
+      "Kage da OCA"
     ]
   },
   {
@@ -2479,7 +2503,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Almirante da Frota Megalodon"
+    "patente": [
+      "Almirante da Frota Megalodon"
+    ]
   },
   {
     "__docId": "enrai-hanzo",
@@ -2627,8 +2653,10 @@
     "vila": [
       "Kumogakure"
     ],
-    "patente": "Vice Líder da Kiba",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Vice Líder da Kiba"
+    ]
   },
   {
     "__docId": "etsuko-senju-e",
@@ -2732,7 +2760,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 75%"
+    ]
   },
   {
     "__docId": "furyuzan-chinoike",
@@ -2982,7 +3013,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 40%"
+    ]
   },
   {
     "__docId": "fuyuki-dokuhana-f",
@@ -3114,7 +3148,10 @@
     "vila": [
       "Sunagakure"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 75%"
+    ]
   },
   {
     "__docId": "ganmaren-yuki",
@@ -3213,7 +3250,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Almirante da Frota Jormungandr"
+    "patente": [
+      "Almirante da Frota Jormungandr"
+    ]
   },
   {
     "__docId": "ganmasen-yuki-gama",
@@ -3370,7 +3409,10 @@
       "2º Mizukage"
     ],
     "role": "Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Kage da OCA"
+    ]
   },
   {
     "__docId": "genei-g",
@@ -3519,8 +3561,10 @@
     "organizacao": [
       "OCA"
     ],
-    "patente": "Vice Líder dos 75%",
-    "position": ""
+    "position": "",
+    "patente": [
+      "2º Vice Líder dos 75%"
+    ]
   },
   {
     "__docId": "genzo-umikage",
@@ -3614,7 +3658,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Vice-Almirante da Frota Leviatã"
+    "patente": [
+      "Vice-Almirante da Frota Leviatã"
+    ]
   },
   {
     "__docId": "gorai-arashiumi",
@@ -3760,7 +3806,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Vice-Almirante da Frota Jormungandr"
+    "patente": [
+      "Vice-Almirante da Frota Jormungandr"
+    ]
   },
   {
     "__docId": "hades",
@@ -3837,8 +3885,10 @@
     "organizacao": [
       "OCA"
     ],
-    "patente": "Líder da OCA",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Líder da OCA"
+    ]
   },
   {
     "__docId": "hahiko-shiosaki",
@@ -3923,7 +3973,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitã da Frota Jormungandr"
+    "patente": [
+      "Capitã da Frota Jormungandr"
+    ]
   },
   {
     "__docId": "hana-sabaku",
@@ -4326,7 +4378,10 @@
       "Kumogakure"
     ],
     "position": "",
-    "role": "Suporte e Controle"
+    "role": "Suporte e Controle",
+    "patente": [
+      "Membro dos 75%"
+    ]
   },
   {
     "__docId": "hikaru-ishi",
@@ -4493,7 +4548,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitã-Tenente da Frota Jormungandr"
+    "patente": [
+      "Capitã-Tenente da Frota Jormungandr"
+    ]
   },
   {
     "__docId": "hirato-ishi",
@@ -4690,13 +4747,15 @@
       "Konohagakure",
       "Kumogakure"
     ],
-    "patente": "Vice Líder da OCA",
     "cargo": [
       "2º General",
       "3º Líder de Rastreio"
     ],
     "role": "Suporte e Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "1º Vice Líder da OCA"
+    ]
   },
   {
     "__docId": "hisoka-senju",
@@ -5288,7 +5347,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Almirante da Frota Kraken"
+    "patente": [
+      "Almirante da Frota Kraken"
+    ]
   },
   {
     "__docId": "kaien-ishi-omega",
@@ -5429,8 +5490,11 @@
     "cargo": [
       "Linhagem Espiritual"
     ],
-    "patente": "Vice Líder da OCA",
-    "position": ""
+    "position": "",
+    "patente": [
+      "2º Vice Líder da OCA",
+      "Líder dos Kages"
+    ]
   },
   {
     "__docId": "kaito-senju",
@@ -6500,7 +6564,10 @@
     "cargo": [
       "2º Raikage"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Kage da OCA"
+    ]
   },
   {
     "__docId": "katsumi-hyuga",
@@ -7410,7 +7477,10 @@
     "vila": [
       "Kirigakure"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 40%"
+    ]
   },
   {
     "__docId": "kenma-soryo",
@@ -7683,7 +7753,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Vice-Almirante da Frota Kraken"
+    "patente": [
+      "Vice-Almirante da Frota Kraken"
+    ]
   },
   {
     "__docId": "koji-ishizuma",
@@ -7762,8 +7834,10 @@
     "vila": [
       "Kumogakure"
     ],
-    "patente": "Vice Líder da NoGuns",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Vice Líder da NoGuns"
+    ]
   },
   {
     "__docId": "kurohime-kazeori",
@@ -8059,8 +8133,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Terceiro Degrau",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 99%"
+    ]
   },
   {
     "__docId": "madara-uchiha",
@@ -8234,7 +8310,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitã da Frota Kraken"
+    "patente": [
+      "Capitã da Frota Kraken"
+    ]
   },
   {
     "__docId": "midori-kurogane",
@@ -8421,8 +8499,10 @@
     "cargo": [
       "Membro da Elite"
     ],
-    "patente": "Líder da Kiba",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Líder da Kiba"
+    ]
   },
   {
     "__docId": "mirei-sazanami",
@@ -8503,7 +8583,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitã-Tenente da Frota Megalodon"
+    "patente": [
+      "Capitã-Tenente da Frota Megalodon"
+    ]
   },
   {
     "__docId": "mizue-dokuhana",
@@ -9011,6 +9093,9 @@
     "role": "DPS, Suporte e Controle",
     "cargo": [
       "Genin"
+    ],
+    "patente": [
+      "Líder dos 40%"
     ]
   },
   {
@@ -9086,7 +9171,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Terceiro Degrau",
     "techniques": [
       {
         "name": "Hyoton: Kaminari Mugen Kuro Fubuki",
@@ -9173,7 +9257,10 @@
         "level": 11
       }
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 99%"
+    ]
   },
   {
     "__docId": "najin-hatake",
@@ -9761,7 +9848,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitão-Tenente da Frota Kraken"
+    "patente": [
+      "Capitão-Tenente da Frota Kraken"
+    ]
   },
   {
     "__docId": "naoki-uchiha",
@@ -11750,7 +11839,10 @@
       "1º Líder da Equipe de Elite",
       "2º Líder de Inovações"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Líder dos 10%"
+    ]
   },
   {
     "__docId": "raizen-kurogane",
@@ -11895,7 +11987,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitão da Frota Leviatã"
+    "patente": [
+      "Capitão da Frota Leviatã"
+    ]
   },
   {
     "__docId": "reika-uzumaki",
@@ -12144,8 +12238,10 @@
     "vila": [
       "Kumogakure"
     ],
-    "patente": "Vice Líder da Kiba",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Vice Líder da Kiba"
+    ]
   },
   {
     "__docId": "reto-sabaku",
@@ -13094,7 +13190,10 @@
       "1º Kazekage das Sombras"
     ],
     "role": "Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Kage da OCA"
+    ]
   },
   {
     "__docId": "shikaki-nara",
@@ -13239,8 +13338,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Terceiro Degrau",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 99%"
+    ]
   },
   {
     "__docId": "shikatsu-nara-togo-kage",
@@ -13387,9 +13488,12 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "NoGuns",
     "role": "DPS e Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "NoGuns",
+      "Membro dos 99%"
+    ]
   },
   {
     "__docId": "shikure-chinoike",
@@ -13503,8 +13607,11 @@
     "vila": [
       "Sunagakure"
     ],
-    "patente": "NoGuns",
-    "position": ""
+    "position": "",
+    "patente": [
+      "NoGuns",
+      "Membro dos 99%"
+    ]
   },
   {
     "__docId": "shin-mizukari",
@@ -13584,8 +13691,10 @@
     "vila": [
       "Iwagakure"
     ],
-    "patente": "NoGuns",
-    "position": ""
+    "position": "",
+    "patente": [
+      "NoGuns"
+    ]
   },
   {
     "__docId": "shizumi-uchiha",
@@ -14651,7 +14760,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitão-Tenente da Frota Leviatã"
+    "patente": [
+      "Capitão-Tenente da Frota Leviatã"
+    ]
   },
   {
     "__docId": "takeshi-hatake",
@@ -15543,7 +15654,9 @@
     "organizacao": [
       "Marinha"
     ],
-    "patente": "Capitã da Frota Megalodon"
+    "patente": [
+      "Capitã da Frota Megalodon"
+    ]
   },
   {
     "__docId": "yasuo-kurogane",
@@ -15688,9 +15801,11 @@
     "vila": [
       "Sunagakure"
     ],
-    "patente": "Terceiro Degrau",
     "role": "Suporte e Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Membro dos 99%"
+    ]
   },
   {
     "__docId": "yoru-kurogami",
@@ -15816,9 +15931,11 @@
     "vila": [
       "Kumogakure"
     ],
-    "patente": "Vice Líder da Kiba",
     "role": "Suporte e Controle",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Vice Líder da Kiba"
+    ]
   },
   {
     "__docId": "yuji-yotsuki",
@@ -15977,8 +16094,10 @@
     "cargo": [
       "Membro da Elite"
     ],
-    "patente": "Líder da Kiba",
-    "position": ""
+    "position": "",
+    "patente": [
+      "Líder da Kiba"
+    ]
   },
   {
     "__docId": "yumi-uzumaki",
@@ -16224,7 +16343,9 @@
     "vila": [
       "Kirigakure"
     ],
-    "patente": "NoGuns",
-    "position": ""
+    "position": "",
+    "patente": [
+      "NoGuns"
+    ]
   }
 ]

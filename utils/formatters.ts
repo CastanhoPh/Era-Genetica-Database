@@ -41,8 +41,8 @@ export const formatImageUrl = (url: string): string => {
  * String vazia significa sem selo, e quem consome tem que não mostrar nada no lugar: nem
  * rótulo, nem traço, nem espaço reservado. Hoje 20 das 86 fichas caem nesse caso.
  */
-export const seloDe = (c: { patente?: string; cargo?: string[]; position?: string }): string =>
-  c.patente || c.cargo?.[0] || c.position || '';
+export const seloDe = (c: { patente?: string[]; cargo?: string[]; position?: string }): string =>
+  c.patente?.[0] || c.cargo?.[0] || c.position || '';
 
 /**
  * A cor de cada vila, definida pelo Pedro em 27/08/2026. As classes estão escritas por extenso
@@ -81,10 +81,11 @@ export const CORES_NEUTRAS = { texto: 'text-slate-300', borda: 'border-slate-500
  * Quem tem duas organizações usa a que a própria patente nomeia — o Shikatsu, o Shikure e o Yuuto
  * têm NoGuns e OCA, e a patente dos três é NoGuns.
  */
-export const corDoSelo = (c: { vila?: string[]; categories?: string[]; organizacao?: string[]; patente?: string }) => {
-  if (c.patente) {
+export const corDoSelo = (c: { vila?: string[]; categories?: string[]; organizacao?: string[]; patente?: string[] }) => {
+  const primeira = c.patente?.[0];
+  if (primeira) {
     const orgs = c.organizacao ?? [];
-    const citada = orgs.find(o => c.patente!.toLowerCase().includes(o.toLowerCase())) ?? orgs[0];
+    const citada = orgs.find(o => primeira.toLowerCase().includes(o.toLowerCase())) ?? orgs[0];
     if (citada && CORES_DE_ORG[citada]) return CORES_DE_ORG[citada];
   }
   return CORES_DE_VILA[vilasDe(c)[0]] ?? CORES_NEUTRAS;
@@ -98,7 +99,8 @@ export const corDoSelo = (c: { vila?: string[]; categories?: string[]; organizac
 export const postoDe = (v: string): string => v.replace(/^\d+[ºª]\s*/, '').trim();
 
 /** Todos os postos da ficha, cargo e patente, já sem ordinal. É por aqui que o filtro casa. */
-export const postosDe = (c: { cargo?: string[]; patente?: string; position?: string }): string[] => {
-  const brutos = [...(c.cargo ?? []), c.patente, c.cargo?.length || c.patente ? undefined : c.position];
+export const postosDe = (c: { cargo?: string[]; patente?: string[]; position?: string }): string[] => {
+  const tem = (c.cargo?.length ?? 0) + (c.patente?.length ?? 0) > 0;
+  const brutos = [...(c.cargo ?? []), ...(c.patente ?? []), tem ? undefined : c.position];
   return [...new Set(brutos.filter((x): x is string => !!x).map(postoDe))];
 };

@@ -227,8 +227,12 @@ export interface Character {
    */
   cargo?: string[];
   /**
-   * Patente dentro da organização, separada de `position` na mesma data. Texto único porque
-   * ninguém tem duas patentes, mesmo entre os três que têm duas organizações.
+   * Patentes dentro da organização, separadas de `position` na mesma data.
+   *
+   * Virou lista em 27/08/2026, quando a estrutura da OCA chegou e desmentiu o pressuposto de que
+   * ninguém teria duas: o Kaien Ishi é 2º Vice Líder da OCA e Líder dos Kages ao mesmo tempo, e o
+   * Shikatsu e o Shikure têm uma patente de NoGuns e uma de OCA. A ordem é a de importância, e o
+   * selo mostra a primeira.
    *
    * A Marinha de Kirigakure é organização (decidido em 27/08/2026), então os postos das quatro
    * frotas — Almirante, Vice-Almirante, Capitão e Capitão-Tenente — são patente e não cargo. Foi
@@ -238,7 +242,7 @@ export interface Character {
    * Tem prioridade sobre o `cargo` na exibição: quem tem organização mostra a patente dela.
    * Só no Firestore.
    */
-  patente?: string;
+  patente?: string[];
   /**
    * Vilas do personagem, migrado de `categories` (2026-08-27). Lista porque uma ficha pode ter
    * duas vilas — o Hiroshi Hanzo e o Rock Gunma têm. Todo mundo tem pelo menos uma, mesmo quem é

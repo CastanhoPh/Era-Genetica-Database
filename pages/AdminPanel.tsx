@@ -772,7 +772,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     return {
       vila: uniq(characters.flatMap(c => c.vila ?? [])),
       org: uniq(characters.flatMap(c => c.organizacao ?? [])),
-      posto: uniq(characters.flatMap(c => [...(c.cargo ?? []), c.patente ?? ''].map(postoDe))),
+      posto: uniq(characters.flatMap(c => [...(c.cargo ?? []), ...(c.patente ?? [])].map(postoDe))),
       cla: uniq(characters.map(c => c.clan)),
       funcao: uniq(characters.flatMap(c => (c.role ?? '').split(/\s+e\s+|\s*\/\s*|\s*,\s*/).map(x => x.trim()))
         .filter(x => x !== '?')),
@@ -782,7 +782,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
 
   const chronologyRows = useMemo(() => {
     const term = chronologySearch.trim().toLowerCase();
-    const postos = (c: Character) => [...(c.cargo ?? []), c.patente ?? ''].filter(Boolean).map(postoDe);
+    const postos = (c: Character) => [...(c.cargo ?? []), ...(c.patente ?? [])].filter(Boolean).map(postoDe);
     return characters
       .filter(c => {
         if (term && ![c.name, c.clan, ...(c.titles ?? []), seloDe(c), rankDeNC(c.nc)]

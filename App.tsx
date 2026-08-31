@@ -217,7 +217,7 @@ export default function App() {
             const matchesSearch = term === '' ||
                 c.name.toLowerCase().includes(term) ||
                 c.clan.toLowerCase().includes(term) ||
-                (c.patente ?? '').toLowerCase().includes(term) ||
+                (c.patente ?? []).some(x => x.toLowerCase().includes(term)) ||
                 (c.cargo ?? []).some(x => x.toLowerCase().includes(term)) ||
                 c.position.toLowerCase().includes(term) ||
                 // O rank de ninja sai do NC pela escada, não de campo gravado — mas buscar
