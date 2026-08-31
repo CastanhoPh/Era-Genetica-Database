@@ -2297,8 +2297,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10296,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnkai%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190625316267"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnkai%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190625316267",
+    "order": 10299
   },
   {
     "__docId": "1DIY4VRnH6DEToZAP8hz",
@@ -2309,8 +2309,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30100,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131",
+    "order": 30089
   },
   {
     "__docId": "1eyj3b99kmZolOEmB1Wb",
@@ -2343,8 +2343,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10306,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNao%20Arashio%2F5__Temporada.png?alt=media&v=1788190677348400"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNao%20Arashio%2F5__Temporada.png?alt=media&v=1788190677348400",
+    "order": 10308
   },
   {
     "__docId": "1MB1sK6sTXdj01tDvY9I",
@@ -3326,7 +3326,7 @@
     "arco": "Luta contra o Omega",
     "name": "Luta contra o Omega",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1786651884005612",
-    "order": 10020
+    "order": 10019
   },
   {
     "__docId": "3-temporada__delta-e-a-vila-da-pedra__sera-adicionado-em-breve",
@@ -3625,7 +3625,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1786479673629960",
-    "order": 10138
+    "order": 10137
   },
   {
     "__docId": "4obpnGRr4OvgctgEIOl8",
@@ -3679,8 +3679,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10302,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190657436737"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190657436737",
+    "order": 10304
   },
   {
     "__docId": "55NSrjxcjXhNtgV13neJ",
@@ -3758,7 +3758,7 @@
     "arco": "5ª Temporada",
     "name": "5ª Temporada",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651884030712",
-    "order": 10023
+    "order": 10022
   },
   {
     "__docId": "5Rc6SqHKE0qXXZCSMeId",
@@ -4007,8 +4007,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30099,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499",
+    "order": 30088
   },
   {
     "__docId": "7sGURt47CMoguA19sy4C",
@@ -4131,8 +4131,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30088,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763",
+    "order": 30091
   },
   {
     "__docId": "8Y5toSWfrLm7cyAA9MNj",
@@ -4249,7 +4249,7 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651884032791",
-    "order": 10021
+    "order": 10020
   },
   {
     "__docId": "9O74IoBopKRjjOU3OXLd",
@@ -4466,8 +4466,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30098,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061",
+    "order": 30100
   },
   {
     "__docId": "Aa0uoxgsvmHhVYeB05kN",
@@ -4794,7 +4794,7 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FLuta_contra_o_Hades.png?alt=media&v=1786371783301613",
-    "order": 10151
+    "order": 10154
   },
   {
     "__docId": "B5gdTWNrLHBzty90TKbi",
@@ -4885,7 +4885,10 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "order": 10294,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmakumo%20H%C5%8Dzuki%2F5__Temporada.png?alt=media&v=1788190614557283"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmakumo%20H%C5%8Dzuki%2F5__Temporada.png?alt=media&v=1788190614557283",
+    "personagens": [
+      "Amakumo Hōzuki"
+    ]
   },
   {
     "__docId": "BMnmcwpSWptlEipyPso5",
@@ -4933,7 +4936,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F3__Temporada.png?alt=media&v=1787071799896590",
     "done": true,
     "doneBy": "Pedro",
-    "order": 10162
+    "order": 10161
   },
   {
     "__docId": "bRYLoolHkCBPxhFsQFDB",
@@ -5243,7 +5246,7 @@
     "name": "Reunião dos Kages",
     "done": true,
     "doneBy": "Liu",
-    "order": 10032
+    "order": 10031
   },
   {
     "__docId": "cuWTUO1YfLXhLT3Zmb0g",
@@ -5595,7 +5598,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1786651865146365",
-    "order": 10004
+    "order": 10005
   },
   {
     "__docId": "eqqWFFspCJf7BUPGL7Oh",
@@ -5628,7 +5631,7 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F4__Temporada.png?alt=media&v=1784751371543",
-    "order": 10153
+    "order": 10152
   },
   {
     "__docId": "eTU9xqWiny6HB23Jfz8f",
@@ -5746,7 +5749,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249",
     "done": true,
     "doneBy": "Pedro",
-    "order": 10005
+    "order": 10004
   },
   {
     "__docId": "FdbXoeRdvMWm7wyjB6fM",
@@ -5815,8 +5818,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30094,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702",
+    "order": 30096
   },
   {
     "__docId": "FFgdqCSA21YivKWFvd88",
@@ -5949,8 +5952,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30091,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930",
+    "order": 30093
   },
   {
     "__docId": "G7BJp0aSofRy0kuZ4dJl",
@@ -6043,8 +6046,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10305,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788190672967346"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788190672967346",
+    "order": 10307
   },
   {
     "__docId": "gj1qGTwdbbIszhMJrv3T",
@@ -6300,7 +6303,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752",
-    "order": 10114
+    "order": 10113
   },
   {
     "__docId": "h60uYBHzqUPEL8jfiecP",
@@ -6354,8 +6357,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30092,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235",
+    "order": 30094
   },
   {
     "__docId": "HD9xzTZ6UDa1LrRREgw8",
@@ -6377,8 +6380,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10297,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788190630704219"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788190630704219",
+    "order": 10300
   },
   {
     "__docId": "HEIFDMEPxkbF1bYvevFU",
@@ -6411,8 +6414,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30089,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643",
+    "order": 30092
   },
   {
     "__docId": "HgH1B5BIwDxymlRMOL0z",
@@ -6704,7 +6707,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FLuta_contra_o_Hades.png?alt=media&v=1785263393623",
-    "order": 10167
+    "order": 10168
   },
   {
     "__docId": "iBMGkn2JbrlHCVx9F3ZV",
@@ -6937,8 +6940,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30095,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256",
+    "order": 30097
   },
   {
     "__docId": "IxIV043v4L7idVRtpSky",
@@ -6949,8 +6952,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30087,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717",
+    "order": 30090
   },
   {
     "__docId": "iyuVoVGMRWpl2Dq2VP0M",
@@ -7098,8 +7101,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10303,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FK%C5%8Dga%20Kirisame%2F5__Temporada.png?alt=media&v=1788190662695638"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FK%C5%8Dga%20Kirisame%2F5__Temporada.png?alt=media&v=1788190662695638",
+    "order": 10305
   },
   {
     "__docId": "jRQwMVdSsps6Fns5uP3p",
@@ -7215,8 +7218,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10300,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788190646741509"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788190646741509",
+    "order": 10302
   },
   {
     "__docId": "K93QJK78DwdMQbcusPMp",
@@ -7345,7 +7348,7 @@
     "arco": "4ª Temporada",
     "name": "4ª Temporada",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F4__Temporada.png?alt=media&v=1784658577459275",
-    "order": 10022
+    "order": 10021
   },
   {
     "__docId": "KmlHB6aMv7R3MBdCxt5H",
@@ -7804,7 +7807,7 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786370764835642",
-    "order": 10154
+    "order": 10153
   },
   {
     "__docId": "MPLpRVOp2CemV6LBzvRm",
@@ -7837,8 +7840,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30090,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376",
+    "order": 30087
   },
   {
     "__docId": "MT7fp8xE1l7XwP8Add5M",
@@ -7927,8 +7930,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30096,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992",
+    "order": 30098
   },
   {
     "__docId": "N52icRNZIJogKj3cvwg8",
@@ -8019,8 +8022,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30097,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649",
+    "order": 30099
   },
   {
     "__docId": "NjFdDwzuRNB4CWqy5fHX",
@@ -8121,7 +8124,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F5__Temporada.png?alt=media&v=1784751318175",
-    "order": 10163
+    "order": 10162
   },
   {
     "__docId": "nWuXLxdEQmEDPXEw13sE",
@@ -8253,8 +8256,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10304,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788190667832903"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788190667832903",
+    "order": 10306
   },
   {
     "__docId": "OGaWrvEWWhg8Re34uPVj",
@@ -8355,8 +8358,11 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10308,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSuiren%20Shiranami%2F5__Temporada.png?alt=media&v=1788190685429587"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSuiren%20Shiranami%2F5__Temporada.png?alt=media&v=1788190685429587",
+    "personagens": [
+      "Suiren Shiranami"
+    ],
+    "order": 10297
   },
   {
     "__docId": "oM2jkeeg3f0nVWb0gHLq",
@@ -8388,7 +8394,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FLuta_contra_os_Kages.png?alt=media&token=19f7261e-95ea-44b5-8892-4b9165616ab8&v=1785778195230",
     "done": true,
     "doneBy": "Pedro",
-    "order": 10031
+    "order": 10033
   },
   {
     "__docId": "oRxnGbspLLdCW4NimuGN",
@@ -8467,7 +8473,7 @@
     "arco": "Segundo Hokage",
     "name": "Segundo Hokage",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FSegundo_Hokage.png?alt=media&v=1787158067478818",
-    "order": 10137
+    "order": 10138
   },
   {
     "__docId": "p4naUnyT4JXGlsThaXIr",
@@ -8478,7 +8484,7 @@
     "done": false,
     "doneBy": null,
     "imageUrl": null,
-    "order": 10161
+    "order": 10163
   },
   {
     "__docId": "p8JDtRIQsJUlpC2FIDxg",
@@ -9879,8 +9885,11 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10307,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizuki%20Hoshigaki%2F5__Temporada.png?alt=media&v=1788190681780939"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizuki%20Hoshigaki%2F5__Temporada.png?alt=media&v=1788190681780939",
+    "personagens": [
+      "Raizuki Hoshigaki"
+    ],
+    "order": 10296
   },
   {
     "__docId": "SoSau3fMT7aMx5CS5F2g",
@@ -10076,8 +10085,11 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10298,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788190636100568"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788190636100568",
+    "personagens": [
+      "Genzō Umikage"
+    ],
+    "order": 10295
   },
   {
     "__docId": "TZR0bjZpfT7KL7Gubreb",
@@ -10282,8 +10294,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10299,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGordon%20Kirisame%2F5__Temporada.png?alt=media&v=1788190641355772"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGordon%20Kirisame%2F5__Temporada.png?alt=media&v=1788190641355772",
+    "order": 10301
   },
   {
     "__docId": "UTgerhPJ1UtlK90Lhis0",
@@ -10325,8 +10337,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30093,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490",
+    "order": 30095
   },
   {
     "__docId": "uYoX7zxyt3RmaEjAoRWa",
@@ -10414,8 +10426,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10295,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788190620073857"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788190620073857",
+    "order": 10298
   },
   {
     "__docId": "vDNO77POIx8VIpkZVdWX",
@@ -10464,7 +10476,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Kaminari.png?alt=media&v=1786651884028017",
-    "order": 10019
+    "order": 10023
   },
   {
     "__docId": "vo2aB3eHrbB4oAl10J87",
@@ -10486,7 +10498,7 @@
     "done": true,
     "doneBy": "Zeck",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F3__Temporada.png?alt=media&v=1786370795205997",
-    "order": 10152
+    "order": 10151
   },
   {
     "__docId": "vrT0HJxjtqAIjHblfA9V",
@@ -10878,7 +10890,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095",
     "done": true,
     "doneBy": "Pedro",
-    "order": 10112
+    "order": 10114
   },
   {
     "__docId": "WyWYV1KDSxzjaPwsXfVk",
@@ -11073,7 +11085,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2F2__Temporada.png?alt=media&v=1785263389785",
-    "order": 10168
+    "order": 10167
   },
   {
     "__docId": "xY9VTx3ZFGUt0h6KraIB",
@@ -11175,7 +11187,7 @@
     "name": "Reunião dos Kages",
     "done": true,
     "doneBy": "Pedro",
-    "order": 10113
+    "order": 10112
   },
   {
     "__docId": "Yfp8CiLSrtTHJdnble2l",
@@ -11469,7 +11481,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.jpeg?alt=media&v=1786981418240355",
-    "order": 10033
+    "order": 10032
   },
   {
     "__docId": "zR04c68aqZYTsMvRDb66",
@@ -11503,8 +11515,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10301,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHimari%20Yuki%2F5__Temporada.png?alt=media&v=1788190652071729"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHimari%20Yuki%2F5__Temporada.png?alt=media&v=1788190652071729",
+    "order": 10303
   },
   {
     "__docId": "ZTNybPBb4JSK2gR2Wcse",

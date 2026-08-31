@@ -90,6 +90,10 @@
 | 84 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure | Kazekage | Controle | 28 | 216 | 94 | Vivo |
 | 85 | Beta | Desconhecido | NPC, OCA, Konohagakure | Líder do Terceiro Degrau | ? | 0 | 0 | 0 | Vivo |
 | 86 | Hades | Desconhecido | NPC, OCA | Líder da OCA | ? | 0 | 0 | 0 | Vivo |
+| 87 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
+| 88 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 28 | 216 | 94 | Vivo |
+| 89 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
+| 90 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
 
 ---
 
@@ -10579,6 +10583,187 @@ Desconhecido
 
 ## Aptidões
 Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Amakumo Hōzuki
+ID: 87
+Clã: Hōzuki
+Grupos: NPC, Kirigakure
+Função: Tank
+NC: 29
+HP: 242
+Chakra: 132
+Status: Vivo
+Títulos: A Muralha Escolhida por Leviatã
+
+![Amakumo Hōzuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727)
+
+## Descrição
+Amakumo é um homem bom, porém possui limites muito bem definidos, especialmente durante conversas e discussões políticas. Respeita profundamente Genzō, seu amigo de longa data, parceiro de combate e atual vice-almirante da Frota Leviatã. Apesar de suas diferenças, os dois construíram uma relação baseada em confiança e lealdade.
+
+Amakumo possui uma armadura de água tão rígida quanto o aço. Seus golpes são expansivos e devastadores, alcançando uma força comparável à de uma Bijū. É conhecido por sua quantidade extraordinária de chakra, por sua natureza bárbara durante as batalhas e, ao mesmo tempo, por seu bom coração. Acredita que o mundo ninja ainda pode ser salvo para além das fronteiras e disputas políticas entre as vilas.
+
+Ele está longe de ser pacifista: para Amakumo, a paz é conquistada por meio de seus próprios punhos. Seu físico é conhecido por ser praticamente impenetrável. Não é um combatente veloz, pois acredita que não precisa evitar os ataques de seus adversários. Em vez disso, resiste, avança e derrota qualquer inimigo que permaneça em seu caminho.
+
+## Atributos
+- Força: 29
+- Destreza: 12
+- Agilidade: 29
+- Inteligência: 25
+- Espírito: 26
+- Vigor: 29
+- Percepção: 12
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Hyōton — Nível 14
+- Iryō Ninjutsu — Nível 14
+
+## Aptidões
+Ambidestria, Maestria: CC, Saque Rápido, Potencializar, Técnica Poderosa, Domínio da Água, Instinto de Batalha: LM, CD, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, De Pé, Reflexos, Punho de Ferro, Crítico Aprimorado, Soco em Gancho, Duro de Matar, Chakra Expandido: Leviatã, Contragolpe
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Genzō Umikage
+ID: 88
+Clã: Umikage
+Grupos: NPC, Kirigakure
+Função: Suporte e Controle
+NC: 28
+HP: 216
+Chakra: 94
+Status: Vivo
+Títulos: O Sábio dos Mares
+
+![Genzō Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376)
+
+## Descrição
+Genzō Umikage é um artesão, um simples pescador e, ao mesmo tempo, um grande Vice-Almirante. Age de maneira calma e pacífica em praticamente todas as situações, exceto quando alguém desafia ou ameaça sua vila. Costuma passar seu tempo com uma vara de pesca no porto. Embora sua aparência coberta por escamas possa assustar algumas pessoas, Genzō é um homem bondoso.
+
+Sua proficiência com a água é extraordinária. Durante uma batalha, muitos adversários sequer conseguem enxergar seus movimentos. Genzō luta de maneira fluida como a água, mantendo a sabedoria de um monge e a serenidade de um pescador, mesmo diante das ameaças mais perigosas.
+
+Suas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsus de selamento. Genzō conhece milhares de fórmulas de Fūinjutsu, pois acredita que a melhor forma de eliminar uma ameaça não é derramando mais sangue, mas impedindo-a de continuar lutando. Sua principal técnica de selamento é a Rede, que funciona como uma rede de pesca capaz de capturar e selar grandes quantidades de chakra.
+
+## Atributos
+- Força: 11
+- Destreza: 28
+- Agilidade: 11
+- Inteligência: 28
+- Espírito: 28
+- Vigor: 22
+- Percepção: 28
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Futton — Nível 14
+- Fūinjutsu — Nível 14
+- Kuchiyose — Nível 14
+- Senjutsu — Nível 14
+
+## Aptidões
+Acuidade, Intuição, Domínio da Água, Potencializar, Maestria: CD, Maestria: CC, Lutar às Cegas, Mestre dos Selos, Perito: Rastrear, Perito: Lidar com Animais, Ponto Cego, Técnica Poderosa, Fascinar, Miragem, Réplica Enganadora, Sensor, Elemento Natural: Suiton, Reserva de Água
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Raizuki Hoshigaki
+ID: 89
+Clã: Hoshigaki
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 28
+HP: 234
+Chakra: 94
+Status: Vivo
+Títulos: O Tubarão Sem Passado
+
+![Raizuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499)
+
+## Descrição
+Registros apagados na Vila da Névoa.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 22
+- Espírito: 28
+- Vigor: 28
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Kuchiyose — Nível 14
+- Senjutsu — Nível 14
+- Rasengan — Nível 14
+
+## Aptidões
+Acuidade, Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado, Lutar às Cegas, Maestria: CC, Potencializar, Rasteira, Reflexos, Velocista, Elemento Natural: Suiton, Predador Aquático, Reserva de Água, Corpo Líquido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Suiren Shiranami
+ID: 90
+Clã: Shiranami
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 24
+HP: 184
+Chakra: 82
+Status: Vivo
+Títulos: A Miragem Negra da Névoa
+
+![Suiren Shiranami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131)
+
+## Descrição
+Suiren Shiranami é um jovem promissor de 25 anos, dono de um histórico formidável e de uma disciplina exemplar. Portador da Espada da Névoa, é visto como um herói pelo povo de Kirigakure: um homem gentil que busca proteger a vila e seus habitantes.
+
+Suiren é especialmente querido pelas crianças e dedica parte de seu tempo livre a ajudar a comunidade. Apesar de sua posição militar, não se distancia das pessoas que jurou defender, mantendo uma relação próxima com os moradores da Névoa.
+
+Em combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu repertório combina ninjutsus e ilusões, tornando-o um combatente versátil e difícil de enfrentar à distância. É considerado um jōnin completo e de bom coração.
+
+## Atributos
+- Força: 9
+- Destreza: 24
+- Agilidade: 9
+- Inteligência: 24
+- Espírito: 24
+- Vigor: 18
+- Percepção: 24
+
+## Poderes e Elementos
+- Suiton — Nível 12
+- Katon — Nível 12
+- Futton — Nível 12
+- Magen — Nível 12
+- Kuchiyose — Nível 12
+
+## Aptidões
+Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CD, Intuição, Acuidade, Lutar às Cegas
 
 ## Arsenal
 Nenhum item cadastrado.

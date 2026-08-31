@@ -387,33 +387,23 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
   },
   {
     village: 'Kirigakure',
-    // Os 16 da Marinha, oficializados em 27/08/2026 quando o Pedro mandou as capas e as fases da
-    // 5ª Temporada. Substituem a lista da época dos protótipos, que trocou quatro nomes: saíram
-    // Rinako Kuroshio, Seiran Kirisame, Kaien Arashio e Raizen Kuroshio; entraram Enkai Kuroshio,
-    // Gordon Kirisame, Hahiko Shiosaki e Juzo Kuroshio. O Amakuro Kozuki virou Amakumo Hōzuki e o
-    // Nao Shiosaki virou Nao Arashio.
-    //
-    // O NC só ficou onde o nome é idêntico ao da lista anterior — nos renomeados e nos novos ele
-    // sai de novo do Pedro, e a frota de cada um também, porque as substituições embaralharam o
-    // mapa antigo. Por isso `role` diz só "Marinha de Kirigakure" em vez de afirmar uma frota.
+    // A Marinha, oficializada em 27/08/2026: quatro frotas, quatro postos cada. Os quatro da
+    // Leviatã já têm ficha (ids 87 a 90) e saíram desta lista. Os doze que sobram têm NC e frota
+    // definidos, e esperam o resto da ficha.
     entries: [
       { name: 'Murasame Hoshigaki', role: 'Mãe de Kazuki, morta por Ganmasen', dead: true, nc: 18 },
-      { name: 'Amakumo Hōzuki', role: 'Marinha de Kirigakure' },
-      { name: 'Ayame Sazanami', role: 'Marinha de Kirigakure', nc: 26 },
-      { name: 'Enkai Kuroshio', role: 'Marinha de Kirigakure' },
-      { name: 'Ganmaren Yuki', role: 'Marinha de Kirigakure; irmão de Ganmasen', nc: 30 },
-      { name: 'Genzō Umikage', role: 'Marinha de Kirigakure', nc: 26 },
-      { name: 'Gordon Kirisame', role: 'Marinha de Kirigakure' },
-      { name: 'Hahiko Shiosaki', role: 'Marinha de Kirigakure' },
-      { name: 'Himari Yuki', role: 'Filho de Ganmasen, morto por Nagare', dead: true, nc: 20 },
-      { name: 'Juzo Kuroshio', role: 'Marinha de Kirigakure' },
-      { name: 'Kōga Kirisame', role: 'Marinha de Kirigakure', nc: 24 },
-      { name: 'Mei Yuki', role: 'Filha de Ganmasen, morta por Nagare', dead: true, nc: 22 },
-      { name: 'Mirei Sazanami', role: 'Marinha de Kirigakure', nc: 22 },
-      { name: 'Nao Arashio', role: 'Marinha de Kirigakure' },
-      { name: 'Raizuki Hoshigaki', role: 'Pai de Kazuki, morto por Ganmasen', dead: true, nc: 28 },
-      { name: 'Suiren Shiranami', role: 'Marinha de Kirigakure', nc: 20 },
-      { name: 'Tōma Umikage', role: 'Marinha de Kirigakure', nc: 20 },
+      { name: 'Juzo Kuroshio', role: 'Almirante da Frota Kraken', nc: 29 },
+      { name: 'Kōga Kirisame', role: 'Vice-Almirante da Frota Kraken', nc: 28 },
+      { name: 'Mei Yuki', role: 'Capitã da Frota Kraken; filha de Ganmasen', nc: 27 },
+      { name: 'Nao Arashio', role: 'Capitão-Tenente da Frota Kraken', nc: 26 },
+      { name: 'Enkai Kuroshio', role: 'Almirante da Frota Megalodon', nc: 29 },
+      { name: 'Ayame Sazanami', role: 'Vice-Almirante da Frota Megalodon', nc: 28 },
+      { name: 'Tōma Umikage', role: 'Capitã da Frota Megalodon', nc: 28 },
+      { name: 'Mirei Sazanami', role: 'Capitã-Tenente da Frota Megalodon', nc: 25 },
+      { name: 'Ganmaren Yuki', role: 'Almirante da Frota Jörmungandr; irmão de Ganmasen', nc: 30 },
+      { name: 'Gordon Kirisame', role: 'Vice-Almirante da Frota Jörmungandr', nc: 28 },
+      { name: 'Hahiko Shiosaki', role: 'Capitã da Frota Jörmungandr', nc: 28 },
+      { name: 'Himari Yuki', role: 'Capitã-Tenente da Frota Jörmungandr; filho de Ganmasen', nc: 27 },
     ],
   },
   {

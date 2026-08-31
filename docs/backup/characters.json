@@ -575,6 +575,96 @@
     "patente": "NoGuns"
   },
   {
+    "__docId": "amakumo-hozuki",
+    "id": 87,
+    "name": "Amakumo Hōzuki",
+    "clan": "Hōzuki",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "A Muralha Escolhida por Leviatã"
+    ],
+    "nc": 29,
+    "position": "",
+    "role": "Tank",
+    "description": "Amakumo é um homem bom, porém possui limites muito bem definidos, especialmente durante conversas e discussões políticas. Respeita profundamente Genzō, seu amigo de longa data, parceiro de combate e atual vice-almirante da Frota Leviatã. Apesar de suas diferenças, os dois construíram uma relação baseada em confiança e lealdade.\n\nAmakumo possui uma armadura de água tão rígida quanto o aço. Seus golpes são expansivos e devastadores, alcançando uma força comparável à de uma Bijū. É conhecido por sua quantidade extraordinária de chakra, por sua natureza bárbara durante as batalhas e, ao mesmo tempo, por seu bom coração. Acredita que o mundo ninja ainda pode ser salvo para além das fronteiras e disputas políticas entre as vilas.\n\nEle está longe de ser pacifista: para Amakumo, a paz é conquistada por meio de seus próprios punhos. Seu físico é conhecido por ser praticamente impenetrável. Não é um combatente veloz, pois acredita que não precisa evitar os ataques de seus adversários. Em vez disso, resiste, avança e derrota qualquer inimigo que permaneça em seu caminho.",
+    "hp": 242,
+    "chakra": 132,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727",
+    "stats": {
+      "strength": 29,
+      "agility": 29,
+      "dexterity": 12,
+      "perception": 12,
+      "intelligence": 25,
+      "vigor": 29,
+      "spirit": 26
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Hyōton",
+        "level": 14
+      },
+      {
+        "name": "Iryō Ninjutsu",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Ambidestria",
+      "Maestria: CC",
+      "Saque Rápido",
+      "Potencializar",
+      "Técnica Poderosa",
+      "Domínio da Água",
+      "Instinto de Batalha: LM, CD",
+      "Arremessar",
+      "Ataque em Movimento",
+      "Ataque Progressivo",
+      "Lutador",
+      "Dano Extra",
+      "De Pé",
+      "Reflexos",
+      "Punho de Ferro",
+      "Crítico Aprimorado",
+      "Soco em Gancho",
+      "Duro de Matar",
+      "Chakra Expandido: Leviatã",
+      "Contragolpe"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmakumo%20H%C5%8Dzuki%2F5__Temporada.png?alt=media&v=1788190614557283",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#2dd4bf",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Almirante da Frota Leviatã"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor"
+    ],
+    "divisaoAtributo": {
+      "inteligencia": 50,
+      "espirito": 50
+    }
+  },
+  {
     "__docId": "apollo-sarutobi",
     "name": "Apollo Sarutobi",
     "clan": "Sarutobi",
@@ -3144,6 +3234,99 @@
       "OCA"
     ],
     "patente": "Vice Líder dos 75%"
+  },
+  {
+    "__docId": "genzo-umikage",
+    "id": 88,
+    "name": "Genzō Umikage",
+    "clan": "Umikage",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Sábio dos Mares"
+    ],
+    "nc": 28,
+    "position": "",
+    "role": "Suporte e Controle",
+    "description": "Genzō Umikage é um artesão, um simples pescador e, ao mesmo tempo, um grande Vice-Almirante. Age de maneira calma e pacífica em praticamente todas as situações, exceto quando alguém desafia ou ameaça sua vila. Costuma passar seu tempo com uma vara de pesca no porto. Embora sua aparência coberta por escamas possa assustar algumas pessoas, Genzō é um homem bondoso.\n\nSua proficiência com a água é extraordinária. Durante uma batalha, muitos adversários sequer conseguem enxergar seus movimentos. Genzō luta de maneira fluida como a água, mantendo a sabedoria de um monge e a serenidade de um pescador, mesmo diante das ameaças mais perigosas.\n\nSuas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsus de selamento. Genzō conhece milhares de fórmulas de Fūinjutsu, pois acredita que a melhor forma de eliminar uma ameaça não é derramando mais sangue, mas impedindo-a de continuar lutando. Sua principal técnica de selamento é a Rede, que funciona como uma rede de pesca capaz de capturar e selar grandes quantidades de chakra.",
+    "hp": 216,
+    "chakra": 94,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376",
+    "stats": {
+      "strength": 11,
+      "agility": 11,
+      "dexterity": 28,
+      "perception": 28,
+      "intelligence": 28,
+      "vigor": 22,
+      "spirit": 28
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Futton",
+        "level": 14
+      },
+      {
+        "name": "Fūinjutsu",
+        "level": 14
+      },
+      {
+        "name": "Kuchiyose",
+        "level": 14
+      },
+      {
+        "name": "Senjutsu",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Intuição",
+      "Domínio da Água",
+      "Potencializar",
+      "Maestria: CD",
+      "Maestria: CC",
+      "Lutar às Cegas",
+      "Mestre dos Selos",
+      "Perito: Rastrear",
+      "Perito: Lidar com Animais",
+      "Ponto Cego",
+      "Técnica Poderosa",
+      "Fascinar",
+      "Miragem",
+      "Réplica Enganadora",
+      "Sensor",
+      "Elemento Natural: Suiton",
+      "Reserva de Água"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788190636100568",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#0ea5e9",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Vice-Almirante da Frota Leviatã"
+    ],
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ]
   },
   {
     "__docId": "gorai-arashiumi",
@@ -10719,6 +10902,92 @@
     ]
   },
   {
+    "__docId": "raizuki-hoshigaki",
+    "id": 89,
+    "name": "Raizuki Hoshigaki",
+    "clan": "Hoshigaki",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Tubarão Sem Passado"
+    ],
+    "nc": 28,
+    "position": "",
+    "role": "DPS",
+    "description": "Registros apagados na Vila da Névoa.",
+    "hp": 234,
+    "chakra": 94,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499",
+    "stats": {
+      "strength": 28,
+      "agility": 28,
+      "dexterity": 11,
+      "perception": 11,
+      "intelligence": 22,
+      "vigor": 28,
+      "spirit": 28
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Kuchiyose",
+        "level": 14
+      },
+      {
+        "name": "Senjutsu",
+        "level": 14
+      },
+      {
+        "name": "Rasengan",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Ambidestria",
+      "Ataque Poderoso",
+      "Bloqueio Ambidestro",
+      "Crítico Aprimorado",
+      "Lutar às Cegas",
+      "Maestria: CC",
+      "Potencializar",
+      "Rasteira",
+      "Reflexos",
+      "Velocista",
+      "Elemento Natural: Suiton",
+      "Predador Aquático",
+      "Reserva de Água",
+      "Corpo Líquido"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizuki%20Hoshigaki%2F5__Temporada.png?alt=media&v=1788190681780939",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#00ff41",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitão da Frota Leviatã"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ]
+  },
+  {
     "__docId": "reika-uzumaki",
     "name": "Reika Uzumaki",
     "clan": "Uzumaki",
@@ -13370,6 +13639,93 @@
     "graduacao": "Genin",
     "position": "",
     "role": "DPS e Controle"
+  },
+  {
+    "__docId": "suiren-shiranami",
+    "id": 90,
+    "name": "Suiren Shiranami",
+    "clan": "Shiranami",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "A Miragem Negra da Névoa"
+    ],
+    "nc": 24,
+    "position": "",
+    "role": "DPS",
+    "description": "Suiren Shiranami é um jovem promissor de 25 anos, dono de um histórico formidável e de uma disciplina exemplar. Portador da Espada da Névoa, é visto como um herói pelo povo de Kirigakure: um homem gentil que busca proteger a vila e seus habitantes.\n\nSuiren é especialmente querido pelas crianças e dedica parte de seu tempo livre a ajudar a comunidade. Apesar de sua posição militar, não se distancia das pessoas que jurou defender, mantendo uma relação próxima com os moradores da Névoa.\n\nEm combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu repertório combina ninjutsus e ilusões, tornando-o um combatente versátil e difícil de enfrentar à distância. É considerado um jōnin completo e de bom coração.",
+    "hp": 184,
+    "chakra": 82,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131",
+    "stats": {
+      "strength": 9,
+      "agility": 9,
+      "dexterity": 24,
+      "perception": 24,
+      "intelligence": 24,
+      "vigor": 18,
+      "spirit": 24
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 12
+      },
+      {
+        "name": "Katon",
+        "level": 12
+      },
+      {
+        "name": "Futton",
+        "level": 12
+      },
+      {
+        "name": "Magen",
+        "level": 12
+      },
+      {
+        "name": "Kuchiyose",
+        "level": 12
+      }
+    ],
+    "aptitudes": [
+      "Fascinar",
+      "Miragem",
+      "Ilusão Profunda",
+      "Réplica Enganadora",
+      "Potencializar",
+      "Técnica Elevada",
+      "Mestre dos Selos",
+      "Ponto Cego",
+      "Maestria: CD",
+      "Intuição",
+      "Acuidade",
+      "Lutar às Cegas"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSuiren%20Shiranami%2F5__Temporada.png?alt=media&v=1788190685429587",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#3d3d4a",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitão-Tenente da Frota Leviatã"
+    ],
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
+    ]
   },
   {
     "__docId": "takeshi-hatake",
