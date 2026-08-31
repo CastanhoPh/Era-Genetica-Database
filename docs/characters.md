@@ -547,7 +547,7 @@ NC: 18
 HP: 133
 Chakra: 64
 Status: Vivo
-Títulos: Sangue mais puro de Konoha, Assassino de F e G, Capitão Escarlate, Legado de Katsumi Hyūga
+Títulos: O Purgatório Vivo de Konoha, Sangue mais puro de Konoha, Assassino de F e G, Capitão Escarlate, Legado de Katsumi Hyūga
 
 ![Kaito Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1787851081495084)
 
@@ -1371,7 +1371,7 @@ NC: 16
 HP: 138
 Chakra: 58
 Status: Morto (morto por Kai)
-Títulos: Capitão, Legado do Fujogan, A Última Esperança, Legado de Nishinoya Senju, O Punho Roxo de Konoha
+Títulos: Capitão da Última Esperança, Capitão, Legado do Fujogan, A Última Esperança, Legado de Nishinoya Senju, O Punho Roxo de Konoha
 
 ![Katsumi Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FKatsumi%20Hyuga.png?alt=media&v=1786651875776672)
 
@@ -1627,7 +1627,7 @@ NC: 16
 HP: 138
 Chakra: 55
 Status: Morto (morto por 9º Portão: Ressureição)
-Títulos: Tigre Branco de Konoha, O Rejeitado, Ninja Mais Forte da Nova Konoha, Lenda dos Oito Portões
+Títulos: Ninja Mais Forte da Nova Konoha, Tigre Branco de Konoha, O Rejeitado, Lenda dos Oito Portões
 
 ![Najin Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FNajin%20Hatake.png?alt=media&v=1786651878666225)
 
