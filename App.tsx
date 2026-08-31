@@ -615,7 +615,7 @@ export default function App() {
                                 {[
                                     { label: 'CLÃ', icon: Filter, value: selectedClan, setter: setSelectedClan, options: uniqueClans },
                                     { label: 'RANK / POSIÇÃO', icon: Award, value: selectedPosition, setter: setSelectedPosition, options: uniquePositions },
-                                    { label: 'FUNÇÃO', icon: Database, value: selectedRole, setter: setSelectedRole, options: ['DPS', 'Tank', 'Suporte'] },
+                                    { label: 'FUNÇÃO', icon: Database, value: selectedRole, setter: setSelectedRole, options: ['DPS', 'Tank', 'Suporte', 'Controle'] },
                                     { label: 'VITALIDADE', icon: Skull, value: selectedStatus, setter: setSelectedStatus, options: ['Vivo', 'Morto'] }
                                 ].map((filter, idx) => (
                                     <div key={idx} className="flex flex-col gap-1">
