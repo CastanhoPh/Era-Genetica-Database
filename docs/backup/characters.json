@@ -250,7 +250,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Jounin"
+    ]
   },
   {
     "__docId": "akairo-uchiha-a",
@@ -1371,7 +1374,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Jounin"
+    ]
   },
   {
     "__docId": "beta",
@@ -6209,7 +6215,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Chunin"
+    ]
   },
   {
     "__docId": "kaizuka-hyuga",
@@ -8999,7 +9008,10 @@
       "Konohagakure"
     ],
     "position": "",
-    "role": "DPS, Suporte e Controle"
+    "role": "DPS, Suporte e Controle",
+    "cargo": [
+      "Genin"
+    ]
   },
   {
     "__docId": "nagi-yuki",
@@ -9687,7 +9699,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Genin"
+    ]
   },
   {
     "__docId": "nao-arashio",
@@ -11506,7 +11521,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Chunin"
+    ]
   },
   {
     "__docId": "raiden-yotsuki",
@@ -11990,7 +12008,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Genin"
+    ]
   },
   {
     "__docId": "reito-kurogami",
@@ -12582,6 +12603,9 @@
     ],
     "vila": [
       "Konohagakure"
+    ],
+    "cargo": [
+      "Sannin"
     ]
   },
   {
@@ -12876,7 +12900,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Sannin"
+    ]
   },
   {
     "__docId": "sayuri-sabaku",
@@ -13733,7 +13760,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Genin"
+    ]
   },
   {
     "__docId": "shizuru-kurogane",
@@ -14254,7 +14284,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Genin"
+    ]
   },
   {
     "__docId": "shoyu-uzumaki",
@@ -14408,7 +14441,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Genin"
+    ]
   },
   {
     "__docId": "souma-namikaze",
@@ -14524,7 +14560,10 @@
       "Konohagakure"
     ],
     "position": "",
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "cargo": [
+      "Genin"
+    ]
   },
   {
     "__docId": "suiren-shiranami",
@@ -15062,7 +15101,10 @@
     "vila": [
       "Konohagakure"
     ],
-    "position": ""
+    "position": "",
+    "cargo": [
+      "Chunin"
+    ]
   },
   {
     "__docId": "tessai-enshaku",
