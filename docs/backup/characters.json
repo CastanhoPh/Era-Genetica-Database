@@ -638,9 +638,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Almirante da Frota Leviatã"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor"
@@ -662,7 +659,11 @@
         "name": "Iryō Ninjutsu",
         "level": 14
       }
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Almirante da Frota Leviatã"
   },
   {
     "__docId": "apollo-sarutobi",
@@ -1143,9 +1144,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Vice-Almirante da Frota Megalodon"
-    ],
     "combatStyle": "Distância",
     "focosAtributo": [
       "vigor"
@@ -1153,7 +1151,11 @@
     "divisaoAtributo": {
       "espirito": 50,
       "inteligencia": 50
-    }
+    },
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Vice-Almirante da Frota Megalodon"
   },
   {
     "__docId": "ayumi-uchiha",
@@ -2464,9 +2466,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Almirante da Frota Megalodon"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "inteligencia"
@@ -2474,7 +2473,11 @@
     "divisaoAtributo": {
       "espirito": 50,
       "vigor": 50
-    }
+    },
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Almirante da Frota Megalodon"
   },
   {
     "__docId": "enrai-hanzo",
@@ -3200,9 +3203,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Almirante da Frota Jormungandr"
-    ],
     "combatStyle": "Distância",
     "focosAtributo": [
       "vigor"
@@ -3210,7 +3210,11 @@
     "divisaoAtributo": {
       "espirito": 50,
       "inteligencia": 50
-    }
+    },
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Almirante da Frota Jormungandr"
   },
   {
     "__docId": "ganmasen-yuki-gama",
@@ -3591,9 +3595,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Vice-Almirante da Frota Leviatã"
-    ],
     "combatStyle": "Distância",
     "focosAtributo": [
       "inteligencia",
@@ -3610,7 +3611,11 @@
       "spirit": 29
     },
     "hp": 221,
-    "chakra": 97
+    "chakra": 97,
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Vice-Almirante da Frota Leviatã"
   },
   {
     "__docId": "gorai-arashiumi",
@@ -3748,14 +3753,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Vice-Almirante da Frota Jormungandr"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Vice-Almirante da Frota Jormungandr"
   },
   {
     "__docId": "hades",
@@ -3910,14 +3916,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitã da Frota Jormungandr"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitã da Frota Jormungandr"
   },
   {
     "__docId": "hana-sabaku",
@@ -4481,14 +4488,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitã-Tenente da Frota Jormungandr"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitã-Tenente da Frota Jormungandr"
   },
   {
     "__docId": "hirato-ishi",
@@ -5270,9 +5278,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Almirante da Frota Kraken"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "inteligencia"
@@ -5283,7 +5288,11 @@
     },
     "titles": [
       "O Almirante Sujo"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Almirante da Frota Kraken"
   },
   {
     "__docId": "kaien-ishi-omega",
@@ -7668,9 +7677,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Vice-Almirante da Frota Kraken"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "inteligencia"
@@ -7678,7 +7684,11 @@
     "divisaoAtributo": {
       "espirito": 50,
       "vigor": 50
-    }
+    },
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Vice-Almirante da Frota Kraken"
   },
   {
     "__docId": "koji-ishizuma",
@@ -8211,9 +8221,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitã da Frota Kraken"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor",
@@ -8228,7 +8235,11 @@
         "name": "Futton",
         "level": 13
       }
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitã da Frota Kraken"
   },
   {
     "__docId": "midori-kurogane",
@@ -8489,14 +8500,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitã-Tenente da Frota Megalodon"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitã-Tenente da Frota Megalodon"
   },
   {
     "__docId": "mizue-dokuhana",
@@ -9742,14 +9754,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitão-Tenente da Frota Kraken"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitão-Tenente da Frota Kraken"
   },
   {
     "__docId": "naoki-uchiha",
@@ -11874,14 +11887,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitão da Frota Leviatã"
-    ],
     "combatStyle": "Corporal",
     "focosAtributo": [
       "vigor",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitão da Frota Leviatã"
   },
   {
     "__docId": "reika-uzumaki",
@@ -14614,14 +14628,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitão-Tenente da Frota Leviatã"
-    ],
     "combatStyle": "Distância",
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitão-Tenente da Frota Leviatã"
   },
   {
     "__docId": "takeshi-hatake",
@@ -15503,14 +15518,15 @@
     "vila": [
       "Kirigakure"
     ],
-    "cargo": [
-      "Capitã da Frota Megalodon"
-    ],
     "combatStyle": "Distância",
     "focosAtributo": [
       "inteligencia",
       "espirito"
-    ]
+    ],
+    "organizacao": [
+      "Marinha"
+    ],
+    "patente": "Capitã da Frota Megalodon"
   },
   {
     "__docId": "yasuo-kurogane",

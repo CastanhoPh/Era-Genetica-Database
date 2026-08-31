@@ -224,6 +224,11 @@ export interface Character {
    * Patente dentro da organização, separada de `position` na mesma data. Texto único porque
    * ninguém tem duas patentes, mesmo entre os três que têm duas organizações.
    *
+   * A Marinha de Kirigakure é organização (decidido em 27/08/2026), então os postos das quatro
+   * frotas — Almirante, Vice-Almirante, Capitão e Capitão-Tenente — são patente e não cargo. Foi
+   * por isso que os 16 saíram de `cargo`: manter ali criaria 16 fichas com organização cujo posto
+   * não é dela, que é justamente o buraco que a regra de foco existe para apontar.
+   *
    * Tem prioridade sobre o `cargo` na exibição: quem tem organização mostra a patente dela.
    * Só no Firestore.
    */
