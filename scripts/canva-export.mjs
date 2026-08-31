@@ -23,6 +23,9 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 
+// Quantos itens listar nas amostras do relatório. Seis basta no dia a dia; CANVA_LISTA=999
+// solta a lista inteira, que é o que serve quando há dezenas de divergências para conferir.
+const LISTA = Number(process.env.CANVA_LISTA ?? 6);
 const APPLY = process.argv.includes('--apply');
 const REBAIXAR = process.argv.includes('--rebaixar');
 const BUCKET = 'era-genetica-db.firebasestorage.app';
@@ -157,18 +160,18 @@ if (difere.length) {
   console.log(`\n${difere.length} arquivo(s) com tamanho diferente do Storage (mantidos; --rebaixar troca)`);
   console.log(`   ${ruido.length} com diferença abaixo de 0,1% — mesmo design, outro export`);
   console.log(`   ${difere.length - ruido.length} com diferença real — arquivo local e arte do site divergem`);
-  difere.filter(x => !ruido.includes(x)).slice(0, 6)
+  difere.filter(x => !ruido.includes(x)).slice(0, LISTA)
     .forEach(x => console.log(`      ${x.pasta}/${x.arquivo} — local ${x.local} vs storage ${x.remoto}`));
 }
 if (sumidos.length) {
   console.log(`\n${sumidos.length} problema(s):`);
-  sumidos.slice(0, 10).forEach(x => console.log(`   ${x}`));
+  sumidos.slice(0, Math.max(10, LISTA)).forEach(x => console.log(`   ${x}`));
 }
 
 if (!APPLY) {
   if (baixar.length) {
     console.log('\nexemplos do que baixaria:');
-    baixar.slice(0, 6).forEach(b => console.log(`   ${b.pasta}/${b.arquivo}`));
+    baixar.slice(0, LISTA).forEach(b => console.log(`   ${b.pasta}/${b.arquivo}`));
   }
   // Estes saem inteiros, não por amostra: é o único grupo que perde o lugar, e cada um merece olhada.
   if (mover.length) {
