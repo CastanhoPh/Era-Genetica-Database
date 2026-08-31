@@ -1556,7 +1556,7 @@
     ],
     "position": "",
     "patente": [
-      "Líder dos 99%"
+      "Líder dos Kages"
     ]
   },
   {
@@ -4754,7 +4754,7 @@
     "role": "Suporte e Controle",
     "position": "",
     "patente": [
-      "1º Vice Líder da OCA"
+      "2º Vice Líder da OCA"
     ]
   },
   {
@@ -5062,7 +5062,10 @@
     "cargo": [
       "3º Braço Esquerdo"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "Líder dos 99%"
+    ]
   },
   {
     "__docId": "hoshiro-hyuga",
@@ -5492,7 +5495,7 @@
     ],
     "position": "",
     "patente": [
-      "2º Vice Líder da OCA",
+      "3º Vice Líder da OCA",
       "Líder dos Kages"
     ]
   },
@@ -10375,9 +10378,6 @@
       "espirito"
     ],
     "divisaoAtributo": {},
-    "organizacao": [
-      "OCA"
-    ],
     "vila": [
       "Konohagakure"
     ],
@@ -12096,9 +12096,6 @@
       "espirito": 37.5,
       "vigor": 17.5
     },
-    "organizacao": [
-      "OCA"
-    ],
     "vila": [
       "Konohagakure"
     ],
@@ -14544,9 +14541,6 @@
         "village": "Konohagakure"
       }
     ],
-    "organizacao": [
-      "OCA"
-    ],
     "vila": [
       "Konohagakure"
     ],
@@ -14662,9 +14656,6 @@
       "espirito": 37.5,
       "vigor": 17.5
     },
-    "organizacao": [
-      "OCA"
-    ],
     "vila": [
       "Konohagakure"
     ],
@@ -15567,7 +15558,10 @@
       "2º Hokage",
       "1º Líder de Inovações"
     ],
-    "position": ""
+    "position": "",
+    "patente": [
+      "1º Vice Líder da OCA"
+    ]
   },
   {
     "__docId": "toma-umikage",
@@ -16345,7 +16339,8 @@
     ],
     "position": "",
     "patente": [
-      "NoGuns"
+      "NoGuns",
+      "Membro dos 10%"
     ]
   }
 ]
