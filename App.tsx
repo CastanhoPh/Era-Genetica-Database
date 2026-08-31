@@ -707,6 +707,16 @@ export default function App() {
                                             </div>
                                         )}
 
+                                        {/* Selo de patente sobre o pé da arte. Estava na linha do título, disputando largura com
+                                            ele — e em 23 das 82 fichas com selo os dois não cabiam, então o título perdia o fim.
+                                            Aqui cada um tem a linha inteira e nenhum é cortado. O fundo opaco é obrigatório: o
+                                            selo pousa sobre arte de qualquer cor. z-30 para ficar acima da grade de varredura. */}
+                                        {seloDe(char) && (
+                                            <span className={`absolute bottom-2 left-2 z-30 text-[10px] uppercase tracking-wide px-1.5 py-px border max-w-[calc(100%-1rem)] truncate bg-black/85 backdrop-blur-sm ${corDoSelo(char).borda} ${corDoSelo(char).texto}`}>
+                                                {seloDe(char)}
+                                            </span>
+                                        )}
+
                                         {/* Corner Targets */}
                                         {!char.isDead && (
                                             <>
@@ -748,21 +758,10 @@ export default function App() {
                                                 }`}>
                                                 {char.name}
                                             </h3>
-                                            <div className="flex items-baseline justify-between gap-2 mt-1">
-                                                {/* O título trunca e a patente fica inteira: em 32 das 86 fichas os dois juntos
-                                                    passam de 40 caracteres (o Gorai Arashiumi soma 53), e a patente curta é a
-                                                    que precisa ser lida por completo. O título inteiro está na ficha aberta. */}
-                                                <span className="text-xs text-tech-secondary font-bold uppercase truncate">{char.titles[0]}</span>
-                                                {seloDe(char) && (
-                                                    // A cor do selo é a da vila do personagem: Konoha vermelho, Suna verde, Kiri azul,
-                                                    // Kumo amarelo, Iwa laranja. Neutro para quem não tem vila. Sem tratamento próprio
-                                                    // para falecido — a tarja MORTO e o nome riscado já dizem isso, e o vermelho de
-                                                    // Konoha brigaria com ele.
-                                                    <span className={`text-[10px] uppercase tracking-wide px-1.5 py-px border shrink-0 whitespace-nowrap ${corDoSelo(char).borda} ${corDoSelo(char).texto} ${corDoSelo(char).fundo}`}>
-                                                        {seloDe(char)}
-                                                    </span>
-                                                )}
-                                            </div>
+                                            {/* O selo saiu daqui para o pé da arte, então o título tem a largura inteira. O truncate
+                                                fica como rede: o título mais longo do banco tem 34 caracteres e cabe, mas em três
+                                                colunas numa tela estreita o card encolhe. */}
+                                            <p className="text-xs text-tech-secondary font-bold uppercase truncate mt-1">{char.titles[0]}</p>
 
                                             {/* Killer Info on Card */}
                                             {char.isDead && (
