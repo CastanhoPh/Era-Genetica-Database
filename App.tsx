@@ -135,13 +135,19 @@ export default function App() {
         return () => clearTimeout(timer);
     }, []);
 
+    // Tudo que o SITE mostra sai daqui, não do `characters` cru: grade, busca, filtros, árvore,
+    // invocações e a cadeia de posse do arsenal. O `characters` completo continua indo pro Painel
+    // (é lá que o Pedro administra o que está oculto) e pro cálculo do próximo id, que não pode
+    // ignorar as fichas ocultas senão a ficha nova nasce com id repetido.
+    const charsPublicos = useMemo(() => characters.filter(c => !c.oculto), [characters]);
+
     // ---- Links diretos na raiz: /<slug> (personagem OU arma) ----
     // Resolve o slug atual da URL sempre que ela mudar (inclui voltar/avançar do navegador,
     // que o react-router já trata sozinho — não precisa de listener de popstate manual).
     useEffect(() => {
         if (loading || !arsenalReady) return;
         if (!slug) { setSelectedChar(null); setSelectedItem(null); return; }
-        const ch = characters.find(c => c.docId === slug);
+        const ch = charsPublicos.find(c => c.docId === slug);
         if (ch) { setSelectedItem(null); setSelectedChar(ch); return; }
         const it = arsenalItems.find(i => slugify(i.name) === slug);
         if (it) {
@@ -153,7 +159,7 @@ export default function App() {
             return;
         }
         setSelectedChar(null); setSelectedItem(null);
-    }, [slug, loading, arsenalReady, characters, arsenalItems]);
+    }, [slug, loading, arsenalReady, charsPublicos, arsenalItems]);
 
     // Extract unique origins dynamically (usado pra validar /arsenal/<origem> na URL)
     const uniqueOrigins = useMemo(() => {
@@ -196,21 +202,21 @@ export default function App() {
 
     // Extract unique clans dynamically
     const uniqueClans = useMemo(() => {
-        const clans = new Set(characters.map(c => c.clan).filter(Boolean));
+        const clans = new Set(charsPublicos.map(c => c.clan).filter(Boolean));
         return Array.from(clans).sort();
-    }, [characters]);
+    }, [charsPublicos]);
 
     // O filtro oferece o POSTO, sem ordinal: um "Hokage" só, não 1º, 2º e 3º em três linhas.
     // E casa contra todos os postos da ficha, não só o do selo — o Katsuo aparece tanto em
     // "Líder da Ambu" quanto em "Líder de Rastreio". Cargo e patente entram os dois, senão as
     // 25 fichas que só têm patente de organização ficariam de fora do filtro.
     const uniquePositions = useMemo(() => {
-        const positions = new Set(characters.flatMap(postosDe));
+        const positions = new Set(charsPublicos.flatMap(postosDe));
         return Array.from(positions).sort();
-    }, [characters]);
+    }, [charsPublicos]);
 
     const filteredCharacters = useMemo(() => {
-        const filtered = characters.filter(c => {
+        const filtered = charsPublicos.filter(c => {
             // Basic Filters
             const matchesCategory = selectedCategory === 'Todos' || c.categories.includes(selectedCategory);
             const term = searchTerm.toLowerCase();
@@ -258,7 +264,7 @@ export default function App() {
             // Default: ID
             return a.id - b.id;
         });
-    }, [characters, selectedCategory, searchTerm, selectedClan, selectedPosition, selectedRole, selectedStatus, sortBy]);
+    }, [charsPublicos, selectedCategory, searchTerm, selectedClan, selectedPosition, selectedRole, selectedStatus, sortBy]);
 
     // Adiciona um personagem novo gravando no Firestore.
     const handleAddCharacter = async (newChar: Character) => {
@@ -804,13 +810,13 @@ export default function App() {
                                 onSelectOrigin={handleSelectOrigin}
                             />
                         ) : activeMainTab === 'invocacoes' ? (
-                            <Invocacoes characters={characters} onOpenCharacter={openCharacter} />
+                            <Invocacoes characters={charsPublicos} onOpenCharacter={openCharacter} />
                         ) : activeMainTab === 'checklist' ? (
                             <ChecklistPanel canEdit={isChecklistEditor} displayName={user?.displayName ?? null} onRequestLogin={() => navigate('/login')} />
                         ) : activeMainTab === 'galeria' ? (
                             <GalleryPage />
                         ) : activeMainTab === 'arvore' ? (
-                            <FamilyTreePage characters={characters} onOpenCharacter={openCharacter} />
+                            <FamilyTreePage characters={charsPublicos} onOpenCharacter={openCharacter} />
                         ) : (
                             <AdminPanel characters={characters} arsenalItems={arsenalItems} />
                         )}
@@ -834,7 +840,7 @@ export default function App() {
                 <EquipmentModal
                     item={selectedItem}
                     onClose={() => navigate(mainTabPath(activeMainTab))}
-                    characters={characters}
+                    characters={charsPublicos}
                     onOpenCharacter={openCharacter}
                     isAdmin={isAdmin}
                     onEdit={(it) => { setEditingEquipment(it); navigate(mainTabPath(activeMainTab)); }}

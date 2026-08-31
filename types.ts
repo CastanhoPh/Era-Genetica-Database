@@ -172,6 +172,13 @@ export interface FamilyTree {
 export interface Character {
   docId?: string; // ID do documento no Firestore (slug do nome)
   id: number;
+  /**
+   * Ficha existe no banco e no Painel, mas NÃO sai no site — nem na grade, nem na busca, nem nos
+   * filtros, nem nas Classificações. É pra NPC antigo que vai ser publicado em lote junto de
+   * outros: mantém a ficha, o arsenal e a árvore intactos sem mostrar nada pela metade.
+   * Diferente de `isDead`, que é lore e aparece; `oculto` é editorial e não aparece.
+   */
+  oculto?: boolean;
   name: string;
   clan: string;
   categories: string[];

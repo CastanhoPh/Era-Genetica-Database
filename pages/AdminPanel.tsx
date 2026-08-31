@@ -327,6 +327,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const classificationsByVillage = useMemo(() => {
     const map = new Map<string, { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean; principal?: boolean }[]>(CLASSIFICATION_GROUPS.map(v => [v, []]));
     for (const c of characters) {
+      // Ficha oculta fica fora: a aba é referência pra decidir o NC de personagem novo, e
+      // rascunho que não está no site não serve de referência nem conta como pendência.
+      if (c.oculto) continue;
       // `principal` vem da tag de tipo da ficha, não de lista à parte — é o que tira o personagem
       // do ranking de força sem ninguém ter que lembrar de cadastrar o nome em dois lugares.
       const entrada = { name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead, principal: foraDoRanking(c.categories) };
@@ -1771,8 +1774,14 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                   return (
                     <tr key={c.docId ?? c.name} className="border-b border-tech-border/40 hover:bg-tech-primary/5 align-baseline">
                       <td className="py-1.5 pr-3 text-right text-tech-primary/40 tabular-nums">{c.id}</td>
-                      <td className={`py-1.5 pr-3 font-bold whitespace-nowrap ${c.isDead ? 'text-tech-primary/40 line-through' : 'text-white'}`}>
+                      <td className={`py-1.5 pr-3 font-bold whitespace-nowrap ${c.oculto ? 'text-tech-primary/30' : c.isDead ? 'text-tech-primary/40 line-through' : 'text-white'}`}>
                         {c.name}
+                        {/* Oculto é editorial, não lore: a ficha existe e está completa, só não sai
+                            no site ainda. Fica ao lado do nome porque é a primeira coisa que
+                            explica por que ela não aparece em nenhuma outra tela. */}
+                        {c.oculto && (
+                          <span className="ml-2 text-[8px] font-bold uppercase tracking-widest text-tech-primary/40 border border-tech-border px-1">oculto</span>
+                        )}
                       </td>
                       <td className="py-1.5 pr-3 text-right text-tech-primary tabular-nums">{c.nc}</td>
                       <td className="py-1.5 pr-3 text-tech-primary/70 whitespace-nowrap">{c.clan || <span className="text-tech-primary/25">—</span>}</td>
