@@ -80,6 +80,7 @@ export const ORDEM_DE_FORCA: string[] = [
   'Raiden Yotsuki',
   'Yoru Kurogami',
   // NC 22
+  'Shikaki Nara',
   'Midori Kurogane',
   'Nagi Yuki',
   'Yasuo Kurogane',
