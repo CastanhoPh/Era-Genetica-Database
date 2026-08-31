@@ -9,7 +9,7 @@ import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
 /**
  * Os chips são fixos, não derivados dos dados: uma vila sem invocação tem que aparecer e dizer que
  * não existe nenhuma, em vez de simplesmente não estar lá. A ordem é a que o projeto já usa em
- * PrototypeEntry, com a OCA no fim porque ela não é vila.
+ * outras telas, com a OCA no fim porque ela não é vila.
  */
 const VILAS = ['Konohagakure', 'Kirigakure', 'Sunagakure', 'Iwagakure', 'Kumogakure', 'OCA'] as const;
 

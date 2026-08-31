@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, Square, MapPin, FlaskConical, Trash2, UserCheck, UserX, HeartPulse, Award, Sparkles, Link as LinkIcon, ListTodo, Plus } from 'lucide-react';
+import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, Square, MapPin, Trash2, UserCheck, UserX, HeartPulse, Award, Sparkles, Link as LinkIcon, ListTodo, Plus } from 'lucide-react';
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
-import { setCombatProfile, subscribeChecklist, fixChecklistOrder, subscribePrototype, deletePrototypeEntry, slugify, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed, subscribeAFazer, addAFazer, setAFazerFeito, editAFazer, deleteAFazer } from '../data/firestore';
-import { Character, ChecklistItem, PrototypeEntry, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
+import { setCombatProfile, subscribeChecklist, fixChecklistOrder, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed, subscribeAFazer, addAFazer, setAFazerFeito, editAFazer, deleteAFazer } from '../data/firestore';
+import { Character, ChecklistItem, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
 import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
@@ -80,7 +80,7 @@ const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.
 
 // A ordem aqui e a ordem da barra de abas. A rota da aba de Listas segue 'canva' mesmo depois de
 // renomeada, para nao quebrar link que alguem tenha guardado.
-const PANEL_TABS = ['geral', 'classificacoes', 'personagens', 'arsenal', 'invocacoes', 'canva', 'eventos', 'links', 'perfil', 'producao', 'prototipos', 'afazer'] as const;
+const PANEL_TABS = ['geral', 'classificacoes', 'personagens', 'arsenal', 'invocacoes', 'canva', 'eventos', 'links', 'perfil', 'producao', 'afazer'] as const;
 type PanelTab = typeof PANEL_TABS[number];
 
 const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => {
@@ -132,18 +132,14 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   // mesmo princípio já usado na ficha do personagem: nada de estado próprio pra duplicar a URL.
   const panelSegments = location.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean).slice(1);
   const activeTab: PanelTab = (PANEL_TABS as readonly string[]).includes(panelSegments[0]) ? (panelSegments[0] as PanelTab) : 'geral';
-  const prototypeSlugFromUrl = activeTab === 'prototipos' && panelSegments[1] ? decodeURIComponent(panelSegments[1]) : undefined;
   const goToPanelTab = (tab: PanelTab) => navigate(`/painel/${tab}`);
 
-  const [prototypeEntries, setPrototypeEntries] = useState<PrototypeEntry[]>([]);
   const [aFazer, setAFazer] = useState<TodoItem[]>([]);
   const [novoTexto, setNovoTexto] = useState('');
   const [novoGrupo, setNovoGrupo] = useState('');
   const [afSalvando, setAfSalvando] = useState<string | null>(null);
   const [afErro, setAfErro] = useState<string | null>(null);
   const [afMostraFeitos, setAfMostraFeitos] = useState(false);
-  const [prototypeVillage, setPrototypeVillage] = useState('Konohagakure');
-  const [prototypeViewMode, setPrototypeViewMode] = useState<'grid' | 'kanban'>('grid');
   const [classificationVillage, setClassificationVillage] = useState('Konohagakure');
   const [classificationFilter, setClassificationFilter] = useState<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8' | null>(null);
   const [classificationFicha, setClassificationFicha] = useState<'todos' | 'ficha' | 'pendente'>('todos');
@@ -166,17 +162,8 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [linkKind, setLinkKind] = useState<ImageLinkKind | 'Todas'>('Todas');
   const [linkWithVersion, setLinkWithVersion] = useState(false);
   const [copiedLink, setCopiedLink] = useState<string | null>(null);
-  const openPrototypeId = prototypeSlugFromUrl
-    ? (prototypeEntries.find(e => slugify(e.title) === prototypeSlugFromUrl)?.docId ?? null)
-    : null;
-
   useEffect(() => {
     const unsubscribe = subscribeChecklist(setChecklistItems, err => console.error('Erro ao escutar checklist:', err));
-    return () => unsubscribe();
-  }, []);
-
-  useEffect(() => {
-    const unsubscribe = subscribePrototype(setPrototypeEntries, err => console.error('Erro ao escutar protótipos:', err));
     return () => unsubscribe();
   }, []);
 
@@ -184,16 +171,6 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     const unsubscribe = subscribeAFazer(setAFazer, err => console.error('Erro ao escutar A Fazer:', err));
     return () => unsubscribe();
   }, []);
-
-  const handleDeletePrototypeEntry = useCallback(async (docId: string) => {
-    if (!window.confirm('Apagar esse protótipo (com todas as imagens)? Não tem como desfazer.')) return;
-    try {
-      await deletePrototypeEntry(docId);
-      if (openPrototypeId === docId) navigate('/painel/prototipos');
-    } catch (e) {
-      console.error('Erro ao apagar protótipo:', e);
-    }
-  }, [openPrototypeId, navigate]);
 
   const loadStorageStats = useCallback(async () => {
     setStorageLoading(true);
@@ -417,19 +394,14 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const gentePossivel = useMemo(() => {
     const comFicha = characters.map(c => ({ nome: c.name, curto: c.name.split(' ')[0], grupo: 'ficha' as const, id: c.id, cla: c.clan || 'Desconhecido', extra: c.clan || '' }));
     const nomesFicha = new Set(comFicha.map(p => p.nome));
-    const protos = prototypeEntries
-      .filter(e => !nomesFicha.has(e.title))
-      .map(e => ({ nome: e.title, curto: e.title, grupo: 'prototipo' as const, id: null, cla: e.village || 'Outros', extra: e.village ?? '' }));
-    const nomesProto = new Set(protos.map(p => p.nome));
     const pendentes = PENDING_CHARACTERS.flatMap(g => g.entries.map(e => ({ ...e, village: g.village })))
-      .filter(e => !nomesFicha.has(e.name) && !nomesProto.has(e.name))
+      .filter(e => !nomesFicha.has(e.name))
       .map(e => ({ nome: e.name, curto: e.name, grupo: 'pendente' as const, id: null, cla: e.village, extra: e.role ?? e.village }));
     return [
       ...comFicha.sort((a, b) => a.id - b.id),
-      ...protos.sort((a, b) => a.nome.localeCompare(b.nome)),
       ...pendentes.sort((a, b) => a.nome.localeCompare(b.nome)),
     ];
-  }, [characters, prototypeEntries]);
+  }, [characters]);
 
   /**
    * Quebra um grupo do seletor em subgrupos. Nas fichas o subgrupo é o clã; nos protótipos e
@@ -1046,7 +1018,6 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           { key: 'links' as const, label: 'Links' },
           { key: 'perfil' as const, label: 'Perfil' },
           { key: 'producao' as const, label: 'Produção' },
-          { key: 'prototipos' as const, label: 'Protótipos' },
           { key: 'afazer' as const, label: 'A Fazer' },
         ]).map(t => (
           <button
@@ -2097,254 +2068,6 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       </>
       )}
 
-      {activeTab === 'prototipos' && (
-      <>
-      <section>
-        <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
-          <span>Protótipos</span>
-          <span className="flex-1 h-px bg-tech-border"></span>
-        </div>
-
-        <div className="border border-tech-border bg-tech-panel/30 p-5 space-y-4">
-          <div className="flex items-center gap-2 text-tech-primary/70 mb-1">
-            <FlaskConical size={14} />
-            <span className="text-[10px] font-black uppercase tracking-widest">Rascunho de personagem em desenvolvimento</span>
-          </div>
-          <p className="text-[9px] text-tech-primary/40 uppercase tracking-wide">
-            Um quadrado por protótipo (nome do personagem), organizado por vila. Clique num quadrado pra ver todas as imagens e textos dele. Guardado num lugar simples no Storage — tudo é apagado ao fim do RPG. Envie as imagens e textos direto no chat — sem upload por aqui, por enquanto.
-          </p>
-
-          <div className="flex flex-nowrap gap-1.5 overflow-x-auto">
-            {['Todos', ...VILLAGES].map(v => {
-              const count = v === 'Todos' ? prototypeEntries.length : prototypeEntries.filter(e => e.village === v).length;
-              return (
-                <button
-                  key={v}
-                  type="button"
-                  onClick={() => setPrototypeVillage(v)}
-                  className={`shrink-0 whitespace-nowrap px-2.5 py-1 border text-[10px] font-bold uppercase tracking-wide transition-all ${prototypeVillage === v ? 'bg-tech-primary text-black border-tech-primary' : 'border-tech-border text-tech-primary/70 hover:border-tech-primary/50'}`}
-                >
-                  {v} {count > 0 && `(${count})`}
-                </button>
-              );
-            })}
-          </div>
-
-          {prototypeVillage === 'Kirigakure' && (
-            <div className="flex gap-1.5">
-              {(['grid', 'kanban'] as const).map(mode => (
-                <button
-                  key={mode}
-                  type="button"
-                  onClick={() => setPrototypeViewMode(mode)}
-                  className={`px-2.5 py-1 border text-[9px] font-bold uppercase tracking-wide transition-all ${prototypeViewMode === mode ? 'bg-tech-primary/20 border-tech-primary text-tech-primary' : 'border-tech-border/60 text-tech-primary/50 hover:border-tech-primary/40'}`}
-                >
-                  {mode === 'grid' ? 'Quadrados' : 'Kanban (frotas)'}
-                </button>
-              ))}
-            </div>
-          )}
-
-          {prototypeVillage === 'Kirigakure' && prototypeViewMode === 'kanban' ? (() => {
-            const FLEET_ORDER = ['Kraken', 'Leviatã', 'Megalodon', 'Jörmungandr'];
-            const RANK_ORDER = ['Almirante', 'Vice-Almirante', 'Capitão de Frota', 'Capitão-Tenente'];
-            const entryFor = (fleet: string, rank: string) =>
-              prototypeEntries.find(e => e.village === 'Kirigakure' && e.subgroup === fleet && e.rank === rank);
-            return (
-              <div className="overflow-x-auto">
-                <div className="grid gap-2 min-w-[720px]" style={{ gridTemplateColumns: `120px repeat(${FLEET_ORDER.length}, 1fr)` }}>
-                  <div />
-                  {FLEET_ORDER.map(fleet => (
-                    <div key={fleet} className="text-center text-[10px] font-black text-tech-primary uppercase tracking-widest border-b border-tech-border pb-1.5">
-                      {fleet}
-                    </div>
-                  ))}
-                  {RANK_ORDER.map(rank => (
-                    <React.Fragment key={rank}>
-                      <div className="flex items-center text-[9px] font-black text-tech-primary/50 uppercase tracking-wide">
-                        {rank}
-                      </div>
-                      {FLEET_ORDER.map(fleet => {
-                        const entry = entryFor(fleet, rank);
-                        return (
-                          <div key={fleet} className="aspect-square">
-                            {entry ? (
-                              <button
-                                type="button"
-                                onClick={() => navigate(`/painel/prototipos/${encodeURIComponent(slugify(entry.title))}`)}
-                                className="w-full h-full border border-tech-border/60 bg-black/30 hover:border-tech-primary/60 transition-all relative overflow-hidden group text-left"
-                              >
-                                {entry.images[0] ? (
-                                  <img src={entry.images[0]} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity" />
-                                ) : (
-                                  <FlaskConical size={16} className="absolute inset-0 m-auto text-tech-primary/30" />
-                                )}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
-                                <span className="absolute bottom-1 left-1 right-1 text-white font-bold text-[10px] leading-tight">{entry.title}</span>
-                              </button>
-                            ) : (
-                              <div className="w-full h-full border border-dashed border-tech-border/30 flex items-center justify-center">
-                                <span className="text-tech-primary/20 text-[9px] uppercase">vago</span>
-                              </div>
-                            )}
-                          </div>
-                        );
-                      })}
-                    </React.Fragment>
-                  ))}
-                </div>
-              </div>
-            );
-          })() : (() => {
-            const filtered = prototypeVillage === 'Todos' ? prototypeEntries : prototypeEntries.filter(e => e.village === prototypeVillage);
-            if (filtered.length === 0) {
-              return <div className="text-tech-primary/40 text-xs uppercase tracking-widest text-center py-6">Nada guardado ainda em {prototypeVillage}.</div>;
-            }
-
-            // A primeira linha do texto do protótipo é sempre o cargo/posição (ex: "Almirante
-            // da Frota Kraken.") — mostra ela como subtítulo embaixo do nome no card.
-            const roleOf = (entry: PrototypeEntry) => entry.text?.split('\n')[0]?.trim().replace(/\.$/, '') || '';
-
-            const renderCard = (entry: PrototypeEntry) => (
-              <button
-                key={entry.docId}
-                type="button"
-                onClick={() => navigate(`/painel/prototipos/${encodeURIComponent(slugify(entry.title))}`)}
-                className="aspect-square border border-tech-border/60 bg-black/30 hover:border-tech-primary/60 transition-all relative overflow-hidden group text-left"
-              >
-                {entry.images[0] ? (
-                  <img src={entry.images[0]} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity" />
-                ) : (
-                  <FlaskConical size={20} className="absolute inset-0 m-auto text-tech-primary/30" />
-                )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
-                <div className="absolute bottom-1.5 left-1.5 right-1.5">
-                  <span className="block text-white font-bold text-xs leading-tight">{entry.title}</span>
-                  {roleOf(entry) && (
-                    <span className="block text-tech-primary/70 text-[9px] uppercase tracking-wide leading-tight truncate">{roleOf(entry)}</span>
-                  )}
-                </div>
-                {pendingNcByName.get(entry.title) !== undefined && (
-                  <span className="absolute top-1.5 left-1.5 bg-black/70 text-tech-primary text-[9px] font-black px-1.5 py-0.5 border border-tech-border/60">NC {pendingNcByName.get(entry.title)}</span>
-                )}
-                {entry.images.length > 1 && (
-                  <span className="absolute top-1.5 right-1.5 bg-black/70 text-tech-primary text-[9px] font-bold px-1.5 py-0.5 border border-tech-border/60">{entry.images.length}</span>
-                )}
-              </button>
-            );
-
-            const hasSubgroups = filtered.some(e => e.subgroup);
-            if (!hasSubgroups) {
-              return (
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                  {filtered.map(renderCard)}
-                </div>
-              );
-            }
-
-            const FLEET_ORDER = ['Kraken', 'Leviatã', 'Megalodon', 'Jörmungandr'];
-            const subgroupNames = [...new Set<string>(filtered.map(e => e.subgroup || 'Outros'))].sort((a, b) => {
-              const ia = FLEET_ORDER.indexOf(a);
-              const ib = FLEET_ORDER.indexOf(b);
-              if (ia === -1 && ib === -1) return a.localeCompare(b);
-              if (ia === -1) return 1;
-              if (ib === -1) return -1;
-              return ia - ib;
-            });
-
-            return (
-              <div className="space-y-5">
-                {subgroupNames.map(sg => (
-                  <div key={sg}>
-                    <div className="text-[9px] font-black text-tech-primary/50 uppercase tracking-widest mb-2">{sg}</div>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                      {filtered.filter(e => (e.subgroup || 'Outros') === sg).map(renderCard)}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            );
-          })()}
-        </div>
-      </section>
-
-      <section>
-        <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
-          <span>Personagens Pendentes</span>
-          <span className="flex-1 h-px bg-tech-border"></span>
-        </div>
-        <div className="border border-tech-border bg-tech-panel/30 p-5">
-          <div className="flex items-center gap-2 text-tech-primary/70 mb-1">
-            <Users size={14} />
-            <span className="text-[10px] font-black uppercase tracking-widest">Adicionar futuramente no Banco de Dados</span>
-          </div>
-          <p className="text-[9px] text-tech-primary/40 uppercase tracking-wide mb-3">Personagens que já existem na história mas ainda não foram cadastrados. † = morto.</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {PENDING_CHARACTERS.map(g => (
-              <div key={g.village} className="border border-tech-border/60 bg-black/30 p-3">
-                <div className="text-tech-primary font-black uppercase tracking-wide text-xs mb-2">{g.village}</div>
-                <ul className="space-y-3">
-                  {g.entries.map((e, i) => (
-                    <li key={`${e.name}-${i}`} className="text-white text-xs">
-                      <span className="inline-flex items-center gap-1">
-                        {e.name}
-                        {e.dead && <Skull size={10} className="text-red-400 shrink-0" />}
-                        {e.nc !== undefined && <span className="text-tech-primary font-bold">NC {e.nc}</span>}
-                      </span>
-                      {e.role && <span className="text-tech-primary/50"> ({e.role})</span>}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      </>
-      )}
-
-      {openPrototypeId && (() => {
-        const entry = prototypeEntries.find(e => e.docId === openPrototypeId);
-        if (!entry) return null;
-        return (
-          <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4" onClick={() => navigate('/painel/prototipos')}>
-            <div className="max-w-3xl w-full max-h-[85vh] overflow-y-auto border border-tech-primary/40 bg-tech-panel p-5" onClick={(e) => e.stopPropagation()}>
-              <div className="flex items-start justify-between gap-4 mb-4">
-                <div className="flex items-center gap-3">
-                  <h2 className="text-xl font-black text-white uppercase tracking-tight">{entry.title}</h2>
-                  {pendingNcByName.get(entry.title) !== undefined && (
-                    <span className="text-tech-primary font-black text-sm border border-tech-primary/40 px-2 py-0.5 shrink-0">NC {pendingNcByName.get(entry.title)}</span>
-                  )}
-                </div>
-                <div className="flex items-center gap-3 shrink-0">
-                  <button
-                    type="button"
-                    onClick={() => handleDeletePrototypeEntry(entry.docId!)}
-                    title="Apagar protótipo"
-                    className="text-red-500/70 hover:text-red-400 transition-colors"
-                  >
-                    <Trash2 size={16} />
-                  </button>
-                  <button type="button" onClick={() => navigate('/painel/prototipos')} title="Fechar" className="text-tech-primary/70 hover:text-tech-primary transition-colors">
-                    <X size={18} />
-                  </button>
-                </div>
-              </div>
-              {entry.images.length > 0 && (
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-4">
-                  {entry.images.map(url => (
-                    <a key={url} href={url} target="_blank" rel="noopener noreferrer">
-                      <img src={url} alt="" className="w-full h-32 object-cover object-top border border-tech-border" />
-                    </a>
-                  ))}
-                </div>
-              )}
-              {entry.text && <p className="text-white text-sm whitespace-pre-wrap leading-relaxed">{entry.text}</p>}
-            </div>
-          </div>
-        );
-      })()}
-
       {activeTab === 'classificacoes' && (
       <section>
         <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
@@ -2788,7 +2511,6 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
 
             {([
               { g: 'ficha' as const, rot: 'Com ficha' },
-              { g: 'prototipo' as const, rot: 'Protótipos' },
               { g: 'pendente' as const, rot: 'Pendentes' },
             ]).map(bloco => {
               const termo = quemBusca.trim().toLowerCase();

@@ -3,7 +3,7 @@ import { collection, getDocs, getDoc, doc, addDoc, setDoc, deleteDoc, updateDoc,
 import { db } from '../firebase';
 import { ref as storageRef, getBytes, getMetadata, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 import { storage } from '../firebaseStorage';
-import { Character, ChecklistItem, GalleryImage, PrototypeEntry, FamilyTree, TodoItem } from '../types';
+import { Character, ChecklistItem, GalleryImage, FamilyTree, TodoItem } from '../types';
 import { Equipment } from '../types/Equipment';
 import { groupItems } from './checklistGrouping';
 
@@ -420,25 +420,6 @@ export async function fixChecklistOrder(): Promise<number> {
 
 // Rascunhos de personagens em desenvolvimento (aba "Protótipo" do Painel) — texto e/ou
 // imagem soltos, mandados aos poucos antes de virarem ficha oficial.
-export function subscribePrototype(
-  onData: (items: PrototypeEntry[]) => void,
-  onError?: (err: Error) => void,
-): () => void {
-  return onSnapshot(
-    collection(db, 'prototypeEntries'),
-    snap => {
-      const data = snap.docs
-        .map(d => ({ ...(d.data() as PrototypeEntry), docId: d.id }))
-        .sort((a, b) => a.order - b.order);
-      onData(data);
-    },
-    onError,
-  );
-}
-
-export async function deletePrototypeEntry(docId: string): Promise<void> {
-  await deleteDoc(doc(db, 'prototypeEntries', docId));
-}
 
 // A Fazer (aba "A Fazer") — pendências do RPG que não cabem em código nem no checklist de imagens.
 // Coleção isolada e só de admin, como os protótipos: é anotação interna, não conteúdo do site.
