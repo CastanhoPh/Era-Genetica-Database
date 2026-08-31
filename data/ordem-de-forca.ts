@@ -113,22 +113,16 @@ export const ORDEM_DE_FORCA: string[] = [
   'Reika Uzumaki',
 ];
 
-// Personagens principais — ficam FORA do ranking de propósito, não é pendência. Eles têm NC e
-// aparecem na lista normalmente, só não competem na ordem de força, então a tela não os marca como
-// "sem posição". Quem estiver aqui e na ORDEM_DE_FORCA ao mesmo tempo é erro; o teste embaixo pega.
-export const FORA_DO_RANKING: string[] = [
-  'Kaito Senju',
-  'Nagare Uzumaki',
-  'Oddy Uchiha',
-  'Katsumi Hyuga',
-  'Najin Hatake',
-  'Takeshi Hatake',
-  'Furyuzan Chinoike',
-  'Shoei Sarutobi',
-  'Kazuki Hoshigaki',
-];
-const FORA = new Set(FORA_DO_RANKING);
-export const foraDoRanking = (nome: string): boolean => FORA.has(nome);
+// Quem fica FORA do ranking de força não é uma lista à parte: é a própria tag de tipo da ficha.
+// `categories` sempre começa com o tipo — 'Personagem', 'NPC', 'Vilão' — e as 10 fichas marcadas
+// 'Personagem' são justamente os principais, que têm NC mas não disputam força com ninguém.
+//
+// Derivar em vez de listar à mão é o que impede o desalinho: ficha nova marcada 'Personagem' já
+// nasce fora do ranking, e nenhuma lista precisa ser lembrada. Uso `includes` e não `[0]` porque a
+// posição da tag no array não é garantida por nada — hoje é sempre a primeira, por convenção.
+export const TIPO_FORA_DO_RANKING = 'Personagem';
+export const foraDoRanking = (categories?: string[]): boolean =>
+  (categories ?? []).includes(TIPO_FORA_DO_RANKING);
 
 // Mapa nome -> posição, pra ordenar em O(1). Quem não está na lista recebe uma posição depois do
 // último colocado — finita de propósito, porque `Infinity - Infinity` daria NaN no comparador e
@@ -136,6 +130,7 @@ export const foraDoRanking = (nome: string): boolean => FORA.has(nome);
 const POSICAO = new Map(ORDEM_DE_FORCA.map((n, i) => [n, i]));
 export const posicaoDeForca = (nome: string): number => POSICAO.get(nome) ?? ORDEM_DE_FORCA.length;
 export const estaNaOrdemDeForca = (nome: string): boolean => POSICAO.has(nome);
-// Quem tem ficha, não está na ordem e também não foi tirado do ranking de propósito: é pendência
-// de verdade, o Pedro ainda precisa dizer onde entra.
-export const semPosicaoNaForca = (nome: string): boolean => !POSICAO.has(nome) && !FORA.has(nome);
+// Quem tem ficha, não está na ordem e também não é principal: é pendência de verdade, o Pedro
+// ainda precisa dizer onde entra.
+export const semPosicaoNaForca = (nome: string, categories?: string[]): boolean =>
+  !POSICAO.has(nome) && !foraDoRanking(categories);

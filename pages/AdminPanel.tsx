@@ -9,7 +9,7 @@ import { Character, ChecklistItem, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_
 import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, rankDeNC, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
-import { ORDEM_DE_FORCA, posicaoDeForca, foraDoRanking, semPosicaoNaForca } from '../data/ordem-de-forca';
+import { ORDEM_DE_FORCA, posicaoDeForca, foraDoRanking, semPosicaoNaForca, TIPO_FORA_DO_RANKING } from '../data/ordem-de-forca';
 
 /** Se a ficha tem uma proporção explícita para estes divididos. Objeto vazio, ou proporção sobre
  *  outros divididos (sobra de uma troca de foco), conta como "não tem" — aí vale partes iguais. */
@@ -325,9 +325,11 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   // (duplicado de propósito). Pendentes nunca entram em OCA (essa tag só existe pra quem já tem ficha).
   const CLASSIFICATION_GROUPS = [...VILLAGES, 'OCA'];
   const classificationsByVillage = useMemo(() => {
-    const map = new Map<string, { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean }[]>(CLASSIFICATION_GROUPS.map(v => [v, []]));
+    const map = new Map<string, { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean; principal?: boolean }[]>(CLASSIFICATION_GROUPS.map(v => [v, []]));
     for (const c of characters) {
-      const entrada = { name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead };
+      // `principal` vem da tag de tipo da ficha, não de lista à parte — é o que tira o personagem
+      // do ranking de força sem ninguém ter que lembrar de cadastrar o nome em dois lugares.
+      const entrada = { name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead, principal: foraDoRanking(c.categories) };
       // `birthVillage` é a fonte preferida, mas só 16 das 86 fichas o têm preenchido — sem cair
       // para as vilas de `categories`, 40 personagens não apareciam em grupo nenhum. Quem tem duas
       // vilas de atuação entra nas duas, como a OCA já duplica de propósito.
@@ -597,7 +599,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   // que não têm vila nenhuma nas categorias.
   const classificationAllVillages = useMemo(() => {
     const vistos = new Set<string>();
-    const all: { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean }[] = [];
+    const all: { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean; principal?: boolean }[] = [];
     for (const g of CLASSIFICATION_GROUPS) {
       for (const e of classificationsByVillage.get(g) ?? []) {
         const chave = `${e.name}|${e.pending ? 'p' : 'f'}`;
@@ -724,7 +726,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   // não entra na ordem por definição) e quem não foi tirado do ranking de propósito — senão os
   // personagens principais apareceriam pra sempre como pendência.
   const foraDaOrdem = useMemo(
-    () => classificationOrdenada.filter(c => !c.pending && semPosicaoNaForca(c.name)).length,
+    () => classificationOrdenada.filter(c => !c.pending && !c.principal && semPosicaoNaForca(c.name)).length,
     [classificationOrdenada],
   );
 
@@ -2226,12 +2228,12 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                           {/* Duas marcas diferentes de propósito: âmbar é pendência (o Pedro ainda
                               precisa dizer onde a ficha entra), cinza é decisão tomada (personagem
                               principal, fora do ranking). */}
-                          {classificationForca && !c.pending && foraDoRanking(c.name) && (
-                            <span className="text-[8px] font-bold uppercase tracking-widest text-tech-primary/35 border border-tech-border px-1 shrink-0 self-center" title="Personagem principal — fora do ranking de propósito.">
+                          {classificationForca && !c.pending && c.principal && (
+                            <span className="text-[8px] font-bold uppercase tracking-widest text-tech-primary/35 border border-tech-border px-1 shrink-0 self-center" title={`Marcado "${TIPO_FORA_DO_RANKING}" na ficha — fora do ranking de propósito.`}>
                               fora do ranking
                             </span>
                           )}
-                          {classificationForca && !c.pending && semPosicaoNaForca(c.name) && (
+                          {classificationForca && !c.pending && !c.principal && semPosicaoNaForca(c.name) && (
                             <span className="text-[8px] font-bold uppercase tracking-widest text-amber-300/70 border border-amber-400/40 px-1 shrink-0 self-center" title="Ainda não tem posição na ordem de força.">
                               sem posição
                             </span>
