@@ -34,6 +34,24 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 3,
+    name: "Hokage no Haori",
+    classification: "Z",
+    nature: "Fuinjutsu + Vontade do Fogo",
+    origin: "Konohagakure",
+    description: "O manto branco dos Hokage, tecido com fibras seladas que absorvem e registram o chakra de cada líder que o veste. Usado primeiro por Hashirama Senju, fundador da vila, e depois herdado por Tobirama e por Nishinoya — cada um deixando sua própria marca de fuinjutsu impressa no tecido. O haori amplifica a Vontade do Fogo do portador, protegendo-o de venenos e genjutsu leves, e é reconhecido em toda Konoha como símbolo máximo de autoridade. Seu paradeiro é desconhecido desde a morte de Nishinoya.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F03%20-%20Hokage%20no%20Haori.png?alt=media&v=1788211513231493",
+    originalOwner: "Hashirama Senju",
+    pastOwners: [
+      "Tobirama Senju",
+      "Nishinoya Senju"
+    ],
+    diedHolding: [
+      "Nishinoya Senju"
+    ],
+    currentOwner: ""
+  },
+  {
+    id: 4,
     name: "Shinrin no Kanmuri",
     classification: "Z",
     nature: "Mokuton + Senju",
@@ -45,7 +63,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kaito Senju"
   },
   {
-    id: 4,
+    id: 5,
     name: "Homura no Chikai",
     classification: "Z",
     nature: "Purazomaton + Doton Ancestral",
@@ -57,7 +75,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 5,
+    id: 6,
     name: "Kusanagi",
     classification: "S++",
     nature: "Uchiha",
@@ -68,7 +86,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 6,
+    id: 7,
     name: "Akaryū no Yubiwa",
     classification: "S++",
     nature: "Katon + Uchiha",
@@ -79,7 +97,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 7,
+    id: 8,
     name: "Ishi no Kubikazari",
     classification: "S",
     nature: "Doton",
@@ -90,7 +108,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 8,
+    id: 9,
     name: "Ganryū no Omori",
     classification: "A+",
     nature: "Doton",
@@ -102,7 +120,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Katsumi Hyuga"
   },
   {
-    id: 9,
+    id: 10,
     name: "Kubikiribōchō",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -115,7 +133,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 10,
+    id: 11,
     name: "Luvas de Chakra Profano 'F'",
     classification: "S+",
     nature: "Chakra Profano",
@@ -127,7 +145,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 11,
+    id: 12,
     name: "Hyoton Artificial",
     classification: "S",
     nature: "Chakra Artificial",
@@ -138,7 +156,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 12,
+    id: 13,
     name: "Shōton Artificial",
     classification: "S",
     nature: "Chakra Artificial",
@@ -149,7 +167,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 13,
+    id: 14,
     name: "Colar dos Hatake",
     classification: "S+",
     nature: "Chakra Profano",
@@ -160,7 +178,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 14,
+    id: 15,
     name: "Nuibari",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -171,7 +189,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 15,
+    id: 16,
     name: "Protótipo de Reigan",
     classification: "S",
     nature: "Chakra Profano",
@@ -182,7 +200,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Furyuzan Chinoike"
   },
   {
-    id: 16,
+    id: 17,
     name: "Presilha de Cabelo de Etsuko",
     classification: "A+",
     nature: "Chakra Profano",
@@ -193,7 +211,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Furyuzan Chinoike"
   },
   {
-    id: 17,
+    id: 18,
     name: "Samehada",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -205,7 +223,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 18,
+    id: 19,
     name: "Ishi no Seimei",
     classification: "S",
     nature: "Doton",
@@ -216,7 +234,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 19,
+    id: 20,
     name: "Pergaminho de Invocação",
     classification: "A+",
     nature: "Fuinjutsu",
@@ -227,7 +245,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 20,
+    id: 21,
     name: "Sōryū no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -238,7 +256,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 21,
+    id: 22,
     name: "Sōryo no Kōwan",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -249,7 +267,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 22,
+    id: 23,
     name: "Ryokushin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -260,7 +278,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 23,
+    id: 24,
     name: "Akashin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -271,7 +289,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 24,
+    id: 25,
     name: "Aoshin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -282,7 +300,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 25,
+    id: 26,
     name: "Kabutowari",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -293,7 +311,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 26,
+    id: 27,
     name: "Gan-tei no Gaitō",
     classification: "S++",
     nature: "Doton + Bijuu",
@@ -305,7 +323,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 27,
+    id: 28,
     name: "Gunbai",
     classification: "Z",
     nature: "Futon + Uchiha",
@@ -316,7 +334,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Naoki Uchiha"
   },
   {
-    id: 28,
+    id: 29,
     name: "Fujō no Yubiwa",
     classification: "Z",
     nature: "Chakra Profano + Fujogan",
@@ -327,7 +345,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kaizuka Hyuga"
   },
   {
-    id: 29,
+    id: 30,
     name: "Kagefūin no Kama",
     classification: "Z",
     nature: "Fuinjutsu",
@@ -338,7 +356,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kuromi Uchiha"
   },
   {
-    id: 30,
+    id: 31,
     name: "Jikan no Ōken",
     classification: "Z",
     nature: "Juryūkuton + Doton Ancestral",
@@ -350,7 +368,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hades"
   },
   {
-    id: 31,
+    id: 32,
     name: "Seimei no Saidan",
     classification: "Z",
     nature: "Seimeiryoku + Doton Ancestral",
@@ -362,7 +380,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hades"
   },
   {
-    id: 32,
+    id: 33,
     name: "Hakuryū no Reipia",
     classification: "S++",
     nature: "Chakra Profano + Fujogan",
@@ -373,7 +391,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Naomi Uzumaki"
   },
   {
-    id: 33,
+    id: 34,
     name: "Uzumaki En'yō",
     classification: "S++",
     nature: "Katon + Futon + Fuinjutsu",
@@ -384,7 +402,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Shoyu Uzumaki"
   },
   {
-    id: 34,
+    id: 35,
     name: "Uzumaki no Kon",
     classification: "Z",
     nature: "Fuinjutsu",
@@ -396,7 +414,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Satoshi Namikaze"
   },
   {
-    id: 35,
+    id: 36,
     name: "Dama no Hiraishin",
     classification: "A+",
     nature: "Fuinjutsu",
@@ -407,7 +425,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Shoyu Uzumaki"
   },
   {
-    id: 36,
+    id: 37,
     name: "Okami Earring",
     classification: "S++",
     nature: "Senjutsu",
@@ -418,7 +436,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kuromi Uchiha"
   },
   {
-    id: 37,
+    id: 38,
     name: "Okami no Men",
     classification: "S++",
     nature: "Senjutsu",
@@ -429,7 +447,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kuromi Uchiha"
   },
   {
-    id: 38,
+    id: 39,
     name: "Kage no Kyōkai",
     classification: "S++",
     nature: "Kage Mane",
@@ -440,7 +458,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Shikaki Nara"
   },
   {
-    id: 39,
+    id: 40,
     name: "Kongōnyo",
     classification: "Z",
     nature: "Senjutsu",
@@ -451,7 +469,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Apollo Sarutobi"
   },
   {
-    id: 40,
+    id: 41,
     name: "Raijin no Ken",
     classification: "Z",
     nature: "Suiton + Raiton",
@@ -463,7 +481,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Souma Namikaze"
   },
   {
-    id: 41,
+    id: 42,
     name: "Hakuryū",
     classification: "S++",
     nature: "Suiton",
@@ -475,7 +493,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Naomi Uzumaki"
   },
   {
-    id: 42,
+    id: 43,
     name: "Hiramekarei",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -487,7 +505,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 43,
+    id: 44,
     name: "Kiba",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -498,7 +516,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 44,
+    id: 45,
     name: "Shibuki",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -509,7 +527,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 45,
+    id: 46,
     name: "Hekireki no Yumi",
     classification: "S++",
     nature: "Raiton",
@@ -520,7 +538,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Furyuzan Chinoike"
   },
   {
-    id: 46,
+    id: 47,
     name: "Kumo no Jū",
     classification: "S++",
     nature: "Raiton",
@@ -531,7 +549,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yoru Kurogami"
   },
   {
-    id: 47,
+    id: 48,
     name: "Aoi Hoshi",
     classification: "S+",
     nature: "Raiton",
@@ -542,7 +560,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 48,
+    id: 49,
     name: "Akai Hoshi",
     classification: "S+",
     nature: "Raiton",
@@ -553,7 +571,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 49,
+    id: 50,
     name: "Raigan",
     classification: "S+",
     nature: "Raiton",
@@ -566,7 +584,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 50,
+    id: 51,
     name: "Yuji no Hōkō",
     classification: "Z",
     nature: "Chakra Profano + Raiton",
@@ -577,7 +595,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yuji Yotsuki"
   },
   {
-    id: 51,
+    id: 52,
     name: "Kasa",
     classification: "Z",
     nature: "Ranton + Raiton",
@@ -588,7 +606,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yoru Kurogami"
   },
   {
-    id: 52,
+    id: 53,
     name: "Meishi",
     classification: "S++",
     nature: "Ranton + Raiton",
@@ -599,7 +617,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yoru Kurogami"
   },
   {
-    id: 53,
+    id: 54,
     name: "Kinjishi no Tsume",
     classification: "S++",
     nature: "Sakin + Dokujutsu",
@@ -610,7 +628,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Sayuri Sabaku"
   },
   {
-    id: 54,
+    id: 55,
     name: "Kinjishi no Kōwan",
     classification: "S++",
     nature: "Sakin + Satetsu",
@@ -621,7 +639,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Tessai Enshaku"
   },
   {
-    id: 55,
+    id: 56,
     name: "Sakin no Reigan",
     classification: "S++",
     nature: "Sakin",
@@ -632,7 +650,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Tetsu Sabaku"
   },
   {
-    id: 56,
+    id: 57,
     name: "Bitei",
     classification: "S+",
     nature: "Satetsu + Dokujutsu",
@@ -643,7 +661,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Mizue Dokuhana"
   },
   {
-    id: 57,
+    id: 58,
     name: "Tetsu no Sabaku-kyū",
     classification: "S++",
     nature: "Satetsu",
@@ -655,7 +673,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Sayuri Sabaku"
   },
   {
-    id: 58,
+    id: 59,
     name: "Satetsu no Rinne",
     classification: "Z",
     nature: "Satetsu",
@@ -667,7 +685,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Tetsu Sabaku"
   },
   {
-    id: 59,
+    id: 60,
     name: "Sakin no Shinra",
     classification: "Z",
     nature: "Sakin",
@@ -679,7 +697,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hana Sabaku"
   },
   {
-    id: 60,
+    id: 61,
     name: "Mugen",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -690,7 +708,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yuji Yotsuki"
   },
   {
-    id: 61,
+    id: 62,
     name: "Kōrin",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -701,7 +719,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 62,
+    id: 63,
     name: "Shizuku",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -712,7 +730,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 63,
+    id: 64,
     name: "Raion",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -723,7 +741,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 64,
+    id: 65,
     name: "Ōja",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -734,7 +752,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 65,
+    id: 66,
     name: "Rensha",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -745,7 +763,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 66,
+    id: 67,
     name: "Guren",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -756,7 +774,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 67,
+    id: 68,
     name: "Kaikyō no Men",
     classification: "S+",
     nature: "Suiton",
@@ -767,7 +785,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 68,
+    id: 69,
     name: "Hyōketsu no Sensu",
     classification: "S+",
     nature: "Hyoton",
@@ -778,7 +796,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 69,
+    id: 70,
     name: "Suiryū no Reigan",
     classification: "S++",
     nature: "Suiton",
@@ -789,7 +807,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 70,
+    id: 71,
     name: "Kiri-no-Kami no Yoroi",
     classification: "S++",
     nature: "Suiton",
@@ -800,7 +818,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 71,
+    id: 72,
     name: "Shinsui no Yari",
     classification: "S++",
     nature: "Suiton",
@@ -811,7 +829,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 72,
+    id: 73,
     name: "Umitsuchi no Teisatsu",
     classification: "Z",
     nature: "Suiton",
@@ -822,7 +840,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 73,
+    id: 74,
     name: "Hyōga no Seihai",
     classification: "Z",
     nature: "Hyoton",
@@ -833,7 +851,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 74,
+    id: 75,
     name: "Hakuryū no Ken",
     classification: "Z",
     nature: "Chakra Profano + Fujogan",
@@ -845,7 +863,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Katsumi Hyuga"
   },
   {
-    id: 75,
+    id: 76,
     name: "Hakuryū no Men",
     classification: "Z",
     nature: "Chakra Profano + Fujogan",
@@ -858,24 +876,6 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Katsumi Hyuga"
   }
 ,
-  {
-    id: 76,
-    name: "Hokage no Haori",
-    classification: "Z",
-    nature: "Fuinjutsu + Vontade do Fogo",
-    origin: "Konohagakure",
-    description: "O manto branco dos Hokage, tecido com fibras seladas que absorvem e registram o chakra de cada líder que o veste. Usado primeiro por Hashirama Senju, fundador da vila, e depois herdado por Tobirama e por Nishinoya — cada um deixando sua própria marca de fuinjutsu impressa no tecido. O haori amplifica a Vontade do Fogo do portador, protegendo-o de venenos e genjutsu leves, e é reconhecido em toda Konoha como símbolo máximo de autoridade. Seu paradeiro é desconhecido desde a morte de Nishinoya.",
-    image: "",
-    originalOwner: "Hashirama Senju",
-    pastOwners: [
-      "Tobirama Senju",
-      "Nishinoya Senju"
-    ],
-    diedHolding: [
-      "Nishinoya Senju"
-    ],
-    currentOwner: ""
-  },
   {
     id: 77,
     name: "Gama no Kaeruba",
@@ -908,5 +908,17 @@ export const arsenalData: Equipment[] = [
     image: "",
     originalOwner: "Satoshi Namikaze",
     currentOwner: "Satoshi Namikaze"
+  },
+  {
+    id: 80,
+    name: "Shinigami no Menpō",
+    classification: "Z",
+    nature: "Fuinjutsu + Kuchiyose",
+    origin: "Konohagakure",
+    description: "A Shinigami no Menpō é uma máscara lendária do Clã Uzumaki, esculpida em um material semelhante a osso e coberta por inscrições de selamento vermelhas. Seu rosto demoníaco, marcado por chifres, presas e pelo símbolo espiral dos Uzumaki, representa a autoridade sobre a fronteira entre a vida e a morte. Diferentemente das máscaras comuns do Templo dos Uzumaki, ela não serve apenas para estabelecer contato com o Shinigami: quando vestida, cria um contrato forçado que concede ao portador o poder de invocar o Deus da Morte em uma forma viva, física e corpórea, além de comandar seus movimentos através de correntes de selamento. Entretanto, a máscara exige continuamente a força vital de seu usuário. Quanto mais tempo permanece ativa, mais o Shinigami tenta resistir às ordens e assumir o corpo daquele que o invocou. Caso a máscara seja quebrada durante o ritual, as correntes desaparecem e o Deus da Morte permanece livre no mundo dos vivos.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F80%20-%20Shinigami%20no%20Menp%C5%8D.png?alt=media&v=1788210959973825",
+    originalOwner: "Ashina Uzumaki",
+    pastOwners: ["Mito Uzumaki", "Raikun Hatake"],
+    currentOwner: "Hiroshi Hanzo"
   }
 ];

@@ -15,6 +15,7 @@ import { readdirSync, statSync, readFileSync } from 'fs';
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const DOC = process.argv[2];
 const APPLY = process.argv.includes('--apply');
@@ -84,10 +85,7 @@ const LOTE = {
   ],
 };
 
-const d = join(os.homedir(), 'Downloads');
-const chave = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0];
+const chave = { full: achaChave() };
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(chave.full, 'utf8'))) });
 const db = admin.firestore();
 

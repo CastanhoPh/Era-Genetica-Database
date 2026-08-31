@@ -6,83 +6,84 @@
 |---:|---|---|---|---|---|
 | 1 | Soen no Kage | Z | Fuinjutsu + Senjutsu + Bijuu | Konohagakure | Kaito Senju |
 | 2 | Sōen no Gauntō | Z | Fuinjutsu + Senjutsu + Bijuu | Konohagakure | Oddy Uchiha |
-| 3 | Shinrin no Kanmuri | Z | Mokuton + Senju | Konohagakure | Kaito Senju |
-| 4 | Homura no Chikai | Z | Purazomaton + Doton Ancestral | Iwagakure | Oddy Uchiha |
-| 5 | Kusanagi | S++ | Uchiha | Konohagakure | Oddy Uchiha |
-| 6 | Akaryū no Yubiwa | S++ | Katon + Uchiha | Konohagakure | Oddy Uchiha |
-| 7 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
-| 8 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
-| 9 | Kubikiribōchō | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
-| 10 | Luvas de Chakra Profano 'F' | S+ | Chakra Profano | Konohagakure | Oddy Uchiha |
-| 11 | Hyoton Artificial | S | Chakra Artificial | Konohagakure | Takeshi Hatake |
-| 12 | Shōton Artificial | S | Chakra Artificial | Konohagakure | Takeshi Hatake |
-| 13 | Colar dos Hatake | S+ | Chakra Profano | Konohagakure | Oddy Uchiha |
-| 14 | Nuibari | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
-| 15 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
-| 16 | Presilha de Cabelo de Etsuko | A+ | Chakra Profano | Konohagakure | Furyuzan Chinoike |
-| 17 | Samehada | S+ | Sete Espadas da Névoa | Kirigakure | Nagare Uzumaki |
-| 18 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
-| 19 | Pergaminho de Invocação | A+ | Fuinjutsu | Konohagakure | Nagare Uzumaki |
-| 20 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 21 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 22 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 23 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 24 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 25 | Kabutowari | S+ | Sete Espadas da Névoa | Kirigakure | Kenma Soryo |
-| 26 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
-| 27 | Gunbai | Z | Futon + Uchiha | Konohagakure | Naoki Uchiha |
-| 28 | Fujō no Yubiwa | Z | Chakra Profano + Fujogan | Konohagakure | Kaizuka Hyuga |
-| 29 | Kagefūin no Kama | Z | Fuinjutsu | Konohagakure | Kuromi Uchiha |
-| 30 | Jikan no Ōken | Z | Juryūkuton + Doton Ancestral | Iwagakure | Hades |
-| 31 | Seimei no Saidan | Z | Seimeiryoku + Doton Ancestral | Iwagakure | Hades |
-| 32 | Hakuryū no Reipia | S++ | Chakra Profano + Fujogan | Konohagakure | Naomi Uzumaki |
-| 33 | Uzumaki En'yō | S++ | Katon + Futon + Fuinjutsu | Konohagakure | Shoyu Uzumaki |
-| 34 | Uzumaki no Kon | Z | Fuinjutsu | Konohagakure | Satoshi Namikaze |
-| 35 | Dama no Hiraishin | A+ | Fuinjutsu | Konohagakure | Shoyu Uzumaki |
-| 36 | Okami Earring | S++ | Senjutsu | Konohagakure | Kuromi Uchiha |
-| 37 | Okami no Men | S++ | Senjutsu | Konohagakure | Kuromi Uchiha |
-| 38 | Kage no Kyōkai | S++ | Kage Mane | Konohagakure | Shikaki Nara |
-| 39 | Kongōnyo | Z | Senjutsu | Konohagakure | Apollo Sarutobi |
-| 40 | Raijin no Ken | Z | Suiton + Raiton | Konohagakure | Souma Namikaze |
-| 41 | Hakuryū | S++ | Suiton | Konohagakure | Naomi Uzumaki |
-| 42 | Hiramekarei | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
-| 43 | Kiba | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
-| 44 | Shibuki | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
-| 45 | Hekireki no Yumi | S++ | Raiton | Kumogakure | Furyuzan Chinoike |
-| 46 | Kumo no Jū | S++ | Raiton | Kumogakure | Yoru Kurogami |
-| 47 | Aoi Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
-| 48 | Akai Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
-| 49 | Raigan | S+ | Raiton | Kumogakure | Oddy Uchiha |
-| 50 | Yuji no Hōkō | Z | Chakra Profano + Raiton | Kumogakure | Yuji Yotsuki |
-| 51 | Kasa | Z | Ranton + Raiton | Kumogakure | Yoru Kurogami |
-| 52 | Meishi | S++ | Ranton + Raiton | Kumogakure | Yoru Kurogami |
-| 53 | Kinjishi no Tsume | S++ | Sakin + Dokujutsu | Sunagakure | Sayuri Sabaku |
-| 54 | Kinjishi no Kōwan | S++ | Sakin + Satetsu | Sunagakure | Tessai Enshaku |
-| 55 | Sakin no Reigan | S++ | Sakin | Kirigakure | Tetsu Sabaku |
-| 56 | Bitei | S+ | Satetsu + Dokujutsu | Sunagakure | Mizue Dokuhana |
-| 57 | Tetsu no Sabaku-kyū | S++ | Satetsu | Sunagakure | Sayuri Sabaku |
-| 58 | Satetsu no Rinne | Z | Satetsu | Sunagakure | Tetsu Sabaku |
-| 59 | Sakin no Shinra | Z | Sakin | Sunagakure | Hana Sabaku |
-| 60 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
-| 61 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 62 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 63 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 64 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 65 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 66 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
-| 67 | Kaikyō no Men | S+ | Suiton | Kirigakure | Desconhecido |
-| 68 | Hyōketsu no Sensu | S+ | Hyoton | Kirigakure | Desconhecido |
-| 69 | Suiryū no Reigan | S++ | Suiton | Kirigakure | Desconhecido |
-| 70 | Kiri-no-Kami no Yoroi | S++ | Suiton | Kirigakure | Desconhecido |
-| 71 | Shinsui no Yari | S++ | Suiton | Kirigakure | Desconhecido |
-| 72 | Umitsuchi no Teisatsu | Z | Suiton | Kirigakure | Desconhecido |
-| 73 | Hyōga no Seihai | Z | Hyoton | Kirigakure | Desconhecido |
-| 74 | Hakuryū no Ken | Z | Chakra Profano + Fujogan | Konohagakure | Katsumi Hyuga |
-| 75 | Hakuryū no Men | Z | Chakra Profano + Fujogan | Konohagakure | Katsumi Hyuga |
-| 76 | Hokage no Haori | Z | Fuinjutsu + Vontade do Fogo | Konohagakure | Desconhecido |
+| 3 | Hokage no Haori | Z | Fuinjutsu + Vontade do Fogo | Konohagakure | Desconhecido |
+| 4 | Shinrin no Kanmuri | Z | Mokuton + Senju | Konohagakure | Kaito Senju |
+| 5 | Homura no Chikai | Z | Purazomaton + Doton Ancestral | Iwagakure | Oddy Uchiha |
+| 6 | Kusanagi | S++ | Uchiha | Konohagakure | Oddy Uchiha |
+| 7 | Akaryū no Yubiwa | S++ | Katon + Uchiha | Konohagakure | Oddy Uchiha |
+| 8 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
+| 9 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
+| 10 | Kubikiribōchō | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
+| 11 | Luvas de Chakra Profano 'F' | S+ | Chakra Profano | Konohagakure | Oddy Uchiha |
+| 12 | Hyoton Artificial | S | Chakra Artificial | Konohagakure | Takeshi Hatake |
+| 13 | Shōton Artificial | S | Chakra Artificial | Konohagakure | Takeshi Hatake |
+| 14 | Colar dos Hatake | S+ | Chakra Profano | Konohagakure | Oddy Uchiha |
+| 15 | Nuibari | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
+| 16 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
+| 17 | Presilha de Cabelo de Etsuko | A+ | Chakra Profano | Konohagakure | Furyuzan Chinoike |
+| 18 | Samehada | S+ | Sete Espadas da Névoa | Kirigakure | Nagare Uzumaki |
+| 19 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
+| 20 | Pergaminho de Invocação | A+ | Fuinjutsu | Konohagakure | Nagare Uzumaki |
+| 21 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 22 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 23 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 24 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 25 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 26 | Kabutowari | S+ | Sete Espadas da Névoa | Kirigakure | Kenma Soryo |
+| 27 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
+| 28 | Gunbai | Z | Futon + Uchiha | Konohagakure | Naoki Uchiha |
+| 29 | Fujō no Yubiwa | Z | Chakra Profano + Fujogan | Konohagakure | Kaizuka Hyuga |
+| 30 | Kagefūin no Kama | Z | Fuinjutsu | Konohagakure | Kuromi Uchiha |
+| 31 | Jikan no Ōken | Z | Juryūkuton + Doton Ancestral | Iwagakure | Hades |
+| 32 | Seimei no Saidan | Z | Seimeiryoku + Doton Ancestral | Iwagakure | Hades |
+| 33 | Hakuryū no Reipia | S++ | Chakra Profano + Fujogan | Konohagakure | Naomi Uzumaki |
+| 34 | Uzumaki En'yō | S++ | Katon + Futon + Fuinjutsu | Konohagakure | Shoyu Uzumaki |
+| 35 | Uzumaki no Kon | Z | Fuinjutsu | Konohagakure | Satoshi Namikaze |
+| 36 | Dama no Hiraishin | A+ | Fuinjutsu | Konohagakure | Shoyu Uzumaki |
+| 37 | Okami Earring | S++ | Senjutsu | Konohagakure | Kuromi Uchiha |
+| 38 | Okami no Men | S++ | Senjutsu | Konohagakure | Kuromi Uchiha |
+| 39 | Kage no Kyōkai | S++ | Kage Mane | Konohagakure | Shikaki Nara |
+| 40 | Kongōnyo | Z | Senjutsu | Konohagakure | Apollo Sarutobi |
+| 41 | Raijin no Ken | Z | Suiton + Raiton | Konohagakure | Souma Namikaze |
+| 42 | Hakuryū | S++ | Suiton | Konohagakure | Naomi Uzumaki |
+| 43 | Hiramekarei | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
+| 44 | Kiba | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
+| 45 | Shibuki | S+ | Sete Espadas da Névoa | Kirigakure | Desconhecido |
+| 46 | Hekireki no Yumi | S++ | Raiton | Kumogakure | Furyuzan Chinoike |
+| 47 | Kumo no Jū | S++ | Raiton | Kumogakure | Yoru Kurogami |
+| 48 | Aoi Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
+| 49 | Akai Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
+| 50 | Raigan | S+ | Raiton | Kumogakure | Oddy Uchiha |
+| 51 | Yuji no Hōkō | Z | Chakra Profano + Raiton | Kumogakure | Yuji Yotsuki |
+| 52 | Kasa | Z | Ranton + Raiton | Kumogakure | Yoru Kurogami |
+| 53 | Meishi | S++ | Ranton + Raiton | Kumogakure | Yoru Kurogami |
+| 54 | Kinjishi no Tsume | S++ | Sakin + Dokujutsu | Sunagakure | Sayuri Sabaku |
+| 55 | Kinjishi no Kōwan | S++ | Sakin + Satetsu | Sunagakure | Tessai Enshaku |
+| 56 | Sakin no Reigan | S++ | Sakin | Kirigakure | Tetsu Sabaku |
+| 57 | Bitei | S+ | Satetsu + Dokujutsu | Sunagakure | Mizue Dokuhana |
+| 58 | Tetsu no Sabaku-kyū | S++ | Satetsu | Sunagakure | Sayuri Sabaku |
+| 59 | Satetsu no Rinne | Z | Satetsu | Sunagakure | Tetsu Sabaku |
+| 60 | Sakin no Shinra | Z | Sakin | Sunagakure | Hana Sabaku |
+| 61 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
+| 62 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 63 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 64 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 65 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 66 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 67 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
+| 68 | Kaikyō no Men | S+ | Suiton | Kirigakure | Desconhecido |
+| 69 | Hyōketsu no Sensu | S+ | Hyoton | Kirigakure | Desconhecido |
+| 70 | Suiryū no Reigan | S++ | Suiton | Kirigakure | Desconhecido |
+| 71 | Kiri-no-Kami no Yoroi | S++ | Suiton | Kirigakure | Desconhecido |
+| 72 | Shinsui no Yari | S++ | Suiton | Kirigakure | Desconhecido |
+| 73 | Umitsuchi no Teisatsu | Z | Suiton | Kirigakure | Desconhecido |
+| 74 | Hyōga no Seihai | Z | Hyoton | Kirigakure | Desconhecido |
+| 75 | Hakuryū no Ken | Z | Chakra Profano + Fujogan | Konohagakure | Katsumi Hyuga |
+| 76 | Hakuryū no Men | Z | Chakra Profano + Fujogan | Konohagakure | Katsumi Hyuga |
 | 77 | Gama no Kaeruba | Z | Senjutsu + Suiton + Fuinjutsu | Konohagakure | Satoshi Namikaze |
 | 78 | Gama no Zōri | S++ | Senjutsu | Konohagakure | Satoshi Namikaze |
 | 79 | Gama Sennin no Keiyaku | S++ | Senjutsu + Kuchiyose | Konohagakure | Satoshi Namikaze |
+| 80 | Shinigami no Menpō | Z | Fuinjutsu + Kuchiyose | Konohagakure | Hiroshi Hanzo |
 
 ---
 
@@ -116,8 +117,23 @@ O manto lendário de Nishinoya Senju, tecido com fibras especiais impregnadas po
 
 ---
 
-# Shinrin no Kanmuri
+# Hokage no Haori
 ID: 3
+Classificação: Z
+Natureza: Fuinjutsu + Vontade do Fogo
+Origem: Konohagakure
+Dono Original: Hashirama Senju
+Dono Atual: Desconhecido
+
+![Hokage no Haori](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F03%20-%20Hokage%20no%20Haori.png?alt=media&v=1788211513231493)
+
+## Descrição
+O manto branco dos Hokage, tecido com fibras seladas que absorvem e registram o chakra de cada líder que o veste. Usado primeiro por Hashirama Senju, fundador da vila, e depois herdado por Tobirama e por Nishinoya — cada um deixando sua própria marca de fuinjutsu impressa no tecido. O haori amplifica a Vontade do Fogo do portador, protegendo-o de venenos e genjutsu leves, e é reconhecido em toda Konoha como símbolo máximo de autoridade. Seu paradeiro é desconhecido desde a morte de Nishinoya.
+
+---
+
+# Shinrin no Kanmuri
+ID: 4
 Classificação: Z
 Natureza: Mokuton + Senju
 Origem: Konohagakure
@@ -132,7 +148,7 @@ A lendária espada Shinrin no Kanmuri, empunhada originalmente pelo Primeiro Hok
 ---
 
 # Homura no Chikai
-ID: 4
+ID: 5
 Classificação: Z
 Natureza: Purazomaton + Doton Ancestral
 Origem: Iwagakure
@@ -147,7 +163,7 @@ A Homura no Chikai é uma espada lendária forjada para o domínio do Purazomato
 ---
 
 # Kusanagi
-ID: 5
+ID: 6
 Classificação: S++
 Natureza: Uchiha
 Origem: Konohagakure
@@ -162,7 +178,7 @@ A lendária Kusanagi no Tsurugi, herdada do mestre Naoki Uchiha, é uma lâmina 
 ---
 
 # Akaryū no Yubiwa
-ID: 6
+ID: 7
 Classificação: S++
 Natureza: Katon + Uchiha
 Origem: Konohagakure
@@ -177,7 +193,7 @@ Este anel lendário, conhecido como Akaryū no Yubiwa, foi uma das poucas joias 
 ---
 
 # Ishi no Kubikazari
-ID: 7
+ID: 8
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -192,7 +208,7 @@ O Ishi no Kubikazari é um colar de poder bruto, forjado a partir de minerais ra
 ---
 
 # Ganryū no Omori
-ID: 8
+ID: 9
 Classificação: A+
 Natureza: Doton
 Origem: Iwagakure
@@ -207,7 +223,7 @@ Estes pesos ancestrais, conhecidos como Ganryū no Omori, são imbuídos com cha
 ---
 
 # Kubikiribōchō
-ID: 9
+ID: 10
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -222,7 +238,7 @@ A lendária Kubikiribōchō, ou 'Lâmina Decapitadora', é uma das Sete Espadas 
 ---
 
 # Luvas de Chakra Profano 'F'
-ID: 10
+ID: 11
 Classificação: S+
 Natureza: Chakra Profano
 Origem: Konohagakure
@@ -237,7 +253,7 @@ Estas manoplas experimentais foram desenvolvidas pela OCA para canalizar o chakr
 ---
 
 # Hyoton Artificial
-ID: 11
+ID: 12
 Classificação: S
 Natureza: Chakra Artificial
 Origem: Konohagakure
@@ -252,7 +268,7 @@ Uma maravilha da engenharia de chakra, esta seringa tecnológica permite que qua
 ---
 
 # Shōton Artificial
-ID: 12
+ID: 13
 Classificação: S
 Natureza: Chakra Artificial
 Origem: Konohagakure
@@ -267,7 +283,7 @@ Esta seringa contém uma versão sintética altamente instável da Liberação d
 ---
 
 # Colar dos Hatake
-ID: 13
+ID: 14
 Classificação: S+
 Natureza: Chakra Profano
 Origem: Konohagakure
@@ -282,7 +298,7 @@ Este colar profano nasceu de uma parceria entre Rock Gunma e Hiroshi Hanzo, forj
 ---
 
 # Nuibari
-ID: 14
+ID: 15
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -297,7 +313,7 @@ A 'Agulha de Costura' é uma das Sete Espadas da Névoa, famosa por seu design l
 ---
 
 # Protótipo de Reigan
-ID: 15
+ID: 16
 Classificação: S
 Natureza: Chakra Profano
 Origem: OCA
@@ -312,7 +328,7 @@ Esta luneta tática de alta precisão foi desenvolvida nos laboratórios secreto
 ---
 
 # Presilha de Cabelo de Etsuko
-ID: 16
+ID: 17
 Classificação: A+
 Natureza: Chakra Profano
 Origem: Konohagakure
@@ -327,7 +343,7 @@ Mais do que um simples acessório, esta presilha de cabelo é o último vínculo
 ---
 
 # Samehada
-ID: 17
+ID: 18
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -342,7 +358,7 @@ A lendária Samehada, ou 'Pele de Tubarão', é considerada a mais aterrorizante
 ---
 
 # Ishi no Seimei
-ID: 18
+ID: 19
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -357,7 +373,7 @@ O Ishi no Seimei é um artefato sagrado do País da Pedra que encerra em seu nú
 ---
 
 # Pergaminho de Invocação
-ID: 19
+ID: 20
 Classificação: A+
 Natureza: Fuinjutsu
 Origem: Konohagakure
@@ -372,7 +388,7 @@ Este pergaminho de fuinjutsu avançado é a ferramenta definitiva de logística 
 ---
 
 # Sōryū no Seikonseki
-ID: 20
+ID: 21
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -387,7 +403,7 @@ A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia 
 ---
 
 # Sōryo no Kōwan
-ID: 21
+ID: 22
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -402,7 +418,7 @@ Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições 
 ---
 
 # Ryokushin no Seikonseki
-ID: 22
+ID: 23
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -417,7 +433,7 @@ A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, foc
 ---
 
 # Akashin no Seikonseki
-ID: 23
+ID: 24
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -432,7 +448,7 @@ A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e 
 ---
 
 # Aoshin no Seikonseki
-ID: 24
+ID: 25
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -447,7 +463,7 @@ A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras
 ---
 
 # Kabutowari
-ID: 25
+ID: 26
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -462,7 +478,7 @@ A Kabutowari, uma das Sete Espadas da Névoa, desafia o conceito tradicional de 
 ---
 
 # Gan-tei no Gaitō
-ID: 26
+ID: 27
 Classificação: S++
 Natureza: Doton + Bijuu
 Origem: Iwagakure
@@ -477,7 +493,7 @@ Esta imponente vestimenta, conhecida como Gan-tei no Gaitō, foi o traje de bata
 ---
 
 # Gunbai
-ID: 27
+ID: 28
 Classificação: Z
 Natureza: Futon + Uchiha
 Origem: Konohagakure
@@ -492,7 +508,7 @@ O Gunbai Uchiha é um leque de guerra colossal forjado a partir da madeira sagra
 ---
 
 # Fujō no Yubiwa
-ID: 28
+ID: 29
 Classificação: Z
 Natureza: Chakra Profano + Fujogan
 Origem: Konohagakure
@@ -507,7 +523,7 @@ Este anel de aparência sombria e proibida, o Fujō no Yubiwa, foi criado pelo g
 ---
 
 # Kagefūin no Kama
-ID: 29
+ID: 30
 Classificação: Z
 Natureza: Fuinjutsu
 Origem: Konohagakure
@@ -522,7 +538,7 @@ A Kagefūin no Kama é uma foice de design exótico e aterrorizante, criada por 
 ---
 
 # Jikan no Ōken
-ID: 30
+ID: 31
 Classificação: Z
 Natureza: Juryūkuton + Doton Ancestral
 Origem: Iwagakure
@@ -537,7 +553,7 @@ A Jikan no Ōken é possivelmente o artefato mais perigoso e incompreensível do
 ---
 
 # Seimei no Saidan
-ID: 31
+ID: 32
 Classificação: Z
 Natureza: Seimeiryoku + Doton Ancestral
 Origem: Iwagakure
@@ -552,7 +568,7 @@ O Seimei no Saidan, conhecido como o 'Altar da Vida', é uma relíquia proibida 
 ---
 
 # Hakuryū no Reipia
-ID: 32
+ID: 33
 Classificação: S++
 Natureza: Chakra Profano + Fujogan
 Origem: Konohagakure
@@ -567,7 +583,7 @@ A Hakuryū no Ken, ou 'Espada do Dragão Branco', é uma rapier de design elegan
 ---
 
 # Uzumaki En'yō
-ID: 33
+ID: 34
 Classificação: S++
 Natureza: Katon + Futon + Fuinjutsu
 Origem: Konohagakure
@@ -582,7 +598,7 @@ O Uzumaki En'yō é um artefato lendário em formato de ioiô, forjado nas forja
 ---
 
 # Uzumaki no Kon
-ID: 34
+ID: 35
 Classificação: Z
 Natureza: Fuinjutsu
 Origem: Konohagakure
@@ -597,7 +613,7 @@ O Uzumaki no Kon é um nunchaku lendário forjado em Konohagakure, composto por 
 ---
 
 # Dama no Hiraishin
-ID: 35
+ID: 36
 Classificação: A+
 Natureza: Fuinjutsu
 Origem: Konohagakure
@@ -612,7 +628,7 @@ Estas esferas metálicas compactas, conhecidas como Dama no Hiraishin, são ferr
 ---
 
 # Okami Earring
-ID: 36
+ID: 37
 Classificação: S++
 Natureza: Senjutsu
 Origem: Konohagakure
@@ -627,7 +643,7 @@ O Okami Earring é um amuleto ancestral em formato de brinco, forjado a partir d
 ---
 
 # Okami no Men
-ID: 37
+ID: 38
 Classificação: S++
 Natureza: Senjutsu
 Origem: Konohagakure
@@ -642,7 +658,7 @@ A Okami no Men é uma máscara de lobo sagrada de Rank S++ que concede ao usuár
 ---
 
 # Kage no Kyōkai
-ID: 38
+ID: 39
 Classificação: S++
 Natureza: Kage Mane
 Origem: Konohagakure
@@ -657,7 +673,7 @@ O Kage no Kyōkai é um anel ancestral de Rank S++ que pertenceu aos líderes do
 ---
 
 # Kongōnyo
-ID: 39
+ID: 40
 Classificação: Z
 Natureza: Senjutsu
 Origem: Konohagakure
@@ -672,7 +688,7 @@ O Kongōnyo é o bastão sagrado de Rank Z que serviu como a arma principal do T
 ---
 
 # Raijin no Ken
-ID: 40
+ID: 41
 Classificação: Z
 Natureza: Suiton + Raiton
 Origem: Konohagakure
@@ -687,7 +703,7 @@ A lendária Raijin no Ken é a espada divina do Segundo Hokage, Tobirama Senju, 
 ---
 
 # Hakuryū
-ID: 41
+ID: 42
 Classificação: S++
 Natureza: Suiton
 Origem: Konohagakure
@@ -702,7 +718,7 @@ O Hakuryū é um bracelete ancestral de Rank S++ forjado para Tobirama Senju com
 ---
 
 # Hiramekarei
-ID: 42
+ID: 43
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -717,7 +733,7 @@ A Hiramekarei é a 'Espada Gêmea' de Rank S+, possuindo dois cabos e uma lâmin
 ---
 
 # Kiba
-ID: 43
+ID: 44
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -732,7 +748,7 @@ As Kiba, conhecidas como 'As Presas de Trovão', são um par de espadas curtas d
 ---
 
 # Shibuki
-ID: 44
+ID: 45
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -747,7 +763,7 @@ A Shibuki, ou 'Espada Explosiva', é uma arma de Rank S+ que combina magistralme
 ---
 
 # Hekireki no Yumi
-ID: 45
+ID: 46
 Classificação: S++
 Natureza: Raiton
 Origem: Kumogakure
@@ -762,7 +778,7 @@ O Hekireki no Yumi, ou 'Arco do Estrondo de Trovão', é uma arma de Rank S++ le
 ---
 
 # Kumo no Jū
-ID: 46
+ID: 47
 Classificação: S++
 Natureza: Raiton
 Origem: Kumogakure
@@ -777,7 +793,7 @@ O Kumo no Jū, o 'Canhão de Ombro da Nuvem', é uma peça de engenharia tecnol�
 ---
 
 # Aoi Hoshi
-ID: 47
+ID: 48
 Classificação: S+
 Natureza: Raiton
 Origem: Kumogakure
@@ -792,7 +808,7 @@ A Aoi Hoshi é uma das duas pistolas pesadas de Rank S+ que compõem o conjunto 
 ---
 
 # Akai Hoshi
-ID: 48
+ID: 49
 Classificação: S+
 Natureza: Raiton
 Origem: Kumogakure
@@ -807,7 +823,7 @@ A Akai Hoshi é a contraparte ofensiva da Aoi Hoshi no conjunto Sōsei no Gengan
 ---
 
 # Raigan
-ID: 49
+ID: 50
 Classificação: S+
 Natureza: Raiton
 Origem: Kumogakure
@@ -822,7 +838,7 @@ O Raigan é uma lente ocular de Rank S+ integrada com tecnologia de chakra de ú
 ---
 
 # Yuji no Hōkō
-ID: 50
+ID: 51
 Classificação: Z
 Natureza: Chakra Profano + Raiton
 Origem: Kumogakure
@@ -837,7 +853,7 @@ O Yuji no Hōkō, ou 'Rugido da Escuridão', é uma Sniper Rifle de Rank Z que r
 ---
 
 # Kasa
-ID: 51
+ID: 52
 Classificação: Z
 Natureza: Ranton + Raiton
 Origem: Kumogakure
@@ -862,7 +878,7 @@ O Kasa não é apenas um equipamento.
 ---
 
 # Meishi
-ID: 52
+ID: 53
 Classificação: S++
 Natureza: Ranton + Raiton
 Origem: Kumogakure
@@ -889,7 +905,7 @@ Além da análise, o Meishi também funciona como amplificador de suporte em com
 ---
 
 # Kinjishi no Tsume
-ID: 53
+ID: 54
 Classificação: S++
 Natureza: Sakin + Dokujutsu
 Origem: Sunagakure
@@ -904,7 +920,7 @@ As Kinjishi no Tsume, ou 'Garras do Leão de Ouro', são armas de Rank S++ forja
 ---
 
 # Kinjishi no Kōwan
-ID: 54
+ID: 55
 Classificação: S++
 Natureza: Sakin + Satetsu
 Origem: Sunagakure
@@ -919,7 +935,7 @@ As Kinjishi no Kōwan são manoplas de Rank S++ que representam o auge do contro
 ---
 
 # Sakin no Reigan
-ID: 55
+ID: 56
 Classificação: S++
 Natureza: Sakin
 Origem: Kirigakure
@@ -934,7 +950,7 @@ O Sakin no Reigan, ou 'Olho Espectral de Areia Dourada', é um dispositivo de es
 ---
 
 # Bitei
-ID: 56
+ID: 57
 Classificação: S+
 Natureza: Satetsu + Dokujutsu
 Origem: Sunagakure
@@ -949,7 +965,7 @@ A Bitei, ou 'Cauda do Escorpião do Deserto', é um chicote articulado de Rank S
 ---
 
 # Tetsu no Sabaku-kyū
-ID: 57
+ID: 58
 Classificação: S++
 Natureza: Satetsu
 Origem: Sunagakure
@@ -964,7 +980,7 @@ O Tetsu no Sabaku-kyū, o 'Caixão de Ferro Móvel', é um jarro metálico de Ra
 ---
 
 # Satetsu no Rinne
-ID: 58
+ID: 59
 Classificação: Z
 Natureza: Satetsu
 Origem: Sunagakure
@@ -979,7 +995,7 @@ O Satetsu no Rinne, ou 'Samsara da Areia de Ferro', é uma máscara ancestral de
 ---
 
 # Sakin no Shinra
-ID: 59
+ID: 60
 Classificação: Z
 Natureza: Sakin
 Origem: Sunagakure
@@ -994,7 +1010,7 @@ O Sakin no Shinra, o 'Domínio Universal do Ouro', é um cetro relíquia de Rank
 ---
 
 # Mugen
-ID: 60
+ID: 61
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1009,7 +1025,7 @@ A Mugen é a primeira espada de Rank S++ entre os 7 Espectros do Yang, represent
 ---
 
 # Kōrin
-ID: 61
+ID: 62
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1024,7 +1040,7 @@ O Kōrin é o bastão elétrico de Rank S++ criado para representar a Frieza abs
 ---
 
 # Shizuku
-ID: 62
+ID: 63
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1039,7 +1055,7 @@ As Shizuku são correntes profanas de Rank S++ criadas para simbolizar a Serenid
 ---
 
 # Raion
-ID: 63
+ID: 64
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1054,7 +1070,7 @@ A Raion é uma lança dupla de Rank S++ criada para representar a Determinação
 ---
 
 # Ōja
-ID: 64
+ID: 65
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1069,7 +1085,7 @@ O Ōja é o machado profano de Rank S++ que representa o Orgulho entre os 7 Espe
 ---
 
 # Rensha
-ID: 65
+ID: 66
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1084,7 +1100,7 @@ A Rensha é a lâmina oculta profana de Rank S++ criada para representar a Fúri
 ---
 
 # Guren
-ID: 66
+ID: 67
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1099,7 +1115,7 @@ O Guren é o tridente profano de Rank S++ criado para simbolizar o Impulso entre
 ---
 
 # Kaikyō no Men
-ID: 67
+ID: 68
 Classificação: S+
 Natureza: Suiton
 Origem: Kirigakure
@@ -1114,7 +1130,7 @@ A Kaikyō no Men é uma máscara tradicional de Rank S+ utilizada pela elite dos
 ---
 
 # Hyōketsu no Sensu
-ID: 68
+ID: 69
 Classificação: S+
 Natureza: Hyoton
 Origem: Kirigakure
@@ -1129,7 +1145,7 @@ O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das 
 ---
 
 # Suiryū no Reigan
-ID: 69
+ID: 70
 Classificação: S++
 Natureza: Suiton
 Origem: Kirigakure
@@ -1144,7 +1160,7 @@ O Suiryū no Reigan, ou 'Olho Espectral do Dragão de Água', é um amuleto ance
 ---
 
 # Kiri-no-Kami no Yoroi
-ID: 70
+ID: 71
 Classificação: S++
 Natureza: Suiton
 Origem: Kirigakure
@@ -1159,7 +1175,7 @@ A Kiri-no-Kami no Yoroi é uma armadura de escamas abissais de Rank S++ forjada 
 ---
 
 # Shinsui no Yari
-ID: 71
+ID: 72
 Classificação: S++
 Natureza: Suiton
 Origem: Kirigakure
@@ -1174,7 +1190,7 @@ A Shinsui no Yari é uma lança de Rank S++ forjada sob pressões astronômicas 
 ---
 
 # Umitsuchi no Teisatsu
-ID: 72
+ID: 73
 Classificação: Z
 Natureza: Suiton
 Origem: Kirigakure
@@ -1189,7 +1205,7 @@ O Umitsuchi no Teisatsu é o cetro lendário de Rank Z que pertenceu ao Primeiro
 ---
 
 # Hyōga no Seihai
-ID: 73
+ID: 74
 Classificação: Z
 Natureza: Hyoton
 Origem: Kirigakure
@@ -1204,7 +1220,7 @@ O Hyōga no Seihai é um receptáculo de Rank Z que contém em seu interior a es
 ---
 
 # Hakuryū no Ken
-ID: 74
+ID: 75
 Classificação: Z
 Natureza: Chakra Profano + Fujogan
 Origem: Konohagakure
@@ -1219,7 +1235,7 @@ A Espada do Dragão Branco foi forjada pessoalmente por Minoru Hyuga utilizando 
 ---
 
 # Hakuryū no Men
-ID: 75
+ID: 76
 Classificação: Z
 Natureza: Chakra Profano + Fujogan
 Origem: Konohagakure
@@ -1230,21 +1246,6 @@ Dono Atual: Katsumi Hyuga
 
 ## Descrição
 A Máscara do Dragão Branco é um artefato lendário criado por Minoru Hyuga durante a era mais obscura do clã. Posteriormente, foi passada para Hoshiro, reconhecido como sucessor legítimo do legado Hyuga. Hoshiro, porém, deixou a máscara guardada no armazém secreto de Konoha, onde permaneceu até ser encontrada e reivindicada por Katsumi. A máscara cobre parcialmente o rosto do usuário e possui canais internos feitos de chakra profano condensado, sincronizando diretamente com o Fujogan. Ao ser ativada, amplifica absurdamente a capacidade analítica ocular, permitindo enxergar microexpressões, mínimas alterações musculares, fluxo de chakra, intenção hostil e irregularidades invisíveis ao olho comum. Graças à precisão extrema do Fujogan potencializado, o usuário se torna praticamente imune a Genjutsu visuais e mentais, além de neutralizar fintas, ilusões corporais e movimentos falsos em combate. Cada detalhe do campo de batalha passa a ser captado instantaneamente, transformando Katsumi em um observador absoluto capaz de prever padrões antes mesmo da execução inimiga.
-
----
-
-# Hokage no Haori
-ID: 76
-Classificação: Z
-Natureza: Fuinjutsu + Vontade do Fogo
-Origem: Konohagakure
-Dono Original: Hashirama Senju
-Dono Atual: Desconhecido
-
-
-
-## Descrição
-O manto branco dos Hokage, tecido com fibras seladas que absorvem e registram o chakra de cada líder que o veste. Usado primeiro por Hashirama Senju, fundador da vila, e depois herdado por Tobirama e por Nishinoya — cada um deixando sua própria marca de fuinjutsu impressa no tecido. O haori amplifica a Vontade do Fogo do portador, protegendo-o de venenos e genjutsu leves, e é reconhecido em toda Konoha como símbolo máximo de autoridade. Seu paradeiro é desconhecido desde a morte de Nishinoya.
 
 ---
 
@@ -1290,3 +1291,18 @@ Dono Atual: Satoshi Namikaze
 
 ## Descrição
 O pergaminho sagrado que formaliza o pacto entre a linhagem Namikaze e os Sapos Sábios — diferente do Pergaminho de Invocação genérico, este só se abre para quem carrega o sangue do clã. Assinado com uma gota de sangue e chakra sobre o papel amarelado, o contrato grava simultaneamente o nome do usuário na pele de sua própria mão e nos registros vivos do território sábio dos sapos, criando uma linha de invocação que nunca se rompe enquanto ambas as partes existirem. Uma vez selado, permite convocar desde pequenos sapos mensageiros até colossos de guerra, e é considerado o primeiro passo formal para qualquer Namikaze que deseje um dia alcançar o próprio Modo Sábio — não ensina o Senjutsu por si só, mas abre a porta que todos os sapos sábios exigem estar aberta antes de aceitar ensinar quem quer que seja.
+
+---
+
+# Shinigami no Menpō
+ID: 80
+Classificação: Z
+Natureza: Fuinjutsu + Kuchiyose
+Origem: Konohagakure
+Dono Original: Ashina Uzumaki
+Dono Atual: Hiroshi Hanzo
+
+![Shinigami no Menpō](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F80%20-%20Shinigami%20no%20Menp%C5%8D.png?alt=media&v=1788210959973825)
+
+## Descrição
+A Shinigami no Menpō é uma máscara lendária do Clã Uzumaki, esculpida em um material semelhante a osso e coberta por inscrições de selamento vermelhas. Seu rosto demoníaco, marcado por chifres, presas e pelo símbolo espiral dos Uzumaki, representa a autoridade sobre a fronteira entre a vida e a morte. Diferentemente das máscaras comuns do Templo dos Uzumaki, ela não serve apenas para estabelecer contato com o Shinigami: quando vestida, cria um contrato forçado que concede ao portador o poder de invocar o Deus da Morte em uma forma viva, física e corpórea, além de comandar seus movimentos através de correntes de selamento. Entretanto, a máscara exige continuamente a força vital de seu usuário. Quanto mais tempo permanece ativa, mais o Shinigami tenta resistir às ordens e assumir o corpo daquele que o invocou. Caso a máscara seja quebrada durante o ritual, as correntes desaparecem e o Deus da Morte permanece livre no mundo dos vivos.

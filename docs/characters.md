@@ -4192,7 +4192,7 @@ Chakra: 94
 Status: Vivo
 Títulos: Vice líder da OCA, Suporte Perfeito, Traidor da OCA
 
-![Hiroshi Hanzo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.jpg?alt=media&v=1786651888625458)
+![Hiroshi Hanzo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.png?alt=media&v=1788210951689586)
 
 ## Descrição
 Desconhecido
@@ -4216,13 +4216,19 @@ Desconhecido
 Shiroki Kaminari, Kaminari, Instinto de Batalha: LM, CD, Lutar as Cegas, Intuição, Ponto Cego, Réplica Enganadora, Perito em Mecanismos
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 ### 1. Shiroki Kaminari: Amenotejikara no Shinsei
 Classificação: Z | Natureza: Ninjutsu Supremo + Espaço-Tempo (Amenotejikara) + Raiton + Ranton + Kaminari
 
-![Shiroki Kaminari: Amenotejikara no Shinsei](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Shinsei.png?alt=media&v=1786651888638888)
+![Shiroki Kaminari: Amenotejikara no Shinsei](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FTecnicas%2F01%20-%20Shiroki%20Kaminari%3A%20Amenotejikara%20no%20Shinsei.png?alt=media&v=1788210954576822)
 
 Descrição:
 Shiroki Kaminari Amenotejikara representa a verdadeira forma evoluída do Amenotejikara. Hanzo funde os três tipos supremos de eletricidade do mundo shinobi — Raiton, Ranton e Kaminari — condensando-os em uma nova essência branca e pura chamada Shiroki Kaminari. Esse relâmpago branco transcende eletricidade comum, tornando-se uma energia de velocidade e distorção espacial absoluta. Ao integrar o Shiroki Kaminari ao Amenotejikara, Hanzo elimina a limitação tradicional de troca visual direta e passa a utilizar qualquer partícula existente como ponto de substituição. Átomos presentes no ar tornam-se marcadores naturais de troca. Ele pode alternar instantaneamente sua posição com qualquer objeto, pessoa, aliado ou inimigo dentro do campo de alcance, desde que existam partículas no espaço. A troca não depende mais de linha de visão direta, apenas da existência física mínima no ambiente. Em combate, Hanzo pode reorganizar completamente o campo de batalha em frações infinitesimais de segundo, invertendo posições, redirecionando ataques e forçando colisões inevitáveis.
@@ -4235,6 +4241,23 @@ Classificada como Rank Z por ultrapassar o conceito tradicional de espaço-tempo
 
 Status de Uso:
 Consome quantidades colossais de chakra e exige controle mental absoluto. Uso prolongado pode causar sobrecarga neural e colapso sensorial devido à percepção simultânea de múltiplas trocas espaciais.
+
+### 2. Shiki Fūjin: Meikai Kōrin
+Classificação: Z | Natureza: Fuinjutsu Supremo + Kuchiyose + Selamento de Almas
+
+![Shiki Fūjin: Meikai Kōrin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FTecnicas%2F02%20-%20Shiki%20F%C5%ABjin%3A%20Meikai%20K%C5%8Drin.png?alt=media&v=1788210957282787)
+
+Descrição:
+Por meio da lendária Shinigami no Menpō, o usuário abre uma passagem entre o mundo dos vivos e o Reino dos Mortos, invocando o Shiki Fūjin em uma forma completamente viva e corpórea. Enquanto utiliza a máscara, o usuário recebe autoridade temporária sobre a entidade: o Shiki Fūjin pode atacar fisicamente, imobilizar almas com seus braços, romper barreiras espirituais e utilizar a lâmina mantida em sua boca para separar a alma do corpo. Correntes de selamento Uzumaki conectam a máscara ao Shinigami, obrigando-o a obedecer às ordens de seu invocador.
+
+Destruição:
+Não se mede em destruição física, mas em morte direta. A lâmina mantida na boca do Shiki Fūjin separa a alma do corpo, seus braços imobilizam almas antes que possam reagir, e barreiras espirituais não o detêm.
+
+História:
+Diferentemente do ritual tradicional, no qual o Deus da Morte permanece invisível e age apenas através do invocador, o Meikai Kōrin concede ao Shinigami carne, força física e presença própria no campo de batalha. Só é possível através da Shinigami no Menpō, máscara lendária do Clã Uzumaki.
+
+Status de Uso:
+A máscara consome continuamente a força vital do portador, e cada alma capturada fortalece a vontade do Shinigami. Quanto mais tempo a invocação permanecer ativa, maior o risco de a entidade romper as correntes e tentar tomar o corpo do usuário como seu receptáculo definitivo. Se a máscara for destruída durante o ritual, o contrato é encerrado e o Shiki Fūjin fica livre no mundo dos vivos.
 
 ---
 

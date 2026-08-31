@@ -11,6 +11,7 @@ import { fileURLToPath, pathToFileURL } from 'url';
 import os from 'os';
 import esbuild from 'esbuild';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -19,22 +20,7 @@ const FORCE = process.argv.includes('--force');
 const ONLY_ARG = process.argv.find(a => a.startsWith('--only='));
 const ONLY = ONLY_ARG ? new Set(ONLY_ARG.slice('--only='.length).split(',').map(s => s.trim())) : null;
 
-function findServiceAccountKey() {
-  if (process.env.SERVICE_ACCOUNT_KEY_PATH) return process.env.SERVICE_ACCOUNT_KEY_PATH;
-  const downloads = join(os.homedir(), 'Downloads');
-  const candidates = readdirSync(downloads)
-    .filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-    .map(f => {
-      const full = join(downloads, f);
-      return { full, mtime: statSync(full).mtimeMs, size: statSync(full).size };
-    })
-    .filter(f => f.size > 0)
-    .sort((a, b) => b.mtime - a.mtime);
-  if (!candidates.length) {
-    throw new Error(`Nenhuma chave de serviço válida encontrada em ${downloads}. Gere uma no Console Firebase ou defina SERVICE_ACCOUNT_KEY_PATH.`);
-  }
-  return candidates[0].full;
-}
+const findServiceAccountKey = () => achaChave();
 
 // Compila um .ts com esbuild e importa o export nomeado, sem deixar arquivo temporário.
 async function loadTsExport(relPath, exportName) {

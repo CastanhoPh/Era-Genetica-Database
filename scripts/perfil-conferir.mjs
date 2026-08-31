@@ -13,6 +13,7 @@ import { fileURLToPath, pathToFileURL } from 'url';
 import os from 'os';
 import esbuild from 'esbuild';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TODOS = process.argv.includes('--todos');
@@ -25,10 +26,7 @@ writeFileSync(tmp, code, 'utf8');
 const { distribuirAtributos, MIN_POR_NC, LIVRES, formataPct } = await import(pathToFileURL(tmp).href);
 unlinkSync(tmp);
 
-const d = join(os.homedir(), 'Downloads');
-const key = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0];
+const key = { full: achaChave() };
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(key.full, 'utf8'))) });
 
 const ORDEM = ['strength', 'dexterity', 'agility', 'intelligence', 'spirit', 'vigor', 'perception'];

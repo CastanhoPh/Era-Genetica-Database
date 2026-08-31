@@ -17,13 +17,11 @@ import { readFileSync, readdirSync, statSync } from 'fs';
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const APPLY = process.argv.includes('--apply');
 
-const d = join(os.homedir(), 'Downloads');
-const key = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0];
+const key = { full: achaChave() };
 if (!key) throw new Error('Nenhuma chave firebase-adminsdk*.json em Downloads.');
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(key.full, 'utf8'))) });
 const db = admin.firestore();

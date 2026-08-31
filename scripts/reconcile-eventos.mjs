@@ -15,14 +15,11 @@ import { readdirSync, statSync, readFileSync } from 'fs';
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const APLICAR = process.argv.includes('--apply');
 
-const d = join(os.homedir(), 'Downloads');
-const chave = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0];
-if (!chave) { console.error('não achei a chave de serviço em ~/Downloads'); process.exit(1); }
+const chave = { full: achaChave() };
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(chave.full, 'utf8'))) });
 const db = admin.firestore();
 

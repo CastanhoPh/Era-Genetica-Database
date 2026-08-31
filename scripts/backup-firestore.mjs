@@ -12,15 +12,13 @@ import { readdirSync, statSync, readFileSync, writeFileSync, mkdirSync, existsSy
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const CHECK = process.argv.includes('--check');
 const DESTINO = join(process.cwd(), 'docs', 'backup');
 const COLECOES = ['characters', 'arsenal', 'imageChecklist', 'familyTrees', 'prototypeEntries', 'aFazer'];
 
-const d = join(os.homedir(), 'Downloads');
-const key = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0].full;
+const key = achaChave();
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(key, 'utf8'))) });
 const db = admin.firestore();
 

@@ -22,6 +22,7 @@ import { readdirSync, statSync, readFileSync, existsSync, mkdirSync, renameSync,
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 // Quantos itens listar nas amostras do relatório. Seis basta no dia a dia; CANVA_LISTA=999
 // solta a lista inteira, que é o que serve quando há dezenas de divergências para conferir.
@@ -44,11 +45,7 @@ const PROJ = [
   { tipo: 'evento', pasta: 'Eventos', tam: '1600x900' },
 ];
 
-const d = join(os.homedir(), 'Downloads');
-const chave = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0];
-if (!chave) { console.error('não achei a chave de serviço em ~/Downloads'); process.exit(1); }
+const chave = { full: achaChave() };
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(chave.full, 'utf8'))), storageBucket: BUCKET });
 const db = admin.firestore();
 const bucket = admin.storage().bucket();

@@ -12,6 +12,7 @@ import { readdirSync, statSync, readFileSync, writeFileSync, existsSync } from '
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.length)
   ?? 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
@@ -29,11 +30,7 @@ const PROJ = [
 // composição temporada/arco que os outros três montam.
 const PELO_NOME = new Set(['invocacao', 'capaInvocacao', 'arsenal']);
 
-const d = join(os.homedir(), 'Downloads');
-const chave = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0];
-if (!chave) { console.error('não achei a chave de serviço em ~/Downloads'); process.exit(1); }
+const chave = { full: achaChave() };
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(chave.full, 'utf8'))) });
 const db = admin.firestore();
 const cl = (await db.collection('imageChecklist').get()).docs.map(x => x.data());

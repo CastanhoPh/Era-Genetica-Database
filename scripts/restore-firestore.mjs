@@ -11,6 +11,7 @@ import { readdirSync, statSync, readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const APPLY = process.argv.includes('--apply');
 const APAGAR = process.argv.includes('--apagar-sobras');
@@ -20,10 +21,7 @@ const COL = arg.slice('--colecao='.length);
 const ARQ = join(process.cwd(), 'docs', 'backup', `${COL}.json`);
 if (!existsSync(ARQ)) { console.error(`sem backup para "${COL}" em docs/backup/`); process.exit(1); }
 
-const d = join(os.homedir(), 'Downloads');
-const key = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-  .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-  .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0].full;
+const key = achaChave();
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(key, 'utf8'))) });
 const db = admin.firestore();
 

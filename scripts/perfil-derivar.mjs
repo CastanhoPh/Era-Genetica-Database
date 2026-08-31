@@ -18,6 +18,7 @@ import { fileURLToPath, pathToFileURL } from 'url';
 import os from 'os';
 import esbuild from 'esbuild';
 import admin from 'firebase-admin';
+import { achaChave } from './lib/chave.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -43,10 +44,7 @@ async function carregaAtributos() {
 }
 
 function conecta() {
-  const d = join(os.homedir(), 'Downloads');
-  const key = readdirSync(d).filter(f => /firebase-adminsdk.*\.json$/i.test(f))
-    .map(f => ({ full: join(d, f), m: statSync(join(d, f)).mtimeMs, s: statSync(join(d, f)).size }))
-    .filter(f => f.s > 0).sort((a, b) => b.m - a.m)[0];
+  const key = { full: achaChave() };
   if (!key) throw new Error('Nenhuma chave firebase-adminsdk*.json em Downloads.');
   admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(key.full, 'utf8'))) });
   return admin.firestore();
