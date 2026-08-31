@@ -1068,6 +1068,94 @@
     ]
   },
   {
+    "__docId": "ayame-sazanami",
+    "id": 100,
+    "name": "Ayame Sazanami",
+    "clan": "Sazanami",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "Filho do Céu"
+    ],
+    "nc": 28,
+    "position": "",
+    "role": "Suporte e Controle",
+    "description": "Ayame Sazanami é o Vice-Almirante da Frota Megalodon e portador do Shingan, os olhos divinos do clã Sazanami, que dentro da Névoa a maioria ainda trata como lenda.\n\nSeus olhos veem e distorcem o chakra de qualquer ser vivo num raio de 500 metros. Ayame manipula esse chakra como se fosse névoa: dissipa, concentra e, no limite, paralisa o oponente, deixando-o completamente indefeso.\n\nO preço é alto. O consumo é tão grande que ele abre a própria defesa para sustentá-lo, e o dōjutsu não pode ser desligado. Por isso, e porque o chakra que ele exala pode ser rastreado, o próprio clã o selou.",
+    "hp": 234,
+    "chakra": 128,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717",
+    "stats": {
+      "strength": 11,
+      "agility": 11,
+      "dexterity": 28,
+      "perception": 28,
+      "intelligence": 25,
+      "vigor": 28,
+      "spirit": 25
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 14
+      },
+      {
+        "name": "Magen",
+        "level": 14
+      },
+      {
+        "name": "Iryou Ninjutsu",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Shingan",
+      "Shingan Eterno",
+      "Chakra Expandido: Uzumaki",
+      "Kogou Fusa",
+      "Velocista",
+      "Maestria: CD",
+      "Intuição",
+      "Ataque em Movimento",
+      "Potencializar",
+      "Mestre dos Selos",
+      "Perito: Rastrear",
+      "Regeneração",
+      "Mil Anos de Vida",
+      "Chakra da Cura"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788190620073857",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#a855f7",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Vice-Almirante da Frota Megalodon"
+    ],
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "vigor"
+    ],
+    "divisaoAtributo": {
+      "espirito": 50,
+      "inteligencia": 50
+    }
+  },
+  {
     "__docId": "ayumi-uchiha",
     "name": "Ayumi Uchiha",
     "clan": "Uchiha",
@@ -2289,6 +2377,104 @@
     "titles": [
       "O Núcleo"
     ]
+  },
+  {
+    "__docId": "enkai-kuroshio",
+    "id": 99,
+    "name": "Enkai Kuroshio",
+    "clan": "Kuroshio",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "O Almirante Sanguinário"
+    ],
+    "nc": 29,
+    "position": "",
+    "role": "DPS e Suporte",
+    "description": "Enkai Kuroshio, Almirante da Frota Megalodon, é calmo, elegante e extremamente perspicaz. Muitos nunca o viram lutar — a maioria dos que o enfrentaram não voltou com vida. A pele branca como a névoa e os olhos vermelhos lhe deram o apelido de vampiro, e o apelido pegou.\n\nEm combate, é um ninja de precisão altíssima, com golpes baseados em Suiton. Mas há algo nele que ninguém na Névoa consegue explicar: dizem que seu chakra é especial, que ele está vivo há muitos anos e que nunca envelheceu um dia. Alguns o comparam a Rock Gunma. Kirigakure não tem resposta melhor do que isso.\n\nEm segredo, Enkai é um fanático pela ideia de imortalidade, e gasta boa parte do próprio chakra sustentando uma marca de energia no peito. É de fato eterno, com uma regeneração comparada à de Hashirama. Seus golpes são pressão e aniquilação rápida, feitos para encerrar a batalha em pouco tempo — um estrategista, um vampiro de verdade, que deixa o sangue dos adversários por onde passa.",
+    "hp": 230,
+    "chakra": 132,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763",
+    "stats": {
+      "strength": 29,
+      "agility": 29,
+      "dexterity": 12,
+      "perception": 12,
+      "intelligence": 29,
+      "vigor": 25,
+      "spirit": 26
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 14
+      },
+      {
+        "name": "Ketton",
+        "level": 14
+      },
+      {
+        "name": "Kuchiyose",
+        "level": 14
+      },
+      {
+        "name": "Senjutsu",
+        "level": 14
+      },
+      {
+        "name": "Magen",
+        "level": 14
+      }
+    ],
+    "aptitudes": [
+      "Fascinar",
+      "Miragem",
+      "Ilusão Profunda",
+      "Réplica Enganadora",
+      "Potencializar",
+      "Técnica Elevada",
+      "Mestre dos Selos",
+      "Ponto Cego",
+      "Maestria: CC",
+      "Reflexos",
+      "Acuidade",
+      "Lutar às Cegas",
+      "Domínio da Água",
+      "Duro de Matar",
+      "Domínio do Sangue",
+      "Maestria: CD",
+      "Regeneração",
+      "Ketsuryugan",
+      "Ketsuryugan Eterno",
+      "Chakra Expandido: Megalodon"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnkai%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190625316267",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#ff3b46",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Almirante da Frota Megalodon"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "inteligencia"
+    ],
+    "divisaoAtributo": {
+      "espirito": 50,
+      "vigor": 50
+    }
   },
   {
     "__docId": "enrai-hanzo",
@@ -8231,6 +8417,86 @@
       "Membro da Elite"
     ],
     "patente": "Líder da Kiba"
+  },
+  {
+    "__docId": "mirei-sazanami",
+    "id": 102,
+    "name": "Mirei Sazanami",
+    "clan": "Sazanami",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "Filha da Terra"
+    ],
+    "nc": 26,
+    "position": "",
+    "role": "DPS",
+    "description": "Mirei Sazanami, a Filha da Terra, é a Capitã-Tenente da Frota Megalodon. Diferente do irmão, nunca aprendeu a usar o Shingan — seu corpo não evoluiu a esse ponto — e o selamento do clã a deixou cega. Ainda assim se move pelo campo guiada pelas explosões da própria espada.\n\nÉ respeitada por todos, menos pela própria família. Amorosa e dura na mesma medida, líder nata, de sensibilidade e inteligência avassaladoras.\n\nLuta com técnicas de espada e manipula Suiton. Criou o Clone Falso, um clone-armadilha traiçoeiro, de poder explosivo.",
+    "hp": 218,
+    "chakra": 132,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649",
+    "stats": {
+      "strength": 26,
+      "agility": 26,
+      "dexterity": 10,
+      "perception": 10,
+      "intelligence": 20,
+      "vigor": 26,
+      "spirit": 26
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 13
+      },
+      {
+        "name": "Magen",
+        "level": 13
+      }
+    ],
+    "aptitudes": [
+      "Shingan",
+      "Chakra Expandido: Uzumaki",
+      "Kogou Fusa",
+      "Velocista",
+      "Maestria: CD",
+      "Intuição",
+      "Ataque em Movimento",
+      "Potencializar",
+      "Mestre dos Selos",
+      "Lutar às Cegas",
+      "Mira Apurada",
+      "Oportunista",
+      "Mobilidade",
+      "Punho de Ferro",
+      "Reflexos",
+      "Retirada Rápida",
+      "Rolamento"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788190672967346",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#b5793a",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitã-Tenente da Frota Megalodon"
+    ],
+    "combatStyle": "Corporal",
+    "focosAtributo": [
+      "vigor",
+      "espirito"
+    ]
   },
   {
     "__docId": "mizue-dokuhana",
@@ -15158,6 +15424,92 @@
     "cargo": [
       "2º Hokage",
       "1º Líder de Inovações"
+    ]
+  },
+  {
+    "__docId": "toma-umikage",
+    "id": 101,
+    "name": "Tōma Umikage",
+    "clan": "Umikage",
+    "categories": [
+      "NPC",
+      "Kirigakure"
+    ],
+    "titles": [
+      "Hyuga de Kirigakure"
+    ],
+    "nc": 27,
+    "position": "",
+    "role": "DPS",
+    "description": "Tōma Umikage, a Ganância, é a Capitã da Frota Megalodon. Acredita que só o esforço torna alguém importante, e sua ambição não tem par.\n\nSeus feitos são tão brutais que muitos dos que nunca a viram supõem que seja um homem, sem imaginar o rosto gentil por trás de tanta violência. Nesse rosto está sua maior conquista: um olho Byakugan transplantado, que pode evoluir para o Fujogan de Asami.\n\nLuta com duas armas que, imbuídas de chakra, disparam projéteis contra os tenketsus, e com o Byakugan, raramente erra. É exímia em Taijutsu, longa distância e ninjutsu médico.",
+    "hp": 205,
+    "chakra": 137,
+    "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788190690779402",
+    "stats": {
+      "strength": 11,
+      "agility": 11,
+      "dexterity": 27,
+      "perception": 27,
+      "intelligence": 27,
+      "vigor": 20,
+      "spirit": 27
+    },
+    "powers": [
+      {
+        "name": "Suiton",
+        "level": 13
+      },
+      {
+        "name": "Fuinjutsu",
+        "level": 13
+      },
+      {
+        "name": "Hyuga no Fujo",
+        "level": 13
+      },
+      {
+        "name": "Iryou Ninjutsu",
+        "level": 13
+      }
+    ],
+    "aptitudes": [
+      "Acuidade",
+      "Contragolpe",
+      "Fujogan",
+      "Tenketsu Byakugan",
+      "Ataque Giratório",
+      "Crítico Aprimorado",
+      "Intuição",
+      "Chakra Expandido: Profano",
+      "Ataque Múltiplo",
+      "Atirador",
+      "Byakugan",
+      "Duro de Matar",
+      "Rasteira",
+      "Chute Giratório",
+      "Maestria: CD"
+    ],
+    "isDead": false,
+    "techniques": [],
+    "gallery": [
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FT%C5%8Dma%20Umikage%2F5__Temporada.png?alt=media&v=1788190689069562",
+        "caption": "5ª Temporada",
+        "category": "era"
+      }
+    ],
+    "timelineAppearance": "5ª Temporada",
+    "chakraColor": "#ff3b46",
+    "vila": [
+      "Kirigakure"
+    ],
+    "cargo": [
+      "Capitã da Frota Megalodon"
+    ],
+    "combatStyle": "Distância",
+    "focosAtributo": [
+      "inteligencia",
+      "espirito"
     ]
   },
   {

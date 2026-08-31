@@ -102,6 +102,10 @@
 | 96 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
 | 97 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
 | 98 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
+| 99 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
+| 100 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
+| 101 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
+| 102 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
 
 ---
 
@@ -11139,6 +11143,189 @@ Sobrou o fantoche que Juzo tentou controlar. A heroína morreu, e o que restou m
 
 ## Aptidões
 Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan, Eternal Mangekyou Sharingan, Regeneração, Mestre dos Selos, Ambidestria, Bloqueio Ambidestro, Duro de Matar, Acuidade, Maestria: CD, Reflexos, Potencializar, Dano Extra, Ataque Múltiplo, Ponto Cego
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Enkai Kuroshio
+ID: 99
+Clã: Kuroshio
+Grupos: NPC, Kirigakure
+Função: DPS e Suporte
+NC: 29
+HP: 230
+Chakra: 132
+Status: Vivo
+Títulos: O Almirante Sanguinário
+
+![Enkai Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763)
+
+## Descrição
+Enkai Kuroshio, Almirante da Frota Megalodon, é calmo, elegante e extremamente perspicaz. Muitos nunca o viram lutar — a maioria dos que o enfrentaram não voltou com vida. A pele branca como a névoa e os olhos vermelhos lhe deram o apelido de vampiro, e o apelido pegou.
+
+Em combate, é um ninja de precisão altíssima, com golpes baseados em Suiton. Mas há algo nele que ninguém na Névoa consegue explicar: dizem que seu chakra é especial, que ele está vivo há muitos anos e que nunca envelheceu um dia. Alguns o comparam a Rock Gunma. Kirigakure não tem resposta melhor do que isso.
+
+Em segredo, Enkai é um fanático pela ideia de imortalidade, e gasta boa parte do próprio chakra sustentando uma marca de energia no peito. É de fato eterno, com uma regeneração comparada à de Hashirama. Seus golpes são pressão e aniquilação rápida, feitos para encerrar a batalha em pouco tempo — um estrategista, um vampiro de verdade, que deixa o sangue dos adversários por onde passa.
+
+## Atributos
+- Força: 29
+- Destreza: 12
+- Agilidade: 29
+- Inteligência: 29
+- Espírito: 26
+- Vigor: 25
+- Percepção: 12
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Ketton — Nível 14
+- Kuchiyose — Nível 14
+- Senjutsu — Nível 14
+- Magen — Nível 14
+
+## Aptidões
+Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar, Domínio do Sangue, Maestria: CD, Regeneração, Ketsuryugan, Ketsuryugan Eterno, Chakra Expandido: Megalodon
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Ayame Sazanami
+ID: 100
+Clã: Sazanami
+Grupos: NPC, Kirigakure
+Função: Suporte e Controle
+NC: 28
+HP: 234
+Chakra: 128
+Status: Vivo
+Títulos: Filho do Céu
+
+![Ayame Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717)
+
+## Descrição
+Ayame Sazanami é o Vice-Almirante da Frota Megalodon e portador do Shingan, os olhos divinos do clã Sazanami, que dentro da Névoa a maioria ainda trata como lenda.
+
+Seus olhos veem e distorcem o chakra de qualquer ser vivo num raio de 500 metros. Ayame manipula esse chakra como se fosse névoa: dissipa, concentra e, no limite, paralisa o oponente, deixando-o completamente indefeso.
+
+O preço é alto. O consumo é tão grande que ele abre a própria defesa para sustentá-lo, e o dōjutsu não pode ser desligado. Por isso, e porque o chakra que ele exala pode ser rastreado, o próprio clã o selou.
+
+## Atributos
+- Força: 11
+- Destreza: 28
+- Agilidade: 11
+- Inteligência: 25
+- Espírito: 25
+- Vigor: 28
+- Percepção: 28
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Fuinjutsu — Nível 14
+- Magen — Nível 14
+- Iryou Ninjutsu — Nível 14
+
+## Aptidões
+Shingan, Shingan Eterno, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Perito: Rastrear, Regeneração, Mil Anos de Vida, Chakra da Cura
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Tōma Umikage
+ID: 101
+Clã: Umikage
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 27
+HP: 205
+Chakra: 137
+Status: Vivo
+Títulos: Hyuga de Kirigakure
+
+![Tōma Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788190690779402)
+
+## Descrição
+Tōma Umikage, a Ganância, é a Capitã da Frota Megalodon. Acredita que só o esforço torna alguém importante, e sua ambição não tem par.
+
+Seus feitos são tão brutais que muitos dos que nunca a viram supõem que seja um homem, sem imaginar o rosto gentil por trás de tanta violência. Nesse rosto está sua maior conquista: um olho Byakugan transplantado, que pode evoluir para o Fujogan de Asami.
+
+Luta com duas armas que, imbuídas de chakra, disparam projéteis contra os tenketsus, e com o Byakugan, raramente erra. É exímia em Taijutsu, longa distância e ninjutsu médico.
+
+## Atributos
+- Força: 11
+- Destreza: 27
+- Agilidade: 11
+- Inteligência: 27
+- Espírito: 27
+- Vigor: 20
+- Percepção: 27
+
+## Poderes e Elementos
+- Suiton — Nível 13
+- Fuinjutsu — Nível 13
+- Hyuga no Fujo — Nível 13
+- Iryou Ninjutsu — Nível 13
+
+## Aptidões
+Acuidade, Contragolpe, Fujogan, Tenketsu Byakugan, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Atirador, Byakugan, Duro de Matar, Rasteira, Chute Giratório, Maestria: CD
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Mirei Sazanami
+ID: 102
+Clã: Sazanami
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 26
+HP: 218
+Chakra: 132
+Status: Vivo
+Títulos: Filha da Terra
+
+![Mirei Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649)
+
+## Descrição
+Mirei Sazanami, a Filha da Terra, é a Capitã-Tenente da Frota Megalodon. Diferente do irmão, nunca aprendeu a usar o Shingan — seu corpo não evoluiu a esse ponto — e o selamento do clã a deixou cega. Ainda assim se move pelo campo guiada pelas explosões da própria espada.
+
+É respeitada por todos, menos pela própria família. Amorosa e dura na mesma medida, líder nata, de sensibilidade e inteligência avassaladoras.
+
+Luta com técnicas de espada e manipula Suiton. Criou o Clone Falso, um clone-armadilha traiçoeiro, de poder explosivo.
+
+## Atributos
+- Força: 26
+- Destreza: 10
+- Agilidade: 26
+- Inteligência: 20
+- Espírito: 26
+- Vigor: 26
+- Percepção: 10
+
+## Poderes e Elementos
+- Suiton — Nível 13
+- Magen — Nível 13
+
+## Aptidões
+Shingan, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Lutar às Cegas, Mira Apurada, Oportunista, Mobilidade, Punho de Ferro, Reflexos, Retirada Rápida, Rolamento
 
 ## Arsenal
 Nenhum item cadastrado.

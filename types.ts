@@ -391,10 +391,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
     // a 98. Só a Murasame Hoshigaki sobra aqui, e ela não é da Marinha.
     entries: [
       { name: 'Murasame Hoshigaki', role: 'Mãe de Kazuki, morta por Ganmasen', dead: true, nc: 18 },
-      { name: 'Enkai Kuroshio', role: 'Almirante da Frota Megalodon', nc: 29 },
-      { name: 'Ayame Sazanami', role: 'Vice-Almirante da Frota Megalodon', nc: 28 },
-      { name: 'Tōma Umikage', role: 'Capitã da Frota Megalodon', nc: 27 },
-      { name: 'Mirei Sazanami', role: 'Capitã-Tenente da Frota Megalodon', nc: 26 },
     ],
   },
   {
