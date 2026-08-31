@@ -30,7 +30,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F1__Temporada.png?alt=media&v=1784665856914914",
-    "order": 10263
+    "order": 10279
   },
   {
     "__docId": "0Hy6haYHpYMiY0A6qikE",
@@ -2301,7 +2301,7 @@
     "personagens": [
       "Enkai Kuroshio"
     ],
-    "order": 10306
+    "order": 10265
   },
   {
     "__docId": "1DIY4VRnH6DEToZAP8hz",
@@ -2313,7 +2313,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131",
-    "order": 30089
+    "order": 30074
   },
   {
     "__docId": "1eyj3b99kmZolOEmB1Wb",
@@ -2324,7 +2324,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaien%20Ishi%20(Omega)%2F2__Temporada.png?alt=media&v=1784665890017497",
     "doneBy": "Zeck",
-    "order": 10280
+    "order": 10296
   },
   {
     "__docId": "1iQy5CN9VZ2VU0WGMFH8",
@@ -2350,7 +2350,7 @@
     "personagens": [
       "Nao Arashio"
     ],
-    "order": 10301
+    "order": 10260
   },
   {
     "__docId": "1MB1sK6sTXdj01tDvY9I",
@@ -2419,7 +2419,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30075
+    "order": 30091
   },
   {
     "__docId": "1xIY9uzrpAQdC7BTWpYH",
@@ -3262,7 +3262,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30083
+    "order": 30099
   },
   {
     "__docId": "2kfz9B7Cq1Nv23pMh2ZN",
@@ -3321,7 +3321,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788190690779402",
-    "order": 30100
+    "order": 30085
   },
   {
     "__docId": "2x2GH7QgP2Dlqkjmd1cK",
@@ -3389,7 +3389,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30081
+    "order": 30097
   },
   {
     "__docId": "3bESypCaHQdRY5QYBjqB",
@@ -3689,7 +3689,7 @@
     "personagens": [
       "Juzo Kuroshio"
     ],
-    "order": 10298
+    "order": 10257
   },
   {
     "__docId": "55NSrjxcjXhNtgV13neJ",
@@ -3721,7 +3721,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Akairo Uchiha (A)",
-    "order": 10256
+    "order": 10272
   },
   {
     "__docId": "5J4WNTqugCWk5aj5Vmxm",
@@ -3972,7 +3972,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2FPr_logo.png?alt=media&v=1786370748600753",
-    "order": 10257
+    "order": 10273
   },
   {
     "__docId": "7i3oiCYiNYao3r7c80Ub",
@@ -4017,7 +4017,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499",
-    "order": 30088
+    "order": 30073
   },
   {
     "__docId": "7sGURt47CMoguA19sy4C",
@@ -4074,7 +4074,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Shiita Sabaku (Theta)",
-    "order": 10288
+    "order": 10304
   },
   {
     "__docId": "8crhoSY4MDJsD4ub3axB",
@@ -4141,7 +4141,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763",
-    "order": 30098
+    "order": 30083
   },
   {
     "__docId": "8Y5toSWfrLm7cyAA9MNj",
@@ -4335,7 +4335,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30078
+    "order": 30094
   },
   {
     "__docId": "9vYBu4uBP95xPdSpKVLo",
@@ -4360,7 +4360,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F1__Temporada.png?alt=media&v=1784665851999751",
-    "order": 10258
+    "order": 10274
   },
   {
     "__docId": "9xFwihWYeXgZO6ozhizK",
@@ -4476,7 +4476,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061",
-    "order": 30093
+    "order": 30078
   },
   {
     "__docId": "Aa0uoxgsvmHhVYeB05kN",
@@ -4487,7 +4487,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30076
+    "order": 30092
   },
   {
     "__docId": "ab11yZrdcmRe1SwIP0nJ",
@@ -4612,7 +4612,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30079
+    "order": 30095
   },
   {
     "__docId": "akFgHPhRU28bJrrSoNSB",
@@ -4893,11 +4893,11 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 10294,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmakumo%20H%C5%8Dzuki%2F5__Temporada.png?alt=media&v=1788190614557283",
     "personagens": [
       "Amakumo Hōzuki"
-    ]
+    ],
+    "order": 10253
   },
   {
     "__docId": "BMnmcwpSWptlEipyPso5",
@@ -4956,7 +4956,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEtsuko%20Senju%20(E)%2F1__Temporada.png?alt=media&v=1784665866438279",
-    "order": 10271
+    "order": 10287
   },
   {
     "__docId": "BSx9pFoz2SpA5xNF0z09",
@@ -5103,7 +5103,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Borashi Hyuga (B)",
-    "order": 10262
+    "order": 10278
   },
   {
     "__docId": "CafBpGdh9AYqQ9pXaVJR",
@@ -5146,7 +5146,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Akairo Uchiha (A)",
-    "order": 10253
+    "order": 10269
   },
   {
     "__docId": "Cc7wQVhlZudmq6KqSRcf",
@@ -5596,7 +5596,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaiki%20Uzumaki%20(D)%2F1__Temporada.png?alt=media&v=1784665861653860",
-    "order": 10268
+    "order": 10284
   },
   {
     "__docId": "eohvtlK3vX6pcnA4WUYE",
@@ -5650,7 +5650,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Deruta Muujin (Delta)",
-    "order": 10286
+    "order": 10302
   },
   {
     "__docId": "EVDQBbJSBFtjEa8LT9va",
@@ -5828,7 +5828,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702",
-    "order": 30090
+    "order": 30075
   },
   {
     "__docId": "FFgdqCSA21YivKWFvd88",
@@ -5862,7 +5862,7 @@
     "name": "5ª Temporada",
     "done": false,
     "imageUrl": null,
-    "order": 10293
+    "order": 10309
   },
   {
     "__docId": "fJ43L4baPzmLx8kghZnu",
@@ -5962,7 +5962,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930",
-    "order": 30095
+    "order": 30080
   },
   {
     "__docId": "G7BJp0aSofRy0kuZ4dJl",
@@ -6018,7 +6018,7 @@
     "name": "4ª Temporada",
     "done": false,
     "imageUrl": null,
-    "order": 10292
+    "order": 10308
   },
   {
     "__docId": "ggm6kMnLCuwBgvoeNi8a",
@@ -6059,7 +6059,7 @@
     "personagens": [
       "Mirei Sazanami"
     ],
-    "order": 10309
+    "order": 10268
   },
   {
     "__docId": "gj1qGTwdbbIszhMJrv3T",
@@ -6069,7 +6069,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Borashi Hyuga (B)",
-    "order": 10261
+    "order": 10277
   },
   {
     "__docId": "gLy2BDMTllkna3lmCkbS",
@@ -6115,7 +6115,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1786996820348030",
-    "order": 30072
+    "order": 30088
   },
   {
     "__docId": "GQsb2GeLl6EsbdAdbDmG",
@@ -6159,8 +6159,8 @@
     "done": true,
     "doneBy": "Pedro",
     "placeholder": false,
-    "order": 30086,
-    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727",
+    "order": 30071
   },
   {
     "__docId": "GSySnmjVND7vraTrS2xs",
@@ -6370,7 +6370,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235",
-    "order": 30096
+    "order": 30081
   },
   {
     "__docId": "HD9xzTZ6UDa1LrRREgw8",
@@ -6396,7 +6396,7 @@
     "personagens": [
       "Ganmaren Yuki"
     ],
-    "order": 10302
+    "order": 10261
   },
   {
     "__docId": "HEIFDMEPxkbF1bYvevFU",
@@ -6430,7 +6430,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643",
-    "order": 30094
+    "order": 30079
   },
   {
     "__docId": "HgH1B5BIwDxymlRMOL0z",
@@ -6599,7 +6599,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30074
+    "order": 30090
   },
   {
     "__docId": "HWiaraBofNWpbK1DMFbF",
@@ -6678,7 +6678,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Borashi Hyuga (B)",
-    "order": 10260
+    "order": 10276
   },
   {
     "__docId": "i6sa3Z7AZ777D8swEKL2",
@@ -6753,7 +6753,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30084
+    "order": 30100
   },
   {
     "__docId": "iebLzEdxBQLLAMXokcEk",
@@ -6956,7 +6956,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256",
-    "order": 30091
+    "order": 30076
   },
   {
     "__docId": "IxIV043v4L7idVRtpSky",
@@ -6968,7 +6968,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717",
-    "order": 30099
+    "order": 30084
   },
   {
     "__docId": "iyuVoVGMRWpl2Dq2VP0M",
@@ -7049,7 +7049,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30080
+    "order": 30096
   },
   {
     "__docId": "jF1bn9T0VsMyYU8PprnG",
@@ -7105,7 +7105,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuyuki%20Dokuhana%20(F)%2F1__Temporada.png?alt=media&v=1784665871034541",
-    "order": 10273
+    "order": 10289
   },
   {
     "__docId": "jQDaI86FlH7Jedsz5TYk",
@@ -7120,7 +7120,7 @@
     "personagens": [
       "Kōga Kirisame"
     ],
-    "order": 10299
+    "order": 10258
   },
   {
     "__docId": "jRQwMVdSsps6Fns5uP3p",
@@ -7130,7 +7130,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Chisaki Dokuhana (C)",
-    "order": 10267
+    "order": 10283
   },
   {
     "__docId": "jS7SBAAu23YQCPQCB9Rc",
@@ -7240,7 +7240,7 @@
     "personagens": [
       "Hahiko Shiosaki"
     ],
-    "order": 10304
+    "order": 10263
   },
   {
     "__docId": "K93QJK78DwdMQbcusPMp",
@@ -7316,7 +7316,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Katakana Yotsuki (Alpha)",
-    "order": 10282
+    "order": 10298
   },
   {
     "__docId": "kfZaYYlDy2fMNUvaWwW1",
@@ -7446,7 +7446,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).png?alt=media&v=1786996822018571",
-    "order": 30073
+    "order": 30089
   },
   {
     "__docId": "KvNW3p8wiJRixdLEWXeE",
@@ -7862,7 +7862,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376",
-    "order": 30087
+    "order": 30072
   },
   {
     "__docId": "MT7fp8xE1l7XwP8Add5M",
@@ -7940,7 +7940,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHayato%20Hanzo%20(H)%2F2__Temporada.png?alt=media&v=1784665882764819",
     "doneBy": "Zeck",
-    "order": 10279
+    "order": 10295
   },
   {
     "__docId": "N0nK9yleXIfXSoeNJmHx",
@@ -7952,7 +7952,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992",
-    "order": 30092
+    "order": 30077
   },
   {
     "__docId": "N52icRNZIJogKj3cvwg8",
@@ -8044,7 +8044,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649",
-    "order": 30101
+    "order": 30086
   },
   {
     "__docId": "NjFdDwzuRNB4CWqy5fHX",
@@ -8247,7 +8247,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F2__Temporada.png?alt=media&v=1784665854341680",
     "doneBy": "Zeck",
-    "order": 10259
+    "order": 10275
   },
   {
     "__docId": "OdRVfvhWWEPFjuLBGk1x",
@@ -8281,7 +8281,7 @@
     "personagens": [
       "Mei Yuki"
     ],
-    "order": 10300
+    "order": 10259
   },
   {
     "__docId": "OGaWrvEWWhg8Re34uPVj",
@@ -8342,7 +8342,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEtsuko%20Senju%20(E)%2F2__Temporada.png?alt=media&v=1784665868699115",
     "doneBy": "Zeck",
-    "order": 10272
+    "order": 10288
   },
   {
     "__docId": "OKyBZdVjchd0SqaKT5OH",
@@ -8386,7 +8386,7 @@
     "personagens": [
       "Suiren Shiranami"
     ],
-    "order": 10297
+    "order": 10256
   },
   {
     "__docId": "oM2jkeeg3f0nVWb0gHLq",
@@ -8428,7 +8428,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Genei (G)",
-    "order": 10277
+    "order": 10293
   },
   {
     "__docId": "ouMBEy3IZtQFmKLCGm9h",
@@ -8450,7 +8450,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuyuki%20Dokuhana%20(F)%2F2__Temporada.png?alt=media&v=1784665873288940",
     "doneBy": "Zeck",
-    "order": 10274
+    "order": 10290
   },
   {
     "__docId": "OWOHDAKBk6qN7xkqmOPL",
@@ -8582,7 +8582,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30082
+    "order": 30098
   },
   {
     "__docId": "PEw8SJmC0g0W0HTQFUvf",
@@ -9531,7 +9531,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Deruta Muujin (Delta)",
-    "order": 10285
+    "order": 10301
   },
   {
     "__docId": "qVHP5WMzEOJbtKNegfeX",
@@ -9639,7 +9639,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Ganmasen Yuki (Gama)",
-    "order": 10284
+    "order": 10300
   },
   {
     "__docId": "R6tfZNbShCyKAKr4X6BP",
@@ -9840,7 +9840,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Daiki Uzumaki (D)",
-    "order": 10270
+    "order": 10286
   },
   {
     "__docId": "SFIAlIuJBFWpXcKfcGfx",
@@ -9898,7 +9898,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkairo%20Uchiha%20(A)%2F2__Temporada.png?alt=media&v=1784665848268328",
     "doneBy": "Zeck",
-    "order": 10255
+    "order": 10271
   },
   {
     "__docId": "SnhWXomsVw3cSOB3m6PS",
@@ -9913,7 +9913,7 @@
     "personagens": [
       "Raizuki Hoshigaki"
     ],
-    "order": 10296
+    "order": 10255
   },
   {
     "__docId": "SoSau3fMT7aMx5CS5F2g",
@@ -9967,7 +9967,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30071
+    "order": 30087
   },
   {
     "__docId": "swtxLfuZRq7Jvxsv47wA",
@@ -9977,7 +9977,7 @@
     "name": "3ª Temporada",
     "done": false,
     "imageUrl": null,
-    "order": 10291
+    "order": 10307
   },
   {
     "__docId": "t3mJUKZEDBBYzoeAl3yx",
@@ -10113,7 +10113,7 @@
     "personagens": [
       "Genzō Umikage"
     ],
-    "order": 10295
+    "order": 10254
   },
   {
     "__docId": "TZR0bjZpfT7KL7Gubreb",
@@ -10170,7 +10170,7 @@
     "name": "2ª Temporada",
     "done": false,
     "imageUrl": null,
-    "order": 10290
+    "order": 10306
   },
   {
     "__docId": "U79XtYYhlmmrfbFDAQRc",
@@ -10192,7 +10192,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F2__Temporada.png?alt=media&v=1784665859155605",
     "doneBy": "Zeck",
-    "order": 10264
+    "order": 10280
   },
   {
     "__docId": "uAWEetnZ5Ad7WjxvASxE",
@@ -10243,7 +10243,7 @@
     "personagens": [
       "Tōma Umikage"
     ],
-    "order": 10308
+    "order": 10267
   },
   {
     "__docId": "uFONz2Hvj5lP6WhCkAxO",
@@ -10325,7 +10325,7 @@
     "personagens": [
       "Gordon Kirisame"
     ],
-    "order": 10303
+    "order": 10262
   },
   {
     "__docId": "UTgerhPJ1UtlK90Lhis0",
@@ -10345,7 +10345,7 @@
     "name": "1ª Temporada",
     "done": false,
     "imageUrl": null,
-    "order": 10289
+    "order": 10305
   },
   {
     "__docId": "uvNYbR9GOtAz0nTZLDn0",
@@ -10368,7 +10368,7 @@
     "doneBy": "Pedro",
     "placeholder": false,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490",
-    "order": 30097
+    "order": 30082
   },
   {
     "__docId": "uYoX7zxyt3RmaEjAoRWa",
@@ -10424,7 +10424,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenei%20(G)%2F1__Temporada.png?alt=media&v=1784665875568368",
-    "order": 10275
+    "order": 10291
   },
   {
     "__docId": "V6gVJmYDLI7PDhy5jhJL",
@@ -10434,7 +10434,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Katakana Yotsuki (Alpha)",
-    "order": 10281
+    "order": 10297
   },
   {
     "__docId": "vaPH55VgxRZ77W9aNOGU",
@@ -10460,7 +10460,7 @@
     "personagens": [
       "Ayame Sazanami"
     ],
-    "order": 10307
+    "order": 10266
   },
   {
     "__docId": "vDNO77POIx8VIpkZVdWX",
@@ -10680,7 +10680,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Shiita Sabaku (Theta)",
-    "order": 10287
+    "order": 10303
   },
   {
     "__docId": "wHfur79ZUOq1us0gAtys",
@@ -10755,7 +10755,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaiki%20Uzumaki%20(D)%2F2__Temporada.png?alt=media&v=1784665863940737",
     "doneBy": "Zeck",
-    "order": 10269
+    "order": 10285
   },
   {
     "__docId": "WLvDNBny2CIIJEb200nj",
@@ -10809,7 +10809,7 @@
     "done": true,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenei%20(G)%2F2__Temporada.png?alt=media&v=1784665877757957",
     "doneBy": "Zeck",
-    "order": 10276
+    "order": 10292
   },
   {
     "__docId": "WSbrJuKW6ne0rNahNdgz",
@@ -10889,7 +10889,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkairo%20Uchiha%20(A)%2F1__Temporada.png?alt=media&v=1784665846434707",
-    "order": 10254
+    "order": 10270
   },
   {
     "__docId": "wXhYSNGTKz2uMc7iBXqS",
@@ -11139,7 +11139,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Ganmasen Yuki (Gama)",
-    "order": 10283
+    "order": 10299
   },
   {
     "__docId": "Y1jhZd7mneIBRfWsXObO",
@@ -11263,7 +11263,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Chisaki Dokuhana (C)",
-    "order": 10266
+    "order": 10282
   },
   {
     "__docId": "YjcCTFYv7fIF7lUt47iV",
@@ -11332,7 +11332,7 @@
     "done": false,
     "imageUrl": null,
     "temporada": "Chisaki Dokuhana (C)",
-    "order": 10265
+    "order": 10281
   },
   {
     "__docId": "YRkF6n4wEso0z8C8eeWi",
@@ -11391,7 +11391,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.jpeg?alt=media&v=1786983073679558",
     "done": true,
     "doneBy": "Pedro",
-    "order": 30085
+    "order": 30101
   },
   {
     "__docId": "z7vURoLRSglbF4EetpAK",
@@ -11424,7 +11424,7 @@
     "done": true,
     "doneBy": "Pedro",
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHayato%20Hanzo%20(H)%2F1__Temporada.png?alt=media&v=1784665880502246",
-    "order": 10278
+    "order": 10294
   },
   {
     "__docId": "Zd31XcFYkoPd0CpBJn80",
@@ -11552,7 +11552,7 @@
     "personagens": [
       "Himari Yuki"
     ],
-    "order": 10305
+    "order": 10264
   },
   {
     "__docId": "ZTNybPBb4JSK2gR2Wcse",
@@ -11597,7 +11597,7 @@
     "done": false,
     "placeholder": false,
     "doneBy": null,
-    "order": 30077
+    "order": 30093
   },
   {
     "__docId": "ZwlkekJ9cDHX5IVmrVvz",

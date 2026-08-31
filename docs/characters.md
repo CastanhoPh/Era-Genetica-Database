@@ -75,37 +75,37 @@
 | 69 | Kiyoshi Hagane | Hagane | NPC, Kumogakure |  | DPS, Tank e Controle | 29 | 221 | 97 | Vivo |
 | 70 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
 | 71 | Inazuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
-| 72 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 20 | 170 | 105 | Morto (morto por Nagare Uzumaki) |
-| 73 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
-| 74 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
-| 75 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
-| 76 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
-| 77 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
-| 78 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 20 | 170 | 105 | Morto (morto por Kaito Senju) |
-| 79 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
-| 80 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
-| 81 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
-| 82 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
-| 83 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
-| 84 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
-| 85 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
-| 86 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
-| 87 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
-| 88 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
-| 89 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
-| 90 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
-| 91 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
-| 92 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
-| 93 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
-| 94 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
-| 95 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
-| 96 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
-| 97 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
-| 98 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
-| 99 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
-| 100 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
-| 101 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
-| 102 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
+| 72 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
+| 73 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
+| 74 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
+| 75 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
+| 76 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
+| 77 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
+| 78 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
+| 79 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
+| 80 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
+| 81 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
+| 82 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
+| 83 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
+| 84 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
+| 85 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
+| 86 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
+| 87 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
+| 88 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 20 | 170 | 105 | Morto (morto por Nagare Uzumaki) |
+| 89 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
+| 90 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
+| 91 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
+| 92 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
+| 93 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
+| 94 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 20 | 170 | 105 | Morto (morto por Kaito Senju) |
+| 95 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
+| 96 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
+| 97 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
+| 98 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
+| 99 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
+| 100 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
+| 101 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
+| 102 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
 
 ---
 
@@ -8949,8 +8949,739 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Akairo Uchiha (A)
+# Amakumo Hōzuki
 ID: 72
+Clã: Hōzuki
+Grupos: NPC, Kirigakure
+Função: Tank
+NC: 29
+HP: 242
+Chakra: 132
+Status: Vivo
+Títulos: A Muralha Escolhida por Leviatã
+
+![Amakumo Hōzuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727)
+
+## Descrição
+Amakumo é um homem bom, porém possui limites muito bem definidos, especialmente durante conversas e discussões políticas. Respeita profundamente Genzō, seu amigo de longa data, parceiro de combate e atual vice-almirante da Frota Leviatã. Apesar de suas diferenças, os dois construíram uma relação baseada em confiança e lealdade.
+
+Amakumo possui uma armadura de água tão rígida quanto o aço. Seus golpes são expansivos e devastadores, alcançando uma força comparável à de uma Bijū. É conhecido por sua quantidade extraordinária de chakra, por sua natureza bárbara durante as batalhas e, ao mesmo tempo, por seu bom coração. Acredita que o mundo ninja ainda pode ser salvo para além das fronteiras e disputas políticas entre as vilas.
+
+Ele está longe de ser pacifista: para Amakumo, a paz é conquistada por meio de seus próprios punhos. Seu físico é conhecido por ser praticamente impenetrável. Não é um combatente veloz, pois acredita que não precisa evitar os ataques de seus adversários. Em vez disso, resiste, avança e derrota qualquer inimigo que permaneça em seu caminho.
+
+## Atributos
+- Força: 29
+- Destreza: 12
+- Agilidade: 29
+- Inteligência: 25
+- Espírito: 26
+- Vigor: 29
+- Percepção: 12
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Hyoton — Nível 14
+- Iryō Ninjutsu — Nível 14
+
+## Aptidões
+Ambidestria, Maestria: CC, Saque Rápido, Potencializar, Técnica Poderosa, Domínio da Água, Instinto de Batalha: LM, CD, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, De Pé, Reflexos, Punho de Ferro, Crítico Aprimorado, Soco em Gancho, Duro de Matar, Chakra Expandido: Leviatã, Contragolpe
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Genzō Umikage
+ID: 73
+Clã: Umikage
+Grupos: NPC, Kirigakure
+Função: Suporte e Controle
+NC: 29
+HP: 221
+Chakra: 97
+Status: Vivo
+Títulos: O Sábio dos Mares
+
+![Genzō Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376)
+
+## Descrição
+Genzō Umikage é um artesão, um simples pescador e, ao mesmo tempo, um grande Vice-Almirante. Age de maneira calma e pacífica em praticamente todas as situações, exceto quando alguém desafia ou ameaça sua vila. Costuma passar seu tempo com uma vara de pesca no porto. Embora sua aparência coberta por escamas possa assustar algumas pessoas, Genzō é um homem bondoso.
+
+Sua proficiência com a água é extraordinária. Durante uma batalha, muitos adversários sequer conseguem enxergar seus movimentos. Genzō luta de maneira fluida como a água, mantendo a sabedoria de um monge e a serenidade de um pescador, mesmo diante das ameaças mais perigosas.
+
+Suas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsus de selamento. Genzō conhece milhares de fórmulas de Fūinjutsu, pois acredita que a melhor forma de eliminar uma ameaça não é derramando mais sangue, mas impedindo-a de continuar lutando. Sua principal técnica de selamento é a Rede, que funciona como uma rede de pesca capaz de capturar e selar grandes quantidades de chakra.
+
+## Atributos
+- Força: 12
+- Destreza: 29
+- Agilidade: 12
+- Inteligência: 29
+- Espírito: 29
+- Vigor: 22
+- Percepção: 29
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Futton — Nível 14
+- Fūinjutsu — Nível 14
+- Kuchiyose — Nível 14
+- Senjutsu — Nível 14
+
+## Aptidões
+Acuidade, Intuição, Domínio da Água, Potencializar, Maestria: CD, Maestria: CC, Lutar às Cegas, Mestre dos Selos, Perito: Rastrear, Perito: Lidar com Animais, Ponto Cego, Técnica Poderosa, Fascinar, Miragem, Réplica Enganadora, Sensor, Elemento Natural: Suiton, Reserva de Água
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Raizuki Hoshigaki
+ID: 74
+Clã: Hoshigaki
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 28
+HP: 234
+Chakra: 94
+Status: Vivo
+Títulos: O Tubarão Sem Passado
+
+![Raizuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499)
+
+## Descrição
+Registros apagados na Vila da Névoa.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 22
+- Espírito: 28
+- Vigor: 28
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Kuchiyose — Nível 14
+- Senjutsu — Nível 14
+- Rasengan — Nível 14
+
+## Aptidões
+Acuidade, Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado, Lutar às Cegas, Maestria: CC, Potencializar, Rasteira, Reflexos, Velocista, Elemento Natural: Suiton, Predador Aquático, Reserva de Água, Corpo Líquido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Suiren Shiranami
+ID: 75
+Clã: Shiranami
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 24
+HP: 184
+Chakra: 82
+Status: Vivo
+Títulos: A Miragem Negra da Névoa
+
+![Suiren Shiranami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131)
+
+## Descrição
+Suiren Shiranami é um jovem promissor de 25 anos, dono de um histórico formidável e de uma disciplina exemplar. Portador da Espada da Névoa, é visto como um herói pelo povo de Kirigakure: um homem gentil que busca proteger a vila e seus habitantes.
+
+Suiren é especialmente querido pelas crianças e dedica parte de seu tempo livre a ajudar a comunidade. Apesar de sua posição militar, não se distancia das pessoas que jurou defender, mantendo uma relação próxima com os moradores da Névoa.
+
+Em combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu repertório combina ninjutsus e ilusões, tornando-o um combatente versátil e difícil de enfrentar à distância. É considerado um jōnin completo e de bom coração.
+
+## Atributos
+- Força: 9
+- Destreza: 24
+- Agilidade: 9
+- Inteligência: 24
+- Espírito: 24
+- Vigor: 18
+- Percepção: 24
+
+## Poderes e Elementos
+- Suiton — Nível 12
+- Katon — Nível 12
+- Futton — Nível 12
+- Magen — Nível 12
+- Kuchiyose — Nível 12
+
+## Aptidões
+Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CD, Intuição, Acuidade, Lutar às Cegas
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Juzo Kuroshio
+ID: 76
+Clã: Kuroshio
+Grupos: NPC, Kirigakure
+Função: DPS e Controle
+NC: 29
+HP: 230
+Chakra: 132
+Status: Vivo
+Títulos: O Almirante Sujo
+
+![Juzo Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702)
+
+## Descrição
+Juzo, Almirante da Frota Kraken, é um dos homens mais influentes, formidáveis e cruéis da Névoa. Inteligente, paciente e articulado, atravessa guerras utilizando alianças, chantagens, informações e acordos secretos. Comanda uma extensa rede clandestina de agentes e intermediários espalhada por diversas vilas.
+
+Puramente mau e desprovido de limites morais, Juzo manipula, tortura e elimina qualquer pessoa em benefício próprio. Enxerga Kirigakure como um instrumento para ampliar seu poder. Apesar de sua arrogância, teme Ganmaren, pois compreende a verdadeira dimensão de seu poder e sabe do que ele seria capaz caso decidisse enfrentá-lo.
+
+Poucos sabem que Juzo perdeu um braço ao enfrentar secretamente o falso Mizukage Gama enquanto investigava a transformação de Ganmasen Yuki. Desde então, trabalhou para destituí-lo por vingança e orgulho. Apesar de sua monstruosidade, sempre cumpre recompensas, acordos e ameaças, pois sua reputação como homem de palavra fortalece sua influência e o medo provocado por seu nome.
+
+## Atributos
+- Força: 29
+- Destreza: 12
+- Agilidade: 29
+- Inteligência: 29
+- Espírito: 26
+- Vigor: 25
+- Percepção: 12
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Futton — Nível 14
+- Youton — Nível 14
+- Fūinjutsu — Nível 14
+
+## Aptidões
+Futton Sufocante, Youton Corrosivo, Dupla Linhagem, Domínio da Água, Acuidade, Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado, Lutar às Cegas, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, Reflexos, Punho de Ferro, Soco em Gancho, Duro de Matar, Chakra Expandido: Kraken
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Kōga Kirisame
+ID: 77
+Clã: Kirisame
+Grupos: NPC, Kirigakure
+Função: DPS e Controle
+NC: 28
+HP: 225
+Chakra: 85
+Status: Vivo
+Títulos: O Rosto Sob a Máscara
+
+![Kōga Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256)
+
+## Descrição
+Kōga Kirisame é o Vice-Almirante da Frota Kraken. Já disputou o posto de Almirante e perdeu — a máscara que carrega esconde um rosto coberto de vergonha.
+
+Importa-se genuinamente com todos ao seu redor, mas só enquanto são úteis a ele. Não distingue afeto de manipulação, e acredita que todos existem para servi-lo. É um homem doente: vê criaturas coloridas que mais ninguém enxerga, e responde a elas.
+
+Nada disso o torna menos perigoso. Sua fala funciona como uma maldição — onde ele abre a boca, o caos vem atrás. Dizem que seu nome não deve ser pronunciado. É só um boato.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 28
+- Espírito: 25
+- Vigor: 25
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 14
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Mei Yuki
+ID: 78
+Clã: Yuki
+Grupos: NPC, Kirigakure
+Função: Controle e DPS
+NC: 27
+HP: 226
+Chakra: 91
+Status: Vivo
+Títulos: O Arquivo
+
+![Mei Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992)
+
+## Descrição
+Mei Yuki é a Capitã da Frota Kraken, colecionadora de armas ninja e a maior especialista em história ninja da Névoa. Seu código de guerra é O Arquivo.
+
+Dizem que tem olhos e ouvidos em todos os lugares. Ninguém a encontra: aparece nas reuniões oficiais da Marinha e em nenhum outro lugar, e sai sem deixar rastro. Seu Kekkei Genkai gera vapor do nada, e é dentro da própria névoa quente que ela é mais perigosa.
+
+Sua tesoura, a Decapitadora, traz gravados em vermelho os nomes de suas vítimas, escritos com o sangue de cada uma. Mei não é formal, mas é melhor tê-la do seu lado do que contra você.
+
+## Atributos
+- Força: 27
+- Destreza: 11
+- Agilidade: 27
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 13
+- Futton — Nível 13
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Nao Arashio
+ID: 79
+Clã: Arashio
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 26
+HP: 218
+Chakra: 88
+Status: Vivo
+Títulos: O Azarado da Névoa
+
+![Nao Arashio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061)
+
+## Descrição
+Nao Arashio, Capitão-Tenente da Frota Kraken, não é exatamente o que se chamaria de vilão. É, talvez, um homem muito azarado.
+
+Nunca quis matar ninguém. Ainda assim, sem entender o que estava fazendo e sem nunca ter medido a própria força, já matou mais de mil homens. Alguns dizem que ele é sortudo; na verdade é só um bocó que teve a sorte de não morrer até agora.
+
+Toda a Névoa o vê como um monstro, um vilão sanguinário. É o contrário disso: seu jeito é bobo, desajeitado e sem nenhuma pretensão.
+
+Bom. Isso é o que ele diz.
+
+## Atributos
+- Força: 26
+- Destreza: 10
+- Agilidade: 26
+- Inteligência: 20
+- Espírito: 26
+- Vigor: 26
+- Percepção: 10
+
+## Poderes e Elementos
+- Suiton — Nível 13
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Ganmaren Yuki
+ID: 80
+Clã: Yuki
+Grupos: NPC, Kirigakure
+Função: Controle
+NC: 30
+HP: 250
+Chakra: 137
+Status: Vivo
+Títulos: O Escolhido
+
+![Ganmaren Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643)
+
+## Descrição
+Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.
+
+Foi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hōzuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.
+
+Kirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.
+
+## Atributos
+- Força: 12
+- Destreza: 30
+- Agilidade: 12
+- Inteligência: 27
+- Espírito: 27
+- Vigor: 30
+- Percepção: 30
+
+## Poderes e Elementos
+- Suiton — Nível 15
+- Hyoton — Nível 15
+- Kuchiyose — Nível 15
+- Senjutsu — Nível 15
+- Fuinjutsu — Nível 15
+
+## Aptidões
+Acuidade, Ponto Cego, Crítico Avançado, Intuição, Saque Rápido, Instinto de Batalha: LM, CD, Velocista, Maestria: CD, Técnica Poderosa, Maestria: CC, Crítico Aprimorado, Perito: Lidar com Animais, Perito: Ocultismo, Mestre dos Selos, Potencializar, Ataque em Movimento, Congelamento, Usar Arma: Pistola, Usar Arma: Marreta, Chakra Expandido: Jormungandr
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Gordon Kirisame
+ID: 81
+Clã: Kirisame
+Grupos: NPC, Kirigakure
+Função: Suporte e Tanque
+NC: 28
+HP: 234
+Chakra: 94
+Status: Vivo
+Títulos: O Cego
+
+![Gordon Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930)
+
+## Descrição
+Gordon Kirisame, o Cego, é o Vice-Almirante da Frota Jormungandr e um dos membros mais respeitados do esquadrão — braço direito do ninja mais forte da Névoa. A cicatriz em seu peito foi feita pelo próprio almirante, e é dela que vem sua fidelidade: Gordon o vê como um deus ninja. O que persegue é impor a Kirigakure inteira uma justiça cega, que não enxerga cor nem raça, só caráter.
+
+É quieto, cuidadoso e tem senso de humor. Luta com correntes e jutsus de Suiton, e domina uma versão arcaica do Hiraishin que aperfeiçoou para o próprio estilo: o Flash Marítimo, que lhe permite trocar de lugar com qualquer gomo da própria corrente no meio do combate.
+
+Veio de uma vila vizinha da Névoa, em plena guerra, e lutou por Kirigakure mesmo sendo foragido. Sua origem não podia ser revelada, e foi — por um amigo próximo. Naquela época ainda não era um ninja sensorial: o amigo lhe tirou a visão e o denunciou. Passou dez anos no fundo de um poço até conseguir fugir, e saiu de lá assassino de aluguel.
+
+Voltou a confiar em alguém uma única vez, e foi depois de enfrentar o próprio almirante e quase morrer.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 22
+- Espírito: 28
+- Vigor: 28
+- Percepção: 11
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Magen — Nível 14
+- Senjutsu — Nível 14
+- Fuinjutsu — Nível 14
+
+## Aptidões
+Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Hahiko Shiosaki
+ID: 82
+Clã: Shiosaki
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 28
+HP: 234
+Chakra: 141
+Status: Vivo
+Títulos: Criança Amaldiçoada
+
+![Hahiko Shiosaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235)
+
+## Descrição
+Hahiko Shiosaki é a Capitã da Frota Jormungandr, e Kirigakure a chama de monstro. Cresceu isolada, tratada como criança amaldiçoada — ninguém se ofereceu para cuidar de um monstro.
+
+Tem sede de sangue, e isso não a torna insensível. Cumpre ordens porque nunca teve muita liberdade para fazer outra coisa. É dramática, estranha, e boa parte da Névoa a considera assustadora, apesar da aparência fofa.
+
+Ninguém na vila sabe o motivo: Hahiko é a jinchūriki de Chomei. Ganmaren e Gordon esconderam isso de Kirigakure inteira, e escondem por medo da OCA.
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 22
+- Espírito: 28
+- Vigor: 28
+- Percepção: 11
+
+## Poderes e Elementos
+- Chomei — Nível 14
+- Futon — Nível 14
+- Iryou Ninjutsu — Nível 14
+- Magen — Nível 14
+
+## Aptidões
+Domínio do Vento, Chakra Expandido: Chomei, Maestria: CC, Regeneração, Duro de Matar, Reflexos, Potencializar, Intuição, Ataque Poderoso, Dano Extra, Crítico Aprimorado, Ataque Múltiplo, Voar
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Himari Yuki
+ID: 83
+Clã: Yuki
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 27
+HP: 226
+Chakra: 91
+Status: Vivo
+Títulos: A Heroína Morta
+
+![Himari Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490)
+
+## Descrição
+Himari Yuki foi uma prodígio: a jōnin mais exemplar de sua época e uma heroína para Kirigakure inteira. Hoje é a Capitã-Tenente da Frota Jormungandr, e só uma casca do que foi.
+
+A vila acredita que ela foi atacada por ninjas de outra aldeia — foi o que Juzo Kuroshio fez todos acreditarem. O que houve é que ele a raptou. Via potencial demais nela e no seu Kekkei Genkai de alteração corporal, e acreditava que podia forjar o soldado perfeito, sem sentimentos e de poder inigualável, implantando nela um Sharingan roubado da Vila da Folha.
+
+Ela foi torturada, desmembrada, costurada. Dezenas de técnicas de selo foram aplicadas e testadas em seu corpo. É o experimento mais monstruoso da história da Névoa, e ninguém em Kirigakure quer responder o que sobra de um ser tratado pior que um verme.
+
+Sobrou o fantoche que Juzo tentou controlar. A heroína morreu, e o que restou mal pensa por si. Ganmaren a resgatou depois, em acordos que ninguém detalha.
+
+## Atributos
+- Força: 27
+- Destreza: 11
+- Agilidade: 27
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 11
+
+## Poderes e Elementos
+- Katon — Nível 13
+- Kugutsu — Nível 13
+- Fuinjutsu — Nível 13
+- Jiogu — Nível 13
+
+## Aptidões
+Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan, Eternal Mangekyou Sharingan, Regeneração, Mestre dos Selos, Ambidestria, Bloqueio Ambidestro, Duro de Matar, Acuidade, Maestria: CD, Reflexos, Potencializar, Dano Extra, Ataque Múltiplo, Ponto Cego
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Enkai Kuroshio
+ID: 84
+Clã: Kuroshio
+Grupos: NPC, Kirigakure
+Função: DPS e Suporte
+NC: 29
+HP: 230
+Chakra: 132
+Status: Vivo
+Títulos: O Almirante Sanguinário
+
+![Enkai Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763)
+
+## Descrição
+Enkai Kuroshio, Almirante da Frota Megalodon, é calmo, elegante e extremamente perspicaz. Muitos nunca o viram lutar — a maioria dos que o enfrentaram não voltou com vida. A pele branca como a névoa e os olhos vermelhos lhe deram o apelido de vampiro, e o apelido pegou.
+
+Em combate, é um ninja de precisão altíssima, com golpes baseados em Suiton. Mas há algo nele que ninguém na Névoa consegue explicar: dizem que seu chakra é especial, que ele está vivo há muitos anos e que nunca envelheceu um dia. Alguns o comparam a Rock Gunma. Kirigakure não tem resposta melhor do que isso.
+
+Em segredo, Enkai é um fanático pela ideia de imortalidade, e gasta boa parte do próprio chakra sustentando uma marca de energia no peito. É de fato eterno, com uma regeneração comparada à de Hashirama. Seus golpes são pressão e aniquilação rápida, feitos para encerrar a batalha em pouco tempo — um estrategista, um vampiro de verdade, que deixa o sangue dos adversários por onde passa.
+
+## Atributos
+- Força: 29
+- Destreza: 12
+- Agilidade: 29
+- Inteligência: 29
+- Espírito: 26
+- Vigor: 25
+- Percepção: 12
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Ketton — Nível 14
+- Kuchiyose — Nível 14
+- Senjutsu — Nível 14
+- Magen — Nível 14
+
+## Aptidões
+Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar, Domínio do Sangue, Maestria: CD, Regeneração, Ketsuryugan, Ketsuryugan Eterno, Chakra Expandido: Megalodon
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Ayame Sazanami
+ID: 85
+Clã: Sazanami
+Grupos: NPC, Kirigakure
+Função: Suporte e Controle
+NC: 28
+HP: 234
+Chakra: 128
+Status: Vivo
+Títulos: Filho do Céu
+
+![Ayame Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717)
+
+## Descrição
+Ayame Sazanami é o Vice-Almirante da Frota Megalodon e portador do Shingan, os olhos divinos do clã Sazanami, que dentro da Névoa a maioria ainda trata como lenda.
+
+Seus olhos veem e distorcem o chakra de qualquer ser vivo num raio de 500 metros. Ayame manipula esse chakra como se fosse névoa: dissipa, concentra e, no limite, paralisa o oponente, deixando-o completamente indefeso.
+
+O preço é alto. O consumo é tão grande que ele abre a própria defesa para sustentá-lo, e o dōjutsu não pode ser desligado. Por isso, e porque o chakra que ele exala pode ser rastreado, o próprio clã o selou.
+
+## Atributos
+- Força: 11
+- Destreza: 28
+- Agilidade: 11
+- Inteligência: 25
+- Espírito: 25
+- Vigor: 28
+- Percepção: 28
+
+## Poderes e Elementos
+- Suiton — Nível 14
+- Fuinjutsu — Nível 14
+- Magen — Nível 14
+- Iryou Ninjutsu — Nível 14
+
+## Aptidões
+Shingan, Shingan Eterno, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Perito: Rastrear, Regeneração, Mil Anos de Vida, Chakra da Cura
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Tōma Umikage
+ID: 86
+Clã: Umikage
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 27
+HP: 205
+Chakra: 137
+Status: Vivo
+Títulos: Hyuga de Kirigakure
+
+![Tōma Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788190690779402)
+
+## Descrição
+Tōma Umikage, a Ganância, é a Capitã da Frota Megalodon. Acredita que só o esforço torna alguém importante, e sua ambição não tem par.
+
+Seus feitos são tão brutais que muitos dos que nunca a viram supõem que seja um homem, sem imaginar o rosto gentil por trás de tanta violência. Nesse rosto está sua maior conquista: um olho Byakugan transplantado, que pode evoluir para o Fujogan de Asami.
+
+Luta com duas armas que, imbuídas de chakra, disparam projéteis contra os tenketsus, e com o Byakugan, raramente erra. É exímia em Taijutsu, longa distância e ninjutsu médico.
+
+## Atributos
+- Força: 11
+- Destreza: 27
+- Agilidade: 11
+- Inteligência: 27
+- Espírito: 27
+- Vigor: 20
+- Percepção: 27
+
+## Poderes e Elementos
+- Suiton — Nível 13
+- Fuinjutsu — Nível 13
+- Hyuga no Fujo — Nível 13
+- Iryou Ninjutsu — Nível 13
+
+## Aptidões
+Acuidade, Contragolpe, Fujogan, Tenketsu Byakugan, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Atirador, Byakugan, Duro de Matar, Rasteira, Chute Giratório, Maestria: CD
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Mirei Sazanami
+ID: 87
+Clã: Sazanami
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 26
+HP: 218
+Chakra: 132
+Status: Vivo
+Títulos: Filha da Terra
+
+![Mirei Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649)
+
+## Descrição
+Mirei Sazanami, a Filha da Terra, é a Capitã-Tenente da Frota Megalodon. Diferente do irmão, nunca aprendeu a usar o Shingan — seu corpo não evoluiu a esse ponto — e o selamento do clã a deixou cega. Ainda assim se move pelo campo guiada pelas explosões da própria espada.
+
+É respeitada por todos, menos pela própria família. Amorosa e dura na mesma medida, líder nata, de sensibilidade e inteligência avassaladoras.
+
+Luta com técnicas de espada e manipula Suiton. Criou o Clone Falso, um clone-armadilha traiçoeiro, de poder explosivo.
+
+## Atributos
+- Força: 26
+- Destreza: 10
+- Agilidade: 26
+- Inteligência: 20
+- Espírito: 26
+- Vigor: 26
+- Percepção: 10
+
+## Poderes e Elementos
+- Suiton — Nível 13
+- Magen — Nível 13
+
+## Aptidões
+Shingan, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Lutar às Cegas, Mira Apurada, Oportunista, Mobilidade, Punho de Ferro, Reflexos, Retirada Rápida, Rolamento
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Akairo Uchiha (A)
+ID: 88
 Clã: Uchiha
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -9074,7 +9805,7 @@ Extremamente proibida. O consumo de chakra é colossal, drenando reservas físic
 ---
 
 # Borashi Hyuga (B)
-ID: 73
+ID: 89
 Clã: Hyuga
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -9200,7 +9931,7 @@ Extremamente perigoso. A ausência temporária do chakra natural deixa Borashi v
 ---
 
 # Chisaki Dokuhana (C)
-ID: 74
+ID: 90
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: Suporte
@@ -9306,7 +10037,7 @@ Altamente estável enquanto houver energia natural disponível. Em ambientes ár
 ---
 
 # Daiki Uzumaki (D)
-ID: 75
+ID: 91
 Clã: Uzumaki
 Grupos: NPC, OCA, Konohagakure
 Função: Suporte e DPS
@@ -9450,7 +10181,7 @@ Habilidade avançada. Consome chakra constantemente e pode causar fadiga mental 
 ---
 
 # Etsuko Senju (E)
-ID: 76
+ID: 92
 Clã: Senju
 Grupos: NPC, OCA, Konohagakure
 Função: DPS
@@ -9528,7 +10259,7 @@ Uso restrito. Requer domínio absoluto de Hiraishin e controle preciso do elemen
 ---
 
 # Fuyuki Dokuhana (F)
-ID: 77
+ID: 93
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: DPS
@@ -9613,7 +10344,7 @@ Uso altamente restrito. Exige grande volume sanguíneo, resistência física ext
 ---
 
 # Genei (G)
-ID: 78
+ID: 94
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: Tank e DPS
@@ -9708,7 +10439,7 @@ Extremamente instável. O uso prolongado sobrecarrega o núcleo artificial e pod
 ---
 
 # Hayato Hanzo (H)
-ID: 79
+ID: 95
 Clã: Hanzo
 Grupos: NPC, OCA, Kumogakure
 Função: Suporte e Controle
@@ -9795,7 +10526,7 @@ Consome quantidades colossais de chakra e exige controle mental absoluto. Uso pr
 ---
 
 # Kaien Ishi (Omega)
-ID: 80
+ID: 96
 Clã: Ishi
 Grupos: NPC, OCA, Iwagakure
 Função: DPS
@@ -9904,7 +10635,7 @@ Manter os tanques de chakra ativos e a absorção contínua exige concentração
 ---
 
 # Katakana Yotsuki (Alpha)
-ID: 81
+ID: 97
 Clã: Yotsuki
 Grupos: NPC, OCA, Kumogakure
 Função: ?
@@ -10031,7 +10762,7 @@ Alto consumo de chakra e exige percepção espacial extrema. Uso excessivo pode 
 ---
 
 # Ganmasen Yuki (Gama)
-ID: 82
+ID: 98
 Clã: Yuki
 Grupos: NPC, OCA, Kirigakure
 Função: Controle
@@ -10157,7 +10888,7 @@ Consome enormes reservas de chakra e exige controle minucioso da pressão intern
 ---
 
 # Deruta Muujin (Delta)
-ID: 83
+ID: 99
 Clã: Muujin
 Grupos: NPC, OCA, Iwagakure
 Função: ?
@@ -10317,7 +11048,7 @@ Consumo elevado, porém mais estável que técnicas de larga escala. Pode ser qu
 ---
 
 # Shiita Sabaku (Theta)
-ID: 84
+ID: 100
 Clã: Dabado
 Grupos: NPC, OCA, Sunagakure
 Função: Controle
@@ -10362,7 +11093,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Beta
-ID: 85
+ID: 101
 Clã: Desconhecido
 Grupos: NPC, OCA, Konohagakure
 Função: ?
@@ -10504,7 +11235,7 @@ Consumo extremo e constante de chakra. Vulnerável a técnicas de selamento ou e
 ---
 
 # Hades
-ID: 86
+ID: 102
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: ?
@@ -10537,737 +11268,6 @@ Desconhecido
 
 ## Aptidões
 Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Amakumo Hōzuki
-ID: 87
-Clã: Hōzuki
-Grupos: NPC, Kirigakure
-Função: Tank
-NC: 29
-HP: 242
-Chakra: 132
-Status: Vivo
-Títulos: A Muralha Escolhida por Leviatã
-
-![Amakumo Hōzuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727)
-
-## Descrição
-Amakumo é um homem bom, porém possui limites muito bem definidos, especialmente durante conversas e discussões políticas. Respeita profundamente Genzō, seu amigo de longa data, parceiro de combate e atual vice-almirante da Frota Leviatã. Apesar de suas diferenças, os dois construíram uma relação baseada em confiança e lealdade.
-
-Amakumo possui uma armadura de água tão rígida quanto o aço. Seus golpes são expansivos e devastadores, alcançando uma força comparável à de uma Bijū. É conhecido por sua quantidade extraordinária de chakra, por sua natureza bárbara durante as batalhas e, ao mesmo tempo, por seu bom coração. Acredita que o mundo ninja ainda pode ser salvo para além das fronteiras e disputas políticas entre as vilas.
-
-Ele está longe de ser pacifista: para Amakumo, a paz é conquistada por meio de seus próprios punhos. Seu físico é conhecido por ser praticamente impenetrável. Não é um combatente veloz, pois acredita que não precisa evitar os ataques de seus adversários. Em vez disso, resiste, avança e derrota qualquer inimigo que permaneça em seu caminho.
-
-## Atributos
-- Força: 29
-- Destreza: 12
-- Agilidade: 29
-- Inteligência: 25
-- Espírito: 26
-- Vigor: 29
-- Percepção: 12
-
-## Poderes e Elementos
-- Suiton — Nível 14
-- Hyoton — Nível 14
-- Iryō Ninjutsu — Nível 14
-
-## Aptidões
-Ambidestria, Maestria: CC, Saque Rápido, Potencializar, Técnica Poderosa, Domínio da Água, Instinto de Batalha: LM, CD, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, De Pé, Reflexos, Punho de Ferro, Crítico Aprimorado, Soco em Gancho, Duro de Matar, Chakra Expandido: Leviatã, Contragolpe
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Genzō Umikage
-ID: 88
-Clã: Umikage
-Grupos: NPC, Kirigakure
-Função: Suporte e Controle
-NC: 29
-HP: 221
-Chakra: 97
-Status: Vivo
-Títulos: O Sábio dos Mares
-
-![Genzō Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376)
-
-## Descrição
-Genzō Umikage é um artesão, um simples pescador e, ao mesmo tempo, um grande Vice-Almirante. Age de maneira calma e pacífica em praticamente todas as situações, exceto quando alguém desafia ou ameaça sua vila. Costuma passar seu tempo com uma vara de pesca no porto. Embora sua aparência coberta por escamas possa assustar algumas pessoas, Genzō é um homem bondoso.
-
-Sua proficiência com a água é extraordinária. Durante uma batalha, muitos adversários sequer conseguem enxergar seus movimentos. Genzō luta de maneira fluida como a água, mantendo a sabedoria de um monge e a serenidade de um pescador, mesmo diante das ameaças mais perigosas.
-
-Suas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsus de selamento. Genzō conhece milhares de fórmulas de Fūinjutsu, pois acredita que a melhor forma de eliminar uma ameaça não é derramando mais sangue, mas impedindo-a de continuar lutando. Sua principal técnica de selamento é a Rede, que funciona como uma rede de pesca capaz de capturar e selar grandes quantidades de chakra.
-
-## Atributos
-- Força: 12
-- Destreza: 29
-- Agilidade: 12
-- Inteligência: 29
-- Espírito: 29
-- Vigor: 22
-- Percepção: 29
-
-## Poderes e Elementos
-- Suiton — Nível 14
-- Futton — Nível 14
-- Fūinjutsu — Nível 14
-- Kuchiyose — Nível 14
-- Senjutsu — Nível 14
-
-## Aptidões
-Acuidade, Intuição, Domínio da Água, Potencializar, Maestria: CD, Maestria: CC, Lutar às Cegas, Mestre dos Selos, Perito: Rastrear, Perito: Lidar com Animais, Ponto Cego, Técnica Poderosa, Fascinar, Miragem, Réplica Enganadora, Sensor, Elemento Natural: Suiton, Reserva de Água
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Raizuki Hoshigaki
-ID: 89
-Clã: Hoshigaki
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 28
-HP: 234
-Chakra: 94
-Status: Vivo
-Títulos: O Tubarão Sem Passado
-
-![Raizuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499)
-
-## Descrição
-Registros apagados na Vila da Névoa.
-
-## Atributos
-- Força: 28
-- Destreza: 11
-- Agilidade: 28
-- Inteligência: 22
-- Espírito: 28
-- Vigor: 28
-- Percepção: 11
-
-## Poderes e Elementos
-- Suiton — Nível 14
-- Kuchiyose — Nível 14
-- Senjutsu — Nível 14
-- Rasengan — Nível 14
-
-## Aptidões
-Acuidade, Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado, Lutar às Cegas, Maestria: CC, Potencializar, Rasteira, Reflexos, Velocista, Elemento Natural: Suiton, Predador Aquático, Reserva de Água, Corpo Líquido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Suiren Shiranami
-ID: 90
-Clã: Shiranami
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 24
-HP: 184
-Chakra: 82
-Status: Vivo
-Títulos: A Miragem Negra da Névoa
-
-![Suiren Shiranami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131)
-
-## Descrição
-Suiren Shiranami é um jovem promissor de 25 anos, dono de um histórico formidável e de uma disciplina exemplar. Portador da Espada da Névoa, é visto como um herói pelo povo de Kirigakure: um homem gentil que busca proteger a vila e seus habitantes.
-
-Suiren é especialmente querido pelas crianças e dedica parte de seu tempo livre a ajudar a comunidade. Apesar de sua posição militar, não se distancia das pessoas que jurou defender, mantendo uma relação próxima com os moradores da Névoa.
-
-Em combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu repertório combina ninjutsus e ilusões, tornando-o um combatente versátil e difícil de enfrentar à distância. É considerado um jōnin completo e de bom coração.
-
-## Atributos
-- Força: 9
-- Destreza: 24
-- Agilidade: 9
-- Inteligência: 24
-- Espírito: 24
-- Vigor: 18
-- Percepção: 24
-
-## Poderes e Elementos
-- Suiton — Nível 12
-- Katon — Nível 12
-- Futton — Nível 12
-- Magen — Nível 12
-- Kuchiyose — Nível 12
-
-## Aptidões
-Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CD, Intuição, Acuidade, Lutar às Cegas
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Juzo Kuroshio
-ID: 91
-Clã: Kuroshio
-Grupos: NPC, Kirigakure
-Função: DPS e Controle
-NC: 29
-HP: 230
-Chakra: 132
-Status: Vivo
-Títulos: O Almirante Sujo
-
-![Juzo Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702)
-
-## Descrição
-Juzo, Almirante da Frota Kraken, é um dos homens mais influentes, formidáveis e cruéis da Névoa. Inteligente, paciente e articulado, atravessa guerras utilizando alianças, chantagens, informações e acordos secretos. Comanda uma extensa rede clandestina de agentes e intermediários espalhada por diversas vilas.
-
-Puramente mau e desprovido de limites morais, Juzo manipula, tortura e elimina qualquer pessoa em benefício próprio. Enxerga Kirigakure como um instrumento para ampliar seu poder. Apesar de sua arrogância, teme Ganmaren, pois compreende a verdadeira dimensão de seu poder e sabe do que ele seria capaz caso decidisse enfrentá-lo.
-
-Poucos sabem que Juzo perdeu um braço ao enfrentar secretamente o falso Mizukage Gama enquanto investigava a transformação de Ganmasen Yuki. Desde então, trabalhou para destituí-lo por vingança e orgulho. Apesar de sua monstruosidade, sempre cumpre recompensas, acordos e ameaças, pois sua reputação como homem de palavra fortalece sua influência e o medo provocado por seu nome.
-
-## Atributos
-- Força: 29
-- Destreza: 12
-- Agilidade: 29
-- Inteligência: 29
-- Espírito: 26
-- Vigor: 25
-- Percepção: 12
-
-## Poderes e Elementos
-- Suiton — Nível 14
-- Futton — Nível 14
-- Youton — Nível 14
-- Fūinjutsu — Nível 14
-
-## Aptidões
-Futton Sufocante, Youton Corrosivo, Dupla Linhagem, Domínio da Água, Acuidade, Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado, Lutar às Cegas, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, Reflexos, Punho de Ferro, Soco em Gancho, Duro de Matar, Chakra Expandido: Kraken
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Kōga Kirisame
-ID: 92
-Clã: Kirisame
-Grupos: NPC, Kirigakure
-Função: DPS e Controle
-NC: 28
-HP: 225
-Chakra: 85
-Status: Vivo
-Títulos: O Rosto Sob a Máscara
-
-![Kōga Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256)
-
-## Descrição
-Kōga Kirisame é o Vice-Almirante da Frota Kraken. Já disputou o posto de Almirante e perdeu — a máscara que carrega esconde um rosto coberto de vergonha.
-
-Importa-se genuinamente com todos ao seu redor, mas só enquanto são úteis a ele. Não distingue afeto de manipulação, e acredita que todos existem para servi-lo. É um homem doente: vê criaturas coloridas que mais ninguém enxerga, e responde a elas.
-
-Nada disso o torna menos perigoso. Sua fala funciona como uma maldição — onde ele abre a boca, o caos vem atrás. Dizem que seu nome não deve ser pronunciado. É só um boato.
-
-## Atributos
-- Força: 28
-- Destreza: 11
-- Agilidade: 28
-- Inteligência: 28
-- Espírito: 25
-- Vigor: 25
-- Percepção: 11
-
-## Poderes e Elementos
-- Suiton — Nível 14
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Mei Yuki
-ID: 93
-Clã: Yuki
-Grupos: NPC, Kirigakure
-Função: Controle e DPS
-NC: 27
-HP: 226
-Chakra: 91
-Status: Vivo
-Títulos: O Arquivo
-
-![Mei Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992)
-
-## Descrição
-Mei Yuki é a Capitã da Frota Kraken, colecionadora de armas ninja e a maior especialista em história ninja da Névoa. Seu código de guerra é O Arquivo.
-
-Dizem que tem olhos e ouvidos em todos os lugares. Ninguém a encontra: aparece nas reuniões oficiais da Marinha e em nenhum outro lugar, e sai sem deixar rastro. Seu Kekkei Genkai gera vapor do nada, e é dentro da própria névoa quente que ela é mais perigosa.
-
-Sua tesoura, a Decapitadora, traz gravados em vermelho os nomes de suas vítimas, escritos com o sangue de cada uma. Mei não é formal, mas é melhor tê-la do seu lado do que contra você.
-
-## Atributos
-- Força: 27
-- Destreza: 11
-- Agilidade: 27
-- Inteligência: 20
-- Espírito: 27
-- Vigor: 27
-- Percepção: 11
-
-## Poderes e Elementos
-- Suiton — Nível 13
-- Futton — Nível 13
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Nao Arashio
-ID: 94
-Clã: Arashio
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 26
-HP: 218
-Chakra: 88
-Status: Vivo
-Títulos: O Azarado da Névoa
-
-![Nao Arashio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061)
-
-## Descrição
-Nao Arashio, Capitão-Tenente da Frota Kraken, não é exatamente o que se chamaria de vilão. É, talvez, um homem muito azarado.
-
-Nunca quis matar ninguém. Ainda assim, sem entender o que estava fazendo e sem nunca ter medido a própria força, já matou mais de mil homens. Alguns dizem que ele é sortudo; na verdade é só um bocó que teve a sorte de não morrer até agora.
-
-Toda a Névoa o vê como um monstro, um vilão sanguinário. É o contrário disso: seu jeito é bobo, desajeitado e sem nenhuma pretensão.
-
-Bom. Isso é o que ele diz.
-
-## Atributos
-- Força: 26
-- Destreza: 10
-- Agilidade: 26
-- Inteligência: 20
-- Espírito: 26
-- Vigor: 26
-- Percepção: 10
-
-## Poderes e Elementos
-- Suiton — Nível 13
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Ganmaren Yuki
-ID: 95
-Clã: Yuki
-Grupos: NPC, Kirigakure
-Função: Controle
-NC: 30
-HP: 250
-Chakra: 137
-Status: Vivo
-Títulos: O Escolhido
-
-![Ganmaren Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643)
-
-## Descrição
-Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.
-
-Foi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hōzuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.
-
-Kirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.
-
-## Atributos
-- Força: 12
-- Destreza: 30
-- Agilidade: 12
-- Inteligência: 27
-- Espírito: 27
-- Vigor: 30
-- Percepção: 30
-
-## Poderes e Elementos
-- Suiton — Nível 15
-- Hyoton — Nível 15
-- Kuchiyose — Nível 15
-- Senjutsu — Nível 15
-- Fuinjutsu — Nível 15
-
-## Aptidões
-Acuidade, Ponto Cego, Crítico Avançado, Intuição, Saque Rápido, Instinto de Batalha: LM, CD, Velocista, Maestria: CD, Técnica Poderosa, Maestria: CC, Crítico Aprimorado, Perito: Lidar com Animais, Perito: Ocultismo, Mestre dos Selos, Potencializar, Ataque em Movimento, Congelamento, Usar Arma: Pistola, Usar Arma: Marreta, Chakra Expandido: Jormungandr
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Gordon Kirisame
-ID: 96
-Clã: Kirisame
-Grupos: NPC, Kirigakure
-Função: Suporte e Tanque
-NC: 28
-HP: 234
-Chakra: 94
-Status: Vivo
-Títulos: O Cego
-
-![Gordon Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930)
-
-## Descrição
-Gordon Kirisame, o Cego, é o Vice-Almirante da Frota Jormungandr e um dos membros mais respeitados do esquadrão — braço direito do ninja mais forte da Névoa. A cicatriz em seu peito foi feita pelo próprio almirante, e é dela que vem sua fidelidade: Gordon o vê como um deus ninja. O que persegue é impor a Kirigakure inteira uma justiça cega, que não enxerga cor nem raça, só caráter.
-
-É quieto, cuidadoso e tem senso de humor. Luta com correntes e jutsus de Suiton, e domina uma versão arcaica do Hiraishin que aperfeiçoou para o próprio estilo: o Flash Marítimo, que lhe permite trocar de lugar com qualquer gomo da própria corrente no meio do combate.
-
-Veio de uma vila vizinha da Névoa, em plena guerra, e lutou por Kirigakure mesmo sendo foragido. Sua origem não podia ser revelada, e foi — por um amigo próximo. Naquela época ainda não era um ninja sensorial: o amigo lhe tirou a visão e o denunciou. Passou dez anos no fundo de um poço até conseguir fugir, e saiu de lá assassino de aluguel.
-
-Voltou a confiar em alguém uma única vez, e foi depois de enfrentar o próprio almirante e quase morrer.
-
-## Atributos
-- Força: 28
-- Destreza: 11
-- Agilidade: 28
-- Inteligência: 22
-- Espírito: 28
-- Vigor: 28
-- Percepção: 11
-
-## Poderes e Elementos
-- Suiton — Nível 14
-- Magen — Nível 14
-- Senjutsu — Nível 14
-- Fuinjutsu — Nível 14
-
-## Aptidões
-Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Hahiko Shiosaki
-ID: 97
-Clã: Shiosaki
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 28
-HP: 234
-Chakra: 141
-Status: Vivo
-Títulos: Criança Amaldiçoada
-
-![Hahiko Shiosaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235)
-
-## Descrição
-Hahiko Shiosaki é a Capitã da Frota Jormungandr, e Kirigakure a chama de monstro. Cresceu isolada, tratada como criança amaldiçoada — ninguém se ofereceu para cuidar de um monstro.
-
-Tem sede de sangue, e isso não a torna insensível. Cumpre ordens porque nunca teve muita liberdade para fazer outra coisa. É dramática, estranha, e boa parte da Névoa a considera assustadora, apesar da aparência fofa.
-
-Ninguém na vila sabe o motivo: Hahiko é a jinchūriki de Chomei. Ganmaren e Gordon esconderam isso de Kirigakure inteira, e escondem por medo da OCA.
-
-## Atributos
-- Força: 28
-- Destreza: 11
-- Agilidade: 28
-- Inteligência: 22
-- Espírito: 28
-- Vigor: 28
-- Percepção: 11
-
-## Poderes e Elementos
-- Chomei — Nível 14
-- Futon — Nível 14
-- Iryou Ninjutsu — Nível 14
-- Magen — Nível 14
-
-## Aptidões
-Domínio do Vento, Chakra Expandido: Chomei, Maestria: CC, Regeneração, Duro de Matar, Reflexos, Potencializar, Intuição, Ataque Poderoso, Dano Extra, Crítico Aprimorado, Ataque Múltiplo, Voar
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Himari Yuki
-ID: 98
-Clã: Yuki
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 27
-HP: 226
-Chakra: 91
-Status: Vivo
-Títulos: A Heroína Morta
-
-![Himari Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490)
-
-## Descrição
-Himari Yuki foi uma prodígio: a jōnin mais exemplar de sua época e uma heroína para Kirigakure inteira. Hoje é a Capitã-Tenente da Frota Jormungandr, e só uma casca do que foi.
-
-A vila acredita que ela foi atacada por ninjas de outra aldeia — foi o que Juzo Kuroshio fez todos acreditarem. O que houve é que ele a raptou. Via potencial demais nela e no seu Kekkei Genkai de alteração corporal, e acreditava que podia forjar o soldado perfeito, sem sentimentos e de poder inigualável, implantando nela um Sharingan roubado da Vila da Folha.
-
-Ela foi torturada, desmembrada, costurada. Dezenas de técnicas de selo foram aplicadas e testadas em seu corpo. É o experimento mais monstruoso da história da Névoa, e ninguém em Kirigakure quer responder o que sobra de um ser tratado pior que um verme.
-
-Sobrou o fantoche que Juzo tentou controlar. A heroína morreu, e o que restou mal pensa por si. Ganmaren a resgatou depois, em acordos que ninguém detalha.
-
-## Atributos
-- Força: 27
-- Destreza: 11
-- Agilidade: 27
-- Inteligência: 20
-- Espírito: 27
-- Vigor: 27
-- Percepção: 11
-
-## Poderes e Elementos
-- Katon — Nível 13
-- Kugutsu — Nível 13
-- Fuinjutsu — Nível 13
-- Jiogu — Nível 13
-
-## Aptidões
-Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan, Eternal Mangekyou Sharingan, Regeneração, Mestre dos Selos, Ambidestria, Bloqueio Ambidestro, Duro de Matar, Acuidade, Maestria: CD, Reflexos, Potencializar, Dano Extra, Ataque Múltiplo, Ponto Cego
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Enkai Kuroshio
-ID: 99
-Clã: Kuroshio
-Grupos: NPC, Kirigakure
-Função: DPS e Suporte
-NC: 29
-HP: 230
-Chakra: 132
-Status: Vivo
-Títulos: O Almirante Sanguinário
-
-![Enkai Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763)
-
-## Descrição
-Enkai Kuroshio, Almirante da Frota Megalodon, é calmo, elegante e extremamente perspicaz. Muitos nunca o viram lutar — a maioria dos que o enfrentaram não voltou com vida. A pele branca como a névoa e os olhos vermelhos lhe deram o apelido de vampiro, e o apelido pegou.
-
-Em combate, é um ninja de precisão altíssima, com golpes baseados em Suiton. Mas há algo nele que ninguém na Névoa consegue explicar: dizem que seu chakra é especial, que ele está vivo há muitos anos e que nunca envelheceu um dia. Alguns o comparam a Rock Gunma. Kirigakure não tem resposta melhor do que isso.
-
-Em segredo, Enkai é um fanático pela ideia de imortalidade, e gasta boa parte do próprio chakra sustentando uma marca de energia no peito. É de fato eterno, com uma regeneração comparada à de Hashirama. Seus golpes são pressão e aniquilação rápida, feitos para encerrar a batalha em pouco tempo — um estrategista, um vampiro de verdade, que deixa o sangue dos adversários por onde passa.
-
-## Atributos
-- Força: 29
-- Destreza: 12
-- Agilidade: 29
-- Inteligência: 29
-- Espírito: 26
-- Vigor: 25
-- Percepção: 12
-
-## Poderes e Elementos
-- Suiton — Nível 14
-- Ketton — Nível 14
-- Kuchiyose — Nível 14
-- Senjutsu — Nível 14
-- Magen — Nível 14
-
-## Aptidões
-Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar, Domínio do Sangue, Maestria: CD, Regeneração, Ketsuryugan, Ketsuryugan Eterno, Chakra Expandido: Megalodon
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Ayame Sazanami
-ID: 100
-Clã: Sazanami
-Grupos: NPC, Kirigakure
-Função: Suporte e Controle
-NC: 28
-HP: 234
-Chakra: 128
-Status: Vivo
-Títulos: Filho do Céu
-
-![Ayame Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717)
-
-## Descrição
-Ayame Sazanami é o Vice-Almirante da Frota Megalodon e portador do Shingan, os olhos divinos do clã Sazanami, que dentro da Névoa a maioria ainda trata como lenda.
-
-Seus olhos veem e distorcem o chakra de qualquer ser vivo num raio de 500 metros. Ayame manipula esse chakra como se fosse névoa: dissipa, concentra e, no limite, paralisa o oponente, deixando-o completamente indefeso.
-
-O preço é alto. O consumo é tão grande que ele abre a própria defesa para sustentá-lo, e o dōjutsu não pode ser desligado. Por isso, e porque o chakra que ele exala pode ser rastreado, o próprio clã o selou.
-
-## Atributos
-- Força: 11
-- Destreza: 28
-- Agilidade: 11
-- Inteligência: 25
-- Espírito: 25
-- Vigor: 28
-- Percepção: 28
-
-## Poderes e Elementos
-- Suiton — Nível 14
-- Fuinjutsu — Nível 14
-- Magen — Nível 14
-- Iryou Ninjutsu — Nível 14
-
-## Aptidões
-Shingan, Shingan Eterno, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Perito: Rastrear, Regeneração, Mil Anos de Vida, Chakra da Cura
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Tōma Umikage
-ID: 101
-Clã: Umikage
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 27
-HP: 205
-Chakra: 137
-Status: Vivo
-Títulos: Hyuga de Kirigakure
-
-![Tōma Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788190690779402)
-
-## Descrição
-Tōma Umikage, a Ganância, é a Capitã da Frota Megalodon. Acredita que só o esforço torna alguém importante, e sua ambição não tem par.
-
-Seus feitos são tão brutais que muitos dos que nunca a viram supõem que seja um homem, sem imaginar o rosto gentil por trás de tanta violência. Nesse rosto está sua maior conquista: um olho Byakugan transplantado, que pode evoluir para o Fujogan de Asami.
-
-Luta com duas armas que, imbuídas de chakra, disparam projéteis contra os tenketsus, e com o Byakugan, raramente erra. É exímia em Taijutsu, longa distância e ninjutsu médico.
-
-## Atributos
-- Força: 11
-- Destreza: 27
-- Agilidade: 11
-- Inteligência: 27
-- Espírito: 27
-- Vigor: 20
-- Percepção: 27
-
-## Poderes e Elementos
-- Suiton — Nível 13
-- Fuinjutsu — Nível 13
-- Hyuga no Fujo — Nível 13
-- Iryou Ninjutsu — Nível 13
-
-## Aptidões
-Acuidade, Contragolpe, Fujogan, Tenketsu Byakugan, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Atirador, Byakugan, Duro de Matar, Rasteira, Chute Giratório, Maestria: CD
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Mirei Sazanami
-ID: 102
-Clã: Sazanami
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 26
-HP: 218
-Chakra: 132
-Status: Vivo
-Títulos: Filha da Terra
-
-![Mirei Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649)
-
-## Descrição
-Mirei Sazanami, a Filha da Terra, é a Capitã-Tenente da Frota Megalodon. Diferente do irmão, nunca aprendeu a usar o Shingan — seu corpo não evoluiu a esse ponto — e o selamento do clã a deixou cega. Ainda assim se move pelo campo guiada pelas explosões da própria espada.
-
-É respeitada por todos, menos pela própria família. Amorosa e dura na mesma medida, líder nata, de sensibilidade e inteligência avassaladoras.
-
-Luta com técnicas de espada e manipula Suiton. Criou o Clone Falso, um clone-armadilha traiçoeiro, de poder explosivo.
-
-## Atributos
-- Força: 26
-- Destreza: 10
-- Agilidade: 26
-- Inteligência: 20
-- Espírito: 26
-- Vigor: 26
-- Percepção: 10
-
-## Poderes e Elementos
-- Suiton — Nível 13
-- Magen — Nível 13
-
-## Aptidões
-Shingan, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Lutar às Cegas, Mira Apurada, Oportunista, Mobilidade, Punho de Ferro, Reflexos, Retirada Rápida, Rolamento
 
 ## Arsenal
 Nenhum item cadastrado.
