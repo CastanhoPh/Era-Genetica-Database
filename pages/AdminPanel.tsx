@@ -8,6 +8,7 @@ import { setCombatProfile, subscribeChecklist, fixChecklistOrder, subscribeProto
 import { Character, ChecklistItem, PrototypeEntry, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
 import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
+import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
 
 /** Se a ficha tem uma proporção explícita para estes divididos. Objeto vazio, ou proporção sobre
  *  outros divididos (sobra de uma troca de foco), conta como "não tem" — aí vale partes iguais. */
@@ -94,6 +95,17 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [fixOrderResult, setFixOrderResult] = useState<string | null>(null);
   const [fixOrderError, setFixOrderError] = useState<string | null>(null);
   const [chronologySearch, setChronologySearch] = useState('');
+  // Filtros da tabela de personagens. 'Todos' é o valor neutro de cada um, e todos combinam
+  // por E — é assim que se acha "quem de Kumo é Controle e ainda não tem descrição".
+  const [fVila, setFVila] = useState('Todos');
+  const [fOrg, setFOrg] = useState('Todos');
+  const [fPosto, setFPosto] = useState('Todos');
+  const [fCla, setFCla] = useState('Todos');
+  const [fFuncao, setFFuncao] = useState('Todos');
+  const [fStatus, setFStatus] = useState('Todos');
+  const [fAparicao, setFAparicao] = useState('Todos');
+  const [fFalta, setFFalta] = useState('Todos');
+  const [ordem, setOrdem] = useState<'id' | 'nome' | 'nc'>('id');
 
   const [bulkFases, setBulkFases] = useState<Set<string>>(new Set());
   const [bulkChars, setBulkChars] = useState<Set<string>>(new Set());
@@ -767,12 +779,65 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const pctUsed = storageStats ? Math.min(100, (storageStats.totalBytes / FREE_TIER_BYTES) * 100) : 0;
 
   const chronologyExcluded = characters.filter(c => c.timelineExcluded);
+  // O que falta em cada ficha. É a coluna que mais serve no dia a dia: 22 fichas sem descrição,
+  // 7 sem aptidão, e o perfil de combate é o que gera atributos, HP e Chakra — sem ele a ficha
+  // não fecha. Ordem da lista = ordem em que aparece nos chips.
+  const faltasDe = useCallback((c: Character) => {
+    const f: string[] = [];
+    if (!c.description) f.push('descrição');
+    if (!c.image) f.push('imagem');
+    if (!(c.aptitudes ?? []).length) f.push('aptidões');
+    if (!c.combatStyle || !(c.focosAtributo ?? []).length) f.push('perfil');
+    if (!(c.titles ?? []).length) f.push('título');
+    if (!seloDe(c)) f.push('posto');
+    return f;
+  }, []);
+
+  // As opções de cada select saem do próprio banco, não de lista fixa: vila e organização novas
+  // aparecem sozinhas, e nenhuma opção morta sobra na tela.
+  const opcoesFiltro = useMemo(() => {
+    const uniq = (l: string[]) => [...new Set(l.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt'));
+    return {
+      vila: uniq(characters.flatMap(c => c.vila ?? [])),
+      org: uniq(characters.flatMap(c => c.organizacao ?? [])),
+      posto: uniq(characters.flatMap(c => [...(c.cargo ?? []), c.patente ?? ''].map(postoDe))),
+      cla: uniq(characters.map(c => c.clan)),
+      funcao: uniq(characters.flatMap(c => (c.role ?? '').split(/\s+e\s+|\s*\/\s*|\s*,\s*/).map(x => x.trim()))
+        .filter(x => x !== '?')),
+      aparicao: uniq(characters.map(c => c.timelineAppearance ?? 'Prólogo')),
+    };
+  }, [characters]);
+
   const chronologyRows = useMemo(() => {
     const term = chronologySearch.trim().toLowerCase();
+    const postos = (c: Character) => [...(c.cargo ?? []), c.patente ?? ''].filter(Boolean).map(postoDe);
     return characters
-      .filter(c => !term || c.name.toLowerCase().includes(term))
-      .sort((a, b) => a.id - b.id);
-  }, [characters, chronologySearch]);
+      .filter(c => {
+        if (term && ![c.name, c.clan, ...(c.titles ?? []), seloDe(c), c.graduacao ?? '']
+          .some(x => x.toLowerCase().includes(term))) return false;
+        if (fVila !== 'Todos' && !(c.vila ?? []).includes(fVila)) return false;
+        if (fOrg !== 'Todos' && !(c.organizacao ?? []).includes(fOrg)) return false;
+        if (fPosto !== 'Todos' && !postos(c).includes(fPosto)) return false;
+        if (fCla !== 'Todos' && c.clan !== fCla) return false;
+        if (fFuncao !== 'Todos' && !(c.role ?? '').toLowerCase().includes(fFuncao.toLowerCase())) return false;
+        if (fStatus === 'Vivos' && c.isDead) return false;
+        if (fStatus === 'Mortos' && !c.isDead) return false;
+        if (fAparicao !== 'Todos' && (c.timelineAppearance ?? 'Prólogo') !== fAparicao) return false;
+        if (fFalta === 'Completas' && faltasDe(c).length) return false;
+        if (fFalta !== 'Todos' && fFalta !== 'Completas' && !faltasDe(c).includes(fFalta)) return false;
+        return true;
+      })
+      .sort((a, b) => ordem === 'nome' ? a.name.localeCompare(b.name, 'pt')
+        : ordem === 'nc' ? b.nc - a.nc || a.id - b.id
+        : a.id - b.id);
+  }, [characters, chronologySearch, fVila, fOrg, fPosto, fCla, fFuncao, fStatus, fAparicao, fFalta, ordem, faltasDe]);
+
+  const filtrosAtivos = [fVila, fOrg, fPosto, fCla, fFuncao, fStatus, fAparicao, fFalta]
+    .filter(x => x !== 'Todos').length + (chronologySearch.trim() ? 1 : 0);
+  const limparFiltros = () => {
+    setChronologySearch(''); setFVila('Todos'); setFOrg('Todos'); setFPosto('Todos');
+    setFCla('Todos'); setFFuncao('Todos'); setFStatus('Todos'); setFAparicao('Todos'); setFFalta('Todos');
+  };
 
   // Download em lote: filtra a Linha do Tempo já pronta (com imagem) por fase + personagem,
   // busca cada imagem e monta um .zip só, pra baixar tudo de uma vez.
@@ -1620,62 +1685,157 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
 
       <section>
         <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
-          <span>Cronologia da Linha do Tempo</span>
+          <span>Todos os personagens</span>
           <span className="flex-1 h-px bg-tech-border"></span>
         </div>
 
         <div className="border border-tech-border bg-tech-panel/30 p-5 space-y-4">
           <div className="flex items-center gap-2 text-tech-primary/70">
-            <Clock size={14} />
-            <span className="text-[10px] font-black uppercase tracking-widest">Aparição / buracos / morte por personagem</span>
+            <Users size={14} />
+            <span className="text-[10px] font-black uppercase tracking-widest">
+              Campo por campo, com o que falta em cada ficha
+            </span>
+            <span className="ml-auto text-[10px] uppercase tracking-widest text-tech-primary/50">
+              <span className="text-white font-black">{chronologyRows.length}</span> de {characters.length}
+            </span>
           </div>
 
-          <div className="w-full sm:w-64 bg-black border border-tech-border flex items-center px-3 h-9 group focus-within:border-tech-primary transition-all">
-            <Search size={13} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
-            <input
-              type="text"
-              placeholder="BUSCAR_PERSONAGEM..."
-              value={chronologySearch}
-              onChange={(e) => setChronologySearch(e.target.value)}
-              className="bg-transparent border-none outline-none text-tech-primary w-full ml-2 placeholder:text-tech-dim uppercase text-xs"
-            />
+          {/* Todos os filtros combinam por E, e as opções saem do próprio banco. */}
+          <div className="flex flex-wrap gap-2 items-center">
+            <div className="w-full sm:w-56 bg-black border border-tech-border flex items-center px-3 h-9 group focus-within:border-tech-primary transition-all">
+              <Search size={13} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
+              <input
+                type="text"
+                placeholder="NOME, CLÃ, TÍTULO, POSTO..."
+                value={chronologySearch}
+                onChange={(e) => setChronologySearch(e.target.value)}
+                className="bg-transparent border-none outline-none text-tech-primary w-full ml-2 placeholder:text-tech-dim uppercase text-xs"
+              />
+            </div>
+            {([
+              ['Vila', fVila, setFVila, opcoesFiltro.vila],
+              ['Organização', fOrg, setFOrg, opcoesFiltro.org],
+              ['Posto', fPosto, setFPosto, opcoesFiltro.posto],
+              ['Clã', fCla, setFCla, opcoesFiltro.cla],
+              ['Função', fFuncao, setFFuncao, opcoesFiltro.funcao],
+              ['Aparição', fAparicao, setFAparicao, opcoesFiltro.aparicao],
+              ['Status', fStatus, setFStatus, ['Vivos', 'Mortos']],
+              ['Falta', fFalta, setFFalta, ['Completas', 'descrição', 'imagem', 'aptidões', 'perfil', 'título', 'posto']],
+            ] as const).map(([label, valor, setter, opcoes]) => (
+              <select
+                key={label}
+                value={valor}
+                onChange={(e) => setter(e.target.value)}
+                title={label}
+                className={`h-9 bg-black border px-2 text-xs uppercase outline-none transition-colors cursor-pointer ${valor === 'Todos' ? 'border-tech-border text-tech-primary/60' : 'border-tech-primary text-tech-primary'}`}
+              >
+                <option value="Todos">{label}: todos</option>
+                {opcoes.map(o => <option key={o} value={o}>{o}</option>)}
+              </select>
+            ))}
+            <select
+              value={ordem}
+              onChange={(e) => setOrdem(e.target.value as 'id' | 'nome' | 'nc')}
+              title="Ordenar"
+              className="h-9 bg-black border border-tech-border px-2 text-xs uppercase outline-none text-tech-primary/60 cursor-pointer"
+            >
+              <option value="id">Ordem: id</option>
+              <option value="nome">Ordem: nome</option>
+              <option value="nc">Ordem: NC</option>
+            </select>
+            {filtrosAtivos > 0 && (
+              <button
+                type="button"
+                onClick={limparFiltros}
+                className="h-9 px-3 border border-red-900/60 text-red-400 text-xs uppercase hover:bg-red-950/40 transition-colors flex items-center gap-1.5"
+              >
+                <X size={12} /> limpar {filtrosAtivos}
+              </button>
+            )}
           </div>
 
           <div className="overflow-x-auto">
             <table className="w-full text-xs">
               <thead>
                 <tr className="text-[9px] text-tech-primary/50 uppercase tracking-widest border-b border-tech-border">
+                  <th className="text-right font-black py-2 pr-3">ID</th>
                   <th className="text-left font-black py-2 pr-3">Personagem</th>
+                  <th className="text-right font-black py-2 pr-3">NC</th>
+                  <th className="text-left font-black py-2 pr-3">Clã</th>
+                  <th className="text-left font-black py-2 pr-3">Vila</th>
+                  <th className="text-left font-black py-2 pr-3">Organização</th>
+                  <th className="text-left font-black py-2 pr-3">Posto</th>
+                  <th className="text-left font-black py-2 pr-3">Graduação</th>
+                  <th className="text-left font-black py-2 pr-3">Função</th>
                   <th className="text-left font-black py-2 pr-3">Aparição</th>
                   <th className="text-left font-black py-2 pr-3">Não apareceu</th>
                   <th className="text-left font-black py-2 pr-3">Morte</th>
+                  <th className="text-left font-black py-2">Falta</th>
                 </tr>
               </thead>
               <tbody>
-                {chronologyRows.map(c => (
-                  <tr key={c.docId ?? c.name} className="border-b border-tech-border/40 hover:bg-tech-primary/5">
-                    <td className="py-1.5 pr-3 text-white font-bold whitespace-nowrap">{c.name}</td>
-                    <td className="py-1.5 pr-3 text-tech-primary whitespace-nowrap">{c.timelineAppearance ?? 'Prólogo'}</td>
-                    <td className="py-1.5 pr-3 text-yellow-400/80 whitespace-nowrap">
-                      {c.timelineSkipped && c.timelineSkipped.length > 0 ? (
-                        <span className="flex items-center gap-1"><SkipForward size={11} /> {c.timelineSkipped.join(', ')}</span>
-                      ) : (
-                        <span className="text-tech-primary/30">—</span>
-                      )}
-                    </td>
-                    <td className="py-1.5 pr-3 whitespace-nowrap">
-                      {c.timelineDeath ? (
-                        <span className="flex items-center gap-1 text-red-400"><Skull size={11} /> {c.timelineDeath}</span>
-                      ) : (
-                        <span className="text-tech-primary/30">—</span>
-                      )}
-                    </td>
-                  </tr>
-                ))}
+                {chronologyRows.map(c => {
+                  const faltas = faltasDe(c);
+                  const vilas = vilasDe(c);
+                  return (
+                    <tr key={c.docId ?? c.name} className="border-b border-tech-border/40 hover:bg-tech-primary/5 align-baseline">
+                      <td className="py-1.5 pr-3 text-right text-tech-primary/40 tabular-nums">{c.id}</td>
+                      <td className={`py-1.5 pr-3 font-bold whitespace-nowrap ${c.isDead ? 'text-tech-primary/40 line-through' : 'text-white'}`}>
+                        {c.name}
+                      </td>
+                      <td className="py-1.5 pr-3 text-right text-tech-primary tabular-nums">{c.nc}</td>
+                      <td className="py-1.5 pr-3 text-tech-primary/70 whitespace-nowrap">{c.clan || <span className="text-tech-primary/25">—</span>}</td>
+                      <td className="py-1.5 pr-3 whitespace-nowrap">
+                        {vilas.length ? vilas.map((v, i) => (
+                          <span key={v} className={CORES_DE_VILA[v].texto}>{i > 0 && <span className="text-tech-primary/25"> · </span>}{v}</span>
+                        )) : <span className="text-tech-primary/25">—</span>}
+                      </td>
+                      <td className="py-1.5 pr-3 text-tech-secondary/80 whitespace-nowrap">
+                        {(c.organizacao ?? []).join(' · ') || <span className="text-tech-primary/25">—</span>}
+                      </td>
+                      <td className="py-1.5 pr-3 text-tech-accent whitespace-nowrap">
+                        {seloDe(c) || <span className="text-tech-primary/25">—</span>}
+                        {(c.cargo?.length ?? 0) > 1 && (
+                          <span className="text-tech-accent/50"> +{c.cargo!.length - 1}</span>
+                        )}
+                      </td>
+                      <td className="py-1.5 pr-3 text-tech-primary/60 whitespace-nowrap">{c.graduacao || <span className="text-tech-primary/25">—</span>}</td>
+                      <td className="py-1.5 pr-3 text-tech-primary/70 whitespace-nowrap">{c.role && c.role !== '?' ? c.role : <span className="text-tech-primary/25">—</span>}</td>
+                      <td className="py-1.5 pr-3 text-tech-primary whitespace-nowrap">{c.timelineAppearance ?? 'Prólogo'}</td>
+                      <td className="py-1.5 pr-3 text-yellow-400/80 whitespace-nowrap">
+                        {c.timelineSkipped && c.timelineSkipped.length > 0 ? (
+                          <span className="flex items-center gap-1"><SkipForward size={11} /> {c.timelineSkipped.join(', ')}</span>
+                        ) : (
+                          <span className="text-tech-primary/25">—</span>
+                        )}
+                      </td>
+                      <td className="py-1.5 pr-3 whitespace-nowrap">
+                        {c.timelineDeath ? (
+                          <span className="flex items-center gap-1 text-red-400"><Skull size={11} /> {c.timelineDeath}</span>
+                        ) : (
+                          <span className="text-tech-primary/25">—</span>
+                        )}
+                      </td>
+                      <td className="py-1.5">
+                        {faltas.length ? (
+                          <span className="flex flex-wrap gap-1">
+                            {faltas.map(f => (
+                              <span key={f} className="px-1.5 py-px border border-red-900/50 bg-red-950/30 text-red-400 text-[9px] uppercase tracking-wide">{f}</span>
+                            ))}
+                          </span>
+                        ) : (
+                          <span className="text-tech-primary/40 text-[9px] uppercase tracking-wide flex items-center gap-1">
+                            <CheckCircle2 size={10} /> completa
+                          </span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
                 {chronologyRows.length === 0 && (
                   <tr>
-                    <td colSpan={4} className="py-4 text-center text-tech-primary/40 uppercase tracking-widest text-[10px]">
-                      Nenhum personagem encontrado.
+                    <td colSpan={13} className="py-4 text-center text-tech-primary/40 uppercase tracking-widest text-[10px]">
+                      Nenhum personagem com esses filtros.
                     </td>
                   </tr>
                 )}
