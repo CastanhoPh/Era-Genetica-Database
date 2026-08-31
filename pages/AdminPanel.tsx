@@ -9,7 +9,7 @@ import { Character, ChecklistItem, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_
 import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, rankDeNC, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
-import { ORDEM_DE_FORCA, posicaoDeForca, estaNaOrdemDeForca } from '../data/ordem-de-forca';
+import { ORDEM_DE_FORCA, posicaoDeForca, foraDoRanking, semPosicaoNaForca } from '../data/ordem-de-forca';
 
 /** Se a ficha tem uma proporção explícita para estes divididos. Objeto vazio, ou proporção sobre
  *  outros divididos (sobra de uma troca de foco), conta como "não tem" — aí vale partes iguais. */
@@ -720,10 +720,11 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
       ? [...classificationFiltered].sort((a, b) => b.nc - a.nc || posicaoDeForca(a.name) - posicaoDeForca(b.name))
       : classificationFiltered
   ), [classificationFiltered, classificationForca]);
-  // Quantos da lista atual ainda não têm lugar na ordem de força — só conta quem tem ficha, porque
-  // pendente não entra na ordem por definição.
+  // Quantos da lista atual ainda não têm lugar na ordem de força. Só conta quem tem ficha (pendente
+  // não entra na ordem por definição) e quem não foi tirado do ranking de propósito — senão os
+  // personagens principais apareceriam pra sempre como pendência.
   const foraDaOrdem = useMemo(
-    () => classificationOrdenada.filter(c => !c.pending && !estaNaOrdemDeForca(c.name)).length,
+    () => classificationOrdenada.filter(c => !c.pending && semPosicaoNaForca(c.name)).length,
     [classificationOrdenada],
   );
 
@@ -2217,7 +2218,15 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                         <div className="flex items-baseline gap-2 min-w-0">
                           <span className={`text-sm truncate ${c.pending ? 'text-tech-primary/60 italic font-medium' : 'text-white font-bold'}`}>{c.name}</span>
                           {c.dead && <Skull size={11} className="text-red-500/80 shrink-0 self-center" />}
-                          {classificationForca && !c.pending && !estaNaOrdemDeForca(c.name) && (
+                          {/* Duas marcas diferentes de propósito: âmbar é pendência (o Pedro ainda
+                              precisa dizer onde a ficha entra), cinza é decisão tomada (personagem
+                              principal, fora do ranking). */}
+                          {classificationForca && !c.pending && foraDoRanking(c.name) && (
+                            <span className="text-[8px] font-bold uppercase tracking-widest text-tech-primary/35 border border-tech-border px-1 shrink-0 self-center" title="Personagem principal — fora do ranking de propósito.">
+                              fora do ranking
+                            </span>
+                          )}
+                          {classificationForca && !c.pending && semPosicaoNaForca(c.name) && (
                             <span className="text-[8px] font-bold uppercase tracking-widest text-amber-300/70 border border-amber-400/40 px-1 shrink-0 self-center" title="Ainda não tem posição na ordem de força.">
                               sem posição
                             </span>

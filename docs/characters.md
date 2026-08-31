@@ -63,7 +63,7 @@
 | 57 | Koji Ishizuma | Ishizuma | NPC, NoGuns, Kumogakure |  | DPS | 18 | 154 | 64 | Morto (morto por Hades) |
 | 58 | Yuuto Han | Han | NPC, NoGuns, OCA, Kirigakure |  | DPS | 18 | 154 | 96 | Morto (morto por Hades) |
 | 59 | Shin Mizukari | Mizukari | NPC, NoGuns, Iwagakure |  | Tanque | 18 | 154 | 64 | Morto (morto por Hades) |
-| 60 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 18 | 130 | 64 | Vivo |
+| 60 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 26 | 200 | 88 | Vivo |
 | 61 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 25 | 189 | 85 | Vivo |
 | 62 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
 | 63 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
@@ -8372,9 +8372,9 @@ ID: 60
 Clã: Chinoike
 Grupos: NPC, NoGuns, OCA, Sunagakure
 Função: Suporte
-NC: 18
-HP: 130
-Chakra: 64
+NC: 26
+HP: 200
+Chakra: 88
 Status: Vivo
 Títulos: O Psicopata do Sangue, Gênio, Traidor da NoGuns
 
@@ -8384,17 +8384,17 @@ Títulos: O Psicopata do Sangue, Gênio, Traidor da NoGuns
 Shikure Chinoike é um gênio que ultrapassou a linha entre ciência e insanidade. Nascido no ramo mais isolado do clã Sabaku e filho de um chinoike, entre artesãos, alquimistas e criadores de marionetes, ele nunca enxergou o mundo como os outros. Enquanto crianças brincavam, Shikure desmontava bonecos para entender sua estrutura. Enquanto treinavam combate, ele estudava sangue, perguntando a si mesmo até onde o corpo humano poderia ser levado. Desde cedo, sabia que era diferente — e acreditava que isso o colocava acima de todos. Sua obsessão encontrou um foco nas lendas do Ketsuryūgan, o dōjutsu proibido dos Chinoike. Incapaz de aceitá-lo como algo inalcançável, Shikure decidiu recriá-lo. Usando o próprio corpo como laboratório, iniciou anos de experimentos clandestinos: manipulação sanguínea, infusão de areia em tecidos vivos, micro-selos implantados em suas próprias células. Ele não testava limites — ele os quebrava. E então, conseguiu. Despertou um Ketsuryūgan artificial, instável, nascido de sua própria carne. A partir desse momento, o medo deixou de existir. Se podia recriar um dōjutsu em si mesmo, poderia criar vida. Assim nasceu Akeganai, sua marionete perfeita, moldada à semelhança humana e equipada com um olho vermelho sintético capaz de lançar genjutsus devastadores — fazendo suas vítimas enxergarem aquilo que mais amaram na vida. Para Shikure, não era crueldade. Era evolução. Sua obra máxima viria em seguida: a Sekisuna Jinzo, uma marionete feita de sangue, areia e chakra, capaz de replicar perfeitamente guerreiros a partir de amostras coletadas. Aquilo não era apenas uma técnica — era a prova de que ele havia superado as limitações humanas. Quando Sunagakure descobriu seus experimentos, não viu genialidade — viu aberração. Ordenaram sua prisão, a destruição de suas pesquisas e a eliminação de Akeganai. Shikure fugiu sem hesitar, levando consigo tudo o que considerava importante e abandonando sua vila para trás. Ferido e à beira da morte no deserto, foi encontrado por Daichi — o único que não o julgou, mas lhe deu um propósito. Desde então, Shikure segue ao seu lado, convencido de que finalmente encontrou um lugar onde sua mente não é contida… mas necessária. Para o mundo, ele é um cientista insano. Para si mesmo, ele é o próximo passo da evolução.
 
 ## Atributos
-- Força: 7
-- Destreza: 18
-- Agilidade: 7
-- Inteligência: 18
-- Espírito: 18
-- Vigor: 10
-- Percepção: 18
+- Força: 10
+- Destreza: 26
+- Agilidade: 10
+- Inteligência: 26
+- Espírito: 26
+- Vigor: 20
+- Percepção: 26
 
 ## Poderes e Elementos
-- Ketton — Nível 9
-- Dokujutsu — Nível 9
+- Ketton — Nível 13
+- Dokujutsu — Nível 13
 
 ## Aptidões
 Elemento Natural: Ketton, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar

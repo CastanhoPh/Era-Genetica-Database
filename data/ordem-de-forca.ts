@@ -52,6 +52,7 @@ export const ORDEM_DE_FORCA: string[] = [
   'Himari Yuki',
   'Shizuru Kurogane',
   // NC 26
+  'Shikure Chinoike',
   'Nao Arashio',
   'Genei (G)',
   'Naoki Uchiha',
@@ -103,14 +104,10 @@ export const ORDEM_DE_FORCA: string[] = [
   'Daiki Uzumaki (D)',
   'Yuuto Han',
   'Shin Mizukari',
-  // NC 16
-  'Katsumi Hyuga',
-  'Najin Hatake',
   // NC 14
   'Etsuko Senju (E)',
   'Fuyuki Dokuhana (F)',
   // NC 12
-  'Shoei Sarutobi',
   'Kazuki Hoshigaki',
   // NC 8
   'Shoyu Uzumaki',
@@ -118,9 +115,28 @@ export const ORDEM_DE_FORCA: string[] = [
   'Reika Uzumaki',
 ];
 
+// Personagens principais — ficam FORA do ranking de propósito, não é pendência. Eles têm NC e
+// aparecem na lista normalmente, só não competem na ordem de força, então a tela não os marca como
+// "sem posição". Quem estiver aqui e na ORDEM_DE_FORCA ao mesmo tempo é erro; o teste embaixo pega.
+export const FORA_DO_RANKING: string[] = [
+  'Kaito Senju',
+  'Nagare Uzumaki',
+  'Oddy Uchiha',
+  'Katsumi Hyuga',
+  'Najin Hatake',
+  'Takeshi Hatake',
+  'Furyuzan Chinoike',
+  'Shoei Sarutobi',
+];
+const FORA = new Set(FORA_DO_RANKING);
+export const foraDoRanking = (nome: string): boolean => FORA.has(nome);
+
 // Mapa nome -> posição, pra ordenar em O(1). Quem não está na lista recebe uma posição depois do
 // último colocado — finita de propósito, porque `Infinity - Infinity` daria NaN no comparador e
 // embaralharia justamente quem a gente quer ver junto no fim do bloco.
 const POSICAO = new Map(ORDEM_DE_FORCA.map((n, i) => [n, i]));
 export const posicaoDeForca = (nome: string): number => POSICAO.get(nome) ?? ORDEM_DE_FORCA.length;
 export const estaNaOrdemDeForca = (nome: string): boolean => POSICAO.has(nome);
+// Quem tem ficha, não está na ordem e também não foi tirado do ranking de propósito: é pendência
+// de verdade, o Pedro ainda precisa dizer onde entra.
+export const semPosicaoNaForca = (nome: string): boolean => !POSICAO.has(nome) && !FORA.has(nome);
