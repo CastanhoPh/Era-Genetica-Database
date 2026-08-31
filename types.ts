@@ -177,6 +177,12 @@ export interface Character {
   categories: string[];
   titles: string[];
   nc: number;
+  /**
+   * LEGADO, vazio em todas as fichas desde 27/08/2026. Guardava cargo de vila, patente de
+   * organização e rank de ninja no mesmo texto — os três hoje têm lugar próprio: `cargo`,
+   * `patente` e a escada `rankDeNC` em data/atributos.ts, que sai do NC e não é gravada.
+   * Ainda é o último recurso do seloDe, e só some do tipo quando ninguém mais o lê.
+   */
   position: string;
   role: string;
   description: string;
@@ -233,16 +239,6 @@ export interface Character {
    * Só no Firestore.
    */
   patente?: string;
-  /**
-   * Graduação de ninja: Genin, Chunin, Jounin, Jounin de Elite, Sannin, Sannin de Elite.
-   * Separada de `position` em 2026-08-27, quando ficou claro que aquele campo guardava três
-   * coisas diferentes: cargo de vila, patente de organização e esta escada.
-   *
-   * Não é exibida em lugar nenhum ainda — o card e a ficha mostram só o `position`. Sai do NC,
-   * então quando for implementada vira valor derivado e não escolha; até lá é o valor que o
-   * campo antigo tinha, preservado para não se perder.
-   */
-  graduacao?: string;
   /**
    * Vilas do personagem, migrado de `categories` (2026-08-27). Lista porque uma ficha pode ter
    * duas vilas — o Hiroshi Hanzo e o Rock Gunma têm. Todo mundo tem pelo menos uma, mesmo quem é

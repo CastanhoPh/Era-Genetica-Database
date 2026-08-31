@@ -6,7 +6,7 @@ import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
 import { setCombatProfile, subscribeChecklist, fixChecklistOrder, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed, subscribeAFazer, addAFazer, setAFazerFeito, editAFazer, deleteAFazer } from '../data/firestore';
 import { Character, ChecklistItem, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
-import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
+import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, rankDeNC, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
 
@@ -785,7 +785,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     const postos = (c: Character) => [...(c.cargo ?? []), c.patente ?? ''].filter(Boolean).map(postoDe);
     return characters
       .filter(c => {
-        if (term && ![c.name, c.clan, ...(c.titles ?? []), seloDe(c), c.graduacao ?? '']
+        if (term && ![c.name, c.clan, ...(c.titles ?? []), seloDe(c), rankDeNC(c.nc)]
           .some(x => x.toLowerCase().includes(term))) return false;
         if (fVila !== 'Todos' && !(c.vila ?? []).includes(fVila)) return false;
         if (fOrg !== 'Todos' && !(c.organizacao ?? []).includes(fOrg)) return false;
@@ -1736,7 +1736,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                   <th className="text-left font-black py-2 pr-3">Vila</th>
                   <th className="text-left font-black py-2 pr-3">Organização</th>
                   <th className="text-left font-black py-2 pr-3">Posto</th>
-                  <th className="text-left font-black py-2 pr-3">Graduação</th>
+                  <th className="text-left font-black py-2 pr-3">Rank</th>
                   <th className="text-left font-black py-2 pr-3">Função</th>
                   <th className="text-left font-black py-2 pr-3">Aparição</th>
                   <th className="text-left font-black py-2 pr-3">Não apareceu</th>
@@ -1770,7 +1770,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                           <span className="text-tech-accent/50"> +{c.cargo!.length - 1}</span>
                         )}
                       </td>
-                      <td className="py-1.5 pr-3 text-tech-primary/60 whitespace-nowrap">{c.graduacao || <span className="text-tech-primary/25">—</span>}</td>
+                      <td className="py-1.5 pr-3 text-tech-primary/60 whitespace-nowrap">{rankDeNC(c.nc) || <span className="text-tech-primary/25">—</span>}</td>
                       <td className="py-1.5 pr-3 text-tech-primary/70 whitespace-nowrap">{c.role && c.role !== '?' ? c.role : <span className="text-tech-primary/25">—</span>}</td>
                       <td className="py-1.5 pr-3 text-tech-primary whitespace-nowrap">{c.timelineAppearance ?? 'Prólogo'}</td>
                       <td className="py-1.5 pr-3 text-yellow-400/80 whitespace-nowrap">

@@ -12,6 +12,29 @@
 //   soma dos sete = 6 × NC − 12   ·   nenhum atributo acima do NC   ·   nenhum abaixo do mínimo
 import { Stats } from '../types';
 
+/**
+ * A escada de rank de ninja, definida pelo Pedro em 27/08/2026. É função pura do NC, e por isso
+ * NÃO é campo gravado: guardar significaria duas verdades, e ela ficaria velha na primeira ficha
+ * que subisse de NC — foi exatamente o que aconteceu com o `position`, que ainda tem 59 valores
+ * desatualizados no banco.
+ *
+ * Abaixo de NC 4 não existe rank. Hoje só o Beta e o Hades caem aí, os dois com NC 0 de propósito.
+ */
+export const ESCADA_DE_RANK: { rank: string; de: number; ate: number }[] = [
+  { rank: 'Genin',           de: 4,  ate: 7 },
+  { rank: 'Chunin',          de: 8,  ate: 11 },
+  { rank: 'Jonin',           de: 12, ate: 15 },
+  { rank: 'Jonin de Elite',  de: 16, ate: 19 },
+  { rank: 'Sannin',          de: 20, ate: 23 },
+  { rank: 'Sannin Lendário', de: 24, ate: 27 },
+  { rank: 'Kage',            de: 28, ate: 29 },
+  { rank: 'Lenda Shinobi',   de: 30, ate: 30 },
+];
+
+/** O rank de ninja de um NC, ou string vazia quando o NC está fora da escada. */
+export const rankDeNC = (nc: number): string =>
+  ESCADA_DE_RANK.find(x => nc >= x.de && nc <= x.ate)?.rank ?? '';
+
 export const MIN_POR_NC: Record<number, number> = {
   4: 0, 5: 1, 6: 1, 7: 2, 8: 2, 9: 3, 10: 3, 11: 4, 12: 4, 13: 5, 14: 5, 15: 6, 16: 6, 17: 7, 18: 7,
   19: 8, 20: 8, 21: 8, 22: 8, 23: 9, 24: 9, 25: 10, 26: 10, 27: 11, 28: 11, 29: 12, 30: 12,

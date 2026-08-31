@@ -250,7 +250,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Jounin de Elite",
     "position": ""
   },
   {
@@ -269,7 +268,6 @@
       "O Inferno Vermelho"
     ],
     "nc": 20,
-    "position": "Líder dos 75%",
     "description": "Akairo Uchiha, conhecido como o A, é a prova viva de que até mesmo os clãs mais poderosos podem gerar algo que foge completamente às suas próprias regras. Nascido dentro do clã Uchiha, ele carregava uma anomalia impossível: não possuía chakra natural. Em um clã onde o poder está ligado diretamente ao fluxo de chakra e à evolução do Sharingan, Akairo era visto como um erro, um fracasso, alguém que jamais despertaria o verdadeiro potencial de seu sangue.\n\nRejeitado e tratado como um pária, cresceu sem propósito — até se tornar alvo perfeito para a Organização do Chakra Artificial. Transformado em cobaia, seu corpo foi forçado além dos limites humanos, tendo seu sistema reconstruído com chakra artificial em níveis extremos.\n\nDurante esse processo, recebeu o transplante do olho esquerdo de Sho Uchiha, que, ao entrar em contato com chakra bijuu e profano, despertou um Mangekyō Sharingan incompleto — instável, doloroso e perigoso até para ele mesmo.\n\nO que deveria ser um experimento controlado se tornou um desastre quando Akairo perdeu o controle, desencadeando um massacre dentro de uma base da própria organização. Consumido por chamas e lava, ele quase destruiu tudo ao seu redor, incluindo a si mesmo. Foi contido apenas por Borashi, a única pessoa capaz de enfrentá-lo sem destruí-lo.\n\nDesde então, Akairo foi elevado à posição de líder de campo da Equipe 75%, não por controle, mas por puro poder bruto.\n\nDominando Katon e Yōton de forma devastadora, suas técnicas transformam o campo de batalha em um verdadeiro inferno vivo. Seu Mangekyō adiciona um nível ainda maior de destruição, embora cobre um preço constante em dor e instabilidade.\n\nAkairo vive em combustão — física e emocional. Impulsivo, violento e imprevisível, ele luta como alguém que nunca teve nada a perder.\n\nAinda assim, em meio ao caos que carrega, existe uma única âncora: Borashi, o único que ele reconhece como aliado.\n\nPara o mundo, Akairo é uma arma descontrolada. Para a organização, ele é necessário. E para si mesmo… ele é apenas o fogo que nunca pôde nascer — mas que agora queima mais do que qualquer outro.",
     "hp": 170,
     "chakra": 105,
@@ -419,7 +417,8 @@
       "Konohagakure"
     ],
     "patente": "Líder dos 75%",
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "akane-sumigami",
@@ -440,7 +439,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 70,
@@ -477,7 +475,8 @@
     ],
     "cargo": [
       "Membro da Elite"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "akira-dokuhana",
@@ -493,7 +492,6 @@
       "Suporte Perfeito"
     ],
     "nc": 18,
-    "position": "NoGuns",
     "role": "DPS",
     "description": "",
     "hp": 130,
@@ -572,7 +570,8 @@
     "vila": [
       "Sunagakure"
     ],
-    "patente": "NoGuns"
+    "patente": "NoGuns",
+    "position": ""
   },
   {
     "__docId": "amakumo-hozuki",
@@ -679,7 +678,6 @@
       "Eco de Son Goku",
       "Rastreador Primordial"
     ],
-    "position": "Terceiro Degrau",
     "description": "Apollo Netsu é uma anomalia no mundo shinobi — um nome falso carregando uma linhagem que não deveria existir.\n\nIrmão biológico de Shoei Sarutobi, foi separado dele ainda criança após o incidente com a Bijuu Son Goku. Enquanto Shoei teve a mente reescrita por Kuromi, perdendo todo o passado, Apollo foi removido das sombras antes de ser encontrado.\n\nEle estava presente no dia em que Son Goku foi selado.\n\nNaquele momento, viu Shoei perder completamente o controle. O chakra colapsou, o ambiente foi consumido e, no meio do caos, Apollo foi atingido diretamente. As chamas e o chakra avançaram sem controle, queimando completamente seus braços.\n\nNão foi intencional.\nMas foi o primeiro impacto entre os dois irmãos — uma marca permanente.\n\nPara protegê-lo de caçadores e do próprio sistema shinobi, Tobirama tomou uma decisão extrema: apagar sua existência.\n\nApollo Sarutobi deixou de existir.\nApollo Netsu nasceu.\n\nCriado em segredo, longe de qualquer vila, foi treinado diretamente por Tobirama não como um soldado, mas como uma peça estratégica.\n\nDesde cedo, demonstrou um chakra natural absurdo — puro, denso, em constante ressonância com o ambiente. Mas seu maior diferencial era o vínculo com os macacos sábios.\n\nEles não o viam como humano.\nViam algo próximo deles.\n\nIsso levantou uma hipótese perigosa: sua linhagem poderia estar ligada aos antigos Sarutobi conectados ao legado de Son Goku. Talvez por isso, seu destino sempre esteve atrelado à Bijuu.\n\nApollo cresceu com fragmentos da verdade. Sabia que estava sendo escondido. Sabia que havia alguém com o mesmo sangue. Mas nunca soube quem.\n\nDurante o Exame Chunin, encontrou algo novo: conexão.\nAo lado de Nagi Yuki e Yasuo Kurogane, viu pessoas tão quebradas quanto ele.\n\nFoi nesse mesmo exame que tudo quase veio à tona.\n\nAo presenciar Shoei liberar o chakra de Son Goku, algo dentro dele reagiu. Não foi consciente — foi instinto. Seu corpo entrou em ressonância, sua percepção se rompeu.\n\nNaquele instante, ele soube:\n\nNão era apenas um jinchūriki.\nEra seu irmão.\n\nMas essa verdade nunca se completou.\n\nUm infiltrado agiu no momento exato, usando Chakra Profano e Genjutsu para apagar aquele instante e selar a conexão recém-desperta.\n\nSeu nome era Beta.\n\nPara Apollo, aquele momento nunca existiu.\n\nA sensação permaneceu — sem memória, sem forma, sem explicação.\n\nApós o exame e o encontro com Shikure e Togo Kage, Apollo tomou sua decisão não por revolta, mas por clareza:\n\nO mundo shinobi estava errado.\n\nE ele seguiria até o fim para entender o porquê.",
     "arsenal": [
       39
@@ -882,7 +880,8 @@
       "Konohagakure"
     ],
     "patente": "Terceiro Degrau",
-    "role": "Sensor, Ofensivo e Controle"
+    "role": "Sensor, Ofensivo e Controle",
+    "position": ""
   },
   {
     "__docId": "arashi-shidehara",
@@ -903,7 +902,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 62,
@@ -940,7 +938,8 @@
     ],
     "cargo": [
       "Membro da Elite"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "asami-hyuga",
@@ -1062,7 +1061,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Sannin",
     "position": "",
     "cargo": [
       "2ª Líder da Força Médica"
@@ -1373,7 +1371,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Jounin de Elite",
     "position": ""
   },
   {
@@ -1389,7 +1386,6 @@
       "Líder do Terceiro Degrau",
       "O Mutador"
     ],
-    "position": "Líder do Terceiro Degrau",
     "role": "?",
     "description": "Desconhecido",
     "hp": 0,
@@ -1542,7 +1538,8 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Líder do Terceiro Degrau"
+    "patente": "Líder do Terceiro Degrau",
+    "position": ""
   },
   {
     "__docId": "borashi-hyuga-b",
@@ -1559,7 +1556,6 @@
       "Vice Líder dos 75%",
       "O Anjo de Gelo"
     ],
-    "position": "Vice Líder dos 75%",
     "aptitudes": [
       "Fujogan",
       "Eternal Fujogan",
@@ -1769,7 +1765,8 @@
         "name": "Hyoton",
         "level": 13
       }
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "chigiri-chinoike",
@@ -1783,7 +1780,6 @@
       "Pilar da Memória",
       "O Homem que Lembra pelos Mortos"
     ],
-    "position": "Pilar de Sunagakure",
     "role": "DPS e Suporte",
     "description": "Chigiri Chinoike, conhecido hoje como o Pilar da Memória, é o homem que aprendeu o valor de uma vida depois de transformar vidas demais em material de estudo. Nascido no clã Chinoike, cresceu acreditando que o sangue era a forma mais pura de verdade: não apenas herança genética, mas um registro vivo de memórias, dores, medos e desejos que nem a morte conseguia apagar.\n\nEssa obsessão o levou até a OCA, onde se tornou um dos pesquisadores mais respeitados da organização. Chigiri não conduzia experimentos por dever ou ideologia — fazia por prazer. Manipulava DNA, desmontava linhagens, criava corpos artificiais e usava sangue para formar marionetes vivas, feitas de coagulação, chakra e ecos emocionais das pessoas que um dia existiram.\n\nTudo mudou durante um experimento em que matou uma pessoa que permaneceu consciente tempo suficiente para perguntar se ele se lembraria dela. Ao tocar seu sangue, Chigiri sentiu sua vida inteira: infância, medo, amor, arrependimentos e promessas. Pela primeira vez, entendeu que aquilo que chamava de material era uma existência completa.\n\nIncapaz de continuar, procurou Hades e confessou que havia entendido tarde demais. Hades permitiu que ele deixasse a OCA, sob a condição de jamais revelar seus segredos. Quando chegou a Sunagakure, não foi recebido como herói, mas como risco. Hana sabia o que ele era, e por isso o colocou onde sua culpa poderia servir a algo maior.\n\nHoje, Chigiri é o Pilar da Memória. Ele lê sangue em cenas de crime, reconstrói massacres, identifica rastros da OCA e transforma os mortos em testemunhas que não podem mais ser silenciadas. Muitos o odeiam, outros o temem, poucos confiam nele. Mas todos sabem que, quando uma gota de sangue toca a areia, Chigiri é aquele que escuta. Ele não busca redenção. Continua vivo apenas para lembrar, porque esquecer os mortos seria matá-los uma segunda vez.",
     "techniques": [],
@@ -1855,7 +1851,8 @@
     "cargo": [
       "2º Kazekage das Sombras",
       "Pilar da Memória"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "chisaki-dokuhana-c",
@@ -1870,7 +1867,6 @@
       "A Guardiã Rosa",
       "Equilíbrio Emocional"
     ],
-    "position": "Vice Líder dos 75%",
     "role": "Suporte",
     "description": "Chisaki Dokuhana, conhecida como C, é a personificação do controle absoluto em meio ao caos. Nascida em uma família respeitada por seu domínio em fūinjutsu e ninjutsu médico, ela cresceu cercada por disciplina, técnica e propósito. Filha de Rock Gunma, sua vida tomou um rumo trágico — ou pelo menos foi isso que a fizeram acreditar.\n\nApós uma manipulação profunda de memórias realizada pela Organização do Chakra Artificial, Chisaki passou a carregar uma culpa que nunca foi realmente sua: a de ter falhado em salvar o próprio pai. Esse trauma fabricado se tornou o núcleo de sua existência, moldando sua obsessão por controle, cura e proteção.\n\nDeterminada a nunca mais falhar, mergulhou completamente no estudo do corpo humano, do chakra e das técnicas de selamento.\n\nDurante uma missão de resgate a vítimas de experimentos, foi capturada pela própria organização que mais tarde a transformaria. Forçada a absorver 50% de chakra artificial, Chisaki não quebrou — ela evoluiu. Com o tempo, refinou seu controle a níveis quase perfeitos, alcançando 88% sem perder sua estabilidade mental, algo raro entre os modificados.\n\nDominando o Shōton, o ninjutsu médico avançado, fūinjutsu e senjutsu, ela se tornou uma combatente completa, capaz de defender, curar e neutralizar ameaças com precisão cirúrgica.\n\nSua maior evolução veio com o despertar do Modo Sábio de Cristal, uma forma única de senjutsu que amplifica suas habilidades e transforma o campo de batalha em uma extensão de sua vontade.\n\nDentro da Equipe 75%, Chisaki atua como o eixo central — a única capaz de equilibrar o caos de Akairo e a frieza de Borashi. Apesar de sua postura firme e calculista, existe nela um instinto protetor quase maternal, tratando ambos como uma família reconstruída.\n\nO que ela não sabe é que essa conexão vai além do acaso: Akira, outro membro do mesmo universo, é seu irmão de sangue, separado dela ainda na infância pela própria organização. Sem memória dessa ligação, os dois seguem caminhos paralelos, carregando um vínculo invisível que o destino ainda não revelou.\n\nPara a equipe, Chisaki é estabilidade. Para os inimigos, é contenção absoluta. E para si mesma… ela é alguém que acredita que só tem valor enquanto conseguir salvar todos ao seu redor — mesmo que isso signifique se quebrar no processo.",
     "gallery": [
@@ -1972,7 +1968,8 @@
     "vila": [
       "Sunagakure"
     ],
-    "patente": "Vice Líder dos 75%"
+    "patente": "Vice Líder dos 75%",
+    "position": ""
   },
   {
     "__docId": "daichi-muujin",
@@ -1988,7 +1985,6 @@
       "O Herdeiro que Negou o Trono"
     ],
     "nc": 18,
-    "position": "Vice Líder da NoGuns",
     "description": "",
     "hp": 133,
     "chakra": 64,
@@ -2059,7 +2055,8 @@
       "Iwagakure"
     ],
     "patente": "Vice Líder da NoGuns",
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "daiki-uzumaki-d",
@@ -2200,7 +2197,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Sannin",
     "position": ""
   },
   {
@@ -2494,7 +2490,6 @@
       "O Homem que Mantém Monstros Vivos"
     ],
     "nc": 26,
-    "position": "Vice Líder da Kiba",
     "role": "Tank",
     "description": "Enrai Hanzo é o médico clandestino, engenheiro biológico e especialista em corpos modificados da Kiba.\n\nAntes de desaparecer dos registros oficiais de Kumogakure, Enrai trabalhou nos setores médicos avançados da Vila da Nuvem, onde se tornou conhecido por uma habilidade assustadora:\n\nEle conseguia manter vivo aquilo que já deveria ter morrido.\n\nEnrai não era famoso como guerreiro, assassino ou prodígio militar.\n\nMas entre cirurgiões, cientistas e unidades médicas secretas, seu nome era tratado com desconforto.\n\nSeu domínio sobre Raiton médico permitia estimular nervos, reiniciar músculos, estabilizar órgãos em falência e costurar fluxo de chakra danificado através de impulsos elétricos dourado âmbar.\n\nEsse Raiton não era explosivo como o de guerreiros comuns da Nuvem.\n\nEra preciso.\n\nEra clínico.\n\nEra invasivo.\n\nCada descarga elétrica podia forçar um músculo morto a responder, fazer um coração prestes a parar bater por mais alguns minutos, cauterizar ferimentos internos ou reativar sistemas nervosos danificados.\n\nPara outros médicos, cura significava salvar uma vida.\n\nPara Enrai, cura significava impedir que uma ferramenta útil parasse de funcionar.\n\nQuando a OCA começou a corromper Kumogakure por dentro, Enrai foi um dos poucos médicos capazes de compreender a extensão real dos experimentos envolvendo Chakra Profano, Shiroki Kaminari e corpos artificiais.\n\nEle viu pacientes se tornarem armas.\n\nViu cobaias serem chamadas de progresso.\n\nViu cadáveres funcionais serem mantidos ativos apenas para gerar mais dados.\n\nE viu Reito Kurogami sobreviver ao que deveria ter sido uma execução científica.\n\nFoi Enrai quem ajudou a estabilizar o corpo destruído de Reito após os experimentos da OCA.\n\nPor isso, Reito ainda respira.\n\nOu algo próximo disso.\n\nDentro da Kiba, Enrai é responsável por tratar ferimentos impossíveis, remover rastreadores, adaptar próteses, estabilizar armas proibidas, conter reações ao Chakra Profano e impedir que os membros da organização morram antes da missão terminar.\n\nEle não é gentil.\n\nEle é necessário.\n\nEnrai fala pouco, observa sinais vitais como quem lê sentenças de morte e costuma tratar dor como uma informação útil.\n\nSeu corpo é forte, resistente e treinado para operar em campo mesmo sob ataque. Diferente de médicos frágeis de retaguarda, Enrai consegue lutar na linha de frente enquanto mantém aliados vivos através de impulsos elétricos cirúrgicos.\n\nSeu combate é sujo, técnico e assustadoramente eficiente.\n\nEle não precisa destruir o corpo de um inimigo.\n\nBasta interromper o impulso correto, travar o músculo certo ou enviar uma descarga dourado âmbar pelo ponto exato do sistema nervoso.\n\nEnrai não gosta da OCA.\n\nMas entende seus métodos bem demais.\n\nEsse é o que torna sua presença tão perigosa dentro da Kiba.\n\nEle sabe como a OCA pensa.\n\nSabe como desmonta pessoas.\n\nSabe como transforma corpos em armas.\n\nE, às vezes, suas soluções parecem perigosamente parecidas com as soluções do inimigo.\n\nPor isso, Mika desconfia dele.\nYoru evita ficar sozinho com ele.\nReito confia nele em silêncio.\nE Yuji sabe que, sem Enrai, a Kiba já teria acabado.\n\nEnrai é o tipo de homem que a Kiba jamais deveria aceitar.\n\nMas também é o tipo de homem sem o qual a Kiba não sobreviveria.\n\nDentro da organização existe uma frase associada a ele:\n\n'Morto é inútil. Vivo ainda pode servir de experimentos.'",
     "arsenal": [],
@@ -2626,7 +2621,8 @@
     "vila": [
       "Kumogakure"
     ],
-    "patente": "Vice Líder da Kiba"
+    "patente": "Vice Líder da Kiba",
+    "position": ""
   },
   {
     "__docId": "etsuko-senju-e",
@@ -2730,7 +2726,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Sannin",
     "position": ""
   },
   {
@@ -2981,7 +2976,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Genin",
     "position": ""
   },
   {
@@ -3114,7 +3108,6 @@
     "vila": [
       "Sunagakure"
     ],
-    "graduacao": "Sannin",
     "position": ""
   },
   {
@@ -3229,7 +3222,6 @@
       "O Íon Vivo"
     ],
     "nc": 28,
-    "position": "Mizukage",
     "description": "Desconhecido",
     "aptitudes": [
       "Chakra Expandido: Saiken",
@@ -3371,7 +3363,8 @@
     "cargo": [
       "2º Mizukage"
     ],
-    "role": "Controle"
+    "role": "Controle",
+    "position": ""
   },
   {
     "__docId": "genei-g",
@@ -3386,7 +3379,6 @@
       "Vice Líder dos 75%"
     ],
     "nc": 20,
-    "position": "Vice Líder dos 75%",
     "role": "Tank e DPS",
     "description": "Gen’ei, conhecido como G, não é um humano no sentido tradicional — ele é uma criação. Forjado em um laboratório subterrâneo da Organização do Chakra Artificial, foi concebido como o primeiro ser totalmente gerado a partir de chakra artificial puro. Sem pais, sem passado e sem identidade própria, seu corpo foi construído utilizando fragmentos genéticos de ninjas lendários, incluindo traços de um Jinchūriki e de um membro do clã Kaguya, combinados com chakra profano.\n\nSeu desenvolvimento foi acelerado artificialmente, crescendo em apenas quatro anos até atingir a forma de uma criança. Desde o início, sua existência foi definida por testes, dor e comandos. Ele não aprendeu a viver — aprendeu a funcionar.\n\nApós os sucessos iniciais nos exames conduzidos por Furyuzan, Gen’ei recebeu algo que nunca havia experimentado: um objeto sem função — um pequeno grifo de brinquedo. Para os cientistas, era apenas um teste comportamental. Para ele, foi o primeiro contato com algo que não envolvia dor ou utilidade.\n\nParalelamente, os mesmos experimentos que consolidaram sua criação levaram ao desenvolvimento de uma nova entidade: uma bijuu profana, gerada artificialmente como extensão das pesquisas com chakra corrompido. O resultado foi algo além de humano: um ser cujo chakra deu origem a uma natureza inédita, o Kōton, a Liberação do Aço Negro, capaz de criar estruturas metálicas vivas, condutivas e letais.\n\nAliado ao seu Raiton modificado, o Raio Negro, Gen’ei se tornou uma arma perfeita de condução, destruição e controle, manipulando eletricidade, calor e magnetismo com precisão absoluta.\n\nNo entanto, sua maior característica não está em seu poder, mas em sua ausência — Gen’ei não possui emoções reais. Ele observa, analisa e reage. Sua calma não é serenidade, é vazio.\n\nAinda assim, algo inesperado surgiu quando foi designado para monitorar Fuyuki. Diante da instabilidade emocional e da dor constante do garoto, Gen’ei desenvolveu algo que não estava programado: uma forma primitiva de conexão. Desde então, tornou-se sua âncora, protegendo-o silenciosamente de tudo — inimigos, aliados e até de si mesmo.\n\nDentro da Equipe 75%, Gen’ei atua como uma presença constante e inevitável. Ele não lidera, não questiona, não hesita. Apenas executa. Respeita a estratégia de Chisaki, evita confrontos desnecessários com Akairo e observa o resto da equipe como variáveis em um sistema imperfeito.\n\nPara a organização, ele é o experimento perfeito. Para a equipe, ele é a defesa silenciosa que sempre chega a tempo.\n\nHá, porém, uma verdade oculta sobre sua existência: toda a sua consciência não está limitada ao corpo físico. Ela reside dentro dos sistemas centrais da própria OCA, funcionando como uma rede distribuída e protegida. Seu corpo é apenas um terminal.\n\nPor isso, Gen’ei não pode ser morto de forma convencional. Mesmo que sua forma física seja destruída, sua consciência permanece ativa, podendo ser transferida, reconstruída ou reativada conforme a vontade da organização.\n\nE para si mesmo… Gen’ei é apenas aquilo que foi criado para ser — até o momento em que começou, sem entender como, a se tornar algo mais.",
     "hp": 170,
@@ -3521,7 +3513,8 @@
     "organizacao": [
       "OCA"
     ],
-    "patente": "Vice Líder dos 75%"
+    "patente": "Vice Líder dos 75%",
+    "position": ""
   },
   {
     "__docId": "genzo-umikage",
@@ -3637,7 +3630,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 65,
@@ -3675,7 +3667,8 @@
     "cargo": [
       "Vice Líder da Elite"
     ],
-    "role": "DPS, Tank e Controle"
+    "role": "DPS, Tank e Controle",
+    "position": ""
   },
   {
     "__docId": "gordon-kirisame",
@@ -3776,7 +3769,6 @@
       "Fundador da OCA"
     ],
     "nc": 0,
-    "position": "Líder da OCA",
     "role": "?",
     "description": "",
     "hp": 0,
@@ -3839,7 +3831,8 @@
     "organizacao": [
       "OCA"
     ],
-    "patente": "Líder da OCA"
+    "patente": "Líder da OCA",
+    "position": ""
   },
   {
     "__docId": "hahiko-shiosaki",
@@ -3941,7 +3934,6 @@
       "Jinchuuriki"
     ],
     "nc": 30,
-    "position": "2º Kazekage",
     "description": "Hana Sabaku é uma das maiores lendas vivas de Sunagakure e a principal razão pela qual a Cidade Dourada continua de pé mesmo diante das ameaças da Era Genética.\n\nEsposa de Reto, o Primeiro Kazekage, Hana assumiu a liderança da vila após a queda de seu marido no incidente do OASIS. Diferente de Reto, que fundou a civilização da Areia através da esperança, Hana a protege através de disciplina, vigilância e poder absoluto.\n\nConhecida como a Muralha Dourada e a Leoa da Areia, Hana é Jinchuuriki do Shukaku, usuária da rara Areia de Ouro e uma ninja sensorial de alcance extraordinário. Seu estilo de combate é focado em longa distância, controle territorial, defesa absoluta e esmagamento estratégico do inimigo antes que ele consiga se aproximar.\n\nEm batalha, Hana não luta como uma assassina impulsiva. Ela transforma o campo inteiro em uma extensão de sua vontade. A areia observa, prende, pesa, corta, sela e destrói. Poucos inimigos conseguem chegar perto dela; menos ainda sobrevivem tempo suficiente para entender que já estavam dentro de sua zona de domínio desde o início.\n\nApesar de seu poder monstruoso, Hana é profundamente movida pelo amor por Sunagakure, por Reto e por seu povo. Ela acredita que talvez não possua força suficiente para destruir completamente a OCA, mas dedicou sua vida a garantir que, mesmo diante do fim, o povo da Areia viva protegido até o último instante.",
     "chakra": 150,
     "techniques": [
@@ -4101,7 +4093,8 @@
     "cargo": [
       "2º Kazekage"
     ],
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "hashirama-senju",
@@ -4118,7 +4111,6 @@
       "Assassino de Uchiha Madara"
     ],
     "nc": 20,
-    "position": "1º Hokage",
     "role": "Tanque e DPS",
     "description": "",
     "hp": 146,
@@ -4220,7 +4212,8 @@
     ],
     "cargo": [
       "1º Hokage"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "hayato-hanzo-h",
@@ -4326,7 +4319,6 @@
     "vila": [
       "Kumogakure"
     ],
-    "graduacao": "Sannin",
     "position": "",
     "role": "Suporte e Controle"
   },
@@ -4403,7 +4395,6 @@
     "vila": [
       "Iwagakure"
     ],
-    "graduacao": "Sannin",
     "position": "",
     "cargo": [
       "Linhagem Temporal"
@@ -4572,7 +4563,6 @@
     "vila": [
       "Iwagakure"
     ],
-    "graduacao": "Sannin",
     "position": "",
     "cargo": [
       "Linhagem Natural"
@@ -4594,7 +4584,6 @@
       "Traidor da OCA"
     ],
     "nc": 26,
-    "position": "Vice Líder da OCA",
     "description": "",
     "chakra": 88,
     "aptitudes": [
@@ -4700,7 +4689,8 @@
       "2º General",
       "3º Líder de Rastreio"
     ],
-    "role": "Suporte e Controle"
+    "role": "Suporte e Controle",
+    "position": ""
   },
   {
     "__docId": "hisoka-senju",
@@ -4718,7 +4708,6 @@
       "Traidor de Konoha"
     ],
     "nc": 18,
-    "position": "Hokage das Sombras",
     "role": "Tank",
     "description": "DESCONHECIDO",
     "powers": [
@@ -5007,7 +4996,8 @@
     ],
     "cargo": [
       "3º Braço Esquerdo"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "hoshiro-hyuga",
@@ -5023,7 +5013,6 @@
       "Assassino de Kai"
     ],
     "nc": 28,
-    "position": "Hokage das Sombras",
     "description": "",
     "hp": 234,
     "isDead": true,
@@ -5139,7 +5128,8 @@
     "cargo": [
       "2º Braço Esquerdo"
     ],
-    "role": "DPS, Suporte e Controle"
+    "role": "DPS, Suporte e Controle",
+    "position": ""
   },
   {
     "__docId": "inazuma-kazuchi",
@@ -5160,7 +5150,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 71,
@@ -5197,7 +5186,8 @@
     ],
     "cargo": [
       "Membro da Elite"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "juzo-kuroshio",
@@ -5311,7 +5301,6 @@
       "Deus Shinobi"
     ],
     "nc": 30,
-    "position": "Vice Líder da OCA",
     "role": "DPS",
     "description": "Kaien Ishi, conhecido hoje como Ômega, nasceu no topo do mundo — herdeiro da família que governava todo o País da Terra. Cercado por luxo, poder e privilégios, foi criado para se tornar o próximo soberano absoluto. Ele era o herdeiro da lendária Seimei no Saidan e tinha tudo ao seu alcance, exceto paz.\n\nDesde cedo, Kaien enxergava o que os outros ignoravam: servos famintos, soldados descartáveis e camponeses esmagados pelo peso de um sistema construído sobre sangue. Quando questionava, recebia sempre a mesma resposta — ele era diferente, superior, destinado a governar.\n\nMas Kaien nunca aceitou essa verdade. Para ele, não havia honra em um trono erguido sobre sofrimento.\n\nEm um ato que ecoaria como heresia, ele renunciou ao próprio nome, abandonou o palácio e desapareceu do mundo. Tornou-se um andarilho, um samurai sem rosto, conhecido apenas como uma lenda que surgia onde havia injustiça e desaparecia sem aceitar recompensa.\n\nCom o tempo, o nome Ishi foi apagado de seus registros — e Kaien deixou de existir. Em seu lugar, nasceu Ômega: o fim de uma linhagem, o último herdeiro de uma era que ele jurou destruir.\n\nAnos depois, ao ouvir rumores sobre Hades — um homem que rejeitava o poder herdado e buscava criar força através do chakra artificial e amplificação de chakra profano —, Kaien viu algo que nunca havia encontrado: alguém que compartilhava sua visão.\n\nQuando finalmente o encontrou, não hesitou em lutar ao seu lado, defendendo-o como se aquele fosse seu próprio propósito. Questionado sobre o motivo, respondeu apenas que não lutava por sangue — assim como Hades.\n\nA partir desse momento, os dois formaram uma aliança inquebrável. Hades encontrou em Ômega não uma criação, mas um sucessor por escolha. Ômega encontrou em Hades não um mestre, mas um igual.\n\nJuntos, tornaram-se o núcleo de uma revolução — a mente e a lâmina. Para o mundo, são ameaças. Para si mesmos, são inevitáveis.\n\nPois enquanto o poder for definido pelo nascimento, Ômega continuará existindo como aquilo que ele sempre declarou ser: o fim de tudo.",
     "isDead": true,
@@ -5434,7 +5423,8 @@
     "cargo": [
       "Linhagem Espiritual"
     ],
-    "patente": "Vice Líder da OCA"
+    "patente": "Vice Líder da OCA",
+    "position": ""
   },
   {
     "__docId": "kaito-senju",
@@ -6219,7 +6209,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Chunin",
     "position": ""
   },
   {
@@ -6237,7 +6226,6 @@
       "Líder dos NoGuns"
     ],
     "nc": 30,
-    "position": "Hokage das Sombras",
     "description": "",
     "hp": 250,
     "arsenal": [
@@ -6341,7 +6329,8 @@
     "cargo": [
       "3º Hokage das Sombras"
     ],
-    "role": "Tanque, DPS, Suporte e Controle"
+    "role": "Tanque, DPS, Suporte e Controle",
+    "position": ""
   },
   {
     "__docId": "katakana-yotsuki-alpha",
@@ -6356,7 +6345,6 @@
       "Deus do Raiton"
     ],
     "nc": 28,
-    "position": "Raikage",
     "role": "?",
     "description": "",
     "aptitudes": [
@@ -6502,7 +6490,8 @@
     ],
     "cargo": [
       "2º Raikage"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "katsumi-hyuga",
@@ -7080,7 +7069,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Chunin",
     "position": "",
     "cargo": [
       "3º Líder da Equipe de Elite"
@@ -7270,11 +7258,11 @@
       "NPC",
       "Konohagakure"
     ],
-    "position": "3º Líder da Ambu",
     "cargo": [
       "3º Líder da Ambu",
       "2º Líder de Rastreio"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "kazuki-hoshigaki",
@@ -7413,7 +7401,6 @@
     "vila": [
       "Kirigakure"
     ],
-    "graduacao": "Genin",
     "position": ""
   },
   {
@@ -7562,7 +7549,6 @@
     "vila": [
       "Iwagakure"
     ],
-    "graduacao": "Jounin",
     "position": "",
     "cargo": [
       "Líder do Dojo"
@@ -7587,7 +7573,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 69,
@@ -7626,7 +7611,8 @@
     "cargo": [
       "Líder da Elite"
     ],
-    "role": "DPS, Tank e Controle"
+    "role": "DPS, Tank e Controle",
+    "position": ""
   },
   {
     "__docId": "koga-kirisame",
@@ -7704,7 +7690,6 @@
       "Assassino Explosivo"
     ],
     "nc": 18,
-    "position": "Vice Líder da NoGuns",
     "role": "DPS",
     "description": "",
     "hp": 154,
@@ -7768,7 +7753,8 @@
     "vila": [
       "Kumogakure"
     ],
-    "patente": "Vice Líder da NoGuns"
+    "patente": "Vice Líder da NoGuns",
+    "position": ""
   },
   {
     "__docId": "kurohime-kazeori",
@@ -7783,7 +7769,6 @@
       "A Voz Antes da Sentença"
     ],
     "nc": 21,
-    "position": "Pilar de Sunagakure",
     "role": "DPS e Suporte",
     "description": "Kurohime é uma dos seis Pilares de Sunagakure e representa o Pilar do Julgamento. Diferente de Hana, que carrega a sentença final da Areia, Kurohime existe para revelar a verdade antes que o julgamento seja dado.\n\nNascida na Vila da Areia em meio a intrigas políticas e conflitos familiares, Kurohime cresceu entendendo que nem toda ameaça vinha de fora das muralhas. Algumas nasciam dentro da própria vila, escondidas atrás de mentiras, medo, culpa e falsas lealdades. Desde jovem, demonstrou uma habilidade rara: a capacidade de entrar na mente de outras pessoas, atravessando memórias, traumas, intenções ocultas e pensamentos enterrados.\n\nSeu talento físico também se destacou cedo. Kurohime tornou-se uma combatente de taijutsu brutal, usando força, disciplina e pressão constante para dominar inimigos no corpo a corpo. Porém, quando invade a mente de um alvo, seu corpo físico fica vulnerável. É nesse momento que sua companheira, a pantera negra Kurotsume, protege seu corpo de qualquer ameaça.\n\nCom o tempo, Kurohime se tornou uma das melhores amigas de Hana e uma das poucas pessoas capazes de entrar em sua mente para acalmar crises, organizar pensamentos e silenciar o caos emocional que a Kazekage carrega. Dentro de Sunagakure, Kurohime é chamada antes das grandes sentenças. Ela não decide o destino dos culpados; ela revela a verdade para que Hana possa julgar sem estar no escuro.",
     "techniques": [],
@@ -7865,7 +7850,8 @@
     ],
     "cargo": [
       "Pilar do Julgamento"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "kuromi-uchiha",
@@ -7881,7 +7867,6 @@
       "Predadora de Bijus",
       "Mangekyou mais Forte"
     ],
-    "position": "Terceiro Degrau",
     "role": "Suporte",
     "description": "Uma kunoichi envolta em mistério e temida por seu poder. \n\nIrmã gêmea secreta de Oddy Uchiha, Kuromi foi criada nas sombras e treinada pelo lendário ninja Raikun, que lhe ensinou técnicas de combate, selamentos e o Modo Sábio dos Cães.\n\nDurante uma missão envolvendo a liberação de bijuu, Kuromi despertou seu Mangekyou Sharingan e, em meio ao caos, conseguiu estabilizar o selo da besta dentro de Shoei Sarutobi. O choque entre seu poder, o chakra da bijuu e os selamentos usados na batalha deixou uma marca permanente em seu abdômen.\n\nPortadora de um Mangekyou com habilidades únicas de manipulação mental e invocadora do lendário lobo Okami, Kuromi se tornou conhecida no mundo shinobi como a Predadora de Bijus.",
     "arsenal": [
@@ -8065,7 +8050,8 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Terceiro Degrau"
+    "patente": "Terceiro Degrau",
+    "position": ""
   },
   {
     "__docId": "madara-uchiha",
@@ -8081,7 +8067,6 @@
       "Deus Shinobi"
     ],
     "nc": 20,
-    "position": "Hokage das Sombras",
     "role": "Tanque e DPS",
     "description": "",
     "hp": 146,
@@ -8176,7 +8161,8 @@
     ],
     "cargo": [
       "1º Hokage das Sombras"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "mei-yuki",
@@ -8259,7 +8245,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 68,
@@ -8297,7 +8282,8 @@
     "cargo": [
       "Membro da Elite"
     ],
-    "role": "Suporte, DPS e Controle"
+    "role": "Suporte, DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "mika-yotsuki",
@@ -8423,11 +8409,11 @@
     "vila": [
       "Kumogakure"
     ],
-    "position": "Líder da Kiba",
     "cargo": [
       "Membro da Elite"
     ],
-    "patente": "Líder da Kiba"
+    "patente": "Líder da Kiba",
+    "position": ""
   },
   {
     "__docId": "mirei-sazanami",
@@ -8520,7 +8506,6 @@
       "A Médica que Escolhe quem Vive"
     ],
     "nc": 23,
-    "position": "Pilar de Sunagakure",
     "role": "Suporte",
     "description": "Mizue Dokuhana, conhecida hoje como o Pilar do Sacrifício, é a médica que todos desejam ter por perto quando a morte chega, mas que ninguém deseja encarar quando ela abre sua maleta cirúrgica. Nascida no clã Dokuhana, cresceu entre venenos, antídotos, lâminas esterilizadas, fios de sutura com chakra e lições duras demais para uma criança comum.\n\nPara sua família, medicina nunca foi uma promessa de salvação perfeita. Medicina era cálculo: escolher o órgão que podia falhar, o membro que podia ser perdido e o veneno que mataria a infecção antes que matasse o paciente. Desde cedo, Mizue entendeu que no deserto nada é gratuito. Até a vida, quando salva, cobra algo de volta.\n\nEm batalha, Mizue não promete milagres. Ela observa o corpo quebrado diante dela e calcula o que ainda pode ser preservado. Com agulhas cirúrgicas, toxinas controladas e técnicas médicas extremas, consegue salvar aliados à beira da morte, mas sempre cobrando um preço físico: visão, força, mobilidade, respiração, sensibilidade ou parte do fluxo de chakra.\n\nQuando a OCA começou a espalhar horrores genéticos, corpos instáveis e chakra artificial, foi Mizue quem manteve vivos aqueles que todos já consideravam perdidos. Ela estudou mutações, degenerações celulares, anti-regeneração e venenos capazes de frear monstros criados em laboratório.\n\nHoje, como Pilar do Sacrifício, Mizue carrega uma das verdades mais desconfortáveis da Areia: sobreviver exige perdas. Ela não se vê como santa, salvadora ou heroína. Sabe que muitos daqueles que curou acordaram odiando o preço que tiveram de pagar. Mesmo assim, continua. Mizue Dokuhana não promete devolver ninguém inteiro. Promete apenas impedir que morram antes da hora.",
     "hp": 194,
@@ -8595,7 +8580,8 @@
     ],
     "cargo": [
       "Pilar do Sacrifício"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "nagare-uzumaki",
@@ -9012,7 +8998,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Chunin",
     "position": "",
     "role": "DPS, Suporte e Controle"
   },
@@ -9030,7 +9015,6 @@
       "Olho da Nevasca",
       "Coruja do Gelo Negro"
     ],
-    "position": "Terceiro Degrau",
     "role": "Controle / Sensorial",
     "description": "Nagi Yuki nasceu na Vila da Névoa durante um dos períodos mais sombrios de sua história — uma guerra civil silenciosa, onde traições, execuções e desaparecimentos eram comuns até mesmo entre aliados.\nDesde muito jovem, Nagi foi exposto à brutalidade do próprio sistema shinobi da vila, onde fraqueza não era tolerada e laços eram vistos como vulnerabilidade.\nFilho de um pequeno clã especializado em técnicas de gelo, Nagi cresceu sob constante vigilância, já que habilidades raras eram tanto uma bênção quanto uma sentença de morte.\nSua família vivia escondida, evitando conflitos diretos, até o dia em que foram descobertos por uma facção interna da própria Névoa.\nConsiderados um risco em meio à instabilidade da guerra civil, seus pais foram eliminados sem julgamento — não por inimigos, mas por sua própria vila.\nNagi sobreviveu por pouco.\nGravemente ferido e tomado pelo frio que sempre dominou seu chakra, ele foi encontrado por um alto oficial da Névoa, responsável por recrutar e moldar jovens talentos em armas vivas.\nSem escolha, Nagi foi forçado a servir.\nSua dor foi ignorada, sua identidade reduzida a um recurso militar.\nCom a guerra se intensificando e a vila à beira do colapso interno, a liderança da Névoa tomou uma decisão estratégica: enviar jovens promissores para o Exame Chunin em Konoha, não apenas como demonstração de poder, mas como uma possível rota de fuga para ativos valiosos.\nNagi foi escolhido — não por mérito, mas por utilidade.\nSem vontade própria, carregando o peso da perda e da traição, Nagi partiu para Konoha como uma peça descartável em um jogo maior.\nFoi nesse ambiente estranho, longe do caos da Névoa, que ele encontrou algo que nunca havia conhecido: pessoas que não tentavam matá-lo.\nAo lado de Yasuo Kurogane e Apollo Netsu, pela primeira vez, Nagi sentiu que talvez pudesse existir além da guerra.\nApós falharem no Exame Chunin e iniciarem o retorno, o grupo foi interceptado no caminho por Shikure e Togo Kage, figuras que pareciam enxergar além de suas dores superficiais.\nDiferente de todos que haviam cruzado seu caminho até então, eles não ofereciam ordens — ofereciam escolha.\nShikure expôs a fragilidade das vilas e o ciclo interminável de uso e descarte de shinobis, enquanto Togo apresentou a OCA como algo diferente: um lugar onde poder não seria imposto, mas conquistado.\nPara Nagi, aquilo não era apenas uma proposta — era a primeira vez que alguém o tratava como algo além de uma ferramenta.\nCansado de servir uma vila que destruiu sua família e o transformou em arma, ele aceitou.\nNaquele momento, Nagi não apenas mudou de caminho — ele abandonou completamente a Névoa, deixando para trás seu passado, seu nome e qualquer esperança de retorno.\nMas, mesmo seguindo em frente, o frio dentro dele nunca desapareceu.",
     "gallery": [
@@ -9176,7 +9160,8 @@
         "name": "Kuchiyose",
         "level": 11
       }
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "najin-hatake",
@@ -9702,7 +9687,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Genin",
     "position": ""
   },
   {
@@ -9778,7 +9762,6 @@
       "Terceiro Hokage das Sombras"
     ],
     "nc": 18,
-    "position": "Hokage das Sombras",
     "role": "Suporte e DPS",
     "description": "Naoki Uchiha, filho de Uchiha Madara, nasceu carregando um legado que nunca pediu. Diferente de Oddy, Shizumi, Ayumi e Kuromi, que eram crianças durante a lendária batalha do Vale do Fim, Naoki cresceu com toda a vila ciente de sua origem. Desde cedo, foi marcado como o “filho da desgraça”, alvo de medo e desprezo. Esse fardo moldou sua personalidade, transformando o ódio em combustível e alimentando uma sede de justiça fria e inabalável.\nDeterminado a superar seu nome, herdou a gunbai de seu pai e treinou incansavelmente, tornando-se um prodígio temido até entre os Uchiha. Aos 14 anos, após a aposentadoria de Sho, assumiu a liderança do clã por pura superioridade — sem contestação.\nIntegrante da lendária equipe ANBU liderada por Nishinoya, participou de missões de alto risco que consolidaram sua reputação como um executor implacável. Em uma delas, desobedeceu ordens e invadiu sozinho uma base da OCA para recuperar o corpo de Madara, eliminando todos no caminho com facilidade perturbadora.\nCom autorização de Tobirama, Yumi implantou os olhos de Madara em Naoki. O poder foi imediato e avassalador, mas trouxe um preço: um chakra corrompido que começou a consumir sua visão. Mesmo ciente, ele não recuou.\nNa Batalha da Fortaleza Yumei, perdeu completamente a visão. O Terceiro Hokage das Sombras, uma entidade que atuava nas trevas para manter o equilíbrio, carregando o legado e a maldição de Uchiha Madara.",
     "hp": 130,
@@ -10092,7 +10075,8 @@
     ],
     "cargo": [
       "3º Braço Direito"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "naomi-uzumaki",
@@ -10293,7 +10277,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "3 Sannins Lendários",
     "position": "",
     "cargo": [
       "3ª Dama"
@@ -10318,7 +10301,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 66,
@@ -10355,7 +10337,8 @@
     ],
     "cargo": [
       "Membro da Elite"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "nishinoya-senju",
@@ -10367,7 +10350,6 @@
       "Konohagakure"
     ],
     "nc": 30,
-    "position": "3º Hokage",
     "chakra": 200,
     "powers": [
       {
@@ -10846,7 +10828,8 @@
       "Deus Shinobi",
       "Relâmpago Azul de Konoha"
     ],
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "oddy-uchiha",
@@ -11523,7 +11506,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Chunin",
     "position": ""
   },
   {
@@ -11547,7 +11529,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 64,
@@ -11584,7 +11565,8 @@
     ],
     "cargo": [
       "Membro da Elite"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "raikun-hatake",
@@ -11602,7 +11584,6 @@
       "Bijuu sem Cauda"
     ],
     "nc": 30,
-    "position": "Hokage das Sombras",
     "role": "Tanque e DPS",
     "description": "",
     "hp": 250,
@@ -11750,7 +11731,8 @@
     "cargo": [
       "1º Líder da Equipe de Elite",
       "2º Líder de Inovações"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "raizen-kurogane",
@@ -11771,7 +11753,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 63,
@@ -11808,7 +11789,8 @@
     ],
     "cargo": [
       "Membro da Elite"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "raizuki-hoshigaki",
@@ -12008,7 +11990,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Genin",
     "position": ""
   },
   {
@@ -12026,7 +12007,6 @@
       "Experimento da OCA"
     ],
     "nc": 20,
-    "position": "Vice Líder da Kiba",
     "role": "Tank",
     "description": "Reito Kurogami foi um dos primeiros experimentos vivos criados pela OCA durante os testes iniciais envolvendo o Shiroki Kaminari e o Chakra Profano.\n\nEnquanto Nagi Yuki e Hayato Hanzo eram tratados como os projetos perfeitos da organização, Reito foi utilizado como cobaia descartável.\n\nPor ser mais velho e possuir um corpo naturalmente resistente, cientistas da OCA decidiram ultrapassar todos os limites humanos durante os experimentos.\n\nQuantidades absurdas de Chakra Profano foram injetadas diretamente em seu sistema nervoso, circulação e núcleo de chakra.\n\nO resultado deveria ter sido morte instantânea.\n\nMas Reito sobreviveu.\n\nSeu corpo começou a se partir lentamente.\n\nGrandes cicatrizes negras surgiram por toda sua pele, semelhantes a rachaduras espalhadas pelo corpo inteiro.\n\nEssas marcas não são ferimentos.\n\nSão regiões onde o Chakra Profano literalmente rompeu os limites físicos do corpo humano.\n\nDentro dessas fissuras, descargas negras de Kaminari Artificial circulam constantemente como uma tempestade presa dentro do próprio corpo.\n\nSeu Kaminari Artificial alterou completamente:\n\n• Músculos\n• Impulsos nervosos\n• Resistência física\n• Fluxo de chakra\n• Velocidade corporal\n\nMesmo possuindo um corpo gigantesco e extremamente pesado, Reito desenvolveu velocidade comparável aos maiores usuários de Raiton da história de Kumogakure.\n\nCada movimento produz explosões elétricas involuntárias.\n\nO solo quebra quando ele acelera.\n\nO ar vibra ao redor do corpo dele.\n\nE as rachaduras negras brilham intensamente sempre que o Chakra Profano entra em colapso dentro do organismo.\n\nDiferente de Yuji Yotsuki, que representa precisão absoluta...\n\nReito representa violência inevitável.\n\nApós descobrir os verdadeiros objetivos da OCA, Reito abandonou completamente a organização e passou a lutar ao lado de Yuji, Yoru e da Kiba.\n\nHoje, arquivos secretos da OCA possuem uma classificação proibida sobre Reito:\n\n'Fenrir.'",
     "hp": 170,
@@ -12143,7 +12123,8 @@
     "vila": [
       "Kumogakure"
     ],
-    "patente": "Vice Líder da Kiba"
+    "patente": "Vice Líder da Kiba",
+    "position": ""
   },
   {
     "__docId": "reto-sabaku",
@@ -12161,7 +12142,6 @@
       "Arqueiro Dourado da Areia"
     ],
     "nc": 27,
-    "position": "1º Kazekage",
     "description": "Reto Sabaku foi o Primeiro Kazekage e o homem responsável por transformar o maior deserto do continente em uma civilização próspera. Antes dele, o deserto era apenas morte, escassez, tribos em guerra, assassinos, mercadores armados e pequenos reinos subterrâneos lutando por água.\n\nConhecido como o Caçador do Deserto, Reto não lutava como um guerreiro comum. Ele observava, rastreava e eliminava seus inimigos antes mesmo que eles entendessem que haviam sido caçados. Sua arma principal era um lendário arco de Rank Z da Vila da Areia, capaz de condensar chakra e disparar flechas de areia metálica com precisão absurda.\n\nAo despertar a Areia de Ouro, Reto mudou o destino de Sunagakure. Ele encontrou aquíferos subterrâneos, desviou tempestades, criou rotas comerciais, ergueu muralhas e fundou cidades. Porém, em combate, essa mesma areia que trouxe prosperidade ao deserto se tornava uma arma silenciosa e implacável.\n\nAlém de seu arco, Reto utilizava a máscara ancestral Satetsu no Rinne, o Samsara da Areia de Ferro, uma relíquia de Rank Z capaz de amplificar o domínio magnético do portador a níveis catastróficos. Com ela, Reto podia extrair ferro do solo, da atmosfera e até de corpos vivos, convertendo tudo em poeira metálica sob seu controle.\n\nReto era amado por sua gentileza e temido por seu poder. O mundo dizia que ele estava apenas alguns degraus abaixo de Hashirama Senju. Para Sunagakure, no entanto, ele era algo ainda maior: o homem que ensinou o deserto a florescer.",
     "chakra": 91,
     "powers": [
@@ -12315,7 +12295,8 @@
     "cargo": [
       "1º Kazekage"
     ],
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "rock-gunma",
@@ -12332,7 +12313,6 @@
       "Polvo Enjaulado"
     ],
     "nc": 26,
-    "position": "Tsuchikage",
     "role": "Tank e Suporte",
     "description": "Rock Gunma nasceu em uma era marcada por conflitos constantes, crescendo em meio à guerra e sendo exposto desde cedo à sua realidade brutal. Com o tempo, tornou-se jinchūriki do Gyūki. Diferente da maioria, não enfrentou a besta como um fardo, mas construiu uma relação de respeito mútuo.\n\nCom o passar dos anos, Rock participou de diversas batalhas importantes, acumulando experiência real de combate e adquirindo cicatrizes que marcaram seu corpo. Sua força e liderança o levaram a assumir o cargo de Segundo Tsuchikage, guiando a vila em um dos períodos mais instáveis de sua história.\n\nDurante seu governo, destacou-se ao encerrar a guerra entre monges e samurais sem recorrer à destruição total, impondo sua presença e restaurando o equilíbrio ao devolver artefatos sagrados aos seus verdadeiros guardiões.\n\nFoi nesse período como Tsuchikage que surgiu uma ameaça fora de qualquer padrão conhecido — um ser chamado Delta, capaz de distorcer a realidade através do controle absoluto de gravidade e metal. Diferente de outros inimigos, Delta não buscava apenas caos, mas o próprio posto de Tsuchikage.\n\nO confronto entre os dois foi inevitável.\n\nMesmo com o chakra massivo de Gyūki reforçando seu corpo, Rock enfrentou algo além da força convencional. Durante a luta, Delta alterou o campo gravitacional ao redor de Rock, comprimindo seu corpo de dentro para fora enquanto manipulava partículas metálicas microscópicas presentes no ambiente.\n\nAo invés de romper a defesa de Gyūki pela força, Delta distorceu o espaço ao redor do chakra, fazendo com que o metal atravessasse a proteção como se ela não existisse.\n\nO ataque atingiu diretamente o estômago de Rock.\n\nO dano não foi imediato — foi contínuo.\n\nFragmentos metálicos permaneceram dentro de seu corpo, reagindo ao seu chakra e se expandindo lentamente. Rock caiu, mas se recusou a perder. Concentrando todo o seu chakra na região abdominal, ele conseguiu conter a expansão do metal, impedindo sua morte naquele momento.\n\nMesmo assim, ele venceu a batalha.\n\nMas não saiu inteiro dela.\n\nSem demonstrar fraqueza e sem pedir ajuda, Rock continuou liderando a vila. No entanto, com o passar do tempo, o desgaste interno começou a cobrar seu preço. As dores se tornaram constantes, e seu corpo já não respondia como antes.\n\nReconhecendo seus limites, Rock tomou a decisão de renunciar ao cargo de Tsuchikage — não por derrota, mas por consciência.\n\nApós deixar o posto, passou a atuar como mentor, dedicando-se a treinar e orientar a próxima geração. Entre seus alunos, Noya se destacou como alguém que superou seu próprio nível.\n\nMesmo afastado do campo de batalha, Rock continuou ativo nos bastidores, acompanhando conflitos e tentando influenciar o rumo das guerras, embora nem sempre com sucesso.\n\nDurante a Guerra da Fortaleza Yumei, seu corpo finalmente chegou ao limite.\n\nO chakra que mantinha o metal contido falhou.\n\nO que antes era controle se tornou colapso.\n\nSem conseguir mais sustentar a contenção interna, Rock foi consumido pelo próprio dano que carregava desde a luta contra Delta.\n\nSua morte não foi causada por um inimigo presente.\n\nMas por uma batalha que nunca realmente terminou.\n\nMesmo após sua queda, seu legado permaneceu. Rock Gunma é lembrado como um dos maiores Tsuchikages da história — não apenas por sua força, mas pela forma como carregou seu fardo até o fim, preparando aqueles que viriam depois dele.",
     "isDead": true,
@@ -12499,7 +12479,8 @@
     "cargo": [
       "2º Tsuchikage",
       "3º Líder de Inovações"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "ryuta-hyuga",
@@ -12895,7 +12876,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Sannin de Elite",
     "position": ""
   },
   {
@@ -12945,7 +12925,6 @@
     "id": 46,
     "timelineAppearance": "Clássico",
     "image": "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media&v=1786651910608044",
-    "position": "Pilar de Sunagakure",
     "chakraColor": "#e8fbff",
     "gallery": [
       {
@@ -12994,7 +12973,8 @@
     "cargo": [
       "Pilar da Liberdade"
     ],
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "shiita-sabaku-theta",
@@ -13008,7 +12988,6 @@
       "Kazekage"
     ],
     "nc": 28,
-    "position": "Kazekage",
     "description": "",
     "techniques": [],
     "aptitudes": [
@@ -13087,7 +13066,8 @@
     "cargo": [
       "1º Kazekage das Sombras"
     ],
-    "role": "Controle"
+    "role": "Controle",
+    "position": ""
   },
   {
     "__docId": "shikaki-nara",
@@ -13103,7 +13083,6 @@
       "Aquele que Nega Ações",
       "Erro do Projeto Salvador"
     ],
-    "position": "Terceiro Degrau",
     "role": "Suporte",
     "description": "Shikaki Nara é um dos casos mais raros já registrados dentro do Projeto Salvador. Diferente dos demais, ele não desenvolveu uma Bijū Profana após a exposição ao Chakra Profano.\n\nSua mente, altamente lógica e estruturada, rejeitou completamente a criação de uma entidade simbólica, forçando-o a controlar diretamente um poder instável que normalmente exigiria um intermediário para evitar colapso.\n\nEssa anomalia resultou em um estilo de combate único: Shikaki não manipula apenas sombras, mas a própria execução das ações dentro delas. Em sua presença, movimentos falham, decisões não se concretizam e técnicas deixam de existir antes mesmo de acontecer.\n\nEle não domina o campo de batalha pela força… mas pela negação absoluta das possibilidades do inimigo.",
     "arsenal": [
@@ -13233,7 +13212,8 @@
     "vila": [
       "Konohagakure"
     ],
-    "patente": "Terceiro Degrau"
+    "patente": "Terceiro Degrau",
+    "position": ""
   },
   {
     "__docId": "shikatsu-nara-togo-kage",
@@ -13251,7 +13231,6 @@
       "Traidor da NoGuns"
     ],
     "nc": 18,
-    "position": "NoGuns",
     "description": "Shikatsu Nara, conhecido hoje como Togo Kage, é o que restou de um sonho que foi quebrado cedo demais. Nascido no clã Nara, cresceu como uma criança feliz, curiosa e orgulhosa de seu nome, cercado por figuras lendárias — seus pais eram próximos de Hashirama e Tobirama, e por isso Shikatsu viveu parte de sua infância ao lado dos Senju. Ele jantava com eles, ouvia histórias, aprendia estratégias e carregava um único objetivo no coração: se tornar Hokage. Tobirama era seu herói. Hashirama, sua inspiração. Mas tudo isso morreu na noite da invasão da Vila da Nuvem. Seus pais lutaram até o fim para proteger Konoha, sacrificando suas vidas com orgulho. Shikatsu assistiu tudo. E então viu aquilo que destruiu sua mente por completo: Tobirama, o homem que ele mais admirava, passar por ele sem sequer olhar para trás, seguindo sozinho para enfrentar Hades. Para o mundo, foi um ato de coragem. Para Shikatsu, foi abandono. Traição. Nesse momento, algo dentro dele quebrou de forma irreversível. Sem família, sem propósito e sem seu herói, sua mente colapsou. Ele fugiu, desapareceu, e ao longo dos anos se perdeu completamente de si mesmo. A esquizofrenia induzida pelo trauma fragmentou sua identidade, apagando o garoto que queria ser Hokage. Em seu lugar, nasceu Togo — uma sombra instintiva em forma humana. Vagando por florestas e campos de batalha, atacava por reflexo, sobrevivia por impulso e existia sem direção. Até encontrar Daichi. No primeiro encontro, tentou matá-lo como fazia com todos… mas foi derrotado. E poupado. Mais do que isso — foi visto. Daichi lhe fez uma promessa: encontraria uma cura. Pela primeira vez desde a queda dos Nara, alguém o tratou como humano. Desde então, Togo passou a existir preso a esse único fio de realidade. Hoje, ele é instável, silencioso e imprevisível — incapaz de viver em sociedade, mas extremamente letal em combate. Sua mente pode estar quebrada, mas seu instinto nunca falha. E enquanto o mundo o enxerga como um fragmento perdido… Togo ainda caminha, sustentado apenas por uma promessa que se recusa a esquecer.",
     "chakra": 64,
     "powers": [
@@ -13382,7 +13361,8 @@
       "Konohagakure"
     ],
     "patente": "NoGuns",
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "shikure-chinoike",
@@ -13400,7 +13380,6 @@
       "Traidor da NoGuns"
     ],
     "nc": 18,
-    "position": "NoGuns",
     "role": "Suporte",
     "description": "Shikure Chinoike é um gênio que ultrapassou a linha entre ciência e insanidade. Nascido no ramo mais isolado do clã Sabaku e filho de um chinoike, entre artesãos, alquimistas e criadores de marionetes, ele nunca enxergou o mundo como os outros. Enquanto crianças brincavam, Shikure desmontava bonecos para entender sua estrutura. Enquanto treinavam combate, ele estudava sangue, perguntando a si mesmo até onde o corpo humano poderia ser levado. Desde cedo, sabia que era diferente — e acreditava que isso o colocava acima de todos. Sua obsessão encontrou um foco nas lendas do Ketsuryūgan, o dōjutsu proibido dos Chinoike. Incapaz de aceitá-lo como algo inalcançável, Shikure decidiu recriá-lo. Usando o próprio corpo como laboratório, iniciou anos de experimentos clandestinos: manipulação sanguínea, infusão de areia em tecidos vivos, micro-selos implantados em suas próprias células. Ele não testava limites — ele os quebrava. E então, conseguiu. Despertou um Ketsuryūgan artificial, instável, nascido de sua própria carne. A partir desse momento, o medo deixou de existir. Se podia recriar um dōjutsu em si mesmo, poderia criar vida. Assim nasceu Akeganai, sua marionete perfeita, moldada à semelhança humana e equipada com um olho vermelho sintético capaz de lançar genjutsus devastadores — fazendo suas vítimas enxergarem aquilo que mais amaram na vida. Para Shikure, não era crueldade. Era evolução. Sua obra máxima viria em seguida: a Sekisuna Jinzo, uma marionete feita de sangue, areia e chakra, capaz de replicar perfeitamente guerreiros a partir de amostras coletadas. Aquilo não era apenas uma técnica — era a prova de que ele havia superado as limitações humanas. Quando Sunagakure descobriu seus experimentos, não viu genialidade — viu aberração. Ordenaram sua prisão, a destruição de suas pesquisas e a eliminação de Akeganai. Shikure fugiu sem hesitar, levando consigo tudo o que considerava importante e abandonando sua vila para trás. Ferido e à beira da morte no deserto, foi encontrado por Daichi — o único que não o julgou, mas lhe deu um propósito. Desde então, Shikure segue ao seu lado, convencido de que finalmente encontrou um lugar onde sua mente não é contida… mas necessária. Para o mundo, ele é um cientista insano. Para si mesmo, ele é o próximo passo da evolução.",
     "hp": 130,
@@ -13497,7 +13476,8 @@
     "vila": [
       "Sunagakure"
     ],
-    "patente": "NoGuns"
+    "patente": "NoGuns",
+    "position": ""
   },
   {
     "__docId": "shin-mizukari",
@@ -13513,7 +13493,6 @@
       "Troglodita"
     ],
     "nc": 18,
-    "position": "NoGuns",
     "role": "Tanque",
     "description": "",
     "hp": 154,
@@ -13578,7 +13557,8 @@
     "vila": [
       "Iwagakure"
     ],
-    "patente": "NoGuns"
+    "patente": "NoGuns",
+    "position": ""
   },
   {
     "__docId": "shizumi-uchiha",
@@ -13753,7 +13733,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Jounin de Elite",
     "position": ""
   },
   {
@@ -13776,7 +13755,6 @@
       "NPC",
       "Kumogakure"
     ],
-    "position": "Elite de Kumogakure",
     "powers": [],
     "timelineAppearance": "5ª Temporada",
     "id": 67,
@@ -13814,7 +13792,8 @@
     ],
     "cargo": [
       "Membro da Elite"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "sho-uchiha",
@@ -13829,7 +13808,6 @@
       "Líder dos Uchiha"
     ],
     "nc": 28,
-    "position": "Hokage das Sombras",
     "role": "Tanque",
     "description": "",
     "hp": 234,
@@ -13924,7 +13902,8 @@
     ],
     "cargo": [
       "2º Braço Direito"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "shoei-sarutobi",
@@ -14275,7 +14254,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Genin",
     "position": ""
   },
   {
@@ -14430,7 +14408,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Chunin",
     "position": ""
   },
   {
@@ -14546,7 +14523,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Genin",
     "position": "",
     "role": "DPS e Controle"
   },
@@ -15086,7 +15062,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Chunin",
     "position": ""
   },
   {
@@ -15101,7 +15076,6 @@
       "Pilar da Construção",
       "O Arquiteto das Pontes Impossíveis"
     ],
-    "position": "Pilar de Sunagakure",
     "description": "Tessai Enshaku, conhecido hoje como o Pilar da Construção, é um homem que nasceu em uma vila de guerreiros, mas decidiu admirar aqueles que erguiam paredes. Desde criança, enquanto outros sonhavam com técnicas destrutivas e vitórias em campo de batalha, Tessai observava pedreiros, escavadores, ferreiros, engenheiros e arquitetos de canais subterrâneos.\n\nPara ele, os verdadeiros heróis de Sunagakure não eram apenas os que derrotavam invasores, mas os que garantiam que haveria uma casa para onde voltar depois da guerra. O clã Enshaku sempre carregou essa filosofia: areia, argila, metal e pedra não servem apenas para soterrar inimigos, mas para criar muralhas, pontes, abrigos, túneis, torres e caminhos onde antes só havia morte.\n\nTessai cresceu ouvindo a história de Reto Sabaku, o homem que transformou um deserto impossível em civilização. Para ele, a maior vitória de Reto não foi derrotar inimigos, mas deixar algo de pé depois deles. Por isso, Tessai nunca aceitou que poder shinobi fosse medido apenas pela destruição.\n\nCom Doton, Koton, minerais, argila selada e engenharia shinobi, Tessai aprendeu a moldar o terreno como se a própria vila se expandisse através dele. Em combate, ele não luta apenas defendendo; ele constrói. Muros protegem civis, túneis se abrem para evacuação, torres dão vantagem aos arqueiros, bunkers emergem sob a areia e armadilhas estruturais prendem inimigos no próprio peso do campo.\n\nHoje, como Pilar da Construção, Tessai representa a permanência de Sunagakure. Seu papel é lembrar que a Areia não pode se tornar apenas uma máquina de guerra movida por medo da OCA. A vila precisa continuar sendo uma cidade, com mercados, canais, jardins artificiais, oficinas, famílias e crianças correndo sob torres douradas. Para Tessai, Sunagakure não é forte porque nunca quebra. É forte porque sempre volta a ficar de pé.",
     "techniques": [],
     "arsenal": [
@@ -15173,7 +15147,8 @@
     "cargo": [
       "Pilar da Construção"
     ],
-    "role": "Tank e Controle"
+    "role": "Tank e Controle",
+    "position": ""
   },
   {
     "__docId": "tetsu-sabaku",
@@ -15189,7 +15164,6 @@
       "Arqueiro de Ferro Negro"
     ],
     "nc": 23,
-    "position": "Pilar de Sunagakure",
     "description": "Tetsu Sabaku, conhecido hoje como o Pilar da Renúncia, é o herdeiro de um legado grande demais para caber em uma única vida. Filho de Reto Sabaku, o Primeiro Kazekage, e de Hana Sabaku, a Muralha Dourada, Tetsu nasceu cercado por nomes que moldaram a história da Areia antes mesmo que pudesse entender o peso deles.\n\nPara o povo, ele era o filho do fundador, o sangue da Leoa da Areia, o irmão de Sayuri e o possível sucessor de uma linhagem que transformou o maior deserto do continente em civilização. Desde cedo, Tetsu aprendeu a olhar para si mesmo como uma promessa que talvez nunca conseguisse cumprir.\n\nEnquanto outras crianças brincavam nas ruas douradas de Sunagakure, ele estudava os registros de Reto: suas caçadas, seus ângulos de disparo, suas rotas pelo deserto e até sua respiração antes de soltar uma flecha. Seu maior símbolo era o arco lendário herdado do pai, uma arma de Rank Z que para Reto parecia uma extensão natural da vontade, mas que nas mãos de Tetsu parecia uma sentença.\n\nPor muito tempo, Tetsu confundiu honra com repetição e dever com vaidade. Queria proteger Sunagakure, mas também queria provar que merecia o nome Sabaku. Foi Hana quem o fez encarar a verdade mais cruel do deserto: uma flecha disparada por orgulho nunca protege ninguém. O deserto não perdoa os egoístas, porque no deserto todo gesto individual pode condenar uma caravana inteira.\n\nHoje, como Pilar da Renúncia, Tetsu luta contra seu inimigo mais difícil: a necessidade de provar valor. Ele ainda carrega o peso do pai, ainda sente a sombra de Reto sobre seus ombros e ainda teme nunca ser suficiente. Mas agora entende que talvez o verdadeiro herdeiro do Caçador do Deserto não seja aquele que acerta todos os alvos, e sim aquele que sabe por que está puxando a corda.",
     "hp": 194,
     "chakra": 79,
@@ -15276,7 +15250,8 @@
     "cargo": [
       "Pilar da Renúncia"
     ],
-    "role": "DPS e Controle"
+    "role": "DPS e Controle",
+    "position": ""
   },
   {
     "__docId": "tobirama-senju",
@@ -15292,7 +15267,6 @@
       "Criador da OCA"
     ],
     "nc": 30,
-    "position": "2º Hokage",
     "role": "DPS",
     "description": "Tobirama Senju, irmão do lendário Hashirama e uma das figuras mais poderosas da história ninja, sempre enxergou o mundo de forma diferente. Enquanto seu irmão acreditava no equilíbrio natural do poder, Tobirama via falhas — crianças órfãs da guerra, nascidas sem chakra, condenadas a viver indefesas em um mundo moldado pela força.\n\nMovido por essa visão, ele e seu melhor amigo iniciaram um projeto proibido: a criação de um novo tipo de chakra, capaz de despertar poder em quem nasceu sem ele. No início, era um ideal nobre — dar às crianças esquecidas uma chance de sobreviver.\n\nCom o tempo, a ambição começou a crescer. Onde Tobirama via uma solução, seu amigo passou a enxergar transcendência. Obcecado pela ideia de romper os limites do nascimento, ele começou a buscar algo impossível: o despertar de um Fujogan em alguém fora da linhagem principal.\n\nA distorção do objetivo original se tornou evidente. Quando Hashirama descobriu indícios do projeto, ordenou o fechamento imediato do laboratório, considerando aquilo uma violação de todos os limites éticos.\n\nMas Tobirama não concordou. Para ele, Hashirama era limitado por sua própria genialidade única — afinal, era o único na história a despertar o Mokuton. Convencido de que o mundo precisava evoluir além disso, Tobirama decidiu continuar os experimentos em segredo ao lado de seu aliado.\n\nFoi nesse período que tudo ultrapassou o ponto de retorno. Seu amigo começou a realizar testes em fetos que nunca tiveram a chance de nascer, tratando vidas como matéria-prima descartável.\n\nQuase ao mesmo tempo, uma notícia mudou tudo: Yumi estava grávida — de gêmeos. Pela primeira vez, Tobirama sentiu o peso real de suas ações. Diante disso, ordenou o fim imediato do projeto.\n\nMas já era tarde.\n\nSeu aliado se recusou a parar. Frio e calculista, fez sua exigência: ou Tobirama entregava toda a tecnologia desenvolvida… ou ele revelaria tudo a Hashirama.\n\nDiante do medo, da culpa e das consequências inevitáveis, Tobirama cedeu. Entregou tudo.\n\nNaquele momento, ele não perdeu apenas o controle do projeto — ele criou algo muito maior do que poderia prever.\n\nA tecnologia passou a ter um novo nome: Organização do Chakra Artificial.\n\nE o homem que antes era seu aliado… renasceu como uma lenda temida em todo o mundo shinobi.\n\nHades — o Deus do Novo Mundo.\n\nO erro de Tobirama não foi criar poder.\n\nFoi entregar o futuro a alguém disposto a destruir tudo para alcançá-lo.\n\nApesar desse erro, Tobirama continuou moldando o mundo ninja de forma incomparável. Ele liderou uma das equipes mais fortes da história, composta por Tobirama Senju, Yumi Uzumaki, Sho Uchiha, Hoshiro Hyuga, Asami Hyuga, Raikun Hatake e Kaizuka Hyuga.\n\nDurante sua liderança, tomou decisões que influenciaram diretamente o equilíbrio global, como designar Raikun Hatake para reinar Kuromi.\n\nTambém atuou nas sombras, treinando Apollo de forma secreta para enfrentar ameaças que ultrapassavam o nível comum.\n\nComo mestre, transmitiu seu conhecimento para a próxima geração, ensinando o Hiraishin a Nishinoya e o domínio do Suiton a Naomi, que hoje carrega seu legado.\n\nSeu impacto foi além do campo de batalha. Tobirama foi o criador da Academia Ninja, estabelecendo a base para a formação de novos shinobis, e também fundador da ANBU, a unidade responsável pelas operações mais críticas e sigilosas.\n\nNo campo das técnicas, seu gênio foi absoluto. Ele criou jutsus lendários como Hiraishin, Rasengan, Enka Rasengan e Edo Tensei, entre muitos outros.\n\nAssim, mesmo carregando o peso de seu maior erro, Tobirama Senju permaneceu como uma das mentes mais influentes da história — alguém que não apenas lutou pelo mundo ninja, mas o reconstruiu com as próprias mãos.",
     "chakra": 100,
@@ -15439,7 +15413,8 @@
     "cargo": [
       "2º Hokage",
       "1º Líder de Inovações"
-    ]
+    ],
+    "position": ""
   },
   {
     "__docId": "toma-umikage",
@@ -15542,7 +15517,6 @@
       "Guardião Dourado",
       "Deserto Negro"
     ],
-    "position": "Terceiro Degrau",
     "description": "Yasuo Kurogane é um ninja da Vila da Areia, marcado por uma infância destruída pela guerra e pela perda. Após ver sua família de Konoha ser brutalmente assassinada diante de seus próprios olhos por Nishinoya, Shoei, Katsumi e Oddy, Yasuo passou a nutrir um ódio profundo pela vila que um dia chamou de lar.\nAbandonado e sem rumo, foi acolhido pela Kazekage, que o adotou como filho — uma relação que nunca foi verdadeiramente aceita por ele, enxergando nela mais uma imposição do que um ato de carinho.\nCrescendo sob o peso da revolta e da dor, Yasuo foi forçado a participar do Exame Chunin por ordem da Kazekage, o que intensificou ainda mais seu ressentimento.\nDurante sua estadia em Konoha, no entanto, encontrou algo inesperado: compreensão. Ao lado de Nagi Yuki e Apollo Netsu, criou laços com aqueles que também carregavam cicatrizes profundas, formando uma conexão baseada na dor compartilhada.\nApós falharem no exame e retornarem derrotados, Yasuo e seus companheiros foram encurralados por Shikure e Togo Kage.\nEm um momento decisivo, tiveram seus ideais questionados e, diante da promessa de um novo propósito e poder, aceitaram se juntar à OCA.\nPara Yasuo, esse não foi apenas um caminho — foi uma ruptura definitiva com tudo que restava de seu passado, abraçando de vez a escuridão que sempre cresceu dentro de si.",
     "gallery": [
       {
@@ -15673,7 +15647,8 @@
       "Sunagakure"
     ],
     "patente": "Terceiro Degrau",
-    "role": "Suporte e Controle"
+    "role": "Suporte e Controle",
+    "position": ""
   },
   {
     "__docId": "yoru-kurogami",
@@ -15799,9 +15774,9 @@
     "vila": [
       "Kumogakure"
     ],
-    "position": "Vice Líder da Kiba",
     "patente": "Vice Líder da Kiba",
-    "role": "Suporte e Controle"
+    "role": "Suporte e Controle",
+    "position": ""
   },
   {
     "__docId": "yuji-yotsuki",
@@ -15818,7 +15793,6 @@
       "Líder da Kiba"
     ],
     "nc": 24,
-    "position": "Líder da Kiba",
     "role": "DPS",
     "description": "Yuji Yotsuki nasceu como uma anomalia dentro da Vila da Nuvem.\n\nEnquanto outros shinobis aprendiam a controlar chakra com treinamento, Yuji simplesmente nasceu conectado a ele.\n\nO Ranton corria naturalmente em suas veias.\n\nDesde criança, seu corpo produzia descargas elétricas rosadas involuntárias, fenômeno considerado impossível até mesmo pelos cientistas de Kumogakure.\n\nSeu chakra não era apenas poderoso.\nEra preciso.\n\nYuji conseguia sentir exatamente o limite do próprio corpo, a quantidade de chakra ao seu redor e até pequenas oscilações no fluxo energético de outras pessoas.\n\nIsso chamou a atenção de Hanzo, que passou a treiná-lo secretamente.\n\nDiferente de outros prodígios da Nuvem, Yuji não demonstrava interesse em fama ou combate direto. Era preguiçoso, desmotivado e frequentemente ignorava treinamentos inteiros.\n\nMas tudo mudava quando algo despertava sua curiosidade.\n\nNesse estado, Yuji se tornava obsessivo.\n\nDurante sua infância, desenvolveu uma amizade profunda com Hayato. Os dois compartilhavam o sonho de transformar Kumogakure na maior potência shinobi do mundo.\n\nMas após os incidentes envolvendo Hayato e a ascensão da OCA dentro da Vila da Nuvem, Yuji perdeu completamente a fé no sistema.\n\nAo lado de Yoru e Reito, desapareceu das forças oficiais e iniciou estudos secretos envolvendo tecnologia shinobi, armas experimentais e chakra artificial.\n\nFoi durante uma missão de infiltração em um laboratório da OCA que Yuji roubou pesquisas proibidas relacionadas a Katsumi e ao chamado Chakra Profano.\n\nUtilizando os dados roubados e o núcleo de chakra extraído durante a operação, Yuji criou sua obra-prima absoluta:\n\nA Yuji no Hōkō.\n\nUma Sniper Rifle capaz de condensar Chakra Profano em um único ponto microscópico e disparar projéteis com poder destrutivo equivalente a uma mini Bijuu Dama.\n\nA arma não produz som.\nNão deixa assinatura de chakra.\nE torna o disparo impossível de detectar até o impacto.\n\nApós isso, Yuji fundou oficialmente a Kiba.\n\nUma organização fantasma criada para destruir a OCA, eliminar Alpha e recuperar a verdadeira Kumogakure.\n\nHoje, laboratórios secretos da Nuvem possuem uma regra não oficial:\n\nSe o ar ficar silencioso demais...\nYuji Yotsuki já está mirando.",
     "chakra": 82,
@@ -15961,7 +15935,8 @@
     "cargo": [
       "Membro da Elite"
     ],
-    "patente": "Líder da Kiba"
+    "patente": "Líder da Kiba",
+    "position": ""
   },
   {
     "__docId": "yumi-uzumaki",
@@ -16109,7 +16084,6 @@
     "vila": [
       "Konohagakure"
     ],
-    "graduacao": "Sannin",
     "position": "",
     "cargo": [
       "2ª Dama",
@@ -16132,7 +16106,6 @@
       "Pequeno Assassino"
     ],
     "nc": 18,
-    "position": "NoGuns",
     "role": "DPS",
     "description": "Yuuto Han é a prova viva de que até a morte pode ser apenas o começo. Nascido em um vilarejo simples próximo a Konoha, seu primeiro momento no mundo foi marcado por um silêncio absoluto. Nenhum choro. Nenhuma respiração. Nenhum sinal de vida. Yuuto nasceu morto. Enquanto sua família chorava a perda, uma presença atravessou a madrugada como uma sombra: Hades. Carregando consigo o pergaminho selado de Kokuo, o Cinco-Caudas, ele viu naquela criança não um fim… mas um recipiente perfeito. Um corpo vazio. Com um ritual proibido, selou a besta dentro do bebê — e, contra todas as leis da natureza, Yuuto respirou pela primeira vez. Mas aquilo não foi um milagre. Foi o início de algo errado. Criado longe do mundo, Yuuto nunca teve infância, nome ou escolha. Hades o moldou como uma arma, apagando qualquer traço de humanidade e repetindo incessantemente: “Você existe por minha causa. Seu corpo é meu. Kokuo é meu.” Sem identidade, sem vontade… Yuuto se tornou perfeito. Silencioso. Obediente. Letal. Aos dezessete anos, já era um assassino que não compreendia conceitos como bondade, liberdade ou propósito. Apenas executava. Até o dia em que foi descartado. Durante um confronto contra Daichi e Koji, Hades, ferido, abandonou Yuuto como um objeto quebrado. Deixou para trás aquilo que sempre chamou de criação. Mas, pela primeira vez, alguém olhou para ele de forma diferente. Daichi não viu uma arma. Viu uma pessoa. E, em vez de uma ordem… ofereceu uma escolha. “Você pode parar. A partir de agora… você decide.” Foi naquele instante que algo dentro de Yuuto mudou. Ele aceitou. Desde então, passou a caminhar ao lado deles, não como ferramenta… mas como alguém tentando entender o que significa existir. Por fora, Yuuto é o retrato da apatia. Preguiçoso ao extremo, evita conflitos, ignora responsabilidades e parece sempre à beira do sono. Finge fraqueza para ser deixado em paz e rejeita qualquer forma de controle — ecos do homem que o criou. Mas sob essa superfície vazia, algo permanece. Observando. Esperando. Quando pressionado… quando aqueles que ele reconhece como seus são ameaçados… Kokuo desperta. E com ele, o verdadeiro Yuuto emerge. Não o garoto silencioso. Mas o assassino perfeito. Frio. Instintivo. Implacável. Para o mundo, ele é apenas um jinchuuriki preguiçoso e indiferente. Para Hades, ele ainda é uma propriedade a ser recuperada. Mas, pela primeira vez na vida… Yuuto começa a descobrir que pode ser algo além disso.",
     "hp": 154,
@@ -16209,6 +16182,7 @@
     "vila": [
       "Kirigakure"
     ],
-    "patente": "NoGuns"
+    "patente": "NoGuns",
+    "position": ""
   }
 ]

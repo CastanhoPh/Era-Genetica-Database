@@ -6,6 +6,7 @@ import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
 import { formatImageUrl, seloDe, corDoSelo, postosDe } from './utils/formatters';
+import { rankDeNC } from './data/atributos';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
 // depois de uma interação do usuário (abrir ficha, trocar de aba, editar, logar).
@@ -219,9 +220,9 @@ export default function App() {
                 (c.patente ?? '').toLowerCase().includes(term) ||
                 (c.cargo ?? []).some(x => x.toLowerCase().includes(term)) ||
                 c.position.toLowerCase().includes(term) ||
-                // A graduação saiu do position e não é exibida em lugar nenhum, mas buscar
-                // "chunin" ou "sannin" tem que continuar achando quem é.
-                (c.graduacao ?? '').toLowerCase().includes(term) ||
+                // O rank de ninja sai do NC pela escada, não de campo gravado — mas buscar
+                // "chunin" ou "kage" tem que achar quem é.
+                rankDeNC(c.nc).toLowerCase().includes(term) ||
                 c.titles.some(t => t.toLowerCase().includes(term)) ||
                 c.aptitudes.some(a => a.toLowerCase().includes(term));
 

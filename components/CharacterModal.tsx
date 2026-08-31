@@ -11,7 +11,8 @@ import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
 import ResourceBar from './ResourceBar';
-import { formatImageUrl, seloDe, corDoSelo, CORES_DE_VILA, CORES_DE_ORG } from '../utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, vilasDe, CORES_DE_VILA, CORES_DE_ORG } from '../utils/formatters';
+import { rankDeNC } from '../data/atributos';
 
 // Carregado sob demanda: chart.js + react-chartjs-2 só entram no bundle quando
 // alguém realmente clica em "Radar" (a ficha abre com a visão de barras por padrão).
@@ -588,6 +589,12 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
                                 <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-1">Nível de Combate</div>
                                 <div className="text-4xl text-tech-primary font-bold text-glow">{char.nc}</div>
+                                {/* O rank de ninja não é campo gravado: sai do NC pela escada em data/atributos.ts.
+                                    Fica aqui, embaixo do número, porque é a leitura dele. Abaixo de NC 4 não existe
+                                    rank — hoje só o Beta e o Hades, os dois com NC 0 de propósito. */}
+                                {rankDeNC(char.nc) && (
+                                    <div className="text-[11px] text-tech-primary/60 font-bold uppercase tracking-wide mt-1">{rankDeNC(char.nc)}</div>
+                                )}
                             </div>
                             <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
                                 <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-1">Especialização</div>
@@ -595,7 +602,9 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             </div>
                             <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
                                 <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-1">Afiliação</div>
-                                <div className="text-xl text-tech-secondary font-bold">{char.categories[1] || 'DESCONHECIDO'}</div>
+                                {/* Lia categories[1] por posição no array, o que quebra em quem tem duas vilas
+                                    ou nenhuma. Agora lê o campo vila, que existe desde 27/08/2026. */}
+                                <div className="text-xl text-tech-secondary font-bold">{vilasDe(char).join(' · ') || 'DESCONHECIDO'}</div>
                             </div>
                         </div>
 
