@@ -10,7 +10,7 @@ O título nasce da forma como Kenma é visto e, ao mesmo tempo, do fardo que car
 Nome completo: Kenma Soryo 
 Idade: 21 anos  
 NC: 16  
-Rank: Jounin de Elite  
+Rank: Jonin de Elite  
 Clã: Soryo  
 Vila: Vila dos Monges  
 Organização: Vice-Líder dos Monges  

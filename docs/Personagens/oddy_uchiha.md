@@ -11,7 +11,7 @@ O título Herdeiro do Fogo representa sua escolha consciente de rejeitar o legad
 Nome completo: Oddy Uchiha  
 Idade: 16  
 NC: 16  
-Rank: Chunin (nível Jounin de Elite)  
+Rank: Chunin (nível Jonin de Elite)  
 Clã: Uchiha  
 Vila: Konoha  
 Organização: Vila da Folha  

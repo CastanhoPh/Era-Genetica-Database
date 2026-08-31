@@ -40,7 +40,7 @@ Nishinoya, escondido, foi observado pelo Matatabi — que viu nele um coração 
 
 Nishinoya derrotou a equipe da OCA sozinho e selou seu nome como **Relâmpago Azul de Konoha**. Com 14 anos, dominava sua Bijū completamente — algo que o mundo ninja nunca havia visto.
 
-O Hokage Tobirama Senju o promoveu a **Jounin da Folha** e o colocou como líder de equipe. Seus novos companheiros eram dois jovens que viviam em conflito: **Hisoka Senju** e **Naoki Uchiha**. Ambos passaram a respeitá-lo pela forma como Tobirama o apresentou. Os três rapidamente se tornaram a **segunda equipe mais forte da vila** e a equipe com mais missões concluídas.
+O Hokage Tobirama Senju o promoveu a **Jonin da Folha** e o colocou como líder de equipe. Seus novos companheiros eram dois jovens que viviam em conflito: **Hisoka Senju** e **Naoki Uchiha**. Ambos passaram a respeitá-lo pela forma como Tobirama o apresentou. Os três rapidamente se tornaram a **segunda equipe mais forte da vila** e a equipe com mais missões concluídas.
 
 ---
 
