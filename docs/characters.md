@@ -782,7 +782,7 @@ Chakra: 96
 Status: Vivo
 Títulos: O Fantasma dos Uzumaki, O Teleportador, Assassino de A
 
-![Nagare Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.png?alt=media&v=1788276534832123)
+![Nagare Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.png?alt=media&v=1788278277835268)
 
 ## Descrição
 O Fantasma dos Uzumaki e a Voz da Destruição\n\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\n\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\n\nPortador de Técnicas únicas:\n* Kaminari Branco\n* Amenotejikara
@@ -2143,7 +2143,7 @@ Chakra: 96
 Status: Vivo
 Títulos: Primeiro Experimento, Jinchuriki Artificial
 
-![Furyuzan Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1788276453792781)
+![Furyuzan Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1788278280340303)
 
 ## Descrição
 Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.
@@ -2921,7 +2921,7 @@ Chakra: 64
 Status: Vivo
 Títulos: Espiã, Olho da OCA
 
-![Shizumi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1788276580395362)
+![Shizumi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1788278275467201)
 
 ## Descrição
 Shizumi Uchiha, reconhecida pelo próprio Tobirama como uma das mentes mais brilhantes de Konoha, sempre esteve muito à frente de sua geração. Desde a infância, demonstrou uma afinidade incomum com o Raiton, manipulando descargas elétricas com precisão e instinto quase naturais.
@@ -3077,7 +3077,7 @@ Chakra: 91
 Status: Vivo
 Títulos: Sannin dos Cães, Predadora de Bijus, Mangekyou mais Forte
 
-![Kuromi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1788276520149600)
+![Kuromi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1788278272775543)
 
 ## Descrição
 Uma kunoichi envolta em mistério e temida por seu poder. 
@@ -3255,7 +3255,7 @@ Chakra: 82
 Status: Vivo
 Títulos: Herdeiro do Sol, Eco de Son Goku, Rastreador Primordial
 
-![Apollo Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1788276413053575)
+![Apollo Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1788278270088768)
 
 ## Descrição
 Apollo Netsu é uma anomalia no mundo shinobi — um nome falso carregando uma linhagem que não deveria existir.
