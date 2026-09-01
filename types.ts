@@ -94,8 +94,9 @@ export interface ChecklistItem {
    *   invocacao      4:3          Invocações — a arte da criatura
    *   capaInvocacao  4:3          Capas Invocação — a capa de cada invocação
    *   arsenal        1080×1080    Arsenal — a arte de cada arma
+   *   tecnica        1600×900     Técnicas — a arte de cada jutsu, uma por entrada de `techniques`
    */
-  type?: 'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'arsenal';
+  type?: 'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'arsenal' | 'tecnica';
   temporada: string;
   arco: string;
   subarco?: string;

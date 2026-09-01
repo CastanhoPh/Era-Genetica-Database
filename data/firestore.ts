@@ -386,6 +386,7 @@ export const CHECKLIST_BLOCOS: Record<NonNullable<ChecklistItem['type']>, number
   evento: 50_000,
   capaInvocacao: 60_000,
   arsenal: 70_000,
+  tecnica: 80_000,
 };
 
 // Renumera o campo `order` dentro da faixa de cada tipo (10000, 10001...), sem lacunas nem

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles, Shield } from 'lucide-react';
+import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles, Shield, Scroll } from 'lucide-react';
 import { subscribeChecklist, subscribeCharacters, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, setCapaDoPersonagem, pastaDoRetrato, CHECKLIST_BLOCOS } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem, Character } from '../types';
@@ -34,7 +34,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const [pending, setPending] = useState<Set<string>>(new Set());
   const [editMode, setEditMode] = useState(false);
   const [activeFilter, setActiveFilter] = useState<'none' | 'pendentes' | 'sem-galeria'>('none');
-  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'arsenal' | 'geral'>('geral');
+  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'arsenal' | 'tecnica' | 'geral'>('geral');
 
   // formulários de "adicionar" abertos (chave = temporada, temporada::arco, ou temporada::arco::subarco)
   const [addingTemporada, setAddingTemporada] = useState(false);
@@ -83,6 +83,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const isInvocacao = activeType === 'invocacao';
   const isCapaInvocacao = activeType === 'capaInvocacao';
   const isArsenal = activeType === 'arsenal';
+  const isTecnica = activeType === 'tecnica';
   const isGeral = activeType === 'geral';
   // Tipo usado ao criar um item novo — a aba "Geral" mistura os outros tipos, então criar
   // por lá sempre cai em "evento" (comportamento já existente, só nomeado agora).
@@ -91,6 +92,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
       : isCapaInvocacao ? 'capaInvocacao'
         : isInvocacao ? 'invocacao'
           : isArsenal ? 'arsenal'
+            : isTecnica ? 'tecnica'
             : isTransformacao ? 'transformacao' : 'evento';
   const labels = isTransformacao
     ? {
@@ -416,6 +418,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
                     : item.type === 'invocacao' ? `Galeria/Invocações/${item.temporada}`
                       : item.type === 'capaInvocacao' ? 'Galeria/Capas Invocações'
                         : item.type === 'arsenal' ? 'Arsenal'
+                        : item.type === 'tecnica' ? `Characters/${item.temporada}/Tecnicas`
                         : `Galeria/${item.temporada}/${item.arco}${item.subarco ? `/${item.subarco}` : ''}`}
             fileName={item.name}
             onUploaded={url => handleSetImage(item, url)}
@@ -586,6 +589,13 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
             className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'arsenal' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
           >
             <Shield size={12} /> Arsenal
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveType('tecnica')}
+            className={`shrink-0 whitespace-nowrap flex items-center gap-1.5 h-10 px-3 text-[10px] font-black uppercase tracking-widest transition-all border-l border-tech-border ${activeType === 'tecnica' ? 'bg-tech-primary text-black' : 'text-tech-primary hover:bg-tech-primary/10'}`}
+          >
+            <Scroll size={12} /> Técnicas
           </button>
         </div>
 
