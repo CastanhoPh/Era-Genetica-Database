@@ -378,10 +378,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                       Rank   — a escada de ninja, que sai do NC pela `rankDeNC` e não é gravada.
                     Sem o rótulo, "3º Hokage" e "Lenda Shinobi" pareciam a mesma coisa. */}
                 <div className="border-b border-tech-border pb-2 mb-2 space-y-1.5">
-                    <p className="text-sm font-bold">
-                        <span className="text-tech-primary/50">TÍTULO: </span>
-                        <span className="text-tech-secondary">{(char.titles[0] || 'Desconhecido').toUpperCase()}</span>
-                    </p>
+                    {/* Mesma regra do CARGO e do RANK: sem valor, a linha inteira não existe. Título é
+                        honorífico — mostrar "DESCONHECIDO" dava a entender que faltava preencher. */}
+                    {char.titles?.[0] && (
+                        <p className="text-sm font-bold">
+                            <span className="text-tech-primary/50">TÍTULO: </span>
+                            <span className="text-tech-secondary">{char.titles[0].toUpperCase()}</span>
+                        </p>
+                    )}
                     {/* Ficha sem cargo nem patente não mostra nada no lugar — nem o rótulo, nem a
                         linha inteira. */}
                     {/* O CARGO aqui é o posto MAIS ALTO da ficha, pela hierarquia de cada vila e

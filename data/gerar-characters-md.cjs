@@ -172,7 +172,8 @@ function buildCharacterBlock(c) {
     `HP: ${esc(c.hp)}`,
     `Chakra: ${esc(c.chakra)}`,
     `Status: ${statusText(c)}`,
-    `Títulos: ${titles}`,
+    // Título é honorífico: ficha sem título não imprime a linha, igual à `Posição`.
+    ...(titles ? [`Títulos: ${titles}`] : []),
     ``,
     img,
     ``,

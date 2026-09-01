@@ -793,7 +793,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
     if (!c.image) f.push('imagem');
     if (!(c.aptitudes ?? []).length) f.push('aptidões');
     if (!c.combatStyle || !(c.focosAtributo ?? []).length) f.push('perfil');
-    if (!(c.titles ?? []).length) f.push('título');
+    // Título NÃO entra: é honorífico, e ficha sem título é estado válido, não pendência.
     if (!seloDe(c)) f.push('posto');
     return f;
   }, []);

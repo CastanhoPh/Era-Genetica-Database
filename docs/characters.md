@@ -3962,7 +3962,6 @@ NC: 18
 HP: 130
 Chakra: 64
 Status: Vivo
-Títulos: 
 
 ![Ryuta Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1788277451876578)
 

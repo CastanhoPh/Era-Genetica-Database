@@ -902,7 +902,11 @@ export default function App() {
                                             {/* O selo saiu daqui para o pé da arte, então o título tem a largura inteira. O truncate
                                                 fica como rede: o título mais longo do banco tem 34 caracteres e cabe, mas em três
                                                 colunas numa tela estreita o card encolhe. */}
-                                            <p className="text-xs text-tech-secondary font-bold uppercase truncate mt-1">{char.titles[0]}</p>
+                                            {/* Título é honorífico: ficha sem título não mostra NADA embaixo do nome, nem
+                                                placeholder nem linha vazia — por isso o elemento inteiro sai, não só o texto. */}
+                                            {char.titles?.[0] && (
+                                                <p className="text-xs text-tech-secondary font-bold uppercase truncate mt-1">{char.titles[0]}</p>
+                                            )}
                                         {/* Só aparece quando a busca casou em algo que NÃO é o nome nem o clã:
                                             sem isso, procurar "shin" devolvia 20 fichas sem nenhuma pista de por
                                             quê. O texto é o valor que casou, cru, pra bater com o que foi digitado. */}
