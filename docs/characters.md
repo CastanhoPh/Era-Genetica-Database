@@ -97,11 +97,11 @@
 | 91 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
 | 92 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
 | 93 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
-| 94 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
-| 95 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
-| 96 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
-| 97 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
-| 98 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
+| 94 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
+| 95 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
+| 96 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
+| 97 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
+| 98 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
 | 99 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
 | 100 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
 | 101 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 232 | 100 | Morto (morto por ?) |
@@ -10464,117 +10464,8 @@ Consome quantidades colossais de chakra e exige controle mental absoluto. Uso pr
 
 ---
 
-# Kaien Ishi (Omega)
-ID: 94
-Clã: Ishi
-Grupos: NPC, OCA, Iwagakure
-Função: DPS
-NC: 30
-HP: 232
-Chakra: 100
-Status: Morto (morto por Nishinoya Senju)
-Títulos: O Primogênito, Sannins da Terra, O Espadachim mais forte do mundo, Vice Líder da OCA, Deus Shinobi
-
-![Kaien Ishi (Omega)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media&v=1786651890565160)
-
-## Descrição
-Kaien Ishi, conhecido hoje como Ômega, nasceu no topo do mundo — herdeiro da família que governava todo o País da Terra. Cercado por luxo, poder e privilégios, foi criado para se tornar o próximo soberano absoluto. Ele era o herdeiro da lendária Seimei no Saidan e tinha tudo ao seu alcance, exceto paz.
-
-Desde cedo, Kaien enxergava o que os outros ignoravam: servos famintos, soldados descartáveis e camponeses esmagados pelo peso de um sistema construído sobre sangue. Quando questionava, recebia sempre a mesma resposta — ele era diferente, superior, destinado a governar.
-
-Mas Kaien nunca aceitou essa verdade. Para ele, não havia honra em um trono erguido sobre sofrimento.
-
-Em um ato que ecoaria como heresia, ele renunciou ao próprio nome, abandonou o palácio e desapareceu do mundo. Tornou-se um andarilho, um samurai sem rosto, conhecido apenas como uma lenda que surgia onde havia injustiça e desaparecia sem aceitar recompensa.
-
-Com o tempo, o nome Ishi foi apagado de seus registros — e Kaien deixou de existir. Em seu lugar, nasceu Ômega: o fim de uma linhagem, o último herdeiro de uma era que ele jurou destruir.
-
-Anos depois, ao ouvir rumores sobre Hades — um homem que rejeitava o poder herdado e buscava criar força através do chakra artificial e amplificação de chakra profano —, Kaien viu algo que nunca havia encontrado: alguém que compartilhava sua visão.
-
-Quando finalmente o encontrou, não hesitou em lutar ao seu lado, defendendo-o como se aquele fosse seu próprio propósito. Questionado sobre o motivo, respondeu apenas que não lutava por sangue — assim como Hades.
-
-A partir desse momento, os dois formaram uma aliança inquebrável. Hades encontrou em Ômega não uma criação, mas um sucessor por escolha. Ômega encontrou em Hades não um mestre, mas um igual.
-
-Juntos, tornaram-se o núcleo de uma revolução — a mente e a lâmina. Para o mundo, são ameaças. Para si mesmos, são inevitáveis.
-
-Pois enquanto o poder for definido pelo nascimento, Ômega continuará existindo como aquilo que ele sempre declarou ser: o fim de tudo.
-
-## Atributos
-- Força: 30
-- Destreza: 12
-- Agilidade: 30
-- Inteligência: 30
-- Espírito: 30
-- Vigor: 24
-- Percepção: 12
-
-## Poderes e Elementos
-- Doton — Nível 15
-- Hyuga no Fujo — Nível 15
-- Iryou Ninjutsu — Nível 15
-- Fuinjutsu — Nível 15
-
-## Aptidões
-Mangekyou Sharingan, Eien Mangekyou Sharingan, Byakugan, Fujogan, Eternal Fujogan, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Terra, Ponto Cego, Acuidade, Perito em Mecanismos, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-### 1. Seimei no Saidan: Fukkatsu Zenjin
-Classificação: Z | Natureza: Seimeiryoku + Doton Ancestral + Fuinjutsu
-
-![Seimei no Saidan: Fukkatsu Zenjin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FTecnicas%2F01%20-%20Seimei%20no%20Saidan%3A%20Fukkatsu%20Zenjin.jpg?alt=media&v=1786651890536371)
-
-Descrição:
-Ômega finca a Seimei no Saidan no solo com uma força solene e deliberada, como se selasse um pacto com a própria terra. No instante em que a lâmina toca o chão, um círculo mineral colossal se expande a partir da empunhadura, gravando selos ancestrais na superfície ao redor. A terra treme sutilmente enquanto o fluxo vital do mundo é invocado através da espada. As almas daqueles que foram ceifados pela lâmina ao longo do tempo são chamadas de volta — não pela vontade de Ômega, mas pelo julgamento da própria espada, que avalia cada alma e decide restaurá-la. Os corpos ressurgem do solo lentamente, envoltos por uma luz mineral pulsante, reconstituídos em carne, espírito e memória. Tobirama, Hoshiro, Sho e Asami retornam ao mundo dos vivos simultaneamente. Durante todo o ritual, Ômega permanece de joelhos com as mãos na empunhadura, sua força vital sendo drenada progressivamente pela espada como pagamento pelo milagre que ela concede.
-
-Destruição:
-Nula em termos de dano direto. Seu impacto, no entanto, é absoluto no plano estratégico e emocional — ressuscitar aliados poderosos no meio de uma batalha pode inverter completamente o curso de qualquer conflito.
-
-História:
-Nunca antes a Seimei no Saidan havia sido usada para ressuscitar múltiplas almas simultaneamente. Registros antigos indicavam que a espada permitia ressurreições individuais, sempre com um custo proporcional. Ao invocar quatro almas de uma só vez, Ômega ultrapassou qualquer limite documentado — e o preço cobrado pela lâmina foi correspondente: ele sobreviveu, mas apenas por pouco.
-
-Status de Uso:
-Uso único e irrepetível nas condições documentadas. O custo vital de ressuscitar múltiplas almas simultaneamente deixa o usuário à beira da morte. Requer que a Seimei no Saidan tenha ceifado as almas a serem restauradas — a espada não ressuscita quem ela própria não matou.
-
-### 2. Mangekyou Sharingan: Sho
-Classificação: S++ | Natureza: Mangekyou Sharingan + Doujutsu
-
-![Mangekyou Sharingan: Sho](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FTecnicas%2F02%20-%20Mangekyou%20Sharingan%3A%20Sho.jpg?alt=media&v=1786651890537507)
-
-Descrição:
-Ômega ativa o Mangekyou Sharingan roubado de Sho, seus olhos assumindo o padrão único da lenda Uchiha enquanto uma pressão densa e quase gravitacional emana de seu olhar. Ao fixar o alvo, ele distorce a percepção temporal ao redor do campo de batalha — acelerando, desacelerando ou revertendo momentaneamente o fluxo de tempo em uma área limitada. Pode fazer com que ataques do inimigo cheguem mais lentos, que seus próprios movimentos pareçam instantâneos para os adversários, ou que reações físicas sejam atrasadas o suficiente para criar aberturas letais. Em seu estágio máximo, é capaz de reverter brevemente o estado físico de um alvo — desfazendo ferimentos sofridos por ele mesmo ou restaurando uma janela temporal anterior ao impacto de uma técnica.
-
-Destruição:
-Não destrutiva diretamente, mas de letalidade extrema em combate. A manipulação temporal torna quase impossível reagir aos ataques de Ômega, criando aberturas que ele explora com a Seimei no Saidan ou com suas técnicas de corpo a corpo. A reversão temporal parcial pode anular técnicas já executadas pelo oponente.
-
-História:
-O Mangekyou foi arrancado de Sho durante um confronto que poucos sobreviveram para narrar, conhecido como a guerra da Fortaleza Yumei. Ômega não o roubou por ambição — roubou para garantir que aquele poder nunca mais fosse usado como instrumento de dominação herdada. Aos poucos, aprendeu a canalizar o doujutsu através de sua própria força espiritual elevada, adaptando-o ao seu estilo de combate cirúrgico.
-
-Status de Uso:
-Uso prolongado causa deterioração acelerada da visão e sobrecarga no sistema de chakra. Cada ativação da manipulação temporal drena uma quantidade considerável de chakra e força espiritual. Reversões temporais são especialmente custosas e só podem ser executadas uma vez por combate.
-
-### 3. Eternal Fujogan: Asami
-Classificação: S++ | Natureza: Eternal Fujogan + Hyuga no Fujo + Fuinjutsu
-
-![Eternal Fujogan: Asami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FTecnicas%2F03%20-%20Eternal%20Fujogan%3A%20Asami.jpg?alt=media&v=1786651890534122)
-
-Descrição:
-Ao ativar o Eternal Fujogan herdado de Asami, os olhos de Ômega assumem uma tonalidade profunda e pulsante, seus padrões girando lentamente como vórtices de absorção. Ele estende sua percepção para além do próprio corpo, sentindo o fluxo de chakra de tudo ao seu redor — aliados, inimigos, o próprio ambiente. A partir disso, começa a drenar e absorver ativamente o chakra externo, incluindo chakra profano de adversários próximos, canalizando tudo para dentro de si e redistribuindo essa energia em forma de tanques de chakra condensado ao redor de seu corpo. Esses tanques funcionam como escudos vivos de energia pura — interceptando técnicas, absorvendo impactos e explodindo de forma controlada quando necessário. Ao mesmo tempo, Ômega pode manipular o fluxo de chakra dos inimigos ao seu redor, interrompendo técnicas em formação, bloqueando selos e invertendo o curso de energia no corpo adversário.
-
-Destruição:
-Elevada de forma indireta. Os tanques de chakra absorvido podem ser detonados como explosões concentradas de energia pura, enquanto a manipulação do chakra alheio pode paralisar ou incapacitar múltiplos inimigos simultaneamente. Sua quase indestrutibilidade durante a ativação torna ataques diretos praticamente inúteis.
-
-História:
-O Fujogan de Asami foi o poder que Ômega menos esperava herdar — e o que mais o transformou. Ao contrário dos outros doujutsu que ele carregava por necessidade, este ele carregava com respeito. Asami havia sido uma das poucas pessoas que lutou ao seu lado sem questionar. Dominar o Eternal Fujogan foi, para ele, uma forma de honrar esse vínculo — e garantir que aquela visão jamais se apagasse do mundo.
-
-Status de Uso:
-Manter os tanques de chakra ativos e a absorção contínua exige concentração absoluta. Se o fluxo de absorção for interrompido abruptamente, os tanques se dissipam e Ômega fica momentaneamente vulnerável. Contra usuários com chakra extremamente denso ou instável, a absorção pode causar sobrecarga interna.
-
----
-
 # Katakana Yotsuki (Alpha)
-ID: 95
+ID: 94
 Clã: Yotsuki
 Grupos: NPC, OCA, Kumogakure
 Função: ?
@@ -10701,7 +10592,7 @@ Alto consumo de chakra e exige percepção espacial extrema. Uso excessivo pode 
 ---
 
 # Ganmasen Yuki (Gama)
-ID: 96
+ID: 95
 Clã: Yuki
 Grupos: NPC, OCA, Kirigakure
 Função: Controle
@@ -10827,7 +10718,7 @@ Consome enormes reservas de chakra e exige controle minucioso da pressão intern
 ---
 
 # Deruta Muujin (Delta)
-ID: 97
+ID: 96
 Clã: Muujin
 Grupos: NPC, OCA, Iwagakure
 Função: ?
@@ -10987,7 +10878,7 @@ Consumo elevado, porém mais estável que técnicas de larga escala. Pode ser qu
 ---
 
 # Shiita Sabaku (Theta)
-ID: 98
+ID: 97
 Clã: Dabado
 Grupos: NPC, OCA, Sunagakure
 Função: Controle
@@ -11028,6 +10919,115 @@ Nenhum item cadastrado.
 
 ## Técnicas
 Nenhuma técnica cadastrada.
+
+---
+
+# Kaien Ishi (Omega)
+ID: 98
+Clã: Ishi
+Grupos: NPC, OCA, Iwagakure
+Função: DPS
+NC: 30
+HP: 232
+Chakra: 100
+Status: Morto (morto por Nishinoya Senju)
+Títulos: O Primogênito, Sannins da Terra, O Espadachim mais forte do mundo, Vice Líder da OCA, Deus Shinobi
+
+![Kaien Ishi (Omega)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media&v=1786651890565160)
+
+## Descrição
+Kaien Ishi, conhecido hoje como Ômega, nasceu no topo do mundo — herdeiro da família que governava todo o País da Terra. Cercado por luxo, poder e privilégios, foi criado para se tornar o próximo soberano absoluto. Ele era o herdeiro da lendária Seimei no Saidan e tinha tudo ao seu alcance, exceto paz.
+
+Desde cedo, Kaien enxergava o que os outros ignoravam: servos famintos, soldados descartáveis e camponeses esmagados pelo peso de um sistema construído sobre sangue. Quando questionava, recebia sempre a mesma resposta — ele era diferente, superior, destinado a governar.
+
+Mas Kaien nunca aceitou essa verdade. Para ele, não havia honra em um trono erguido sobre sofrimento.
+
+Em um ato que ecoaria como heresia, ele renunciou ao próprio nome, abandonou o palácio e desapareceu do mundo. Tornou-se um andarilho, um samurai sem rosto, conhecido apenas como uma lenda que surgia onde havia injustiça e desaparecia sem aceitar recompensa.
+
+Com o tempo, o nome Ishi foi apagado de seus registros — e Kaien deixou de existir. Em seu lugar, nasceu Ômega: o fim de uma linhagem, o último herdeiro de uma era que ele jurou destruir.
+
+Anos depois, ao ouvir rumores sobre Hades — um homem que rejeitava o poder herdado e buscava criar força através do chakra artificial e amplificação de chakra profano —, Kaien viu algo que nunca havia encontrado: alguém que compartilhava sua visão.
+
+Quando finalmente o encontrou, não hesitou em lutar ao seu lado, defendendo-o como se aquele fosse seu próprio propósito. Questionado sobre o motivo, respondeu apenas que não lutava por sangue — assim como Hades.
+
+A partir desse momento, os dois formaram uma aliança inquebrável. Hades encontrou em Ômega não uma criação, mas um sucessor por escolha. Ômega encontrou em Hades não um mestre, mas um igual.
+
+Juntos, tornaram-se o núcleo de uma revolução — a mente e a lâmina. Para o mundo, são ameaças. Para si mesmos, são inevitáveis.
+
+Pois enquanto o poder for definido pelo nascimento, Ômega continuará existindo como aquilo que ele sempre declarou ser: o fim de tudo.
+
+## Atributos
+- Força: 30
+- Destreza: 12
+- Agilidade: 30
+- Inteligência: 30
+- Espírito: 30
+- Vigor: 24
+- Percepção: 12
+
+## Poderes e Elementos
+- Doton — Nível 15
+- Hyuga no Fujo — Nível 15
+- Iryou Ninjutsu — Nível 15
+- Fuinjutsu — Nível 15
+
+## Aptidões
+Mangekyou Sharingan, Eien Mangekyou Sharingan, Byakugan, Fujogan, Eternal Fujogan, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Terra, Ponto Cego, Acuidade, Perito em Mecanismos, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+### 1. Seimei no Saidan: Fukkatsu Zenjin
+Classificação: Z | Natureza: Seimeiryoku + Doton Ancestral + Fuinjutsu
+
+![Seimei no Saidan: Fukkatsu Zenjin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FTecnicas%2F01%20-%20Seimei%20no%20Saidan%3A%20Fukkatsu%20Zenjin.jpg?alt=media&v=1786651890536371)
+
+Descrição:
+Ômega finca a Seimei no Saidan no solo com uma força solene e deliberada, como se selasse um pacto com a própria terra. No instante em que a lâmina toca o chão, um círculo mineral colossal se expande a partir da empunhadura, gravando selos ancestrais na superfície ao redor. A terra treme sutilmente enquanto o fluxo vital do mundo é invocado através da espada. As almas daqueles que foram ceifados pela lâmina ao longo do tempo são chamadas de volta — não pela vontade de Ômega, mas pelo julgamento da própria espada, que avalia cada alma e decide restaurá-la. Os corpos ressurgem do solo lentamente, envoltos por uma luz mineral pulsante, reconstituídos em carne, espírito e memória. Tobirama, Hoshiro, Sho e Asami retornam ao mundo dos vivos simultaneamente. Durante todo o ritual, Ômega permanece de joelhos com as mãos na empunhadura, sua força vital sendo drenada progressivamente pela espada como pagamento pelo milagre que ela concede.
+
+Destruição:
+Nula em termos de dano direto. Seu impacto, no entanto, é absoluto no plano estratégico e emocional — ressuscitar aliados poderosos no meio de uma batalha pode inverter completamente o curso de qualquer conflito.
+
+História:
+Nunca antes a Seimei no Saidan havia sido usada para ressuscitar múltiplas almas simultaneamente. Registros antigos indicavam que a espada permitia ressurreições individuais, sempre com um custo proporcional. Ao invocar quatro almas de uma só vez, Ômega ultrapassou qualquer limite documentado — e o preço cobrado pela lâmina foi correspondente: ele sobreviveu, mas apenas por pouco.
+
+Status de Uso:
+Uso único e irrepetível nas condições documentadas. O custo vital de ressuscitar múltiplas almas simultaneamente deixa o usuário à beira da morte. Requer que a Seimei no Saidan tenha ceifado as almas a serem restauradas — a espada não ressuscita quem ela própria não matou.
+
+### 2. Mangekyou Sharingan: Sho
+Classificação: S++ | Natureza: Mangekyou Sharingan + Doujutsu
+
+![Mangekyou Sharingan: Sho](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FTecnicas%2F02%20-%20Mangekyou%20Sharingan%3A%20Sho.jpg?alt=media&v=1786651890537507)
+
+Descrição:
+Ômega ativa o Mangekyou Sharingan roubado de Sho, seus olhos assumindo o padrão único da lenda Uchiha enquanto uma pressão densa e quase gravitacional emana de seu olhar. Ao fixar o alvo, ele distorce a percepção temporal ao redor do campo de batalha — acelerando, desacelerando ou revertendo momentaneamente o fluxo de tempo em uma área limitada. Pode fazer com que ataques do inimigo cheguem mais lentos, que seus próprios movimentos pareçam instantâneos para os adversários, ou que reações físicas sejam atrasadas o suficiente para criar aberturas letais. Em seu estágio máximo, é capaz de reverter brevemente o estado físico de um alvo — desfazendo ferimentos sofridos por ele mesmo ou restaurando uma janela temporal anterior ao impacto de uma técnica.
+
+Destruição:
+Não destrutiva diretamente, mas de letalidade extrema em combate. A manipulação temporal torna quase impossível reagir aos ataques de Ômega, criando aberturas que ele explora com a Seimei no Saidan ou com suas técnicas de corpo a corpo. A reversão temporal parcial pode anular técnicas já executadas pelo oponente.
+
+História:
+O Mangekyou foi arrancado de Sho durante um confronto que poucos sobreviveram para narrar, conhecido como a guerra da Fortaleza Yumei. Ômega não o roubou por ambição — roubou para garantir que aquele poder nunca mais fosse usado como instrumento de dominação herdada. Aos poucos, aprendeu a canalizar o doujutsu através de sua própria força espiritual elevada, adaptando-o ao seu estilo de combate cirúrgico.
+
+Status de Uso:
+Uso prolongado causa deterioração acelerada da visão e sobrecarga no sistema de chakra. Cada ativação da manipulação temporal drena uma quantidade considerável de chakra e força espiritual. Reversões temporais são especialmente custosas e só podem ser executadas uma vez por combate.
+
+### 3. Eternal Fujogan: Asami
+Classificação: S++ | Natureza: Eternal Fujogan + Hyuga no Fujo + Fuinjutsu
+
+![Eternal Fujogan: Asami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FTecnicas%2F03%20-%20Eternal%20Fujogan%3A%20Asami.jpg?alt=media&v=1786651890534122)
+
+Descrição:
+Ao ativar o Eternal Fujogan herdado de Asami, os olhos de Ômega assumem uma tonalidade profunda e pulsante, seus padrões girando lentamente como vórtices de absorção. Ele estende sua percepção para além do próprio corpo, sentindo o fluxo de chakra de tudo ao seu redor — aliados, inimigos, o próprio ambiente. A partir disso, começa a drenar e absorver ativamente o chakra externo, incluindo chakra profano de adversários próximos, canalizando tudo para dentro de si e redistribuindo essa energia em forma de tanques de chakra condensado ao redor de seu corpo. Esses tanques funcionam como escudos vivos de energia pura — interceptando técnicas, absorvendo impactos e explodindo de forma controlada quando necessário. Ao mesmo tempo, Ômega pode manipular o fluxo de chakra dos inimigos ao seu redor, interrompendo técnicas em formação, bloqueando selos e invertendo o curso de energia no corpo adversário.
+
+Destruição:
+Elevada de forma indireta. Os tanques de chakra absorvido podem ser detonados como explosões concentradas de energia pura, enquanto a manipulação do chakra alheio pode paralisar ou incapacitar múltiplos inimigos simultaneamente. Sua quase indestrutibilidade durante a ativação torna ataques diretos praticamente inúteis.
+
+História:
+O Fujogan de Asami foi o poder que Ômega menos esperava herdar — e o que mais o transformou. Ao contrário dos outros doujutsu que ele carregava por necessidade, este ele carregava com respeito. Asami havia sido uma das poucas pessoas que lutou ao seu lado sem questionar. Dominar o Eternal Fujogan foi, para ele, uma forma de honrar esse vínculo — e garantir que aquela visão jamais se apagasse do mundo.
+
+Status de Uso:
+Manter os tanques de chakra ativos e a absorção contínua exige concentração absoluta. Se o fluxo de absorção for interrompido abruptamente, os tanques se dissipam e Ômega fica momentaneamente vulnerável. Contra usuários com chakra extremamente denso ou instável, a absorção pode causar sobrecarga interna.
 
 ---
 
