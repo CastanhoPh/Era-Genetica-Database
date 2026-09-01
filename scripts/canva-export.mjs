@@ -2,23 +2,35 @@
 //
 //   npm run canva:export             confere (não escreve nada)
 //   npm run canva:export:apply       baixa o que falta
-//   ... --rebaixar                   troca também os que existem com tamanho diferente
+//   ... --rebaixar                   troca também os que existem com conteúdo diferente
 //
 // Uma pasta por projeto, e dentro dela um arquivo por página, com prefixo numérico — é só o prefixo
 // que garante a ordem no import do Canva. O nome é o mesmo do checklist, então a página do Canva e a
 // linha do painel se reconhecem.
 //
-// Só baixa o que FALTA. Arquivo que já existe fica como está mesmo se o tamanho diferir do Storage:
-// o arquivo local é o export do Canva e a cópia no Storage é derivada dele, então diferença de
-// alguns bytes entre dois exports do mesmo design é normal, não é arquivo velho. As diferenças saem
-// no relatório, e --rebaixar força a troca.
+// Só baixa o que FALTA. Arquivo que já existe fica como está mesmo se divergir do Storage: o
+// arquivo local é o export do Canva e a cópia no Storage é derivada dele, então diferença entre dois
+// exports do mesmo design é normal, não é arquivo velho. As diferenças saem no relatório, e
+// --rebaixar força a troca.
+//
+// O relatório compara MD5, mas quem manda no download continua sendo o tamanho. É de propósito, e a
+// razão é o metadado do Canva: o mesmo design exportado em dois dias sai com o mesmo número de bytes
+// e hash diferente, porque o XMP embutido carrega a data do export (`Attrib:Created`) — 54 bytes num
+// arquivo de 1,4 MB, pixel por pixel idêntico. Comparar só tamanho escondia esses arquivos no balde
+// de "em dia"; baixá-los de novo seria trocar 73 arquivos por nada. Então:
+//
+//   tamanho diferente  → divergência de verdade, entra no --rebaixar
+//   tamanho igual, hash diferente → sai no relatório como outro export, não baixa
+//
+// O custo do hash é ler o arquivo local, e só quando o tamanho bate.
 //
 // O nome desejado é calculado para TODA página, com arte no site ou sem. Página sem arte publicada
 // pode muito bem ter export local, e não pode virar "arquivo sobrando" por causa disso.
 //
 // Sobrando é o arquivo que não corresponde a página nenhuma — item renomeado ou reordenado, que
 // viraria página duplicada no import. Esse vai para _antigos/ em vez de ser apagado.
-import { readdirSync, statSync, readFileSync, existsSync, mkdirSync, renameSync, rmdirSync } from 'fs';
+import { readdirSync, statSync, readFileSync, existsSync, mkdirSync, renameSync, rmdirSync, createReadStream } from 'fs';
+import { createHash } from 'crypto';
 import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
@@ -43,6 +55,7 @@ const PROJ = [
   { tipo: 'invocacao', pasta: 'Invocações', tam: '1024x768' },
   { tipo: 'arsenal', pasta: 'Arsenal', tam: '1080x1080' },
   { tipo: 'evento', pasta: 'Eventos', tam: '1600x900' },
+  { tipo: 'tecnica', pasta: 'Técnicas', tam: '1600x900' },
 ];
 
 const chave = { full: achaChave() };
@@ -54,9 +67,15 @@ if (!existsSync(BASE)) { console.error(`pasta não encontrada: ${BASE}`); proces
 
 const cl = (await db.collection('imageChecklist').get()).docs.map(x => x.data());
 
-// Um listing só, em vez de getMetadata por item: dá o tamanho de tudo de uma vez.
+// Um listing só, em vez de getMetadata por item: dá tamanho e md5 de tudo de uma vez.
 const [objetos] = await bucket.getFiles();
-const tamanhoRemoto = new Map(objetos.map(o => [o.name, Number(o.metadata.size)]));
+const remotoDe = new Map(objetos.map(o => [o.name, { tam: Number(o.metadata.size), md5: o.metadata.md5Hash }]));
+
+/** MD5 em base64, o mesmo formato do `md5Hash` do Storage, para comparar sem conversão. */
+const md5Local = f => new Promise((ok, erro) => {
+  const h = createHash('md5');
+  createReadStream(f).on('data', d => h.update(d)).on('end', () => ok(h.digest('base64'))).on('error', erro);
+});
 
 const limpa = s => s.replace(/[<>:"/\\|?*]/g, '-').replace(/\s+/g, ' ').trim();
 const caminhoDe = url => {
@@ -68,9 +87,10 @@ const tituloDe = (tipo, i) => tipo === 'capa' ? i.temporada
     : (tipo === 'invocacao' || tipo === 'capaInvocacao' || tipo === 'arsenal') ? i.name
       : `${i.temporada} - ${i.arco}`;
 
-const baixar = [], sumidos = [], mover = [], renomear = [], difere = [];
+const baixar = [], sumidos = [], mover = [], renomear = [], difere = [], outroExport = [];
 let jaOk = 0, semArte = 0;
 
+// `for...of` em vez de forEach porque o hash do arquivo local é I/O e o laço precisa esperá-lo.
 for (const p of PROJ) {
   const itens = cl.filter(i => (i.type ?? 'evento') === p.tipo).sort((a, b) => a.order - b.order);
   const largura = String(itens.length).length;
@@ -78,28 +98,33 @@ for (const p of PROJ) {
   const querem = new Set();
   let comArte = 0, faltando = 0, trocar = 0;
 
-  itens.forEach((i, k) => {
+  for (const [k, i] of itens.entries()) {
     const caminho = i.imageUrl ? caminhoDe(i.imageUrl) : null;
     if (i.imageUrl && !caminho) sumidos.push(`${p.pasta}: URL ilegível em "${tituloDe(p.tipo, i)}"`);
-    if (caminho && !tamanhoRemoto.has(caminho)) sumidos.push(`${p.pasta}: no Firestore mas não no Storage — ${caminho}`);
-    const remoto = caminho ? tamanhoRemoto.get(caminho) : undefined;
+    if (caminho && !remotoDe.has(caminho)) sumidos.push(`${p.pasta}: no Firestore mas não no Storage — ${caminho}`);
+    const remoto = caminho ? remotoDe.get(caminho) : undefined;
 
     // O nome é reservado mesmo sem arte publicada. A extensão vem do Storage quando existe; png é o
-    // padrão dos sete projetos.
+    // padrão dos oito projetos.
     const ext = caminho?.match(/\.(\w+)$/)?.[1].toLowerCase() ?? 'png';
     const arquivo = `${String(k + 1).padStart(largura, '0')} - ${limpa(tituloDe(p.tipo, i))}.${ext}`;
     querem.add(arquivo);
 
-    if (remoto === undefined) { semArte++; return; }
+    if (remoto === undefined) { semArte++; continue; }
     comArte++;
     const destino = join(dir, arquivo);
     const local = existsSync(destino) ? statSync(destino).size : -1;
-    if (local === -1) { faltando++; baixar.push({ caminho, destino, dir, arquivo, pasta: p.pasta }); return; }
-    if (local === remoto) { jaOk++; return; }
+    if (local === -1) { faltando++; baixar.push({ caminho, destino, dir, arquivo, pasta: p.pasta }); continue; }
+    if (local === remoto.tam) {
+      // Mesmo tamanho: hash igual é idêntico, hash diferente é outro export do mesmo design.
+      if (await md5Local(destino) === remoto.md5) jaOk++;
+      else outroExport.push(`${p.pasta}/${arquivo}`);
+      continue;
+    }
     // Existe com outro tamanho: divergência, não lacuna. Só troca se pedirem.
-    difere.push({ pasta: p.pasta, arquivo, local, remoto });
+    difere.push({ pasta: p.pasta, arquivo, local, remoto: remoto.tam });
     if (REBAIXAR) { trocar++; baixar.push({ caminho, destino, dir, arquivo, pasta: p.pasta }); }
-  });
+  }
 
   const tem = existsSync(dir)
     ? readdirSync(dir).filter(f => statSync(join(dir, f)).isFile())
@@ -149,10 +174,14 @@ for (const p of PROJ) {
 
 console.log(`\n${jaOk} arquivo(s) já iguais ao Storage · ${baixar.length} a baixar · ${mover.length} a mover para _antigos`);
 console.log(`${semArte} página(s) sem arte publicada — nome reservado, nada a baixar`);
+if (outroExport.length) {
+  console.log(`\n${outroExport.length} arquivo(s) com o mesmo tamanho e hash diferente — mesmo design exportado em outro dia`);
+  console.log('   pixel idêntico, só a data no XMP do Canva difere; nada a fazer');
+  outroExport.slice(0, LISTA).forEach(x => console.log(`      ${x}`));
+}
 if (difere.length) {
-  // Abaixo de 0,1% é o mesmo design exportado duas vezes pelo Canva — ruído de compressão. Acima
-  // disso o arquivo local e a arte publicada são imagens diferentes de verdade, e aí só o Pedro sabe
-  // qual das duas vale.
+  // Abaixo de 0,1% de diferença de tamanho é ruído de compressão entre dois exports. Acima disso são
+  // imagens diferentes de verdade, e aí só o Pedro sabe qual das duas vale.
   const ruido = difere.filter(x => Math.abs(x.local - x.remoto) / x.remoto < 0.001);
   console.log(`\n${difere.length} arquivo(s) com tamanho diferente do Storage (mantidos; --rebaixar troca)`);
   console.log(`   ${ruido.length} com diferença abaixo de 0,1% — mesmo design, outro export`);
@@ -220,8 +249,11 @@ await Promise.all(Array.from({ length: 8 }, trabalhador));
 console.log(`\n${n} arquivo(s) baixados.`);
 
 // Confere: cada arquivo baixado tem de ter o tamanho do objeto remoto.
-const ruins = baixar.filter(b => !existsSync(b.destino) || statSync(b.destino).size !== tamanhoRemoto.get(b.caminho));
-console.log(ruins.length ? `ATENÇÃO: ${ruins.length} arquivo(s) com tamanho errado` : 'todos com o tamanho do original.');
+const ruins = [];
+for (const b of baixar) {
+  if (!existsSync(b.destino) || await md5Local(b.destino) !== remotoDe.get(b.caminho).md5) ruins.push(b);
+}
+console.log(ruins.length ? `ATENÇÃO: ${ruins.length} arquivo(s) com hash diferente do original` : 'todos com o hash do original.');
 for (const p of PROJ) {
   const dir = join(BASE, p.pasta);
   const q = existsSync(dir) ? readdirSync(dir).filter(f => statSync(join(dir, f)).isFile()).length : 0;

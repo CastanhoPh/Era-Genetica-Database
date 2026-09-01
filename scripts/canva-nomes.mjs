@@ -2,7 +2,7 @@
 //
 //   npm run canva:nomes
 //
-// Grava Canva/nomes-das-paginas.tsv com uma linha por página dos quatro projetos.
+// Grava Canva/nomes-das-paginas.tsv com uma linha por página dos oito projetos.
 //
 // O nome do ARQUIVO tem prefixo numérico (é só o que garante a ordem no import) e o nome COMPLETO do
 // personagem. O nome da PÁGINA não tem número e usa o primeiro nome — os 86 primeiros nomes das
@@ -16,7 +16,7 @@ import { achaChave } from './lib/chave.mjs';
 
 const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.length)
   ?? 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
-// Os sete projetos, na mesma ordem e com os mesmos nomes de pasta de scripts/canva-export.mjs.
+// Os oito projetos, na mesma ordem e com os mesmos nomes de pasta de scripts/canva-export.mjs.
 const PROJ = [
   { pasta: 'Linha do Tempo', tipo: 'timeline', tam: '1080x1620' },
   { pasta: 'Modos e Transformações', tipo: 'transformacao', tam: '1080x1620' },
@@ -25,9 +25,12 @@ const PROJ = [
   { pasta: 'Invocações', tipo: 'invocacao', tam: '1024x768' },
   { pasta: 'Arsenal', tipo: 'arsenal', tam: '1080x1080' },
   { pasta: 'Eventos', tipo: 'evento', tam: '1600x900' },
+  { pasta: 'Técnicas', tipo: 'tecnica', tam: '1600x900' },
 ];
 // Invocação, capa de invocação e arma já têm um nome próprio e único no checklist — não precisam da
-// composição temporada/arco que os outros três montam.
+// composição temporada/arco que os outros montam. A técnica usa a composição: o `arco` é o nome dela
+// e o `temporada` é o personagem, então sai "Nishinoya - Senpo: Modo Matatabi" — sem o personagem na
+// frente, duas técnicas homônimas de fichas diferentes viriam com a mesma página.
 const PELO_NOME = new Set(['invocacao', 'capaInvocacao', 'arsenal']);
 
 const chave = { full: achaChave() };
