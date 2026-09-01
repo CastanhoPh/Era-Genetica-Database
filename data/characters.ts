@@ -4057,6 +4057,9 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [37, 39],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoyu%20Uzumaki%2F4__Temporada.png?alt=media&v=1788277357164701", caption: "4ª Temporada", category: "era" },
+    ],
     stats: { strength: 2, dexterity: 8, agility: 2, intelligence: 7, spirit: 6, vigor: 3, perception: 8 },
     powers: [
       { name: "Katon", level: 4 },
@@ -4141,6 +4144,9 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [44],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSouma%20Namikaze%2F4__Temporada.png?alt=media&v=1788277358885603", caption: "4ª Temporada", category: "era" },
+    ],
     stats: { strength: 2, dexterity: 8, agility: 2, intelligence: 7, spirit: 6, vigor: 3, perception: 8 },
     powers: [
       { name: "Suiton", level: 4 },
@@ -4209,6 +4215,9 @@ export const initialData: Character[] = [
         status: "Uso limitado. Alto custo e exige carga emocional intensa para ativação máxima.",
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FTecnicas%2F04%20-%20Fuinjutsu%3A%20Zetsub%C5%8D%20no%20Gy%C5%8Dmei.jpg?alt=media&v=1786651901825306"
       }
+    ],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReika%20Uzumaki%2F4__Temporada.png?alt=media&v=1788277271809249", caption: "4ª Temporada", category: "era" },
     ],
     stats: { strength: 2, dexterity: 8, agility: 2, intelligence: 7, spirit: 6, vigor: 3, perception: 8 },
     powers: [
@@ -7287,6 +7296,10 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatakana%20Yotsuki%20(Alpha)%2F3__Temporada.png?alt=media&v=1788279178932861", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatakana%20Yotsuki%20(Alpha)%2F4__Temporada.png?alt=media&v=1788277085675103", caption: "4ª Temporada", category: "era" },
+    ],
     stats: {
       strength: 28,
       dexterity: 11,
@@ -7430,6 +7443,10 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmasen%20Yuki%20(Gama)%2F3__Temporada.png?alt=media&v=1788279181868882", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmasen%20Yuki%20(Gama)%2F4__Temporada.png?alt=media&v=1788277000856000", caption: "4ª Temporada", category: "era" },
+    ],
     stats: {
       strength: 11,
       dexterity: 28,
@@ -7589,6 +7606,10 @@ export const initialData: Character[] = [
       }
     ],
     arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDeruta%20Muujin%20(Delta)%2F3__Temporada.png?alt=media&v=1788279184593817", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDeruta%20Muujin%20(Delta)%2F4__Temporada.png?alt=media&v=1788276964905175", caption: "4ª Temporada", category: "era" },
+    ],
     stats: {
       strength: 11,
       dexterity: 28,
@@ -7674,6 +7695,10 @@ export const initialData: Character[] = [
     chakra: 94,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShiita%20Sabaku%20(Theta)%2FShiita%20Sabaku%20(Theta).png?alt=media&v=1788276571391970",
     techniques: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShiita%20Sabaku%20(Theta)%2F4__Temporada.png?alt=media&v=1788277297194950", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShiita%20Sabaku%20(Theta)%2F5__Temporada.png?alt=media&v=1788279187334205", caption: "5ª Temporada", category: "era" },
+    ],
     stats: {
       strength: 11,
       dexterity: 28,
