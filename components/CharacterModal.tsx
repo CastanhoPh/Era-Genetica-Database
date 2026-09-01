@@ -11,7 +11,8 @@ import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
 import ResourceBar from './ResourceBar';
-import { formatImageUrl, seloDe, corDoSelo, vilasDe, CORES_DE_VILA, CORES_DE_ORG } from '../utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, vilasDe, CORES_DE_VILA, CORES_DE_ORG } from '../utils/formatters';
+import { maiorPosto } from '../data/postos-por-aba';
 import { rankDeNC } from '../data/atributos';
 
 // Carregado sob demanda: chart.js + react-chartjs-2 só entram no bundle quando
@@ -383,10 +384,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                     </p>
                     {/* Ficha sem cargo nem patente não mostra nada no lugar — nem o rótulo, nem a
                         linha inteira. */}
-                    {seloDe(char) && (
+                    {/* O CARGO aqui é o posto MAIS ALTO da ficha, pela hierarquia de cada vila e
+                        organização — o mesmo critério do card na aba "Todos". Era `patente[0] ||
+                        cargo[0]`, ordem de array, e por isso o Tobirama aparecia como "1º Vice Líder
+                        da OCA" em vez de "2º Hokage". */}
+                    {(maiorPosto(char)?.texto ?? seloDe(char)) && (
                         <p className="flex flex-wrap items-baseline gap-x-2 gap-y-1 text-sm font-bold">
                             <span className={corDoSelo(char).texto}>
-                                <span className="opacity-50">CARGO: </span>{seloDe(char).toUpperCase()}
+                                <span className="opacity-50">CARGO: </span>{(maiorPosto(char)?.texto ?? seloDe(char)).toUpperCase()}
                             </span>
                             {/* O card mostra só o primeiro cargo; aqui cabe o resto. */}
                             {(char.cargo?.length ?? 0) > 1 && (

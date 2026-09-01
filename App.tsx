@@ -5,8 +5,8 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe } from './utils/formatters';
-import { POSTOS_POR_ABA, casaPosto } from './data/postos-por-aba';
+import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
+import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
@@ -59,6 +59,43 @@ const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
 // Marinha é organização de Kirigakure: Mizukage é cargo, Almirante é patente.
 const postosCrus = (c: Character): string[] =>
     [...new Set([...(c.cargo ?? []), ...(c.patente ?? [])].map(postoDe))];
+
+/**
+ * O selo do card, pelo CONTEXTO da lista. Antes era fixo em `patente[0] || cargo[0]`, e por isso o
+ * Shiita Sabaku aparecia como "Kage da OCA" mesmo dentro da aba de Sunagakure com o filtro em
+ * Kazekage das Sombras — o posto que o usuário acabou de escolher não era o que o card mostrava.
+ *
+ * Três regras, na ordem:
+ *
+ *  1. Posto escolhido no filtro: mostra exatamente esse, com o ordinal da ficha.
+ *  2. Aba de vila ou organização: mostra o posto mais alto que a ficha tem NAQUELA aba.
+ *  3. Todos / Personagem / NPC: mostra o posto mais alto que a ficha tem em qualquer aba.
+ *
+ * Devolve o valor cru (com ordinal) porque é o que o card exibe, e a `aba` de onde ele veio, que é
+ * o que decide a cor.
+ */
+const seloDoContexto = (c: Character, aba: string, postoSel: string): { texto: string; aba: string | null } => {
+    const brutos = [...(c.cargo ?? []), ...(c.patente ?? [])];
+    const cat = POSTOS_POR_ABA[aba];
+
+    if (cat && postoSel !== 'Todos') {
+        const e = cat.find(x => x.label === postoSel);
+        const achado = e && brutos.find(v => casaPosto(e, postoDe(v)));
+        if (achado) return { texto: achado, aba };
+    }
+    if (cat) {
+        let melhor: string | null = null;
+        let melhorI = Infinity;
+        for (const v of brutos) {
+            const i = cat.findIndex(e => casaPosto(e, postoDe(v)));
+            if (i >= 0 && i < melhorI) { melhorI = i; melhor = v; }
+        }
+        if (melhor) return { texto: melhor, aba };
+    }
+    // Sem catálogo na aba: o posto mais alto em qualquer catálogo. Empate (dois postos nº 1 de vilas
+    // diferentes) cai na ordem do próprio array, que é a ordem que o Pedro gravou.
+    return maiorPosto(c) ?? { texto: seloDe(c), aba: null };
+};
 const casaFuncao = (c: Character, funcao: string): boolean => {
     const r = (c.role ?? '').toLowerCase();
     return funcao === 'Tank' ? r.includes('tank') || r.includes('tanque') : r.includes(funcao.toLowerCase());
@@ -808,11 +845,18 @@ export default function App() {
                                             ele — e em 23 das 82 fichas com selo os dois não cabiam, então o título perdia o fim.
                                             Aqui cada um tem a linha inteira e nenhum é cortado. O fundo opaco é obrigatório: o
                                             selo pousa sobre arte de qualquer cor. z-30 para ficar acima da grade de varredura. */}
-                                        {seloDe(char) && (
-                                            <span className={`absolute bottom-2 left-2 z-30 text-[10px] uppercase tracking-wide px-1.5 py-px border max-w-[calc(100%-1rem)] truncate bg-black/85 backdrop-blur-sm ${corDoSelo(char).borda} ${corDoSelo(char).texto}`}>
-                                                {seloDe(char)}
-                                            </span>
-                                        )}
+                                        {(() => {
+                                            const selo = seloDoContexto(char, selectedCategory, selectedPosition);
+                                            if (!selo.texto) return null;
+                                            // A cor vem da aba de onde o posto veio, não mais de "tem patente?":
+                                            // com o selo mudando de posto, a cor tem que acompanhar.
+                                            const cor = (selo.aba ? (CORES_DE_VILA[selo.aba] ?? CORES_DE_ORG[selo.aba]) : undefined) ?? corDoSelo(char);
+                                            return (
+                                                <span className={`absolute bottom-2 left-2 z-30 text-[10px] uppercase tracking-wide px-1.5 py-px border max-w-[calc(100%-1rem)] truncate bg-black/85 backdrop-blur-sm ${cor.borda} ${cor.texto}`}>
+                                                    {selo.texto}
+                                                </span>
+                                            );
+                                        })()}
 
                                         {/* Corner Targets */}
                                         {!char.isDead && (

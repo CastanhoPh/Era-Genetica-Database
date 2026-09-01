@@ -1,3 +1,5 @@
+import { postoDe } from '../utils/formatters';
+
 /**
  * Os postos de cada aba da lista de personagens — vila ou organização — na ordem de importância que
  * o Pedro ditou, do mais alto pro mais baixo.
@@ -100,3 +102,39 @@ export const POSTOS_POR_ABA: Record<string, PostoDeAba[]> = {
 /** O posto (cargo ou patente, sem ordinal) casa com esta entrada do catálogo? */
 export const casaPosto = (e: PostoDeAba, posto: string): boolean =>
   (e.postos?.includes(posto) ?? false) || (e.prefixos?.some(p => posto.startsWith(p)) ?? false);
+
+/**
+ * Onde um posto vive: a aba (vila ou organização) e a posição dele na hierarquia dela.
+ *
+ * É o que dá ao selo do card duas coisas de uma vez: qual posto mostrar quando a ficha tem vários
+ * (o de menor `ordem` é o mais alto) e de qual cor pintar (a cor da `aba`). Posto que não está em
+ * catálogo nenhum — as patentes da OCA, por exemplo — devolve null e vai pro fim da fila.
+ */
+export const localDoPosto = (posto: string): { aba: string; ordem: number } | null => {
+  for (const [aba, cat] of Object.entries(POSTOS_POR_ABA)) {
+    const i = cat.findIndex(e => casaPosto(e, posto));
+    if (i >= 0) return { aba, ordem: i };
+  }
+  return null;
+};
+
+/**
+ * O posto mais alto que a ficha tem, comparando a posição dentro do catálogo de cada aba. É o que o
+ * card mostra em "Todos" e o que a ficha usa na linha CARGO — antes era `patente[0] || cargo[0]`,
+ * ordem de array, e por isso o Tobirama aparecia como "1º Vice Líder da OCA" em vez de "2º Hokage".
+ *
+ * Posto que não está em catálogo nenhum (as patentes da OCA, hoje) vai pro fim. Quando o Pedro
+ * ditar a ordem da OCA, ela entra no catálogo e passa a competir.
+ */
+export const maiorPosto = (c: { cargo?: string[]; patente?: string[] }): { texto: string; aba: string | null } | null => {
+  const brutos = [...(c.cargo ?? []), ...(c.patente ?? [])];
+  let melhor: string | null = null;
+  let melhorI = Infinity;
+  let melhorAba: string | null = null;
+  for (const v of brutos) {
+    const l = localDoPosto(postoDe(v));
+    const i = l ? l.ordem : 99;
+    if (i < melhorI) { melhorI = i; melhor = v; melhorAba = l?.aba ?? null; }
+  }
+  return melhor ? { texto: melhor, aba: melhorAba } : null;
+};
