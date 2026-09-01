@@ -8136,7 +8136,7 @@ NC: 25
 HP: 189
 Chakra: 85
 Status: Vivo
-Títulos: Vice Líder da NoGuns, O Herdeiro que Negou o Trono
+Títulos: O Herdeiro que Negou o Trono
 
 ![Daichi Muujin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1787158172524277)
 

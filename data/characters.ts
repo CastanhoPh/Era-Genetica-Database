@@ -5268,7 +5268,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Muujin",
     categories: ["NPC", "NoGuns", "Iwagakure"],
-    titles: ["Vice Líder da NoGuns", "O Herdeiro que Negou o Trono"],
+    titles: ["O Herdeiro que Negou o Trono"],
     nc: 25,
     position: "",
     role: "DPS e Controle",
