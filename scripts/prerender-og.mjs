@@ -15,7 +15,14 @@ const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   .replace(/"/g, '&quot;').replace(/\n/g, ' ').trim();
 
-const fieldStr = (f) => (f ? (f.stringValue ?? f.integerValue ?? '') : '');
+// A REST do Firestore devolve o valor etiquetado pelo tipo. Sem o booleanValue aqui, um campo
+// booleano virava '' — e foi assim que o filtro de `oculto` passou batido e o stub do Hashirama
+// foi pro ar mesmo com a ficha escondida.
+const fieldStr = (f) => {
+  if (!f) return '';
+  if ('booleanValue' in f) return f.booleanValue;
+  return f.stringValue ?? f.integerValue ?? '';
+};
 
 async function fetchCollection(name) {
   const url = `https://firestore.googleapis.com/v1/projects/${PROJECT}/databases/(default)/documents/${name}?pageSize=300&key=${API_KEY}`;
@@ -55,7 +62,10 @@ function writeStub(slug, title, tags) {
 }
 
 const main = async () => {
-  const characters = await fetchCollection('characters');
+  // Ficha `oculto` NAO ganha stub: o /<slug>.html e' URL publica de verdade (cleanUrls), e o
+  // <head> entregaria nome, titulo, descricao e capa mesmo com o SPA se recusando a abrir a ficha.
+  // Sem este filtro o `oculto` seria so cosmetico contra quem digita o link ou passa um crawler.
+  const characters = (await fetchCollection('characters')).filter(c => !c.oculto);
   for (const c of characters) {
     const desc = `${c.clan ? c.clan + ' — ' : ''}${(c.description || '').slice(0, 170)}`;
     writeStub(c.slug, `${c.name} | Era Genética`,
