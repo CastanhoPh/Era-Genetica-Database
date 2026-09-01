@@ -328,9 +328,19 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
   const confirmAddItem = async (temporada: string, arco: string, subarco: string | null, scopeItems: ChecklistItem[]) => {
     const name = newItemText.trim();
     if (!name) return;
-    // +0.5 (não +1): com order sequencial sem lacunas, +1 colidiria exatamente com o
-    // primeiro item do próximo arco, embaralhando a visão "Geral" (que não agrupa por temporada).
-    const order = maxOrder(scopeItems) + 0.5;
+    // Ponto MÉDIO entre o fim do escopo e o próximo item do bloco, não `+0.5`.
+    //
+    // Com `+0.5` a segunda inserção seguida no mesmo arco caía em +1.0, que é o order do primeiro
+    // item do arco SEGUINTE — e com dois itens no mesmo order a ordenação vira arbitrária, o que
+    // embaralhava a visão agrupada: em 01/09/2026 havia 27 orders repetidos nos eventos e 54 arcos
+    // aparecendo duas vezes, "Chegada de Raikun" alternando com "Missões para Treinamento".
+    //
+    // O ponto médio nunca colide. `fixChecklistOrder` volta tudo a inteiro depois.
+    const fim = maxOrder(scopeItems);
+    const proximo = items
+      .filter(i => (i.type ?? 'evento') === currentType && i.order > fim)
+      .reduce((menor, i) => (menor === null || i.order < menor ? i.order : menor), null as number | null);
+    const order = proximo === null ? fim + 1 : (fim + proximo) / 2;
     await addChecklistItem({ type: currentType, temporada, arco, subarco: subarco ?? undefined, name, order, done: false, placeholder: false });
     setAddingItemFor(null);
     setNewItemText('');
