@@ -6,7 +6,7 @@ import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
 import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe } from './utils/formatters';
-import { CARGOS_DE_VILA } from './data/cargos-de-vila';
+import { POSTOS_POR_ABA, casaPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
@@ -53,11 +53,12 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
 // casamento é por substring — e "Tank" tem que aceitar "Tanque", que convive nas fichas.
 const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
 
-// Os postos que a ficha tem por CARGO, sem ordinal. Separado de `macrosDe`, que junta cargo e
-// patente e ainda corta o qualificador: o filtro de uma vila só pode oferecer cargo (senão
-// "Líder dos 75%" da OCA apareceria como posto de Konoha) e precisa do posto INTEIRO (senão
-// "Líder dos Monges" e "Líder de Inovações" viram os dois "Líder" e colidem).
-const postosDeCargo = (c: Character): string[] => [...new Set((c.cargo ?? []).map(postoDe))];
+// Os postos que a ficha tem, cargo e patente, só sem o ordinal. Diferente de `macrosDe`, que
+// também corta o qualificador — o catálogo precisa do posto INTEIRO, senão "Líder dos Monges" e
+// "Líder de Inovações" viram os dois "Líder" e colidem. Cargo e patente entram os dois porque a
+// Marinha é organização de Kirigakure: Mizukage é cargo, Almirante é patente.
+const postosCrus = (c: Character): string[] =>
+    [...new Set([...(c.cargo ?? []), ...(c.patente ?? [])].map(postoDe))];
 const casaFuncao = (c: Character, funcao: string): boolean => {
     const r = (c.role ?? '').toLowerCase();
     return funcao === 'Tank' ? r.includes('tank') || r.includes('tanque') : r.includes(funcao.toLowerCase());
@@ -110,7 +111,9 @@ export default function App() {
     const [selectedPosition, setSelectedPosition] = useState('Todos');
     const [sortBy, setSortBy] = useState('id');
 
-    const categories = ['Todos', 'Personagem', 'NPC', 'Konohagakure', 'Kirigakure', 'Kumogakure', 'Sunagakure', 'Iwagakure', 'OCA'];
+    // NoGuns e Kiba entraram em 01/09/2026: as duas tags já existiam em `categories` (7 e 5 fichas)
+    // mas não tinham aba, então não havia como filtrar por elas.
+    const categories = ['Todos', 'Personagem', 'NPC', 'Konohagakure', 'Kirigakure', 'Kumogakure', 'Sunagakure', 'Iwagakure', 'OCA', 'NoGuns', 'Kiba'];
 
     // Escuta os personagens do Firestore em tempo real (qualquer edição feita por um admin,
     // em qualquer dispositivo, aparece aqui na hora, sem precisar recarregar a página).
@@ -267,13 +270,13 @@ export default function App() {
         (c: Character) => selectedClan === 'Todos' || c.clan === selectedClan, [selectedClan]);
     const passaPosto = useCallback((c: Character) => {
         if (selectedPosition === 'Todos') return true;
-        // Dentro de uma vila com catálogo o rótulo pode cobrir vários cargos — "Líder de Esquadrão"
-        // cobre os seis esquadrões de Konoha, e "Líder Corporal" cobre o dos samurais e o dos
-        // monges — então casa pela lista de `postos` do rótulo, e só contra cargo.
-        const cat = CARGOS_DE_VILA[selectedCategory];
+        // Numa aba com catálogo o rótulo pode cobrir vários postos — "Líder de Esquadrão" cobre os
+        // seis esquadrões de Konoha, "Líder Corporal" cobre o dos samurais e o dos monges, e
+        // "Almirante" cobre as quatro frotas por prefixo.
+        const cat = POSTOS_POR_ABA[selectedCategory];
         if (cat) {
             const e = cat.find(x => x.label === selectedPosition);
-            return e ? postosDeCargo(c).some(x => e.postos.includes(x)) : false;
+            return e ? postosCrus(c).some(x => casaPosto(e, x)) : false;
         }
         return macrosDe(c).includes(selectedPosition);
     }, [selectedPosition, selectedCategory]);
@@ -310,16 +313,16 @@ export default function App() {
     // Vila com catálogo (hoje só Konohagakure) oferece os cargos DELA, na ordem de importância que o
     // Pedro ditou, e só os que alguém no escopo de fato tem. Fora dela, segue a lista derivada em
     // ordem alfabética.
-    const catalogoDaVila = CARGOS_DE_VILA[selectedCategory] ?? null;
+    const catalogoDaAba = POSTOS_POR_ABA[selectedCategory] ?? null;
     const uniquePositions = useMemo(() => {
         const gente = escopo('posto');
-        if (catalogoDaVila) {
-            return catalogoDaVila
-                .filter(e => gente.some(c => postosDeCargo(c).some(x => e.postos.includes(x))))
+        if (catalogoDaAba) {
+            return catalogoDaAba
+                .filter(e => gente.some(c => postosCrus(c).some(x => casaPosto(e, x))))
                 .map(e => e.label);
         }
         return Array.from(new Set(gente.flatMap(macrosDe))).sort((a, b) => a.localeCompare(b, 'pt'));
-    }, [escopo, catalogoDaVila]);
+    }, [escopo, catalogoDaAba]);
 
     // Uma escolha pode deixar de existir no escopo novo — clã Sabaku com Konohagakure selecionada,
     // por exemplo. Sem isto o seletor ficaria mostrando um valor fora da lista e a grade viria
