@@ -5,7 +5,8 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe, corDoSelo, macrosDe } from './utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, macrosDe, macroDe } from './utils/formatters';
+import { CARGOS_DE_VILA } from './data/cargos-de-vila';
 import { rankDeNC } from './data/atributos';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
@@ -51,6 +52,11 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
 // As quatro funções que o filtro oferece. `role` guarda combinação livre ("Suporte e DPS"), então o
 // casamento é por substring — e "Tank" tem que aceitar "Tanque", que convive nas fichas.
 const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
+
+// Os macros que a ficha tem por CARGO — posto de vila. Separado de `macrosDe`, que junta cargo e
+// patente: o filtro de uma vila só pode oferecer cargo, senão "Líder dos 75%" (OCA) apareceria como
+// posto de Konoha.
+const macrosDeCargo = (c: Character): string[] => [...new Set((c.cargo ?? []).map(macroDe))];
 const casaFuncao = (c: Character, funcao: string): boolean => {
     const r = (c.role ?? '').toLowerCase();
     return funcao === 'Tank' ? r.includes('tank') || r.includes('tanque') : r.includes(funcao.toLowerCase());
@@ -258,8 +264,18 @@ export default function App() {
         (c: Character) => casamentos.get(c.docId ?? String(c.id)) !== null, [casamentos]);
     const passaCla = useCallback(
         (c: Character) => selectedClan === 'Todos' || c.clan === selectedClan, [selectedClan]);
-    const passaPosto = useCallback(
-        (c: Character) => selectedPosition === 'Todos' || macrosDe(c).includes(selectedPosition), [selectedPosition]);
+    const passaPosto = useCallback((c: Character) => {
+        if (selectedPosition === 'Todos') return true;
+        // Dentro de uma vila com catálogo o rótulo pode cobrir vários cargos — "Líder de Esquadrão"
+        // cobre Ambu, Equipe de Elite, Força Médica, Rastreio e Inovações, que todos reduzem a
+        // "Líder" — então casa pelo `macros` do rótulo, e só contra cargo.
+        const cat = CARGOS_DE_VILA[selectedCategory];
+        if (cat) {
+            const e = cat.find(x => x.label === selectedPosition);
+            return e ? macrosDeCargo(c).some(m => e.macros.includes(m)) : false;
+        }
+        return macrosDe(c).includes(selectedPosition);
+    }, [selectedPosition, selectedCategory]);
     const passaFuncao = useCallback(
         (c: Character) => selectedRole === 'Todos' || casaFuncao(c, selectedRole), [selectedRole]);
     const passaVitalidade = useCallback(
@@ -290,9 +306,19 @@ export default function App() {
     // "Líder de alguma coisa", cada uma com um ou dois personagens, o que não filtra nada. Agora são
     // 27, e "Almirante" traz os quatro. Cargo e patente entram os dois, senão as fichas que só têm
     // patente de organização ficariam de fora.
-    const uniquePositions = useMemo(
-        () => Array.from(new Set(escopo('posto').flatMap(macrosDe))).sort((a, b) => a.localeCompare(b, 'pt')),
-        [escopo]);
+    // Vila com catálogo (hoje só Konohagakure) oferece os cargos DELA, na ordem de importância que o
+    // Pedro ditou, e só os que alguém no escopo de fato tem. Fora dela, segue a lista derivada em
+    // ordem alfabética.
+    const catalogoDaVila = CARGOS_DE_VILA[selectedCategory] ?? null;
+    const uniquePositions = useMemo(() => {
+        const gente = escopo('posto');
+        if (catalogoDaVila) {
+            return catalogoDaVila
+                .filter(e => gente.some(c => macrosDeCargo(c).some(m => e.macros.includes(m))))
+                .map(e => e.label);
+        }
+        return Array.from(new Set(gente.flatMap(macrosDe))).sort((a, b) => a.localeCompare(b, 'pt'));
+    }, [escopo, catalogoDaVila]);
 
     // Uma escolha pode deixar de existir no escopo novo — clã Sabaku com Konohagakure selecionada,
     // por exemplo. Sem isto o seletor ficaria mostrando um valor fora da lista e a grade viria
