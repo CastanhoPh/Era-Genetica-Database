@@ -8117,7 +8117,6 @@ NC: 25
 HP: 189
 Chakra: 85
 Status: Vivo
-Títulos: O Herdeiro que Negou o Trono
 
 ![Daichi Muujin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1788276438137455)
 
@@ -8159,7 +8158,6 @@ NC: 18
 HP: 154
 Chakra: 64
 Status: Morto (morto por Hades)
-Títulos: Vice Líder da NoGuns, Assassino Explosivo
 
 ![Koji Ishizuma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKoji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media&v=1788276515656214)
 
@@ -8200,7 +8198,6 @@ NC: 18
 HP: 154
 Chakra: 96
 Status: Morto (morto por Hades)
-Títulos: Jinchuuriki, Fugitivo da OCA, Pequeno Assassino
 
 ![Yuuto Han](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuuto%20Han%2FYuuto%20Han.png?alt=media&v=1788276603923947)
 
