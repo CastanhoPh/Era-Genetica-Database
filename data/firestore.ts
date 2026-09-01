@@ -3,7 +3,7 @@ import { collection, getDocs, getDoc, doc, addDoc, setDoc, deleteDoc, updateDoc,
 import { db } from '../firebase';
 import { ref as storageRef, getBytes, getMetadata, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 import { storage } from '../firebaseStorage';
-import { Character, ChecklistItem, GalleryImage, FamilyTree, TodoItem } from '../types';
+import { Character, ChecklistItem, GalleryImage, FamilyTree, TodoItem, StatusTodo } from '../types';
 import { Equipment } from '../types/Equipment';
 import { groupItems } from './checklistGrouping';
 
@@ -452,6 +452,8 @@ export async function addAFazer(texto: string, grupo?: string): Promise<string> 
   const ref = await addDoc(collection(db, 'aFazer'), {
     texto: limpo,
     ...(grupo?.trim() ? { grupo: grupo.trim() } : {}),
+    // item novo entra na primeira coluna do kanban
+    status: 'a-fazer' as StatusTodo,
     feito: false,
     ordem,
     criadoEm: Date.now(),
@@ -460,7 +462,15 @@ export async function addAFazer(texto: string, grupo?: string): Promise<string> 
 }
 
 export async function setAFazerFeito(docId: string, feito: boolean): Promise<void> {
-  await updateDoc(doc(db, 'aFazer', docId), { feito });
+  await setAFazerStatus(docId, feito ? 'concluido' : 'a-fazer');
+}
+
+/**
+ * Move o item de coluna. Grava `feito` junto porque ele virou espelho de `concluido` — enquanto
+ * algum lugar ainda o ler, os dois têm que concordar.
+ */
+export async function setAFazerStatus(docId: string, status: StatusTodo): Promise<void> {
+  await updateDoc(doc(db, 'aFazer', docId), { status, feito: status === 'concluido' });
 }
 
 export async function editAFazer(docId: string, campos: { texto?: string; grupo?: string }): Promise<void> {

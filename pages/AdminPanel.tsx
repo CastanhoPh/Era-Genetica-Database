@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, Square, MapPin, Trash2, UserCheck, UserX, HeartPulse, Award, Sparkles, Link as LinkIcon, ListTodo, Plus } from 'lucide-react';
+import { Database, Users, Shield, Scroll, Images, Clock, HardDrive, RefreshCw, Loader, Radio, AlertTriangle, ListOrdered, CheckCircle2, Search, Skull, SkipForward, BookOpen, Download, X, ChevronDown, ChevronUp, CheckSquare, Square, MapPin, Trash2, UserCheck, UserX, HeartPulse, Award, Sparkles, Link as LinkIcon, Plus, ChevronLeft, ChevronRight } from 'lucide-react';
 import { ref, listAll, getMetadata, StorageReference } from 'firebase/storage';
 import JSZip from 'jszip';
 import { storage } from '../firebaseStorage';
-import { setCombatProfile, subscribeChecklist, fixChecklistOrder, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed, subscribeAFazer, addAFazer, setAFazerFeito, editAFazer, deleteAFazer } from '../data/firestore';
-import { Character, ChecklistItem, TodoItem, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
+import { setCombatProfile, subscribeChecklist, fixChecklistOrder, CHECKLIST_BLOCOS, setEventParticipants, setEventCastClosed, subscribeAFazer, addAFazer, setAFazerStatus, editAFazer, deleteAFazer } from '../data/firestore';
+import { Character, ChecklistItem, TodoItem, StatusTodo, STATUS_TODO, ROTULO_STATUS, SEASON_LORE, SEASON_ORDER, PENDING_CHARACTERS, PENDING_ARSENAL } from '../types';
 import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, rankDeNC, LIVRES, MAX_FOCOS, MIN_POR_NC, PASSO_DIVISAO, type EstiloCombate, type AtributoLivre } from '../data/atributos';
 import { Equipment } from '../types/Equipment';
 import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
@@ -147,7 +147,8 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const [novoGrupo, setNovoGrupo] = useState('');
   const [afSalvando, setAfSalvando] = useState<string | null>(null);
   const [afErro, setAfErro] = useState<string | null>(null);
-  const [afMostraFeitos, setAfMostraFeitos] = useState(false);
+  // Coluna sob o cursor durante o arrastar, só para destacá-la.
+  const [afSobre, setAfSobre] = useState<StatusTodo | null>(null);
   const [classificationVillage, setClassificationVillage] = useState('Konohagakure');
   const [classificationFilter, setClassificationFilter] = useState<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8' | null>(null);
   const [classificationFicha, setClassificationFicha] = useState<'todos' | 'ficha' | 'pendente'>('todos');
@@ -515,20 +516,29 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
 
   // Aba A Fazer: pendências agrupadas. O grupo é texto livre, não uma lista fechada — pendência de
   // RPG não cabe em taxonomia, e uma lista fechada só viraria atrito na hora de anotar.
-  const afGrupos = useMemo(() => {
-    const abertos = aFazer.filter(t => !t.feito);
-    const feitos = aFazer.filter(t => t.feito);
-    const mapa = new Map<string, TodoItem[]>();
-    for (const t of abertos) {
-      const g = t.grupo?.trim() || 'Sem grupo';
-      if (!mapa.has(g)) mapa.set(g, []);
-      mapa.get(g)!.push(t);
+  /**
+   * As pendências repartidas nas cinco colunas do kanban.
+   *
+   * O agrupamento era por `grupo` (Arte, Fichas, Manutenção…) e o estado era só um booleano. Agora
+   * a coluna é o estado e o grupo virou etiqueta no card — assim "Fazendo" e "Em Espera" existem, e
+   * "Recusado" registra decisão descartada sem fingir que foi feita.
+   *
+   * Item sem `status` cai em "A Fazer" (ou em "Concluído", se o `feito` legado disser que sim), pra
+   * item antigo não desaparecer.
+   */
+  const afColunas = useMemo(() => {
+    const mapa = new Map<StatusTodo, TodoItem[]>(STATUS_TODO.map(k => [k, []]));
+    for (const t of aFazer) {
+      const st: StatusTodo = t.status ?? (t.feito ? 'concluido' : 'a-fazer');
+      (mapa.get(st) ?? mapa.get('a-fazer')!).push(t);
     }
-    // "Sem grupo" por último; o resto em ordem alfabética, para a posição não dançar
-    const nomes = [...mapa.keys()].sort((a, b) =>
-      (a === 'Sem grupo' ? 1 : 0) - (b === 'Sem grupo' ? 1 : 0) || a.localeCompare(b));
-    return { grupos: nomes.map(g => ({ nome: g, itens: mapa.get(g)! })), abertos, feitos };
+    for (const l of mapa.values()) {
+      l.sort((a, b) => (a.grupo ?? 'zzz').localeCompare(b.grupo ?? 'zzz') || a.ordem - b.ordem);
+    }
+    return mapa;
   }, [aFazer]);
+  const afAbertas = (afColunas.get('a-fazer')!.length + afColunas.get('fazendo')!.length
+    + afColunas.get('espera')!.length);
 
   /** Sugestões de grupo para o datalist: o que já foi usado, sem repetir. */
   const afSugestoes = useMemo(
@@ -2809,106 +2819,110 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
         {/* ---- contagem ---- */}
         <div className="flex flex-wrap items-center gap-4 mb-4">
           <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide">
-            <span className="text-white text-lg font-black">{afGrupos.abertos.length}</span> em aberto
+            <span className="text-white text-lg font-black">{afAbertas}</span> em aberto
           </div>
           <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide">
-            <span className="text-tech-primary text-lg font-black">{afGrupos.feitos.length}</span> resolvidas
+            <span className="text-tech-primary text-lg font-black">{afColunas.get('concluido')!.length}</span> concluídas
           </div>
-          {afGrupos.feitos.length > 0 && (
-            <button
-              type="button"
-              onClick={() => setAfMostraFeitos(v => !v)}
-              className="text-[9px] uppercase tracking-widest text-tech-primary/40 hover:text-tech-primary underline decoration-dotted ml-auto"
-            >
-              {afMostraFeitos ? 'esconder resolvidas' : 'ver resolvidas'}
-            </button>
-          )}
+          <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide">
+            <span className="text-orange-400/70 text-lg font-black">{afColunas.get('recusado')!.length}</span> recusadas
+          </div>
+          <span className="text-[9px] uppercase tracking-widest text-tech-primary/25 ml-auto">
+            arraste o card entre as colunas, ou use as setas
+          </span>
         </div>
 
-        {/* ---- em aberto, por grupo ---- */}
-        {afGrupos.grupos.map(g => (
-          <div key={g.nome} className="mb-5">
-            <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-2 flex items-center gap-2">
-              <span className="bg-tech-panel border border-tech-border px-2 py-0.5 clip-corner-sm">{g.nome}</span>
-              <span className="text-tech-primary/30">{g.itens.length}</span>
-              <span className="flex-1 h-px bg-tech-border"></span>
-            </div>
-            <div className="border border-tech-border bg-tech-panel/20">
-              {g.itens.map(t => (
-                <div key={t.docId} className="flex items-start gap-3 px-3 py-2 border-b border-tech-border/40 last:border-0 hover:bg-tech-panel/50 group">
-                  <button
-                    type="button"
-                    title="Marcar como resolvida"
-                    onClick={() => t.docId && afAcao(t.docId, () => setAFazerFeito(t.docId!, true))}
-                    className="mt-0.5 text-tech-primary/30 hover:text-tech-primary transition-colors shrink-0"
-                  >
-                    {afSalvando === t.docId ? <Loader size={13} className="animate-spin" /> : <Square size={13} />}
-                  </button>
-                  {/* contentEditable seria mais elegante, mas um input simples é o que não perde texto */}
-                  <input
-                    type="text"
-                    defaultValue={t.texto}
-                    onBlur={e => {
-                      const v = e.target.value.trim();
-                      if (v && v !== t.texto && t.docId) afAcao(t.docId, () => editAFazer(t.docId!, { texto: v }));
-                      else e.target.value = t.texto;
-                    }}
-                    className="flex-1 bg-transparent text-[12px] text-tech-primary/90 outline-none focus:text-white border-b border-transparent focus:border-tech-primary/40"
-                  />
-                  <button
-                    type="button"
-                    title="Apagar"
-                    onClick={() => t.docId && afAcao(t.docId, () => deleteAFazer(t.docId!))}
-                    className="mt-0.5 text-tech-primary/15 hover:text-orange-400 transition-colors shrink-0 opacity-0 group-hover:opacity-100 focus:opacity-100"
-                  >
-                    <Trash2 size={12} />
-                  </button>
+        {/* ---- kanban ----
+            Cinco colunas em rolagem horizontal: com cinco de largura fixa elas não caberiam num
+            notebook, e apertá-las até caber deixaria o texto da pendência ilegível. Cada card tem
+            seta pra esquerda e pra direita além do arrastar — arrastar não funciona por teclado, e
+            num toque de celular é pior ainda. */}
+        <div className="flex gap-3 overflow-x-auto pb-2">
+          {STATUS_TODO.map(col => {
+            const itens = afColunas.get(col)!;
+            const i = STATUS_TODO.indexOf(col);
+            return (
+              <div
+                key={col}
+                onDragOver={e => { e.preventDefault(); setAfSobre(col); }}
+                onDragLeave={() => setAfSobre(s2 => (s2 === col ? null : s2))}
+                onDrop={e => {
+                  e.preventDefault();
+                  setAfSobre(null);
+                  const id = e.dataTransfer.getData('text/plain');
+                  const item = aFazer.find(t => t.docId === id);
+                  if (id && item && (item.status ?? (item.feito ? 'concluido' : 'a-fazer')) !== col) {
+                    afAcao(id, () => setAFazerStatus(id, col));
+                  }
+                }}
+                className={`shrink-0 w-64 border bg-tech-panel/20 flex flex-col transition-colors ${afSobre === col ? 'border-tech-primary bg-tech-primary/5' : 'border-tech-border'}`}
+              >
+                <div className="flex items-center gap-2 px-3 py-2 border-b border-tech-border bg-black/30">
+                  <span className={`text-[10px] font-black uppercase tracking-widest ${col === 'concluido' ? 'text-tech-primary' : col === 'recusado' ? 'text-orange-400/70' : col === 'fazendo' ? 'text-white' : 'text-tech-primary/70'}`}>
+                    {ROTULO_STATUS[col]}
+                  </span>
+                  <span className="text-[10px] text-tech-primary/30 tabular-nums ml-auto">{itens.length}</span>
                 </div>
-              ))}
-            </div>
-          </div>
-        ))}
-
-        {afGrupos.abertos.length === 0 && (
-          <div className="border border-tech-border bg-tech-panel/20 py-8 text-center">
-            <ListTodo size={20} className="mx-auto text-tech-primary/20 mb-2" />
-            <p className="text-[10px] text-tech-primary/30 uppercase tracking-widest">Nada pendente.</p>
-          </div>
-        )}
-
-        {/* ---- resolvidas ---- */}
-        {afMostraFeitos && afGrupos.feitos.length > 0 && (
-          <div className="mt-6">
-            <div className="text-[10px] font-black text-tech-primary/40 uppercase tracking-widest mb-2 flex items-center gap-2">
-              <span>Resolvidas</span>
-              <span className="flex-1 h-px bg-tech-border"></span>
-            </div>
-            <div className="border border-tech-border bg-tech-panel/10">
-              {afGrupos.feitos.map(t => (
-                <div key={t.docId} className="flex items-start gap-3 px-3 py-1.5 border-b border-tech-border/30 last:border-0 group">
-                  <button
-                    type="button"
-                    title="Reabrir"
-                    onClick={() => t.docId && afAcao(t.docId, () => setAFazerFeito(t.docId!, false))}
-                    className="mt-0.5 text-tech-primary/60 hover:text-tech-primary transition-colors shrink-0"
-                  >
-                    {afSalvando === t.docId ? <Loader size={13} className="animate-spin" /> : <CheckSquare size={13} />}
-                  </button>
-                  <span className="flex-1 text-[11px] text-tech-primary/25 line-through">{t.texto}</span>
-                  {t.grupo && <span className="text-[9px] uppercase tracking-widest text-tech-primary/20 shrink-0">{t.grupo}</span>}
-                  <button
-                    type="button"
-                    title="Apagar de vez"
-                    onClick={() => t.docId && afAcao(t.docId, () => deleteAFazer(t.docId!))}
-                    className="mt-0.5 text-tech-primary/15 hover:text-orange-400 transition-colors shrink-0 opacity-0 group-hover:opacity-100 focus:opacity-100"
-                  >
-                    <Trash2 size={12} />
-                  </button>
+                <div className="flex-1 p-2 space-y-2 min-h-[120px]">
+                  {itens.map(t => (
+                    <div
+                      key={t.docId}
+                      draggable
+                      onDragStart={e => { e.dataTransfer.setData('text/plain', t.docId ?? ''); e.dataTransfer.effectAllowed = 'move'; }}
+                      className={`border border-tech-border/60 bg-black/40 p-2 group cursor-grab active:cursor-grabbing hover:border-tech-primary/40 transition-colors ${col === 'concluido' || col === 'recusado' ? 'opacity-50 hover:opacity-100' : ''}`}
+                    >
+                      {t.grupo && (
+                        <div className="text-[8px] font-bold uppercase tracking-widest text-tech-primary/35 mb-1">{t.grupo}</div>
+                      )}
+                      <textarea
+                        rows={Math.min(6, Math.ceil((t.texto.length || 1) / 30))}
+                        defaultValue={t.texto}
+                        onBlur={e => {
+                          const v = e.target.value.trim();
+                          if (v && v !== t.texto && t.docId) afAcao(t.docId, () => editAFazer(t.docId!, { texto: v }));
+                          else e.target.value = t.texto;
+                        }}
+                        className={`w-full bg-transparent resize-none text-[11px] leading-snug outline-none focus:text-white ${col === 'recusado' ? 'text-tech-primary/50 line-through' : 'text-tech-primary/90'}`}
+                      />
+                      <div className="flex items-center gap-1 mt-1 opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition-opacity">
+                        <button
+                          type="button"
+                          title={i > 0 ? `Mover para ${ROTULO_STATUS[STATUS_TODO[i - 1]]}` : undefined}
+                          disabled={i === 0 || afSalvando === t.docId}
+                          onClick={() => t.docId && afAcao(t.docId, () => setAFazerStatus(t.docId!, STATUS_TODO[i - 1]))}
+                          className="text-tech-primary/40 hover:text-tech-primary disabled:opacity-20 disabled:cursor-not-allowed"
+                        >
+                          <ChevronLeft size={13} />
+                        </button>
+                        <button
+                          type="button"
+                          title={i < STATUS_TODO.length - 1 ? `Mover para ${ROTULO_STATUS[STATUS_TODO[i + 1]]}` : undefined}
+                          disabled={i === STATUS_TODO.length - 1 || afSalvando === t.docId}
+                          onClick={() => t.docId && afAcao(t.docId, () => setAFazerStatus(t.docId!, STATUS_TODO[i + 1]))}
+                          className="text-tech-primary/40 hover:text-tech-primary disabled:opacity-20 disabled:cursor-not-allowed"
+                        >
+                          <ChevronRight size={13} />
+                        </button>
+                        {afSalvando === t.docId && <Loader size={11} className="animate-spin text-tech-primary" />}
+                        <button
+                          type="button"
+                          title="Apagar de vez"
+                          onClick={() => t.docId && afAcao(t.docId, () => deleteAFazer(t.docId!))}
+                          className="ml-auto text-tech-primary/15 hover:text-orange-400 transition-colors"
+                        >
+                          <Trash2 size={12} />
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                  {itens.length === 0 && (
+                    <p className="text-[9px] uppercase tracking-widest text-tech-primary/15 text-center py-6">vazia</p>
+                  )}
                 </div>
-              ))}
-            </div>
-          </div>
-        )}
+              </div>
+            );
+          })}
+        </div>
       </section>
       )}
 

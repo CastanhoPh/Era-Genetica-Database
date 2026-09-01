@@ -342,11 +342,26 @@ export const SEASON_LORE: { season: string; title: string; start: string; end: s
  *
  * Vive em coleção própria (`aFazer`) e só o admin lê, como os protótipos — é anotação interna.
  */
+/** As cinco colunas do kanban de pendências, na ordem em que aparecem. */
+export const STATUS_TODO = ['a-fazer', 'fazendo', 'espera', 'concluido', 'recusado'] as const;
+export type StatusTodo = (typeof STATUS_TODO)[number];
+export const ROTULO_STATUS: Record<StatusTodo, string> = {
+  'a-fazer': 'A Fazer', fazendo: 'Fazendo', espera: 'Em Espera', concluido: 'Concluído', recusado: 'Recusado',
+};
+
 export interface TodoItem {
   docId?: string;
   texto: string;
   /** Agrupador livre, digitado à mão: "Invocações", "Arte", "Fichas"… Vazio cai em "Sem grupo". */
   grupo?: string;
+  /**
+   * Coluna do kanban. Fonte da verdade desde 01/09/2026; `feito` virou espelho de
+   * `status === 'concluido'` e só sobrevive para o que ainda o lê.
+   *
+   * `recusado` existe porque decisão descartada não é o mesmo que pendência resolvida: some da
+   * fila sem fingir que foi feita, e continua registrada para não voltar a ser proposta.
+   */
+  status?: StatusTodo;
   feito?: boolean;
   /** Posição dentro do grupo. Item novo entra no fim. */
   ordem: number;
