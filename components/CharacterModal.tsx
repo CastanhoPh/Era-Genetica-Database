@@ -602,10 +602,13 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
             <div className="flex-1 overflow-y-auto p-8 scrollbar-custom">
                 {activeTab === 'data' ? (
                     <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
-                        <div className="grid grid-cols-3 gap-4 mb-8">
-                            <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
-                                <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-1">Nível de Combate</div>
-                                <div className="text-4xl text-tech-primary font-bold text-glow">{char.nc}</div>
+                        {/* Altura das três é ditada pela caixa do NC, a única com quatro linhas — as
+                            outras duas só esticam pra acompanhar. Encolher o número e o padding daqui
+                            encolhe a fileira toda. */}
+                        <div className="grid grid-cols-3 gap-3 mb-6">
+                            <div className="border border-tech-border px-3 py-2.5 bg-tech-panel/20 text-center">
+                                <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-0.5">Nível de Combate</div>
+                                <div className="text-3xl leading-none text-tech-primary font-bold text-glow">{char.nc}</div>
                                 {/* Nível de poder: sai do NC pela escada em data/atributos.ts, não é campo gravado.
                                     Precisa de rótulo porque os nomes dos degraus — Chunin, Jonin, Sannin — são os
                                     mesmos dos cargos de mérito de Konoha, e as duas coisas divergem de propósito: o
@@ -614,19 +617,19 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                 {rankDeNC(char.nc) && (
                                     <>
                                         <div className="text-[9px] text-tech-primary/50 font-bold uppercase tracking-widest mt-2">Nível de Poder</div>
-                                        <div className="text-sm text-tech-accent font-bold uppercase tracking-wide">{rankDeNC(char.nc)}</div>
+                                        <div className="text-xs text-tech-accent font-bold uppercase tracking-wide">{rankDeNC(char.nc)}</div>
                                     </>
                                 )}
                             </div>
-                            <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
-                                <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-1">Especialização</div>
-                                <div className="text-xl text-white font-bold">{char.role.toUpperCase()}</div>
+                            <div className="border border-tech-border px-3 py-2.5 bg-tech-panel/20 text-center flex flex-col justify-center">
+                                <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-0.5">Especialização</div>
+                                <div className="text-base text-white font-bold">{char.role.toUpperCase()}</div>
                             </div>
-                            <div className="border border-tech-border p-4 bg-tech-panel/20 text-center">
-                                <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-1">Afiliação</div>
+                            <div className="border border-tech-border px-3 py-2.5 bg-tech-panel/20 text-center flex flex-col justify-center">
+                                <div className="text-[10px] text-tech-primary/80 font-bold uppercase mb-0.5">Afiliação</div>
                                 {/* Lia categories[1] por posição no array, o que quebra em quem tem duas vilas
                                     ou nenhuma. Agora lê o campo vila, que existe desde 27/08/2026. */}
-                                <div className="text-xl text-tech-secondary font-bold">{vilasDe(char).join(' · ') || 'DESCONHECIDO'}</div>
+                                <div className="text-base text-tech-secondary font-bold">{vilasDe(char).join(' · ') || 'DESCONHECIDO'}</div>
                             </div>
                         </div>
 
