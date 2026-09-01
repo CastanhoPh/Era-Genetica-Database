@@ -7696,7 +7696,6 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShiita%20Sabaku%20(Theta)%2FShiita%20Sabaku%20(Theta).png?alt=media&v=1788276571391970",
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShiita%20Sabaku%20(Theta)%2F4__Temporada.png?alt=media&v=1788277297194950", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShiita%20Sabaku%20(Theta)%2F5__Temporada.png?alt=media&v=1788279187334205", caption: "5ª Temporada", category: "era" },
     ],
     stats: {
