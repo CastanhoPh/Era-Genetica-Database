@@ -10886,7 +10886,7 @@ NC: 28
 HP: 216
 Chakra: 94
 Status: Vivo
-Títulos: Kazekage
+Títulos: Kazekage da OCA
 
 ![Shiita Sabaku (Theta)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTheta%2FTheta.png?alt=media&v=1786651897904547)
 

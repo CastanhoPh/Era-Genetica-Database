@@ -7550,9 +7550,7 @@ export const initialData: Character[] = [
       "OCA",
       "Sunagakure"
     ],
-    titles: [
-      "Kazekage"
-    ],
+    titles: ["Kazekage da OCA"],
     nc: 28,
     position: "",
     role: "Controle",
