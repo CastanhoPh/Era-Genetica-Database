@@ -825,8 +825,8 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "A Shinsui no Yari é uma lança de Rank S++ forjada sob pressões astronômicas no fundo das fossas oceânicas mais profundas do mundo, utilizando minerais negros de densidade extrema. Cada golpe desferido com esta lança aplica uma pressão gravitacional e hidrostática equivalente a 10.000 metros de profundidade no ponto exato de impacto, capaz de implodir órgãos internos e esmagar armaduras blindadas instantaneamente. A arma possui uma inércia que desafia a lógica, sendo leve nas mãos de seu mestre mas pesada como uma montanha quando colide com o inimigo. A ponta da lança é imbuída com selos de fuinjutsu que impedem que o oponente utilize técnicas de substituição ou fuga espacial no momento do contato, prendendo-o à gravidade esmagadora da arma. O portador pode lançar a Shinsui no Yari para criar vórtices de sucção que puxam inimigos próximos para o centro de uma explosão de água pressurizada. É uma arma de destruição brutal e implacável, simbolizando o peso inabalável das profundezas oceânicas que não conhece misericórdia nem resistência. Sua posse garante que nenhum oponente, por mais protegido que esteja, possa resistir à força gravitacional do abismo contida em uma única lâmina.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F75%20-%20Shinsui%20no%20Yari.png?alt=media&v=1788212089268108",
-    originalOwner: "",
-    currentOwner: ""
+    originalOwner: "Hiroshi Hanzo",
+    currentOwner: "Hiroshi Hanzo"
   },
   {
     id: 76,
