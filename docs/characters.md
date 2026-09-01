@@ -547,7 +547,7 @@ NC: 18
 HP: 133
 Chakra: 64
 Status: Vivo
-Títulos: O Purgatório Vivo de Konoha, Sangue mais puro de Konoha, Assassino de F e G, Capitão Escarlate, Legado de Katsumi Hyūga
+Títulos: Purgatório Vivo de Konoha, O Purgatório Vivo de Konoha, Sangue mais puro de Konoha, Assassino de F e G, Capitão Escarlate, Legado de Katsumi Hyūga
 
 ![Kaito Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1788276499023504)
 
@@ -780,7 +780,7 @@ NC: 18
 HP: 154
 Chakra: 96
 Status: Vivo
-Títulos: O Fantasma dos Uzumaki, O Teleportador, Assassino de A
+Títulos: Fantasma dos Uzumaki, O Fantasma dos Uzumaki, O Teleportador, Assassino de A
 
 ![Nagare Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.png?alt=media&v=1788278277835268)
 
@@ -1859,7 +1859,7 @@ NC: 18
 HP: 139
 Chakra: 64
 Status: Vivo
-Títulos: O Último Hatake, Prodigio de Konoha
+Títulos: Último Hatake, O Último Hatake, Prodigio de Konoha
 
 ![Takeshi Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1788276589007621)
 
@@ -2031,7 +2031,7 @@ NC: 12
 HP: 94
 Chakra: 65
 Status: Morto (morto por Omega)
-Títulos: O Ninja do Amor, Jinchuuriki, Arma secreta de Konoha
+Títulos: Ninja do Amor, O Ninja do Amor, Jinchuuriki, Arma secreta de Konoha
 
 ![Shoei Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.png?alt=media&v=1788276585476756)
 
@@ -2919,7 +2919,7 @@ NC: 18
 HP: 130
 Chakra: 64
 Status: Vivo
-Títulos: Espiã, Olho da OCA
+Títulos: Espiã da OCA, Espiã, Olho da OCA
 
 ![Shizumi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1788278275467201)
 
@@ -3075,7 +3075,7 @@ NC: 27
 HP: 205
 Chakra: 91
 Status: Vivo
-Títulos: Sannin dos Cães, Predadora de Bijus, Mangekyou mais Forte
+Títulos: Predadora de Bijuus, Sannin dos Cães, Predadora de Bijus, Mangekyou mais Forte
 
 ![Kuromi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1788278272775543)
 
@@ -3546,7 +3546,7 @@ NC: 30
 HP: 241
 Chakra: 200
 Status: Vivo
-Títulos: Gênia de Konoha, Aprendiz de Tobirama, Criança da Profecia
+Títulos: Milagre Proibido, Gênia de Konoha, Aprendiz de Tobirama, Criança da Profecia
 
 ![Naomi Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1788276544836632)
 
@@ -4355,7 +4355,6 @@ NC: 29
 HP: 242
 Chakra: 97
 Status: Morto (morto por Omega)
-Títulos: Segundo Hokage das Sombras, Líder dos Uchiha
 
 ![Sho Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSho%20Uchiha%2FSho%20Uchiha.png?alt=media&v=1788276583824198)
 
@@ -4397,7 +4396,6 @@ NC: 29
 HP: 242
 Chakra: 76
 Status: Morto (morto por Omega)
-Títulos: Segundo Hokage das Sombras, Líder dos Hyuga, Assassino de Kai
 
 ![Hoshiro Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.png?alt=media&v=1788276492134486)
 
@@ -4438,7 +4436,6 @@ NC: 25
 HP: 189
 Chakra: 128
 Status: Vivo
-Títulos: Esposa de Tobirama, Líder dos Uzumaki, Assassina de Ryuzu
 
 ![Yumi Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYumi%20Uzumaki%2FYumi%20Uzumaki.png?alt=media&v=1788276601690770)
 
@@ -4481,7 +4478,6 @@ NC: 25
 HP: 210
 Chakra: 85
 Status: Morto (morto por Omega)
-Títulos: Líder dos Hyuga
 
 ![Asami Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAsami%20Hyuga%2FAsami%20Hyuga.png?alt=media&v=1788276418842690)
 
@@ -4677,7 +4673,6 @@ NC: 27
 HP: 226
 Chakra: 105
 Status: Vivo
-Títulos: O Sobrevivente do Tempo, Portador do Sacrifício, O Que Pagou o Preço
 
 ![Katsuo Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.png?alt=media&v=1788276506614004)
 
@@ -4829,7 +4824,6 @@ NC: 27
 HP: 205
 Chakra: 137
 Status: Vivo
-Títulos: Eremita de Myōboku
 
 ![Satoshi Namikaze](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1788276569692211)
 
@@ -4991,7 +4985,6 @@ NC: 22
 HP: 168
 Chakra: 76
 Status: Vivo
-Títulos: Executor do Vazio, Aquele que Nega Ações, Erro do Projeto Salvador
 
 ![Shikaki Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FShikaki%20Nara.png?alt=media&v=1788276573021880)
 
@@ -5165,7 +5158,6 @@ NC: 20
 HP: 146
 Chakra: 70
 Status: Morto (morto por Omega)
-Títulos: O Legado do Fogo, Sannins da Terra, O Filho Mais Novo do Rei
 
 ![Hirato Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.png?alt=media&v=1788276486267292)
 
@@ -5225,7 +5217,6 @@ NC: 20
 HP: 146
 Chakra: 70
 Status: Morto (morto por Nagare Uzumaki)
-Títulos: O Legado do Tempo, Sannins da Terra, O Escolhido
 
 ![Hikaru Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.png?alt=media&v=1788276482578419)
 
@@ -5279,7 +5270,6 @@ NC: 8
 HP: 59
 Chakra: 56
 Status: Vivo
-Títulos: Filho do Medo, Acidente Perfeito
 
 
 
@@ -5451,7 +5441,6 @@ NC: 8
 HP: 59
 Chakra: 42
 Status: Vivo
-Títulos: Essência do Abismo, Fonte Carmesim
 
 
 
@@ -5580,7 +5569,6 @@ NC: 8
 HP: 59
 Chakra: 70
 Status: Vivo
-Títulos: Flor do Vazio, Silêncio do Abismo
 
 ![Reika Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.png?alt=media&v=1788276559704886)
 
@@ -5688,7 +5676,7 @@ NC: 22
 HP: 168
 Chakra: 76
 Status: Vivo
-Títulos: Soberano do Inverno Profano, Olho da Nevasca, Coruja do Gelo Negro
+Títulos: Inverno Profano, Soberano do Inverno Profano, Olho da Nevasca, Coruja do Gelo Negro
 
 ![Nagi Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1788276537262794)
 
@@ -6347,7 +6335,6 @@ NC: 23
 HP: 194
 Chakra: 79
 Status: Vivo
-Títulos: Pilar da Renúncia, O Herdeiro do Caçador do Deserto, Arqueiro de Ferro Negro
 
 
 
@@ -6410,7 +6397,6 @@ NC: 21
 HP: 157
 Chakra: 73
 Status: Vivo
-Títulos: Pilar da Liberdade, A Herdeira que Escolheu o Vento
 
 
 
@@ -6521,7 +6507,6 @@ NC: 23
 HP: 194
 Chakra: 58
 Status: Vivo
-Títulos: Pilar do Sacrifício, A Cirurgiã da Areia Branca, A Médica que Escolhe quem Vive
 
 ![Mizue Dokuhana](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1788276532880141)
 
@@ -6576,7 +6561,6 @@ NC: 25
 HP: 210
 Chakra: 64
 Status: Vivo
-Títulos: Pilar da Construção, O Arquiteto das Pontes Impossíveis
 
 ![Tessai Enshaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1788276590660983)
 
@@ -6631,7 +6615,6 @@ NC: 21
 HP: 178
 Chakra: 52
 Status: Vivo
-Títulos: Pilar do Julgamento, A Pantera Negra da Areia, A Voz Antes da Sentença
 
 ![Kurohime Kazeori](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1788276517970238)
 
@@ -7606,7 +7589,6 @@ NC: 24
 HP: 184
 Chakra: 82
 Status: Vivo
-Títulos: A Inteligência da Kiba, A Mente Invisível, Fundadora da Kiba
 
 ![Mika Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMika%20Yotsuki%2FMika%20Yotsuki.png?alt=media&v=1788276528771429)
 
@@ -8274,7 +8256,6 @@ NC: 18
 HP: 154
 Chakra: 64
 Status: Morto (morto por Hades)
-Títulos: Ser Humano que Parou no Tempo, Troglodita
 
 ![Shin Mizukari](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShin%20Mizukari%2FShin%20Mizukari.png?alt=media&v=1788276578401136)
 
@@ -8369,7 +8350,6 @@ NC: 25
 HP: 189
 Chakra: 85
 Status: Vivo
-Títulos: Sannin das Cobras, Suporte Perfeito
 
 ![Akira Dokuhana](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1788276407331793)
 
@@ -8410,7 +8390,6 @@ NC: 24
 HP: 184
 Chakra: 82
 Status: Vivo
-Títulos: O Escriba da Tempestade
 
 ![Arashi Shidehara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FArashi%20Shidehara%2FArashi%20Shidehara.png?alt=media&v=1788276415883266)
 
@@ -8459,7 +8438,6 @@ NC: 22
 HP: 168
 Chakra: 76
 Status: Vivo
-Títulos: O Relâmpago dos Insetos
 
 ![Raizen Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizen%20Kurogane%2FRaizen%20Kurogane.png?alt=media&v=1788276555839964)
 
@@ -8508,7 +8486,6 @@ NC: 23
 HP: 194
 Chakra: 79
 Status: Vivo
-Títulos: O Arsenal Celeste
 
 ![Raiden Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaiden%20Yotsuki%2FRaiden%20Yotsuki.png?alt=media&v=1788276552038533)
 
@@ -8557,7 +8534,6 @@ NC: 27
 HP: 226
 Chakra: 91
 Status: Vivo
-Títulos: O Senhor das Correntes Trovejantes
 
 ![Gorai Arashiumi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1788276469999708)
 
@@ -8604,7 +8580,6 @@ NC: 25
 HP: 189
 Chakra: 85
 Status: Vivo
-Títulos: A Dama dos Tornados
 
 ![Nayara Kazemori](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNayara%20Kazemori%2FNayara%20Kazemori.png?alt=media&v=1788276546601379)
 
@@ -8653,7 +8628,7 @@ NC: 27
 HP: 205
 Chakra: 91
 Status: Vivo
-Títulos: O Fantasma da Trovoada
+Títulos: Fantasma Negro da Nuvem, O Fantasma da Trovoada
 
 ![Shizuru Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizuru%20Kurogane%2FShizuru%20Kurogane.png?alt=media&v=1788276582039617)
 
@@ -8700,7 +8675,6 @@ NC: 22
 HP: 168
 Chakra: 76
 Status: Vivo
-Títulos: A Mestra do Raio Sepultado
 
 ![Midori Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMidori%20Kurogane%2FMidori%20Kurogane.png?alt=media&v=1788276526557603)
 
@@ -8749,7 +8723,7 @@ NC: 29
 HP: 221
 Chakra: 97
 Status: Vivo
-Títulos: O Regente das Cem Lâminas
+Títulos: Regente das Cem Lâminas, O Regente das Cem Lâminas
 
 ![Kiyoshi Hagane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1788276513569416)
 
@@ -8798,7 +8772,6 @@ NC: 21
 HP: 157
 Chakra: 73
 Status: Vivo
-Títulos: A Gravurista do Trovão
 
 ![Akane Sumigami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkane%20Sumigami%2FAkane%20Sumigami.png?alt=media&v=1788276404356018)
 
@@ -8847,7 +8820,6 @@ NC: 26
 HP: 218
 Chakra: 70
 Status: Vivo
-Títulos: O Passo Antes do Trovão
 
 ![Inazuma Kazuchi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1788276493788164)
 
@@ -8988,7 +8960,6 @@ NC: 28
 HP: 234
 Chakra: 94
 Status: Vivo
-Títulos: O Tubarão Sem Passado
 
 ![Raizuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788276557723284)
 
@@ -9030,7 +9001,6 @@ NC: 24
 HP: 184
 Chakra: 82
 Status: Vivo
-Títulos: A Miragem Negra da Névoa
 
 ![Suiren Shiranami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788276587217832)
 
@@ -9210,7 +9180,6 @@ NC: 26
 HP: 218
 Chakra: 88
 Status: Vivo
-Títulos: O Azarado da Névoa
 
 ![Nao Arashio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788276541041014)
 
@@ -9255,7 +9224,7 @@ NC: 30
 HP: 250
 Chakra: 137
 Status: Vivo
-Títulos: O Escolhido
+Títulos: O Escolhido de Jormungandr, O Escolhido
 
 ![Ganmaren Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788276459807981)
 
@@ -9537,7 +9506,6 @@ NC: 27
 HP: 205
 Chakra: 137
 Status: Vivo
-Títulos: Hyuga de Kirigakure
 
 ![Tōma Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788276594165773)
 
@@ -9627,7 +9595,7 @@ NC: 24
 HP: 202
 Chakra: 123
 Status: Morto (morto por Nagare Uzumaki)
-Títulos: Jinchuuriki, O Primeiro Experimento, Líder dos 75%, O Inferno Vermelho
+Títulos: Inferno Vermelho, Jinchuuriki, O Primeiro Experimento, Líder dos 75%, O Inferno Vermelho
 
 ![Akairo Uchiha (A)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).png?alt=media&v=1788276400793721)
 
@@ -9751,7 +9719,7 @@ NC: 26
 HP: 218
 Chakra: 132
 Status: Vivo
-Títulos: Jinchuuriki, O Segundo Experimento, Vice Líder dos 75%, O Anjo de Gelo
+Títulos: Inverno Azul, Jinchuuriki, O Segundo Experimento, Vice Líder dos 75%, O Anjo de Gelo
 
 ![Borashi Hyuga (B)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1788276429962131)
 
@@ -9877,7 +9845,6 @@ NC: 25
 HP: 189
 Chakra: 85
 Status: Vivo
-Títulos: A Guardiã Rosa, Equilíbrio Emocional
 
 ![Chisaki Dokuhana (C)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).png?alt=media&v=1788276435375186)
 
@@ -10127,7 +10094,6 @@ NC: 14
 HP: 101
 Chakra: 52
 Status: Morto (morto por Chip da OCA)
-Títulos: A Centelha Dourada, Traidora da OCA, Namorada de Furyuzan
 
 ![Etsuko Senju (E)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEtsuko%20Senju%20(E)%2FEtsuko%20Senju%20(E).png?alt=media&v=1788276451275722)
 
@@ -10205,7 +10171,6 @@ NC: 14
 HP: 101
 Chakra: 52
 Status: Morto (morto por Kaito Senju)
-Títulos: Maldição, Arma Biológica da OCA, Presa Venenosa
 
 ![Fuyuki Dokuhana (F)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuyuki%20Dokuhana%20(F)%2FFuyuki%20Dokuhana%20(F).png?alt=media&v=1788276456519337)
 
@@ -10290,7 +10255,7 @@ NC: 26
 HP: 218
 Chakra: 132
 Status: Morto (morto por Kaito Senju)
-Títulos: Ser Humano Artificial, Vice Líder dos 75%
+Títulos: Ser Humano Profano, Ser Humano Artificial, Vice Líder dos 75%
 
 ![Genei (G)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenei%20(G)%2FGenei%20(G).png?alt=media&v=1788276464596617)
 
@@ -10385,7 +10350,7 @@ NC: 18
 HP: 130
 Chakra: 64
 Status: Morto (morto por Hikaru Ishi)
-Títulos: Filho do Trovão, Traidor da OCA
+Títulos: O Prodígio dos 3 Raios, Filho do Trovão, Traidor da OCA
 
 ![Hayato Hanzo (H)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHayato%20Hanzo%20(H)%2FHayato%20Hanzo%20(H).png?alt=media&v=1788276480669826)
 
@@ -10930,7 +10895,7 @@ NC: 30
 HP: 232
 Chakra: 100
 Status: Morto (morto por Nishinoya Senju)
-Títulos: O Primogênito, Sannins da Terra, O Espadachim mais forte do mundo, Vice Líder da OCA, Deus Shinobi
+Títulos: O Herdeiro que Negou o Trono, O Primogênito, Sannins da Terra, O Espadachim mais forte do mundo, Vice Líder da OCA, Deus Shinobi
 
 ![Kaien Ishi (Omega)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).png?alt=media&v=1788276497151562)
 
@@ -11039,7 +11004,6 @@ NC: 0
 HP: 0
 Chakra: 0
 Status: Vivo
-Títulos: Líder do Terceiro Degrau, O Mutador
 
 ![Beta](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBeta%2FBeta.png?alt=media&v=1788276427259582)
 
@@ -11181,7 +11145,7 @@ NC: 0
 HP: 0
 Chakra: 0
 Status: Vivo
-Títulos: Líder da OCA, Fundador da OCA
+Títulos: Deus do Novo Mundo, Líder da OCA, Fundador da OCA
 
 ![Hades](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.png?alt=media&v=1788276473918999)
 
