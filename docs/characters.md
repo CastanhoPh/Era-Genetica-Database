@@ -72,7 +72,7 @@
 | 66 | Shizuru Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 27 | 205 | 91 | Vivo |
 | 67 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
 | 68 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
-| 69 | Inazuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
+| 69 | Raizuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
 | 70 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
 | 71 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
 | 72 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
@@ -8808,7 +8808,7 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Inazuma Kazuchi
+# Raizuma Kazuchi
 ID: 69
 Clã: Kazuchi
 Grupos: NPC, Kumogakure
@@ -8818,7 +8818,7 @@ HP: 218
 Chakra: 70
 Status: Vivo
 
-![Inazuma Kazuchi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1788276493788164)
+![Raizuma Kazuchi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuma%20Kazuchi%2FRaizuma%20Kazuchi.png?alt=media&v=1788290203530280)
 
 ## Descrição
 Inazuma Kazuchi, “O Passo Antes do Trovão”, é o irmão mais velho de Yoru Kazuchi e o principal mestre de furtividade convencional da Elite. Diferentemente de Mika Yotsuki, não nasceu com uma capacidade sobrenatural de apagar a própria existência. Tudo o que realiza é resultado de treinamento e controle corporal.

@@ -404,7 +404,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Kohana Uzumaki', role: 'Esposa de Harunobu Namikaze, mãe de Sakura e Satoshi' },
       { name: 'Masahiro Hyuga', role: 'Irmão de Minoru Hyuga, pai de Ryuta e Renji' },
       { name: 'Reizan Yamanaka', role: 'Filho de Tajima e Setsuna' },
-      { name: 'Satoshi Namikaze', role: 'Filho de Harunobu e Kohana' },
       { name: 'Sayuri Hyuga', role: 'Esposa de Masahiro Hyuga, mãe de Ryuta e Renji' },
       { name: 'Setsuna Yamanaka', role: 'Esposa de Tajima Uchiha, mãe de Madara, Izuna e Reizan' },
       { name: 'Shin Uchiha', role: 'Filho de Oogway e Akemi' },
@@ -425,7 +424,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
     village: 'Kumogakure',
     entries: [
       { name: 'Raio Yotsuki', role: 'Primeiro Raikage', nc: 30 },
-      { name: 'Inazuma Kazuchi', role: 'Irmão mais velho de Yoru', nc: 26 },
       { name: 'Raiden Kurokumo', role: 'Criança prodígio', nc: 8 },
     ],
   },
