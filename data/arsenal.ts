@@ -815,7 +815,7 @@ export const arsenalData: Equipment[] = [
     description: "A Kiri-no-Kami no Yoroi é uma armadura de escamas abissais de Rank S++ forjada a partir da pele de criaturas lendárias que habitam as fossas mais profundas do País da Água. Esta armadura mística possui a habilidade única de permitir ao usuário liquefazer seu próprio corpo ou tornar-se intangível como a própria névoa por períodos prolongados, ignorando ataques físicos e jutsus elementais comuns. As escamas que compõem a armadura reagem ao chakra Suiton, endurecendo instantaneamente ao nível do aço reforçado quando o portador sofre um impacto direto, agindo como uma defesa adaptativa absoluta. Além da proteção física, a armadura amplifica a ocultação do chakra, permitindo que o ninja se mova de forma totalmente silenciosa e invisível dentro de névoas de batalha. Ela também atua como um pulmão artificial, permitindo ao usuário sobreviver e lutar em profundidades oceânicas onde a pressão esmagaria qualquer ser humano comum. É o traje definitivo para os deuses da névoa, representando a invulnerabilidade e a natureza mutável da água em sua forma mais letal. Sua posse garante que o guerreiro seja um fantasma no campo de batalha, impossível de ser capturado ou ferido enquanto houver umidade no ar.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F74%20-%20Kiri-no-Kami%20no%20Yoroi.png?alt=media&v=1788212090485685",
     originalOwner: "",
-    currentOwner: ""
+    currentOwner: "Juzo Kuroshio"
   },
   {
     id: 75,

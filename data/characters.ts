@@ -6183,6 +6183,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
+    arsenal: [74],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788277058210752", caption: "5ª Temporada", category: "era" },
     ],
