@@ -3043,7 +3043,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Senju",
     categories: ["NPC", "Konohagakure", "OCA"],
-    titles: ["Segundo Hokage", "Criador da OCA"],
+    titles: ["Homem que Dominou a Morte", "Criador da OCA"],
     nc: 30,
     position: "",
     role: "DPS",
@@ -4313,7 +4313,7 @@ export const initialData: Character[] = [
     chakraColor: "#00ff41",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
-    titles: ["Segunda Kazekage", "A Muralha Dourada", "A Leoa da Areia", "Jinchuuriki"],
+    titles: ["A Leoa da Areia", "A Muralha Dourada", "Jinchuuriki"],
     nc: 30,
     position: "",
     role: "DPS e Controle",
@@ -4423,7 +4423,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
-    titles: ["Primeiro Kazekage", "O Caçador do Deserto", "Fundador de Sunagakure", "Senhor da Areia de Ouro", "Arqueiro Dourado da Areia"],
+    titles: ["O Pai da Areia", "O Caçador do Deserto", "Fundador de Sunagakure", "Senhor da Areia de Ouro", "Arqueiro Dourado da Areia"],
     nc: 27,
     position: "",
     role: "DPS e Controle",
@@ -7201,10 +7201,7 @@ export const initialData: Character[] = [
       "OCA",
       "Kumogakure"
     ],
-    titles: [
-      "Raikage",
-      "Deus do Raiton"
-    ],
+    titles: ["Raikage da OCA", "Deus do Raiton"],
     nc: 28,
     position: "",
     role: "?",
@@ -7347,10 +7344,7 @@ export const initialData: Character[] = [
       "OCA",
       "Kirigakure"
     ],
-    titles: [
-      "Mizukage",
-      "O Íon Vivo"
-    ],
+    titles: ["Mizukage da OCA", "O Íon Vivo"],
     nc: 28,
     position: "",
     role: "Controle",
@@ -7489,9 +7483,7 @@ export const initialData: Character[] = [
       "OCA",
       "Iwagakure"
     ],
-    titles: [
-      "O Núcleo"
-    ],
+    titles: ["Tsuchikage da OCA", "O Núcleo"],
     nc: 28,
     position: "",
     role: "?",
@@ -7878,7 +7870,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Senju",
     categories: ["NPC", "Konohagakure"],
-    titles: ["Fundador de Konoha", "Primeiro Hokage", "Deus Shinobi", "Assassino de Uchiha Madara"],
+    titles: ["Deus Shinobi", "Fundador de Konoha", "Assassino de Uchiha Madara"],
     nc: 30,
     position: "",
     role: "Tanque e DPS",
@@ -7931,7 +7923,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Uchiha",
     categories: ["NPC", "Konohagakure"],
-    titles: ["Fundador de Konoha", "Primeiro Hokage das Sombras", "Deus Shinobi"],
+    titles: ["Fantasma dos Uchiha", "Fundador de Konoha", "Deus Shinobi"],
     nc: 30,
     position: "",
     role: "Tanque e DPS",

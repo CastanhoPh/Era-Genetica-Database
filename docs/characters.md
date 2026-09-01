@@ -4270,7 +4270,7 @@ NC: 30
 HP: 232
 Chakra: 100
 Status: Morto (morto por Omega)
-Títulos: Segundo Hokage, Criador da OCA
+Títulos: Homem que Dominou a Morte, Criador da OCA
 
 ![Tobirama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTobirama%20Senju%2FTobirama%20Senju.jpg?alt=media&v=1786651888615856)
 
@@ -6005,7 +6005,7 @@ NC: 30
 HP: 241
 Chakra: 150
 Status: Vivo
-Títulos: Segunda Kazekage, A Muralha Dourada, A Leoa da Areia, Jinchuuriki
+Títulos: A Leoa da Areia, A Muralha Dourada, Jinchuuriki
 
 ![Hana Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1786651908709301)
 
@@ -6174,7 +6174,7 @@ NC: 27
 HP: 217
 Chakra: 91
 Status: Vivo
-Títulos: Primeiro Kazekage, O Caçador do Deserto, Fundador de Sunagakure, Senhor da Areia de Ouro, Arqueiro Dourado da Areia
+Títulos: O Pai da Areia, O Caçador do Deserto, Fundador de Sunagakure, Senhor da Areia de Ouro, Arqueiro Dourado da Areia
 
 ![Reto Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1786651908717643)
 
@@ -10582,7 +10582,7 @@ NC: 28
 HP: 234
 Chakra: 94
 Status: Morto (morto por Yuji Yotsuki)
-Títulos: Raikage, Deus do Raiton
+Títulos: Raikage da OCA, Deus do Raiton
 
 ![Katakana Yotsuki (Alpha)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatakana%20Yotsuki%20(Alpha)%2FKatakana%20Yotsuki%20(Alpha).jpg?alt=media&v=1786651908720600)
 
@@ -10709,7 +10709,7 @@ NC: 28
 HP: 216
 Chakra: 141
 Status: Morto (morto por Oddy Uchiha)
-Títulos: Mizukage, O Íon Vivo
+Títulos: Mizukage da OCA, O Íon Vivo
 
 ![Ganmasen Yuki (Gama)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmasen%20Yuki%20(Gama)%2FGanmasen%20Yuki%20(Gama).png?alt=media&v=1786651909338394)
 
@@ -10835,7 +10835,7 @@ NC: 28
 HP: 234
 Chakra: 76
 Status: Morto (morto por Najin Hatake)
-Títulos: O Núcleo
+Títulos: Tsuchikage da OCA, O Núcleo
 
 ![Deruta Muujin (Delta)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDeruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).jpg?alt=media&v=1786651909947775)
 
@@ -11225,7 +11225,7 @@ NC: 30
 HP: 232
 Chakra: 100
 Status: Morto (morto por ?)
-Títulos: Fundador de Konoha, Primeiro Hokage, Deus Shinobi, Assassino de Uchiha Madara
+Títulos: Deus Shinobi, Fundador de Konoha, Assassino de Uchiha Madara
 
 ![Hashirama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHashirama%20Senju%2FHashirama%20Senju.png?alt=media&v=1786651895310573)
 
@@ -11268,7 +11268,7 @@ NC: 30
 HP: 232
 Chakra: 100
 Status: Morto (morto por Hashirama Senju)
-Títulos: Fundador de Konoha, Primeiro Hokage das Sombras, Deus Shinobi
+Títulos: Fantasma dos Uchiha, Fundador de Konoha, Deus Shinobi
 
 ![Madara Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMadara%20Uchiha%2FMadara%20Uchiha.png?alt=media&v=1786651895320013)
 
