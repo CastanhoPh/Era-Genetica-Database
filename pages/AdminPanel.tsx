@@ -2152,8 +2152,15 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
             <span className="w-px self-stretch bg-tech-border shrink-0"></span>
             <button
               type="button"
-              onClick={() => setClassificationForca(v => !v)}
-              title={`Reordena dentro de cada NC seguindo a ordem de força ditada (${ORDEM_DE_FORCA.length} posições).`}
+              // Ligar a ordem de força já seleciona "Com Ficha": pendente não tem posição na ordem
+              // por definição, então ele se acumularia no fim de cada bloco e sujaria justamente a
+              // leitura que o botão existe pra dar. Desligar não desfaz a escolha — pode ter sido
+              // o Pedro que a fez.
+              onClick={() => setClassificationForca(v => {
+                if (!v) setClassificationFicha('ficha');
+                return !v;
+              })}
+              title={`Reordena dentro de cada NC seguindo a ordem de força ditada (${ORDEM_DE_FORCA.length} posições). Liga junto o filtro "Com Ficha", porque pendente não tem posição.`}
               className={`shrink-0 whitespace-nowrap px-2.5 py-1 border text-[10px] font-bold uppercase tracking-wide transition-all flex items-center gap-1.5 ${classificationForca ? 'bg-amber-400 text-black border-amber-400' : 'border-tech-border text-amber-300/70 hover:border-amber-400/60'}`}
             >
               <ListOrdered size={11} /> Ordenar por Força
