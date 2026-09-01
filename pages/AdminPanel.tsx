@@ -68,13 +68,20 @@ async function walkStorage(folderRef: StorageReference): Promise<StorageStats> {
 const formatMB = (bytes: number) => (bytes / 1024 / 1024).toFixed(1);
 const formatTime = (d: Date) => d.toLocaleTimeString('pt-BR');
 
-const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.ReactNode; sub?: string }> = ({ icon: Icon, label, value, sub }) => (
-  <div className="border border-tech-border bg-tech-panel/30 p-4 flex flex-col gap-2">
+// `denso` é pra fileira de nove do Banco de Dados: lá cada card fica com pouco mais de 100px, e
+// o ícone (13px + 8 de gap) era exatamente o que jogava "Linha do tempo" pra uma segunda linha.
+// Sem ícone, com espaçamento menor e padding menor, o rótulo ganha os 21px de volta. O
+// `whitespace-nowrap` é a garantia: se ainda faltar espaço, o texto transborda em vez de quebrar,
+// o que aparece na hora em vez de escorregar sem ninguém notar.
+const StatCard: React.FC<{ icon: React.ElementType; label: string; value: React.ReactNode; sub?: string; denso?: boolean }> = ({ icon: Icon, label, value, sub, denso }) => (
+  <div className={`border border-tech-border bg-tech-panel/30 flex flex-col gap-2 ${denso ? 'p-3' : 'p-4'}`}>
     <div className="flex items-center gap-2 text-tech-primary/70">
-      <Icon size={13} />
-      <span className="text-[10px] font-black uppercase tracking-widest">{label}</span>
+      {!denso && <Icon size={13} />}
+      <span className={`font-black uppercase ${denso ? 'text-[9px] tracking-wide whitespace-nowrap' : 'text-[10px] tracking-widest'}`}>{label}</span>
     </div>
     <div className="text-3xl font-black text-white text-glow">{value}</div>
+    {/* O subtítulo NÃO leva nowrap: ele só existe em 2 dos 9 cards e é o texto mais longo da
+        fileira. Se faltar espaço em 1280px, quebrar em duas linhas é melhor que transbordar. */}
     {sub && <div className="text-[10px] text-tech-primary/40 uppercase tracking-wide">{sub}</div>}
   </div>
 );
@@ -1061,19 +1068,19 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
           <span>Banco de Dados</span>
           <span className="flex-1 h-px bg-tech-border"></span>
         </div>
-        {/* Os nove numa linha só, como o Pedro pediu. Por isso os rótulos aqui são curtos: em
-            nove colunas "Técnicas cadastradas" quebraria em três linhas e empurraria a altura de
-            todos os cards. */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-9 gap-3">
-          <StatCard icon={Database} label="Total" value={totalImageRefs} sub="Soma dos 8 ao lado" />
-          <StatCard icon={Users} label="Personagens" value={characters.length} sub={characters.length ? `${deadCount} mortos (${((deadCount / characters.length) * 100).toFixed(0)}%)` : undefined} />
-          <StatCard icon={Scroll} label="Técnicas" value={totalTechniques} />
-          <StatCard icon={Shield} label="Arsenal" value={arsenalItems.length} />
-          <StatCard icon={Clock} label="Linha do tempo" value={totalTimelineImages} />
-          <StatCard icon={Sparkles} label="Modos e transf." value={totalTransformacaoImages} />
-          <StatCard icon={Images} label="Eventos" value={totalEventoImages} />
-          <StatCard icon={Sparkles} label="Invocações" value={totalInvocacaoImages} />
-          <StatCard icon={Images} label="Capas de invoc." value={totalCapaInvocacaoImages} />
+        {/* Os nove numa linha só, como o Pedro pediu — mas as nove colunas só entram a partir de
+            1280px. Abaixo disso cada card ficaria com menos de 70px de texto e "Linha do tempo"
+            quebraria de qualquer jeito, então a grade cai pra 5 e depois pra 3. */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-9 gap-2 xl:gap-2">
+          <StatCard denso icon={Database} label="Total" value={totalImageRefs} sub="Soma dos 8" />
+          <StatCard denso icon={Users} label="Personagens" value={characters.length} sub={characters.length ? `${deadCount} mortos (${((deadCount / characters.length) * 100).toFixed(0)}%)` : undefined} />
+          <StatCard denso icon={Scroll} label="Técnicas" value={totalTechniques} />
+          <StatCard denso icon={Shield} label="Arsenal" value={arsenalItems.length} />
+          <StatCard denso icon={Clock} label="Linha do tempo" value={totalTimelineImages} />
+          <StatCard denso icon={Sparkles} label="Modos e transf." value={totalTransformacaoImages} />
+          <StatCard denso icon={Images} label="Eventos" value={totalEventoImages} />
+          <StatCard denso icon={Sparkles} label="Invocações" value={totalInvocacaoImages} />
+          <StatCard denso icon={Images} label="Capas de invoc." value={totalCapaInvocacaoImages} />
         </div>
       </section>
 
