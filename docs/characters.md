@@ -1859,7 +1859,7 @@ NC: 18
 HP: 139
 Chakra: 64
 Status: Vivo
-Títulos: Prodigio de Konoha, O Último Hatake
+Títulos: O Último Hatake, Prodigio de Konoha
 
 ![Takeshi Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1788276589007621)
 
@@ -2031,7 +2031,7 @@ NC: 12
 HP: 94
 Chakra: 65
 Status: Morto (morto por Omega)
-Títulos: Jinchuuriki, Arma secreta de Konoha, O Ninja do Amor
+Títulos: O Ninja do Amor, Jinchuuriki, Arma secreta de Konoha
 
 ![Shoei Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.png?alt=media&v=1788276585476756)
 
@@ -2435,7 +2435,7 @@ NC: 18
 HP: 154
 Chakra: 40
 Status: Vivo
-Títulos: Punho Sagrado da Guerra, Herdeiro da Pedra Viva, Homem que Deteve Cinco Bijūdamas, A Muralha que Desafiou as Bijū, Capitão do Pentagono
+Títulos: Homem que Deteve Cinco Bijūdamas, Punho Sagrado da Guerra, Herdeiro da Pedra Viva, A Muralha que Desafiou as Bijū, Capitão do Pentagono
 
 ![Kenma Soryo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.png?alt=media&v=1788276511070417)
 
@@ -4004,7 +4004,7 @@ NC: 29
 HP: 242
 Chakra: 114
 Status: Morto (morto por Delta)
-Títulos: Jinchuuriki, Tsuchikage Afastado, Polvo Enjaulado
+Títulos: Atirador Púrpuro, Jinchuuriki, Tsuchikage Afastado, Polvo Enjaulado
 
 ![Rock Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.png?alt=media&v=1788276565503994)
 
@@ -4190,7 +4190,7 @@ NC: 28
 HP: 216
 Chakra: 94
 Status: Vivo
-Títulos: Vice líder da OCA, Suporte Perfeito, Traidor da OCA
+Títulos: Fantasma, Vice líder da OCA, Suporte Perfeito, Traidor da OCA
 
 ![Hiroshi Hanzo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.png?alt=media&v=1788276488247844)
 
@@ -4571,7 +4571,7 @@ NC: 30
 HP: 250
 Chakra: 123
 Status: Morto (morto por Chip da OCA)
-Títulos: Uzumaki Falso, Prodígio de Konoha, Segundo Hokage das Sombras, Bijuu sem Cauda
+Títulos: Manto Branco, Uzumaki Falso, Prodígio de Konoha, Segundo Hokage das Sombras, Bijuu sem Cauda
 
 ![Raikun Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaikun%20Hatake%2FRaikun%20Hatake.png?alt=media&v=1788276554051853)
 
