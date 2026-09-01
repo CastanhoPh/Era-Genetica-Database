@@ -7364,9 +7364,9 @@ export const initialData: Character[] = [
       "Desconhecido",
       "Desconhecido"
     ],
-    timelineAppearance: "3ª Temporada",
+    timelineAppearance: "1ª Temporada",
     timelineDeath: "4ª Temporada",
-    timelineSkipped: [],
+    timelineSkipped: ["2ª Temporada", "3ª Temporada"],
     birthVillage: "Kumogakure"
   },
   {
@@ -7507,9 +7507,9 @@ export const initialData: Character[] = [
       "Desconhecido",
       "Desconhecido"
     ],
-    timelineAppearance: "3ª Temporada",
+    timelineAppearance: "1ª Temporada",
     timelineDeath: "4ª Temporada",
-    timelineSkipped: [],
+    timelineSkipped: ["2ª Temporada", "3ª Temporada"],
     birthVillage: "Kirigakure"
   },
   {
@@ -7670,9 +7670,9 @@ export const initialData: Character[] = [
       "Desconhecido",
       "Desconhecido"
     ],
-    timelineAppearance: "3ª Temporada",
+    timelineAppearance: "1ª Temporada",
     timelineDeath: "4ª Temporada",
-    timelineSkipped: [],
+    timelineSkipped: ["2ª Temporada", "3ª Temporada"],
     birthVillage: "Iwagakure"
   },
   {
@@ -7750,9 +7750,9 @@ export const initialData: Character[] = [
       "Desconhecido",
       "Desconhecido"
     ],
-    timelineAppearance: "4ª Temporada",
+    timelineAppearance: "1ª Temporada",
     timelineDeath: null,
-    timelineSkipped: [],
+    timelineSkipped: ["2ª Temporada", "3ª Temporada", "4ª Temporada"],
     birthVillage: "Sunagakure"
   },
   {
