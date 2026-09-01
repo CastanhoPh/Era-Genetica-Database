@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, lazy, Suspense } from 'react';
+import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
@@ -21,6 +21,32 @@ const AdminPanel = lazy(() => import('./pages/AdminPanel'));
 const ChecklistPanel = lazy(() => import('./pages/ChecklistPanel'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const FamilyTreePage = lazy(() => import('./pages/FamilyTreePage'));
+
+// ONDE o termo da busca casou, e o quão perto do que a pessoa provavelmente quis.
+//
+// A busca varre oito campos de propósito: procurar "katon" ou "chunin" tem que achar gente. O preço
+// é que um termo curto traz muita coisa — "shin" casa em "Lenda Shinobi" (o rank de quem tem NC 30),
+// em "Hiraishin" e em "Shingan", e de 20 resultados só 2 eram nome. Sem dizer onde casou, o
+// resultado parece aleatório.
+//
+// O `nivel` serve pras duas coisas: o card mostra o `motivo` quando o casamento não foi no nome, e a
+// ordenação usa o nível pra empurrar nome e clã pra frente.
+type CasamentoBusca = { nivel: number; motivo: string | null };
+const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
+    if (!termo) return { nivel: 0, motivo: null };
+    const acha = (v?: string) => !!v && v.toLowerCase().includes(termo);
+    if (acha(c.name)) return { nivel: 0, motivo: null };
+    if (acha(c.clan)) return { nivel: 1, motivo: null };          // o card já mostra o clã
+    const posto = [...(c.cargo ?? []), ...(c.patente ?? [])].find(acha);
+    if (posto) return { nivel: 2, motivo: posto };
+    const titulo = (c.titles ?? []).find(acha);
+    if (titulo) return { nivel: 3, motivo: titulo };
+    if (acha(rankDeNC(c.nc))) return { nivel: 4, motivo: rankDeNC(c.nc) };
+    const apt = (c.aptitudes ?? []).find(acha);
+    if (apt) return { nivel: 5, motivo: apt };
+    if (acha(c.position)) return { nivel: 6, motivo: c.position };
+    return null;
+};
 
 export default function App() {
     const [loading, setLoading] = useState(true);
@@ -215,22 +241,22 @@ export default function App() {
         return Array.from(positions).sort();
     }, [charsPublicos]);
 
+    // Um casamento por ficha, calculado uma vez: o filtro, a ordenação e o card leem daqui.
+    const termoBusca = searchTerm.trim().toLowerCase();
+    const casamentos = useMemo(
+        () => new Map(charsPublicos.map(c => [c.docId ?? String(c.id), casaBusca(c, termoBusca)])),
+        [charsPublicos, termoBusca],
+    );
+    const motivoDe = useCallback(
+        (c: Character) => casamentos.get(c.docId ?? String(c.id))?.motivo ?? null,
+        [casamentos],
+    );
+
     const filteredCharacters = useMemo(() => {
         const filtered = charsPublicos.filter(c => {
             // Basic Filters
             const matchesCategory = selectedCategory === 'Todos' || c.categories.includes(selectedCategory);
-            const term = searchTerm.toLowerCase();
-            const matchesSearch = term === '' ||
-                c.name.toLowerCase().includes(term) ||
-                c.clan.toLowerCase().includes(term) ||
-                (c.patente ?? []).some(x => x.toLowerCase().includes(term)) ||
-                (c.cargo ?? []).some(x => x.toLowerCase().includes(term)) ||
-                c.position.toLowerCase().includes(term) ||
-                // O rank de ninja sai do NC pela escada, não de campo gravado — mas buscar
-                // "chunin" ou "kage" tem que achar quem é.
-                rankDeNC(c.nc).toLowerCase().includes(term) ||
-                c.titles.some(t => t.toLowerCase().includes(term)) ||
-                c.aptitudes.some(a => a.toLowerCase().includes(term));
+            const matchesSearch = casamentos.get(c.docId ?? String(c.id)) !== null;
 
             // Advanced Filters
             const matchesClan = selectedClan === 'Todos' || c.clan === selectedClan;
@@ -255,6 +281,14 @@ export default function App() {
 
         // Apply Sorting
         return [...filtered].sort((a, b) => {
+            // Com busca ativa, o nível do casamento manda antes do critério escolhido: quem casou no
+            // NOME vem antes de quem casou numa aptidão. Sem busca todos têm nível 0 e isto não faz
+            // nada — o critério do seletor segue sendo o único.
+            if (termoBusca) {
+                const na = casamentos.get(a.docId ?? String(a.id))?.nivel ?? 9;
+                const nb = casamentos.get(b.docId ?? String(b.id))?.nivel ?? 9;
+                if (na !== nb) return na - nb;
+            }
             if (sortBy === 'nc') {
                 return Number(b.nc) - Number(a.nc);
             }
@@ -264,7 +298,7 @@ export default function App() {
             // Default: ID
             return a.id - b.id;
         });
-    }, [charsPublicos, selectedCategory, searchTerm, selectedClan, selectedPosition, selectedRole, selectedStatus, sortBy]);
+    }, [charsPublicos, casamentos, termoBusca, selectedCategory, selectedClan, selectedPosition, selectedRole, selectedStatus, sortBy]);
 
     // Adiciona um personagem novo gravando no Firestore.
     const handleAddCharacter = async (newChar: Character) => {
@@ -769,6 +803,14 @@ export default function App() {
                                                 fica como rede: o título mais longo do banco tem 34 caracteres e cabe, mas em três
                                                 colunas numa tela estreita o card encolhe. */}
                                             <p className="text-xs text-tech-secondary font-bold uppercase truncate mt-1">{char.titles[0]}</p>
+                                        {/* Só aparece quando a busca casou em algo que NÃO é o nome nem o clã:
+                                            sem isso, procurar "shin" devolvia 20 fichas sem nenhuma pista de por
+                                            quê. O texto é o valor que casou, cru, pra bater com o que foi digitado. */}
+                                        {motivoDe(char) && (
+                                            <p className="text-[10px] text-amber-300/80 uppercase truncate mt-1" title={`Casou com a busca em: ${motivoDe(char)}`}>
+                                                ↳ {motivoDe(char)}
+                                            </p>
+                                        )}
 
                                             {/* Killer Info on Card */}
                                             {char.isDead && (
