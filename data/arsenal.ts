@@ -500,9 +500,9 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "A Hiramekarei é a 'Espada Gêmea' de Rank S+, possuindo dois cabos e uma lâmina massiva capaz de armazenar e moldar o chakra do usuário em formas sólidas de energia pura. Este artefato atua como uma bateria energética que se torna mais poderosa conforme a quantidade de chakra injetada, podendo manifestar-se como martelos gigantes, foices ou lâminas estendidas. A versatilidade da Hiramekarei permite ao espadachim adaptar-se instantaneamente a qualquer cenário, alternando entre ataques de força bruta e golpes de longo alcance com fluidez magistral. Quando totalmente carregada, a espada emite um brilho azulado intenso que pode ser liberado em uma explosão de energia capaz de pulverizar defesas de Rank S. É a arma favorita para combatentes que possuem grandes reservas de chakra e buscam dominar o campo através da criatividade e do poder destrutivo mutável. Nas mãos de um mestre, a Hiramekarei não é apenas uma espada, mas uma ferramenta de engenharia de combate que molda a vitória conforme a vontade do portador. Sua posse representa a dualidade entre a técnica refinada e a força esmagadora característica da elite de Kirigakure.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F46%20-%20Hiramekarei.png?alt=media&v=1788212111551235",
-    originalOwner: "",
+    originalOwner: "Genzō Umikage",
     pastOwners: ["Nagare Uzumaki"],
-    currentOwner: ""
+    currentOwner: "Suiren Shiranami"
   },
   {
     id: 47,
@@ -513,7 +513,7 @@ export const arsenalData: Equipment[] = [
     description: "As Kiba, conhecidas como 'As Presas de Trovão', são um par de espadas curtas de Rank S+ imbuídas permanentemente com a Liberação de Raio (Raiton). Elas são consideradas as espadas mais afiadas já forjadas na história do mundo ninja, capazes de cortar qualquer material conhecido através da vibração de alta frequência de seus fios elétricos. As lâminas atuam como para-raios místicos, permitindo ao usuário manipular e redirecionar raios diretamente do céu ou gerar tempestades elétricas de grande escala no campo de batalha. O portador das Kiba ganha um aumento drástico em sua velocidade de movimento e reflexos, movendo-se como um relâmpago entre os inimigos. Cada corte desferido pelas espadas causa paralisia nervosa instantânea e combustão interna devido à voltagem extrema injetada no alvo. É a arma definitiva para o assassino veloz que busca dizimar exércitos inteiros através de uma dança elétrica imparável e fatal. Sua posse garante que o espadachim seja o senhor do trovão, transformando a atmosfera em uma extensão letal de sua própria fúria.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F47%20-%20Kiba.png?alt=media&v=1788212111068943",
     originalOwner: "",
-    currentOwner: ""
+    currentOwner: "Hiroshi Hanzo"
   },
   {
     id: 48,
@@ -523,8 +523,8 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "A Shibuki, ou 'Espada Explosiva', é uma arma de Rank S+ que combina magistralmente a esgrima tradicional com o poder devastador de selos explosivos de alto nível. A lâmina possui uma plataforma lateral que integra um pergaminho infinito de selos que detonam instantaneamente ao entrar em contato com qualquer superfície ou inimigo. Essa mecânica permite que o usuário execute golpes que não apenas cortam o alvo, mas o pulverizam em uma série de explosões em cadeia, tornando a defesa física quase impossível. O espadachim deve possuir uma coordenação perfeita para manusear a Shibuki, garantindo que as detonações ocorram sempre longe de seu próprio corpo enquanto maximiza o dano no oponente. A arma é capaz de criar barreiras de fumaça e fogo após cada impacto, permitindo fugas estratégicas ou novos ataques surpresa no meio do caos. É a arma de terror por excelência nas linhas de frente de Kirigakure, simbolizando a força destrutiva e implacável da organização dos Sete Espadachins. Sua posse transforma cada duelo em um espetáculo de destruição pirotécnica onde o inimigo não tem onde se esconder.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F48%20-%20Shibuki.png?alt=media&v=1788212110581089",
-    originalOwner: "",
-    currentOwner: ""
+    originalOwner: "Enkai Kuroshio",
+    currentOwner: "Mirei Sazanami"
   },
   {
     id: 49,
@@ -781,8 +781,8 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "A Kaikyō no Men é uma máscara tradicional de Rank S+ utilizada pela elite dos Oinin (Ninjas Caçadores) de Kirigakure para a perseguição de alvos de alta periculosidade. Forjada com minerais marinhos sensíveis a vibrações, a máscara amplifica os sentidos do usuário ao extremo, permitindo localizar alvos através da névoa mais densa captando frequências sonoras e térmicas quase imperceptíveis. Ela atua como um filtro sensorial que elimina ruídos ambientais irrelevantes, focando inteiramente na assinatura de chakra e nos batimentos cardíacos do fugitivo. O visor da máscara possui selos de fuinjutsu que anulam o efeito de genjutsus visuais, garantindo que o caçador nunca perca seu rastro por ilusões. Além das capacidades de rastreamento, a máscara protege o rosto contra ataques de água pressurizada e permite a respiração subaquática por longos períodos através de brânquias metálicas integradas. É o símbolo do dever implacável da Névoa, transformando o portador em um predador invisível que pode caçar em qualquer ambiente aquático ou sob visibilidade zero. Sua posse garante que nenhum traidor ou inimigo da vila possa se esconder para sempre nas sombras da névoa.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F71%20-%20Kaiky%C5%8D%20no%20Men.png?alt=media&v=1788212093878428",
-    originalOwner: "",
-    currentOwner: ""
+    originalOwner: "Genzō Umikage",
+    currentOwner: "Genzō Umikage"
   },
   {
     id: 72,
@@ -792,8 +792,8 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das montanhas eternas do País da Água, imbuído com a essência da Liberação de Gelo (Hyoton). Ao ser aberto, o leque libera uma névoa congelante de temperatura subzero que pode imobilizar os pés de exércitos inteiros instantaneamente ao tocar o solo ou a umidade do ar. O usuário pode manipular as correntes de ar geradas pelo leque para criar tempestades de estilhaços de gelo afiados como navalhas ou erguer espelhos de cristal de gelo para defesa e movimentação estratégica. O artefato atua como um catalisador de chakra que permite a usuários sem linhagem de gelo manifestarem técnicas básicas de Hyoton com grande eficiência. Em combate, cada abanada do leque drena o calor do ambiente, tornando o campo de batalha progressivamente mais letal para oponentes que não possuam resistência ao frio extremo. O Hyōketsu no Sensu também pode ser usado para selar jutsus de fogo de médio nível, extinguindo chamas através da absorção térmica imediata. É uma arma de controle de área elegante e devastadora, transformando o calor da batalha em um deserto de gelo silencioso e mortal sob o comando do mestre.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F72%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1788212092767622",
-    originalOwner: "",
-    currentOwner: ""
+    originalOwner: "Mei Yuki",
+    currentOwner: "Mei Yuki"
   },
   {
     id: 73,
@@ -803,8 +803,8 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "O Suiryū no Reigan, ou 'Olho Espectral do Dragão de Água', é um amuleto ancestral de Rank S++ que concede ao portador um controle molecular sem precedentes sobre a água e seus estados físicos. Este artefato permite manipular a pressão hidrostática em níveis tão extremos que o usuário pode criar lâminas de água pressurizada capazes de cortar diamante e atravessar armaduras de aço como se fossem papel. O amuleto atua como um terceiro olho sensorial que permite 'enxergar' a umidade no ar e no subsolo, permitindo ataques surpresa vindo de ângulos onde não há fontes de água visíveis. Sob sua influência, as técnicas de Suiton tornam-se densas e pesadas, capazes de esmagar oponentes sob o peso de toneladas de pressão concentrada em pequenos pontos de impacto. O portador também pode liquefazer seu próprio corpo por breves períodos para evitar ataques físicos, movendo-se através da água com a velocidade de um dragão marinho. É uma relíquia de grande poder espiritual e técnico, representando o domínio absoluto da Névoa sobre o elemento mais vital e perigoso da natureza. Sua posse transforma um mestre de Suiton em uma força da natureza imparável, capaz de governar as profundezas e as superfícies com autoridade divina.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Suiry%C5%AB%20no%20Reigan.png?alt=media&v=1788212091555870",
-    originalOwner: "",
-    currentOwner: ""
+    originalOwner: "Ganmaren Yuki",
+    currentOwner: "Ganmaren Yuki"
   },
   {
     id: 74,
@@ -847,8 +847,8 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "O Hyōga no Seihai é um receptáculo de Rank Z que contém em seu interior a essência primordial do 'Frio Absoluto', uma energia anterior à criação do próprio sistema de chakra ninja. Este artefato possui o poder cataclísmico de congelar o fluxo de chakra de um país inteiro instantaneamente, transformando territórios férteis em desertos de gelo eterno onde a vida se torna impossível. Ao ser aberto, o cálice libera uma onda de choque criogênica que anula a agitação molecular, paralisando jutsus ativos e transformando qualquer técnica elementar em estátuas de gelo quebradiças. O usuário pode manifestar estruturas de gelo eterno de dureza incalculável que jamais derretem, mesmo quando expostas a chamas de nível Enton ou calor solar. O Hyōga no Seihai atua como um vácuo térmico que absorve todo o calor e a energia ao seu redor, fortalecendo a aura defensiva do portador até torná-lo invulnerável a ataques térmicos. É a arma de 'Inverno Eterno', uma relíquia de fim de mundo que só deve ser utilizada em situações de desespero absoluto para garantir a sobrevivência da vila através da aniquilação total do inimigo. Sua posse é o peso da responsabilidade sobre o destino climático do mundo, guardado nas profundezas mais frias de Kirigakure como o trunfo final contra qualquer ameaça.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F77%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1788212086978030",
-    originalOwner: "",
-    currentOwner: ""
+    originalOwner: "Ganmaren Yuki",
+    currentOwner: "Ganmaren Yuki"
   },
   {
     id: 78,

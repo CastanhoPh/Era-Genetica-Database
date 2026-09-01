@@ -3112,7 +3112,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FTecnicas%2F02%20-%20Shiki%20F%C5%ABjin%3A%20Meikai%20K%C5%8Drin.png?alt=media&v=1788210957282787"
       },
     ],
-    arsenal: [83],
+    arsenal: [83, 47],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F2__Temporada.png?alt=media&v=1788277031502483", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F3__Temporada.png?alt=media&v=1788277033712866", caption: "3ª Temporada", category: "era" },
@@ -6040,6 +6040,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
+    arsenal: [71],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788277007625262", caption: "5ª Temporada", category: "era" },
     ],
@@ -6130,6 +6131,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
+    arsenal: [46],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSuiren%20Shiranami%2F5__Temporada.png?alt=media&v=1788277360987445", caption: "5ª Temporada", category: "era" },
     ],
@@ -6236,6 +6238,7 @@ export const initialData: Character[] = [
     aptitudes: [],
     isDead: false,
     techniques: [],
+    arsenal: [72],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788277141832817", caption: "5ª Temporada", category: "era" },
     ],
@@ -6315,6 +6318,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
+    arsenal: [73, 77],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788276998655933", caption: "5ª Temporada", category: "era" },
     ],
@@ -6641,6 +6645,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
+    arsenal: [48],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788277150066017", caption: "5ª Temporada", category: "era" },
     ],
