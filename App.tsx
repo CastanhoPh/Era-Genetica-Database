@@ -5,7 +5,7 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe, corDoSelo, macrosDe, macroDe } from './utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe } from './utils/formatters';
 import { CARGOS_DE_VILA } from './data/cargos-de-vila';
 import { rankDeNC } from './data/atributos';
 
@@ -53,10 +53,11 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
 // casamento é por substring — e "Tank" tem que aceitar "Tanque", que convive nas fichas.
 const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
 
-// Os macros que a ficha tem por CARGO — posto de vila. Separado de `macrosDe`, que junta cargo e
-// patente: o filtro de uma vila só pode oferecer cargo, senão "Líder dos 75%" (OCA) apareceria como
-// posto de Konoha.
-const macrosDeCargo = (c: Character): string[] => [...new Set((c.cargo ?? []).map(macroDe))];
+// Os postos que a ficha tem por CARGO, sem ordinal. Separado de `macrosDe`, que junta cargo e
+// patente e ainda corta o qualificador: o filtro de uma vila só pode oferecer cargo (senão
+// "Líder dos 75%" da OCA apareceria como posto de Konoha) e precisa do posto INTEIRO (senão
+// "Líder dos Monges" e "Líder de Inovações" viram os dois "Líder" e colidem).
+const postosDeCargo = (c: Character): string[] => [...new Set((c.cargo ?? []).map(postoDe))];
 const casaFuncao = (c: Character, funcao: string): boolean => {
     const r = (c.role ?? '').toLowerCase();
     return funcao === 'Tank' ? r.includes('tank') || r.includes('tanque') : r.includes(funcao.toLowerCase());
@@ -267,12 +268,12 @@ export default function App() {
     const passaPosto = useCallback((c: Character) => {
         if (selectedPosition === 'Todos') return true;
         // Dentro de uma vila com catálogo o rótulo pode cobrir vários cargos — "Líder de Esquadrão"
-        // cobre Ambu, Equipe de Elite, Força Médica, Rastreio e Inovações, que todos reduzem a
-        // "Líder" — então casa pelo `macros` do rótulo, e só contra cargo.
+        // cobre os seis esquadrões de Konoha, e "Líder Corporal" cobre o dos samurais e o dos
+        // monges — então casa pela lista de `postos` do rótulo, e só contra cargo.
         const cat = CARGOS_DE_VILA[selectedCategory];
         if (cat) {
             const e = cat.find(x => x.label === selectedPosition);
-            return e ? macrosDeCargo(c).some(m => e.macros.includes(m)) : false;
+            return e ? postosDeCargo(c).some(x => e.postos.includes(x)) : false;
         }
         return macrosDe(c).includes(selectedPosition);
     }, [selectedPosition, selectedCategory]);
@@ -314,7 +315,7 @@ export default function App() {
         const gente = escopo('posto');
         if (catalogoDaVila) {
             return catalogoDaVila
-                .filter(e => gente.some(c => macrosDeCargo(c).some(m => e.macros.includes(m))))
+                .filter(e => gente.some(c => postosDeCargo(c).some(x => e.postos.includes(x))))
                 .map(e => e.label);
         }
         return Array.from(new Set(gente.flatMap(macrosDe))).sort((a, b) => a.localeCompare(b, 'pt'));

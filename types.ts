@@ -417,14 +417,14 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
   {
     village: 'Iwagakure',
     entries: [
-      { name: 'Oryo Soryo', role: 'Mestre do Koton, Pai de Kenma e Líder da linhagem vermelha (Espírito)', nc: 30 },
+      { name: 'Oryo Soryo', role: 'Mestre do Koton, Pai de Kenma e Líder dos Monges', nc: 30 },
       { name: 'Iwana Soryo', role: 'Mestre do Senjutsu e Mãe de Kenma', nc: 26 },
       { name: 'Bilal Bakuren', role: 'Criança Prodígio', nc: 8 },
       { name: 'Iwana Bakuren', role: 'Mãe de Bilal', nc: 16 },
       { name: 'Banjin Bakuren', role: 'Pai de Bilal', nc: 20 },
-      { name: 'Iwato Kamizuru', role: 'Mestre das Abelhas e Líder da linhagem verde (Corpo)', nc: 27 },
-      { name: 'Sora Ganseki', role: 'Mestre de Genjutsu pelas vibrações do solo e Líder da linhagem azul (Alma)', nc: 27 },
-      { name: 'Sekio Ishi', role: 'Rei dos Samurai', nc: 30 },
+      { name: 'Iwato Kamizuru', role: 'Mestre das Abelhas e Líder Espiritual dos Monges', nc: 27 },
+      { name: 'Sora Ganseki', role: 'Mestre de Genjutsu pelas vibrações do solo e Líder Mental dos Monges', nc: 27 },
+      { name: 'Sekio Ishi', role: 'Rei dos Samurais', nc: 30 },
       { name: 'Fudo Gunma', role: 'Pai de Rock Gunma, Primeiro Tsuchikage', nc: 30 },
       { name: 'Shingen Ishi', role: 'Irmão mais novo de Sekio Ishi', nc: 28 },
       { name: 'Tetsugen Ishi', role: 'Pai de Sekio Ishi', nc: 28 },
