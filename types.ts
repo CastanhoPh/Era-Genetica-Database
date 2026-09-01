@@ -409,6 +409,7 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
   {
     village: 'Kumogakure',
     entries: [
+      { name: 'Raio Yotsuki', role: 'Primeiro Raikage', nc: 30 },
       { name: 'Inazuma Kazuchi', role: 'Irmão mais velho de Yoru', nc: 26 },
       { name: 'Raiden Kurokumo', role: 'Criança prodígio', nc: 8 },
     ],
@@ -426,7 +427,7 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Sekio Ishi', role: 'Rei dos Samurai', nc: 30 },
       { name: 'Fudo Gunma', role: 'Pai de Rock Gunma, Primeiro Tsuchikage', nc: 30 },
       { name: 'Shingen Ishi', role: 'Irmão mais novo de Sekio Ishi', nc: 28 },
-      { name: 'Tetsugen Ishi', role: 'Pai de Sekio Ishi', nc: 30 },
+      { name: 'Tetsugen Ishi', role: 'Pai de Sekio Ishi', nc: 28 },
     ],
   },
 ];
