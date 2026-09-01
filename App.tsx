@@ -48,6 +48,14 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
     return null;
 };
 
+// As quatro funções que o filtro oferece. `role` guarda combinação livre ("Suporte e DPS"), então o
+// casamento é por substring — e "Tank" tem que aceitar "Tanque", que convive nas fichas.
+const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
+const casaFuncao = (c: Character, funcao: string): boolean => {
+    const r = (c.role ?? '').toLowerCase();
+    return funcao === 'Tank' ? r.includes('tank') || r.includes('tanque') : r.includes(funcao.toLowerCase());
+};
+
 export default function App() {
     const [loading, setLoading] = useState(true);
     const [splashDone, setSplashDone] = useState(false);
@@ -226,21 +234,6 @@ export default function App() {
         navigate(origin === 'Todos' ? '/arsenal' : `/arsenal/${slugify(origin)}`);
     };
 
-    // Extract unique clans dynamically
-    const uniqueClans = useMemo(() => {
-        const clans = new Set(charsPublicos.map(c => c.clan).filter(Boolean));
-        return Array.from(clans).sort();
-    }, [charsPublicos]);
-
-    // O filtro oferece o posto MACRO: sem ordinal E sem a organização ou frota a que ele pertence.
-    // Com o posto completo eram 69 opções — quatro linhas só de "Almirante da Frota X" e catorze de
-    // "Líder de alguma coisa", cada uma com um ou dois personagens, o que não filtra nada. Agora são
-    // 27, e "Almirante" traz os quatro. Cargo e patente entram os dois, senão as fichas que só têm
-    // patente de organização ficariam de fora.
-    const uniquePositions = useMemo(() => {
-        const positions = new Set(charsPublicos.flatMap(macrosDe));
-        return Array.from(positions).sort((a, b) => a.localeCompare(b, 'pt'));
-    }, [charsPublicos]);
 
     // Um casamento por ficha, calculado uma vez: o filtro, a ordenação e o card leem daqui.
     const termoBusca = searchTerm.trim().toLowerCase();
@@ -253,32 +246,64 @@ export default function App() {
         [casamentos],
     );
 
+    // FILTRO FACETADO: cada dropdown oferece só o que existe depois dos OUTROS filtros. Escolher
+    // "Konohagakure" encolhe clã, posto, função e vitalidade para o que Konoha tem — antes as quatro
+    // listas vinham do banco inteiro e ofereciam combinação que dava zero resultado.
+    //
+    // Cada filtro virou predicado nomeado justamente pra isso: montar as opções de um deles a partir
+    // de quem passa em todos os demais, ignorando o próprio.
+    const passaCategoria = useCallback(
+        (c: Character) => selectedCategory === 'Todos' || c.categories.includes(selectedCategory), [selectedCategory]);
+    const passaBusca = useCallback(
+        (c: Character) => casamentos.get(c.docId ?? String(c.id)) !== null, [casamentos]);
+    const passaCla = useCallback(
+        (c: Character) => selectedClan === 'Todos' || c.clan === selectedClan, [selectedClan]);
+    const passaPosto = useCallback(
+        (c: Character) => selectedPosition === 'Todos' || macrosDe(c).includes(selectedPosition), [selectedPosition]);
+    const passaFuncao = useCallback(
+        (c: Character) => selectedRole === 'Todos' || casaFuncao(c, selectedRole), [selectedRole]);
+    const passaVitalidade = useCallback(
+        (c: Character) => selectedStatus === 'Todos' || (selectedStatus === 'Vivo' ? !c.isDead : !!c.isDead), [selectedStatus]);
+
+    /** Quem passa em todos os filtros, menos o que for pedido pra ignorar. */
+    const escopo = useCallback((ignorar: 'cla' | 'posto' | 'funcao' | 'vitalidade' | null) => charsPublicos.filter(c =>
+        passaCategoria(c) && passaBusca(c)
+        && (ignorar === 'cla' || passaCla(c))
+        && (ignorar === 'posto' || passaPosto(c))
+        && (ignorar === 'funcao' || passaFuncao(c))
+        && (ignorar === 'vitalidade' || passaVitalidade(c))),
+        [charsPublicos, passaCategoria, passaBusca, passaCla, passaPosto, passaFuncao, passaVitalidade]);
+
+    const uniqueClans = useMemo(
+        () => Array.from(new Set(escopo('cla').map(c => c.clan).filter(Boolean))).sort((a, b) => a.localeCompare(b, 'pt')),
+        [escopo]);
+    const roleOptions = useMemo(
+        () => FUNCOES.filter(f => escopo('funcao').some(c => casaFuncao(c, f))),
+        [escopo]);
+    const statusOptions = useMemo(() => {
+        const gente = escopo('vitalidade');
+        return ['Vivo', 'Morto'].filter(v => gente.some(c => (v === 'Vivo' ? !c.isDead : !!c.isDead)));
+    }, [escopo]);
+
+    // O filtro oferece o posto MACRO: sem ordinal E sem a organização ou frota a que ele pertence.
+    // Com o posto completo eram 69 opções — quatro linhas só de "Almirante da Frota X" e catorze de
+    // "Líder de alguma coisa", cada uma com um ou dois personagens, o que não filtra nada. Agora são
+    // 27, e "Almirante" traz os quatro. Cargo e patente entram os dois, senão as fichas que só têm
+    // patente de organização ficariam de fora.
+    const uniquePositions = useMemo(
+        () => Array.from(new Set(escopo('posto').flatMap(macrosDe))).sort((a, b) => a.localeCompare(b, 'pt')),
+        [escopo]);
+
+    // Uma escolha pode deixar de existir no escopo novo — clã Sabaku com Konohagakure selecionada,
+    // por exemplo. Sem isto o seletor ficaria mostrando um valor fora da lista e a grade viria
+    // vazia, sem o usuário ter como voltar a não ser limpando tudo.
+    useEffect(() => { if (selectedClan !== 'Todos' && !uniqueClans.includes(selectedClan)) setSelectedClan('Todos'); }, [uniqueClans, selectedClan]);
+    useEffect(() => { if (selectedPosition !== 'Todos' && !uniquePositions.includes(selectedPosition)) setSelectedPosition('Todos'); }, [uniquePositions, selectedPosition]);
+    useEffect(() => { if (selectedRole !== 'Todos' && !roleOptions.includes(selectedRole)) setSelectedRole('Todos'); }, [roleOptions, selectedRole]);
+    useEffect(() => { if (selectedStatus !== 'Todos' && !statusOptions.includes(selectedStatus)) setSelectedStatus('Todos'); }, [statusOptions, selectedStatus]);
+
     const filteredCharacters = useMemo(() => {
-        const filtered = charsPublicos.filter(c => {
-            // Basic Filters
-            const matchesCategory = selectedCategory === 'Todos' || c.categories.includes(selectedCategory);
-            const matchesSearch = casamentos.get(c.docId ?? String(c.id)) !== null;
-
-            // Advanced Filters
-            const matchesClan = selectedClan === 'Todos' || c.clan === selectedClan;
-            const matchesPosition = selectedPosition === 'Todos' || macrosDe(c).includes(selectedPosition);
-
-            let matchesRole = true;
-            if (selectedRole !== 'Todos') {
-                const roleLower = c.role.toLowerCase();
-                if (selectedRole === 'Tank') {
-                    matchesRole = roleLower.includes('tank') || roleLower.includes('tanque');
-                } else {
-                    matchesRole = roleLower.includes(selectedRole.toLowerCase());
-                }
-            }
-
-            let matchesStatus = true;
-            if (selectedStatus === 'Vivo') matchesStatus = !c.isDead;
-            if (selectedStatus === 'Morto') matchesStatus = !!c.isDead;
-
-            return matchesCategory && matchesSearch && matchesClan && matchesRole && matchesStatus && matchesPosition;
-        });
+        const filtered = escopo(null);
 
         // Apply Sorting
         return [...filtered].sort((a, b) => {
@@ -299,7 +324,7 @@ export default function App() {
             // Default: ID
             return a.id - b.id;
         });
-    }, [charsPublicos, casamentos, termoBusca, selectedCategory, selectedClan, selectedPosition, selectedRole, selectedStatus, sortBy]);
+    }, [escopo, casamentos, termoBusca, sortBy]);
 
     // Adiciona um personagem novo gravando no Firestore.
     const handleAddCharacter = async (newChar: Character) => {
@@ -657,8 +682,8 @@ export default function App() {
                                 {[
                                     { label: 'CLÃ', icon: Filter, value: selectedClan, setter: setSelectedClan, options: uniqueClans },
                                     { label: 'RANK / POSIÇÃO', icon: Award, value: selectedPosition, setter: setSelectedPosition, options: uniquePositions },
-                                    { label: 'FUNÇÃO', icon: Database, value: selectedRole, setter: setSelectedRole, options: ['DPS', 'Tank', 'Suporte', 'Controle'] },
-                                    { label: 'VITALIDADE', icon: Skull, value: selectedStatus, setter: setSelectedStatus, options: ['Vivo', 'Morto'] }
+                                    { label: 'FUNÇÃO', icon: Database, value: selectedRole, setter: setSelectedRole, options: roleOptions },
+                                    { label: 'VITALIDADE', icon: Skull, value: selectedStatus, setter: setSelectedStatus, options: statusOptions }
                                 ].map((filter, idx) => (
                                     <div key={idx} className="flex flex-col gap-1">
                                         <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
