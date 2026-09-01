@@ -5,7 +5,7 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe, corDoSelo, postosDe } from './utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, macrosDe } from './utils/formatters';
 import { rankDeNC } from './data/atributos';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
@@ -232,13 +232,14 @@ export default function App() {
         return Array.from(clans).sort();
     }, [charsPublicos]);
 
-    // O filtro oferece o POSTO, sem ordinal: um "Hokage" só, não 1º, 2º e 3º em três linhas.
-    // E casa contra todos os postos da ficha, não só o do selo — o Katsuo aparece tanto em
-    // "Líder da Ambu" quanto em "Líder de Rastreio". Cargo e patente entram os dois, senão as
-    // 25 fichas que só têm patente de organização ficariam de fora do filtro.
+    // O filtro oferece o posto MACRO: sem ordinal E sem a organização ou frota a que ele pertence.
+    // Com o posto completo eram 69 opções — quatro linhas só de "Almirante da Frota X" e catorze de
+    // "Líder de alguma coisa", cada uma com um ou dois personagens, o que não filtra nada. Agora são
+    // 27, e "Almirante" traz os quatro. Cargo e patente entram os dois, senão as fichas que só têm
+    // patente de organização ficariam de fora.
     const uniquePositions = useMemo(() => {
-        const positions = new Set(charsPublicos.flatMap(postosDe));
-        return Array.from(positions).sort();
+        const positions = new Set(charsPublicos.flatMap(macrosDe));
+        return Array.from(positions).sort((a, b) => a.localeCompare(b, 'pt'));
     }, [charsPublicos]);
 
     // Um casamento por ficha, calculado uma vez: o filtro, a ordenação e o card leem daqui.
@@ -260,7 +261,7 @@ export default function App() {
 
             // Advanced Filters
             const matchesClan = selectedClan === 'Todos' || c.clan === selectedClan;
-            const matchesPosition = selectedPosition === 'Todos' || postosDe(c).includes(selectedPosition);
+            const matchesPosition = selectedPosition === 'Todos' || macrosDe(c).includes(selectedPosition);
 
             let matchesRole = true;
             if (selectedRole !== 'Todos') {

@@ -2010,7 +2010,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 130,
     chakra: 96,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAiri%20Senju%2FAiri%20Senju.png?alt=media&v=1786651895744108",
+    image: "",
     techniques: [
       {
         name: "Senpo Mokuton: Sōshin Mokujin",
@@ -3983,7 +3983,7 @@ export const initialData: Character[] = [
     description: "Shoyu Uzumaki é, possivelmente, o maior prodígio que a história ninja já viu. Sua existência nasceu de um plano cruel: após inúmeras tentativas fracassadas de extrair o chakra da Kurama de sua mãe, Naomi, decidiram dividi-lo — mantendo metade nela e selando a outra metade em um filho, tornando a extração gradual possível. Mesmo diante desse destino, Naomi fez um único pedido: que a criança fosse de Nishinoya. Hades, no entanto, atendeu pessoalmente e, movido por ambição, roubou a identidade genética do Terceiro Hokage para criar aquele que viria a ser Shoyu. Nascido como um experimento, ele cresceu em meio à dor, ao medo e à necessidade de sobreviver. Ainda aos 5 anos, realizou o impossível: dominou o Katon com maestria e aprendeu o lendário Hiraishin, feito que desafia toda lógica ninja. Transformando simples bolinhas de gude em pontos de teleporte, Shoyu desenvolveu um estilo de combate imprevisível e absoluto. Cada habilidade sua nasceu da necessidade de proteger sua mãe. Não é apenas um gênio — é um erro que deu certo demais, um acidente perfeito que ultrapassou qualquer controle.",
     hp: 59,
     chakra: 56,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoyu%20Uzumaki%2FShoyu%20Uzumaki.png?alt=media&v=1786651901163840",
+    image: "",
     techniques: [
       {
         name: "Hiraishin: Shūen no Enbu",
@@ -4090,7 +4090,7 @@ export const initialData: Character[] = [
     description: "Souma Namikaze não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.",
     hp: 59,
     chakra: 42,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FSouma%20Namikaze.jpg?alt=media&v=1787067007838294",
+    image: "",
     techniques: [
       {
         name: "Ketsuryū: Shinkai Enkai",
@@ -4662,7 +4662,7 @@ export const initialData: Character[] = [
     description: "Tetsu Sabaku, conhecido hoje como o Pilar da Renúncia, é o herdeiro de um legado grande demais para caber em uma única vida. Filho de Reto Sabaku, o Primeiro Kazekage, e de Hana Sabaku, a Muralha Dourada, Tetsu nasceu cercado por nomes que moldaram a história da Areia antes mesmo que pudesse entender o peso deles.\n\nPara o povo, ele era o filho do fundador, o sangue da Leoa da Areia, o irmão de Sayuri e o possível sucessor de uma linhagem que transformou o maior deserto do continente em civilização. Desde cedo, Tetsu aprendeu a olhar para si mesmo como uma promessa que talvez nunca conseguisse cumprir.\n\nEnquanto outras crianças brincavam nas ruas douradas de Sunagakure, ele estudava os registros de Reto: suas caçadas, seus ângulos de disparo, suas rotas pelo deserto e até sua respiração antes de soltar uma flecha. Seu maior símbolo era o arco lendário herdado do pai, uma arma de Rank Z que para Reto parecia uma extensão natural da vontade, mas que nas mãos de Tetsu parecia uma sentença.\n\nPor muito tempo, Tetsu confundiu honra com repetição e dever com vaidade. Queria proteger Sunagakure, mas também queria provar que merecia o nome Sabaku. Foi Hana quem o fez encarar a verdade mais cruel do deserto: uma flecha disparada por orgulho nunca protege ninguém. O deserto não perdoa os egoístas, porque no deserto todo gesto individual pode condenar uma caravana inteira.\n\nHoje, como Pilar da Renúncia, Tetsu luta contra seu inimigo mais difícil: a necessidade de provar valor. Ele ainda carrega o peso do pai, ainda sente a sombra de Reto sobre seus ombros e ainda teme nunca ser suficiente. Mas agora entende que talvez o verdadeiro herdeiro do Caçador do Deserto não seja aquele que acerta todos os alvos, e sim aquele que sabe por que está puxando a corda.",
     hp: 194,
     chakra: 79,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsu%20Sabaku%2FTetsu%20Sabaku.png?alt=media&v=1786651908723311",
+    image: "",
     techniques: [],
     arsenal: [59, 62],
     gallery: [
@@ -4706,7 +4706,7 @@ export const initialData: Character[] = [
     description: "Sayuri Sabaku, conhecida hoje como o Pilar da Liberdade, é a filha da Areia que escolheu pertencer ao vento. Nascida como filha de Reto Sabaku e Hana Sabaku, e irmã de Tetsu, cresceu cercada pelo peso de uma linhagem lendária. Para muitos, Sayuri deveria permanecer dentro dos muros de Sunagakure e carregar o nome Sabaku como uma armadura, mas desde cedo ela olhava mais para o horizonte do que para o palácio.\n\nSayuri nunca odiou Sunagakure. Pelo contrário, amava a vila profundamente. Mas entendia que uma cidade protegida demais podia acabar confundindo segurança com prisão. Após os traumas causados pela OCA, Hana fortaleceu a Barreira do Sol, fechou fronteiras e transformou a Areia em uma fortaleza quase impenetrável. Sayuri compreendia esse medo, mas sabia que o isolamento também podia destruir uma nação por dentro.\n\nEnquanto Tetsu tentava herdar o arco de Reto, Sayuri escolheu herdar o impulso de abrir caminhos. Cruzou desertos, portos, vilas neutras, fronteiras hostis, mercados ilegais e rotas esquecidas que não apareciam em mapas. Aprendeu línguas, códigos de caravanas, sinais de contrabandistas e rumores que chegavam ao vento antes dos relatórios oficiais.\n\nEm combate, Sayuri manipula microcorrentes de vento com precisão absurda, alterando peso, direção, velocidade e equilíbrio no meio do movimento. Enfrentá-la é tentar capturar uma ave durante uma tempestade. Ela não vence pela força bruta, mas por mobilidade, adaptação e imprevisibilidade.\n\nHoje, como Pilar da Liberdade, Sayuri prova que lealdade não significa permanecer parada. Para Hana, ela é perigosa, mas necessária. Para Tetsu, é livre de um jeito que ele ainda não compreende. Para Sunagakure, é o vento que atravessa frestas onde muralhas não alcançam. Enquanto muitos guardiões protegem a vila ficando diante dela, Sayuri protege Sunagakure estando sempre um passo além do horizonte.",
     hp: 157,
     chakra: 73,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media&v=1786651910608044",
+    image: "",
     techniques: [],
     arsenal: [57, 61],
     gallery: [
@@ -8019,7 +8019,7 @@ export const initialData: Character[] = [
     chakra: 100,
     isDead: true,
     killedBy: "?",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHashirama%20Senju%2FHashirama%20Senju.png?alt=media&v=1786651895310573",
+    image: "",
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 24, perception: 30 },
     powers: [
       { name: "Mokuton", level: 15 },
@@ -8072,7 +8072,7 @@ export const initialData: Character[] = [
     chakra: 100,
     isDead: true,
     killedBy: "Hashirama Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMadara%20Uchiha%2FMadara%20Uchiha.png?alt=media&v=1786651895320013",
+    image: "",
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 24, perception: 30 },
     powers: [
       { name: "Katon", level: 15 },

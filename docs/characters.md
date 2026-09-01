@@ -2620,7 +2620,7 @@ Chakra: 96
 Status: Vivo
 Títulos: Legado de Senju Hashirama, Herdeira do Mokuton
 
-![Airi Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAiri%20Senju%2FAiri%20Senju.png?alt=media&v=1786651895744108)
+
 
 ## Descrição
 Desconhecido
@@ -5282,7 +5282,7 @@ Chakra: 56
 Status: Vivo
 Títulos: Filho do Medo, Acidente Perfeito
 
-![Shoyu Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoyu%20Uzumaki%2FShoyu%20Uzumaki.png?alt=media&v=1786651901163840)
+
 
 ## Descrição
 Shoyu Uzumaki é, possivelmente, o maior prodígio que a história ninja já viu. Sua existência nasceu de um plano cruel: após inúmeras tentativas fracassadas de extrair o chakra da Kurama de sua mãe, Naomi, decidiram dividi-lo — mantendo metade nela e selando a outra metade em um filho, tornando a extração gradual possível. Mesmo diante desse destino, Naomi fez um único pedido: que a criança fosse de Nishinoya. Hades, no entanto, atendeu pessoalmente e, movido por ambição, roubou a identidade genética do Terceiro Hokage para criar aquele que viria a ser Shoyu. Nascido como um experimento, ele cresceu em meio à dor, ao medo e à necessidade de sobreviver. Ainda aos 5 anos, realizou o impossível: dominou o Katon com maestria e aprendeu o lendário Hiraishin, feito que desafia toda lógica ninja. Transformando simples bolinhas de gude em pontos de teleporte, Shoyu desenvolveu um estilo de combate imprevisível e absoluto. Cada habilidade sua nasceu da necessidade de proteger sua mãe. Não é apenas um gênio — é um erro que deu certo demais, um acidente perfeito que ultrapassou qualquer controle.
@@ -5454,7 +5454,7 @@ Chakra: 42
 Status: Vivo
 Títulos: Essência do Abismo, Fonte Carmesim
 
-![Souma Namikaze](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FSouma%20Namikaze.jpg?alt=media&v=1787067007838294)
+
 
 ## Descrição
 Souma Namikaze não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.
@@ -6350,7 +6350,7 @@ Chakra: 79
 Status: Vivo
 Títulos: Pilar da Renúncia, O Herdeiro do Caçador do Deserto, Arqueiro de Ferro Negro
 
-![Tetsu Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsu%20Sabaku%2FTetsu%20Sabaku.png?alt=media&v=1786651908723311)
+
 
 ## Descrição
 Tetsu Sabaku, conhecido hoje como o Pilar da Renúncia, é o herdeiro de um legado grande demais para caber em uma única vida. Filho de Reto Sabaku, o Primeiro Kazekage, e de Hana Sabaku, a Muralha Dourada, Tetsu nasceu cercado por nomes que moldaram a história da Areia antes mesmo que pudesse entender o peso deles.
@@ -6413,7 +6413,7 @@ Chakra: 73
 Status: Vivo
 Títulos: Pilar da Liberdade, A Herdeira que Escolheu o Vento
 
-![Sayuri Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media&v=1786651910608044)
+
 
 ## Descrição
 Sayuri Sabaku, conhecida hoje como o Pilar da Liberdade, é a filha da Areia que escolheu pertencer ao vento. Nascida como filha de Reto Sabaku e Hana Sabaku, e irmã de Tetsu, cresceu cercada pelo peso de uma linhagem lendária. Para muitos, Sayuri deveria permanecer dentro dos muros de Sunagakure e carregar o nome Sabaku como uma armadura, mas desde cedo ela olhava mais para o horizonte do que para o palácio.
@@ -11227,7 +11227,7 @@ Chakra: 100
 Status: Morto (morto por ?)
 Títulos: Deus Shinobi, Fundador de Konoha, Assassino de Uchiha Madara
 
-![Hashirama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHashirama%20Senju%2FHashirama%20Senju.png?alt=media&v=1786651895310573)
+
 
 ## Descrição
 Desconhecido
@@ -11270,7 +11270,7 @@ Chakra: 100
 Status: Morto (morto por Hashirama Senju)
 Títulos: Fantasma dos Uchiha, Fundador de Konoha, Deus Shinobi
 
-![Madara Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMadara%20Uchiha%2FMadara%20Uchiha.png?alt=media&v=1786651895320013)
+
 
 ## Descrição
 Desconhecido

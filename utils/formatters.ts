@@ -98,9 +98,37 @@ export const corDoSelo = (c: { vila?: string[]; categories?: string[]; organizac
  */
 export const postoDe = (v: string): string => v.replace(/^\d+[ºª]\s*/, '').trim();
 
-/** Todos os postos da ficha, cargo e patente, já sem ordinal. É por aqui que o filtro casa. */
+/** Todos os postos da ficha, cargo e patente, já sem ordinal. */
 export const postosDe = (c: { cargo?: string[]; patente?: string[]; position?: string }): string[] => {
   const tem = (c.cargo?.length ?? 0) + (c.patente?.length ?? 0) > 0;
   const brutos = [...(c.cargo ?? []), ...(c.patente ?? []), tem ? undefined : c.position];
   return [...new Set(brutos.filter((x): x is string => !!x).map(postoDe))];
 };
+
+/**
+ * O posto MACRO: só o cargo em si, sem ordinal e sem a organização ou frota a que ele pertence.
+ *
+ *   3º Hokage                          -> Hokage
+ *   Almirante da Frota Jormungandr     -> Almirante
+ *   Capitã-Tenente da Frota Megalodon  -> Capitão-Tenente
+ *   Líder dos 99%                      -> Líder
+ *   Pilar da Renúncia                  -> Pilar
+ *
+ * É o que o filtro da lista oferece. Sem isso ele tinha 69 opções, com quatro linhas só de
+ * "Almirante da Frota X" e catorze de "Líder de alguma coisa" — cada uma com um ou dois
+ * personagens, o que não filtra nada.
+ *
+ * Duas normalizações a mais: o feminino vira masculino (senão "Capitã" e "Capitão" são duas
+ * opções para o mesmo posto), e o que não tem preposição fica inteiro — "Braço Direito" e
+ * "Linhagem Espiritual" são o nome do posto, não posto + qualificador.
+ */
+const FEMININO: Record<string, string> = { 'Capitã': 'Capitão', 'Capitã-Tenente': 'Capitão-Tenente', 'Dama': 'Dama' };
+export const macroDe = (v: string): string => {
+  const semOrdinal = postoDe(v);
+  const cortado = semOrdinal.replace(/\s+(?:da|de|do|das|dos)\s+.+$/i, '').trim();
+  return FEMININO[cortado] ?? cortado;
+};
+
+/** Os postos macro da ficha, deduplicados. É por aqui que o filtro da lista casa. */
+export const macrosDe = (c: { cargo?: string[]; patente?: string[]; position?: string }): string[] =>
+  [...new Set(postosDe(c).map(macroDe))];
