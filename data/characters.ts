@@ -3552,9 +3552,12 @@ export const initialData: Character[] = [
     description: "",
     hp: 234,
     chakra: 94,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOogway%20Uchiha%2FOogway%20Uchiha.png?alt=media&v=1788291452639130",
     arsenal: [],
-    gallery: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOogway%20Uchiha%2F4__Temporada.png?alt=media&v=1788291455738981", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOogway%20Uchiha%2F5__Temporada.png?alt=media&v=1788291458706160", caption: "5ª Temporada", category: "era" },
+    ],
     stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 22, spirit: 28, vigor: 28, perception: 11 },
     powers: [
       { name: "Katon", level: 14 },

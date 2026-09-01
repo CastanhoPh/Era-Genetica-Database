@@ -4676,7 +4676,7 @@ Chakra: 94
 Status: Vivo
 Títulos: Canhão dos Uchiha
 
-
+![Oogway Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOogway%20Uchiha%2FOogway%20Uchiha.png?alt=media&v=1788291452639130)
 
 ## Descrição
 Desconhecido
