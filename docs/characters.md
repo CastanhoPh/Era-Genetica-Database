@@ -33,79 +33,80 @@
 | 27 | Asami Hyuga | Hyuga | NPC, Konohagakure |  | DPS e Suporte | 25 | 210 | 85 | Morto (morto por Omega) |
 | 28 | Kaizuka Hyuga | Hyuga | NPC, Konohagakure |  | Tanque, DPS, Suporte e Controle | 30 | 250 | 82 | Vivo |
 | 29 | Raikun Hatake | Hatake | NPC, Konohagakure, OCA |  | Tanque e DPS | 30 | 250 | 123 | Morto (morto por Chip da OCA) |
-| 30 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS e Suporte | 27 | 226 | 105 | Vivo |
-| 31 | Satoshi Namikaze | Namikaze | NPC, Konohagakure |  | DPS | 27 | 205 | 137 | Vivo |
-| 32 | Shikaki Nara | Nara | NPC, Konohagakure, OCA |  | Suporte | 22 | 168 | 76 | Vivo |
-| 33 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure |  | DPS e Controle | 27 | 226 | 91 | Vivo |
-| 34 | Hirato Ishi | Ishi | NPC, Iwagakure |  | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
-| 35 | Hikaru Ishi | Ishi | NPC, Iwagakure |  | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
-| 36 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 56 | Vivo |
-| 37 | Souma Namikaze | Namikaze | NPC, Konohagakure |  | DPS e Controle | 8 | 59 | 42 | Vivo |
-| 38 | Reika Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 70 | Vivo |
-| 39 | Nagi Yuki | Yuki | NPC, Konohagakure, OCA |  | Controle / Sensorial | 22 | 168 | 76 | Vivo |
-| 40 | Yasuo Kurogane | Kurogane | NPC, Sunagakure, OCA |  | Suporte e Controle | 22 | 174 | 76 | Vivo |
-| 41 | Hana Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 30 | 241 | 150 | Vivo |
-| 42 | Reto Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 27 | 217 | 91 | Vivo |
-| 43 | Tetsu Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 23 | 194 | 79 | Vivo |
-| 44 | Sayuri Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 21 | 157 | 73 | Vivo |
-| 45 | Chigiri Chinoike | Chinoike | NPC, Sunagakure |  | DPS e Suporte | 27 | 205 | 91 | Vivo |
-| 46 | Mizue Dokuhana | Dokuhana | NPC, Sunagakure |  | Suporte | 23 | 194 | 58 | Vivo |
-| 47 | Tessai Enshaku | Enshaku | NPC, Sunagakure |  | Tank e Controle | 25 | 210 | 64 | Vivo |
-| 48 | Kurohime Kazeori | Kazeori | NPC, Sunagakure |  | DPS e Suporte | 21 | 178 | 52 | Vivo |
-| 49 | Yuji Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | DPS | 26 | 200 | 88 | Vivo |
-| 50 | Reito Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Tank | 20 | 170 | 70 | Vivo |
-| 51 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Suporte e Controle | 23 | 173 | 79 | Vivo |
-| 52 | Mika Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | Suporte | 24 | 184 | 82 | Vivo |
-| 53 | Enrai Hanzo | Hanzo | NPC, Kiba, Kumogakure |  | Tank | 26 | 200 | 88 | Vivo |
-| 54 | Daichi Muujin | Muujin | NPC, NoGuns, Iwagakure |  | DPS e Controle | 25 | 189 | 85 | Vivo |
-| 55 | Koji Ishizuma | Ishizuma | NPC, NoGuns, Kumogakure |  | DPS | 18 | 154 | 64 | Morto (morto por Hades) |
-| 56 | Yuuto Han | Han | NPC, NoGuns, OCA, Kirigakure |  | DPS | 18 | 154 | 96 | Morto (morto por Hades) |
-| 57 | Shin Mizukari | Mizukari | NPC, NoGuns, Iwagakure |  | Tanque | 18 | 154 | 64 | Morto (morto por Hades) |
-| 58 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 26 | 200 | 88 | Vivo |
-| 59 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 25 | 189 | 85 | Vivo |
-| 60 | Kiyoshi Hagane | Hagane | NPC, Kumogakure |  | DPS, Tank e Controle | 29 | 221 | 97 | Vivo |
-| 61 | Gorai Arashiumi | Arashiumi | NPC, Kumogakure |  | DPS, Tank e Controle | 27 | 226 | 91 | Vivo |
-| 62 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
-| 63 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
-| 64 | Raiden Yotsuki | Yotsuki | NPC, Kumogakure |  | DPS / Tank | 23 | 194 | 79 | Vivo |
-| 65 | Nayara Kazemori | Kazemori | NPC, Kumogakure |  | DPS / Suporte | 25 | 189 | 85 | Vivo |
-| 66 | Shizuru Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 27 | 205 | 91 | Vivo |
-| 67 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
-| 68 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
-| 69 | Raizuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
-| 70 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
-| 71 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
-| 72 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
-| 73 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
-| 74 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
-| 75 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
-| 76 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
-| 77 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
-| 78 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
-| 79 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
-| 80 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
-| 81 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
-| 82 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
-| 83 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
-| 84 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
-| 85 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
-| 86 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
-| 87 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
-| 88 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
-| 89 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
-| 90 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
-| 91 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
-| 92 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
-| 93 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
-| 94 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
-| 95 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
-| 96 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
-| 97 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
-| 98 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
-| 99 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
-| 100 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
-| 101 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 232 | 100 | Morto (morto por ?) |
-| 102 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 232 | 100 | Morto (morto por Hashirama Senju) |
+| 30 | Oogway Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 28 | 234 | 94 | Vivo |
+| 31 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS e Suporte | 27 | 226 | 105 | Vivo |
+| 32 | Satoshi Namikaze | Namikaze | NPC, Konohagakure |  | DPS | 27 | 205 | 137 | Vivo |
+| 33 | Shikaki Nara | Nara | NPC, Konohagakure, OCA |  | Suporte | 22 | 168 | 76 | Vivo |
+| 34 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure |  | DPS e Controle | 27 | 226 | 91 | Vivo |
+| 35 | Hirato Ishi | Ishi | NPC, Iwagakure |  | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
+| 36 | Hikaru Ishi | Ishi | NPC, Iwagakure |  | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
+| 37 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 56 | Vivo |
+| 38 | Souma Namikaze | Namikaze | NPC, Konohagakure |  | DPS e Controle | 8 | 59 | 42 | Vivo |
+| 39 | Reika Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 70 | Vivo |
+| 40 | Nagi Yuki | Yuki | NPC, Konohagakure, OCA |  | Controle / Sensorial | 22 | 168 | 76 | Vivo |
+| 41 | Yasuo Kurogane | Kurogane | NPC, Sunagakure, OCA |  | Suporte e Controle | 22 | 174 | 76 | Vivo |
+| 42 | Hana Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 30 | 241 | 150 | Vivo |
+| 43 | Reto Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 27 | 217 | 91 | Vivo |
+| 44 | Tetsu Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 23 | 194 | 79 | Vivo |
+| 45 | Sayuri Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 21 | 157 | 73 | Vivo |
+| 46 | Chigiri Chinoike | Chinoike | NPC, Sunagakure |  | DPS e Suporte | 27 | 205 | 91 | Vivo |
+| 47 | Mizue Dokuhana | Dokuhana | NPC, Sunagakure |  | Suporte | 23 | 194 | 58 | Vivo |
+| 48 | Tessai Enshaku | Enshaku | NPC, Sunagakure |  | Tank e Controle | 25 | 210 | 64 | Vivo |
+| 49 | Kurohime Kazeori | Kazeori | NPC, Sunagakure |  | DPS e Suporte | 21 | 178 | 52 | Vivo |
+| 50 | Yuji Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | DPS | 26 | 200 | 88 | Vivo |
+| 51 | Reito Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Tank | 20 | 170 | 70 | Vivo |
+| 52 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Suporte e Controle | 23 | 173 | 79 | Vivo |
+| 53 | Mika Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | Suporte | 24 | 184 | 82 | Vivo |
+| 54 | Enrai Hanzo | Hanzo | NPC, Kiba, Kumogakure |  | Tank | 26 | 200 | 88 | Vivo |
+| 55 | Daichi Muujin | Muujin | NPC, NoGuns, Iwagakure |  | DPS e Controle | 25 | 189 | 85 | Vivo |
+| 56 | Koji Ishizuma | Ishizuma | NPC, NoGuns, Kumogakure |  | DPS | 18 | 154 | 64 | Morto (morto por Hades) |
+| 57 | Yuuto Han | Han | NPC, NoGuns, OCA, Kirigakure |  | DPS | 18 | 154 | 96 | Morto (morto por Hades) |
+| 58 | Shin Mizukari | Mizukari | NPC, NoGuns, Iwagakure |  | Tanque | 18 | 154 | 64 | Morto (morto por Hades) |
+| 59 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 26 | 200 | 88 | Vivo |
+| 60 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 25 | 189 | 85 | Vivo |
+| 61 | Kiyoshi Hagane | Hagane | NPC, Kumogakure |  | DPS, Tank e Controle | 29 | 221 | 97 | Vivo |
+| 62 | Gorai Arashiumi | Arashiumi | NPC, Kumogakure |  | DPS, Tank e Controle | 27 | 226 | 91 | Vivo |
+| 63 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
+| 64 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
+| 65 | Raiden Yotsuki | Yotsuki | NPC, Kumogakure |  | DPS / Tank | 23 | 194 | 79 | Vivo |
+| 66 | Nayara Kazemori | Kazemori | NPC, Kumogakure |  | DPS / Suporte | 25 | 189 | 85 | Vivo |
+| 67 | Shizuru Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 27 | 205 | 91 | Vivo |
+| 68 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
+| 69 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
+| 70 | Raizuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
+| 71 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
+| 72 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
+| 73 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
+| 74 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
+| 75 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
+| 76 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
+| 77 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
+| 78 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
+| 79 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
+| 80 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
+| 81 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
+| 82 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
+| 83 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
+| 84 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
+| 85 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
+| 86 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
+| 87 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
+| 88 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
+| 89 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
+| 90 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
+| 91 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
+| 92 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
+| 93 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
+| 94 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
+| 95 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
+| 96 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
+| 97 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
+| 98 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
+| 99 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
+| 100 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
+| 101 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
+| 102 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 232 | 100 | Morto (morto por ?) |
+| 103 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 232 | 100 | Morto (morto por Hashirama Senju) |
 
 ---
 
@@ -4664,8 +4665,50 @@ Cada uso consome uma quantidade significativa do chakra profano armazenado no ch
 
 ---
 
-# Katsuo Uzumaki
+# Oogway Uchiha
 ID: 30
+Clã: Uchiha
+Grupos: NPC, Konohagakure
+Função: DPS
+NC: 28
+HP: 234
+Chakra: 94
+Status: Vivo
+Títulos: Canhão dos Uchiha
+
+
+
+## Descrição
+Desconhecido
+
+## Atributos
+- Força: 28
+- Destreza: 11
+- Agilidade: 28
+- Inteligência: 22
+- Espírito: 28
+- Vigor: 28
+- Percepção: 11
+
+## Poderes e Elementos
+- Katon — Nível 14
+- Raiton — Nível 14
+- Doton — Nível 14
+- Fuuton — Nível 14
+
+## Aptidões
+Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan, Eternal Mangekyou Sharingan, Mímica Sharingan, Elemento Natural: Katon, Domínio do Fogo, Técnica Poderosa, Potencializar, Ilusão Profunda, Intuição, Acuidade, Ponto Cego, Saque Rápido, Ambidestria, Maestria: CC, Maestria: CD, Usar Arma: Katana, Perito: Prestidigitação
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Katsuo Uzumaki
+ID: 31
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: DPS e Suporte
@@ -4816,7 +4859,7 @@ Requer preparo e posicionamento estratégico.
 ---
 
 # Satoshi Namikaze
-ID: 31
+ID: 32
 Clã: Namikaze
 Grupos: NPC, Konohagakure
 Função: DPS
@@ -4977,7 +5020,7 @@ Exige que Satoshi mantenha o Modo Sábio ativo durante toda a duração da técn
 ---
 
 # Shikaki Nara
-ID: 32
+ID: 33
 Clã: Nara
 Grupos: NPC, Konohagakure, OCA
 Função: Suporte
@@ -5095,7 +5138,7 @@ Consome chakra proporcional à resistência do alvo.
 ---
 
 # Shikatsu Nara (Togo Kage)
-ID: 33
+ID: 34
 Clã: Kage
 Grupos: NPC, NoGuns, OCA, Konohagakure
 Função: DPS e Controle
@@ -5150,7 +5193,7 @@ Extremamente perigosa para o usuário. Requer alto consumo de chakra e estabilid
 ---
 
 # Hirato Ishi
-ID: 34
+ID: 35
 Clã: Ishi
 Grupos: NPC, Iwagakure
 Função: DPS
@@ -5209,7 +5252,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hikaru Ishi
-ID: 35
+ID: 36
 Clã: Ishi
 Grupos: NPC, Iwagakure
 Função: Suporte
@@ -5262,7 +5305,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Shoyu Uzumaki
-ID: 36
+ID: 37
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: Suporte
@@ -5433,7 +5476,7 @@ Consome uma quantidade razoável de chakra para o nível de Shoyu, tornando o us
 ---
 
 # Souma Namikaze
-ID: 37
+ID: 38
 Clã: Namikaze
 Grupos: NPC, Konohagakure
 Função: DPS e Controle
@@ -5561,7 +5604,7 @@ Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode c
 ---
 
 # Reika Uzumaki
-ID: 38
+ID: 39
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: Suporte
@@ -5668,7 +5711,7 @@ Uso limitado. Alto custo e exige carga emocional intensa para ativação máxima
 ---
 
 # Nagi Yuki
-ID: 39
+ID: 40
 Clã: Yuki
 Grupos: NPC, Konohagakure, OCA
 Função: Controle / Sensorial
@@ -5849,7 +5892,7 @@ Enquanto ativa, consome chakra de forma constante. Se a coruja for destruída, N
 ---
 
 # Yasuo Kurogane
-ID: 40
+ID: 41
 Clã: Kurogane
 Grupos: NPC, Sunagakure, OCA
 Função: Suporte e Controle
@@ -5984,7 +6027,7 @@ Aumenta o peso corporal e reduz levemente a velocidade.
 ---
 
 # Hana Sabaku
-ID: 41
+ID: 42
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6153,7 +6196,7 @@ Uso avançado e contínuo. Pode permanecer ativo por longos períodos, mas exige
 ---
 
 # Reto Sabaku
-ID: 42
+ID: 43
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6327,7 +6370,7 @@ Consumo moderado. Exige mira perfeita e controle refinado de Futon. Contra inimi
 ---
 
 # Tetsu Sabaku
-ID: 43
+ID: 44
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6389,7 +6432,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Sayuri Sabaku
-ID: 44
+ID: 45
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6450,7 +6493,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Chigiri Chinoike
-ID: 45
+ID: 46
 Clã: Chinoike
 Grupos: NPC, Sunagakure
 Função: DPS e Suporte
@@ -6499,7 +6542,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mizue Dokuhana
-ID: 46
+ID: 47
 Clã: Dokuhana
 Grupos: NPC, Sunagakure
 Função: Suporte
@@ -6553,7 +6596,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Tessai Enshaku
-ID: 47
+ID: 48
 Clã: Enshaku
 Grupos: NPC, Sunagakure
 Função: Tank e Controle
@@ -6607,7 +6650,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kurohime Kazeori
-ID: 48
+ID: 49
 Clã: Kazeori
 Grupos: NPC, Sunagakure
 Função: DPS e Suporte
@@ -6653,7 +6696,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Yuji Yotsuki
-ID: 49
+ID: 50
 Clã: Yotsuki
 Grupos: NPC, Kiba, Kumogakure
 Função: DPS
@@ -7094,7 +7137,7 @@ Necessita elevado controle de chakra durante uso contínuo.
 ---
 
 # Reito Kurogami
-ID: 50
+ID: 51
 Clã: Kurogami
 Grupos: NPC, Kiba, Kumogakure
 Função: Tank
@@ -7343,7 +7386,7 @@ Alto desgaste corporal e risco de ruptura muscular em uso excessivo.
 ---
 
 # Yoru Kurogami
-ID: 51
+ID: 52
 Clã: Kurogami
 Grupos: NPC, Kiba, Kumogakure
 Função: Suporte e Controle
@@ -7581,7 +7624,7 @@ Necessita contato visual direto.
 ---
 
 # Mika Yotsuki
-ID: 52
+ID: 53
 Clã: Yotsuki
 Grupos: NPC, Kiba, Kumogakure
 Função: Suporte
@@ -7793,7 +7836,7 @@ Mais eficaz contra alvos que dependem muito de percepção ou leitura sensorial.
 ---
 
 # Enrai Hanzo
-ID: 53
+ID: 54
 Clã: Hanzo
 Grupos: NPC, Kiba, Kumogakure
 Função: Tank
@@ -8109,7 +8152,7 @@ Exige proximidade ou contato direto com o alvo.
 ---
 
 # Daichi Muujin
-ID: 54
+ID: 55
 Clã: Muujin
 Grupos: NPC, NoGuns, Iwagakure
 Função: DPS e Controle
@@ -8150,7 +8193,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Koji Ishizuma
-ID: 55
+ID: 56
 Clã: Ishizuma
 Grupos: NPC, NoGuns, Kumogakure
 Função: DPS
@@ -8190,7 +8233,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Yuuto Han
-ID: 56
+ID: 57
 Clã: Han
 Grupos: NPC, NoGuns, OCA, Kirigakure
 Função: DPS
@@ -8245,7 +8288,7 @@ Uso altamente restrito. A combinação de pressão térmica e sobrecarga dos por
 ---
 
 # Shin Mizukari
-ID: 57
+ID: 58
 Clã: Mizukari
 Grupos: NPC, NoGuns, Iwagakure
 Função: Tanque
@@ -8284,7 +8327,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Shikure Chinoike
-ID: 58
+ID: 59
 Clã: Chinoike
 Grupos: NPC, NoGuns, OCA, Sunagakure
 Função: Suporte
@@ -8339,7 +8382,7 @@ Alto consumo de chakra e risco de instabilidade mental devido à sobreposição 
 ---
 
 # Akira Dokuhana
-ID: 59
+ID: 60
 Clã: Dokuhana
 Grupos: NPC, NoGuns, Sunagakure
 Função: DPS
@@ -8379,7 +8422,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kiyoshi Hagane
-ID: 60
+ID: 61
 Clã: Hagane
 Grupos: NPC, Kumogakure
 Função: DPS, Tank e Controle
@@ -8428,7 +8471,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Gorai Arashiumi
-ID: 61
+ID: 62
 Clã: Arashiumi
 Grupos: NPC, Kumogakure
 Função: DPS, Tank e Controle
@@ -8474,7 +8517,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Arashi Shidehara
-ID: 62
+ID: 63
 Clã: Shidehara
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8522,7 +8565,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizen Kurogane
-ID: 63
+ID: 64
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8570,7 +8613,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raiden Yotsuki
-ID: 64
+ID: 65
 Clã: Yotsuki
 Grupos: NPC, Kumogakure
 Função: DPS / Tank
@@ -8618,7 +8661,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Nayara Kazemori
-ID: 65
+ID: 66
 Clã: Kazemori
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8666,7 +8709,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Shizuru Kurogane
-ID: 66
+ID: 67
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8713,7 +8756,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Midori Kurogane
-ID: 67
+ID: 68
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: Suporte, DPS e Controle
@@ -8761,7 +8804,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Akane Sumigami
-ID: 68
+ID: 69
 Clã: Sumigami
 Grupos: NPC, Kumogakure
 Função: Suporte / DPS
@@ -8809,7 +8852,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizuma Kazuchi
-ID: 69
+ID: 70
 Clã: Kazuchi
 Grupos: NPC, Kumogakure
 Função: DPS
@@ -8857,7 +8900,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Amakumo Hōzuki
-ID: 70
+ID: 71
 Clã: Hōzuki
 Grupos: NPC, Kirigakure
 Função: Tank
@@ -8902,7 +8945,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Genzō Umikage
-ID: 71
+ID: 72
 Clã: Umikage
 Grupos: NPC, Kirigakure
 Função: Suporte e Controle
@@ -8949,7 +8992,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizuki Hoshigaki
-ID: 72
+ID: 73
 Clã: Hoshigaki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -8990,7 +9033,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Suiren Shiranami
-ID: 73
+ID: 74
 Clã: Shiranami
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9036,7 +9079,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Juzo Kuroshio
-ID: 74
+ID: 75
 Clã: Kuroshio
 Grupos: NPC, Kirigakure
 Função: DPS e Controle
@@ -9082,7 +9125,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kōga Kirisame
-ID: 75
+ID: 76
 Clã: Kirisame
 Grupos: NPC, Kirigakure
 Função: DPS e Controle
@@ -9125,7 +9168,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mei Yuki
-ID: 76
+ID: 77
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: Controle e DPS
@@ -9169,7 +9212,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Nao Arashio
-ID: 77
+ID: 78
 Clã: Arashio
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9213,7 +9256,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Ganmaren Yuki
-ID: 78
+ID: 79
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: Controle
@@ -9260,7 +9303,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Gordon Kirisame
-ID: 79
+ID: 80
 Clã: Kirisame
 Grupos: NPC, Kirigakure
 Função: Suporte e Tanque
@@ -9308,7 +9351,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hahiko Shiosaki
-ID: 80
+ID: 81
 Clã: Shiosaki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9354,7 +9397,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Himari Yuki
-ID: 81
+ID: 82
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9402,7 +9445,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Enkai Kuroshio
-ID: 82
+ID: 83
 Clã: Kuroshio
 Grupos: NPC, Kirigakure
 Função: DPS e Suporte
@@ -9449,7 +9492,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Ayame Sazanami
-ID: 83
+ID: 84
 Clã: Sazanami
 Grupos: NPC, Kirigakure
 Função: Suporte e Controle
@@ -9495,7 +9538,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Tōma Umikage
-ID: 84
+ID: 85
 Clã: Umikage
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9540,7 +9583,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mirei Sazanami
-ID: 85
+ID: 86
 Clã: Sazanami
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9584,7 +9627,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Akairo Uchiha (A)
-ID: 86
+ID: 87
 Clã: Uchiha
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -9708,7 +9751,7 @@ Extremamente proibida. O consumo de chakra é colossal, drenando reservas físic
 ---
 
 # Borashi Hyuga (B)
-ID: 87
+ID: 88
 Clã: Hyuga
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -9834,7 +9877,7 @@ Extremamente perigoso. A ausência temporária do chakra natural deixa Borashi v
 ---
 
 # Chisaki Dokuhana (C)
-ID: 88
+ID: 89
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: Suporte
@@ -9939,7 +9982,7 @@ Altamente estável enquanto houver energia natural disponível. Em ambientes ár
 ---
 
 # Daiki Uzumaki (D)
-ID: 89
+ID: 90
 Clã: Uzumaki
 Grupos: NPC, OCA, Konohagakure
 Função: Suporte e DPS
@@ -10083,7 +10126,7 @@ Habilidade avançada. Consome chakra constantemente e pode causar fadiga mental 
 ---
 
 # Etsuko Senju (E)
-ID: 90
+ID: 91
 Clã: Senju
 Grupos: NPC, OCA, Konohagakure
 Função: DPS
@@ -10160,7 +10203,7 @@ Uso restrito. Requer domínio absoluto de Hiraishin e controle preciso do elemen
 ---
 
 # Fuyuki Dokuhana (F)
-ID: 91
+ID: 92
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: DPS
@@ -10244,7 +10287,7 @@ Uso altamente restrito. Exige grande volume sanguíneo, resistência física ext
 ---
 
 # Genei (G)
-ID: 92
+ID: 93
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: Tank e DPS
@@ -10339,7 +10382,7 @@ Extremamente instável. O uso prolongado sobrecarrega o núcleo artificial e pod
 ---
 
 # Hayato Hanzo (H)
-ID: 93
+ID: 94
 Clã: Hanzo
 Grupos: NPC, OCA, Kumogakure
 Função: Suporte e Controle
@@ -10426,7 +10469,7 @@ Consome quantidades colossais de chakra e exige controle mental absoluto. Uso pr
 ---
 
 # Katakana Yotsuki (Alpha)
-ID: 94
+ID: 95
 Clã: Yotsuki
 Grupos: NPC, OCA, Kumogakure
 Função: ?
@@ -10553,7 +10596,7 @@ Alto consumo de chakra e exige percepção espacial extrema. Uso excessivo pode 
 ---
 
 # Ganmasen Yuki (Gama)
-ID: 95
+ID: 96
 Clã: Yuki
 Grupos: NPC, OCA, Kirigakure
 Função: Controle
@@ -10679,7 +10722,7 @@ Consome enormes reservas de chakra e exige controle minucioso da pressão intern
 ---
 
 # Deruta Muujin (Delta)
-ID: 96
+ID: 97
 Clã: Muujin
 Grupos: NPC, OCA, Iwagakure
 Função: ?
@@ -10839,7 +10882,7 @@ Consumo elevado, porém mais estável que técnicas de larga escala. Pode ser qu
 ---
 
 # Shiita Sabaku (Theta)
-ID: 97
+ID: 98
 Clã: Dabado
 Grupos: NPC, OCA, Sunagakure
 Função: Controle
@@ -10884,7 +10927,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kaien Ishi (Omega)
-ID: 98
+ID: 99
 Clã: Ishi
 Grupos: NPC, OCA, Iwagakure
 Função: DPS
@@ -10993,7 +11036,7 @@ Manter os tanques de chakra ativos e a absorção contínua exige concentração
 ---
 
 # Beta
-ID: 99
+ID: 100
 Clã: Desconhecido
 Grupos: NPC, OCA, Konohagakure
 Função: ?
@@ -11134,7 +11177,7 @@ Consumo extremo e constante de chakra. Vulnerável a técnicas de selamento ou e
 ---
 
 # Hades
-ID: 100
+ID: 101
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: ?
@@ -11177,7 +11220,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hashirama Senju
-ID: 101
+ID: 102
 Clã: Senju
 Grupos: NPC, Konohagakure
 Função: Tanque e DPS
@@ -11220,7 +11263,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Madara Uchiha
-ID: 102
+ID: 103
 Clã: Uchiha
 Grupos: NPC, Konohagakure
 Função: Tanque e DPS

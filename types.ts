@@ -379,7 +379,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Mito Uzumaki', role: 'Esposa de Hashirama', dead: true, nc: 28 },
       { name: 'Hiruzen Sarutobi', role: 'Pai de Shoei e Apollo', nc: 28 },
       { name: 'Hina Sarutobi', role: 'Mãe de Shoei e Apollo', nc: 24 },
-      { name: 'Oogway Uchiha', role: 'Pai de Sho e Shin', nc: 28 },
       { name: 'Konan Uchiha', role: 'Mãe de Naoki, Oddy, Kuromi, Ayumi e Shizumi', nc: 24 },
       { name: 'Inazuma Uchiha', role: 'Filho do Velho, morto por Beta, descartado pela OCA', dead: true, nc: 14 },
       { name: 'Shikado Nara', role: 'Pai de Shikaki e Shikatsu, morto por Hades', dead: true, nc: 26 },

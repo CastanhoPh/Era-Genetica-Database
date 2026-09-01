@@ -3540,6 +3540,58 @@ export const initialData: Character[] = [
   },
   {
     id: 30,
+    name: "Oogway Uchiha",
+    chakraColor: "#a855f7",
+    combatStyle: "Corporal",
+    clan: "Uchiha",
+    categories: ["NPC", "Konohagakure"],
+    titles: ["Canhão dos Uchiha"],
+    nc: 28,
+    position: "",
+    role: "DPS",
+    description: "",
+    hp: 234,
+    chakra: 94,
+    image: "",
+    arsenal: [],
+    gallery: [],
+    stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 22, spirit: 28, vigor: 28, perception: 11 },
+    powers: [
+      { name: "Katon", level: 14 },
+      { name: "Raiton", level: 14 },
+      { name: "Doton", level: 14 },
+      { name: "Fuuton", level: 14 }
+    ],
+    aptitudes: [
+      "Sharingan",
+      "Nidan Sharingan",
+      "Sandan Sharingan",
+      "Mangekyou Sharingan",
+      "Eternal Mangekyou Sharingan",
+      "Mímica Sharingan",
+      "Elemento Natural: Katon",
+      "Domínio do Fogo",
+      "Técnica Poderosa",
+      "Potencializar",
+      "Ilusão Profunda",
+      "Intuição",
+      "Acuidade",
+      "Ponto Cego",
+      "Saque Rápido",
+      "Ambidestria",
+      "Maestria: CC",
+      "Maestria: CD",
+      "Usar Arma: Katana",
+      "Perito: Prestidigitação"
+    ],
+    isDead: false,
+    timelineAppearance: "Prólogo",
+    timelineDeath: null,
+    timelineSkipped: ["1ª Temporada", "2ª Temporada", "3ª Temporada"],
+    birthVillage: "Konohagakure"
+  },
+  {
+    id: 31,
     name: "Katsuo Uzumaki",
     chakraColor: "#ff8c1a",
     combatStyle: "Distância",
@@ -3649,7 +3701,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 31,
+    id: 32,
     name: "Satoshi Namikaze",
     chakraColor: "#ff3b46",
     combatStyle: "Distância",
@@ -3733,7 +3785,7 @@ export const initialData: Character[] = [
     timelineSkipped: ["Clássico", "1ª Temporada", "2ª Temporada", "3ª Temporada", "4ª Temporada"],
   },
   {
-    id: 32,
+    id: 33,
     name: "Shikaki Nara",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -3820,7 +3872,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 33,
+    id: 34,
     name: "Shikatsu Nara (Togo Kage)",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -3883,7 +3935,7 @@ export const initialData: Character[] = [
     birthVillage: "Konohagakure"
   },
   {
-    id: 34,
+    id: 35,
     name: "Hirato Ishi",
     combatStyle: "Corporal",
     chakraColor: "#ff3b46",
@@ -3925,7 +3977,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 35,
+    id: 36,
     name: "Hikaru Ishi",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -3966,7 +4018,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 36,
+    id: 37,
     name: "Shoyu Uzumaki",
     chakraColor: "#ff3b46",
     combatStyle: "Distância",
@@ -4073,7 +4125,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 37,
+    id: 38,
     name: "Souma Namikaze",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -4156,7 +4208,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 38,
+    id: 39,
     name: "Reika Uzumaki",
     chakraColor: "#b5793a",
     combatStyle: "Distância",
@@ -4232,7 +4284,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 39,
+    id: 40,
     name: "Nagi Yuki",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -4334,7 +4386,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 40,
+    id: 41,
     name: "Yasuo Kurogane",
     chakraColor: "#b5793a",
     combatStyle: "Distância",
@@ -4426,7 +4478,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 41,
+    id: 42,
     name: "Hana Sabaku",
     combatStyle: "Distância",
     chakraColor: "#00ff41",
@@ -4536,7 +4588,7 @@ export const initialData: Character[] = [
     timelineAppearance: "Clássico",
   },
   {
-    id: 42,
+    id: 43,
     name: "Reto Sabaku",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -4645,7 +4697,7 @@ export const initialData: Character[] = [
     timelineSkipped: ["2ª Temporada","3ª Temporada","4ª Temporada"],
   },
   {
-    id: 43,
+    id: 44,
     name: "Tetsu Sabaku",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -4689,7 +4741,7 @@ export const initialData: Character[] = [
     timelineAppearance: "Clássico",
   },
   {
-    id: 44,
+    id: 45,
     name: "Sayuri Sabaku",
     combatStyle: "Distância",
     chakraColor: "#e8fbff",
@@ -4740,7 +4792,7 @@ export const initialData: Character[] = [
     timelineAppearance: "Clássico",
   },
   {
-    id: 45,
+    id: 46,
     name: "Chigiri Chinoike",
     chakraColor: "#8e0f36",
     combatStyle: "Distância",
@@ -4782,7 +4834,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 46,
+    id: 47,
     name: "Mizue Dokuhana",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -4823,7 +4875,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 47,
+    id: 48,
     name: "Tessai Enshaku",
     combatStyle: "Corporal",
     chakraColor: "#b5793a",
@@ -4865,7 +4917,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 48,
+    id: 49,
     name: "Kurohime Kazeori",
     combatStyle: "Corporal",
     chakraColor: "#3d3d4a",
@@ -4916,7 +4968,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 49,
+    id: 50,
     name: "Yuji Yotsuki",
     chakraColor: "#ff5fa8",
     combatStyle: "Distância",
@@ -5024,7 +5076,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 50,
+    id: 51,
     name: "Reito Kurogami",
     chakraColor: "#a855f7",
     combatStyle: "Corporal",
@@ -5119,7 +5171,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 51,
+    id: 52,
     name: "Yoru Kurogami",
     chakraColor: "#2dd4bf",
     combatStyle: "Distância",
@@ -5197,7 +5249,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 52,
+    id: 53,
     name: "Mika Yotsuki",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -5278,7 +5330,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 53,
+    id: 54,
     name: "Enrai Hanzo",
     chakraColor: "#ffd60a",
     combatStyle: "Corporal",
@@ -5381,7 +5433,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 54,
+    id: 55,
     name: "Daichi Muujin",
     chakraColor: "#c9d1d9",
     combatStyle: "Distância",
@@ -5418,7 +5470,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 55,
+    id: 56,
     name: "Koji Ishizuma",
     chakraColor: "#ff8c1a",
     combatStyle: "Corporal",
@@ -5457,7 +5509,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 56,
+    id: 57,
     name: "Yuuto Han",
     chakraColor: "#e8fbff",
     combatStyle: "Corporal",
@@ -5508,7 +5560,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 57,
+    id: 58,
     name: "Shin Mizukari",
     chakraColor: "#00ff41",
     combatStyle: "Corporal",
@@ -5551,7 +5603,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 58,
+    id: 59,
     name: "Shikure Chinoike",
     chakraColor: "#c01a3c",
     combatStyle: "Distância",
@@ -5603,7 +5655,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 59,
+    id: 60,
     name: "Akira Dokuhana",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -5643,7 +5695,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 60,
+    id: 61,
     name: "Kiyoshi Hagane",
     chakraColor: "#b5793a",
     clan: "Hagane",
@@ -5668,7 +5720,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 61,
+    id: 62,
     name: "Gorai Arashiumi",
     chakraColor: "#0ea5e9",
     clan: "Arashiumi",
@@ -5693,7 +5745,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 62,
+    id: 63,
     name: "Arashi Shidehara",
     chakraColor: "#e8fbff",
     clan: "Shidehara",
@@ -5718,7 +5770,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 63,
+    id: 64,
     name: "Raizen Kurogane",
     chakraColor: "#ffd60a",
     clan: "Kurogane",
@@ -5743,7 +5795,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 64,
+    id: 65,
     name: "Raiden Yotsuki",
     chakraColor: "#0ea5e9",
     clan: "Yotsuki",
@@ -5768,7 +5820,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 65,
+    id: 66,
     name: "Nayara Kazemori",
     chakraColor: "#e8fbff",
     clan: "Kazemori",
@@ -5793,7 +5845,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 66,
+    id: 67,
     name: "Shizuru Kurogane",
     chakraColor: "#8b8b9a",
     clan: "Kurogane",
@@ -5818,7 +5870,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 67,
+    id: 68,
     name: "Midori Kurogane",
     chakraColor: "#00ff41",
     clan: "Kurogane",
@@ -5843,7 +5895,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 68,
+    id: 69,
     name: "Akane Sumigami",
     chakraColor: "#b5793a",
     clan: "Sumigami",
@@ -5868,7 +5920,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 69,
+    id: 70,
     name: "Raizuma Kazuchi",
     chakraColor: "#2dd4bf",
     clan: "Kazuchi",
@@ -5893,7 +5945,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 70,
+    id: 71,
     name: "Amakumo Hōzuki",
     clan: "Hōzuki",
     categories: ["NPC", "Kirigakure"],
@@ -5943,7 +5995,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 71,
+    id: 72,
     name: "Genzō Umikage",
     clan: "Umikage",
     categories: ["NPC", "Kirigakure"],
@@ -5993,7 +6045,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 72,
+    id: 73,
     name: "Raizuki Hoshigaki",
     clan: "Hoshigaki",
     categories: ["NPC", "Kirigakure"],
@@ -6039,7 +6091,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 73,
+    id: 74,
     name: "Suiren Shiranami",
     clan: "Shiranami",
     categories: ["NPC", "Kirigakure"],
@@ -6083,7 +6135,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 74,
+    id: 75,
     name: "Juzo Kuroshio",
     clan: "Kuroshio",
     categories: ["NPC", "Kirigakure"],
@@ -6134,7 +6186,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 75,
+    id: 76,
     name: "Kōga Kirisame",
     clan: "Kirisame",
     categories: ["NPC", "Kirigakure"],
@@ -6161,7 +6213,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 76,
+    id: 77,
     name: "Mei Yuki",
     clan: "Yuki",
     categories: ["NPC", "Kirigakure"],
@@ -6189,7 +6241,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 77,
+    id: 78,
     name: "Nao Arashio",
     clan: "Arashio",
     categories: ["NPC", "Kirigakure"],
@@ -6216,7 +6268,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 78,
+    id: 79,
     name: "Ganmaren Yuki",
     clan: "Yuki",
     categories: ["NPC", "Kirigakure"],
@@ -6268,7 +6320,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 79,
+    id: 80,
     name: "Gordon Kirisame",
     clan: "Kirisame",
     categories: ["NPC", "Kirigakure"],
@@ -6313,7 +6365,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 80,
+    id: 81,
     name: "Hahiko Shiosaki",
     clan: "Shiosaki",
     categories: ["NPC", "Kirigakure"],
@@ -6357,7 +6409,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 81,
+    id: 82,
     name: "Himari Yuki",
     clan: "Yuki",
     categories: ["NPC", "Kirigakure"],
@@ -6405,7 +6457,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 82,
+    id: 83,
     name: "Enkai Kuroshio",
     clan: "Kuroshio",
     categories: ["NPC", "Kirigakure"],
@@ -6457,7 +6509,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 83,
+    id: 84,
     name: "Ayame Sazanami",
     clan: "Sazanami",
     categories: ["NPC", "Kirigakure"],
@@ -6502,7 +6554,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 84,
+    id: 85,
     name: "Tōma Umikage",
     clan: "Umikage",
     categories: ["NPC", "Kirigakure"],
@@ -6548,7 +6600,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 85,
+    id: 86,
     name: "Mirei Sazanami",
     clan: "Sazanami",
     categories: ["NPC", "Kirigakure"],
@@ -6594,7 +6646,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 86,
+    id: 87,
     name: "Akairo Uchiha (A)",
     combatStyle: "Distância",
     chakraColor: "#ff3b46",
@@ -6696,7 +6748,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 87,
+    id: 88,
     name: "Borashi Hyuga (B)",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -6797,7 +6849,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 88,
+    id: 89,
     name: "Chisaki Dokuhana (C)",
     chakraColor: "#ff5fa8",
     combatStyle: "Distância",
@@ -6869,7 +6921,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 89,
+    id: 90,
     name: "Daiki Uzumaki (D)",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -6965,7 +7017,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 90,
+    id: 91,
     name: "Etsuko Senju (E)",
     chakraColor: "#ffd60a",
     combatStyle: "Distância",
@@ -7022,7 +7074,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 91,
+    id: 92,
     name: "Fuyuki Dokuhana (F)",
     chakraColor: "#a855f7",
     combatStyle: "Distância",
@@ -7080,7 +7132,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 92,
+    id: 93,
     name: "Genei (G)",
     combatStyle: "Corporal",
     chakraColor: "#8b8b9a",
@@ -7159,7 +7211,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 93,
+    id: 94,
     name: "Hayato Hanzo (H)",
     chakraColor: "#e8fbff",
     combatStyle: "Distância",
@@ -7219,7 +7271,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 94,
+    id: 95,
     name: "Katakana Yotsuki (Alpha)",
     combatStyle: "Corporal",
     chakraColor: "#e8fbff",
@@ -7366,7 +7418,7 @@ export const initialData: Character[] = [
     birthVillage: "Kumogakure"
   },
   {
-    id: 95,
+    id: 96,
     name: "Ganmasen Yuki (Gama)",
     combatStyle: "Distância",
     chakraColor: "#0ea5e9",
@@ -7509,7 +7561,7 @@ export const initialData: Character[] = [
     birthVillage: "Kirigakure"
   },
   {
-    id: 96,
+    id: 97,
     name: "Deruta Muujin (Delta)",
     combatStyle: "Distância",
     chakraColor: "#ffd60a",
@@ -7672,7 +7724,7 @@ export const initialData: Character[] = [
     birthVillage: "Iwagakure"
   },
   {
-    id: 97,
+    id: 98,
     name: "Shiita Sabaku (Theta)",
     combatStyle: "Distância",
     chakraColor: "#00ff41",
@@ -7751,7 +7803,7 @@ export const initialData: Character[] = [
     birthVillage: "Sunagakure"
   },
   {
-    id: 98,
+    id: 99,
     name: "Kaien Ishi (Omega)",
     combatStyle: "Corporal",
     chakraColor: "#e8fbff",
@@ -7843,7 +7895,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 99,
+    id: 100,
     name: "Beta",
     chakraColor: "#00ff41",
     clan: "Desconhecido",
@@ -7955,7 +8007,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 100,
+    id: 101,
     name: "Hades",
     chakraColor: "#e8fbff",
     clan: "Desconhecido",
@@ -7999,7 +8051,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 101,
+    id: 102,
     oculto: true,
     name: "Hashirama Senju",
     chakraColor: "#00ff41",
@@ -8052,7 +8104,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 102,
+    id: 103,
     oculto: true,
     name: "Madara Uchiha",
     chakraColor: "#0ea5e9",
