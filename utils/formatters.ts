@@ -123,8 +123,18 @@ export const postosDe = (c: { cargo?: string[]; patente?: string[]; position?: s
  * "Linhagem Espiritual" são o nome do posto, não posto + qualificador.
  */
 const FEMININO: Record<string, string> = { 'Capitã': 'Capitão', 'Capitã-Tenente': 'Capitão-Tenente', 'Dama': 'Dama' };
+
+/**
+ * "das Sombras" NÃO é qualificador de organização: é outro cargo. O Hokage das Sombras não é o
+ * Hokage — são duas linhas de sucessão paralelas, com ordinal próprio cada uma. Cortar juntava o
+ * Kaizuka (3º Hokage das Sombras) no filtro "Hokage", ao lado do Nishinoya e do Tobirama, e o
+ * Chigiri e o Shiita (Kazekage das Sombras) no filtro "Kazekage".
+ */
+const QUALIFICADOR_QUE_FICA = /\s+das\s+Sombras$/i;
+
 export const macroDe = (v: string): string => {
   const semOrdinal = postoDe(v);
+  if (QUALIFICADOR_QUE_FICA.test(semOrdinal)) return semOrdinal;
   const cortado = semOrdinal.replace(/\s+(?:da|de|do|das|dos)\s+.+$/i, '').trim();
   return FEMININO[cortado] ?? cortado;
 };
