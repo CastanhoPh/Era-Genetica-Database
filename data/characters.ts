@@ -232,12 +232,12 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F01%20-%20Cl%C3%A1ssico.png?alt=media&v=1786651865211217", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1786454437214062", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651865147231", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651865181625", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Terceiro%20Hokage.png?alt=media&v=1786651865146365", caption: "Terceiro Hokage", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&token=d2b276a0-73b7-42ab-8776-829cf1d25ac6&v=1785769839249", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FPr_logo.png?alt=media&v=1788277227803391", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FCl_ssico.png?alt=media&v=1788277223380558", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2F1__Temporada.png?alt=media&v=1788277219796315", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2F2__Temporada.png?alt=media&v=1788277221574450", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FTerceiro_Hokage.png?alt=media&v=1788277230069667", caption: "Terceiro Hokage", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&v=1788277225745605", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FModo%20S%C3%A1bio.png?alt=media&v=1787068547687864", caption: "Modo Sábio", category: "transformacao" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1787068549641572", caption: "Manto Matatabi V1", category: "transformacao" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1787068551838796", caption: "Manto Matatabi V2 + Modo Sábio", category: "transformacao" },
@@ -259,7 +259,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 24, perception: 30 },
     powers: [
@@ -408,15 +408,15 @@ export const initialData: Character[] = [
     ],
     arsenal: [1, 7],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1784658553093310", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1786370734644029", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F1__Temporada.png?alt=media&v=1786454424413629", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1786454427005356", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1786454421852750", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1786651869676385", caption: "Luta contra o Omega", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651869676164", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1786454429614752", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651869725277", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1788277077470497", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1788277074010745", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F1__Temporada.png?alt=media&v=1788277062216200", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F2__Temporada.png?alt=media&v=1788277064200879", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FAmbu.png?alt=media&v=1788277072264010", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FLuta_contra_o_Omega.png?alt=media&v=1788277075838017", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F3__Temporada.png?alt=media&v=1788277065932035", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F4__Temporada.png?alt=media&v=1788277067805300", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2F5__Temporada.png?alt=media&v=1788277070196506", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854", caption: "Nascimentos - Nascimento de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240324232973", caption: "Apresentações - Apresentação de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
@@ -483,7 +483,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 17, spirit: 18, vigor: 11, perception: 18 },
     powers: [
@@ -628,15 +628,15 @@ export const initialData: Character[] = [
     ],
     arsenal: [21, 23, 70],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FPr_logo.png?alt=media&v=1784658579901730", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FCl_ssico.png?alt=media&v=1786370730906951", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651884476123", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651884092850", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Kaminari.png?alt=media&v=1786651884028017", caption: "Kaminari", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%20Luta%20contra%20Omega.png?alt=media&v=1786651884005612", caption: "Luta contra o Omega", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F07%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651884032791", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F4__Temporada.png?alt=media&v=1784658577459275", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FGaleria%2FLinha%20do%20Tempo%2F09%20-%204%C2%AA%20Temporada.png?alt=media&v=1786651884030712", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FPr_logo.png?alt=media&v=1788277170781604", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FCl_ssico.png?alt=media&v=1788277165393605", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F1__Temporada.png?alt=media&v=1788277156067333", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F2__Temporada.png?alt=media&v=1788277157881604", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FKaminari.png?alt=media&v=1788277166987636", caption: "Kaminari", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FLuta_contra_o_Omega.png?alt=media&v=1788277168964917", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F3__Temporada.png?alt=media&v=1788277159709902", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F4__Temporada.png?alt=media&v=1788277161537613", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2F5__Temporada.png?alt=media&v=1788277163649880", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854", caption: "Nascimentos - Nascimento de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240324232973", caption: "Apresentações - Apresentação de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
@@ -663,7 +663,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330", caption: "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados", category: "evento", season: "1ª Temporada", eventId: "LPg3ZhP6Jbm40ilbY1mj" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20de%20Nagare.png?alt=media&v=1784240332058786", caption: "Masmorra - Torturas - Extração do chakra de Nagare", category: "evento", season: "1ª Temporada", eventId: "1-temporada__masmorra__torturas__extracao-do-chakra-de-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FPr%C3%A9-Exame%20Chunin%2FBriga%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240328373868", caption: "Pré-Exame Chunin - Briga de Kaito e Nagare", category: "evento", season: "1ª Temporada", eventId: "1-temporada__pre-exame-chunin__briga-de-kaito-e-nagare" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FKaito%20VS%20Nagare.png?alt=media&v=1784240346081131", caption: "Exame Chunin - Quartas - Kaito VS Nagare", category: "evento", season: "1ª Temporada", eventId: "1-temporada__exame-chunin__quartas__kaito-vs-nagare" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FQuartas%2FKaito%20VS%20Nagare.png?alt=media&v=1784240346081131", caption: "Exame Chunin - Quartas - Kaito VS Nagare", category: "evento", season: "1ª Temporada", eventId: "1-temporada__exame-chunin__quartas__kaito-vs-nagare" },
     ],
     stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 10, spirit: 18, vigor: 18, perception: 7 },
     powers: [
@@ -837,15 +837,16 @@ export const initialData: Character[] = [
     ],
     arsenal: [8, 4, 9, 10, 11, 22, 53, 17, 14],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1786454452859639", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FCl_ssico.png?alt=media&v=1786370726545874", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651871199159", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651872673152", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F05%20-%20Ambu.png?alt=media&v=1786651872707676", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FGaleria%2FLinha%20do%20Tempo%2F06%20-%203%C2%AA%20Temporada.png?alt=media&v=1786651872746667", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F4__Temporada.png?alt=media&v=1784658587696755", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FLuta_contra_os_Kages.png?alt=media&token=19f7261e-95ea-44b5-8892-4b9165616ab8&v=1785778195230", caption: "Luta contra os Kages", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.jpeg?alt=media&v=1786981418240355", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1788277249547926", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FCl_ssico.png?alt=media&v=1788277245144616", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F1__Temporada.png?alt=media&v=1788277232020188", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F2__Temporada.png?alt=media&v=1788277234209848", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FAmbu.png?alt=media&v=1788277242728983", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F3__Temporada.png?alt=media&v=1788277236248227", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F4__Temporada.png?alt=media&v=1788277238743304", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FLuta_contra_os_Kages.png?alt=media&v=1788277247484628", caption: "Luta contra os Kages", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2F5__Temporada.png?alt=media&v=1788277240883187", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FReuni_o_dos_Kages.png?alt=media&v=1788277251621847", caption: "Reunião dos Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Oddy%20e%20Kuromi.png?alt=media&v=1784240354620281", caption: "Nascimentos - Nascimento de Oddy e Kuromi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-oddy-e-kuromi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240356193657", caption: "Nascimentos - Nascimento de Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
@@ -901,7 +902,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 9, dexterity: 18, agility: 7, intelligence: 7, spirit: 18, vigor: 18, perception: 18 },
     powers: [
@@ -1076,15 +1077,15 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FPr_logo.png?alt=media&v=1784658555583435", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FCl_ssico.png?alt=media&v=1786370732772004", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F1__Temporada.png?alt=media&v=1784579801884678", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F2__Temporada.png?alt=media&v=1784579804356218", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FAmbu.png?alt=media&v=1784579806879806", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_o_Omega.png?alt=media&v=1784579809561973", caption: "Luta contra o Omega", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F3__Temporada.png?alt=media&v=1784579812202149", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F4__Temporada.png?alt=media&v=1784579814862411", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_os_Kages.png?alt=media&v=1786370763032342", caption: "Luta contra os Kages", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FPr_logo.png?alt=media&v=1788277101811966", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FCl_ssico.png?alt=media&v=1788277096146711", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F1__Temporada.png?alt=media&v=1788277087255903", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F2__Temporada.png?alt=media&v=1788277088941335", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FAmbu.png?alt=media&v=1788277094105083", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_o_Omega.png?alt=media&v=1788277098046191", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F3__Temporada.png?alt=media&v=1788277090743590", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2F4__Temporada.png?alt=media&v=1788277092475862", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsumi%20Hyuga%2FLuta_contra_os_Kages.png?alt=media&v=1788277100055487", caption: "Luta contra os Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento_de_Katsumi.png?alt=media&v=1784750316421", caption: "Nascimentos - Nascimento de Katsumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-katsumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" },
@@ -1127,7 +1128,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 6, dexterity: 16, agility: 6, intelligence: 8, spirit: 16, vigor: 16, perception: 16 },
     powers: [
@@ -1287,13 +1288,13 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FPr_logo.png?alt=media&v=1784658585741971", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FCl_ssico.png?alt=media&v=1786370728817391", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F02%20-%201%C2%AA%20Temporada.png?alt=media&v=1786651877205683", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F03%20-%202%C2%AA%20Temporada.png?alt=media&v=1786651877190422", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FGaleria%2FLinha%20do%20Tempo%2F04%20-%20Ambu.png?alt=media&v=1786651878717683", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F3__Temporada.png?alt=media&v=1786454450385307", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F4__Temporada.png?alt=media&v=1784658584260783", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FPr_logo.png?alt=media&v=1788277189015994", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FCl_ssico.png?alt=media&v=1788277187332252", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F1__Temporada.png?alt=media&v=1788277178326209", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F2__Temporada.png?alt=media&v=1788277179934554", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2FAmbu.png?alt=media&v=1788277185412520", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F3__Temporada.png?alt=media&v=1788277181874977", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNajin%20Hatake%2F4__Temporada.png?alt=media&v=1788277183761969", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1784240353667278", caption: "Nascimentos - Nascimento de Najin e Takeshi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-najin-e-takeshi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173", caption: "Apresentações - Apresentação de Takeshi e Najin", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387", caption: "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi" },
@@ -1335,7 +1336,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 16, dexterity: 6, agility: 16, intelligence: 9, spirit: 15, vigor: 16, perception: 6 },
     powers: [
@@ -1446,15 +1447,15 @@ export const initialData: Character[] = [
     ],
     arsenal: [15, 16, 18, 13],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1784658775265048", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1786370721697470", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F1__Temporada.png?alt=media&v=1784579820193594", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F2__Temporada.png?alt=media&v=1784579822782599", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FAmbu.png?alt=media&v=1784658608995206", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FLuta_contra_o_Omega.png?alt=media&v=1786454447744733", caption: "Luta contra o Omega", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F3__Temporada.png?alt=media&v=1784658604434695", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F4__Temporada.png?alt=media&v=1784658606921125", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F5__Temporada.png?alt=media&v=1786370792667214", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1788277376872596", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1788277373279868", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F1__Temporada.png?alt=media&v=1788277362590240", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F2__Temporada.png?alt=media&v=1788277364161797", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FAmbu.png?alt=media&v=1788277371578918", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FLuta_contra_o_Omega.png?alt=media&v=1788277375143212", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F3__Temporada.png?alt=media&v=1788277365869594", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F4__Temporada.png?alt=media&v=1788277367635825", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2F5__Temporada.png?alt=media&v=1788277369552076", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1784240353667278", caption: "Nascimentos - Nascimento de Najin e Takeshi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-najin-e-takeshi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173", caption: "Apresentações - Apresentação de Takeshi e Najin", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387", caption: "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi" },
@@ -1489,7 +1490,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 15, spirit: 18, vigor: 13, perception: 18 },
     powers: [
@@ -1538,12 +1539,12 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.png?alt=media&v=1788276585476756",
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1784658602065060", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FCl_ssico.png?alt=media&v=1786370723909827", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F1__Temporada.png?alt=media&v=1784579833440494", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F2__Temporada.png?alt=media&v=1784579836036249", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FAmbu.png?alt=media&v=1784579838698504", caption: "Ambu", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FLuta_contra_o_Omega.png?alt=media&v=1784658599993727", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1788277355394872", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FCl_ssico.png?alt=media&v=1788277352002695", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F1__Temporada.png?alt=media&v=1788277346485409", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2F2__Temporada.png?alt=media&v=1788277348480401", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FAmbu.png?alt=media&v=1788277350210269", caption: "Ambu", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FLuta_contra_o_Omega.png?alt=media&v=1788277353746023", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745743430187", caption: "Nascimentos - Nascimento de Shoei e Apollo", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-shoei-e-apollo" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745739390926", caption: "Apresentações - Apresentação de Shoei e Apollo", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__tobirama-conversando-com-shoei" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937", caption: "Primeiras Missões - Naoki, Shoei, Apollo e Kuromi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi" },
@@ -1578,7 +1579,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 4, dexterity: 12, agility: 4, intelligence: 9, spirit: 11, vigor: 8, perception: 12 },
     powers: [
@@ -1718,17 +1719,17 @@ export const initialData: Character[] = [
     ],
     arsenal: [19, 20, 49],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FPr_logo.png?alt=media&v=1784658547841356", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1786370783777480", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F1__Temporada.png?alt=media&v=1784658537782136", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F2__Temporada.png?alt=media&v=1784658540232570", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F3__Temporada.png?alt=media&v=1784658542974015", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F4__Temporada.png?alt=media&v=1784658545291662", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F5__Temporada.png?alt=media&v=1786479671087996", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FPr_logo.png?alt=media&v=1788276992361762", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1788276990378413", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F1__Temporada.png?alt=media&v=1788276978848443", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F2__Temporada.png?alt=media&v=1788276981165984", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F3__Temporada.png?alt=media&v=1788276983390340", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F4__Temporada.png?alt=media&v=1788276985850839", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2F5__Temporada.png?alt=media&v=1788276988104570", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FEquipe%2040_.png?alt=media&v=1784240331794783", caption: "Início - Equipe 40%", category: "evento", season: "1ª Temporada", eventId: "7sGURt47CMoguA19sy4C" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033", caption: "Início - Os 7 de Konoha VS Equipe 40%", category: "evento", season: "1ª Temporada", eventId: "1-temporada__inicio__os-7-de-konoha-vs-equipe-40" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975", caption: "Início - Os 7 de Konoha derrotam os Robos", category: "evento", season: "1ª Temporada", eventId: "NxFSZXETJh6PjNXggwy2" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330", caption: "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados", category: "evento", season: "1ª Temporada", eventId: "LPg3ZhP6Jbm40ilbY1mj" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330", caption: "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados", category: "evento", season: "1ª Temporada", eventId: "LPg3ZhP6Jbm40ilbY1mj" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
     powers: [
@@ -1785,15 +1786,15 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FPr_logo.png?alt=media&v=1784658565874696", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FCl_ssico.png?alt=media&v=1786370760579906", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F1__Temporada.png?alt=media&v=1784658558132242", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F2__Temporada.png?alt=media&v=1784658560720202", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FLuta_contra_o_Omega.png?alt=media&v=1784658563457575", caption: "Luta contra o Omega", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FPr_logo.png?alt=media&v=1788277114499205", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FCl_ssico.png?alt=media&v=1788277111084569", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F1__Temporada.png?alt=media&v=1788277107393750", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F2__Temporada.png?alt=media&v=1788277109105392", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2FLuta_contra_o_Omega.png?alt=media&v=1788277112832201", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FEquipe%2040_.png?alt=media&v=1784240331794783", caption: "Início - Equipe 40%", category: "evento", season: "1ª Temporada", eventId: "7sGURt47CMoguA19sy4C" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20VS%20Equipe%2040_.png?alt=media&v=1784240370323033", caption: "Início - Os 7 de Konoha VS Equipe 40%", category: "evento", season: "1ª Temporada", eventId: "1-temporada__inicio__os-7-de-konoha-vs-equipe-40" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20derrotam%20os%20Robos.png?alt=media&v=1784240365284975", caption: "Início - Os 7 de Konoha derrotam os Robos", category: "evento", season: "1ª Temporada", eventId: "NxFSZXETJh6PjNXggwy2" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330", caption: "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados", category: "evento", season: "1ª Temporada", eventId: "LPg3ZhP6Jbm40ilbY1mj" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1784240335575330", caption: "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados", category: "evento", season: "1ª Temporada", eventId: "LPg3ZhP6Jbm40ilbY1mj" },
     ],
     stats: { strength: 12, dexterity: 4, agility: 12, intelligence: 4, spirit: 12, vigor: 12, perception: 4 },
     powers: [
@@ -1883,9 +1884,9 @@ export const initialData: Character[] = [
     ],
     arsenal: [24, 25, 26, 28, 29, 30],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F3__Temporada.png?alt=media&v=1784658568643724", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1786454439977012", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F5__Temporada.png?alt=media&v=1786454442641936", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F3__Temporada.png?alt=media&v=1788277116449923", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1788277118454406", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F5__Temporada.png?alt=media&v=1788277120503664", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 18, spirit: 10, vigor: 18, perception: 7 },
     powers: [
@@ -1995,16 +1996,16 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FPr_logo.png?alt=media&v=1784751292122", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FCl_ssico.png?alt=media&v=1786370736814790", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2F3__Temporada.png?alt=media&v=1784665841541310", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FPr_logo.png?alt=media&v=1788276872507035", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2FCl_ssico.png?alt=media&v=1788276869842419", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAiri%20Senju%2F4__Temporada.png?alt=media&v=1788276866828848", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Airi.png?alt=media&v=1784240352969066", caption: "Nascimentos - Nascimento de Airi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-airi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Airi_%20Hisoka%20e%20Naomi.png?alt=media&v=1784240324673237", caption: "Apresentações - Apresentação de Airi, Hisoka e Naomi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-airi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNishinoya_%20Oddy_%20Katsumi%20e%20Airi.png?alt=media&v=1784240358202895", caption: "Primeiras Missões - Nishinoya, Oddy, Katsumi e Airi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-oddy-katsumi-e-airi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
     powers: [
@@ -2105,12 +2106,12 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2FPr_logo.png?alt=media&v=1784751310559", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2FCl_ssico.png?alt=media&v=1784751309226", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F1__Temporada.png?alt=media&v=1784751303556", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F2__Temporada.png?alt=media&v=1784751304983", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F4__Temporada.png?alt=media&v=1784751306506", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F5__Temporada.png?alt=media&v=1784751307911", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2FPr_logo.png?alt=media&v=1788276934052260", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2FCl_ssico.png?alt=media&v=1788276931537179", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F1__Temporada.png?alt=media&v=1788276921266735", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F2__Temporada.png?alt=media&v=1788276923881847", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F4__Temporada.png?alt=media&v=1788276926451169", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyumi%20Uchiha%2F5__Temporada.png?alt=media&v=1788276929158842", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240356193657", caption: "Nascimentos - Nascimento de Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FHisoka_%20Nagare_%20Kaito%20e%20Ayumi.png?alt=media&v=1784240338344000", caption: "Primeiras Missões - Hisoka, Nagare, Kaito e Ayumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-nagare-kaito-e-ayumi" },
@@ -2118,7 +2119,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FExame%20Chunin%2FOitavas%2FKaito%20VS%20Ayumi.png?alt=media&v=1784240346053279", caption: "Exame Chunin - Oitavas - Kaito VS Ayumi", category: "evento", season: "1ª Temporada", eventId: "1-temporada__exame-chunin__oitavas__kaito-vs-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 10, spirit: 18, vigor: 18, perception: 18 },
     powers: [
@@ -2209,15 +2210,15 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2FPr_logo.png?alt=media&v=1784751367539", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2FCl_ssico.png?alt=media&v=1784751366684", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F1__Temporada.png?alt=media&v=1784751361241", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F2__Temporada.png?alt=media&v=1784751362639", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F4__Temporada.png?alt=media&v=1784751364128", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F5__Temporada.png?alt=media&v=1784751365273", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2FPr_logo.png?alt=media&v=1788277335982446", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2FCl_ssico.png?alt=media&v=1788277334113857", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F1__Temporada.png?alt=media&v=1788277326259850", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F2__Temporada.png?alt=media&v=1788277328009116", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F4__Temporada.png?alt=media&v=1788277330004365", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizumi%20Uchiha%2F5__Temporada.png?alt=media&v=1788277332017903", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240356193657", caption: "Nascimentos - Nascimento de Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387", caption: "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387", caption: "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
     powers: [
@@ -2321,15 +2322,15 @@ export const initialData: Character[] = [
     ],
     arsenal: [33, 40, 41],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FPr_logo.png?alt=media&v=1784751331220", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FCl_ssico.png?alt=media&v=1786370739058376", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F1__Temporada.png?alt=media&v=1784751325422", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F4__Temporada.png?alt=media&v=1784751326929", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F5__Temporada.png?alt=media&v=1784751328466", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FPr_logo.png?alt=media&v=1788277137613250", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FCl_ssico.png?alt=media&v=1788277135984507", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F1__Temporada.png?alt=media&v=1788277130199602", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F4__Temporada.png?alt=media&v=1788277132203149", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2F5__Temporada.png?alt=media&v=1788277134240162", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Oddy%20e%20Kuromi.png?alt=media&v=1784240354620281", caption: "Nascimentos - Nascimento de Oddy e Kuromi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-oddy-e-kuromi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240356193657", caption: "Nascimentos - Nascimento de Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937", caption: "Primeiras Missões - Naoki, Shoei, Apollo e Kuromi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937", caption: "Primeiras Missões - Naoki, Shoei, Apollo e Kuromi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi" },
     ],
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
@@ -2452,14 +2453,14 @@ export const initialData: Character[] = [
     ],
     arsenal: [43],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2FPr_logo.png?alt=media&v=1784658534789158", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2FCl_ssico.png?alt=media&v=1784751302134", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F1__Temporada.png?alt=media&v=1784751297490", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F4__Temporada.png?alt=media&v=1784751299027", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F5__Temporada.png?alt=media&v=1784751300695", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2FPr_logo.png?alt=media&v=1788276902297821", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2FCl_ssico.png?alt=media&v=1788276899888085", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F1__Temporada.png?alt=media&v=1788276891078758", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F4__Temporada.png?alt=media&v=1788276893931596", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2F5__Temporada.png?alt=media&v=1788276897124501", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745743430187", caption: "Nascimentos - Nascimento de Shoei e Apollo", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-shoei-e-apollo" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Shoei%20e%20Apollo.png?alt=media&v=1784745739390926", caption: "Apresentações - Apresentação de Shoei e Apollo", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__tobirama-conversando-com-shoei" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937", caption: "Primeiras Missões - Naoki, Shoei, Apollo e Kuromi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FNaoki_%20Shoei_%20Apollo%20e%20Kuromi.png?alt=media&v=1784240351536937", caption: "Primeiras Missões - Naoki, Shoei, Apollo e Kuromi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-shoei-apollo-e-kuromi" },
     ],
     stats: { strength: 24, dexterity: 9, agility: 24, intelligence: 18, spirit: 24, vigor: 24, perception: 9 },
     powers: [
@@ -2560,16 +2561,17 @@ export const initialData: Character[] = [
     ],
     arsenal: [36, 45],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FPr_logo.png?alt=media&v=1784569527682750", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FCl_ssico.png?alt=media&v=1784569525287575", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F3__Temporada.png?alt=media&v=1784569520193805", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F4__Temporada.png?alt=media&v=1786370769267296", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&token=8d6cbf75-9b4e-4751-a708-c875c18e1ae6&v=1785765028095", caption: "Luta contra os Kages", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786454434901752", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FPr_logo.png?alt=media&v=1788277216033263", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FCl_ssico.png?alt=media&v=1788277212103828", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F3__Temporada.png?alt=media&v=1788277205728298", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F4__Temporada.png?alt=media&v=1788277208186692", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FLuta_contra_os_Kages.png?alt=media&v=1788277214229574", caption: "Luta contra os Kages", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2F5__Temporada.png?alt=media&v=1788277210101001", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FReuni_o_dos_Kages.png?alt=media&v=1788277203781958", caption: "Reunião dos Kages", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNaomi%20Uzumaki%2FModo%20S%C3%A1bio.png?alt=media&v=1787068553699113", caption: "Modo Sábio", category: "transformacao" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Airi_%20Hisoka%20e%20Naomi.png?alt=media&v=1784240324673237", caption: "Apresentações - Apresentação de Airi, Hisoka e Naomi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-airi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1784745046581094", caption: "Próxima Geração - Nishinoya, Naoki, Hisoka, Ryuta e Naomi", category: "evento", season: "Prólogo", eventId: "WWkGeyfd1b7wAlFhLxIX" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1784745046581094", caption: "Próxima Geração - Nishinoya, Naoki, Hisoka, Ryuta e Naomi", category: "evento", season: "Prólogo", eventId: "WWkGeyfd1b7wAlFhLxIX" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 27, spirit: 30, vigor: 27, perception: 30 },
     powers: [
@@ -2690,12 +2692,12 @@ export const initialData: Character[] = [
     ],
     arsenal: [31],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2FPr_logo.png?alt=media&v=1784569517901038", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2FCl_ssico.png?alt=media&v=1784569515546745", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F1__Temporada.png?alt=media&v=1784751334238", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F2__Temporada.png?alt=media&v=1784569513074564", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F3__Temporada.png?alt=media&v=1784751335715", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F5__Temporada.png?alt=media&v=1784751337660", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2FPr_logo.png?alt=media&v=1788277201797821", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2FCl_ssico.png?alt=media&v=1788277200066871", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F1__Temporada.png?alt=media&v=1788277192675934", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F2__Temporada.png?alt=media&v=1788277194651041", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F3__Temporada.png?alt=media&v=1788277196446506", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2F5__Temporada.png?alt=media&v=1788277198334326", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNaoki_treinando_com_Madara.png?alt=media&v=1785168629025", caption: "Próxima Geração - Naoki treinando com Madara", category: "evento", season: "Prólogo", eventId: "IhreiTYi6xhZbgbIc0Xj" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1784745046581094", caption: "Próxima Geração - Nishinoya, Naoki, Hisoka, Ryuta e Naomi", category: "evento", season: "Prólogo", eventId: "WWkGeyfd1b7wAlFhLxIX" },
@@ -2714,7 +2716,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
@@ -2770,11 +2772,11 @@ export const initialData: Character[] = [
       },
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2FPr_logo.png?alt=media&v=1784569496247360", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2FCl_ssico.png?alt=media&v=1784569493683142", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F1__Temporada.png?alt=media&v=1784751315158", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F2__Temporada.png?alt=media&v=1786454432200558", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F5__Temporada.png?alt=media&v=1784751316709", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2FPr_logo.png?alt=media&v=1788277046086728", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2FCl_ssico.png?alt=media&v=1788277044250722", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F1__Temporada.png?alt=media&v=1788277038197431", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F2__Temporada.png?alt=media&v=1788277040206610", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHisoka%20Senju%2F5__Temporada.png?alt=media&v=1788277042355930", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Airi_%20Hisoka%20e%20Naomi.png?alt=media&v=1784240324673237", caption: "Apresentações - Apresentação de Airi, Hisoka e Naomi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-airi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FHisoka%20treinando%20com%20Hashirama.png?alt=media&v=1784240334310274", caption: "Próxima Geração - Hisoka treinando com Hashirama", category: "evento", season: "Prólogo", eventId: "mljqWCfErX8fSv3QhyZc" },
@@ -2794,7 +2796,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20curam%20Kaito.png?alt=media&v=1784240328097374", caption: "Base do F - Ayumi e Airi curam Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-curam-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FAyumi%20e%20Airi%20tentam%20recuperar%20vis%C3%A3o%20de%20Kaito.png?alt=media&v=1784240328190581", caption: "Base do F - Ayumi e Airi tentam recuperar visão de Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__ayumi-e-airi-tentam-recuperar-visao-de-kaito" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20cego.png?alt=media&v=1784240342475496", caption: "Base do F - Kaito está cego", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-cego" },
     ],
     stats: { strength: 11, dexterity: 28, agility: 11, intelligence: 28, spirit: 22, vigor: 28, perception: 28 },
     powers: [
@@ -2829,15 +2831,15 @@ export const initialData: Character[] = [
     description: "",
     hp: 130,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1788276567552732",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1788277451876578",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FPr_logo.png?alt=media&v=1784751344945", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FCl_ssico.png?alt=media&v=1784751343505", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2F1__Temporada.png?alt=media&v=1784751342091", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FPr_logo.png?alt=media&v=1788277287927340", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FCl_ssico.png?alt=media&v=1788277285942393", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2F1__Temporada.png?alt=media&v=1788277283961287", caption: "1ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1784745046581094", caption: "Próxima Geração - Nishinoya, Naoki, Hisoka, Ryuta e Naomi", category: "evento", season: "Prólogo", eventId: "WWkGeyfd1b7wAlFhLxIX" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387", caption: "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPrimeiras%20Miss%C3%B5es%2FRyuta_%20Najin_%20Takeshi%20e%20Shizumi.png?alt=media&v=1784240375411387", caption: "Primeiras Missões - Ryuta, Najin, Takeshi e Shizumi", category: "evento", season: "Clássico", eventId: "prologo__primeiras-missoes__primeira-missao-de-najin-takeshi-e-shizumi" },
     ],
     stats: {
       strength: 18,
@@ -2941,12 +2943,12 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2FPr_logo.png?alt=media&v=1784569544304314", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F1__Temporada.png?alt=media&v=1784751340626", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F2__Temporada.png?alt=media&v=1784569541710133", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2FCl_ssico.png?alt=media&v=1788277282160439", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F1__Temporada.png?alt=media&v=1788277278126931", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRock%20Gunma%2F2__Temporada.png?alt=media&v=1788277280200979", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Jinchuurikis%20de%20Gyomei%20e%20Son%20Goku.png?alt=media&v=1784240371350884", caption: "Reunindo reforços - Os Jinchuurikis de Gyomei e Son Goku", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__os-jinchuurikis-de-gyomei-e-son-goku" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959", caption: "Reunindo reforços - Os Mestres do Ranton", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809", caption: "Reunindo reforços - Retorno a Konoha com reforços", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809", caption: "Reunindo reforços - Retorno a Konoha com reforços", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos" },
     ],
     stats: { strength: 12, dexterity: 29, agility: 12, intelligence: 29, spirit: 22, vigor: 29, perception: 29 },
     powers: [
@@ -3011,11 +3013,11 @@ export const initialData: Character[] = [
     ],
     arsenal: [83],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F2__Temporada.png?alt=media&v=1786479684868340", caption: "2ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F3__Temporada.png?alt=media&v=1786479687217046", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F5__Temporada.png?alt=media&v=1786479689458849", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F2__Temporada.png?alt=media&v=1788277031502483", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F3__Temporada.png?alt=media&v=1788277033712866", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F5__Temporada.png?alt=media&v=1788277036030595", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FOs%20Mestres%20do%20Ranton.png?alt=media&v=1784240372199959", caption: "Reunindo reforços - Os Mestres do Ranton", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__os-mestres-do-ranton" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809", caption: "Reunindo reforços - Retorno a Konoha com reforços", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FReunindo%20refor%C3%A7os%2FRetorno%20a%20Konoha%20com%20refor%C3%A7os.png?alt=media&v=1784240374510809", caption: "Reunindo reforços - Retorno a Konoha com reforços", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__reunindo-reforcos__retorno-a-konoha-com-reforcos" },
     ],
     stats: { strength: 11, dexterity: 28, agility: 11, intelligence: 28, spirit: 28, vigor: 22, perception: 28 },
     powers: [
@@ -3055,11 +3057,11 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTobirama%20Senju%2FTobirama%20Senju.png?alt=media&v=1788276592336073",
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FPr_logo.png?alt=media&v=1784579842794518", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FCl_ssico.png?alt=media&v=1784579845339511", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FSegundo_Hokage.png?alt=media&v=1787158067478818", caption: "Segundo Hokage", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1786479673629960", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FLuta_contra_o_Hades.png?alt=media&v=1786479675492581", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FPr_logo.png?alt=media&v=1788277391571676", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FCl_ssico.png?alt=media&v=1788277388134315", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FSegundo_Hokage.png?alt=media&v=1788277393815950", caption: "Segundo Hokage", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2F1__Temporada.png?alt=media&v=1788277386459026", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FLuta_contra_o_Hades.png?alt=media&v=1788277389988771", caption: "Luta contra o Hades", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854", caption: "Nascimentos - Nascimento de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240324232973", caption: "Apresentações - Apresentação de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
@@ -3067,7 +3069,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%20treinando%20Hiraishin%20com%20Tobirama.png?alt=media&v=1784240355616010", caption: "Próxima Geração - Nishinoya treinando Hiraishin com Tobirama", category: "evento", season: "Prólogo", eventId: "lTDlQG6Vp6BNFPkJxip3" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%20treinando%20Katon%20com%20Tobirama.png?alt=media&v=1784240355760464", caption: "Próxima Geração - Nishinoya treinando Katon com Tobirama", category: "evento", season: "Prólogo", eventId: "vivGYMAsx981zU2HSSKC" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Tobirama.png?alt=media&v=1784240339463439", caption: "Academia Ninja - Kaito e Tobirama", category: "evento", season: "Clássico", eventId: "prologo__treinamentos__kaito-e-tobirama" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FAcademia%20Ninja%2FKaito%20e%20Tobirama.png?alt=media&v=1784240339463439", caption: "Academia Ninja - Kaito e Tobirama", category: "evento", season: "Clássico", eventId: "prologo__treinamentos__kaito-e-tobirama" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 30, vigor: 24, perception: 30 },
     powers: [
@@ -3107,11 +3109,11 @@ export const initialData: Character[] = [
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSho%20Uchiha%2FSho%20Uchiha.png?alt=media&v=1788276583824198",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FPr_logo.png?alt=media&v=1786479677615964", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FCl_ssico.png?alt=media&v=1786479680116806", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2F2__Temporada.png?alt=media&v=1784569559841890", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FLuta_contra_o_Hades.png?alt=media&v=1786371788573376", caption: "Luta contra o Hades", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FPr_logo.png?alt=media&v=1788277344826616", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FCl_ssico.png?alt=media&v=1788277341423272", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2F1__Temporada.png?alt=media&v=1788277339548165", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FLuta_contra_o_Hades.png?alt=media&v=1788277343134112", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
     ],
     stats: { strength: 29, dexterity: 12, agility: 29, intelligence: 22, spirit: 29, vigor: 29, perception: 12 },
     powers: [
@@ -3157,13 +3159,13 @@ export const initialData: Character[] = [
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.png?alt=media&v=1788276492134486",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FPr_logo.png?alt=media&v=1786479682310868", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FCl_ssico.png?alt=media&v=1784569503443462", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2F1__Temporada.png?alt=media&v=1784569498466720", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1786371785979793", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FPr_logo.png?alt=media&v=1788277054228943", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FCl_ssico.png?alt=media&v=1788277050236959", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2F1__Temporada.png?alt=media&v=1788277048371497", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1788277052019722", caption: "Luta contra o Hades", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento_de_Katsumi.png?alt=media&v=1784750316421", caption: "Nascimentos - Nascimento de Katsumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-katsumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" },
     ],
     stats: { strength: 12, dexterity: 29, agility: 12, intelligence: 29, spirit: 22, vigor: 29, perception: 29 },
     powers: [
@@ -3206,18 +3208,18 @@ export const initialData: Character[] = [
     chakra: 128,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYumi%20Uzumaki%2FYumi%20Uzumaki.png?alt=media&v=1788276601690770",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FPr_logo.png?alt=media&v=1786370790600154", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FCl_ssico.png?alt=media&v=1786370776418716", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F1__Temporada.png?alt=media&v=1786454445275654", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FLuta_contra_o_Hades.png?alt=media&v=1786371783301613", caption: "Luta contra o Hades", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F3__Temporada.png?alt=media&v=1786370795205997", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F4__Temporada.png?alt=media&v=1784751371543", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F5__Temporada.png?alt=media&v=1786370764835642", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FPr_logo.png?alt=media&v=1788277421551308", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FCl_ssico.png?alt=media&v=1788277418083896", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F1__Temporada.png?alt=media&v=1788277410794979", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FLuta_contra_o_Hades.png?alt=media&v=1788277419853622", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F3__Temporada.png?alt=media&v=1788277412681636", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F4__Temporada.png?alt=media&v=1788277414395008", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2F5__Temporada.png?alt=media&v=1788277416184229", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240352575854", caption: "Nascimentos - Nascimento de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Kaito%20e%20Nagare.png?alt=media&v=1784240324232973", caption: "Apresentações - Apresentação de Kaito e Nagare", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-kaito-e-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FCasa%20Senju.png?alt=media&v=1784240328151860", caption: "Famílias - Casa Senju", category: "evento", season: "Prólogo", eventId: "pBLmHzr0sLVwiyuZHZXs" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" },
     ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
@@ -3259,13 +3261,13 @@ export const initialData: Character[] = [
     killedBy: "Omega",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAsami%20Hyuga%2FAsami%20Hyuga.png?alt=media&v=1788276418842690",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FPr_logo.png?alt=media&v=1786370766999582", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FCl_ssico.png?alt=media&v=1786370743567501", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2F1__Temporada.png?alt=media&v=1786370758297745", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1786370797824733", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FPr_logo.png?alt=media&v=1788276915548211", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FCl_ssico.png?alt=media&v=1788276910209832", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2F1__Temporada.png?alt=media&v=1788276907594947", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FLuta_contra_o_Hades.png?alt=media&v=1788276912831989", caption: "Luta contra o Hades", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento_de_Katsumi.png?alt=media&v=1784750316421", caption: "Nascimentos - Nascimento de Katsumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-katsumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" },
     ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 18, spirit: 25, vigor: 25, perception: 25 },
     powers: [
@@ -3305,11 +3307,11 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaizuka%20Hyuga%2FKaizuka%20Hyuga.png?alt=media&v=1788276500962581",
     arsenal: [32],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2FPr_logo.png?alt=media&v=1784751319598", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F3__Temporada.png?alt=media&v=1787071799896590", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F5__Temporada.png?alt=media&v=1784751318175", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2FPr_logo.png?alt=media&v=1788277083597170", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F3__Temporada.png?alt=media&v=1788277079492360", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F5__Temporada.png?alt=media&v=1788277081824301", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 30, spirit: 24, vigor: 30, perception: 30 },
     powers: [
@@ -3393,13 +3395,13 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FPr_logo.png?alt=media&v=1785263395668", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FCl_ssico.png?alt=media&v=1785263391691", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2F1__Temporada.png?alt=media&v=1785263387848", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FLuta_contra_o_Hades.png?alt=media&v=1785263393623", caption: "Luta contra o Hades", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2F2__Temporada.png?alt=media&v=1785263389785", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FPr_logo.png?alt=media&v=1788277264812038", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FCl_ssico.png?alt=media&v=1788277260184781", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2F1__Temporada.png?alt=media&v=1788277255981018", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2FLuta_contra_o_Hades.png?alt=media&v=1788277262371267", caption: "Luta contra o Hades", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaikun%20Hatake%2F2__Temporada.png?alt=media&v=1788277258091860", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1784240353667278", caption: "Nascimentos - Nascimento de Najin e Takeshi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-najin-e-takeshi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173", caption: "Apresentações - Apresentação de Takeshi e Najin", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1784240324620173", caption: "Apresentações - Apresentação de Takeshi e Najin", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama" },
     ],
     stats: { strength: 30, dexterity: 12, agility: 30, intelligence: 30, spirit: 24, vigor: 30, perception: 12 },
     powers: [
@@ -3503,13 +3505,13 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsuo%20Uzumaki%2F1__Temporada.png?alt=media&v=1784751321003", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsuo%20Uzumaki%2F5__Temporada.png?alt=media&v=1784751322513", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsuo%20Uzumaki%2F1__Temporada.png?alt=media&v=1788277103713810", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKatsuo%20Uzumaki%2F5__Temporada.png?alt=media&v=1788277105623601", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20e%20Katsuo%20v%C3%A3o%20atr%C3%A1s%20dela.png?alt=media&v=1784240367063714", caption: "Início - Os 7 de Konoha e Katsuo vão atrás dela", category: "evento", season: "1ª Temporada", eventId: "1-temporada__inicio__os-7-de-konoha-e-katsuo-vao-atras-dela" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FO%20acampamento%20da%20Ambu.png?alt=media&v=1784240358655463", caption: "Início - O acampamento da Ambu", category: "evento", season: "1ª Temporada", eventId: "mwiqbH4poB4O4VkNoctJ" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FOs%207%20de%20Konoha%20dormem%20no%20acampamento%20da%20Ambu.png?alt=media&v=1784240366195540", caption: "Início - Os 7 de Konoha dormem no acampamento da Ambu", category: "evento", season: "1ª Temporada", eventId: "iPALRrrtWANQc8GXKv9t" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273", caption: "Início - Todos da Ambu desmaiam", category: "evento", season: "1ª Temporada", eventId: "0vY1igdFWYE5xfh859Mg" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FIn%C3%ADcio%2FTodos%20da%20Ambu%20desmaiam.png?alt=media&v=1784240376459273", caption: "Início - Todos da Ambu desmaiam", category: "evento", season: "1ª Temporada", eventId: "0vY1igdFWYE5xfh859Mg" },
     ],
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 20, vigor: 27, perception: 27 },
     powers: [
@@ -3551,9 +3553,9 @@ export const initialData: Character[] = [
     chakra: 137,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1788276569692211",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2FPr%C3%B3logo.png?alt=media&v=1786038793699", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2F5%C2%AA%20Temporada.png?alt=media&v=1786038795533", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2FPr_logo.png?alt=media&v=1788277291903356", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2F5__Temporada.png?alt=media&v=1788277290163284", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
     ],
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
@@ -3678,11 +3680,11 @@ export const initialData: Character[] = [
     ],
     arsenal: [42],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2FPr_logo.png?alt=media&v=1784751349125", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2FCl_ssico.png?alt=media&v=1784751347894", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F1__Temporada.png?alt=media&v=1784658591854338", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F4__Temporada.png?alt=media&v=1784658594089126", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F5__Temporada.png?alt=media&v=1784751346459", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2FPr_logo.png?alt=media&v=1788277306426818", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2FCl_ssico.png?alt=media&v=1788277304603272", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F1__Temporada.png?alt=media&v=1788277298927043", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F4__Temporada.png?alt=media&v=1788277300755119", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2F5__Temporada.png?alt=media&v=1788277302701218", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [
@@ -3742,11 +3744,11 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2FPr_logo.png?alt=media&v=1784751355720", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2FCl_ssico.png?alt=media&v=1784751354566", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F1__Temporada.png?alt=media&v=1784751350558", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F3__Temporada.png?alt=media&v=1784751352005", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F5__Temporada.png?alt=media&v=1784751353422", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2FPr_logo.png?alt=media&v=1788277316888906", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2FCl_ssico.png?alt=media&v=1788277314604889", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F1__Temporada.png?alt=media&v=1788277308335047", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F3__Temporada.png?alt=media&v=1788277310070560", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikatsu%20Nara%20(Togo%20Kage)%2F5__Temporada.png?alt=media&v=1788277312340323", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 20, spirit: 27, vigor: 27, perception: 27 },
     powers: [
@@ -3791,7 +3793,7 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.png?alt=media&v=1788276486267292",
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHirato%20Ishi%2F2__Temporada.png?alt=media&v=1784665887463666", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHirato%20Ishi%2F2__Temporada.png?alt=media&v=1788277029398506", caption: "2ª Temporada", category: "era" },
     ],
     stats: { strength: 20, dexterity: 8, agility: 20, intelligence: 20, spirit: 20, vigor: 12, perception: 8 },
     powers: [
@@ -3833,7 +3835,7 @@ export const initialData: Character[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.png?alt=media&v=1788276482578419",
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHikaru%20Ishi%2F2__Temporada.png?alt=media&v=1784665885201237", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHikaru%20Ishi%2F2__Temporada.png?alt=media&v=1788277025206443", caption: "2ª Temporada", category: "era" },
     ],
     stats: { strength: 8, dexterity: 20, agility: 8, intelligence: 20, spirit: 20, vigor: 12, perception: 20 },
     powers: [
@@ -4190,9 +4192,9 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F1__Temporada.png?alt=media&v=1784665893401007", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F4__Temporada.png?alt=media&v=1784658581849728", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F5__Temporada.png?alt=media&v=1784751332824", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F1__Temporada.png?alt=media&v=1788277172930694", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F4__Temporada.png?alt=media&v=1788277174618601", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagi%20Yuki%2F5__Temporada.png?alt=media&v=1788277176717533", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [
@@ -4282,9 +4284,9 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F1__Temporada.png?alt=media&v=1784665900580592", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F4__Temporada.png?alt=media&v=1784658611008184", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F5__Temporada.png?alt=media&v=1784751368845", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F1__Temporada.png?alt=media&v=1788277397555636", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F4__Temporada.png?alt=media&v=1788277399299528", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYasuo%20Kurogane%2F5__Temporada.png?alt=media&v=1788277401717004", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 20, spirit: 22, vigor: 18, perception: 22 },
     powers: [
@@ -4385,10 +4387,10 @@ export const initialData: Character[] = [
     ],
     arsenal: [63],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F4__Temporada.png?alt=media&v=1784569487205904", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F5__Temporada.png?alt=media&v=1784569489558874", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F4__Temporada.png?alt=media&v=1788277016617236", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F5__Temporada.png?alt=media&v=1788277018675536", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Sabaku.png?alt=media&v=1784240335828677", caption: "Famílias - Família Sabaku", category: "evento", season: "Prólogo", eventId: "CJmr7hbnLoIcclsCtoyi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 27, spirit: 30, vigor: 27, perception: 30 },
     powers: [
@@ -4495,9 +4497,9 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReto%20Sabaku%2F5__Temporada.png?alt=media&v=1784751339155", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReto%20Sabaku%2F5__Temporada.png?alt=media&v=1788277275961202", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Sabaku.png?alt=media&v=1784240335828677", caption: "Famílias - Família Sabaku", category: "evento", season: "Prólogo", eventId: "CJmr7hbnLoIcclsCtoyi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" },
     ],
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 23, spirit: 27, vigor: 24, perception: 27 },
     powers: [
@@ -4543,10 +4545,10 @@ export const initialData: Character[] = [
     techniques: [],
     arsenal: [59, 62],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2FCl_ssico.png?alt=media&v=1784569565103032", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2F4__Temporada.png?alt=media&v=1784569562464968", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2FCl_ssico.png?alt=media&v=1788277384752558", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2F4__Temporada.png?alt=media&v=1788277382628509", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Sabaku.png?alt=media&v=1784240335828677", caption: "Famílias - Família Sabaku", category: "evento", season: "Prólogo", eventId: "CJmr7hbnLoIcclsCtoyi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" },
     ],
     stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 16, spirit: 23, vigor: 23, perception: 23 },
     powers: [
@@ -4587,10 +4589,10 @@ export const initialData: Character[] = [
     techniques: [],
     arsenal: [57, 61],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2FCl_ssico.png?alt=media&v=1784569555078223", caption: "Clássico", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2F4__Temporada.png?alt=media&v=1784569553200186", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2FCl_ssico.png?alt=media&v=1788277295310959", caption: "Clássico", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2F4__Temporada.png?alt=media&v=1788277293745242", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Sabaku.png?alt=media&v=1784240335828677", caption: "Famílias - Família Sabaku", category: "evento", season: "Prólogo", eventId: "CJmr7hbnLoIcclsCtoyi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FSenjus%20e%20Sabakus.png?alt=media&v=1784240376386263", caption: "Famílias - Senjus e Sabakus", category: "evento", season: "Prólogo", eventId: "prologo__familias__senjus-e-sabakus" },
     ],
     stats: {
       strength: 8,
@@ -4638,8 +4640,8 @@ export const initialData: Character[] = [
     techniques: [],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F4__Temporada.png?alt=media&v=1786370786205551", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F5__Temporada.png?alt=media&v=1786370741290634", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F4__Temporada.png?alt=media&v=1788276946084262", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChigiri%20Chinoike%2F5__Temporada.png?alt=media&v=1788276948377840", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
@@ -4680,8 +4682,8 @@ export const initialData: Character[] = [
     techniques: [],
     arsenal: [60],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F4__Temporada.png?alt=media&v=1786370788456391", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F5__Temporada.png?alt=media&v=1786370750776362", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F4__Temporada.png?alt=media&v=1788277152191888", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F5__Temporada.png?alt=media&v=1788277154222496", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 23, spirit: 16, vigor: 23, perception: 23 },
     powers: [
@@ -4721,8 +4723,8 @@ export const initialData: Character[] = [
     techniques: [],
     arsenal: [58],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1786370753266721", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1786370781545317", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1788277378863320", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1788277380702312", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 25, dexterity: 10, agility: 25, intelligence: 25, spirit: 18, vigor: 25, perception: 10 },
 
@@ -4763,8 +4765,8 @@ export const initialData: Character[] = [
     techniques: [],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKurohime%20Kazeori%2F4__Temporada.png?alt=media&v=1786370755970816", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKurohime%20Kazeori%2F5__Temporada.png?alt=media&v=1786370746284487", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKurohime%20Kazeori%2F4__Temporada.png?alt=media&v=1788277126313125", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKurohime%20Kazeori%2F5__Temporada.png?alt=media&v=1788277128472073", caption: "5ª Temporada", category: "era" },
     ],
     stats: {
       strength: 21,
@@ -4885,8 +4887,8 @@ export const initialData: Character[] = [
     ],
     arsenal: [54, 64],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F4__Temporada.png?alt=media&v=1784658616065338", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1784751370128", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F4__Temporada.png?alt=media&v=1788277407148712", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1788277408964437", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
@@ -4973,7 +4975,7 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReito%20Kurogami%2F4__Temporada.png?alt=media&v=1784658589886957", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FReito%20Kurogami%2F4__Temporada.png?alt=media&v=1788277273803364", caption: "4ª Temporada", category: "era" },
     ],
     stats: { strength: 20, dexterity: 8, agility: 20, intelligence: 12, spirit: 20, vigor: 20, perception: 8 },
     powers: [
@@ -5058,8 +5060,8 @@ export const initialData: Character[] = [
     ],
     arsenal: [55, 56, 50],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F4__Temporada.png?alt=media&v=1784658613297962", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F5__Temporada.png?alt=media&v=1786370800271701", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F4__Temporada.png?alt=media&v=1788277403544660", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F5__Temporada.png?alt=media&v=1788277405401020", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 23, spirit: 23, vigor: 16, perception: 23 },
     powers: [
@@ -5136,8 +5138,8 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMika%20Yotsuki%2F4__Temporada.png?alt=media&v=1786370771946499", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMika%20Yotsuki%2F5__Temporada.png?alt=media&v=1786370802556277", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMika%20Yotsuki%2F4__Temporada.png?alt=media&v=1788277145870086", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMika%20Yotsuki%2F5__Temporada.png?alt=media&v=1788277147957945", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [
@@ -5237,8 +5239,8 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F4__Temporada.png?alt=media&v=1786370774357473", caption: "4ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F5__Temporada.png?alt=media&v=1786370778715377", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F4__Temporada.png?alt=media&v=1788276969561519", caption: "4ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnrai%20Hanzo%2F5__Temporada.png?alt=media&v=1788276972041412", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 26, spirit: 26, vigor: 20, perception: 10 },
     powers: [
@@ -5277,8 +5279,8 @@ export const initialData: Character[] = [
     chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1788276438137455",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1787158174217423", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1787158175750350", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1788276955156106", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1788276957394169", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
@@ -5316,7 +5318,7 @@ export const initialData: Character[] = [
     killedBy: "Hades",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKoji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media&v=1788276515656214",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKoji%20Ishizuma%2F3__Temporada.png?alt=media&v=1784751323948", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKoji%20Ishizuma%2F3__Temporada.png?alt=media&v=1788277124342841", caption: "3ª Temporada", category: "era" },
     ],
     stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 10, spirit: 18, vigor: 18, perception: 7 },
     powers: [
@@ -5367,7 +5369,7 @@ export const initialData: Character[] = [
       },
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuuto%20Han%2F3__Temporada.png?alt=media&v=1784751372606", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuuto%20Han%2F3__Temporada.png?alt=media&v=1788277423582451", caption: "3ª Temporada", category: "era" },
     ],
     stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 10, spirit: 18, vigor: 18, perception: 7 },
     powers: [
@@ -5406,7 +5408,7 @@ export const initialData: Character[] = [
     killedBy: "Hades",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShin%20Mizukari%2FShin%20Mizukari.png?alt=media&v=1788276578401136",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShin%20Mizukari%2F3__Temporada.png?alt=media&v=1784751360239", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShin%20Mizukari%2F3__Temporada.png?alt=media&v=1788277323840757", caption: "3ª Temporada", category: "era" },
     ],
     stats: { strength: 18, dexterity: 7, agility: 18, intelligence: 10, spirit: 18, vigor: 18, perception: 7 },
     powers: [
@@ -5459,8 +5461,8 @@ export const initialData: Character[] = [
       },
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikure%20Chinoike%2F3__Temporada.png?alt=media&v=1784751357179", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikure%20Chinoike%2F5__Temporada.png?alt=media&v=1784751358761", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikure%20Chinoike%2F3__Temporada.png?alt=media&v=1788277319194286", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikure%20Chinoike%2F5__Temporada.png?alt=media&v=1788277321619858", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 26, spirit: 26, vigor: 20, perception: 26 },
     powers: [
@@ -5499,8 +5501,8 @@ export const initialData: Character[] = [
     chakra: 85,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1788276407331793",
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F3__Temporada.png?alt=media&v=1784751293430", caption: "3ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F5__Temporada.png?alt=media&v=1784751295515", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F3__Temporada.png?alt=media&v=1788276882936359", caption: "3ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F5__Temporada.png?alt=media&v=1788276885711201", caption: "5ª Temporada", category: "era" },
     ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
@@ -5542,8 +5544,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FArashi%20Shidehara%2F5__Temporada.png?alt=media&v=1786652853136703", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FArashi%20Shidehara%2FShikigami%20no%20Mai.png?alt=media&v=1787068555647914", caption: "Shikigami no Mai", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FArashi%20Shidehara%2F5__Temporada.png?alt=media&v=1788276904936282", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FArashi%20Shidehara%2FShikigami%20no%20Mai.png?alt=media&v=1787068555647914", caption: "Shikigami no Mai", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5567,8 +5569,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizen%20Kurogane%2F5__Temporada.png?alt=media&v=1786652856297546", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaizen%20Kurogane%2FRaich%C5%AB%20Keshin.png?alt=media&v=1787068557598909", caption: "Raichū Keshin", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizen%20Kurogane%2F5__Temporada.png?alt=media&v=1788277267181710", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaizen%20Kurogane%2FRaich%C5%AB%20Keshin.png?alt=media&v=1787068557598909", caption: "Raichū Keshin", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5592,8 +5594,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaiden%20Yotsuki%2F5__Temporada.png?alt=media&v=1786652859868219", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaiden%20Yotsuki%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068559540311", caption: "Raiton no Yoroi", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaiden%20Yotsuki%2F5__Temporada.png?alt=media&v=1788277253872912", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaiden%20Yotsuki%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068559540311", caption: "Raiton no Yoroi", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5617,8 +5619,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGorai%20Arashiumi%2F5__Temporada.png?alt=media&v=1786652863530537", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGorai%20Arashiumi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068561534624", caption: "Raiton no Yoroi", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGorai%20Arashiumi%2F5__Temporada.png?alt=media&v=1788277009878487", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGorai%20Arashiumi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068561534624", caption: "Raiton no Yoroi", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5642,8 +5644,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNayara%20Kazemori%2F5__Temporada.png?alt=media&v=1786652867069868", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNayara%20Kazemori%2FTenshi%20no%20Keshin.png?alt=media&v=1787068563433413", caption: "Tenshi no Keshin", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNayara%20Kazemori%2F5__Temporada.png?alt=media&v=1788277218054103", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNayara%20Kazemori%2FTenshi%20no%20Keshin.png?alt=media&v=1787068563433413", caption: "Tenshi no Keshin", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5667,8 +5669,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizuru%20Kurogane%2F5__Temporada.png?alt=media&v=1786652870615570", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FShizuru%20Kurogane%2FAnrai%20Getsurin.png?alt=media&v=1787068565296598", caption: "Anrai Getsurin", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShizuru%20Kurogane%2F5__Temporada.png?alt=media&v=1788277337812038", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FShizuru%20Kurogane%2FAnrai%20Getsurin.png?alt=media&v=1787068565296598", caption: "Anrai Getsurin", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5692,8 +5694,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMidori%20Kurogane%2F5__Temporada.png?alt=media&v=1786652874174505", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMidori%20Kurogane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068567258618", caption: "Raiden Buki Ayatsuri", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMidori%20Kurogane%2F5__Temporada.png?alt=media&v=1788277143970036", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMidori%20Kurogane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068567258618", caption: "Raiden Buki Ayatsuri", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5717,8 +5719,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: ["Acuidade"],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKiyoshi%20Hagane%2F5__Temporada.png?alt=media&v=1786652877605366", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FKiyoshi%20Hagane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068569487831", caption: "Raiden Buki Ayatsuri", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKiyoshi%20Hagane%2F5__Temporada.png?alt=media&v=1788277122586179", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FKiyoshi%20Hagane%2FRaiden%20Buki%20Ayatsuri.png?alt=media&v=1787068569487831", caption: "Raiden Buki Ayatsuri", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5742,8 +5744,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkane%20Sumigami%2F5__Temporada.png?alt=media&v=1786652881046279", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAkane%20Sumigami%2FRaiei%20S%C5%8Dsei.png?alt=media&v=1787068571463916", caption: "Raiei Sōsei", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkane%20Sumigami%2F5__Temporada.png?alt=media&v=1788276880160666", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAkane%20Sumigami%2FRaiei%20S%C5%8Dsei.png?alt=media&v=1787068571463916", caption: "Raiei Sōsei", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5767,8 +5769,8 @@ export const initialData: Character[] = [
     powers: [],
     aptitudes: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FInazuma%20Kazuchi%2F5__Temporada.png?alt=media&v=1786652884656575", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FInazuma%20Kazuchi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068573119507", caption: "Raiton no Yoroi", category: "transformacao" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FInazuma%20Kazuchi%2F5__Temporada.png?alt=media&v=1788277056187636", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FInazuma%20Kazuchi%2FRaiton%20no%20Yoroi.png?alt=media&v=1787068573119507", caption: "Raiton no Yoroi", category: "transformacao" },
     ],
     birthVillage: "Kumogakure",
     timelineAppearance: "5ª Temporada",
@@ -5817,7 +5819,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmakumo%20H%C5%8Dzuki%2F5__Temporada.png?alt=media&v=1788190614557283", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmakumo%20H%C5%8Dzuki%2F5__Temporada.png?alt=media&v=1788276888518670", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#2dd4bf",
@@ -5867,7 +5869,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788190636100568", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788277007625262", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#0ea5e9",
@@ -5913,7 +5915,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizuki%20Hoshigaki%2F5__Temporada.png?alt=media&v=1788190681780939", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizuki%20Hoshigaki%2F5__Temporada.png?alt=media&v=1788277269584604", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#00ff41",
@@ -5957,7 +5959,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSuiren%20Shiranami%2F5__Temporada.png?alt=media&v=1788190685429587", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSuiren%20Shiranami%2F5__Temporada.png?alt=media&v=1788277360987445", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#3d3d4a",
@@ -6008,7 +6010,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190657436737", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788277058210752", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#a855f7",
@@ -6035,7 +6037,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FK%C5%8Dga%20Kirisame%2F5__Temporada.png?alt=media&v=1788190662695638", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FK%C5%8Dga%20Kirisame%2F5__Temporada.png?alt=media&v=1788277139752142", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#3d3d4a",
@@ -6063,7 +6065,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788190667832903", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788277141832817", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#0ea5e9",
@@ -6090,7 +6092,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNao%20Arashio%2F5__Temporada.png?alt=media&v=1788190677348400", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNao%20Arashio%2F5__Temporada.png?alt=media&v=1788277190880894", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#ff3b46",
@@ -6142,7 +6144,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788190630704219", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788276998655933", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#00ff41",
@@ -6187,7 +6189,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGordon%20Kirisame%2F5__Temporada.png?alt=media&v=1788190641355772", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGordon%20Kirisame%2F5__Temporada.png?alt=media&v=1788277012094545", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#8b8b9a",
@@ -6231,7 +6233,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788190646741509", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788277014425274", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#2dd4bf",
@@ -6279,7 +6281,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHimari%20Yuki%2F5__Temporada.png?alt=media&v=1788190652071729", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHimari%20Yuki%2F5__Temporada.png?alt=media&v=1788277027282568", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#ff3b46",
@@ -6331,7 +6333,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnkai%20Kuroshio%2F5__Temporada.png?alt=media&v=1788190625316267", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnkai%20Kuroshio%2F5__Temporada.png?alt=media&v=1788276967129586", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#ff3b46",
@@ -6376,7 +6378,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788190620073857", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788276918509503", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#a855f7",
@@ -6422,7 +6424,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FT%C5%8Dma%20Umikage%2F5__Temporada.png?alt=media&v=1788190689069562", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FT%C5%8Dma%20Umikage%2F5__Temporada.png?alt=media&v=1788277395763032", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#ff3b46",
@@ -6468,7 +6470,7 @@ export const initialData: Character[] = [
     isDead: false,
     techniques: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788190672967346", caption: "5ª Temporada", category: "era" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788277150066017", caption: "5ª Temporada", category: "era" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#b5793a",
@@ -6535,11 +6537,11 @@ export const initialData: Character[] = [
 
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkairo%20Uchiha%20(A)%2F1__Temporada.png?alt=media&v=1784665846434707", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkairo%20Uchiha%20(A)%2F2__Temporada.png?alt=media&v=1784665848268328", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkairo%20Uchiha%20(A)%2F1__Temporada.png?alt=media&v=1788276875151126", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkairo%20Uchiha%20(A)%2F2__Temporada.png?alt=media&v=1788276877413172", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - A e B chegam", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - Kaito, Hisoka, Oddy e Naoki VS A e B", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - Kaito, Hisoka, Oddy e Naoki VS A e B", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b" },
     ],
     stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 18, spirit: 24, vigor: 24, perception: 24 },
     powers: [
@@ -6633,14 +6635,14 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2FPr_logo.png?alt=media&v=1786370748600753", caption: "Prólogo", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F1__Temporada.png?alt=media&v=1784665851999751", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F2__Temporada.png?alt=media&v=1784665854341680", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2FPr_logo.png?alt=media&v=1788276943381751", caption: "Prólogo", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F1__Temporada.png?alt=media&v=1788276938742945", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBorashi%20Hyuga%20(B)%2F2__Temporada.png?alt=media&v=1788276941239170", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento_de_Katsumi.png?alt=media&v=1784750316421", caption: "Nascimentos - Nascimento de Katsumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-katsumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta__o_de_Katsumi__Borashi_e_Ryuta.png?alt=media&v=1784750312742", caption: "Apresentações - Apresentação de Katsumi, Borashi e Ryuta", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-katsumi-e-borashi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam_lia_Hyuga.png?alt=media&v=1785168626832", caption: "Famílias - Família Hyuga", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-hyuga" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FA%20e%20B%20chegam.png?alt=media&v=1784240448720419", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - A e B chegam", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__a-e-b-chegam" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - Kaito, Hisoka, Oddy e Naoki VS A e B", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FTreinamentos%20Individuais%2FKaito%2C%20Hisoka%2C%20Oddy%20e%20Naoki%20VS%20A%20e%20B.png?alt=media&v=1784240460009914", caption: "Treinamentos Individuais - Kaito, Hisoka, Oddy e Naoki - Kaito, Hisoka, Oddy e Naoki VS A e B", category: "evento", season: "1ª Temporada", eventId: "1-temporada__treinamentos-individuais__kaito-e-hisoka__kaito-hisoka-oddy-e-naoki-vs-a-e-b" },
     ],
     stats: { strength: 10, dexterity: 26, agility: 10, intelligence: 20, spirit: 26, vigor: 26, perception: 26 },
     powers: [
@@ -6724,8 +6726,8 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F1__Temporada.png?alt=media&v=1784665856914914", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F2__Temporada.png?alt=media&v=1784665859155605", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F1__Temporada.png?alt=media&v=1788276950445325", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FChisaki%20Dokuhana%20(C)%2F2__Temporada.png?alt=media&v=1788276952833345", caption: "2ª Temporada", category: "era" },
     ],
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [
@@ -6818,8 +6820,8 @@ export const initialData: Character[] = [
       }
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaiki%20Uzumaki%20(D)%2F1__Temporada.png?alt=media&v=1784665861653860", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaiki%20Uzumaki%20(D)%2F2__Temporada.png?alt=media&v=1784665863940737", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaiki%20Uzumaki%20(D)%2F1__Temporada.png?alt=media&v=1788276959526401", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaiki%20Uzumaki%20(D)%2F2__Temporada.png?alt=media&v=1788276961782643", caption: "2ª Temporada", category: "era" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 10, spirit: 18, vigor: 18, perception: 18 },
     powers: [
@@ -6874,8 +6876,8 @@ export const initialData: Character[] = [
       },
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEtsuko%20Senju%20(E)%2F1__Temporada.png?alt=media&v=1784665866438279", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEtsuko%20Senju%20(E)%2F2__Temporada.png?alt=media&v=1784665868699115", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEtsuko%20Senju%20(E)%2F1__Temporada.png?alt=media&v=1788276974299169", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEtsuko%20Senju%20(E)%2F2__Temporada.png?alt=media&v=1788276976762899", caption: "2ª Temporada", category: "era" },
     ],
     stats: { strength: 5, dexterity: 14, agility: 5, intelligence: 13, spirit: 14, vigor: 7, perception: 14 },
     powers: [
@@ -6931,13 +6933,13 @@ export const initialData: Character[] = [
       },
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuyuki%20Dokuhana%20(F)%2F1__Temporada.png?alt=media&v=1784665871034541", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuyuki%20Dokuhana%20(F)%2F2__Temporada.png?alt=media&v=1784665873288940", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuyuki%20Dokuhana%20(F)%2F1__Temporada.png?alt=media&v=1788276994559386", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuyuki%20Dokuhana%20(F)%2F2__Temporada.png?alt=media&v=1788276996408476", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20escolhendo%20morrer.png?alt=media&v=1784240342375590", caption: "Base do F - Kaito escolhendo morrer", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-escolhendo-morrer" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20envenenando%20Kaito.png?alt=media&v=1784240335515898", caption: "Base do F - F envenenando Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__f-envenenando-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20morto.png?alt=media&v=1784240342650031", caption: "Base do F - Kaito está morto", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-morto" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20e%20G%20levando%20Shoei.png?alt=media&v=1784240335300514", caption: "Base do F - F e G levando Shoei", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__f-e-g-levando-shoei" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
     ],
     stats: { strength: 5, dexterity: 14, agility: 5, intelligence: 13, spirit: 14, vigor: 7, perception: 14 },
     powers: [
@@ -6999,13 +7001,13 @@ export const initialData: Character[] = [
       },
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenei%20(G)%2F1__Temporada.png?alt=media&v=1784665875568368", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenei%20(G)%2F2__Temporada.png?alt=media&v=1784665877757957", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenei%20(G)%2F1__Temporada.png?alt=media&v=1788277003064064", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenei%20(G)%2F2__Temporada.png?alt=media&v=1788277005311826", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20escolhendo%20morrer.png?alt=media&v=1784240342375590", caption: "Base do F - Kaito escolhendo morrer", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-escolhendo-morrer" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20envenenando%20Kaito.png?alt=media&v=1784240335515898", caption: "Base do F - F envenenando Kaito", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__f-envenenando-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FKaito%20est%C3%A1%20morto.png?alt=media&v=1784240342650031", caption: "Base do F - Kaito está morto", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__kaito-esta-morto" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FF%20e%20G%20levando%20Shoei.png?alt=media&v=1784240335300514", caption: "Base do F - F e G levando Shoei", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__f-e-g-levando-shoei" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F2%C2%AA%20Temporada%20de%20Konoha%2FBase%20do%20F%2FNishinoya_%20Kaito%20e%20Naoki%20chegam.png?alt=media&v=1784240357863713", caption: "Base do F - Nishinoya, Hisoka e Naoki chegam", category: "evento", season: "2ª Temporada de Konoha", eventId: "2-temporada-de-konoha__base-do-f__nishinoya-kaito-e-naoki-chegam" },
     ],
     stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 20, spirit: 26, vigor: 26, perception: 10 },
     powers: [
@@ -7068,8 +7070,8 @@ export const initialData: Character[] = [
       },
     ],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHayato%20Hanzo%20(H)%2F1__Temporada.png?alt=media&v=1784665880502246", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHayato%20Hanzo%20(H)%2F2__Temporada.png?alt=media&v=1784665882764819", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHayato%20Hanzo%20(H)%2F1__Temporada.png?alt=media&v=1788277021118703", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHayato%20Hanzo%20(H)%2F2__Temporada.png?alt=media&v=1788277023325454", caption: "2ª Temporada", category: "era" },
     ],
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 18, spirit: 18, vigor: 10, perception: 18 },
     powers: [
@@ -7666,7 +7668,7 @@ export const initialData: Character[] = [
     ],
     arsenal: [],
     gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaien%20Ishi%20(Omega)%2F2__Temporada.png?alt=media&v=1784665890017497", caption: "2ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaien%20Ishi%20(Omega)%2F2__Temporada.png?alt=media&v=1788277060237450", caption: "2ª Temporada", category: "era" },
     ],
     stats: { strength: 30, dexterity: 12, agility: 30, intelligence: 30, spirit: 30, vigor: 24, perception: 12 },
     powers: [
@@ -7810,10 +7812,11 @@ export const initialData: Character[] = [
       "Desconhecido"
     ],
     gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBeta%2F2__Temporada.png?alt=media&v=1788276936672402", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20de%20c%C3%A9lulas%20de%20Kaito.png?alt=media&v=1784240332019035", caption: "Masmorra - Torturas - Extração de células de Kaito", category: "evento", season: "1ª Temporada", eventId: "1-temporada__masmorra__torturas__extracao-de-celulas-de-kaito" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20de%20Nagare.png?alt=media&v=1784240332058786", caption: "Masmorra - Torturas - Extração do chakra de Nagare", category: "evento", season: "1ª Temporada", eventId: "1-temporada__masmorra__torturas__extracao-do-chakra-de-nagare" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Sharingan%20de%20Oddy.png?alt=media&v=1784240332140188", caption: "Masmorra - Torturas - Extração do chakra do Sharingan de Oddy", category: "evento", season: "1ª Temporada", eventId: "1-temporada__masmorra__torturas__extracao-do-chakra-do-sharingan-de-oddy" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Byakugan%20de%20Katsumi.png?alt=media&v=1784240331803456", caption: "Masmorra - Torturas - Extração do chakra do Byakugan de Katsumi", category: "evento", season: "1ª Temporada", eventId: "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FExtra%C3%A7%C3%A3o%20do%20chakra%20do%20Byakugan%20de%20Katsumi.png?alt=media&v=1784240331803456", caption: "Masmorra - Torturas - Extração do chakra do Byakugan de Katsumi", category: "evento", season: "1ª Temporada", eventId: "1-temporada__masmorra__torturas__extracao-do-chakra-do-byakugan-de-katsumi" },
     ],
   },
   {
@@ -7910,7 +7913,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Airi.png?alt=media&v=1784240352969066", caption: "Nascimentos - Nascimento de Airi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-airi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Airi_%20Hisoka%20e%20Naomi.png?alt=media&v=1784240324673237", caption: "Apresentações - Apresentação de Airi, Hisoka e Naomi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-airi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1784240335374259", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FHisoka%20treinando%20com%20Hashirama.png?alt=media&v=1784240334310274", caption: "Próxima Geração - Hisoka treinando com Hashirama", category: "evento", season: "Prólogo", eventId: "mljqWCfErX8fSv3QhyZc" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FHisoka%20treinando%20com%20Hashirama.png?alt=media&v=1784240334310274", caption: "Próxima Geração - Hisoka treinando com Hashirama", category: "evento", season: "Prólogo", eventId: "mljqWCfErX8fSv3QhyZc" },
     ],
   },
   {
@@ -7962,7 +7965,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Oddy%20e%20Kuromi.png?alt=media&v=1784240354620281", caption: "Nascimentos - Nascimento de Oddy e Kuromi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-oddy-e-kuromi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240356193657", caption: "Nascimentos - Nascimento de Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-shizume-e-ayumi" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Naoki_%20Oddy_%20Kuromi_%20Shizumi%20e%20Ayumi.png?alt=media&v=1784240324620604", caption: "Apresentações - Apresentação de Naoki, Oddy, Kuromi, Shizumi e Ayumi", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__apresentacao-de-oddy-kuromi-shizume-e-ayumi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNaoki_treinando_com_Madara.png?alt=media&v=1785168629025", caption: "Próxima Geração - Naoki treinando com Madara", category: "evento", season: "Prólogo", eventId: "IhreiTYi6xhZbgbIc0Xj" }
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNaoki_treinando_com_Madara.png?alt=media&v=1785168629025", caption: "Próxima Geração - Naoki treinando com Madara", category: "evento", season: "Prólogo", eventId: "IhreiTYi6xhZbgbIc0Xj" },
     ],
   }
 ];
