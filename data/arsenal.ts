@@ -512,7 +512,7 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "As Kiba, conhecidas como 'As Presas de Trovão', são um par de espadas curtas de Rank S+ imbuídas permanentemente com a Liberação de Raio (Raiton). Elas são consideradas as espadas mais afiadas já forjadas na história do mundo ninja, capazes de cortar qualquer material conhecido através da vibração de alta frequência de seus fios elétricos. As lâminas atuam como para-raios místicos, permitindo ao usuário manipular e redirecionar raios diretamente do céu ou gerar tempestades elétricas de grande escala no campo de batalha. O portador das Kiba ganha um aumento drástico em sua velocidade de movimento e reflexos, movendo-se como um relâmpago entre os inimigos. Cada corte desferido pelas espadas causa paralisia nervosa instantânea e combustão interna devido à voltagem extrema injetada no alvo. É a arma definitiva para o assassino veloz que busca dizimar exércitos inteiros através de uma dança elétrica imparável e fatal. Sua posse garante que o espadachim seja o senhor do trovão, transformando a atmosfera em uma extensão letal de sua própria fúria.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F47%20-%20Kiba.png?alt=media&v=1788212111068943",
-    originalOwner: "",
+    originalOwner: "Raio Yotsuki",
     currentOwner: "Hiroshi Hanzo"
   },
   {
@@ -814,7 +814,7 @@ export const arsenalData: Equipment[] = [
     origin: "Kirigakure",
     description: "A Kiri-no-Kami no Yoroi é uma armadura de escamas abissais de Rank S++ forjada a partir da pele de criaturas lendárias que habitam as fossas mais profundas do País da Água. Esta armadura mística possui a habilidade única de permitir ao usuário liquefazer seu próprio corpo ou tornar-se intangível como a própria névoa por períodos prolongados, ignorando ataques físicos e jutsus elementais comuns. As escamas que compõem a armadura reagem ao chakra Suiton, endurecendo instantaneamente ao nível do aço reforçado quando o portador sofre um impacto direto, agindo como uma defesa adaptativa absoluta. Além da proteção física, a armadura amplifica a ocultação do chakra, permitindo que o ninja se mova de forma totalmente silenciosa e invisível dentro de névoas de batalha. Ela também atua como um pulmão artificial, permitindo ao usuário sobreviver e lutar em profundidades oceânicas onde a pressão esmagaria qualquer ser humano comum. É o traje definitivo para os deuses da névoa, representando a invulnerabilidade e a natureza mutável da água em sua forma mais letal. Sua posse garante que o guerreiro seja um fantasma no campo de batalha, impossível de ser capturado ou ferido enquanto houver umidade no ar.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F74%20-%20Kiri-no-Kami%20no%20Yoroi.png?alt=media&v=1788212090485685",
-    originalOwner: "",
+    originalOwner: "Juzo Kuroshio",
     currentOwner: "Juzo Kuroshio"
   },
   {
