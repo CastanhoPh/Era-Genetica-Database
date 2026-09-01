@@ -63,14 +63,14 @@
 | 57 | Shin Mizukari | Mizukari | NPC, NoGuns, Iwagakure |  | Tanque | 18 | 154 | 64 | Morto (morto por Hades) |
 | 58 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 26 | 200 | 88 | Vivo |
 | 59 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 25 | 189 | 85 | Vivo |
-| 60 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
-| 61 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
-| 62 | Raiden Yotsuki | Yotsuki | NPC, Kumogakure |  | DPS / Tank | 23 | 194 | 79 | Vivo |
-| 63 | Gorai Arashiumi | Arashiumi | NPC, Kumogakure |  | DPS, Tank e Controle | 27 | 226 | 91 | Vivo |
-| 64 | Nayara Kazemori | Kazemori | NPC, Kumogakure |  | DPS / Suporte | 25 | 189 | 85 | Vivo |
-| 65 | Shizuru Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 27 | 205 | 91 | Vivo |
-| 66 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
-| 67 | Kiyoshi Hagane | Hagane | NPC, Kumogakure |  | DPS, Tank e Controle | 29 | 221 | 97 | Vivo |
+| 60 | Kiyoshi Hagane | Hagane | NPC, Kumogakure |  | DPS, Tank e Controle | 29 | 221 | 97 | Vivo |
+| 61 | Gorai Arashiumi | Arashiumi | NPC, Kumogakure |  | DPS, Tank e Controle | 27 | 226 | 91 | Vivo |
+| 62 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
+| 63 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
+| 64 | Raiden Yotsuki | Yotsuki | NPC, Kumogakure |  | DPS / Tank | 23 | 194 | 79 | Vivo |
+| 65 | Nayara Kazemori | Kazemori | NPC, Kumogakure |  | DPS / Suporte | 25 | 189 | 85 | Vivo |
+| 66 | Shizuru Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 27 | 205 | 91 | Vivo |
+| 67 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
 | 68 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
 | 69 | Inazuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
 | 70 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
@@ -3905,7 +3905,7 @@ NC: 28
 HP: 234
 Chakra: 76
 Status: Vivo
-Títulos: Legado de Senju Hashirama, 3 Sannins Lendários, Terceiro Hokage das Sombras, Traidor de Konoha
+Títulos: Ovelha Negra dos Senju, Legado de Senju Hashirama, 3 Sannins Lendários, Terceiro Hokage das Sombras, Traidor de Konoha
 
 ![Hisoka Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1788276490295547)
 
@@ -8378,8 +8378,103 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Arashi Shidehara
+# Kiyoshi Hagane
 ID: 60
+Clã: Hagane
+Grupos: NPC, Kumogakure
+Função: DPS, Tank e Controle
+NC: 29
+HP: 221
+Chakra: 97
+Status: Vivo
+Títulos: Regente das Cem Lâminas, O Regente das Cem Lâminas
+
+![Kiyoshi Hagane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1788276513569416)
+
+## Descrição
+Kiyoshi Hagane, “O Regente das Cem Lâminas”, nasceu em uma antiga família de ferreiros e conseguia sentir pequenas cargas elétricas presentes nos metais. Durante uma missão, sofreu danos graves nos nervos e perdeu os movimentos das mãos.
+
+Recusando-se a abandonar a vida shinobi, desenvolveu o Raiton: Jiba Ayatsuri — Controle do Campo Magnético. Kiyoshi altera eletricamente a polaridade dos metais e controla armas sem precisar tocá-las.
+
+Kunais, espadas, lanças e projéteis atacam por diferentes ângulos, defendem pontos cegos, perseguem alvos e se unem em estruturas maiores. Sua percepção elétrica permite identificar qualquer perturbação em seu arsenal e interpretar o campo através das próprias armas.
+
+Como DPS, Kiyoshi realiza ataques simultâneos e pressiona vários inimigos. Como Tank, mantém lâminas orbitando a equipe, intercepta golpes e ergue defesas metálicas. Sua idade e experiência fazem dele um dos maiores instrutores de Kumogakure.
+
+Kiyoshi inicialmente recusou o convite de Katakana por acreditar que sua idade e suas mãos paralisadas ocupariam a vaga de um jovem. O Raikage colocou sua própria arma no chão e pediu que ele demonstrasse o que mãos funcionais fariam melhor. Kiyoshi controlou todo o arsenal e construiu uma defesa quase impossível de atravessar. Katakana explicou que não procurava suas mãos, mas alguém capaz de conduzir centenas de armas sem desperdiçar nenhuma vida.
+
+Sua técnica característica é o Raiton: Tenrai Hyakki Sōjin, a Formação das Cem Lâminas do Trovão Celestial.
+
+## Atributos
+- Força: 12
+- Destreza: 29
+- Agilidade: 12
+- Inteligência: 29
+- Espírito: 29
+- Vigor: 22
+- Percepção: 29
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Acuidade
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Gorai Arashiumi
+ID: 61
+Clã: Arashiumi
+Grupos: NPC, Kumogakure
+Função: DPS, Tank e Controle
+NC: 27
+HP: 226
+Chakra: 91
+Status: Vivo
+
+![Gorai Arashiumi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1788276469999708)
+
+## Descrição
+Gorai Arashiumi, “O Senhor das Correntes Trovejantes”, nasceu em uma comunidade de pescadores nos lagos montanhosos do País do Relâmpago. Descendente de antigos protetores das rotas fluviais, manifestou a Kekkei Genkai Ranton, formada pela união de Raiton e Suiton.
+
+Seu estilo utiliza correntes de água eletrificada que assumem formas de serpentes, chicotes, ondas e redemoinhos. O Ranton permite concentrar e direcionar as descargas, fazendo com que persigam adversários através da água sem atingir aliados.
+
+Gorai luta com o tridente Ikazuchi no Hokosaki — Ponta do Trovão, herdado de seu pai. A arma funciona como condutor, instrumento de controle das correntes e recurso para combate próximo.
+
+Como DPS, Gorai transforma todo o ambiente aquático em uma rede ofensiva e aplica descargas perseguidoras. Como Tank, cria redemoinhos e muralhas de água, bloqueia rotas e protege seus companheiros. Sua experiência também faz dele um dos principais comandantes de campo da Elite.
+
+Após décadas servindo Kumogakure, Gorai havia se aposentado e retornado aos lagos. Katakana foi pessoalmente procurá-lo, mas não apresentou imediatamente o convite. Durante alguns dias, ajudou o veterano a reparar redes, carregar peixes e reconstruir o cais de uma comunidade atingida por tempestades. Gorai percebeu que o Raikage não procurava apenas seu poder, mas alguém capaz de orientar os jovens. Ele aceitou retornar com a condição de que nenhuma vida fosse desperdiçada por orgulho político.
+
+## Atributos
+- Força: 11
+- Destreza: 27
+- Agilidade: 11
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 27
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Acuidade
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Arashi Shidehara
+ID: 62
 Clã: Shidehara
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8427,7 +8522,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizen Kurogane
-ID: 61
+ID: 63
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8475,7 +8570,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raiden Yotsuki
-ID: 62
+ID: 64
 Clã: Yotsuki
 Grupos: NPC, Kumogakure
 Função: DPS / Tank
@@ -8522,54 +8617,8 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Gorai Arashiumi
-ID: 63
-Clã: Arashiumi
-Grupos: NPC, Kumogakure
-Função: DPS, Tank e Controle
-NC: 27
-HP: 226
-Chakra: 91
-Status: Vivo
-
-![Gorai Arashiumi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1788276469999708)
-
-## Descrição
-Gorai Arashiumi, “O Senhor das Correntes Trovejantes”, nasceu em uma comunidade de pescadores nos lagos montanhosos do País do Relâmpago. Descendente de antigos protetores das rotas fluviais, manifestou a Kekkei Genkai Ranton, formada pela união de Raiton e Suiton.
-
-Seu estilo utiliza correntes de água eletrificada que assumem formas de serpentes, chicotes, ondas e redemoinhos. O Ranton permite concentrar e direcionar as descargas, fazendo com que persigam adversários através da água sem atingir aliados.
-
-Gorai luta com o tridente Ikazuchi no Hokosaki — Ponta do Trovão, herdado de seu pai. A arma funciona como condutor, instrumento de controle das correntes e recurso para combate próximo.
-
-Como DPS, Gorai transforma todo o ambiente aquático em uma rede ofensiva e aplica descargas perseguidoras. Como Tank, cria redemoinhos e muralhas de água, bloqueia rotas e protege seus companheiros. Sua experiência também faz dele um dos principais comandantes de campo da Elite.
-
-Após décadas servindo Kumogakure, Gorai havia se aposentado e retornado aos lagos. Katakana foi pessoalmente procurá-lo, mas não apresentou imediatamente o convite. Durante alguns dias, ajudou o veterano a reparar redes, carregar peixes e reconstruir o cais de uma comunidade atingida por tempestades. Gorai percebeu que o Raikage não procurava apenas seu poder, mas alguém capaz de orientar os jovens. Ele aceitou retornar com a condição de que nenhuma vida fosse desperdiçada por orgulho político.
-
-## Atributos
-- Força: 11
-- Destreza: 27
-- Agilidade: 11
-- Inteligência: 20
-- Espírito: 27
-- Vigor: 27
-- Percepção: 27
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Acuidade
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
 # Nayara Kazemori
-ID: 64
+ID: 65
 Clã: Kazemori
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8617,7 +8666,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Shizuru Kurogane
-ID: 65
+ID: 66
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8664,7 +8713,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Midori Kurogane
-ID: 66
+ID: 67
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: Suporte, DPS e Controle
@@ -8702,55 +8751,6 @@ Sua técnica máxima é o Raiton: Jisō Daikairo, que utiliza os próprios movim
 
 ## Aptidões
 Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Kiyoshi Hagane
-ID: 67
-Clã: Hagane
-Grupos: NPC, Kumogakure
-Função: DPS, Tank e Controle
-NC: 29
-HP: 221
-Chakra: 97
-Status: Vivo
-Títulos: Regente das Cem Lâminas, O Regente das Cem Lâminas
-
-![Kiyoshi Hagane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1788276513569416)
-
-## Descrição
-Kiyoshi Hagane, “O Regente das Cem Lâminas”, nasceu em uma antiga família de ferreiros e conseguia sentir pequenas cargas elétricas presentes nos metais. Durante uma missão, sofreu danos graves nos nervos e perdeu os movimentos das mãos.
-
-Recusando-se a abandonar a vida shinobi, desenvolveu o Raiton: Jiba Ayatsuri — Controle do Campo Magnético. Kiyoshi altera eletricamente a polaridade dos metais e controla armas sem precisar tocá-las.
-
-Kunais, espadas, lanças e projéteis atacam por diferentes ângulos, defendem pontos cegos, perseguem alvos e se unem em estruturas maiores. Sua percepção elétrica permite identificar qualquer perturbação em seu arsenal e interpretar o campo através das próprias armas.
-
-Como DPS, Kiyoshi realiza ataques simultâneos e pressiona vários inimigos. Como Tank, mantém lâminas orbitando a equipe, intercepta golpes e ergue defesas metálicas. Sua idade e experiência fazem dele um dos maiores instrutores de Kumogakure.
-
-Kiyoshi inicialmente recusou o convite de Katakana por acreditar que sua idade e suas mãos paralisadas ocupariam a vaga de um jovem. O Raikage colocou sua própria arma no chão e pediu que ele demonstrasse o que mãos funcionais fariam melhor. Kiyoshi controlou todo o arsenal e construiu uma defesa quase impossível de atravessar. Katakana explicou que não procurava suas mãos, mas alguém capaz de conduzir centenas de armas sem desperdiçar nenhuma vida.
-
-Sua técnica característica é o Raiton: Tenrai Hyakki Sōjin, a Formação das Cem Lâminas do Trovão Celestial.
-
-## Atributos
-- Força: 12
-- Destreza: 29
-- Agilidade: 12
-- Inteligência: 29
-- Espírito: 29
-- Vigor: 22
-- Percepção: 29
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Acuidade
 
 ## Arsenal
 Nenhum item cadastrado.
