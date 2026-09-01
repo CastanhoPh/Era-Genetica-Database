@@ -120,7 +120,7 @@ Chakra: 200
 Status: Morto (morto por Omega)
 Títulos: Deus Shinobi, Relâmpago Azul de Konoha
 
-![Nishinoya Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.jpg?alt=media&v=1786651865147176)
+![Nishinoya Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.png?alt=media&v=1788276548472744)
 
 ## Descrição
 Um líder nato, portador da verdadeira Vontade do Fogo — uma força da natureza no campo de batalha.
@@ -549,7 +549,7 @@ Chakra: 64
 Status: Vivo
 Títulos: O Purgatório Vivo de Konoha, Sangue mais puro de Konoha, Assassino de F e G, Capitão Escarlate, Legado de Katsumi Hyūga
 
-![Kaito Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1787851081495084)
+![Kaito Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1788276499023504)
 
 ## Descrição
 O prodígio que já é uma realidade, um gênio dentro do campo de batalha com suas habilidades técnicas e seu estilo de luta versátil e completo, sua resistência é invejável, dominante no estilo madeira, usuário do Oodama Rasengan Vermelho e treinado no modo eremita mokuton, misturando inteligência, resistência e determinação, é o ninja coringa de Konoha.
@@ -782,7 +782,7 @@ Chakra: 96
 Status: Vivo
 Títulos: O Fantasma dos Uzumaki, O Teleportador, Assassino de A
 
-![Nagare Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.jpg?alt=media&v=1786651884017022)
+![Nagare Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.png?alt=media&v=1788276534832123)
 
 ## Descrição
 O Fantasma dos Uzumaki e a Voz da Destruição\n\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\n\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\n\nPortador de Técnicas únicas:\n* Kaminari Branco\n* Amenotejikara
@@ -1025,7 +1025,7 @@ Chakra: 82
 Status: Vivo
 Títulos: Sol de Konoha, Chama Viva de Konoha, Vencedor do Exame Chunin, Legado de Najin Hatake
 
-![Oddy Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.jpg?alt=media&v=1786651872658006)
+![Oddy Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.png?alt=media&v=1788276550160782)
 
 ## Descrição
 O herdeiro do fogo. Um espadachim moldado pela dor.
@@ -1373,7 +1373,7 @@ Chakra: 58
 Status: Morto (morto por Kai)
 Títulos: Capitão da Última Esperança, Capitão, Legado do Fujogan, A Última Esperança, Legado de Nishinoya Senju, O Punho Roxo de Konoha
 
-![Katsumi Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FKatsumi%20Hyuga.png?alt=media&v=1786651875776672)
+![Katsumi Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FKatsumi%20Hyuga.png?alt=media&v=1788276504734916)
 
 ## Descrição
 Líder e capitão da última força de Konoha
@@ -1629,7 +1629,7 @@ Chakra: 55
 Status: Morto (morto por 9º Portão: Ressureição)
 Títulos: Ninja Mais Forte da Nova Konoha, Tigre Branco de Konoha, O Rejeitado, Lenda dos Oito Portões
 
-![Najin Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FNajin%20Hatake.png?alt=media&v=1786651878666225)
+![Najin Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FNajin%20Hatake.png?alt=media&v=1788276539318596)
 
 ## Descrição
 Um ninja sempre muito ambicioso e ganancioso que buscava poder para restaurar a honra de seu clã acima de tudo.
@@ -1861,7 +1861,7 @@ Chakra: 64
 Status: Vivo
 Títulos: Prodigio de Konoha, O Último Hatake
 
-![Takeshi Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1786651880256457)
+![Takeshi Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1788276589007621)
 
 ## Descrição
 Desconhecido
@@ -2033,7 +2033,7 @@ Chakra: 65
 Status: Morto (morto por Omega)
 Títulos: Jinchuuriki, Arma secreta de Konoha, O Ninja do Amor
 
-![Shoei Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.jpg?alt=media&v=1786651881731095)
+![Shoei Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.png?alt=media&v=1788276585476756)
 
 ## Descrição
 Shoei Sarutobi é uma tragédia viva dentro do mundo shinobi — um Genin do Clã Sarutobi carregando o peso de uma arma que nunca pediu para ser.
@@ -2143,7 +2143,7 @@ Chakra: 96
 Status: Vivo
 Títulos: Primeiro Experimento, Jinchuriki Artificial
 
-![Furyuzan Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1786651881733939)
+![Furyuzan Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1788276453792781)
 
 ## Descrição
 Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.
@@ -2381,7 +2381,7 @@ Chakra: 46
 Status: Morto (morto por Omega)
 Títulos: Kraken da OCA
 
-![Kazuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.jpg?alt=media&v=1786651886146199)
+![Kazuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.png?alt=media&v=1788276508813896)
 
 ## Descrição
 Desconhecido
@@ -2437,7 +2437,7 @@ Chakra: 40
 Status: Vivo
 Títulos: Punho Sagrado da Guerra, Herdeiro da Pedra Viva, Homem que Deteve Cinco Bijūdamas, A Muralha que Desafiou as Bijū, Capitão do Pentagono
 
-![Kenma Soryo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.jpg?alt=media&v=1786651886159192)
+![Kenma Soryo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.png?alt=media&v=1788276511070417)
 
 ## Descrição
 O Punho Sagrado da Guerra e o Herdeiro da Pedra Viva
@@ -2780,7 +2780,7 @@ Chakra: 64
 Status: Vivo
 Títulos: Princesa do Sharingan, A quebra da Maldição
 
-![Ayumi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyumi%20Uchiha%2FAyumi%20Uchiha.png?alt=media&v=1786651896398168)
+![Ayumi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyumi%20Uchiha%2FAyumi%20Uchiha.png?alt=media&v=1788276424862576)
 
 ## Descrição
 Desconhecido
@@ -2921,7 +2921,7 @@ Chakra: 64
 Status: Vivo
 Títulos: Espiã, Olho da OCA
 
-![Shizumi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1786651897303644)
+![Shizumi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1788276580395362)
 
 ## Descrição
 Shizumi Uchiha, reconhecida pelo próprio Tobirama como uma das mentes mais brilhantes de Konoha, sempre esteve muito à frente de sua geração. Desde a infância, demonstrou uma afinidade incomum com o Raiton, manipulando descargas elétricas com precisão e instinto quase naturais.
@@ -3077,7 +3077,7 @@ Chakra: 91
 Status: Vivo
 Títulos: Sannin dos Cães, Predadora de Bijus, Mangekyou mais Forte
 
-![Kuromi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1786651902544933)
+![Kuromi Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1788276520149600)
 
 ## Descrição
 Uma kunoichi envolta em mistério e temida por seu poder. 
@@ -3255,7 +3255,7 @@ Chakra: 82
 Status: Vivo
 Títulos: Herdeiro do Sol, Eco de Son Goku, Rastreador Primordial
 
-![Apollo Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1786651905190869)
+![Apollo Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1788276413053575)
 
 ## Descrição
 Apollo Netsu é uma anomalia no mundo shinobi — um nome falso carregando uma linhagem que não deveria existir.
@@ -3548,7 +3548,7 @@ Chakra: 200
 Status: Vivo
 Títulos: Gênia de Konoha, Aprendiz de Tobirama, Criança da Profecia
 
-![Naomi Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1786651900548392)
+![Naomi Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1788276544836632)
 
 ## Descrição
 Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.
@@ -3707,7 +3707,7 @@ Chakra: 88
 Status: Vivo
 Títulos: Legado de Uchiha Madara, 3 Sannins Lendários, Terceiro Hokage das Sombras
 
-![Naoki Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaoki%20Uchiha%2FNaoki%20Uchiha.png?alt=media&v=1786651887014149)
+![Naoki Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaoki%20Uchiha%2FNaoki%20Uchiha.png?alt=media&v=1788276542867960)
 
 ## Descrição
 Naoki Uchiha, filho de Uchiha Madara, nasceu carregando um legado que nunca pediu. Diferente de Oddy, Shizumi, Ayumi e Kuromi, que eram crianças durante a lendária batalha do Vale do Fim, Naoki cresceu com toda a vila ciente de sua origem. Desde cedo, foi marcado como o “filho da desgraça”, alvo de medo e desprezo. Esse fardo moldou sua personalidade, transformando o ódio em combustível e alimentando uma sede de justiça fria e inabalável.
@@ -3907,7 +3907,7 @@ Chakra: 76
 Status: Vivo
 Títulos: Legado de Senju Hashirama, 3 Sannins Lendários, Terceiro Hokage das Sombras, Traidor de Konoha
 
-![Hisoka Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1786651887737084)
+![Hisoka Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1788276490295547)
 
 ## Descrição
 DESCONHECIDO
@@ -3964,7 +3964,7 @@ Chakra: 64
 Status: Vivo
 Títulos: 
 
-![Ryuta Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1786651889641519)
+![Ryuta Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1788276567552732)
 
 ## Descrição
 Desconhecido
@@ -4006,7 +4006,7 @@ Chakra: 114
 Status: Morto (morto por Delta)
 Títulos: Jinchuuriki, Tsuchikage Afastado, Polvo Enjaulado
 
-![Rock Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.jpg?alt=media&v=1786651887730216)
+![Rock Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.png?alt=media&v=1788276565503994)
 
 ## Descrição
 Rock Gunma nasceu em uma era marcada por conflitos constantes, crescendo em meio à guerra e sendo exposto desde cedo à sua realidade brutal. Com o tempo, tornou-se jinchūriki do Gyūki. Diferente da maioria, não enfrentou a besta como um fardo, mas construiu uma relação de respeito mútuo.
@@ -4192,7 +4192,7 @@ Chakra: 94
 Status: Vivo
 Títulos: Vice líder da OCA, Suporte Perfeito, Traidor da OCA
 
-![Hiroshi Hanzo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.png?alt=media&v=1788210951689586)
+![Hiroshi Hanzo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.png?alt=media&v=1788276488247844)
 
 ## Descrição
 Desconhecido
@@ -4272,7 +4272,7 @@ Chakra: 100
 Status: Morto (morto por Omega)
 Títulos: Homem que Dominou a Morte, Criador da OCA
 
-![Tobirama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTobirama%20Senju%2FTobirama%20Senju.jpg?alt=media&v=1786651888615856)
+![Tobirama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTobirama%20Senju%2FTobirama%20Senju.png?alt=media&v=1788276592336073)
 
 ## Descrição
 Tobirama Senju, irmão do lendário Hashirama e uma das figuras mais poderosas da história ninja, sempre enxergou o mundo de forma diferente. Enquanto seu irmão acreditava no equilíbrio natural do poder, Tobirama via falhas — crianças órfãs da guerra, nascidas sem chakra, condenadas a viver indefesas em um mundo moldado pela força.
@@ -4358,7 +4358,7 @@ Chakra: 97
 Status: Morto (morto por Omega)
 Títulos: Segundo Hokage das Sombras, Líder dos Uchiha
 
-![Sho Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSho%20Uchiha%2FSho%20Uchiha.jpg?alt=media&v=1786651888623178)
+![Sho Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSho%20Uchiha%2FSho%20Uchiha.png?alt=media&v=1788276583824198)
 
 ## Descrição
 Desconhecido
@@ -4400,7 +4400,7 @@ Chakra: 76
 Status: Morto (morto por Omega)
 Títulos: Segundo Hokage das Sombras, Líder dos Hyuga, Assassino de Kai
 
-![Hoshiro Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.jpg?alt=media&v=1786651888636967)
+![Hoshiro Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.png?alt=media&v=1788276492134486)
 
 ## Descrição
 Desconhecido
@@ -4441,7 +4441,7 @@ Chakra: 128
 Status: Vivo
 Títulos: Esposa de Tobirama, Líder dos Uzumaki, Assassina de Ryuzu
 
-![Yumi Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYumi%20Uzumaki%2FYumi%20Uzumaki.png?alt=media&v=1786996823870017)
+![Yumi Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYumi%20Uzumaki%2FYumi%20Uzumaki.png?alt=media&v=1788276601690770)
 
 ## Descrição
 Desconhecido
@@ -4484,7 +4484,7 @@ Chakra: 85
 Status: Morto (morto por Omega)
 Títulos: Líder dos Hyuga
 
-![Asami Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAsami%20Hyuga%2FAsami%20Hyuga.jpg?alt=media&v=1786651889642821)
+![Asami Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAsami%20Hyuga%2FAsami%20Hyuga.png?alt=media&v=1788276418842690)
 
 ## Descrição
 Desconhecido
@@ -4525,7 +4525,7 @@ Chakra: 82
 Status: Vivo
 Títulos: Vírus dos Hyuga, Fantasma de Konoha, Segundo Hokage das Sombras, Líder dos NoGuns
 
-![Kaizuka Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaizuka%20Hyuga%2FKaizuka%20Hyuga.jpg?alt=media&v=1786651889653408)
+![Kaizuka Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaizuka%20Hyuga%2FKaizuka%20Hyuga.png?alt=media&v=1788276500962581)
 
 ## Descrição
 Desconhecido
@@ -4573,7 +4573,7 @@ Chakra: 123
 Status: Morto (morto por Chip da OCA)
 Títulos: Uzumaki Falso, Prodígio de Konoha, Segundo Hokage das Sombras, Bijuu sem Cauda
 
-![Raikun Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaikun%20Hatake%2FRaikun%20Hatake.jpg?alt=media&v=1786651889619807)
+![Raikun Hatake](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaikun%20Hatake%2FRaikun%20Hatake.png?alt=media&v=1788276554051853)
 
 ## Descrição
 Desconhecido
@@ -4680,7 +4680,7 @@ Chakra: 105
 Status: Vivo
 Títulos: O Sobrevivente do Tempo, Portador do Sacrifício, O Que Pagou o Preço
 
-![Katsuo Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.jpg?alt=media&v=1786651899866930)
+![Katsuo Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.png?alt=media&v=1788276506614004)
 
 ## Descrição
 Katsuo Uzumaki é um nome que não deveria existir — não porque foi esquecido, mas porque deveria ter morrido. Aos 28 anos, durante o momento mais crítico da história recente ninja, ele realizou um ato proibido que quebrou as próprias leis da vida: ao presenciar a extração da Kurama de Naomi Uzumaki, Katsuo utilizou um Fuinjutsu perdido para converter 30 anos de sua própria vida em chakra vital puro, forçando o corpo dela a continuar funcionando mesmo após a perda parcial da Bijuu. Naomi sobreviveu… mas o preço foi pago por ele.
@@ -4832,7 +4832,7 @@ Chakra: 137
 Status: Vivo
 Títulos: Eremita de Myōboku
 
-![Satoshi Namikaze](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786651893496752)
+![Satoshi Namikaze](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1788276569692211)
 
 ## Descrição
 Satoshi Namikaze, irmão mais novo de Sakura Namikaze, sempre viveu à sombra da irmã mais velha — até decidir seguir um caminho que não pertencia a mais ninguém da família. Ainda jovem, partiu sozinho rumo ao Monte Myōboku, decidido a dominar o Modo Sábio dos Sapos por conta própria, sem pedir permissão e sem levar ninguém junto.
@@ -4994,7 +4994,7 @@ Chakra: 76
 Status: Vivo
 Títulos: Executor do Vazio, Aquele que Nega Ações, Erro do Projeto Salvador
 
-![Shikaki Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FShikaki%20Nara.jpg?alt=media&v=1786651903392397)
+![Shikaki Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FShikaki%20Nara.png?alt=media&v=1788276573021880)
 
 ## Descrição
 Shikaki Nara é um dos casos mais raros já registrados dentro do Projeto Salvador. Diferente dos demais, ele não desenvolveu uma Bijū Profana após a exposição ao Chakra Profano.
@@ -5113,7 +5113,7 @@ Chakra: 91
 Status: Vivo
 Títulos: Esquizofrênico, Arma Secreta da NoGuns, Traidor da NoGuns
 
-![Shikatsu Nara (Togo Kage)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTogo%20Kage%2FTogo%20Kage.png?alt=media&v=1786651899869770)
+![Shikatsu Nara (Togo Kage)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikatsu%20Nara%20(Togo%20Kage)%2FShikatsu%20Nara%20(Togo%20Kage).png?alt=media&v=1788276574722498)
 
 ## Descrição
 Shikatsu Nara, conhecido hoje como Togo Kage, é o que restou de um sonho que foi quebrado cedo demais. Nascido no clã Nara, cresceu como uma criança feliz, curiosa e orgulhosa de seu nome, cercado por figuras lendárias — seus pais eram próximos de Hashirama e Tobirama, e por isso Shikatsu viveu parte de sua infância ao lado dos Senju. Ele jantava com eles, ouvia histórias, aprendia estratégias e carregava um único objetivo no coração: se tornar Hokage. Tobirama era seu herói. Hashirama, sua inspiração. Mas tudo isso morreu na noite da invasão da Vila da Nuvem. Seus pais lutaram até o fim para proteger Konoha, sacrificando suas vidas com orgulho. Shikatsu assistiu tudo. E então viu aquilo que destruiu sua mente por completo: Tobirama, o homem que ele mais admirava, passar por ele sem sequer olhar para trás, seguindo sozinho para enfrentar Hades. Para o mundo, foi um ato de coragem. Para Shikatsu, foi abandono. Traição. Nesse momento, algo dentro dele quebrou de forma irreversível. Sem família, sem propósito e sem seu herói, sua mente colapsou. Ele fugiu, desapareceu, e ao longo dos anos se perdeu completamente de si mesmo. A esquizofrenia induzida pelo trauma fragmentou sua identidade, apagando o garoto que queria ser Hokage. Em seu lugar, nasceu Togo — uma sombra instintiva em forma humana. Vagando por florestas e campos de batalha, atacava por reflexo, sobrevivia por impulso e existia sem direção. Até encontrar Daichi. No primeiro encontro, tentou matá-lo como fazia com todos… mas foi derrotado. E poupado. Mais do que isso — foi visto. Daichi lhe fez uma promessa: encontraria uma cura. Pela primeira vez desde a queda dos Nara, alguém o tratou como humano. Desde então, Togo passou a existir preso a esse único fio de realidade. Hoje, ele é instável, silencioso e imprevisível — incapaz de viver em sociedade, mas extremamente letal em combate. Sua mente pode estar quebrada, mas seu instinto nunca falha. E enquanto o mundo o enxerga como um fragmento perdido… Togo ainda caminha, sustentado apenas por uma promessa que se recusa a esquecer.
@@ -5168,7 +5168,7 @@ Chakra: 70
 Status: Morto (morto por Omega)
 Títulos: O Legado do Fogo, Sannins da Terra, O Filho Mais Novo do Rei
 
-![Hirato Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.jpg?alt=media&v=1786651890536434)
+![Hirato Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.png?alt=media&v=1788276486267292)
 
 ## Descrição
 Hirato Ishi é o filho mais novo da família Ishi, nascido como herdeiro direto da espada do rei e criado sob forte proteção e privilégio. Desde a infância, foi tratado como sucessor natural, principalmente por estar destinado a herdar a lendária Homura no Chikai, a espada ancestral capaz de controlar o Purazomaton.
@@ -5228,7 +5228,7 @@ Chakra: 70
 Status: Morto (morto por Nagare Uzumaki)
 Títulos: O Legado do Tempo, Sannins da Terra, O Escolhido
 
-![Hikaru Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.jpg?alt=media&v=1786651890537382)
+![Hikaru Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.png?alt=media&v=1788276482578419)
 
 ## Descrição
 Hikaru Ishi é o filho do meio da família Ishi, irmão de Kaien e Hirato. Desde cedo, cresceu sob constante comparação com Kaien, sendo pressionado a alcançar o mesmo nível de força. Durante a adolescência, desenvolveu um sentimento de rivalidade e ressentimento, motivado por repetidas derrotas. Apesar de sua evolução, nunca conseguiu superá-lo.
@@ -5583,7 +5583,7 @@ Chakra: 70
 Status: Vivo
 Títulos: Flor do Vazio, Silêncio do Abismo
 
-![Reika Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.jpg?alt=media&v=1786651901803501)
+![Reika Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.png?alt=media&v=1788276559704886)
 
 ## Descrição
 Reika Uzumaki nasceu em meio ao sofrimento silencioso de sua mãe, mas sua existência nunca foi natural. Diferente de Shoyu, que ainda carregava traços de humanidade em sua origem, Reika foi concebida como experimento desde o primeiro instante — ainda no estágio de célula-ovo, Hades iniciou seu projeto mais ambicioso: fundir dois chakras de bijū estabilizados através de um núcleo de chakra profano. Kurama e Gyūki foram reduzidos a fragmentos manipuláveis e selados simultaneamente dentro de um único ser em formação, violando todas as leis naturais do mundo ninja. Reika não nasceu… ela foi construída. Durante seu desenvolvimento, o chakra profano atuou como um estabilizador artificial, impedindo que as duas forças se destruíssem mutuamente, criando uma fusão imperfeita, porém funcional. Seu corpo cresceu carregando traços sutis dessa dualidade, com padrões de chakra que oscilam entre o caos e a profundidade, como se duas presenças antigas coexistissem dentro dela em silêncio constante. Desde muito pequena, Reika demonstrava uma sensibilidade anormal ao chakra, não apenas percebendo energia, mas sentindo emoções como extensões físicas do ambiente. Dor, medo e desespero ecoavam dentro dela, amplificados pelas naturezas conflitantes em seu núcleo. Cresceu dentro da fortaleza Yumei, testemunhando a dor constante de Naomi e absorvendo cada fragmento emocional como parte de si mesma — não como trauma, mas como matéria-prima. Sua presença é calma, perturbadoramente calma. Reika não luta com raiva — luta com vazio, e esse vazio não é ausência, mas saturação. Ela é possivelmente a criatura com a maior reserva de chakra já registrada, possuindo níveis que ultrapassam em até três vezes o de um ninja comum. Ainda assim, esse poder não se manifesta de forma explosiva, mas como um abismo silencioso, denso e inevitável. No entanto, sua criação teve um custo: a fusão precoce e antinatural afetou seu desenvolvimento neurológico. Reika não fala — não por escolha, mas por incapacidade. Sua mente opera em um nível onde linguagem se torna irrelevante. Emoções, intenções e presença são sua forma de comunicação. Ela observa… sempre observa. E quando age, o mundo ao redor responde como se estivesse afundando junto com ela.
@@ -5691,7 +5691,7 @@ Chakra: 76
 Status: Vivo
 Títulos: Soberano do Inverno Profano, Olho da Nevasca, Coruja do Gelo Negro
 
-![Nagi Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1786651903970876)
+![Nagi Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1788276537262794)
 
 ## Descrição
 Nagi Yuki nasceu na Vila da Névoa durante um dos períodos mais sombrios de sua história — uma guerra civil silenciosa, onde traições, execuções e desaparecimentos eram comuns até mesmo entre aliados.
@@ -5872,7 +5872,7 @@ Chakra: 76
 Status: Vivo
 Títulos: Imperador da Areia, Guardião Dourado, Deserto Negro
 
-![Yasuo Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1786651905637475)
+![Yasuo Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1788276595994524)
 
 ## Descrição
 Yasuo Kurogane é um ninja da Vila da Areia, marcado por uma infância destruída pela guerra e pela perda. Após ver sua família de Konoha ser brutalmente assassinada diante de seus próprios olhos por Nishinoya, Shoei, Katsumi e Oddy, Yasuo passou a nutrir um ódio profundo pela vila que um dia chamou de lar.
@@ -6007,7 +6007,7 @@ Chakra: 150
 Status: Vivo
 Títulos: A Leoa da Areia, A Muralha Dourada, Jinchuuriki
 
-![Hana Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1786651908709301)
+![Hana Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1788276477925297)
 
 ## Descrição
 Hana Sabaku é uma das maiores lendas vivas de Sunagakure e a principal razão pela qual a Cidade Dourada continua de pé mesmo diante das ameaças da Era Genética.
@@ -6176,7 +6176,7 @@ Chakra: 91
 Status: Vivo
 Títulos: O Pai da Areia, O Caçador do Deserto, Fundador de Sunagakure, Senhor da Areia de Ouro, Arqueiro Dourado da Areia
 
-![Reto Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1786651908717643)
+![Reto Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1788276563436241)
 
 ## Descrição
 Reto Sabaku foi o Primeiro Kazekage e o homem responsável por transformar o maior deserto do continente em uma civilização próspera. Antes dele, o deserto era apenas morte, escassez, tribos em guerra, assassinos, mercadores armados e pequenos reinos subterrâneos lutando por água.
@@ -6475,7 +6475,7 @@ Chakra: 91
 Status: Vivo
 Títulos: Pilar da Memória, O Homem que Lembra pelos Mortos
 
-![Chigiri Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1786651908728450)
+![Chigiri Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1788276432661769)
 
 ## Descrição
 Chigiri Chinoike, conhecido hoje como o Pilar da Memória, é o homem que aprendeu o valor de uma vida depois de transformar vidas demais em material de estudo. Nascido no clã Chinoike, cresceu acreditando que o sangue era a forma mais pura de verdade: não apenas herança genética, mas um registro vivo de memórias, dores, medos e desejos que nem a morte conseguia apagar.
@@ -6524,7 +6524,7 @@ Chakra: 58
 Status: Vivo
 Títulos: Pilar do Sacrifício, A Cirurgiã da Areia Branca, A Médica que Escolhe quem Vive
 
-![Mizue Dokuhana](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1786651909330322)
+![Mizue Dokuhana](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1788276532880141)
 
 ## Descrição
 Mizue Dokuhana, conhecida hoje como o Pilar do Sacrifício, é a médica que todos desejam ter por perto quando a morte chega, mas que ninguém deseja encarar quando ela abre sua maleta cirúrgica. Nascida no clã Dokuhana, cresceu entre venenos, antídotos, lâminas esterilizadas, fios de sutura com chakra e lições duras demais para uma criança comum.
@@ -6579,7 +6579,7 @@ Chakra: 64
 Status: Vivo
 Títulos: Pilar da Construção, O Arquiteto das Pontes Impossíveis
 
-![Tessai Enshaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1786651909974548)
+![Tessai Enshaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1788276590660983)
 
 ## Descrição
 Tessai Enshaku, conhecido hoje como o Pilar da Construção, é um homem que nasceu em uma vila de guerreiros, mas decidiu admirar aqueles que erguiam paredes. Desde criança, enquanto outros sonhavam com técnicas destrutivas e vitórias em campo de batalha, Tessai observava pedreiros, escavadores, ferreiros, engenheiros e arquitetos de canais subterrâneos.
@@ -6634,7 +6634,7 @@ Chakra: 52
 Status: Vivo
 Títulos: Pilar do Julgamento, A Pantera Negra da Areia, A Voz Antes da Sentença
 
-![Kurohime Kazeori](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1786651910583724)
+![Kurohime Kazeori](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1788276517970238)
 
 ## Descrição
 Kurohime é uma dos seis Pilares de Sunagakure e representa o Pilar do Julgamento. Diferente de Hana, que carrega a sentença final da Areia, Kurohime existe para revelar a verdade antes que o julgamento seja dado.
@@ -6681,7 +6681,7 @@ Chakra: 88
 Status: Vivo
 Títulos: Predador Silencioso, Fantasma da Tempestade, Líder da Kiba
 
-![Yuji Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media&v=1786651907013158)
+![Yuji Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media&v=1788276599334836)
 
 ## Descrição
 Yuji Yotsuki nasceu como uma anomalia dentro da Vila da Nuvem.
@@ -7122,7 +7122,7 @@ Chakra: 70
 Status: Vivo
 Títulos: O Fenrir Negro, A Ruína Viva, Experimento da OCA
 
-![Reito Kurogami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReito%20Kurogami%2FReito%20Kurogami.png?alt=media&v=1786651906964749)
+![Reito Kurogami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReito%20Kurogami%2FReito%20Kurogami.png?alt=media&v=1788276561672998)
 
 ## Descrição
 Reito Kurogami foi um dos primeiros experimentos vivos criados pela OCA durante os testes iniciais envolvendo o Shiroki Kaminari e o Chakra Profano.
@@ -7371,7 +7371,7 @@ Chakra: 79
 Status: Vivo
 Títulos: O Fantasma da Kiba, Shade, Vazio Sensorial
 
-![Yoru Kurogami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1786651908022138)
+![Yoru Kurogami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1788276597776705)
 
 ## Descrição
 Yoru Kurogami é considerado o membro mais misterioso e perigoso da Kiba.
@@ -7609,7 +7609,7 @@ Chakra: 82
 Status: Vivo
 Títulos: A Inteligência da Kiba, A Mente Invisível, Fundadora da Kiba
 
-![Mika Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMika%20Yotsuki%2FMika%20Yotsuki.png?alt=media&v=1786651908714917)
+![Mika Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMika%20Yotsuki%2FMika%20Yotsuki.png?alt=media&v=1788276528771429)
 
 ## Descrição
 Mika Yotsuki é conhecida dentro da Kiba como a Inteligência da organização.
@@ -7822,7 +7822,7 @@ Chakra: 88
 Status: Vivo
 Títulos: O Médico do Trovão Morto, Cirurgião da Kiba, O Homem que Mantém Monstros Vivos
 
-![Enrai Hanzo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1786651908733812)
+![Enrai Hanzo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1788276448738060)
 
 ## Descrição
 Enrai Hanzo é o médico clandestino, engenheiro biológico e especialista em corpos modificados da Kiba.
@@ -8138,7 +8138,7 @@ Chakra: 85
 Status: Vivo
 Títulos: O Herdeiro que Negou o Trono
 
-![Daichi Muujin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1787158172524277)
+![Daichi Muujin](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1788276438137455)
 
 ## Descrição
 Desconhecido
@@ -8180,7 +8180,7 @@ Chakra: 64
 Status: Morto (morto por Hades)
 Títulos: Vice Líder da NoGuns, Assassino Explosivo
 
-![Koji Ishizuma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKoji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media&v=1786651898957363)
+![Koji Ishizuma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKoji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media&v=1788276515656214)
 
 ## Descrição
 Desconhecido
@@ -8221,7 +8221,7 @@ Chakra: 96
 Status: Morto (morto por Hades)
 Títulos: Jinchuuriki, Fugitivo da OCA, Pequeno Assassino
 
-![Yuuto Han](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuuto%20Han%2FYuuto%20Han.png?alt=media&v=1786651898964338)
+![Yuuto Han](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuuto%20Han%2FYuuto%20Han.png?alt=media&v=1788276603923947)
 
 ## Descrição
 Yuuto Han é a prova viva de que até a morte pode ser apenas o começo. Nascido em um vilarejo simples próximo a Konoha, seu primeiro momento no mundo foi marcado por um silêncio absoluto. Nenhum choro. Nenhuma respiração. Nenhum sinal de vida. Yuuto nasceu morto. Enquanto sua família chorava a perda, uma presença atravessou a madrugada como uma sombra: Hades. Carregando consigo o pergaminho selado de Kokuo, o Cinco-Caudas, ele viu naquela criança não um fim… mas um recipiente perfeito. Um corpo vazio. Com um ritual proibido, selou a besta dentro do bebê — e, contra todas as leis da natureza, Yuuto respirou pela primeira vez. Mas aquilo não foi um milagre. Foi o início de algo errado. Criado longe do mundo, Yuuto nunca teve infância, nome ou escolha. Hades o moldou como uma arma, apagando qualquer traço de humanidade e repetindo incessantemente: “Você existe por minha causa. Seu corpo é meu. Kokuo é meu.” Sem identidade, sem vontade… Yuuto se tornou perfeito. Silencioso. Obediente. Letal. Aos dezessete anos, já era um assassino que não compreendia conceitos como bondade, liberdade ou propósito. Apenas executava. Até o dia em que foi descartado. Durante um confronto contra Daichi e Koji, Hades, ferido, abandonou Yuuto como um objeto quebrado. Deixou para trás aquilo que sempre chamou de criação. Mas, pela primeira vez, alguém olhou para ele de forma diferente. Daichi não viu uma arma. Viu uma pessoa. E, em vez de uma ordem… ofereceu uma escolha. “Você pode parar. A partir de agora… você decide.” Foi naquele instante que algo dentro de Yuuto mudou. Ele aceitou. Desde então, passou a caminhar ao lado deles, não como ferramenta… mas como alguém tentando entender o que significa existir. Por fora, Yuuto é o retrato da apatia. Preguiçoso ao extremo, evita conflitos, ignora responsabilidades e parece sempre à beira do sono. Finge fraqueza para ser deixado em paz e rejeita qualquer forma de controle — ecos do homem que o criou. Mas sob essa superfície vazia, algo permanece. Observando. Esperando. Quando pressionado… quando aqueles que ele reconhece como seus são ameaçados… Kokuo desperta. E com ele, o verdadeiro Yuuto emerge. Não o garoto silencioso. Mas o assassino perfeito. Frio. Instintivo. Implacável. Para o mundo, ele é apenas um jinchuuriki preguiçoso e indiferente. Para Hades, ele ainda é uma propriedade a ser recuperada. Mas, pela primeira vez na vida… Yuuto começa a descobrir que pode ser algo além disso.
@@ -8277,7 +8277,7 @@ Chakra: 64
 Status: Morto (morto por Hades)
 Títulos: Ser Humano que Parou no Tempo, Troglodita
 
-![Shin Mizukari](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShin%20Mizukari%2FShin%20Mizukari.png?alt=media&v=1786651898968060)
+![Shin Mizukari](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShin%20Mizukari%2FShin%20Mizukari.png?alt=media&v=1788276578401136)
 
 ## Descrição
 Desconhecido
@@ -8317,7 +8317,7 @@ Chakra: 88
 Status: Vivo
 Títulos: O Psicopata do Sangue, Gênio, Traidor da NoGuns
 
-![Shikure Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikure%20Chinoike%2FShikure%20Chinoike.png?alt=media&v=1786651898957281)
+![Shikure Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikure%20Chinoike%2FShikure%20Chinoike.png?alt=media&v=1788276576347146)
 
 ## Descrição
 Shikure Chinoike é um gênio que ultrapassou a linha entre ciência e insanidade. Nascido no ramo mais isolado do clã Sabaku e filho de um chinoike, entre artesãos, alquimistas e criadores de marionetes, ele nunca enxergou o mundo como os outros. Enquanto crianças brincavam, Shikure desmontava bonecos para entender sua estrutura. Enquanto treinavam combate, ele estudava sangue, perguntando a si mesmo até onde o corpo humano poderia ser levado. Desde cedo, sabia que era diferente — e acreditava que isso o colocava acima de todos. Sua obsessão encontrou um foco nas lendas do Ketsuryūgan, o dōjutsu proibido dos Chinoike. Incapaz de aceitá-lo como algo inalcançável, Shikure decidiu recriá-lo. Usando o próprio corpo como laboratório, iniciou anos de experimentos clandestinos: manipulação sanguínea, infusão de areia em tecidos vivos, micro-selos implantados em suas próprias células. Ele não testava limites — ele os quebrava. E então, conseguiu. Despertou um Ketsuryūgan artificial, instável, nascido de sua própria carne. A partir desse momento, o medo deixou de existir. Se podia recriar um dōjutsu em si mesmo, poderia criar vida. Assim nasceu Akeganai, sua marionete perfeita, moldada à semelhança humana e equipada com um olho vermelho sintético capaz de lançar genjutsus devastadores — fazendo suas vítimas enxergarem aquilo que mais amaram na vida. Para Shikure, não era crueldade. Era evolução. Sua obra máxima viria em seguida: a Sekisuna Jinzo, uma marionete feita de sangue, areia e chakra, capaz de replicar perfeitamente guerreiros a partir de amostras coletadas. Aquilo não era apenas uma técnica — era a prova de que ele havia superado as limitações humanas. Quando Sunagakure descobriu seus experimentos, não viu genialidade — viu aberração. Ordenaram sua prisão, a destruição de suas pesquisas e a eliminação de Akeganai. Shikure fugiu sem hesitar, levando consigo tudo o que considerava importante e abandonando sua vila para trás. Ferido e à beira da morte no deserto, foi encontrado por Daichi — o único que não o julgou, mas lhe deu um propósito. Desde então, Shikure segue ao seu lado, convencido de que finalmente encontrou um lugar onde sua mente não é contida… mas necessária. Para o mundo, ele é um cientista insano. Para si mesmo, ele é o próximo passo da evolução.
@@ -8372,7 +8372,7 @@ Chakra: 85
 Status: Vivo
 Títulos: Sannin das Cobras, Suporte Perfeito
 
-![Akira Dokuhana](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1786651899865877)
+![Akira Dokuhana](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1788276407331793)
 
 ## Descrição
 Desconhecido
@@ -8413,7 +8413,7 @@ Chakra: 82
 Status: Vivo
 Títulos: O Escriba da Tempestade
 
-![Arashi Shidehara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FArashi%20Shidehara%2FArashi%20Shidehara.png?alt=media&v=1786652851353654)
+![Arashi Shidehara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FArashi%20Shidehara%2FArashi%20Shidehara.png?alt=media&v=1788276415883266)
 
 ## Descrição
 Conhecido como “O Escriba da Tempestade”, Arashi nasceu no clã Shidehara, uma família de escribas responsável pela produção e preservação dos selos militares de Kumogakure. Seus papéis são fabricados com fibras de árvores atingidas por raios e preparados com tintas capazes de conduzir eletricidade.
@@ -8462,7 +8462,7 @@ Chakra: 76
 Status: Vivo
 Títulos: O Relâmpago dos Insetos
 
-![Raizen Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizen%20Kurogane%2FRaizen%20Kurogane.png?alt=media&v=1786652854835945)
+![Raizen Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizen%20Kurogane%2FRaizen%20Kurogane.png?alt=media&v=1788276555839964)
 
 ## Descrição
 Raizen Kurogane, conhecido como “O Relâmpago dos Insetos”, nasceu em uma família de armeiros, mas demonstrou uma habilidade incomum: conseguia dividir o próprio chakra Raiton em centenas de correntes independentes.
@@ -8511,7 +8511,7 @@ Chakra: 79
 Status: Vivo
 Títulos: O Arsenal Celeste
 
-![Raiden Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaiden%20Yotsuki%2FRaiden%20Yotsuki.png?alt=media&v=1786652858006936)
+![Raiden Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaiden%20Yotsuki%2FRaiden%20Yotsuki.png?alt=media&v=1788276552038533)
 
 ## Descrição
 Raiden Yotsuki, “O Arsenal Celeste”, pertence a um ramo secundário do clã Yotsuki. Criado entre ferreiros, desenvolveu a convicção de que armas físicas poderiam quebrar, ser roubadas ou utilizadas contra o próprio portador.
@@ -8560,7 +8560,7 @@ Chakra: 91
 Status: Vivo
 Títulos: O Senhor das Correntes Trovejantes
 
-![Gorai Arashiumi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1786652861645187)
+![Gorai Arashiumi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1788276469999708)
 
 ## Descrição
 Gorai Arashiumi, “O Senhor das Correntes Trovejantes”, nasceu em uma comunidade de pescadores nos lagos montanhosos do País do Relâmpago. Descendente de antigos protetores das rotas fluviais, manifestou a Kekkei Genkai Ranton, formada pela união de Raiton e Suiton.
@@ -8607,7 +8607,7 @@ Chakra: 85
 Status: Vivo
 Títulos: A Dama dos Tornados
 
-![Nayara Kazemori](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNayara%20Kazemori%2FNayara%20Kazemori.png?alt=media&v=1786652865251006)
+![Nayara Kazemori](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNayara%20Kazemori%2FNayara%20Kazemori.png?alt=media&v=1788276546601379)
 
 ## Descrição
 Nayara Kazemori, “A Dama dos Tornados”, nasceu em uma família responsável pela vigilância das rotas aéreas entre as montanhas de Kumogakure. Desde jovem, conseguia perceber alterações no vento antes da formação de tempestades.
@@ -8656,7 +8656,7 @@ Chakra: 91
 Status: Vivo
 Títulos: O Fantasma da Trovoada
 
-![Shizuru Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizuru%20Kurogane%2FShizuru%20Kurogane.png?alt=media&v=1786652868715619)
+![Shizuru Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizuru%20Kurogane%2FShizuru%20Kurogane.png?alt=media&v=1788276582039617)
 
 ## Descrição
 Shizuru Kurogane, “O Fantasma da Trovoada”, nasceu durante uma tempestade que permaneceu sobre Kumogakure por sete dias. Seu organismo produz naturalmente o Kaminari, o raro Raio Negro considerado uma bênção das montanhas.
@@ -8703,7 +8703,7 @@ Chakra: 76
 Status: Vivo
 Títulos: A Mestra do Raio Sepultado
 
-![Midori Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMidori%20Kurogane%2FMidori%20Kurogane.png?alt=media&v=1786652872347241)
+![Midori Kurogane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMidori%20Kurogane%2FMidori%20Kurogane.png?alt=media&v=1788276526557603)
 
 ## Descrição
 Midori Kurogane, “A Mestra do Raio Sepultado”, nasceu entre ferreiros e desenvolveu grande sensibilidade às correntes presentes nos metais. Durante uma missão em uma mina, conduziu Raiton pelas vigas e minerais para derrotar inimigos sem atingir seus companheiros.
@@ -8752,7 +8752,7 @@ Chakra: 97
 Status: Vivo
 Títulos: O Regente das Cem Lâminas
 
-![Kiyoshi Hagane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1786652875823257)
+![Kiyoshi Hagane](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1788276513569416)
 
 ## Descrição
 Kiyoshi Hagane, “O Regente das Cem Lâminas”, nasceu em uma antiga família de ferreiros e conseguia sentir pequenas cargas elétricas presentes nos metais. Durante uma missão, sofreu danos graves nos nervos e perdeu os movimentos das mãos.
@@ -8801,7 +8801,7 @@ Chakra: 73
 Status: Vivo
 Títulos: A Gravurista do Trovão
 
-![Akane Sumigami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkane%20Sumigami%2FAkane%20Sumigami.png?alt=media&v=1786652879243128)
+![Akane Sumigami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkane%20Sumigami%2FAkane%20Sumigami.png?alt=media&v=1788276404356018)
 
 ## Descrição
 Akane Sumigami, “A Gravurista do Trovão”, nasceu em uma família de artesãos que produzia mapas, pergaminhos e registros históricos. Misturando fuligem, minerais metálicos e chakra, desenvolveu uma tinta negra altamente condutora.
@@ -8850,7 +8850,7 @@ Chakra: 70
 Status: Vivo
 Títulos: O Passo Antes do Trovão
 
-![Inazuma Kazuchi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1786652882806899)
+![Inazuma Kazuchi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1788276493788164)
 
 ## Descrição
 Inazuma Kazuchi, “O Passo Antes do Trovão”, é o irmão mais velho de Yoru Kazuchi e o principal mestre de furtividade convencional da Elite. Diferentemente de Mika Yotsuki, não nasceu com uma capacidade sobrenatural de apagar a própria existência. Tudo o que realiza é resultado de treinamento e controle corporal.
@@ -8899,7 +8899,7 @@ Chakra: 132
 Status: Vivo
 Títulos: A Muralha Escolhida por Leviatã
 
-![Amakumo Hōzuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727)
+![Amakumo Hōzuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788276410123654)
 
 ## Descrição
 Amakumo é um homem bom, porém possui limites muito bem definidos, especialmente durante conversas e discussões políticas. Respeita profundamente Genzō, seu amigo de longa data, parceiro de combate e atual vice-almirante da Frota Leviatã. Apesar de suas diferenças, os dois construíram uma relação baseada em confiança e lealdade.
@@ -8944,7 +8944,7 @@ Chakra: 97
 Status: Vivo
 Títulos: O Sábio dos Mares
 
-![Genzō Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376)
+![Genzō Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788276467462558)
 
 ## Descrição
 Genzō Umikage é um artesão, um simples pescador e, ao mesmo tempo, um grande Vice-Almirante. Age de maneira calma e pacífica em praticamente todas as situações, exceto quando alguém desafia ou ameaça sua vila. Costuma passar seu tempo com uma vara de pesca no porto. Embora sua aparência coberta por escamas possa assustar algumas pessoas, Genzō é um homem bondoso.
@@ -8991,7 +8991,7 @@ Chakra: 94
 Status: Vivo
 Títulos: O Tubarão Sem Passado
 
-![Raizuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499)
+![Raizuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788276557723284)
 
 ## Descrição
 Registros apagados na Vila da Névoa.
@@ -9033,7 +9033,7 @@ Chakra: 82
 Status: Vivo
 Títulos: A Miragem Negra da Névoa
 
-![Suiren Shiranami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131)
+![Suiren Shiranami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788276587217832)
 
 ## Descrição
 Suiren Shiranami é um jovem promissor de 25 anos, dono de um histórico formidável e de uma disciplina exemplar. Portador da Espada da Névoa, é visto como um herói pelo povo de Kirigakure: um homem gentil que busca proteger a vila e seus habitantes.
@@ -9080,7 +9080,7 @@ Chakra: 132
 Status: Vivo
 Títulos: O Almirante Sujo
 
-![Juzo Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702)
+![Juzo Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788276495586118)
 
 ## Descrição
 Juzo, Almirante da Frota Kraken, é um dos homens mais influentes, formidáveis e cruéis da Névoa. Inteligente, paciente e articulado, atravessa guerras utilizando alianças, chantagens, informações e acordos secretos. Comanda uma extensa rede clandestina de agentes e intermediários espalhada por diversas vilas.
@@ -9126,7 +9126,7 @@ Chakra: 85
 Status: Vivo
 Títulos: O Rosto Sob a Máscara
 
-![Kōga Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256)
+![Kōga Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788276522050524)
 
 ## Descrição
 Kōga Kirisame é o Vice-Almirante da Frota Kraken. Já disputou o posto de Almirante e perdeu — a máscara que carrega esconde um rosto coberto de vergonha.
@@ -9169,7 +9169,7 @@ Chakra: 91
 Status: Vivo
 Títulos: O Arquivo
 
-![Mei Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992)
+![Mei Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788276524275544)
 
 ## Descrição
 Mei Yuki é a Capitã da Frota Kraken, colecionadora de armas ninja e a maior especialista em história ninja da Névoa. Seu código de guerra é O Arquivo.
@@ -9213,7 +9213,7 @@ Chakra: 88
 Status: Vivo
 Títulos: O Azarado da Névoa
 
-![Nao Arashio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061)
+![Nao Arashio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788276541041014)
 
 ## Descrição
 Nao Arashio, Capitão-Tenente da Frota Kraken, não é exatamente o que se chamaria de vilão. É, talvez, um homem muito azarado.
@@ -9258,7 +9258,7 @@ Chakra: 137
 Status: Vivo
 Títulos: O Escolhido
 
-![Ganmaren Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643)
+![Ganmaren Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788276459807981)
 
 ## Descrição
 Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.
@@ -9305,7 +9305,7 @@ Chakra: 94
 Status: Vivo
 Títulos: O Cego
 
-![Gordon Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930)
+![Gordon Kirisame](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788276472216777)
 
 ## Descrição
 Gordon Kirisame, o Cego, é o Vice-Almirante da Frota Jormungandr e um dos membros mais respeitados do esquadrão — braço direito do ninja mais forte da Névoa. A cicatriz em seu peito foi feita pelo próprio almirante, e é dela que vem sua fidelidade: Gordon o vê como um deus ninja. O que persegue é impor a Kirigakure inteira uma justiça cega, que não enxerga cor nem raça, só caráter.
@@ -9353,7 +9353,7 @@ Chakra: 141
 Status: Vivo
 Títulos: Criança Amaldiçoada
 
-![Hahiko Shiosaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235)
+![Hahiko Shiosaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788276475806041)
 
 ## Descrição
 Hahiko Shiosaki é a Capitã da Frota Jormungandr, e Kirigakure a chama de monstro. Cresceu isolada, tratada como criança amaldiçoada — ninguém se ofereceu para cuidar de um monstro.
@@ -9399,7 +9399,7 @@ Chakra: 91
 Status: Vivo
 Títulos: A Heroína Morta
 
-![Himari Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490)
+![Himari Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788276484593385)
 
 ## Descrição
 Himari Yuki foi uma prodígio: a jōnin mais exemplar de sua época e uma heroína para Kirigakure inteira. Hoje é a Capitã-Tenente da Frota Jormungandr, e só uma casca do que foi.
@@ -9447,7 +9447,7 @@ Chakra: 132
 Status: Vivo
 Títulos: O Almirante Sanguinário
 
-![Enkai Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763)
+![Enkai Kuroshio](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788276446111310)
 
 ## Descrição
 Enkai Kuroshio, Almirante da Frota Megalodon, é calmo, elegante e extremamente perspicaz. Muitos nunca o viram lutar — a maioria dos que o enfrentaram não voltou com vida. A pele branca como a névoa e os olhos vermelhos lhe deram o apelido de vampiro, e o apelido pegou.
@@ -9494,7 +9494,7 @@ Chakra: 128
 Status: Vivo
 Títulos: Filho do Céu
 
-![Ayame Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717)
+![Ayame Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788276422463310)
 
 ## Descrição
 Ayame Sazanami é o Vice-Almirante da Frota Megalodon e portador do Shingan, os olhos divinos do clã Sazanami, que dentro da Névoa a maioria ainda trata como lenda.
@@ -9540,7 +9540,7 @@ Chakra: 137
 Status: Vivo
 Títulos: Hyuga de Kirigakure
 
-![Tōma Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788190690779402)
+![Tōma Umikage](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788276594165773)
 
 ## Descrição
 Tōma Umikage, a Ganância, é a Capitã da Frota Megalodon. Acredita que só o esforço torna alguém importante, e sua ambição não tem par.
@@ -9586,7 +9586,7 @@ Chakra: 132
 Status: Vivo
 Títulos: Filha da Terra
 
-![Mirei Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649)
+![Mirei Sazanami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788276531264909)
 
 ## Descrição
 Mirei Sazanami, a Filha da Terra, é a Capitã-Tenente da Frota Megalodon. Diferente do irmão, nunca aprendeu a usar o Shingan — seu corpo não evoluiu a esse ponto — e o selamento do clã a deixou cega. Ainda assim se move pelo campo guiada pelas explosões da própria espada.
@@ -9630,7 +9630,7 @@ Chakra: 123
 Status: Morto (morto por Nagare Uzumaki)
 Títulos: Jinchuuriki, O Primeiro Experimento, Líder dos 75%, O Inferno Vermelho
 
-![Akairo Uchiha (A)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).jpg?alt=media&v=1786651890553682)
+![Akairo Uchiha (A)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).png?alt=media&v=1788276400793721)
 
 ## Descrição
 Akairo Uchiha, conhecido como o A, é a prova viva de que até mesmo os clãs mais poderosos podem gerar algo que foge completamente às suas próprias regras. Nascido dentro do clã Uchiha, ele carregava uma anomalia impossível: não possuía chakra natural. Em um clã onde o poder está ligado diretamente ao fluxo de chakra e à evolução do Sharingan, Akairo era visto como um erro, um fracasso, alguém que jamais despertaria o verdadeiro potencial de seu sangue.
@@ -9754,7 +9754,7 @@ Chakra: 132
 Status: Vivo
 Títulos: Jinchuuriki, O Segundo Experimento, Vice Líder dos 75%, O Anjo de Gelo
 
-![Borashi Hyuga (B)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1786996820348030)
+![Borashi Hyuga (B)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1788276429962131)
 
 ## Descrição
 Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.
@@ -9880,7 +9880,7 @@ Chakra: 85
 Status: Vivo
 Títulos: A Guardiã Rosa, Equilíbrio Emocional
 
-![Chisaki Dokuhana (C)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).png?alt=media&v=1786996822018571)
+![Chisaki Dokuhana (C)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).png?alt=media&v=1788276435375186)
 
 ## Descrição
 Chisaki Dokuhana, conhecida como C, é a personificação do controle absoluto em meio ao caos. Nascida em uma família respeitada por seu domínio em fūinjutsu e ninjutsu médico, ela cresceu cercada por disciplina, técnica e propósito. Filha de Rock Gunma, sua vida tomou um rumo trágico — ou pelo menos foi isso que a fizeram acreditar.
@@ -9986,7 +9986,7 @@ Chakra: 96
 Status: Morto (morto por Akairo Uchiha (A))
 Títulos: O Fruto do Pecado, A Sombra de Konoha, Sombra Silenciosa
 
-![Daiki Uzumaki (D)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaiki%20Uzumaki%20(D)%2FDaiki%20Uzumaki%20(D).jpg?alt=media&v=1786651892322379)
+![Daiki Uzumaki (D)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaiki%20Uzumaki%20(D)%2FDaiki%20Uzumaki%20(D).png?alt=media&v=1788276440869217)
 
 ## Descrição
 Daiki, conhecido como D, é uma existência nascida de um dos momentos mais sombrios da história ninja. Sua origem está ligada diretamente a Hades, o homem que declarou guerra ao sistema, e a Yumi Uzumaki, cuja vida foi marcada por um evento que jamais foi revelado por completo.
@@ -10130,7 +10130,7 @@ Chakra: 52
 Status: Morto (morto por Chip da OCA)
 Títulos: A Centelha Dourada, Traidora da OCA, Namorada de Furyuzan
 
-![Etsuko Senju (E)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEtsuko%20Senju%20(E)%2FEtsuko%20Senju%20(E).jpg?alt=media&v=1786651893230348)
+![Etsuko Senju (E)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEtsuko%20Senju%20(E)%2FEtsuko%20Senju%20(E).png?alt=media&v=1788276451275722)
 
 ## Descrição
 Etsuko Senju, conhecida como E, é o equilíbrio entre genialidade estratégica e poder explosivo contido. Nascida da união entre um Senju fugitivo da guerra e uma usuária natural do Shakuton, sua existência já era, por si só, uma anomalia rara. Criada longe dos grandes conflitos, em uma vila escondida, cresceu em um ambiente onde a paz era prioridade — mas seu talento nunca passou despercebido.
@@ -10208,7 +10208,7 @@ Chakra: 52
 Status: Morto (morto por Kaito Senju)
 Títulos: Maldição, Arma Biológica da OCA, Presa Venenosa
 
-![Fuyuki Dokuhana (F)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuyuki%20Dokuhana%20(F)%2FFuyuki%20Dokuhana%20(F).jpg?alt=media&v=1786651893212811)
+![Fuyuki Dokuhana (F)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuyuki%20Dokuhana%20(F)%2FFuyuki%20Dokuhana%20(F).png?alt=media&v=1788276456519337)
 
 ## Descrição
 Fuyuki Aranami, conhecido como F, é a personificação viva de um erro que se recusou a morrer. Nascido em um vilarejo esquecido entre os vales de Kusagakure, sua existência já começou como uma anomalia: seu corpo produzia toxinas naturalmente, liberando venenos através do suor e da respiração — uma condição tão perigosa quanto incompreendida.
@@ -10293,7 +10293,7 @@ Chakra: 132
 Status: Morto (morto por Kaito Senju)
 Títulos: Ser Humano Artificial, Vice Líder dos 75%
 
-![Genei (G)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenei%20(G)%2FGenei%20(G).jpg?alt=media&v=1786651894248252)
+![Genei (G)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenei%20(G)%2FGenei%20(G).png?alt=media&v=1788276464596617)
 
 ## Descrição
 Gen’ei, conhecido como G, não é um humano no sentido tradicional — ele é uma criação. Forjado em um laboratório subterrâneo da Organização do Chakra Artificial, foi concebido como o primeiro ser totalmente gerado a partir de chakra artificial puro. Sem pais, sem passado e sem identidade própria, seu corpo foi construído utilizando fragmentos genéticos de ninjas lendários, incluindo traços de um Jinchūriki e de um membro do clã Kaguya, combinados com chakra profano.
@@ -10388,7 +10388,7 @@ Chakra: 64
 Status: Morto (morto por Hikaru Ishi)
 Títulos: Filho do Trovão, Traidor da OCA
 
-![Hayato Hanzo (H)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHayato%20Hanzo%20(H)%2FHayato%20Hanzo%20(H).jpg?alt=media&v=1786651894267268)
+![Hayato Hanzo (H)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHayato%20Hanzo%20(H)%2FHayato%20Hanzo%20(H).png?alt=media&v=1788276480669826)
 
 ## Descrição
 Hayato Hanzo, conhecido como H, é a personificação de uma tempestade que perdeu tudo e decidiu se tornar algo além da própria natureza. Filho de Hanzo, um dos Três Sábios da Vila da Nuvem, Hayato nasceu cercado por legado, disciplina e poder.
@@ -10475,7 +10475,7 @@ Chakra: 94
 Status: Morto (morto por Yuji Yotsuki)
 Títulos: Raikage da OCA, Deus do Raiton
 
-![Katakana Yotsuki (Alpha)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatakana%20Yotsuki%20(Alpha)%2FKatakana%20Yotsuki%20(Alpha).jpg?alt=media&v=1786651908720600)
+![Katakana Yotsuki (Alpha)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatakana%20Yotsuki%20(Alpha)%2FKatakana%20Yotsuki%20(Alpha).png?alt=media&v=1788276502947501)
 
 ## Descrição
 Desconhecido
@@ -10602,7 +10602,7 @@ Chakra: 141
 Status: Morto (morto por Oddy Uchiha)
 Títulos: Mizukage da OCA, O Íon Vivo
 
-![Ganmasen Yuki (Gama)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmasen%20Yuki%20(Gama)%2FGanmasen%20Yuki%20(Gama).png?alt=media&v=1786651909338394)
+![Ganmasen Yuki (Gama)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmasen%20Yuki%20(Gama)%2FGanmasen%20Yuki%20(Gama).png?alt=media&v=1788276462208894)
 
 ## Descrição
 Desconhecido
@@ -10728,7 +10728,7 @@ Chakra: 76
 Status: Morto (morto por Najin Hatake)
 Títulos: Tsuchikage da OCA, O Núcleo
 
-![Deruta Muujin (Delta)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDeruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).jpg?alt=media&v=1786651909947775)
+![Deruta Muujin (Delta)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDeruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).png?alt=media&v=1788276443554710)
 
 ## Descrição
 Desconhecido
@@ -10888,7 +10888,7 @@ Chakra: 94
 Status: Vivo
 Títulos: Kazekage da OCA
 
-![Shiita Sabaku (Theta)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTheta%2FTheta.png?alt=media&v=1786651897904547)
+![Shiita Sabaku (Theta)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShiita%20Sabaku%20(Theta)%2FShiita%20Sabaku%20(Theta).png?alt=media&v=1788276571391970)
 
 ## Descrição
 Desconhecido
@@ -10933,7 +10933,7 @@ Chakra: 100
 Status: Morto (morto por Nishinoya Senju)
 Títulos: O Primogênito, Sannins da Terra, O Espadachim mais forte do mundo, Vice Líder da OCA, Deus Shinobi
 
-![Kaien Ishi (Omega)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media&v=1786651890565160)
+![Kaien Ishi (Omega)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).png?alt=media&v=1788276497151562)
 
 ## Descrição
 Kaien Ishi, conhecido hoje como Ômega, nasceu no topo do mundo — herdeiro da família que governava todo o País da Terra. Cercado por luxo, poder e privilégios, foi criado para se tornar o próximo soberano absoluto. Ele era o herdeiro da lendária Seimei no Saidan e tinha tudo ao seu alcance, exceto paz.
@@ -11042,7 +11042,7 @@ Chakra: 0
 Status: Vivo
 Títulos: Líder do Terceiro Degrau, O Mutador
 
-![Beta](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBeta%2FBeta.jpg?alt=media&v=1786651897906569)
+![Beta](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBeta%2FBeta.png?alt=media&v=1788276427259582)
 
 ## Descrição
 Desconhecido
@@ -11184,7 +11184,7 @@ Chakra: 0
 Status: Vivo
 Títulos: Líder da OCA, Fundador da OCA
 
-![Hades](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.jpeg?alt=media&v=1786983073679558)
+![Hades](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.png?alt=media&v=1788276473918999)
 
 ## Descrição
 Desconhecido

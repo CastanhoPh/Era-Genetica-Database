@@ -16,7 +16,7 @@ export const initialData: Character[] = [
     chakra: 200,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.jpg?alt=media&v=1786651865147176",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNishinoya%20Senju%2FNishinoya%20Senju.png?alt=media&v=1788276548472744",
     techniques: [
       {
         name: "Senpo Enka Aoi Katon: Bijuudama OodamaRasenShuriken",
@@ -303,7 +303,7 @@ export const initialData: Character[] = [
     description: "O prodígio que já é uma realidade, um gênio dentro do campo de batalha com suas habilidades técnicas e seu estilo de luta versátil e completo, sua resistência é invejável, dominante no estilo madeira, usuário do Oodama Rasengan Vermelho e treinado no modo eremita mokuton, misturando inteligência, resistência e determinação, é o ninja coringa de Konoha.\n\nKaito não promete mais levar o legado de seu pai, ele promete salvar o mundo da sujeira ninja.\n\nEle acredita em uma revolução em todo o mundo ninja, onde todos se unem em uma mesma ideia, em uma mesma mente e em um único poder principal.\n\nEle luta apenas para proteger a paz, mas guerreiros também não são inocentes, ele já matou uma pessoa por vingança e o ódio que o consumiu é o mesmo ódio que o sistema ninja impõe na mente das pessoas para que haja guerra, e seu irmão é a prova disso.\n\nA revolução de Kaito não busca poder; ela nasce do desespero de um mundo à beira do fim.",
     hp: 133,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1787851081495084",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FKaito%20Senju.png?alt=media&v=1788276499023504",
     techniques: [
       {
         name: "Mokuton: Eien no Tomo",
@@ -523,7 +523,7 @@ export const initialData: Character[] = [
     description: "O Fantasma dos Uzumaki e a Voz da Destruição\\n\\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\\n\\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\\n\\nPortador de Técnicas únicas:\\n* Kaminari Branco\\n* Amenotejikara",
     hp: 154,
     chakra: 96,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.jpg?alt=media&v=1786651884017022",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.png?alt=media&v=1788276534832123",
     techniques: [
       {
         name: "Shiroki Kaminari: Amenotejikara no Ranton",
@@ -702,7 +702,7 @@ export const initialData: Character[] = [
     description: "O herdeiro do fogo. Um espadachim moldado pela dor.\nO homem que se recusa a deixar Konoha morrer.\n\nDesde muito jovem, Oddy Uchiha já era reconhecido por sua determinação e liderança natural, mesmo carregando o fardo de ser filho de Madara Uchiha. Seu poder não nasceu da ambição por domínio, mas da vontade de proteger a vila que escolheu como lar. Ainda criança, despertou o Sharingan ao perder o pai no Vale do Fim, marcando o início de um destino selado pela dor e pela escolha.\n\nApós ingressar na Nova ANBU, Oddy lutou na linha de frente contra a OCA, presenciando a queda de Konoha e a morte de figuras que moldaram sua vida — Nishinoya, Tobirama, Sho Uchiha e seus companheiros. Foi nesse massacre que despertou o Mangekyō Sharingan, não movido pelo ódio, mas pela perda absoluta de tudo o que jurou proteger.\n\nOddy é capaz de unir o poder do Katon Uchiha, o Mangekyō Sharingan e o caminho das duas lâminas, empunhando a Kusanagi do clã Uchiha e a Homura no Chikai, a espada de fogo herdada de Hirato. Seu estilo permite que ele use as chamas tanto para destruir quanto para salvar, manifestando a verdadeira Vontade do Fogo em sua forma mais pura.\n\nOddy Uchiha busca se tornar um deus shinobi, não por título, mas para que ninguém mais precise nascer das cinzas\n\nCriador e usuário de técnicas únicas, entre elas:\n\n- Amaterasu: Hi no Ishi (Chamas da Extinção e da Vida)\n- Katon: Ryūen no Jutsu (Dragão de Fogo)\n- Katon: Flechas Ígneas\n- Estilo Ryūka no Nintō (O Caminho das Dos Chamas)",
     hp: 172,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.jpg?alt=media&v=1786651872658006",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FOddy%20Uchiha.png?alt=media&v=1788276550160782",
     techniques: [
       {
         name: "Katon Doton: Byakko no Hakai",
@@ -949,7 +949,7 @@ export const initialData: Character[] = [
     chakra: 58,
     isDead: true,
     killedBy: "Kai",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FKatsumi%20Hyuga.png?alt=media&v=1786651875776672",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsumi%20Hyuga%2FKatsumi%20Hyuga.png?alt=media&v=1788276504734916",
     techniques: [
       {
         name: "Shippū Hyōkai: Reiki to Kyōji",
@@ -1172,7 +1172,7 @@ export const initialData: Character[] = [
     chakra: 55,
     isDead: true,
     killedBy: "9º Portão: Ressureição",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FNajin%20Hatake.png?alt=media&v=1786651878666225",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNajin%20Hatake%2FNajin%20Hatake.png?alt=media&v=1788276539318596",
     techniques: [
       {
         name: "Mangekyou Kyômon: Chōtotsu Mōshin Susanoo no Shingeki",
@@ -1381,7 +1381,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 139,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1786651880256457",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTakeshi%20Hatake.png?alt=media&v=1788276589007621",
     techniques: [
       {
         name: "Kaminoyari: Kirin",
@@ -1535,7 +1535,7 @@ export const initialData: Character[] = [
     chakra: 65,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.jpg?alt=media&v=1786651881731095",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.png?alt=media&v=1788276585476756",
     arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoei%20Sarutobi%2FPr_logo.png?alt=media&v=1784658602065060", caption: "Prólogo", category: "era" },
@@ -1613,7 +1613,7 @@ export const initialData: Character[] = [
     description: "Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.\n\nDesde muito jovem já era reconhecido por sua inteligência e personalidade inabaláveis mesmo sem ter lembranças dos seus pais. Com poucos anos de idade foi resgatado no meio de uma guerra pelos capangas de um tal Hades, que o levaram a um laboratório onde virou o primeiro experimento de chakra artificial, conseguindo resistir ao experimento, tornou-se o início de algo maior para a OCA, onde muitas crianças foram manipuladas e testadas visando ajudar a conquistar os objetivos do Hades.\n\nCom 13 anos, Furyuzan sofreu experiências traumáticas em um curto período de tempo que afetaram fortemente seu psicológico. Descobriu a manipulação que a OCA havia feito durante sua vida toda, sofreu pela morte do Kazuke e principalmente pela morte da E por quem se apaixonou. Após esses acontecimentos, Furyuzan prometeu vingança ao Hades e busca uma forma de trazer a E de volta à vida.\n\nEle utiliza um Arco de Sangue junto do Doton para formar barreiras e vencer o inimigo de forma estratégica (muitas vezes saindo ileso de combates), além de poder lutar corpo a corpo utilizando a Nuibari. Furyuzan ainda potencializa seu poder total quando usa sua Bijuu artificial em forma de Velociraptor.",
     hp: 130,
     chakra: 96,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1786651881733939",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1788276453792781",
     techniques: [
       {
         name: "Bijuu Profana: Manto Profano 75%",
@@ -1770,7 +1770,7 @@ export const initialData: Character[] = [
     chakra: 46,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.jpg?alt=media&v=1786651886146199",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.png?alt=media&v=1788276508813896",
     techniques: [
       {
         name: "Kraken: Oodama Rasengan",
@@ -1828,7 +1828,7 @@ export const initialData: Character[] = [
     description: "O Punho Sagrado da Guerra e o Herdeiro da Pedra Viva\n\nKenma Soryo cresceu em meio ao maior conflito já registrado no País da Guerra: Monges contra Samurais. Aos 14 anos, tornou-se discípulo direto de Oshō, o lendário líder espiritual dos monges, um homem que possuía poder suficiente para dominar tudo, mas escolheu a paz. Kenma testemunhou a morte do irmão de seu mestre, um guerreiro que, antes de cair, derrotou dois portadores das Espadas Lendárias da Terra. Viu também Oshō derrotar o último espadachim — aquele cuja lâmina controlava vida e morte — selando o destino da guerra e dividindo o território em equilíbrio forçado.\n\nMesmo após o tratado que estabeleceu alternância de poder e a escolha cíclica do Tsuchikage, a paz começou a ruir com o surgimento de forças externas e o enfraquecimento espiritual das Pedras Sagradas. Enquanto o mundo mudava, Kenma nunca deixou de treinar. Nas sombras, longe da política e da instabilidade, ele aprimorou corpo e espírito, tornando-se algo além de um simples monge.\n\nDominador do Modo Sábio dos Monges, Kenma canaliza energia natural espiritual e cobre o corpo com marcas douradas que ampliam sua força, resistência e percepção de chakra a níveis extraordinários. Seu Doton avançado permite manipular rocha e solo como extensões do próprio corpo, criar armaduras de pedra viva e desferir golpes com impacto sísmico capazes de abrir crateras no campo de batalha.\n\nAo combinar Sennin e Doton, transforma o combate corpo a corpo em devastação absoluta — socos que partem a terra, pisadas que erguem muralhas e uma pele com resistência comparável ao granito. Ainda assim, carrega os ensinamentos pacifistas de Oshō no coração. Kenma não luta por dominação, mas para restaurar o equilíbrio espiritual que está à beira do colapso.\n\nPortador de Técnicas únicas:\n* Modo Sábio dos Monges\n* Armadura de Pedra Viva\n* Impacto Sísmico Sennin",
     hp: 154,
     chakra: 40,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.jpg?alt=media&v=1786651886159192",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FKenma%20Soryo.png?alt=media&v=1788276511070417",
     techniques: [
       {
         name: "Senpo: Kabutowari Daichishō",
@@ -2041,7 +2041,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 154,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyumi%20Uchiha%2FAyumi%20Uchiha.png?alt=media&v=1786651896398168",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyumi%20Uchiha%2FAyumi%20Uchiha.png?alt=media&v=1788276424862576",
     techniques: [
       {
         name: "Katon: Fênix do Trovão Carmesim",
@@ -2155,7 +2155,7 @@ export const initialData: Character[] = [
     description: "Shizumi Uchiha, reconhecida pelo próprio Tobirama como uma das mentes mais brilhantes de Konoha, sempre esteve muito à frente de sua geração. Desde a infância, demonstrou uma afinidade incomum com o Raiton, manipulando descargas elétricas com precisão e instinto quase naturais.\n\nNo entanto, seu verdadeiro diferencial nunca foi apenas poder — foi sua obsessão por compreender. Fascinada pelo lendário Hiraishin, Shizumi mergulhou profundamente no estudo de fuinjutsu, dedicando anos a desvendar os princípios por trás da manipulação de espaço, marcação e fluxo de chakra.\n\nSua trajetória, porém, foi brutalmente interrompida durante o fatídico sequestro das crianças de Konoha.\n\nCapturada, Shizumi foi submetida a um processo contínuo de tortura psicológica, onde sua mente foi levada ao limite repetidas vezes. Foi nesse abismo que seu Mangekyō Sharingan despertou — não como um símbolo de evolução, mas como resultado direto do colapso.\n\nDiferente de outros Uchiha, seus olhos não foram apenas despertados… foram forçados além do natural.\n\nMesmo após perder a visão, experimentos envolvendo chakra profano mantiveram seus olhos ativos artificialmente, obrigando-os a continuar funcionando contra todas as leis conhecidas. Nesse processo, algo inexplicável ocorreu: um dos tomoe de seu Sharingan simplesmente desapareceu, como se sua própria estrutura ocular estivesse sendo reescrita.\n\nSeu outro olho foi removido e implantado em um agente interno da OCA, criando uma conexão anômala. Através desse vínculo corrompido, Shizumi passou a enxergar pelo olho distante, transformando-se involuntariamente em um instrumento de vigilância viva da organização. Sua percepção deixou de estar presa ao próprio corpo.\n\nDurante o Exame Chunin, essa conexão atingiu um ponto crítico. Incapaz de controlar o fluxo instável de chakra e a sobrecarga sensorial, Shizumi sofreu um colapso, liberando o Amaterasu de forma caótica, incendiando tudo ao seu redor sem distinção.\n\nO evento marcou o fim de sua estabilidade mental.\n\nApós o incidente, Shizumi foi considerada instável demais para permanecer ativa. Ela foi contida e levada a um hospital secreto de Konoha, onde permanece em coma desde então.\n\nOficialmente, seu corpo repousa. Extraoficialmente, sua mente nunca deixou de observar.\n\nFragmentada, conectada e presa entre dois pontos, Shizumi existe em um estado indefinido — nem consciente, nem ausente.\n\nPara Konoha, ela é um risco selado. Para a OCA, um experimento ainda ativo.\n\nE para aqueles que entendem a profundidade do que ela se tornou… Shizumi não está dormindo. Ela está vendo.",
     hp: 130,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1786651897303644",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizumi%20Uchiha%2FShizumi%20Uchiha.png?alt=media&v=1788276580395362",
     techniques: [
       {
         name: "Kaminari: Hiraishin",
@@ -2256,7 +2256,7 @@ export const initialData: Character[] = [
     description: "Uma kunoichi envolta em mistério e temida por seu poder. \n\nIrmã gêmea secreta de Oddy Uchiha, Kuromi foi criada nas sombras e treinada pelo lendário ninja Raikun, que lhe ensinou técnicas de combate, selamentos e o Modo Sábio dos Cães.\n\nDurante uma missão envolvendo a liberação de bijuu, Kuromi despertou seu Mangekyou Sharingan e, em meio ao caos, conseguiu estabilizar o selo da besta dentro de Shoei Sarutobi. O choque entre seu poder, o chakra da bijuu e os selamentos usados na batalha deixou uma marca permanente em seu abdômen.\n\nPortadora de um Mangekyou com habilidades únicas de manipulação mental e invocadora do lendário lobo Okami, Kuromi se tornou conhecida no mundo shinobi como a Predadora de Bijus.",
     hp: 205,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1786651902544933",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FKuromi%20Uchiha.png?alt=media&v=1788276520149600",
     techniques: [
       {
         name: "Meikyō Shin'en",
@@ -2367,7 +2367,7 @@ export const initialData: Character[] = [
     description: "Apollo Netsu é uma anomalia no mundo shinobi — um nome falso carregando uma linhagem que não deveria existir.\n\nIrmão biológico de Shoei Sarutobi, foi separado dele ainda criança após o incidente com a Bijuu Son Goku. Enquanto Shoei teve a mente reescrita por Kuromi, perdendo todo o passado, Apollo foi removido das sombras antes de ser encontrado.\n\nEle estava presente no dia em que Son Goku foi selado.\n\nNaquele momento, viu Shoei perder completamente o controle. O chakra colapsou, o ambiente foi consumido e, no meio do caos, Apollo foi atingido diretamente. As chamas e o chakra avançaram sem controle, queimando completamente seus braços.\n\nNão foi intencional.\nMas foi o primeiro impacto entre os dois irmãos — uma marca permanente.\n\nPara protegê-lo de caçadores e do próprio sistema shinobi, Tobirama tomou uma decisão extrema: apagar sua existência.\n\nApollo Sarutobi deixou de existir.\nApollo Netsu nasceu.\n\nCriado em segredo, longe de qualquer vila, foi treinado diretamente por Tobirama não como um soldado, mas como uma peça estratégica.\n\nDesde cedo, demonstrou um chakra natural absurdo — puro, denso, em constante ressonância com o ambiente. Mas seu maior diferencial era o vínculo com os macacos sábios.\n\nEles não o viam como humano.\nViam algo próximo deles.\n\nIsso levantou uma hipótese perigosa: sua linhagem poderia estar ligada aos antigos Sarutobi conectados ao legado de Son Goku. Talvez por isso, seu destino sempre esteve atrelado à Bijuu.\n\nApollo cresceu com fragmentos da verdade. Sabia que estava sendo escondido. Sabia que havia alguém com o mesmo sangue. Mas nunca soube quem.\n\nDurante o Exame Chunin, encontrou algo novo: conexão.\nAo lado de Nagi Yuki e Yasuo Kurogane, viu pessoas tão quebradas quanto ele.\n\nFoi nesse mesmo exame que tudo quase veio à tona.\n\nAo presenciar Shoei liberar o chakra de Son Goku, algo dentro dele reagiu. Não foi consciente — foi instinto. Seu corpo entrou em ressonância, sua percepção se rompeu.\n\nNaquele instante, ele soube:\n\nNão era apenas um jinchūriki.\nEra seu irmão.\n\nMas essa verdade nunca se completou.\n\nUm infiltrado agiu no momento exato, usando Chakra Profano e Genjutsu para apagar aquele instante e selar a conexão recém-desperta.\n\nSeu nome era Beta.\n\nPara Apollo, aquele momento nunca existiu.\n\nA sensação permaneceu — sem memória, sem forma, sem explicação.\n\nApós o exame e o encontro com Shikure e Togo Kage, Apollo tomou sua decisão não por revolta, mas por clareza:\n\nO mundo shinobi estava errado.\n\nE ele seguiria até o fim para entender o porquê.",
     hp: 202,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1786651905190869",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FApollo%20Sarutobi.png?alt=media&v=1788276413053575",
     techniques: [
       {
         name: "Senpo: Kongō Enma no Taiyō",
@@ -2495,7 +2495,7 @@ export const initialData: Character[] = [
     description: "Naomi Uzumaki, irmã de Yumi e Mito Uzumaki, nasceu cercada por expectativas impossíveis de alcançar — reconhecida desde o início como a criança com a maior reserva de chakra da história ninja. Após a morte de sua irmã durante a guerra, Mito tomou uma decisão que mudaria tudo: selou a Kurama em Naomi, mantendo esse segredo oculto até mesmo da vila. Desde então, Naomi passou a carregar um poder que a colocava acima de todos — e, ao mesmo tempo, a condenava. Nishinoya era completamente apaixonado por ela, mas Naomi nunca lhe deu uma chance, limitando-se a observá-lo à distância, em silêncio. Quando ele invadiu a cúpula do Hokage em busca de aprender o Hiraishin, Naomi o seguiu, e foi nesse momento que Tobirama decidiu treinar ambos pessoalmente. Dotada de afinidade natural com o Suiton, Naomi rapidamente ultrapassou todos os limites conhecidos, sendo considerada, possivelmente, a maior usuária desse elemento em toda a história. Aos 15 anos, partiu em uma missão ao lado de Nishinoya, Naoki, Hisoka e Ryuta — uma missão que terminaria em tragédia. Ryuta foi morto, e Naomi capturada. Desde então, ela permaneceu 7 anos dentro da fortaleza Yumei, sendo submetida a torturas constantes enquanto seus captores tentavam, sem sucesso, extrair o chakra monstruoso que habitava dentro dela. Mesmo à beira da morte, dia após dia, Naomi resistiu, lutando silenciosamente para não quebrar.\n\nSua libertação só veio com a Luta contra os Kages — mas não pelas mãos de Nishinoya. Os dois nunca voltaram a se encontrar depois do dia em que ela foi capturada; quando as linhas de frente se romperam e a fortaleza Yumei finalmente cedeu em meio ao caos da guerra, Nishinoya já estava morto, caído nas mãos de Ômega antes mesmo daquela batalha terminar. Foi em meio aos destroços que Naomi encontrou a Soen no Kage e a Sōen no Gauntō, as relíquias que ele carregara a vida inteira, abandonadas onde ele caiu. Ao tocá-las, sentiu o resquício do chakra da Matatabi que ainda pulsava dentro delas — e, pela primeira vez desde o cativeiro, Kurama respondeu a algo além da própria dor de Naomi. As duas relíquias se transformaram em suas mãos, tornando-se a Shiden no Kage e a Shiden no Gauntō, e foi nesse instante — não de resgate pessoal, mas de conexão póstuma através do que restava dele — que algo se rompeu e se reorganizou dentro de Naomi. Kurama, que por anos apenas sobrevivera trancada junto com sua hospedeira, reconheceu naquele eco de energia externa um equilíbrio que já devia ter encontrado por conta própria — e o usou como catalisador para finalmente se fundir por completo à natureza de Naomi. Ela saiu da Yumei sem nunca ter revisto Nishinoya, mas carregando um Modo Sábio exclusivo, nascido daquele instante: a fusão entre sua ligação com a Bijuu e o Suiton que sempre foi seu.",
     hp: 241,
     chakra: 200,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1786651900548392",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FNaomi%20Uzumaki.png?alt=media&v=1788276544836632",
     techniques: [
       {
         name: "Kurama Rinku",
@@ -2605,7 +2605,7 @@ export const initialData: Character[] = [
     description: "Naoki Uchiha, filho de Uchiha Madara, nasceu carregando um legado que nunca pediu. Diferente de Oddy, Shizumi, Ayumi e Kuromi, que eram crianças durante a lendária batalha do Vale do Fim, Naoki cresceu com toda a vila ciente de sua origem. Desde cedo, foi marcado como o “filho da desgraça”, alvo de medo e desprezo. Esse fardo moldou sua personalidade, transformando o ódio em combustível e alimentando uma sede de justiça fria e inabalável.\nDeterminado a superar seu nome, herdou a gunbai de seu pai e treinou incansavelmente, tornando-se um prodígio temido até entre os Uchiha. Aos 14 anos, após a aposentadoria de Sho, assumiu a liderança do clã por pura superioridade — sem contestação.\nIntegrante da lendária equipe ANBU liderada por Nishinoya, participou de missões de alto risco que consolidaram sua reputação como um executor implacável. Em uma delas, desobedeceu ordens e invadiu sozinho uma base da OCA para recuperar o corpo de Madara, eliminando todos no caminho com facilidade perturbadora.\nCom autorização de Tobirama, Yumi implantou os olhos de Madara em Naoki. O poder foi imediato e avassalador, mas trouxe um preço: um chakra corrompido que começou a consumir sua visão. Mesmo ciente, ele não recuou.\nNa Batalha da Fortaleza Yumei, perdeu completamente a visão. O Terceiro Hokage das Sombras, uma entidade que atuava nas trevas para manter o equilíbrio, carregando o legado e a maldição de Uchiha Madara.",
     hp: 200,
     chakra: 88,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaoki%20Uchiha%2FNaoki%20Uchiha.png?alt=media&v=1786651887014149",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaoki%20Uchiha%2FNaoki%20Uchiha.png?alt=media&v=1788276542867960",
     techniques: [
       {
         name: "Enkai Shiro: Hakuen Rinne",
@@ -2756,7 +2756,7 @@ export const initialData: Character[] = [
     description: "DESCONHECIDO",
     hp: 234,
     chakra: 76,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1786651887737084",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHisoka%20Senju%2FHisoka%20Senju.png?alt=media&v=1788276490295547",
     techniques: [
       {
         name: "Mokuton: Shinkai Senju no Majin",
@@ -2829,7 +2829,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 130,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1786651889641519",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1788276567552732",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FPr_logo.png?alt=media&v=1784751344945", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRyuta%20Hyuga%2FCl_ssico.png?alt=media&v=1784751343505", caption: "Clássico", category: "era" },
@@ -2876,7 +2876,7 @@ export const initialData: Character[] = [
     chakra: 114,
     isDead: true,
     killedBy: "Delta",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.jpg?alt=media&v=1786651887730216",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.png?alt=media&v=1788276565503994",
     techniques: [
       {
         name: "Gyuki Bakuton: Shidan Hakai",
@@ -2986,7 +2986,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 216,
     chakra: 94,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.png?alt=media&v=1788210951689586",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FHiroshi%20Hanzo.png?alt=media&v=1788276488247844",
     techniques: [
       {
         name: "Shiroki Kaminari: Amenotejikara no Shinsei",
@@ -3052,7 +3052,7 @@ export const initialData: Character[] = [
     chakra: 100,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTobirama%20Senju%2FTobirama%20Senju.jpg?alt=media&v=1786651888615856",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTobirama%20Senju%2FTobirama%20Senju.png?alt=media&v=1788276592336073",
     arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTobirama%20Senju%2FPr_logo.png?alt=media&v=1784579842794518", caption: "Prólogo", category: "era" },
@@ -3105,7 +3105,7 @@ export const initialData: Character[] = [
     chakra: 97,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSho%20Uchiha%2FSho%20Uchiha.jpg?alt=media&v=1786651888623178",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSho%20Uchiha%2FSho%20Uchiha.png?alt=media&v=1788276583824198",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FPr_logo.png?alt=media&v=1786479677615964", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSho%20Uchiha%2FCl_ssico.png?alt=media&v=1786479680116806", caption: "Clássico", category: "era" },
@@ -3155,7 +3155,7 @@ export const initialData: Character[] = [
     chakra: 76,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.jpg?alt=media&v=1786651888636967",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHoshiro%20Hyuga%2FHoshiro%20Hyuga.png?alt=media&v=1788276492134486",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FPr_logo.png?alt=media&v=1786479682310868", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHoshiro%20Hyuga%2FCl_ssico.png?alt=media&v=1784569503443462", caption: "Clássico", category: "era" },
@@ -3204,7 +3204,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 189,
     chakra: 128,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYumi%20Uzumaki%2FYumi%20Uzumaki.png?alt=media&v=1786996823870017",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYumi%20Uzumaki%2FYumi%20Uzumaki.png?alt=media&v=1788276601690770",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FPr_logo.png?alt=media&v=1786370790600154", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYumi%20Uzumaki%2FCl_ssico.png?alt=media&v=1786370776418716", caption: "Clássico", category: "era" },
@@ -3257,7 +3257,7 @@ export const initialData: Character[] = [
     chakra: 85,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAsami%20Hyuga%2FAsami%20Hyuga.jpg?alt=media&v=1786651889642821",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAsami%20Hyuga%2FAsami%20Hyuga.png?alt=media&v=1788276418842690",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FPr_logo.png?alt=media&v=1786370766999582", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAsami%20Hyuga%2FCl_ssico.png?alt=media&v=1786370743567501", caption: "Clássico", category: "era" },
@@ -3302,7 +3302,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 250,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaizuka%20Hyuga%2FKaizuka%20Hyuga.jpg?alt=media&v=1786651889653408",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaizuka%20Hyuga%2FKaizuka%20Hyuga.png?alt=media&v=1788276500962581",
     arsenal: [32],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2FPr_logo.png?alt=media&v=1784751319598", caption: "Prólogo", category: "era" },
@@ -3349,7 +3349,7 @@ export const initialData: Character[] = [
     chakra: 123,
     isDead: true,
     killedBy: "Chip da OCA",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaikun%20Hatake%2FRaikun%20Hatake.jpg?alt=media&v=1786651889619807",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaikun%20Hatake%2FRaikun%20Hatake.png?alt=media&v=1788276554051853",
     techniques: [
       {
         name: "Senpo Arashi: Hachimon Tenku no Sennin",
@@ -3439,7 +3439,7 @@ export const initialData: Character[] = [
     description: "Katsuo Uzumaki é um nome que não deveria existir — não porque foi esquecido, mas porque deveria ter morrido. Aos 28 anos, durante o momento mais crítico da história recente ninja, ele realizou um ato proibido que quebrou as próprias leis da vida: ao presenciar a extração da Kurama de Naomi Uzumaki, Katsuo utilizou um Fuinjutsu perdido para converter 30 anos de sua própria vida em chakra vital puro, forçando o corpo dela a continuar funcionando mesmo após a perda parcial da Bijuu. Naomi sobreviveu… mas o preço foi pago por ele.\n\nEsse evento jamais veio à tona. O sacrifício de Katsuo foi mantido em absoluto sigilo, conhecido apenas por Tobirama, que compreendeu o peso e as consequências daquele ato. Em silêncio, permitiu que Katsuo se afastasse da linha de frente, oficialmente se aposentando do campo de batalha — não como punição, mas como necessidade. Incapaz de continuar lutando como antes, Katsuo assumiu uma nova função, tornando-se o líder da equipe de rastreamento de Konoha, onde sua experiência e percepção ainda poderiam ser usadas sem levá-lo à morte imediata.\n\nDesde aquele dia, Katsuo carrega um corpo que envelheceu décadas em instantes, com um sistema de chakra permanentemente danificado e instável. Ele não foi reconhecido, não foi celebrado — apenas continuou vivo. Nos anos seguintes, assistiu à consequência de sua escolha se desdobrar em tragédia: Naomi capturada, experimentos iniciados e o surgimento de novas vidas marcadas pela dor.\n\nMas o mundo seguiu… e Katsuo não.\n\nApós Hanzo fugir de Konoha com a chegada de Hades, algo nele quebrou de forma definitiva. Incapaz de aceitar o rumo que Konoha tomou — e principalmente a existência de Hades — Katsuo abandonou sua posição e desapareceu. Desde então, vaga pelo mundo ninja como uma sombra, rastreando incansavelmente aquele que fugiu no momento em que tudo começou.\n\nKatsuo não luta por redenção… ele luta para corrigir o erro que ele mesmo criou.",
     hp: 226,
     chakra: 105,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.jpg?alt=media&v=1786651899866930",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatsuo%20Uzumaki%2FKatsuo%20Uzumaki.png?alt=media&v=1788276506614004",
     techniques: [
       {
         name: "Fūinjutsu: Jikan Kesshō",
@@ -3549,7 +3549,7 @@ export const initialData: Character[] = [
     description: "Satoshi Namikaze, irmão mais novo de Sakura Namikaze, sempre viveu à sombra da irmã mais velha — até decidir seguir um caminho que não pertencia a mais ninguém da família. Ainda jovem, partiu sozinho rumo ao Monte Myōboku, decidido a dominar o Modo Sábio dos Sapos por conta própria, sem pedir permissão e sem levar ninguém junto.\n\nAntes de partir, Katsuo Uzumaki — já àquela altura um homem marcado pelo próprio sacrifício — entregou a Satoshi os lendários nunchakos do clã Uzumaki, o Uzumaki no Kon, como única garantia de que ele teria como se defender numa jornada que ninguém mais estava disposto a fazer.\n\nHoje, aos 24 anos, Satoshi é o guardião do Monte Myōboku. A notícia da morte da irmã e do cunhado, Kawarama Senju, chegou até ele tarde demais para qualquer despedida — e pouco depois, o mesmo aconteceu com os relatos da morte de Naomi Uzumaki e de Katsuo, o homem que uma vez lhe deu os meios de sobreviver sozinho na montanha. Foi esse peso acumulado que o fez se dedicar de corpo e alma à defesa de Myōboku, quando a OCA voltou os olhos para o chakra natural da montanha, tentando extraí-lo à força.\n\nMas a verdade, como sempre no mundo shinobi, era mais complicada do que os relatos. Satoshi descobriu que Katsuo estava vivo — e que Naomi também. Sem hesitar, deixou os próprios Sapos Sábios que treinara como novos protetores da montanha em seu lugar, e partiu à procura dos dois, decidido a não deixar mais nenhuma notícia de morte passar sem confirmação.",
     hp: 205,
     chakra: 137,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1786651893496752",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSatoshi%20Namikaze%2FSatoshi%20Namikaze.png?alt=media&v=1788276569692211",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2FPr%C3%B3logo.png?alt=media&v=1786038793699", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSatoshi%20Namikaze%2F5%C2%AA%20Temporada.png?alt=media&v=1786038795533", caption: "5ª Temporada", category: "era" },
@@ -3633,7 +3633,7 @@ export const initialData: Character[] = [
     description: "Shikaki Nara é um dos casos mais raros já registrados dentro do Projeto Salvador. Diferente dos demais, ele não desenvolveu uma Bijū Profana após a exposição ao Chakra Profano.\n\nSua mente, altamente lógica e estruturada, rejeitou completamente a criação de uma entidade simbólica, forçando-o a controlar diretamente um poder instável que normalmente exigiria um intermediário para evitar colapso.\n\nEssa anomalia resultou em um estilo de combate único: Shikaki não manipula apenas sombras, mas a própria execução das ações dentro delas. Em sua presença, movimentos falham, decisões não se concretizam e técnicas deixam de existir antes mesmo de acontecer.\n\nEle não domina o campo de batalha pela força… mas pela negação absoluta das possibilidades do inimigo.",
     hp: 168,
     chakra: 76,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FShikaki%20Nara.jpg?alt=media&v=1786651903392397",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FShikaki%20Nara.png?alt=media&v=1788276573021880",
     techniques: [
       {
         name: "Kage: Zettai Kyoka",
@@ -3728,7 +3728,7 @@ export const initialData: Character[] = [
     description: "Shikatsu Nara, conhecido hoje como Togo Kage, é o que restou de um sonho que foi quebrado cedo demais. Nascido no clã Nara, cresceu como uma criança feliz, curiosa e orgulhosa de seu nome, cercado por figuras lendárias — seus pais eram próximos de Hashirama e Tobirama, e por isso Shikatsu viveu parte de sua infância ao lado dos Senju. Ele jantava com eles, ouvia histórias, aprendia estratégias e carregava um único objetivo no coração: se tornar Hokage. Tobirama era seu herói. Hashirama, sua inspiração. Mas tudo isso morreu na noite da invasão da Vila da Nuvem. Seus pais lutaram até o fim para proteger Konoha, sacrificando suas vidas com orgulho. Shikatsu assistiu tudo. E então viu aquilo que destruiu sua mente por completo: Tobirama, o homem que ele mais admirava, passar por ele sem sequer olhar para trás, seguindo sozinho para enfrentar Hades. Para o mundo, foi um ato de coragem. Para Shikatsu, foi abandono. Traição. Nesse momento, algo dentro dele quebrou de forma irreversível. Sem família, sem propósito e sem seu herói, sua mente colapsou. Ele fugiu, desapareceu, e ao longo dos anos se perdeu completamente de si mesmo. A esquizofrenia induzida pelo trauma fragmentou sua identidade, apagando o garoto que queria ser Hokage. Em seu lugar, nasceu Togo — uma sombra instintiva em forma humana. Vagando por florestas e campos de batalha, atacava por reflexo, sobrevivia por impulso e existia sem direção. Até encontrar Daichi. No primeiro encontro, tentou matá-lo como fazia com todos… mas foi derrotado. E poupado. Mais do que isso — foi visto. Daichi lhe fez uma promessa: encontraria uma cura. Pela primeira vez desde a queda dos Nara, alguém o tratou como humano. Desde então, Togo passou a existir preso a esse único fio de realidade. Hoje, ele é instável, silencioso e imprevisível — incapaz de viver em sociedade, mas extremamente letal em combate. Sua mente pode estar quebrada, mas seu instinto nunca falha. E enquanto o mundo o enxerga como um fragmento perdido… Togo ainda caminha, sustentado apenas por uma promessa que se recusa a esquecer.",
     hp: 226,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTogo%20Kage%2FTogo%20Kage.png?alt=media&v=1786651899869770",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikatsu%20Nara%20(Togo%20Kage)%2FShikatsu%20Nara%20(Togo%20Kage).png?alt=media&v=1788276574722498",
     techniques: [
       {
         name: "Kage Shinkai: Yami no Kyoshin Ensei",
@@ -3788,7 +3788,7 @@ export const initialData: Character[] = [
     chakra: 70,
     isDead: true,
     killedBy: "Omega",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.jpg?alt=media&v=1786651890536434",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHirato%20Ishi%2FHirato%20Ishi.png?alt=media&v=1788276486267292",
     arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHirato%20Ishi%2F2__Temporada.png?alt=media&v=1784665887463666", caption: "2ª Temporada", category: "era" },
@@ -3830,7 +3830,7 @@ export const initialData: Character[] = [
     chakra: 70,
     isDead: true,
     killedBy: "Nagare Uzumaki",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.jpg?alt=media&v=1786651890537382",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHikaru%20Ishi%2FHikaru%20Ishi.png?alt=media&v=1788276482578419",
     arsenal: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHikaru%20Ishi%2F2__Temporada.png?alt=media&v=1784665885201237", caption: "2ª Temporada", category: "era" },
@@ -4053,7 +4053,7 @@ export const initialData: Character[] = [
     description: "Reika Uzumaki nasceu em meio ao sofrimento silencioso de sua mãe, mas sua existência nunca foi natural. Diferente de Shoyu, que ainda carregava traços de humanidade em sua origem, Reika foi concebida como experimento desde o primeiro instante — ainda no estágio de célula-ovo, Hades iniciou seu projeto mais ambicioso: fundir dois chakras de bijū estabilizados através de um núcleo de chakra profano. Kurama e Gyūki foram reduzidos a fragmentos manipuláveis e selados simultaneamente dentro de um único ser em formação, violando todas as leis naturais do mundo ninja. Reika não nasceu… ela foi construída. Durante seu desenvolvimento, o chakra profano atuou como um estabilizador artificial, impedindo que as duas forças se destruíssem mutuamente, criando uma fusão imperfeita, porém funcional. Seu corpo cresceu carregando traços sutis dessa dualidade, com padrões de chakra que oscilam entre o caos e a profundidade, como se duas presenças antigas coexistissem dentro dela em silêncio constante. Desde muito pequena, Reika demonstrava uma sensibilidade anormal ao chakra, não apenas percebendo energia, mas sentindo emoções como extensões físicas do ambiente. Dor, medo e desespero ecoavam dentro dela, amplificados pelas naturezas conflitantes em seu núcleo. Cresceu dentro da fortaleza Yumei, testemunhando a dor constante de Naomi e absorvendo cada fragmento emocional como parte de si mesma — não como trauma, mas como matéria-prima. Sua presença é calma, perturbadoramente calma. Reika não luta com raiva — luta com vazio, e esse vazio não é ausência, mas saturação. Ela é possivelmente a criatura com a maior reserva de chakra já registrada, possuindo níveis que ultrapassam em até três vezes o de um ninja comum. Ainda assim, esse poder não se manifesta de forma explosiva, mas como um abismo silencioso, denso e inevitável. No entanto, sua criação teve um custo: a fusão precoce e antinatural afetou seu desenvolvimento neurológico. Reika não fala — não por escolha, mas por incapacidade. Sua mente opera em um nível onde linguagem se torna irrelevante. Emoções, intenções e presença são sua forma de comunicação. Ela observa… sempre observa. E quando age, o mundo ao redor responde como se estivesse afundando junto com ela.",
     hp: 59,
     chakra: 70,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.jpg?alt=media&v=1786651901803501",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.png?alt=media&v=1788276559704886",
     techniques: [
       {
         name: "Ketsuryū: Kōka no Kyoumei",
@@ -4126,7 +4126,7 @@ export const initialData: Character[] = [
     description: "Nagi Yuki nasceu na Vila da Névoa durante um dos períodos mais sombrios de sua história — uma guerra civil silenciosa, onde traições, execuções e desaparecimentos eram comuns até mesmo entre aliados.\nDesde muito jovem, Nagi foi exposto à brutalidade do próprio sistema shinobi da vila, onde fraqueza não era tolerada e laços eram vistos como vulnerabilidade.\nFilho de um pequeno clã especializado em técnicas de gelo, Nagi cresceu sob constante vigilância, já que habilidades raras eram tanto uma bênção quanto uma sentença de morte.\nSua família vivia escondida, evitando conflitos diretos, até o dia em que foram descobertos por uma facção interna da própria Névoa.\nConsiderados um risco em meio à instabilidade da guerra civil, seus pais foram eliminados sem julgamento — não por inimigos, mas por sua própria vila.\nNagi sobreviveu por pouco.\nGravemente ferido e tomado pelo frio que sempre dominou seu chakra, ele foi encontrado por um alto oficial da Névoa, responsável por recrutar e moldar jovens talentos em armas vivas.\nSem escolha, Nagi foi forçado a servir.\nSua dor foi ignorada, sua identidade reduzida a um recurso militar.\nCom a guerra se intensificando e a vila à beira do colapso interno, a liderança da Névoa tomou uma decisão estratégica: enviar jovens promissores para o Exame Chunin em Konoha, não apenas como demonstração de poder, mas como uma possível rota de fuga para ativos valiosos.\nNagi foi escolhido — não por mérito, mas por utilidade.\nSem vontade própria, carregando o peso da perda e da traição, Nagi partiu para Konoha como uma peça descartável em um jogo maior.\nFoi nesse ambiente estranho, longe do caos da Névoa, que ele encontrou algo que nunca havia conhecido: pessoas que não tentavam matá-lo.\nAo lado de Yasuo Kurogane e Apollo Netsu, pela primeira vez, Nagi sentiu que talvez pudesse existir além da guerra.\nApós falharem no Exame Chunin e iniciarem o retorno, o grupo foi interceptado no caminho por Shikure e Togo Kage, figuras que pareciam enxergar além de suas dores superficiais.\nDiferente de todos que haviam cruzado seu caminho até então, eles não ofereciam ordens — ofereciam escolha.\nShikure expôs a fragilidade das vilas e o ciclo interminável de uso e descarte de shinobis, enquanto Togo apresentou a OCA como algo diferente: um lugar onde poder não seria imposto, mas conquistado.\nPara Nagi, aquilo não era apenas uma proposta — era a primeira vez que alguém o tratava como algo além de uma ferramenta.\nCansado de servir uma vila que destruiu sua família e o transformou em arma, ele aceitou.\nNaquele momento, Nagi não apenas mudou de caminho — ele abandonou completamente a Névoa, deixando para trás seu passado, seu nome e qualquer esperança de retorno.\nMas, mesmo seguindo em frente, o frio dentro dele nunca desapareceu.",
     hp: 168,
     chakra: 76,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1786651903970876",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagi%20Yuki%2FNagi%20Yuki.png?alt=media&v=1788276537262794",
     techniques: [
       {
         name: "Hyoton: Kaminari Mugen Kuro Fubuki",
@@ -4228,7 +4228,7 @@ export const initialData: Character[] = [
     description: "Yasuo Kurogane é um ninja da Vila da Areia, marcado por uma infância destruída pela guerra e pela perda. Após ver sua família de Konoha ser brutalmente assassinada diante de seus próprios olhos por Nishinoya, Shoei, Katsumi e Oddy, Yasuo passou a nutrir um ódio profundo pela vila que um dia chamou de lar.\nAbandonado e sem rumo, foi acolhido pela Kazekage, que o adotou como filho — uma relação que nunca foi verdadeiramente aceita por ele, enxergando nela mais uma imposição do que um ato de carinho.\nCrescendo sob o peso da revolta e da dor, Yasuo foi forçado a participar do Exame Chunin por ordem da Kazekage, o que intensificou ainda mais seu ressentimento.\nDurante sua estadia em Konoha, no entanto, encontrou algo inesperado: compreensão. Ao lado de Nagi Yuki e Apollo Netsu, criou laços com aqueles que também carregavam cicatrizes profundas, formando uma conexão baseada na dor compartilhada.\nApós falharem no exame e retornarem derrotados, Yasuo e seus companheiros foram encurralados por Shikure e Togo Kage.\nEm um momento decisivo, tiveram seus ideais questionados e, diante da promessa de um novo propósito e poder, aceitaram se juntar à OCA.\nPara Yasuo, esse não foi apenas um caminho — foi uma ruptura definitiva com tudo que restava de seu passado, abraçando de vez a escuridão que sempre cresceu dentro de si.",
     hp: 174,
     chakra: 76,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1786651905637475",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYasuo%20Kurogane%2FYasuo%20Kurogane.png?alt=media&v=1788276595994524",
     techniques: [
       {
         name: "Jiton: Tetsu no Teikoku",
@@ -4320,7 +4320,7 @@ export const initialData: Character[] = [
     description: "Hana Sabaku é uma das maiores lendas vivas de Sunagakure e a principal razão pela qual a Cidade Dourada continua de pé mesmo diante das ameaças da Era Genética.\n\nEsposa de Reto, o Primeiro Kazekage, Hana assumiu a liderança da vila após a queda de seu marido no incidente do OASIS. Diferente de Reto, que fundou a civilização da Areia através da esperança, Hana a protege através de disciplina, vigilância e poder absoluto.\n\nConhecida como a Muralha Dourada e a Leoa da Areia, Hana é Jinchuuriki do Shukaku, usuária da rara Areia de Ouro e uma ninja sensorial de alcance extraordinário. Seu estilo de combate é focado em longa distância, controle territorial, defesa absoluta e esmagamento estratégico do inimigo antes que ele consiga se aproximar.\n\nEm batalha, Hana não luta como uma assassina impulsiva. Ela transforma o campo inteiro em uma extensão de sua vontade. A areia observa, prende, pesa, corta, sela e destrói. Poucos inimigos conseguem chegar perto dela; menos ainda sobrevivem tempo suficiente para entender que já estavam dentro de sua zona de domínio desde o início.\n\nApesar de seu poder monstruoso, Hana é profundamente movida pelo amor por Sunagakure, por Reto e por seu povo. Ela acredita que talvez não possua força suficiente para destruir completamente a OCA, mas dedicou sua vida a garantir que, mesmo diante do fim, o povo da Areia viva protegido até o último instante.",
     hp: 241,
     chakra: 150,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1786651908709301",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1788276477925297",
     techniques: [
       {
         name: "Sabaku Ōgon: Taiyō no Kekkai",
@@ -4430,7 +4430,7 @@ export const initialData: Character[] = [
     description: "Reto Sabaku foi o Primeiro Kazekage e o homem responsável por transformar o maior deserto do continente em uma civilização próspera. Antes dele, o deserto era apenas morte, escassez, tribos em guerra, assassinos, mercadores armados e pequenos reinos subterrâneos lutando por água.\n\nConhecido como o Caçador do Deserto, Reto não lutava como um guerreiro comum. Ele observava, rastreava e eliminava seus inimigos antes mesmo que eles entendessem que haviam sido caçados. Sua arma principal era um lendário arco de Rank Z da Vila da Areia, capaz de condensar chakra e disparar flechas de areia metálica com precisão absurda.\n\nAo despertar a Areia de Ouro, Reto mudou o destino de Sunagakure. Ele encontrou aquíferos subterrâneos, desviou tempestades, criou rotas comerciais, ergueu muralhas e fundou cidades. Porém, em combate, essa mesma areia que trouxe prosperidade ao deserto se tornava uma arma silenciosa e implacável.\n\nAlém de seu arco, Reto utilizava a máscara ancestral Satetsu no Rinne, o Samsara da Areia de Ferro, uma relíquia de Rank Z capaz de amplificar o domínio magnético do portador a níveis catastróficos. Com ela, Reto podia extrair ferro do solo, da atmosfera e até de corpos vivos, convertendo tudo em poeira metálica sob seu controle.\n\nReto era amado por sua gentileza e temido por seu poder. O mundo dizia que ele estava apenas alguns degraus abaixo de Hashirama Senju. Para Sunagakure, no entanto, ele era algo ainda maior: o homem que ensinou o deserto a florescer.",
     hp: 217,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1786651908717643",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReto%20Sabaku%2FReto%20Sabaku.png?alt=media&v=1788276563436241",
     techniques: [
       {
         name: "Kyūgu: Sabaku no Tenkyū",
@@ -4634,7 +4634,7 @@ export const initialData: Character[] = [
     description: "Chigiri Chinoike, conhecido hoje como o Pilar da Memória, é o homem que aprendeu o valor de uma vida depois de transformar vidas demais em material de estudo. Nascido no clã Chinoike, cresceu acreditando que o sangue era a forma mais pura de verdade: não apenas herança genética, mas um registro vivo de memórias, dores, medos e desejos que nem a morte conseguia apagar.\n\nEssa obsessão o levou até a OCA, onde se tornou um dos pesquisadores mais respeitados da organização. Chigiri não conduzia experimentos por dever ou ideologia — fazia por prazer. Manipulava DNA, desmontava linhagens, criava corpos artificiais e usava sangue para formar marionetes vivas, feitas de coagulação, chakra e ecos emocionais das pessoas que um dia existiram.\n\nTudo mudou durante um experimento em que matou uma pessoa que permaneceu consciente tempo suficiente para perguntar se ele se lembraria dela. Ao tocar seu sangue, Chigiri sentiu sua vida inteira: infância, medo, amor, arrependimentos e promessas. Pela primeira vez, entendeu que aquilo que chamava de material era uma existência completa.\n\nIncapaz de continuar, procurou Hades e confessou que havia entendido tarde demais. Hades permitiu que ele deixasse a OCA, sob a condição de jamais revelar seus segredos. Quando chegou a Sunagakure, não foi recebido como herói, mas como risco. Hana sabia o que ele era, e por isso o colocou onde sua culpa poderia servir a algo maior.\n\nHoje, Chigiri é o Pilar da Memória. Ele lê sangue em cenas de crime, reconstrói massacres, identifica rastros da OCA e transforma os mortos em testemunhas que não podem mais ser silenciadas. Muitos o odeiam, outros o temem, poucos confiam nele. Mas todos sabem que, quando uma gota de sangue toca a areia, Chigiri é aquele que escuta. Ele não busca redenção. Continua vivo apenas para lembrar, porque esquecer os mortos seria matá-los uma segunda vez.",
     hp: 205,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1786651908728450",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChigiri%20Chinoike%2FChigiri%20Chinoike.png?alt=media&v=1788276432661769",
     techniques: [],
     arsenal: [],
     gallery: [
@@ -4676,7 +4676,7 @@ export const initialData: Character[] = [
     description: "Mizue Dokuhana, conhecida hoje como o Pilar do Sacrifício, é a médica que todos desejam ter por perto quando a morte chega, mas que ninguém deseja encarar quando ela abre sua maleta cirúrgica. Nascida no clã Dokuhana, cresceu entre venenos, antídotos, lâminas esterilizadas, fios de sutura com chakra e lições duras demais para uma criança comum.\n\nPara sua família, medicina nunca foi uma promessa de salvação perfeita. Medicina era cálculo: escolher o órgão que podia falhar, o membro que podia ser perdido e o veneno que mataria a infecção antes que matasse o paciente. Desde cedo, Mizue entendeu que no deserto nada é gratuito. Até a vida, quando salva, cobra algo de volta.\n\nEm batalha, Mizue não promete milagres. Ela observa o corpo quebrado diante dela e calcula o que ainda pode ser preservado. Com agulhas cirúrgicas, toxinas controladas e técnicas médicas extremas, consegue salvar aliados à beira da morte, mas sempre cobrando um preço físico: visão, força, mobilidade, respiração, sensibilidade ou parte do fluxo de chakra.\n\nQuando a OCA começou a espalhar horrores genéticos, corpos instáveis e chakra artificial, foi Mizue quem manteve vivos aqueles que todos já consideravam perdidos. Ela estudou mutações, degenerações celulares, anti-regeneração e venenos capazes de frear monstros criados em laboratório.\n\nHoje, como Pilar do Sacrifício, Mizue carrega uma das verdades mais desconfortáveis da Areia: sobreviver exige perdas. Ela não se vê como santa, salvadora ou heroína. Sabe que muitos daqueles que curou acordaram odiando o preço que tiveram de pagar. Mesmo assim, continua. Mizue Dokuhana não promete devolver ninguém inteiro. Promete apenas impedir que morram antes da hora.",
     hp: 194,
     chakra: 58,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1786651909330322",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1788276532880141",
     techniques: [],
     arsenal: [60],
     gallery: [
@@ -4717,7 +4717,7 @@ export const initialData: Character[] = [
     description: "Tessai Enshaku, conhecido hoje como o Pilar da Construção, é um homem que nasceu em uma vila de guerreiros, mas decidiu admirar aqueles que erguiam paredes. Desde criança, enquanto outros sonhavam com técnicas destrutivas e vitórias em campo de batalha, Tessai observava pedreiros, escavadores, ferreiros, engenheiros e arquitetos de canais subterrâneos.\n\nPara ele, os verdadeiros heróis de Sunagakure não eram apenas os que derrotavam invasores, mas os que garantiam que haveria uma casa para onde voltar depois da guerra. O clã Enshaku sempre carregou essa filosofia: areia, argila, metal e pedra não servem apenas para soterrar inimigos, mas para criar muralhas, pontes, abrigos, túneis, torres e caminhos onde antes só havia morte.\n\nTessai cresceu ouvindo a história de Reto Sabaku, o homem que transformou um deserto impossível em civilização. Para ele, a maior vitória de Reto não foi derrotar inimigos, mas deixar algo de pé depois deles. Por isso, Tessai nunca aceitou que poder shinobi fosse medido apenas pela destruição.\n\nCom Doton, Koton, minerais, argila selada e engenharia shinobi, Tessai aprendeu a moldar o terreno como se a própria vila se expandisse através dele. Em combate, ele não luta apenas defendendo; ele constrói. Muros protegem civis, túneis se abrem para evacuação, torres dão vantagem aos arqueiros, bunkers emergem sob a areia e armadilhas estruturais prendem inimigos no próprio peso do campo.\n\nHoje, como Pilar da Construção, Tessai representa a permanência de Sunagakure. Seu papel é lembrar que a Areia não pode se tornar apenas uma máquina de guerra movida por medo da OCA. A vila precisa continuar sendo uma cidade, com mercados, canais, jardins artificiais, oficinas, famílias e crianças correndo sob torres douradas. Para Tessai, Sunagakure não é forte porque nunca quebra. É forte porque sempre volta a ficar de pé.",
     hp: 210,
     chakra: 64,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1786651909974548",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1788276590660983",
     techniques: [],
     arsenal: [58],
     gallery: [
@@ -4759,7 +4759,7 @@ export const initialData: Character[] = [
     description: "Kurohime é uma dos seis Pilares de Sunagakure e representa o Pilar do Julgamento. Diferente de Hana, que carrega a sentença final da Areia, Kurohime existe para revelar a verdade antes que o julgamento seja dado.\n\nNascida na Vila da Areia em meio a intrigas políticas e conflitos familiares, Kurohime cresceu entendendo que nem toda ameaça vinha de fora das muralhas. Algumas nasciam dentro da própria vila, escondidas atrás de mentiras, medo, culpa e falsas lealdades. Desde jovem, demonstrou uma habilidade rara: a capacidade de entrar na mente de outras pessoas, atravessando memórias, traumas, intenções ocultas e pensamentos enterrados.\n\nSeu talento físico também se destacou cedo. Kurohime tornou-se uma combatente de taijutsu brutal, usando força, disciplina e pressão constante para dominar inimigos no corpo a corpo. Porém, quando invade a mente de um alvo, seu corpo físico fica vulnerável. É nesse momento que sua companheira, a pantera negra Kurotsume, protege seu corpo de qualquer ameaça.\n\nCom o tempo, Kurohime se tornou uma das melhores amigas de Hana e uma das poucas pessoas capazes de entrar em sua mente para acalmar crises, organizar pensamentos e silenciar o caos emocional que a Kazekage carrega. Dentro de Sunagakure, Kurohime é chamada antes das grandes sentenças. Ela não decide o destino dos culpados; ela revela a verdade para que Hana possa julgar sem estar no escuro.",
     hp: 178,
     chakra: 52,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1786651910583724",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurohime%20Kazeori%2FKurohime%20Kazeori.png?alt=media&v=1788276517970238",
     techniques: [],
     arsenal: [],
     gallery: [
@@ -4810,7 +4810,7 @@ export const initialData: Character[] = [
     description: "Yuji Yotsuki nasceu como uma anomalia dentro da Vila da Nuvem.\n\nEnquanto outros shinobis aprendiam a controlar chakra com treinamento, Yuji simplesmente nasceu conectado a ele.\n\nO Ranton corria naturalmente em suas veias.\n\nDesde criança, seu corpo produzia descargas elétricas rosadas involuntárias, fenômeno considerado impossível até mesmo pelos cientistas de Kumogakure.\n\nSeu chakra não era apenas poderoso.\nEra preciso.\n\nYuji conseguia sentir exatamente o limite do próprio corpo, a quantidade de chakra ao seu redor e até pequenas oscilações no fluxo energético de outras pessoas.\n\nIsso chamou a atenção de Hanzo, que passou a treiná-lo secretamente.\n\nDiferente de outros prodígios da Nuvem, Yuji não demonstrava interesse em fama ou combate direto. Era preguiçoso, desmotivado e frequentemente ignorava treinamentos inteiros.\n\nMas tudo mudava quando algo despertava sua curiosidade.\n\nNesse estado, Yuji se tornava obsessivo.\n\nDurante sua infância, desenvolveu uma amizade profunda com Hayato. Os dois compartilhavam o sonho de transformar Kumogakure na maior potência shinobi do mundo.\n\nMas após os incidentes envolvendo Hayato e a ascensão da OCA dentro da Vila da Nuvem, Yuji perdeu completamente a fé no sistema.\n\nAo lado de Yoru e Reito, desapareceu das forças oficiais e iniciou estudos secretos envolvendo tecnologia shinobi, armas experimentais e chakra artificial.\n\nFoi durante uma missão de infiltração em um laboratório da OCA que Yuji roubou pesquisas proibidas relacionadas a Katsumi e ao chamado Chakra Profano.\n\nUtilizando os dados roubados e o núcleo de chakra extraído durante a operação, Yuji criou sua obra-prima absoluta:\n\nA Yuji no Hōkō.\n\nUma Sniper Rifle capaz de condensar Chakra Profano em um único ponto microscópico e disparar projéteis com poder destrutivo equivalente a uma mini Bijuu Dama.\n\nA arma não produz som.\nNão deixa assinatura de chakra.\nE torna o disparo impossível de detectar até o impacto.\n\nApós isso, Yuji fundou oficialmente a Kiba.\n\nUma organização fantasma criada para destruir a OCA, eliminar Alpha e recuperar a verdadeira Kumogakure.\n\nHoje, laboratórios secretos da Nuvem possuem uma regra não oficial:\n\nSe o ar ficar silencioso demais...\nYuji Yotsuki já está mirando.",
     hp: 200,
     chakra: 88,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media&v=1786651907013158",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FYuji%20Yotsuki.png?alt=media&v=1788276599334836",
     techniques: [
       {
         name: "Yuji no Hōkō",
@@ -4918,7 +4918,7 @@ export const initialData: Character[] = [
     description: "Reito Kurogami foi um dos primeiros experimentos vivos criados pela OCA durante os testes iniciais envolvendo o Shiroki Kaminari e o Chakra Profano.\n\nEnquanto Nagi Yuki e Hayato Hanzo eram tratados como os projetos perfeitos da organização, Reito foi utilizado como cobaia descartável.\n\nPor ser mais velho e possuir um corpo naturalmente resistente, cientistas da OCA decidiram ultrapassar todos os limites humanos durante os experimentos.\n\nQuantidades absurdas de Chakra Profano foram injetadas diretamente em seu sistema nervoso, circulação e núcleo de chakra.\n\nO resultado deveria ter sido morte instantânea.\n\nMas Reito sobreviveu.\n\nSeu corpo começou a se partir lentamente.\n\nGrandes cicatrizes negras surgiram por toda sua pele, semelhantes a rachaduras espalhadas pelo corpo inteiro.\n\nEssas marcas não são ferimentos.\n\nSão regiões onde o Chakra Profano literalmente rompeu os limites físicos do corpo humano.\n\nDentro dessas fissuras, descargas negras de Kaminari Artificial circulam constantemente como uma tempestade presa dentro do próprio corpo.\n\nSeu Kaminari Artificial alterou completamente:\n\n• Músculos\n• Impulsos nervosos\n• Resistência física\n• Fluxo de chakra\n• Velocidade corporal\n\nMesmo possuindo um corpo gigantesco e extremamente pesado, Reito desenvolveu velocidade comparável aos maiores usuários de Raiton da história de Kumogakure.\n\nCada movimento produz explosões elétricas involuntárias.\n\nO solo quebra quando ele acelera.\n\nO ar vibra ao redor do corpo dele.\n\nE as rachaduras negras brilham intensamente sempre que o Chakra Profano entra em colapso dentro do organismo.\n\nDiferente de Yuji Yotsuki, que representa precisão absoluta...\n\nReito representa violência inevitável.\n\nApós descobrir os verdadeiros objetivos da OCA, Reito abandonou completamente a organização e passou a lutar ao lado de Yuji, Yoru e da Kiba.\n\nHoje, arquivos secretos da OCA possuem uma classificação proibida sobre Reito:\n\n'Fenrir.'",
     hp: 170,
     chakra: 70,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReito%20Kurogami%2FReito%20Kurogami.png?alt=media&v=1786651906964749",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReito%20Kurogami%2FReito%20Kurogami.png?alt=media&v=1788276561672998",
     techniques: [
       {
         name: "Kaminari: Kuro Fenrir",
@@ -5013,7 +5013,7 @@ export const initialData: Character[] = [
     description: "Yoru Kurogami é considerado o membro mais misterioso e perigoso da Kiba.\n\nDiferente de Yuji Yotsuki e Reito Kurogami, Yoru não domina batalhas através de força ou destruição.\n\nEle domina através do desaparecimento.\n\nEspecialista absoluto em infiltração, suporte tático, sabotagem e guerra sensorial, Yoru transformou Ranton e Raiton em ferramentas de ocultação e manipulação extremamente avançadas.\n\nSeu corpo alto, extremamente magro e de aparência quase doentia causa desconforto imediato em qualquer ambiente.\n\nVestindo roupas elegantes completamente negras com detalhes em verde água, Yoru utiliza constantemente o Kasa.\n\nUm chapéu tecnológico lendário criado pela Kiba utilizando pesquisas roubadas da OCA.\n\nO Kasa possui sistemas avançados de ocultação sensorial e emissão microscópica de chakra.\n\nAlém disso, Yoru possui um braço tecnológico integrado diretamente ao sistema central da Kiba.\n\nO braço contém:\n\n• Hardware tático\n• Banco de dados de chakra\n• Comunicação holográfica\n• Rastreamento neural\n• Sensores de leitura biológica\n• Análise tecnológica\n\nSeu estilo de combate não busca derrotar inimigos diretamente.\n\nYoru transforma aliados em fantasmas impossíveis de detectar enquanto destrói completamente a percepção do campo de batalha.\n\nDentro da Kiba existe uma frase conhecida sobre ele:\n\n'Se Yoru estiver presente...\nEntão vocês já desapareceram.'",
     hp: 173,
     chakra: 79,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1786651908022138",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FYoru%20Kurogami.png?alt=media&v=1788276597776705",
     techniques: [
       {
         name: "Ranton: Getsuei",
@@ -5091,7 +5091,7 @@ export const initialData: Character[] = [
     description: "Mika Yotsuki é conhecida dentro da Kiba como a Inteligência da organização.\n\nDiferente de Yuji, Reito e Yoru, Mika não representa destruição, brutalidade ou presença fantasmagórica em campo.\n\nEla representa ausência.\n\nMika nasceu com uma alteração extremamente rara em seu fluxo de chakra. Seu chakra possui uma propriedade natural de ocultação, capaz de apagar não apenas sua assinatura energética, mas também a forma como sua existência é interpretada por sensores.\n\nEnquanto ninjas comuns escondem o corpo...\nMika esconde a leitura do próprio mundo.\n\nSua ocultação é tão refinada que consegue desaparecer até mesmo diante de métodos avançados de detecção, incluindo Byakugan, Fujogan e Kagura Shingan.\n\nPara sensores comuns, Mika não está escondida.\nEla simplesmente não existe.\n\nEssa anomalia fez com que a OCA tentasse capturá-la diversas vezes durante a corrupção de Kumogakure, pois seu chakra representava a base perfeita para tecnologia de infiltração absoluta.\n\nAntes que isso acontecesse, Mika desapareceu dos registros oficiais e passou a operar ao lado de Yuji, Reito e Yoru.\n\nFoi a partir do estudo de seu próprio chakra que Mika desenvolveu a tecnologia de ocultação utilizada no Kasa, o chapéu tecnológico de Yoru Kurogami.\n\nO Kasa não é apenas uma ferramenta de invisibilidade.\n\nEle é uma tentativa artificial de reproduzir uma fração da ocultação natural de Mika.\n\nDentro da Kiba, Mika coordena rotas, apaga rastros, intercepta comunicações, falsifica assinaturas de chakra, manipula dados roubados da OCA e impede que a organização seja encontrada.\n\nEla não costuma entrar em combate direto.\n\nMas quando entra, o inimigo raramente percebe que a luta começou.\n\nMika é calma, analítica e extremamente difícil de ler. Ela fala pouco, observa tudo e costuma prever falhas antes mesmo que os outros membros percebam o perigo.\n\nYuji é o líder da Kiba.\n\nMas Mika é a razão pela qual a Kiba continua sendo uma lenda urbana.\n\nExiste uma frase dita por Yoru sobre ela:\n\n'Se Mika quiser desaparecer, nem os deuses sensores saberão que ela nasceu.'",
     hp: 184,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMika%20Yotsuki%2FMika%20Yotsuki.png?alt=media&v=1786651908714917",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMika%20Yotsuki%2FMika%20Yotsuki.png?alt=media&v=1788276528771429",
     techniques: [
       {
         name: "Raiton: Shirogakure",
@@ -5172,7 +5172,7 @@ export const initialData: Character[] = [
     description: "Enrai Hanzo é o médico clandestino, engenheiro biológico e especialista em corpos modificados da Kiba.\n\nAntes de desaparecer dos registros oficiais de Kumogakure, Enrai trabalhou nos setores médicos avançados da Vila da Nuvem, onde se tornou conhecido por uma habilidade assustadora:\n\nEle conseguia manter vivo aquilo que já deveria ter morrido.\n\nEnrai não era famoso como guerreiro, assassino ou prodígio militar.\n\nMas entre cirurgiões, cientistas e unidades médicas secretas, seu nome era tratado com desconforto.\n\nSeu domínio sobre Raiton médico permitia estimular nervos, reiniciar músculos, estabilizar órgãos em falência e costurar fluxo de chakra danificado através de impulsos elétricos dourado âmbar.\n\nEsse Raiton não era explosivo como o de guerreiros comuns da Nuvem.\n\nEra preciso.\n\nEra clínico.\n\nEra invasivo.\n\nCada descarga elétrica podia forçar um músculo morto a responder, fazer um coração prestes a parar bater por mais alguns minutos, cauterizar ferimentos internos ou reativar sistemas nervosos danificados.\n\nPara outros médicos, cura significava salvar uma vida.\n\nPara Enrai, cura significava impedir que uma ferramenta útil parasse de funcionar.\n\nQuando a OCA começou a corromper Kumogakure por dentro, Enrai foi um dos poucos médicos capazes de compreender a extensão real dos experimentos envolvendo Chakra Profano, Shiroki Kaminari e corpos artificiais.\n\nEle viu pacientes se tornarem armas.\n\nViu cobaias serem chamadas de progresso.\n\nViu cadáveres funcionais serem mantidos ativos apenas para gerar mais dados.\n\nE viu Reito Kurogami sobreviver ao que deveria ter sido uma execução científica.\n\nFoi Enrai quem ajudou a estabilizar o corpo destruído de Reito após os experimentos da OCA.\n\nPor isso, Reito ainda respira.\n\nOu algo próximo disso.\n\nDentro da Kiba, Enrai é responsável por tratar ferimentos impossíveis, remover rastreadores, adaptar próteses, estabilizar armas proibidas, conter reações ao Chakra Profano e impedir que os membros da organização morram antes da missão terminar.\n\nEle não é gentil.\n\nEle é necessário.\n\nEnrai fala pouco, observa sinais vitais como quem lê sentenças de morte e costuma tratar dor como uma informação útil.\n\nSeu corpo é forte, resistente e treinado para operar em campo mesmo sob ataque. Diferente de médicos frágeis de retaguarda, Enrai consegue lutar na linha de frente enquanto mantém aliados vivos através de impulsos elétricos cirúrgicos.\n\nSeu combate é sujo, técnico e assustadoramente eficiente.\n\nEle não precisa destruir o corpo de um inimigo.\n\nBasta interromper o impulso correto, travar o músculo certo ou enviar uma descarga dourado âmbar pelo ponto exato do sistema nervoso.\n\nEnrai não gosta da OCA.\n\nMas entende seus métodos bem demais.\n\nEsse é o que torna sua presença tão perigosa dentro da Kiba.\n\nEle sabe como a OCA pensa.\n\nSabe como desmonta pessoas.\n\nSabe como transforma corpos em armas.\n\nE, às vezes, suas soluções parecem perigosamente parecidas com as soluções do inimigo.\n\nPor isso, Mika desconfia dele.\nYoru evita ficar sozinho com ele.\nReito confia nele em silêncio.\nE Yuji sabe que, sem Enrai, a Kiba já teria acabado.\n\nEnrai é o tipo de homem que a Kiba jamais deveria aceitar.\n\nMas também é o tipo de homem sem o qual a Kiba não sobreviveria.\n\nDentro da organização existe uma frase associada a ele:\n\n'Morto é inútil. Vivo ainda pode servir de experimentos.'",
     hp: 200,
     chakra: 88,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1786651908733812",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnrai%20Hanzo%2FEnrai%20Hanzo.png?alt=media&v=1788276448738060",
     techniques: [
       {
         name: "Raiton Iryou: Raikō Saisei",
@@ -5275,7 +5275,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 189,
     chakra: 85,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1787158172524277",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaichi%20Muujin%2FDaichi%20Muujin.png?alt=media&v=1788276438137455",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F3__Temporada.png?alt=media&v=1787158174217423", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FDaichi%20Muujin%2F5__Temporada.png?alt=media&v=1787158175750350", caption: "5ª Temporada", category: "era" },
@@ -5314,7 +5314,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Hades",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKoji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media&v=1786651898957363",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKoji%20Ishizuma%2FKoji%20Ishizuma.png?alt=media&v=1788276515656214",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKoji%20Ishizuma%2F3__Temporada.png?alt=media&v=1784751323948", caption: "3ª Temporada", category: "era" },
     ],
@@ -5353,7 +5353,7 @@ export const initialData: Character[] = [
     chakra: 96,
     isDead: true,
     killedBy: "Hades",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuuto%20Han%2FYuuto%20Han.png?alt=media&v=1786651898964338",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuuto%20Han%2FYuuto%20Han.png?alt=media&v=1788276603923947",
     techniques: [
       {
         name: "Kōkūmon: Kokuō Hakugin Ansatsu Keitai",
@@ -5404,7 +5404,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Hades",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShin%20Mizukari%2FShin%20Mizukari.png?alt=media&v=1786651898968060",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShin%20Mizukari%2FShin%20Mizukari.png?alt=media&v=1788276578401136",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShin%20Mizukari%2F3__Temporada.png?alt=media&v=1784751360239", caption: "3ª Temporada", category: "era" },
     ],
@@ -5445,7 +5445,7 @@ export const initialData: Character[] = [
     description: "Shikure Chinoike é um gênio que ultrapassou a linha entre ciência e insanidade. Nascido no ramo mais isolado do clã Sabaku e filho de um chinoike, entre artesãos, alquimistas e criadores de marionetes, ele nunca enxergou o mundo como os outros. Enquanto crianças brincavam, Shikure desmontava bonecos para entender sua estrutura. Enquanto treinavam combate, ele estudava sangue, perguntando a si mesmo até onde o corpo humano poderia ser levado. Desde cedo, sabia que era diferente — e acreditava que isso o colocava acima de todos. Sua obsessão encontrou um foco nas lendas do Ketsuryūgan, o dōjutsu proibido dos Chinoike. Incapaz de aceitá-lo como algo inalcançável, Shikure decidiu recriá-lo. Usando o próprio corpo como laboratório, iniciou anos de experimentos clandestinos: manipulação sanguínea, infusão de areia em tecidos vivos, micro-selos implantados em suas próprias células. Ele não testava limites — ele os quebrava. E então, conseguiu. Despertou um Ketsuryūgan artificial, instável, nascido de sua própria carne. A partir desse momento, o medo deixou de existir. Se podia recriar um dōjutsu em si mesmo, poderia criar vida. Assim nasceu Akeganai, sua marionete perfeita, moldada à semelhança humana e equipada com um olho vermelho sintético capaz de lançar genjutsus devastadores — fazendo suas vítimas enxergarem aquilo que mais amaram na vida. Para Shikure, não era crueldade. Era evolução. Sua obra máxima viria em seguida: a Sekisuna Jinzo, uma marionete feita de sangue, areia e chakra, capaz de replicar perfeitamente guerreiros a partir de amostras coletadas. Aquilo não era apenas uma técnica — era a prova de que ele havia superado as limitações humanas. Quando Sunagakure descobriu seus experimentos, não viu genialidade — viu aberração. Ordenaram sua prisão, a destruição de suas pesquisas e a eliminação de Akeganai. Shikure fugiu sem hesitar, levando consigo tudo o que considerava importante e abandonando sua vila para trás. Ferido e à beira da morte no deserto, foi encontrado por Daichi — o único que não o julgou, mas lhe deu um propósito. Desde então, Shikure segue ao seu lado, convencido de que finalmente encontrou um lugar onde sua mente não é contida… mas necessária. Para o mundo, ele é um cientista insano. Para si mesmo, ele é o próximo passo da evolução.",
     hp: 200,
     chakra: 88,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikure%20Chinoike%2FShikure%20Chinoike.png?alt=media&v=1786651898957281",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikure%20Chinoike%2FShikure%20Chinoike.png?alt=media&v=1788276576347146",
     techniques: [
       {
         name: "Ketsuryugan: Akeganai no Ketsu Gen'ei",
@@ -5497,7 +5497,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 189,
     chakra: 85,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1786651899865877",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkira%20Dokuhana%2FAkira%20Dokuhana.png?alt=media&v=1788276407331793",
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F3__Temporada.png?alt=media&v=1784751293430", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkira%20Dokuhana%2F5__Temporada.png?alt=media&v=1784751295515", caption: "5ª Temporada", category: "era" },
@@ -5537,7 +5537,7 @@ export const initialData: Character[] = [
     description: "Conhecido como “O Escriba da Tempestade”, Arashi nasceu no clã Shidehara, uma família de escribas responsável pela produção e preservação dos selos militares de Kumogakure. Seus papéis são fabricados com fibras de árvores atingidas por raios e preparados com tintas capazes de conduzir eletricidade.\n\nApós perder os pais durante uma invasão ao arquivo secreto do clã, Arashi liberou Raiton sobre centenas de documentos espalhados. As folhas se moveram simultaneamente e assumiram formas de aves, lâminas e correntes, dando origem ao Raiton Fūinjutsu: Raishi Ayatsuri.\n\nArashi consegue controlar milhares de papéis como extensões do sistema nervoso. Suas folhas perseguem inimigos, formam criaturas de origami, restringem movimentos e aderem discretamente a pessoas ou objetos. Algumas carregam fórmulas de contenção; outras funcionam como papéis explosivos que permanecem inativos até receberem uma descarga específica.\n\nComo DPS, Arashi cerca seus oponentes com lâminas, descargas e explosões simultâneas. Como Suporte, prepara armadilhas, limita rotas de fuga, protege áreas e transforma o cenário em uma extensa rede de selos.\n\nKatakana o recrutou após investigar o desaparecimento de documentos militares. O Raikage descobriu que Arashi retirava dos arquivos registros de shinobi mortos que seriam descartados. Reconhecendo nele um estrategista e um guardião da memória da vila, Katakana o convidou para assumir o controle territorial e o fūinjutsu da Elite.\n\nSeu maior projeto é o Tenrai Mandara, uma barreira capaz de converter todos os papéis existentes em Kumogakure em partes de um único selo defensivo.",
     hp: 184,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FArashi%20Shidehara%2FArashi%20Shidehara.png?alt=media&v=1786652851353654",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FArashi%20Shidehara%2FArashi%20Shidehara.png?alt=media&v=1788276415883266",
     stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [],
     aptitudes: [],
@@ -5562,7 +5562,7 @@ export const initialData: Character[] = [
     description: "Raizen Kurogane, conhecido como “O Relâmpago dos Insetos”, nasceu em uma família de armeiros, mas demonstrou uma habilidade incomum: conseguia dividir o próprio chakra Raiton em centenas de correntes independentes.\n\nInspirado pelos insetos dos desfiladeiros do País do Relâmpago, desenvolveu o Raiton: Raichū Keisei, uma técnica que transforma eletricidade em espectros dotados de formas e comportamentos instintivos. Essas criaturas não são animais ou invocações, mas construções feitas inteiramente de chakra.\n\nMariposas rastreiam assinaturas energéticas, vespas perseguem inimigos, besouros formam barreiras e louva-a-deus ampliam seus ataques. Cada espectro carrega parte da atenção de Raizen, permitindo que o enxame aja em diferentes pontos do campo.\n\nComo DPS, Raizen sufoca adversários com ataques coordenados e criaturas elétricas. Como Suporte, realiza reconhecimento, perseguição, proteção e marcação de alvos.\n\nKatakana o encontrou inconsciente depois de Raizen transformar uma tempestade em um enorme enxame dourado para defender uma comunidade. Embora tivesse poder para destruir toda a região, ele paralisou os invasores sem derrubar uma única construção. Katakana permaneceu ao seu lado durante a recuperação e o escolheu justamente pelo controle demonstrado.\n\nSua técnica característica é o Raiton: Ōgon Kamakiri, que cria um louva-a-deus elétrico gigante. Seu objetivo máximo é o Mushi no Raijin, capaz de converter uma tempestade inteira em milhares de insetos espectrais. Entretanto, quanto mais criaturas manifesta, maior é o risco de fragmentar a própria consciência.",
     hp: 168,
     chakra: 76,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizen%20Kurogane%2FRaizen%20Kurogane.png?alt=media&v=1786652854835945",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizen%20Kurogane%2FRaizen%20Kurogane.png?alt=media&v=1788276555839964",
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [],
     aptitudes: [],
@@ -5587,7 +5587,7 @@ export const initialData: Character[] = [
     description: "Raiden Yotsuki, “O Arsenal Celeste”, pertence a um ramo secundário do clã Yotsuki. Criado entre ferreiros, desenvolveu a convicção de que armas físicas poderiam quebrar, ser roubadas ou utilizadas contra o próprio portador.\n\nPor meio de uma transformação avançada da forma, Raiden comprime Raiton até adquirir consistência quase sólida. Dessa maneira, materializa espadas, lanças, machados, chicotes, correntes, arcos, projéteis e escudos diretamente do chakra.\n\nDurante uma missão como chūnin, tentou produzir muitas armas simultaneamente e queimou parte dos nervos. As cicatrizes que atravessam seu corpo foram posteriormente adaptadas como circuitos naturais, permitindo conduzir eletricidade pelos músculos sem destruí-los.\n\nComo DPS, Raiden alterna armas durante o movimento e encontra rapidamente a ferramenta adequada para romper cada defesa. Como Tank, manifesta escudos, couraças e estruturas capazes de proteger a si mesmo e aos companheiros.\n\nRaiden tentou entrar na Elite confiando no prestígio do sobrenome Yotsuki, mas Katakana recusou sua primeira candidatura. O Raikage queria saber se ele desejava servir à vila ou apenas provar que merecia a posição por pertencer ao clã fundador. Tempos depois, Raiden protegeu crianças durante um ataque a uma caravana e utilizou o próprio corpo como escudo, mesmo com seus circuitos sobrecarregados. Katakana então o recrutou por seus atos, não por seu sangue.\n\nSua arma máxima é uma enorme alabarda azul capaz de atravessar defesas físicas e descarregar eletricidade diretamente na rede de chakra do inimigo.",
     hp: 194,
     chakra: 79,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaiden%20Yotsuki%2FRaiden%20Yotsuki.png?alt=media&v=1786652858006936",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaiden%20Yotsuki%2FRaiden%20Yotsuki.png?alt=media&v=1788276552038533",
     stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 16, spirit: 23, vigor: 23, perception: 23 },
     powers: [],
     aptitudes: ["Acuidade"],
@@ -5612,7 +5612,7 @@ export const initialData: Character[] = [
     description: "Gorai Arashiumi, “O Senhor das Correntes Trovejantes”, nasceu em uma comunidade de pescadores nos lagos montanhosos do País do Relâmpago. Descendente de antigos protetores das rotas fluviais, manifestou a Kekkei Genkai Ranton, formada pela união de Raiton e Suiton.\n\nSeu estilo utiliza correntes de água eletrificada que assumem formas de serpentes, chicotes, ondas e redemoinhos. O Ranton permite concentrar e direcionar as descargas, fazendo com que persigam adversários através da água sem atingir aliados.\n\nGorai luta com o tridente Ikazuchi no Hokosaki — Ponta do Trovão, herdado de seu pai. A arma funciona como condutor, instrumento de controle das correntes e recurso para combate próximo.\n\nComo DPS, Gorai transforma todo o ambiente aquático em uma rede ofensiva e aplica descargas perseguidoras. Como Tank, cria redemoinhos e muralhas de água, bloqueia rotas e protege seus companheiros. Sua experiência também faz dele um dos principais comandantes de campo da Elite.\n\nApós décadas servindo Kumogakure, Gorai havia se aposentado e retornado aos lagos. Katakana foi pessoalmente procurá-lo, mas não apresentou imediatamente o convite. Durante alguns dias, ajudou o veterano a reparar redes, carregar peixes e reconstruir o cais de uma comunidade atingida por tempestades. Gorai percebeu que o Raikage não procurava apenas seu poder, mas alguém capaz de orientar os jovens. Ele aceitou retornar com a condição de que nenhuma vida fosse desperdiçada por orgulho político.",
     hp: 226,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1786652861645187",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGorai%20Arashiumi%2FGorai%20Arashiumi.png?alt=media&v=1788276469999708",
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 20, spirit: 27, vigor: 27, perception: 27 },
     powers: [],
     aptitudes: ["Acuidade"],
@@ -5637,7 +5637,7 @@ export const initialData: Character[] = [
     description: "Nayara Kazemori, “A Dama dos Tornados”, nasceu em uma família responsável pela vigilância das rotas aéreas entre as montanhas de Kumogakure. Desde jovem, conseguia perceber alterações no vento antes da formação de tempestades.\n\nDurante uma missão em um desfiladeiro, fundiu Raiton e Futon para salvar sua equipe. A união acelerou violentamente as correntes de ar e despertou o Tatsumakiton — Estilo Tornado.\n\nNayara cria vórtices eletrizados, densos e extremamente velozes. Utiliza correntes de vento nos pés para flutuar, mudar de direção e manter distância. Seu bastão condutor concentra as duas naturezas e permite direcionar as tempestades com precisão.\n\nComo DPS, produz tornados capazes de despedaçar defesas, lançar inimigos e dominar grandes áreas. Como Suporte, controla posicionamento, divide formações, bloqueia rotas e movimenta companheiros pelo campo.\n\nNayara passou a temer o próprio poder depois de quase atingir seus aliados durante o primeiro despertar. Katakana a levou ao topo de uma montanha e pediu que criasse uma tempestade ao redor dele. O Raikage permaneceu no centro do tornado e confiou que ela conseguiria abrir uma zona segura. Quando Nayara controlou completamente o vórtice, Katakana a recrutou por sua capacidade de escolher quem a tempestade deveria proteger.\n\nSua técnica característica é o Tatsumakiton: Sōryū Arashi, que cria dois tornados em sentidos opostos e os funde sobre o inimigo.",
     hp: 189,
     chakra: 85,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNayara%20Kazemori%2FNayara%20Kazemori.png?alt=media&v=1786652865251006",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNayara%20Kazemori%2FNayara%20Kazemori.png?alt=media&v=1788276546601379",
     stats: { strength: 10, dexterity: 25, agility: 10, intelligence: 25, spirit: 25, vigor: 18, perception: 25 },
     powers: [],
     aptitudes: [],
@@ -5662,7 +5662,7 @@ export const initialData: Character[] = [
     description: "Shizuru Kurogane, “O Fantasma da Trovoada”, nasceu durante uma tempestade que permaneceu sobre Kumogakure por sete dias. Seu organismo produz naturalmente o Kaminari, o raro Raio Negro considerado uma bênção das montanhas.\n\nSua Kekkei Genkai, Kaminari no Utsuwa — Receptáculo do Trovão, permite transformar partes do corpo em matéria elétrica condensada. Shizuru cria garras, lâminas e couraças negras, além de dispersar parcialmente o corpo em eletricidade para atravessar espaços estreitos, evitar ataques e movimentar-se silenciosamente.\n\nSua principal especialidade, contudo, é o genjutsu por indução elétrica. Shizuru espalha correntes sutis pelo ar e interfere nos impulsos nervosos dos adversários. As vítimas perdem a noção de distância, enxergam movimentos inexistentes, confundem aliados ou acreditam estar conscientes enquanto o corpo já está paralisado.\n\nComo DPS, ataca o corpo e a rede nervosa diretamente. Como Suporte, desorganiza grupos, cria ilusões, paralisa alvos e conduz operações de infiltração.\n\nDurante anos, Shizuru foi mantida escondida devido à raridade de seu Kaminari. Katakana entrou sozinho no local onde ela era vigiada e foi colocado em uma ilusão de Kumogakure destruída. Mesmo sem saber se a visão era real, ele priorizou procurar sobreviventes. Ao sair do genjutsu, ofereceu liberdade antes de pedir sua lealdade. Shizuru aceitou entrar para a Elite porque Katakana foi o primeiro líder a tratá-la como pessoa, não como segredo ou arma.",
     hp: 205,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizuru%20Kurogane%2FShizuru%20Kurogane.png?alt=media&v=1786652868715619",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShizuru%20Kurogane%2FShizuru%20Kurogane.png?alt=media&v=1788276582039617",
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [],
     aptitudes: ["Acuidade"],
@@ -5687,7 +5687,7 @@ export const initialData: Character[] = [
     description: "Midori Kurogane, “A Mestra do Raio Sepultado”, nasceu entre ferreiros e desenvolveu grande sensibilidade às correntes presentes nos metais. Durante uma missão em uma mina, conduziu Raiton pelas vigas e minerais para derrotar inimigos sem atingir seus companheiros.\n\nA partir dessa experiência, criou o Raiton: Jisō — Estilo do Circuito Terrestre. Em vez de lançar relâmpagos diretamente, injeta eletricidade no solo, nas paredes e nos objetos metálicos, transformando o ambiente em uma rede invisível.\n\nMidori carrega cinco placas condutoras. Com elas, detecta movimentos, interrompe impulsos nervosos, paralisa partes específicas do corpo, magnetiza armas, altera trajetórias, absorve técnicas Raiton e cria zonas eletricamente neutras.\n\nComo Suporte, controla o território, captura inimigos e neutraliza usuários de eletricidade. Como DPS, descarrega Raiton pelo ambiente e atinge o sistema nervoso sem revelar a própria posição.\n\nKatakana a avaliou durante uma inspeção das defesas de Kumogakure. Midori detectou sua aproximação pelo circuito subterrâneo e conseguiu interromper brevemente um movimento do Raikage. O que garantiu seu recrutamento, porém, foi o fato de ela ter reduzido deliberadamente a potência do circuito para não colocar os civis próximos em risco.\n\nSua técnica máxima é o Raiton: Jisō Daikairo, que utiliza os próprios movimentos musculares dos inimigos para alimentar a corrente que os paralisa.",
     hp: 168,
     chakra: 76,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMidori%20Kurogane%2FMidori%20Kurogane.png?alt=media&v=1786652872347241",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMidori%20Kurogane%2FMidori%20Kurogane.png?alt=media&v=1788276526557603",
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [],
     aptitudes: [],
@@ -5712,7 +5712,7 @@ export const initialData: Character[] = [
     description: "Kiyoshi Hagane, “O Regente das Cem Lâminas”, nasceu em uma antiga família de ferreiros e conseguia sentir pequenas cargas elétricas presentes nos metais. Durante uma missão, sofreu danos graves nos nervos e perdeu os movimentos das mãos.\n\nRecusando-se a abandonar a vida shinobi, desenvolveu o Raiton: Jiba Ayatsuri — Controle do Campo Magnético. Kiyoshi altera eletricamente a polaridade dos metais e controla armas sem precisar tocá-las.\n\nKunais, espadas, lanças e projéteis atacam por diferentes ângulos, defendem pontos cegos, perseguem alvos e se unem em estruturas maiores. Sua percepção elétrica permite identificar qualquer perturbação em seu arsenal e interpretar o campo através das próprias armas.\n\nComo DPS, Kiyoshi realiza ataques simultâneos e pressiona vários inimigos. Como Tank, mantém lâminas orbitando a equipe, intercepta golpes e ergue defesas metálicas. Sua idade e experiência fazem dele um dos maiores instrutores de Kumogakure.\n\nKiyoshi inicialmente recusou o convite de Katakana por acreditar que sua idade e suas mãos paralisadas ocupariam a vaga de um jovem. O Raikage colocou sua própria arma no chão e pediu que ele demonstrasse o que mãos funcionais fariam melhor. Kiyoshi controlou todo o arsenal e construiu uma defesa quase impossível de atravessar. Katakana explicou que não procurava suas mãos, mas alguém capaz de conduzir centenas de armas sem desperdiçar nenhuma vida.\n\nSua técnica característica é o Raiton: Tenrai Hyakki Sōjin, a Formação das Cem Lâminas do Trovão Celestial.",
     hp: 221,
     chakra: 97,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1786652875823257",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKiyoshi%20Hagane%2FKiyoshi%20Hagane.png?alt=media&v=1788276513569416",
     stats: { strength: 12, dexterity: 29, agility: 12, intelligence: 29, spirit: 29, vigor: 22, perception: 29 },
     powers: [],
     aptitudes: ["Acuidade"],
@@ -5737,7 +5737,7 @@ export const initialData: Character[] = [
     description: "Akane Sumigami, “A Gravurista do Trovão”, nasceu em uma família de artesãos que produzia mapas, pergaminhos e registros históricos. Misturando fuligem, minerais metálicos e chakra, desenvolveu uma tinta negra altamente condutora.\n\nPor meio do Raiton: Raiboku — Estilo da Xilogravura Elétrica, atravessa seus desenhos com eletricidade e lhes concede forma física. Corvos realizam reconhecimento e transmitem imagens; lobos perseguem assinaturas marcadas; mãos gigantes imobilizam adversários; traços simples transformam-se em lâminas.\n\nSeu medalhão funciona como uma matriz de impressão e armazena gravuras preparadas anteriormente. Dentro dele também está Sumi, o primeiro pequeno rato negro que desenhou com o pai.\n\nComo Suporte, Akane rastreia, transmite informações, protege aliados e restringe movimentos. Como DPS, libera criaturas elétricas e ataques de tinta. Chuva intensa pode deformar desenhos ainda não ativados, enquanto o uso excessivo carboniza seus dedos e prejudica sua precisão.\n\nKatakana conheceu Akane ao analisar um mapa defensivo. Ela havia alterado as rotas oficiais para incluir aldeias pequenas que não estavam entre as prioridades militares. Quando o Raikage pediu que desenhasse a arma mais poderosa que imaginava, Akane representou uma muralha protegendo crianças, idosos e feridos. Katakana a escolheu porque ela compreendia que o verdadeiro objetivo de uma arma era proteger.\n\nSua técnica máxima é o Raiboku: Hyakki no Emaki, que materializa simultaneamente dezenas de criaturas armazenadas em um grande pergaminho.",
     hp: 157,
     chakra: 73,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkane%20Sumigami%2FAkane%20Sumigami.png?alt=media&v=1786652879243128",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkane%20Sumigami%2FAkane%20Sumigami.png?alt=media&v=1788276404356018",
     stats: { strength: 8, dexterity: 21, agility: 8, intelligence: 21, spirit: 21, vigor: 14, perception: 21 },
     powers: [],
     aptitudes: [],
@@ -5762,7 +5762,7 @@ export const initialData: Character[] = [
     description: "Inazuma Kazuchi, “O Passo Antes do Trovão”, é o irmão mais velho de Yoru Kazuchi e o principal mestre de furtividade convencional da Elite. Diferentemente de Mika Yotsuki, não nasceu com uma capacidade sobrenatural de apagar a própria existência. Tudo o que realiza é resultado de treinamento e controle corporal.\n\nInazuma ajusta a respiração ao vento, distribui o peso para eliminar ruídos e sincroniza os movimentos com trovões, vibrações e alterações do ambiente. Também reduz a assinatura de chakra e emprega descargas microscópicas para interromper reflexos involuntários do próprio corpo.\n\nSua filosofia ensina que furtividade não consiste em se tornar invisível, mas em retirar todos os motivos para que alguém olhe em sua direção.\n\nComo DPS, Inazuma aproxima-se silenciosamente, identifica pontos vulneráveis e encerra o confronto antes que o adversário consiga reagir. Embora também realize reconhecimento e infiltração, sua função em batalha é a eliminação rápida de alvos prioritários.\n\nInazuma recusou inicialmente o convite de Katakana. Aceitaria servir à Elite somente se o Raikage garantisse a proteção de Yoru. Katakana prometeu que o jovem teria em Kumogakure a mesma segurança concedida à própria família e nunca o utilizou para controlar a lealdade de Inazuma.\n\nDepois de entrar para a Elite, Inazuma também passou a orientar Mika. A ocultação dela enganava sensores, mas não apagava pegadas, ruídos ou objetos deslocados. Inazuma ensinou-lhe a eliminar os vestígios físicos que ainda poderiam revelar sua passagem.",
     hp: 218,
     chakra: 70,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1786652882806899",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FInazuma%20Kazuchi%2FInazuma%20Kazuchi.png?alt=media&v=1788276493788164",
     stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 26, spirit: 20, vigor: 26, perception: 10 },
     powers: [],
     aptitudes: [],
@@ -5785,7 +5785,7 @@ export const initialData: Character[] = [
     description: "Amakumo é um homem bom, porém possui limites muito bem definidos, especialmente durante conversas e discussões políticas. Respeita profundamente Genzō, seu amigo de longa data, parceiro de combate e atual vice-almirante da Frota Leviatã. Apesar de suas diferenças, os dois construíram uma relação baseada em confiança e lealdade.\n\nAmakumo possui uma armadura de água tão rígida quanto o aço. Seus golpes são expansivos e devastadores, alcançando uma força comparável à de uma Bijū. É conhecido por sua quantidade extraordinária de chakra, por sua natureza bárbara durante as batalhas e, ao mesmo tempo, por seu bom coração. Acredita que o mundo ninja ainda pode ser salvo para além das fronteiras e disputas políticas entre as vilas.\n\nEle está longe de ser pacifista: para Amakumo, a paz é conquistada por meio de seus próprios punhos. Seu físico é conhecido por ser praticamente impenetrável. Não é um combatente veloz, pois acredita que não precisa evitar os ataques de seus adversários. Em vez disso, resiste, avança e derrota qualquer inimigo que permaneça em seu caminho.",
     hp: 242,
     chakra: 132,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788190617243727",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788276410123654",
     stats: { strength: 29, dexterity: 12, agility: 29, intelligence: 25, spirit: 26, vigor: 29, perception: 12 },
     powers: [
       { name: "Suiton", level: 14 },
@@ -5835,7 +5835,7 @@ export const initialData: Character[] = [
     description: "Genzō Umikage é um artesão, um simples pescador e, ao mesmo tempo, um grande Vice-Almirante. Age de maneira calma e pacífica em praticamente todas as situações, exceto quando alguém desafia ou ameaça sua vila. Costuma passar seu tempo com uma vara de pesca no porto. Embora sua aparência coberta por escamas possa assustar algumas pessoas, Genzō é um homem bondoso.\n\nSua proficiência com a água é extraordinária. Durante uma batalha, muitos adversários sequer conseguem enxergar seus movimentos. Genzō luta de maneira fluida como a água, mantendo a sabedoria de um monge e a serenidade de um pescador, mesmo diante das ameaças mais perigosas.\n\nSuas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsus de selamento. Genzō conhece milhares de fórmulas de Fūinjutsu, pois acredita que a melhor forma de eliminar uma ameaça não é derramando mais sangue, mas impedindo-a de continuar lutando. Sua principal técnica de selamento é a Rede, que funciona como uma rede de pesca capaz de capturar e selar grandes quantidades de chakra.",
     hp: 221,
     chakra: 97,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788190638629376",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenz%C5%8D%20Umikage%2FGenz%C5%8D%20Umikage.png?alt=media&v=1788276467462558",
     stats: { strength: 12, dexterity: 29, agility: 12, intelligence: 29, spirit: 29, vigor: 22, perception: 29 },
     powers: [
       { name: "Suiton", level: 14 },
@@ -5885,7 +5885,7 @@ export const initialData: Character[] = [
     description: "Registros apagados na Vila da Névoa.",
     hp: 234,
     chakra: 94,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788190683495499",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaizuki%20Hoshigaki%2FRaizuki%20Hoshigaki.png?alt=media&v=1788276557723284",
     stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 22, spirit: 28, vigor: 28, perception: 11 },
     powers: [
       { name: "Suiton", level: 14 },
@@ -5931,7 +5931,7 @@ export const initialData: Character[] = [
     description: "Suiren Shiranami é um jovem promissor de 25 anos, dono de um histórico formidável e de uma disciplina exemplar. Portador da Espada da Névoa, é visto como um herói pelo povo de Kirigakure: um homem gentil que busca proteger a vila e seus habitantes.\n\nSuiren é especialmente querido pelas crianças e dedica parte de seu tempo livre a ajudar a comunidade. Apesar de sua posição militar, não se distancia das pessoas que jurou defender, mantendo uma relação próxima com os moradores da Névoa.\n\nEm combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu repertório combina ninjutsus e ilusões, tornando-o um combatente versátil e difícil de enfrentar à distância. É considerado um jōnin completo e de bom coração.",
     hp: 184,
     chakra: 82,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788190687131131",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSuiren%20Shiranami%2FSuiren%20Shiranami.png?alt=media&v=1788276587217832",
     stats: { strength: 9, dexterity: 24, agility: 9, intelligence: 24, spirit: 24, vigor: 18, perception: 24 },
     powers: [
       { name: "Suiton", level: 12 },
@@ -5975,7 +5975,7 @@ export const initialData: Character[] = [
     description: "Juzo, Almirante da Frota Kraken, é um dos homens mais influentes, formidáveis e cruéis da Névoa. Inteligente, paciente e articulado, atravessa guerras utilizando alianças, chantagens, informações e acordos secretos. Comanda uma extensa rede clandestina de agentes e intermediários espalhada por diversas vilas.\n\nPuramente mau e desprovido de limites morais, Juzo manipula, tortura e elimina qualquer pessoa em benefício próprio. Enxerga Kirigakure como um instrumento para ampliar seu poder. Apesar de sua arrogância, teme Ganmaren, pois compreende a verdadeira dimensão de seu poder e sabe do que ele seria capaz caso decidisse enfrentá-lo.\n\nPoucos sabem que Juzo perdeu um braço ao enfrentar secretamente o falso Mizukage Gama enquanto investigava a transformação de Ganmasen Yuki. Desde então, trabalhou para destituí-lo por vingança e orgulho. Apesar de sua monstruosidade, sempre cumpre recompensas, acordos e ameaças, pois sua reputação como homem de palavra fortalece sua influência e o medo provocado por seu nome.",
     hp: 230,
     chakra: 132,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788190660018702",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FJuzo%20Kuroshio%2FJuzo%20Kuroshio.png?alt=media&v=1788276495586118",
     stats: { strength: 29, dexterity: 12, agility: 29, intelligence: 29, spirit: 26, vigor: 25, perception: 12 },
     powers: [
       { name: "Suiton", level: 14 },
@@ -6026,7 +6026,7 @@ export const initialData: Character[] = [
     description: "Kōga Kirisame é o Vice-Almirante da Frota Kraken. Já disputou o posto de Almirante e perdeu — a máscara que carrega esconde um rosto coberto de vergonha.\n\nImporta-se genuinamente com todos ao seu redor, mas só enquanto são úteis a ele. Não distingue afeto de manipulação, e acredita que todos existem para servi-lo. É um homem doente: vê criaturas coloridas que mais ninguém enxerga, e responde a elas.\n\nNada disso o torna menos perigoso. Sua fala funciona como uma maldição — onde ele abre a boca, o caos vem atrás. Dizem que seu nome não deve ser pronunciado. É só um boato.",
     hp: 225,
     chakra: 85,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788190665100256",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FK%C5%8Dga%20Kirisame%2FK%C5%8Dga%20Kirisame.png?alt=media&v=1788276522050524",
     stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 28, spirit: 25, vigor: 25, perception: 11 },
     powers: [
       { name: "Suiton", level: 14 }
@@ -6053,7 +6053,7 @@ export const initialData: Character[] = [
     description: "Mei Yuki é a Capitã da Frota Kraken, colecionadora de armas ninja e a maior especialista em história ninja da Névoa. Seu código de guerra é O Arquivo.\n\nDizem que tem olhos e ouvidos em todos os lugares. Ninguém a encontra: aparece nas reuniões oficiais da Marinha e em nenhum outro lugar, e sai sem deixar rastro. Seu Kekkei Genkai gera vapor do nada, e é dentro da própria névoa quente que ela é mais perigosa.\n\nSua tesoura, a Decapitadora, traz gravados em vermelho os nomes de suas vítimas, escritos com o sangue de cada uma. Mei não é formal, mas é melhor tê-la do seu lado do que contra você.",
     hp: 226,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788190670366992",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMei%20Yuki%2FMei%20Yuki.png?alt=media&v=1788276524275544",
     stats: { strength: 27, dexterity: 11, agility: 27, intelligence: 20, spirit: 27, vigor: 27, perception: 11 },
     powers: [
       { name: "Suiton", level: 13 },
@@ -6081,7 +6081,7 @@ export const initialData: Character[] = [
     description: "Nao Arashio, Capitão-Tenente da Frota Kraken, não é exatamente o que se chamaria de vilão. É, talvez, um homem muito azarado.\n\nNunca quis matar ninguém. Ainda assim, sem entender o que estava fazendo e sem nunca ter medido a própria força, já matou mais de mil homens. Alguns dizem que ele é sortudo; na verdade é só um bocó que teve a sorte de não morrer até agora.\n\nToda a Névoa o vê como um monstro, um vilão sanguinário. É o contrário disso: seu jeito é bobo, desajeitado e sem nenhuma pretensão.\n\nBom. Isso é o que ele diz.",
     hp: 218,
     chakra: 88,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788190679428061",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNao%20Arashio%2FNao%20Arashio.png?alt=media&v=1788276541041014",
     stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 20, spirit: 26, vigor: 26, perception: 10 },
     powers: [
       { name: "Suiton", level: 13 }
@@ -6108,7 +6108,7 @@ export const initialData: Character[] = [
     description: "Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.\n\nFoi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hōzuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.\n\nKirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.",
     hp: 250,
     chakra: 137,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788190633307643",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788276459807981",
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 27, spirit: 27, vigor: 30, perception: 30 },
     powers: [
       { name: "Suiton", level: 15 },
@@ -6160,7 +6160,7 @@ export const initialData: Character[] = [
     description: "Gordon Kirisame, o Cego, é o Vice-Almirante da Frota Jormungandr e um dos membros mais respeitados do esquadrão — braço direito do ninja mais forte da Névoa. A cicatriz em seu peito foi feita pelo próprio almirante, e é dela que vem sua fidelidade: Gordon o vê como um deus ninja. O que persegue é impor a Kirigakure inteira uma justiça cega, que não enxerga cor nem raça, só caráter.\n\nÉ quieto, cuidadoso e tem senso de humor. Luta com correntes e jutsus de Suiton, e domina uma versão arcaica do Hiraishin que aperfeiçoou para o próprio estilo: o Flash Marítimo, que lhe permite trocar de lugar com qualquer gomo da própria corrente no meio do combate.\n\nVeio de uma vila vizinha da Névoa, em plena guerra, e lutou por Kirigakure mesmo sendo foragido. Sua origem não podia ser revelada, e foi — por um amigo próximo. Naquela época ainda não era um ninja sensorial: o amigo lhe tirou a visão e o denunciou. Passou dez anos no fundo de um poço até conseguir fugir, e saiu de lá assassino de aluguel.\n\nVoltou a confiar em alguém uma única vez, e foi depois de enfrentar o próprio almirante e quase morrer.",
     hp: 234,
     chakra: 94,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788190643953930",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGordon%20Kirisame%2FGordon%20Kirisame.png?alt=media&v=1788276472216777",
     stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 22, spirit: 28, vigor: 28, perception: 11 },
     powers: [
       { name: "Suiton", level: 14 },
@@ -6205,7 +6205,7 @@ export const initialData: Character[] = [
     description: "Hahiko Shiosaki é a Capitã da Frota Jormungandr, e Kirigakure a chama de monstro. Cresceu isolada, tratada como criança amaldiçoada — ninguém se ofereceu para cuidar de um monstro.\n\nTem sede de sangue, e isso não a torna insensível. Cumpre ordens porque nunca teve muita liberdade para fazer outra coisa. É dramática, estranha, e boa parte da Névoa a considera assustadora, apesar da aparência fofa.\n\nNinguém na vila sabe o motivo: Hahiko é a jinchūriki de Chomei. Ganmaren e Gordon esconderam isso de Kirigakure inteira, e escondem por medo da OCA.",
     hp: 234,
     chakra: 141,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788190649295235",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHahiko%20Shiosaki%2FHahiko%20Shiosaki.png?alt=media&v=1788276475806041",
     stats: { strength: 28, dexterity: 11, agility: 28, intelligence: 22, spirit: 28, vigor: 28, perception: 11 },
     powers: [
       { name: "Chomei", level: 14 },
@@ -6249,7 +6249,7 @@ export const initialData: Character[] = [
     description: "Himari Yuki foi uma prodígio: a jōnin mais exemplar de sua época e uma heroína para Kirigakure inteira. Hoje é a Capitã-Tenente da Frota Jormungandr, e só uma casca do que foi.\n\nA vila acredita que ela foi atacada por ninjas de outra aldeia — foi o que Juzo Kuroshio fez todos acreditarem. O que houve é que ele a raptou. Via potencial demais nela e no seu Kekkei Genkai de alteração corporal, e acreditava que podia forjar o soldado perfeito, sem sentimentos e de poder inigualável, implantando nela um Sharingan roubado da Vila da Folha.\n\nEla foi torturada, desmembrada, costurada. Dezenas de técnicas de selo foram aplicadas e testadas em seu corpo. É o experimento mais monstruoso da história da Névoa, e ninguém em Kirigakure quer responder o que sobra de um ser tratado pior que um verme.\n\nSobrou o fantoche que Juzo tentou controlar. A heroína morreu, e o que restou mal pensa por si. Ganmaren a resgatou depois, em acordos que ninguém detalha.",
     hp: 226,
     chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788190654632490",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHimari%20Yuki%2FHimari%20Yuki.png?alt=media&v=1788276484593385",
     stats: { strength: 27, dexterity: 11, agility: 27, intelligence: 20, spirit: 27, vigor: 27, perception: 11 },
     powers: [
       { name: "Katon", level: 13 },
@@ -6297,7 +6297,7 @@ export const initialData: Character[] = [
     description: "Enkai Kuroshio, Almirante da Frota Megalodon, é calmo, elegante e extremamente perspicaz. Muitos nunca o viram lutar — a maioria dos que o enfrentaram não voltou com vida. A pele branca como a névoa e os olhos vermelhos lhe deram o apelido de vampiro, e o apelido pegou.\n\nEm combate, é um ninja de precisão altíssima, com golpes baseados em Suiton. Mas há algo nele que ninguém na Névoa consegue explicar: dizem que seu chakra é especial, que ele está vivo há muitos anos e que nunca envelheceu um dia. Alguns o comparam a Rock Gunma. Kirigakure não tem resposta melhor do que isso.\n\nEm segredo, Enkai é um fanático pela ideia de imortalidade, e gasta boa parte do próprio chakra sustentando uma marca de energia no peito. É de fato eterno, com uma regeneração comparada à de Hashirama. Seus golpes são pressão e aniquilação rápida, feitos para encerrar a batalha em pouco tempo — um estrategista, um vampiro de verdade, que deixa o sangue dos adversários por onde passa.",
     hp: 230,
     chakra: 132,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788190627990763",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEnkai%20Kuroshio%2FEnkai%20Kuroshio.png?alt=media&v=1788276446111310",
     stats: { strength: 29, dexterity: 12, agility: 29, intelligence: 29, spirit: 26, vigor: 25, perception: 12 },
     powers: [
       { name: "Suiton", level: 14 },
@@ -6349,7 +6349,7 @@ export const initialData: Character[] = [
     description: "Ayame Sazanami é o Vice-Almirante da Frota Megalodon e portador do Shingan, os olhos divinos do clã Sazanami, que dentro da Névoa a maioria ainda trata como lenda.\n\nSeus olhos veem e distorcem o chakra de qualquer ser vivo num raio de 500 metros. Ayame manipula esse chakra como se fosse névoa: dissipa, concentra e, no limite, paralisa o oponente, deixando-o completamente indefeso.\n\nO preço é alto. O consumo é tão grande que ele abre a própria defesa para sustentá-lo, e o dōjutsu não pode ser desligado. Por isso, e porque o chakra que ele exala pode ser rastreado, o próprio clã o selou.",
     hp: 234,
     chakra: 128,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788190622594717",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAyame%20Sazanami%2FAyame%20Sazanami.png?alt=media&v=1788276422463310",
     stats: { strength: 11, dexterity: 28, agility: 11, intelligence: 25, spirit: 25, vigor: 28, perception: 28 },
     powers: [
       { name: "Suiton", level: 14 },
@@ -6394,7 +6394,7 @@ export const initialData: Character[] = [
     description: "Tōma Umikage, a Ganância, é a Capitã da Frota Megalodon. Acredita que só o esforço torna alguém importante, e sua ambição não tem par.\n\nSeus feitos são tão brutais que muitos dos que nunca a viram supõem que seja um homem, sem imaginar o rosto gentil por trás de tanta violência. Nesse rosto está sua maior conquista: um olho Byakugan transplantado, que pode evoluir para o Fujogan de Asami.\n\nLuta com duas armas que, imbuídas de chakra, disparam projéteis contra os tenketsus, e com o Byakugan, raramente erra. É exímia em Taijutsu, longa distância e ninjutsu médico.",
     hp: 205,
     chakra: 137,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788190690779402",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FT%C5%8Dma%20Umikage%2FT%C5%8Dma%20Umikage.png?alt=media&v=1788276594165773",
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
       { name: "Suiton", level: 13 },
@@ -6440,7 +6440,7 @@ export const initialData: Character[] = [
     description: "Mirei Sazanami, a Filha da Terra, é a Capitã-Tenente da Frota Megalodon. Diferente do irmão, nunca aprendeu a usar o Shingan — seu corpo não evoluiu a esse ponto — e o selamento do clã a deixou cega. Ainda assim se move pelo campo guiada pelas explosões da própria espada.\n\nÉ respeitada por todos, menos pela própria família. Amorosa e dura na mesma medida, líder nata, de sensibilidade e inteligência avassaladoras.\n\nLuta com técnicas de espada e manipula Suiton. Criou o Clone Falso, um clone-armadilha traiçoeiro, de poder explosivo.",
     hp: 218,
     chakra: 132,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788190675160649",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMirei%20Sazanami%2FMirei%20Sazanami.png?alt=media&v=1788276531264909",
     stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 20, spirit: 26, vigor: 26, perception: 10 },
     powers: [
       { name: "Suiton", level: 13 },
@@ -6490,7 +6490,7 @@ export const initialData: Character[] = [
     chakra: 123,
     isDead: true,
     killedBy: "Nagare Uzumaki",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).jpg?alt=media&v=1786651890553682",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).png?alt=media&v=1788276400793721",
     techniques: [
       {
         name: "Mangekyō: Susanoo Son Goku",
@@ -6589,7 +6589,7 @@ export const initialData: Character[] = [
     description: "Borashi Hyuga, conhecido como o Gelo Azul, é o equilíbrio perfeito entre sacrifício e controle absoluto. Nascido como filho de Hoshirō Hyuga, braço direito de Tobirama Senju, e sobrinho do lendário Kaizuka Hyuga, Borashi carregava desde o nascimento o peso de expectativas imensuráveis.\n\nAinda jovem, quando a Organização do Chakra Profano ameaçou diretamente o clã Hyuga, uma decisão impossível foi tomada: uma criança deveria ser entregue em troca da sobrevivência de todos. Antes que qualquer escolha fosse feita por ele, Borashi tomou a decisão por si mesmo. Consciente do que estava em jogo, se ofereceu voluntariamente, acreditando que sua entrega salvaria sua família e garantiria o futuro de seu irmão mais novo, Katsumi.\n\nNo entanto, ao cair nas mãos da organização, seu destino foi distorcido. Suas memórias foram manipuladas através de genjutsus e alterações profundas de chakra, fazendo-o acreditar que havia sido abandonado, substituído e esquecido. Essa mentira se tornou uma cicatriz permanente, criando um bloqueio emocional que o impede de buscar a verdade.\n\nDurante os experimentos, seu poder evoluiu de forma anormal, despertando o raro Tenketsu Byakugan — uma variação avançada que lhe concede controle absoluto sobre os pontos de chakra, permitindo selar e interromper o fluxo interno de um oponente com precisão cirúrgica.\n\nParalelamente, após Furyuzan roubar as codificações genéticas de Katsumi, a organização iniciou uma série de testes visando recriar e aperfeiçoar esse poder, culminando na criação de um Fujogan artificial — uma evolução experimental que representa o ápice de suas pesquisas sobre o potencial do clã Hyuga.\n\nDiferente dos demais, Borashi não se tornou instável. Ele se tornou perfeito.\n\nFrio, calculista e extremamente estratégico, ele atua como o verdadeiro cérebro da Equipe 75%, coordenando cada movimento com precisão impecável. Sua presença é o único fator que mantém o Inferno Vermelho sob controle, sendo capaz de neutralizar Akairo com golpes precisos antes que a destruição fuja do controle.\n\nDominando o Suiton, a Liberação de Corrosão e o Juken em níveis avançados, Borashi luta como uma lâmina invisível — silenciosa, inevitável e letal.\n\nEle não levanta a voz. Não hesita. Não falha.\n\nPara a equipe, ele é liderança. Para a organização, ele é eficiência absoluta. E para si mesmo… ele é apenas alguém que aprendeu a congelar tudo o que sente para continuar seguindo em frente.",
     hp: 218,
     chakra: 132,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1786996820348030",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1788276429962131",
     techniques: [
       {
         name: "Fujogan Hyōkai: Mugen Reimei no Gunzei",
@@ -6690,7 +6690,7 @@ export const initialData: Character[] = [
     description: "Chisaki Dokuhana, conhecida como C, é a personificação do controle absoluto em meio ao caos. Nascida em uma família respeitada por seu domínio em fūinjutsu e ninjutsu médico, ela cresceu cercada por disciplina, técnica e propósito. Filha de Rock Gunma, sua vida tomou um rumo trágico — ou pelo menos foi isso que a fizeram acreditar.\n\nApós uma manipulação profunda de memórias realizada pela Organização do Chakra Artificial, Chisaki passou a carregar uma culpa que nunca foi realmente sua: a de ter falhado em salvar o próprio pai. Esse trauma fabricado se tornou o núcleo de sua existência, moldando sua obsessão por controle, cura e proteção.\n\nDeterminada a nunca mais falhar, mergulhou completamente no estudo do corpo humano, do chakra e das técnicas de selamento.\n\nDurante uma missão de resgate a vítimas de experimentos, foi capturada pela própria organização que mais tarde a transformaria. Forçada a absorver 50% de chakra artificial, Chisaki não quebrou — ela evoluiu. Com o tempo, refinou seu controle a níveis quase perfeitos, alcançando 88% sem perder sua estabilidade mental, algo raro entre os modificados.\n\nDominando o Shōton, o ninjutsu médico avançado, fūinjutsu e senjutsu, ela se tornou uma combatente completa, capaz de defender, curar e neutralizar ameaças com precisão cirúrgica.\n\nSua maior evolução veio com o despertar do Modo Sábio de Cristal, uma forma única de senjutsu que amplifica suas habilidades e transforma o campo de batalha em uma extensão de sua vontade.\n\nDentro da Equipe 75%, Chisaki atua como o eixo central — a única capaz de equilibrar o caos de Akairo e a frieza de Borashi. Apesar de sua postura firme e calculista, existe nela um instinto protetor quase maternal, tratando ambos como uma família reconstruída.\n\nO que ela não sabe é que essa conexão vai além do acaso: Akira, outro membro do mesmo universo, é seu irmão de sangue, separado dela ainda na infância pela própria organização. Sem memória dessa ligação, os dois seguem caminhos paralelos, carregando um vínculo invisível que o destino ainda não revelou.\n\nPara a equipe, Chisaki é estabilidade. Para os inimigos, é contenção absoluta. E para si mesma… ela é alguém que acredita que só tem valor enquanto conseguir salvar todos ao seu redor — mesmo que isso signifique se quebrar no processo.",
     hp: 189,
     chakra: 85,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).png?alt=media&v=1786996822018571",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FChisaki%20Dokuhana%20(C)%2FChisaki%20Dokuhana%20(C).png?alt=media&v=1788276435375186",
     techniques: [
       {
         name: "Senpo: Eien no Rakuen",
@@ -6764,7 +6764,7 @@ export const initialData: Character[] = [
     chakra: 96,
     isDead: true,
     killedBy: "Akairo Uchiha (A)",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaiki%20Uzumaki%20(D)%2FDaiki%20Uzumaki%20(D).jpg?alt=media&v=1786651892322379",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDaiki%20Uzumaki%20(D)%2FDaiki%20Uzumaki%20(D).png?alt=media&v=1788276440869217",
     techniques: [
       {
         name: "Kage Uzumaki no Shūen: Kokuen Metsubō",
@@ -6860,7 +6860,7 @@ export const initialData: Character[] = [
     chakra: 52,
     isDead: true,
     killedBy: "Chip da OCA",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEtsuko%20Senju%20(E)%2FEtsuko%20Senju%20(E).jpg?alt=media&v=1786651893230348",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FEtsuko%20Senju%20(E)%2FEtsuko%20Senju%20(E).png?alt=media&v=1788276451275722",
     techniques: [
       {
         name: "Shakuton Hiraishin: Kōyō Rasengan no Ame",
@@ -6917,7 +6917,7 @@ export const initialData: Character[] = [
     chakra: 52,
     isDead: true,
     killedBy: "Kaito Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuyuki%20Dokuhana%20(F)%2FFuyuki%20Dokuhana%20(F).jpg?alt=media&v=1786651893212811",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuyuki%20Dokuhana%20(F)%2FFuyuki%20Dokuhana%20(F).png?alt=media&v=1788276456519337",
     techniques: [
       {
         name: "Fuyuki: Jigoku Dokuketsu – Chi no Enkai Metsubō",
@@ -6975,7 +6975,7 @@ export const initialData: Character[] = [
     chakra: 132,
     isDead: true,
     killedBy: "Kaito Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenei%20(G)%2FGenei%20(G).jpg?alt=media&v=1786651894248252",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGenei%20(G)%2FGenei%20(G).png?alt=media&v=1788276464596617",
     techniques: [
       {
         name: "Bijuu Profana: Manto Profano",
@@ -7054,7 +7054,7 @@ export const initialData: Character[] = [
     chakra: 64,
     isDead: true,
     killedBy: "Hikaru Ishi",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHayato%20Hanzo%20(H)%2FHayato%20Hanzo%20(H).jpg?alt=media&v=1786651894267268",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHayato%20Hanzo%20(H)%2FHayato%20Hanzo%20(H).png?alt=media&v=1788276480669826",
     techniques: [
       {
         name: "Hanzo: Shiroki Kaminari – Amenotejikara no Shinsei",
@@ -7118,7 +7118,7 @@ export const initialData: Character[] = [
     chakra: 94,
     isDead: true,
     killedBy: "Yuji Yotsuki",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatakana%20Yotsuki%20(Alpha)%2FKatakana%20Yotsuki%20(Alpha).jpg?alt=media&v=1786651908720600",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKatakana%20Yotsuki%20(Alpha)%2FKatakana%20Yotsuki%20(Alpha).png?alt=media&v=1788276502947501",
     techniques: [
       {
         status: "Consumo colossal de chakra e extrema exigência de controle. Requer marcação prévia do alvo e manutenção da conexão eletromagnética. Uso contínuo pode causar sobrecarga severa no sistema nervoso e colapso físico devido à quantidade de energia canalizada.",
@@ -7261,7 +7261,7 @@ export const initialData: Character[] = [
     chakra: 141,
     isDead: true,
     killedBy: "Oddy Uchiha",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmasen%20Yuki%20(Gama)%2FGanmasen%20Yuki%20(Gama).png?alt=media&v=1786651909338394",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmasen%20Yuki%20(Gama)%2FGanmasen%20Yuki%20(Gama).png?alt=media&v=1788276462208894",
     techniques: [
       {
         nature: "Saiken + Purazumaton",
@@ -7400,7 +7400,7 @@ export const initialData: Character[] = [
     chakra: 76,
     isDead: true,
     killedBy: "Najin Hatake",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDeruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).jpg?alt=media&v=1786651909947775",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FDeruta%20Muujin%20(Delta)%2FDeruta%20Muujin%20(Delta).png?alt=media&v=1788276443554710",
     techniques: [
       {
         nature: "Juryūkuton + Kotton",
@@ -7557,7 +7557,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 216,
     chakra: 94,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTheta%2FTheta.png?alt=media&v=1786651897904547",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShiita%20Sabaku%20(Theta)%2FShiita%20Sabaku%20(Theta).png?alt=media&v=1788276571391970",
     techniques: [],
     stats: {
       strength: 11,
@@ -7631,7 +7631,7 @@ export const initialData: Character[] = [
     chakra: 100,
     isDead: true,
     killedBy: "Nishinoya Senju",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).jpg?alt=media&v=1786651890565160",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaien%20Ishi%20(Omega)%2FKaien%20Ishi%20(Omega).png?alt=media&v=1788276497151562",
     techniques: [
       {
         name: "Seimei no Saidan: Fukkatsu Zenjin",
@@ -7720,7 +7720,7 @@ export const initialData: Character[] = [
     description: "Desconhecido",
     hp: 0,
     chakra: 0,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBeta%2FBeta.jpg?alt=media&v=1786651897906569",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBeta%2FBeta.png?alt=media&v=1788276427259582",
     techniques: [
       {
         name: "Shinkaton: Shin Seimei Shinka",
@@ -7829,7 +7829,7 @@ export const initialData: Character[] = [
     description: "",
     hp: 0,
     chakra: 0,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.jpeg?alt=media&v=1786983073679558",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHades%2FHades.png?alt=media&v=1788276473918999",
     stats: { strength: 0, dexterity: 0, agility: 0, intelligence: 0, spirit: 0, vigor: 0, perception: 0 },
     powers: [
       { name: "Desconhecido", level: 0 },
