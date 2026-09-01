@@ -20,7 +20,7 @@
 | 14 | Shizumi Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 18 | 130 | 64 | Vivo |
 | 15 | Kuromi Uchiha | Uchiha | NPC, Konohagakure, OCA |  | Suporte | 27 | 205 | 91 | Vivo |
 | 16 | Apollo Sarutobi | Sarutobi | NPC, Konohagakure, OCA |  | Sensor, Ofensivo e Controle | 24 | 202 | 82 | Vivo |
-| 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | DPS | 30 | 241 | 200 | Vivo |
+| 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS | 30 | 241 | 200 | Vivo |
 | 18 | Naoki Uchiha | Uchiha | NPC, Konohagakure |  | Suporte e DPS | 26 | 200 | 88 | Vivo |
 | 19 | Hisoka Senju | Senju | NPC, Konohagakure, OCA |  | Tank | 28 | 234 | 76 | Vivo |
 | 20 | Ryuta Hyuga | Hyuga |  |  | Desconhecido | 18 | 130 | 64 | Vivo |
@@ -39,9 +39,9 @@
 | 33 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure |  | DPS e Controle | 27 | 226 | 91 | Vivo |
 | 34 | Hirato Ishi | Ishi | NPC, Iwagakure |  | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
 | 35 | Hikaru Ishi | Ishi | NPC, Iwagakure |  | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
-| 36 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | Suporte | 8 | 59 | 56 | Vivo |
-| 37 | Souma Namikaze | Namikaze | NPC, Konohagakure, OCA |  | DPS e Controle | 8 | 59 | 42 | Vivo |
-| 38 | Reika Uzumaki | Uzumaki | NPC, Konohagakure, OCA |  | Suporte | 8 | 59 | 70 | Vivo |
+| 36 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 56 | Vivo |
+| 37 | Souma Namikaze | Namikaze | NPC, Konohagakure |  | DPS e Controle | 8 | 59 | 42 | Vivo |
+| 38 | Reika Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 70 | Vivo |
 | 39 | Nagi Yuki | Yuki | NPC, Konohagakure, OCA |  | Controle / Sensorial | 22 | 168 | 76 | Vivo |
 | 40 | Yasuo Kurogane | Kurogane | NPC, Sunagakure, OCA |  | Suporte e Controle | 22 | 174 | 76 | Vivo |
 | 41 | Hana Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 30 | 241 | 150 | Vivo |
@@ -3540,7 +3540,7 @@ Consumo contínuo de energia natural. Pode causar petrificação parcial caso o 
 # Naomi Uzumaki
 ID: 17
 Clã: Uzumaki
-Grupos: NPC, Konohagakure, OCA
+Grupos: NPC, Konohagakure
 Função: DPS
 NC: 30
 HP: 241
@@ -5274,7 +5274,7 @@ Nenhuma técnica cadastrada.
 # Shoyu Uzumaki
 ID: 36
 Clã: Uzumaki
-Grupos: NPC, Konohagakure, OCA
+Grupos: NPC, Konohagakure
 Função: Suporte
 NC: 8
 HP: 59
@@ -5446,7 +5446,7 @@ Consome uma quantidade razoável de chakra para o nível de Shoyu, tornando o us
 # Souma Namikaze
 ID: 37
 Clã: Namikaze
-Grupos: NPC, Konohagakure, OCA
+Grupos: NPC, Konohagakure
 Função: DPS e Controle
 NC: 8
 HP: 59
@@ -5575,7 +5575,7 @@ Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode c
 # Reika Uzumaki
 ID: 38
 Clã: Uzumaki
-Grupos: NPC, Konohagakure, OCA
+Grupos: NPC, Konohagakure
 Função: Suporte
 NC: 8
 HP: 59
