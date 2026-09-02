@@ -6,7 +6,7 @@ import { carregaPersonagens, carregaArsenal, fonteEstatica } from './data/dados-
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, corDaAba, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
 import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 
@@ -54,27 +54,28 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
 // casamento é por substring — e "Tank" tem que aceitar "Tanque", que convive nas fichas.
 const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
 
-/** Onde a preferência de cor das abas fica no navegador de quem olha. */
-const CHAVE_CORES = 'era-genetica:abas-coloridas';
+/** Onde a preferência de capa colorida fica no navegador de quem olha. */
+const CHAVE_CORES = 'era-genetica:capas-coloridas';
 
 /**
- * As classes da aba, no modo escolhido.
+ * O filtro da capa no card, pelo modo escolhido.
  *
- * Com o modo desligado — ou numa aba que não é lugar, como "Todos" — devolve exatamente as classes
- * que a lista sempre teve. Isso é o ponto: o padrão não muda um pixel, a cor é adicional.
+ * A arte do site nasce colorida, mas a lista sempre a mostrou em `grayscale`, com a cor voltando só
+ * no hover — é o que dá o ar de terminal ao grid. O botão de paleta desliga esse dessaturado para
+ * quem quiser ver a arte como ela é.
+ *
+ * Morto continua legível como morto mesmo colorido: o card tem a faixa "MORTO" e o NC em vermelho, e
+ * aqui o brilho segue reduzido. O `grayscale` era estética, não o sinal de morte.
  */
-const classeDaAba = (aba: string, ativa: boolean, colorido: boolean): string => {
-    const cor = colorido ? corDaAba(aba) : null;
-    if (!cor) {
-        return ativa
-            ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_15px_rgba(0,255,65,0.4)] translate-y-[-2px]'
-            : 'bg-transparent text-tech-primary border-tech-border hover:border-tech-primary hover:text-white hover:bg-tech-primary/10';
+const filtroDaCapa = (morto: boolean, colorido: boolean): string => {
+    if (!colorido) {
+        return morto
+            ? 'grayscale brightness-50 contrast-125'
+            : 'grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-110';
     }
-    // A ativa preenche, como no verde. O texto fica preto porque todas as cores do mapa são claras
-    // o bastante — é a mesma inversão que a aba verde já fazia.
-    return ativa
-        ? `${cor.solido} text-black ${cor.brilho} translate-y-[-2px]`
-        : `bg-transparent ${cor.texto} ${cor.borda} hover:text-white ${cor.hover}`;
+    return morto
+        ? 'brightness-75 contrast-125'
+        : 'brightness-100 group-hover:brightness-110';
 };
 
 // Os postos que a ficha tem, cargo e patente, só sem o ordinal. Diferente de `macrosDe`, que
@@ -163,12 +164,12 @@ export default function App() {
      * Firestore, não entra no push, e cada pessoa escolhe a sua. O try/catch existe porque navegador
      * em janela anônima ou com dados de site bloqueados joga ao só TOCAR no localStorage.
      */
-    const [coresLigadas, setCoresLigadas] = useState(() => {
+    const [capasColoridas, setCapasColoridas] = useState(() => {
         try { return localStorage.getItem(CHAVE_CORES) === '1'; } catch { return false; }
     });
     useEffect(() => {
-        try { localStorage.setItem(CHAVE_CORES, coresLigadas ? '1' : '0'); } catch { /* sem persistir, só não lembra */ }
-    }, [coresLigadas]);
+        try { localStorage.setItem(CHAVE_CORES, capasColoridas ? '1' : '0'); } catch { /* sem persistir, só não lembra */ }
+    }, [capasColoridas]);
     const [selectedOrigin, setSelectedOrigin] = useState('Todos');
     const [selectedChar, setSelectedChar] = useState<Character | null>(null);
     const [showAddModal, setShowAddModal] = useState(false);
@@ -776,12 +777,18 @@ export default function App() {
                             {/* Top Row: Categories & Search */}
                             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                                 {/* Filter Tabs */}
-                                <div className="flex flex-nowrap gap-1.5 min-w-0 overflow-x-auto">
+                                {/* Sem `overflow-x-auto`: a barra de rolagem cortava a aba "Todos" e obrigava a
+                                    arrastar para ver as últimas. As onze cabem numa linha com o texto em 10px e
+                                    padding menor; `flex-wrap` só entra em tela estreita, onde quebrar é melhor
+                                    que rolar. */}
+                                <div className="flex flex-wrap gap-1">
                                     {categories.map(cat => (
                                         <button
                                             key={cat}
                                             onClick={() => handleSelectCategory(cat)}
-                                            className={`shrink-0 whitespace-nowrap px-2.5 py-1.5 border uppercase text-[11px] font-bold tracking-wider transition-all duration-300 clip-corner-sm ${classeDaAba(cat, selectedCategory === cat, coresLigadas)}`}
+                                            className={`shrink-0 whitespace-nowrap px-2 py-1.5 border uppercase text-[10px] font-bold tracking-wider transition-all duration-300 clip-corner-sm ${selectedCategory === cat
+                                                ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_15px_rgba(0,255,65,0.4)] translate-y-[-2px]'
+                                                : 'bg-transparent text-tech-primary border-tech-border hover:border-tech-primary hover:text-white hover:bg-tech-primary/10'}`}
                                         >
                                             {cat}
                                         </button>
@@ -790,15 +797,15 @@ export default function App() {
 
                                 {/* Search & Action */}
                                 <div className="flex gap-4 w-full md:w-auto">
-                                    {/* Liga a cor das abas. Fica aqui, e não numa sexta célula da linha
-                                        de filtros, porque aquela linha é uma grade de cinco e um sexto
+                                    {/* Liga a cor das capas do grid. Fica aqui, e não numa sexta célula da
+                                        linha de filtros, porque aquela linha é uma grade de cinco e um sexto
                                         item quebraria a coluna. */}
                                     <button
                                         type="button"
-                                        onClick={() => setCoresLigadas(v => !v)}
-                                        aria-pressed={coresLigadas}
-                                        title={coresLigadas ? 'Voltar as abas ao verde do tema' : 'Colorir as abas com a cor de cada vila'}
-                                        className={`h-10 w-10 shrink-0 border flex items-center justify-center transition-all clip-corner-sm ${coresLigadas
+                                        onClick={() => setCapasColoridas(v => !v)}
+                                        aria-pressed={capasColoridas}
+                                        title={capasColoridas ? 'Voltar as capas ao preto e branco' : 'Mostrar as capas em cores'}
+                                        className={`h-10 w-10 shrink-0 border flex items-center justify-center transition-all clip-corner-sm ${capasColoridas
                                             ? 'border-tech-primary text-tech-primary bg-tech-primary/10 shadow-[0_0_10px_rgba(0,255,65,0.25)]'
                                             : 'border-tech-border text-tech-dim hover:text-tech-primary hover:border-tech-primary'}`}
                                     >
@@ -958,10 +965,7 @@ export default function App() {
                                                 loading="lazy"
                                                 decoding="async"
                                                 onError={() => handleImageError(char.id, char.image)}
-                                                className={`w-full h-full object-cover transition-transform duration-700 ${char.isDead
-                                                        ? 'grayscale brightness-50 contrast-125'
-                                                        : 'grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-110'
-                                                    }`}
+                                                className={`w-full h-full object-cover transition-all duration-700 ${filtroDaCapa(!!char.isDead, capasColoridas)}`}
                                             />
                                         ) : (
                                             <div className="w-full h-full flex items-center justify-center bg-striped-pattern opacity-50">
