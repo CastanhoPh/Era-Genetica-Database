@@ -1,11 +1,11 @@
 import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles } from 'lucide-react';
+import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles, Palette } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
-import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
+import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, corDaAba, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
 import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 
@@ -52,6 +52,29 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
 // As quatro funções que o filtro oferece. `role` guarda combinação livre ("Suporte e DPS"), então o
 // casamento é por substring — e "Tank" tem que aceitar "Tanque", que convive nas fichas.
 const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
+
+/** Onde a preferência de cor das abas fica no navegador de quem olha. */
+const CHAVE_CORES = 'era-genetica:abas-coloridas';
+
+/**
+ * As classes da aba, no modo escolhido.
+ *
+ * Com o modo desligado — ou numa aba que não é lugar, como "Todos" — devolve exatamente as classes
+ * que a lista sempre teve. Isso é o ponto: o padrão não muda um pixel, a cor é adicional.
+ */
+const classeDaAba = (aba: string, ativa: boolean, colorido: boolean): string => {
+    const cor = colorido ? corDaAba(aba) : null;
+    if (!cor) {
+        return ativa
+            ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_15px_rgba(0,255,65,0.4)] translate-y-[-2px]'
+            : 'bg-transparent text-tech-primary border-tech-border hover:border-tech-primary hover:text-white hover:bg-tech-primary/10';
+    }
+    // A ativa preenche, como no verde. O texto fica preto porque todas as cores do mapa são claras
+    // o bastante — é a mesma inversão que a aba verde já fazia.
+    return ativa
+        ? `${cor.solido} text-black ${cor.brilho} translate-y-[-2px]`
+        : `bg-transparent ${cor.texto} ${cor.borda} hover:text-white ${cor.hover}`;
+};
 
 // Os postos que a ficha tem, cargo e patente, só sem o ordinal. Diferente de `macrosDe`, que
 // também corta o qualificador — o catálogo precisa do posto INTEIRO, senão "Líder dos Monges" e
@@ -129,6 +152,22 @@ export default function App() {
     const [arsenalReady, setArsenalReady] = useState(false);
     const [selectedItem, setSelectedItem] = useState<Equipment | null>(null);
     const [selectedCategory, setSelectedCategory] = useState('Todos');
+
+    /**
+     * Modo colorido das abas: desligado, cada aba usa o verde do tema, que é como a lista sempre foi.
+     * Ligado, cada vila e organização veste a própria cor — a MESMA do selo do card, então a aba
+     * "Kirigakure" e o selo "Almirante da Frota Leviatã" combinam em vez de competir.
+     *
+     * Fica no localStorage porque é preferência de quem olha, não dado do projeto: não vai pro
+     * Firestore, não entra no push, e cada pessoa escolhe a sua. O try/catch existe porque navegador
+     * em janela anônima ou com dados de site bloqueados joga ao só TOCAR no localStorage.
+     */
+    const [coresLigadas, setCoresLigadas] = useState(() => {
+        try { return localStorage.getItem(CHAVE_CORES) === '1'; } catch { return false; }
+    });
+    useEffect(() => {
+        try { localStorage.setItem(CHAVE_CORES, coresLigadas ? '1' : '0'); } catch { /* sem persistir, só não lembra */ }
+    }, [coresLigadas]);
     const [selectedOrigin, setSelectedOrigin] = useState('Todos');
     const [selectedChar, setSelectedChar] = useState<Character | null>(null);
     const [showAddModal, setShowAddModal] = useState(false);
@@ -709,10 +748,7 @@ export default function App() {
                                         <button
                                             key={cat}
                                             onClick={() => handleSelectCategory(cat)}
-                                            className={`shrink-0 whitespace-nowrap px-2.5 py-1.5 border uppercase text-[11px] font-bold tracking-wider transition-all duration-300 clip-corner-sm
-                            ${selectedCategory === cat
-                                                    ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_15px_rgba(0,255,65,0.4)] translate-y-[-2px]'
-                                                    : 'bg-transparent text-tech-primary border-tech-border hover:border-tech-primary hover:text-white hover:bg-tech-primary/10'}`}
+                                            className={`shrink-0 whitespace-nowrap px-2.5 py-1.5 border uppercase text-[11px] font-bold tracking-wider transition-all duration-300 clip-corner-sm ${classeDaAba(cat, selectedCategory === cat, coresLigadas)}`}
                                         >
                                             {cat}
                                         </button>
@@ -721,6 +757,20 @@ export default function App() {
 
                                 {/* Search & Action */}
                                 <div className="flex gap-4 w-full md:w-auto">
+                                    {/* Liga a cor das abas. Fica aqui, e não numa sexta célula da linha
+                                        de filtros, porque aquela linha é uma grade de cinco e um sexto
+                                        item quebraria a coluna. */}
+                                    <button
+                                        type="button"
+                                        onClick={() => setCoresLigadas(v => !v)}
+                                        aria-pressed={coresLigadas}
+                                        title={coresLigadas ? 'Voltar as abas ao verde do tema' : 'Colorir as abas com a cor de cada vila'}
+                                        className={`h-10 w-10 shrink-0 border flex items-center justify-center transition-all clip-corner-sm ${coresLigadas
+                                            ? 'border-tech-primary text-tech-primary bg-tech-primary/10 shadow-[0_0_10px_rgba(0,255,65,0.25)]'
+                                            : 'border-tech-border text-tech-dim hover:text-tech-primary hover:border-tech-primary'}`}
+                                    >
+                                        <Palette size={15} />
+                                    </button>
                                     <div className="flex-1 md:w-64 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
                                         <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
                                         <input

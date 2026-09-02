@@ -51,12 +51,31 @@ export const seloDe = (c: { patente?: string[]; cargo?: string[]; position?: str
  *
  * `texto`/`borda`/`fundo` compõem o selo de patente no card e a tag da vila na ficha.
  */
-export const CORES_DE_VILA: Record<string, { texto: string; borda: string; fundo: string }> = {
-  Konohagakure: { texto: 'text-red-400',    borda: 'border-red-500/40',    fundo: 'bg-red-500/10' },
-  Sunagakure:   { texto: 'text-green-400',  borda: 'border-green-500/40',  fundo: 'bg-green-500/10' },
-  Kirigakure:   { texto: 'text-blue-400',   borda: 'border-blue-500/40',   fundo: 'bg-blue-500/10' },
-  Kumogakure:   { texto: 'text-yellow-300', borda: 'border-yellow-400/40', fundo: 'bg-yellow-400/10' },
-  Iwagakure:    { texto: 'text-orange-400', borda: 'border-orange-500/40', fundo: 'bg-orange-500/10' },
+/**
+ * A cor de cada vila e organização.
+ *
+ * `texto`/`borda`/`fundo` vestem um elemento discreto — o selo do card, a linha da ficha. `solido` e
+ * `brilho` são o par que preenche: servem à aba ATIVA da lista, que no tema padrão é verde chapado
+ * com halo. `hover` é o estado de passagem da aba inativa. Ficam aqui, e não no App, porque cor de
+ * vila é vocabulário do projeto inteiro; espalhar um segundo mapa faria o selo e a aba divergirem na
+ * primeira vez que uma vila mudasse de cor.
+ *
+ * Toda classe é escrita por extenso, `hover:` incluído, e é por isso que o campo existe em vez de o
+ * App montar `hover:` + `fundo`: o Tailwind varre o código-fonte à procura de nomes de classe, e um
+ * nome montado em runtime — por template ou por concatenação — não está no fonte, então a regra
+ * simplesmente não entra no CSS final e o hover não pinta nada.
+ */
+export type CorDeFaccao = {
+  texto: string; borda: string; fundo: string;
+  solido: string; brilho: string; hover: string;
+};
+
+export const CORES_DE_VILA: Record<string, CorDeFaccao> = {
+  Konohagakure: { texto: 'text-red-400',    borda: 'border-red-500/40',    fundo: 'bg-red-500/10',    solido: 'bg-red-500 border-red-500',       brilho: 'shadow-[0_0_15px_rgba(239,68,68,0.45)]',   hover: 'hover:bg-red-500/20 hover:border-red-500' },
+  Sunagakure:   { texto: 'text-green-400',  borda: 'border-green-500/40',  fundo: 'bg-green-500/10',  solido: 'bg-green-500 border-green-500',   brilho: 'shadow-[0_0_15px_rgba(34,197,94,0.45)]',   hover: 'hover:bg-green-500/20 hover:border-green-500' },
+  Kirigakure:   { texto: 'text-blue-400',   borda: 'border-blue-500/40',   fundo: 'bg-blue-500/10',   solido: 'bg-blue-400 border-blue-400',     brilho: 'shadow-[0_0_15px_rgba(96,165,250,0.45)]',  hover: 'hover:bg-blue-500/20 hover:border-blue-400' },
+  Kumogakure:   { texto: 'text-yellow-300', borda: 'border-yellow-400/40', fundo: 'bg-yellow-400/10', solido: 'bg-yellow-400 border-yellow-400', brilho: 'shadow-[0_0_15px_rgba(250,204,21,0.45)]',  hover: 'hover:bg-yellow-400/20 hover:border-yellow-400' },
+  Iwagakure:    { texto: 'text-orange-400', borda: 'border-orange-500/40', fundo: 'bg-orange-500/10', solido: 'bg-orange-400 border-orange-400', brilho: 'shadow-[0_0_15px_rgba(251,146,60,0.45)]',  hover: 'hover:bg-orange-500/20 hover:border-orange-400' },
 };
 
 /** As vilas da ficha, em ordem, olhando o campo `vila` e caindo em `categories` se ele faltar. */
@@ -66,11 +85,21 @@ export const vilasDe = (c: { vila?: string[]; categories?: string[] }): string[]
 };
 
 /** A cor de cada organização, definida pelo Pedro em 27/08/2026. Mesma regra dos literais. */
-export const CORES_DE_ORG: Record<string, { texto: string; borda: string; fundo: string }> = {
-  OCA:    { texto: 'text-white',      borda: 'border-white/45',      fundo: 'bg-white/10' },
-  NoGuns: { texto: 'text-slate-400',  borda: 'border-slate-400/45',  fundo: 'bg-slate-400/10' },
-  Kiba:   { texto: 'text-pink-400',   borda: 'border-pink-500/45',   fundo: 'bg-pink-500/10' },
+export const CORES_DE_ORG: Record<string, CorDeFaccao> = {
+  OCA:    { texto: 'text-white',      borda: 'border-white/45',      fundo: 'bg-white/10',      solido: 'bg-white border-white',           brilho: 'shadow-[0_0_15px_rgba(255,255,255,0.4)]',  hover: 'hover:bg-white/20 hover:border-white' },
+  NoGuns: { texto: 'text-slate-400',  borda: 'border-slate-400/45',  fundo: 'bg-slate-400/10',  solido: 'bg-slate-300 border-slate-300',   brilho: 'shadow-[0_0_15px_rgba(203,213,225,0.4)]',  hover: 'hover:bg-slate-400/20 hover:border-slate-300' },
+  Kiba:   { texto: 'text-pink-400',   borda: 'border-pink-500/45',   fundo: 'bg-pink-500/10',   solido: 'bg-pink-400 border-pink-400',     brilho: 'shadow-[0_0_15px_rgba(244,114,182,0.45)]', hover: 'hover:bg-pink-500/20 hover:border-pink-400' },
 };
+
+/**
+ * A cor de uma aba da lista, ou null quando ela não é um lugar.
+ *
+ * "Todos", "Personagem" e "NPC" não têm cor de propósito: elas não são vila nem organização, são
+ * recortes do acervo. Deixá-las no verde do tema é o que faz o modo colorido dizer alguma coisa —
+ * colorido é lugar, verde é tipo. Pintar as três só porque são abas apagaria essa leitura.
+ */
+export const corDaAba = (aba: string): CorDeFaccao | null =>
+  CORES_DE_VILA[aba] ?? CORES_DE_ORG[aba] ?? null;
 export const CORES_NEUTRAS = { texto: 'text-slate-300', borda: 'border-slate-500/40', fundo: 'bg-slate-500/10' };
 
 /**
