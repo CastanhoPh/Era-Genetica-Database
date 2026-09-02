@@ -1045,7 +1045,7 @@ export default function App() {
                         ) : activeMainTab === 'invocacoes' ? (
                             <Invocacoes characters={charsPublicos} onOpenCharacter={openCharacter} />
                         ) : activeMainTab === 'checklist' ? (
-                            <ChecklistPanel canEdit={isChecklistEditor} displayName={user?.displayName ?? null} onRequestLogin={() => navigate('/login')} />
+                            <ChecklistPanel canEdit={isChecklistEditor} displayName={user?.displayName ?? null} characters={characters} onRequestLogin={() => navigate('/login')} />
                         ) : activeMainTab === 'galeria' ? (
                             <GalleryPage />
                         ) : activeMainTab === 'arvore' ? (

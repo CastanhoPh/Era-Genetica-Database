@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles, Shield, Scroll } from 'lucide-react';
-import { subscribeChecklist, subscribeCharacters, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, setCapaDoPersonagem, pastaDoRetrato, CHECKLIST_BLOCOS } from '../data/firestore';
+import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, setCapaDoPersonagem, pastaDoRetrato, CHECKLIST_BLOCOS } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem, Character } from '../types';
 import ImageUploadButton from '../components/ImageUploadButton';
@@ -18,14 +18,18 @@ const ProgressBar: React.FC<{ pct: number; className?: string }> = ({ pct, class
 interface ChecklistPanelProps {
   canEdit: boolean;
   displayName: string | null;
+  /**
+   * As fichas, vindas do App. Entram só para a capa: dizem onde o retrato de cada personagem vive
+   * hoje. Antes esta tela assinava `characters` por conta própria, o que custava 103 leituras a cada
+   * abertura enquanto o App já tinha a mesma lista em memória — é a mesma prop que o AdminPanel
+   * recebe, pelo mesmo motivo.
+   */
+  characters: Character[];
   onRequestLogin: () => void;
 }
 
-const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, onRequestLogin }) => {
+const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, characters, onRequestLogin }) => {
   const [items, setItems] = useState<ChecklistItem[]>([]);
-  // Só para a capa: o upload precisa saber onde o retrato daquela ficha vive hoje, e o
-  // handleSetImage precisa atualizar a ficha junto.
-  const [characters, setCharacters] = useState<Character[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
@@ -48,16 +52,6 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, o
     const unsubscribe = subscribeChecklist(
       data => { setItems(data); setLoading(false); setError(null); },
       err => { console.error('Erro ao escutar checklist:', err); setError('Não foi possível carregar a checklist.'); setLoading(false); },
-    );
-    return () => unsubscribe();
-  }, []);
-
-  // As fichas entram só para a capa: dizem onde o retrato de cada personagem vive hoje. Falhar aqui
-  // não quebra o painel — o upload de capa cai na pasta padrão e o resto segue igual.
-  useEffect(() => {
-    const unsubscribe = subscribeCharacters(
-      setCharacters,
-      err => console.error('Erro ao escutar personagens (só afeta o upload de capa):', err),
     );
     return () => unsubscribe();
   }, []);

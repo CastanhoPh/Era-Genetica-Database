@@ -13,6 +13,7 @@
     "sync:push": "node scripts/sync-push.mjs",
     "sync:push:apply": "node scripts/sync-push.mjs --apply",
     "dados": "node scripts/gerar-dados-publicos.mjs",
+    "conferir": "node scripts/conferir.mjs",
     "deploy": "node scripts/gerar-dados-publicos.mjs && vite build && node scripts/prerender-og.mjs && firebase deploy --only hosting --project era-genetica-db",
     "login": "firebase login",
     "backup": "node scripts/backup-firestore.mjs",
