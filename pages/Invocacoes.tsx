@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
+import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
 import { formatImageUrl } from '../utils/formatters';
 import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
@@ -35,9 +36,13 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   // desnormalizada, mas ela só tem as invocações de quem TEM ficha — aqui a página é sobre
   // invocação, não sobre personagem, então nenhuma pode faltar.
   useEffect(() => {
-    const unsubscribe = subscribeChecklist(
+    // Mesma troca da Galeria, e aqui o desperdício era maior: esta tela lê os 1.285 documentos do
+    // checklist e usa 128 — só os tipos `invocacao` e `capaInvocacao`.
+    const unsubscribe = fonteEstatica(
+      carregaChecklist,
+      subscribeChecklist,
       data => { setItems(data); setLoading(false); },
-      e => { console.error('Erro ao escutar o checklist:', e); setErro('Não foi possível carregar as invocações.'); setLoading(false); },
+      e => { console.error('Erro ao carregar o checklist:', e); setErro('Não foi possível carregar as invocações.'); setLoading(false); },
     );
     return () => unsubscribe();
   }, []);

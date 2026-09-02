@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Images, ChevronDown, Search, Radio, X, LayoutGrid, Layers, Palette, EyeOff, ScanLine, ChevronLeft, ChevronRight, ListChecks, Clock } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
+import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem } from '../types';
 
@@ -45,9 +46,14 @@ const GalleryPage: React.FC = () => {
   const [gridColumns, setGridColumns] = useState(5);
 
   useEffect(() => {
-    const unsubscribe = subscribeChecklist(
+    // Retrato estático em vez de `onSnapshot`: são 1.285 documentos, e esta é página pública.
+    // Ao vivo, cada visita custava 1.285 leituras cobradas; assim custa zero. O Firestore entra
+    // como rede de segurança se o arquivo não existir.
+    const unsubscribe = fonteEstatica(
+      carregaChecklist,
+      subscribeChecklist,
       data => { setItems(data); setLoading(false); setError(null); },
-      err => { console.error('Erro ao escutar galeria:', err); setError('Não foi possível carregar a galeria.'); setLoading(false); },
+      err => { console.error('Erro ao carregar a galeria:', err); setError('Não foi possível carregar a galeria.'); setLoading(false); },
     );
     return () => unsubscribe();
   }, []);

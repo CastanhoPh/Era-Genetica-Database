@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles, Palette } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
+import { carregaPersonagens, carregaArsenal, fonteEstatica } from './data/dados-publicos';
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth } from './useAuth';
@@ -191,38 +192,70 @@ export default function App() {
     // mas não tinham aba, então não havia como filtrar por elas.
     const categories = ['Todos', 'Personagem', 'NPC', 'Konohagakure', 'Kirigakure', 'Kumogakure', 'Sunagakure', 'Iwagakure', 'OCA', 'NoGuns', 'Kiba'];
 
-    // Escuta os personagens do Firestore em tempo real (qualquer edição feita por um admin,
-    // em qualquer dispositivo, aparece aqui na hora, sem precisar recarregar a página).
+    /**
+     * Os dados chegam em duas camadas, e a divisão é por quem precisa de tempo real.
+     *
+     * Primeira camada, para TODO MUNDO: o retrato estático de /dados/*.json, gerado no deploy. Pinta
+     * a tela na hora e não custa leitura de Firestore nenhuma. Antes desta divisão, cada visitante
+     * gastava 183 leituras cobradas só de abrir a lista (103 fichas + 80 armas) e 1.285 ao abrir a
+     * Galeria — 18 visitantes esgotavam a cota diária.
+     *
+     * Segunda camada, só para ADMIN: o `onSnapshot` ao vivo. Quem edita uma ficha no modal precisa
+     * ver o resultado sem recarregar, e são três pessoas — o custo de leitura delas é justificado.
+     * O visitante não paga por um tempo real que não usa.
+     *
+     * A ordem entre as duas não importa: o listener ao vivo, quando entra, sobrescreve o retrato com
+     * o estado atual do banco. E o retrato aparece antes de a sessão do Firebase ser restaurada, o
+     * que dá tela pronta mesmo para o admin durante o `authReady`.
+     */
     useEffect(() => {
-        const unsubscribe = subscribeCharacters(
+        const cancela = fonteEstatica(
+            carregaPersonagens,
+            subscribeCharacters,
             data => {
                 setCharacters(data);
                 setLoadError(null);
                 setLoading(false);
             },
             err => {
-                console.error('Erro ao escutar personagens do Firestore:', err);
+                console.error('Erro ao carregar personagens:', err);
                 setLoadError('Não foi possível carregar os dados do banco.');
                 setLoading(false);
             },
         );
-        return () => unsubscribe();
+        return () => cancela();
     }, []);
 
-    // Escuta o arsenal do Firestore em tempo real (usado também pelo roteamento por slug)
     useEffect(() => {
-        const unsubscribe = subscribeArsenal(
+        const cancela = fonteEstatica(
+            carregaArsenal,
+            subscribeArsenal,
             data => {
                 setArsenalItems(data);
                 setArsenalReady(true);
             },
             err => {
-                console.error('Erro ao escutar arsenal do Firestore:', err);
+                console.error('Erro ao carregar arsenal:', err);
                 setArsenalReady(true);
             },
         );
-        return () => unsubscribe();
+        return () => cancela();
     }, []);
+
+    // A camada ao vivo, só para quem edita. `authReady` evita assinar e cancelar em seguida no
+    // reload, antes de o Firebase restaurar a sessão.
+    useEffect(() => {
+        if (!authReady || !isAdmin) return;
+        const cancelaChars = subscribeCharacters(
+            data => { setCharacters(data); setLoadError(null); setLoading(false); },
+            err => console.error('Erro ao escutar personagens do Firestore:', err),
+        );
+        const cancelaArsenal = subscribeArsenal(
+            data => { setArsenalItems(data); setArsenalReady(true); },
+            err => console.error('Erro ao escutar arsenal do Firestore:', err),
+        );
+        return () => { cancelaChars(); cancelaArsenal(); };
+    }, [authReady, isAdmin]);
 
     // Sai do Painel/Checklist automaticamente se não tiver permissão (ou deslogar).
     // Espera authReady pra não expulsar num reload direto, antes do Firebase restaurar a sessão.

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { GitBranch, Skull, LayoutList, ListTree, LayoutGrid } from 'lucide-react';
 import { subscribeFamilyTrees, slugify } from '../data/firestore';
+import { carregaFamilias, fonteEstatica } from '../data/dados-publicos';
 import { Character, FamilyTree, FamilyTreeMember } from '../types';
 import { formatImageUrl } from '../utils/formatters';
 
@@ -184,9 +185,13 @@ const FamilyTreePage: React.FC<FamilyTreePageProps> = ({ characters, onOpenChara
   const [viewMode, setViewMode] = useState<ViewMode>('blocos');
 
   useEffect(() => {
-    const unsubscribe = subscribeFamilyTrees(
+    // São só 8 documentos, mas a tela é pública: ao vivo seriam 8 leituras por visita, e pelo
+    // retrato são zero. Entra no mesmo arquivo que as outras três coleções.
+    const unsubscribe = fonteEstatica(
+      carregaFamilias,
+      subscribeFamilyTrees,
       data => { setTrees(data); setLoading(false); setError(null); },
-      err => { console.error('Erro ao escutar árvores genealógicas:', err); setError('Não foi possível carregar as árvores.'); setLoading(false); },
+      err => { console.error('Erro ao carregar as árvores genealógicas:', err); setError('Não foi possível carregar as árvores.'); setLoading(false); },
     );
     return () => unsubscribe();
   }, []);

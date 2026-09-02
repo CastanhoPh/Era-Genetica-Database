@@ -30,3 +30,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Retrato estatico das colecoes publicas: gerado pelo `npm run dados` a cada deploy.
+# Fica fora do git porque e derivado do Firestore e mudaria 1,6 MB a cada geracao.
+/public/dados/
