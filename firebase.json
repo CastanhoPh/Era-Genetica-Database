@@ -28,6 +28,16 @@
         ]
       },
       {
+        "//": "Mesmo raciocínio de /assets, e pelo mesmo motivo medido: o retrato dos dados em /dados tem o hash do conteúdo no nome (scripts/gerar-dados-publicos.mjs), então é imutável por construção. Precisa estar aqui porque o padrão \"/**\" acima é no-cache, e no-cache no Hosting NÃO devolve 304 — ele responde 200 com o corpo inteiro mesmo recebendo If-None-Match, e cada recarga rebaixava 269 KB de personagens.json.",
+        "source": "/dados/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
         "//": "O Vite gera nome com hash em /assets (firebase-BrQsK_p1.js), então o arquivo é imutável por construção: versão nova ganha nome novo e nunca vem do cache. Sem isso o visitante recorrente rebaixa ~600 KB de JS a cada visita.",
         "source": "/assets/**",
         "headers": [

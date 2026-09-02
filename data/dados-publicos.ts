@@ -1,5 +1,6 @@
 import { Character, ChecklistItem, FamilyTree } from '../types';
 import { Equipment } from '../types/Equipment';
+import { ARQUIVOS_DE_DADOS } from './dados-versao';
 
 /**
  * Leitura das coleções públicas pelo retrato estático em /dados/*.json, gerado no deploy por
@@ -18,21 +19,27 @@ import { Equipment } from '../types/Equipment';
  * Uma promessa por arquivo, guardada. Navegar entre Galeria e Invocações não refaz o download, e
  * duas telas que pedem o mesmo arquivo ao mesmo tempo compartilham a mesma requisição.
  *
- * O cabeçalho de cache do Hosting para `/**` é `no-cache`, o que significa "revalide sempre", não
- * "não guarde": na segunda visita o navegador manda o ETag e recebe 304 sem corpo. Então o dado
- * nunca fica velho e a visita recorrente não rebaixa os 384 KB.
+ * Isso cobre a navegação dentro da mesma visita. Entre visitas quem cobre é o cache do navegador: o
+ * nome do arquivo carrega o hash do conteúdo e o firebase.json marca /dados/** como `immutable`,
+ * então recarregar a página não gera requisição nenhuma até os dados mudarem.
+ *
+ * A primeira versão disto confiava no `no-cache` e num 304 que NÃO acontece — medido em produção, o
+ * Hosting com `no-cache` responde 200 com o corpo inteiro mesmo recebendo `If-None-Match`, e cada
+ * recarga rebaixava 269 KB. O `/assets/**`, que é immutable, devolve 304 com 0 bytes.
  */
 const emAndamento = new Map<string, Promise<unknown>>();
 
-async function carrega<T>(arquivo: string): Promise<T> {
+async function carrega<T>(arquivo: keyof typeof ARQUIVOS_DE_DADOS): Promise<T> {
   const existente = emAndamento.get(arquivo);
   if (existente) return existente as Promise<T>;
 
+  const caminho = `/dados/${ARQUIVOS_DE_DADOS[arquivo]}`;
   const p = (async () => {
-    const r = await fetch(`/dados/${arquivo}.json`);
-    // 404 acontece em dois casos legítimos: `npm run dev` sem ter rodado o gerador, e deploy feito
-    // sem o passo de geração. Nos dois, quem chamou cai para o Firestore ao vivo.
-    if (!r.ok) throw new Error(`/dados/${arquivo}.json respondeu ${r.status}`);
+    const r = await fetch(caminho);
+    // 404 acontece em dois casos legítimos: `npm run dev` sem ter rodado o gerador (a pasta
+    // public/dados/ está no .gitignore), e deploy feito sem o passo de geração. Nos dois, quem
+    // chamou cai para o Firestore ao vivo.
+    if (!r.ok) throw new Error(`${caminho} respondeu ${r.status}`);
     return r.json() as Promise<T>;
   })();
 
