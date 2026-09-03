@@ -200,6 +200,18 @@ export interface Character {
   stats: Stats;
   powers: Power[];
   aptitudes: string[];
+  /**
+   * Nível de Habilidade Lendária — categoria separada de `powers` e de `aptitudes`.
+   *
+   * É o nome que o card exibe quando a busca casa uma habilidade lendária, e tem
+   * vocabulário próprio: a aptidão do Iryou é "Ninjutsu Médico", o poder é
+   * `Iryou Ninjutsu 14`, e o nível lendário é "Iryou Ninjutsu Perfeito". As três coisas
+   * convivem porque dizem coisas diferentes.
+   *
+   * O catálogo das famílias e a regra de escada da busca estão em
+   * data/habilidades-lendarias.ts.
+   */
+  habilidadesLendarias?: string[];
   isDead?: boolean;
   killedBy?: string;
   techniques?: Technique[];
