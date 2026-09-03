@@ -415,7 +415,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FTecnicas%2F08%20-%20Senpo%3A%20Daijurin%20no%20jutsu.jpg?alt=media&v=1786651871229375"
       }
     ],
-    arsenal: [1, 7],
+    arsenal: [1, 4],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FPr_logo.png?alt=media&v=1788277077470497", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaito%20Senju%2FCl_ssico.png?alt=media&v=1788277074010745", caption: "Clássico", category: "era" },
@@ -655,7 +655,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media&v=1786651886403581"
       }
     ],
-    arsenal: [21, 23, 70],
+    arsenal: [44, 32, 85],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FPr_logo.png?alt=media&v=1788277170781604", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FCl_ssico.png?alt=media&v=1788277165393605", caption: "Clássico", category: "era" },
@@ -885,7 +885,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FTecnicas%2F12%20-%20Katon%3A%20Ensh%C5%8D%20Daiendan.png?alt=media&v=1786651874170312"
       }
     ],
-    arsenal: [8, 4, 9, 10, 11, 22, 53, 17, 14],
+    arsenal: [67, 2, 15, 16, 76, 77, 60, 28, 27],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1788277249547926", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FCl_ssico.png?alt=media&v=1788277245144616", caption: "Clássico", category: "era" },
@@ -1555,7 +1555,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTecnicas%2F06%20-%20Raiton%3A%20Chidori.png?alt=media&v=1786651881723227"
       }
     ],
-    arsenal: [15, 16, 18, 13],
+    arsenal: [29, 30, 43, 42],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1788277376872596", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1788277373279868", caption: "Clássico", category: "era" },
@@ -1853,7 +1853,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FTecnicas%2F10%20-%20Doton%3A%20Ketton%20K%C5%8Dchi%20no%20Yagura.png?alt=media&v=1786651882846482"
       }
     ],
-    arsenal: [19, 20, 49],
+    arsenal: [87, 31, 55],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FPr_logo.png?alt=media&v=1788276992361762", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1788276990378413", caption: "Clássico", category: "era" },
@@ -2028,7 +2028,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FTecnicas%2F05%20-%20Doton%3A%20Kong%C5%8D%20Ganheki%20no%20Tate.jpg?alt=media&v=1786651886994433"
       }
     ],
-    arsenal: [24, 25, 26, 28, 29, 30],
+    arsenal: [70, 71, 72, 74, 45, 75],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F3__Temporada.png?alt=media&v=1788277116449923", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1788277118454406", caption: "4ª Temporada", category: "era" },
@@ -2497,7 +2497,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKuromi%20Uchiha%2FTecnicas%2F06%20-%20Katon%3A%20G%C5%8Dka%20Mekkyaku.jpg?alt=media&v=1786651903415259"
       }
     ],
-    arsenal: [33, 40, 41],
+    arsenal: [7, 19, 20],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FPr_logo.png?alt=media&v=1788277137613250", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKuromi%20Uchiha%2FCl_ssico.png?alt=media&v=1788277135984507", caption: "Clássico", category: "era" },
@@ -2640,7 +2640,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FApollo%20Sarutobi%2FTecnicas%2F08%20-%20Sennin%20Fuka.png?alt=media&v=1786651906224767"
       }
     ],
-    arsenal: [43],
+    arsenal: [9],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2FPr_logo.png?alt=media&v=1788276902297821", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FApollo%20Sarutobi%2FCl_ssico.png?alt=media&v=1788276899888085", caption: "Clássico", category: "era" },
@@ -2754,7 +2754,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaomi%20Uzumaki%2FTecnicas%2F04%20-%20Suiton%3A%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1786651900528806"
       }
     ],
-    arsenal: [36, 45],
+    arsenal: [17, 22],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FPr_logo.png?alt=media&v=1788277216033263", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaomi%20Uzumaki%2FCl_ssico.png?alt=media&v=1788277212103828", caption: "Clássico", category: "era" },
@@ -2894,7 +2894,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNaoki%20Uchiha%2FTecnicas%2F08%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20Hakuen.jpg?alt=media&v=1786651887722060"
       },
     ],
-    arsenal: [31],
+    arsenal: [5],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2FPr_logo.png?alt=media&v=1788277201797821", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNaoki%20Uchiha%2FCl_ssico.png?alt=media&v=1788277200066871", caption: "Clássico", category: "era" },
@@ -3238,7 +3238,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FTecnicas%2F02%20-%20Shiki%20F%C5%ABjin%3A%20Meikai%20K%C5%8Drin.png?alt=media&v=1788210957282787"
       },
     ],
-    arsenal: [83, 47, 75],
+    arsenal: [14, 47, 40],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F2__Temporada.png?alt=media&v=1788277031502483", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F3__Temporada.png?alt=media&v=1788277033712866", caption: "3ª Temporada", category: "era" },
@@ -3582,7 +3582,7 @@ export const initialData: Character[] = [
     hp: 250,
     chakra: 82,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaizuka%20Hyuga%2FKaizuka%20Hyuga.png?alt=media&v=1788276500962581",
-    arsenal: [32],
+    arsenal: [6],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2FPr_logo.png?alt=media&v=1788277083597170", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKaizuka%20Hyuga%2F3__Temporada.png?alt=media&v=1788277079492360", caption: "3ª Temporada", category: "era" },
@@ -3982,7 +3982,7 @@ export const initialData: Character[] = [
         status: "Exige que Satoshi mantenha o Modo Sábio ativo durante toda a duração da técnica — o Uzumaki no Kon não armazena energia natural por conta própria, apenas a canaliza enquanto ela continua sendo fornecida. Se o fluxo de senjutsu for interrompido, mesmo que por um instante, a corrente perde a coloração verde-musgo e a arma volta a se comportar como o nunchaku comum que sempre foi, deixando Satoshi sem o alcance e a força extra no meio do combate."
       }
     ],
-    arsenal: [38, 80, 81, 82],
+    arsenal: [8, 13, 23, 24],
     timelineAppearance: "Prólogo",
     timelineSkipped: ["Clássico", "1ª Temporada", "2ª Temporada", "3ª Temporada", "4ª Temporada"],
   },
@@ -4043,7 +4043,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikaki%20Nara%2FTecnicas%2F04%20-%20Kage%20Mane%20no%20Jutsu.png?alt=media&v=1786651903388502"
       }
     ],
-    arsenal: [42],
+    arsenal: [21],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2FPr_logo.png?alt=media&v=1788277306426818", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShikaki%20Nara%2FCl_ssico.png?alt=media&v=1788277304603272", caption: "Clássico", category: "era" },
@@ -4305,7 +4305,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoyu%20Uzumaki%2FTecnicas%2F07%20-%20Katon%3A%20G%C5%8Dkaky%C5%AB%20no%20Jutsu.png?alt=media&v=1786651901156996"
       }
     ],
-    arsenal: [37, 39],
+    arsenal: [18, 33],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FShoyu%20Uzumaki%2F4__Temporada.png?alt=media&v=1788277357164701", caption: "4ª Temporada", category: "era" },
     ],
@@ -4397,7 +4397,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FTecnicas%2F05%20-%20Suiton%3A%20Hakushin%20no%20Ry%C5%ABsatsu.png?alt=media&v=1787067011716509"
       }
     ],
-    arsenal: [44],
+    arsenal: [10],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSouma%20Namikaze%2F4__Temporada.png?alt=media&v=1788277358885603", caption: "4ª Temporada", category: "era" },
     ],
@@ -4769,7 +4769,7 @@ export const initialData: Character[] = [
         image: ""
       }
     ],
-    arsenal: [63],
+    arsenal: [62],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F4__Temporada.png?alt=media&v=1788277016617236", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F5__Temporada.png?alt=media&v=1788277018675536", caption: "5ª Temporada", category: "era" },
@@ -4936,7 +4936,7 @@ export const initialData: Character[] = [
     chakra: 79,
     image: "",
     techniques: [],
-    arsenal: [59, 62],
+    arsenal: [37, 61],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2FCl_ssico.png?alt=media&v=1788277384752558", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2F4__Temporada.png?alt=media&v=1788277382628509", caption: "4ª Temporada", category: "era" },
@@ -4980,7 +4980,7 @@ export const initialData: Character[] = [
     chakra: 73,
     image: "",
     techniques: [],
-    arsenal: [57, 61],
+    arsenal: [63, 65],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2FCl_ssico.png?alt=media&v=1788277295310959", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2F4__Temporada.png?alt=media&v=1788277293745242", caption: "4ª Temporada", category: "era" },
@@ -5076,7 +5076,7 @@ export const initialData: Character[] = [
     chakra: 58,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1788276532880141",
     techniques: [],
-    arsenal: [60],
+    arsenal: [66],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F4__Temporada.png?alt=media&v=1788277152191888", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F5__Temporada.png?alt=media&v=1788277154222496", caption: "5ª Temporada", category: "era" },
@@ -5120,7 +5120,7 @@ export const initialData: Character[] = [
     chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1788276590660983",
     techniques: [],
-    arsenal: [58],
+    arsenal: [64],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1788277378863320", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1788277380702312", caption: "5ª Temporada", category: "era" },
@@ -5293,7 +5293,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FTecnicas%2F07%20-%20Ranton%3A%20Chidori.jpg?alt=media&v=1786651906968171"
       }
     ],
-    arsenal: [54, 64],
+    arsenal: [53, 79],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F4__Temporada.png?alt=media&v=1788277407148712", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1788277408964437", caption: "5ª Temporada", category: "era" },
@@ -5471,7 +5471,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FTecnicas%2F04%20-%20Ranton%3A%20Shingan.png?alt=media&v=1786651908012203"
       }
     ],
-    arsenal: [55, 56, 50],
+    arsenal: [54, 57, 56],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F4__Temporada.png?alt=media&v=1788277403544660", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F5__Temporada.png?alt=media&v=1788277405401020", caption: "5ª Temporada", category: "era" },
@@ -6353,7 +6353,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [71],
+    arsenal: [49],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788277007625262", caption: "5ª Temporada", category: "era" },
     ],
@@ -6509,7 +6509,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [74],
+    arsenal: [39],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788277058210752", caption: "5ª Temporada", category: "era" },
     ],
@@ -6568,7 +6568,7 @@ export const initialData: Character[] = [
     aptitudes: [],
     isDead: false,
     techniques: [],
-    arsenal: [72, 88],
+    arsenal: [50, 52],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788277141832817", caption: "5ª Temporada", category: "era" },
     ],
@@ -6653,7 +6653,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [73, 77, 86],
+    arsenal: [38, 35, 36],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788276998655933", caption: "5ª Temporada", category: "era" },
     ],
@@ -6706,7 +6706,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [87],
+    arsenal: [51],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGordon%20Kirisame%2F5__Temporada.png?alt=media&v=1788277012094545", caption: "5ª Temporada", category: "era" },
     ],
@@ -6757,7 +6757,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [89],
+    arsenal: [86],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788277014425274", caption: "5ª Temporada", category: "era" },
     ],
@@ -6921,7 +6921,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [84],
+    arsenal: [41],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788276918509503", caption: "5ª Temporada", category: "era" },
     ],
@@ -6970,7 +6970,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [85],
+    arsenal: [25],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FT%C5%8Dma%20Umikage%2F5__Temporada.png?alt=media&v=1788277395763032", caption: "5ª Temporada", category: "era" },
     ],

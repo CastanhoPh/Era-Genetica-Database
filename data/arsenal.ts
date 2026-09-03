@@ -18,7 +18,7 @@ export const arsenalData: Equipment[] = [
     ]
   },
   {
-    id: 4,
+    id: 2,
     name: "Sōen no Gauntō",
     classification: "Z",
     nature: "Fuinjutsu + Senjutsu + Bijuu",
@@ -33,7 +33,7 @@ export const arsenalData: Equipment[] = [
     ]
   },
   {
-    id: 6,
+    id: 3,
     name: "Hokage no Haori",
     classification: "Z",
     nature: "Fuinjutsu + Vontade do Fogo",
@@ -51,7 +51,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 7,
+    id: 4,
     name: "Shinrin no Kanmuri",
     classification: "Z",
     nature: "Mokuton + Senju",
@@ -63,19 +63,124 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kaito Senju"
   },
   {
-    id: 8,
-    name: "Homura no Chikai",
+    id: 5,
+    name: "Gunbai",
     classification: "Z",
-    nature: "Purazomaton + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "A Homura no Chikai é uma espada lendária forjada para o domínio do Purazomaton (Plasma), o elemento supremo do País da Pedra. Originalmente uma arma de destruição absoluta, ela sofreu uma adaptação única para se ajustar às limitações energéticas de seu antigo portador, Hirato Ishi, concentrando seu poder no Katon de alta densidade. Atualmente em posse de Oddy Uchiha, a lâmina libera um calor que ultrapassa a temperatura de fusão do aço, criando um campo de plasma ao redor do corte que ignora resistências moleculares. Cada golpe deixa um rastro de lava incandescente que continua a queimar por minutos, impossibilitando qualquer regeneração imediata do alvo. A espada também pode absorver impactos de terra para recarregar sua energia térmica, tornando-a uma arma defensiva-ofensiva equilibrada. Sua presença no campo de batalha é marcada por um brilho alaranjado ofuscante e o cheiro persistente de metal fundido.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F08%20-%20Homura%20no%20Chikai.png?alt=media&v=1788212131843109",
-    originalOwner: "Hirato Ishi",
-    diedHolding: ["Hirato Ishi"],
-    currentOwner: "Oddy Uchiha"
+    nature: "Futon + Uchiha",
+    origin: "Konohagakure",
+    description: "O Gunbai Uchiha é um leque de guerra colossal forjado a partir da madeira sagrada de uma árvore ancestral que absorve chakra, sendo uma das armas mais icônicas da história do clã. Ele possui a habilidade mística conhecida como 'Uchiha Gaeshi', que permite ao usuário absorver o impacto de qualquer ninjutsu elemental e convertê-lo em uma rajada de vento violenta que devolve o ataque ao inimigo com o dobro da força original. O artefato responde diretamente ao Sharingan do portador, permitindo que a percepção espacial seja distorcida para criar vácuos defensivos ou teletransportar projéteis para longe. Naoki Uchiha elevou o uso da Gunbai ao ponto de utilizá-la para controlar o clima local, gerando tempestades de vento que podem destruir florestas inteiras em segundos. Suas bordas são afiadas o suficiente para cortar metal, permitindo que o leque seja usado também como um escudo físico e arma de corte simultaneamente. É uma relíquia de dominação absoluta que simboliza o poder inalcançável dos líderes lendários do clã Uchiha, capaz de transformar a ofensiva do oponente em sua própria destruição.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F31%20-%20Gunbai.png?alt=media&v=1788212120758686",
+    originalOwner: "Madara Uchiha",
+    currentOwner: "Naoki Uchiha"
+  },
+  {
+    id: 6,
+    name: "Fujō no Yubiwa",
+    classification: "Z",
+    nature: "Chakra Profano + Fujogan",
+    origin: "Konohagakure",
+    description: "Este anel de aparência sombria e proibida, o Fujō no Yubiwa, foi criado pelo gênio médico Minoru Hyuga como uma ponte experimental entre o poder ocular do Fujogan e o perigoso chakra profano. Ele atua como um núcleo de estabilização molecular que permite ao usuário manipular e injetar chakra profano em outros seres vivos sem causar a corrupção imediata dos tecidos orgânicos ou a loucura do sistema nervoso. O anel filtra as impurezas mais voláteis da energia profana, transformando-a em uma ferramenta cirúrgica que pode curar feridas impossíveis ou paralisar o sistema de chakra inimigo com precisão celular. Kaizuka Hyuga utiliza este artefato para governar a saúde e a morte de seus aliados e inimigos, agindo como um 'médico das sombras' no campo de batalha. O anel emite uma aura purpúrea que detecta fraquezas biológicas invisíveis ao olho comum, guiando os ataques do Fujogan para pontos vitais críticos. É um item que caminha no limite entre a salvação e a destruição, exigindo que o portador possua uma vontade de ferro para não ser consumido pela mesma energia que tenta controlar. Sua posse garante que nenhum segredo biológico permaneça oculto aos olhos de seu mestre.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F32%20-%20Fuj%C5%8D%20no%20Yubiwa.png?alt=media&v=1788212120268715",
+    originalOwner: "Minoru Hyuga",
+    currentOwner: "Kaizuka Hyuga"
+  },
+  {
+    id: 7,
+    name: "Kagefūin no Kama",
+    classification: "Z",
+    nature: "Fuinjutsu",
+    origin: "Konohagakure",
+    description: "A Kagefūin no Kama é uma foice de design exótico e aterrorizante, criada por Raikun Hatake para ser a ferramenta definitiva de supressão e selamento em massa. Sua lâmina curvada é imbuída com fórmulas de fuinjutsu que se ativam ao entrar em contato com o chakra do oponente, gravando instantaneamente selos invisíveis na pele e nos tenketsus do alvo. Esses selos agem como parasitas energéticos, absorvendo o chakra do inimigo continuamente para fortalecer o corpo do usuário ou carregar técnicas devastadoras de contra-ataque. Kuromi Uchiha utiliza a foice para neutralizar jinchūrikis e usuários de transformações elementais, 'costurando' sua energia ao espaço espiritual e impedindo o uso de jutsus poderosos. A corrente acoplada ao cabo permite ataques de longo alcance e manobras de captura que prendem o oponente em uma rede de selamento inescapável. Ao atingir o ápice de sua ativação, a foice pode manifestar sombras sólidas que atacam o inimigo de forma autônoma, drenando sua vida e energia vital com cada corte. É uma arma de execução espiritual que transforma a própria força do oponente em sua sentença de morte definitiva.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F33%20-%20Kagef%C5%ABin%20no%20Kama.png?alt=media&v=1788212119750912",
+    originalOwner: "Raikun Hatake",
+    currentOwner: "Kuromi Uchiha"
+  },
+  {
+    id: 8,
+    name: "Uzumaki no Kon",
+    classification: "Z",
+    nature: "Fuinjutsu",
+    origin: "Konohagakure",
+    description: "O Uzumaki no Kon é um nunchaku lendário forjado em Konohagakure, composto por dois bastões de metal adamanto ultra-denso conectados por uma corrente de chakra vivo. Projetado especificamente para canalizar o chakra de selamento característico do clã Uzumaki, o nunchaku pode manifestar elos adicionais de Correntes de Chakra a partir de suas extremidades, permitindo prender e imobilizar oponentes à distância. Cada golpe físico desferido com o Uzumaki no Kon injeta um pulso de fuinjutsu que desestabiliza e sela temporariamente o fluxo de chakra do alvo no ponto de impacto. O nunchaku também possui um selo central que permite armazenar e liberar reservas de chakra, funcionando como um estabilizador perfeito para o portador. É um tesouro inestimável que carrega a resiliência e o poder de selamento espiritual da antiga terra de redemoinhos.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F38%20-%20Uzumaki%20no%20Kon.png?alt=media&v=1788212116220041",
+    originalOwner: "Mito Uzumaki",
+    pastOwners: ["Katsuo Uzumaki"],
+    currentOwner: "Satoshi Namikaze"
   },
   {
     id: 9,
+    name: "Kongōnyo",
+    classification: "Z",
+    nature: "Senjutsu",
+    origin: "Konohagakure",
+    description: "O Kongōnyo é o bastão sagrado de Rank Z que serviu como a arma principal do Terceiro Hokage, Hiruzen Sarutobi, possuindo a dureza lendária do diamante e a flexibilidade da natureza. Este artefato místico tem a capacidade única de converter o chakra natural do usuário em força física bruta e calor térmico concentrado em cada impacto. O bastão pode alterar seu comprimento e peso instantaneamente, permitindo ataques que cobrem quilômetros de distância ou esmagam montanhas com a facilidade de um graveto. Apollo Sarutobi utiliza a Kongōnyo para manifestar o verdadeiro poder dos Sarutobi, combinando golpes devastadores com explosões de chakra solar liberadas pelas extremidades da arma. Em seu estado despertado, o bastão pode se dividir em centenas de fragmentos guiados pela vontade do mestre ou transformar-se em uma gaiola indestrutível de energia Senjutsu. É uma relíquia de sabedoria e destruição, simbolizando o pilar inabalável da Vila da Folha que protege seus herdeiros com a força do Rei Macaco. Sua posse garante que o guerreiro seja uma força da natureza imparável no combate corpo a corpo.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F43%20-%20Kong%C5%8Dnyo.png?alt=media&v=1788212113146135",
+    originalOwner: "Hiruzen Sarutobi",
+    currentOwner: "Apollo Sarutobi"
+  },
+  {
+    id: 10,
+    name: "Raijin no Ken",
+    classification: "Z",
+    nature: "Suiton + Raiton",
+    origin: "Konohagakure",
+    description: "A lendária Raijin no Ken é a espada divina do Segundo Hokage, Tobirama Senju, famosa por ser a arma que selou o destino de inúmeros inimigos lendários. Diferente de sua forma adormecida, a lâmina pode liquefazer-se completamente em um fluxo vivo de água altamente pressurizada e eletrificada por Raiton de nível divino. Esta forma mutável permite que a espada ignore defesas físicas convencionais, atravessando escudos e armaduras para atingir o sistema nervoso e de chakra do alvo diretamente. O usuário pode controlar a Raijin no Ken como um chicote de raios ou uma tempestade giratória que desintegra tudo em seu alcance molecular. Atualmente em posse de Souma Namikaze, a espada reagiu ao seu chakra, ampliando sua escala destrutiva para níveis capazes de partir o solo e ferir seres divinos. É uma relíquia de autoridade absoluta sobre os elementos água e trovão, simbolizando a velocidade e a fúria do Deus do Trovão no campo de batalha. Sua ativação ilumina o horizonte com um brilho azul ofuscante que anuncia o fim eminente do duelo.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F44%20-%20Raijin%20no%20Ken.png?alt=media&v=1788212112675609",
+    originalOwner: "Tobirama Senju",
+    diedHolding: ["Tobirama Senju"],
+    currentOwner: "Souma Namikaze"
+  },
+  {
+    id: 11,
+    name: "Hakuryū no Ken",
+    classification: "Z",
+    nature: "Chakra Profano + Fujogan",
+    origin: "Konohagakure",
+    description: "A Espada do Dragão Branco foi forjada pessoalmente por Minoru Hyuga utilizando chakra profano puro comprimido em forma sólida. Diferente de armas convencionais, sua estrutura não é metálica — a lâmina inteira é composta apenas de chakra cristalizado, tornando-a parcialmente etérea e extremamente instável para qualquer usuário comum. Graças à conexão direta com o Fujogan, Katsumi consegue absorver completamente a espada para dentro de seu próprio sistema de chakra, armazenando-a internamente e materializando-a instantaneamente durante o combate. A Hakuryū no Ken não causa dano físico tradicional; seus golpes atravessam matéria superficial e atingem diretamente as linhas de chakra do alvo, interrompendo circulação, bloqueando tenketsus, causando colapso energético e desestabilizando técnicas em execução. Em confrontos prolongados, a espada pode literalmente enfraquecer o sistema de chakra do inimigo até impedir completamente o uso de ninjutsu.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F78%20-%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1788212085944095",
+    originalOwner: "Minoru Hyuga",
+    diedHolding: ["Katsumi Hyuga"],
+    currentOwner: "Katsumi Hyuga"
+  },
+  {
+    id: 12,
+    name: "Hakuryū no Men",
+    classification: "Z",
+    nature: "Chakra Profano + Fujogan",
+    origin: "Konohagakure",
+    description: "A Máscara do Dragão Branco é um artefato lendário criado por Minoru Hyuga durante a era mais obscura do clã. Posteriormente, foi passada para Hoshiro, reconhecido como sucessor legítimo do legado Hyuga. Hoshiro, porém, deixou a máscara guardada no armazém secreto de Konoha, onde permaneceu até ser encontrada e reivindicada por Katsumi. A máscara cobre parcialmente o rosto do usuário e possui canais internos feitos de chakra profano condensado, sincronizando diretamente com o Fujogan. Ao ser ativada, amplifica absurdamente a capacidade analítica ocular, permitindo enxergar microexpressões, mínimas alterações musculares, fluxo de chakra, intenção hostil e irregularidades invisíveis ao olho comum. Graças à precisão extrema do Fujogan potencializado, o usuário se torna praticamente imune a Genjutsu visuais e mentais, além de neutralizar fintas, ilusões corporais e movimentos falsos em combate. Cada detalhe do campo de batalha passa a ser captado instantaneamente, transformando Katsumi em um observador absoluto capaz de prever padrões antes mesmo da execução inimiga.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F79%20-%20Hakury%C5%AB%20no%20Men.png?alt=media&v=1788212084688603",
+    originalOwner: "Minoru Hyuga",
+    pastOwners: ["Hoshiro Hyuga"],
+    diedHolding: ["Katsumi Hyuga"],
+    currentOwner: "Katsumi Hyuga"
+  }
+,
+  {
+    id: 13,
+    name: "Gama no Kaeruba",
+    classification: "Z",
+    nature: "Senjutsu + Suiton + Fuinjutsu",
+    origin: "Konohagakure",
+    description: "Um disco de combate curvo, moldado para lembrar a língua enrolada de um sapo gigante, com a borda inteira afiada e selos de fuinjutsu gravados em espiral por toda a superfície. O nome carrega um trocadilho proposital do clã: \"kaeru\" significa tanto \"sapo\" quanto \"retornar\" — e é exatamente isso que a arma faz. Ao ser lançada, absorve energia natural do ambiente e do próprio arremesso, curva a trajetória em pleno ar como se fosse recolhida por uma língua invisível, e retorna à mão do usuário na mesma velocidade em que partiu, cortando qualquer coisa em seu caminho de volta como cortou na ida. Em contato com água, a lâmina desliza sem perder velocidade, permitindo curvas praticamente impossíveis para uma arma arremessada. Os selos gravados nela reconhecem apenas o chakra de quem partilha do Modo Sábio dos Sapos — em qualquer outra mão, o Gama no Kaeruba simplesmente cai no chão depois do lançamento, como uma língua que não reconhece a boca que a comanda.",
+    image: "",
+    originalOwner: "Satoshi Namikaze",
+    currentOwner: "Satoshi Namikaze"
+  },
+  {
+    id: 14,
+    name: "Shinigami no Menpō",
+    classification: "Z",
+    nature: "Fuinjutsu + Kuchiyose",
+    origin: "Konohagakure",
+    description: "A Shinigami no Menpō é uma máscara lendária do Clã Uzumaki, esculpida em um material semelhante a osso e coberta por inscrições de selamento vermelhas. Seu rosto demoníaco, marcado por chifres, presas e pelo símbolo espiral dos Uzumaki, representa a autoridade sobre a fronteira entre a vida e a morte. Diferentemente das máscaras comuns do Templo dos Uzumaki, ela não serve apenas para estabelecer contato com o Shinigami: quando vestida, cria um contrato forçado que concede ao portador o poder de invocar o Deus da Morte em uma forma viva, física e corpórea, além de comandar seus movimentos através de correntes de selamento. Entretanto, a máscara exige continuamente a força vital de seu usuário. Quanto mais tempo permanece ativa, mais o Shinigami tenta resistir às ordens e assumir o corpo daquele que o invocou. Caso a máscara seja quebrada durante o ritual, as correntes desaparecem e o Deus da Morte permanece livre no mundo dos vivos.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F83%20-%20Shinigami%20no%20Menp%C5%8D.png?alt=media&v=1788212083667927",
+    originalOwner: "Ashina Uzumaki",
+    pastOwners: ["Mito Uzumaki", "Raikun Hatake"],
+    currentOwner: "Hiroshi Hanzo"
+  },
+  {
+    id: 15,
     name: "Kusanagi",
     classification: "S++",
     nature: "Uchiha",
@@ -86,7 +191,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 10,
+    id: 16,
     name: "Akaryū no Yubiwa",
     classification: "S++",
     nature: "Katon + Uchiha",
@@ -97,30 +202,284 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 11,
-    name: "Ishi no Kubikazari",
-    classification: "S",
-    nature: "Doton",
-    origin: "Iwagakure",
-    description: "O Ishi no Kubikazari é um colar de poder bruto, forjado a partir de minerais raros encontrados apenas nas profundezas mais isoladas das montanhas do País da Pedra. Ele foi desenhado originalmente para os generais samurais de Iwagakure, servindo como um estabilizador de fluxo vital para técnicas de resistência extrema. O artefato amplia a reserva natural de chakra do usuário em até 50%, permitindo a execução de jutsus de Rank S consecutivamente sem causar exaustão física imediata. Além do aumento quantitativo, ele melhora a densidade do chakra Doton, tornando as defesas de terra do portador praticamente impenetráveis por armas metálicas comuns. Em momentos de crise, o colar pode liberar uma carga de energia terrestre que endurece a pele do usuário ao nível do diamante por breves períodos. É um item indispensável para combatentes que priorizam a durabilidade e o controle absoluto do campo de batalha terrestre.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F11%20-%20Ishi%20no%20Kubikazari.png?alt=media&v=1788212130407171",
-    originalOwner: "Samurais do País da Pedra",
+    id: 17,
+    name: "Hakuryū no Reipia",
+    classification: "S++",
+    nature: "Chakra Profano + Fujogan",
+    origin: "Konohagakure",
+    description: "A Hakuryū no Ken, ou 'Espada do Dragão Branco', é uma rapier de design elegante e letal, forjada por Minoru Hyuga para ser a extensão perfeita do Fujogan e do chakra profano. Sua lâmina fina e flexível é capaz de vibrar em frequências que permitem atravessar armaduras e atingir diretamente os pontos de pressão nervosa do inimigo. A cada golpe ou defesa bem-sucedida, a espada absorve uma parcela do chakra do oponente, convertendo-o em ondas de choque de energia branca pura que podem ser disparadas como projéteis cortantes. Naomi Uzumaki herdou esta arma e a utiliza para executar ataques de alta velocidade que paralisam o sistema de chakra do alvo antes mesmo que ele perceba o corte. A rapier emite um brilho espectral constante, simbolizando o dragão branco que reside em seu núcleo e que protege a mente do usuário contra manipulações mentais. É uma arma de precisão absoluta e elegância mortal, capaz de transformar a força bruta do inimigo em combustível para a própria destruição do adversário. Sob o comando de Naomi, a Hakuryū no Ken tornou-se o terror dos campos de batalha, movendo-se como um relâmpago branco que dita o fim de qualquer duelo.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F36%20-%20Hakury%C5%AB%20no%20Reipia.png?alt=media&v=1788212117752905",
+    originalOwner: "Minoru Hyuga",
+    currentOwner: "Naomi Uzumaki"
+  },
+  {
+    id: 18,
+    name: "Uzumaki En'yō",
+    classification: "S++",
+    nature: "Katon + Futon + Fuinjutsu",
+    origin: "Konohagakure",
+    description: "O Uzumaki En'yō é um artefato lendário em formato de ioiô, forjado nas forjas secretas do clã Uzumaki e imbuído com selos de fuinjutsu de alta complexidade. Esta arma desafia a física convencional ao responder diretamente à vontade e ao fluxo de chakra do portador, podendo ser controlada no ar com precisão milimétrica através de fios de chakra invisíveis. Ao ser carregado com Katon ou Futon, o ioiô gera vórtices de chamas carmesim e furacões cortantes que podem incinerar e selar múltiplos alvos simultaneamente. Shoyu Uzumaki utiliza esta arma para criar um estilo de combate imprevisível, atacando de ângulos impossíveis e prendendo inimigos em redes de fogo e correntes de vedação. O artefato possui um núcleo rotativo que armazena energia cinética, tornando cada impacto contra o inimigo exponencialmente mais forte do que o anterior. Além do poder ofensivo, o En'yō pode ser usado para criar escudos de vento e fogo que desviam projéteis e técnicas elementais inimigas. É uma arma que simboliza a engenhosidade e a versatilidade do clã Uzumaki, transformando um objeto aparentemente simples em um instrumento de destruição em massa.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F37%20-%20Uzumaki%20En'y%C5%8D.png?alt=media&v=1788212117132910",
+    originalOwner: "Daiki Uzumaki (D)",
+    currentOwner: "Shoyu Uzumaki"
+  },
+  {
+    id: 19,
+    name: "Okami Earring",
+    classification: "S++",
+    nature: "Senjutsu",
+    origin: "Konohagakure",
+    description: "O Okami Earring é um amuleto ancestral em formato de brinco, forjado a partir de metal sensível a chakra e imbuído com a essência do clã dos lobos sagrados. Este artefato atua como um amplificador de sinal para a mente do usuário, elevando drasticamente o controle de chakra e a sintonia espiritual com invocações caninas. Ao usá-lo, o portador pode se comunicar telepaticamente com seus lobos e compartilhar sua visão e sentidos, permitindo táticas de caça perfeitamente coordenadas. O brinco também funciona como um foco para técnicas de Senjutsu, ajudando a estabilizar as flutuações da energia natural e impedindo a sobrecarga do sistema circulatório de chakra. Kuromi Uchiha utiliza este item para manter uma conexão inquebrável com Okami, permitindo ataques combinados que ignoram o tempo de reação convencional. Além disso, o brinco emite uma pulsação constante que acalma os instintos selvagens do usuário, garantindo foco total mesmo em estados de fúria de batalha. É um símbolo de lealdade e poder selvagem, representando o pacto eterno entre o clã Hatake/Uchiha e os espíritos caninos da floresta.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F40%20-%20Okami%20Earring.png?alt=media&v=1788212114819689",
+    originalOwner: "Raikun Hatake",
+    currentOwner: "Kuromi Uchiha"
+  },
+  {
+    id: 20,
+    name: "Okami no Men",
+    classification: "S++",
+    nature: "Senjutsu",
+    origin: "Konohagakure",
+    description: "A Okami no Men é uma máscara de lobo sagrada de Rank S++ que concede ao usuário uma percepção sensorial divina, permitindo detectar variações mínimas no ambiente e no chakra inimigo a quilômetros de distância. Forjada com minerais reagentes ao Senjutsu, a máscara revela intenções hostis através de uma aura visual colorida, tornando impossível qualquer ataque surpresa ou infiltração. O portador pode ver através de barreiras sólidas e névoas de chakra densas, identificando os pontos vitais e os fluxos nervosos do oponente com precisão absoluta. Além das capacidades visuais, a máscara amplifica o olfato e a audição, transformando o ninja em um predador supremo capaz de rastrear qualquer alvo em qualquer terreno. Kuromi Uchiha utiliza este artefato para coordenar ataques de precisão cirúrgica, garantindo que cada golpe seja letal. A máscara também atua como um escudo mental, protegendo o usuário de genjutsus visuais e distorções sensoriais provocadas pelo inimigo. É o símbolo da vigilância eterna e da ferocidade controlada dos guardiões da floresta.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F41%20-%20Okami%20no%20Men.png?alt=media&v=1788212114079167",
+    originalOwner: "Raikun Hatake",
+    currentOwner: "Kuromi Uchiha"
+  },
+  {
+    id: 21,
+    name: "Kage no Kyōkai",
+    classification: "S++",
+    nature: "Kage Mane",
+    origin: "Konohagakure",
+    description: "O Kage no Kyōkai é um anel ancestral de Rank S++ que pertenceu aos líderes do clã Nara, servindo como o catalisador definitivo para a técnica Kage Mane. O artefato cria uma zona de domínio absoluto ao redor do usuário onde todas as sombras obedecem fielmente à sua vontade, podendo se expandir, contrair ou ganhar solidez física instantaneamente. Sob sua influência, as sombras podem se transformar em lâminas afiadas, correntes de contenção ou barreiras defensivas que bloqueiam ataques físicos e espirituais. O anel permite ao portador controlar múltiplas sombras simultaneamente, prendendo exércitos inteiros em uma rede de escuridão inescapável. Shikaki Nara utiliza este artefato para distorcer o campo de batalha, manipulando o terreno e a movimentação dos inimigos com precisão estratégica. A energia contida no anel amplifica a densidade das sombras, tornando-as resistentes ao fogo e à luz intensa, superando a fraqueza natural da técnica original. É a ferramenta definitiva para o estrategista que governa a batalha através do controle das trevas.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F42%20-%20Kage%20no%20Ky%C5%8Dkai.png?alt=media&v=1788212113613421",
+    originalOwner: "Shikaku Nara",
+    currentOwner: "Shikaki Nara"
+  },
+  {
+    id: 22,
+    name: "Hakuryū",
+    classification: "S++",
+    nature: "Suiton",
+    origin: "Konohagakure",
+    description: "O Hakuryū é um bracelete ancestral de Rank S++ forjado para Tobirama Senju com o propósito de armazenar e amplificar quantidades astronômicas de chakra Suiton. O artefato atua como um reservatório de energia infinita, permitindo que o usuário manifeste técnicas de água de escala colossal, como tsunamis e dragões marinhos, sem consumir suas reservas vitais. Ele possui a habilidade única de converter o chakra do ambiente em água pura e pressurizada, permitindo o uso de jutsus poderosos mesmo em desertos ou áreas áridas. Atualmente sob posse de Naomi Uzumaki, o bracelete maximiza a eficiência de seu Suiton, transformando cada gota em um projétil capaz de perfurar aço reforçado. O Hakuryū emite uma aura fria e calmante que ajuda o portador a manter o foco mental absoluto durante o caos da batalha, estabilizando o fluxo nervoso. É o complemento perfeito para a Raijin no Ken, representando a maestria técnica e a soberania oceânica dos grandes mestres da Vila da Folha. Sua presença garante que a Naomi governe o campo de batalha com a autoridade de um dragão branco dos mares.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F45%20-%20Hakury%C5%AB.png?alt=media&v=1788212112172125",
+    originalOwner: "Tobirama Senju",
+    diedHolding: ["Tobirama Senju"],
+    currentOwner: "Naomi Uzumaki"
+  },
+  {
+    id: 23,
+    name: "Gama no Zōri",
+    classification: "S++",
+    nature: "Senjutsu",
+    origin: "Konohagakure",
+    description: "Um par de sandálias seladas, com solas grossas de couro tratado que imitam a textura da pele de um sapo sábio. Cada passo do usuário libera um pulso quase imperceptível de energia natural pelas plantas dos pés, que se acumula e se converte em impulso puro no instante do salto — permitindo saltos que desafiam a lógica humana, tanto em altura quanto em distância, e quedas de qualquer altura absorvidas sem dano, como se o chão fosse sempre líquido sob os pés de quem as usa. Em combate, o Gama no Zōri transforma cada esquiva em um deslocamento absurdo, e cada avanço em um golpe que chega antes do oponente terminar de reagir. Diferente de técnicas de velocidade que consomem chakra a cada uso, as sandálias trabalham em ciclo com a energia natural do Modo Sábio — quanto mais tempo o usuário permanece com o Senjutsu ativo, mais eficiente e silencioso se torna cada salto.",
+    image: "",
+    originalOwner: "Satoshi Namikaze",
+    currentOwner: "Satoshi Namikaze"
+  },
+  {
+    id: 24,
+    name: "Gama Sennin no Keiyaku",
+    classification: "S++",
+    nature: "Senjutsu + Kuchiyose",
+    origin: "Konohagakure",
+    description: "O pergaminho sagrado que formaliza o pacto entre a linhagem Namikaze e os Sapos Sábios — diferente do Pergaminho de Invocação genérico, este só se abre para quem carrega o sangue do clã. Assinado com uma gota de sangue e chakra sobre o papel amarelado, o contrato grava simultaneamente o nome do usuário na pele de sua própria mão e nos registros vivos do território sábio dos sapos, criando uma linha de invocação que nunca se rompe enquanto ambas as partes existirem. Uma vez selado, permite convocar desde pequenos sapos mensageiros até colossos de guerra, e é considerado o primeiro passo formal para qualquer Namikaze que deseje um dia alcançar o próprio Modo Sábio — não ensina o Senjutsu por si só, mas abre a porta que todos os sapos sábios exigem estar aberta antes de aceitar ensinar quem quer que seja.",
+    image: "",
+    originalOwner: "Satoshi Namikaze",
+    currentOwner: "Satoshi Namikaze"
+  },
+  {
+    id: 25,
+    name: "Sōhakujū",
+    classification: "S++",
+    nature: "",
+    origin: "Konohagakure",
+    description: "Arma desenvolvida por Haruki para Asami. Conecta-se com o chakra do usuário e dispara balas feitas diretamente desse chakra, capazes de acertar os tenketsus do oponente. É potencializada pelo Fujogan de Asami.",
+    image: "",
+    originalOwner: "Asami Hyuga",
+    currentOwner: "Tōma Umikage"
+  },
+  {
+    id: 26,
+    name: "Sōsai",
+    classification: "S++",
+    nature: "",
+    origin: "Konohagakure",
+    description: "",
+    image: "",
+    originalOwner: "Kagami Uchiha",
+    currentOwner: "Kagami Uchiha"
+  },
+  {
+    id: 27,
+    name: "Luvas de Chakra Profano 'F'",
+    classification: "S+",
+    nature: "Chakra Profano",
+    origin: "Konohagakure",
+    description: "Estas manoplas experimentais foram desenvolvidas pela OCA para canalizar o chakra profano refinado de F em sua forma mais letal e controlada. Elas são construídas com uma liga metálica especial que permite ao portador tocar e bloquear lâminas de chakra e jutsus elementais diretamente com as mãos, sem sofrer danos. No momento do impacto, as luvas emitem pulsos de energia profana que corroem o fluxo de chakra do oponente, causando micro-explosões nos tenketsus do alvo. Essa corrosão impede que o inimigo consiga manter técnicas ativas ou moldar energia de forma eficiente por vários minutos após o contato. Najin Hatake utiliza essas luvas para complementar seu estilo de combate corpo a corpo, transformando cada bloqueio em um contra-ataque devastador. São ferramentas de neutralização absoluta que transformam a força do inimigo em sua maior fraqueza através da desestabilização energética.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F14%20-%20Luvas%20de%20Chakra%20Profano%20'F'.png?alt=media&v=1788212128910775",
+    originalOwner: "Najin Hatake",
+    diedHolding: ["Najin Hatake"],
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 12,
-    name: "Ganryū no Omori",
-    classification: "A+",
-    nature: "Doton",
-    origin: "Iwagakure",
-    description: "Estes pesos ancestrais, conhecidos como Ganryū no Omori, são imbuídos com chakra Doton de alta gravidade, tornando-os infinitamente mais pesados do que sua aparência sugere. Eles foram criados pelos monges da Vila dos Monges para o treinamento de força física e purificação do fluxo de chakra através da resistência constante. Ao usá-los, o portador é submetido a uma pressão gravitacional que fortalece cada músculo, osso e rede de tenketsus de forma sobre-humana. No instante em que os pesos são removidos, o corpo do usuário experimenta uma 'liberação cinética' que resulta em picos de velocidade e agilidade que desafiam as leis da física. Katsumi Hyuga utiliza este equipamento para elevar sua velocidade de reação ao nível do Hiraishin, tornando seus golpes do Juken quase impossíveis de serem acompanhados pelo olho humano. O impacto de um soco ou chute dado após o treinamento com estes pesos pode pulverizar rochas sólidas sem a necessidade de jutsus ofensivos adicionais.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Ganry%C5%AB%20no%20Omori.png?alt=media&v=1788212129877033",
-    originalOwner: "Monges da Vila dos Monges",
-    diedHolding: ["Katsumi Hyuga"],
-    currentOwner: "Katsumi Hyuga"
+    id: 28,
+    name: "Colar dos Hatake",
+    classification: "S+",
+    nature: "Chakra Profano",
+    origin: "Konohagakure",
+    description: "Este colar profano nasceu de uma parceria entre Rock Gunma e Hiroshi Hanzo, forjado enquanto os dois estavam em Konoha durante o mandato de Nishinoya Senju como Terceiro Hokage. Sua origem é sombria: o núcleo de chakra profano que o alimenta foi extraído do chip da OCA implantado em Raikun Hatake — o mesmo que o matou —, recuperado por Takeshi Hatake após sua morte. Takeshi foi o primeiro a usá-lo, e o colar permaneceu com ele até ser passado a Oddy Uchiha, quando Najin Hatake morreu. Ele atua como um amplificador passivo para o sistema nervoso do usuário, elevando os reflexos e a coordenação muscular a níveis que superam os limites biológicos humanos. Quando energizado com chakra, o colar libera uma leve aura elétrica constante que atua como um radar sensorial, permitindo detectar movimentos no ar e ataques invisíveis com precisão instintiva. Além de melhorar o desempenho físico, o artefato ajuda a estabilizar as flutuações do chakra profano, impedindo que a energia corruptora afete a mente do portador. É um foco de determinação que emite um brilho azulado suave quando o usuário atinge o ápice de sua concentração em batalha. Mesmo fora das mãos de um Hatake, o colar carrega a marca de quem o criou, de quem forneceu — à força — sua energia, e de quem o usou primeiro.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F17%20-%20Colar%20dos%20Hatake.png?alt=media&v=1788212127462304",
+    originalOwner: "Takeshi Hatake",
+    currentOwner: "Oddy Uchiha"
   },
   {
-    id: 13,
+    id: 29,
+    name: "Hyoton Artificial",
+    classification: "S",
+    nature: "Chakra Artificial",
+    origin: "Konohagakure",
+    description: "Uma maravilha da engenharia de chakra, esta seringa tecnológica permite que qualquer usuário replique a rara linhagem avançada do Hyoton (Gelo). Através de um complexo sistema de fusão molecular entre Futon e Suiton em nanoescala, ela injeta um composto de chakra estabilizado que gela o ar ao redor instantaneamente. O gelo gerado é muito mais denso e resistente que o gelo natural, sendo capaz de suportar jutsus de Katon de alto nível sem derreter. Takeshi Hatake utiliza este recurso para criar barreiras de contenção absolutas, armas de gelo afiadas como diamante ou para imobilizar múltiplos oponentes em um campo de congelamento eterno. A técnica artificial elimina a necessidade de selos de mão tradicionais, permitindo uma ativação quase instantânea em situações de vida ou morte. É a prova de que a tecnologia da Folha pode desafiar os limites da genética ninja.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F15%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1788212128442677",
+    originalOwner: "Takeshi Hatake",
+    currentOwner: "Takeshi Hatake"
+  },
+  {
+    id: 30,
+    name: "Shōton Artificial",
+    classification: "S",
+    nature: "Chakra Artificial",
+    origin: "Konohagakure",
+    description: "Esta seringa contém uma versão sintética altamente instável da Liberação de Cristal (Shōton), permitindo ao portador manifestar estruturas cristalinas a partir da umidade e minerais do ambiente. Os cristais gerados possuem uma dureza superior ao titânio e uma propriedade prismática única que pode refletir e amplificar jutsus baseados em luz e chakra. O usuário pode moldar barreiras geométricas complexas, armas perfurantes que nunca perdem o fio ou prisões de cristal que suspendem o tempo biológico do alvo capturado. Takeshi utiliza o Shōton Artificial para criar labirintos defensivos que confundem a visão do inimigo enquanto prepara ataques de precisão. O chakra injetado pela seringa permite um controle molecular tão refinado que as construções podem ser detonadas à distância em milhares de fragmentos cortantes. É uma arma de controle de campo total, capaz de transformar qualquer terreno em um labirinto mortal de pedras preciosas.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F16%20-%20Sh%C5%8Dton%20Artificial.png?alt=media&v=1788212127945511",
+    originalOwner: "Takeshi Hatake",
+    currentOwner: "Takeshi Hatake"
+  },
+  {
+    id: 31,
+    name: "Presilha de Cabelo de Etsuko",
+    classification: "A+",
+    nature: "Chakra Profano",
+    origin: "Konohagakure",
+    description: "Mais do que um simples acessório, esta presilha de cabelo é o último vínculo físico de Furyuzan com sua falecida irmã, Etsuko Senjuya. O objeto foi imbuído com resquícios do chakra profano de Etsuko durante o incidente que marcou a vida de Furyuzan, transformando-se em uma âncora mental inquebrável. Em momentos de desespero absoluto ou exaustão emocional, a presilha emite uma leve pulsação que fortalece a determinação do usuário, impedindo o colapso psicológico diante de ameaças Rank Z. Ela atua como um escudo espiritual passivo, filtrando genjutsus de baixo nível que tentam atacar a sanidade do portador. A energia contida no objeto reage à vontade de Furyuzan, brilhando com uma luz suave que parece acalmá-lo mesmo no centro do caos. É um símbolo de luto transformado em força, servindo como lembrete constante da promessa de justiça que guia o usuário. No mundo ninja, onde o estado mental define a sobrevivência, este artefato é o trunfo secreto contra o vazio.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F20%20-%20Presilha%20de%20Cabelo%20de%20Etsuko.png?alt=media&v=1788212126046415",
+    originalOwner: "Etsuko Senju (E)",
+    currentOwner: "Furyuzan Chinoike"
+  },
+  {
+    id: 32,
+    name: "Pergaminho de Invocação",
+    classification: "A+",
+    nature: "Fuinjutsu",
+    origin: "Konohagakure",
+    description: "Este pergaminho de fuinjutsu avançado é a ferramenta definitiva de logística e versatilidade tática para o mestre em armas Nagare Uzumaki. Ele contém centenas de selos de armazenamento complexos, permitindo que arsenais inteiros sejam guardados em um espaço dimensional compactado e invocados instantaneamente. Através de um simples toque ou comando de chakra, o usuário pode materializar espadas, escudos, projéteis ou armadilhas diretamente no campo de batalha, sem qualquer atraso. A velocidade de invocação é tão alta que Nagare pode trocar de arma no meio de um combo, surpreendendo oponentes com mudanças constantes de estilo de luta. O pergaminho também pode ser usado defensivamente para 'sugar' e selar ataques inimigos ou projéteis lançados contra o portador, devolvendo-os posteriormente. É um artefato que elimina a necessidade de carregar equipamentos pesados, transformando um único rolo de papel em uma fortaleza móvel de armamentos. Sua durabilidade é reforçada por fibras de chakra que impedem que o papel seja rasgado ou queimado por técnicas elementais de baixo nível.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F23%20-%20Pergaminho%20de%20Invoca%C3%A7%C3%A3o.png?alt=media&v=1788212124618630",
+    originalOwner: "Nagare Uzumaki",
+    currentOwner: "Nagare Uzumaki"
+  },
+  {
+    id: 33,
+    name: "Dama no Hiraishin",
+    classification: "A+",
+    nature: "Fuinjutsu",
+    origin: "Konohagakure",
+    description: "Estas esferas metálicas compactas, conhecidas como Dama no Hiraishin, são ferramentas de suporte tático revolucionárias criadas para maximizar a mobilidade em combate de guerrilha. Cada 'bolinha de gude' é gravada com uns selos simplificados da Técnica do Deus Voador do Trovão, permitindo que o usuário as espalhe pelo campo de batalha para criar uma rede de teleporte instantânea e onipresente. Shoyu Uzumaki as utiliza com maestria, arremessando as esferas em trajetórias complexas para flanquear oponentes ou escapar de ataques fatais em milésimos de segundo. Devido ao seu tamanho reduzido e assinatura de chakra mínima, as Damas são quase impossíveis de serem detectadas pelo inimigo até que o teleporte ocorra. Elas também podem ser usadas para transportar projéteis ou redirecionar técnicas inimigas, agindo como portais móveis que distorcem o espaço ao redor do usuário. A rede de teleporte gerada por essas esferas permite que um único ninja pareça estar em múltiplos lugares ao mesmo tempo, confundindo a percepção do adversário. É o auge da aplicação prática de fuinjutsu para combate individual, garantindo que o portador mantenha sempre a iniciativa e a superioridade posicional.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F39%20-%20Dama%20no%20Hiraishin.png?alt=media&v=1788212115311675",
+    originalOwner: "Shiraki Chinoike",
+    currentOwner: "Shoyu Uzumaki"
+  },
+  {
+    id: 34,
+    name: "Umitsuchi no Teisatsu",
+    classification: "Z",
+    nature: "Suiton",
+    origin: "Kirigakure",
+    description: "O Umitsuchi no Teisatsu é o cetro lendário de Rank Z que pertenceu ao Primeiro Mizukage e serve como o símbolo supremo da autoridade sobre todos os oceanos e seres vivos que deles dependem. Este artefato místico concede ao portador autoridade absoluta sobre o elemento Suiton em escala global, permitindo desde a criação de tsunamis colossais que podem submergir nações até o controle preciso da água dentro dos organismos vivos. Através do cetro, o usuário pode manipular o sangue de seus inimigos como se fossem marionetes de carne, parando corações ou causando hemorragias internas com um simples pensamento. A joia em seu topo abriga um chakra ancestral que estabiliza o clima marinho e pode convocar tempestades de escala apocalíptica para proteger as fronteiras de Kirigakure. É uma arma de domínio total e aterrorizante, representando a soberania divina da Névoa sobre a vida e a morte através da água. Sua ativação exige um sacrifício de chakra imenso e uma conexão espiritual profunda com o mar, sendo quase impossível de ser controlada por alguém fora da linhagem Mizukage. É a relíquia que garante que Kirigakure permaneça como a senhora incontestável dos mares, punindo qualquer insurreição com a fúria das profundezas.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F76%20-%20Umitsuchi%20no%20Teisatsu.png?alt=media&v=1788212088204683",
+    originalOwner: "Primeiro Mizukage",
+    currentOwner: ""
+  },
+  {
+    id: 35,
+    name: "Hyōga no Seihai",
+    classification: "Z",
+    nature: "Hyoton",
+    origin: "Kirigakure",
+    description: "O Hyōga no Seihai é um receptáculo de Rank Z que contém em seu interior a essência primordial do 'Frio Absoluto', uma energia anterior à criação do próprio sistema de chakra ninja. Este artefato possui o poder cataclísmico de congelar o fluxo de chakra de um país inteiro instantaneamente, transformando territórios férteis em desertos de gelo eterno onde a vida se torna impossível. Ao ser aberto, o cálice libera uma onda de choque criogênica que anula a agitação molecular, paralisando jutsus ativos e transformando qualquer técnica elementar em estátuas de gelo quebradiças. O usuário pode manifestar estruturas de gelo eterno de dureza incalculável que jamais derretem, mesmo quando expostas a chamas de nível Enton ou calor solar. O Hyōga no Seihai atua como um vácuo térmico que absorve todo o calor e a energia ao seu redor, fortalecendo a aura defensiva do portador até torná-lo invulnerável a ataques térmicos. É a arma de 'Inverno Eterno', uma relíquia de fim de mundo que só deve ser utilizada em situações de desespero absoluto para garantir a sobrevivência da vila através da aniquilação total do inimigo. Sua posse é o peso da responsabilidade sobre o destino climático do mundo, guardado nas profundezas mais frias de Kirigakure como o trunfo final contra qualquer ameaça.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F77%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1788212086978030",
+    originalOwner: "Ganmaren Yuki",
+    currentOwner: "Ganmaren Yuki"
+  },
+  {
+    id: 36,
+    name: "Shinkai no Ikari",
+    classification: "Z",
+    nature: "",
+    origin: "Kirigakure",
+    description: "A âncora afeta todo o ambiente. É extremamente pesada, mas tem uma reversão que permite ser carregada por quem a controla. Ao bater no chão, toda a gravidade de uma grande área é alterada e o chakra se expande, tornando o campo de batalha totalmente imprevisível. Se for arremessada contra um ninja, além do golpe ela altera todo o campo gravitacional. Seu único counter é o jutsu de poeira, que permite ao usuário anular esse tipo de efeito.",
+    image: "",
+    originalOwner: "Ganmasen Yuki (Gama)",
+    currentOwner: "Ganmaren Yuki"
+  },
+  {
+    id: 37,
+    name: "Sakin no Reigan",
+    classification: "S++",
+    nature: "Sakin",
+    origin: "Kirigakure",
+    description: "O Sakin no Reigan, ou 'Olho Espectral de Areia Dourada', é um dispositivo de espionagem de Rank S++ composto por bilhões de nano-partículas de ouro controladas magneticamente. Este artefato atua como um drone de vigilância onisciente, capaz de transmitir imagens térmicas, assinaturas de chakra e vibrações sonoras diretamente para a mente do usuário. Devido à sua natureza granular, o olho pode se infiltrar em frestas minúsculas e permanecer indetectável por sentidos comuns, agindo como um espião perfeito no campo de batalha. O portador pode ver através do Reigan em um raio de quilômetros, permitindo a coordenação de ataques à distância ou a detecção de emboscadas antes mesmo que ocorram. Em caso de necessidade, a esfera de areia dourada pode explodir em uma nuvem de poeira sufocante ou endurecer para agir como um projétil perfurante de alta precisão. É a ferramenta de inteligência suprema de Sunagakure, garantindo que o deserto nunca guarde segredos daqueles que o governam. Sua posse transforma o usuário em um mestre estrategista que possui a visão total do campo de batalha e da infraestrutura inimiga.",
+    image: "",
+    originalOwner: "Reto Sabaku",
+    currentOwner: "Tetsu Sabaku"
+  },
+  {
+    id: 38,
+    name: "Suiryū no Reigan",
+    classification: "S++",
+    nature: "Suiton",
+    origin: "Kirigakure",
+    description: "O Suiryū no Reigan, ou 'Olho Espectral do Dragão de Água', é um amuleto ancestral de Rank S++ que concede ao portador um controle molecular sem precedentes sobre a água e seus estados físicos. Este artefato permite manipular a pressão hidrostática em níveis tão extremos que o usuário pode criar lâminas de água pressurizada capazes de cortar diamante e atravessar armaduras de aço como se fossem papel. O amuleto atua como um terceiro olho sensorial que permite 'enxergar' a umidade no ar e no subsolo, permitindo ataques surpresa vindo de ângulos onde não há fontes de água visíveis. Sob sua influência, as técnicas de Suiton tornam-se densas e pesadas, capazes de esmagar oponentes sob o peso de toneladas de pressão concentrada em pequenos pontos de impacto. O portador também pode liquefazer seu próprio corpo por breves períodos para evitar ataques físicos, movendo-se através da água com a velocidade de um dragão marinho. É uma relíquia de grande poder espiritual e técnico, representando o domínio absoluto da Névoa sobre o elemento mais vital e perigoso da natureza. Sua posse transforma um mestre de Suiton em uma força da natureza imparável, capaz de governar as profundezas e as superfícies com autoridade divina.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Suiry%C5%AB%20no%20Reigan.png?alt=media&v=1788212091555870",
+    originalOwner: "Ganmaren Yuki",
+    currentOwner: "Ganmaren Yuki"
+  },
+  {
+    id: 39,
+    name: "Kiri-no-Kami no Yoroi",
+    classification: "S++",
+    nature: "Suiton",
+    origin: "Kirigakure",
+    description: "A Kiri-no-Kami no Yoroi é uma armadura de escamas abissais de Rank S++ forjada a partir da pele de criaturas lendárias que habitam as fossas mais profundas do País da Água. Esta armadura mística possui a habilidade única de permitir ao usuário liquefazer seu próprio corpo ou tornar-se intangível como a própria névoa por períodos prolongados, ignorando ataques físicos e jutsus elementais comuns. As escamas que compõem a armadura reagem ao chakra Suiton, endurecendo instantaneamente ao nível do aço reforçado quando o portador sofre um impacto direto, agindo como uma defesa adaptativa absoluta. Além da proteção física, a armadura amplifica a ocultação do chakra, permitindo que o ninja se mova de forma totalmente silenciosa e invisível dentro de névoas de batalha. Ela também atua como um pulmão artificial, permitindo ao usuário sobreviver e lutar em profundidades oceânicas onde a pressão esmagaria qualquer ser humano comum. É o traje definitivo para os deuses da névoa, representando a invulnerabilidade e a natureza mutável da água em sua forma mais letal. Sua posse garante que o guerreiro seja um fantasma no campo de batalha, impossível de ser capturado ou ferido enquanto houver umidade no ar.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F74%20-%20Kiri-no-Kami%20no%20Yoroi.png?alt=media&v=1788212090485685",
+    originalOwner: "Juzo Kuroshio",
+    currentOwner: "Juzo Kuroshio"
+  },
+  {
+    id: 40,
+    name: "Shinsui no Yari",
+    classification: "S++",
+    nature: "Suiton",
+    origin: "Kirigakure",
+    description: "A Shinsui no Yari é uma lança de Rank S++ forjada sob pressões astronômicas no fundo das fossas oceânicas mais profundas do mundo, utilizando minerais negros de densidade extrema. Cada golpe desferido com esta lança aplica uma pressão gravitacional e hidrostática equivalente a 10.000 metros de profundidade no ponto exato de impacto, capaz de implodir órgãos internos e esmagar armaduras blindadas instantaneamente. A arma possui uma inércia que desafia a lógica, sendo leve nas mãos de seu mestre mas pesada como uma montanha quando colide com o inimigo. A ponta da lança é imbuída com selos de fuinjutsu que impedem que o oponente utilize técnicas de substituição ou fuga espacial no momento do contato, prendendo-o à gravidade esmagadora da arma. O portador pode lançar a Shinsui no Yari para criar vórtices de sucção que puxam inimigos próximos para o centro de uma explosão de água pressurizada. É uma arma de destruição brutal e implacável, simbolizando o peso inabalável das profundezas oceânicas que não conhece misericórdia nem resistência. Sua posse garante que nenhum oponente, por mais protegido que esteja, possa resistir à força gravitacional do abismo contida em uma única lâmina.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F75%20-%20Shinsui%20no%20Yari.png?alt=media&v=1788212089268108",
+    originalOwner: "Hiroshi Hanzo",
+    currentOwner: "Hiroshi Hanzo"
+  },
+  {
+    id: 41,
+    name: "Rasenken",
+    classification: "S++",
+    nature: "",
+    origin: "Kirigakure",
+    description: "Espada broca capaz de perfurar qualquer superfície. Ela vibra para que o usuário possa sentir todo o ambiente à sua volta. É feita sob medida pelo clã para um filho do céu.",
+    image: "",
+    originalOwner: "Ayame Sazanami",
+    currentOwner: "Ayame Sazanami"
+  },
+  {
+    id: 42,
     name: "Kubikiribōchō",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -133,52 +492,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 14,
-    name: "Luvas de Chakra Profano 'F'",
-    classification: "S+",
-    nature: "Chakra Profano",
-    origin: "Konohagakure",
-    description: "Estas manoplas experimentais foram desenvolvidas pela OCA para canalizar o chakra profano refinado de F em sua forma mais letal e controlada. Elas são construídas com uma liga metálica especial que permite ao portador tocar e bloquear lâminas de chakra e jutsus elementais diretamente com as mãos, sem sofrer danos. No momento do impacto, as luvas emitem pulsos de energia profana que corroem o fluxo de chakra do oponente, causando micro-explosões nos tenketsus do alvo. Essa corrosão impede que o inimigo consiga manter técnicas ativas ou moldar energia de forma eficiente por vários minutos após o contato. Najin Hatake utiliza essas luvas para complementar seu estilo de combate corpo a corpo, transformando cada bloqueio em um contra-ataque devastador. São ferramentas de neutralização absoluta que transformam a força do inimigo em sua maior fraqueza através da desestabilização energética.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F14%20-%20Luvas%20de%20Chakra%20Profano%20'F'.png?alt=media&v=1788212128910775",
-    originalOwner: "Najin Hatake",
-    diedHolding: ["Najin Hatake"],
-    currentOwner: "Oddy Uchiha"
-  },
-  {
-    id: 15,
-    name: "Hyoton Artificial",
-    classification: "S",
-    nature: "Chakra Artificial",
-    origin: "Konohagakure",
-    description: "Uma maravilha da engenharia de chakra, esta seringa tecnológica permite que qualquer usuário replique a rara linhagem avançada do Hyoton (Gelo). Através de um complexo sistema de fusão molecular entre Futon e Suiton em nanoescala, ela injeta um composto de chakra estabilizado que gela o ar ao redor instantaneamente. O gelo gerado é muito mais denso e resistente que o gelo natural, sendo capaz de suportar jutsus de Katon de alto nível sem derreter. Takeshi Hatake utiliza este recurso para criar barreiras de contenção absolutas, armas de gelo afiadas como diamante ou para imobilizar múltiplos oponentes em um campo de congelamento eterno. A técnica artificial elimina a necessidade de selos de mão tradicionais, permitindo uma ativação quase instantânea em situações de vida ou morte. É a prova de que a tecnologia da Folha pode desafiar os limites da genética ninja.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F15%20-%20Hy%C5%8Dton%20Artificial.png?alt=media&v=1788212128442677",
-    originalOwner: "Takeshi Hatake",
-    currentOwner: "Takeshi Hatake"
-  },
-  {
-    id: 16,
-    name: "Shōton Artificial",
-    classification: "S",
-    nature: "Chakra Artificial",
-    origin: "Konohagakure",
-    description: "Esta seringa contém uma versão sintética altamente instável da Liberação de Cristal (Shōton), permitindo ao portador manifestar estruturas cristalinas a partir da umidade e minerais do ambiente. Os cristais gerados possuem uma dureza superior ao titânio e uma propriedade prismática única que pode refletir e amplificar jutsus baseados em luz e chakra. O usuário pode moldar barreiras geométricas complexas, armas perfurantes que nunca perdem o fio ou prisões de cristal que suspendem o tempo biológico do alvo capturado. Takeshi utiliza o Shōton Artificial para criar labirintos defensivos que confundem a visão do inimigo enquanto prepara ataques de precisão. O chakra injetado pela seringa permite um controle molecular tão refinado que as construções podem ser detonadas à distância em milhares de fragmentos cortantes. É uma arma de controle de campo total, capaz de transformar qualquer terreno em um labirinto mortal de pedras preciosas.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F16%20-%20Sh%C5%8Dton%20Artificial.png?alt=media&v=1788212127945511",
-    originalOwner: "Takeshi Hatake",
-    currentOwner: "Takeshi Hatake"
-  },
-  {
-    id: 17,
-    name: "Colar dos Hatake",
-    classification: "S+",
-    nature: "Chakra Profano",
-    origin: "Konohagakure",
-    description: "Este colar profano nasceu de uma parceria entre Rock Gunma e Hiroshi Hanzo, forjado enquanto os dois estavam em Konoha durante o mandato de Nishinoya Senju como Terceiro Hokage. Sua origem é sombria: o núcleo de chakra profano que o alimenta foi extraído do chip da OCA implantado em Raikun Hatake — o mesmo que o matou —, recuperado por Takeshi Hatake após sua morte. Takeshi foi o primeiro a usá-lo, e o colar permaneceu com ele até ser passado a Oddy Uchiha, quando Najin Hatake morreu. Ele atua como um amplificador passivo para o sistema nervoso do usuário, elevando os reflexos e a coordenação muscular a níveis que superam os limites biológicos humanos. Quando energizado com chakra, o colar libera uma leve aura elétrica constante que atua como um radar sensorial, permitindo detectar movimentos no ar e ataques invisíveis com precisão instintiva. Além de melhorar o desempenho físico, o artefato ajuda a estabilizar as flutuações do chakra profano, impedindo que a energia corruptora afete a mente do portador. É um foco de determinação que emite um brilho azulado suave quando o usuário atinge o ápice de sua concentração em batalha. Mesmo fora das mãos de um Hatake, o colar carrega a marca de quem o criou, de quem forneceu — à força — sua energia, e de quem o usou primeiro.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F17%20-%20Colar%20dos%20Hatake.png?alt=media&v=1788212127462304",
-    originalOwner: "Takeshi Hatake",
-    currentOwner: "Oddy Uchiha"
-  },
-  {
-    id: 18,
+    id: 43,
     name: "Nuibari",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -189,29 +503,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 19,
-    name: "Protótipo de Reigan",
-    classification: "S",
-    nature: "Chakra Profano",
-    origin: "OCA",
-    description: "Esta luneta tática de alta precisão foi desenvolvida nos laboratórios secretos da OCA para fornecer uma vantagem visual absoluta em cenários de combate de longo alcance. Equipada com lentes tratadas com chakra profano, ela estabiliza a percepção do usuário mesmo sob condições extremas de movimento ou baixa visibilidade. O artefato possui um modo de detecção passiva que revela distorções sutis no ar causadas por ataques à distância ou deslocamentos de chakra invisíveis. Além de ampliar o campo de visão em até dez vezes, a luneta sincroniza-se com o fluxo nervoso do portador para prever trajetórias balísticas com margem de erro mínima. É o equipamento de reconhecimento por excelência para atiradores e rastreadores que operam em território inimigo. Sua estrutura compacta e resistente permite que seja utilizada em conjunto com Snipers ou armas de arremesso, garantindo que nenhum alvo escape à visão da organização.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F19%20-%20Reigan.png?alt=media&v=1788212126528642",
-    originalOwner: "OCA",
-    currentOwner: "Furyuzan Chinoike"
-  },
-  {
-    id: 20,
-    name: "Presilha de Cabelo de Etsuko",
-    classification: "A+",
-    nature: "Chakra Profano",
-    origin: "Konohagakure",
-    description: "Mais do que um simples acessório, esta presilha de cabelo é o último vínculo físico de Furyuzan com sua falecida irmã, Etsuko Senjuya. O objeto foi imbuído com resquícios do chakra profano de Etsuko durante o incidente que marcou a vida de Furyuzan, transformando-se em uma âncora mental inquebrável. Em momentos de desespero absoluto ou exaustão emocional, a presilha emite uma leve pulsação que fortalece a determinação do usuário, impedindo o colapso psicológico diante de ameaças Rank Z. Ela atua como um escudo espiritual passivo, filtrando genjutsus de baixo nível que tentam atacar a sanidade do portador. A energia contida no objeto reage à vontade de Furyuzan, brilhando com uma luz suave que parece acalmá-lo mesmo no centro do caos. É um símbolo de luto transformado em força, servindo como lembrete constante da promessa de justiça que guia o usuário. No mundo ninja, onde o estado mental define a sobrevivência, este artefato é o trunfo secreto contra o vazio.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F20%20-%20Presilha%20de%20Cabelo%20de%20Etsuko.png?alt=media&v=1788212126046415",
-    originalOwner: "Etsuko Senju (E)",
-    currentOwner: "Furyuzan Chinoike"
-  },
-  {
-    id: 21,
+    id: 44,
     name: "Samehada",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -223,84 +515,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 22,
-    name: "Ishi no Seimei",
-    classification: "S",
-    nature: "Doton",
-    origin: "Iwagakure",
-    description: "O Ishi no Seimei é um artefato sagrado do País da Pedra que encerra em seu núcleo a essência regenerativa das rochas ancestrais de Iwagakure. Este colar atua diretamente no sistema circulatório e no fluxo vital do portador, fortalecendo a vitalidade celular e a resistência física a danos contínuos. Ele acelera drasticamente a recuperação natural do corpo, permitindo que ferimentos leves fechem em questão de minutos durante o calor da batalha. Além do suporte físico, o colar estabiliza o fluxo de chakra Doton, impedindo que o excesso de esforço cause fadiga prematura nos tenketsus. É um item de suporte essencial para combatentes de linha de frente, garantindo que o portador permaneça de pé mesmo após sofrer impactos que derrubariam um ninja comum. A energia terrestre emitida pelo colar cria um campo de estabilidade vital que protege contra venenos e debilitações sistêmicas leves. É a 'âncora de vida' que permite aos guerreiros da rocha resistirem a cercos prolongados e combates de exaustão.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F22%20-%20Ishi%20no%20Seimei.png?alt=media&v=1788212125097142",
-    originalOwner: "Samurais do País da Pedra",
-    currentOwner: "Oddy Uchiha"
-  },
-  {
-    id: 23,
-    name: "Pergaminho de Invocação",
-    classification: "A+",
-    nature: "Fuinjutsu",
-    origin: "Konohagakure",
-    description: "Este pergaminho de fuinjutsu avançado é a ferramenta definitiva de logística e versatilidade tática para o mestre em armas Nagare Uzumaki. Ele contém centenas de selos de armazenamento complexos, permitindo que arsenais inteiros sejam guardados em um espaço dimensional compactado e invocados instantaneamente. Através de um simples toque ou comando de chakra, o usuário pode materializar espadas, escudos, projéteis ou armadilhas diretamente no campo de batalha, sem qualquer atraso. A velocidade de invocação é tão alta que Nagare pode trocar de arma no meio de um combo, surpreendendo oponentes com mudanças constantes de estilo de luta. O pergaminho também pode ser usado defensivamente para 'sugar' e selar ataques inimigos ou projéteis lançados contra o portador, devolvendo-os posteriormente. É um artefato que elimina a necessidade de carregar equipamentos pesados, transformando um único rolo de papel em uma fortaleza móvel de armamentos. Sua durabilidade é reforçada por fibras de chakra que impedem que o papel seja rasgado ou queimado por técnicas elementais de baixo nível.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F23%20-%20Pergaminho%20de%20Invoca%C3%A7%C3%A3o.png?alt=media&v=1788212124618630",
-    originalOwner: "Nagare Uzumaki",
-    currentOwner: "Nagare Uzumaki"
-  },
-  {
-    id: 24,
-    name: "Sōryū no Seikonseki",
-    classification: "S++",
-    nature: "Chakra Profano + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia milenar guardada pelos monges guerreiros do País da Pedra como um tesouro de poder espiritual. Ela abriga em seu núcleo uma densa concentração de chakra profano ancestral que ressoa com a energia vital das montanhas de Iwagakure. Ao ser ativada, a pedra canaliza essa energia para o usuário, permitindo a manifestação de formas espirituais dracônicas que atacam tanto o corpo quanto a alma do inimigo. O chakra emitido pela pedra possui uma densidade tão alta que pode distorcer a gravidade ao seu redor, tornando cada movimento do usuário esmagador. É um artefato de dupla natureza, exigindo que o portador mantenha um equilíbrio perfeito entre paz espiritual e a fúria do chakra profano contido. Kenma Soryo utiliza a pedra para elevar suas técnicas de Doton Ancestral a um nível onde a própria terra parece ganhar consciência e atacar sob seu comando. É um dos três artefatos sagrados guardados pelos monges de elite do País da Pedra — relíquia à parte do trio de pedras-chave Ryokushin, Aoshin e Akashin.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F24%20-%20S%C5%8Dry%C5%AB%20no%20Seikonseki.png?alt=media&v=1788212124124802",
-    originalOwner: "Oryō Soryo",
-    currentOwner: "Kenma Soryo"
-  },
-  {
-    id: 25,
-    name: "Sōryo no Kōwan",
-    classification: "S++",
-    nature: "Chakra Profano + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições de fuinjutsu ancestral, é o canalizador definitivo para usuários de elementos terrestres e vegetais. Ele atua como um filtro e amplificador de chakra, elevando técnicas baseadas em Doton e Mokuton ao ápice de sua potência e escala. Ao usar o Sōryo no Kōwan, o usuário pode invocar construções de madeira ou rocha que possuem o dobro da densidade normal, tornando-as quase imunes a jutsus de fogo ou perfuração. O bracelete permite que o chakra profano seja injetado nas criações elementais, dando-lhes propriedades corrosivas e a capacidade de drenar energia por contato. Além disso, ele reduz drasticamente o tempo de preparação para jutsus de grande escala, permitindo a criação de florestas ou fortalezas de pedra em segundos. É um item que define a soberania do portador sobre o ambiente natural, transformando o campo de batalha em uma extensão de seu próprio sistema de chakra. Kenma utiliza o bracelete para coordenar ataques complexos onde a terra e a madeira agem em perfeita simbiose espiritual.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F25%20-%20S%C5%8Dryo%20no%20K%C5%8Dwan.png?alt=media&v=1788212123660823",
-    originalOwner: "Oryō Soryo",
-    currentOwner: "Kenma Soryo"
-  },
-  {
-    id: 26,
-    name: "Ryokushin no Seikonseki",
-    classification: "S++",
-    nature: "Chakra Profano + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, focada especificamente na amplificação da resistência física e vitalidade espiritual. Conhecida como a 'Pedra Verde do Corpo Divino', ela emite uma pulsação constante que regenera o chakra profano do usuário conforme ele luta, criando um ciclo de energia quase inesgotável. Quando ativa, a pedra reveste o corpo do portador com uma película invisível de energia densa que anula impactos físicos de médio nível e dissipa técnicas elementais fracas. Ela é utilizada por Kenma Soryo como um núcleo de estabilidade, permitindo que ele suporte a carga mental de manipular jutsus ancestrais por longos períodos sem colapsar. A pedra também pode ser disparada como um projétil de energia concentrada que explode em uma onda de choque esmeralda ao atingir o alvo. Sua cor vibrante é resultado da fusão entre a energia vital da natureza e a corrupção controlada do chakra profano dos monges. É o pilar que sustenta a imortalidade temporária dos guerreiros de elite de Iwagakure no campo de batalha.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F26%20-%20Ryokushin%20no%20Seikonseki.png?alt=media&v=1788212123204154",
-    originalOwner: "Oryō Soryo",
-    currentOwner: "Kenma Soryo"
-  },
-  {
-    id: 27,
-    name: "Akashin no Seikonseki",
-    classification: "S++",
-    nature: "Chakra Profano + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e mais cobiçada das pedras-chave sagradas dos monges de Iwagakure — dizem que guarda um fragmento da própria vontade ancestral, purificado em sangue e fogo. Seu brilho vermelho intenso amplifica a ligação espiritual do portador a níveis quase divinos, permitindo enxergar e manipular almas diretamente, dissolvendo defesas mentais e espirituais do oponente. Kenma Soryo a mantém guardada como último recurso, temendo o preço que sua própria alma pagaria por usá-la sem controle absoluto. Junto de Ryokushin e Aoshin, completa o trio de pedras-chave que os monges de elite do País da Pedra consideram capaz de despertar o verdadeiro potencial de um guerreiro profano.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F27%20-%20Akashin%20no%20Seikonseki.png?alt=media&v=1788212122729700",
-    originalOwner: "Oryō Soryo",
-    currentOwner: "Kenma Soryo"
-  },
-  {
-    id: 28,
-    name: "Aoshin no Seikonseki",
-    classification: "S++",
-    nature: "Chakra Profano + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras-chave sagradas dos monges de Iwagakure, sendo a que possui a maior afinidade com a percepção espiritual e o mundo das sombras. Ela emite um brilho azul profundo e hipnótico que pode ser usado para paralisar a vontade de inimigos mais fracos ou revelar a presença de seres espirituais e usuários de camuflagem. O chakra profano contido em seu núcleo é puramente espiritual, permitindo que o usuário projete sua consciência ou crie ilusões tangíveis que atacam diretamente a mente do alvo. Kenma utiliza a pedra para coordenar o campo de batalha, enviando comandos silenciosos através de ressonância de chakra para seus aliados ou detectando armadilhas ocultas. Em seu estado de liberação total, a pedra cria um domínio de névoa azulada onde a percepção do tempo é distorcida, facilitando assassinatos rápidos e precisos. É a relíquia mais misteriosa e perigosa, pois lida diretamente com a alma e o subconsciente daqueles que entram em seu alcance. Sua posse garante que o portador nunca seja pego de surpresa, agindo como um terceiro olho que enxerga a verdadeira natureza de tudo ao redor.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F28%20-%20Aoshin%20no%20Seikonseki.png?alt=media&v=1788212122219904",
-    originalOwner: "Oryō Soryo",
-    currentOwner: "Kenma Soryo"
-  },
-  {
-    id: 29,
+    id: 45,
     name: "Kabutowari",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -309,188 +524,6 @@ export const arsenalData: Equipment[] = [
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F29%20-%20Kabutowari.png?alt=media&v=1788212121739515",
     originalOwner: "Mangetsu Hozuki",
     currentOwner: "Kenma Soryo"
-  },
-  {
-    id: 30,
-    name: "Gan-tei no Gaitō",
-    classification: "S++",
-    nature: "Doton + Bijuu",
-    origin: "Iwagakure",
-    description: "Esta imponente vestimenta, conhecida como Gan-tei no Gaitō, foi o traje de batalha oficial do Terceiro Tsuchikage, Rock Gunma, e agora serve como a armadura definitiva de Kenma Soryo. Ela não é feita de tecido comum, mas de uma liga de fibras minerais flexíveis que respondem instantaneamente ao chakra Doton do usuário. A capa é alimentada passivamente por resquícios do chakra do Gyūki (Oito-Caudas), o que lhe confere uma 'vida' própria e a capacidade de alternar entre um estado fluido de seda e uma dureza superior ao aço em milésimos de segundo. Durante o combate, a capa pode expandir-se para formar um escudo hemisférico impenetrável ou endurecer suas bordas para agir como uma lâmina circular devastadora em ataques giratórios. Ela também possui propriedades gravitacionais que permitem ao portador voar ou ancorar-se firmemente ao solo contra ataques de repulsão. O chakra do Gyūki injetado no tecido garante que a capa se regenere de qualquer dano em tempo real, tornando-a uma defesa absoluta e eterna. É o símbolo da autoridade imperial da rocha, protegendo o soberano com a força inabalável de uma montanha.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F30%20-%20Gan-tei%20no%20Gait%C5%8D.png?alt=media&v=1788212121262971",
-    originalOwner: "Rock Gunma",
-    diedHolding: ["Rock Gunma"],
-    currentOwner: "Kenma Soryo"
-  },
-  {
-    id: 31,
-    name: "Gunbai",
-    classification: "Z",
-    nature: "Futon + Uchiha",
-    origin: "Konohagakure",
-    description: "O Gunbai Uchiha é um leque de guerra colossal forjado a partir da madeira sagrada de uma árvore ancestral que absorve chakra, sendo uma das armas mais icônicas da história do clã. Ele possui a habilidade mística conhecida como 'Uchiha Gaeshi', que permite ao usuário absorver o impacto de qualquer ninjutsu elemental e convertê-lo em uma rajada de vento violenta que devolve o ataque ao inimigo com o dobro da força original. O artefato responde diretamente ao Sharingan do portador, permitindo que a percepção espacial seja distorcida para criar vácuos defensivos ou teletransportar projéteis para longe. Naoki Uchiha elevou o uso da Gunbai ao ponto de utilizá-la para controlar o clima local, gerando tempestades de vento que podem destruir florestas inteiras em segundos. Suas bordas são afiadas o suficiente para cortar metal, permitindo que o leque seja usado também como um escudo físico e arma de corte simultaneamente. É uma relíquia de dominação absoluta que simboliza o poder inalcançável dos líderes lendários do clã Uchiha, capaz de transformar a ofensiva do oponente em sua própria destruição.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F31%20-%20Gunbai.png?alt=media&v=1788212120758686",
-    originalOwner: "Madara Uchiha",
-    currentOwner: "Naoki Uchiha"
-  },
-  {
-    id: 32,
-    name: "Fujō no Yubiwa",
-    classification: "Z",
-    nature: "Chakra Profano + Fujogan",
-    origin: "Konohagakure",
-    description: "Este anel de aparência sombria e proibida, o Fujō no Yubiwa, foi criado pelo gênio médico Minoru Hyuga como uma ponte experimental entre o poder ocular do Fujogan e o perigoso chakra profano. Ele atua como um núcleo de estabilização molecular que permite ao usuário manipular e injetar chakra profano em outros seres vivos sem causar a corrupção imediata dos tecidos orgânicos ou a loucura do sistema nervoso. O anel filtra as impurezas mais voláteis da energia profana, transformando-a em uma ferramenta cirúrgica que pode curar feridas impossíveis ou paralisar o sistema de chakra inimigo com precisão celular. Kaizuka Hyuga utiliza este artefato para governar a saúde e a morte de seus aliados e inimigos, agindo como um 'médico das sombras' no campo de batalha. O anel emite uma aura purpúrea que detecta fraquezas biológicas invisíveis ao olho comum, guiando os ataques do Fujogan para pontos vitais críticos. É um item que caminha no limite entre a salvação e a destruição, exigindo que o portador possua uma vontade de ferro para não ser consumido pela mesma energia que tenta controlar. Sua posse garante que nenhum segredo biológico permaneça oculto aos olhos de seu mestre.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F32%20-%20Fuj%C5%8D%20no%20Yubiwa.png?alt=media&v=1788212120268715",
-    originalOwner: "Minoru Hyuga",
-    currentOwner: "Kaizuka Hyuga"
-  },
-  {
-    id: 33,
-    name: "Kagefūin no Kama",
-    classification: "Z",
-    nature: "Fuinjutsu",
-    origin: "Konohagakure",
-    description: "A Kagefūin no Kama é uma foice de design exótico e aterrorizante, criada por Raikun Hatake para ser a ferramenta definitiva de supressão e selamento em massa. Sua lâmina curvada é imbuída com fórmulas de fuinjutsu que se ativam ao entrar em contato com o chakra do oponente, gravando instantaneamente selos invisíveis na pele e nos tenketsus do alvo. Esses selos agem como parasitas energéticos, absorvendo o chakra do inimigo continuamente para fortalecer o corpo do usuário ou carregar técnicas devastadoras de contra-ataque. Kuromi Uchiha utiliza a foice para neutralizar jinchūrikis e usuários de transformações elementais, 'costurando' sua energia ao espaço espiritual e impedindo o uso de jutsus poderosos. A corrente acoplada ao cabo permite ataques de longo alcance e manobras de captura que prendem o oponente em uma rede de selamento inescapável. Ao atingir o ápice de sua ativação, a foice pode manifestar sombras sólidas que atacam o inimigo de forma autônoma, drenando sua vida e energia vital com cada corte. É uma arma de execução espiritual que transforma a própria força do oponente em sua sentença de morte definitiva.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F33%20-%20Kagef%C5%ABin%20no%20Kama.png?alt=media&v=1788212119750912",
-    originalOwner: "Raikun Hatake",
-    currentOwner: "Kuromi Uchiha"
-  },
-  {
-    id: 34,
-    name: "Jikan no Ōken",
-    classification: "Z",
-    nature: "Juryūkuton + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "A Jikan no Ōken é possivelmente o artefato mais perigoso e incompreensível do arsenal de Iwagakure, possuindo o poder herético de desafiar as leis fundamentais do universo ao manipular o fluxo do tempo. Sua lâmina emite um brilho cronal instável que permite ao usuário retroceder instantes fatais, desacelerar o tempo em zonas específicas do campo de batalha ou acelerar seus próprios movimentos a velocidades que superam a luz. No entanto, o uso deste poder impõe um custo vital severo, consumindo anos de vida do portador ou drenando sua essência espiritual a cada ativação prolongada. Hades utiliza a espada para prever e anular ataques antes mesmo que eles sejam executados, tornando-se virtualmente intocável em um duelo direto. A lâmina não corta apenas carne; ela 'envelhece' ou 'rejuvenesce' o ponto de impacto, causando a desintegração instantânea de armaduras ou o colapso celular de organismos vivos. É uma arma que exige que o usuário esteja disposto a sacrificar sua própria existência em troca do domínio absoluto sobre o presente e o futuro. Sua simples presença no campo de batalha altera a percepção de todos ao redor, criando uma sensação de 'déjà vu' constante e terror existencial perante o senhor do tempo.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F34%20-%20Jikan%20no%20%C5%8Cken.png?alt=media&v=1788212119159453",
-    originalOwner: "Hikaru Ishi",
-    diedHolding: ["Hikaru Ishi"],
-    currentOwner: "Hades"
-  },
-  {
-    id: 35,
-    name: "Seimei no Saidan",
-    classification: "Z",
-    nature: "Seimeiryoku + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "O Seimei no Saidan, conhecido como o 'Altar da Vida', é uma relíquia proibida de Iwagakure que desafia a barreira entre os vivos e os mortos através da manipulação do Doton Ancestral e da Seimeiryoku (Energia Vital). Este artefato possui a habilidade herética de realizar ressurreições completas, reconectando a alma ao corpo físico, mas exige um sacrifício de chakra ou vida equivalente para equilibrar a balança existencial. O altar julga a pureza do coração e a força de vontade de quem tenta utilizá-lo, podendo rejeitar usuários indignos com explosões de energia vital descontrolada. Hades utiliza este artefato como o pilar central de seus planos, manipulando as leis da morte para garantir a imortalidade de seus servos mais leais. Em combate, o altar pode ser usado para drenar a vitalidade de inimigos em uma área extensa, convertendo-a em cura imediata para o portador e seus aliados. É uma arma de poder divino e amaldiçoado, cuja simples ativação altera o equilíbrio espiritual do mundo ninja. Sua posse garante o domínio sobre a existência, mas cobra um preço que poucos estão dispostos a pagar pela eternidade.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F35%20-%20Seimei%20no%20Saidan.png?alt=media&v=1788212118249389",
-    originalOwner: "Kaien Ishi (Omega)",
-    diedHolding: ["Kaien Ishi (Omega)"],
-    currentOwner: "Hades"
-  },
-  {
-    id: 36,
-    name: "Hakuryū no Reipia",
-    classification: "S++",
-    nature: "Chakra Profano + Fujogan",
-    origin: "Konohagakure",
-    description: "A Hakuryū no Ken, ou 'Espada do Dragão Branco', é uma rapier de design elegante e letal, forjada por Minoru Hyuga para ser a extensão perfeita do Fujogan e do chakra profano. Sua lâmina fina e flexível é capaz de vibrar em frequências que permitem atravessar armaduras e atingir diretamente os pontos de pressão nervosa do inimigo. A cada golpe ou defesa bem-sucedida, a espada absorve uma parcela do chakra do oponente, convertendo-o em ondas de choque de energia branca pura que podem ser disparadas como projéteis cortantes. Naomi Uzumaki herdou esta arma e a utiliza para executar ataques de alta velocidade que paralisam o sistema de chakra do alvo antes mesmo que ele perceba o corte. A rapier emite um brilho espectral constante, simbolizando o dragão branco que reside em seu núcleo e que protege a mente do usuário contra manipulações mentais. É uma arma de precisão absoluta e elegância mortal, capaz de transformar a força bruta do inimigo em combustível para a própria destruição do adversário. Sob o comando de Naomi, a Hakuryū no Ken tornou-se o terror dos campos de batalha, movendo-se como um relâmpago branco que dita o fim de qualquer duelo.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F36%20-%20Hakury%C5%AB%20no%20Reipia.png?alt=media&v=1788212117752905",
-    originalOwner: "Minoru Hyuga",
-    currentOwner: "Naomi Uzumaki"
-  },
-  {
-    id: 37,
-    name: "Uzumaki En'yō",
-    classification: "S++",
-    nature: "Katon + Futon + Fuinjutsu",
-    origin: "Konohagakure",
-    description: "O Uzumaki En'yō é um artefato lendário em formato de ioiô, forjado nas forjas secretas do clã Uzumaki e imbuído com selos de fuinjutsu de alta complexidade. Esta arma desafia a física convencional ao responder diretamente à vontade e ao fluxo de chakra do portador, podendo ser controlada no ar com precisão milimétrica através de fios de chakra invisíveis. Ao ser carregado com Katon ou Futon, o ioiô gera vórtices de chamas carmesim e furacões cortantes que podem incinerar e selar múltiplos alvos simultaneamente. Shoyu Uzumaki utiliza esta arma para criar um estilo de combate imprevisível, atacando de ângulos impossíveis e prendendo inimigos em redes de fogo e correntes de vedação. O artefato possui um núcleo rotativo que armazena energia cinética, tornando cada impacto contra o inimigo exponencialmente mais forte do que o anterior. Além do poder ofensivo, o En'yō pode ser usado para criar escudos de vento e fogo que desviam projéteis e técnicas elementais inimigas. É uma arma que simboliza a engenhosidade e a versatilidade do clã Uzumaki, transformando um objeto aparentemente simples em um instrumento de destruição em massa.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F37%20-%20Uzumaki%20En'y%C5%8D.png?alt=media&v=1788212117132910",
-    originalOwner: "Daiki Uzumaki (D)",
-    currentOwner: "Shoyu Uzumaki"
-  },
-  {
-    id: 38,
-    name: "Uzumaki no Kon",
-    classification: "Z",
-    nature: "Fuinjutsu",
-    origin: "Konohagakure",
-    description: "O Uzumaki no Kon é um nunchaku lendário forjado em Konohagakure, composto por dois bastões de metal adamanto ultra-denso conectados por uma corrente de chakra vivo. Projetado especificamente para canalizar o chakra de selamento característico do clã Uzumaki, o nunchaku pode manifestar elos adicionais de Correntes de Chakra a partir de suas extremidades, permitindo prender e imobilizar oponentes à distância. Cada golpe físico desferido com o Uzumaki no Kon injeta um pulso de fuinjutsu que desestabiliza e sela temporariamente o fluxo de chakra do alvo no ponto de impacto. O nunchaku também possui um selo central que permite armazenar e liberar reservas de chakra, funcionando como um estabilizador perfeito para o portador. É um tesouro inestimável que carrega a resiliência e o poder de selamento espiritual da antiga terra de redemoinhos.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F38%20-%20Uzumaki%20no%20Kon.png?alt=media&v=1788212116220041",
-    originalOwner: "Mito Uzumaki",
-    pastOwners: ["Katsuo Uzumaki"],
-    currentOwner: "Satoshi Namikaze"
-  },
-  {
-    id: 39,
-    name: "Dama no Hiraishin",
-    classification: "A+",
-    nature: "Fuinjutsu",
-    origin: "Konohagakure",
-    description: "Estas esferas metálicas compactas, conhecidas como Dama no Hiraishin, são ferramentas de suporte tático revolucionárias criadas para maximizar a mobilidade em combate de guerrilha. Cada 'bolinha de gude' é gravada com uns selos simplificados da Técnica do Deus Voador do Trovão, permitindo que o usuário as espalhe pelo campo de batalha para criar uma rede de teleporte instantânea e onipresente. Shoyu Uzumaki as utiliza com maestria, arremessando as esferas em trajetórias complexas para flanquear oponentes ou escapar de ataques fatais em milésimos de segundo. Devido ao seu tamanho reduzido e assinatura de chakra mínima, as Damas são quase impossíveis de serem detectadas pelo inimigo até que o teleporte ocorra. Elas também podem ser usadas para transportar projéteis ou redirecionar técnicas inimigas, agindo como portais móveis que distorcem o espaço ao redor do usuário. A rede de teleporte gerada por essas esferas permite que um único ninja pareça estar em múltiplos lugares ao mesmo tempo, confundindo a percepção do adversário. É o auge da aplicação prática de fuinjutsu para combate individual, garantindo que o portador mantenha sempre a iniciativa e a superioridade posicional.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F39%20-%20Dama%20no%20Hiraishin.png?alt=media&v=1788212115311675",
-    originalOwner: "Shiraki Chinoike",
-    currentOwner: "Shoyu Uzumaki"
-  },
-  {
-    id: 40,
-    name: "Okami Earring",
-    classification: "S++",
-    nature: "Senjutsu",
-    origin: "Konohagakure",
-    description: "O Okami Earring é um amuleto ancestral em formato de brinco, forjado a partir de metal sensível a chakra e imbuído com a essência do clã dos lobos sagrados. Este artefato atua como um amplificador de sinal para a mente do usuário, elevando drasticamente o controle de chakra e a sintonia espiritual com invocações caninas. Ao usá-lo, o portador pode se comunicar telepaticamente com seus lobos e compartilhar sua visão e sentidos, permitindo táticas de caça perfeitamente coordenadas. O brinco também funciona como um foco para técnicas de Senjutsu, ajudando a estabilizar as flutuações da energia natural e impedindo a sobrecarga do sistema circulatório de chakra. Kuromi Uchiha utiliza este item para manter uma conexão inquebrável com Okami, permitindo ataques combinados que ignoram o tempo de reação convencional. Além disso, o brinco emite uma pulsação constante que acalma os instintos selvagens do usuário, garantindo foco total mesmo em estados de fúria de batalha. É um símbolo de lealdade e poder selvagem, representando o pacto eterno entre o clã Hatake/Uchiha e os espíritos caninos da floresta.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F40%20-%20Okami%20Earring.png?alt=media&v=1788212114819689",
-    originalOwner: "Raikun Hatake",
-    currentOwner: "Kuromi Uchiha"
-  },
-  {
-    id: 41,
-    name: "Okami no Men",
-    classification: "S++",
-    nature: "Senjutsu",
-    origin: "Konohagakure",
-    description: "A Okami no Men é uma máscara de lobo sagrada de Rank S++ que concede ao usuário uma percepção sensorial divina, permitindo detectar variações mínimas no ambiente e no chakra inimigo a quilômetros de distância. Forjada com minerais reagentes ao Senjutsu, a máscara revela intenções hostis através de uma aura visual colorida, tornando impossível qualquer ataque surpresa ou infiltração. O portador pode ver através de barreiras sólidas e névoas de chakra densas, identificando os pontos vitais e os fluxos nervosos do oponente com precisão absoluta. Além das capacidades visuais, a máscara amplifica o olfato e a audição, transformando o ninja em um predador supremo capaz de rastrear qualquer alvo em qualquer terreno. Kuromi Uchiha utiliza este artefato para coordenar ataques de precisão cirúrgica, garantindo que cada golpe seja letal. A máscara também atua como um escudo mental, protegendo o usuário de genjutsus visuais e distorções sensoriais provocadas pelo inimigo. É o símbolo da vigilância eterna e da ferocidade controlada dos guardiões da floresta.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F41%20-%20Okami%20no%20Men.png?alt=media&v=1788212114079167",
-    originalOwner: "Raikun Hatake",
-    currentOwner: "Kuromi Uchiha"
-  },
-  {
-    id: 42,
-    name: "Kage no Kyōkai",
-    classification: "S++",
-    nature: "Kage Mane",
-    origin: "Konohagakure",
-    description: "O Kage no Kyōkai é um anel ancestral de Rank S++ que pertenceu aos líderes do clã Nara, servindo como o catalisador definitivo para a técnica Kage Mane. O artefato cria uma zona de domínio absoluto ao redor do usuário onde todas as sombras obedecem fielmente à sua vontade, podendo se expandir, contrair ou ganhar solidez física instantaneamente. Sob sua influência, as sombras podem se transformar em lâminas afiadas, correntes de contenção ou barreiras defensivas que bloqueiam ataques físicos e espirituais. O anel permite ao portador controlar múltiplas sombras simultaneamente, prendendo exércitos inteiros em uma rede de escuridão inescapável. Shikaki Nara utiliza este artefato para distorcer o campo de batalha, manipulando o terreno e a movimentação dos inimigos com precisão estratégica. A energia contida no anel amplifica a densidade das sombras, tornando-as resistentes ao fogo e à luz intensa, superando a fraqueza natural da técnica original. É a ferramenta definitiva para o estrategista que governa a batalha através do controle das trevas.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F42%20-%20Kage%20no%20Ky%C5%8Dkai.png?alt=media&v=1788212113613421",
-    originalOwner: "Shikaku Nara",
-    currentOwner: "Shikaki Nara"
-  },
-  {
-    id: 43,
-    name: "Kongōnyo",
-    classification: "Z",
-    nature: "Senjutsu",
-    origin: "Konohagakure",
-    description: "O Kongōnyo é o bastão sagrado de Rank Z que serviu como a arma principal do Terceiro Hokage, Hiruzen Sarutobi, possuindo a dureza lendária do diamante e a flexibilidade da natureza. Este artefato místico tem a capacidade única de converter o chakra natural do usuário em força física bruta e calor térmico concentrado em cada impacto. O bastão pode alterar seu comprimento e peso instantaneamente, permitindo ataques que cobrem quilômetros de distância ou esmagam montanhas com a facilidade de um graveto. Apollo Sarutobi utiliza a Kongōnyo para manifestar o verdadeiro poder dos Sarutobi, combinando golpes devastadores com explosões de chakra solar liberadas pelas extremidades da arma. Em seu estado despertado, o bastão pode se dividir em centenas de fragmentos guiados pela vontade do mestre ou transformar-se em uma gaiola indestrutível de energia Senjutsu. É uma relíquia de sabedoria e destruição, simbolizando o pilar inabalável da Vila da Folha que protege seus herdeiros com a força do Rei Macaco. Sua posse garante que o guerreiro seja uma força da natureza imparável no combate corpo a corpo.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F43%20-%20Kong%C5%8Dnyo.png?alt=media&v=1788212113146135",
-    originalOwner: "Hiruzen Sarutobi",
-    currentOwner: "Apollo Sarutobi"
-  },
-  {
-    id: 44,
-    name: "Raijin no Ken",
-    classification: "Z",
-    nature: "Suiton + Raiton",
-    origin: "Konohagakure",
-    description: "A lendária Raijin no Ken é a espada divina do Segundo Hokage, Tobirama Senju, famosa por ser a arma que selou o destino de inúmeros inimigos lendários. Diferente de sua forma adormecida, a lâmina pode liquefazer-se completamente em um fluxo vivo de água altamente pressurizada e eletrificada por Raiton de nível divino. Esta forma mutável permite que a espada ignore defesas físicas convencionais, atravessando escudos e armaduras para atingir o sistema nervoso e de chakra do alvo diretamente. O usuário pode controlar a Raijin no Ken como um chicote de raios ou uma tempestade giratória que desintegra tudo em seu alcance molecular. Atualmente em posse de Souma Namikaze, a espada reagiu ao seu chakra, ampliando sua escala destrutiva para níveis capazes de partir o solo e ferir seres divinos. É uma relíquia de autoridade absoluta sobre os elementos água e trovão, simbolizando a velocidade e a fúria do Deus do Trovão no campo de batalha. Sua ativação ilumina o horizonte com um brilho azul ofuscante que anuncia o fim eminente do duelo.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F44%20-%20Raijin%20no%20Ken.png?alt=media&v=1788212112675609",
-    originalOwner: "Tobirama Senju",
-    diedHolding: ["Tobirama Senju"],
-    currentOwner: "Souma Namikaze"
-  },
-  {
-    id: 45,
-    name: "Hakuryū",
-    classification: "S++",
-    nature: "Suiton",
-    origin: "Konohagakure",
-    description: "O Hakuryū é um bracelete ancestral de Rank S++ forjado para Tobirama Senju com o propósito de armazenar e amplificar quantidades astronômicas de chakra Suiton. O artefato atua como um reservatório de energia infinita, permitindo que o usuário manifeste técnicas de água de escala colossal, como tsunamis e dragões marinhos, sem consumir suas reservas vitais. Ele possui a habilidade única de converter o chakra do ambiente em água pura e pressurizada, permitindo o uso de jutsus poderosos mesmo em desertos ou áreas áridas. Atualmente sob posse de Naomi Uzumaki, o bracelete maximiza a eficiência de seu Suiton, transformando cada gota em um projétil capaz de perfurar aço reforçado. O Hakuryū emite uma aura fria e calmante que ajuda o portador a manter o foco mental absoluto durante o caos da batalha, estabilizando o fluxo nervoso. É o complemento perfeito para a Raijin no Ken, representando a maestria técnica e a soberania oceânica dos grandes mestres da Vila da Folha. Sua presença garante que a Naomi governe o campo de batalha com a autoridade de um dragão branco dos mares.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F45%20-%20Hakury%C5%AB.png?alt=media&v=1788212112172125",
-    originalOwner: "Tobirama Senju",
-    diedHolding: ["Tobirama Senju"],
-    currentOwner: "Naomi Uzumaki"
   },
   {
     id: 46,
@@ -528,6 +561,72 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 49,
+    name: "Kaikyō no Men",
+    classification: "S+",
+    nature: "Suiton",
+    origin: "Kirigakure",
+    description: "A Kaikyō no Men é uma máscara tradicional de Rank S+ utilizada pela elite dos Oinin (Ninjas Caçadores) de Kirigakure para a perseguição de alvos de alta periculosidade. Forjada com minerais marinhos sensíveis a vibrações, a máscara amplifica os sentidos do usuário ao extremo, permitindo localizar alvos através da névoa mais densa captando frequências sonoras e térmicas quase imperceptíveis. Ela atua como um filtro sensorial que elimina ruídos ambientais irrelevantes, focando inteiramente na assinatura de chakra e nos batimentos cardíacos do fugitivo. O visor da máscara possui selos de fuinjutsu que anulam o efeito de genjutsus visuais, garantindo que o caçador nunca perca seu rastro por ilusões. Além das capacidades de rastreamento, a máscara protege o rosto contra ataques de água pressurizada e permite a respiração subaquática por longos períodos através de brânquias metálicas integradas. É o símbolo do dever implacável da Névoa, transformando o portador em um predador invisível que pode caçar em qualquer ambiente aquático ou sob visibilidade zero. Sua posse garante que nenhum traidor ou inimigo da vila possa se esconder para sempre nas sombras da névoa.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F71%20-%20Kaiky%C5%8D%20no%20Men.png?alt=media&v=1788212093878428",
+    originalOwner: "Genzō Umikage",
+    currentOwner: "Genzō Umikage"
+  },
+  {
+    id: 50,
+    name: "Hyōketsu no Sensu",
+    classification: "S+",
+    nature: "Hyoton",
+    origin: "Kirigakure",
+    description: "O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das montanhas eternas do País da Água, imbuído com a essência da Liberação de Gelo (Hyoton). Ao ser aberto, o leque libera uma névoa congelante de temperatura subzero que pode imobilizar os pés de exércitos inteiros instantaneamente ao tocar o solo ou a umidade do ar. O usuário pode manipular as correntes de ar geradas pelo leque para criar tempestades de estilhaços de gelo afiados como navalhas ou erguer espelhos de cristal de gelo para defesa e movimentação estratégica. O artefato atua como um catalisador de chakra que permite a usuários sem linhagem de gelo manifestarem técnicas básicas de Hyoton com grande eficiência. Em combate, cada abanada do leque drena o calor do ambiente, tornando o campo de batalha progressivamente mais letal para oponentes que não possuam resistência ao frio extremo. O Hyōketsu no Sensu também pode ser usado para selar jutsus de fogo de médio nível, extinguindo chamas através da absorção térmica imediata. É uma arma de controle de área elegante e devastadora, transformando o calor da batalha em um deserto de gelo silencioso e mortal sob o comando do mestre.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F72%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1788212092767622",
+    originalOwner: "Mei Yuki",
+    currentOwner: "Mei Yuki"
+  },
+  {
+    id: 51,
+    name: "Kokutetsu no Kusari",
+    classification: "S+",
+    nature: "",
+    origin: "Kirigakure",
+    description: "As correntes funcionam como chicotes, e cada gomo permite ao Gordon um teleporte rápido. Ele consegue soltar as peças da corrente e imbuir chakra em cada gomo para lutar de forma ágil.",
+    image: "",
+    originalOwner: "Gordon Kirisame",
+    currentOwner: "Gordon Kirisame"
+  },
+  {
+    id: 52,
+    name: "Kiri Basami",
+    classification: "S+",
+    nature: "",
+    origin: "Kirigakure",
+    description: "",
+    image: "",
+    originalOwner: "Mei Yuki",
+    currentOwner: "Mei Yuki"
+  },
+  {
+    id: 53,
+    name: "Yuji no Hōkō",
+    classification: "Z",
+    nature: "Chakra Profano + Raiton",
+    origin: "Kumogakure",
+    description: "O Yuji no Hōkō, ou 'Rugido da Escuridão', é uma Sniper Rifle de Rank Z que representa o ápice proibido da tecnologia militar de Kumogakure e da OCA. Esta arma é capaz de comprimir o Chakra Profano em um projétil de densidade crítica que, ao ser disparado, libera um poder destrutivo equivalente ao de uma Bijuu Dama em um ponto concentrado. O canhão possui um sistema de supressão quântica que anula completamente o som do disparo e torna o projétil invisível aos sentidos comuns e de chakra, garantindo um assassinato perfeito e indetectável. Yuji Yotsuki utiliza esta arma para eliminar deuses e líderes mundiais a distâncias astronômicas, agindo como a mão invisível da destruição absoluta. O recuo da arma é tão massivo que exige ancoragem física ou o uso de jutsus de gravidade para evitar o colapso do sistema esquelético do atirador. Cada tiro bem-sucedido drena uma parcela da sanidade do usuário devido ao contato direto com a essência profana, tornando-a uma arma de sacrifício e poder divino. É a relíquia que garante que a organização permaneça como o predador alfa do mundo ninja, punindo qualquer insurreição com o rugido silencioso do abismo.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F54%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.png?alt=media&v=1788212106969188",
+    originalOwner: "Yuji Yotsuki",
+    currentOwner: "Yuji Yotsuki"
+  },
+  {
+    id: 54,
+    name: "Kasa",
+    classification: "Z",
+    nature: "Ranton + Raiton",
+    origin: "Kumogakure",
+    description: "O Kasa é um lendário chapéu tecnológico criado secretamente para Yoru Kurogami utilizando pesquisas roubadas da OCA combinadas com engenharia avançada de chakra desenvolvida pela Kiba. Considerado um dos artefatos de infiltração mais perigosos já produzidos, o Kasa funciona como um núcleo absoluto de ocultação sensorial capaz de apagar completamente a existência do usuário dentro de um campo operacional.\n\nO artefato libera continuamente partículas microscópicas de chakra misturadas a impulsos invisíveis de Ranton que se espalham silenciosamente pela atmosfera. Essas partículas interferem diretamente na percepção visual, espiritual e sensorial de qualquer indivíduo presente na área.\n\nQuando ativado, o Kasa possui a capacidade de tornar Yoru completamente invisível a olho nu, eliminar sua assinatura de chakra, sabotar sensores de rastreamento, distorcer percepção espacial, reduzir ruídos e interferir em habilidades sensoriais.\n\nAlém da ocultação absoluta, o chapéu energiza constantemente as células dos aliados próximos através de impulsos microscópicos de Raiton, aumentando regeneração celular, recuperação muscular, estabilidade do fluxo de chakra e resistência física.\n\nO Kasa não é apenas um equipamento.\n\nÉ considerado pela OCA uma anomalia tecnológica capaz de transformar operações inteiras em eventos impossíveis de detectar.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F55%20-%20Kasa.png?alt=media&v=1788212106486914",
+    originalOwner: "Yoru Kurogami",
+    currentOwner: "Yoru Kurogami"
+  },
+  {
+    id: 55,
     name: "Hekireki no Yumi",
     classification: "S++",
     nature: "Raiton",
@@ -538,7 +637,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Furyuzan Chinoike"
   },
   {
-    id: 50,
+    id: 56,
     name: "Kumo no Jū",
     classification: "S++",
     nature: "Raiton",
@@ -549,7 +648,18 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yoru Kurogami"
   },
   {
-    id: 51,
+    id: 57,
+    name: "Meishi",
+    classification: "S++",
+    nature: "Ranton + Raiton",
+    origin: "Kumogakure",
+    description: "O Meishi é o braço tecnológico experimental criado exclusivamente para Yoru Kurogami como núcleo operacional da rede tática da Kiba. Integrado diretamente ao sistema nervoso e ao fluxo de chakra do usuário, o braço funciona simultaneamente como arma, central de inteligência, sistema de rastreamento e plataforma avançada de análise sensorial.\n\nConstruído utilizando tecnologia roubada da OCA e adaptado através de engenharia de chakra avançada, o Meishi possui canais internos de Raiton microscópico responsáveis por acelerar processamento de dados e leitura neural em tempo real.\n\nO sistema contém banco de dados de chakra, comunicação holográfica integrada, rastreamento biológico, sensores microscópicos, scanner de linhagem sanguínea, análise de tecnologia ninja e interface tática da Kiba.\n\nSua principal habilidade é o Sensor.\n\nAo apontar o braço para um alvo, partículas invisíveis de Raiton analisam instantaneamente fluxo de chakra, natureza elemental, alterações corporais, experimentos artificiais, estrutura genética, tecnologia integrada e assinatura neural.\n\nAs informações são processadas em tempo real pelo hardware interno e armazenadas automaticamente no banco de dados da Kiba.\n\nAlém da análise, o Meishi também funciona como amplificador de suporte em combate, permitindo que Yoru transfira impulsos avançados de Raiton diretamente para aliados, potencializando capacidades físicas, velocidade, estabilidade de chakra e poder destrutivo.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F56%20-%20Meishi.png?alt=media&v=1788212106000207",
+    originalOwner: "Yoru Kurogami",
+    currentOwner: "Yoru Kurogami"
+  },
+  {
+    id: 58,
     name: "Aoi Hoshi",
     classification: "S+",
     nature: "Raiton",
@@ -560,7 +670,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 52,
+    id: 59,
     name: "Akai Hoshi",
     classification: "S+",
     nature: "Raiton",
@@ -571,7 +681,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 53,
+    id: 60,
     name: "Raigan",
     classification: "S+",
     nature: "Raiton",
@@ -584,96 +694,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 54,
-    name: "Yuji no Hōkō",
-    classification: "Z",
-    nature: "Chakra Profano + Raiton",
-    origin: "Kumogakure",
-    description: "O Yuji no Hōkō, ou 'Rugido da Escuridão', é uma Sniper Rifle de Rank Z que representa o ápice proibido da tecnologia militar de Kumogakure e da OCA. Esta arma é capaz de comprimir o Chakra Profano em um projétil de densidade crítica que, ao ser disparado, libera um poder destrutivo equivalente ao de uma Bijuu Dama em um ponto concentrado. O canhão possui um sistema de supressão quântica que anula completamente o som do disparo e torna o projétil invisível aos sentidos comuns e de chakra, garantindo um assassinato perfeito e indetectável. Yuji Yotsuki utiliza esta arma para eliminar deuses e líderes mundiais a distâncias astronômicas, agindo como a mão invisível da destruição absoluta. O recuo da arma é tão massivo que exige ancoragem física ou o uso de jutsus de gravidade para evitar o colapso do sistema esquelético do atirador. Cada tiro bem-sucedido drena uma parcela da sanidade do usuário devido ao contato direto com a essência profana, tornando-a uma arma de sacrifício e poder divino. É a relíquia que garante que a organização permaneça como o predador alfa do mundo ninja, punindo qualquer insurreição com o rugido silencioso do abismo.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F54%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.png?alt=media&v=1788212106969188",
-    originalOwner: "Yuji Yotsuki",
-    currentOwner: "Yuji Yotsuki"
-  },
-  {
-    id: 55,
-    name: "Kasa",
-    classification: "Z",
-    nature: "Ranton + Raiton",
-    origin: "Kumogakure",
-    description: "O Kasa é um lendário chapéu tecnológico criado secretamente para Yoru Kurogami utilizando pesquisas roubadas da OCA combinadas com engenharia avançada de chakra desenvolvida pela Kiba. Considerado um dos artefatos de infiltração mais perigosos já produzidos, o Kasa funciona como um núcleo absoluto de ocultação sensorial capaz de apagar completamente a existência do usuário dentro de um campo operacional.\n\nO artefato libera continuamente partículas microscópicas de chakra misturadas a impulsos invisíveis de Ranton que se espalham silenciosamente pela atmosfera. Essas partículas interferem diretamente na percepção visual, espiritual e sensorial de qualquer indivíduo presente na área.\n\nQuando ativado, o Kasa possui a capacidade de tornar Yoru completamente invisível a olho nu, eliminar sua assinatura de chakra, sabotar sensores de rastreamento, distorcer percepção espacial, reduzir ruídos e interferir em habilidades sensoriais.\n\nAlém da ocultação absoluta, o chapéu energiza constantemente as células dos aliados próximos através de impulsos microscópicos de Raiton, aumentando regeneração celular, recuperação muscular, estabilidade do fluxo de chakra e resistência física.\n\nO Kasa não é apenas um equipamento.\n\nÉ considerado pela OCA uma anomalia tecnológica capaz de transformar operações inteiras em eventos impossíveis de detectar.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F55%20-%20Kasa.png?alt=media&v=1788212106486914",
-    originalOwner: "Yoru Kurogami",
-    currentOwner: "Yoru Kurogami"
-  },
-  {
-    id: 56,
-    name: "Meishi",
-    classification: "S++",
-    nature: "Ranton + Raiton",
-    origin: "Kumogakure",
-    description: "O Meishi é o braço tecnológico experimental criado exclusivamente para Yoru Kurogami como núcleo operacional da rede tática da Kiba. Integrado diretamente ao sistema nervoso e ao fluxo de chakra do usuário, o braço funciona simultaneamente como arma, central de inteligência, sistema de rastreamento e plataforma avançada de análise sensorial.\n\nConstruído utilizando tecnologia roubada da OCA e adaptado através de engenharia de chakra avançada, o Meishi possui canais internos de Raiton microscópico responsáveis por acelerar processamento de dados e leitura neural em tempo real.\n\nO sistema contém banco de dados de chakra, comunicação holográfica integrada, rastreamento biológico, sensores microscópicos, scanner de linhagem sanguínea, análise de tecnologia ninja e interface tática da Kiba.\n\nSua principal habilidade é o Sensor.\n\nAo apontar o braço para um alvo, partículas invisíveis de Raiton analisam instantaneamente fluxo de chakra, natureza elemental, alterações corporais, experimentos artificiais, estrutura genética, tecnologia integrada e assinatura neural.\n\nAs informações são processadas em tempo real pelo hardware interno e armazenadas automaticamente no banco de dados da Kiba.\n\nAlém da análise, o Meishi também funciona como amplificador de suporte em combate, permitindo que Yoru transfira impulsos avançados de Raiton diretamente para aliados, potencializando capacidades físicas, velocidade, estabilidade de chakra e poder destrutivo.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F56%20-%20Meishi.png?alt=media&v=1788212106000207",
-    originalOwner: "Yoru Kurogami",
-    currentOwner: "Yoru Kurogami"
-  },
-  {
-    id: 57,
-    name: "Kinjishi no Tsume",
-    classification: "S++",
-    nature: "Sakin + Dokujutsu",
-    origin: "Sunagakure",
-    description: "As Kinjishi no Tsume, ou 'Garras do Leão de Ouro', são armas de Rank S++ forjadas a partir de ouro maciço purificado e imbuído com densas propriedades magnéticas. Devido ao peso colossal do ouro de Suna, as garras possuem um impacto físico que pode pulverizar ossos e armaduras com a facilidade de um martelo hidráulico. O usuário pode manipular magneticamente o comprimento das garras, estendendo-as para ataques de médio alcance ou criando lâminas rotativas de Areia Dourada ao redor dos punhos. Cada lâmina é banhada em um veneno neurotóxico exclusivo do deserto que causa paralisia imediata e necrose tecidual se entrar na corrente sanguínea. É a arma de assinatura para o combatente de vanguarda que busca dominar o campo através da força bruta e da manipulação elementar pesada. A aura dourada emitida pelas garras cega oponentes próximos e desvia projéteis metálicos através de um campo magnético permanente. Sua posse representa o orgulho e a riqueza letal da linhagem real de Sunagakure, transformando o portador em um leão faminto feito de metal precioso.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F57%20-%20Kinjishi%20no%20Tsume.png?alt=media&v=1788212105066231",
-    originalOwner: "Hana Sabaku",
-    currentOwner: "Sayuri Sabaku"
-  },
-  {
-    id: 58,
-    name: "Kinjishi no Kōwan",
-    classification: "S++",
-    nature: "Sakin + Satetsu",
-    origin: "Sunagakure",
-    description: "As Kinjishi no Kōwan são manoplas de Rank S++ que representam o auge do controle magnético, permitindo ao usuário fundir Areia Dourada e Areia de Ferro em torno de seus braços. Este equipamento atua como um amplificador de densidade, transformando cada soco em um impacto de nível tectônico capaz de gerar ondas de choque que partem o solo. As manoplas permitem a criação de barreiras geométricas de alta densidade que podem refletir ataques elementais e projéteis balísticos com facilidade absoluta. O portador pode alternar entre a defesa impenetrável do ouro e a versatilidade perfurante do ferro em frações de segundo, tornando-se um adversário impossível de ser previsto. A energia magnética liberada pelas braçadeiras pode ser usada para atrair ou repelir inimigos, controlando o fluxo do combate corpo a corpo com autoridade divina. É o traje de guerra definitivo para os guardiões da Areia, simbolizando a união entre a riqueza do ouro e a força industrial do ferro. Sua posse garante que o guerreiro seja uma fortaleza móvel no centro do deserto, esmagando qualquer resistência com punhos de metal sagrado.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F58%20-%20Kinjishi%20no%20K%C5%8Dwan.png?alt=media&v=1788212104577996",
-    originalOwner: "Tessai Enshaku",
-    currentOwner: "Tessai Enshaku"
-  },
-  {
-    id: 59,
-    name: "Sakin no Reigan",
-    classification: "S++",
-    nature: "Sakin",
-    origin: "Kirigakure",
-    description: "O Sakin no Reigan, ou 'Olho Espectral de Areia Dourada', é um dispositivo de espionagem de Rank S++ composto por bilhões de nano-partículas de ouro controladas magneticamente. Este artefato atua como um drone de vigilância onisciente, capaz de transmitir imagens térmicas, assinaturas de chakra e vibrações sonoras diretamente para a mente do usuário. Devido à sua natureza granular, o olho pode se infiltrar em frestas minúsculas e permanecer indetectável por sentidos comuns, agindo como um espião perfeito no campo de batalha. O portador pode ver através do Reigan em um raio de quilômetros, permitindo a coordenação de ataques à distância ou a detecção de emboscadas antes mesmo que ocorram. Em caso de necessidade, a esfera de areia dourada pode explodir em uma nuvem de poeira sufocante ou endurecer para agir como um projétil perfurante de alta precisão. É a ferramenta de inteligência suprema de Sunagakure, garantindo que o deserto nunca guarde segredos daqueles que o governam. Sua posse transforma o usuário em um mestre estrategista que possui a visão total do campo de batalha e da infraestrutura inimiga.",
-    image: "",
-    originalOwner: "Reto Sabaku",
-    currentOwner: "Tetsu Sabaku"
-  },
-  {
-    id: 60,
-    name: "Bitei",
-    classification: "S+",
-    nature: "Satetsu + Dokujutsu",
-    origin: "Sunagakure",
-    description: "A Bitei, ou 'Cauda do Escorpião do Deserto', é um chicote articulado de Rank S+ forjado em Ferro Negro e imbuído com núcleos de Areia de Ferro magnetizada. Sua estrutura flexível e segmentada permite ataques imprevisíveis que podem contornar defesas e atingir alvos em ângulos impossíveis com velocidade letal. A ponta do chicote possui uma agulha retrátil carregada com uma toxina sintética que drena o chakra do oponente por contato, convertendo essa energia em calor para aumentar a flexibilidade da arma. O portador pode manipular magneticamente a tensão e a trajetória da Bitei, permitindo prender inimigos ou usá-la como uma ferramenta de movimentação rápida pelo terreno acidentado. Durante o combate, a arma emite um som metálico sibilante que desorienta os sentidos do inimigo, preparando-o para o bote fatal. É a arma de assinatura para ninjas de estilo sádico e técnico que buscam incapacitar o alvo através de mil cortes e envenenamento progressivo. Sua posse garante que o portador seja um predador silencioso e implacável nas sombras das dunas, simbolizando a natureza traiçoeira e mortal do escorpião.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F60%20-%20Bitei.png?alt=media&v=1788212104048506",
-    originalOwner: "Mizue Dokuhana",
-    currentOwner: "Mizue Dokuhana"
-  },
-  {
     id: 61,
-    name: "Tetsu no Sabaku-kyū",
-    classification: "S++",
-    nature: "Satetsu",
-    origin: "Sunagakure",
-    description: "O Tetsu no Sabaku-kyū, o 'Caixão de Ferro Móvel', é um jarro metálico de Rank S++ que armazena grandes quantidades de Areia de Ferro pré-magnetizada de altíssima densidade. O usuário utiliza núcleos magnéticos internos para manifestar formas geométricas gigantescas — como pirâmides, cubos e esferas — que possuem uma dureza superior ao diamante para esmagar ou selar oponentes. Diferente da areia comum, o ferro de Suna ignora a umidade e a temperatura, mantendo sua integridade mesmo em condições climáticas extremas ou sob ataques elementais. O caixão permite ao ninja criar campos de força magnética que anulam projéteis e desestabilizam o equilíbrio de inimigos próximos através da distorção do campo de gravidade local. É a ferramenta definitiva de controle de área e supressão pesada, transformando o ambiente em uma armadilha metálica inescapável sob o comando do mestre do magnetismo. A areia de ferro pode ser refinada em pó para ser inalada pelos inimigos, causando danos internos massivos e destruindo o sistema circulatório de chakra de dentro para fora. Sua posse representa a força industrial e defensiva inabalável de Sunagakure, protegendo a vila com o peso do metal eterno.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F61%20-%20Tetsu%20no%20Sabaku-ky%C5%AB.png?alt=media&v=1788212103566150",
-    originalOwner: "Sayuri Sabaku",
-    pastOwners: ["Reto Sabaku"],
-    currentOwner: "Sayuri Sabaku"
-  },
-  {
-    id: 62,
     name: "Satetsu no Rinne",
     classification: "Z",
     nature: "Satetsu",
@@ -685,7 +706,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Tetsu Sabaku"
   },
   {
-    id: 63,
+    id: 62,
     name: "Sakin no Shinra",
     classification: "Z",
     nature: "Sakin",
@@ -697,7 +718,189 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hana Sabaku"
   },
   {
+    id: 63,
+    name: "Kinjishi no Tsume",
+    classification: "S++",
+    nature: "Sakin + Dokujutsu",
+    origin: "Sunagakure",
+    description: "As Kinjishi no Tsume, ou 'Garras do Leão de Ouro', são armas de Rank S++ forjadas a partir de ouro maciço purificado e imbuído com densas propriedades magnéticas. Devido ao peso colossal do ouro de Suna, as garras possuem um impacto físico que pode pulverizar ossos e armaduras com a facilidade de um martelo hidráulico. O usuário pode manipular magneticamente o comprimento das garras, estendendo-as para ataques de médio alcance ou criando lâminas rotativas de Areia Dourada ao redor dos punhos. Cada lâmina é banhada em um veneno neurotóxico exclusivo do deserto que causa paralisia imediata e necrose tecidual se entrar na corrente sanguínea. É a arma de assinatura para o combatente de vanguarda que busca dominar o campo através da força bruta e da manipulação elementar pesada. A aura dourada emitida pelas garras cega oponentes próximos e desvia projéteis metálicos através de um campo magnético permanente. Sua posse representa o orgulho e a riqueza letal da linhagem real de Sunagakure, transformando o portador em um leão faminto feito de metal precioso.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F57%20-%20Kinjishi%20no%20Tsume.png?alt=media&v=1788212105066231",
+    originalOwner: "Hana Sabaku",
+    currentOwner: "Sayuri Sabaku"
+  },
+  {
     id: 64,
+    name: "Kinjishi no Kōwan",
+    classification: "S++",
+    nature: "Sakin + Satetsu",
+    origin: "Sunagakure",
+    description: "As Kinjishi no Kōwan são manoplas de Rank S++ que representam o auge do controle magnético, permitindo ao usuário fundir Areia Dourada e Areia de Ferro em torno de seus braços. Este equipamento atua como um amplificador de densidade, transformando cada soco em um impacto de nível tectônico capaz de gerar ondas de choque que partem o solo. As manoplas permitem a criação de barreiras geométricas de alta densidade que podem refletir ataques elementais e projéteis balísticos com facilidade absoluta. O portador pode alternar entre a defesa impenetrável do ouro e a versatilidade perfurante do ferro em frações de segundo, tornando-se um adversário impossível de ser previsto. A energia magnética liberada pelas braçadeiras pode ser usada para atrair ou repelir inimigos, controlando o fluxo do combate corpo a corpo com autoridade divina. É o traje de guerra definitivo para os guardiões da Areia, simbolizando a união entre a riqueza do ouro e a força industrial do ferro. Sua posse garante que o guerreiro seja uma fortaleza móvel no centro do deserto, esmagando qualquer resistência com punhos de metal sagrado.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F58%20-%20Kinjishi%20no%20K%C5%8Dwan.png?alt=media&v=1788212104577996",
+    originalOwner: "Tessai Enshaku",
+    currentOwner: "Tessai Enshaku"
+  },
+  {
+    id: 65,
+    name: "Tetsu no Sabaku-kyū",
+    classification: "S++",
+    nature: "Satetsu",
+    origin: "Sunagakure",
+    description: "O Tetsu no Sabaku-kyū, o 'Caixão de Ferro Móvel', é um jarro metálico de Rank S++ que armazena grandes quantidades de Areia de Ferro pré-magnetizada de altíssima densidade. O usuário utiliza núcleos magnéticos internos para manifestar formas geométricas gigantescas — como pirâmides, cubos e esferas — que possuem uma dureza superior ao diamante para esmagar ou selar oponentes. Diferente da areia comum, o ferro de Suna ignora a umidade e a temperatura, mantendo sua integridade mesmo em condições climáticas extremas ou sob ataques elementais. O caixão permite ao ninja criar campos de força magnética que anulam projéteis e desestabilizam o equilíbrio de inimigos próximos através da distorção do campo de gravidade local. É a ferramenta definitiva de controle de área e supressão pesada, transformando o ambiente em uma armadilha metálica inescapável sob o comando do mestre do magnetismo. A areia de ferro pode ser refinada em pó para ser inalada pelos inimigos, causando danos internos massivos e destruindo o sistema circulatório de chakra de dentro para fora. Sua posse representa a força industrial e defensiva inabalável de Sunagakure, protegendo a vila com o peso do metal eterno.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F61%20-%20Tetsu%20no%20Sabaku-ky%C5%AB.png?alt=media&v=1788212103566150",
+    originalOwner: "Sayuri Sabaku",
+    pastOwners: ["Reto Sabaku"],
+    currentOwner: "Sayuri Sabaku"
+  },
+  {
+    id: 66,
+    name: "Bitei",
+    classification: "S+",
+    nature: "Satetsu + Dokujutsu",
+    origin: "Sunagakure",
+    description: "A Bitei, ou 'Cauda do Escorpião do Deserto', é um chicote articulado de Rank S+ forjado em Ferro Negro e imbuído com núcleos de Areia de Ferro magnetizada. Sua estrutura flexível e segmentada permite ataques imprevisíveis que podem contornar defesas e atingir alvos em ângulos impossíveis com velocidade letal. A ponta do chicote possui uma agulha retrátil carregada com uma toxina sintética que drena o chakra do oponente por contato, convertendo essa energia em calor para aumentar a flexibilidade da arma. O portador pode manipular magneticamente a tensão e a trajetória da Bitei, permitindo prender inimigos ou usá-la como uma ferramenta de movimentação rápida pelo terreno acidentado. Durante o combate, a arma emite um som metálico sibilante que desorienta os sentidos do inimigo, preparando-o para o bote fatal. É a arma de assinatura para ninjas de estilo sádico e técnico que buscam incapacitar o alvo através de mil cortes e envenenamento progressivo. Sua posse garante que o portador seja um predador silencioso e implacável nas sombras das dunas, simbolizando a natureza traiçoeira e mortal do escorpião.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F60%20-%20Bitei.png?alt=media&v=1788212104048506",
+    originalOwner: "Mizue Dokuhana",
+    currentOwner: "Mizue Dokuhana"
+  },
+  {
+    id: 67,
+    name: "Homura no Chikai",
+    classification: "Z",
+    nature: "Purazomaton + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "A Homura no Chikai é uma espada lendária forjada para o domínio do Purazomaton (Plasma), o elemento supremo do País da Pedra. Originalmente uma arma de destruição absoluta, ela sofreu uma adaptação única para se ajustar às limitações energéticas de seu antigo portador, Hirato Ishi, concentrando seu poder no Katon de alta densidade. Atualmente em posse de Oddy Uchiha, a lâmina libera um calor que ultrapassa a temperatura de fusão do aço, criando um campo de plasma ao redor do corte que ignora resistências moleculares. Cada golpe deixa um rastro de lava incandescente que continua a queimar por minutos, impossibilitando qualquer regeneração imediata do alvo. A espada também pode absorver impactos de terra para recarregar sua energia térmica, tornando-a uma arma defensiva-ofensiva equilibrada. Sua presença no campo de batalha é marcada por um brilho alaranjado ofuscante e o cheiro persistente de metal fundido.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F08%20-%20Homura%20no%20Chikai.png?alt=media&v=1788212131843109",
+    originalOwner: "Hirato Ishi",
+    diedHolding: ["Hirato Ishi"],
+    currentOwner: "Oddy Uchiha"
+  },
+  {
+    id: 68,
+    name: "Jikan no Ōken",
+    classification: "Z",
+    nature: "Juryūkuton + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "A Jikan no Ōken é possivelmente o artefato mais perigoso e incompreensível do arsenal de Iwagakure, possuindo o poder herético de desafiar as leis fundamentais do universo ao manipular o fluxo do tempo. Sua lâmina emite um brilho cronal instável que permite ao usuário retroceder instantes fatais, desacelerar o tempo em zonas específicas do campo de batalha ou acelerar seus próprios movimentos a velocidades que superam a luz. No entanto, o uso deste poder impõe um custo vital severo, consumindo anos de vida do portador ou drenando sua essência espiritual a cada ativação prolongada. Hades utiliza a espada para prever e anular ataques antes mesmo que eles sejam executados, tornando-se virtualmente intocável em um duelo direto. A lâmina não corta apenas carne; ela 'envelhece' ou 'rejuvenesce' o ponto de impacto, causando a desintegração instantânea de armaduras ou o colapso celular de organismos vivos. É uma arma que exige que o usuário esteja disposto a sacrificar sua própria existência em troca do domínio absoluto sobre o presente e o futuro. Sua simples presença no campo de batalha altera a percepção de todos ao redor, criando uma sensação de 'déjà vu' constante e terror existencial perante o senhor do tempo.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F34%20-%20Jikan%20no%20%C5%8Cken.png?alt=media&v=1788212119159453",
+    originalOwner: "Hikaru Ishi",
+    diedHolding: ["Hikaru Ishi"],
+    currentOwner: "Hades"
+  },
+  {
+    id: 69,
+    name: "Seimei no Saidan",
+    classification: "Z",
+    nature: "Seimeiryoku + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "O Seimei no Saidan, conhecido como o 'Altar da Vida', é uma relíquia proibida de Iwagakure que desafia a barreira entre os vivos e os mortos através da manipulação do Doton Ancestral e da Seimeiryoku (Energia Vital). Este artefato possui a habilidade herética de realizar ressurreições completas, reconectando a alma ao corpo físico, mas exige um sacrifício de chakra ou vida equivalente para equilibrar a balança existencial. O altar julga a pureza do coração e a força de vontade de quem tenta utilizá-lo, podendo rejeitar usuários indignos com explosões de energia vital descontrolada. Hades utiliza este artefato como o pilar central de seus planos, manipulando as leis da morte para garantir a imortalidade de seus servos mais leais. Em combate, o altar pode ser usado para drenar a vitalidade de inimigos em uma área extensa, convertendo-a em cura imediata para o portador e seus aliados. É uma arma de poder divino e amaldiçoado, cuja simples ativação altera o equilíbrio espiritual do mundo ninja. Sua posse garante o domínio sobre a existência, mas cobra um preço que poucos estão dispostos a pagar pela eternidade.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F35%20-%20Seimei%20no%20Saidan.png?alt=media&v=1788212118249389",
+    originalOwner: "Kaien Ishi (Omega)",
+    diedHolding: ["Kaien Ishi (Omega)"],
+    currentOwner: "Hades"
+  },
+  {
+    id: 70,
+    name: "Sōryū no Seikonseki",
+    classification: "S++",
+    nature: "Chakra Profano + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia milenar guardada pelos monges guerreiros do País da Pedra como um tesouro de poder espiritual. Ela abriga em seu núcleo uma densa concentração de chakra profano ancestral que ressoa com a energia vital das montanhas de Iwagakure. Ao ser ativada, a pedra canaliza essa energia para o usuário, permitindo a manifestação de formas espirituais dracônicas que atacam tanto o corpo quanto a alma do inimigo. O chakra emitido pela pedra possui uma densidade tão alta que pode distorcer a gravidade ao seu redor, tornando cada movimento do usuário esmagador. É um artefato de dupla natureza, exigindo que o portador mantenha um equilíbrio perfeito entre paz espiritual e a fúria do chakra profano contido. Kenma Soryo utiliza a pedra para elevar suas técnicas de Doton Ancestral a um nível onde a própria terra parece ganhar consciência e atacar sob seu comando. É um dos três artefatos sagrados guardados pelos monges de elite do País da Pedra — relíquia à parte do trio de pedras-chave Ryokushin, Aoshin e Akashin.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F24%20-%20S%C5%8Dry%C5%AB%20no%20Seikonseki.png?alt=media&v=1788212124124802",
+    originalOwner: "Oryō Soryo",
+    currentOwner: "Kenma Soryo"
+  },
+  {
+    id: 71,
+    name: "Sōryo no Kōwan",
+    classification: "S++",
+    nature: "Chakra Profano + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições de fuinjutsu ancestral, é o canalizador definitivo para usuários de elementos terrestres e vegetais. Ele atua como um filtro e amplificador de chakra, elevando técnicas baseadas em Doton e Mokuton ao ápice de sua potência e escala. Ao usar o Sōryo no Kōwan, o usuário pode invocar construções de madeira ou rocha que possuem o dobro da densidade normal, tornando-as quase imunes a jutsus de fogo ou perfuração. O bracelete permite que o chakra profano seja injetado nas criações elementais, dando-lhes propriedades corrosivas e a capacidade de drenar energia por contato. Além disso, ele reduz drasticamente o tempo de preparação para jutsus de grande escala, permitindo a criação de florestas ou fortalezas de pedra em segundos. É um item que define a soberania do portador sobre o ambiente natural, transformando o campo de batalha em uma extensão de seu próprio sistema de chakra. Kenma utiliza o bracelete para coordenar ataques complexos onde a terra e a madeira agem em perfeita simbiose espiritual.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F25%20-%20S%C5%8Dryo%20no%20K%C5%8Dwan.png?alt=media&v=1788212123660823",
+    originalOwner: "Oryō Soryo",
+    currentOwner: "Kenma Soryo"
+  },
+  {
+    id: 72,
+    name: "Ryokushin no Seikonseki",
+    classification: "S++",
+    nature: "Chakra Profano + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, focada especificamente na amplificação da resistência física e vitalidade espiritual. Conhecida como a 'Pedra Verde do Corpo Divino', ela emite uma pulsação constante que regenera o chakra profano do usuário conforme ele luta, criando um ciclo de energia quase inesgotável. Quando ativa, a pedra reveste o corpo do portador com uma película invisível de energia densa que anula impactos físicos de médio nível e dissipa técnicas elementais fracas. Ela é utilizada por Kenma Soryo como um núcleo de estabilidade, permitindo que ele suporte a carga mental de manipular jutsus ancestrais por longos períodos sem colapsar. A pedra também pode ser disparada como um projétil de energia concentrada que explode em uma onda de choque esmeralda ao atingir o alvo. Sua cor vibrante é resultado da fusão entre a energia vital da natureza e a corrupção controlada do chakra profano dos monges. É o pilar que sustenta a imortalidade temporária dos guerreiros de elite de Iwagakure no campo de batalha.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F26%20-%20Ryokushin%20no%20Seikonseki.png?alt=media&v=1788212123204154",
+    originalOwner: "Oryō Soryo",
+    currentOwner: "Kenma Soryo"
+  },
+  {
+    id: 73,
+    name: "Akashin no Seikonseki",
+    classification: "S++",
+    nature: "Chakra Profano + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e mais cobiçada das pedras-chave sagradas dos monges de Iwagakure — dizem que guarda um fragmento da própria vontade ancestral, purificado em sangue e fogo. Seu brilho vermelho intenso amplifica a ligação espiritual do portador a níveis quase divinos, permitindo enxergar e manipular almas diretamente, dissolvendo defesas mentais e espirituais do oponente. Kenma Soryo a mantém guardada como último recurso, temendo o preço que sua própria alma pagaria por usá-la sem controle absoluto. Junto de Ryokushin e Aoshin, completa o trio de pedras-chave que os monges de elite do País da Pedra consideram capaz de despertar o verdadeiro potencial de um guerreiro profano.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F27%20-%20Akashin%20no%20Seikonseki.png?alt=media&v=1788212122729700",
+    originalOwner: "Oryō Soryo",
+    currentOwner: "Kenma Soryo"
+  },
+  {
+    id: 74,
+    name: "Aoshin no Seikonseki",
+    classification: "S++",
+    nature: "Chakra Profano + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras-chave sagradas dos monges de Iwagakure, sendo a que possui a maior afinidade com a percepção espiritual e o mundo das sombras. Ela emite um brilho azul profundo e hipnótico que pode ser usado para paralisar a vontade de inimigos mais fracos ou revelar a presença de seres espirituais e usuários de camuflagem. O chakra profano contido em seu núcleo é puramente espiritual, permitindo que o usuário projete sua consciência ou crie ilusões tangíveis que atacam diretamente a mente do alvo. Kenma utiliza a pedra para coordenar o campo de batalha, enviando comandos silenciosos através de ressonância de chakra para seus aliados ou detectando armadilhas ocultas. Em seu estado de liberação total, a pedra cria um domínio de névoa azulada onde a percepção do tempo é distorcida, facilitando assassinatos rápidos e precisos. É a relíquia mais misteriosa e perigosa, pois lida diretamente com a alma e o subconsciente daqueles que entram em seu alcance. Sua posse garante que o portador nunca seja pego de surpresa, agindo como um terceiro olho que enxerga a verdadeira natureza de tudo ao redor.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F28%20-%20Aoshin%20no%20Seikonseki.png?alt=media&v=1788212122219904",
+    originalOwner: "Oryō Soryo",
+    currentOwner: "Kenma Soryo"
+  },
+  {
+    id: 75,
+    name: "Gan-tei no Gaitō",
+    classification: "S++",
+    nature: "Doton + Bijuu",
+    origin: "Iwagakure",
+    description: "Esta imponente vestimenta, conhecida como Gan-tei no Gaitō, foi o traje de batalha oficial do Terceiro Tsuchikage, Rock Gunma, e agora serve como a armadura definitiva de Kenma Soryo. Ela não é feita de tecido comum, mas de uma liga de fibras minerais flexíveis que respondem instantaneamente ao chakra Doton do usuário. A capa é alimentada passivamente por resquícios do chakra do Gyūki (Oito-Caudas), o que lhe confere uma 'vida' própria e a capacidade de alternar entre um estado fluido de seda e uma dureza superior ao aço em milésimos de segundo. Durante o combate, a capa pode expandir-se para formar um escudo hemisférico impenetrável ou endurecer suas bordas para agir como uma lâmina circular devastadora em ataques giratórios. Ela também possui propriedades gravitacionais que permitem ao portador voar ou ancorar-se firmemente ao solo contra ataques de repulsão. O chakra do Gyūki injetado no tecido garante que a capa se regenere de qualquer dano em tempo real, tornando-a uma defesa absoluta e eterna. É o símbolo da autoridade imperial da rocha, protegendo o soberano com a força inabalável de uma montanha.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F30%20-%20Gan-tei%20no%20Gait%C5%8D.png?alt=media&v=1788212121262971",
+    originalOwner: "Rock Gunma",
+    diedHolding: ["Rock Gunma"],
+    currentOwner: "Kenma Soryo"
+  },
+  {
+    id: 76,
+    name: "Ishi no Kubikazari",
+    classification: "S",
+    nature: "Doton",
+    origin: "Iwagakure",
+    description: "O Ishi no Kubikazari é um colar de poder bruto, forjado a partir de minerais raros encontrados apenas nas profundezas mais isoladas das montanhas do País da Pedra. Ele foi desenhado originalmente para os generais samurais de Iwagakure, servindo como um estabilizador de fluxo vital para técnicas de resistência extrema. O artefato amplia a reserva natural de chakra do usuário em até 50%, permitindo a execução de jutsus de Rank S consecutivamente sem causar exaustão física imediata. Além do aumento quantitativo, ele melhora a densidade do chakra Doton, tornando as defesas de terra do portador praticamente impenetráveis por armas metálicas comuns. Em momentos de crise, o colar pode liberar uma carga de energia terrestre que endurece a pele do usuário ao nível do diamante por breves períodos. É um item indispensável para combatentes que priorizam a durabilidade e o controle absoluto do campo de batalha terrestre.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F11%20-%20Ishi%20no%20Kubikazari.png?alt=media&v=1788212130407171",
+    originalOwner: "Samurais do País da Pedra",
+    currentOwner: "Oddy Uchiha"
+  },
+  {
+    id: 77,
+    name: "Ishi no Seimei",
+    classification: "S",
+    nature: "Doton",
+    origin: "Iwagakure",
+    description: "O Ishi no Seimei é um artefato sagrado do País da Pedra que encerra em seu núcleo a essência regenerativa das rochas ancestrais de Iwagakure. Este colar atua diretamente no sistema circulatório e no fluxo vital do portador, fortalecendo a vitalidade celular e a resistência física a danos contínuos. Ele acelera drasticamente a recuperação natural do corpo, permitindo que ferimentos leves fechem em questão de minutos durante o calor da batalha. Além do suporte físico, o colar estabiliza o fluxo de chakra Doton, impedindo que o excesso de esforço cause fadiga prematura nos tenketsus. É um item de suporte essencial para combatentes de linha de frente, garantindo que o portador permaneça de pé mesmo após sofrer impactos que derrubariam um ninja comum. A energia terrestre emitida pelo colar cria um campo de estabilidade vital que protege contra venenos e debilitações sistêmicas leves. É a 'âncora de vida' que permite aos guerreiros da rocha resistirem a cercos prolongados e combates de exaustão.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F22%20-%20Ishi%20no%20Seimei.png?alt=media&v=1788212125097142",
+    originalOwner: "Samurais do País da Pedra",
+    currentOwner: "Oddy Uchiha"
+  },
+  {
+    id: 78,
+    name: "Ganryū no Omori",
+    classification: "A+",
+    nature: "Doton",
+    origin: "Iwagakure",
+    description: "Estes pesos ancestrais, conhecidos como Ganryū no Omori, são imbuídos com chakra Doton de alta gravidade, tornando-os infinitamente mais pesados do que sua aparência sugere. Eles foram criados pelos monges da Vila dos Monges para o treinamento de força física e purificação do fluxo de chakra através da resistência constante. Ao usá-los, o portador é submetido a uma pressão gravitacional que fortalece cada músculo, osso e rede de tenketsus de forma sobre-humana. No instante em que os pesos são removidos, o corpo do usuário experimenta uma 'liberação cinética' que resulta em picos de velocidade e agilidade que desafiam as leis da física. Katsumi Hyuga utiliza este equipamento para elevar sua velocidade de reação ao nível do Hiraishin, tornando seus golpes do Juken quase impossíveis de serem acompanhados pelo olho humano. O impacto de um soco ou chute dado após o treinamento com estes pesos pode pulverizar rochas sólidas sem a necessidade de jutsus ofensivos adicionais.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F12%20-%20Ganry%C5%AB%20no%20Omori.png?alt=media&v=1788212129877033",
+    originalOwner: "Monges da Vila dos Monges",
+    diedHolding: ["Katsumi Hyuga"],
+    currentOwner: "Katsumi Hyuga"
+  },
+  {
+    id: 79,
     name: "Mugen",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -708,7 +911,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yuji Yotsuki"
   },
   {
-    id: 65,
+    id: 80,
     name: "Kōrin",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -719,7 +922,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 66,
+    id: 81,
     name: "Shizuku",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -730,7 +933,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 67,
+    id: 82,
     name: "Raion",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -741,7 +944,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 68,
+    id: 83,
     name: "Ōja",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -752,7 +955,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 69,
+    id: 84,
     name: "Rensha",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -763,7 +966,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 70,
+    id: 85,
     name: "Guren",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -774,210 +977,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 71,
-    name: "Kaikyō no Men",
-    classification: "S+",
-    nature: "Suiton",
-    origin: "Kirigakure",
-    description: "A Kaikyō no Men é uma máscara tradicional de Rank S+ utilizada pela elite dos Oinin (Ninjas Caçadores) de Kirigakure para a perseguição de alvos de alta periculosidade. Forjada com minerais marinhos sensíveis a vibrações, a máscara amplifica os sentidos do usuário ao extremo, permitindo localizar alvos através da névoa mais densa captando frequências sonoras e térmicas quase imperceptíveis. Ela atua como um filtro sensorial que elimina ruídos ambientais irrelevantes, focando inteiramente na assinatura de chakra e nos batimentos cardíacos do fugitivo. O visor da máscara possui selos de fuinjutsu que anulam o efeito de genjutsus visuais, garantindo que o caçador nunca perca seu rastro por ilusões. Além das capacidades de rastreamento, a máscara protege o rosto contra ataques de água pressurizada e permite a respiração subaquática por longos períodos através de brânquias metálicas integradas. É o símbolo do dever implacável da Névoa, transformando o portador em um predador invisível que pode caçar em qualquer ambiente aquático ou sob visibilidade zero. Sua posse garante que nenhum traidor ou inimigo da vila possa se esconder para sempre nas sombras da névoa.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F71%20-%20Kaiky%C5%8D%20no%20Men.png?alt=media&v=1788212093878428",
-    originalOwner: "Genzō Umikage",
-    currentOwner: "Genzō Umikage"
-  },
-  {
-    id: 72,
-    name: "Hyōketsu no Sensu",
-    classification: "S+",
-    nature: "Hyoton",
-    origin: "Kirigakure",
-    description: "O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das montanhas eternas do País da Água, imbuído com a essência da Liberação de Gelo (Hyoton). Ao ser aberto, o leque libera uma névoa congelante de temperatura subzero que pode imobilizar os pés de exércitos inteiros instantaneamente ao tocar o solo ou a umidade do ar. O usuário pode manipular as correntes de ar geradas pelo leque para criar tempestades de estilhaços de gelo afiados como navalhas ou erguer espelhos de cristal de gelo para defesa e movimentação estratégica. O artefato atua como um catalisador de chakra que permite a usuários sem linhagem de gelo manifestarem técnicas básicas de Hyoton com grande eficiência. Em combate, cada abanada do leque drena o calor do ambiente, tornando o campo de batalha progressivamente mais letal para oponentes que não possuam resistência ao frio extremo. O Hyōketsu no Sensu também pode ser usado para selar jutsus de fogo de médio nível, extinguindo chamas através da absorção térmica imediata. É uma arma de controle de área elegante e devastadora, transformando o calor da batalha em um deserto de gelo silencioso e mortal sob o comando do mestre.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F72%20-%20Hy%C5%8Dketsu%20no%20Sensu.png?alt=media&v=1788212092767622",
-    originalOwner: "Mei Yuki",
-    currentOwner: "Mei Yuki"
-  },
-  {
-    id: 73,
-    name: "Suiryū no Reigan",
-    classification: "S++",
-    nature: "Suiton",
-    origin: "Kirigakure",
-    description: "O Suiryū no Reigan, ou 'Olho Espectral do Dragão de Água', é um amuleto ancestral de Rank S++ que concede ao portador um controle molecular sem precedentes sobre a água e seus estados físicos. Este artefato permite manipular a pressão hidrostática em níveis tão extremos que o usuário pode criar lâminas de água pressurizada capazes de cortar diamante e atravessar armaduras de aço como se fossem papel. O amuleto atua como um terceiro olho sensorial que permite 'enxergar' a umidade no ar e no subsolo, permitindo ataques surpresa vindo de ângulos onde não há fontes de água visíveis. Sob sua influência, as técnicas de Suiton tornam-se densas e pesadas, capazes de esmagar oponentes sob o peso de toneladas de pressão concentrada em pequenos pontos de impacto. O portador também pode liquefazer seu próprio corpo por breves períodos para evitar ataques físicos, movendo-se através da água com a velocidade de um dragão marinho. É uma relíquia de grande poder espiritual e técnico, representando o domínio absoluto da Névoa sobre o elemento mais vital e perigoso da natureza. Sua posse transforma um mestre de Suiton em uma força da natureza imparável, capaz de governar as profundezas e as superfícies com autoridade divina.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F73%20-%20Suiry%C5%AB%20no%20Reigan.png?alt=media&v=1788212091555870",
-    originalOwner: "Ganmaren Yuki",
-    currentOwner: "Ganmaren Yuki"
-  },
-  {
-    id: 74,
-    name: "Kiri-no-Kami no Yoroi",
-    classification: "S++",
-    nature: "Suiton",
-    origin: "Kirigakure",
-    description: "A Kiri-no-Kami no Yoroi é uma armadura de escamas abissais de Rank S++ forjada a partir da pele de criaturas lendárias que habitam as fossas mais profundas do País da Água. Esta armadura mística possui a habilidade única de permitir ao usuário liquefazer seu próprio corpo ou tornar-se intangível como a própria névoa por períodos prolongados, ignorando ataques físicos e jutsus elementais comuns. As escamas que compõem a armadura reagem ao chakra Suiton, endurecendo instantaneamente ao nível do aço reforçado quando o portador sofre um impacto direto, agindo como uma defesa adaptativa absoluta. Além da proteção física, a armadura amplifica a ocultação do chakra, permitindo que o ninja se mova de forma totalmente silenciosa e invisível dentro de névoas de batalha. Ela também atua como um pulmão artificial, permitindo ao usuário sobreviver e lutar em profundidades oceânicas onde a pressão esmagaria qualquer ser humano comum. É o traje definitivo para os deuses da névoa, representando a invulnerabilidade e a natureza mutável da água em sua forma mais letal. Sua posse garante que o guerreiro seja um fantasma no campo de batalha, impossível de ser capturado ou ferido enquanto houver umidade no ar.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F74%20-%20Kiri-no-Kami%20no%20Yoroi.png?alt=media&v=1788212090485685",
-    originalOwner: "Juzo Kuroshio",
-    currentOwner: "Juzo Kuroshio"
-  },
-  {
-    id: 75,
-    name: "Shinsui no Yari",
-    classification: "S++",
-    nature: "Suiton",
-    origin: "Kirigakure",
-    description: "A Shinsui no Yari é uma lança de Rank S++ forjada sob pressões astronômicas no fundo das fossas oceânicas mais profundas do mundo, utilizando minerais negros de densidade extrema. Cada golpe desferido com esta lança aplica uma pressão gravitacional e hidrostática equivalente a 10.000 metros de profundidade no ponto exato de impacto, capaz de implodir órgãos internos e esmagar armaduras blindadas instantaneamente. A arma possui uma inércia que desafia a lógica, sendo leve nas mãos de seu mestre mas pesada como uma montanha quando colide com o inimigo. A ponta da lança é imbuída com selos de fuinjutsu que impedem que o oponente utilize técnicas de substituição ou fuga espacial no momento do contato, prendendo-o à gravidade esmagadora da arma. O portador pode lançar a Shinsui no Yari para criar vórtices de sucção que puxam inimigos próximos para o centro de uma explosão de água pressurizada. É uma arma de destruição brutal e implacável, simbolizando o peso inabalável das profundezas oceânicas que não conhece misericórdia nem resistência. Sua posse garante que nenhum oponente, por mais protegido que esteja, possa resistir à força gravitacional do abismo contida em uma única lâmina.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F75%20-%20Shinsui%20no%20Yari.png?alt=media&v=1788212089268108",
-    originalOwner: "Hiroshi Hanzo",
-    currentOwner: "Hiroshi Hanzo"
-  },
-  {
-    id: 76,
-    name: "Umitsuchi no Teisatsu",
-    classification: "Z",
-    nature: "Suiton",
-    origin: "Kirigakure",
-    description: "O Umitsuchi no Teisatsu é o cetro lendário de Rank Z que pertenceu ao Primeiro Mizukage e serve como o símbolo supremo da autoridade sobre todos os oceanos e seres vivos que deles dependem. Este artefato místico concede ao portador autoridade absoluta sobre o elemento Suiton em escala global, permitindo desde a criação de tsunamis colossais que podem submergir nações até o controle preciso da água dentro dos organismos vivos. Através do cetro, o usuário pode manipular o sangue de seus inimigos como se fossem marionetes de carne, parando corações ou causando hemorragias internas com um simples pensamento. A joia em seu topo abriga um chakra ancestral que estabiliza o clima marinho e pode convocar tempestades de escala apocalíptica para proteger as fronteiras de Kirigakure. É uma arma de domínio total e aterrorizante, representando a soberania divina da Névoa sobre a vida e a morte através da água. Sua ativação exige um sacrifício de chakra imenso e uma conexão espiritual profunda com o mar, sendo quase impossível de ser controlada por alguém fora da linhagem Mizukage. É a relíquia que garante que Kirigakure permaneça como a senhora incontestável dos mares, punindo qualquer insurreição com a fúria das profundezas.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F76%20-%20Umitsuchi%20no%20Teisatsu.png?alt=media&v=1788212088204683",
-    originalOwner: "Primeiro Mizukage",
-    currentOwner: ""
-  },
-  {
-    id: 77,
-    name: "Hyōga no Seihai",
-    classification: "Z",
-    nature: "Hyoton",
-    origin: "Kirigakure",
-    description: "O Hyōga no Seihai é um receptáculo de Rank Z que contém em seu interior a essência primordial do 'Frio Absoluto', uma energia anterior à criação do próprio sistema de chakra ninja. Este artefato possui o poder cataclísmico de congelar o fluxo de chakra de um país inteiro instantaneamente, transformando territórios férteis em desertos de gelo eterno onde a vida se torna impossível. Ao ser aberto, o cálice libera uma onda de choque criogênica que anula a agitação molecular, paralisando jutsus ativos e transformando qualquer técnica elementar em estátuas de gelo quebradiças. O usuário pode manifestar estruturas de gelo eterno de dureza incalculável que jamais derretem, mesmo quando expostas a chamas de nível Enton ou calor solar. O Hyōga no Seihai atua como um vácuo térmico que absorve todo o calor e a energia ao seu redor, fortalecendo a aura defensiva do portador até torná-lo invulnerável a ataques térmicos. É a arma de 'Inverno Eterno', uma relíquia de fim de mundo que só deve ser utilizada em situações de desespero absoluto para garantir a sobrevivência da vila através da aniquilação total do inimigo. Sua posse é o peso da responsabilidade sobre o destino climático do mundo, guardado nas profundezas mais frias de Kirigakure como o trunfo final contra qualquer ameaça.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F77%20-%20Hy%C5%8Dga%20no%20Seihai.png?alt=media&v=1788212086978030",
-    originalOwner: "Ganmaren Yuki",
-    currentOwner: "Ganmaren Yuki"
-  },
-  {
-    id: 78,
-    name: "Hakuryū no Ken",
-    classification: "Z",
-    nature: "Chakra Profano + Fujogan",
-    origin: "Konohagakure",
-    description: "A Espada do Dragão Branco foi forjada pessoalmente por Minoru Hyuga utilizando chakra profano puro comprimido em forma sólida. Diferente de armas convencionais, sua estrutura não é metálica — a lâmina inteira é composta apenas de chakra cristalizado, tornando-a parcialmente etérea e extremamente instável para qualquer usuário comum. Graças à conexão direta com o Fujogan, Katsumi consegue absorver completamente a espada para dentro de seu próprio sistema de chakra, armazenando-a internamente e materializando-a instantaneamente durante o combate. A Hakuryū no Ken não causa dano físico tradicional; seus golpes atravessam matéria superficial e atingem diretamente as linhas de chakra do alvo, interrompendo circulação, bloqueando tenketsus, causando colapso energético e desestabilizando técnicas em execução. Em confrontos prolongados, a espada pode literalmente enfraquecer o sistema de chakra do inimigo até impedir completamente o uso de ninjutsu.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F78%20-%20Hakury%C5%AB%20no%20Ken.png?alt=media&v=1788212085944095",
-    originalOwner: "Minoru Hyuga",
-    diedHolding: ["Katsumi Hyuga"],
-    currentOwner: "Katsumi Hyuga"
-  },
-  {
-    id: 79,
-    name: "Hakuryū no Men",
-    classification: "Z",
-    nature: "Chakra Profano + Fujogan",
-    origin: "Konohagakure",
-    description: "A Máscara do Dragão Branco é um artefato lendário criado por Minoru Hyuga durante a era mais obscura do clã. Posteriormente, foi passada para Hoshiro, reconhecido como sucessor legítimo do legado Hyuga. Hoshiro, porém, deixou a máscara guardada no armazém secreto de Konoha, onde permaneceu até ser encontrada e reivindicada por Katsumi. A máscara cobre parcialmente o rosto do usuário e possui canais internos feitos de chakra profano condensado, sincronizando diretamente com o Fujogan. Ao ser ativada, amplifica absurdamente a capacidade analítica ocular, permitindo enxergar microexpressões, mínimas alterações musculares, fluxo de chakra, intenção hostil e irregularidades invisíveis ao olho comum. Graças à precisão extrema do Fujogan potencializado, o usuário se torna praticamente imune a Genjutsu visuais e mentais, além de neutralizar fintas, ilusões corporais e movimentos falsos em combate. Cada detalhe do campo de batalha passa a ser captado instantaneamente, transformando Katsumi em um observador absoluto capaz de prever padrões antes mesmo da execução inimiga.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F79%20-%20Hakury%C5%AB%20no%20Men.png?alt=media&v=1788212084688603",
-    originalOwner: "Minoru Hyuga",
-    pastOwners: ["Hoshiro Hyuga"],
-    diedHolding: ["Katsumi Hyuga"],
-    currentOwner: "Katsumi Hyuga"
-  }
-,
-  {
-    id: 80,
-    name: "Gama no Kaeruba",
-    classification: "Z",
-    nature: "Senjutsu + Suiton + Fuinjutsu",
-    origin: "Konohagakure",
-    description: "Um disco de combate curvo, moldado para lembrar a língua enrolada de um sapo gigante, com a borda inteira afiada e selos de fuinjutsu gravados em espiral por toda a superfície. O nome carrega um trocadilho proposital do clã: \"kaeru\" significa tanto \"sapo\" quanto \"retornar\" — e é exatamente isso que a arma faz. Ao ser lançada, absorve energia natural do ambiente e do próprio arremesso, curva a trajetória em pleno ar como se fosse recolhida por uma língua invisível, e retorna à mão do usuário na mesma velocidade em que partiu, cortando qualquer coisa em seu caminho de volta como cortou na ida. Em contato com água, a lâmina desliza sem perder velocidade, permitindo curvas praticamente impossíveis para uma arma arremessada. Os selos gravados nela reconhecem apenas o chakra de quem partilha do Modo Sábio dos Sapos — em qualquer outra mão, o Gama no Kaeruba simplesmente cai no chão depois do lançamento, como uma língua que não reconhece a boca que a comanda.",
-    image: "",
-    originalOwner: "Satoshi Namikaze",
-    currentOwner: "Satoshi Namikaze"
-  },
-  {
-    id: 81,
-    name: "Gama no Zōri",
-    classification: "S++",
-    nature: "Senjutsu",
-    origin: "Konohagakure",
-    description: "Um par de sandálias seladas, com solas grossas de couro tratado que imitam a textura da pele de um sapo sábio. Cada passo do usuário libera um pulso quase imperceptível de energia natural pelas plantas dos pés, que se acumula e se converte em impulso puro no instante do salto — permitindo saltos que desafiam a lógica humana, tanto em altura quanto em distância, e quedas de qualquer altura absorvidas sem dano, como se o chão fosse sempre líquido sob os pés de quem as usa. Em combate, o Gama no Zōri transforma cada esquiva em um deslocamento absurdo, e cada avanço em um golpe que chega antes do oponente terminar de reagir. Diferente de técnicas de velocidade que consomem chakra a cada uso, as sandálias trabalham em ciclo com a energia natural do Modo Sábio — quanto mais tempo o usuário permanece com o Senjutsu ativo, mais eficiente e silencioso se torna cada salto.",
-    image: "",
-    originalOwner: "Satoshi Namikaze",
-    currentOwner: "Satoshi Namikaze"
-  },
-  {
-    id: 82,
-    name: "Gama Sennin no Keiyaku",
-    classification: "S++",
-    nature: "Senjutsu + Kuchiyose",
-    origin: "Konohagakure",
-    description: "O pergaminho sagrado que formaliza o pacto entre a linhagem Namikaze e os Sapos Sábios — diferente do Pergaminho de Invocação genérico, este só se abre para quem carrega o sangue do clã. Assinado com uma gota de sangue e chakra sobre o papel amarelado, o contrato grava simultaneamente o nome do usuário na pele de sua própria mão e nos registros vivos do território sábio dos sapos, criando uma linha de invocação que nunca se rompe enquanto ambas as partes existirem. Uma vez selado, permite convocar desde pequenos sapos mensageiros até colossos de guerra, e é considerado o primeiro passo formal para qualquer Namikaze que deseje um dia alcançar o próprio Modo Sábio — não ensina o Senjutsu por si só, mas abre a porta que todos os sapos sábios exigem estar aberta antes de aceitar ensinar quem quer que seja.",
-    image: "",
-    originalOwner: "Satoshi Namikaze",
-    currentOwner: "Satoshi Namikaze"
-  },
-  {
-    id: 83,
-    name: "Shinigami no Menpō",
-    classification: "Z",
-    nature: "Fuinjutsu + Kuchiyose",
-    origin: "Konohagakure",
-    description: "A Shinigami no Menpō é uma máscara lendária do Clã Uzumaki, esculpida em um material semelhante a osso e coberta por inscrições de selamento vermelhas. Seu rosto demoníaco, marcado por chifres, presas e pelo símbolo espiral dos Uzumaki, representa a autoridade sobre a fronteira entre a vida e a morte. Diferentemente das máscaras comuns do Templo dos Uzumaki, ela não serve apenas para estabelecer contato com o Shinigami: quando vestida, cria um contrato forçado que concede ao portador o poder de invocar o Deus da Morte em uma forma viva, física e corpórea, além de comandar seus movimentos através de correntes de selamento. Entretanto, a máscara exige continuamente a força vital de seu usuário. Quanto mais tempo permanece ativa, mais o Shinigami tenta resistir às ordens e assumir o corpo daquele que o invocou. Caso a máscara seja quebrada durante o ritual, as correntes desaparecem e o Deus da Morte permanece livre no mundo dos vivos.",
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F83%20-%20Shinigami%20no%20Menp%C5%8D.png?alt=media&v=1788212083667927",
-    originalOwner: "Ashina Uzumaki",
-    pastOwners: ["Mito Uzumaki", "Raikun Hatake"],
-    currentOwner: "Hiroshi Hanzo"
-  },
-  {
-    id: 84,
-    name: "Rasenken",
-    classification: "S++",
-    nature: "",
-    origin: "Kirigakure",
-    description: "Espada broca capaz de perfurar qualquer superfície. Ela vibra para que o usuário possa sentir todo o ambiente à sua volta. É feita sob medida pelo clã para um filho do céu.",
-    image: "",
-    originalOwner: "Ayame Sazanami",
-    currentOwner: "Ayame Sazanami"
-  },
-  {
-    id: 85,
-    name: "Sōhakujū",
-    classification: "S++",
-    nature: "",
-    origin: "Konohagakure",
-    description: "Arma desenvolvida por Haruki para Asami. Conecta-se com o chakra do usuário e dispara balas feitas diretamente desse chakra, capazes de acertar os tenketsus do oponente. É potencializada pelo Fujogan de Asami.",
-    image: "",
-    originalOwner: "Asami Hyuga",
-    currentOwner: "Tōma Umikage"
-  },
-  {
     id: 86,
-    name: "Shinkai no Ikari",
-    classification: "Z",
-    nature: "",
-    origin: "Kirigakure",
-    description: "A âncora afeta todo o ambiente. É extremamente pesada, mas tem uma reversão que permite ser carregada por quem a controla. Ao bater no chão, toda a gravidade de uma grande área é alterada e o chakra se expande, tornando o campo de batalha totalmente imprevisível. Se for arremessada contra um ninja, além do golpe ela altera todo o campo gravitacional. Seu único counter é o jutsu de poeira, que permite ao usuário anular esse tipo de efeito.",
-    image: "",
-    originalOwner: "Ganmasen Yuki (Gama)",
-    currentOwner: "Ganmaren Yuki"
-  },
-  {
-    id: 87,
-    name: "Kokutetsu no Kusari",
-    classification: "S+",
-    nature: "",
-    origin: "Kirigakure",
-    description: "As correntes funcionam como chicotes, e cada gomo permite ao Gordon um teleporte rápido. Ele consegue soltar as peças da corrente e imbuir chakra em cada gomo para lutar de forma ágil.",
-    image: "",
-    originalOwner: "Gordon Kirisame",
-    currentOwner: "Gordon Kirisame"
-  },
-  {
-    id: 88,
-    name: "Kiri Basami",
-    classification: "S+",
-    nature: "",
-    origin: "Kirigakure",
-    description: "",
-    image: "",
-    originalOwner: "Mei Yuki",
-    currentOwner: "Mei Yuki"
-  },
-  {
-    id: 89,
     name: "Shōdō no Naifu",
     classification: "S++",
     nature: "",
@@ -988,14 +988,15 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hahiko Shiosaki"
   },
   {
-    id: 90,
-    name: "Sōsai",
-    classification: "S++",
-    nature: "",
-    origin: "Konohagakure",
-    description: "",
-    image: "",
-    originalOwner: "Kagami Uchiha",
-    currentOwner: "Kagami Uchiha"
+    id: 87,
+    name: "Protótipo de Reigan",
+    classification: "S",
+    nature: "Chakra Profano",
+    origin: "OCA",
+    description: "Esta luneta tática de alta precisão foi desenvolvida nos laboratórios secretos da OCA para fornecer uma vantagem visual absoluta em cenários de combate de longo alcance. Equipada com lentes tratadas com chakra profano, ela estabiliza a percepção do usuário mesmo sob condições extremas de movimento ou baixa visibilidade. O artefato possui um modo de detecção passiva que revela distorções sutis no ar causadas por ataques à distância ou deslocamentos de chakra invisíveis. Além de ampliar o campo de visão em até dez vezes, a luneta sincroniza-se com o fluxo nervoso do portador para prever trajetórias balísticas com margem de erro mínima. É o equipamento de reconhecimento por excelência para atiradores e rastreadores que operam em território inimigo. Sua estrutura compacta e resistente permite que seja utilizada em conjunto com Snipers ou armas de arremesso, garantindo que nenhum alvo escape à visão da organização.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F19%20-%20Reigan.png?alt=media&v=1788212126528642",
+    originalOwner: "OCA",
+    currentOwner: "Furyuzan Chinoike"
   }
+
 ];
