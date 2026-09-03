@@ -9,6 +9,7 @@ import { useAuth } from './useAuth';
 import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
 import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
+import { casaLendaria } from './data/habilidades-lendarias';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
 // depois de uma interação do usuário (abrir ficha, trocar de aba, editar, logar).
@@ -39,14 +40,19 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
     const acha = (v?: string) => !!v && v.toLowerCase().includes(termo);
     if (acha(c.name)) return { nivel: 0, motivo: null };
     if (acha(c.clan)) return { nivel: 1, motivo: null };          // o card já mostra o clã
+    // Habilidade lendária vem ANTES do título de propósito: a Ayumi tem o título "Princesa do
+    // Sharingan", e procurando "sharingan" o card mostrava o título no lugar da habilidade. O
+    // motivo aqui é o degrau mais alto dela na família — ver data/habilidades-lendarias.ts.
+    const lendaria = casaLendaria(c.aptitudes, termo);
+    if (lendaria) return { nivel: 2, motivo: lendaria };
     const posto = [...(c.cargo ?? []), ...(c.patente ?? [])].find(acha);
-    if (posto) return { nivel: 2, motivo: posto };
+    if (posto) return { nivel: 3, motivo: posto };
     const titulo = (c.titles ?? []).find(acha);
-    if (titulo) return { nivel: 3, motivo: titulo };
-    if (acha(rankDeNC(c.nc))) return { nivel: 4, motivo: rankDeNC(c.nc) };
+    if (titulo) return { nivel: 4, motivo: titulo };
+    if (acha(rankDeNC(c.nc))) return { nivel: 5, motivo: rankDeNC(c.nc) };
     const apt = (c.aptitudes ?? []).find(acha);
-    if (apt) return { nivel: 5, motivo: apt };
-    if (acha(c.position)) return { nivel: 6, motivo: c.position };
+    if (apt) return { nivel: 6, motivo: apt };
+    if (acha(c.position)) return { nivel: 7, motivo: c.position };
     return null;
 };
 
