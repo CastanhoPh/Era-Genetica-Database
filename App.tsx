@@ -43,7 +43,7 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
     // Habilidade lendária vem ANTES do título de propósito: a Ayumi tem o título "Princesa do
     // Sharingan", e procurando "sharingan" o card mostrava o título no lugar da habilidade. O
     // motivo aqui é o degrau mais alto dela na família — ver data/habilidades-lendarias.ts.
-    const lendaria = casaLendaria(c.aptitudes, termo);
+    const lendaria = casaLendaria(c, termo);
     if (lendaria) return { nivel: 2, motivo: lendaria };
     const posto = [...(c.cargo ?? []), ...(c.patente ?? [])].find(acha);
     if (posto) return { nivel: 3, motivo: posto };

@@ -272,11 +272,8 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Jinchuuriki do Matatabi",
-      "Modo Sábio Perfeito",
       "Hiraishin Perfeito",
       "Clone Perfeito",
-      "Fuinjutsu Proibido",
       "Hiraishin: Deus do Trovão",
       "Acuidade",
       "Ponto Cego",
@@ -510,11 +507,9 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 8 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
       "Byakugan Implantado",
       "Fujogan Eterno Implantado",
       "Hiraishin Deus do Trovão",
-      "Mokuton Natural",
       "Hiraishin: Deus do Trovão",
       "Acuidade",
       "Intuição",
@@ -706,11 +701,9 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 8 }
     ],
     aptitudes: [
-      "Ranton Artificial",
       "Kaminari Artificial",
       "Shiroki Kaminari Artificial",
       "Kagura Shingan",
-      "Fuinjutsu Incompleto",
       "Kaminari",
       "Shiroki Kaminari",
       "Domínio do Raio",
@@ -967,14 +960,10 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 2 }
     ],
     aptitudes: [
-      "Modo Sábio Instável",
       "Sharingan",
       "Mangekyou Sharingan",
-      "Jinton Artificial",
-      "7º Portão",
       "Sandan Sharingan",
       "Nidan Sharingan",
-      "Genjutsu Incompleto",
       "Acuidade",
       "Potencializar",
       "Ilusão Profunda",
@@ -1429,10 +1418,6 @@ export const initialData: Character[] = [
 
     ],
     aptitudes: [
-      "Modo Sábio Incompleto",
-      "Sharingan Implantado",
-      "Mangekyou Sharingan Eterno Implantado",
-      "9º Portão",
       "Nidan Sharingan",
       "Sandan Sharingan",
       "Eternal Mangekyou Sharingan",
@@ -1595,10 +1580,7 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 9 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
-      "Ranton Natural",
       "Shiroki Kaminari Natural",
-      "Kuchiyose Completa",
       "Shiroki Kaminari",
       "Kaminari",
       "Acuidade",
@@ -1695,7 +1677,6 @@ export const initialData: Character[] = [
       { name: "Doton", level: 6 }
     ],
     aptitudes: [
-      "Jinchuuriki do Son Goku",
       "Chakra Expandido: Son Goku",
       "Acuidade",
       "Ataque em Movimento",
@@ -1849,7 +1830,6 @@ export const initialData: Character[] = [
       { name: "Bakuton", level: 4 }
     ],
     aptitudes: [
-      "Jinchuuriki Profano do Aokiba",
       "Ketsuryugan",
       "Acuidade",
       "Técnica Poderosa",
@@ -1914,7 +1894,6 @@ export const initialData: Character[] = [
       { name: "Rasengan", level: 6 }
     ],
     aptitudes: [
-      "Jinchuuriki Profano do Geidetsu",
       "Ambidestria",
       "Ataque Poderoso",
       "Bloqueio Ambidestro",
@@ -2008,9 +1987,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 8 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
-      "Koton Incompleto",
-      "Fuinjutsu Incompleto",
       "Ambidestria",
       "Dano Extra",
       "Usar Arma: Martelo",
@@ -2133,8 +2109,6 @@ export const initialData: Character[] = [
       { name: "Iryou Ninjutsu", level: 9 }
     ],
     aptitudes: [
-      "Modo Sábio Semi Perfeito",
-      "Mokuton Natural",
       "Iryou Ninjutsu Semi Perfeito",
       "Ninja Médico",
       "Chakra Expandido",
@@ -2254,7 +2228,6 @@ export const initialData: Character[] = [
       "Sharingan",
       "Mangekyou Sharingan",
       "Hiraishin",
-      "Fuinjutsu Completo",
       "Mímica Sharingan",
       "Elemento Natural: Katon",
       "Maestria: CD",
@@ -2358,7 +2331,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Sharingan",
       "Mangekyou Sharingan",
-      "Genjutsu Instável",
       "Mímica Sharingan",
       "Elemento Natural: Katon",
       "Maestria: CD",
@@ -2472,11 +2444,8 @@ export const initialData: Character[] = [
       { name: "Katon", level: 13 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
       "Sharingan",
       "Mangekyou Sharingan",
-      "6º Portão",
-      "Genjutsu Perfeito",
       "Maestria: CD",
       "Intuição",
       "Ponto Cego",
@@ -2608,9 +2577,6 @@ export const initialData: Character[] = [
       { name: "Hachimon Tonkou", level: 5 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
-      "5º Portão",
-      "Kuchiyose Completa",
       "Sensor Supremo",
       "Intuição",
       "Acuidade",
@@ -2724,11 +2690,8 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 15 }
     ],
     aptitudes: [
-      "Jinchuuriki do Kurama",
-      "Modo Sábio Perfeito",
       "Kagura Shingan",
       "Byakugou Completo",
-      "Fuinjutsu Semi Perfeito",
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
@@ -2876,7 +2839,6 @@ export const initialData: Character[] = [
       "Sharingan",
       "Mangekyou Sharingan Eterno",
       "Eien Mangekyou Sharingan",
-      "Genjutsu Instável",
       "Mímica Sharingan",
       "Elemento Natural: Katon",
       "Maestria: CD",
@@ -2955,8 +2917,6 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 14 }
     ],
     aptitudes: [
-      "Modo Sábio Semi Perfeito",
-      "Mokuton Natural",
       "Regeneração",
       "Potencializar",
       "Maximizar",
@@ -3008,7 +2968,6 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 9 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
       "Byakugan",
       "Iryou Ninjutsu Instável",
     ],
@@ -3114,9 +3073,6 @@ export const initialData: Character[] = [
       { name: "Doton", level: 14 }
     ],
     aptitudes: [
-      "Jinchuuriki do Gyuki",
-      "Koton Completo",
-      "Fuinjutsu Semi Perfeito",
       "Chakra Expandido: Gyuki",
       "Elemento Natural: Doton",
       "Maestria: CD",
@@ -3186,7 +3142,6 @@ export const initialData: Character[] = [
       { name: "Iryou Ninjutsu", level: 8 }
     ],
     aptitudes: [
-      "Ranton Natural",
       "Shiroki Kaminari Natural",
       "Hiraishin Deus do Trovão",
       "Iryou Ninjutsu Completo",
@@ -3244,9 +3199,7 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 15 }
     ],
     aptitudes: [
-      "Modo Sábio Perfeito",
       "Hiraishin Deus do Trovão",
-      "Fuinjutsu Proibido",
       "Edo Tensei",
       "Regeneração",
       "Lutar as Cegas",
@@ -3295,8 +3248,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Sharingan",
       "Mangekyou Sharingan Eterno",
-      "7º Portão",
-      "Genjutsu Completo",
       "Punho de Ferro",
       "Lutador",
       "Ataque em Movimento",
@@ -3350,7 +3301,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Byakugan",
       "Fujogan Eterno",
-      "4º Portão",
       "Eternal Fujogan",
       "Lutador",
       "Ataque em Movimento",
@@ -3406,10 +3356,8 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 12 }
     ],
     aptitudes: [
-      "Modo Sábio Semi Perfeito",
       "Kagura Shingan",
       "Byakugou Completo",
-      "Fuinjutsu Perfeito",
       "Iryou Ninjutsu Perfeito",
       "Chakra Expandido",
       "Kongou Fuusa",
@@ -3502,11 +3450,9 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 15 }
     ],
     aptitudes: [
-      "Modo Sábio Perfeito",
       "Byakugan",
       "Fujogan Eterno",
       "Eternal Fujogan",
-      "Genjutsu Perfeito",
       "Lutador",
       "Ataque em Movimento",
       "Arremessar",
@@ -3597,9 +3543,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Modo Sábio Perfeito",
-      "8º Portão",
-      "Fuinjutsu Perfeito",
       "Punho de Ferro",
       "Lutador",
       "Ataque em Movimento",
@@ -3650,7 +3593,6 @@ export const initialData: Character[] = [
       "Nidan Sharingan",
       "Sandan Sharingan",
       "Eternal Mangekyou Sharingan",
-      "Genjutsu Incompleto",
       "Mímica Sharingan",
       "Elemento Natural: Katon",
       "Domínio do Fogo",
@@ -3769,7 +3711,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Kagura Shingan Perfeito",
       "Byakugou Incompleto",
-      "Fuinjutsu Proibido",
       "Kagura Shigan",
       "Acuidade",
       "Intuição",
@@ -3815,10 +3756,7 @@ export const initialData: Character[] = [
       { name: "Kuchiyose", level: 13 }
     ],
     aptitudes: [
-      "Modo Sábio Semi Perfeito",
       "Hiraishin",
-      "Kuchiyose Contrato Selado",
-      "Fuinjutsu Semi Perfeito",
       "Chakra Expandido Namikaze",
     ],
     techniques: [
@@ -4206,9 +4144,7 @@ export const initialData: Character[] = [
       { name: "Kurama", level: 4 }
     ],
     aptitudes: [
-      "Jinchuuriki do Kurama",
       "Hiraishin",
-      "Fuinjutsu Instável",
       "Hiraishin: Deus do Trovão",
       "Acuidade",
       "Intuição",
@@ -4295,7 +4231,6 @@ export const initialData: Character[] = [
       { name: "Katon", level: 4 }
     ],
     aptitudes: [
-      "2º Portão",
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
@@ -4369,8 +4304,6 @@ export const initialData: Character[] = [
       { name: "Futon", level: 4 }
     ],
     aptitudes: [
-      "Jinchuuriki do Gyuki",
-      "Jinchuuriki do Kurama",
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
@@ -4468,7 +4401,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Kaminari Artificial",
-      "Kuchiyose Incompleta",
       "Kaminari",
       "Maestria: CD",
       "Intuição",
@@ -4666,8 +4598,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Jinchuuriki do Shukaku",
-      "Fuinjutsu Perfeito",
       "Jinchuuriki Perfeita",
       "A Muralha Dourada",
       "A Leoa da Areia",
@@ -4777,8 +4707,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 13 }
     ],
     aptitudes: [
-      "Koton Completo",
-      "Fuinjutsu Semi Perfeito",
       "O Caçador do Deserto",
       "Primeiro Kazekage",
       "Fundador de Sunagakure",
@@ -4919,7 +4847,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Ketsuryugan Perfeito",
-      "Kugutsu Humano",
       "Guardião da Memória",
       "O Homem que Lembra pelos Mortos",
       "Sensor Emocional",
@@ -5004,9 +4931,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 12 }
     ],
     aptitudes: [
-      "Koton Completo",
-      "Genjutsu Completo",
-      "Fuinjutsu Completo",
       "Guardião da Construção",
       "O Arquiteto das Pontes Impossíveis",
       "Engenharia Shinobi",
@@ -5056,8 +4980,6 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 10 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
-      "Kuchiyose Completa",
       "Guardião do Julgamento",
       "A Pantera Negra da Areia",
       "A Voz Antes da Sentença",
@@ -5171,7 +5093,6 @@ export const initialData: Character[] = [
       { name: "Raiton", level: 13 }
     ],
     aptitudes: [
-      "Ranton Natural",
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
@@ -5346,8 +5267,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 11 }
     ],
     aptitudes: [
-      "Ranton Natural",
-      "Fuinjutsu Semi Perfeito",
       "Reflexos",
       "Maestria: CD",
       "Ataque Múltiplo",
@@ -5427,7 +5346,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Kaminari Natural",
-      "Fuinjutsu Semi Perfeito",
       "Acuidade",
       "Intuição",
       "Perito: Rastrear",
@@ -5572,8 +5490,6 @@ export const initialData: Character[] = [
       { name: "Futon", level: 4 }
     ],
     aptitudes: [
-      "Koton Completo",
-      "Jinton Natural",
       "Maestria: CD",
       "Intuição",
       "Sensor",
@@ -5662,8 +5578,6 @@ export const initialData: Character[] = [
       { name: "Hachimon Tonkou", level: 3 }
     ],
     aptitudes: [
-      "Jinchuuriki do Kokuo",
-      "3º Portão",
       "Maestria: CC",
       "Reflexos",
       "Punho de Ferro",
@@ -5758,7 +5672,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Ketsuryugan",
-      "Kugutsu Perfeito",
       "Elemento Natural: Ketton",
       "Maestria: CD",
       "Maestria: CC",
@@ -5800,8 +5713,6 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 12 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
-      "Kuchiyose Completa",
       "Byakugou Incompleto",
       "Maestria: CD",
       "Intuição",
@@ -5940,7 +5851,6 @@ export const initialData: Character[] = [
       { name: "Ranton", level: 11 }
     ],
     aptitudes: [
-      "Ranton Natural",
       "Acuidade",
     ],
     gallery: [
@@ -6074,9 +5984,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Ranton", level: 13 }
     ],
-    aptitudes: [
-      "Ranton Natural",
-    ],
+    aptitudes: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FRaizuma%20Kazuchi%2F5__Temporada.png?alt=media&v=1788290205219004", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FRaizuma%20Kazuchi%2FRaiton%20no%20Yoroi.png?alt=media&v=1788290206740826", caption: "Raiton no Yoroi", category: "transformacao" },
@@ -6104,7 +6012,6 @@ export const initialData: Character[] = [
       { name: "Iryō Ninjutsu", level: 14 }
     ],
     aptitudes: [
-      "Jinchuuriki do Isobu",
       "Iryou Ninjutsu Incompleto",
       "Ambidestria",
       "Maestria: CC",
@@ -6158,9 +6065,6 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 14 }
     ],
     aptitudes: [
-      "Modo Sábio Semi Perfeito",
-      "Kuchiyose Contrato Selado",
-      "Fuinjutsu Semi Perfeito",
       "Acuidade",
       "Intuição",
       "Domínio da Água",
@@ -6211,8 +6115,6 @@ export const initialData: Character[] = [
       { name: "Rasengan", level: 14 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
-      "Kuchiyose Contrato Selado",
       "Acuidade",
       "Ambidestria",
       "Ataque Poderoso",
@@ -6261,9 +6163,6 @@ export const initialData: Character[] = [
       { name: "Kuchiyose", level: 12 }
     ],
     aptitudes: [
-      "1º Portão",
-      "Genjutsu Instável",
-      "Kuchiyose Incompleta",
       "Fascinar",
       "Miragem",
       "Ilusão Profunda",
@@ -6308,7 +6207,6 @@ export const initialData: Character[] = [
       { name: "Fūinjutsu", level: 14 }
     ],
     aptitudes: [
-      "Fuinjutsu Perfeito",
       "Futton Sufocante",
       "Youton Corrosivo",
       "Dupla Linhagem",
@@ -6357,9 +6255,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Suiton", level: 14 }
     ],
-    aptitudes: [
-      "Jinchuuriki Profano",
-    ],
+    aptitudes: [],
     isDead: false,
     techniques: [],
     gallery: [
@@ -6447,9 +6343,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Modo Sábio Perfeito",
-      "Kuchiyose Contrato Selado",
-      "Fuinjutsu Perfeito",
       "Acuidade",
       "Ponto Cego",
       "Crítico Avançado",
@@ -6502,10 +6395,7 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 14 }
     ],
     aptitudes: [
-      "Modo Sábio Semi Perfeito",
       "Hiraishin",
-      "Genjutsu Incompleto",
-      "Fuinjutsu Semi Perfeito",
       "Fascinar",
       "Miragem",
       "Ilusão Profunda",
@@ -6551,8 +6441,6 @@ export const initialData: Character[] = [
       { name: "Magen", level: 14 }
     ],
     aptitudes: [
-      "Jinchuuriki do Chomei",
-      "Genjutsu Instável",
       "Iryou Ninjutsu Perfeito",
       "Domínio do Vento",
       "Chakra Expandido: Chomei",
@@ -6598,9 +6486,8 @@ export const initialData: Character[] = [
       { name: "Jiogu", level: 13 }
     ],
     aptitudes: [
-      "Sharingan Implantado",
-      "Kugutsu Completo",
-      "Fuinjutsu Completo",
+      "Nidan Sharingan",
+      "Sandan Sharingan",
       "Regeneração",
       "Mestre dos Selos",
       "Ambidestria",
@@ -6645,11 +6532,8 @@ export const initialData: Character[] = [
       { name: "Magen", level: 14 }
     ],
     aptitudes: [
-      "Modo Sábio Semi Perfeito",
       "Ketsuryugan Perfeito Implantado",
       "Ketsuryugan Eterno",
-      "Genjutsu Completo",
-      "Kuchiyose Contrato Selado",
       "Fascinar",
       "Miragem",
       "Ilusão Profunda",
@@ -6701,8 +6585,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Shingan Perfeito",
       "Shingan Eterno",
-      "Genjutsu Incompleto",
-      "Fuinjutsu Completo",
       "Iryou Ninjutsu Completo",
       "Chakra Expandido: Uzumaki",
       "Kogou Fusa",
@@ -6790,7 +6672,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Shingan",
-      "Genjutsu Instável",
       "Chakra Expandido: Uzumaki",
       "Kogou Fusa",
       "Velocista",
@@ -6894,9 +6775,6 @@ export const initialData: Character[] = [
       { name: "Doton", level: 12 }
     ],
     aptitudes: [
-      "Jinchuuriki do Son Goku",
-      "Sharingan Implantado",
-      "Mangekyou Sharingan Implantado",
       "Eien Mangekyou Sharingan",
       "Maestria: CC",
       "Maestria: CD",
@@ -6997,7 +6875,6 @@ export const initialData: Character[] = [
       { name: "Hyoton", level: 13 }
     ],
     aptitudes: [
-      "Jinchuuriki do Isobu",
       "Byakugan",
       "Fujogan",
       "Eternal Fujogan",
@@ -7084,10 +6961,7 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 12 }
     ],
     aptitudes: [
-      "Modo Sábio Completo",
-      "Kuchiyose Completa",
       "Byakugou Incompleto",
-      "Kugutsu Instável",
       "Iryou Ninjutsu Semi Perfeito",
       "Maestria: CC",
       "Maestria: CD",
@@ -7238,7 +7112,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Hiraishin",
-      "Fuinjutsu Instável",
       "Perito em Ocultismo",
       "Tensai",
       "Maestria: CD",
@@ -7369,10 +7242,6 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 13 }
     ],
     aptitudes: [
-      "Jinchuuriki Profano",
-      "Modo Sábio Completo",
-      "Koton Artificial",
-      "Fuinjutsu Incompleto",
       "Maestria: CC",
       "Maestria: CD",
       "Chakra Expandido",
@@ -7438,7 +7307,6 @@ export const initialData: Character[] = [
       { name: "Nintaijutsu", level: 9 },
     ],
     aptitudes: [
-      "Ranton Artificial",
       "Kaminari Artificial",
       "Shiroki Kaminari Artificial",
       "Kaminari Branco",
@@ -7574,7 +7442,6 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
-      "Ranton Artificial",
       "Kaminari Artificial",
       "Shiroki Kaminari Artificial",
       "Shiroki Kaminari",
@@ -7720,7 +7587,6 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
-      "Jinchuuriki do Saiken",
       "Chakra Expandido: Saiken",
       "Desconhecido",
       "Desconhecido",
@@ -7885,8 +7751,6 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
-      "Koton Completo",
-      "Jinton Natural",
       "Desconhecido",
       "Desconhecido",
       "Desconhecido",
@@ -7985,9 +7849,6 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
-      "Koton Completo",
-      "Kugutsu Humano",
-      "Fuinjutsu Proibido",
       "Iryou Ninjutsu Proibido",
       "Desconhecido",
       "Desconhecido",
@@ -8066,11 +7927,8 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Sharingan Implantado",
-      "Mangekyou Sharingan Implantado",
       "Byakugan Implantado",
       "Fujogan Implantado",
-      "Fuinjutsu Perfeito",
       "Iryou Ninjutsu Proibido",
       "Eien Mangekyou Sharingan",
       "Eternal Fujogan",
@@ -8184,7 +8042,6 @@ export const initialData: Character[] = [
       { name: "Suiton", level: 0 }
     ],
     aptitudes: [
-      "Mokuton Artificial",
       "Regeneração",
       "Células de Hashirama",
       "Desconhecido",
@@ -8284,9 +8141,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Modo Sábio Perfeito",
-      "Mokuton Natural",
-      "Fuinjutsu Perfeito",
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
@@ -8340,8 +8194,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Mangekyou Sharingan Eterno",
       "Eien Mangekyou Sharingan",
-      "Genjutsu Perfeito",
-      "Fuinjutsu Proibido",
       "Perito em Prestidigitação",
       "Ilusão Profunda",
       "Dano Extra",

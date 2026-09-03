@@ -41,12 +41,24 @@ export type FamiliaLendaria = {
   paralelo?: boolean;
   /** Do mais fraco pro mais forte. */
   degraus: DegrauLendario[];
+  /**
+   * Nomes do PODER correspondente, quando a família também existe em `powers` com nível.
+   *
+   * Existe porque onze famílias não têm marca em `aptitudes` nenhuma — o Pedro decidiu que aquelas
+   * aptidões não existem, e o que resta delas é o poder. Sem isto, procurar "fuinjutsu" não achava
+   * nenhuma das 29 fichas que têm `Fuinjutsu` como poder, porque a busca só olhava aptidão.
+   *
+   * Mais de um nome por causa das grafias que convivem no banco: `Fuinjutsu` e `Fūinjutsu`,
+   * `Iryou Ninjutsu` e `Iryō Ninjutsu`. E no Jinchuuriki o "poder" é o nome da própria bijuu.
+   */
+  poderes?: string[];
 };
 
 export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     familia: 'Jinchuuriki',
     paralelo: true,
+    poderes: ['Shukaku', 'Matatabi', 'Isobu', 'Son Goku', 'Kokuo', 'Saiken', 'Chomei', 'Gyuki', 'Kurama'],
     degraus: [{
       marcas: [
         'Jinchuuriki do Shukaku', 'Jinchuuriki do Matatabi', 'Jinchuuriki do Isobu',
@@ -65,6 +77,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     familia: 'Senjutsu',
     apelidos: ['Modo Sábio'],
+    poderes: ['Senjutsu'],
     degraus: [
       { marcas: ['Modo Sábio Instável'] },
       { marcas: ['Modo Sábio Incompleto'] },
@@ -76,6 +89,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     familia: 'Ranton',
     paralelo: true,
+    poderes: ['Ranton'],
     degraus: [{ marcas: ['Ranton Natural', 'Ranton Artificial'] }],
   },
   {
@@ -120,6 +134,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     // Incompleto → Completo é escada; Artificial é variante do Completo, não um quarto nível.
     familia: 'Koton',
+    poderes: ['Koton'],
     degraus: [
       { marcas: ['Koton Incompleto'] },
       { marcas: ['Koton Completo', 'Koton Artificial'] },
@@ -128,6 +143,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     familia: 'Jinton',
     paralelo: true,
+    poderes: ['Jinton'],
     degraus: [{ marcas: ['Jinton Natural', 'Jinton Artificial'] }],
   },
   {
@@ -146,6 +162,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     familia: 'Hachimon Tonkou',
     apelidos: ['Portão', 'Portao', 'Oito Portões'],
+    poderes: ['Hachimon Tonkou'],
     degraus: [
       { marcas: ['1º Portão'] }, { marcas: ['2º Portão'] }, { marcas: ['3º Portão'] },
       { marcas: ['4º Portão'] }, { marcas: ['5º Portão'] }, { marcas: ['6º Portão'] },
@@ -165,8 +182,20 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
     degraus: [{ marcas: ['Clone Perfeito'] }],
   },
   {
+    familia: 'Genjutsu',
+    apelidos: ['Magen'],
+    poderes: ['Magen'],
+    degraus: [
+      { marcas: ['Genjutsu Instável'] },
+      { marcas: ['Genjutsu Incompleto'] },
+      { marcas: ['Genjutsu Completo'] },
+      { marcas: ['Genjutsu Perfeito'] },
+    ],
+  },
+  {
     familia: 'Kuchiyose',
     apelidos: ['Invocação'],
+    poderes: ['Kuchiyose'],
     degraus: [
       { marcas: ['Kuchiyose Incompleta'] },
       { marcas: ['Kuchiyose Completa'] },
@@ -184,6 +213,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
     // A ordem é a que o Pedro ditou: Humano vem depois de Completo, e Perfeito fecha.
     familia: 'Kugutsu',
     apelidos: ['Marionete'],
+    poderes: ['Kugutsu'],
     degraus: [
       { marcas: ['Kugutsu Instável'] },
       { marcas: ['Kugutsu Completo'] },
@@ -194,11 +224,13 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     familia: 'Mokuton',
     paralelo: true,
+    poderes: ['Mokuton'],
     degraus: [{ marcas: ['Mokuton Natural', 'Mokuton Artificial'] }],
   },
   {
     familia: 'Fuinjutsu',
     apelidos: ['Fūinjutsu', 'Selos'],
+    poderes: ['Fuinjutsu', 'Fūinjutsu'],
     degraus: [
       { marcas: ['Fuinjutsu Instável'] },
       { marcas: ['Fuinjutsu Incompleto'] },
@@ -213,6 +245,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
     // `Iryou Ninjutsu` em 14 fichas. "iryo" acha por substring, então as duas grafias funcionam.
     familia: 'Iryou Ninjutsu',
     apelidos: ['Iryō Ninjutsu', 'Jutsu Médico', 'Ninja Médico', 'Medicina'],
+    poderes: ['Iryou Ninjutsu', 'Iryō Ninjutsu'],
     degraus: [
       { marcas: ['Iryou Ninjutsu Instável'] },
       { marcas: ['Iryou Ninjutsu Incompleto'] },
@@ -268,20 +301,46 @@ function maiorDegrau(f: FamiliaLendaria, aptitudes: string[]): { marca: string; 
  * Devolve o texto que o card deve exibir, ou null quando não casou. Ver o comentário do topo para a
  * regra de escada, que é o coração disto.
  */
-export function casaLendaria(aptitudes: string[] | undefined, termo: string): string | null {
+export type FichaBuscavel = {
+  aptitudes?: string[];
+  // `level` aceita string porque o tipo Power do projeto e assim — algumas fichas gravam o nivel
+  // como texto.
+  powers?: { name?: string; level?: string | number }[];
+};
+
+export function casaLendaria(ficha: FichaBuscavel | undefined, termo: string): string | null {
   const t = semAcento(termo);
   if (!t) return null;
-  const apts = aptitudes ?? [];
+  const apts = ficha?.aptitudes ?? [];
+  const powers = ficha?.powers ?? [];
+  /**
+   * O poder daquela família que a ficha tem, formatado como o card exibe: "Fuinjutsu 15".
+   *
+   * `so` restringe a quais nomes valem. Serve ao caso do Jinchuuriki, onde o "poder" é o nome da
+   * bijuu: procurar "kurama" tem que trazer só os três hospedeiros dela, não os doze da família.
+   */
+  const poderDe = (f: FamiliaLendaria, so?: string[]): string | null => {
+    for (const nome of so ?? f.poderes ?? []) {
+      const p = powers.find(x => (x.name ?? '').toLowerCase() === nome.toLowerCase());
+      if (p) return `${p.name} ${p.level ?? 0}`;
+    }
+    return null;
+  };
 
-  // O macro: traz qualquer ficha com qualquer marca.
+  // O macro: traz qualquer ficha com qualquer marca, ou com o poder de qualquer família.
   if (MACRO_LENDARIO.some(m => semAcento(m).includes(t))) {
     const todas = marcasLendarias(apts);
-    return todas.length ? todas.join(' · ') : null;
+    if (todas.length) return todas.join(' · ');
+    const pelosPoderes = FAMILIAS_LENDARIAS.map(f => poderDe(f)).filter(Boolean) as string[];
+    return pelosPoderes.length ? pelosPoderes.join(' · ') : null;
   }
 
   for (const f of FAMILIAS_LENDARIAS) {
     const nomes = [f.familia, ...(f.apelidos ?? [])];
     const casouFamilia = nomes.some(n => semAcento(n).includes(t));
+    // Nome de poder também é pesquisável: sem isto, "kurama" não achava ninguém depois que as
+    // marcas `Jinchuuriki do Kurama` saíram das aptidões.
+    const poderesCasados = (f.poderes ?? []).filter(n => semAcento(n).includes(t));
 
     // Degraus cujo nome contém o termo. O MENOR deles é o piso da busca.
     let piso = Infinity;
@@ -296,10 +355,22 @@ export function casaLendaria(aptitudes: string[] | undefined, termo: string): st
       }
     });
 
+    if (poderesCasados.length && !casouFamilia) {
+      const pd = poderDe(f, poderesCasados);
+      if (pd) return pd;
+      continue;
+    }
     if (!casouFamilia && !casouMarca) continue;
 
     const meu = maiorDegrau(f, apts);
-    if (!meu) continue;
+    if (!meu) {
+      // Sem marca em aptidão, o poder responde. Só quando o termo casou o NOME da família (ou um
+      // apelido), nunca um degrau específico: "fuinjutsu proibido" não pode trazer quem tem só o
+      // poder, porque o poder não diz em que degrau a pessoa está.
+      const pd = casouFamilia ? poderDe(f) : null;
+      if (pd) return pd;
+      continue;
+    }
 
     // Família paralela: as marcas são alternativas, então o termo específico só traz quem tem
     // exatamente aquela marca. O nome da família continua trazendo todo mundo.
