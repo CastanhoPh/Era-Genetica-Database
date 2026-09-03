@@ -274,6 +274,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Hiraishin Perfeito",
       "Clone Perfeito",
+      "Hiraishin",
       "Hiraishin: Deus do Trovão",
       "Acuidade",
       "Ponto Cego",
@@ -510,6 +511,7 @@ export const initialData: Character[] = [
       "Byakugan Implantado",
       "Fujogan Eterno Implantado",
       "Hiraishin Deus do Trovão",
+      "Hiraishin",
       "Hiraishin: Deus do Trovão",
       "Acuidade",
       "Intuição",
@@ -1198,6 +1200,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Byakugan",
       "Fujogan Eterno",
+      "Fujogan",
       "Tenketsu Byakugan",
       "Acuidade",
       "Contragolpe",
@@ -1418,6 +1421,8 @@ export const initialData: Character[] = [
 
     ],
     aptitudes: [
+      "Sharingan",
+      "Mangekyou Sharingan",
       "Nidan Sharingan",
       "Sandan Sharingan",
       "Eternal Mangekyou Sharingan",
@@ -3201,6 +3206,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Hiraishin Deus do Trovão",
       "Edo Tensei",
+      "Hiraishin",
       "Regeneração",
       "Lutar as Cegas",
       "Ponto Cego",
@@ -3248,6 +3254,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Sharingan",
       "Mangekyou Sharingan Eterno",
+      "Mangekyou Sharingan",
       "Punho de Ferro",
       "Lutador",
       "Ataque em Movimento",
@@ -3301,6 +3308,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Byakugan",
       "Fujogan Eterno",
+      "Fujogan",
       "Eternal Fujogan",
       "Lutador",
       "Ataque em Movimento",
@@ -3452,6 +3460,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Byakugan",
       "Fujogan Eterno",
+      "Fujogan",
       "Eternal Fujogan",
       "Lutador",
       "Ataque em Movimento",
@@ -3590,6 +3599,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Sharingan",
       "Mangekyou Sharingan Eterno",
+      "Mangekyou Sharingan",
       "Nidan Sharingan",
       "Sandan Sharingan",
       "Eternal Mangekyou Sharingan",
@@ -6486,6 +6496,7 @@ export const initialData: Character[] = [
       { name: "Jiogu", level: 13 }
     ],
     aptitudes: [
+      "Sharingan",
       "Nidan Sharingan",
       "Sandan Sharingan",
       "Regeneração",
@@ -6533,6 +6544,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Ketsuryugan Perfeito Implantado",
+      "Ketsuryugan",
       "Ketsuryugan Eterno",
       "Fascinar",
       "Miragem",
@@ -6584,6 +6596,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Shingan Perfeito",
+      "Shingan",
       "Shingan Eterno",
       "Iryou Ninjutsu Completo",
       "Chakra Expandido: Uzumaki",
@@ -6629,6 +6642,8 @@ export const initialData: Character[] = [
     aptitudes: [
       "Byakugan Implantado",
       "Fujogan Implantado",
+      "Fujogan",
+      "Byakugan",
       "Tenketsu Byakugan",
       "Acuidade",
       "Contragolpe",
@@ -6775,6 +6790,7 @@ export const initialData: Character[] = [
       { name: "Doton", level: 12 }
     ],
     aptitudes: [
+      "Mangekyou Sharingan",
       "Eien Mangekyou Sharingan",
       "Maestria: CC",
       "Maestria: CD",
@@ -7930,6 +7946,9 @@ export const initialData: Character[] = [
       "Byakugan Implantado",
       "Fujogan Implantado",
       "Iryou Ninjutsu Proibido",
+      "Mangekyou Sharingan",
+      "Byakugan",
+      "Fujogan",
       "Eien Mangekyou Sharingan",
       "Eternal Fujogan",
       "Maestria: CC",
@@ -8193,6 +8212,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Mangekyou Sharingan Eterno",
+      "Mangekyou Sharingan",
       "Eien Mangekyou Sharingan",
       "Perito em Prestidigitação",
       "Ilusão Profunda",
