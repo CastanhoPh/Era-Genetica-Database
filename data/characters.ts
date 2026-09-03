@@ -2449,8 +2449,7 @@ export const initialData: Character[] = [
       { name: "Hachimon Tonkou", level: 6 },
       { name: "Senjutsu", level: 13 },
       { name: "Rasengan", level: 13 },
-      { name: "Katon", level: 13 },
-      { name: "Fuinjutsu", level: 13 }
+      { name: "Katon", level: 13 }
     ],
     aptitudes: [
       "Modo Sábio Completo",
@@ -2848,8 +2847,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Katon", level: 13 },
       { name: "Doton", level: 13 },
-      { name: "Futon", level: 13 },
-      { name: "Fuinjutsu", level: 13 }
+      { name: "Futon", level: 13 }
     ],
     aptitudes: [
       "Sharingan",
@@ -2982,8 +2980,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Juken", level: 9 },
       { name: "Iryou Ninjutsu", level: 9 },
-      { name: "Senjutsu", level: 9 },
-      { name: "Fuinjutsu", level: 9 }
+      { name: "Senjutsu", level: 9 }
     ],
     aptitudes: [
       "Modo Sábio Completo",
@@ -3261,7 +3258,6 @@ export const initialData: Character[] = [
     powers: [
       { name: "Katon", level: 14 },
       { name: "Doton", level: 14 },
-      { name: "Fuinjutsu", level: 14 },
       { name: "Hachimon Tonkou", level: 7 }
     ],
     aptitudes: [
@@ -3465,8 +3461,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Juken", level: 15 },
       { name: "Hyuga no Fujo", level: 15 },
-      { name: "Senjutsu", level: 15 },
-      { name: "Fuinjutsu", level: 15 }
+      { name: "Senjutsu", level: 15 }
     ],
     aptitudes: [
       "Modo Sábio Perfeito",
@@ -3901,8 +3896,7 @@ export const initialData: Character[] = [
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [
       { name: "Kage Mane", level: 11 },
-      { name: "Doton", level: 11 },
-      { name: "Fuinjutsu", level: 11 }
+      { name: "Doton", level: 11 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -4321,8 +4315,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Kurama", level: 4 },
       { name: "Gyuki", level: 4 },
-      { name: "Futon", level: 4 },
-      { name: "Fuinjutsu", level: 4 }
+      { name: "Futon", level: 4 }
     ],
     aptitudes: [
       "Jinchuuriki do Gyuki",
@@ -4420,7 +4413,6 @@ export const initialData: Character[] = [
     stats: { strength: 8, dexterity: 22, agility: 8, intelligence: 22, spirit: 22, vigor: 16, perception: 22 },
     powers: [
       { name: "Hyoton", level: 11 },
-      { name: "Iryou Ninjutsu", level: 11 },
       { name: "Kuchiyose", level: 11 }
     ],
     aptitudes: [
@@ -4513,8 +4505,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Jiton", level: 11 },
       { name: "Sakin", level: 11 },
-      { name: "Satetsu", level: 11 },
-      { name: "Fuinjutsu", level: 11 }
+      { name: "Satetsu", level: 11 }
     ],
     aptitudes: [
       "Maestria: CD",
@@ -4827,8 +4818,7 @@ export const initialData: Character[] = [
       perception: 21
     },
     powers: [
-      { name: "Futon", level: 10 },
-      { name: "Fuinjutsu", level: 10 }
+      { name: "Futon", level: 10 }
     ],
     aptitudes: [
       "Guardião da Liberdade",
@@ -4869,8 +4859,7 @@ export const initialData: Character[] = [
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
       { name: "Ketton", level: 13 },
-      { name: "Kugutsu", level: 13 },
-      { name: "Fuinjutsu", level: 13 }
+      { name: "Kugutsu", level: 13 }
     ],
     aptitudes: [
       "Ketsuryugan Perfeito",
@@ -4912,8 +4901,7 @@ export const initialData: Character[] = [
     stats: { strength: 9, dexterity: 23, agility: 9, intelligence: 23, spirit: 16, vigor: 23, perception: 23 },
     powers: [
       { name: "Iryou Ninjutsu", level: 11 },
-      { name: "Dokujutsu", level: 11 },
-      { name: "Fuinjutsu", level: 11 }
+      { name: "Dokujutsu", level: 11 }
     ],
     aptitudes: [
       "Guardião do Sacrifício",
@@ -5120,8 +5108,7 @@ export const initialData: Character[] = [
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
       { name: "Ranton", level: 13 },
-      { name: "Raiton", level: 13 },
-      { name: "Fuinjutsu", level: 13 }
+      { name: "Raiton", level: 13 }
     ],
     aptitudes: [
       "Ranton Natural",
@@ -6670,9 +6657,7 @@ export const initialData: Character[] = [
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [
       { name: "Suiton", level: 13 },
-      { name: "Fuinjutsu", level: 13 },
-      { name: "Hyuga no Fujo", level: 13 },
-      { name: "Iryou Ninjutsu", level: 13 }
+      { name: "Hyuga no Fujo", level: 13 }
     ],
     aptitudes: [
       "Byakugan Implantado",
@@ -7101,8 +7086,7 @@ export const initialData: Character[] = [
     stats: { strength: 7, dexterity: 18, agility: 7, intelligence: 10, spirit: 18, vigor: 18, perception: 18 },
     powers: [
       { name: "Hoshasenton", level: 9 },
-      { name: "Kage Mane", level: 9 },
-      { name: "Fuinjutsu", level: 9 }
+      { name: "Kage Mane", level: 9 }
     ],
     aptitudes: [
       "Chakra Expandido",
