@@ -164,6 +164,69 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
     familia: 'Clone Perfeito',
     degraus: [{ marcas: ['Clone Perfeito'] }],
   },
+  {
+    familia: 'Kuchiyose',
+    apelidos: ['Invocação'],
+    degraus: [
+      { marcas: ['Kuchiyose Incompleta'] },
+      { marcas: ['Kuchiyose Completa'] },
+      { marcas: ['Kuchiyose Contrato Selado'] },
+    ],
+  },
+  {
+    familia: 'Byakugou',
+    degraus: [
+      { marcas: ['Byakugou Incompleto'] },
+      { marcas: ['Byakugou Completo'] },
+    ],
+  },
+  {
+    // A ordem é a que o Pedro ditou: Humano vem depois de Completo, e Perfeito fecha.
+    familia: 'Kugutsu',
+    apelidos: ['Marionete'],
+    degraus: [
+      { marcas: ['Kugutsu Instável'] },
+      { marcas: ['Kugutsu Completo'] },
+      { marcas: ['Kugutsu Humano'] },
+      { marcas: ['Kugutsu Perfeito'] },
+    ],
+  },
+  {
+    familia: 'Mokuton',
+    paralelo: true,
+    degraus: [{ marcas: ['Mokuton Natural', 'Mokuton Artificial'] }],
+  },
+  {
+    familia: 'Fuinjutsu',
+    apelidos: ['Fūinjutsu', 'Selos'],
+    degraus: [
+      { marcas: ['Fuinjutsu Instável'] },
+      { marcas: ['Fuinjutsu Incompleto'] },
+      { marcas: ['Fuinjutsu Completo'] },
+      { marcas: ['Fuinjutsu Semi Perfeito'] },
+      { marcas: ['Fuinjutsu Perfeito'] },
+      { marcas: ['Fuinjutsu Proibido'] },
+    ],
+  },
+  {
+    // O Pedro escreveu "Iryo"; a marca usa "Iryou" para casar com o nome do PODER, que é
+    // `Iryou Ninjutsu` em 14 fichas. "iryo" acha por substring, então as duas grafias funcionam.
+    familia: 'Iryou Ninjutsu',
+    apelidos: ['Iryō Ninjutsu', 'Jutsu Médico', 'Ninja Médico', 'Medicina'],
+    degraus: [
+      { marcas: ['Iryou Ninjutsu Instável'] },
+      { marcas: ['Iryou Ninjutsu Incompleto'] },
+      { marcas: ['Iryou Ninjutsu Completo'] },
+      { marcas: ['Iryou Ninjutsu Semi Perfeito'] },
+      { marcas: ['Iryou Ninjutsu Perfeito'] },
+      { marcas: ['Iryou Ninjutsu Proibido'] },
+    ],
+  },
+  {
+    familia: 'Edo Tensei',
+    apelidos: ['Ressurreição'],
+    degraus: [{ marcas: ['Edo Tensei'] }],
+  },
 ];
 
 /** Como o macro se chama na busca. */
@@ -242,12 +305,16 @@ export function casaLendaria(aptitudes: string[] | undefined, termo: string): st
     // exatamente aquela marca. O nome da família continua trazendo todo mundo.
     if (f.paralelo && !casouFamilia) {
       const minha = marcasCasadas.find(m => apts.includes(m));
-      return minha ?? null;
+      if (minha) return minha;
+      continue;
     }
 
-    // Escada: entra quem está no piso ou acima.
+    // Escada: entra quem está no piso ou acima. `continue` em vez de `return null` porque um termo
+    // genérico casa em várias famílias — "perfeito" está em Ketsuryugan, Kugutsu, Fuinjutsu, Iryou,
+    // Hiraishin, Modo Sábio, Shingan e Clone Perfeito. Abortar na primeira que não qualifica fazia
+    // a ficha desaparecer mesmo tendo a habilidade numa família seguinte.
     const exigido = casouFamilia ? 0 : piso;
-    return meu.nivel >= exigido ? meu.marca : null;
+    if (meu.nivel >= exigido) return meu.marca;
   }
   return null;
 }
