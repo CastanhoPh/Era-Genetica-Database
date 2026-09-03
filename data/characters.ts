@@ -6279,7 +6279,7 @@ export const initialData: Character[] = [
     name: "Ganmaren Yuki",
     clan: "Yuki",
     categories: ["NPC", "Kirigakure"],
-    titles: ["O Escolhido de Jormungandr", "O Escolhido"],
+    titles: ["Âncora Verde"],
     nc: 30,
     position: "",
     role: "Controle",
