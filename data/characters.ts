@@ -283,7 +283,7 @@ export const initialData: Character[] = [
       "Maestria: CD",
       "Hiraishin",
       "Clone Perfeito",
-      "Jinchuuriki",
+      "Jinchuuriki do Matatabi",
       "Chakra Expandido: Namikaze",
       "Hiraishin: Deus do Trovão",
       "Maximizar",
@@ -1674,7 +1674,7 @@ export const initialData: Character[] = [
       { name: "Doton", level: 6 }
     ],
     aptitudes: [
-      "Jinchuuriki",
+      "Jinchuuriki do Son Goku",
       "Chakra Expandido: Son Goku",
       "Acuidade",
       "Ataque em Movimento",
@@ -1839,7 +1839,7 @@ export const initialData: Character[] = [
       "Velocista",
       "Duro de Matar",
       "Regeneração",
-      "Jinchuuriki Profano",
+      "Jinchuuriki Profano do Aokiba",
       "Chakra Expandido: Aokiba",
       "Intuição",
       "Réplica Enganadora"
@@ -2688,7 +2688,7 @@ export const initialData: Character[] = [
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
-      "Jinchuuriki",
+      "Jinchuuriki do Kurama",
       "Chakra Expandido: Uzumaki",
       "Chakra Expandido: Kurama",
       "Domínio do Suiton",
@@ -3064,7 +3064,7 @@ export const initialData: Character[] = [
       { name: "Doton", level: 14 }
     ],
     aptitudes: [
-      "Jinchuuriki",
+      "Jinchuuriki do Gyuki",
       "Chakra Expandido: Gyuki",
       "Elemento Natural: Doton",
       "Maestria: CD",
@@ -4129,7 +4129,7 @@ export const initialData: Character[] = [
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
-      "Jinchuuriki",
+      "Jinchuuriki do Kurama",
       "Chakra Expandido Kurama",
       "Chakra Expandido Uzumaki"
     ],
@@ -4288,7 +4288,8 @@ export const initialData: Character[] = [
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
-      "Jinchuuriki",
+      "Jinchuuriki do Kurama",
+      "Jinchuuriki do Gyuki",
       "Chakra Expandido Kurama",
       "Chakra Expandido Gyuki",
       "Chakra Expandido Uzumaki",
@@ -4583,7 +4584,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "A Muralha Dourada",
       "A Leoa da Areia",
-      "Jinchuuriki Perfeita",
+      "Jinchuuriki do Shukaku",
       "Controle Absoluto da Areia de Ouro",
       "Ninja Sensorial",
       "Combate à Distância",
@@ -5567,7 +5568,7 @@ export const initialData: Character[] = [
       "Chute Giratório",
       "Arremessar",
       "Seguir Sombra",
-      "Jinchuuriki",
+      "Jinchuuriki do Kokuo",
       "Chakra Expandido"
     ],
   },
@@ -6403,7 +6404,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Domínio do Vento",
-      "Jinchuuriki",
+      "Jinchuuriki do Chomei",
       "Chakra Expandido: Chomei",
       "Maestria: CC",
       "Regeneração",
@@ -6744,7 +6745,7 @@ export const initialData: Character[] = [
       "Eien Mangekyou Sharingan",
       "Maestria: CC",
       "Maestria: CD",
-      "Jinchuuriki",
+      "Jinchuuriki do Son Goku",
       "Chakra Expandido",
       "Intuição",
       "Reflexos",
@@ -6844,7 +6845,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Fujogan",
       "Eternal Fujogan",
-      "Jinchuuriki",
+      "Jinchuuriki do Isobu",
       "Chakra Expandido: Isobu",
       "Maestria: CC",
       "Maestria: CD",
@@ -7549,7 +7550,7 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
-      "Jinchuuriki",
+      "Jinchuuriki do Saiken",
       "Chakra Expandido: Saiken",
       "Desconhecido",
       "Desconhecido",
