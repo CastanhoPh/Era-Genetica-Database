@@ -283,6 +283,7 @@ export const initialData: Character[] = [
       "Maestria: CD",
       "Hiraishin",
       "Clone Perfeito",
+      "Jinchuuriki",
       "Chakra Expandido: Namikaze",
       "Hiraishin: Deus do Trovão",
       "Maximizar",
@@ -1604,7 +1605,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Sarutobi",
     categories: ["Personagem", "Konohagakure"],
-    titles: ["Ninja do Amor", "O Ninja do Amor", "Jinchuuriki", "Arma secreta de Konoha"],
+    titles: ["Ninja do Amor", "O Ninja do Amor", "Arma secreta de Konoha"],
     nc: 12,
     position: "",
     role: "DPS",
@@ -1673,6 +1674,7 @@ export const initialData: Character[] = [
       { name: "Doton", level: 6 }
     ],
     aptitudes: [
+      "Jinchuuriki",
       "Chakra Expandido: Son Goku",
       "Acuidade",
       "Ataque em Movimento",
@@ -1837,6 +1839,7 @@ export const initialData: Character[] = [
       "Velocista",
       "Duro de Matar",
       "Regeneração",
+      "Jinchuuriki Profano",
       "Chakra Expandido: Aokiba",
       "Intuição",
       "Réplica Enganadora"
@@ -1890,6 +1893,7 @@ export const initialData: Character[] = [
       { name: "Rasengan", level: 6 }
     ],
     aptitudes: [
+      "Jinchuuriki Profano",
       "Ambidestria",
       "Ataque Poderoso",
       "Bloqueio Ambidestro",
@@ -2684,6 +2688,7 @@ export const initialData: Character[] = [
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
+      "Jinchuuriki",
       "Chakra Expandido: Uzumaki",
       "Chakra Expandido: Kurama",
       "Domínio do Suiton",
@@ -2970,7 +2975,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Gunma",
     categories: ["NPC", "Konohagakure", "Iwagakure"],
-    titles: ["Atirador Púrpuro", "Jinchuuriki", "Tsuchikage Afastado", "Polvo Enjaulado"],
+    titles: ["Atirador Púrpuro", "Tsuchikage Afastado", "Polvo Enjaulado"],
     nc: 29,
     position: "",
     role: "Tank e Suporte",
@@ -3059,6 +3064,7 @@ export const initialData: Character[] = [
       { name: "Doton", level: 14 }
     ],
     aptitudes: [
+      "Jinchuuriki",
       "Chakra Expandido: Gyuki",
       "Elemento Natural: Doton",
       "Maestria: CD",
@@ -4123,6 +4129,7 @@ export const initialData: Character[] = [
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
+      "Jinchuuriki",
       "Chakra Expandido Kurama",
       "Chakra Expandido Uzumaki"
     ],
@@ -4281,6 +4288,7 @@ export const initialData: Character[] = [
       "Acuidade",
       "Intuição",
       "Instinto de Batalha: LM, CD",
+      "Jinchuuriki",
       "Chakra Expandido Kurama",
       "Chakra Expandido Gyuki",
       "Chakra Expandido Uzumaki",
@@ -4487,7 +4495,7 @@ export const initialData: Character[] = [
     chakraColor: "#00ff41",
     clan: "Sabaku",
     categories: ["NPC", "Sunagakure"],
-    titles: ["A Leoa da Areia", "A Muralha Dourada", "Jinchuuriki"],
+    titles: ["A Leoa da Areia", "A Muralha Dourada"],
     nc: 30,
     position: "",
     role: "DPS e Controle",
@@ -5559,6 +5567,7 @@ export const initialData: Character[] = [
       "Chute Giratório",
       "Arremessar",
       "Seguir Sombra",
+      "Jinchuuriki",
       "Chakra Expandido"
     ],
   },
@@ -6208,7 +6217,7 @@ export const initialData: Character[] = [
     powers: [
       { name: "Suiton", level: 14 }
     ],
-    aptitudes: [],
+    aptitudes: ["Jinchuuriki Profano"],
     isDead: false,
     techniques: [],
     gallery: [
@@ -6394,6 +6403,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Domínio do Vento",
+      "Jinchuuriki",
       "Chakra Expandido: Chomei",
       "Maestria: CC",
       "Regeneração",
@@ -6661,7 +6671,7 @@ export const initialData: Character[] = [
     chakraColor: "#ff3b46",
     clan: "Uchiha",
     categories: ["NPC", "OCA", "Konohagakure"],
-    titles: ["Inferno Vermelho", "Jinchuuriki", "O Primeiro Experimento", "Líder dos 75%", "O Inferno Vermelho"],
+    titles: ["Inferno Vermelho", "O Primeiro Experimento", "Líder dos 75%", "O Inferno Vermelho"],
     nc: 24,
     position: "",
     role: "DPS e Controle",
@@ -6734,6 +6744,7 @@ export const initialData: Character[] = [
       "Eien Mangekyou Sharingan",
       "Maestria: CC",
       "Maestria: CD",
+      "Jinchuuriki",
       "Chakra Expandido",
       "Intuição",
       "Reflexos",
@@ -6763,7 +6774,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
     clan: "Hyuga",
     categories: ["NPC", "OCA", "Konohagakure"],
-    titles: ["Inverno Azul", "Jinchuuriki", "O Segundo Experimento", "Vice Líder dos 75%", "O Anjo de Gelo"],
+    titles: ["Inverno Azul", "O Segundo Experimento", "Vice Líder dos 75%", "O Anjo de Gelo"],
     nc: 26,
     position: "",
     role: "DPS e Controle",
@@ -6833,6 +6844,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Fujogan",
       "Eternal Fujogan",
+      "Jinchuuriki",
       "Chakra Expandido: Isobu",
       "Maestria: CC",
       "Maestria: CD",
@@ -7197,6 +7209,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Maestria: CC",
       "Maestria: CD",
+      "Jinchuuriki Profano",
       "Chakra Expandido",
       "Intuição",
       "Reflexos",
@@ -7536,6 +7549,7 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
+      "Jinchuuriki",
       "Chakra Expandido: Saiken",
       "Desconhecido",
       "Desconhecido",
