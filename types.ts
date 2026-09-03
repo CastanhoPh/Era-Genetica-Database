@@ -398,6 +398,7 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Haruki Hyuga', role: 'Filho de Minoru e Akemi' },
       { name: 'Harunobu Namikaze', role: 'Pai de Sakura e Satoshi' },
       { name: 'Itama Senju', role: 'Filho de Butsuma e Kaori' },
+      { name: 'Kagami Uchiha', role: 'Irmão de Madara', nc: 28 },
       { name: 'Izuna Uchiha', role: 'Filho de Tajima e Setsuna' },
       { name: 'Kaori Senju', role: 'Mãe de Hashirama, Tobirama, Kawarama e Itama' },
       { name: 'Kohana Uzumaki', role: 'Esposa de Harunobu Namikaze, mãe de Sakura e Satoshi' },
@@ -416,6 +417,7 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
     // A Marinha de Kirigakure, oficializada em 27/08/2026: as quatro frotas completas, ids 87
     // a 98. Só a Murasame Hoshigaki sobra aqui, e ela não é da Marinha.
     entries: [
+      { name: 'Byakuren Hoshigaki', role: '1º Mizukage, Jinchuuriki do Isobu', nc: 30 },
       { name: 'Murasame Hoshigaki', role: 'Mãe de Kazuki, morta por Ganmasen', dead: true, nc: 18 },
     ],
   },
