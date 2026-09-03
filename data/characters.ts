@@ -6449,10 +6449,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Sharingan",
-      "Nidan Sharingan",
-      "Sandan Sharingan",
-      "Mangekyou Sharingan",
-      "Eternal Mangekyou Sharingan",
       "Regeneração",
       "Mestre dos Selos",
       "Ambidestria",
