@@ -920,5 +920,82 @@ export const arsenalData: Equipment[] = [
     originalOwner: "Ashina Uzumaki",
     pastOwners: ["Mito Uzumaki", "Raikun Hatake"],
     currentOwner: "Hiroshi Hanzo"
+  },
+  {
+    id: 84,
+    name: "Rasenken",
+    classification: "S++",
+    nature: "",
+    origin: "Kirigakure",
+    description: "Espada broca capaz de perfurar qualquer superfície. Ela vibra para que o usuário possa sentir todo o ambiente à sua volta. É feita sob medida pelo clã para um filho do céu.",
+    image: "",
+    originalOwner: "Ayame Sazanami",
+    currentOwner: "Ayame Sazanami"
+  },
+  {
+    id: 85,
+    name: "Sōhakujū",
+    classification: "S++",
+    nature: "",
+    origin: "Konohagakure",
+    description: "Arma desenvolvida por Haruki para Asami. Conecta-se com o chakra do usuário e dispara balas feitas diretamente desse chakra, capazes de acertar os tenketsus do oponente. É potencializada pelo Fujogan de Asami.",
+    image: "",
+    originalOwner: "Asami Hyuga",
+    currentOwner: "Tōma Umikage"
+  },
+  {
+    id: 86,
+    name: "Shinkai no Ikari",
+    classification: "Z",
+    nature: "",
+    origin: "Kirigakure",
+    description: "A âncora afeta todo o ambiente. É extremamente pesada, mas tem uma reversão que permite ser carregada por quem a controla. Ao bater no chão, toda a gravidade de uma grande área é alterada e o chakra se expande, tornando o campo de batalha totalmente imprevisível. Se for arremessada contra um ninja, além do golpe ela altera todo o campo gravitacional. Seu único counter é o jutsu de poeira, que permite ao usuário anular esse tipo de efeito.",
+    image: "",
+    originalOwner: "Ganmasen Yuki (Gama)",
+    currentOwner: "Ganmaren Yuki"
+  },
+  {
+    id: 87,
+    name: "Kokutetsu no Kusari",
+    classification: "S+",
+    nature: "",
+    origin: "Kirigakure",
+    description: "As correntes funcionam como chicotes, e cada gomo permite ao Gordon um teleporte rápido. Ele consegue soltar as peças da corrente e imbuir chakra em cada gomo para lutar de forma ágil.",
+    image: "",
+    originalOwner: "Gordon Kirisame",
+    currentOwner: "Gordon Kirisame"
+  },
+  {
+    id: 88,
+    name: "Kiri Basami",
+    classification: "S+",
+    nature: "",
+    origin: "Kirigakure",
+    description: "",
+    image: "",
+    originalOwner: "Mei Yuki",
+    currentOwner: "Mei Yuki"
+  },
+  {
+    id: 89,
+    name: "Shōdō no Naifu",
+    classification: "S++",
+    nature: "",
+    origin: "OCA",
+    description: "",
+    image: "",
+    originalOwner: "Shiita Sabaku (Theta)",
+    currentOwner: "Hahiko Shiosaki"
+  },
+  {
+    id: 90,
+    name: "Sōsai",
+    classification: "S++",
+    nature: "",
+    origin: "Konohagakure",
+    description: "",
+    image: "",
+    originalOwner: "Kagami Uchiha",
+    currentOwner: "Kagami Uchiha"
   }
 ];
