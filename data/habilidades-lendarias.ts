@@ -12,6 +12,9 @@
  *   "byakugan"           → traz os Fujogan também, porque Fujogan é evolução do Byakugan
  *   "fujogan"            → só os Fujogan; quem tem apenas Byakugan fica fora
  *
+ * "Implantado" não existe como aptidão — o Pedro decidiu isso primeiro no Sharingan e depois no
+ * Byakugan. O implante é fato da história, não capacidade, então a marca é a do estágio.
+ *
  * E o motivo que o card exibe é sempre o degrau MAIS ALTO daquela ficha na família pesquisada. Isso
  * responde a duas coisas de uma vez: procurar "sharingan" e ver "Mangekyou Sharingan" no card do
  * Oddy, e a Ayumi deixar de exibir o título "Princesa do Sharingan" no lugar da habilidade.
@@ -94,22 +97,20 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   },
   {
     familia: 'Kaminari',
-    paralelo: true,
-    degraus: [{ marcas: ['Kaminari Natural', 'Kaminari Artificial'] }],
+    degraus: [{ marcas: ['Kaminari'] }],
   },
   {
     familia: 'Shiroki Kaminari',
-    paralelo: true,
-    degraus: [{ marcas: ['Shiroki Kaminari Natural', 'Shiroki Kaminari Artificial'] }],
+    degraus: [{ marcas: ['Shiroki Kaminari'] }],
   },
   {
     // A escada que o Pedro descreveu: Mangekyou é evolução do Sharingan, e Eterno do Mangekyou.
     // "Implantado" não é degrau, é variante — vive no mesmo nível do original.
     familia: 'Sharingan',
     degraus: [
-      { marcas: ['Sharingan', 'Sharingan Implantado'] },
-      { marcas: ['Mangekyou Sharingan', 'Mangekyou Sharingan Implantado'] },
-      { marcas: ['Mangekyou Sharingan Eterno', 'Mangekyou Sharingan Eterno Implantado'] },
+      { marcas: ['Sharingan'] },
+      { marcas: ['Mangekyou Sharingan'] },
+      { marcas: ['Mangekyou Sharingan Eterno'] },
     ],
   },
   {
@@ -119,16 +120,16 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
     // cima — que é a regra que o Pedro pediu.
     familia: 'Byakugan',
     degraus: [
-      { marcas: ['Byakugan', 'Byakugan Implantado'] },
-      { marcas: ['Fujogan', 'Fujogan Implantado'] },
-      { marcas: ['Fujogan Eterno', 'Fujogan Eterno Implantado'] },
+      { marcas: ['Byakugan'] },
+      { marcas: ['Fujogan'] },
+      { marcas: ['Fujogan Eterno'] },
     ],
   },
   {
     familia: 'Ketsuryugan',
     degraus: [
       { marcas: ['Ketsuryugan'] },
-      { marcas: ['Ketsuryugan Perfeito', 'Ketsuryugan Perfeito Implantado'] },
+      { marcas: ['Ketsuryugan Perfeito'] },
     ],
   },
   {
@@ -173,8 +174,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
     familia: 'Hiraishin',
     degraus: [
       { marcas: ['Hiraishin'] },
-      { marcas: ['Hiraishin Deus do Trovão'] },
-      { marcas: ['Hiraishin Perfeito'] },
+      { marcas: ['Hiraishin: Deus do Trovão'] },
     ],
   },
   {
@@ -246,14 +246,7 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
     familia: 'Iryou Ninjutsu',
     apelidos: ['Iryō Ninjutsu', 'Jutsu Médico', 'Ninja Médico', 'Medicina'],
     poderes: ['Iryou Ninjutsu', 'Iryō Ninjutsu'],
-    degraus: [
-      { marcas: ['Iryou Ninjutsu Instável'] },
-      { marcas: ['Iryou Ninjutsu Incompleto'] },
-      { marcas: ['Iryou Ninjutsu Completo'] },
-      { marcas: ['Iryou Ninjutsu Semi Perfeito'] },
-      { marcas: ['Iryou Ninjutsu Perfeito'] },
-      { marcas: ['Iryou Ninjutsu Proibido'] },
-    ],
+    degraus: [{ marcas: ['Ninjutsu Médico'] }],
   },
   {
     familia: 'Edo Tensei',

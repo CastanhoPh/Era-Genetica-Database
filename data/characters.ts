@@ -272,7 +272,6 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Hiraishin Perfeito",
       "Clone Perfeito",
       "Hiraishin",
       "Hiraishin: Deus do Trovão",
@@ -508,11 +507,10 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 8 }
     ],
     aptitudes: [
-      "Byakugan Implantado",
-      "Fujogan Eterno Implantado",
-      "Hiraishin Deus do Trovão",
-      "Hiraishin",
+      "Byakugan",
+      "Fujogan Eterno",
       "Hiraishin: Deus do Trovão",
+      "Hiraishin",
       "Acuidade",
       "Intuição",
       "Regeneração",
@@ -703,11 +701,9 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 8 }
     ],
     aptitudes: [
-      "Kaminari Artificial",
-      "Shiroki Kaminari Artificial",
-      "Kagura Shingan",
       "Kaminari",
       "Shiroki Kaminari",
+      "Kagura Shingan",
       "Domínio do Raio",
       "Maximizar",
       "Kongou Fuusa",
@@ -1425,7 +1421,7 @@ export const initialData: Character[] = [
       "Mangekyou Sharingan",
       "Nidan Sharingan",
       "Sandan Sharingan",
-      "Eternal Mangekyou Sharingan",
+      "Mangekyou Sharingan Eterno",
       "Arremessar",
       "Chute Giratório",
       "Maestria: CC",
@@ -1585,7 +1581,6 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 9 }
     ],
     aptitudes: [
-      "Shiroki Kaminari Natural",
       "Shiroki Kaminari",
       "Kaminari",
       "Acuidade",
@@ -2114,7 +2109,7 @@ export const initialData: Character[] = [
       { name: "Iryou Ninjutsu", level: 9 }
     ],
     aptitudes: [
-      "Iryou Ninjutsu Semi Perfeito",
+      "Ninjutsu Médico",
       "Ninja Médico",
       "Chakra Expandido",
       "Regeneração",
@@ -2843,7 +2838,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Sharingan",
       "Mangekyou Sharingan Eterno",
-      "Eien Mangekyou Sharingan",
       "Mímica Sharingan",
       "Elemento Natural: Katon",
       "Maestria: CD",
@@ -2974,7 +2968,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Byakugan",
-      "Iryou Ninjutsu Instável",
+      "Ninjutsu Médico",
     ],
     timelineAppearance: "Prólogo",
     timelineDeath: "1ª Temporada",
@@ -3147,10 +3141,9 @@ export const initialData: Character[] = [
       { name: "Iryou Ninjutsu", level: 8 }
     ],
     aptitudes: [
-      "Shiroki Kaminari Natural",
-      "Hiraishin Deus do Trovão",
-      "Iryou Ninjutsu Completo",
       "Shiroki Kaminari",
+      "Hiraishin: Deus do Trovão",
+      "Ninjutsu Médico",
       "Kaminari",
       "Instinto de Batalha: LM, CD",
       "Lutar as Cegas",
@@ -3204,7 +3197,7 @@ export const initialData: Character[] = [
       { name: "Senjutsu", level: 15 }
     ],
     aptitudes: [
-      "Hiraishin Deus do Trovão",
+      "Hiraishin: Deus do Trovão",
       "Edo Tensei",
       "Hiraishin",
       "Regeneração",
@@ -3309,7 +3302,6 @@ export const initialData: Character[] = [
       "Byakugan",
       "Fujogan Eterno",
       "Fujogan",
-      "Eternal Fujogan",
       "Lutador",
       "Ataque em Movimento",
       "Arremessar",
@@ -3366,7 +3358,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Kagura Shingan",
       "Byakugou Completo",
-      "Iryou Ninjutsu Perfeito",
+      "Ninjutsu Médico",
       "Chakra Expandido",
       "Kongou Fuusa",
       "Acuidade",
@@ -3414,8 +3406,8 @@ export const initialData: Character[] = [
     aptitudes: [
       "Byakugan",
       "Fujogan",
-      "Iryou Ninjutsu Semi Perfeito",
-      "Eternal Fujogan",
+      "Ninjutsu Médico",
+      "Fujogan Eterno",
       "Lutador",
       "Ataque em Movimento",
       "Arremessar",
@@ -3461,7 +3453,6 @@ export const initialData: Character[] = [
       "Byakugan",
       "Fujogan Eterno",
       "Fujogan",
-      "Eternal Fujogan",
       "Lutador",
       "Ataque em Movimento",
       "Arremessar",
@@ -3602,7 +3593,6 @@ export const initialData: Character[] = [
       "Mangekyou Sharingan",
       "Nidan Sharingan",
       "Sandan Sharingan",
-      "Eternal Mangekyou Sharingan",
       "Mímica Sharingan",
       "Elemento Natural: Katon",
       "Domínio do Fogo",
@@ -4410,7 +4400,6 @@ export const initialData: Character[] = [
       { name: "Kuchiyose", level: 11 }
     ],
     aptitudes: [
-      "Kaminari Artificial",
       "Kaminari",
       "Maestria: CD",
       "Intuição",
@@ -4898,7 +4887,7 @@ export const initialData: Character[] = [
       { name: "Dokujutsu", level: 11 }
     ],
     aptitudes: [
-      "Iryou Ninjutsu Perfeito",
+      "Ninjutsu Médico",
       "Guardião do Sacrifício",
       "A Cirurgiã da Areia Branca",
       "Medicina Cruel",
@@ -5189,7 +5178,6 @@ export const initialData: Character[] = [
       { name: "Nintaijutsu", level: 10 }
     ],
     aptitudes: [
-      "Kaminari Artificial",
       "Kaminari",
       "Instinto de Batalha: LM, CD",
       "Punho de Ferro",
@@ -5355,7 +5343,7 @@ export const initialData: Character[] = [
       { name: "Ocultação", level: 12 }
     ],
     aptitudes: [
-      "Kaminari Natural",
+      "Kaminari",
       "Acuidade",
       "Intuição",
       "Perito: Rastrear",
@@ -5457,7 +5445,7 @@ export const initialData: Character[] = [
       { name: "Nintaijutsu", level: 13 }
     ],
     aptitudes: [
-      "Iryou Ninjutsu Proibido",
+      "Ninjutsu Médico",
       "Cirurgião Profano",
       "Punho de Ferro",
       "Lutador",
@@ -5781,7 +5769,7 @@ export const initialData: Character[] = [
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 20, spirit: 27, vigor: 27, perception: 27 },
     powers: [],
     aptitudes: [
-      "Kaminari Natural",
+      "Kaminari",
       "Acuidade",
     ],
     gallery: [
@@ -5913,7 +5901,7 @@ export const initialData: Character[] = [
     stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
     powers: [],
     aptitudes: [
-      "Kaminari Natural",
+      "Kaminari",
       "Acuidade",
     ],
     gallery: [
@@ -5966,7 +5954,7 @@ export const initialData: Character[] = [
     stats: { strength: 8, dexterity: 21, agility: 8, intelligence: 21, spirit: 21, vigor: 14, perception: 21 },
     powers: [],
     aptitudes: [
-      "Kaminari Natural",
+      "Kaminari",
     ],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAkane%20Sumigami%2F5__Temporada.png?alt=media&v=1788276880160666", caption: "5ª Temporada", category: "era" },
@@ -6022,7 +6010,7 @@ export const initialData: Character[] = [
       { name: "Iryō Ninjutsu", level: 14 }
     ],
     aptitudes: [
-      "Iryou Ninjutsu Incompleto",
+      "Ninjutsu Médico",
       "Ambidestria",
       "Maestria: CC",
       "Saque Rápido",
@@ -6451,7 +6439,7 @@ export const initialData: Character[] = [
       { name: "Magen", level: 14 }
     ],
     aptitudes: [
-      "Iryou Ninjutsu Perfeito",
+      "Ninjutsu Médico",
       "Domínio do Vento",
       "Chakra Expandido: Chomei",
       "Maestria: CC",
@@ -6543,7 +6531,7 @@ export const initialData: Character[] = [
       { name: "Magen", level: 14 }
     ],
     aptitudes: [
-      "Ketsuryugan Perfeito Implantado",
+      "Ketsuryugan Perfeito",
       "Ketsuryugan",
       "Ketsuryugan Eterno",
       "Fascinar",
@@ -6598,7 +6586,7 @@ export const initialData: Character[] = [
       "Shingan Perfeito",
       "Shingan",
       "Shingan Eterno",
-      "Iryou Ninjutsu Completo",
+      "Ninjutsu Médico",
       "Chakra Expandido: Uzumaki",
       "Kogou Fusa",
       "Velocista",
@@ -6640,10 +6628,8 @@ export const initialData: Character[] = [
       { name: "Hyuga no Fujo", level: 13 }
     ],
     aptitudes: [
-      "Byakugan Implantado",
-      "Fujogan Implantado",
-      "Fujogan",
       "Byakugan",
+      "Fujogan",
       "Tenketsu Byakugan",
       "Acuidade",
       "Contragolpe",
@@ -6791,7 +6777,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Mangekyou Sharingan",
-      "Eien Mangekyou Sharingan",
+      "Mangekyou Sharingan Eterno",
       "Maestria: CC",
       "Maestria: CD",
       "Chakra Expandido",
@@ -6893,7 +6879,7 @@ export const initialData: Character[] = [
     aptitudes: [
       "Byakugan",
       "Fujogan",
-      "Eternal Fujogan",
+      "Fujogan Eterno",
       "Chakra Expandido: Isobu",
       "Maestria: CC",
       "Maestria: CD",
@@ -6978,7 +6964,7 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Byakugou Incompleto",
-      "Iryou Ninjutsu Semi Perfeito",
+      "Ninjutsu Médico",
       "Maestria: CC",
       "Maestria: CD",
       "Intuição",
@@ -7188,7 +7174,7 @@ export const initialData: Character[] = [
       { name: "Iryou Ninjutsu", level: 7 },
     ],
     aptitudes: [
-      "Iryou Ninjutsu Instável",
+      "Ninjutsu Médico",
       "Maestria: CD",
       "intuição",
       "Atirador",
@@ -7323,8 +7309,8 @@ export const initialData: Character[] = [
       { name: "Nintaijutsu", level: 9 },
     ],
     aptitudes: [
-      "Kaminari Artificial",
-      "Shiroki Kaminari Artificial",
+      "Kaminari",
+      "Shiroki Kaminari",
       "Kaminari Branco",
       "Amenotejikara",
       "Velocista",
@@ -7336,7 +7322,6 @@ export const initialData: Character[] = [
       "Mestre dos Selos",
       "Kongou Fuusa",
       "Intuição",
-      "Reflexos",
       "Domínio do Raio",
       "Ponto Cego",
       "Acuidade",
@@ -7458,34 +7443,8 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
-      "Kaminari Artificial",
-      "Shiroki Kaminari Artificial",
-      "Shiroki Kaminari",
       "Kaminari",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
+      "Shiroki Kaminari",
       "Desconhecido",
     ],
     timelineAppearance: "1ª Temporada",
@@ -7604,31 +7563,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Chakra Expandido: Saiken",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
       "Desconhecido",
     ],
     timelineAppearance: "1ª Temporada",
@@ -7768,32 +7702,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
     ],
     timelineAppearance: "1ª Temporada",
     timelineDeath: "4ª Temporada",
@@ -7865,16 +7773,7 @@ export const initialData: Character[] = [
       }
     ],
     aptitudes: [
-      "Iryou Ninjutsu Proibido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
+      "Ninjutsu Médico",
       "Desconhecido",
     ],
     timelineAppearance: "1ª Temporada",
@@ -7943,14 +7842,12 @@ export const initialData: Character[] = [
       { name: "Fuinjutsu", level: 15 }
     ],
     aptitudes: [
-      "Byakugan Implantado",
-      "Fujogan Implantado",
-      "Iryou Ninjutsu Proibido",
-      "Mangekyou Sharingan",
       "Byakugan",
       "Fujogan",
-      "Eien Mangekyou Sharingan",
-      "Eternal Fujogan",
+      "Ninjutsu Médico",
+      "Mangekyou Sharingan",
+      "Mangekyou Sharingan Eterno",
+      "Fujogan Eterno",
       "Maestria: CC",
       "Maestria: CD",
       "Intuição",
@@ -8064,20 +7961,6 @@ export const initialData: Character[] = [
       "Regeneração",
       "Células de Hashirama",
       "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
     ],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FBeta%2F2__Temporada.png?alt=media&v=1788276936672402", caption: "2ª Temporada", category: "era" },
@@ -8113,24 +7996,6 @@ export const initialData: Character[] = [
     ],
     aptitudes: [
       "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido",
-      "Desconhecido"
     ],
   },
   {
@@ -8213,7 +8078,6 @@ export const initialData: Character[] = [
     aptitudes: [
       "Mangekyou Sharingan Eterno",
       "Mangekyou Sharingan",
-      "Eien Mangekyou Sharingan",
       "Perito em Prestidigitação",
       "Ilusão Profunda",
       "Dano Extra",
