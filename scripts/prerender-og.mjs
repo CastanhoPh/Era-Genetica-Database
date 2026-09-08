@@ -18,9 +18,12 @@ const esc = (s) => String(s ?? '')
 // A REST do Firestore devolve o valor etiquetado pelo tipo. Sem o booleanValue aqui, um campo
 // booleano virava '' — e foi assim que o filtro de `oculto` passou batido e o stub do Hashirama
 // foi pro ar mesmo com a ficha escondida.
+// `titles` é uma lista (arrayValue) — sem tratar esse tipo aqui ela virava '' e o título
+// nunca aparecia no preview, mesmo com a ficha preenchida.
 const fieldStr = (f) => {
   if (!f) return '';
   if ('booleanValue' in f) return f.booleanValue;
+  if ('arrayValue' in f) return (f.arrayValue.values || []).map(v => v.stringValue ?? '').filter(Boolean);
   return f.stringValue ?? f.integerValue ?? '';
 };
 
@@ -67,14 +70,19 @@ const main = async () => {
   // Sem este filtro o `oculto` seria so cosmetico contra quem digita o link ou passa um crawler.
   const characters = (await fetchCollection('characters')).filter(c => !c.oculto);
   for (const c of characters) {
-    const desc = `${c.clan ? c.clan + ' — ' : ''}${(c.description || '').slice(0, 170)}`;
+    const titulo = Array.isArray(c.titles) ? c.titles[0] : '';
+    const descTexto = (c.description || '').slice(0, 170);
+    // Só entra o "—" quando tem descrição de verdade depois — senão sobrava um traço solto
+    // sem nada atrás (ex.: "Canhão dos Uchiha —").
+    const desc = descTexto ? (titulo ? `${titulo} — ${descTexto}` : descTexto) : titulo;
     writeStub(c.slug, `${c.name} | Era Genética`,
       ogTags({ title: c.name, description: desc, image: c.image, url: `${BASE}/${c.slug}` }));
   }
 
   const arsenal = await fetchCollection('arsenal');
   for (const a of arsenal) {
-    const desc = `${a.classification ? '[' + a.classification + '] ' : ''}${(a.description || '').slice(0, 170)}`;
+    const arsenalDescTexto = (a.description || '').slice(0, 170);
+    const desc = a.classification ? `[${a.classification}]${arsenalDescTexto ? ` ${arsenalDescTexto}` : ''}` : arsenalDescTexto;
     writeStub(a.slug, `${a.name} | Arsenal — Era Genética`,
       ogTags({ title: a.name, description: desc, image: a.image, url: `${BASE}/${a.slug}` }));
   }
