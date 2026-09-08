@@ -1,0 +1,14 @@
+  nova         capa                       986 KB  gen 1788882300047687
+  nova         1ª Temporada               923 KB  gen 1788882302643246
+  nova         5ª Temporada              1633 KB  gen 1788882305327736
+  nova         Modo Sábio                2355 KB  gen 1788882308066922
+  nova         Armadura de Ferro         1987 KB  gen 1788882310784240
+  nova         Armadura de Ferro Sábia   2526 KB  gen 1788882313506512
+
+--- URLs ---
+capa	https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmai%20Inuzuka%2FAmai%20Inuzuka.png?alt=media&v=1788882300047687
+1ª Temporada	https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmai%20Inuzuka%2F1__Temporada.png?alt=media&v=1788882302643246
+5ª Temporada	https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmai%20Inuzuka%2F5__Temporada.png?alt=media&v=1788882305327736
+Modo Sábio	https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FModo%20S%C3%A1bio.png?alt=media&v=1788882308066922
+Armadura de Ferro	https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FArmadura%20de%20Ferro.png?alt=media&v=1788882310784240
+Armadura de Ferro Sábia	https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FArmadura%20de%20Ferro%20S%C3%A1bia.png?alt=media&v=1788882313506512
