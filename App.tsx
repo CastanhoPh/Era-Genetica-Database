@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles, Palette } from 'lucide-react';
+import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles, Palette, Hourglass } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
 import { carregaPersonagens, carregaArsenal, fonteEstatica } from './data/dados-publicos';
 import { Character } from './types';
@@ -10,6 +10,7 @@ import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CO
 import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 import { casaLendaria } from './data/habilidades-lendarias';
+import { ERAS_DE_KONOHA } from './data/eras-de-konoha';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
 // depois de uma interação do usuário (abrir ficha, trocar de aba, editar, logar).
@@ -191,7 +192,7 @@ export default function App() {
     // Advanced Filters State
     const [selectedClan, setSelectedClan] = useState('Todos');
     const [selectedRole, setSelectedRole] = useState('Todos');
-    const [selectedStatus, setSelectedStatus] = useState('Todos');
+    const [selectedEra, setSelectedEra] = useState('Todos');
     const [selectedPosition, setSelectedPosition] = useState('Todos');
     const [sortBy, setSortBy] = useState('id');
 
@@ -398,17 +399,19 @@ export default function App() {
     }, [selectedPosition, selectedCategory]);
     const passaFuncao = useCallback(
         (c: Character) => selectedRole === 'Todos' || casaFuncao(c, selectedRole), [selectedRole]);
-    const passaVitalidade = useCallback(
-        (c: Character) => selectedStatus === 'Todos' || (selectedStatus === 'Vivo' ? !c.isDead : !!c.isDead), [selectedStatus]);
+    // Era de Konoha. A ficha pode ter varias, e basta uma casar — o Tobirama e da Era Hashirama
+    // (1o Lider de Inovacoes) E da Era Tobirama (2o Hokage), e aparece nas duas.
+    const passaEra = useCallback(
+        (c: Character) => selectedEra === 'Todos' || (c.erasDeKonoha ?? []).includes(selectedEra), [selectedEra]);
 
     /** Quem passa em todos os filtros, menos o que for pedido pra ignorar. */
-    const escopo = useCallback((ignorar: 'cla' | 'posto' | 'funcao' | 'vitalidade' | null) => charsPublicos.filter(c =>
+    const escopo = useCallback((ignorar: 'cla' | 'posto' | 'funcao' | 'era' | null) => charsPublicos.filter(c =>
         passaCategoria(c) && passaBusca(c)
         && (ignorar === 'cla' || passaCla(c))
         && (ignorar === 'posto' || passaPosto(c))
         && (ignorar === 'funcao' || passaFuncao(c))
-        && (ignorar === 'vitalidade' || passaVitalidade(c))),
-        [charsPublicos, passaCategoria, passaBusca, passaCla, passaPosto, passaFuncao, passaVitalidade]);
+        && (ignorar === 'era' || passaEra(c))),
+        [charsPublicos, passaCategoria, passaBusca, passaCla, passaPosto, passaFuncao, passaEra]);
 
     const uniqueClans = useMemo(
         () => Array.from(new Set(escopo('cla').map(c => c.clan).filter(Boolean))).sort((a, b) => a.localeCompare(b, 'pt')),
@@ -416,9 +419,11 @@ export default function App() {
     const roleOptions = useMemo(
         () => FUNCOES.filter(f => escopo('funcao').some(c => casaFuncao(c, f))),
         [escopo]);
-    const statusOptions = useMemo(() => {
-        const gente = escopo('vitalidade');
-        return ['Vivo', 'Morto'].filter(v => gente.some(c => (v === 'Vivo' ? !c.isDead : !!c.isDead)));
+    // Cronologica, nunca alfabetica. Fora da aba de Konoha ninguem no escopo tem era, a lista sai
+    // vazia e o seletor fica so com "TODOS" — e o filtro de era e de Konoha, so dela.
+    const eraOptions = useMemo(() => {
+        const gente = escopo('era');
+        return ERAS_DE_KONOHA.filter(e => gente.some(c => (c.erasDeKonoha ?? []).includes(e)));
     }, [escopo]);
 
     // O filtro oferece o posto MACRO: sem ordinal E sem a organização ou frota a que ele pertence.
@@ -446,7 +451,7 @@ export default function App() {
     useEffect(() => { if (selectedClan !== 'Todos' && !uniqueClans.includes(selectedClan)) setSelectedClan('Todos'); }, [uniqueClans, selectedClan]);
     useEffect(() => { if (selectedPosition !== 'Todos' && !uniquePositions.includes(selectedPosition)) setSelectedPosition('Todos'); }, [uniquePositions, selectedPosition]);
     useEffect(() => { if (selectedRole !== 'Todos' && !roleOptions.includes(selectedRole)) setSelectedRole('Todos'); }, [roleOptions, selectedRole]);
-    useEffect(() => { if (selectedStatus !== 'Todos' && !statusOptions.includes(selectedStatus)) setSelectedStatus('Todos'); }, [statusOptions, selectedStatus]);
+    useEffect(() => { if (selectedEra !== 'Todos' && !eraOptions.includes(selectedEra as never)) setSelectedEra('Todos'); }, [eraOptions, selectedEra]);
 
     const filteredCharacters = useMemo(() => {
         const filtered = escopo(null);
@@ -520,12 +525,12 @@ export default function App() {
     const handleFilterClan = (clan: string) => {
         navigate('/characters');
         setSearchTerm(''); setSelectedCategory('Todos'); setSelectedRole('Todos');
-        setSelectedStatus('Todos'); setSelectedPosition('Todos'); setSelectedClan(clan);
+        setSelectedEra('Todos'); setSelectedPosition('Todos'); setSelectedClan(clan);
     };
     const handleFilterTag = (tag: string) => {
         navigate(tag === 'Todos' ? '/characters' : `/characters/${slugify(tag)}`);
         setSearchTerm(''); setSelectedClan('Todos'); setSelectedRole('Todos');
-        setSelectedStatus('Todos'); setSelectedPosition('Todos'); setSelectedCategory(tag);
+        setSelectedEra('Todos'); setSelectedPosition('Todos'); setSelectedCategory(tag);
     };
 
     const handleImageError = (id: number, image: string) => {
@@ -538,7 +543,7 @@ export default function App() {
         setSearchTerm('');
         setSelectedClan('Todos');
         setSelectedRole('Todos');
-        setSelectedStatus('Todos');
+        setSelectedEra('Todos');
         setSelectedPosition('Todos');
         setSortBy('id');
     };
@@ -846,7 +851,7 @@ export default function App() {
                                     { label: 'CLÃ', icon: Filter, value: selectedClan, setter: setSelectedClan, options: uniqueClans },
                                     { label: 'RANK / POSIÇÃO', icon: Award, value: selectedPosition, setter: setSelectedPosition, options: uniquePositions },
                                     { label: 'FUNÇÃO', icon: Database, value: selectedRole, setter: setSelectedRole, options: roleOptions },
-                                    { label: 'VITALIDADE', icon: Skull, value: selectedStatus, setter: setSelectedStatus, options: statusOptions }
+                                    { label: 'ERA', icon: Hourglass, value: selectedEra, setter: setSelectedEra, options: eraOptions }
                                 ].map((filter, idx) => (
                                     <div key={idx} className="flex flex-col gap-1">
                                         <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
@@ -893,7 +898,7 @@ export default function App() {
                             <Database size={12} />
                             <span>REGISTROS ENCONTRADOS: {filteredCharacters.length}</span>
                             <div className="h-px bg-tech-border flex-1"></div>
-                            {(selectedClan !== 'Todos' || selectedRole !== 'Todos' || selectedStatus !== 'Todos' || selectedPosition !== 'Todos' || selectedCategory !== 'Todos' || searchTerm) && (
+                            {(selectedClan !== 'Todos' || selectedRole !== 'Todos' || selectedEra !== 'Todos' || selectedPosition !== 'Todos' || selectedCategory !== 'Todos' || searchTerm) && (
                                 <button onClick={resetFilters} className="text-[10px] text-red-500 hover:text-red-400 uppercase font-bold tracking-wider border border-transparent hover:border-red-900/50 px-2 transition-colors">
                                     [Limpar Filtros]
                                 </button>

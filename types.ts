@@ -212,6 +212,16 @@ export interface Character {
    * data/habilidades-lendarias.ts.
    */
   habilidadesLendarias?: string[];
+  /**
+   * As eras de Konohagakure em que a ficha atuou — os três reinados de Hokage, na ordem
+   * cronológica. É campo de VILA: só ficha de Konohagakure tem.
+   *
+   * Lista, e não texto, porque atravessar era é o normal e não a exceção: o Tobirama foi
+   * 1º Líder de Inovações sob o Hashirama antes de virar 2º Hokage.
+   *
+   * O catálogo e a leitura do ordinal do cargo estão em data/eras-de-konoha.ts.
+   */
+  erasDeKonoha?: string[];
   isDead?: boolean;
   killedBy?: string;
   techniques?: Technique[];
