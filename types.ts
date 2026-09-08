@@ -186,6 +186,18 @@ export interface Character {
   titles: string[];
   nc: number;
   /**
+   * A era de Konohagakure do personagem — aquela em que ele viveu o AUGE e pela qual ficou
+   * marcado. Não é "quando esteve vivo" nem "quando teve cargo": o Oogway é 2º Hokage das
+   * Sombras e é da Era Hashirama. Campo de VILA, só ficha de Konohagakure tem, e ficha sem
+   * era nenhuma é normal — não é pendência.
+   *
+   * Lista porque nada impede um auge que atravesse duas eras, embora hoje todas as 34 fichas
+   * marcadas tenham exatamente uma. O filtro casa se QUALQUER uma bater.
+   *
+   * O catálogo está em data/eras-de-konoha.ts.
+   */
+  erasDeKonoha?: string[];
+  /**
    * LEGADO, vazio em todas as fichas desde 27/08/2026. Guardava cargo de vila, patente de
    * organização e rank de ninja no mesmo texto — os três hoje têm lugar próprio: `cargo`,
    * `patente` e a escada `rankDeNC` em data/atributos.ts, que sai do NC e não é gravada.
@@ -212,16 +224,6 @@ export interface Character {
    * data/habilidades-lendarias.ts.
    */
   habilidadesLendarias?: string[];
-  /**
-   * As eras de Konohagakure em que a ficha atuou — os três reinados de Hokage, na ordem
-   * cronológica. É campo de VILA: só ficha de Konohagakure tem.
-   *
-   * Lista, e não texto, porque atravessar era é o normal e não a exceção: o Tobirama foi
-   * 1º Líder de Inovações sob o Hashirama antes de virar 2º Hokage.
-   *
-   * O catálogo e a leitura do ordinal do cargo estão em data/eras-de-konoha.ts.
-   */
-  erasDeKonoha?: string[];
   isDead?: boolean;
   killedBy?: string;
   techniques?: Technique[];
@@ -391,25 +393,25 @@ export interface TodoItem {
   criadoEm?: number;
 }
 
-export const PENDING_CHARACTERS: { village: string; entries: { name: string; role?: string; dead?: boolean; nc?: number }[] }[] = [
+export const PENDING_CHARACTERS: { village: string; entries: { name: string; role?: string; dead?: boolean; nc?: number; era?: string }[] }[] = [
   {
     village: 'Konohagakure',
     entries: [
-      { name: 'Kawarama Senju', role: 'Pai de Nishinoya', dead: true, nc: 28 },
-      { name: 'Sakura Namikaze', role: 'Mãe de Nishinoya', dead: true, nc: 26 },
-      { name: 'Mito Uzumaki', role: 'Esposa de Hashirama', dead: true, nc: 28 },
-      { name: 'Hiruzen Sarutobi', role: 'Pai de Shoei e Apollo', nc: 28 },
-      { name: 'Hina Sarutobi', role: 'Mãe de Shoei e Apollo', nc: 24 },
-      { name: 'Konan Uchiha', role: 'Mãe de Naoki, Oddy, Kuromi, Ayumi e Shizumi', nc: 24 },
+      { name: 'Kawarama Senju', role: 'Pai de Nishinoya', dead: true, nc: 28, era: 'Era Tobirama' },
+      { name: 'Sakura Namikaze', role: 'Mãe de Nishinoya', dead: true, nc: 26, era: 'Era Tobirama' },
+      { name: 'Mito Uzumaki', role: 'Esposa de Hashirama', dead: true, nc: 28, era: 'Era Hashirama' },
+      { name: 'Hiruzen Sarutobi', role: 'Pai de Shoei e Apollo', nc: 28, era: 'Era Nishinoya' },
+      { name: 'Hina Sarutobi', role: 'Mãe de Shoei e Apollo', nc: 24, era: 'Era Nishinoya' },
+      { name: 'Konan Uchiha', role: 'Mãe de Naoki, Oddy, Kuromi, Ayumi e Shizumi', nc: 24, era: 'Era Hashirama' },
       { name: 'Inazuma Uchiha', role: 'Filho do Velho, morto por Beta, descartado pela OCA', dead: true, nc: 14 },
       { name: 'Shikado Nara', role: 'Pai de Shikaki e Shikatsu, morto por Hades', dead: true, nc: 26 },
       { name: 'Kurai Nara', role: 'Mãe de Shikaki e Shikatsu, morta por Hades', dead: true, nc: 26 },
-      { name: 'Iwaki Haruno', role: 'Pai de Yui, ensinou Doton a Kaito e morto pelo Nagare', dead: true, nc: 18 },
+      { name: 'Iwaki Haruno', role: 'Pai de Yui, ensinou Doton a Kaito e morto pelo Nagare', dead: true, nc: 18, era: 'Era Nishinoya' },
       { name: 'Hina Haruno', role: 'Mãe de Yui', nc: 16 },
       { name: 'Yui Haruno', role: 'Criança Prodígio', nc: 8 },
       { name: 'Renji Hyuga', role: 'Irmão de Ryuta, treinou Katsumi e morto pelo Furyuzan', dead: true, nc: 16 },
-      { name: 'Minoru Hyuga', role: 'Pai de Hoshiro, Kaizuka e Haruki, morto por Maldição do Fujogan', dead: true, nc: 30 },
-      { name: 'Ashina Uzumaki', role: 'Pai de Mito, Yumi, Naomi e Katsuo, morreu selando Kurama em Naomi', dead: true, nc: 30 },
+      { name: 'Minoru Hyuga', role: 'Pai de Hoshiro, Kaizuka e Haruki, morto por Maldição do Fujogan', dead: true, nc: 30, era: 'Era Hashirama' },
+      { name: 'Ashina Uzumaki', role: 'Pai de Mito, Yumi, Naomi e Katsuo, morreu selando Kurama em Naomi', dead: true, nc: 30, era: 'Era Hashirama' },
       { name: 'Akemi Hyuga', role: 'Esposa de Minoru Hyuga, mãe de Hoshiro, Kaizuka e Haruki' },
       { name: 'Akemi Shimura', role: 'Esposa de Oogway Uchiha, mãe de Sho e Shin' },
       { name: 'Atsuko Uchiha', role: 'Esposa de Sho Uchiha, mãe de Akairo e Genpachi' },
@@ -420,10 +422,10 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Harunobu Namikaze', role: 'Pai de Sakura e Satoshi' },
       { name: 'Itama Senju', role: 'Filho de Butsuma e Kaori' },
       { name: 'Kagami Uchiha', role: 'Irmão de Madara', nc: 28 },
-      { name: 'Izuna Uchiha', role: 'Filho de Tajima e Setsuna' },
+      { name: 'Izuna Uchiha', role: 'Filho de Tajima e Setsuna', era: 'Era Hashirama' },
       { name: 'Kaori Senju', role: 'Mãe de Hashirama, Tobirama, Kawarama e Itama' },
       { name: 'Kohana Uzumaki', role: 'Esposa de Harunobu Namikaze, mãe de Sakura e Satoshi' },
-      { name: 'Masahiro Hyuga', role: 'Irmão de Minoru Hyuga, pai de Ryuta e Renji' },
+      { name: 'Masahiro Hyuga', role: 'Irmão de Minoru Hyuga, pai de Ryuta e Renji', era: 'Era Hashirama' },
       { name: 'Reizan Yamanaka', role: 'Filho de Tajima e Setsuna' },
       { name: 'Sayuri Hyuga', role: 'Esposa de Masahiro Hyuga, mãe de Ryuta e Renji' },
       { name: 'Setsuna Yamanaka', role: 'Esposa de Tajima Uchiha, mãe de Madara, Izuna e Reizan' },
