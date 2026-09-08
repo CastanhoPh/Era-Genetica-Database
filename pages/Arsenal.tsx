@@ -3,6 +3,7 @@ import { Search, Database, ChevronDown, Shield, Terminal, AlertTriangle, Loader,
 import { Equipment } from '../types/Equipment';
 import { CLASSIFICATION_PRIORITY } from '../types';
 import ArsenalCard from '../components/ArsenalCard';
+import BotaoDeCores, { useCapasColoridas } from '../components/BotaoDeCores';
 
 interface ArsenalProps {
   arsenalItems: Equipment[];
@@ -21,6 +22,7 @@ const Arsenal: React.FC<ArsenalProps> = ({ arsenalItems, loading, onOpenItem, is
   const [selectedClassification, setSelectedClassification] = useState('Todos');
   const [selectedNature, setSelectedNature] = useState('Todos');
   const [sortBy, setSortBy] = useState('id');
+  const [colorido, setColorido] = useCapasColoridas();
 
   // a tabela vive em types.ts, compartilhada com o anel de chakra do CharacterModal
   const classificationPriority = CLASSIFICATION_PRIORITY;
@@ -155,6 +157,7 @@ const Arsenal: React.FC<ArsenalProps> = ({ arsenalItems, loading, onOpenItem, is
           </div>
 
           <div className="flex gap-4 w-full md:w-auto">
+            <BotaoDeCores colorido={colorido} onToggle={() => setColorido(v => !v)} oQue="as artes" />
             <div className="flex-1 md:w-80 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
               <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
               <input
@@ -252,6 +255,7 @@ const Arsenal: React.FC<ArsenalProps> = ({ arsenalItems, loading, onOpenItem, is
                 item={item}
                 index={index}
                 onClick={() => onOpenItem(item)}
+                colorido={colorido}
               />
             ))}
           </div>

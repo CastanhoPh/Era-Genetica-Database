@@ -2,14 +2,17 @@ import React from 'react';
 import { ChevronRight, Cpu, Hexagon } from 'lucide-react';
 import { Equipment, classificationColors } from '../types/Equipment';
 import { formatImageUrl } from '../utils/formatters';
+import { filtroDaCapa } from './BotaoDeCores';
 
 interface ArsenalCardProps {
   item: Equipment;
   index: number;
   onClick: () => void;
+  /** Arte em cores em vez do dessaturado padrão. Vem do botão de paleta da lista. */
+  colorido?: boolean;
 }
 
-const ArsenalCard: React.FC<ArsenalCardProps> = ({ item, index, onClick }) => {
+const ArsenalCard: React.FC<ArsenalCardProps> = ({ item, index, onClick, colorido = false }) => {
   const [imgError, setImgError] = React.useState(false);
   const classStyle = classificationColors[item.classification] || classificationColors['D'];
 
@@ -79,7 +82,7 @@ const ArsenalCard: React.FC<ArsenalCardProps> = ({ item, index, onClick }) => {
             loading="lazy"
             decoding="async"
             onError={() => setImgError(true)}
-            className="w-full h-full object-cover transition-all duration-700 grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-110 group-hover:scale-105"
+            className={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${filtroDaCapa(false, colorido)}`}
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center bg-striped-pattern opacity-50">

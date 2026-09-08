@@ -2,6 +2,7 @@ import React from 'react';
 import { ChevronRight, Sparkles, Hexagon } from 'lucide-react';
 import { classificationColors } from '../types/Equipment';
 import { formatImageUrl } from '../utils/formatters';
+import { filtroDaCapa } from './BotaoDeCores';
 
 export interface InvocacaoCardData {
   nome: string;
@@ -20,6 +21,8 @@ interface Props {
   inv: InvocacaoCardData;
   index: number;
   onClick: () => void;
+  /** Arte em cores em vez do dessaturado padrão. Vem do botão de paleta da lista. */
+  colorido?: boolean;
 }
 
 /**
@@ -27,7 +30,7 @@ interface Props {
  * formato real das artes de invocação. Como a coluna da grade tem largura fixa, a altura sai igual
  * em todos os cards do mesmo jeito — só não recorta o desenho.
  */
-const InvocacaoCard: React.FC<Props> = ({ inv, index, onClick }) => {
+const InvocacaoCard: React.FC<Props> = ({ inv, index, onClick, colorido = false }) => {
   const [imgError, setImgError] = React.useState(false);
   const rankStyle = inv.rank ? (classificationColors[inv.rank] || classificationColors['F']) : null;
   const semArte = inv.placeholder || !inv.capaUrl || imgError;
@@ -95,7 +98,7 @@ const InvocacaoCard: React.FC<Props> = ({ inv, index, onClick }) => {
             loading="lazy"
             decoding="async"
             onError={() => setImgError(true)}
-            className="w-full h-full object-cover transition-all duration-700 grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-110 group-hover:scale-105"
+            className={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${filtroDaCapa(false, colorido)}`}
           />
         ) : (
           <div className="w-full h-full flex flex-col items-center justify-center gap-2 bg-striped-pattern opacity-50">

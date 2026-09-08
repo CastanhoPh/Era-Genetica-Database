@@ -6,6 +6,7 @@ import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
 import { formatImageUrl } from '../utils/formatters';
 import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
+import BotaoDeCores, { useCapasColoridas } from '../components/BotaoDeCores';
 
 /**
  * Os chips são fixos, não derivados dos dados: uma vila sem invocação tem que aparecer e dizer que
@@ -26,6 +27,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const [loading, setLoading] = useState(true);
   const [erro, setErro] = useState<string | null>(null);
   const [busca, setBusca] = useState('');
+  const [colorido, setColorido] = useCapasColoridas();
   const [vila, setVila] = useState('Todos');
   const [dono, setDono] = useState('Todos');
   const [rank, setRank] = useState('Todos');
@@ -185,6 +187,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
             </div>
 
             <div className="flex gap-4 w-full md:w-auto">
+              <BotaoDeCores colorido={colorido} onToggle={() => setColorido(v => !v)} oQue="as artes" />
               <div className="flex-1 md:w-80 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
                 <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
                 <input
@@ -304,7 +307,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filtradas.map((inv, index) => (
-                <InvocacaoCard key={inv.nome} inv={inv} index={index} onClick={() => abre(inv)} />
+                <InvocacaoCard key={inv.nome} inv={inv} index={index} onClick={() => abre(inv)} colorido={colorido} />
               ))}
             </div>
 

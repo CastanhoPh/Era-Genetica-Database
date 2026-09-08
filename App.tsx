@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles, Palette, Hourglass } from 'lucide-react';
+import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, GitBranch, Sparkles, Hourglass } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
 import { carregaPersonagens, carregaArsenal, fonteEstatica } from './data/dados-publicos';
 import { Character } from './types';
@@ -10,6 +10,7 @@ import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CO
 import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 import { casaLendaria } from './data/habilidades-lendarias';
+import BotaoDeCores, { useCapasColoridas, filtroDaCapa } from './components/BotaoDeCores';
 import { ERAS_DE_KONOHA } from './data/eras-de-konoha';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
@@ -60,30 +61,6 @@ const casaBusca = (c: Character, termo: string): CasamentoBusca | null => {
 // As quatro funções que o filtro oferece. `role` guarda combinação livre ("Suporte e DPS"), então o
 // casamento é por substring — e "Tank" tem que aceitar "Tanque", que convive nas fichas.
 const FUNCOES = ['DPS', 'Tank', 'Suporte', 'Controle'];
-
-/** Onde a preferência de capa colorida fica no navegador de quem olha. */
-const CHAVE_CORES = 'era-genetica:capas-coloridas';
-
-/**
- * O filtro da capa no card, pelo modo escolhido.
- *
- * A arte do site nasce colorida, mas a lista sempre a mostrou em `grayscale`, com a cor voltando só
- * no hover — é o que dá o ar de terminal ao grid. O botão de paleta desliga esse dessaturado para
- * quem quiser ver a arte como ela é.
- *
- * Morto continua legível como morto mesmo colorido: o card tem a faixa "MORTO" e o NC em vermelho, e
- * aqui o brilho segue reduzido. O `grayscale` era estética, não o sinal de morte.
- */
-const filtroDaCapa = (morto: boolean, colorido: boolean): string => {
-    if (!colorido) {
-        return morto
-            ? 'grayscale brightness-50 contrast-125'
-            : 'grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-110';
-    }
-    return morto
-        ? 'brightness-75 contrast-125'
-        : 'brightness-100 group-hover:brightness-110';
-};
 
 // Os postos que a ficha tem, cargo e patente, só sem o ordinal. Diferente de `macrosDe`, que
 // também corta o qualificador — o catálogo precisa do posto INTEIRO, senão "Líder dos Monges" e
@@ -171,12 +148,7 @@ export default function App() {
      * Firestore, não entra no push, e cada pessoa escolhe a sua. O try/catch existe porque navegador
      * em janela anônima ou com dados de site bloqueados joga ao só TOCAR no localStorage.
      */
-    const [capasColoridas, setCapasColoridas] = useState(() => {
-        try { return localStorage.getItem(CHAVE_CORES) === '1'; } catch { return false; }
-    });
-    useEffect(() => {
-        try { localStorage.setItem(CHAVE_CORES, capasColoridas ? '1' : '0'); } catch { /* sem persistir, só não lembra */ }
-    }, [capasColoridas]);
+    const [capasColoridas, setCapasColoridas] = useCapasColoridas();
     const [selectedOrigin, setSelectedOrigin] = useState('Todos');
     const [selectedChar, setSelectedChar] = useState<Character | null>(null);
     const [showAddModal, setShowAddModal] = useState(false);
@@ -811,17 +783,7 @@ export default function App() {
                                     {/* Liga a cor das capas do grid. Fica aqui, e não numa sexta célula da
                                         linha de filtros, porque aquela linha é uma grade de cinco e um sexto
                                         item quebraria a coluna. */}
-                                    <button
-                                        type="button"
-                                        onClick={() => setCapasColoridas(v => !v)}
-                                        aria-pressed={capasColoridas}
-                                        title={capasColoridas ? 'Voltar as capas ao preto e branco' : 'Mostrar as capas em cores'}
-                                        className={`h-10 w-10 shrink-0 border flex items-center justify-center transition-all clip-corner-sm ${capasColoridas
-                                            ? 'border-tech-primary text-tech-primary bg-tech-primary/10 shadow-[0_0_10px_rgba(0,255,65,0.25)]'
-                                            : 'border-tech-border text-tech-dim hover:text-tech-primary hover:border-tech-primary'}`}
-                                    >
-                                        <Palette size={15} />
-                                    </button>
+                                    <BotaoDeCores colorido={capasColoridas} onToggle={() => setCapasColoridas(v => !v)} />
                                     <div className="flex-1 md:w-64 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
                                         <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
                                         <input
