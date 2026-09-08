@@ -5,8 +5,8 @@
 // Como o bundle também tem hash no nome, dado novo gera JSON novo, que gera bundle novo — a cadeia
 // de cache se invalida inteira sozinha.
 export const ARQUIVOS_DE_DADOS = {
-  personagens: "personagens-34efdcde.json",
+  personagens: "personagens-343374c7.json",
   arsenal: "arsenal-b7ac10c8.json",
-  checklist: "checklist-f83628ca.json",
+  checklist: "checklist-869879cf.json",
   familias: "familias-21730aed.json"
 } as const;
