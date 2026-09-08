@@ -231,7 +231,8 @@ export const arsenalData: Equipment[] = [
     origin: "Konohagakure",
     description: "O Okami Earring é um amuleto ancestral em formato de brinco, forjado a partir de metal sensível a chakra e imbuído com a essência do clã dos lobos sagrados. Este artefato atua como um amplificador de sinal para a mente do usuário, elevando drasticamente o controle de chakra e a sintonia espiritual com invocações caninas. Ao usá-lo, o portador pode se comunicar telepaticamente com seus lobos e compartilhar sua visão e sentidos, permitindo táticas de caça perfeitamente coordenadas. O brinco também funciona como um foco para técnicas de Senjutsu, ajudando a estabilizar as flutuações da energia natural e impedindo a sobrecarga do sistema circulatório de chakra. Kuromi Uchiha utiliza este item para manter uma conexão inquebrável com Okami, permitindo ataques combinados que ignoram o tempo de reação convencional. Além disso, o brinco emite uma pulsação constante que acalma os instintos selvagens do usuário, garantindo foco total mesmo em estados de fúria de batalha. É um símbolo de lealdade e poder selvagem, representando o pacto eterno entre o clã Hatake/Uchiha e os espíritos caninos da floresta.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F40%20-%20Okami%20Earring.png?alt=media&v=1788212114819689",
-    originalOwner: "Raikun Hatake",
+    originalOwner: "Amai Inuzuka",
+    pastOwners: ["Raikun Hatake"],
     currentOwner: "Kuromi Uchiha"
   },
   {
@@ -242,7 +243,8 @@ export const arsenalData: Equipment[] = [
     origin: "Konohagakure",
     description: "A Okami no Men é uma máscara de lobo sagrada de Rank S++ que concede ao usuário uma percepção sensorial divina, permitindo detectar variações mínimas no ambiente e no chakra inimigo a quilômetros de distância. Forjada com minerais reagentes ao Senjutsu, a máscara revela intenções hostis através de uma aura visual colorida, tornando impossível qualquer ataque surpresa ou infiltração. O portador pode ver através de barreiras sólidas e névoas de chakra densas, identificando os pontos vitais e os fluxos nervosos do oponente com precisão absoluta. Além das capacidades visuais, a máscara amplifica o olfato e a audição, transformando o ninja em um predador supremo capaz de rastrear qualquer alvo em qualquer terreno. Kuromi Uchiha utiliza este artefato para coordenar ataques de precisão cirúrgica, garantindo que cada golpe seja letal. A máscara também atua como um escudo mental, protegendo o usuário de genjutsus visuais e distorções sensoriais provocadas pelo inimigo. É o símbolo da vigilância eterna e da ferocidade controlada dos guardiões da floresta.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F41%20-%20Okami%20no%20Men.png?alt=media&v=1788212114079167",
-    originalOwner: "Raikun Hatake",
+    originalOwner: "Amai Inuzuka",
+    pastOwners: ["Raikun Hatake"],
     currentOwner: "Kuromi Uchiha"
   },
   {

@@ -8265,6 +8265,41 @@ export const initialData: Character[] = [
   },
   {
     id: 100,
+    name: "Amai Inuzuka",
+    chakraColor: "",
+    combatStyle: "Distância",
+    clan: "Inuzuka",
+    categories: ["NPC", "Konohagakure"],
+    titles: [],
+    nc: 27,
+    position: "",
+    role: "",
+    description: "",
+    hp: 205,
+    chakra: 91,
+    image: "",
+    arsenal: [],
+    gallery: [],
+    stats: { strength: 11, dexterity: 27, agility: 11, intelligence: 27, spirit: 27, vigor: 20, perception: 27 },
+    powers: [
+      { name: "Shikakyu", level: 13 },
+      { name: "Kuchiyose", level: 13 },
+      { name: "Senjutsu", level: 13 },
+      { name: "Doton", level: 13 },
+      { name: "Koton", level: 13 }
+    ],
+    aptitudes: [
+      "Companheiro Animal",
+      "Hakken no Jutsu",
+    ],
+    isDead: false,
+    timelineAppearance: "Prólogo",
+    timelineDeath: null,
+    timelineSkipped: ["2ª Temporada", "3ª Temporada", "4ª Temporada"],
+    birthVillage: "Konohagakure"
+  },
+  {
+    id: 101,
     name: "Beta",
     chakraColor: "#00ff41",
     clan: "Desconhecido",
@@ -8365,7 +8400,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 101,
+    id: 102,
     name: "Hades",
     chakraColor: "#e8fbff",
     clan: "Desconhecido",
@@ -8391,7 +8426,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 102,
+    id: 103,
     oculto: true,
     name: "Hashirama Senju",
     chakraColor: "#00ff41",
@@ -8449,7 +8484,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 103,
+    id: 104,
     oculto: true,
     name: "Madara Uchiha",
     chakraColor: "#0ea5e9",

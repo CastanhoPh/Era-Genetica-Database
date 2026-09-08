@@ -385,7 +385,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
   {
     village: 'Konohagakure',
     entries: [
-      { name: 'Amai Inuzuka', role: 'Mãe de Najin e Takeshi', nc: 25 },
       { name: 'Kawarama Senju', role: 'Pai de Nishinoya', dead: true, nc: 28 },
       { name: 'Sakura Namikaze', role: 'Mãe de Nishinoya', dead: true, nc: 26 },
       { name: 'Mito Uzumaki', role: 'Esposa de Hashirama', dead: true, nc: 28 },
