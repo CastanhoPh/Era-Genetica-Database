@@ -4,7 +4,8 @@ import {
   X, Shield, Zap, Star, Backpack, Scroll, Heart, Activity,
   BicepsFlexed, Hand, Move, Brain, Ghost, Eye, Terminal, Lock, Skull, Flame,
   AlertTriangle, Fingerprint, Binary, Image as ImageIcon,
-  ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine, Sparkles
+  ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine, Sparkles,
+  Hexagon, History
 } from 'lucide-react';
 import { Character, EVENT_SEASONS } from '../types';
 import { Equipment } from '../types/Equipment';
@@ -1050,6 +1051,49 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                 <span className="text-[9px] font-black uppercase tracking-widest text-tech-primary/30 border border-tech-primary/30 px-2 py-0.5">arte pendente</span>
                                             )}
                                         </div>
+                                        {(() => {
+                                          // `originalOwner` ausente = quem invoca hoje e tambem o
+                                          // original, e ai nao ha cadeia nenhuma para mostrar.
+                                          if (!inv.originalOwner && !(inv.pastOwners ?? []).length && !inv.nomeAntigo) return null;
+                                          const atual = char.name.trim().toLowerCase();
+                                          // mesma regra do arsenal: o original tambem conta como
+                                          // antigo, desde que nao seja quem invoca hoje
+                                          const antigos = [
+                                            ...(inv.originalOwner && inv.originalOwner.trim().toLowerCase() !== atual ? [inv.originalOwner] : []),
+                                            ...(inv.pastOwners ?? []),
+                                          ];
+                                          const chip = (nome: string, k: React.Key, cor: string, borda: string, fundo: string) => (
+                                            <span key={k} className={`px-2 py-0.5 text-[11px] font-mono ${cor} border ${borda} ${fundo}`}>{nome}</span>
+                                          );
+                                          return (
+                                            <div className="flex flex-col gap-2 mb-3">
+                                              {inv.nomeAntigo && (
+                                                <div className="flex items-center gap-2 flex-wrap">
+                                                  <span className="text-[10px] font-black uppercase tracking-wider text-tech-primary/50 flex items-center gap-1.5">
+                                                    <ScanLine size={12} /> Antes chamado de
+                                                  </span>
+                                                  {chip(inv.nomeAntigo, 'antigo', 'text-tech-primary/80', 'border-tech-border', 'bg-tech-panel/30')}
+                                                </div>
+                                              )}
+                                              {inv.originalOwner && (
+                                                <div className="flex items-center gap-2 flex-wrap">
+                                                  <span className="text-[10px] font-black uppercase tracking-wider text-sky-400 flex items-center gap-1.5">
+                                                    <Hexagon size={12} /> Invocador Original
+                                                  </span>
+                                                  {chip(inv.originalOwner, 'orig', 'text-sky-400', 'border-sky-500/40', 'bg-sky-500/5')}
+                                                </div>
+                                              )}
+                                              {antigos.length > 0 && (
+                                                <div className="flex items-center gap-2 flex-wrap">
+                                                  <span className="text-[10px] font-black uppercase tracking-wider text-yellow-500 flex items-center gap-1.5">
+                                                    <History size={12} /> Já invocaram
+                                                  </span>
+                                                  {antigos.map((n, k) => chip(n, k, 'text-yellow-400', 'border-yellow-500/40', 'bg-yellow-500/5'))}
+                                                </div>
+                                              )}
+                                            </div>
+                                          );
+                                        })()}
                                         {imagem && !inv.placeholder ? (
                                             <div className="border border-tech-border bg-black overflow-hidden">
                                                 <img

@@ -79,6 +79,22 @@ export interface Invocacao {
   village?: string;
   /** A arte é uma página em branco: existe arquivo, não existe desenho. */
   placeholder?: boolean;
+  /**
+   * Quem invocava ANTES do dono atual. Mesma ideia do arsenal, e de propósito com os mesmos
+   * nomes de campo: `originalOwner` é o primeiro invocador e `pastOwners` são os do meio, entre
+   * o original e o atual.
+   *
+   * Ausente NÃO é pendência: significa que o invocador atual é também o original, que é o caso
+   * de 55 das 65. Derivar em vez de gravar evita 55 copias do nome do dono atual, que ficariam
+   * velhas no dia em que a invocacao trocasse de mãos.
+   */
+  originalOwner?: string;
+  pastOwners?: string[];
+  /**
+   * Nome pelo qual a invocacao era conhecida antes — o Hash-hash era o Mokujin e a Budinha era
+   * o Shinsusenju, os dois com o Hashirama. É nome da CRIATURA, não apelido do dono.
+   */
+  nomeAntigo?: string;
 }
 
 export interface ChecklistItem {
@@ -126,6 +142,15 @@ export interface ChecklistItem {
   /** Vila da invocação. É a origem DELA, não a do dono: o Nagi tem ficha em Konohagakure e a
    *  invocação dele é de Kirigakure, de onde vem o clã Yuki. */
   village?: string;
+  /**
+   * Cadeia de invocadores e nome antigo da criatura. Vivem na página da ARTE (type
+   * `invocacao`) e em nenhuma outra, igual a rank, nature e village — a página de capa não
+   * carrega nenhum dos seis. É desta linha que o `invocacoes:fix` copia para o campo
+   * `invocacoes` da ficha do dono. Ver Invocacao, acima, para o que cada um significa.
+   */
+  originalOwner?: string;
+  pastOwners?: string[];
+  nomeAntigo?: string;
   personagens?: string[];
   /**
    * Só para evento: o elenco está fechado, ou seja, todo mundo que aparece na imagem já foi
