@@ -1,4 +1,4 @@
-import { Character, ChecklistItem, FamilyTree } from '../types';
+import { Character, ChecklistItem } from '../types';
 import { Equipment } from '../types/Equipment';
 import { ARQUIVOS_DE_DADOS } from './dados-versao';
 
@@ -52,7 +52,6 @@ async function carrega<T>(arquivo: keyof typeof ARQUIVOS_DE_DADOS): Promise<T> {
 export const carregaPersonagens = () => carrega<Character[]>('personagens');
 export const carregaArsenal = () => carrega<Equipment[]>('arsenal');
 export const carregaChecklist = () => carrega<ChecklistItem[]>('checklist');
-export const carregaFamilias = () => carrega<FamilyTree[]>('familias');
 
 /**
  * Entrega os dados uma vez pelo retrato estático, com o Firestore ao vivo como rede de segurança.

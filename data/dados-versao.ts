@@ -7,6 +7,5 @@
 export const ARQUIVOS_DE_DADOS = {
   personagens: "personagens-484a401a.json",
   arsenal: "arsenal-b7ac10c8.json",
-  checklist: "checklist-35681cfc.json",
-  familias: "familias-21730aed.json"
+  checklist: "checklist-35681cfc.json"
 } as const;

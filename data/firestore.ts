@@ -3,7 +3,7 @@ import { collection, getDocs, getDoc, doc, addDoc, setDoc, deleteDoc, updateDoc,
 import { db } from '../firebase';
 import { ref as storageRef, getBytes, getMetadata, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 import { storage } from '../firebaseStorage';
-import { Character, ChecklistItem, GalleryImage, FamilyTree, TodoItem, StatusTodo } from '../types';
+import { Character, ChecklistItem, GalleryImage, TodoItem, StatusTodo } from '../types';
 import { Equipment } from '../types/Equipment';
 import { groupItems } from './checklistGrouping';
 
@@ -482,22 +482,4 @@ export async function editAFazer(docId: string, campos: { texto?: string; grupo?
 
 export async function deleteAFazer(docId: string): Promise<void> {
   await deleteDoc(doc(db, 'aFazer', docId));
-}
-
-// Árvores genealógicas (aba "Árvore") — recurso experimental, coleção isolada de propósito:
-// se não funcionar bem, dá pra apagar a coleção inteira sem afetar mais nada no site.
-export function subscribeFamilyTrees(
-  onData: (trees: FamilyTree[]) => void,
-  onError?: (err: Error) => void,
-): () => void {
-  return onSnapshot(
-    collection(db, 'familyTrees'),
-    snap => {
-      const data = snap.docs
-        .map(d => ({ ...(d.data() as FamilyTree), docId: d.id }))
-        .sort((a, b) => a.order - b.order);
-      onData(data);
-    },
-    onError,
-  );
 }

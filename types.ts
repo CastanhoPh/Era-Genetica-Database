@@ -166,34 +166,14 @@ export interface ChecklistItem {
 // PENDING_CHARACTERS. Um card por protótipo (título = nome do personagem), que pode acumular
 // várias imagens e texto ao longo do tempo. Apagado por completo ao fim do RPG.
 
-// Uma pessoa dentro de uma árvore genealógica (aba "Árvore" do Painel/site — recurso
-// experimental: se não funcionar bem, a aba e a coleção inteira são apagadas sem afetar
-// mais nada). Se o nome bater com um personagem já cadastrado em `characters`, o card
-// vira link pra ficha dele.
-export interface FamilyTreeMember {
-  name: string;
-  isDead?: boolean;
-  /** Nome do cônjuge (opcional; basta registrar de um dos dois lados). */
-  spouse?: string;
-  /** Nomes dos pais (0, 1 ou 2). Ausente/vazio = geração raiz da árvore. */
-  parents?: string[];
-  /**
-   * Nome de outro personagem cadastrado cuja FOTO deve ser usada no card (twist de
-   * identidade secreta — ex: alguém da árvore que na verdade é outro personagem já
-   * revelado). Só empresta a imagem; o nome exibido e o clique continuam sendo os do
-   * `name` normal, então o segredo não aparece escrito em lugar nenhum.
-   */
-  secretImageFrom?: string;
-}
-
-export interface FamilyTree {
-  docId?: string;
-  /** Nome de exibição da família, ex: "Senju". */
-  family: string;
-  members: FamilyTreeMember[];
-  /** Ordem de exibição entre as famílias. */
-  order: number;
-}
+// A aba "Árvore" saiu do site em 09/09/2026 — o Pedro decidiu que não foi útil, e o recurso já
+// nascia com essa saída prevista aqui. Os tipos `FamilyTree` e `FamilyTreeMember` foram embora
+// junto, porque ninguém mais os lê; a regra do projeto é que tipo só fica enquanto algo o usa.
+//
+// A COLEÇÃO `familyTrees` NÃO foi apagada: são 8 documentos com a genealogia de 73 pessoas, e foi
+// dela que saíram as eras de Konoha e vínculos como "a Amai é esposa do Raikun". Ela segue no
+// `npm run backup`, versionada em docs/backup/familyTrees.json, e o shape está lá se um dia a aba
+// voltar. Apagar a coleção é uma operação isolada, e o Pedro ainda não pediu.
 
 export interface Character {
   docId?: string; // ID do documento no Firestore (slug do nome)

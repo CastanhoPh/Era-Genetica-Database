@@ -4,6 +4,10 @@
 // `familyTrees` e `prototypeEntries` existiam SÓ no Firestore — um batch errado ou a perda do
 // projeto levaria meses de produção. Agora as seis coleções ficam no git.
 //
+// `familyTrees` continua na lista mesmo depois de a aba Árvore sair do site em 09/09/2026, e
+// justamente POR ISSO: desde então este script é a única coisa que toca a coleção, e o JSON aqui é
+// o único lugar onde a genealogia de 73 pessoas fica legível.
+//
 //   npm run backup            grava em docs/backup/<colecao>.json
 //   npm run backup -- --check compara com o que está gravado e só relata a diferença
 //

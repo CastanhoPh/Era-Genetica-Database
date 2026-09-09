@@ -55,7 +55,6 @@ const COLECOES = [
   { colecao: 'characters', arquivo: 'personagens', ordena: (a, b) => a.id - b.id },
   { colecao: 'arsenal', arquivo: 'arsenal', ordena: (a, b) => a.id - b.id },
   { colecao: 'imageChecklist', arquivo: 'checklist', ordena: (a, b) => a.order - b.order },
-  { colecao: 'familyTrees', arquivo: 'familias', ordena: (a, b) => a.order - b.order },
 ];
 
 mkdirSync(SAIDA, { recursive: true });

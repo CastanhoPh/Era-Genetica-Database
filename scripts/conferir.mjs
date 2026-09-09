@@ -40,8 +40,7 @@ const le = chave => {
 const chars = le('personagens');
 const ars = le('arsenal');
 const chk = le('checklist');
-const fam = le('familias');
-console.log(`retrato: ${chars.length} fichas · ${ars.length} armas · ${chk.length} páginas · ${fam.length} árvores\n`);
+console.log(`retrato: ${chars.length} fichas · ${ars.length} armas · ${chk.length} páginas\n`);
 
 // ---------------------------------------------------------------- checklist
 console.log('=== checklist ===');
@@ -114,7 +113,6 @@ const COLECOES = [
   { colecao: 'characters', arquivo: 'personagens', ordena: (a, b) => a.id - b.id },
   { colecao: 'arsenal', arquivo: 'arsenal', ordena: (a, b) => a.id - b.id },
   { colecao: 'imageChecklist', arquivo: 'checklist', ordena: (a, b) => a.order - b.order },
-  { colecao: 'familyTrees', arquivo: 'familias', ordena: (a, b) => a.order - b.order },
 ];
 let emDia = true;
 for (const { colecao, arquivo, ordena } of COLECOES) {

@@ -115,7 +115,7 @@ const PainelFamilia: React.FC<{ f: FamiliaLendaria }> = ({ f }) => {
       </div>
 
       {f.apelidos?.length ? (
-        <p className="text-[11px] text-tech-dim mt-5 leading-relaxed">
+        <p className="text-[11px] text-slate-400 mt-5 leading-relaxed">
           <span className="text-tech-primary/50 uppercase tracking-widest text-[10px]">busca também por</span>
           {' '}{f.apelidos.join(' · ')}
         </p>
@@ -167,10 +167,18 @@ const PainelLiberacoes: React.FC<{ g: GrupoLiberacao }> = ({ g }) => {
           const fam = familiaDaLiberacao(l.nome);
           return (
             <div key={l.nome} className="border-l-2 border-tech-border py-1 pl-3">
+              {/* A fórmula vem ANTES do nome quando ela é uma conta — "Katon + Doton = Youton" só
+                  se lê nessa ordem. A fonte de sangue vem DEPOIS, porque ali ela é um atributo do
+                  jutsu e não uma conta: "Ketton, Liberação de Sangue, do clã Chinoike". */}
               <div className="flex items-baseline gap-2 flex-wrap">
-                <span className="text-[11px] font-mono text-tech-primary/40 tabular-nums">{formula(l)}</span>
-                <span className="text-sm text-slate-200">{l.nome}</span>
-                <span className="text-[11px] text-tech-dim">Liberação de {l.traducao}</span>
+                {!l.fonte?.length && (
+                  <span className="text-[11px] font-mono text-tech-primary/70 tabular-nums">{formula(l)}</span>
+                )}
+                <span className="text-sm text-slate-100">{l.nome}</span>
+                <span className="text-[11px] text-slate-400">Liberação de {l.traducao}</span>
+                {l.fonte?.length ? (
+                  <span className="text-[11px] font-mono text-tech-primary/70">{formula(l)}</span>
+                ) : null}
               </div>
               {fam && (
                 <span className="text-[10px] uppercase tracking-widest text-tech-accent/60">
@@ -183,7 +191,7 @@ const PainelLiberacoes: React.FC<{ g: GrupoLiberacao }> = ({ g }) => {
       </div>
 
       {possiveis > 0 && lista.length < possiveis && (
-        <p className="text-[11px] text-tech-dim mt-5 leading-relaxed">
+        <p className="text-[11px] text-slate-400 mt-5 leading-relaxed">
           {possiveis - lista.length} das {possiveis} combinações de {k} elementos ainda não têm nome.
         </p>
       )}
@@ -199,7 +207,7 @@ const Habilidades: React.FC = () => {
   const slugDaUrl = segmentos[1] ? decodeURIComponent(segmentos[1]) : '';
 
   // Sem nada na URL abre no primeiro verbete: a aba nunca aparece vazia, e o link com slug é
-  // compartilhável, do mesmo jeito que /arvore/<familia>.
+  // compartilhável.
   const aberto = VERBETES.find(v => v.slug === slugDaUrl) ?? VERBETES[0];
   const abre = (v: Verbete) => navigate(`/habilidades/${encodeURIComponent(v.slug)}`);
 
@@ -214,7 +222,7 @@ const Habilidades: React.FC = () => {
         : 'border-transparent text-slate-300 hover:text-white hover:bg-tech-primary/5'}`}
     >
       <span className="truncate">{ROTULO_CURTO[v.rotulo] ?? v.rotulo}</span>
-      <span className="text-[10px] text-tech-primary/30 tabular-nums shrink-0">{v.qtd}</span>
+      <span className="text-[10px] text-tech-primary/50 tabular-nums shrink-0">{v.qtd}</span>
     </button>
   );
 
@@ -224,18 +232,18 @@ const Habilidades: React.FC = () => {
         <Sparkles size={12} />
         <span>Habilidades e Liberações</span>
         <span className="flex-1 h-px bg-tech-border"></span>
-        <span className="text-tech-primary/30">
+        <span className="text-tech-primary/50">
           {FAMILIAS.length} famílias · {TOTAL_MARCAS} marcas · {TOTAL_LIBERACOES} liberações
         </span>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-[13rem_1fr] gap-px bg-tech-border/40 border border-tech-border/40">
         <div className="bg-tech-panel/40 py-2 md:max-h-[34rem] md:overflow-y-auto">
-          <div className="text-[9px] uppercase tracking-[0.18em] text-tech-dim px-3 pt-2 pb-1">
+          <div className="text-[9px] uppercase tracking-[0.18em] text-tech-primary/45 px-3 pt-2 pb-1">
             Habilidades Lendárias
           </div>
           {FAMILIAS.map(item)}
-          <div className="text-[9px] uppercase tracking-[0.18em] text-tech-dim px-3 pt-4 pb-1">
+          <div className="text-[9px] uppercase tracking-[0.18em] text-tech-primary/45 px-3 pt-4 pb-1">
             Liberações
           </div>
           {GRUPOS.map(item)}

@@ -3,25 +3,28 @@
     "__docId": "0BHCxRIoVhXrZ6VWuBGq",
     "texto": "Apagar o campo morto focoAtributo (singular) do Firestore",
     "grupo": "Manutenção",
-    "feito": false,
     "ordem": 21,
-    "criadoEm": 1787158498002
+    "criadoEm": 1787158498002,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "0hzJ4Q8Cfo2ssjV16pkL",
-    "texto": "Decidir o prefixo: \"Kaito\" ou \"Kaito Senju\" — hoje capas e linha do tempo usam nome completo",
     "grupo": "Invocações",
-    "feito": false,
     "ordem": 2,
-    "criadoEm": 1787158497983
+    "criadoEm": 1787158497983,
+    "texto": "Prefixo das pastas: nome completo é a regra. Já valia em todas as 95 capas — as 2 que pareciam exceção são Beta e Hades, que não têm sobrenome.",
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "1kin7sn6ITbZEMDyMOW4",
-    "texto": "Decidir se os 9 nomes citados em eventos ganham ficha: Hiruzen, Mito, Konan, Kawarama, Amai, Hina, Iwaki, Renji, Sakura",
     "grupo": "Fichas",
     "feito": false,
     "ordem": 7,
-    "criadoEm": 1787158497988
+    "criadoEm": 1787158497988,
+    "texto": "Os 9 citados em eventos ganham ficha no futuro, junto do Hashirama e do Madara: Hiruzen, Mito, Konan, Kawarama, Amai, Hina, Iwaki, Renji e Sakura.",
+    "status": "espera"
   },
   {
     "__docId": "2IIIWN6qsnRlMr6sVNGh",
@@ -29,159 +32,178 @@
     "grupo": "Regras",
     "feito": false,
     "ordem": 22,
-    "criadoEm": 1787158498003
+    "criadoEm": 1787158498003,
+    "status": "a-fazer"
   },
   {
     "__docId": "3RnoyO3vztFX0LLFLPa4",
     "texto": "Criar o projeto Canva de Invocações e os itens do checklist (bloco 40000 já reservado)",
     "grupo": "Invocações",
-    "feito": false,
     "ordem": 3,
-    "criadoEm": 1787158497984
+    "criadoEm": 1787158497984,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "3T25dkdNiw2HVE0tDurs",
-    "texto": "Nomes definitivos dos 10 da Elite de Kumogakure, e o combatStyle do Yoru",
     "grupo": "Regras",
     "feito": false,
     "ordem": 24,
-    "criadoEm": 1787158498005
+    "criadoEm": 1787158498005,
+    "status": "a-fazer",
+    "texto": "Elite de Kumogakure, o que resta: (a) o Raizuma aparece na 1ª Temporada no evento \"Nagare VS Raizuma\" mas a ficha diz 5ª; (b) Raizuma Kazuchi e Yoru Kurogami são irmãos com clãs diferentes — um dos dois está errado; (c) o combatStyle está gravado nos dez mas a ficha não o exibe."
   },
   {
     "__docId": "6CwgAci1UXE9MwuBupm5",
     "texto": "Regenerar o docs/characters.md, que está velho (ainda tem Juuken)",
     "grupo": "Manutenção",
-    "feito": false,
     "ordem": 17,
-    "criadoEm": 1787158497998
+    "criadoEm": 1787158497998,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "8tuNQ3IEjPjfMLmfYXbV",
-    "texto": "Confirmar quem são \"Os 7 de Konoha\" e a \"Equipe 40%\" para preencher vários de uma vez",
     "grupo": "Eventos",
-    "feito": false,
     "ordem": 11,
-    "criadoEm": 1787158497992
+    "criadoEm": 1787158497992,
+    "texto": "Os 7 de Konoha: Kaito, Oddy, Katsumi, Najin, Takeshi, Shoei e Nagare. Equipe 40%: Kazuki e Furyuzan na 1ª Temporada; os dois mais o Nagare na 2ª.",
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "95GcnFaOcfzYUSLLuULO",
-    "texto": "Dono das 9 armas sem originalOwner: Hekireki no Yumi, Hyōga no Seihai, Hyōketsu no Sensu, Kaikyō no Men, Kiba, Kiri-no-Kami no Yoroi, Shibuki, Shinsui no Yari, Suiryū no Reigan",
     "grupo": "Arsenal",
-    "feito": false,
     "ordem": 8,
-    "criadoEm": 1787158497989
+    "criadoEm": 1787158497989,
+    "texto": "Posse do arsenal fechada em 01/09: as 80 armas têm portador original. As 9 da Névoa que faltavam foram atribuídas — Hiramekarei, Shibuki, Kaikyō no Men, Hyōketsu no Sensu, Suiryū no Reigan, Shinsui no Yari, Hyōga no Seihai, Kiri-no-Kami no Yoroi e a Kiba (original Raio Yotsuki, o Primeiro Raikage).",
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "9bdfoyo8S7uTLD8sQ0Zy",
-    "texto": "Capas: 48 de 86 sem arte",
     "grupo": "Arte",
     "feito": false,
     "ordem": 13,
-    "criadoEm": 1787158497994
+    "criadoEm": 1787158497994,
+    "status": "a-fazer",
+    "texto": "Capas: 7 pendentes. As 5 que saíram do Canva estão em branco — Airi, Sayuri, Shoyu, Souma e Tetsu."
   },
   {
     "__docId": "AbXxKFos8LlKtnAiA3ez",
     "texto": "Apagar os ~420 MB de arquivos legados em Characters/<id> - Nome/",
     "grupo": "Manutenção",
-    "feito": false,
     "ordem": 18,
-    "criadoEm": 1787158497999
+    "criadoEm": 1787158497999,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "bm32splrQAOJINjFKZDw",
-    "texto": "Escrever a descrição da variante Shiden no Kage",
     "grupo": "Arsenal",
     "feito": false,
     "ordem": 9,
-    "criadoEm": 1787158497990
+    "criadoEm": 1787158497990,
+    "status": "a-fazer",
+    "texto": "Escrever a descrição das 2 variantes da Naomi: Shiden no Kage e Shiden no Gauntō. A Guren no Kage (Kaito) já tem."
   },
   {
     "__docId": "cpobUPqu8swKGrygLuHE",
     "texto": "Aplicar o perfil no NC novo dos 12 da 5ª Temporada — só falta o \"aplica\"",
     "grupo": "Fichas",
-    "feito": false,
     "ordem": 4,
-    "criadoEm": 1787158497985
+    "criadoEm": 1787158497985,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "fH3hEdGBIkjAxMengtU6",
-    "texto": "Preencher os 42 eventos sem participante — a maioria é Exame Chunin e Masmorra",
     "grupo": "Eventos",
     "feito": false,
     "ordem": 10,
-    "criadoEm": 1787158497991
+    "criadoEm": 1787158497991,
+    "status": "a-fazer",
+    "texto": "Elenco dos eventos: 75 sem ninguém marcado e 78 com gente mas ainda abertos. É uma ação só — marcar quem está na cena e fechar. Só evento fechado E com arte aparece na ficha."
   },
   {
     "__docId": "jl8fMVJlmsxjKQFtUxZY",
     "texto": "Kurohime Kazeori tem o poder Kuchiyose e nenhuma técnica de invocação — invoca o quê?",
     "grupo": "Fichas",
-    "feito": false,
     "ordem": 27,
-    "criadoEm": 1787160291581
+    "criadoEm": 1787160291581,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "K528Nu0Cye8X3sqHF7bz",
     "texto": "Mandar a lista de invocações por personagem: dono, nome, e fases (ou \"única\")",
     "grupo": "Invocações",
-    "feito": false,
     "ordem": 1,
-    "criadoEm": 1787158497982
+    "criadoEm": 1787158497982,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "kJUcBlT4R9NPZ3wcyUXN",
     "texto": "Tirar Satoshi Namikaze e Inazuma Kazuchi do PENDING_CHARACTERS — os dois já têm ficha",
     "grupo": "Manutenção",
-    "feito": false,
     "ordem": 16,
-    "criadoEm": 1787158497997
+    "criadoEm": 1787158497997,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "nb0uNJhcath4BM58wFee",
     "texto": "Deduplicar as 22 capas byte-a-byte idênticas",
     "grupo": "Manutenção",
-    "feito": false,
     "ordem": 19,
-    "criadoEm": 1787158498000
+    "criadoEm": 1787158498000,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "nm9LjEztGaSyxyT5LCqD",
-    "texto": "Oogway Uchiha: criar a ficha inteira, NC 28. A arte está no Downloads",
     "grupo": "Fichas",
-    "feito": false,
     "ordem": 5,
-    "criadoEm": 1787158497986
+    "criadoEm": 1787158497986,
+    "texto": "Oogway Uchiha: ficha criada em 01/09 no id 30, NC 28, DPS, Corporal, focos Espírito+Vigor. Falta a capa e a descrição.",
+    "feito": true,
+    "status": "concluido"
+  },
+  {
+    "__docId": "pMVUnKufDprXTsFrvwT5",
+    "grupo": "Arsenal",
+    "status": "a-fazer",
+    "feito": false,
+    "ordem": 28,
+    "texto": "Portador original que não é nome de ficha: 24 armas. 13 têm grupo ou cargo — \"Oryō Soryo\" (5), \"Kiba\" (3), \"Samurais do País da Pedra\" (2), \"Monges da Vila dos Monges\", \"OCA\" e \"Primeiro Mizukage\" — e essas são a decisão de verdade: grupo é resposta válida ou cada uma precisa de um nome? As outras 11 têm pessoa correta que só não tem ficha ainda: Minoru Hyuga (4 armas), Mangetsu Hozuki, Mito Uzumaki, Shiraki Chinoike, Shikaku Nara, Hiruzen Sarutobi, Ashina Uzumaki e Raio Yotsuki. Enquanto não houver ficha, o \"já utilizou\" não aparece para nenhum deles."
   },
   {
     "__docId": "QIupG0Cij2phtk8tUiIk",
-    "texto": "Eventos: 151 de 253 sem arte (31 são placeholder branco)",
     "grupo": "Arte",
     "feito": false,
     "ordem": 15,
-    "criadoEm": 1787158497996
+    "criadoEm": 1787158497996,
+    "texto": "Eventos: 159 dos 300 sem arte — é a maior fila do projeto. Contagem viva no checklist.",
+    "status": "a-fazer"
   },
   {
     "__docId": "uGa59mvnBanDkQgQOKFY",
     "texto": "Renomear a pasta Prototipo/Amakuro Kozuki/ no Storage",
     "grupo": "Manutenção",
-    "feito": false,
     "ordem": 20,
-    "criadoEm": 1787158498001
-  },
-  {
-    "__docId": "UvJHepVqthSpAWi6L3Ku",
-    "texto": "Reika Uzumaki carrega duas bijuu (Kurama + Gyūki), e o Kurama está em três fichas: Naomi, Shoyu e Reika",
-    "grupo": "Fichas",
-    "feito": false,
-    "ordem": 26,
-    "criadoEm": 1787160291520
+    "criadoEm": 1787158498001,
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "WC3022VYvNhBAhsvCbUO",
-    "texto": "Chōmei (bijuu de 7 caudas) não tem jinchūriki em ficha nenhuma, mas é citada no lore do Hirato Ishi",
     "grupo": "Fichas",
-    "feito": false,
     "ordem": 25,
-    "criadoEm": 1787160291426
+    "criadoEm": 1787160291426,
+    "texto": "Chōmei: a jinchūriki é a Hahiko Shiosaki, Capitã da Frota Jormungandr — já tem Chomei 14 na ficha.",
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "xp5qybWYtvR3d1EnNkXe",
@@ -189,30 +211,25 @@
     "grupo": "Regras",
     "feito": false,
     "ordem": 23,
-    "criadoEm": 1787158498004
+    "criadoEm": 1787158498004,
+    "status": "a-fazer"
   },
   {
     "__docId": "YR0BcIei8QXiSVUeXtO7",
-    "texto": "Linha do Tempo: 47 de 292 sem arte",
     "grupo": "Arte",
     "feito": false,
     "ordem": 14,
-    "criadoEm": 1787158497995
+    "criadoEm": 1787158497995,
+    "status": "a-fazer",
+    "texto": "Linha do Tempo: 35 fases sem arte — a página existe no Canva mas está em branco em 33 delas. As outras 2: Beta / 3ª Temporada não tem página, e Shiita / 1ª Temporada tem página mas o conteúdo era a 5ª. Contagem viva no checklist."
   },
   {
     "__docId": "zMRMYCsMwu7lyIECehgt",
     "texto": "Poderes das 10 fichas sem nenhum: Kiyoshi, Gorai, Shizuru, Inazuma, Arashi, Nayara, Raiden, Raizen, Midori, Akane",
     "grupo": "Fichas",
-    "feito": false,
     "ordem": 6,
-    "criadoEm": 1787158497987
-  },
-  {
-    "__docId": "zUqhtWBPY5XJ0eaWQACP",
-    "texto": "Fechar o elenco dos 83 eventos que têm gente marcada mas não estão fechados",
-    "grupo": "Eventos",
+    "criadoEm": 1787158497987,
     "feito": false,
-    "ordem": 12,
-    "criadoEm": 1787158497993
+    "status": "a-fazer"
   }
 ]
