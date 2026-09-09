@@ -119,7 +119,11 @@ export const FAMILIAS_LENDARIAS: FamiliaLendaria[] = [
   {
     familia: 'Ketsuryugan',
     degraus: [
-      { marcas: ['Ketsuryugan'] },
+      // O `Implantado` do primeiro degrau entrou em 09/09/2026, quando o Pedro ditou a lista
+      // inteira: era a única marca dela que não existia aqui. Ficha nenhuma usa ainda, então
+      // acrescentar só faz a busca reconhecer o nome — e deixa a família simétrica com o
+      // Sharingan e o Byakugan, onde cada degrau já tinha a sua variante implantada.
+      { marcas: ['Ketsuryugan', 'Ketsuryugan Implantado'] },
       { marcas: ['Ketsuryugan Perfeito', 'Ketsuryugan Perfeito Implantado'] },
     ],
   },
