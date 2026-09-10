@@ -487,7 +487,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                   // senão invocação cujo original é o atual mostraria a mesma pessoa duas vezes.
                   const mostraOriginal = aberta.originalOwner && aberta.originalOwner !== nomeAtual;
                   return (
-                    <div className="flex flex-col gap-2.5">
+                    <div className="flex gap-6 flex-wrap">
                       <div className="flex flex-col gap-1">
                         <span className="text-[10px] uppercase tracking-widest text-tech-primary/50 flex items-center gap-1.5">
                           <User size={11} /> Invocador Atual
