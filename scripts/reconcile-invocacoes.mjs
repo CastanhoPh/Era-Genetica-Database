@@ -99,7 +99,8 @@ for (const doc of snapChars.docs) {
 console.log(`${arte.length} invocações no checklist · ${planoPorDono.size} donos com ficha`);
 if (semFicha.size) {
   console.log(`\ndono sem ficha (a invocação fica guardada até a ficha existir):`);
-  for (const [dono, nomes] of semFicha) console.log(`   ${dono}: ${nomes.join(', ')}`);
+  for (const [dono, nomes] of semFicha)
+    console.log(`   ${dono || '(sem invocador)'}: ${nomes.join(', ')}`);
 }
 
 if (!mudam.length) {

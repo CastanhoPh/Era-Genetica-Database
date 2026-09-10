@@ -76,8 +76,10 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
       });
   }, [items]);
 
+  // O `filter(Boolean)` tira a invocação sem invocador: ela existe, mas não é uma opção de
+  // filtro — seria uma linha em branco no seletor.
   const donos = useMemo(
-    () => Array.from(new Set(invocacoes.map(i => i.dono))).sort((a, b) => a.localeCompare(b)),
+    () => Array.from(new Set(invocacoes.map(i => i.dono).filter(Boolean))).sort((a, b) => a.localeCompare(b)),
     [invocacoes],
   );
   // Os seletores de rank e natureza só aparecem quando há valor para escolher — um seletor vazio
@@ -402,7 +404,9 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                     <span className="text-[10px] uppercase tracking-widest text-tech-primary/50 flex items-center gap-1.5">
                       <User size={11} /> Invocador Atual
                     </span>
-                    {fichaAberta ? (
+                    {!aberta.dono ? (
+                      <span className="text-sm text-slate-400 italic">não possui invocador</span>
+                    ) : fichaAberta ? (
                       <button
                         onClick={() => onOpenCharacter(fichaAberta)}
                         title={`Abrir a ficha de ${fichaAberta.name}`}
