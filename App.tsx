@@ -1042,6 +1042,7 @@ export default function App() {
                     onFilterClan={handleFilterClan}
                     onFilterTag={handleFilterTag}
                     arsenalOptions={arsenalItems}
+                    characters={charsPublicos}
                 />
                 <EquipmentModal
                     item={selectedItem}

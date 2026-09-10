@@ -29,9 +29,15 @@ interface CharacterModalProps {
   onFilterClan?: (clan: string) => void;
   onFilterTag?: (tag: string) => void;
   arsenalOptions?: Equipment[];
+  /**
+   * Todas as fichas públicas. Serve a UMA coisa: achar a invocação que esta pessoa já invocou, que
+   * vive desnormalizada na ficha de quem a invoca hoje. O arsenal faz o equivalente com
+   * `arsenalOptions`.
+   */
+  characters?: Character[];
 }
 
-const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin, onEdit, onDelete, onFilterClan, onFilterTag, arsenalOptions = [] }) => {
+const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin, onEdit, onDelete, onFilterClan, onFilterTag, arsenalOptions = [], characters = [] }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const [imgError, setImgError] = useState(false);
@@ -216,6 +222,28 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   // páginas do Canva, então nada de reordenar aqui.
   const characterInvocacoes = char.invocacoes || [];
 
+  // Invocações que ESTA pessoa já invocou: aparece como invocador original ou antigo numa invocação
+  // que hoje é de outro. Mesma regra do arsenal, e o mesmo cuidado de não duplicar quem já está na
+  // seção de cima.
+  const invocacoesPassadas = (() => {
+    const meu = char.name.trim().toLowerCase();
+    const jaTem = new Set(characterInvocacoes.map(i => i.nome));
+    const vistas = new Set<string>();
+    return characters
+      .flatMap(c => c.invocacoes ?? [])
+      .filter(inv => {
+        if (jaTem.has(inv.nome) || vistas.has(inv.nome)) return false;
+        const foiOriginal = (inv.originalOwner ?? '').trim().toLowerCase() === meu;
+        const foiAntigo = (inv.pastOwners ?? []).some(o => o.trim().toLowerCase() === meu);
+        if (!foiOriginal && !foiAntigo) return false;
+        vistas.add(inv.nome);
+        return true;
+      });
+  })();
+
+  /** As duas seções numa lista só, para a rota abrir qualquer uma por um índice único. */
+  const invocacoesTodas = [...characterInvocacoes, ...invocacoesPassadas];
+
   // Aba ativa e item selecionado (jutsu/arma/imagem) vêm direto da URL — segmentos depois
   // do slug do personagem: /<slug>/jutsus[/<tecnica>], /<slug>/arsenal[/<arma>], /<slug>/galeria[/<imagem>].
   // Sem estado próprio pra duplicar (mesmo princípio já usado pra aba principal em App.tsx).
@@ -240,7 +268,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
     ? (() => { const i = characterArsenalAll.findIndex(w => w && slugify(w.name) === itemSlugRaw); return i >= 0 ? i : null; })()
     : null;
   const selectedInvocacaoIndex = activeTab === 'invocacoes' && itemSlugRaw
-    ? (() => { const i = characterInvocacoes.findIndex(x => slugify(x.nome) === itemSlugRaw); return i >= 0 ? i : null; })()
+    ? (() => { const i = invocacoesTodas.findIndex(x => slugify(x.nome) === itemSlugRaw); return i >= 0 ? i : null; })()
     : null;
   const selectedGalleryIndex = (activeTab === 'gallery' || activeTab === 'eventos') && itemSlugRaw
     ? (() => { const i = characterGallery.findIndex((g, gi) => gallerySlugFor(g, gi) === itemSlugRaw); return i >= 0 ? i : null; })()
@@ -275,7 +303,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   }, [activeTab, char]);
 
   const goToInvocacao = (idx: number) => {
-    const inv = characterInvocacoes[idx];
+    const inv = invocacoesTodas[idx];
     if (inv) goTo(`${charBasePath}/invocacoes/${encodeURIComponent(slugify(inv.nome))}`);
   };
   const goToTechnique = (idx: number) => goTo(`${charBasePath}/jutsus/${encodeURIComponent(slugify(allTechniques[idx].name))}`);
@@ -509,13 +537,13 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             >
                                 Jutsus [{allTechniques.length}]
                             </button>
-                            {characterInvocacoes.length > 0 && (
+                            {invocacoesTodas.length > 0 && (
                                 <button
                                     onClick={() => goToTab('invocacoes')}
                                     data-aba-ativa={activeTab === 'invocacoes' ? '1' : undefined}
                                     className={`px-4 py-1 text-[10px] font-black uppercase tracking-widest border transition-all whitespace-nowrap ${activeTab === 'invocacoes' ? 'bg-tech-primary text-black border-tech-primary shadow-[0_0_10px_rgba(0,255,65,0.3)]' : 'text-tech-primary/50 border-tech-border hover:border-tech-primary/50'}`}
                                 >
-                                    Invocações [{characterInvocacoes.length}]
+                                    Invocações [{invocacoesTodas.length}]
                                 </button>
                             )}
                             <button
@@ -975,16 +1003,11 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                 ) : activeTab === 'invocacoes' ? (
                     <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
                         {selectedInvocacaoIndex === null ? (
-                            <>
-                                <div className="text-[10px] font-black text-tech-primary/60 uppercase tracking-widest mb-3 flex items-center gap-2">
-                                    <span>Invocações</span>
-                                    <span className="flex-1 h-px bg-tech-border"></span>
-                                    <span className="text-tech-primary/30">{characterInvocacoes.length}</span>
-                                </div>
-                                {/* 4:3 porque é o formato real das duas artes — recortar em quadrado
-                                    como o arsenal faz jogaria fora um quarto do desenho */}
-                                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                                    {characterInvocacoes.map((inv, idx) => (
+                            (() => {
+                                // 4:3 porque é o formato real das duas artes — recortar em quadrado
+                                // como o arsenal faz jogaria fora um quarto do desenho.
+                                const renderInvocacaoCard = (inv: typeof invocacoesTodas[number], idx: number, dimmed?: boolean) => (
+                                    <div key={inv.nome} className={`transition-opacity duration-300 ${dimmed ? 'opacity-70 hover:opacity-100' : ''}`}>
                                         <button
                                             key={inv.nome}
                                             onClick={() => goToInvocacao(idx)}
@@ -1026,12 +1049,49 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                 </div>
                                             </div>
                                         </button>
-                                    ))}
-                                </div>
-                            </>
+                                    </div>
+                                );
+                                return (
+                                    <div className="space-y-8">
+                                        {(characterInvocacoes.length > 0 || !invocacoesPassadas.length) && (
+                                        <div>
+                                            <h3 className="text-[10px] font-black uppercase tracking-widest mb-3 flex items-center gap-2 text-tech-accent">
+                                                {char.isDead ? 'Invocava' : 'Invoca hoje'}
+                                                <span className="h-px flex-1 bg-tech-border"></span>
+                                                <span className="text-tech-primary/30">{characterInvocacoes.length}</span>
+                                            </h3>
+                                            {characterInvocacoes.length > 0 ? (
+                                                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                                                    {characterInvocacoes.map((inv, idx) => renderInvocacaoCard(inv, idx))}
+                                                </div>
+                                            ) : (
+                                                <div className="h-40 flex flex-col items-center justify-center border border-tech-border border-dashed bg-tech-panel/10">
+                                                    <Sparkles size={26} className="text-tech-primary/15 mb-3" />
+                                                    <span className="text-[10px] text-tech-primary/30 uppercase tracking-widest">nenhuma invocação atual</span>
+                                                </div>
+                                            )}
+                                        </div>
+                                        )}
+
+                                        {invocacoesPassadas.length > 0 && (
+                                            <div>
+                                                <h3 className="text-[10px] font-black uppercase tracking-widest mb-3 flex items-center gap-2 text-yellow-500">
+                                                    Já invocou
+                                                    <span className="h-px flex-1 bg-tech-border"></span>
+                                                    <span className="text-tech-primary/30">{invocacoesPassadas.length}</span>
+                                                </h3>
+                                                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                                                    {invocacoesPassadas.map((inv, i) =>
+                                                        renderInvocacaoCard(inv, characterInvocacoes.length + i, true))}
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })()
                         ) : (
                             (() => {
-                                const inv = characterInvocacoes[selectedInvocacaoIndex];
+                                const inv = invocacoesTodas[selectedInvocacaoIndex];
                                 // a arte cheia é o que faz sentido na tela aberta; a capa é o recorte de card
                                 const imagem = inv.arteUrl || inv.capaUrl;
                                 return (
