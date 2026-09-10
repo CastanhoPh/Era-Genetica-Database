@@ -1108,6 +1108,48 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                 <span className="text-[10px] uppercase tracking-widest text-tech-primary/30">a arte desta invocação ainda não foi feita</span>
                                             </div>
                                         )}
+
+                                        {(inv.nature || inv.village) && (
+                                          <div className="flex gap-6 flex-wrap mt-4">
+                                            {inv.nature && (
+                                              <div className="flex flex-col gap-0.5">
+                                                <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Natureza</span>
+                                                <span className="text-sm text-slate-200">{inv.nature}</span>
+                                              </div>
+                                            )}
+                                            {inv.village && (
+                                              <div className="flex flex-col gap-0.5">
+                                                <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Vila</span>
+                                                <span className="text-sm text-slate-200">{inv.village}</span>
+                                              </div>
+                                            )}
+                                          </div>
+                                        )}
+
+                                        {inv.descricao && (
+                                          <div className="mt-4 flex flex-col gap-1.5">
+                                            <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Descrição</span>
+                                            <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-line">{inv.descricao}</p>
+                                          </div>
+                                        )}
+
+                                        {(inv.habilidade || inv.habilidadeSuprema) && (
+                                          <div className="mt-4 flex flex-col gap-2.5">
+                                            {inv.habilidade && (
+                                              <div className="border-l-2 border-tech-primary/50 pl-3 flex flex-col gap-1">
+                                                <span className="text-[10px] uppercase tracking-widest text-tech-primary/60">Habilidade</span>
+                                                <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">{inv.habilidade}</p>
+                                              </div>
+                                            )}
+                                            {/* Uma só por invocação, e o âmbar é o que diz isso. */}
+                                            {inv.habilidadeSuprema && (
+                                              <div className="border-l-2 border-tech-accent pl-3 py-1 flex flex-col gap-1 bg-tech-accent/[0.04]">
+                                                <span className="text-[10px] uppercase tracking-widest text-tech-accent">Habilidade Suprema</span>
+                                                <p className="text-sm text-slate-100 leading-relaxed whitespace-pre-line">{inv.habilidadeSuprema}</p>
+                                              </div>
+                                            )}
+                                          </div>
+                                        )}
                                     </div>
                                 );
                             })()

@@ -6,6 +6,7 @@ import { filtroDaCapa } from './BotaoDeCores';
 
 export interface InvocacaoCardData {
   nome: string;
+  /** O invocador ATUAL. Vem do `temporada` da página, com o nome curto ("Kuromi"). */
   dono: string;
   capaUrl?: string;
   arteUrl?: string;
@@ -15,6 +16,14 @@ export interface InvocacaoCardData {
   placeholder: boolean;
   /** Página no projeto Invocações do Canva. */
   pagina: number;
+  // Os seis campos abaixo o card não usa — quem usa é o painel que abre ao clicar. Vivem aqui
+  // porque a página monta este objeto uma vez, do checklist, e o painel lê o mesmo objeto.
+  originalOwner?: string;
+  pastOwners?: string[];
+  nomeAntigo?: string;
+  descricao?: string;
+  habilidade?: string;
+  habilidadeSuprema?: string;
 }
 
 interface Props {

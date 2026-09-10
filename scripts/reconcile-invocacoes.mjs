@@ -65,6 +65,9 @@ for (const i of arte) {
     ...(i.originalOwner ? { originalOwner: i.originalOwner } : {}),
     ...(i.pastOwners?.length ? { pastOwners: i.pastOwners } : {}),
     ...(i.nomeAntigo ? { nomeAntigo: i.nomeAntigo } : {}),
+    ...(i.descricao ? { descricao: i.descricao } : {}),
+    ...(i.habilidade ? { habilidade: i.habilidade } : {}),
+    ...(i.habilidadeSuprema ? { habilidadeSuprema: i.habilidadeSuprema } : {}),
     ...(i.placeholder || capa?.placeholder ? { placeholder: true } : {}),
   };
   const alvo = porPrimeiro.get(i.temporada);
@@ -80,7 +83,8 @@ for (const i of arte) {
 
 // ---- compara conteúdo, não ordem de serialização ----
 const chave = lista => JSON.stringify((lista || []).map(x => [x.nome, x.capaUrl ?? '', x.arteUrl ?? '', x.rank ?? '', x.nature ?? '', x.village ?? '', !!x.placeholder,
-  x.originalOwner ?? '', (x.pastOwners ?? []).join('|'), x.nomeAntigo ?? '']));
+  x.originalOwner ?? '', (x.pastOwners ?? []).join('|'), x.nomeAntigo ?? '',
+  x.descricao ?? '', x.habilidade ?? '', x.habilidadeSuprema ?? '']));
 
 const mudam = [];
 for (const doc of snapChars.docs) {

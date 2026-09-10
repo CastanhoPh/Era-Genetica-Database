@@ -95,6 +95,17 @@ export interface Invocacao {
    * o Shinsusenju, os dois com o Hashirama. É nome da CRIATURA, não apelido do dono.
    */
   nomeAntigo?: string;
+  /**
+   * Texto livre sobre a criatura. Opcional: a invocação existe sem ele, e hoje nenhuma das 65
+   * tem — o Pedro vai ditar aos poucos.
+   */
+  descricao?: string;
+  /**
+   * O que a criatura faz, e o teto do que ela faz. São dois campos e não uma lista porque a
+   * Suprema tem peso proprio na mesa: é uma só por invocação, e a tela a destaca.
+   */
+  habilidade?: string;
+  habilidadeSuprema?: string;
 }
 
 export interface ChecklistItem {
@@ -151,6 +162,9 @@ export interface ChecklistItem {
   originalOwner?: string;
   pastOwners?: string[];
   nomeAntigo?: string;
+  descricao?: string;
+  habilidade?: string;
+  habilidadeSuprema?: string;
   personagens?: string[];
   /**
    * Só para evento: o elenco está fechado, ou seja, todo mundo que aparece na imagem já foi

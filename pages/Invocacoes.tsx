@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User } from 'lucide-react';
+import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
 import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
@@ -66,6 +66,12 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           village: i.village,
           placeholder: !!(i.placeholder || capa?.placeholder),
           pagina: k + 1,
+          originalOwner: i.originalOwner,
+          pastOwners: i.pastOwners,
+          nomeAntigo: i.nomeAntigo,
+          descricao: i.descricao,
+          habilidade: i.habilidade,
+          habilidadeSuprema: i.habilidadeSuprema,
         };
       });
   }, [items]);
@@ -342,35 +348,140 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
               </button>
             </>
           )}
-          <div className="max-w-5xl w-full" onClick={e => e.stopPropagation()}>
-            <div className="flex items-baseline gap-3 flex-wrap mb-3">
-              <h3 className="text-xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
-              {aberta.rank && <span className="bg-tech-accent text-black text-[9px] font-black px-2 py-0.5 clip-corner-sm">{aberta.rank}</span>}
-              {aberta.nature && <span className="text-[10px] uppercase tracking-widest text-tech-primary/40">{aberta.nature}</span>}
-              {aberta.village && <span className="text-[10px] uppercase tracking-widest text-tech-primary/25">{aberta.village}</span>}
-              {fichaAberta ? (
-                <button
-                  onClick={() => onOpenCharacter(fichaAberta)}
-                  title={`Abrir a ficha de ${fichaAberta.name}`}
-                  className="text-[10px] uppercase tracking-widest text-tech-primary/50 hover:text-tech-primary transition-colors flex items-center gap-1"
-                >
-                  <User size={10} /> de {aberta.dono}
-                </button>
-              ) : (
-                <span title="Este dono ainda não tem ficha" className="text-[10px] uppercase tracking-widest text-tech-primary/25 flex items-center gap-1">
-                  <User size={10} /> de {aberta.dono}
-                </span>
-              )}
-              <span className="text-[10px] font-mono text-tech-primary/25 ml-auto">{idxAberta + 1} / {filtradas.length}</span>
-            </div>
-            {aberta.arteUrl && !aberta.placeholder ? (
-              <img src={formatImageUrl(aberta.arteUrl)} alt={aberta.nome} className="w-full h-auto border border-tech-border" />
-            ) : (
-              <div className="border border-tech-border bg-tech-panel/20 aspect-[4/3] flex flex-col items-center justify-center gap-2">
-                <Sparkles size={32} className="text-tech-primary/15" />
-                <span className="text-[10px] uppercase tracking-widest text-tech-primary/30">a arte desta invocação ainda não foi feita</span>
+          <div
+            className="max-w-6xl w-full max-h-[92vh] overflow-y-auto scrollbar-custom bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_30px_rgba(0,255,65,0.1)] clip-corner relative"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-primary z-30 pointer-events-none" />
+            <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-primary z-30 pointer-events-none" />
+
+            <div className="flex flex-col lg:flex-row">
+              {/* ---------------- a arte ---------------- */}
+              <div className="lg:w-[52%] border-b lg:border-b-0 lg:border-r border-tech-border bg-tech-panel/20 shrink-0">
+                <div className="p-2 border-b border-tech-border text-[10px] flex justify-between text-tech-primary/50">
+                  <span>IMG_DATA_BLOCK_01</span>
+                  <span>{idxAberta + 1} / {filtradas.length}</span>
+                </div>
+
+                {/* 4:3 fixo, o formato real das duas artes de invocação */}
+                <div className="relative w-full aspect-[4/3] bg-black overflow-hidden">
+                  <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.08)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none z-20" />
+                  <div className="absolute top-0 left-0 w-full h-1 bg-tech-primary/50 shadow-[0_0_10px_#00ff41] animate-[scanline_3s_linear_infinite] pointer-events-none z-30 opacity-50" />
+                  <div className="absolute top-3 left-3 w-4 h-4 border-t-2 border-l-2 border-tech-primary z-20 opacity-60" />
+                  <div className="absolute bottom-3 right-3 w-4 h-4 border-b-2 border-r-2 border-tech-primary z-20 opacity-60" />
+                  {aberta.arteUrl && !aberta.placeholder ? (
+                    <img src={formatImageUrl(aberta.arteUrl)} alt={aberta.nome} className="w-full h-full object-cover" />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center gap-2">
+                      <Sparkles size={32} className="text-tech-primary/15" />
+                      <span className="text-[10px] uppercase tracking-widest text-tech-primary/30">a arte desta invocação ainda não foi feita</span>
+                    </div>
+                  )}
+                </div>
               </div>
-            )}
+
+              {/* ---------------- os dados ---------------- */}
+              <div className="flex-1 p-5 flex flex-col gap-5 min-w-0">
+                <div>
+                  <div className="flex items-baseline gap-3 flex-wrap">
+                    <h3 className="text-2xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
+                    {aberta.rank && <span className="bg-tech-accent text-black text-[10px] font-black px-2 py-0.5 clip-corner-sm">{aberta.rank}</span>}
+                  </div>
+                  {aberta.nomeAntigo && (
+                    <p className="text-[11px] text-slate-400 mt-1">
+                      <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">antes chamado de</span>{' '}
+                      {aberta.nomeAntigo}
+                    </p>
+                  )}
+                </div>
+
+                {/* Posse: o atual sempre. Os outros dois só quando há cadeia de verdade —
+                    `originalOwner` ausente, ou igual ao atual, significa que não houve troca. */}
+                <div className="flex flex-col gap-2.5">
+                  <div className="flex flex-col gap-1">
+                    <span className="text-[10px] uppercase tracking-widest text-tech-primary/50 flex items-center gap-1.5">
+                      <User size={11} /> Invocador Atual
+                    </span>
+                    {fichaAberta ? (
+                      <button
+                        onClick={() => onOpenCharacter(fichaAberta)}
+                        title={`Abrir a ficha de ${fichaAberta.name}`}
+                        className="self-start text-sm text-tech-primary hover:underline decoration-dotted underline-offset-4"
+                      >
+                        {fichaAberta.name}
+                      </button>
+                    ) : (
+                      <span title="Este invocador ainda não tem ficha" className="text-sm text-slate-300">{aberta.dono}</span>
+                    )}
+                  </div>
+
+                  {/* O `dono` e o nome CURTO ("Kuromi") e o `originalOwner` o completo ("Kuromi
+                      Uchiha"), entao a comparacao tem que ser contra o nome da ficha quando
+                      ela existe. Sem isso, invocacao cujo invocador original e o atual
+                      mostraria a mesma pessoa duas vezes. */}
+                  {aberta.originalOwner && aberta.originalOwner !== (fichaAberta?.name ?? aberta.dono) && (
+                    <div className="flex flex-col gap-1">
+                      <span className="text-[10px] uppercase tracking-widest text-sky-400 flex items-center gap-1.5">
+                        <Hexagon size={11} /> Invocador Original
+                      </span>
+                      <span className="text-sm text-sky-300">{aberta.originalOwner}</span>
+                    </div>
+                  )}
+
+                  {aberta.pastOwners?.length ? (
+                    <div className="flex flex-col gap-1">
+                      <span className="text-[10px] uppercase tracking-widest text-yellow-500 flex items-center gap-1.5">
+                        <History size={11} /> Invocadores Antigos
+                      </span>
+                      <span className="text-sm text-yellow-200/90">{aberta.pastOwners.join(' · ')}</span>
+                    </div>
+                  ) : null}
+                </div>
+
+                {(aberta.nature || aberta.village) && (
+                  <div className="flex gap-6 flex-wrap border-t border-tech-border/50 pt-4">
+                    {aberta.nature && (
+                      <div className="flex flex-col gap-0.5">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Natureza</span>
+                        <span className="text-sm text-slate-200">{aberta.nature}</span>
+                      </div>
+                    )}
+                    {aberta.village && (
+                      <div className="flex flex-col gap-0.5">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Vila</span>
+                        <span className="text-sm text-slate-200">{aberta.village}</span>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {aberta.descricao && (
+                  <div className="border-t border-tech-border/50 pt-4 flex flex-col gap-1.5">
+                    <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Descrição</span>
+                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-line">{aberta.descricao}</p>
+                  </div>
+                )}
+
+                {(aberta.habilidade || aberta.habilidadeSuprema) && (
+                  <div className="border-t border-tech-border/50 pt-4 flex flex-col gap-2.5">
+                    {aberta.habilidade && (
+                      <div className="border-l-2 border-tech-primary/50 pl-3 flex flex-col gap-1">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/60">Habilidade</span>
+                        <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">{aberta.habilidade}</p>
+                      </div>
+                    )}
+                    {/* A Suprema é uma só por invocação, e ganha o âmbar por isso — o mesmo
+                        destaque que o rank usa no card. */}
+                    {aberta.habilidadeSuprema && (
+                      <div className="border-l-2 border-tech-accent pl-3 py-1 flex flex-col gap-1 bg-tech-accent/[0.04]">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-accent">Habilidade Suprema</span>
+                        <p className="text-sm text-slate-100 leading-relaxed whitespace-pre-line">{aberta.habilidadeSuprema}</p>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       )}
