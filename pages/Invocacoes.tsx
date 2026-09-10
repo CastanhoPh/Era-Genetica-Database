@@ -69,6 +69,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           placeholder: !!(i.placeholder || capa?.placeholder),
           pagina: k + 1,
           familia: i.familia,
+          hierarquia: i.hierarquia,
           originalOwner: i.originalOwner,
           pastOwners: i.pastOwners,
           nomeAntigo: i.nomeAntigo,
@@ -431,6 +432,9 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                     <h3 className="text-2xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
                     {aberta.rank && <span className="bg-tech-accent text-black text-[10px] font-black px-2 py-0.5 clip-corner-sm">{aberta.rank}</span>}
                   </div>
+                  {aberta.hierarquia && (
+                    <p className="text-[11px] uppercase tracking-widest text-tech-accent/80 mt-1">{aberta.hierarquia}</p>
+                  )}
                   {aberta.nomeAntigo && (
                     <p className="text-[11px] text-slate-400 mt-1">
                       <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">antes chamado de</span>{' '}

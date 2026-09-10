@@ -22,6 +22,7 @@ export interface InvocacaoCardData {
   // Os seis campos abaixo o card não usa — quem usa é o painel que abre ao clicar. Vivem aqui
   // porque a página monta este objeto uma vez, do checklist, e o painel lê o mesmo objeto.
   familia?: string;
+  hierarquia?: string;
   originalOwner?: string;
   pastOwners?: string[];
   nomeAntigo?: string;

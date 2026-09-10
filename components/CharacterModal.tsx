@@ -1178,6 +1178,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             </div>
                                         )}
 
+                                        {inv.hierarquia && (
+                                          <p className="text-[11px] uppercase tracking-widest text-tech-accent/80 mt-1">{inv.hierarquia}</p>
+                                        )}
+
                                         {(inv.familia || inv.nature || inv.village) && (
                                           <div className="flex gap-6 flex-wrap mt-4">
                                             {inv.familia && (

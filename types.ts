@@ -119,6 +119,11 @@ export interface Invocacao {
    * falta de dado. Catálogo em data/familias-de-invocacao.ts.
    */
   familia?: string;
+  /**
+   * O posto da criatura dentro do povo dela — "Mestre dos Fungos Espirituais", "General das
+   * Presas". É título, não descrição: cabe numa linha embaixo do nome.
+   */
+  hierarquia?: string;
   habilidades?: string[];
   habilidadeSuprema?: string;
 }
@@ -179,6 +184,7 @@ export interface ChecklistItem {
   nomeAntigo?: string;
   descricao?: string;
   familia?: string;
+  hierarquia?: string;
   habilidades?: string[];
   habilidadeSuprema?: string;
   personagens?: string[];

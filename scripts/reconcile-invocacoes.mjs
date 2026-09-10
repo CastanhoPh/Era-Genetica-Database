@@ -66,6 +66,7 @@ for (const i of arte) {
     ...(i.pastOwners?.length ? { pastOwners: i.pastOwners } : {}),
     ...(i.nomeAntigo ? { nomeAntigo: i.nomeAntigo } : {}),
     ...(i.familia ? { familia: i.familia } : {}),
+    ...(i.hierarquia ? { hierarquia: i.hierarquia } : {}),
     ...(i.descricao ? { descricao: i.descricao } : {}),
     ...(i.habilidades?.length ? { habilidades: i.habilidades } : {}),
     ...(i.habilidadeSuprema ? { habilidadeSuprema: i.habilidadeSuprema } : {}),
@@ -85,7 +86,7 @@ for (const i of arte) {
 // ---- compara conteúdo, não ordem de serialização ----
 const chave = lista => JSON.stringify((lista || []).map(x => [x.nome, x.capaUrl ?? '', x.arteUrl ?? '', x.rank ?? '', x.nature ?? '', x.village ?? '', !!x.placeholder,
   x.originalOwner ?? '', (x.pastOwners ?? []).join('|'), x.nomeAntigo ?? '',
-  x.familia ?? '', x.descricao ?? '', (x.habilidades ?? []).join('|'),
+  x.familia ?? '', x.hierarquia ?? '', x.descricao ?? '', (x.habilidades ?? []).join('|'),
   x.habilidadeSuprema ?? '']));
 
 const mudam = [];
