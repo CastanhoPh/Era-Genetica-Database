@@ -433,7 +433,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
 
             <div className="flex flex-col lg:flex-row">
               {/* ---------------- a arte ---------------- */}
-              <div className="lg:w-[52%] border-b lg:border-b-0 lg:border-r border-tech-border bg-tech-panel/20 shrink-0">
+              <div className="lg:w-[44%] border-b lg:border-b-0 lg:border-r border-tech-border bg-tech-panel/20 shrink-0">
                 <div className="p-2 border-b border-tech-border text-[10px] flex justify-between text-tech-primary/50">
                   <span>IMG_DATA_BLOCK_01</span>
                   <span>{idxAberta + 1} / {filtradas.length}</span>
@@ -454,10 +454,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                     </div>
                   )}
                 </div>
-              </div>
-
-              {/* ---------------- os dados ---------------- */}
-              <div className="flex-1 p-5 flex flex-col gap-5 min-w-0">
+                <div className="p-5 flex flex-col gap-4 border-t border-tech-border/50">
                 <div>
                   <div className="flex items-baseline gap-3 flex-wrap">
                     <h3 className="text-2xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
@@ -541,9 +538,13 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                     )}
                   </div>
                 )}
+                </div>
+              </div>
 
+              {/* ---------------- os dados ---------------- */}
+              <div className="flex-1 p-5 flex flex-col gap-5 min-w-0">
                 {aberta.descricao && (
-                  <div className="border-t border-tech-border/50 pt-4 flex flex-col gap-1.5">
+                  <div className="flex flex-col gap-1.5">
                     <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Descrição</span>
                     <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-line">{aberta.descricao}</p>
                   </div>
