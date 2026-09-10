@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
-import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History, PawPrint, Link2, Check } from 'lucide-react';
+import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History, PawPrint } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
 import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
 import { formatImageUrl } from '../utils/formatters';
 import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
 import BotaoDeCores, { useCapasColoridas } from '../components/BotaoDeCores';
+import BotaoDeLink from '../components/BotaoDeLink';
 import { FAMILIAS_DE_INVOCACAO } from '../data/familias-de-invocacao';
 
 /**
@@ -28,7 +29,6 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const [loading, setLoading] = useState(true);
   const [erro, setErro] = useState<string | null>(null);
   const [colorido, setColorido] = useCapasColoridas();
-  const [linkCopiado, setLinkCopiado] = useState(false);
 
   // Os filtros vivem na URL, não no estado: é o que faz o link chegar no amigo com a tela que o
   // Pedro estava vendo. Ausente = o padrão, então /invocacoes limpo continua sendo "tudo".
@@ -161,12 +161,6 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
     setParams(p);
   };
 
-  /** O link que o botão copia é a URL inteira: caminho, filtros e a invocação aberta, se houver. */
-  const copiaLink = () => {
-    navigator.clipboard.writeText(window.location.href);
-    setLinkCopiado(true);
-    setTimeout(() => setLinkCopiado(false), 2000);
-  };
   /** Quantas invocações cada vila tem, para o chip poder dizer que não existe nenhuma. */
   const porVila = useMemo(() => {
     const m: Record<string, number> = {};
@@ -255,16 +249,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
 
             <div className="flex gap-4 w-full md:w-auto">
               <BotaoDeCores colorido={colorido} onToggle={() => setColorido(v => !v)} oQue="as artes" />
-              <button
-                type="button"
-                onClick={copiaLink}
-                title="Copiar o link desta tela, com os filtros ativos"
-                className={`h-10 w-10 shrink-0 border flex items-center justify-center transition-all clip-corner-sm ${linkCopiado
-                  ? 'border-tech-primary text-black bg-tech-primary'
-                  : 'border-tech-border text-tech-dim hover:text-tech-primary hover:border-tech-primary'}`}
-              >
-                {linkCopiado ? <Check size={15} /> : <Link2 size={15} />}
-              </button>
+              <BotaoDeLink oQue="das invocações" />
               <div className="flex-1 md:w-80 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
                 <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
                 <input

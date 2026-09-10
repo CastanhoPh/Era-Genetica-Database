@@ -1,9 +1,11 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Search, Database, ChevronDown, Shield, Terminal, AlertTriangle, Loader, Plus } from 'lucide-react';
 import { Equipment } from '../types/Equipment';
 import { CLASSIFICATION_PRIORITY } from '../types';
 import ArsenalCard from '../components/ArsenalCard';
 import BotaoDeCores, { useCapasColoridas } from '../components/BotaoDeCores';
+import BotaoDeLink from '../components/BotaoDeLink';
 
 interface ArsenalProps {
   arsenalItems: Equipment[];
@@ -18,10 +20,25 @@ interface ArsenalProps {
 
 const Arsenal: React.FC<ArsenalProps> = ({ arsenalItems, loading, onOpenItem, isAdmin, onAddNew, selectedOrigin, onSelectOrigin }) => {
   const arsenalData = arsenalItems;
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedClassification, setSelectedClassification] = useState('Todos');
-  const [selectedNature, setSelectedNature] = useState('Todos');
-  const [sortBy, setSortBy] = useState('id');
+  // Os três filtros locais vivem na URL, para o link levar a tela. A ORIGEM não entra aqui: ela
+  // vem por prop do App e já mora no caminho, /arsenal/<origem>.
+  const [params, setParams] = useSearchParams();
+  const leia = (chave: string, padrao: string) => params.get(chave) ?? padrao;
+  const escreva = (chave: string, valor: string, padrao: string, substitui = false) => {
+    const p = new URLSearchParams(params);
+    if (valor === padrao) p.delete(chave); else p.set(chave, valor);
+    setParams(p, { replace: substitui });
+  };
+
+  const selectedClassification = leia('classificacao', 'Todos');
+  const setSelectedClassification = (v: string) => escreva('classificacao', v, 'Todos');
+  const selectedNature = leia('natureza', 'Todos');
+  const setSelectedNature = (v: string) => escreva('natureza', v, 'Todos');
+  const sortBy = leia('ordem', 'id');
+  const setSortBy = (v: string) => escreva('ordem', v, 'id');
+  // `replace` na busca, mesmo motivo das outras telas: não empilhar uma entrada por tecla.
+  const searchTerm = leia('busca', '');
+  const setSearchTerm = (v: string) => escreva('busca', v, '', true);
   const [colorido, setColorido] = useCapasColoridas();
 
   // a tabela vive em types.ts, compartilhada com o anel de chakra do CharacterModal
@@ -158,6 +175,7 @@ const Arsenal: React.FC<ArsenalProps> = ({ arsenalItems, loading, onOpenItem, is
 
           <div className="flex gap-4 w-full md:w-auto">
             <BotaoDeCores colorido={colorido} onToggle={() => setColorido(v => !v)} oQue="as artes" />
+            <BotaoDeLink oQue="do arsenal" />
             <div className="flex-1 md:w-80 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
               <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
               <input

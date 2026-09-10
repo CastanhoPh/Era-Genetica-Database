@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, Sparkles, Hourglass } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
 import { carregaPersonagens, carregaArsenal, fonteEstatica } from './data/dados-publicos';
@@ -11,6 +11,7 @@ import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 import { casaLendaria } from './data/habilidades-lendarias';
 import BotaoDeCores, { useCapasColoridas, filtroDaCapa } from './components/BotaoDeCores';
+import BotaoDeLink from './components/BotaoDeLink';
 import { ERAS_DE_KONOHA } from './data/eras-de-konoha';
 
 // Carregados sob demanda: reduzem o bundle inicial, já que só entram em cena
@@ -156,17 +157,40 @@ export default function App() {
     const [showAddEquipment, setShowAddEquipment] = useState(false);
     const [editingEquipment, setEditingEquipment] = useState<Equipment | null>(null);
     const { user, isAdmin, isChecklistEditor, authReady, login, logout } = useAuth();
-    const [searchTerm, setSearchTerm] = useState('');
     // Chave = id+URL da imagem (não só o id), pra que uma correção de URL feita no Painel
     // "esqueça" o erro antigo automaticamente, sem precisar de F5.
     const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({});
 
     // Advanced Filters State
-    const [selectedClan, setSelectedClan] = useState('Todos');
-    const [selectedRole, setSelectedRole] = useState('Todos');
-    const [selectedEra, setSelectedEra] = useState('Todos');
-    const [selectedPosition, setSelectedPosition] = useState('Todos');
-    const [sortBy, setSortBy] = useState('id');
+    /**
+     * Os filtros da grade vivem na URL, não no estado — é o que faz o link chegar no outro com a
+     * tela que você estava vendo. Chave ausente = o padrão, então /characters limpo continua
+     * significando "tudo" e a URL só cresce com o que foi de fato escolhido.
+     *
+     * CATEGORIA fica de fora de propósito: ela já mora no caminho, /characters/<categoria>, com
+     * sincronia própria. Mesma coisa da ORIGEM no /arsenal/<origem>.
+     */
+    const [params, setParams] = useSearchParams();
+    const leiaFiltro = (chave: string, padrao: string) => params.get(chave) ?? padrao;
+    const escreveFiltro = (chave: string, valor: string, padrao: string, substitui = false) => {
+        const p = new URLSearchParams(params);
+        if (valor === padrao) p.delete(chave); else p.set(chave, valor);
+        setParams(p, { replace: substitui });
+    };
+
+    const selectedClan = leiaFiltro('cla', 'Todos');
+    const setSelectedClan = (v: string) => escreveFiltro('cla', v, 'Todos');
+    const selectedRole = leiaFiltro('funcao', 'Todos');
+    const setSelectedRole = (v: string) => escreveFiltro('funcao', v, 'Todos');
+    const selectedEra = leiaFiltro('era', 'Todos');
+    const setSelectedEra = (v: string) => escreveFiltro('era', v, 'Todos');
+    const selectedPosition = leiaFiltro('posto', 'Todos');
+    const setSelectedPosition = (v: string) => escreveFiltro('posto', v, 'Todos');
+    const sortBy = leiaFiltro('ordem', 'id');
+    const setSortBy = (v: string) => escreveFiltro('ordem', v, 'id');
+    // `replace` na busca: sem isso cada tecla empilha uma entrada e o voltar vira desfazer-letra.
+    const searchTerm = leiaFiltro('busca', '');
+    const setSearchTerm = (v: string) => escreveFiltro('busca', v, '', true);
 
     // NoGuns e Kiba entraram em 01/09/2026: as duas tags já existiam em `categories` (7 e 5 fichas)
     // mas não tinham aba, então não havia como filtrar por elas.
@@ -318,19 +342,30 @@ export default function App() {
     // Path da aba atual, incluindo o filtro ativo (categoria/origem) quando houver —
     // usado sempre que navegamos "de volta" pra aba sem trocar o filtro selecionado.
     const mainTabPath = (tab: Exclude<MainTab, 'login'>) => {
-        if (tab === 'characters' && selectedCategory !== 'Todos') return `/characters/${slugify(selectedCategory)}`;
-        if (tab === 'arsenal' && selectedOrigin !== 'Todos') return `/arsenal/${slugify(selectedOrigin)}`;
-        return `/${tab}`;
+        const caminho = tab === 'characters' && selectedCategory !== 'Todos' ? `/characters/${slugify(selectedCategory)}`
+            : tab === 'arsenal' && selectedOrigin !== 'Todos' ? `/arsenal/${slugify(selectedOrigin)}`
+                : `/${tab}`;
+        // Volta para a MESMA aba (fechar ficha, cancelar edição): a query vai junto, senão fechar
+        // uma ficha zeraria os filtros. Troca DE aba não leva — o Arsenal usa as mesmas chaves
+        // `ordem` e `busca` que o Personagens, e a busca de um vazaria para o outro.
+        const q = tab === activeMainTab ? params.toString() : '';
+        return q ? `${caminho}?${q}` : caminho;
     };
 
+    // A query vai junto: trocar de categoria não é limpar filtro. Antes eles eram estado e
+    // sobreviviam; sem isso, escolher "Konohagakure" apagaria clã, função, era, posto e busca.
     const handleSelectCategory = (category: string) => {
         setSelectedCategory(category);
-        navigate(category === 'Todos' ? '/characters' : `/characters/${slugify(category)}`);
+        const q = params.toString();
+        const base = category === 'Todos' ? '/characters' : `/characters/${slugify(category)}`;
+        navigate(q ? `${base}?${q}` : base);
     };
 
     const handleSelectOrigin = (origin: string) => {
         setSelectedOrigin(origin);
-        navigate(origin === 'Todos' ? '/arsenal' : `/arsenal/${slugify(origin)}`);
+        const q = params.toString();
+        const base = origin === 'Todos' ? '/arsenal' : `/arsenal/${slugify(origin)}`;
+        navigate(q ? `${base}?${q}` : base);
     };
 
 
@@ -420,10 +455,14 @@ export default function App() {
     // Uma escolha pode deixar de existir no escopo novo — clã Sabaku com Konohagakure selecionada,
     // por exemplo. Sem isto o seletor ficaria mostrando um valor fora da lista e a grade viria
     // vazia, sem o usuário ter como voltar a não ser limpando tudo.
-    useEffect(() => { if (selectedClan !== 'Todos' && !uniqueClans.includes(selectedClan)) setSelectedClan('Todos'); }, [uniqueClans, selectedClan]);
-    useEffect(() => { if (selectedPosition !== 'Todos' && !uniquePositions.includes(selectedPosition)) setSelectedPosition('Todos'); }, [uniquePositions, selectedPosition]);
-    useEffect(() => { if (selectedRole !== 'Todos' && !roleOptions.includes(selectedRole)) setSelectedRole('Todos'); }, [roleOptions, selectedRole]);
-    useEffect(() => { if (selectedEra !== 'Todos' && !eraOptions.includes(selectedEra as never)) setSelectedEra('Todos'); }, [eraOptions, selectedEra]);
+    // `replace`: corrigir um filtro fora de escopo não é uma navegação do usuário.
+    useEffect(() => { if (selectedClan !== 'Todos' && !uniqueClans.includes(selectedClan)) escreveFiltro('cla', 'Todos', 'Todos', true); }, [uniqueClans, selectedClan]);
+    // `replace`: corrigir um filtro fora de escopo não é uma navegação do usuário.
+    useEffect(() => { if (selectedPosition !== 'Todos' && !uniquePositions.includes(selectedPosition)) escreveFiltro('posto', 'Todos', 'Todos', true); }, [uniquePositions, selectedPosition]);
+    // `replace`: corrigir um filtro fora de escopo não é uma navegação do usuário.
+    useEffect(() => { if (selectedRole !== 'Todos' && !roleOptions.includes(selectedRole)) escreveFiltro('funcao', 'Todos', 'Todos', true); }, [roleOptions, selectedRole]);
+    // `replace`: corrigir um filtro fora de escopo não é uma navegação do usuário.
+    useEffect(() => { if (selectedEra !== 'Todos' && !eraOptions.includes(selectedEra as never)) escreveFiltro('era', 'Todos', 'Todos', true); }, [eraOptions, selectedEra]);
 
     const filteredCharacters = useMemo(() => {
         const filtered = escopo(null);
@@ -494,31 +533,21 @@ export default function App() {
     };
 
     // Filtros a partir da ficha (clã / tag clicáveis)
+    // Um navigate só, com a query montada na mão: chamar os cinco setters em sequência seriam
+    // cinco navegações, e as quatro últimas leriam um `params` já vencido.
     const handleFilterClan = (clan: string) => {
-        navigate('/characters');
-        setSearchTerm(''); setSelectedCategory('Todos'); setSelectedRole('Todos');
-        setSelectedEra('Todos'); setSelectedPosition('Todos'); setSelectedClan(clan);
+        navigate(`/characters?cla=${encodeURIComponent(clan)}`);
     };
     const handleFilterTag = (tag: string) => {
         navigate(tag === 'Todos' ? '/characters' : `/characters/${slugify(tag)}`);
-        setSearchTerm(''); setSelectedClan('Todos'); setSelectedRole('Todos');
-        setSelectedEra('Todos'); setSelectedPosition('Todos'); setSelectedCategory(tag);
     };
 
     const handleImageError = (id: number, image: string) => {
         setImgErrors(prev => ({ ...prev, [`${id}:${image}`]: true }));
     };
 
-    const resetFilters = () => {
-        navigate('/characters');
-        setSelectedCategory('Todos');
-        setSearchTerm('');
-        setSelectedClan('Todos');
-        setSelectedRole('Todos');
-        setSelectedEra('Todos');
-        setSelectedPosition('Todos');
-        setSortBy('id');
-    };
+    /** Caminho e query limpos de uma vez — inclui a categoria, que mora no caminho. */
+    const resetFilters = () => navigate('/characters');
 
     if (!loadError && (loading || !splashDone)) {
         return (
@@ -784,6 +813,7 @@ export default function App() {
                                         linha de filtros, porque aquela linha é uma grade de cinco e um sexto
                                         item quebraria a coluna. */}
                                     <BotaoDeCores colorido={capasColoridas} onToggle={() => setCapasColoridas(v => !v)} />
+                                    <BotaoDeLink oQue="desta lista" />
                                     <div className="flex-1 md:w-64 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
                                         <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
                                         <input
