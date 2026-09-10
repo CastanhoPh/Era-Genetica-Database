@@ -7,7 +7,7 @@ import {
   ChevronRight, ChevronLeft, ChevronDown, Globe, Share2, Pencil, Trash2, Palette, ScanLine, Sparkles,
   Hexagon, History
 } from 'lucide-react';
-import { Character, EVENT_SEASONS } from '../types';
+import { Character, EVENT_SEASONS, CLASSIFICATION_PRIORITY } from '../types';
 import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
@@ -220,7 +220,15 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
   // As invocações vêm desnormalizadas na ficha (`invocacoes`), não do checklist: a ficha é pública
   // e não pode ler as 741 linhas do imageChecklist para achar as suas. A ordem gravada é a das
   // páginas do Canva, então nada de reordenar aqui.
-  const characterInvocacoes = char.invocacoes || [];
+  /**
+   * Do rank mais alto para o mais baixo, com a mesma tabela do arsenal e da aba Invocações.
+   * `sort` é estável, então dentro do mesmo rank fica valendo a ordem das páginas do Canva.
+   */
+  const porRank = (lista: NonNullable<Character['invocacoes']>) => [...lista].sort(
+    (a, b) => (CLASSIFICATION_PRIORITY[b.rank ?? ''] ?? -1) - (CLASSIFICATION_PRIORITY[a.rank ?? ''] ?? -1),
+  );
+
+  const characterInvocacoes = porRank(char.invocacoes || []);
 
   // Invocações que ESTA pessoa já invocou: aparece como invocador original ou antigo numa invocação
   // que hoje é de outro. Mesma regra do arsenal, e o mesmo cuidado de não duplicar quem já está na
@@ -229,7 +237,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
     const meu = char.name.trim().toLowerCase();
     const jaTem = new Set(characterInvocacoes.map(i => i.nome));
     const vistas = new Set<string>();
-    return characters
+    const achadas = characters
       .flatMap(c => c.invocacoes ?? [])
       .filter(inv => {
         if (jaTem.has(inv.nome) || vistas.has(inv.nome)) return false;
@@ -239,6 +247,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
         vistas.add(inv.nome);
         return true;
       });
+    return porRank(achadas);
   })();
 
   /** As duas seções numa lista só, para a rota abrir qualquer uma por um índice único. */
