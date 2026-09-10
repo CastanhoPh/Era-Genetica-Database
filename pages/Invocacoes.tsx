@@ -9,6 +9,7 @@ import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
 import BotaoDeCores, { useCapasColoridas } from '../components/BotaoDeCores';
 import BotaoDeLink from '../components/BotaoDeLink';
 import { FAMILIAS_DE_INVOCACAO } from '../data/familias-de-invocacao';
+import { classificationColors } from '../types/Equipment';
 
 /**
  * Os chips são fixos, não derivados dos dados: uma vila sem invocação tem que aparecer e dizer que
@@ -16,6 +17,13 @@ import { FAMILIAS_DE_INVOCACAO } from '../data/familias-de-invocacao';
  * outras telas, com a OCA no fim porque ela não é vila.
  */
 const VILAS = ['Konohagakure', 'Kirigakure', 'Sunagakure', 'Iwagakure', 'Kumogakure', 'OCA'] as const;
+
+/**
+ * A cor do rank e o unico acento cromatico que varia de invocacao para invocacao — Z vermelho,
+ * S++ laranja, S+ ambar, S amarelo. As 100 tem rank, mas o fallback existe porque o campo e
+ * opcional no tipo.
+ */
+const corDoRank = (rank?: string) => classificationColors[rank ?? ''] ?? classificationColors['F'];
 
 interface InvocacoesProps {
   characters: Character[];
@@ -200,6 +208,10 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   /** Ficha do dono, quando existe: o vínculo é pelo primeiro nome, como no reconciliador. */
   const fichaDo = (primeiro: string) => characters.find(c => c.name.split(' ')[0] === primeiro);
   const fichaAberta = aberta ? fichaDo(aberta.dono) : undefined;
+
+  // 35 das 100 nao tem descricao nem habilidade. Sem isso o card abriria largo com a coluna da
+  // direita vazia, que e o mesmo defeito do buraco preto, so do outro lado.
+  const temTexto = !!(aberta && (aberta.descricao || (aberta.habilidades ?? []).length || aberta.habilidadeSuprema));
   const pendentes = invocacoes.filter(i => i.placeholder).length;
 
   return (
@@ -424,60 +436,73 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
               </button>
             </>
           )}
+          {/* Sem descricao e sem habilidade — um terco delas — a direita nao teria nada, entao o
+              card e uma coluna so, do tamanho do poster. Card largo com metade vazia e o mesmo
+              defeito de antes, do outro lado. */}
           <div
-            className="max-w-6xl w-full max-h-[92vh] lg:h-[88vh] overflow-y-auto lg:overflow-hidden scrollbar-custom bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_40px_-10px_rgba(0,255,65,0.25)] clip-corner relative flex flex-col"
+            className={`w-full max-h-[90vh] bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_60px_-15px_rgba(0,255,65,0.3)] clip-corner relative flex flex-col ${temTexto ? 'max-w-6xl' : 'max-w-md'}`}
             onClick={e => e.stopPropagation()}
           >
-            <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-primary z-30 pointer-events-none" />
-            <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-primary z-30 pointer-events-none" />
+            <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-primary z-40 pointer-events-none" />
+            <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-primary z-40 pointer-events-none" />
 
-            <div className="flex flex-col lg:flex-row flex-1 min-h-0">
-              {/* ================= a arte e a placa de identidade ================= */}
-              <div className="lg:w-[42%] shrink-0 flex flex-col min-h-0 border-b lg:border-b-0 lg:border-r border-tech-border bg-tech-panel/20">
-                <div className="p-2 border-b border-tech-border text-[10px] flex justify-between text-tech-primary/50 shrink-0">
-                  <span>IMG_DATA_BLOCK_01</span>
-                  <span>{idxAberta + 1} / {filtradas.length}</span>
-                </div>
+            {/* a faixa fica FORA da area que rola: o contador nao sai da tela */}
+            <div className="shrink-0 border-b border-tech-border bg-tech-panel/40 pl-6 pr-4 py-2 flex items-center justify-between gap-3 text-[10px] tracking-[0.16em] text-tech-primary/50">
+              <span className="flex items-center gap-2 min-w-0">
+                <Database size={10} className="shrink-0" />
+                <span className="truncate">IMG_DATA_BLOCK_01{aberta.familia ? ` · ${aberta.familia.toUpperCase()}` : ''}</span>
+              </span>
+              <span className="shrink-0">{String(idxAberta + 1).padStart(3, '0')} / {filtradas.length}</span>
+            </div>
 
-                {/* A arte ABSORVE a sobra de altura (`flex-1`), que e o que mata o buraco preto
-                    embaixo da placa. `contain` porque a arte e 4:3 e recortar jogaria fora
-                    desenho. No mobile a coluna nao tem altura para distribuir, entao volta a ser
-                    uma caixa 4:3. */}
-                <div className="relative aspect-[4/3] lg:aspect-auto lg:flex-1 lg:min-h-0 bg-black overflow-hidden">
-                  <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.08)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none z-20" />
-                  <div className="absolute top-0 left-0 w-full h-1 bg-tech-primary/50 shadow-[0_0_10px_#00ff41] animate-[scanline_3s_linear_infinite] pointer-events-none z-30 opacity-50" />
-                  <div className="absolute top-3 left-3 w-4 h-4 border-t-2 border-l-2 border-tech-primary z-20 opacity-60" />
-                  <div className="absolute bottom-3 right-3 w-4 h-4 border-b-2 border-r-2 border-tech-primary z-20 opacity-60" />
-                  {aberta.arteUrl && !aberta.placeholder ? (
-                    <img src={formatImageUrl(aberta.arteUrl)} alt={aberta.nome} className="absolute inset-0 w-full h-full object-contain" />
-                  ) : (
-                    <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
-                      <Sparkles size={32} className="text-tech-primary/15" />
-                      <span className="text-[10px] uppercase tracking-widest text-tech-primary/30">a arte desta invocação ainda não foi feita</span>
-                    </div>
-                  )}
-                </div>
+            {/* É ESTE div que rola, e a coluna da esquerda e `sticky` dentro dele. Sticky nao
+                estica, e `items-start` impede que qualquer coluna seja alongada — que era a raiz
+                do problema: a coluna esticava, a arte esticava com ela, e o `object-contain`
+                preenchia a diferenca com as faixas pretas. Agora o quadro da arte TEM 4:3 e a
+                imagem cobre: nao existe diferenca para preencher. */}
+            <div className="flex-1 min-h-0 overflow-y-auto">
+              <div className="flex flex-col lg:flex-row lg:items-start">
+                <div className={`p-5 flex flex-col gap-3 ${temTexto ? 'lg:w-[430px] shrink-0 lg:sticky lg:top-0 lg:pr-6' : 'w-full'}`}>
 
-                {/* ---------------- a placa ---------------- */}
-                <div className="shrink-0 border-t border-tech-border bg-black/40">
-                  <div className="px-4 pt-3 pb-2.5">
-                    <div className="flex items-baseline gap-2.5 flex-wrap">
-                      <h3 className="text-xl font-black text-white uppercase tracking-wide leading-none">{aberta.nome}</h3>
-                      {aberta.rank && (
-                        <span className="bg-tech-accent text-black text-[10px] font-black px-2 py-0.5 clip-corner-sm leading-none">{aberta.rank}</span>
+                  {/* ---------- o poster: a arte e a placa do nome num quadro so ---------- */}
+                  <div className="border border-tech-border bg-black">
+                    <div className="relative aspect-[4/3] overflow-hidden">
+                      <div className="absolute inset-0 z-10 bg-[linear-gradient(transparent_2px,rgba(0,0,0,0.45)_3px)] bg-[size:100%_4px] pointer-events-none opacity-20" />
+                      <div className="absolute top-0 left-0 w-full h-px bg-tech-primary/60 shadow-[0_0_10px_#00ff41] animate-[scanline_4s_linear_infinite] pointer-events-none z-20 opacity-60" />
+                      <div className="absolute top-2.5 left-2.5 w-4 h-4 border-t border-l border-tech-primary/60 z-20" />
+                      <div className="absolute top-2.5 right-2.5 w-4 h-4 border-t border-r border-tech-primary/60 z-20" />
+                      <div className="absolute bottom-2.5 left-2.5 w-4 h-4 border-b border-l border-tech-primary/60 z-20" />
+                      <div className="absolute bottom-2.5 right-2.5 w-4 h-4 border-b border-r border-tech-primary/60 z-20" />
+                      {aberta.arteUrl && !aberta.placeholder ? (
+                        // 4:3 no quadro e 4:3 na pagina do Canva: `cover` preenche exato, sem
+                        // faixa preta e sem recortar desenho.
+                        <img src={formatImageUrl(aberta.arteUrl)} alt={aberta.nome} className="w-full h-full object-cover" />
+                      ) : (
+                        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-striped-pattern opacity-50">
+                          <Sparkles size={36} className="text-tech-dim animate-pulse" />
+                          <span className="text-[9px] uppercase tracking-[0.2em] text-tech-primary/30">arte pendente</span>
+                        </div>
                       )}
                     </div>
-                    {aberta.hierarquia && (
-                      <p className="text-[10px] uppercase tracking-[0.18em] text-tech-accent/80 mt-1.5">{aberta.hierarquia}</p>
-                    )}
-                    {aberta.nomeAntigo && (
-                      <p className="text-[11px] text-slate-400 mt-1">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">antes chamado de</span>{' '}
-                        {aberta.nomeAntigo}
-                      </p>
-                    )}
+
+                    <div className="border-t border-tech-border bg-tech-panel/60 px-4 py-3 flex items-start gap-3">
+                      <span className={`w-1 self-stretch shrink-0 ${corDoRank(aberta.rank).bg}`} />
+                      <div className="min-w-0 flex-1">
+                        <h3 className="text-[22px] leading-none font-black text-white uppercase tracking-wide truncate">{aberta.nome}</h3>
+                        {aberta.hierarquia && (
+                          <p className="text-[10px] uppercase tracking-[0.18em] text-tech-accent/90 mt-2">{aberta.hierarquia}</p>
+                        )}
+                        {aberta.nomeAntigo && (
+                          <p className="text-[10px] uppercase tracking-[0.14em] text-tech-primary/40 mt-2">antes chamado de {aberta.nomeAntigo}</p>
+                        )}
+                      </div>
+                      {aberta.rank && (
+                        <span className={`shrink-0 text-black text-[11px] font-black px-2.5 py-1 leading-none clip-corner-sm ${corDoRank(aberta.rank).bg}`}>{aberta.rank}</span>
+                      )}
+                    </div>
                   </div>
 
+                  {/* ---------- a ficha tecnica ---------- */}
                   {/* A REGRA DE POSSE (Pedro, 10/09/2026): Atual, Passados, Original — e invocador
                       atual MORTO mostra "sem invocador", mas o morto desce para Passados, no fim
                       da lista, porque e o mais recente de quem ja invocou. Atinge 16 das 100. */}
@@ -490,7 +515,9 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                     // original e o atual mostraria a mesma pessoa duas vezes.
                     const mostraOriginal = aberta.originalOwner && aberta.originalOwner !== nomeAtual;
 
-                    const linhas: { rotulo: string; cor: string; valor: React.ReactNode }[] = [
+                    type Celula = { rotulo: string; cor: string; valor: React.ReactNode };
+
+                    const invocadores: Celula[] = [
                       {
                         rotulo: 'Invocador Atual',
                         cor: 'text-tech-primary/60',
@@ -514,53 +541,84 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                         cor: 'text-sky-400/80',
                         valor: <span className="text-sky-300">{aberta.originalOwner}</span>,
                       }] : []),
-                      ...(aberta.familia ? [{ rotulo: 'Família', cor: 'text-tech-primary/60', valor: aberta.familia }] : []),
-                      ...(aberta.nature ? [{ rotulo: 'Natureza', cor: 'text-tech-primary/60', valor: aberta.nature }] : []),
-                      ...(aberta.village ? [{ rotulo: 'Vila', cor: 'text-tech-primary/60', valor: aberta.village }] : []),
                     ];
 
-                    return (
-                      <div className="grid grid-cols-2 gap-px bg-tech-border/40 border-t border-tech-border/40">
-                        {linhas.map((l, k) => (
-                          <div
-                            key={l.rotulo}
-                            // celula impar no fim ocupa as duas colunas, para nao sobrar meio
-                            // quadro vazio na ponta da grade
-                            className={`bg-tech-bg px-4 py-2.5 flex flex-col gap-1 min-w-0 ${k === linhas.length - 1 && linhas.length % 2 === 1 ? 'col-span-2' : ''}`}
-                          >
-                            <span className={`text-[9px] uppercase tracking-[0.16em] ${l.cor}`}>{l.rotulo}</span>
-                            <span className="text-[13px] text-slate-200 leading-snug break-words">{l.valor}</span>
+                    const dados: Celula[] = [
+                      ...(aberta.familia ? [{ rotulo: 'Família', cor: 'text-tech-primary/50', valor: aberta.familia }] : []),
+                      ...(aberta.nature ? [{ rotulo: 'Natureza', cor: 'text-tech-primary/50', valor: aberta.nature }] : []),
+                      ...(aberta.village ? [{ rotulo: 'Vila', cor: 'text-tech-primary/50', valor: aberta.village }] : []),
+                    ];
+
+                    // O Tailwind le o codigo como texto: a classe tem que estar escrita, nao
+                    // montada por interpolacao.
+                    const colunas = ['', 'grid-cols-1', 'grid-cols-2', 'grid-cols-3'];
+                    const grade = (itens: Celula[]) => (
+                      <div className={`grid gap-px bg-tech-border/60 border border-tech-border/60 ${colunas[itens.length]}`}>
+                        {itens.map(c => (
+                          // o rotulo CRESCE dentro da celula, entao os valores alinham na base
+                          // mesmo quando um rotulo quebra em duas linhas e o outro nao
+                          <div key={c.rotulo} className="bg-tech-panel/40 px-3 py-2.5 flex flex-col gap-1.5 min-w-0">
+                            <span className={`text-[9px] uppercase tracking-[0.16em] leading-[1.35] grow ${c.cor}`}>{c.rotulo}</span>
+                            <span className="text-[13px] text-slate-200 leading-snug break-words">{c.valor}</span>
                           </div>
                         ))}
                       </div>
                     );
+
+                    return (
+                      <div className="flex flex-col gap-2">
+                        {grade(invocadores)}
+                        {dados.length > 0 && grade(dados)}
+                        {!temTexto && (
+                          <p className="text-[9px] uppercase tracking-[0.18em] text-tech-primary/25 text-center pt-1.5">
+                            descrição e habilidades ainda não escritas
+                          </p>
+                        )}
+                      </div>
+                    );
                   })()}
                 </div>
-              </div>
 
-              {/* ================= descricao e habilidades: e esta coluna que rola ================= */}
-              <div className="flex-1 min-w-0 lg:overflow-y-auto scrollbar-custom p-5 flex flex-col gap-3.5">
-                {aberta.descricao && (
-                  <div className="flex flex-col gap-1.5">
-                    <span className="text-[10px] uppercase tracking-[0.18em] text-tech-primary/60">Descrição</span>
-                    <p className="text-[13.5px] text-slate-300 leading-relaxed whitespace-pre-line">{aberta.descricao}</p>
-                  </div>
-                )}
+                {/* ================= descricao e habilidades ================= */}
+                {temTexto && (
+                  <div className="flex-1 min-w-0 px-5 pb-5 pt-0 lg:pt-5 lg:pl-0 flex flex-col gap-4">
+                    {aberta.descricao && (
+                      <div className="flex flex-col gap-2">
+                        <span className="text-[9px] uppercase tracking-[0.22em] text-tech-primary/50">Descrição</span>
+                        <p className="text-[14px] text-slate-300 leading-[1.75] whitespace-pre-line">{aberta.descricao}</p>
+                      </div>
+                    )}
 
-                {(aberta.habilidades ?? []).map((h, k, todas) => (
-                  <div key={k} className="bg-tech-panel/30 border border-tech-border/50 border-l-2 border-l-tech-primary/60 p-3.5 flex flex-col gap-1.5">
-                    <span className="text-[10px] uppercase tracking-[0.18em] text-tech-primary/70">
-                      Habilidade{todas.length > 1 ? ` ${k + 1}` : ''}
-                    </span>
-                    <p className="text-[13.5px] text-slate-200 leading-relaxed whitespace-pre-line">{h}</p>
-                  </div>
-                ))}
+                    {/* As 131 habilidades do banco vem, todas, como "Nome: texto" — entao o nome
+                        vira titulo do bloco. O limite de 40 caracteres no prefixo e a saida se um
+                        dia entrar uma que nao siga o formato: sem casar, o texto inteiro vai para
+                        o corpo e o titulo cai no numero. O maior prefixo real tem 35. */}
+                    {(aberta.habilidades ?? []).map((h, k) => {
+                      const m = /^([^:]{1,40}):\s+([\s\S]+)$/.exec(h);
+                      return (
+                        <div key={k} className="border border-tech-border/70 bg-tech-panel/25">
+                          <div className="flex items-center gap-2.5 border-b border-tech-border/70 bg-tech-primary/[0.07] px-3.5 py-2">
+                            <span className="text-[10px] font-black text-black bg-tech-primary/70 px-1.5 py-0.5 leading-none">{String(k + 1).padStart(2, '0')}</span>
+                            <span className="text-[12px] uppercase tracking-[0.14em] text-tech-primary truncate">{m ? m[1] : `Habilidade ${k + 1}`}</span>
+                          </div>
+                          <p className="px-3.5 py-3 text-[13.5px] text-slate-300 leading-[1.7] whitespace-pre-line">{m ? m[2] : h}</p>
+                        </div>
+                      );
+                    })}
 
-                {/* A Suprema e uma so por invocacao, e o ambar e o que diz isso. */}
-                {aberta.habilidadeSuprema && (
-                  <div className="bg-tech-accent/[0.06] border border-tech-accent/25 border-l-2 border-l-tech-accent p-3.5 flex flex-col gap-1.5">
-                    <span className="text-[10px] uppercase tracking-[0.18em] text-tech-accent">Habilidade Suprema</span>
-                    <p className="text-[13.5px] text-slate-100 leading-relaxed whitespace-pre-line">{aberta.habilidadeSuprema}</p>
+                    {/* A Suprema e uma so por invocacao, e o ambar e o que diz isso. */}
+                    {aberta.habilidadeSuprema && (() => {
+                      const m = /^([^:]{1,40}):\s+([\s\S]+)$/.exec(aberta.habilidadeSuprema);
+                      return (
+                        <div className="border border-tech-accent/35 bg-tech-accent/[0.05]">
+                          <div className="flex items-center gap-2.5 border-b border-tech-accent/35 bg-tech-accent/[0.12] px-3.5 py-2">
+                            <span className="text-[10px] font-black text-black bg-tech-accent px-1.5 py-0.5 leading-none uppercase tracking-wider">Suprema</span>
+                            {m && <span className="text-[12px] uppercase tracking-[0.14em] text-tech-accent truncate">{m[1]}</span>}
+                          </div>
+                          <p className="px-3.5 py-3 text-[13.5px] text-slate-200 leading-[1.7] whitespace-pre-line">{m ? m[2] : aberta.habilidadeSuprema}</p>
+                        </div>
+                      );
+                    })()}
                   </div>
                 )}
               </div>
