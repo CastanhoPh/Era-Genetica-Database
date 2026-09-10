@@ -114,6 +114,14 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
       && (!termo || i.nome.toLowerCase().includes(termo) || i.dono.toLowerCase().includes(termo)));
     if (ordem === 'alfabetico') return [...lista].sort((a, b) => a.nome.localeCompare(b.nome));
     if (ordem === 'dono') return [...lista].sort((a, b) => a.dono.localeCompare(b.dono) || a.pagina - b.pagina);
+    if (ordem === 'familia') {
+      // ordem canonica do catalogo; quem nao tem familia vai para o fim
+      const pos = (f?: string) => {
+        const k = FAMILIAS_DE_INVOCACAO.indexOf(f as never);
+        return k < 0 ? FAMILIAS_DE_INVOCACAO.length : k;
+      };
+      return [...lista].sort((a, b) => pos(a.familia) - pos(b.familia) || a.pagina - b.pagina);
+    }
     if (ordem === 'rank') {
       return [...lista].sort((a, b) =>
         (CLASSIFICATION_PRIORITY[b.rank ?? ''] ?? -1) - (CLASSIFICATION_PRIORITY[a.rank ?? ''] ?? -1)
@@ -312,6 +320,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                   <option value="dono" className="bg-black">DONO (A-Z)</option>
                   <option value="alfabetico" className="bg-black">ALFABÉTICO (A-Z)</option>
                   {ranks.length > 0 && <option value="rank" className="bg-black">RANK (Z &gt; F)</option>}
+                  {familias.length > 0 && <option value="familia" className="bg-black">FAMÍLIA</option>}
                 </select>
                 <ChevronDown className="absolute right-2 top-2.5 text-tech-accent/60 group-hover:text-tech-accent transition-colors pointer-events-none" size={14} />
               </div>
