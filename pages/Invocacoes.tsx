@@ -70,7 +70,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           pastOwners: i.pastOwners,
           nomeAntigo: i.nomeAntigo,
           descricao: i.descricao,
-          habilidade: i.habilidade,
+          habilidades: i.habilidades,
           habilidadeSuprema: i.habilidadeSuprema,
         };
       });
@@ -466,14 +466,16 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                   </div>
                 )}
 
-                {(aberta.habilidade || aberta.habilidadeSuprema) && (
+                {(aberta.habilidades?.length || aberta.habilidadeSuprema) && (
                   <div className="border-t border-tech-border/50 pt-4 flex flex-col gap-2.5">
-                    {aberta.habilidade && (
-                      <div className="border-l-2 border-tech-primary/50 pl-3 flex flex-col gap-1">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/60">Habilidade</span>
-                        <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">{aberta.habilidade}</p>
+                    {(aberta.habilidades ?? []).map((h, k, todas) => (
+                      <div key={k} className="border-l-2 border-tech-primary/50 pl-3 flex flex-col gap-1">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/60">
+                          Habilidade{todas.length > 1 ? ` ${k + 1}` : ''}
+                        </span>
+                        <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">{h}</p>
                       </div>
-                    )}
+                    ))}
                     {/* A Suprema é uma só por invocação, e ganha o âmbar por isso — o mesmo
                         destaque que o rank usa no card. */}
                     {aberta.habilidadeSuprema && (

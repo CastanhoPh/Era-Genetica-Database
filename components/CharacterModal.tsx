@@ -1202,14 +1202,16 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                           </div>
                                         )}
 
-                                        {(inv.habilidade || inv.habilidadeSuprema) && (
+                                        {(inv.habilidades?.length || inv.habilidadeSuprema) && (
                                           <div className="mt-4 flex flex-col gap-2.5">
-                                            {inv.habilidade && (
-                                              <div className="border-l-2 border-tech-primary/50 pl-3 flex flex-col gap-1">
-                                                <span className="text-[10px] uppercase tracking-widest text-tech-primary/60">Habilidade</span>
-                                                <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">{inv.habilidade}</p>
+                                            {(inv.habilidades ?? []).map((h, k, todas) => (
+                                              <div key={k} className="border-l-2 border-tech-primary/50 pl-3 flex flex-col gap-1">
+                                                <span className="text-[10px] uppercase tracking-widest text-tech-primary/60">
+                                                  Habilidade{todas.length > 1 ? ` ${k + 1}` : ''}
+                                                </span>
+                                                <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">{h}</p>
                                               </div>
-                                            )}
+                                            ))}
                                             {/* Uma só por invocação, e o âmbar é o que diz isso. */}
                                             {inv.habilidadeSuprema && (
                                               <div className="border-l-2 border-tech-accent pl-3 py-1 flex flex-col gap-1 bg-tech-accent/[0.04]">

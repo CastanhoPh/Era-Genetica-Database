@@ -104,7 +104,15 @@ export interface Invocacao {
    * O que a criatura faz, e o teto do que ela faz. São dois campos e não uma lista porque a
    * Suprema tem peso proprio na mesa: é uma só por invocação, e a tela a destaca.
    */
-  habilidade?: string;
+  /**
+   * O que a criatura faz. Lista porque quatro das invocações do Kaito têm duas habilidades
+   * comuns, e uma delas pode ganhar uma terceira sem mexer no tipo. Cada entrada é
+   * "Nome: o que faz".
+   *
+   * A Suprema fica FORA da lista, em campo próprio, e não por comodidade: é uma só por
+   * invocação e a tela a destaca em âmbar, do mesmo jeito que o rank.
+   */
+  habilidades?: string[];
   habilidadeSuprema?: string;
 }
 
@@ -163,7 +171,7 @@ export interface ChecklistItem {
   pastOwners?: string[];
   nomeAntigo?: string;
   descricao?: string;
-  habilidade?: string;
+  habilidades?: string[];
   habilidadeSuprema?: string;
   personagens?: string[];
   /**

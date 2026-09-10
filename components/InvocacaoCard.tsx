@@ -25,7 +25,7 @@ export interface InvocacaoCardData {
   pastOwners?: string[];
   nomeAntigo?: string;
   descricao?: string;
-  habilidade?: string;
+  habilidades?: string[];
   habilidadeSuprema?: string;
 }
 
