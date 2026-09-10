@@ -1144,20 +1144,20 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                   {chip(inv.nomeAntigo, 'antigo', 'text-tech-primary/80', 'border-tech-border', 'bg-tech-panel/30')}
                                                 </div>
                                               )}
+                                              {antigos.length > 0 && (
+                                                <div className="flex items-center gap-2 flex-wrap">
+                                                  <span className="text-[10px] font-black uppercase tracking-wider text-yellow-500 flex items-center gap-1.5">
+                                                    <History size={12} /> Invocadores Passados
+                                                  </span>
+                                                  {antigos.map((n, k) => chip(n, k, 'text-yellow-400', 'border-yellow-500/40', 'bg-yellow-500/5'))}
+                                                </div>
+                                              )}
                                               {inv.originalOwner && (
                                                 <div className="flex items-center gap-2 flex-wrap">
                                                   <span className="text-[10px] font-black uppercase tracking-wider text-sky-400 flex items-center gap-1.5">
                                                     <Hexagon size={12} /> Invocador Original
                                                   </span>
                                                   {chip(inv.originalOwner, 'orig', 'text-sky-400', 'border-sky-500/40', 'bg-sky-500/5')}
-                                                </div>
-                                              )}
-                                              {antigos.length > 0 && (
-                                                <div className="flex items-center gap-2 flex-wrap">
-                                                  <span className="text-[10px] font-black uppercase tracking-wider text-yellow-500 flex items-center gap-1.5">
-                                                    <History size={12} /> Já invocaram
-                                                  </span>
-                                                  {antigos.map((n, k) => chip(n, k, 'text-yellow-400', 'border-yellow-500/40', 'bg-yellow-500/5'))}
                                                 </div>
                                               )}
                                             </div>

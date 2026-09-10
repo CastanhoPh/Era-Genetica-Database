@@ -471,50 +471,62 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                   )}
                 </div>
 
-                {/* Posse: o atual sempre. Os outros dois só quando há cadeia de verdade —
-                    `originalOwner` ausente, ou igual ao atual, significa que não houve troca. */}
-                <div className="flex flex-col gap-2.5">
-                  <div className="flex flex-col gap-1">
-                    <span className="text-[10px] uppercase tracking-widest text-tech-primary/50 flex items-center gap-1.5">
-                      <User size={11} /> Invocador Atual
-                    </span>
-                    {!aberta.dono ? (
-                      <span className="text-sm text-slate-400 italic">não possui invocador</span>
-                    ) : fichaAberta ? (
-                      <button
-                        onClick={() => onOpenCharacter(fichaAberta)}
-                        title={`Abrir a ficha de ${fichaAberta.name}`}
-                        className="self-start text-sm text-tech-primary hover:underline decoration-dotted underline-offset-4"
-                      >
-                        {fichaAberta.name}
-                      </button>
-                    ) : (
-                      <span title="Este invocador ainda não tem ficha" className="text-sm text-slate-300">{aberta.dono}</span>
-                    )}
-                  </div>
+                {/* A REGRA DE POSSE, ditada pelo Pedro em 10/09/2026.
+                    Ordem: Atual, Passados, Original. E invocador atual MORTO mostra "sem
+                    invocador" — mas o morto não desaparece: desce para Passados, no fim da
+                    lista, porque é o mais recente de quem já invocou. Sem isso o Tsurugami diria
+                    "sem invocador" e mais nada, e o nome do Raikun sumiria do painel mesmo sendo
+                    ele quem carrega a invocação no banco. Atinge 16 das 100. */}
+                {(() => {
+                  const atualMorto = !!fichaAberta?.isDead;
+                  const nomeAtual = fichaAberta?.name ?? aberta.dono;
+                  // cronológico: os do meio primeiro, o atual morto por último
+                  const passados = [...(aberta.pastOwners ?? []), ...(atualMorto ? [nomeAtual] : [])];
+                  // O `dono` é o nome CURTO ("Kuromi") e o `originalOwner` o completo ("Kuromi
+                  // Uchiha"), então a comparação é contra o nome da ficha quando ela existe —
+                  // senão invocação cujo original é o atual mostraria a mesma pessoa duas vezes.
+                  const mostraOriginal = aberta.originalOwner && aberta.originalOwner !== nomeAtual;
+                  return (
+                    <div className="flex flex-col gap-2.5">
+                      <div className="flex flex-col gap-1">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50 flex items-center gap-1.5">
+                          <User size={11} /> Invocador Atual
+                        </span>
+                        {!aberta.dono || atualMorto ? (
+                          <span className="text-sm text-slate-400 italic">sem invocador</span>
+                        ) : fichaAberta ? (
+                          <button
+                            onClick={() => onOpenCharacter(fichaAberta)}
+                            title={`Abrir a ficha de ${fichaAberta.name}`}
+                            className="self-start text-sm text-tech-primary hover:underline decoration-dotted underline-offset-4"
+                          >
+                            {fichaAberta.name}
+                          </button>
+                        ) : (
+                          <span title="Este invocador ainda não tem ficha" className="text-sm text-slate-300">{aberta.dono}</span>
+                        )}
+                      </div>
 
-                  {/* O `dono` e o nome CURTO ("Kuromi") e o `originalOwner` o completo ("Kuromi
-                      Uchiha"), entao a comparacao tem que ser contra o nome da ficha quando
-                      ela existe. Sem isso, invocacao cujo invocador original e o atual
-                      mostraria a mesma pessoa duas vezes. */}
-                  {aberta.originalOwner && aberta.originalOwner !== (fichaAberta?.name ?? aberta.dono) && (
-                    <div className="flex flex-col gap-1">
-                      <span className="text-[10px] uppercase tracking-widest text-sky-400 flex items-center gap-1.5">
-                        <Hexagon size={11} /> Invocador Original
-                      </span>
-                      <span className="text-sm text-sky-300">{aberta.originalOwner}</span>
-                    </div>
-                  )}
+                      {passados.length > 0 && (
+                        <div className="flex flex-col gap-1">
+                          <span className="text-[10px] uppercase tracking-widest text-yellow-500 flex items-center gap-1.5">
+                            <History size={11} /> Invocadores Passados
+                          </span>
+                          <span className="text-sm text-yellow-200/90">{passados.join(' · ')}</span>
+                        </div>
+                      )}
 
-                  {aberta.pastOwners?.length ? (
-                    <div className="flex flex-col gap-1">
-                      <span className="text-[10px] uppercase tracking-widest text-yellow-500 flex items-center gap-1.5">
-                        <History size={11} /> Invocadores Antigos
-                      </span>
-                      <span className="text-sm text-yellow-200/90">{aberta.pastOwners.join(' · ')}</span>
+                      {mostraOriginal && (
+                        <div className="flex flex-col gap-1">
+                          <span className="text-[10px] uppercase tracking-widest text-sky-400 flex items-center gap-1.5">
+                            <Hexagon size={11} /> Invocador Original
+                          </span>
+                          <span className="text-sm text-sky-300">{aberta.originalOwner}</span>
+                        </div>
+                      )}
                     </div>
-                  ) : null}
-                </div>
+                  );
+                })()}
 
                 {(aberta.familia || aberta.nature || aberta.village) && (
                   <div className="flex gap-6 flex-wrap border-t border-tech-border/50 pt-4">
