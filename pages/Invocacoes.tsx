@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History, PawPrint } from 'lucide-react';
+import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
+import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History, PawPrint, Link2, Check } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
 import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
@@ -27,14 +27,34 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const [items, setItems] = useState<ChecklistItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [erro, setErro] = useState<string | null>(null);
-  const [busca, setBusca] = useState('');
   const [colorido, setColorido] = useCapasColoridas();
-  const [vila, setVila] = useState('Todos');
-  const [dono, setDono] = useState('Todos');
-  const [rank, setRank] = useState('Todos');
-  const [natureza, setNatureza] = useState('Todos');
-  const [familia, setFamilia] = useState('Todos');
-  const [ordem, setOrdem] = useState('pagina');
+  const [linkCopiado, setLinkCopiado] = useState(false);
+
+  // Os filtros vivem na URL, não no estado: é o que faz o link chegar no amigo com a tela que o
+  // Pedro estava vendo. Ausente = o padrão, então /invocacoes limpo continua sendo "tudo".
+  const [params, setParams] = useSearchParams();
+  const leia = (chave: string, padrao: string) => params.get(chave) ?? padrao;
+  const escreva = (chave: string, valor: string, padrao: string, substitui = false) => {
+    const p = new URLSearchParams(params);
+    if (valor === padrao) p.delete(chave); else p.set(chave, valor);
+    setParams(p, { replace: substitui });
+  };
+
+  const vila = leia('vila', 'Todos');
+  const setVila = (v: string) => escreva('vila', v, 'Todos');
+  const dono = leia('dono', 'Todos');
+  const setDono = (v: string) => escreva('dono', v, 'Todos');
+  const rank = leia('rank', 'Todos');
+  const setRank = (v: string) => escreva('rank', v, 'Todos');
+  const natureza = leia('natureza', 'Todos');
+  const setNatureza = (v: string) => escreva('natureza', v, 'Todos');
+  const familia = leia('familia', 'Todos');
+  const setFamilia = (v: string) => escreva('familia', v, 'Todos');
+  const ordem = leia('ordem', 'pagina');
+  const setOrdem = (v: string) => escreva('ordem', v, 'pagina');
+  // `replace` na busca: sem isso cada tecla empilha uma entrada e o voltar vira desfazer-letra.
+  const busca = leia('busca', '');
+  const setBusca = (v: string) => escreva('busca', v, '', true);
 
   // Mesma fonte da Galeria: a lista de verdade é o checklist. A ficha carrega uma cópia
   // desnormalizada, mas ela só tem as invocações de quem TEM ficha — aqui a página é sobre
@@ -133,9 +153,19 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
 
   const filtrosAtivos = vila !== 'Todos' || dono !== 'Todos' || rank !== 'Todos' || natureza !== 'Todos'
     || familia !== 'Todos' || busca !== '';
+  // Uma escrita só, senão seriam seis navegações e seis entradas no histórico. `ordem` fica de
+  // fora porque não é filtro, é como a lista está apresentada — mesmo comportamento de antes.
   const limpar = () => {
-    setVila('Todos'); setDono('Todos'); setRank('Todos'); setNatureza('Todos');
-    setFamilia('Todos'); setBusca('');
+    const p = new URLSearchParams(params);
+    ['vila', 'dono', 'rank', 'natureza', 'familia', 'busca'].forEach(k => p.delete(k));
+    setParams(p);
+  };
+
+  /** O link que o botão copia é a URL inteira: caminho, filtros e a invocação aberta, se houver. */
+  const copiaLink = () => {
+    navigator.clipboard.writeText(window.location.href);
+    setLinkCopiado(true);
+    setTimeout(() => setLinkCopiado(false), 2000);
   };
   /** Quantas invocações cada vila tem, para o chip poder dizer que não existe nenhuma. */
   const porVila = useMemo(() => {
@@ -148,8 +178,14 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const slugAberto = location.pathname.replace(/^\/+|\/+$/g, '').split('/')[1];
   const aberta = slugAberto ? filtradas.find(i => slugify(i.nome) === decodeURIComponent(slugAberto)) : undefined;
   const idxAberta = aberta ? filtradas.indexOf(aberta) : -1;
-  const abre = (i: InvocacaoCardData) => navigate(`/invocacoes/${encodeURIComponent(slugify(i.nome))}`);
-  const fecha = () => navigate('/invocacoes');
+  // A query vai junto: sem ela, abrir uma criatura apagaria os filtros e o link perderia o
+  // sentido. `params.toString()` já sai codificado.
+  const comFiltros = (caminho: string) => {
+    const q = params.toString();
+    return q ? `${caminho}?${q}` : caminho;
+  };
+  const abre = (i: InvocacaoCardData) => navigate(comFiltros(`/invocacoes/${encodeURIComponent(slugify(i.nome))}`));
+  const fecha = () => navigate(comFiltros('/invocacoes'));
   const anda = (passo: 1 | -1) => {
     if (idxAberta < 0) return;
     const prox = filtradas[(idxAberta + passo + filtradas.length) % filtradas.length];
@@ -219,6 +255,16 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
 
             <div className="flex gap-4 w-full md:w-auto">
               <BotaoDeCores colorido={colorido} onToggle={() => setColorido(v => !v)} oQue="as artes" />
+              <button
+                type="button"
+                onClick={copiaLink}
+                title="Copiar o link desta tela, com os filtros ativos"
+                className={`h-10 w-10 shrink-0 border flex items-center justify-center transition-all clip-corner-sm ${linkCopiado
+                  ? 'border-tech-primary text-black bg-tech-primary'
+                  : 'border-tech-border text-tech-dim hover:text-tech-primary hover:border-tech-primary'}`}
+              >
+                {linkCopiado ? <Check size={15} /> : <Link2 size={15} />}
+              </button>
               <div className="flex-1 md:w-80 bg-black border border-tech-border flex items-center px-3 h-10 group focus-within:border-tech-primary focus-within:shadow-[0_0_10px_rgba(0,255,65,0.2)] transition-all">
                 <Search size={14} className="text-tech-dim group-focus-within:text-tech-primary transition-colors" />
                 <input
