@@ -85,6 +85,13 @@ const EquipmentModal: React.FC<EquipmentModalProps> = ({ item, onClose, characte
   // Quem morreu em posse desta arma. O campo existe em 16 das 87 e o painel nunca mostrou.
   const morreuComEla = new Set((item.diedHolding ?? []).map(n => n.trim().toLowerCase()));
 
+  // Quem manifesta uma FORMA desta arma, e qual. Sai de `variants[].owner`, então a Naomi entra na
+  // cadeia da Sōen no Kage sem ninguém digitar o nome dela em `pastOwners` — o dado já está na
+  // variação.
+  const formaDe = new Map(
+    (item.variants ?? []).filter(v => v.owner).map(v => [v.owner.trim().toLowerCase(), v.name] as const),
+  );
+
   // O chip de um portador. Vira botao quando existe ficha; ganha caveira quando a pessoa morreu
   // com a arma na mao.
   const chip = (nome: string, chave: React.Key, cor: string, borda: string, fundo: string) => {
@@ -97,7 +104,13 @@ const EquipmentModal: React.FC<EquipmentModalProps> = ({ item, onClose, characte
         {c && <ExternalLink size={10} className="shrink-0 opacity-50" />}
       </>
     );
-    const titulo = morreu ? `Morreu em posse desta arma${c ? ` · abrir a ficha de ${c.name}` : ''}` : (c ? `Abrir a ficha de ${c.name}` : undefined);
+    const forma = formaDe.get(nome.trim().toLowerCase());
+    // o título é a resposta para "por que este nome está aqui"
+    const titulo = [
+      forma ? `Manifesta a ${forma}` : null,
+      morreu ? 'Morreu em posse desta arma' : null,
+      c ? `Abrir a ficha de ${c.name}` : null,
+    ].filter(Boolean).join(' · ') || undefined;
     return c ? (
       <button
         key={chave}
@@ -299,12 +312,19 @@ const EquipmentModal: React.FC<EquipmentModalProps> = ({ item, onClose, characte
                 const currentNameSet = new Set(currentList.map(c => c.name.trim().toLowerCase()));
                 if (currentList.length === 0 && item.currentOwner) currentNameSet.add(item.currentOwner.trim().toLowerCase());
 
-                // O portador original já conta como "passado" automaticamente, contanto que não
-                // seja também quem tem a arma hoje — não precisa registrar duas vezes.
-                const pastNames = [
-                  ...(item.originalOwner && !currentNameSet.has(item.originalOwner.trim().toLowerCase()) ? [item.originalOwner] : []),
-                  ...(item.pastOwners ?? []),
-                ];
+                // Passados = quem está gravado em `pastOwners` MAIS quem manifesta uma forma e
+                // não tem a arma hoje (a Naomi, com a Shiden no Kage). O portador original NÃO é
+                // repetido aqui: a célula ao lado já é dele, e com as três vizinhas a duplicata
+                // ficava escancarada — o Nishinoya aparecia duas vezes na Sōen no Kage.
+                const original = (item.originalOwner ?? '').trim().toLowerCase();
+                const vistos = new Set([...currentNameSet, original].filter(Boolean));
+                const pastNames: string[] = [];
+                for (const n of [...(item.pastOwners ?? []), ...(item.variants ?? []).map(v => v.owner)]) {
+                  const k = (n ?? '').trim().toLowerCase();
+                  if (!k || vistos.has(k)) continue;
+                  vistos.add(k);
+                  pastNames.push(n);
+                }
 
                 const linha = (itens: React.ReactNode[]) => (
                   itens.length ? <div className="flex flex-wrap gap-1.5">{itens}</div> : <span className="text-slate-500 italic">—</span>
@@ -320,11 +340,13 @@ const EquipmentModal: React.FC<EquipmentModalProps> = ({ item, onClose, characte
                         ? linha([chip(item.currentOwner, 'atual', 'text-tech-primary', 'border-tech-primary/40', 'bg-tech-primary/5')])
                         : <span className="text-slate-500 italic">sem portador</span>),
                   },
-                  {
+                  // Sem o original duplicado, 72 das 87 nao teriam nenhum passado — a celula sai
+                  // em vez de ficar um traco no meio das outras duas, e a grade vira de 2 colunas.
+                  ...(pastNames.length ? [{
                     rotulo: 'Portadores Passados',
                     cor: 'text-yellow-500/80',
                     valor: linha(pastNames.map((n, i) => chip(n, i, 'text-yellow-400', 'border-yellow-500/40', 'bg-yellow-500/5'))),
-                  },
+                  }] : []),
                   {
                     rotulo: 'Portador Original',
                     cor: 'text-sky-400/80',
