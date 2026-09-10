@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
-import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History, PawPrint } from 'lucide-react';
+import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, PawPrint } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
 import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
@@ -425,161 +425,142 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
             </>
           )}
           <div
-            className="max-w-6xl w-full max-h-[92vh] overflow-y-auto scrollbar-custom bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_30px_rgba(0,255,65,0.1)] clip-corner relative"
+            className="max-w-6xl w-full max-h-[92vh] lg:h-[88vh] overflow-y-auto lg:overflow-hidden scrollbar-custom bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_40px_-10px_rgba(0,255,65,0.25)] clip-corner relative flex flex-col"
             onClick={e => e.stopPropagation()}
           >
             <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-primary z-30 pointer-events-none" />
             <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-primary z-30 pointer-events-none" />
 
-            <div className="flex flex-col lg:flex-row">
-              {/* ---------------- a arte ---------------- */}
-              <div className="lg:w-[44%] border-b lg:border-b-0 lg:border-r border-tech-border bg-tech-panel/20 shrink-0">
-                <div className="p-2 border-b border-tech-border text-[10px] flex justify-between text-tech-primary/50">
+            <div className="flex flex-col lg:flex-row flex-1 min-h-0">
+              {/* ================= a arte e a placa de identidade ================= */}
+              <div className="lg:w-[42%] shrink-0 flex flex-col min-h-0 border-b lg:border-b-0 lg:border-r border-tech-border bg-tech-panel/20">
+                <div className="p-2 border-b border-tech-border text-[10px] flex justify-between text-tech-primary/50 shrink-0">
                   <span>IMG_DATA_BLOCK_01</span>
                   <span>{idxAberta + 1} / {filtradas.length}</span>
                 </div>
 
-                {/* 4:3 fixo, o formato real das duas artes de invocação */}
-                <div className="relative w-full aspect-[4/3] bg-black overflow-hidden">
+                {/* A arte ABSORVE a sobra de altura (`flex-1`), que e o que mata o buraco preto
+                    embaixo da placa. `contain` porque a arte e 4:3 e recortar jogaria fora
+                    desenho. No mobile a coluna nao tem altura para distribuir, entao volta a ser
+                    uma caixa 4:3. */}
+                <div className="relative aspect-[4/3] lg:aspect-auto lg:flex-1 lg:min-h-0 bg-black overflow-hidden">
                   <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.08)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none z-20" />
                   <div className="absolute top-0 left-0 w-full h-1 bg-tech-primary/50 shadow-[0_0_10px_#00ff41] animate-[scanline_3s_linear_infinite] pointer-events-none z-30 opacity-50" />
                   <div className="absolute top-3 left-3 w-4 h-4 border-t-2 border-l-2 border-tech-primary z-20 opacity-60" />
                   <div className="absolute bottom-3 right-3 w-4 h-4 border-b-2 border-r-2 border-tech-primary z-20 opacity-60" />
                   {aberta.arteUrl && !aberta.placeholder ? (
-                    <img src={formatImageUrl(aberta.arteUrl)} alt={aberta.nome} className="w-full h-full object-cover" />
+                    <img src={formatImageUrl(aberta.arteUrl)} alt={aberta.nome} className="absolute inset-0 w-full h-full object-contain" />
                   ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center gap-2">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
                       <Sparkles size={32} className="text-tech-primary/15" />
                       <span className="text-[10px] uppercase tracking-widest text-tech-primary/30">a arte desta invocação ainda não foi feita</span>
                     </div>
                   )}
                 </div>
-                <div className="p-5 flex flex-col gap-4 border-t border-tech-border/50">
-                <div>
-                  <div className="flex items-baseline gap-3 flex-wrap">
-                    <h3 className="text-2xl font-black text-white uppercase tracking-wide">{aberta.nome}</h3>
-                    {aberta.rank && <span className="bg-tech-accent text-black text-[10px] font-black px-2 py-0.5 clip-corner-sm">{aberta.rank}</span>}
-                  </div>
-                  {aberta.hierarquia && (
-                    <p className="text-[11px] uppercase tracking-widest text-tech-accent/80 mt-1">{aberta.hierarquia}</p>
-                  )}
-                  {aberta.nomeAntigo && (
-                    <p className="text-[11px] text-slate-400 mt-1">
-                      <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">antes chamado de</span>{' '}
-                      {aberta.nomeAntigo}
-                    </p>
-                  )}
-                </div>
 
-                {/* A REGRA DE POSSE, ditada pelo Pedro em 10/09/2026.
-                    Ordem: Atual, Passados, Original. E invocador atual MORTO mostra "sem
-                    invocador" — mas o morto não desaparece: desce para Passados, no fim da
-                    lista, porque é o mais recente de quem já invocou. Sem isso o Tsurugami diria
-                    "sem invocador" e mais nada, e o nome do Raikun sumiria do painel mesmo sendo
-                    ele quem carrega a invocação no banco. Atinge 16 das 100. */}
-                {(() => {
-                  const atualMorto = !!fichaAberta?.isDead;
-                  const nomeAtual = fichaAberta?.name ?? aberta.dono;
-                  // cronológico: os do meio primeiro, o atual morto por último
-                  const passados = [...(aberta.pastOwners ?? []), ...(atualMorto ? [nomeAtual] : [])];
-                  // O `dono` é o nome CURTO ("Kuromi") e o `originalOwner` o completo ("Kuromi
-                  // Uchiha"), então a comparação é contra o nome da ficha quando ela existe —
-                  // senão invocação cujo original é o atual mostraria a mesma pessoa duas vezes.
-                  const mostraOriginal = aberta.originalOwner && aberta.originalOwner !== nomeAtual;
-                  return (
-                    <div className="flex gap-6 flex-wrap">
-                      <div className="flex flex-col gap-1">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50 flex items-center gap-1.5">
-                          <User size={11} /> Invocador Atual
-                        </span>
-                        {!aberta.dono || atualMorto ? (
-                          <span className="text-sm text-slate-400 italic">sem invocador</span>
-                        ) : fichaAberta ? (
-                          <button
-                            onClick={() => onOpenCharacter(fichaAberta)}
-                            title={`Abrir a ficha de ${fichaAberta.name}`}
-                            className="self-start text-sm text-tech-primary hover:underline decoration-dotted underline-offset-4"
-                          >
-                            {fichaAberta.name}
-                          </button>
-                        ) : (
-                          <span title="Este invocador ainda não tem ficha" className="text-sm text-slate-300">{aberta.dono}</span>
-                        )}
-                      </div>
-
-                      {passados.length > 0 && (
-                        <div className="flex flex-col gap-1">
-                          <span className="text-[10px] uppercase tracking-widest text-yellow-500 flex items-center gap-1.5">
-                            <History size={11} /> Invocadores Passados
-                          </span>
-                          <span className="text-sm text-yellow-200/90">{passados.join(' · ')}</span>
-                        </div>
-                      )}
-
-                      {mostraOriginal && (
-                        <div className="flex flex-col gap-1">
-                          <span className="text-[10px] uppercase tracking-widest text-sky-400 flex items-center gap-1.5">
-                            <Hexagon size={11} /> Invocador Original
-                          </span>
-                          <span className="text-sm text-sky-300">{aberta.originalOwner}</span>
-                        </div>
+                {/* ---------------- a placa ---------------- */}
+                <div className="shrink-0 border-t border-tech-border bg-black/40">
+                  <div className="px-4 pt-3 pb-2.5">
+                    <div className="flex items-baseline gap-2.5 flex-wrap">
+                      <h3 className="text-xl font-black text-white uppercase tracking-wide leading-none">{aberta.nome}</h3>
+                      {aberta.rank && (
+                        <span className="bg-tech-accent text-black text-[10px] font-black px-2 py-0.5 clip-corner-sm leading-none">{aberta.rank}</span>
                       )}
                     </div>
-                  );
-                })()}
-
-                {(aberta.familia || aberta.nature || aberta.village) && (
-                  <div className="flex gap-6 flex-wrap border-t border-tech-border/50 pt-4">
-                    {aberta.familia && (
-                      <div className="flex flex-col gap-0.5">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Família</span>
-                        <span className="text-sm text-slate-200">{aberta.familia}</span>
-                      </div>
+                    {aberta.hierarquia && (
+                      <p className="text-[10px] uppercase tracking-[0.18em] text-tech-accent/80 mt-1.5">{aberta.hierarquia}</p>
                     )}
-                    {aberta.nature && (
-                      <div className="flex flex-col gap-0.5">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Natureza</span>
-                        <span className="text-sm text-slate-200">{aberta.nature}</span>
-                      </div>
-                    )}
-                    {aberta.village && (
-                      <div className="flex flex-col gap-0.5">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Vila</span>
-                        <span className="text-sm text-slate-200">{aberta.village}</span>
-                      </div>
+                    {aberta.nomeAntigo && (
+                      <p className="text-[11px] text-slate-400 mt-1">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">antes chamado de</span>{' '}
+                        {aberta.nomeAntigo}
+                      </p>
                     )}
                   </div>
-                )}
+
+                  {/* A REGRA DE POSSE (Pedro, 10/09/2026): Atual, Passados, Original — e invocador
+                      atual MORTO mostra "sem invocador", mas o morto desce para Passados, no fim
+                      da lista, porque e o mais recente de quem ja invocou. Atinge 16 das 100. */}
+                  {(() => {
+                    const atualMorto = !!fichaAberta?.isDead;
+                    const nomeAtual = fichaAberta?.name ?? aberta.dono;
+                    const passados = [...(aberta.pastOwners ?? []), ...(atualMorto ? [nomeAtual] : [])];
+                    // O `dono` e o nome CURTO ("Kuromi") e o `originalOwner` o completo, entao a
+                    // comparacao e contra o nome da ficha quando ela existe — senao invocacao cujo
+                    // original e o atual mostraria a mesma pessoa duas vezes.
+                    const mostraOriginal = aberta.originalOwner && aberta.originalOwner !== nomeAtual;
+
+                    const linhas: { rotulo: string; cor: string; valor: React.ReactNode }[] = [
+                      {
+                        rotulo: 'Invocador Atual',
+                        cor: 'text-tech-primary/60',
+                        valor: !aberta.dono || atualMorto
+                          ? <span className="text-slate-500 italic">sem invocador</span>
+                          : fichaAberta
+                            ? <button
+                                onClick={() => onOpenCharacter(fichaAberta)}
+                                title={`Abrir a ficha de ${fichaAberta.name}`}
+                                className="text-tech-primary hover:underline decoration-dotted underline-offset-4 text-left"
+                              >{fichaAberta.name}</button>
+                            : <span title="Este invocador ainda não tem ficha">{aberta.dono}</span>,
+                      },
+                      ...(passados.length ? [{
+                        rotulo: 'Invocadores Passados',
+                        cor: 'text-yellow-500/80',
+                        valor: <span className="text-yellow-200/90">{passados.join(' · ')}</span>,
+                      }] : []),
+                      ...(mostraOriginal ? [{
+                        rotulo: 'Invocador Original',
+                        cor: 'text-sky-400/80',
+                        valor: <span className="text-sky-300">{aberta.originalOwner}</span>,
+                      }] : []),
+                      ...(aberta.familia ? [{ rotulo: 'Família', cor: 'text-tech-primary/60', valor: aberta.familia }] : []),
+                      ...(aberta.nature ? [{ rotulo: 'Natureza', cor: 'text-tech-primary/60', valor: aberta.nature }] : []),
+                      ...(aberta.village ? [{ rotulo: 'Vila', cor: 'text-tech-primary/60', valor: aberta.village }] : []),
+                    ];
+
+                    return (
+                      <div className="grid grid-cols-2 gap-px bg-tech-border/40 border-t border-tech-border/40">
+                        {linhas.map((l, k) => (
+                          <div
+                            key={l.rotulo}
+                            // celula impar no fim ocupa as duas colunas, para nao sobrar meio
+                            // quadro vazio na ponta da grade
+                            className={`bg-tech-bg px-4 py-2.5 flex flex-col gap-1 min-w-0 ${k === linhas.length - 1 && linhas.length % 2 === 1 ? 'col-span-2' : ''}`}
+                          >
+                            <span className={`text-[9px] uppercase tracking-[0.16em] ${l.cor}`}>{l.rotulo}</span>
+                            <span className="text-[13px] text-slate-200 leading-snug break-words">{l.valor}</span>
+                          </div>
+                        ))}
+                      </div>
+                    );
+                  })()}
                 </div>
               </div>
 
-              {/* ---------------- os dados ---------------- */}
-              <div className="flex-1 p-5 flex flex-col gap-5 min-w-0">
+              {/* ================= descricao e habilidades: e esta coluna que rola ================= */}
+              <div className="flex-1 min-w-0 lg:overflow-y-auto scrollbar-custom p-5 flex flex-col gap-3.5">
                 {aberta.descricao && (
                   <div className="flex flex-col gap-1.5">
-                    <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Descrição</span>
-                    <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-line">{aberta.descricao}</p>
+                    <span className="text-[10px] uppercase tracking-[0.18em] text-tech-primary/60">Descrição</span>
+                    <p className="text-[13.5px] text-slate-300 leading-relaxed whitespace-pre-line">{aberta.descricao}</p>
                   </div>
                 )}
 
-                {(aberta.habilidades?.length || aberta.habilidadeSuprema) && (
-                  <div className="border-t border-tech-border/50 pt-4 flex flex-col gap-2.5">
-                    {(aberta.habilidades ?? []).map((h, k, todas) => (
-                      <div key={k} className="border-l-2 border-tech-primary/50 pl-3 flex flex-col gap-1">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/60">
-                          Habilidade{todas.length > 1 ? ` ${k + 1}` : ''}
-                        </span>
-                        <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">{h}</p>
-                      </div>
-                    ))}
-                    {/* A Suprema é uma só por invocação, e ganha o âmbar por isso — o mesmo
-                        destaque que o rank usa no card. */}
-                    {aberta.habilidadeSuprema && (
-                      <div className="border-l-2 border-tech-accent pl-3 py-1 flex flex-col gap-1 bg-tech-accent/[0.04]">
-                        <span className="text-[10px] uppercase tracking-widest text-tech-accent">Habilidade Suprema</span>
-                        <p className="text-sm text-slate-100 leading-relaxed whitespace-pre-line">{aberta.habilidadeSuprema}</p>
-                      </div>
-                    )}
+                {(aberta.habilidades ?? []).map((h, k, todas) => (
+                  <div key={k} className="bg-tech-panel/30 border border-tech-border/50 border-l-2 border-l-tech-primary/60 p-3.5 flex flex-col gap-1.5">
+                    <span className="text-[10px] uppercase tracking-[0.18em] text-tech-primary/70">
+                      Habilidade{todas.length > 1 ? ` ${k + 1}` : ''}
+                    </span>
+                    <p className="text-[13.5px] text-slate-200 leading-relaxed whitespace-pre-line">{h}</p>
+                  </div>
+                ))}
+
+                {/* A Suprema e uma so por invocacao, e o ambar e o que diz isso. */}
+                {aberta.habilidadeSuprema && (
+                  <div className="bg-tech-accent/[0.06] border border-tech-accent/25 border-l-2 border-l-tech-accent p-3.5 flex flex-col gap-1.5">
+                    <span className="text-[10px] uppercase tracking-[0.18em] text-tech-accent">Habilidade Suprema</span>
+                    <p className="text-[13.5px] text-slate-100 leading-relaxed whitespace-pre-line">{aberta.habilidadeSuprema}</p>
                   </div>
                 )}
               </div>
