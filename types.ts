@@ -112,6 +112,13 @@ export interface Invocacao {
    * A Suprema fica FORA da lista, em campo próprio, e não por comodidade: é uma só por
    * invocação e a tela a destaca em âmbar, do mesmo jeito que o rank.
    */
+  /**
+   * O povo sábio de que a criatura vem — a Via do Modo Sábio do invocador, com o nome que a tela
+   * mostra. Só as 41 de natureza `Senjutsu` têm: as outras 42 vêm de Mokuton, Fujogan, Kage Mane,
+   * Ketton, Hyoton ou de uma bijuu, e não pertencem a povo nenhum. Vazio aqui é informação, não
+   * falta de dado. Catálogo em data/familias-de-invocacao.ts.
+   */
+  familia?: string;
   habilidades?: string[];
   habilidadeSuprema?: string;
 }
@@ -171,6 +178,7 @@ export interface ChecklistItem {
   pastOwners?: string[];
   nomeAntigo?: string;
   descricao?: string;
+  familia?: string;
   habilidades?: string[];
   habilidadeSuprema?: string;
   personagens?: string[];

@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History } from 'lucide-react';
+import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Terminal, Database, Shield, AlertTriangle, X, User, Hexagon, History, PawPrint } from 'lucide-react';
 import { subscribeChecklist, slugify } from '../data/firestore';
 import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
 import { formatImageUrl } from '../utils/formatters';
 import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
 import BotaoDeCores, { useCapasColoridas } from '../components/BotaoDeCores';
+import { FAMILIAS_DE_INVOCACAO } from '../data/familias-de-invocacao';
 
 /**
  * Os chips são fixos, não derivados dos dados: uma vila sem invocação tem que aparecer e dizer que
@@ -32,6 +33,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
   const [dono, setDono] = useState('Todos');
   const [rank, setRank] = useState('Todos');
   const [natureza, setNatureza] = useState('Todos');
+  const [familia, setFamilia] = useState('Todos');
   const [ordem, setOrdem] = useState('pagina');
 
   // Mesma fonte da Galeria: a lista de verdade é o checklist. A ficha carrega uma cópia
@@ -66,6 +68,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
           village: i.village,
           placeholder: !!(i.placeholder || capa?.placeholder),
           pagina: k + 1,
+          familia: i.familia,
           originalOwner: i.originalOwner,
           pastOwners: i.pastOwners,
           nomeAntigo: i.nomeAntigo,
@@ -94,6 +97,12 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
     [invocacoes],
   );
 
+  // Ordem canônica do catálogo, não alfabética, e só as famílias que alguém de fato tem.
+  const familias = useMemo(
+    () => FAMILIAS_DE_INVOCACAO.filter(f => invocacoes.some(i => i.familia === f)),
+    [invocacoes],
+  );
+
   const filtradas = useMemo(() => {
     const termo = busca.trim().toLowerCase();
     const lista = invocacoes.filter(i =>
@@ -101,6 +110,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
       && (dono === 'Todos' || i.dono === dono)
       && (rank === 'Todos' || i.rank === rank)
       && (natureza === 'Todos' || i.nature === natureza)
+      && (familia === 'Todos' || i.familia === familia)
       && (!termo || i.nome.toLowerCase().includes(termo) || i.dono.toLowerCase().includes(termo)));
     if (ordem === 'alfabetico') return [...lista].sort((a, b) => a.nome.localeCompare(b.nome));
     if (ordem === 'dono') return [...lista].sort((a, b) => a.dono.localeCompare(b.dono) || a.pagina - b.pagina);
@@ -110,10 +120,14 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
         || a.pagina - b.pagina);
     }
     return lista;
-  }, [invocacoes, busca, vila, dono, rank, natureza, ordem]);
+  }, [invocacoes, busca, vila, dono, rank, natureza, familia, ordem]);
 
-  const filtrosAtivos = vila !== 'Todos' || dono !== 'Todos' || rank !== 'Todos' || natureza !== 'Todos' || busca !== '';
-  const limpar = () => { setVila('Todos'); setDono('Todos'); setRank('Todos'); setNatureza('Todos'); setBusca(''); };
+  const filtrosAtivos = vila !== 'Todos' || dono !== 'Todos' || rank !== 'Todos' || natureza !== 'Todos'
+    || familia !== 'Todos' || busca !== '';
+  const limpar = () => {
+    setVila('Todos'); setDono('Todos'); setRank('Todos'); setNatureza('Todos');
+    setFamilia('Todos'); setBusca('');
+  };
   /** Quantas invocações cada vila tem, para o chip poder dizer que não existe nenhuma. */
   const porVila = useMemo(() => {
     const m: Record<string, number> = {};
@@ -209,7 +223,26 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 border-t border-tech-border/50 pt-4 mt-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 border-t border-tech-border/50 pt-4 mt-2">
+            {familias.length > 0 && (
+              <div className="flex flex-col gap-1">
+                <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
+                  <PawPrint size={10} /> FAMÍLIA
+                </label>
+                <div className="relative group">
+                  <select
+                    value={familia}
+                    onChange={e => setFamilia(e.target.value)}
+                    className="w-full bg-black border border-tech-border text-tech-primary text-xs py-2 pl-2 pr-8 outline-none focus:border-tech-primary appearance-none uppercase cursor-pointer hover:bg-tech-dim/20 transition-all"
+                  >
+                    <option value="Todos" className="bg-black">TODAS</option>
+                    {familias.map(f => <option key={f} value={f} className="bg-black">{f.toUpperCase()}</option>)}
+                  </select>
+                  <ChevronDown className="absolute right-2 top-2.5 text-tech-dim group-hover:text-tech-primary transition-colors pointer-events-none" size={14} />
+                </div>
+              </div>
+            )}
+
             {ranks.length > 0 && (
               <div className="flex flex-col gap-1">
                 <label className="text-[10px] text-tech-primary/60 font-bold uppercase flex items-center gap-1">
@@ -442,8 +475,14 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                   ) : null}
                 </div>
 
-                {(aberta.nature || aberta.village) && (
+                {(aberta.familia || aberta.nature || aberta.village) && (
                   <div className="flex gap-6 flex-wrap border-t border-tech-border/50 pt-4">
+                    {aberta.familia && (
+                      <div className="flex flex-col gap-0.5">
+                        <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Família</span>
+                        <span className="text-sm text-slate-200">{aberta.familia}</span>
+                      </div>
+                    )}
                     {aberta.nature && (
                       <div className="flex flex-col gap-0.5">
                         <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Natureza</span>

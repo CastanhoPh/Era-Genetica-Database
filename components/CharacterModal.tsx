@@ -1178,8 +1178,14 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             </div>
                                         )}
 
-                                        {(inv.nature || inv.village) && (
+                                        {(inv.familia || inv.nature || inv.village) && (
                                           <div className="flex gap-6 flex-wrap mt-4">
+                                            {inv.familia && (
+                                              <div className="flex flex-col gap-0.5">
+                                                <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Família</span>
+                                                <span className="text-sm text-slate-200">{inv.familia}</span>
+                                              </div>
+                                            )}
                                             {inv.nature && (
                                               <div className="flex flex-col gap-0.5">
                                                 <span className="text-[10px] uppercase tracking-widest text-tech-primary/50">Natureza</span>
