@@ -1,7 +1,7 @@
 // Gera páginas estáticas <slug>.html em dist/ com meta tags Open Graph,
 // para que links compartilhados (WhatsApp/Discord) mostrem nome + imagem.
 // Roda após o build, lendo os dados públicos do Firestore (API REST).
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -58,10 +58,42 @@ function ogTags({ title, description, image, url }) {
 
 const template = readFileSync(join(DIST, 'index.html'), 'utf8');
 
-function writeStub(slug, title, tags) {
+/**
+ * `caminho` pode ter subpasta — "fukasaku" vira dist/fukasaku.html e "invocacoes/fukasaku" vira
+ * dist/invocacoes/fukasaku.html, que o cleanUrls serve em /invocacoes/fukasaku. Arquivo estatico
+ * ganha do rewrite de SPA, entao o crawler pega o <head> certo e o navegador segue abrindo o app.
+ */
+function writeStub(caminho, title, tags) {
   let html = template.replace('</head>', `    ${tags}\n  </head>`);
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`);
-  writeFileSync(join(DIST, `${slug}.html`), html, 'utf8');
+  const destino = join(DIST, `${caminho}.html`);
+  mkdirSync(dirname(destino), { recursive: true });
+  writeFileSync(destino, html, 'utf8');
+}
+
+/** O mesmo slugify do data/firestore.ts, que e o que a aba usa para montar a rota. */
+const slugify = (nome) => String(nome)
+  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .toLowerCase().trim()
+  .replace(/[^a-z0-9]+/g, '-')
+  .replace(/^-+|-+$/g, '');
+
+/**
+ * As invocacoes NAO tem colecao propria: vivem no imageChecklist, uma pagina para a arte e uma
+ * para a capa. Leio do retrato publicado em dist/dados em vez da REST — o fetchCollection usa
+ * pageSize=300 e o imageChecklist passa de 1300 documentos, entao ele traria a lista truncada sem
+ * avisar. E o retrato ja esta pronto quando este script roda.
+ */
+function leInvocacoes() {
+  const versao = readFileSync(join(__dirname, '..', 'data', 'dados-versao.ts'), 'utf8');
+  const arquivo = versao.match(/checklist: "(.+?)"/)?.[1];
+  if (!arquivo) throw new Error('data/dados-versao.ts sem o nome do checklist');
+  const checklist = JSON.parse(readFileSync(join(DIST, 'dados', arquivo), 'utf8'));
+  const capas = new Map(checklist.filter(i => i.type === 'capaInvocacao').map(i => [i.name, i]));
+  return checklist
+    .filter(i => i.type === 'invocacao')
+    .sort((a, b) => a.order - b.order)
+    .map(i => ({ ...i, capaUrl: capas.get(i.name)?.imageUrl ?? null }));
 }
 
 const main = async () => {
@@ -87,7 +119,28 @@ const main = async () => {
       ogTags({ title: a.name, description: desc, image: a.image, url: `${BASE}/${a.slug}` }));
   }
 
-  console.log(`Prerender OG: ${characters.length} personagens + ${arsenal.length} armas geradas em dist/`);
+  // A query string nao entra aqui de proposito: o crawler resolve o CAMINHO, entao
+  // /invocacoes/fukasaku?familia=Sapos+Sabios cai neste mesmo stub e o preview sai certo com
+  // filtro ou sem filtro.
+  const invocacoes = leInvocacoes();
+  for (const inv of invocacoes) {
+    const partes = [
+      inv.rank ? `[${inv.rank}]` : '',
+      inv.familia || '',
+      inv.temporada ? `invocação de ${inv.temporada}` : 'sem invocador',
+    ].filter(Boolean);
+    const texto = (inv.descricao || '').slice(0, 170);
+    const desc = texto ? `${partes.join(' · ')} — ${texto}` : partes.join(' · ');
+    // A capa e o retrato 4:3 que o card mostra, e e ela que faz sentido no preview. Pagina em
+    // branco nao entra: preview com imagem vazia e pior que preview sem imagem.
+    const imagem = inv.placeholder ? '' : (inv.capaUrl || inv.imageUrl || '');
+    const rota = `invocacoes/${slugify(inv.name)}`;
+    writeStub(rota, `${inv.name} | Invocações — Era Genética`,
+      ogTags({ title: inv.name, description: desc, image: imagem, url: `${BASE}/${rota}` }));
+  }
+
+  console.log(`Prerender OG: ${characters.length} personagens + ${arsenal.length} armas`
+    + ` + ${invocacoes.length} invocações geradas em dist/`);
 };
 
 main().catch(e => { console.error('Prerender OG falhou:', e.message); process.exit(1); });
