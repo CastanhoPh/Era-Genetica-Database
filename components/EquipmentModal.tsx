@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
-  X, Globe, Zap, Binary, Lock, Crosshair, Shield, Hexagon, Scan, History, ExternalLink, Share2, Pencil, Trash2
-} from 'lucide-react';
+import { X, Lock, Shield, Skull, ExternalLink, Share2, Pencil, Trash2 } from 'lucide-react';
 import { Equipment, classificationColors } from '../types/Equipment';
 import { Character } from '../types';
 import { slugify } from '../data/firestore';
@@ -84,67 +82,75 @@ const EquipmentModal: React.FC<EquipmentModalProps> = ({ item, onClose, characte
   const displayDescription = activeVariant?.description ?? (activeVariant ? undefined : item.description);
   const displayOwnerChar = activeVariant ? resolveCharByName(activeVariant.owner) : undefined;
 
+  // Quem morreu em posse desta arma. O campo existe em 16 das 87 e o painel nunca mostrou.
+  const morreuComEla = new Set((item.diedHolding ?? []).map(n => n.trim().toLowerCase()));
+
+  // O chip de um portador. Vira botao quando existe ficha; ganha caveira quando a pessoa morreu
+  // com a arma na mao.
+  const chip = (nome: string, chave: React.Key, cor: string, borda: string, fundo: string) => {
+    const c = resolveCharByName(nome);
+    const morreu = morreuComEla.has(nome.trim().toLowerCase());
+    const dentro = (
+      <>
+        <span className="break-words text-left">{c?.name ?? nome}</span>
+        {morreu && <Skull size={10} className="shrink-0 text-red-400" />}
+        {c && <ExternalLink size={10} className="shrink-0 opacity-50" />}
+      </>
+    );
+    const titulo = morreu ? `Morreu em posse desta arma${c ? ` · abrir a ficha de ${c.name}` : ''}` : (c ? `Abrir a ficha de ${c.name}` : undefined);
+    return c ? (
+      <button
+        key={chave}
+        onClick={() => goToCharacter(c)}
+        title={titulo}
+        className={`max-w-full inline-flex items-center gap-1.5 px-2 py-1 text-[12px] ${cor} border ${borda} ${fundo} hover:bg-white/10 transition-colors`}
+      >{dentro}</button>
+    ) : (
+      <span key={chave} title={titulo} className="max-w-full inline-flex items-center gap-1.5 px-2 py-1 text-[12px] text-slate-300 border border-tech-border">{dentro}</span>
+    );
+  };
+
+  // A grade de fios de 1px, a mesma do painel das invocações. O Tailwind lê o código como texto,
+  // então a classe de colunas tem que estar escrita, não montada por interpolação.
+  const colunas = ['', 'grid-cols-1', 'grid-cols-2', 'grid-cols-3'];
+  const grade = (itens: { rotulo: string; cor: string; valor: React.ReactNode }[]) => (
+    <div className={`grid gap-px bg-tech-border/60 border border-tech-border/60 ${colunas[itens.length]}`}>
+      {itens.map(c => (
+        // o rótulo CRESCE dentro da célula, então os valores alinham na base mesmo quando um
+        // rótulo quebra em duas linhas e o vizinho não
+        <div key={c.rotulo} className="bg-tech-panel/40 px-3.5 py-3 flex flex-col gap-2 min-w-0">
+          <span className={`text-[9px] uppercase tracking-[0.16em] leading-[1.35] grow ${c.cor}`}>{c.rotulo}</span>
+          <div className="text-[13px] text-slate-200 leading-snug break-words">{c.valor}</div>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-0 md:p-6 bg-black/95 backdrop-blur-sm animate-in fade-in duration-300">
-      {/* Radial glow background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,255,65,0.05),transparent)] pointer-events-none" />
-      
-      {/* Click outside to close */}
       <div className="absolute inset-0" onClick={onClose} />
 
-      {/* Modal Container */}
-      <div className="relative w-full max-w-5xl h-full md:h-[85vh] bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_40px_rgba(0,255,65,0.15)] flex flex-col overflow-hidden clip-corner animate-in zoom-in-95 duration-300">
-        
-        {/* Decorative corner brackets */}
-        <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-tech-primary z-50 pointer-events-none" />
-        <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-tech-primary z-50 pointer-events-none" />
-        <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-tech-primary/30 z-50 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-tech-primary/30 z-50 pointer-events-none" />
+      <div className="relative w-full max-w-5xl h-full md:h-auto md:max-h-[90vh] bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_60px_-15px_rgba(0,255,65,0.3)] flex flex-col clip-corner animate-in zoom-in-95 duration-300">
+        <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-primary z-40 pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-primary z-40 pointer-events-none" />
 
-        {/* Barra de topo: variações à esquerda, ações à direita — em fluxo normal (não mais
-            flutuando por cima da imagem/dados), pra nunca tampar informação embaixo. */}
-        <div className="flex flex-wrap items-center justify-between gap-2 px-4 py-2.5 pl-20 border-b border-tech-border bg-black/60 shrink-0 relative z-40">
-          {/* Trocar entre a arma-base e cada variação — muda nome/foto/descrição/portador
-              da tela toda, em vez de só listar as variações num cantinho apertado. */}
-          <div className="flex flex-wrap items-center gap-1.5">
-            {item.variants && item.variants.length > 0 && (
-              <>
-                <button
-                  type="button"
-                  onClick={() => setSelectedVariant(null)}
-                  className={`px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-wide border transition-colors clip-corner-sm ${selectedVariant === null
-                      ? 'bg-tech-primary text-black border-tech-primary'
-                      : 'bg-black/60 text-tech-primary/70 border-tech-border hover:border-tech-primary/50'
-                    }`}
-                >
-                  {item.name}
-                </button>
-                {item.variants.map((v, i) => (
-                  <button
-                    key={i}
-                    type="button"
-                    onClick={() => setSelectedVariant(i)}
-                    className={`px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-wide border transition-colors clip-corner-sm ${selectedVariant === i
-                        ? 'bg-tech-accent text-black border-tech-accent'
-                        : 'bg-black/60 text-tech-accent/70 border-tech-border hover:border-tech-accent/50'
-                      }`}
-                  >
-                    {v.name}
-                  </button>
-                ))}
-              </>
-            )}
-          </div>
+        {/* UMA faixa só. Antes eram duas — a das ações e a do ARSENAL_DB — mais um rodapé de
+            "DADOS VERIFICADOS": três linhas de cromo em volta do registro. */}
+        <div className="shrink-0 border-b border-tech-border bg-tech-panel/40 pl-6 pr-3 py-2 flex items-center justify-between gap-3">
+          <span className="flex items-center gap-2 min-w-0 text-[10px] tracking-[0.16em] text-tech-primary/50">
+            <Shield size={10} className="shrink-0" />
+            <span className="truncate">ARSENAL_DB · REGISTRO #{item.id.toString().padStart(4, '0')}</span>
+          </span>
 
-          {/* Action Buttons */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 shrink-0">
             {isAdmin && onEdit && (
               <button
                 onClick={() => onEdit(item)}
                 title="Editar arma"
-                className="bg-tech-primary/10 hover:bg-tech-primary text-tech-primary hover:text-black border border-tech-primary p-2 transition-colors uppercase text-xs font-bold tracking-widest flex items-center clip-corner-sm"
+                className="bg-tech-primary/10 hover:bg-tech-primary text-tech-primary hover:text-black border border-tech-primary/60 p-1.5 transition-colors clip-corner-sm"
               >
-                <Pencil size={16} />
+                <Pencil size={14} />
               </button>
             )}
             {isAdmin && onDelete && (
@@ -155,259 +161,179 @@ const EquipmentModal: React.FC<EquipmentModalProps> = ({ item, onClose, characte
                   }
                 }}
                 title="Excluir arma"
-                className="bg-red-900/20 hover:bg-red-600 text-red-500 hover:text-black border border-red-600 p-2 transition-colors uppercase text-xs font-bold tracking-widest flex items-center clip-corner-sm"
+                className="bg-red-900/20 hover:bg-red-600 text-red-500 hover:text-black border border-red-600/60 p-1.5 transition-colors clip-corner-sm"
               >
-                <Trash2 size={16} />
+                <Trash2 size={14} />
               </button>
             )}
             <button
               onClick={copyLink}
               title="Copiar link da arma"
-              className="bg-tech-primary/10 hover:bg-tech-primary text-tech-primary hover:text-black border border-tech-primary p-2 transition-colors uppercase text-xs font-bold tracking-widest flex items-center clip-corner-sm"
+              className="bg-tech-primary/10 hover:bg-tech-primary text-tech-primary hover:text-black border border-tech-primary/60 p-1.5 transition-colors clip-corner-sm"
             >
-              {linkCopied ? <span className="text-[10px]">Copiado!</span> : <Share2 size={16} />}
+              {linkCopied ? <span className="text-[10px] px-0.5">Copiado!</span> : <Share2 size={14} />}
             </button>
             <button
               onClick={onClose}
-              className="bg-red-900/20 hover:bg-red-500 text-red-500 hover:text-black border border-red-500 p-2 transition-colors uppercase text-xs font-bold tracking-widest flex items-center clip-corner-sm"
+              title="Fechar"
+              className="bg-red-900/20 hover:bg-red-500 text-red-500 hover:text-black border border-red-500/60 p-1.5 transition-colors clip-corner-sm"
             >
-              <X size={18} />
+              <X size={14} />
             </button>
           </div>
         </div>
 
-        {/* Top System Bar */}
-        <div className="h-8 bg-black/90 border-b border-tech-border flex items-center justify-between px-4 text-[10px] text-tech-primary/60 uppercase shrink-0">
-          <span className="flex items-center gap-2">
-            <Shield size={10} /> ARSENAL_DB // REGISTRO #{item.id.toString().padStart(4, '0')}
-          </span>
-          <span className="flex items-center gap-2">
-            <Scan size={10} className="animate-pulse" /> SECURE_CHANNEL
-          </span>
-        </div>
+        {/* É ESTE div que rola, e a coluna da esquerda é `sticky` dentro dele. Sticky não estica, e
+            `items-start` impede que qualquer coluna seja alongada — que era a raiz do retângulo
+            preto embaixo da arte: a coluna crescia até a altura da direita e a arte 1:1 não. */}
+        <div className="flex-1 min-h-0 overflow-y-auto scrollbar-custom">
+          <div className="flex flex-col lg:flex-row lg:items-start">
 
-        {/* Main Content */}
-        <div className="flex-1 overflow-y-auto lg:overflow-hidden scrollbar-custom">
-          <div className="flex flex-col lg:flex-row min-h-full lg:h-full">
+            {/* ================= a arte, o nome e as formas ================= */}
+            <div className="lg:w-[420px] shrink-0 lg:sticky lg:top-0 p-5 lg:pr-6 flex flex-col gap-3">
+              <div className="border border-tech-border bg-black">
+                {/* 1:1 é o padrão 1080x1080 de todo o arsenal, então `cover` preenche exato: sem
+                    faixa preta e sem recortar desenho. */}
+                <div className="relative aspect-square overflow-hidden group">
+                  <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.08)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none z-20" />
+                  <div className="absolute top-0 left-0 w-full h-px bg-tech-primary/60 shadow-[0_0_10px_#00ff41] animate-[scanline_4s_linear_infinite] pointer-events-none z-20 opacity-60" />
+                  <div className="absolute top-2.5 left-2.5 w-4 h-4 border-t border-l border-tech-primary/60 z-20" />
+                  <div className="absolute top-2.5 right-2.5 w-4 h-4 border-t border-r border-tech-primary/60 z-20" />
+                  <div className="absolute bottom-2.5 left-2.5 w-4 h-4 border-b border-l border-tech-primary/60 z-20" />
+                  <div className="absolute bottom-2.5 right-2.5 w-4 h-4 border-b border-r border-tech-primary/60 z-20" />
 
-            {/* Left: Image Panel — fica parado; só o painel da direita rola (telas grandes) */}
-            <div className="lg:w-[45%] border-r border-tech-border flex flex-col bg-tech-panel/20 relative shrink-0">
-              <div className="p-2 border-b border-tech-border text-[10px] flex justify-between text-tech-primary/50">
-                <span>VISUAL_DATA_BLOCK</span>
-                <span>RES: HD</span>
+                  {displayImage && !imgError ? (
+                    <img
+                      src={formatImageUrl(displayImage)}
+                      alt={displayName}
+                      onError={() => setImgError(true)}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-striped-pattern opacity-50">
+                      <Lock size={36} className="text-tech-dim animate-pulse" />
+                      <span className="text-[9px] uppercase tracking-[0.2em] text-tech-primary/30">arte pendente</span>
+                    </div>
+                  )}
+                </div>
+
+                {/* a placa fica DENTRO do mesmo quadro da arte, como legenda de pôster */}
+                <div className="border-t border-tech-border bg-tech-panel/60 px-4 py-3 flex items-start gap-3">
+                  <span className={`w-1 self-stretch shrink-0 ${classStyle.bg}`} />
+                  <h2 className="flex-1 min-w-0 text-[23px] leading-[1.05] font-black text-white uppercase tracking-wide break-words">
+                    {displayName}
+                  </h2>
+                  <span className={`shrink-0 text-black text-[13px] font-black px-2.5 py-1 leading-none clip-corner-sm ${classStyle.bg}`}>
+                    {item.classification}
+                  </span>
+                </div>
               </div>
 
-              {/* Proporção fixa 1:1 (padrão 1080x1080 de todo o arsenal) */}
-              <div className="relative w-full aspect-square bg-black overflow-hidden group">
-                {/* Grid overlay */}
-                <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.08)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none z-20" />
-
-                {/* Scanline */}
-                <div className="absolute top-0 left-0 w-full h-1 bg-tech-primary/50 shadow-[0_0_10px_#00ff41] animate-[scanline_3s_linear_infinite] pointer-events-none z-30 opacity-50" />
-
-                {/* LIVE badge */}
-                <div className="absolute top-3 right-3 text-[10px] bg-red-600 text-black px-1.5 font-bold z-20 animate-pulse">LIVE</div>
-
-                {/* Corner targets */}
-                <div className="absolute top-3 left-3 w-4 h-4 border-t-2 border-l-2 border-tech-primary z-20 opacity-60" />
-                <div className="absolute bottom-3 right-3 w-4 h-4 border-b-2 border-r-2 border-tech-primary z-20 opacity-60" />
-
-                {displayImage && !imgError ? (
-                  <img
-                    src={formatImageUrl(displayImage)}
-                    alt={displayName}
-                    onError={() => setImgError(true)}
-                    className="w-full h-full object-cover transition-all duration-700 group-hover:scale-[1.02]"
-                  />
-                ) : (
-                  <div className="w-full h-full flex flex-col items-center justify-center text-tech-dim">
-                    <Lock size={48} className="mb-2 animate-pulse" />
-                    <span className="text-xs">NO_SIGNAL</span>
+              {/* As formas trocam nome, arte e descrição da tela toda. Só 2 das 87 armas têm, e
+                  antes elas ocupavam uma linha da barra de topo nas outras 85 — aqui ficam ao lado
+                  do que mudam. */}
+              {item.variants && item.variants.length > 0 && (
+                <div className="border border-tech-border/60 bg-tech-panel/30 p-3 flex flex-col gap-2">
+                  <span className="text-[9px] uppercase tracking-[0.16em] text-tech-primary/50">Formas desta arma</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    <button
+                      type="button"
+                      onClick={() => setSelectedVariant(null)}
+                      className={`px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-wide border transition-colors clip-corner-sm ${selectedVariant === null
+                        ? 'bg-tech-primary text-black border-tech-primary'
+                        : 'bg-black/60 text-tech-primary/70 border-tech-border hover:border-tech-primary/50'}`}
+                    >
+                      {item.name}
+                    </button>
+                    {item.variants.map((v, i) => (
+                      <button
+                        key={i}
+                        type="button"
+                        onClick={() => setSelectedVariant(i)}
+                        className={`px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-wide border transition-colors clip-corner-sm ${selectedVariant === i
+                          ? 'bg-tech-accent text-black border-tech-accent'
+                          : 'bg-black/60 text-tech-accent/70 border-tech-border hover:border-tech-accent/50'}`}
+                      >
+                        {v.name}
+                      </button>
+                    ))}
                   </div>
-                )}
-              </div>
+                </div>
+              )}
             </div>
 
-            {/* Right: Data Panel — rola sozinho em telas grandes, sem mexer na imagem */}
-            <div className="lg:w-[55%] flex flex-col bg-tech-bg relative lg:h-full lg:overflow-y-auto scrollbar-custom">
-              {/* HUD Scanlines */}
-              <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.015)_1px,transparent_1px)] bg-[size:100%_4px] pointer-events-none opacity-60 z-0" />
+            {/* ================= os dados ================= */}
+            <div className="flex-1 min-w-0 px-5 pb-5 pt-0 lg:pt-5 lg:pl-0 flex flex-col gap-4">
+              {grade([
+                { rotulo: 'Origem', cor: 'text-tech-primary/50', valor: item.origin || '—' },
+                ...(item.nature ? [{ rotulo: 'Natureza & Composição', cor: 'text-tech-accent/70', valor: item.nature }] : []),
+              ])}
 
-              <div className="p-6 md:p-8 space-y-6 relative z-10">
-                
-                {/* Identification Block */}
-                <div className="border border-tech-border bg-black p-5 relative">
-                  <div className="absolute -top-3 left-4 bg-tech-bg px-2 text-tech-primary text-xs font-bold flex items-center gap-1.5">
-                    <Hexagon size={10} /> IDENTIFICAÇÃO
-                  </div>
-
-                  <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
-                    <div className="space-y-1.5 flex-1">
-                      <span className="text-[9px] font-black text-tech-primary/50 uppercase tracking-widest flex items-center gap-2">
-                        <Binary size={10} /> Registro Único
-                      </span>
-                      <h2 className="text-2xl md:text-3xl font-black text-white uppercase tracking-tighter leading-tight text-glow">
-                        {displayName}
-                      </h2>
-                    </div>
-
-                    {/* Classification Badge */}
-                    <div className="flex flex-col items-start md:items-end shrink-0">
-                      <span className="text-[8px] text-tech-primary/40 font-bold uppercase mb-1.5 tracking-wider">Classificação</span>
-                      <div className={`relative ${classStyle.bg} text-black px-6 py-2 text-xl font-black uppercase ${classStyle.glow} clip-corner-sm border-r-4 border-black/20 flex items-center justify-center min-w-[70px]`}>
-                        {item.classification}
-                        {/* Glitch flicker */}
-                        <div className="absolute inset-0 bg-white/10 opacity-0 hover:opacity-100 transition-opacity duration-100 pointer-events-none animate-flicker" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Technical Specs Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {/* Origin */}
-                  <div className="space-y-2 p-4 bg-white/5 border-l-2 border-tech-primary/40 group/spec hover:bg-white/[0.07] transition-colors">
-                    <span className="text-[10px] text-tech-primary font-black uppercase flex items-center gap-2 tracking-wider">
-                      <Globe size={14} /> Origem
-                    </span>
-                    <p className="text-sm text-slate-200 font-mono leading-relaxed pl-5">
-                      {item.origin}
-                    </p>
-                  </div>
-
-                  {/* Nature */}
-                  <div className="space-y-2 p-4 bg-white/5 border-l-2 border-tech-accent/40 group/spec hover:bg-white/[0.07] transition-colors">
-                    <span className="text-[10px] text-tech-accent font-black uppercase flex items-center gap-2 tracking-wider">
-                      <Zap size={14} /> Natureza & Composição
-                    </span>
-                    <p className="text-sm text-slate-200 font-mono leading-relaxed pl-5">
-                      {item.nature}
-                    </p>
-                  </div>
-                </div>
-
-                {/* Description */}
-                <div className="relative group/desc">
-                  <div className="absolute -top-2 left-4 bg-black px-2 text-[9px] font-black text-tech-accent/60 border border-tech-accent/20 z-20">
-                    ESPECIFICAÇÕES_TÉCNICAS.LOG
-                  </div>
-                  <div className="bg-tech-panel/60 border border-tech-accent/10 p-5 pt-6 group-hover/desc:border-tech-accent/30 transition-colors relative overflow-hidden">
-                    {/* Subtle animated scan */}
-                    <div className="absolute inset-0 bg-gradient-to-b from-tech-primary/[0.02] to-transparent animate-[scanline_6s_linear_infinite] pointer-events-none" />
-                    
-                    <div className="flex items-start gap-3">
-                      <Crosshair size={14} className="text-tech-accent/40 shrink-0 mt-1" />
-                      <p className="text-[12px] text-slate-300 font-mono leading-relaxed text-justify first-letter:text-lg first-letter:font-black first-letter:text-tech-accent first-letter:mr-1">
-                        {displayDescription || "ARQUIVO CORROMPIDO OU INEXISTENTE. DADOS NÃO DISPONÍVEIS PARA LEITURA."}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Posse. Numa variação selecionada, é só "quem manifesta essa forma" (não
-                    é uma cadeia de posse sequencial) — mostra um bloco único e simples.
-                    Na arma-base, mantém Original / Antigos / Atual (o "Atual" calculado
-                    automaticamente a partir de quem lista essa arma no `character.arsenal`,
-                    não do texto digitado — assim nunca fica desatualizado). */}
-                {activeVariant ? (
-                  <div className="space-y-2 p-4 bg-black/40 border border-tech-border">
-                    <span className="text-[10px] text-tech-accent font-black uppercase flex items-center gap-2 tracking-wider">
-                      <Crosshair size={14} /> Portador desta variação
-                    </span>
-                    <div className="pl-5 flex flex-wrap gap-2">
-                      {displayOwnerChar ? (
-                        <button onClick={() => goToCharacter(displayOwnerChar)}
-                          className="inline-flex items-center gap-1 px-2 py-1 text-xs font-mono text-tech-accent border border-tech-accent/40 bg-tech-accent/5 hover:bg-tech-accent hover:text-black transition-colors">
-                          {displayOwnerChar.name} <ExternalLink size={11} />
-                        </button>
-                      ) : (
-                        <p className="text-sm text-slate-300 font-mono">{activeVariant.owner || '—'}</p>
-                      )}
-                    </div>
-                  </div>
-                ) : (() => {
-                  const currentHolders = characters.filter(c => (c.arsenal || []).includes(item.id));
-                  const currentFallback = currentHolders.length === 0 ? resolveCharByName(item.currentOwner) : null;
-                  const currentList = currentHolders.length > 0 ? currentHolders : (currentFallback ? [currentFallback] : []);
-                  const currentNameSet = new Set(currentList.map(c => c.name.trim().toLowerCase()));
-                  if (currentList.length === 0 && item.currentOwner) currentNameSet.add(item.currentOwner.trim().toLowerCase());
-
-                  // O portador original já conta como "antigo" automaticamente, contanto que
-                  // não seja também quem tem a arma hoje — não precisa registrar duas vezes.
-                  const pastNames = [
-                    ...(item.originalOwner && !currentNameSet.has(item.originalOwner.trim().toLowerCase()) ? [item.originalOwner] : []),
-                    ...(item.pastOwners ?? []),
-                  ];
-
-                  const renderName = (name: string, key: React.Key, colorClass: string, borderClass: string, bgClass: string) => {
-                    const c = resolveCharByName(name);
-                    return c ? (
-                      <button key={key} onClick={() => goToCharacter(c)}
-                        className={`inline-flex items-center gap-1 px-2 py-1 text-xs font-mono ${colorClass} border ${borderClass} ${bgClass} hover:bg-current hover:text-black transition-colors`}>
-                        {c.name} <ExternalLink size={11} />
-                      </button>
-                    ) : (
-                      <span key={key} className="px-2 py-1 text-xs font-mono text-slate-300 border border-tech-border">{name}</span>
-                    );
-                  };
-
-                  return (
-                    <div className="grid grid-cols-1 gap-3">
-                      {/* Portador Original */}
-                      <div className="space-y-2 p-4 bg-black/40 border border-tech-border group/spec hover:border-sky-500/30 transition-colors">
-                        <span className="text-[10px] text-sky-400 font-black uppercase flex items-center gap-2 tracking-wider">
-                          <Hexagon size={14} /> Portador Original
-                        </span>
-                        <div className="pl-5 flex flex-wrap gap-2">
-                          {item.originalOwner
-                            ? renderName(item.originalOwner, 'original', 'text-sky-400', 'border-sky-500/40', 'bg-sky-500/5')
-                            : <p className="text-sm text-slate-300 font-mono">—</p>}
-                        </div>
-                      </div>
-
-                      {/* Portadores Antigos */}
-                      <div className="space-y-2 p-4 bg-black/40 border border-tech-border group/spec hover:border-yellow-500/30 transition-colors">
-                        <span className="text-[10px] text-yellow-500 font-black uppercase flex items-center gap-2 tracking-wider">
-                          <History size={14} /> Portadores Antigos
-                        </span>
-                        <div className="pl-5 flex flex-wrap gap-2">
-                          {pastNames.length > 0
-                            ? pastNames.map((name, i) => renderName(name, i, 'text-yellow-400', 'border-yellow-500/40', 'bg-yellow-500/5'))
-                            : <p className="text-sm text-slate-300 font-mono">—</p>}
-                        </div>
-                      </div>
-
-                      {/* Portador Atual (automático) */}
-                      <div className="space-y-2 p-4 bg-black/40 border border-tech-border group/spec hover:border-tech-primary/30 transition-colors">
-                        <span className="text-[10px] text-tech-primary font-black uppercase flex items-center gap-2 tracking-wider">
-                          <Crosshair size={14} /> Portador Atual
-                        </span>
-                        <div className="pl-5 flex flex-wrap gap-2">
-                          {currentList.length > 0 ? (
-                            currentList.map(c => (
-                              <button key={c.docId ?? c.id} onClick={() => goToCharacter(c)}
-                                className="inline-flex items-center gap-1 px-2 py-1 text-xs font-mono text-tech-primary border border-tech-primary/40 bg-tech-primary/5 hover:bg-tech-primary hover:text-black transition-colors">
-                                {c.name} <ExternalLink size={11} />
-                              </button>
-                            ))
-                          ) : (
-                            <p className="text-sm text-slate-300 font-mono">{item.currentOwner || '—'}</p>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })()}
-
-                {/* Bottom status */}
-                <div className="flex items-center justify-between text-[9px] text-tech-primary/30 uppercase pt-2 border-t border-tech-border/30">
-                  <span className="flex items-center gap-1.5">
-                    <div className="w-1.5 h-1.5 bg-tech-primary rounded-full animate-pulse" />
-                    DADOS VERIFICADOS
-                  </span>
-                  <span>ARSENAL_DB v2.0.5</span>
-                </div>
+              <div className="flex flex-col gap-2">
+                <span className="text-[9px] uppercase tracking-[0.22em] text-tech-primary/50">Especificações Técnicas</span>
+                {/* alinhada à esquerda: justificar fonte monoespaçada abre buracos entre as
+                    palavras, que era o que se via no texto da Sōen no Kage */}
+                <p className="text-[14px] text-slate-300 leading-[1.75] whitespace-pre-line">
+                  {displayDescription || (
+                    <span className="text-[11px] uppercase tracking-[0.18em] text-tech-primary/25">descrição ainda não escrita</span>
+                  )}
+                </p>
               </div>
+
+              {/* Numa forma selecionada é só "quem manifesta esta forma" — não é cadeia de posse.
+                  Na arma-base, a mesma regra das invocações: Atual, Passados, Original. O atual é
+                  calculado de quem lista a arma no `character.arsenal`, não do campo digitado,
+                  então nunca fica desatualizado. */}
+              {activeVariant ? (
+                grade([{
+                  rotulo: 'Portador desta forma',
+                  cor: 'text-tech-accent/70',
+                  valor: displayOwnerChar
+                    ? <div className="flex flex-wrap gap-1.5">{chip(displayOwnerChar.name, 'forma', 'text-tech-accent', 'border-tech-accent/40', 'bg-tech-accent/5')}</div>
+                    : (activeVariant.owner || '—'),
+                }])
+              ) : (() => {
+                const currentHolders = characters.filter(c => (c.arsenal || []).includes(item.id));
+                const currentFallback = currentHolders.length === 0 ? resolveCharByName(item.currentOwner) : null;
+                const currentList = currentHolders.length > 0 ? currentHolders : (currentFallback ? [currentFallback] : []);
+                const currentNameSet = new Set(currentList.map(c => c.name.trim().toLowerCase()));
+                if (currentList.length === 0 && item.currentOwner) currentNameSet.add(item.currentOwner.trim().toLowerCase());
+
+                // O portador original já conta como "passado" automaticamente, contanto que não
+                // seja também quem tem a arma hoje — não precisa registrar duas vezes.
+                const pastNames = [
+                  ...(item.originalOwner && !currentNameSet.has(item.originalOwner.trim().toLowerCase()) ? [item.originalOwner] : []),
+                  ...(item.pastOwners ?? []),
+                ];
+
+                const linha = (itens: React.ReactNode[]) => (
+                  itens.length ? <div className="flex flex-wrap gap-1.5">{itens}</div> : <span className="text-slate-500 italic">—</span>
+                );
+
+                return grade([
+                  {
+                    rotulo: 'Portador Atual',
+                    cor: 'text-tech-primary/60',
+                    valor: currentList.length
+                      ? linha(currentList.map(c => chip(c.name, c.docId ?? c.id, 'text-tech-primary', 'border-tech-primary/40', 'bg-tech-primary/5')))
+                      : (item.currentOwner
+                        ? linha([chip(item.currentOwner, 'atual', 'text-tech-primary', 'border-tech-primary/40', 'bg-tech-primary/5')])
+                        : <span className="text-slate-500 italic">sem portador</span>),
+                  },
+                  {
+                    rotulo: 'Portadores Passados',
+                    cor: 'text-yellow-500/80',
+                    valor: linha(pastNames.map((n, i) => chip(n, i, 'text-yellow-400', 'border-yellow-500/40', 'bg-yellow-500/5'))),
+                  },
+                  {
+                    rotulo: 'Portador Original',
+                    cor: 'text-sky-400/80',
+                    valor: item.originalOwner
+                      ? linha([chip(item.originalOwner, 'original', 'text-sky-400', 'border-sky-500/40', 'bg-sky-500/5')])
+                      : <span className="text-slate-500 italic">—</span>,
+                  },
+                ]);
+              })()}
             </div>
           </div>
         </div>
