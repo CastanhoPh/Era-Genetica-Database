@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { ListChecks, CheckSquare, Square, Clock, ChevronDown, Search, Radio, Pencil, X, Trash2, ChevronUp, Plus, Check, Lock, LayoutGrid, Image as ImageIcon, Sparkles, Shield, Scroll } from 'lucide-react';
 import { subscribeChecklist, setChecklistItemDone, updateChecklistItem, addChecklistItem, deleteChecklistItem, renameChecklistItem, setCapaDoPersonagem, pastaDoRetrato, CHECKLIST_BLOCOS } from '../data/firestore';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem, Character } from '../types';
 import ImageUploadButton from '../components/ImageUploadButton';
+import BotaoDeLink from '../components/BotaoDeLink';
 
 const countable = (items: ChecklistItem[]) => items.filter(i => !i.placeholder);
 const doneCount = (items: ChecklistItem[]) => countable(items).filter(i => i.done).length;
@@ -32,13 +34,50 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
   const [items, setItems] = useState<ChecklistItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [expandedTemporadas, setExpandedTemporadas] = useState<Set<string>>(new Set());
-  const [expandedArcos, setExpandedArcos] = useState<Set<string>>(new Set());
   const [pending, setPending] = useState<Set<string>>(new Set());
   const [editMode, setEditMode] = useState(false);
-  const [activeFilter, setActiveFilter] = useState<'none' | 'pendentes' | 'sem-galeria'>('none');
-  const [activeType, setActiveType] = useState<'evento' | 'timeline' | 'capa' | 'transformacao' | 'invocacao' | 'capaInvocacao' | 'arsenal' | 'tecnica' | 'geral'>('geral');
+
+  // A VISÃO DA TELA VIVE NA QUERY STRING — aba, grupos abertos, arcos abertos, filtro e busca.
+  // A URL da barra de endereço já é, então, o link que abre a tela exatamente como está: sem isso,
+  // quem recebe cai no Geral com tudo fechado e precisa achar o grupo certo no meio de 103
+  // personagens. Mesma escolha das três listas públicas.
+  const [params, setParams] = useSearchParams();
+
+  const escreva = (mudancas: Record<string, string | null>) => {
+    const p = new URLSearchParams(params);
+    for (const [chave, valor] of Object.entries(mudancas)) {
+      if (!valor) p.delete(chave); else p.set(chave, valor);
+    }
+    // `replace`: abrir e fechar grupo não é navegação. Sem isso o "voltar" do navegador teria que
+    // desfazer clique por clique antes de sair da tela.
+    setParams(p, { replace: true });
+  };
+
+  // O `~` separa as chaves: conferi os 689 valores distintos de temporada/arco/subarco e nenhum
+  // usa til.
+  const SEPARADOR = '~';
+  const conjuntoDe = (chave: string) => new Set((params.get(chave) ?? '').split(SEPARADOR).filter(Boolean));
+
+  const TIPOS = ['geral', 'evento', 'timeline', 'transformacao', 'capa', 'invocacao', 'capaInvocacao', 'arsenal', 'tecnica'] as const;
+  type TipoDeAba = typeof TIPOS[number];
+  const abaDaUrl = params.get('aba') as TipoDeAba | null;
+  const activeType: TipoDeAba = abaDaUrl && TIPOS.includes(abaDaUrl) ? abaDaUrl : 'geral';
+  // Trocar de aba fecha o que estava aberto na anterior — as chaves de grupo de uma aba não
+  // querem dizer nada na outra.
+  const setActiveType = (tipo: TipoDeAba) =>
+    escreva({ aba: tipo === 'geral' ? null : tipo, abertos: null, arcos: null });
+
+  const FILTROS = ['none', 'pendentes', 'sem-galeria'] as const;
+  type FiltroAtivo = typeof FILTROS[number];
+  const filtroDaUrl = params.get('filtro') as FiltroAtivo | null;
+  const activeFilter: FiltroAtivo = filtroDaUrl && FILTROS.includes(filtroDaUrl) ? filtroDaUrl : 'none';
+  const setActiveFilter = (f: FiltroAtivo) => escreva({ filtro: f === 'none' ? null : f });
+
+  const searchTerm = params.get('busca') ?? '';
+  const setSearchTerm = (termo: string) => escreva({ busca: termo || null });
+
+  const expandedTemporadas = conjuntoDe('abertos');
+  const expandedArcos = conjuntoDe('arcos');
 
   // formulários de "adicionar" abertos (chave = temporada, temporada::arco, ou temporada::arco::subarco)
   const [addingTemporada, setAddingTemporada] = useState(false);
@@ -60,12 +99,12 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
     if (!canEdit) setEditMode(false);
   }, [canEdit]);
 
-  // Trocar de aba fecha formulários/expansões abertos da aba anterior, pra não misturar estado.
-  // Busca e filtro (Feitas/Pendentes/sem-galeria) continuam iguais — trocar de Eventos pra
-  // Linha do Tempo não deve apagar o que já foi digitado nem desmarcar o filtro ativo.
+  // Trocar de aba fecha os formulários de "adicionar" da aba anterior. Quem fecha os grupos
+  // abertos é o `setActiveType`, que limpa `abertos` e `arcos` na própria URL — aqui sobrou só o
+  // estado de formulário, que não é compartilhável e não entra na query.
+  // Busca e filtro continuam iguais de propósito: trocar de Eventos pra Linha do Tempo não deve
+  // apagar o que já foi digitado nem desmarcar o filtro ativo.
   useEffect(() => {
-    setExpandedTemporadas(new Set());
-    setExpandedArcos(new Set());
     setAddingTemporada(false);
     setAddingArcoFor(null);
     setAddingItemFor(null);
@@ -239,10 +278,10 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
   }, [typedItems]);
   const PEOPLE_ORDER = ['Pedro', 'Liu', 'Zeck'];
 
-  const toggleArcKey = (set: Set<string>, setter: (s: Set<string>) => void, key: string) => {
+  const toggleArcKey = (chave: 'abertos' | 'arcos', set: Set<string>, key: string) => {
     const next = new Set(set);
     if (next.has(key)) next.delete(key); else next.add(key);
-    setter(next);
+    escreva({ [chave]: [...next].join(SEPARADOR) || null });
   };
 
   const withPending = async (docId: string, fn: () => Promise<void>) => {
@@ -492,7 +531,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <button
             type="button"
-            onClick={() => setActiveFilter(f => f === 'pendentes' ? 'none' : 'pendentes')}
+            onClick={() => setActiveFilter(activeFilter === 'pendentes' ? 'none' : 'pendentes')}
             title="Mostrar só as imagens que faltam ser feitas"
             className={`text-left border p-4 transition-all ${activeFilter === 'pendentes' ? 'border-tech-primary bg-tech-primary/10' : 'border-tech-border bg-tech-panel/30 hover:border-tech-primary/50'}`}
           >
@@ -507,7 +546,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
           </button>
           <button
             type="button"
-            onClick={() => setActiveFilter(f => f === 'sem-galeria' ? 'none' : 'sem-galeria')}
+            onClick={() => setActiveFilter(activeFilter === 'sem-galeria' ? 'none' : 'sem-galeria')}
             title="Mostrar imagens feitas mas ainda não anexadas na Galeria"
             className={`text-left border p-4 transition-all ${activeFilter === 'sem-galeria' ? 'border-tech-primary bg-tech-primary/10' : 'border-tech-border bg-tech-panel/30 hover:border-tech-primary/50'}`}
           >
@@ -534,6 +573,10 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
             className="bg-transparent border-none outline-none text-tech-primary w-full ml-2 placeholder:text-tech-dim uppercase text-xs"
           />
         </div>
+
+        {/* a URL já carrega aba, grupos abertos, filtro e busca — o botão só evita a viagem até a
+            barra de endereço */}
+        <BotaoDeLink oQue="desta tela do checklist" />
 
         {/* Sete filtros de tipo agora. Sem o scroll eles se comprimiam no celular e rótulos como
             "Linha do Tempo" e "Capas de Personagens" quebravam dentro do próprio botão. */}
@@ -702,7 +745,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
                 <div className="w-full flex items-center justify-between gap-3 px-4 py-3 hover:bg-tech-primary/5 transition-colors">
                   <button
                     type="button"
-                    onClick={() => toggleArcKey(expandedTemporadas, setExpandedTemporadas, group.temporada)}
+                    onClick={() => toggleArcKey('abertos', expandedTemporadas, group.temporada)}
                     className="flex items-center gap-3 min-w-0 flex-1"
                   >
                     <ChevronDown size={16} className={`text-tech-primary shrink-0 transition-transform ${temporadaOpen ? '' : '-rotate-90'}`} />
@@ -763,7 +806,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
                         <div key={arco.arco} className="border border-tech-border/60 bg-black/30">
                           <button
                             type="button"
-                            onClick={() => toggleArcKey(expandedArcos, setExpandedArcos, arcoKey)}
+                            onClick={() => toggleArcKey('arcos', expandedArcos, arcoKey)}
                             className="w-full flex items-center justify-between gap-3 px-3 py-2 hover:bg-tech-primary/5 transition-colors"
                           >
                             <div className="flex items-center gap-2 min-w-0">
