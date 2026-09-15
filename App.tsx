@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef, lazy, Suspense } from 'react';
 import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { Plus, Search, Terminal, Cpu, Database, ChevronRight, Skull, Filter, ChevronDown, Award, Power, Radio, Shield, Lock, LogOut, LayoutDashboard, ListChecks, Images, Sparkles, Hourglass } from 'lucide-react';
 import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, saveEquipment, deleteEquipment, slugify } from './data/firestore';
@@ -159,17 +159,23 @@ export default function App() {
     const [editingEquipment, setEditingEquipment] = useState<Equipment | null>(null);
     const { user, isAdmin, isChecklistEditor, ehTakeshi, authReady, login, logout } = useAuth();
 
-    // O aviso do Hiroshi Hanzo dispara UMA vez por sessão do navegador: entrar mostra, recarregar
-    // a página no meio da leitura não mostra de novo, e abrir noutro dia mostra outra vez.
+    // O aviso do Hiroshi Hanzo dispara TODA vez que o Takeshi entra.
+    //
+    // A primeira versão guardava um "já vi" na sessão do navegador, e com isso deslogar e logar de
+    // novo na mesma aba não mostrava nada — foi o que o Pedro pegou. Agora o gatilho é a TROCA de
+    // usuário: guardo o uid anterior e disparo quando ele passa a ser o do Takeshi. Assim vale
+    // para login, para troca de conta e para abrir o site já logado, e não repete enquanto ele
+    // navega pelo site.
     const [aviso, setAviso] = useState(false);
+    const uidAnterior = useRef<string | null | undefined>(undefined);
     useEffect(() => {
-        if (!ehTakeshi) return;
-        try {
-            if (sessionStorage.getItem('aviso-hanzo') === 'visto') return;
-            sessionStorage.setItem('aviso-hanzo', 'visto');
-        } catch { /* janela anônima ou storage bloqueado: mostra assim mesmo */ }
-        setAviso(true);
-    }, [ehTakeshi]);
+        if (!authReady) return;
+        const uid = user?.uid ?? null;
+        if (uid !== uidAnterior.current) {
+            uidAnterior.current = uid;
+            if (ehTakeshi) setAviso(true);
+        }
+    }, [authReady, user, ehTakeshi]);
     // Chave = id+URL da imagem (não só o id), pra que uma correção de URL feita no Painel
     // "esqueça" o erro antigo automaticamente, sem precisar de F5.
     const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({});
