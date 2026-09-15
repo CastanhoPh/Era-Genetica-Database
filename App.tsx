@@ -352,6 +352,141 @@ export default function App() {
         return q ? `${caminho}?${q}` : caminho;
     };
 
+    /**
+     * O cartão de uma ficha na grade. É função, e não JSX solto dentro do `map`, porque a lista
+     * tem DUAS grades desde 15/09/2026 — as fichas e os registros históricos — e duplicar a
+     * marcação seria garantir que as duas divergissem na primeira mudança.
+     */
+    const cartaoDeFicha = (char: Character, index: number) => (
+                                <div
+                                    key={char.docId ?? char.id}
+                                    onClick={() => openCharacter(char)}
+                                    role="button"
+                                    tabIndex={0}
+                                    onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openCharacter(char); } }}
+                                    className={`group relative border bg-black/50 transition-all duration-300 cursor-pointer overflow-hidden flex flex-col h-full opacity-0 animate-fade-in-up hover:-translate-y-1 hover:shadow-[0_10px_30px_-10px_rgba(0,0,0,0.5)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-tech-primary ${char.isDead
+                                            ? 'border-red-900/30 hover:border-red-500 hover:shadow-[0_0_20px_rgba(220,38,38,0.2)]'
+                                            : 'border-tech-border hover:bg-tech-panel/50 hover:border-tech-primary hover:shadow-[0_0_20px_rgba(0,255,65,0.15)]'
+                                        }`}
+                                    style={{ animationDelay: `${Math.min(index * 50, 1000)}ms` }}
+                                >
+                                    {/* Header Strip */}
+                                    <div className="h-6 bg-tech-dim/30 border-b border-tech-border flex justify-between items-center px-2 text-[10px] text-tech-primary font-mono shrink-0 group-hover:bg-tech-primary/10 transition-colors">
+                                        <span>ID: {char.id.toString().padStart(4, '0')}</span>
+                                        {/* Always show NC, but color red if dead */}
+                                        <span className="flex items-center gap-2">
+                                            {char.registro === 'historico' && (
+                                                <span className="text-tech-secondary" title="Registro histórico: apareceu antes da 1ª Temporada e não tem ficha de combate">HISTÓRICO</span>
+                                            )}
+                                            <span className={char.isDead ? 'text-red-500 font-bold' : ''}>NC: {char.nc}</span>
+                                        </span>
+                                    </div>
+
+                                    {/* Image Area - Fixed Height for Consistency */}
+                                    <div className="h-[250px] relative overflow-hidden bg-tech-dim/10 border-b border-tech-border shrink-0 card-zoom-container">
+                                        {/* Overlay Grid */}
+                                        <div className="absolute inset-0 z-10 bg-[linear-gradient(transparent_2px,rgba(0,0,0,0.5)_3px)] bg-[size:100%_4px] pointer-events-none opacity-20"></div>
+
+                                        {/* Animated Border on Hover */}
+                                        <div className={`absolute inset-0 z-10 border-2 border-transparent transition-colors pointer-events-none m-1 ${char.isDead ? 'group-hover:border-red-900/60' : 'group-hover:border-tech-primary/60'}`}></div>
+
+                                        {/* Dead Banner */}
+                                        {char.isDead && (
+                                            <div className="absolute top-4 -right-10 bg-red-600 text-black font-black text-[9px] py-1 w-32 text-center rotate-45 z-30 border border-black shadow-[0_0_10px_rgba(255,0,0,0.6)] tracking-widest">
+                                                MORTO
+                                            </div>
+                                        )}
+
+                                        {/* Selo de patente sobre o pé da arte. Estava na linha do título, disputando largura com
+                                            ele — e em 23 das 82 fichas com selo os dois não cabiam, então o título perdia o fim.
+                                            Aqui cada um tem a linha inteira e nenhum é cortado. O fundo opaco é obrigatório: o
+                                            selo pousa sobre arte de qualquer cor. z-30 para ficar acima da grade de varredura. */}
+                                        {(() => {
+                                            const selo = seloDoContexto(char, selectedCategory, selectedPosition);
+                                            if (!selo.texto) return null;
+                                            // A cor vem da aba de onde o posto veio, não mais de "tem patente?":
+                                            // com o selo mudando de posto, a cor tem que acompanhar.
+                                            const cor = (selo.aba ? (CORES_DE_VILA[selo.aba] ?? CORES_DE_ORG[selo.aba]) : undefined) ?? corDoSelo(char);
+                                            return (
+                                                <span className={`absolute bottom-2 left-2 z-30 text-[10px] uppercase tracking-wide px-1.5 py-px border max-w-[calc(100%-1rem)] truncate bg-black/85 backdrop-blur-sm ${cor.borda} ${cor.texto}`}>
+                                                    {selo.texto}
+                                                </span>
+                                            );
+                                        })()}
+
+                                        {/* Corner Targets */}
+                                        {!char.isDead && (
+                                            <>
+                                                <div className="absolute top-2 left-2 w-2 h-2 border-t border-l border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                                <div className="absolute top-2 right-2 w-2 h-2 border-t border-r border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                                <div className="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                                <div className="absolute bottom-2 right-2 w-2 h-2 border-b border-r border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                            </>
+                                        )}
+
+                                        {char.image && !imgErrors[`${char.id}:${char.image}`] ? (
+                                            <img
+                                                src={formatImageUrl(char.image)}
+                                                alt={char.name}
+                                                loading="lazy"
+                                                decoding="async"
+                                                onError={() => handleImageError(char.id, char.image)}
+                                                className={`w-full h-full object-cover transition-all duration-700 ${filtroDaCapa(!!char.isDead, capasColoridas)}`}
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full flex items-center justify-center bg-striped-pattern opacity-50">
+                                                <Cpu size={48} className="text-tech-dim animate-pulse" />
+                                            </div>
+                                        )}
+                                    </div>
+
+                                    {/* Info Footer */}
+                                    <div className="p-3 flex flex-col justify-between flex-1 relative overflow-hidden">
+                                        {/* Background scan for card body on hover */}
+                                        <div className="absolute inset-0 bg-tech-primary/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 pointer-events-none"></div>
+
+                                        <div className="relative z-10">
+                                            <h3 className={`text-lg font-bold uppercase truncate transition-colors text-glow ${char.isDead
+                                                    ? 'text-red-700 decoration-line-through'
+                                                    : 'text-white group-hover:text-tech-primary'
+                                                }`}>
+                                                {char.name}
+                                            </h3>
+                                            {/* O selo saiu daqui para o pé da arte, então o título tem a largura inteira. O truncate
+                                                fica como rede: o título mais longo do banco tem 34 caracteres e cabe, mas em três
+                                                colunas numa tela estreita o card encolhe. */}
+                                            {/* Título é honorífico: ficha sem título não mostra NADA embaixo do nome, nem
+                                                placeholder nem linha vazia — por isso o elemento inteiro sai, não só o texto. */}
+                                            {char.titles?.[0] && (
+                                                <p className="text-xs text-tech-secondary font-bold uppercase truncate mt-1">{char.titles[0]}</p>
+                                            )}
+                                        {/* Só aparece quando a busca casou em algo que NÃO é o nome nem o clã:
+                                            sem isso, procurar "shin" devolvia 20 fichas sem nenhuma pista de por
+                                            quê. O texto é o valor que casou, cru, pra bater com o que foi digitado. */}
+                                        {motivoDe(char) && (
+                                            <p className="text-[10px] text-amber-300/80 uppercase truncate mt-1" title={`Casou com a busca em: ${motivoDe(char)}`}>
+                                                ↳ {motivoDe(char)}
+                                            </p>
+                                        )}
+
+                                            {/* Killer Info on Card */}
+                                            {char.isDead && (
+                                                <div className="mt-2 pt-2 border-t border-red-900/30 flex items-center gap-2 text-[10px] text-red-500 font-bold uppercase">
+                                                    <Skull size={12} className="shrink-0" />
+                                                    <span className="truncate">MORTO POR: {char.killedBy || 'DESCONHECIDO'}</span>
+                                                </div>
+                                            )}
+                                        </div>
+
+                                        <div className="mt-3 flex justify-end relative z-10">
+                                            <span className={`text-[10px] flex items-center gap-1 group-hover:gap-2 transition-all ${char.isDead ? 'text-red-900' : 'text-tech-primary'}`}>
+                                                ACESSAR_DADOS <ChevronRight size={10} />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+    );
+
     // A query vai junto: trocar de categoria não é limpar filtro. Antes eles eram estado e
     // sobreviviam; sem isso, escolher "Konohagakure" apagaria clã, função, era, posto e busca.
     const handleSelectCategory = (category: string) => {
@@ -487,6 +622,12 @@ export default function App() {
             return a.id - b.id;
         });
     }, [escopo, casamentos, termoBusca, sortBy]);
+
+    // As duas grades saem da MESMA lista filtrada, particionada só no fim: assim ordenação, busca
+    // e filtros continuam valendo dentro de cada uma, e uma busca que não casa com nenhum
+    // histórico simplesmente não desenha a segunda seção.
+    const charsAtivos = useMemo(() => filteredCharacters.filter(c => c.registro !== 'historico'), [filteredCharacters]);
+    const charsHistoricos = useMemo(() => filteredCharacters.filter(c => c.registro === 'historico'), [filteredCharacters]);
 
     // Adiciona um personagem novo gravando no Firestore.
     const handleAddCharacter = async (newChar: Character) => {
@@ -899,136 +1040,31 @@ export default function App() {
 
                         {/* Grid with Staggered Animation */}
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                            {filteredCharacters.map((char, index) => (
-                                <div
-                                    key={char.docId ?? char.id}
-                                    onClick={() => openCharacter(char)}
-                                    role="button"
-                                    tabIndex={0}
-                                    onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openCharacter(char); } }}
-                                    className={`group relative border bg-black/50 transition-all duration-300 cursor-pointer overflow-hidden flex flex-col h-full opacity-0 animate-fade-in-up hover:-translate-y-1 hover:shadow-[0_10px_30px_-10px_rgba(0,0,0,0.5)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-tech-primary ${char.isDead
-                                            ? 'border-red-900/30 hover:border-red-500 hover:shadow-[0_0_20px_rgba(220,38,38,0.2)]'
-                                            : 'border-tech-border hover:bg-tech-panel/50 hover:border-tech-primary hover:shadow-[0_0_20px_rgba(0,255,65,0.15)]'
-                                        }`}
-                                    style={{ animationDelay: `${Math.min(index * 50, 1000)}ms` }}
-                                >
-                                    {/* Header Strip */}
-                                    <div className="h-6 bg-tech-dim/30 border-b border-tech-border flex justify-between items-center px-2 text-[10px] text-tech-primary font-mono shrink-0 group-hover:bg-tech-primary/10 transition-colors">
-                                        <span>ID: {char.id.toString().padStart(4, '0')}</span>
-                                        {/* Always show NC, but color red if dead */}
-                                        <span className="flex items-center gap-2">
-                                            {char.registro === 'historico' && (
-                                                <span className="text-tech-secondary" title="Registro histórico: apareceu antes da 1ª Temporada e não tem ficha de combate">HISTÓRICO</span>
-                                            )}
-                                            <span className={char.isDead ? 'text-red-500 font-bold' : ''}>NC: {char.nc}</span>
-                                        </span>
-                                    </div>
-
-                                    {/* Image Area - Fixed Height for Consistency */}
-                                    <div className="h-[250px] relative overflow-hidden bg-tech-dim/10 border-b border-tech-border shrink-0 card-zoom-container">
-                                        {/* Overlay Grid */}
-                                        <div className="absolute inset-0 z-10 bg-[linear-gradient(transparent_2px,rgba(0,0,0,0.5)_3px)] bg-[size:100%_4px] pointer-events-none opacity-20"></div>
-
-                                        {/* Animated Border on Hover */}
-                                        <div className={`absolute inset-0 z-10 border-2 border-transparent transition-colors pointer-events-none m-1 ${char.isDead ? 'group-hover:border-red-900/60' : 'group-hover:border-tech-primary/60'}`}></div>
-
-                                        {/* Dead Banner */}
-                                        {char.isDead && (
-                                            <div className="absolute top-4 -right-10 bg-red-600 text-black font-black text-[9px] py-1 w-32 text-center rotate-45 z-30 border border-black shadow-[0_0_10px_rgba(255,0,0,0.6)] tracking-widest">
-                                                MORTO
-                                            </div>
-                                        )}
-
-                                        {/* Selo de patente sobre o pé da arte. Estava na linha do título, disputando largura com
-                                            ele — e em 23 das 82 fichas com selo os dois não cabiam, então o título perdia o fim.
-                                            Aqui cada um tem a linha inteira e nenhum é cortado. O fundo opaco é obrigatório: o
-                                            selo pousa sobre arte de qualquer cor. z-30 para ficar acima da grade de varredura. */}
-                                        {(() => {
-                                            const selo = seloDoContexto(char, selectedCategory, selectedPosition);
-                                            if (!selo.texto) return null;
-                                            // A cor vem da aba de onde o posto veio, não mais de "tem patente?":
-                                            // com o selo mudando de posto, a cor tem que acompanhar.
-                                            const cor = (selo.aba ? (CORES_DE_VILA[selo.aba] ?? CORES_DE_ORG[selo.aba]) : undefined) ?? corDoSelo(char);
-                                            return (
-                                                <span className={`absolute bottom-2 left-2 z-30 text-[10px] uppercase tracking-wide px-1.5 py-px border max-w-[calc(100%-1rem)] truncate bg-black/85 backdrop-blur-sm ${cor.borda} ${cor.texto}`}>
-                                                    {selo.texto}
-                                                </span>
-                                            );
-                                        })()}
-
-                                        {/* Corner Targets */}
-                                        {!char.isDead && (
-                                            <>
-                                                <div className="absolute top-2 left-2 w-2 h-2 border-t border-l border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                                <div className="absolute top-2 right-2 w-2 h-2 border-t border-r border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                                <div className="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                                <div className="absolute bottom-2 right-2 w-2 h-2 border-b border-r border-tech-primary z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                            </>
-                                        )}
-
-                                        {char.image && !imgErrors[`${char.id}:${char.image}`] ? (
-                                            <img
-                                                src={formatImageUrl(char.image)}
-                                                alt={char.name}
-                                                loading="lazy"
-                                                decoding="async"
-                                                onError={() => handleImageError(char.id, char.image)}
-                                                className={`w-full h-full object-cover transition-all duration-700 ${filtroDaCapa(!!char.isDead, capasColoridas)}`}
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full flex items-center justify-center bg-striped-pattern opacity-50">
-                                                <Cpu size={48} className="text-tech-dim animate-pulse" />
-                                            </div>
-                                        )}
-                                    </div>
-
-                                    {/* Info Footer */}
-                                    <div className="p-3 flex flex-col justify-between flex-1 relative overflow-hidden">
-                                        {/* Background scan for card body on hover */}
-                                        <div className="absolute inset-0 bg-tech-primary/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 pointer-events-none"></div>
-
-                                        <div className="relative z-10">
-                                            <h3 className={`text-lg font-bold uppercase truncate transition-colors text-glow ${char.isDead
-                                                    ? 'text-red-700 decoration-line-through'
-                                                    : 'text-white group-hover:text-tech-primary'
-                                                }`}>
-                                                {char.name}
-                                            </h3>
-                                            {/* O selo saiu daqui para o pé da arte, então o título tem a largura inteira. O truncate
-                                                fica como rede: o título mais longo do banco tem 34 caracteres e cabe, mas em três
-                                                colunas numa tela estreita o card encolhe. */}
-                                            {/* Título é honorífico: ficha sem título não mostra NADA embaixo do nome, nem
-                                                placeholder nem linha vazia — por isso o elemento inteiro sai, não só o texto. */}
-                                            {char.titles?.[0] && (
-                                                <p className="text-xs text-tech-secondary font-bold uppercase truncate mt-1">{char.titles[0]}</p>
-                                            )}
-                                        {/* Só aparece quando a busca casou em algo que NÃO é o nome nem o clã:
-                                            sem isso, procurar "shin" devolvia 20 fichas sem nenhuma pista de por
-                                            quê. O texto é o valor que casou, cru, pra bater com o que foi digitado. */}
-                                        {motivoDe(char) && (
-                                            <p className="text-[10px] text-amber-300/80 uppercase truncate mt-1" title={`Casou com a busca em: ${motivoDe(char)}`}>
-                                                ↳ {motivoDe(char)}
-                                            </p>
-                                        )}
-
-                                            {/* Killer Info on Card */}
-                                            {char.isDead && (
-                                                <div className="mt-2 pt-2 border-t border-red-900/30 flex items-center gap-2 text-[10px] text-red-500 font-bold uppercase">
-                                                    <Skull size={12} className="shrink-0" />
-                                                    <span className="truncate">MORTO POR: {char.killedBy || 'DESCONHECIDO'}</span>
-                                                </div>
-                                            )}
-                                        </div>
-
-                                        <div className="mt-3 flex justify-end relative z-10">
-                                            <span className={`text-[10px] flex items-center gap-1 group-hover:gap-2 transition-all ${char.isDead ? 'text-red-900' : 'text-tech-primary'}`}>
-                                                ACESSAR_DADOS <ChevronRight size={10} />
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
+                            {charsAtivos.map((char, index) => cartaoDeFicha(char, index))}
                         </div>
+
+                        {/* Os registros históricos vêm DEPOIS, em seção própria: são gente de antes
+                            da 1ª Temporada, sem ficha de combate, e misturá-los na mesma grade
+                            fazia o Hashirama cair entre o Hades e o Beta por ordem de id. */}
+                        {charsHistoricos.length > 0 && (
+                            <div className="mt-14">
+                                <div className="flex items-center gap-4 mb-2">
+                                    <h2 className="text-lg md:text-xl font-black uppercase tracking-tight text-white whitespace-nowrap">
+                                        Personagens <span className="text-tech-secondary">Históricos</span>
+                                    </h2>
+                                    <div className="h-px flex-1 bg-tech-border" />
+                                    <span className="text-[10px] text-tech-primary/40 uppercase tracking-widest shrink-0">
+                                        {charsHistoricos.length} {charsHistoricos.length === 1 ? 'registro' : 'registros'}
+                                    </span>
+                                </div>
+                                <p className="text-[11px] text-tech-primary/40 uppercase tracking-widest mb-5">
+                                    Apareceram antes da 1ª Temporada e não têm ficha de combate
+                                </p>
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                    {charsHistoricos.map((char, index) => cartaoDeFicha(char, index))}
+                                </div>
+                            </div>
+                        )}
 
                         {filteredCharacters.length === 0 && (
                             <div className="border border-red-900/50 bg-red-900/10 p-12 text-center text-red-500 font-mono animate-pulse">
