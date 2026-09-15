@@ -458,7 +458,7 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Inazuma Uchiha', role: 'Filho do Velho, morto por Beta, descartado pela OCA', dead: true, nc: 14 },
       { name: 'Shikado Nara', role: 'Pai de Shikaki e Shikatsu, morto por Hades', dead: true, nc: 26 },
       { name: 'Kurai Nara', role: 'Mãe de Shikaki e Shikatsu, morta por Hades', dead: true, nc: 26 },
-      { name: 'Hina Haruno', role: 'Mãe de Yui', nc: 16 },
+      { name: 'Mebuki Haruno', role: 'Mãe de Yui', nc: 16 },
       { name: 'Yui Haruno', role: 'Criança Prodígio', nc: 8 },
       { name: 'Akemi Shimura', role: 'Esposa de Oogway Uchiha, mãe de Sho e Shin' },
       { name: 'Atsuko Uchiha', role: 'Esposa de Sho Uchiha, mãe de Akairo e Genpachi' },
