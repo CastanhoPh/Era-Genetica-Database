@@ -2455,7 +2455,7 @@ Títulos: Homem que Deteve Cinco Bijūdamas, Punho Sagrado da Guerra, Herdeiro d
 ## Descrição
 O Punho Sagrado da Guerra e o Herdeiro da Pedra Viva
 
-Kenma Soryo cresceu em meio ao maior conflito já registrado no País da Guerra: Monges contra Samurais. Aos 14 anos, tornou-se discípulo direto de Oryo Soryo, o lendário líder dos monges, um homem que possuía poder suficiente para dominar tudo, mas escolheu a paz. Kenma testemunhou a morte do irmão de seu mestre, um guerreiro que, antes de cair, derrotou dois portadores das Espadas Lendárias da Terra. Viu também Oryo Soryo derrotar o último espadachim — aquele cuja lâmina controlava vida e morte — selando o destino da guerra e dividindo o território em equilíbrio forçado.
+Kenma Soryo cresceu em meio ao maior conflito já registrado no País da Guerra: Monges contra Samurais. Aos 14 anos, tornou-se discípulo direto de Oryo Soryo, seu pai e o lendário líder dos monges, um homem que possuía poder suficiente para dominar tudo, mas escolheu a paz. Kenma testemunhou a morte do irmão de seu mestre, um guerreiro que, antes de cair, derrotou dois portadores das Espadas Lendárias da Terra. Viu também Oryo Soryo derrotar o último espadachim — aquele cuja lâmina controlava vida e morte — selando o destino da guerra e dividindo o território em equilíbrio forçado.
 
 Mesmo após o tratado que estabeleceu alternância de poder e a escolha cíclica do Tsuchikage, a paz começou a ruir com o surgimento de forças externas e o enfraquecimento espiritual das Pedras Sagradas. Enquanto o mundo mudava, Kenma nunca deixou de treinar. Nas sombras, longe da política e da instabilidade, ele aprimorou corpo e espírito, tornando-se algo além de um simples monge.
 
