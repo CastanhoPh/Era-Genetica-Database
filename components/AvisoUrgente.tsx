@@ -1,22 +1,24 @@
 // O aviso do Hiroshi Hanzo, que só o Takeshi vê.
 //
-// Quando ele entra no banco, 24 janelas "URGENTE" começam a abrir e fechar por cima do site,
-// cada uma no seu próprio relógio e em lugar sorteado a cada volta, durante 10 segundos. O banco
-// continua à vista e navegável por baixo delas. Passados os 10 segundos, as janelas somem e a
+// Quando ele entra no banco, o site é INVADIDO por 10 segundos: 26 janelas de terminal nascem
+// quebradas por toda a tela, uma varredura vermelha desce sem parar e uma moldura anuncia a
+// intrusão. O banco continua à vista e navegável por baixo. Passados os 10 segundos, tudo some e a
 // mensagem abre.
+//
+// Vermelho é a cor do invasor. O sistema é verde — o contraste é o que conta a história.
 //
 // Três decisões de implementação que valem a leitura:
 //
-//  - Posição, largura e giro vão em `style` inline, não em classe do Tailwind. O Tailwind lê o
-//    código como TEXTO e só gera a classe escrita por extenso: uma classe montada (`top-[${n}%]`)
-//    sairia do CSS final e as janelas apareceriam todas empilhadas num canto.
+//  - Posição e largura vão em `style` inline, não em classe do Tailwind. O Tailwind lê o código
+//    como TEXTO e só gera a classe escrita por extenso: uma classe montada (`top-[${n}%]`) sairia
+//    do CSS final e as janelas apareceriam todas empilhadas num canto.
 //  - Cada janela é um componente com o próprio temporizador, e o sorteio da posição mora DENTRO
 //    dele — nunca no render. Sortear no render mudaria o lugar a cada repintura e a janela ficaria
 //    tremendo em vez de trocar de lugar ao reabrir.
-//  - A escala é só em Y, e vive num filho do elemento que carrega o giro. Recolher a altura lê
-//    como janela fechando; e giro e escala no mesmo elemento brigariam pelo mesmo `transform`.
+//  - O `ciclo` entra no `key` da janela para a animação de entrada rodar de novo a cada abertura:
+//    animação de entrada só dispara quando o elemento entra no DOM.
 //
-// `prefers-reduced-motion` desliga o ciclo: cada janela abre uma vez e fica parada.
+// `prefers-reduced-motion` desliga o ciclo e a varredura: as janelas abrem uma vez e ficam paradas.
 import React, { useEffect, useState } from 'react';
 import { AlertTriangle, X } from 'lucide-react';
 
@@ -24,70 +26,84 @@ import { AlertTriangle, X } from 'lucide-react';
 const SEGUNDOS_DE_ALARME = 10;
 
 /** Quantas janelas ao mesmo tempo. */
-const QUANTAS = 24;
+const QUANTAS = 26;
 
-/** inteiro sorteado entre min e max, inclusivo nas pontas o suficiente para o que se usa aqui */
 const entre = (min: number, max: number) => min + Math.random() * (max - min);
 
-/** Um lugar novo na tela. O `left` para antes da borda para a janela não sair inteira de vista. */
+/** lixo hexadecimal para a linha de baixo da janela */
+const hex = (n: number) => Array.from({ length: n }, () =>
+  Math.floor(Math.random() * 256).toString(16).toUpperCase().padStart(2, '0')).join(' ');
+
+/**
+ * Um lugar novo na tela, e o disfarce da janela. Sem rotação: o Pedro pediu retas, e reto também
+ * é o que combina com janela de sistema.
+ */
 const sorteiaLugar = () => ({
-  top: entre(1, 88),
-  left: entre(1, 76),
-  largura: entre(290, 470),
-  giro: entre(-11, 11),
+  top: entre(1, 86),
+  left: entre(1, 74),
+  largura: entre(300, 470),
+  porta: Math.floor(entre(1000, 65000)),
+  lixo: hex(8),
 });
 
 /**
- * Uma janela do alarme, com o próprio relógio.
+ * Uma janela da invasão, com o próprio relógio.
  *
- * Abre, espera, fecha, espera, SORTEIA outro lugar e reabre. Nenhuma sabe da outra: é isso que
+ * Abre, espera, fecha, espera, sorteia outro lugar e reabre. Nenhuma sabe da outra: é isso que
  * impede que elas voltem a abrir juntas, que era o que acontecia quando o ciclo era uma animação
  * CSS de duração fixa — durações próximas entram em fase depois de alguns ciclos.
  *
- * O sorteio mora dentro do temporizador, nunca no render: sortear a cada render faria a janela
- * tremer na tela em vez de trocar de lugar ao reabrir.
+ * O `ciclo` no `key` existe para a animação de entrada RODAR DE NOVO a cada abertura: animação de
+ * entrada só dispara quando o elemento entra no DOM, e sem trocar a chave o nó seria reaproveitado
+ * e a janela apareceria sem o glitch da segunda vez em diante.
  */
 const Janela: React.FC<{ indice: number }> = ({ indice }) => {
   const [lugar, setLugar] = useState(sorteiaLugar);
   const [aberta, setAberta] = useState(false);
+  const [ciclo, setCiclo] = useState(0);
   const paradinho = typeof window !== 'undefined'
     && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
   useEffect(() => {
-    if (paradinho) { setAberta(true); return; }          // sem movimento: abre e fica
+    if (paradinho) { setAberta(true); return; }
     let relogio: ReturnType<typeof setTimeout>;
     const passo = (abrindo: boolean) => {
-      if (abrindo) setLugar(sorteiaLugar());
+      if (abrindo) { setLugar(sorteiaLugar()); setCiclo(c => c + 1); }
       setAberta(abrindo);
-      // aberta mais tempo do que fechada, para a tela ficar cheia em vez de piscando vazia
-      relogio = setTimeout(() => passo(!abrindo), abrindo ? entre(600, 1500) : entre(150, 700));
+      relogio = setTimeout(() => passo(!abrindo), abrindo ? entre(600, 1500) : entre(120, 600));
     };
-    // o primeiro atraso é o que espalha as 24 no tempo, em vez de todas abrirem no mesmo instante
-    relogio = setTimeout(() => passo(true), entre(0, 1400) + indice * 40);
+    relogio = setTimeout(() => passo(true), entre(0, 1200) + indice * 35);
     return () => clearTimeout(relogio);
   }, [indice, paradinho]);
 
-  // uma em cada três é vermelha sólida: o contraste entre os dois tipos é o que dá o ar de
-  // invasão, em vez de 24 janelas iguais
-  const solida = indice % 3 === 0;
+  if (!aberta) return null;
+
+  // uma em cada quatro é vermelha sólida: o contraste entre os dois tipos é o que dá o ar de
+  // invasão, em vez de 26 janelas iguais
+  const solida = indice % 4 === 0;
 
   return (
     <div
-      className="absolute"
-      style={{ top: `${lugar.top}%`, left: `${lugar.left}%`, width: `${lugar.largura}px`, transform: `rotate(${lugar.giro}deg)` }}
+      key={ciclo}
+      className="absolute motion-safe:animate-[glitchar_0.22s_steps(2,end)_1]"
+      style={{ top: `${lugar.top}%`, left: `${lugar.left}%`, width: `${lugar.largura}px` }}
     >
-      {/* o giro fica no invólucro e a escala no filho: os dois no mesmo elemento brigariam pelo
-          mesmo `transform` */}
-      <div
-        className={`origin-top border-4 shadow-[0_0_45px_-6px_rgba(220,38,38,0.95)] clip-corner-sm transition-[transform,opacity] duration-100 ease-out ${solida ? 'bg-red-600 border-red-300' : 'bg-black border-red-600'} ${aberta ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0'}`}
-      >
-        <div className={`flex items-center gap-2 px-2.5 py-1.5 ${solida ? 'bg-black' : 'bg-red-600'}`}>
-          <AlertTriangle size={14} className={`shrink-0 ${solida ? 'text-red-500' : 'text-black'}`} />
-          <span className={`text-[11px] font-black uppercase tracking-[0.22em] ${solida ? 'text-red-500' : 'text-black'}`}>Alerta</span>
-          <span className={`ml-auto text-[15px] font-black leading-none ${solida ? 'text-red-500' : 'text-black'}`}>×</span>
+      <div className={`border-2 shadow-[0_0_50px_-8px_rgba(220,38,38,0.95)] ${solida ? 'bg-red-600 border-red-200' : 'bg-black border-red-500'}`}>
+        <div className={`flex items-center gap-2 px-2 py-1 border-b-2 ${solida ? 'bg-black border-red-200' : 'bg-red-600 border-red-500'}`}>
+          <span className={`text-[10px] font-bold tracking-tight truncate ${solida ? 'text-red-500' : 'text-black'}`}>
+            root@era-genetica:~/{lugar.porta}$
+          </span>
+          <span className={`ml-auto text-[11px] font-black tracking-tighter shrink-0 ${solida ? 'text-red-500' : 'text-black'}`}>
+            _ ▢ ✕
+          </span>
         </div>
-        <div className="px-4 py-5 text-center">
-          <span className={`text-[52px] leading-none font-black uppercase tracking-wider ${solida ? 'text-black' : 'text-red-500'}`}>URGENTE</span>
+        <div className="px-3 pt-3 pb-2">
+          <div className={`text-[46px] leading-none font-black tracking-tight ${solida ? 'text-black' : 'text-red-500'}`}>
+            &gt; URGENTE<span className="motion-safe:animate-pulse">█</span>
+          </div>
+          <div className={`mt-2 text-[10px] tracking-widest truncate ${solida ? 'text-black/70' : 'text-red-500/50'}`}>
+            {lugar.lixo}
+          </div>
         </div>
       </div>
     </div>
@@ -148,11 +164,21 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   if (restam > 0) {
     return (
       <div className="fixed inset-0 z-[200] overflow-hidden pointer-events-none select-none">
+        {/* ruído de tubo: linhas horizontais por cima do site inteiro */}
+        <div className="absolute inset-0 bg-[linear-gradient(transparent_2px,rgba(220,38,38,0.10)_3px)] bg-[size:100%_4px]" />
+        {/* a varredura desce sem parar, como scanner de quem está vasculhando a máquina */}
+        <div className="absolute inset-x-0 h-24 bg-gradient-to-b from-transparent via-red-600/25 to-transparent motion-safe:animate-[varredura_1.6s_linear_infinite]" />
+
         {Array.from({ length: QUANTAS }, (_, k) => <Janela key={k} indice={k} />)}
 
-        {/* o contador fica no canto: no centro ele competiria com as janelas */}
-        <div className="absolute bottom-5 right-5 bg-black border border-red-700 px-3 py-1.5 text-[10px] uppercase tracking-[0.3em] text-red-500">
-          transmissão recebida · {restam}s
+        {/* cabeçalho e rodapé fixos: a moldura que diz que o sistema não é mais de quem está lendo */}
+        <div className="absolute top-0 inset-x-0 bg-red-600 text-black text-[11px] font-black uppercase tracking-[0.3em] px-4 py-1.5 flex justify-between gap-4">
+          <span className="truncate">◤ acesso forçado · sessão interceptada</span>
+          <span className="shrink-0">era-genetica.db</span>
+        </div>
+        <div className="absolute bottom-0 inset-x-0 bg-red-600 text-black text-[11px] font-black uppercase tracking-[0.3em] px-4 py-1.5 flex justify-between gap-4">
+          <span className="truncate">não desligue o terminal</span>
+          <span className="shrink-0">liberando em {restam}s</span>
         </div>
       </div>
     );

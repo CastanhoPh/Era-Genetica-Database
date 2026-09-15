@@ -46,6 +46,21 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+        // A janela invadida NASCE quebrada: salta de lado em passos duros e pisca antes de
+        // assentar. `steps()` no uso, não aqui — a graça é não ter interpolação nenhuma.
+        glitchar: {
+          '0%': { opacity: '0', transform: 'translate(-14px, 3px)' },
+          '20%': { opacity: '1', transform: 'translate(10px, -2px)' },
+          '40%': { opacity: '0.4', transform: 'translate(-6px, 1px)' },
+          '60%': { opacity: '1', transform: 'translate(4px, 0)' },
+          '80%': { opacity: '0.7', transform: 'translate(-2px, 0)' },
+          '100%': { opacity: '1', transform: 'translate(0, 0)' },
+        },
+        // a faixa de varredura que desce pela tela inteira durante a invasão
+        varredura: {
+          '0%': { transform: 'translateY(-20vh)' },
+          '100%': { transform: 'translateY(120vh)' },
+        },
         flicker: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.9' },
