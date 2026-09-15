@@ -3821,6 +3821,50 @@ export const initialData: Character[] = [
   },
   {
     id: 30,
+    name: "Amai Inuzuka",
+    chakraColor: "",
+    combatStyle: "Corporal",
+    clan: "Inuzuka",
+    categories: ["NPC", "Konohagakure"],
+    titles: ["Domadora de Animais"],
+    nc: 27,
+    erasDeKonoha: ["Era Tobirama"],
+    position: "",
+    role: "DPS",
+    description: "",
+    hp: 226,
+    chakra: 91,
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmai%20Inuzuka%2FAmai%20Inuzuka.png?alt=media&v=1788882300047687",
+    arsenal: [],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmai%20Inuzuka%2F1__Temporada.png?alt=media&v=1788882302643246", caption: "1ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmai%20Inuzuka%2F5__Temporada.png?alt=media&v=1788882305327736", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FModo%20S%C3%A1bio.png?alt=media&v=1788882308066922", caption: "Modo Sábio", category: "transformacao" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FArmadura%20de%20Ferro.png?alt=media&v=1788882310784240", caption: "Armadura de Ferro", category: "transformacao" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FArmadura%20de%20Ferro%20S%C3%A1bia.png?alt=media&v=1788882313506512", caption: "Armadura de Ferro Sábia", category: "transformacao" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1788278128939399", caption: "Nascimentos - Nascimento de Najin e Takeshi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-najin-e-takeshi" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1788277956231826", caption: "Apresentações - Apresentação de Takeshi e Najin", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama" },
+    ],
+    stats: { strength: 27, dexterity: 11, agility: 27, intelligence: 20, spirit: 27, vigor: 27, perception: 11 },
+    powers: [
+      { name: "Shikakyu", level: 13 },
+      { name: "Kuchiyose", level: 13 },
+      { name: "Senjutsu", level: 13 },
+      { name: "Doton", level: 13 },
+      { name: "Koton", level: 13 }
+    ],
+    aptitudes: [
+      "Companheiro Animal",
+      "Hakken no Jutsu",
+    ],
+    isDead: false,
+    timelineAppearance: "Prólogo",
+    timelineDeath: null,
+    timelineSkipped: ["2ª Temporada", "3ª Temporada", "4ª Temporada"],
+    birthVillage: "Konohagakure"
+  },
+  {
+    id: 31,
     name: "Oogway Uchiha",
     chakraColor: "#a855f7",
     combatStyle: "Corporal",
@@ -3881,7 +3925,7 @@ export const initialData: Character[] = [
     birthVillage: "Konohagakure"
   },
   {
-    id: 31,
+    id: 32,
     name: "Katsuo Uzumaki",
     chakraColor: "#ff8c1a",
     combatStyle: "Distância",
@@ -3997,7 +4041,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 32,
+    id: 33,
     name: "Satoshi Namikaze",
     chakraColor: "#ff3b46",
     combatStyle: "Distância",
@@ -4091,7 +4135,7 @@ export const initialData: Character[] = [
     timelineSkipped: ["Clássico", "1ª Temporada", "2ª Temporada", "3ª Temporada", "4ª Temporada"],
   },
   {
-    id: 33,
+    id: 34,
     name: "Shikaki Nara",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -4178,7 +4222,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 34,
+    id: 35,
     name: "Shikatsu Nara (Togo Kage)",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -4242,7 +4286,7 @@ export const initialData: Character[] = [
     birthVillage: "Konohagakure"
   },
   {
-    id: 35,
+    id: 36,
     name: "Hirato Ishi",
     combatStyle: "Corporal",
     chakraColor: "#ff3b46",
@@ -4284,7 +4328,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 36,
+    id: 37,
     name: "Hikaru Ishi",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -4325,7 +4369,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 37,
+    id: 38,
     name: "Shoyu Uzumaki",
     chakraColor: "#ff3b46",
     combatStyle: "Distância",
@@ -4437,7 +4481,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 38,
+    id: 39,
     name: "Souma Namikaze",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -4524,7 +4568,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 39,
+    id: 40,
     name: "Reika Uzumaki",
     chakraColor: "#b5793a",
     combatStyle: "Distância",
@@ -4603,7 +4647,7 @@ export const initialData: Character[] = [
     ]
   },
   {
-    id: 40,
+    id: 41,
     name: "Nagi Yuki",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -4708,7 +4752,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 41,
+    id: 42,
     name: "Yasuo Kurogane",
     chakraColor: "#b5793a",
     combatStyle: "Distância",
@@ -4799,7 +4843,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 42,
+    id: 43,
     name: "Hana Sabaku",
     combatStyle: "Distância",
     chakraColor: "#00ff41",
@@ -4913,7 +4957,7 @@ export const initialData: Character[] = [
     timelineAppearance: "Clássico",
   },
   {
-    id: 43,
+    id: 44,
     name: "Reto Sabaku",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -5027,7 +5071,7 @@ export const initialData: Character[] = [
     timelineSkipped: ["2ª Temporada","3ª Temporada","4ª Temporada"],
   },
   {
-    id: 44,
+    id: 45,
     name: "Tetsu Sabaku",
     chakraColor: "#8b8b9a",
     combatStyle: "Distância",
@@ -5071,7 +5115,7 @@ export const initialData: Character[] = [
     timelineAppearance: "Clássico",
   },
   {
-    id: 45,
+    id: 46,
     name: "Sayuri Sabaku",
     combatStyle: "Distância",
     chakraColor: "#e8fbff",
@@ -5121,7 +5165,7 @@ export const initialData: Character[] = [
     timelineAppearance: "Clássico",
   },
   {
-    id: 46,
+    id: 47,
     name: "Chigiri Chinoike",
     chakraColor: "#8e0f36",
     combatStyle: "Distância",
@@ -5167,7 +5211,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 47,
+    id: 48,
     name: "Mizue Dokuhana",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -5211,7 +5255,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 48,
+    id: 49,
     name: "Tessai Enshaku",
     combatStyle: "Corporal",
     chakraColor: "#b5793a",
@@ -5258,7 +5302,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 49,
+    id: 50,
     name: "Kurohime Kazeori",
     combatStyle: "Corporal",
     chakraColor: "#3d3d4a",
@@ -5313,7 +5357,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 50,
+    id: 51,
     name: "Yuji Yotsuki",
     chakraColor: "#ff5fa8",
     combatStyle: "Distância",
@@ -5423,7 +5467,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 51,
+    id: 52,
     name: "Reito Kurogami",
     chakraColor: "#a855f7",
     combatStyle: "Corporal",
@@ -5521,7 +5565,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 52,
+    id: 53,
     name: "Yoru Kurogami",
     chakraColor: "#2dd4bf",
     combatStyle: "Distância",
@@ -5603,7 +5647,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 53,
+    id: 54,
     name: "Mika Yotsuki",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -5689,7 +5733,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 54,
+    id: 55,
     name: "Enrai Hanzo",
     chakraColor: "#ffd60a",
     combatStyle: "Corporal",
@@ -5796,7 +5840,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 55,
+    id: 56,
     name: "Daichi Muujin",
     chakraColor: "#c9d1d9",
     combatStyle: "Distância",
@@ -5838,7 +5882,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 56,
+    id: 57,
     name: "Koji Ishizuma",
     chakraColor: "#ff8c1a",
     combatStyle: "Corporal",
@@ -5877,7 +5921,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 57,
+    id: 58,
     name: "Yuuto Han",
     chakraColor: "#e8fbff",
     combatStyle: "Corporal",
@@ -5932,7 +5976,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 58,
+    id: 59,
     name: "Shin Mizukari",
     chakraColor: "#00ff41",
     combatStyle: "Corporal",
@@ -5975,7 +6019,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 59,
+    id: 60,
     name: "Shikure Chinoike",
     chakraColor: "#c01a3c",
     combatStyle: "Distância",
@@ -6033,7 +6077,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 60,
+    id: 61,
     name: "Akira Dokuhana",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -6078,7 +6122,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 61,
+    id: 62,
     name: "Kiyoshi Hagane",
     chakraColor: "#b5793a",
     clan: "Hagane",
@@ -6103,7 +6147,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 62,
+    id: 63,
     name: "Gorai Arashiumi",
     chakraColor: "#0ea5e9",
     clan: "Arashiumi",
@@ -6134,7 +6178,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 63,
+    id: 64,
     name: "Arashi Shidehara",
     chakraColor: "#e8fbff",
     clan: "Shidehara",
@@ -6159,7 +6203,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 64,
+    id: 65,
     name: "Raizen Kurogane",
     chakraColor: "#ffd60a",
     clan: "Kurogane",
@@ -6184,7 +6228,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 65,
+    id: 66,
     name: "Raiden Yotsuki",
     chakraColor: "#0ea5e9",
     clan: "Yotsuki",
@@ -6216,7 +6260,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 66,
+    id: 67,
     name: "Nayara Kazemori",
     chakraColor: "#e8fbff",
     clan: "Kazemori",
@@ -6241,7 +6285,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 67,
+    id: 68,
     name: "Shizuru Kurogane",
     chakraColor: "#8b8b9a",
     clan: "Kurogane",
@@ -6272,7 +6316,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 68,
+    id: 69,
     name: "Midori Kurogane",
     chakraColor: "#00ff41",
     clan: "Kurogane",
@@ -6297,7 +6341,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 69,
+    id: 70,
     name: "Akane Sumigami",
     chakraColor: "#b5793a",
     clan: "Sumigami",
@@ -6327,7 +6371,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 70,
+    id: 71,
     name: "Raizuma Kazuchi",
     chakraColor: "#2dd4bf",
     clan: "Kazuchi",
@@ -6357,7 +6401,7 @@ export const initialData: Character[] = [
     timelineAppearance: "5ª Temporada",
   },
   {
-    id: 71,
+    id: 72,
     name: "Amakumo Hōzuki",
     clan: "Hōzuki",
     categories: ["NPC", "Kirigakure"],
@@ -6412,7 +6456,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 72,
+    id: 73,
     name: "Genzō Umikage",
     clan: "Umikage",
     categories: ["NPC", "Kirigakure"],
@@ -6468,7 +6512,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 73,
+    id: 74,
     name: "Raizuki Hoshigaki",
     clan: "Hoshigaki",
     categories: ["NPC", "Kirigakure"],
@@ -6518,7 +6562,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 74,
+    id: 75,
     name: "Suiren Shiranami",
     clan: "Shiranami",
     categories: ["NPC", "Kirigakure"],
@@ -6569,7 +6613,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 75,
+    id: 76,
     name: "Juzo Kuroshio",
     clan: "Kuroshio",
     categories: ["NPC", "Kirigakure"],
@@ -6624,7 +6668,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 76,
+    id: 77,
     name: "Kōga Kirisame",
     clan: "Kirisame",
     categories: ["NPC", "Kirigakure"],
@@ -6654,7 +6698,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 77,
+    id: 78,
     name: "Mei Yuki",
     clan: "Yuki",
     categories: ["NPC", "Kirigakure"],
@@ -6683,7 +6727,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 78,
+    id: 79,
     name: "Nao Arashio",
     clan: "Arashio",
     categories: ["NPC", "Kirigakure"],
@@ -6710,7 +6754,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 79,
+    id: 80,
     name: "Ganmaren Yuki",
     clan: "Yuki",
     categories: ["NPC", "Kirigakure"],
@@ -6768,7 +6812,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 80,
+    id: 81,
     name: "Gordon Kirisame",
     clan: "Kirisame",
     categories: ["NPC", "Kirigakure"],
@@ -6821,7 +6865,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 81,
+    id: 82,
     name: "Hahiko Shiosaki",
     clan: "Shiosaki",
     categories: ["NPC", "Kirigakure"],
@@ -6872,7 +6916,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 82,
+    id: 83,
     name: "Himari Yuki",
     clan: "Yuki",
     categories: ["NPC", "Kirigakure"],
@@ -6923,7 +6967,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 83,
+    id: 84,
     name: "Enkai Kuroshio",
     clan: "Kuroshio",
     categories: ["NPC", "Kirigakure"],
@@ -6982,7 +7026,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 84,
+    id: 85,
     name: "Ayame Sazanami",
     clan: "Sazanami",
     categories: ["NPC", "Kirigakure"],
@@ -7036,7 +7080,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 85,
+    id: 86,
     name: "Tōma Umikage",
     clan: "Umikage",
     categories: ["NPC", "Kirigakure"],
@@ -7085,7 +7129,7 @@ export const initialData: Character[] = [
     combatStyle: "Distância",
   },
   {
-    id: 86,
+    id: 87,
     name: "Mirei Sazanami",
     clan: "Sazanami",
     categories: ["NPC", "Kirigakure"],
@@ -7136,7 +7180,7 @@ export const initialData: Character[] = [
     combatStyle: "Corporal",
   },
   {
-    id: 87,
+    id: 88,
     name: "Akairo Uchiha (A)",
     combatStyle: "Distância",
     chakraColor: "#ff3b46",
@@ -7244,7 +7288,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 88,
+    id: 89,
     name: "Borashi Hyuga (B)",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -7352,7 +7396,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 89,
+    id: 90,
     name: "Chisaki Dokuhana (C)",
     chakraColor: "#ff5fa8",
     combatStyle: "Distância",
@@ -7433,7 +7477,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 90,
+    id: 91,
     name: "Daiki Uzumaki (D)",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -7527,7 +7571,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 91,
+    id: 92,
     name: "Etsuko Senju (E)",
     chakraColor: "#ffd60a",
     combatStyle: "Distância",
@@ -7588,7 +7632,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 92,
+    id: 93,
     name: "Fuyuki Dokuhana (F)",
     chakraColor: "#a855f7",
     combatStyle: "Distância",
@@ -7650,7 +7694,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 93,
+    id: 94,
     name: "Genei (G)",
     combatStyle: "Corporal",
     chakraColor: "#8b8b9a",
@@ -7735,7 +7779,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 94,
+    id: 95,
     name: "Hayato Hanzo (H)",
     chakraColor: "#e8fbff",
     combatStyle: "Distância",
@@ -7801,7 +7845,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 95,
+    id: 96,
     name: "Katakana Yotsuki (Alpha)",
     combatStyle: "Corporal",
     chakraColor: "#e8fbff",
@@ -7929,7 +7973,7 @@ export const initialData: Character[] = [
     birthVillage: "Kumogakure"
   },
   {
-    id: 96,
+    id: 97,
     name: "Ganmasen Yuki (Gama)",
     combatStyle: "Distância",
     chakraColor: "#0ea5e9",
@@ -8050,7 +8094,7 @@ export const initialData: Character[] = [
     birthVillage: "Kirigakure"
   },
   {
-    id: 97,
+    id: 98,
     name: "Deruta Muujin (Delta)",
     combatStyle: "Distância",
     chakraColor: "#ffd60a",
@@ -8192,7 +8236,7 @@ export const initialData: Character[] = [
     birthVillage: "Iwagakure"
   },
   {
-    id: 98,
+    id: 99,
     name: "Shiita Sabaku (Theta)",
     combatStyle: "Distância",
     chakraColor: "#00ff41",
@@ -8271,7 +8315,7 @@ export const initialData: Character[] = [
     birthVillage: "Sunagakure"
   },
   {
-    id: 99,
+    id: 100,
     name: "Kaien Ishi (Omega)",
     combatStyle: "Corporal",
     chakraColor: "#e8fbff",
@@ -8370,50 +8414,6 @@ export const initialData: Character[] = [
       "Fuinjutsu Perfeito",
       "Iryou Ninjutsu Proibido",
     ],
-  },
-  {
-    id: 100,
-    name: "Amai Inuzuka",
-    chakraColor: "",
-    combatStyle: "Corporal",
-    clan: "Inuzuka",
-    categories: ["NPC", "Konohagakure"],
-    titles: [],
-    nc: 27,
-    erasDeKonoha: ["Era Tobirama"],
-    position: "",
-    role: "DPS",
-    description: "",
-    hp: 226,
-    chakra: 91,
-    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmai%20Inuzuka%2FAmai%20Inuzuka.png?alt=media&v=1788882300047687",
-    arsenal: [],
-    gallery: [
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmai%20Inuzuka%2F1__Temporada.png?alt=media&v=1788882302643246", caption: "1ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmai%20Inuzuka%2F5__Temporada.png?alt=media&v=1788882305327736", caption: "5ª Temporada", category: "era" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FModo%20S%C3%A1bio.png?alt=media&v=1788882308066922", caption: "Modo Sábio", category: "transformacao" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FArmadura%20de%20Ferro.png?alt=media&v=1788882310784240", caption: "Armadura de Ferro", category: "transformacao" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmai%20Inuzuka%2FArmadura%20de%20Ferro%20S%C3%A1bia.png?alt=media&v=1788882313506512", caption: "Armadura de Ferro Sábia", category: "transformacao" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Najin%20e%20Takeshi.png?alt=media&v=1788278128939399", caption: "Nascimentos - Nascimento de Najin e Takeshi", category: "evento", season: "Prólogo", eventId: "prologo__nascimentos__nascimento-de-najin-e-takeshi" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Takeshi%20e%20Najin.png?alt=media&v=1788277956231826", caption: "Apresentações - Apresentação de Takeshi e Najin", category: "evento", season: "Prólogo", eventId: "prologo__apresentacoes__najin-e-takeshi-arrumando-sua-casa-com-tobirama" },
-    ],
-    stats: { strength: 27, dexterity: 11, agility: 27, intelligence: 20, spirit: 27, vigor: 27, perception: 11 },
-    powers: [
-      { name: "Shikakyu", level: 13 },
-      { name: "Kuchiyose", level: 13 },
-      { name: "Senjutsu", level: 13 },
-      { name: "Doton", level: 13 },
-      { name: "Koton", level: 13 }
-    ],
-    aptitudes: [
-      "Companheiro Animal",
-      "Hakken no Jutsu",
-    ],
-    isDead: false,
-    timelineAppearance: "Prólogo",
-    timelineDeath: null,
-    timelineSkipped: ["2ª Temporada", "3ª Temporada", "4ª Temporada"],
-    birthVillage: "Konohagakure"
   },
   {
     id: 101,
