@@ -460,7 +460,7 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Kurai Nara', role: 'Mãe de Shikaki e Shikatsu, morta por Hades', dead: true, nc: 26 },
       { name: 'Yui Haruno', role: 'Criança Prodígio', nc: 8 },
       { name: 'Akemi Shimura', role: 'Esposa de Oogway Uchiha, mãe de Sho e Shin' },
-      { name: 'Atsuko Uchiha', role: 'Esposa de Sho Uchiha, mãe de Akairo e Genpachi' },
+      { name: 'Atsuko Uchiha', role: 'Esposa de Sho Uchiha, mãe de Akairo e Genpachi, 1ª Membro da Equipe de Elite' },
       { name: 'Ayame Namikaze', role: 'Esposa de Ashina Uzumaki, mãe de Mito, Yumi, Naomi e Katsuo' },
       { name: 'Butsuma Senju', role: 'Pai de Hashirama, Tobirama, Kawarama e Itama' },
       { name: 'Genpachi Shimura', role: 'Filho de Sho Uchiha e Atsuko Uchiha' },

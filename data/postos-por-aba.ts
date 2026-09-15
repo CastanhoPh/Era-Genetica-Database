@@ -43,6 +43,10 @@ export const POSTOS_POR_ABA: Record<string, PostoDeAba[]> = {
       'Líder da Equipe de Elite', 'Líder da Ambu', 'Líder de Rastreio',
       'Líder de Inovações', 'Líder da Força Médica', 'Líder da Academia Ninja',
     ] },
+    // Abaixo dos seis líderes, os dois degraus de esquadrão criados em 16/09/2026. O Capitão
+    // entra com as duas grafias porque as fichas gravam "Capitã" no feminino, como a Marinha.
+    { label: 'Capitão de Equipe', postos: ['Capitão de Equipe da Ambu', 'Capitã de Equipe da Ambu'] },
+    { label: 'Membro de Esquadrão', postos: ['Membro da Equipe de Elite', 'Membro da Ambu'] },
     { label: 'Sannin', postos: ['Sannin'] },
     { label: 'Jonin', postos: ['Jonin'] },
     { label: 'Chunin', postos: ['Chunin'] },
