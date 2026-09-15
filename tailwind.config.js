@@ -46,19 +46,6 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
-        // Janela que ABRE e FECHA, para o alarme do aviso urgente. Abre de estalo (5% do ciclo),
-        // fica aberta um tempo, fecha de estalo e some até a volta. Com duração e atraso
-        // diferentes por janela, a tela vira um enxame de abas abrindo e fechando.
-        abrirFechar: {
-          '0%, 3%': { opacity: '0', transform: 'scaleY(0.04)' },
-          '6%, 46%': { opacity: '1', transform: 'scaleY(1)' },
-          '52%, 100%': { opacity: '0', transform: 'scaleY(0.04)' },
-        },
-        // pisca duro, para o alarme do aviso urgente: liga/desliga, sem transição
-        piscar: {
-          '0%, 49%': { opacity: '1' },
-          '50%, 100%': { opacity: '0' },
-        },
         flicker: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.9' },

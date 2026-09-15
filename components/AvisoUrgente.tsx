@@ -1,47 +1,98 @@
 // O aviso do Hiroshi Hanzo, que só o Takeshi vê.
 //
-// Quando ele entra no banco, 24 janelas "URGENTE" começam a ABRIR E FECHAR por cima do site, cada
-// uma no seu ritmo, durante 10 segundos. O banco continua à vista e navegável por baixo delas.
-// Passados os 10 segundos, as janelas somem e a mensagem abre.
+// Quando ele entra no banco, 24 janelas "URGENTE" começam a abrir e fechar por cima do site,
+// cada uma no seu próprio relógio e em lugar sorteado a cada volta, durante 10 segundos. O banco
+// continua à vista e navegável por baixo delas. Passados os 10 segundos, as janelas somem e a
+// mensagem abre.
 //
 // Três decisões de implementação que valem a leitura:
 //
-//  - Posição, largura, giro e atraso vão em `style` inline, não em classe do Tailwind. O Tailwind
-//    lê o código como TEXTO e só gera a classe escrita por extenso: uma classe montada
-//    (`top-[${n}%]`) sairia do CSS final e as janelas apareceriam todas empilhadas num canto.
-//  - A lista de posições é fixa e escrita à mão, não sorteada a cada render. Sorteio dentro do
-//    render muda de lugar a cada repintura e as janelas ficariam tremendo pela tela.
-//  - A escala do `abrirFechar` é só em Y. Recolher a altura lê como janela fechando; encolher nos
-//    dois eixos leria como bolha estourando.
+//  - Posição, largura e giro vão em `style` inline, não em classe do Tailwind. O Tailwind lê o
+//    código como TEXTO e só gera a classe escrita por extenso: uma classe montada (`top-[${n}%]`)
+//    sairia do CSS final e as janelas apareceriam todas empilhadas num canto.
+//  - Cada janela é um componente com o próprio temporizador, e o sorteio da posição mora DENTRO
+//    dele — nunca no render. Sortear no render mudaria o lugar a cada repintura e a janela ficaria
+//    tremendo em vez de trocar de lugar ao reabrir.
+//  - A escala é só em Y, e vive num filho do elemento que carrega o giro. Recolher a altura lê
+//    como janela fechando; e giro e escala no mesmo elemento brigariam pelo mesmo `transform`.
 //
-// `prefers-reduced-motion` desliga a animação inteira e deixa as 24 janelas paradas e abertas:
-// quem tem sensibilidade recebe a mesma tela, sem nada abrindo e fechando.
+// `prefers-reduced-motion` desliga o ciclo: cada janela abre uma vez e fica parada.
 import React, { useEffect, useState } from 'react';
 import { AlertTriangle, X } from 'lucide-react';
 
 /** 10 segundos de alarme antes da mensagem, como o Pedro pediu. */
 const SEGUNDOS_DE_ALARME = 10;
 
+/** Quantas janelas ao mesmo tempo. */
+const QUANTAS = 24;
+
+/** inteiro sorteado entre min e max, inclusivo nas pontas o suficiente para o que se usa aqui */
+const entre = (min: number, max: number) => min + Math.random() * (max - min);
+
+/** Um lugar novo na tela. O `left` para antes da borda para a janela não sair inteira de vista. */
+const sorteiaLugar = () => ({
+  top: entre(1, 88),
+  left: entre(1, 76),
+  largura: entre(290, 470),
+  giro: entre(-11, 11),
+});
+
 /**
- * Uma janela por linha: topo e esquerda em %, largura em px, giro em graus, atraso e duração do
- * ciclo de abrir/fechar em ms.
+ * Uma janela do alarme, com o próprio relógio.
  *
- * Duração e atraso variam de janela para janela de propósito: com valores iguais as 24 abririam e
- * fechariam juntas, como um pisca só. Diferentes, viram um enxame.
+ * Abre, espera, fecha, espera, SORTEIA outro lugar e reabre. Nenhuma sabe da outra: é isso que
+ * impede que elas voltem a abrir juntas, que era o que acontecia quando o ciclo era uma animação
+ * CSS de duração fixa — durações próximas entram em fase depois de alguns ciclos.
  *
- * A lista é fixa e escrita à mão, não sorteada: sorteio dentro do render muda de lugar a cada
- * repintura e as janelas ficariam tremendo pela tela.
+ * O sorteio mora dentro do temporizador, nunca no render: sortear a cada render faria a janela
+ * tremer na tela em vez de trocar de lugar ao reabrir.
  */
-const AVISOS: [number, number, number, number, number, number][] = [
-  [4, 3, 380, -5, 0, 1500], [2, 52, 320, 4, 250, 1900], [16, 26, 440, -2, 600, 1300],
-  [10, 70, 300, 7, 900, 2100], [28, 6, 400, 3, 1150, 1700], [24, 46, 340, -8, 400, 1400],
-  [22, 74, 360, 5, 1400, 2000], [38, 30, 480, -3, 750, 1600], [40, 66, 310, 9, 1800, 1250],
-  [34, 2, 300, -6, 2100, 1850], [52, 44, 420, 2, 500, 1550], [50, 12, 330, 8, 1650, 2200],
-  [56, 72, 350, -7, 1000, 1350], [66, 28, 460, 4, 1900, 1750], [64, 62, 300, -4, 300, 1450],
-  [70, 4, 340, 6, 2300, 1650], [78, 40, 400, -9, 800, 1500], [76, 70, 320, 3, 1500, 1950],
-  [86, 14, 360, -3, 1250, 1400], [84, 54, 380, 7, 2000, 1800], [12, 4, 300, 10, 1700, 1600],
-  [44, 86, 300, -6, 550, 2050], [8, 86, 310, 5, 2200, 1500], [90, 76, 320, -8, 1100, 1700],
-];
+const Janela: React.FC<{ indice: number }> = ({ indice }) => {
+  const [lugar, setLugar] = useState(sorteiaLugar);
+  const [aberta, setAberta] = useState(false);
+  const paradinho = typeof window !== 'undefined'
+    && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+
+  useEffect(() => {
+    if (paradinho) { setAberta(true); return; }          // sem movimento: abre e fica
+    let relogio: ReturnType<typeof setTimeout>;
+    const passo = (abrindo: boolean) => {
+      if (abrindo) setLugar(sorteiaLugar());
+      setAberta(abrindo);
+      // aberta mais tempo do que fechada, para a tela ficar cheia em vez de piscando vazia
+      relogio = setTimeout(() => passo(!abrindo), abrindo ? entre(600, 1500) : entre(150, 700));
+    };
+    // o primeiro atraso é o que espalha as 24 no tempo, em vez de todas abrirem no mesmo instante
+    relogio = setTimeout(() => passo(true), entre(0, 1400) + indice * 40);
+    return () => clearTimeout(relogio);
+  }, [indice, paradinho]);
+
+  // uma em cada três é vermelha sólida: o contraste entre os dois tipos é o que dá o ar de
+  // invasão, em vez de 24 janelas iguais
+  const solida = indice % 3 === 0;
+
+  return (
+    <div
+      className="absolute"
+      style={{ top: `${lugar.top}%`, left: `${lugar.left}%`, width: `${lugar.largura}px`, transform: `rotate(${lugar.giro}deg)` }}
+    >
+      {/* o giro fica no invólucro e a escala no filho: os dois no mesmo elemento brigariam pelo
+          mesmo `transform` */}
+      <div
+        className={`origin-top border-4 shadow-[0_0_45px_-6px_rgba(220,38,38,0.95)] clip-corner-sm transition-[transform,opacity] duration-100 ease-out ${solida ? 'bg-red-600 border-red-300' : 'bg-black border-red-600'} ${aberta ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0'}`}
+      >
+        <div className={`flex items-center gap-2 px-2.5 py-1.5 ${solida ? 'bg-black' : 'bg-red-600'}`}>
+          <AlertTriangle size={14} className={`shrink-0 ${solida ? 'text-red-500' : 'text-black'}`} />
+          <span className={`text-[11px] font-black uppercase tracking-[0.22em] ${solida ? 'text-red-500' : 'text-black'}`}>Alerta</span>
+          <span className={`ml-auto text-[15px] font-black leading-none ${solida ? 'text-red-500' : 'text-black'}`}>×</span>
+        </div>
+        <div className="px-4 py-5 text-center">
+          <span className={`text-[52px] leading-none font-black uppercase tracking-wider ${solida ? 'text-black' : 'text-red-500'}`}>URGENTE</span>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const MENSAGEM = `IMPORTANTE: NÃO LEIAM ESTA MENSAGEM EM VOZ ALTA.
 
@@ -97,34 +148,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   if (restam > 0) {
     return (
       <div className="fixed inset-0 z-[200] overflow-hidden pointer-events-none select-none">
-        {AVISOS.map(([top, left, largura, giro, atraso, duracao], k) => {
-          // uma em cada três é vermelha sólida — o contraste entre os dois tipos é o que dá o ar
-          // de invasão, em vez de 24 janelas iguais
-          const solida = k % 3 === 0;
-          return (
-            // O giro fica no invólucro e a animação no filho: `animation` sobrescreve `transform`
-            // enquanto roda, então rotate e scaleY no mesmo elemento fariam o giro sumir.
-            <div
-              key={k}
-              className="absolute"
-              style={{ top: `${top}%`, left: `${left}%`, width: `${largura}px`, transform: `rotate(${giro}deg)` }}
-            >
-            <div
-              className={`origin-top border-4 shadow-[0_0_45px_-6px_rgba(220,38,38,0.95)] clip-corner-sm motion-safe:animate-[abrirFechar_linear_infinite] ${solida ? 'bg-red-600 border-red-300' : 'bg-black border-red-600'}`}
-              style={{ animationDelay: `${atraso}ms`, animationDuration: `${duracao}ms` }}
-            >
-              <div className={`flex items-center gap-2 px-2.5 py-1.5 ${solida ? 'bg-black' : 'bg-red-600'}`}>
-                <AlertTriangle size={14} className={`shrink-0 ${solida ? 'text-red-500' : 'text-black'}`} />
-                <span className={`text-[11px] font-black uppercase tracking-[0.22em] ${solida ? 'text-red-500' : 'text-black'}`}>Alerta</span>
-                <span className={`ml-auto text-[15px] font-black leading-none ${solida ? 'text-red-500' : 'text-black'}`}>×</span>
-              </div>
-              <div className="px-4 py-5 text-center">
-                <span className={`text-[52px] leading-none font-black uppercase tracking-wider ${solida ? 'text-black' : 'text-red-500'}`}>URGENTE</span>
-              </div>
-            </div>
-            </div>
-          );
-        })}
+        {Array.from({ length: QUANTAS }, (_, k) => <Janela key={k} indice={k} />)}
 
         {/* o contador fica no canto: no centro ele competiria com as janelas */}
         <div className="absolute bottom-5 right-5 bg-black border border-red-700 px-3 py-1.5 text-[10px] uppercase tracking-[0.3em] text-red-500">
