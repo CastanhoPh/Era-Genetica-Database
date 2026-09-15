@@ -1,8 +1,8 @@
 // O aviso do Hiroshi Hanzo, que só o Takeshi vê.
 //
-// Quando ele entra no banco, 24 janelinhas "URGENTE" saltam POR CIMA do site, uma de cada vez ao
-// longo de 10 segundos, piscando em vermelho. O banco continua à vista e navegável por baixo
-// delas. Passados os 10 segundos, as janelas somem e a mensagem abre.
+// Quando ele entra no banco, 24 janelas "URGENTE" começam a ABRIR E FECHAR por cima do site, cada
+// uma no seu ritmo, durante 10 segundos. O banco continua à vista e navegável por baixo delas.
+// Passados os 10 segundos, as janelas somem e a mensagem abre.
 //
 // Três decisões de implementação que valem a leitura:
 //
@@ -11,11 +11,11 @@
 //    (`top-[${n}%]`) sairia do CSS final e as janelas apareceriam todas empilhadas num canto.
 //  - A lista de posições é fixa e escrita à mão, não sorteada a cada render. Sorteio dentro do
 //    render muda de lugar a cada repintura e as janelas ficariam tremendo pela tela.
-//  - O mesmo atraso serve para a entrada e para o pisca — daí `animationDelay` com dois valores —,
-//    então cada janela salta na sua vez e depois pisca fora de sincronia das vizinhas.
+//  - A escala do `abrirFechar` é só em Y. Recolher a altura lê como janela fechando; encolher nos
+//    dois eixos leria como bolha estourando.
 //
-// `prefers-reduced-motion` mantém a entrada e desliga o pisca: quem tem sensibilidade a luz
-// piscando recebe as mesmas janelas, paradas.
+// `prefers-reduced-motion` desliga a animação inteira e deixa as 24 janelas paradas e abertas:
+// quem tem sensibilidade recebe a mesma tela, sem nada abrindo e fechando.
 import React, { useEffect, useState } from 'react';
 import { AlertTriangle, X } from 'lucide-react';
 
@@ -23,22 +23,24 @@ import { AlertTriangle, X } from 'lucide-react';
 const SEGUNDOS_DE_ALARME = 10;
 
 /**
- * Uma janelinha por linha: topo e esquerda em %, largura em px, giro em graus, e o atraso em ms —
- * que serve tanto para a entrada quanto para o pisca, então elas surgem uma de cada vez e piscam
- * fora de sincronia. Os atrasos se espalham pelos 10 segundos do alarme.
+ * Uma janela por linha: topo e esquerda em %, largura em px, giro em graus, atraso e duração do
+ * ciclo de abrir/fechar em ms.
+ *
+ * Duração e atraso variam de janela para janela de propósito: com valores iguais as 24 abririam e
+ * fechariam juntas, como um pisca só. Diferentes, viram um enxame.
  *
  * A lista é fixa e escrita à mão, não sorteada: sorteio dentro do render muda de lugar a cada
  * repintura e as janelas ficariam tremendo pela tela.
  */
-const AVISOS: [number, number, number, number, number][] = [
-  [8, 6, 190, -6, 0], [4, 58, 150, 5, 400], [18, 34, 220, -2, 800],
-  [26, 76, 160, 8, 1200], [34, 10, 200, 3, 1600], [12, 84, 140, -9, 2000],
-  [44, 48, 240, -5, 2400], [52, 82, 150, 7, 2800], [58, 22, 180, -3, 3200],
-  [30, 60, 160, 10, 3600], [66, 66, 200, -8, 4000], [72, 6, 170, 4, 4400],
-  [40, 88, 140, -4, 4800], [78, 42, 210, 6, 5200], [84, 74, 150, -7, 5600],
-  [62, 40, 160, 2, 6000], [88, 14, 180, 9, 6400], [20, 16, 150, -11, 6800],
-  [50, 4, 140, 6, 7200], [70, 88, 160, -6, 7600], [92, 46, 170, 3, 8000],
-  [6, 30, 150, 8, 8400], [36, 30, 150, -10, 8800], [80, 22, 160, 5, 9200],
+const AVISOS: [number, number, number, number, number, number][] = [
+  [4, 3, 380, -5, 0, 1500], [2, 52, 320, 4, 250, 1900], [16, 26, 440, -2, 600, 1300],
+  [10, 70, 300, 7, 900, 2100], [28, 6, 400, 3, 1150, 1700], [24, 46, 340, -8, 400, 1400],
+  [22, 74, 360, 5, 1400, 2000], [38, 30, 480, -3, 750, 1600], [40, 66, 310, 9, 1800, 1250],
+  [34, 2, 300, -6, 2100, 1850], [52, 44, 420, 2, 500, 1550], [50, 12, 330, 8, 1650, 2200],
+  [56, 72, 350, -7, 1000, 1350], [66, 28, 460, 4, 1900, 1750], [64, 62, 300, -4, 300, 1450],
+  [70, 4, 340, 6, 2300, 1650], [78, 40, 400, -9, 800, 1500], [76, 70, 320, 3, 1500, 1950],
+  [86, 14, 360, -3, 1250, 1400], [84, 54, 380, 7, 2000, 1800], [12, 4, 300, 10, 1700, 1600],
+  [44, 86, 300, -6, 550, 2050], [8, 86, 310, 5, 2200, 1500], [90, 76, 320, -8, 1100, 1700],
 ];
 
 const MENSAGEM = `IMPORTANTE: NÃO LEIAM ESTA MENSAGEM EM VOZ ALTA.
@@ -95,28 +97,34 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   if (restam > 0) {
     return (
       <div className="fixed inset-0 z-[200] overflow-hidden pointer-events-none select-none">
-        {AVISOS.map(([top, left, largura, giro, atraso], k) => (
-          <div
-            key={k}
-            className="absolute bg-black border-2 border-red-600 shadow-[0_0_25px_-4px_rgba(220,38,38,0.9)] clip-corner-sm motion-safe:animate-[surgir_0.22s_ease-out_backwards,piscar_0.7s_steps(1)_infinite] motion-reduce:animate-[surgir_0.22s_ease-out_backwards]"
-            style={{
-              top: `${top}%`,
-              left: `${left}%`,
-              width: `${largura}px`,
-              transform: `rotate(${giro}deg)`,
-              animationDelay: `${atraso}ms, ${atraso}ms`,
-            }}
-          >
-            <div className="flex items-center gap-1.5 bg-red-600 px-2 py-1">
-              <AlertTriangle size={11} className="text-black shrink-0" />
-              <span className="text-[9px] font-black uppercase tracking-[0.2em] text-black">Alerta</span>
-              <span className="ml-auto text-[10px] font-black text-black leading-none">×</span>
+        {AVISOS.map(([top, left, largura, giro, atraso, duracao], k) => {
+          // uma em cada três é vermelha sólida — o contraste entre os dois tipos é o que dá o ar
+          // de invasão, em vez de 24 janelas iguais
+          const solida = k % 3 === 0;
+          return (
+            // O giro fica no invólucro e a animação no filho: `animation` sobrescreve `transform`
+            // enquanto roda, então rotate e scaleY no mesmo elemento fariam o giro sumir.
+            <div
+              key={k}
+              className="absolute"
+              style={{ top: `${top}%`, left: `${left}%`, width: `${largura}px`, transform: `rotate(${giro}deg)` }}
+            >
+            <div
+              className={`origin-top border-4 shadow-[0_0_45px_-6px_rgba(220,38,38,0.95)] clip-corner-sm motion-safe:animate-[abrirFechar_linear_infinite] ${solida ? 'bg-red-600 border-red-300' : 'bg-black border-red-600'}`}
+              style={{ animationDelay: `${atraso}ms`, animationDuration: `${duracao}ms` }}
+            >
+              <div className={`flex items-center gap-2 px-2.5 py-1.5 ${solida ? 'bg-black' : 'bg-red-600'}`}>
+                <AlertTriangle size={14} className={`shrink-0 ${solida ? 'text-red-500' : 'text-black'}`} />
+                <span className={`text-[11px] font-black uppercase tracking-[0.22em] ${solida ? 'text-red-500' : 'text-black'}`}>Alerta</span>
+                <span className={`ml-auto text-[15px] font-black leading-none ${solida ? 'text-red-500' : 'text-black'}`}>×</span>
+              </div>
+              <div className="px-4 py-5 text-center">
+                <span className={`text-[52px] leading-none font-black uppercase tracking-wider ${solida ? 'text-black' : 'text-red-500'}`}>URGENTE</span>
+              </div>
             </div>
-            <div className="px-3 py-3 text-center">
-              <span className="text-[26px] font-black uppercase tracking-wider text-red-500">URGENTE</span>
             </div>
-          </div>
-        ))}
+          );
+        })}
 
         {/* o contador fica no canto: no centro ele competiria com as janelas */}
         <div className="absolute bottom-5 right-5 bg-black border border-red-700 px-3 py-1.5 text-[10px] uppercase tracking-[0.3em] text-red-500">
