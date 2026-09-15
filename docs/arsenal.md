@@ -1156,7 +1156,7 @@ ID: 70
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
-Dono Original: Oryō Soryo
+Dono Original: Oryo Soryo
 Dono Atual: Kenma Soryo
 
 ![Sōryū no Seikonseki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F24%20-%20S%C5%8Dry%C5%AB%20no%20Seikonseki.png?alt=media&v=1788212124124802)
@@ -1171,7 +1171,7 @@ ID: 71
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
-Dono Original: Oryō Soryo
+Dono Original: Oryo Soryo
 Dono Atual: Kenma Soryo
 
 ![Sōryo no Kōwan](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F25%20-%20S%C5%8Dryo%20no%20K%C5%8Dwan.png?alt=media&v=1788212123660823)
@@ -1186,7 +1186,7 @@ ID: 72
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
-Dono Original: Oryō Soryo
+Dono Original: Oryo Soryo
 Dono Atual: Kenma Soryo
 
 ![Ryokushin no Seikonseki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F26%20-%20Ryokushin%20no%20Seikonseki.png?alt=media&v=1788212123204154)
@@ -1201,7 +1201,7 @@ ID: 73
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
-Dono Original: Oryō Soryo
+Dono Original: Oryo Soryo
 Dono Atual: Kenma Soryo
 
 ![Akashin no Seikonseki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F27%20-%20Akashin%20no%20Seikonseki.png?alt=media&v=1788212122729700)
@@ -1216,7 +1216,7 @@ ID: 74
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
-Dono Original: Oryō Soryo
+Dono Original: Oryo Soryo
 Dono Atual: Kenma Soryo
 
 ![Aoshin no Seikonseki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F28%20-%20Aoshin%20no%20Seikonseki.png?alt=media&v=1788212122219904)

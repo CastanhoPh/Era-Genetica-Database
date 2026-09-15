@@ -118,6 +118,9 @@
 | 112 | Hina Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Son Goku) |
 | 113 | Iwaki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 18 | 0 | 0 | Morto (morto por Nagare Uzumaki) |
 | 114 | Renji Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Morto (morto por Furyuzan Chinoike) |
+| 115 | Akemi Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 0 | 0 | 0 | Vivo |
+| 116 | Oryo Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 117 | Sekio Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
 
 ---
 
@@ -11808,6 +11811,120 @@ Status: Morto (morto por Furyuzan Chinoike)
 
 ## Descrição
 Irmão de Ryuta. Treinou Katsumi.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Akemi Hyuga
+ID: 115
+Clã: Hyuga
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 0
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Akemi Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkemi%20Hyuga%2FAkemi%20Hyuga.png?alt=media&v=1789491754777045)
+
+## Descrição
+Esposa de Minoru Hyuga. Mãe de Hoshiro, Kaizuka e Haruki.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Oryo Soryo
+ID: 116
+Clã: Soryo
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Oryo Soryo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOryo%20Soryo%2FOryo%20Soryo.png?alt=media&v=1789491758873455)
+
+## Descrição
+Mestre do Koton. Pai de Kenma.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Sekio Ishi
+ID: 117
+Clã: Ishi
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Sekio Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSekio%20Ishi%2FSekio%20Ishi.png?alt=media&v=1789491762885202)
+
+## Descrição
+Rei dos Samurais.
 
 ## Atributos
 - Força: 0

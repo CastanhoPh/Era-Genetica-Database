@@ -808,7 +808,7 @@ export const arsenalData: Equipment[] = [
     origin: "Iwagakure",
     description: "A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia milenar guardada pelos monges guerreiros do País da Pedra como um tesouro de poder espiritual. Ela abriga em seu núcleo uma densa concentração de chakra profano ancestral que ressoa com a energia vital das montanhas de Iwagakure. Ao ser ativada, a pedra canaliza essa energia para o usuário, permitindo a manifestação de formas espirituais dracônicas que atacam tanto o corpo quanto a alma do inimigo. O chakra emitido pela pedra possui uma densidade tão alta que pode distorcer a gravidade ao seu redor, tornando cada movimento do usuário esmagador. É um artefato de dupla natureza, exigindo que o portador mantenha um equilíbrio perfeito entre paz espiritual e a fúria do chakra profano contido. Kenma Soryo utiliza a pedra para elevar suas técnicas de Doton Ancestral a um nível onde a própria terra parece ganhar consciência e atacar sob seu comando. É um dos três artefatos sagrados guardados pelos monges de elite do País da Pedra — relíquia à parte do trio de pedras-chave Ryokushin, Aoshin e Akashin.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F24%20-%20S%C5%8Dry%C5%AB%20no%20Seikonseki.png?alt=media&v=1788212124124802",
-    originalOwner: "Oryō Soryo",
+    originalOwner: "Oryo Soryo",
     currentOwner: "Kenma Soryo"
   },
   {
@@ -819,7 +819,7 @@ export const arsenalData: Equipment[] = [
     origin: "Iwagakure",
     description: "Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições de fuinjutsu ancestral, é o canalizador definitivo para usuários de elementos terrestres e vegetais. Ele atua como um filtro e amplificador de chakra, elevando técnicas baseadas em Doton e Mokuton ao ápice de sua potência e escala. Ao usar o Sōryo no Kōwan, o usuário pode invocar construções de madeira ou rocha que possuem o dobro da densidade normal, tornando-as quase imunes a jutsus de fogo ou perfuração. O bracelete permite que o chakra profano seja injetado nas criações elementais, dando-lhes propriedades corrosivas e a capacidade de drenar energia por contato. Além disso, ele reduz drasticamente o tempo de preparação para jutsus de grande escala, permitindo a criação de florestas ou fortalezas de pedra em segundos. É um item que define a soberania do portador sobre o ambiente natural, transformando o campo de batalha em uma extensão de seu próprio sistema de chakra. Kenma utiliza o bracelete para coordenar ataques complexos onde a terra e a madeira agem em perfeita simbiose espiritual.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F25%20-%20S%C5%8Dryo%20no%20K%C5%8Dwan.png?alt=media&v=1788212123660823",
-    originalOwner: "Oryō Soryo",
+    originalOwner: "Oryo Soryo",
     currentOwner: "Kenma Soryo"
   },
   {
@@ -830,7 +830,7 @@ export const arsenalData: Equipment[] = [
     origin: "Iwagakure",
     description: "A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, focada especificamente na amplificação da resistência física e vitalidade espiritual. Conhecida como a 'Pedra Verde do Corpo Divino', ela emite uma pulsação constante que regenera o chakra profano do usuário conforme ele luta, criando um ciclo de energia quase inesgotável. Quando ativa, a pedra reveste o corpo do portador com uma película invisível de energia densa que anula impactos físicos de médio nível e dissipa técnicas elementais fracas. Ela é utilizada por Kenma Soryo como um núcleo de estabilidade, permitindo que ele suporte a carga mental de manipular jutsus ancestrais por longos períodos sem colapsar. A pedra também pode ser disparada como um projétil de energia concentrada que explode em uma onda de choque esmeralda ao atingir o alvo. Sua cor vibrante é resultado da fusão entre a energia vital da natureza e a corrupção controlada do chakra profano dos monges. É o pilar que sustenta a imortalidade temporária dos guerreiros de elite de Iwagakure no campo de batalha.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F26%20-%20Ryokushin%20no%20Seikonseki.png?alt=media&v=1788212123204154",
-    originalOwner: "Oryō Soryo",
+    originalOwner: "Oryo Soryo",
     currentOwner: "Kenma Soryo"
   },
   {
@@ -841,7 +841,7 @@ export const arsenalData: Equipment[] = [
     origin: "Iwagakure",
     description: "A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e mais cobiçada das pedras-chave sagradas dos monges de Iwagakure — dizem que guarda um fragmento da própria vontade ancestral, purificado em sangue e fogo. Seu brilho vermelho intenso amplifica a ligação espiritual do portador a níveis quase divinos, permitindo enxergar e manipular almas diretamente, dissolvendo defesas mentais e espirituais do oponente. Kenma Soryo a mantém guardada como último recurso, temendo o preço que sua própria alma pagaria por usá-la sem controle absoluto. Junto de Ryokushin e Aoshin, completa o trio de pedras-chave que os monges de elite do País da Pedra consideram capaz de despertar o verdadeiro potencial de um guerreiro profano.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F27%20-%20Akashin%20no%20Seikonseki.png?alt=media&v=1788212122729700",
-    originalOwner: "Oryō Soryo",
+    originalOwner: "Oryo Soryo",
     currentOwner: "Kenma Soryo"
   },
   {
@@ -852,7 +852,7 @@ export const arsenalData: Equipment[] = [
     origin: "Iwagakure",
     description: "A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras-chave sagradas dos monges de Iwagakure, sendo a que possui a maior afinidade com a percepção espiritual e o mundo das sombras. Ela emite um brilho azul profundo e hipnótico que pode ser usado para paralisar a vontade de inimigos mais fracos ou revelar a presença de seres espirituais e usuários de camuflagem. O chakra profano contido em seu núcleo é puramente espiritual, permitindo que o usuário projete sua consciência ou crie ilusões tangíveis que atacam diretamente a mente do alvo. Kenma utiliza a pedra para coordenar o campo de batalha, enviando comandos silenciosos através de ressonância de chakra para seus aliados ou detectando armadilhas ocultas. Em seu estado de liberação total, a pedra cria um domínio de névoa azulada onde a percepção do tempo é distorcida, facilitando assassinatos rápidos e precisos. É a relíquia mais misteriosa e perigosa, pois lida diretamente com a alma e o subconsciente daqueles que entram em seu alcance. Sua posse garante que o portador nunca seja pego de surpresa, agindo como um terceiro olho que enxerga a verdadeira natureza de tudo ao redor.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F28%20-%20Aoshin%20no%20Seikonseki.png?alt=media&v=1788212122219904",
-    originalOwner: "Oryō Soryo",
+    originalOwner: "Oryo Soryo",
     currentOwner: "Kenma Soryo"
   },
   {
