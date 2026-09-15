@@ -46,6 +46,12 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+        // cada quadrado do alarme SALTA na tela, um de cada vez
+        surgir: {
+          '0%': { opacity: '0', transform: 'scale(0.6)' },
+          '70%': { opacity: '1', transform: 'scale(1.06)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
         // pisca duro, para o alarme do aviso urgente: liga/desliga, sem transição
         piscar: {
           '0%, 49%': { opacity: '1' },

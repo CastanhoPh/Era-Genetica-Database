@@ -1,33 +1,44 @@
 // O aviso do Hiroshi Hanzo, que só o Takeshi vê.
 //
-// Pedido do Pedro em 16/09/2026: quando o Takeshi entra no banco, a tela inteira se enche de
-// "URGENTE" piscando em vermelho por 10 segundos, e só depois aparece a mensagem.
+// Quando ele entra no banco, 24 janelinhas "URGENTE" saltam POR CIMA do site, uma de cada vez ao
+// longo de 10 segundos, piscando em vermelho. O banco continua à vista e navegável por baixo
+// delas. Passados os 10 segundos, as janelas somem e a mensagem abre.
 //
-// Duas decisões de implementação que valem a leitura:
+// Três decisões de implementação que valem a leitura:
 //
-//  - As posições, rotações e tamanhos dos avisos vão em `style` inline, não em classe do Tailwind.
-//    O Tailwind lê o código como TEXTO e só gera a classe que estiver escrita por extenso: uma
-//    classe montada (`top-[${n}%]`) sairia do CSS final e os avisos apareceriam todos empilhados
-//    no canto.
+//  - Posição, largura, giro e atraso vão em `style` inline, não em classe do Tailwind. O Tailwind
+//    lê o código como TEXTO e só gera a classe escrita por extenso: uma classe montada
+//    (`top-[${n}%]`) sairia do CSS final e as janelas apareceriam todas empilhadas num canto.
 //  - A lista de posições é fixa e escrita à mão, não sorteada a cada render. Sorteio dentro do
-//    render muda de lugar a cada repintura e os avisos ficariam tremendo pela tela.
+//    render muda de lugar a cada repintura e as janelas ficariam tremendo pela tela.
+//  - O mesmo atraso serve para a entrada e para o pisca — daí `animationDelay` com dois valores —,
+//    então cada janela salta na sua vez e depois pisca fora de sincronia das vizinhas.
 //
-// `prefers-reduced-motion` desliga o pisca e mostra o alarme estático: quem tem sensibilidade a
-// luz piscando recebe os mesmos 10 segundos sem o estrobo.
+// `prefers-reduced-motion` mantém a entrada e desliga o pisca: quem tem sensibilidade a luz
+// piscando recebe as mesmas janelas, paradas.
 import React, { useEffect, useState } from 'react';
 import { AlertTriangle, X } from 'lucide-react';
 
 /** 10 segundos de alarme antes da mensagem, como o Pedro pediu. */
 const SEGUNDOS_DE_ALARME = 10;
 
-/** posição em %, rotação em graus, tamanho em px, atraso do pisca em ms */
+/**
+ * Uma janelinha por linha: topo e esquerda em %, largura em px, giro em graus, e o atraso em ms —
+ * que serve tanto para a entrada quanto para o pisca, então elas surgem uma de cada vez e piscam
+ * fora de sincronia. Os atrasos se espalham pelos 10 segundos do alarme.
+ *
+ * A lista é fixa e escrita à mão, não sorteada: sorteio dentro do render muda de lugar a cada
+ * repintura e as janelas ficariam tremendo pela tela.
+ */
 const AVISOS: [number, number, number, number, number][] = [
-  [6, 4, -8, 34, 0], [4, 62, 6, 28, 180], [14, 30, -3, 44, 90],
-  [22, 74, 10, 26, 260], [30, 8, 4, 38, 60], [36, 46, -6, 30, 340],
-  [44, 80, -12, 32, 140], [52, 18, 7, 40, 220], [58, 58, -4, 26, 30],
-  [66, 4, 9, 36, 300], [72, 38, -9, 28, 110], [78, 70, 5, 34, 190],
-  [86, 22, -5, 30, 250], [90, 54, 8, 26, 70], [12, 88, -11, 24, 320],
-  [48, 92, 3, 22, 160], [82, 90, -7, 24, 200], [26, 52, 12, 24, 280],
+  [8, 6, 190, -6, 0], [4, 58, 150, 5, 400], [18, 34, 220, -2, 800],
+  [26, 76, 160, 8, 1200], [34, 10, 200, 3, 1600], [12, 84, 140, -9, 2000],
+  [44, 48, 240, -5, 2400], [52, 82, 150, 7, 2800], [58, 22, 180, -3, 3200],
+  [30, 60, 160, 10, 3600], [66, 66, 200, -8, 4000], [72, 6, 170, 4, 4400],
+  [40, 88, 140, -4, 4800], [78, 42, 210, 6, 5200], [84, 74, 150, -7, 5600],
+  [62, 40, 160, 2, 6000], [88, 14, 180, 9, 6400], [20, 16, 150, -11, 6800],
+  [50, 4, 140, 6, 7200], [70, 88, 160, -6, 7600], [92, 46, 170, 3, 8000],
+  [6, 30, 150, 8, 8400], [36, 30, 150, -10, 8800], [80, 22, 160, 5, 9200],
 ];
 
 const MENSAGEM = `IMPORTANTE: NÃO LEIAM ESTA MENSAGEM EM VOZ ALTA.
@@ -72,43 +83,45 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     return () => clearTimeout(t);
   }, [restam]);
 
-  // trava a rolagem do site atrás do aviso
+  // A rolagem só trava quando a MENSAGEM abre. Durante o alarme as janelinhas são visuais e o
+  // banco continua navegável por baixo delas.
   useEffect(() => {
+    if (restam > 0) return;
     document.body.style.overflow = 'hidden';
     return () => { document.body.style.overflow = 'unset'; };
-  }, []);
+  }, [restam]);
 
   // ================================================================ o alarme
   if (restam > 0) {
     return (
-      <div className="fixed inset-0 z-[200] bg-black overflow-hidden select-none">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(220,38,38,0.28),transparent_70%)] animate-pulse pointer-events-none" />
-        <div className="absolute inset-0 bg-[linear-gradient(transparent_2px,rgba(0,0,0,0.6)_3px)] bg-[size:100%_4px] pointer-events-none opacity-40" />
-
-        {AVISOS.map(([top, left, giro, tamanho, atraso], k) => (
+      <div className="fixed inset-0 z-[200] overflow-hidden pointer-events-none select-none">
+        {AVISOS.map(([top, left, largura, giro, atraso], k) => (
           <div
             key={k}
-            className="absolute font-black uppercase text-red-600 motion-safe:animate-[piscar_0.6s_steps(1)_infinite] whitespace-nowrap drop-shadow-[0_0_18px_rgba(220,38,38,0.9)]"
+            className="absolute bg-black border-2 border-red-600 shadow-[0_0_25px_-4px_rgba(220,38,38,0.9)] clip-corner-sm motion-safe:animate-[surgir_0.22s_ease-out_backwards,piscar_0.7s_steps(1)_infinite] motion-reduce:animate-[surgir_0.22s_ease-out_backwards]"
             style={{
               top: `${top}%`,
               left: `${left}%`,
+              width: `${largura}px`,
               transform: `rotate(${giro}deg)`,
-              fontSize: `${tamanho}px`,
-              animationDelay: `${atraso}ms`,
+              animationDelay: `${atraso}ms, ${atraso}ms`,
             }}
           >
-            URGENTE URGENTE URGENTE
+            <div className="flex items-center gap-1.5 bg-red-600 px-2 py-1">
+              <AlertTriangle size={11} className="text-black shrink-0" />
+              <span className="text-[9px] font-black uppercase tracking-[0.2em] text-black">Alerta</span>
+              <span className="ml-auto text-[10px] font-black text-black leading-none">×</span>
+            </div>
+            <div className="px-3 py-3 text-center">
+              <span className="text-[26px] font-black uppercase tracking-wider text-red-500">URGENTE</span>
+            </div>
           </div>
         ))}
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 pointer-events-none">
-          <AlertTriangle size={96} className="text-red-500 motion-safe:animate-[piscar_0.6s_steps(1)_infinite] drop-shadow-[0_0_30px_rgba(220,38,38,0.9)]" />
-          <div className="text-red-500 text-[11px] uppercase tracking-[0.35em] bg-black/70 px-4 py-1.5 border border-red-700">
-            transmissão recebida · {restam}s
-          </div>
+        {/* o contador fica no canto: no centro ele competiria com as janelas */}
+        <div className="absolute bottom-5 right-5 bg-black border border-red-700 px-3 py-1.5 text-[10px] uppercase tracking-[0.3em] text-red-500">
+          transmissão recebida · {restam}s
         </div>
-
-        <div className="absolute inset-0 border-[6px] border-red-600 motion-safe:animate-[piscar_0.6s_steps(1)_infinite] pointer-events-none" />
       </div>
     );
   }
