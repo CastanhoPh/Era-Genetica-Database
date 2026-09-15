@@ -455,12 +455,8 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
   {
     village: 'Konohagakure',
     entries: [
-      { name: 'Kawarama Senju', role: 'Pai de Nishinoya', dead: true, nc: 28, era: 'Era Tobirama' },
-      { name: 'Sakura Namikaze', role: 'Mãe de Nishinoya', dead: true, nc: 26, era: 'Era Tobirama' },
-      { name: 'Mito Uzumaki', role: 'Esposa de Hashirama', dead: true, nc: 28, era: 'Era Hashirama' },
       { name: 'Hiruzen Sarutobi', role: 'Pai de Shoei e Apollo', nc: 28, era: 'Era Nishinoya' },
       { name: 'Hina Sarutobi', role: 'Mãe de Shoei e Apollo', nc: 24, era: 'Era Nishinoya' },
-      { name: 'Konan Uchiha', role: 'Mãe de Naoki, Oddy, Kuromi, Ayumi e Shizumi', nc: 24, era: 'Era Hashirama' },
       { name: 'Inazuma Uchiha', role: 'Filho do Velho, morto por Beta, descartado pela OCA', dead: true, nc: 14 },
       { name: 'Shikado Nara', role: 'Pai de Shikaki e Shikatsu, morto por Hades', dead: true, nc: 26 },
       { name: 'Kurai Nara', role: 'Mãe de Shikaki e Shikatsu, morta por Hades', dead: true, nc: 26 },
