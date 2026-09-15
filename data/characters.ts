@@ -8629,7 +8629,7 @@ export const initialData: Character[] = [
     hp: 0,
     chakra: 0,
     isDead: true,
-    killedBy: "",
+    killedBy: "Selamento da Kurama em Naomi",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMito%20Uzumaki%2FMito%20Uzumaki.png?alt=media&v=1789485888962279",
     stats: { strength: 0, dexterity: 0, agility: 0, intelligence: 0, spirit: 0, vigor: 0, perception: 0 },
     powers: [],
