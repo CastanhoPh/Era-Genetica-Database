@@ -7,8 +7,8 @@ import { filtroDaCapa } from './BotaoDeCores';
 export interface InvocacaoCardData {
   nome: string;
   /**
-   * O invocador ATUAL, com o nome curto ("Kuromi") — vem do `temporada` da página. VAZIO é um
-   * estado válido, não falta de dado: o Shogenami nunca aceitou contrato com humano nenhum.
+   * O invocador ATUAL, com o nome completo ("Kuromi Uchiha") — vem do `temporada` da página. VAZIO
+   * é um estado válido, não falta de dado: o Shogenami nunca aceitou contrato com humano nenhum.
    */
   dono: string;
   capaUrl?: string;

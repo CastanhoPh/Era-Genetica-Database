@@ -205,8 +205,8 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
     return () => window.removeEventListener('keydown', tecla);
   }, [aberta, idxAberta, filtradas]);
 
-  /** Ficha do dono, quando existe: o vínculo é pelo primeiro nome, como no reconciliador. */
-  const fichaDo = (primeiro: string) => characters.find(c => c.name.split(' ')[0] === primeiro);
+  /** Ficha do dono, quando existe: o vínculo é pelo nome completo, como no reconciliador. */
+  const fichaDo = (nome: string) => characters.find(c => c.name === (nome || '').trim());
   const fichaAberta = aberta ? fichaDo(aberta.dono) : undefined;
 
   // 35 das 100 nao tem descricao nem habilidade. Sem isso o card abriria largo com a coluna da
@@ -510,9 +510,9 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                     const atualMorto = !!fichaAberta?.isDead;
                     const nomeAtual = fichaAberta?.name ?? aberta.dono;
                     const passados = [...(aberta.pastOwners ?? []), ...(atualMorto ? [nomeAtual] : [])];
-                    // O `dono` e o nome CURTO ("Kuromi") e o `originalOwner` o completo, entao a
-                    // comparacao e contra o nome da ficha quando ela existe — senao invocacao cujo
-                    // original e o atual mostraria a mesma pessoa duas vezes.
+                    // `dono` e `originalOwner` são os dois o nome completo desde 15/09/2026; a
+                    // comparação continua contra o nome da ficha quando ela existe, porque é ela
+                    // que manda se o cadastro divergir.
                     const mostraOriginal = aberta.originalOwner && aberta.originalOwner !== nomeAtual;
 
                     type Celula = { rotulo: string; cor: string; valor: React.ReactNode };

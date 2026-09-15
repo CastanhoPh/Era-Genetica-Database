@@ -7,9 +7,12 @@
 // então a lista vive desnormalizada no documento do personagem — mesma escolha já feita para a
 // `gallery`. O preço da cópia é este script: a fonte da verdade continua sendo o checklist.
 //
-// O vínculo é pelo `temporada` do item de invocação, que guarda o PRIMEIRO nome do dono ("Kaito",
-// "Nagi", "Borashi"). Isso funciona porque nenhuma das 86 fichas repete primeiro nome — o script
-// confere isso e para se deixar de ser verdade.
+// O vínculo é pelo `temporada` do item de invocação, que guarda o NOME COMPLETO do dono. Era o
+// primeiro nome até 15/09/2026, e foi a única das sete formas de vínculo do projeto que fazia isso
+// — as outras seis (elenco de evento, linha do tempo, capa, modos, arsenal, ordem de força) sempre
+// usaram nome completo. O preço do primeiro nome era uma regra que mais ninguém precisava: dois
+// personagens com o mesmo primeiro nome faziam este script parar. A lista de pendentes já tem duas
+// Akemi e duas Iwana.
 //
 // Dono sem ficha não é erro: a invocação fica guardada no checklist e passa a aparecer no dia em que
 // a ficha existir, igual ao elenco dos eventos.
@@ -31,18 +34,17 @@ const [snapChars, snapItens] = await Promise.all([
   db.collection('imageChecklist').get(),
 ]);
 
-// ---- o primeiro nome tem que ser único, senão o vínculo é ambíguo ----
-const porPrimeiro = new Map();
+// ---- o nome completo é a chave; duplicata aqui seria erro de cadastro, não ambiguidade ----
+const porNome = new Map();
 for (const doc of snapChars.docs) {
-  const nome = doc.data().name || '';
-  const p = nome.split(' ')[0];
-  if (!porPrimeiro.has(p)) porPrimeiro.set(p, []);
-  porPrimeiro.get(p).push({ id: doc.id, nome, dados: doc.data() });
+  const nome = (doc.data().name || '').trim();
+  if (!porNome.has(nome)) porNome.set(nome, []);
+  porNome.get(nome).push({ id: doc.id, nome, dados: doc.data() });
 }
-const ambiguos = [...porPrimeiro.entries()].filter(([, v]) => v.length > 1);
-if (ambiguos.length) {
-  console.log('PARE: primeiro nome repetido entre fichas, o vínculo por primeiro nome deixou de servir:');
-  ambiguos.forEach(([p, v]) => console.log(`   ${p}: ${v.map(x => x.nome).join(' | ')}`));
+const repetidos = [...porNome.entries()].filter(([, v]) => v.length > 1);
+if (repetidos.length) {
+  console.log('PARE: duas fichas com o mesmo nome completo:');
+  repetidos.forEach(([n, v]) => console.log(`   ${n}: ${v.map(x => x.id).join(' | ')}`));
   process.exit(1);
 }
 
@@ -72,7 +74,7 @@ for (const i of arte) {
     ...(i.habilidadeSuprema ? { habilidadeSuprema: i.habilidadeSuprema } : {}),
     ...(i.placeholder || capa?.placeholder ? { placeholder: true } : {}),
   };
-  const alvo = porPrimeiro.get(i.temporada);
+  const alvo = porNome.get((i.temporada || "").trim());
   if (!alvo) {
     if (!semFicha.has(i.temporada)) semFicha.set(i.temporada, []);
     semFicha.get(i.temporada).push(i.name);
