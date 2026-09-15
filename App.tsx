@@ -25,6 +25,7 @@ const Arsenal = lazy(() => import('./pages/Arsenal'));
 const Invocacoes = lazy(() => import('./pages/Invocacoes'));
 const AdminPanel = lazy(() => import('./pages/AdminPanel'));
 const ChecklistPanel = lazy(() => import('./pages/ChecklistPanel'));
+const AvisoUrgente = lazy(() => import('./components/AvisoUrgente'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const Habilidades = lazy(() => import('./pages/Habilidades'));
 
@@ -156,7 +157,19 @@ export default function App() {
     const [editingChar, setEditingChar] = useState<Character | null>(null);
     const [showAddEquipment, setShowAddEquipment] = useState(false);
     const [editingEquipment, setEditingEquipment] = useState<Equipment | null>(null);
-    const { user, isAdmin, isChecklistEditor, authReady, login, logout } = useAuth();
+    const { user, isAdmin, isChecklistEditor, ehTakeshi, authReady, login, logout } = useAuth();
+
+    // O aviso do Hiroshi Hanzo dispara UMA vez por sessão do navegador: entrar mostra, recarregar
+    // a página no meio da leitura não mostra de novo, e abrir noutro dia mostra outra vez.
+    const [aviso, setAviso] = useState(false);
+    useEffect(() => {
+        if (!ehTakeshi) return;
+        try {
+            if (sessionStorage.getItem('aviso-hanzo') === 'visto') return;
+            sessionStorage.setItem('aviso-hanzo', 'visto');
+        } catch { /* janela anônima ou storage bloqueado: mostra assim mesmo */ }
+        setAviso(true);
+    }, [ehTakeshi]);
     // Chave = id+URL da imagem (não só o id), pra que uma correção de URL feita no Painel
     // "esqueça" o erro antigo automaticamente, sem precisar de F5.
     const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({});
@@ -1142,6 +1155,13 @@ export default function App() {
                     />
                 )}
                 {showLoginModal && <LoginModal onClose={() => navigate(mainTabPath(activeMainTab))} onLogin={login} />}
+
+                {/* por cima de tudo, inclusive do modal de login que acabou de fechar */}
+                {aviso && (
+                    <Suspense fallback={null}>
+                        <AvisoUrgente onClose={() => setAviso(false)} />
+                    </Suspense>
+                )}
             </Suspense>
         </div>
     );

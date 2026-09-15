@@ -46,6 +46,11 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+        // pisca duro, para o alarme do aviso urgente: liga/desliga, sem transição
+        piscar: {
+          '0%, 49%': { opacity: '1' },
+          '50%, 100%': { opacity: '0' },
+        },
         flicker: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.9' },

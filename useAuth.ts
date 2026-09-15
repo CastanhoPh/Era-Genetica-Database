@@ -15,6 +15,12 @@ const CHECKLIST_EDITOR_UIDS = new Set([
   'csE07Qq2LLaUwg3wYSeNXWbVrE73', // Zeck
 ]);
 
+/**
+ * O Takeshi. Não é admin nem editor da checklist: a conta existe para ele ver o aviso do Hiroshi
+ * Hanzo ao entrar, e o resto do site é o que qualquer visitante vê.
+ */
+const TAKESHI_UID = 'rAX7bghZPgRwuZcfiT2jWhL6X6E3';
+
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
   const [authReady, setAuthReady] = useState(false);
@@ -34,5 +40,7 @@ export function useAuth() {
   const isAdmin = !!user && ADMIN_UIDS.has(user.uid);
   const isChecklistEditor = isAdmin || (!!user && CHECKLIST_EDITOR_UIDS.has(user.uid));
 
-  return { user, isAdmin, isChecklistEditor, authReady, login, logout };
+  const ehTakeshi = !!user && user.uid === TAKESHI_UID;
+
+  return { user, isAdmin, isChecklistEditor, ehTakeshi, authReady, login, logout };
 }
