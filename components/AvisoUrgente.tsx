@@ -44,7 +44,74 @@ const sorteiaLugar = () => ({
   largura: entre(300, 470),
   porta: Math.floor(entre(1000, 65000)),
   lixo: hex(8),
+  grito: GRITOS[Math.floor(Math.random() * GRITOS.length)],
+  progresso: Math.floor(entre(8, 97)),
 });
+
+/** As frases da sub-linha das janelas. Curtas de propósito: é grito, não explicação. */
+const GRITOS = [
+  'AUTENTICAÇÃO IGNORADA', 'ROOT OBTIDO', 'CHAVE QUEBRADA', 'FIREWALL MORTO',
+  'SESSÃO SEQUESTRADA', 'BACKUP APAGADO', 'LOG LIMPO', 'PERMISSÃO ELEVADA',
+];
+
+/**
+ * As linhas do log de ataque.
+ *
+ * Citam as coleções e os números REAIS do banco — characters, imageChecklist, 118 fichas, 101
+ * invocações. Comando genérico de filme não assusta; o próprio banco sendo lido em voz alta, sim.
+ */
+const COMANDOS = [
+  () => `$ ssh -i ~/.ssh/id_rsa root@era-genetica.db`,
+  () => `> handshake TLS … IGNORADO`,
+  () => `> bypass firebase.rules … OK`,
+  () => `> auth.currentUser := root [FORJADO]`,
+  () => `$ firestore dump --collection=characters`,
+  () => `  118 documentos · ${Math.floor(entre(180, 420))} KB … EXTRAÍDO`,
+  () => `$ firestore dump --collection=arsenal`,
+  () => `  87 documentos … EXTRAÍDO`,
+  () => `$ firestore dump --collection=imageChecklist`,
+  () => `  1399 documentos … EXTRAÍDO`,
+  () => `$ gsutil -m cp -r gs://era-genetica/Galeria .`,
+  () => `  ${Math.floor(entre(200, 1190))}/1198 objetos … ${Math.floor(entre(10, 99))} MB/s`,
+  () => `> 101 invocações indexadas`,
+  () => `> hash ${hex(4).replace(/ /g, '')} … COLIDIDO`,
+  () => `> chave de serviço … CAPTURADA`,
+  () => `! integridade comprometida em ${Math.floor(entre(2, 40))} coleções`,
+  () => `! tentativa de rollback … NEGADA`,
+  () => `> apagando rastro em audit.log`,
+  () => `> canal reverso aberto :${Math.floor(entre(1000, 65000))}`,
+  () => `${hex(6)}`,
+  () => `> aguarde. não desligue o terminal.`,
+];
+
+/**
+ * O log de ataque de uma das bordas.
+ *
+ * Guarda no máximo 14 linhas: sem o corte a lista cresceria durante os 10 segundos inteiros e a
+ * página ficaria mais pesada a cada quadro.
+ */
+const LogDeAtaque: React.FC<{ lado: 'esquerda' | 'direita' }> = ({ lado }) => {
+  const [linhas, setLinhas] = useState<string[]>([]);
+  useEffect(() => {
+    const t = setInterval(() => {
+      setLinhas(l => [...l.slice(-13), COMANDOS[Math.floor(Math.random() * COMANDOS.length)]()]);
+    }, lado === 'esquerda' ? 85 : 130);
+    return () => clearInterval(t);
+  }, [lado]);
+  return (
+    <div className={`absolute top-10 bottom-10 w-[38%] max-w-[420px] overflow-hidden flex flex-col justify-end gap-0.5 px-3 ${lado === 'esquerda' ? 'left-0' : 'right-0 text-right'}`}>
+      {linhas.map((l, k) => (
+        <div
+          key={`${k}-${l}`}
+          className="text-[12px] leading-tight text-red-500 truncate"
+          style={{ opacity: 0.25 + (k / linhas.length) * 0.75 }}
+        >
+          {l}
+        </div>
+      ))}
+    </div>
+  );
+};
 
 /**
  * Uma janela da invasão, com o próprio relógio.
@@ -97,11 +164,18 @@ const Janela: React.FC<{ indice: number }> = ({ indice }) => {
             _ ▢ ✕
           </span>
         </div>
-        <div className="px-3 pt-3 pb-2">
+        <div className="px-3 pt-3 pb-2.5">
           <div className={`text-[46px] leading-none font-black tracking-tight ${solida ? 'text-black' : 'text-red-500'}`}>
             &gt; URGENTE<span className="motion-safe:animate-pulse">█</span>
           </div>
-          <div className={`mt-2 text-[10px] tracking-widest truncate ${solida ? 'text-black/70' : 'text-red-500/50'}`}>
+          <div className={`mt-1.5 text-[11px] font-black uppercase tracking-[0.14em] truncate ${solida ? 'text-black' : 'text-red-400'}`}>
+            ! {lugar.grito}
+          </div>
+          {/* a barra de exfiltração: o dado saindo é mais ameaçador que um aviso parado */}
+          <div className={`mt-2 h-1.5 ${solida ? 'bg-black/30' : 'bg-red-900/50'}`}>
+            <div className={solida ? 'h-full bg-black' : 'h-full bg-red-500'} style={{ width: `${lugar.progresso}%` }} />
+          </div>
+          <div className={`mt-1.5 text-[10px] tracking-widest truncate ${solida ? 'text-black/70' : 'text-red-500/50'}`}>
             {lugar.lixo}
           </div>
         </div>
@@ -169,16 +243,29 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         {/* a varredura desce sem parar, como scanner de quem está vasculhando a máquina */}
         <div className="absolute inset-x-0 h-24 bg-gradient-to-b from-transparent via-red-600/25 to-transparent motion-safe:animate-[varredura_1.6s_linear_infinite]" />
 
+        <LogDeAtaque lado="esquerda" />
+        <LogDeAtaque lado="direita" />
+
         {Array.from({ length: QUANTAS }, (_, k) => <Janela key={k} indice={k} />)}
+
+        {/* o estouro: a tela inteira pisca em vermelho fora de ritmo */}
+        <div className="absolute inset-0 bg-red-600/15 motion-safe:animate-[flicker_0.12s_steps(2)_infinite]" />
 
         {/* cabeçalho e rodapé fixos: a moldura que diz que o sistema não é mais de quem está lendo */}
         <div className="absolute top-0 inset-x-0 bg-red-600 text-black text-[11px] font-black uppercase tracking-[0.3em] px-4 py-1.5 flex justify-between gap-4">
           <span className="truncate">◤ acesso forçado · sessão interceptada</span>
           <span className="shrink-0">era-genetica.db</span>
         </div>
-        <div className="absolute bottom-0 inset-x-0 bg-red-600 text-black text-[11px] font-black uppercase tracking-[0.3em] px-4 py-1.5 flex justify-between gap-4">
-          <span className="truncate">não desligue o terminal</span>
-          <span className="shrink-0">liberando em {restam}s</span>
+        <div className="absolute bottom-0 inset-x-0">
+          {/* a barra conta os 10 segundos como se fosse a cópia do banco terminando */}
+          <div className="h-1.5 bg-black">
+            <div className="h-full bg-red-500 transition-[width] duration-1000 ease-linear"
+              style={{ width: `${((SEGUNDOS_DE_ALARME - restam) / SEGUNDOS_DE_ALARME) * 100}%` }} />
+          </div>
+          <div className="bg-red-600 text-black text-[11px] font-black uppercase tracking-[0.3em] px-4 py-1.5 flex justify-between gap-4">
+            <span className="truncate">exfiltrando banco · não desligue o terminal</span>
+            <span className="shrink-0">{restam}s</span>
+          </div>
         </div>
       </div>
     );
