@@ -60,12 +60,19 @@ console.log(`  incoerências: ${feitaSemArte.length} marcada como feita sem arte
 // ---------------------------------------------------------------- fichas
 console.log('\n=== fichas ===');
 const ATRIBS = ['strength', 'dexterity', 'agility', 'intelligence', 'spirit', 'vigor', 'perception'];
-const somaErrada = chars.filter(c => c.nc && c.stats
+// Registro histórico não entra nas contas de ficha: os cinco campos de atributo existem zerados
+// no banco, então um histórico de NC 30 acusaria "soma 0, esperado 168" para sempre.
+const historicas = chars.filter(c => c.registro === 'historico');
+const ativas = chars.filter(c => c.registro !== 'historico');
+const somaErrada = ativas.filter(c => c.nc && c.stats
   && ATRIBS.reduce((s, k) => s + (c.stats[k] ?? 0), 0) !== 6 * c.nc - 12);
-const acimaDoNC = chars.filter(c => c.nc && c.stats && ATRIBS.some(k => (c.stats[k] ?? 0) > c.nc));
-const tetoErrado = chars.filter(c => c.nc && (c.powers ?? []).length
+const acimaDoNC = ativas.filter(c => c.nc && c.stats && ATRIBS.some(k => (c.stats[k] ?? 0) > c.nc));
+const tetoErrado = ativas.filter(c => c.nc && (c.powers ?? []).length
   && Math.max(...c.powers.map(p => p.level ?? 0)) !== Math.floor(c.nc / 2));
-console.log(`  ${chars.length} fichas · ${chars.filter(c => !c.description?.trim()).length} sem descrição · ${chars.filter(c => !c.image).length} sem capa · ${chars.filter(c => !c.role || !c.combatStyle).length} sem perfil de combate`);
+console.log(`  ${ativas.length} fichas · ${ativas.filter(c => !c.description?.trim()).length} sem descrição · ${ativas.filter(c => !c.image).length} sem capa · ${ativas.filter(c => !c.role || !c.combatStyle).length} sem perfil de combate`);
+if (historicas.length) {
+  console.log(`  ${historicas.length} registro(s) histórico(s) · ${historicas.filter(c => !c.image).length} sem capa: ${historicas.map(c => c.name).join(', ')}`);
+}
 console.log(`  ${somaErrada.length} com soma de atributo fora de 6×NC−12 · ${acimaDoNC.length} com atributo acima do NC · ${tetoErrado.length} com poder máximo fora do teto`);
 somaErrada.forEach(c => {
   const soma = ATRIBS.reduce((s, k) => s + (c.stats[k] ?? 0), 0);

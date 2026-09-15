@@ -162,6 +162,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
     } as React.CSSProperties;
   };
 
+  // Registro histórico: figura de antes da 1ª Temporada, sem ficha de combate. Os cinco campos
+  // de atributo existem zerados no banco, então quem decide escondê-los é este campo, não o valor.
+  const historico = char.registro === 'historico';
+
   // Se a arma tem uma variação manifestada por ESTE personagem (ex: Kaito com a Guren no
   // Kage, dentro da Sōen no Kage), mostra o nome/imagem/descrição da variação dele —
   // não os da arma-base, que seriam de outro portador.
@@ -484,10 +488,24 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                 </div>
               </div>
               
-              <div className="mt-4 pt-4 space-y-2 shrink-0">
-                 <ResourceBar label="Integridade Física (HP)" value={char.hp} icon={Heart} isDead={char.isDead} />
-                 <ResourceBar label="Energia Espiritual (CP)" value={char.chakra} icon={Zap} isDead={char.isDead} />
-              </div>
+              {/* O selo ocupa o lugar exato das barras: num registro histórico HP e Chakra são
+                  calculados de atributos que não existem, e desenhar 0/0 seria pior que não
+                  desenhar nada. */}
+              {historico ? (
+                <div className="mt-4 pt-4 shrink-0">
+                  <div className="border border-tech-secondary/30 bg-tech-secondary/5 px-3 py-2.5 text-center">
+                    <div className="text-[9px] uppercase tracking-[0.18em] text-tech-secondary">Registro Histórico</div>
+                    <div className="text-[10px] text-tech-primary/40 mt-1.5 leading-snug normal-case">
+                      Apareceu antes da 1ª Temporada e não tem ficha de combate
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="mt-4 pt-4 space-y-2 shrink-0">
+                  <ResourceBar label="Integridade Física (HP)" value={char.hp} icon={Heart} isDead={char.isDead} />
+                  <ResourceBar label="Energia Espiritual (CP)" value={char.chakra} icon={Zap} isDead={char.isDead} />
+                </div>
+              )}
 
               {char.isDead && (
                 <div className="mt-6 border border-red-900/50 bg-red-950/20 p-3 shrink-0 relative animate-pulse">
@@ -539,6 +557,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             >
                                 DADOS_GERAIS
                             </button>
+                            {!historico && (
                             <button
                                 onClick={() => goToTab('techniques')}
                                 data-aba-ativa={activeTab === 'techniques' ? '1' : undefined}
@@ -546,6 +565,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             >
                                 Jutsus [{allTechniques.length}]
                             </button>
+                            )}
                             {invocacoesTodas.length > 0 && (
                                 <button
                                     onClick={() => goToTab('invocacoes')}
@@ -555,6 +575,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                     Invocações [{invocacoesTodas.length}]
                                 </button>
                             )}
+                            {!historico && (
                             <button
                                 onClick={() => goToTab('arsenal')}
                                 data-aba-ativa={activeTab === 'arsenal' ? '1' : undefined}
@@ -562,6 +583,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             >
                                 Arsenal [{characterCurrentSectionArsenal.length}]
                             </button>
+                            )}
                             <button
                                 onClick={() => goToTab('gallery')}
                                 data-aba-ativa={activeTab === 'gallery' ? '1' : undefined}
@@ -680,6 +702,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             </div>
                         </div>
 
+                        {!historico && (
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4">
                                 <div className="flex items-center justify-between mb-2 border-b border-tech-primary/30 pb-1">
@@ -753,6 +776,9 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                             </div>
                         </div>
 
+                        )}
+
+                        {!historico && (
                         <div className="mt-8">
                             <div className="flex items-center gap-2 mb-2 border-b border-tech-secondary/30 pb-1">
                                 <Star size={16} className="text-tech-secondary" />
@@ -764,6 +790,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                 ))}
                             </div>
                         </div>
+                        )}
 
                         {/* Description Log */}
                         <div className="mt-8 border border-tech-border p-4 bg-tech-panel/20 font-mono text-xs leading-relaxed text-slate-400 relative">

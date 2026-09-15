@@ -916,7 +916,12 @@ export default function App() {
                                     <div className="h-6 bg-tech-dim/30 border-b border-tech-border flex justify-between items-center px-2 text-[10px] text-tech-primary font-mono shrink-0 group-hover:bg-tech-primary/10 transition-colors">
                                         <span>ID: {char.id.toString().padStart(4, '0')}</span>
                                         {/* Always show NC, but color red if dead */}
-                                        <span className={char.isDead ? 'text-red-500 font-bold' : ''}>NC: {char.nc}</span>
+                                        <span className="flex items-center gap-2">
+                                            {char.registro === 'historico' && (
+                                                <span className="text-tech-secondary" title="Registro histórico: apareceu antes da 1ª Temporada e não tem ficha de combate">HISTÓRICO</span>
+                                            )}
+                                            <span className={char.isDead ? 'text-red-500 font-bold' : ''}>NC: {char.nc}</span>
+                                        </span>
                                     </div>
 
                                     {/* Image Area - Fixed Height for Consistency */}

@@ -8544,7 +8544,7 @@ export const initialData: Character[] = [
   },
   {
     id: 103,
-    oculto: true,
+    registro: "historico",
     name: "Hashirama Senju",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -8578,7 +8578,7 @@ export const initialData: Character[] = [
   },
   {
     id: 104,
-    oculto: true,
+    registro: "historico",
     name: "Madara Uchiha",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",

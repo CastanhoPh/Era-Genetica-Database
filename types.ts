@@ -221,6 +221,23 @@ export interface Character {
    * Diferente de `isDead`, que é lore e aparece; `oculto` é editorial e não aparece.
    */
   oculto?: boolean;
+
+  /**
+   * REGISTRO HISTÓRICO — escolha do Pedro em 15/09/2026.
+   *
+   * `historico` é quem apareceu antes da 1ª Temporada, no Prólogo e no Clássico, e que NÃO vai
+   * ganhar ficha jogável: existe nome completo, título, às vezes cargo, capa, arte de linha do
+   * tempo e NC, e é só isso — por decisão, não por atraso. O nome do campo evita de propósito as
+   * palavras "reduzido" e "incompleto": esses registros nunca vão ficar prontos porque já estão.
+   *
+   * Ausente = ficha normal.
+   *
+   * `stats`, `powers`, `aptitudes`, `hp` e `chakra` continuam obrigatórios no tipo e ficam
+   * ZERADOS num registro histórico — torná-los opcionais mexeria em cerca de 63 pontos de 8
+   * arquivos. Quem esconde essas seções é este campo, lido explicitamente na ficha e no
+   * `conferir`, em vez de sessenta guardas de nulo espalhadas.
+   */
+  registro?: 'ativo' | 'historico';
   name: string;
   clan: string;
   categories: string[];
