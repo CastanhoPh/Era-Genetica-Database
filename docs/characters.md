@@ -23,7 +23,7 @@
 | 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS | 30 | 241 | 200 | Vivo |
 | 18 | Naoki Uchiha | Uchiha | NPC, Konohagakure |  | Suporte e DPS | 26 | 200 | 88 | Vivo |
 | 19 | Hisoka Senju | Senju | NPC, Konohagakure, OCA |  | Tank | 28 | 234 | 76 | Vivo |
-| 20 | Ryuta Hyuga | Hyuga |  |  | Desconhecido | 18 | 130 | 64 | Vivo |
+| 20 | Ryuta Hyuga | Hyuga | NPC, Konohagakure |  | Tanque | 18 | 130 | 64 | Morto (morto por Hades) |
 | 21 | Rock Gunma | Gunma | NPC, Konohagakure, Iwagakure |  | Tank e Suporte | 29 | 242 | 114 | Morto (morto por Delta) |
 | 22 | Hiroshi Hanzo | Hanzo | NPC, Konohagakure, OCA, Kumogakure |  | Suporte e Controle | 28 | 216 | 94 | Vivo |
 | 23 | Tobirama Senju | Senju | NPC, Konohagakure, OCA |  | DPS | 30 | 232 | 100 | Morto (morto por Omega) |
@@ -33,80 +33,91 @@
 | 27 | Asami Hyuga | Hyuga | NPC, Konohagakure |  | DPS e Suporte | 25 | 210 | 85 | Morto (morto por Omega) |
 | 28 | Kaizuka Hyuga | Hyuga | NPC, Konohagakure |  | Tanque, DPS, Suporte e Controle | 30 | 250 | 82 | Vivo |
 | 29 | Raikun Hatake | Hatake | NPC, Konohagakure, OCA |  | Tanque e DPS | 30 | 250 | 123 | Morto (morto por Chip da OCA) |
-| 30 | Oogway Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 28 | 234 | 94 | Vivo |
-| 31 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS e Suporte | 27 | 226 | 105 | Vivo |
-| 32 | Satoshi Namikaze | Namikaze | NPC, Konohagakure |  | DPS | 27 | 205 | 137 | Vivo |
-| 33 | Shikaki Nara | Nara | NPC, Konohagakure, OCA |  | Suporte | 22 | 168 | 76 | Vivo |
-| 34 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure |  | DPS e Controle | 27 | 226 | 91 | Vivo |
-| 35 | Hirato Ishi | Ishi | NPC, Iwagakure |  | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
-| 36 | Hikaru Ishi | Ishi | NPC, Iwagakure |  | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
-| 37 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 56 | Vivo |
-| 38 | Souma Namikaze | Namikaze | NPC, Konohagakure |  | DPS e Controle | 8 | 59 | 42 | Vivo |
-| 39 | Reika Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 70 | Vivo |
-| 40 | Nagi Yuki | Yuki | NPC, Konohagakure, OCA |  | Controle / Sensorial | 22 | 168 | 76 | Vivo |
-| 41 | Yasuo Kurogane | Kurogane | NPC, Sunagakure, OCA |  | Suporte e Controle | 22 | 174 | 76 | Vivo |
-| 42 | Hana Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 30 | 241 | 150 | Vivo |
-| 43 | Reto Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 27 | 217 | 91 | Vivo |
-| 44 | Tetsu Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 23 | 194 | 79 | Vivo |
-| 45 | Sayuri Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 21 | 157 | 73 | Vivo |
-| 46 | Chigiri Chinoike | Chinoike | NPC, Sunagakure |  | DPS e Suporte | 27 | 205 | 91 | Vivo |
-| 47 | Mizue Dokuhana | Dokuhana | NPC, Sunagakure |  | Suporte | 23 | 194 | 58 | Vivo |
-| 48 | Tessai Enshaku | Enshaku | NPC, Sunagakure |  | Tank e Controle | 25 | 210 | 64 | Vivo |
-| 49 | Kurohime Kazeori | Kazeori | NPC, Sunagakure |  | DPS e Suporte | 21 | 178 | 52 | Vivo |
-| 50 | Yuji Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | DPS | 26 | 200 | 88 | Vivo |
-| 51 | Reito Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Tank | 20 | 170 | 70 | Vivo |
-| 52 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Suporte e Controle | 23 | 173 | 79 | Vivo |
-| 53 | Mika Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | Suporte | 24 | 184 | 82 | Vivo |
-| 54 | Enrai Hanzo | Hanzo | NPC, Kiba, Kumogakure |  | Tank | 26 | 200 | 88 | Vivo |
-| 55 | Daichi Muujin | Muujin | NPC, NoGuns, Iwagakure |  | DPS e Controle | 25 | 189 | 85 | Vivo |
-| 56 | Koji Ishizuma | Ishizuma | NPC, NoGuns, Kumogakure |  | DPS | 18 | 154 | 64 | Morto (morto por Hades) |
-| 57 | Yuuto Han | Han | NPC, NoGuns, OCA, Kirigakure |  | DPS | 18 | 154 | 96 | Morto (morto por Hades) |
-| 58 | Shin Mizukari | Mizukari | NPC, NoGuns, Iwagakure |  | Tanque | 18 | 154 | 64 | Morto (morto por Hades) |
-| 59 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 26 | 200 | 88 | Vivo |
-| 60 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 25 | 189 | 85 | Vivo |
-| 61 | Kiyoshi Hagane | Hagane | NPC, Kumogakure |  | DPS, Tank e Controle | 29 | 221 | 97 | Vivo |
-| 62 | Gorai Arashiumi | Arashiumi | NPC, Kumogakure |  | DPS, Tank e Controle | 27 | 226 | 91 | Vivo |
-| 63 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
-| 64 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
-| 65 | Raiden Yotsuki | Yotsuki | NPC, Kumogakure |  | DPS / Tank | 23 | 194 | 79 | Vivo |
-| 66 | Nayara Kazemori | Kazemori | NPC, Kumogakure |  | DPS / Suporte | 25 | 189 | 85 | Vivo |
-| 67 | Shizuru Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 27 | 205 | 91 | Vivo |
-| 68 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
-| 69 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
-| 70 | Raizuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
-| 71 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
-| 72 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
-| 73 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
-| 74 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
-| 75 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
-| 76 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
-| 77 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
-| 78 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
-| 79 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
-| 80 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
-| 81 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
-| 82 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
-| 83 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
-| 84 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
-| 85 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
-| 86 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
-| 87 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
-| 88 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
-| 89 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
-| 90 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
-| 91 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
-| 92 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
-| 93 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
-| 94 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
-| 95 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
-| 96 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
-| 97 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
-| 98 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
-| 99 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
-| 100 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
-| 101 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
-| 102 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 232 | 100 | Morto (morto por ?) |
-| 103 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 232 | 100 | Morto (morto por Hashirama Senju) |
+| 30 | Amai Inuzuka | Inuzuka | NPC, Konohagakure |  | DPS | 27 | 226 | 91 | Vivo |
+| 31 | Oogway Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 28 | 234 | 94 | Vivo |
+| 32 | Katsuo Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS e Suporte | 27 | 226 | 105 | Vivo |
+| 33 | Satoshi Namikaze | Namikaze | NPC, Konohagakure |  | DPS | 27 | 205 | 137 | Vivo |
+| 34 | Shikaki Nara | Nara | NPC, Konohagakure, OCA |  | Suporte | 22 | 168 | 76 | Vivo |
+| 35 | Shikatsu Nara (Togo Kage) | Kage | NPC, NoGuns, OCA, Konohagakure |  | DPS e Controle | 27 | 226 | 91 | Vivo |
+| 36 | Hirato Ishi | Ishi | NPC, Iwagakure |  | DPS | 20 | 146 | 70 | Morto (morto por Omega) |
+| 37 | Hikaru Ishi | Ishi | NPC, Iwagakure |  | Suporte | 20 | 146 | 70 | Morto (morto por Nagare Uzumaki) |
+| 38 | Shoyu Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 56 | Vivo |
+| 39 | Souma Namikaze | Namikaze | NPC, Konohagakure |  | DPS e Controle | 8 | 59 | 42 | Vivo |
+| 40 | Reika Uzumaki | Uzumaki | NPC, Konohagakure |  | Suporte | 8 | 59 | 70 | Vivo |
+| 41 | Nagi Yuki | Yuki | NPC, Konohagakure, OCA |  | Controle / Sensorial | 22 | 168 | 76 | Vivo |
+| 42 | Yasuo Kurogane | Kurogane | NPC, Sunagakure, OCA |  | Suporte e Controle | 22 | 174 | 76 | Vivo |
+| 43 | Hana Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 30 | 241 | 150 | Vivo |
+| 44 | Reto Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 27 | 217 | 91 | Vivo |
+| 45 | Tetsu Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 23 | 194 | 79 | Vivo |
+| 46 | Sayuri Sabaku | Sabaku | NPC, Sunagakure |  | DPS e Controle | 21 | 157 | 73 | Vivo |
+| 47 | Chigiri Chinoike | Chinoike | NPC, Sunagakure |  | DPS e Suporte | 27 | 205 | 91 | Vivo |
+| 48 | Mizue Dokuhana | Dokuhana | NPC, Sunagakure |  | Suporte | 23 | 194 | 58 | Vivo |
+| 49 | Tessai Enshaku | Enshaku | NPC, Sunagakure |  | Tank e Controle | 25 | 210 | 64 | Vivo |
+| 50 | Kurohime Kazeori | Kazeori | NPC, Sunagakure |  | DPS e Suporte | 21 | 178 | 52 | Vivo |
+| 51 | Yuji Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | DPS | 27 | 205 | 91 | Vivo |
+| 52 | Reito Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Tank | 20 | 170 | 70 | Vivo |
+| 53 | Yoru Kurogami | Kurogami | NPC, Kiba, Kumogakure |  | Suporte e Controle | 23 | 173 | 79 | Vivo |
+| 54 | Mika Yotsuki | Yotsuki | NPC, Kiba, Kumogakure |  | Suporte | 24 | 184 | 82 | Vivo |
+| 55 | Enrai Hanzo | Hanzo | NPC, Kiba, Kumogakure |  | Tank | 26 | 200 | 88 | Vivo |
+| 56 | Daichi Muujin | Muujin | NPC, NoGuns, Iwagakure |  | DPS e Controle | 25 | 189 | 85 | Vivo |
+| 57 | Koji Ishizuma | Ishizuma | NPC, NoGuns, Kumogakure |  | DPS | 18 | 154 | 64 | Morto (morto por Hades) |
+| 58 | Yuuto Han | Han | NPC, NoGuns, OCA, Kirigakure |  | DPS | 18 | 154 | 96 | Morto (morto por Hades) |
+| 59 | Shin Mizukari | Mizukari | NPC, NoGuns, Iwagakure |  | Tanque | 18 | 154 | 64 | Morto (morto por Hades) |
+| 60 | Shikure Chinoike | Chinoike | NPC, NoGuns, OCA, Sunagakure |  | Suporte | 26 | 200 | 88 | Vivo |
+| 61 | Akira Dokuhana | Dokuhana | NPC, NoGuns, Sunagakure |  | DPS | 25 | 189 | 85 | Vivo |
+| 62 | Kiyoshi Hagane | Hagane | NPC, Kumogakure |  | DPS, Tank e Controle | 29 | 221 | 97 | Vivo |
+| 63 | Gorai Arashiumi | Arashiumi | NPC, Kumogakure |  | DPS, Tank e Controle | 27 | 226 | 91 | Vivo |
+| 64 | Arashi Shidehara | Shidehara | NPC, Kumogakure |  | DPS / Suporte | 24 | 184 | 82 | Vivo |
+| 65 | Raizen Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 22 | 168 | 76 | Vivo |
+| 66 | Raiden Yotsuki | Yotsuki | NPC, Kumogakure |  | DPS / Tank | 23 | 194 | 79 | Vivo |
+| 67 | Nayara Kazemori | Kazemori | NPC, Kumogakure |  | DPS / Suporte | 25 | 189 | 85 | Vivo |
+| 68 | Shizuru Kurogane | Kurogane | NPC, Kumogakure |  | DPS / Suporte | 27 | 205 | 91 | Vivo |
+| 69 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
+| 70 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
+| 71 | Raizuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
+| 72 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
+| 73 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
+| 74 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
+| 75 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
+| 76 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
+| 77 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
+| 78 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
+| 79 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
+| 80 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
+| 81 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
+| 82 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
+| 83 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
+| 84 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
+| 85 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
+| 86 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
+| 87 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
+| 88 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
+| 89 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
+| 90 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
+| 91 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
+| 92 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
+| 93 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
+| 94 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
+| 95 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
+| 96 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
+| 97 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
+| 98 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
+| 99 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
+| 100 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
+| 101 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
+| 102 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
+| 103 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por ?) |
+| 104 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por Hashirama Senju) |
+| 105 | Mito Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Selamento da Kurama em Naomi Uzumaki) |
+| 106 | Konan Uchiha | Uchiha | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Suicídio) |
+| 107 | Kawarama Senju | Senju | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
+| 108 | Sakura Namikaze | Namikaze | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
+| 109 | Minoru Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Maldição do Fujogan) |
+| 110 | Ashina Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Selamento da Kurama em Mito Uzumaki) |
+| 111 | Hiruzen Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Son Goku) |
+| 112 | Hina Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Son Goku) |
+| 113 | Iwaki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 18 | 0 | 0 | Morto (morto por Nagare Uzumaki) |
+| 114 | Renji Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Morto (morto por Furyuzan Chinoike) |
 
 ---
 
@@ -157,7 +168,7 @@ Criador de técnicas lendárias, entre elas:
 - Fuinjutsu — Nível 15
 
 ## Aptidões
-Acuidade, Ponto Cego, Domínio do Fogo Azul, Crítico Avançado, Intuição, Saque Rápido, Instinto de Batalha: LM, CD, Velocista, Maestria: CD, Hiraishin, Clone Perfeito, Chakra Expandido: Namikaze, Hiraishin: Deus do Trovão, Maximizar, Técnica Poderosa, Maestria: CC, Crítico Aprimorado
+Clone Perfeito, Hiraishin, Hiraishin: Deus do Trovão, Acuidade, Ponto Cego, Domínio do Fogo Azul, Crítico Avançado, Intuição, Saque Rápido, Instinto de Batalha: LM, CD, Velocista, Maestria: CD, Chakra Expandido: Namikaze, Maximizar, Técnica Poderosa, Maestria: CC, Crítico Aprimorado
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -580,7 +591,7 @@ A revolução de Kaito não busca poder; ela nasce do desespero de um mundo à b
 - Senjutsu — Nível 8
 
 ## Aptidões
-Acuidade, Intuição, Hiraishin, Regeneração, Potencializar, Hiraishin: Deus do Trovão, Maestria: CD, Maestria: CC, Chakra Expandido: Uzumaki, Lutar às Cegas, Perito: Rastrear, Ponto Cego, Técnica Poderosa
+Byakugan, Fujogan Eterno, Hiraishin: Deus do Trovão, Hiraishin, Acuidade, Intuição, Regeneração, Potencializar, Maestria: CD, Maestria: CC, Chakra Expandido: Uzumaki, Lutar às Cegas, Perito: Rastrear, Ponto Cego, Técnica Poderosa
 
 ## Arsenal
 ### 1. Desconhecido
@@ -606,16 +617,16 @@ Classificação: Z | Natureza: Mokuton
 ![Mokuton: Eien no Tomo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKaito%20Senju%2FTecnicas%2F01%20-%20Mokuton%3A%20Eien%20no%20Tomo.png?alt=media&v=1787851503020855)
 
 Descrição:
-Kaito finca as mãos no solo e funde seu chakra vermelho às raízes vivas do Mokuton, evocando a lembrança de Katsumi, Najin e Shoei. Da terra emergem três golens colossais de madeira ancestral, cada um esculpido não como uma arma, mas como um símbolo do legado deixado por um companheiro que partiu. As raízes se entrelaçam formando corpos imponentes que carregam a vontade, os ensinamentos e os ideais de quem os inspirou: um guardião de Coragem, que avança contra qualquer ameaça sem hesitar; um guardião de Lealdade, que se posiciona entre o inimigo e os aliados de Kaito sem jamais recuar; e um guardião de Esperança, que continua de pé mesmo quando tudo indica que deveria cair. Os três não são espíritos presos ao mundo, mas manifestações do vínculo inquebrável criado em vida, lutando em perfeita sincronia com Kaito, como se seus amigos ainda estivessem ao lado dele no campo de batalha. Quanto mais forte for a determinação de Kaito em proteger aqueles que ama, mais resistentes e poderosos os golens se tornam. Ao ativar a técnica, Kaito declara: "Enquanto a Vontade do Fogo arder em meu coração, meus amigos jamais desaparecerão. Levantem-se mais uma vez… Mokuton: Eien no Tomo!"
+Kaito finca as mãos no solo e funde seu chakra vermelho às raízes vivas do Mokuton, evocando a lembrança de Oddy, Katsumi, Shoei, Najin, Takeshi, Furyuzan, Nagare, Ayumi, Nishinoya e Kenma . Da terra emergem dez golens colossais de madeira ancestral, cada um esculpido não como uma arma, mas como um símbolo do legado deixado por um companheiro que Kaito precisa se lembrar. As raízes se entrelaçam formando corpos imponentes que carregam a vontade, os ensinamentos e os ideais de quem os inspirou: Os dez não são espíritos presos ao mundo, mas manifestações do vínculo inquebrável criado em vida, lutando em perfeita sincronia com Kaito, como se seus amigos ainda estivessem ao lado dele no campo de batalha. Quanto mais forte for a determinação de Kaito em proteger aqueles que ama, mais resistentes e poderosos os golens se tornam. Ao ativar a técnica, Kaito declara: "Enquanto a Vontade do Fogo arder em meu coração, meus amigos jamais desaparecerão. Levantem-se mais uma vez… Mokuton: Eien no Tomo!"
 
 Destruição:
-Nível catastrófico e sustentado. Diferente de golens comuns, os três guardiões de Eien no Tomo não perdem força ao longo da batalha — pelo contrário, tornam-se mais resistentes e destrutivos quanto maior for a ameaça enfrentada e mais forte a determinação de Kaito. Juntos, são capazes de esmagar formações inimigas inteiras, atravessar defesas de altíssimo nível e sustentar combate simultâneo contra múltiplos oponentes de elite sem perder sincronia, cada golpe carregando o peso do legado que representam.
+Nível catastrófico e sustentado. Diferente de golens comuns, os dez guardiões de Eien no Tomo não perdem força ao longo da batalha — pelo contrário, tornam-se mais resistentes e destrutivos quanto maior for a ameaça enfrentada e mais forte a determinação de Kaito. Juntos, são capazes de esmagar formações inimigas inteiras, atravessar defesas de altíssimo nível e sustentar combate simultâneo contra múltiplos oponentes de elite sem perder sincronia, cada golpe carregando o peso do legado que representam.
 
 História:
-Kaito desenvolveu esta técnica logo após assumir o posto de novo capitão, no momento mais sombrio de sua jornada: a morte de Katsumi, Najin e Shoei. Diante da dor da perda, compreendeu que a Vontade do Fogo não se apaga com a morte — ela é passada adiante por aqueles que escolhem carregá-la. Em vez de deixar que o luto o paralisasse, decidiu transformar a lembrança de seus companheiros em força viva, fundindo seu domínio do Mokuton à memória de cada um deles. Assim nasceu o Eien no Tomo, o primeiro grande jutsu criado por Kaito como capitão, e a prova de que os laços formados em vida jamais desaparecem verdadeiramente.
+Kaito desenvolveu esta técnica logo após assumir o posto de novo capitão, no momento mais sombrio de sua jornada: a morte de Katsumi, Najin e Shoei. Diante da dor da perda, compreendeu que a Vontade do Fogo não se apaga com a morte — ela é passada adiante por aqueles que escolhem carregá-la. Em vez de deixar que o luto o paralisasse, decidiu transformar a lembrança de seus companheiros em força viva, fundindo seu domínio do Mokuton à memória de cada um deles. Assim nasceu o Eien no Tomo, o primeiro grande jutsu criado por Kaito como capitão, e a prova de que os laços formados em vida jamais desaparecem verdadeiramente. Com o tempo a técnica deixou de responder apenas aos que partiram: passou a evocar os dez laços que fizeram de Kaito quem ele é, dos mortos que ele carrega aos vivos de quem se afastou e que precisa não esquecer.
 
 Status de Uso:
-Uso emocionalmente exigente. A técnica está diretamente ligada ao estado emocional de Kaito — quanto mais genuína for sua determinação em proteger o que ama, mais poderosos os golens se tornam, mas invocá-los também reabre a dor da perda de Katsumi, Najin e Shoei a cada ativação. Exige domínio avançado de Mokuton e grande estabilidade mental para não ser consumido pela tristeza durante o combate.
+Uso emocionalmente exigente. A técnica está diretamente ligada ao estado emocional de Kaito — quanto mais genuína for sua determinação em proteger o que ama, mais poderosos os golens se tornam, mas invocá-los também reabre a ausência de cada um dos dez a cada ativação. Exige domínio avançado de Mokuton e grande estabilidade mental para não ser consumido pela tristeza durante o combate.
 
 ### 2. Mokuton: Shi no Shugomori
 Classificação: S++ | Natureza: Senjutsu + Mokuton
@@ -798,12 +809,13 @@ O Fantasma dos Uzumaki e a Voz da Destruição\n\nNagare, desde muito cedo, foi 
 - Percepção: 7
 
 ## Poderes e Elementos
+- Ranton — Nível 1
 - Raiton — Nível 9
 - Nintaijutsu — Nível 9
 - Fuinjutsu — Nível 8
 
 ## Aptidões
-Domínio do Raio, Kagura Shingan, Maximizar, Kaminari, Kongou Fuusa, Punho de Ferro, Shiroki Kaminari, Maestria: CC, Reflexos, Ataque em Movimento, Mestre dos Selos, Velocista, Chakra Expandido: Uzumaki, Potencializar
+Kaminari, Shiroki Kaminari, Kagura Shingan, Domínio do Raio, Maximizar, Kongou Fuusa, Punho de Ferro, Maestria: CC, Reflexos, Ataque em Movimento, Mestre dos Selos, Velocista, Chakra Expandido: Uzumaki, Potencializar
 
 ## Arsenal
 ### 1. Desconhecido
@@ -1060,11 +1072,11 @@ Criador e usuário de técnicas únicas, entre elas:
 - Katon — Nível 9
 - Doton — Nível 9
 - Jinton — Nível 9
-- Hachimon Tonkou — Nível 9
+- Hachimon Tonkou — Nível 7
 - Senjutsu — Nível 2
 
 ## Aptidões
-Acuidade, Potencializar, Ilusão Profunda, Sandan Sharingan, Intuição, Técnica Poderosa, Mangekyou Sharingan, Saque Rápido, Maestria: CC, Ambidestria, Mímica Sharingan, Sharingan, Maestria: CD, Domínio do Fogo, Nidan Sharingan, Usar Arma: Katana, Ponto Cego, Elemento Natural: Katon, Perito: Prestidigitação
+Sharingan, Mangekyou Sharingan, Sandan Sharingan, Nidan Sharingan, Acuidade, Potencializar, Ilusão Profunda, Intuição, Técnica Poderosa, Saque Rápido, Maestria: CC, Ambidestria, Mímica Sharingan, Maestria: CD, Domínio do Fogo, Usar Arma: Katana, Ponto Cego, Elemento Natural: Katon, Perito: Prestidigitação
 
 ## Arsenal
 ### 1. Desconhecido
@@ -1407,7 +1419,7 @@ Em uma luta contra Alpha, Gama, Delta e Theta, os quatro Kages da OCA, bastou me
 - Futon — Nível 2
 
 ## Aptidões
-Acuidade, Contragolpe, Fujogan, Tenketsu Byakugan, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Dano Extra, Lutador, Byakugan, Duro de Matar, Rasteira, Chute Giratório, Maestria: CC, Soco em Gancho
+Byakugan, Fujogan Eterno, Fujogan, Tenketsu Byakugan, Acuidade, Contragolpe, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Dano Extra, Lutador, Duro de Matar, Rasteira, Chute Giratório, Maestria: CC, Soco em Gancho
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -1656,7 +1668,7 @@ Sua principal habilidade se baseia em explosão de chakra conhecida como técnic
 - Hyuga no Fujo — Nível 2
 
 ## Aptidões
-Arremessar, Chute Giratório, Maestria: CC, Sharingan, Ataque em Movimento, Crítico Aprimorado, Ponto Cego, Nidan Sharingan, Ataque Giratório, Dano Extra, Punho de Ferro, Sandan Sharingan, Ataque Múltiplo, De Pé, Reflexos, Mangekyou Sharingan, Ataque Progressivo, Lutador, Seguir Sombra, Eternal Mangekyou Sharingan
+Sharingan, Mangekyou Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan Eterno, Arremessar, Chute Giratório, Maestria: CC, Ataque em Movimento, Crítico Aprimorado, Ponto Cego, Ataque Giratório, Dano Extra, Punho de Ferro, Ataque Múltiplo, De Pé, Reflexos, Ataque Progressivo, Lutador, Seguir Sombra
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -1883,7 +1895,7 @@ Desconhecido
 - Senjutsu — Nível 9
 
 ## Aptidões
-Acuidade, Shiroki Kaminari, Lutar às Cegas, Potencializar, Ambidestria, Usar Arma: Katana, Maestria: CD, Réplica Enganadora, Domínio da Água, Usar Arma: Espada, Perito: Prestidigitação, Técnica Poderosa, Domínio do Raio, Maestria: CC, Perito: Mecanismos, Kaminari, Instinto de Batalha: LM, CD, Ponto Cego
+Shiroki Kaminari, Kaminari, Acuidade, Lutar às Cegas, Potencializar, Ambidestria, Usar Arma: Katana, Maestria: CD, Réplica Enganadora, Domínio da Água, Usar Arma: Espada, Perito: Prestidigitação, Técnica Poderosa, Domínio do Raio, Maestria: CC, Perito: Mecanismos, Instinto de Batalha: LM, CD, Ponto Cego
 
 ## Arsenal
 ### 1. Desconhecido
@@ -2032,7 +2044,7 @@ NC: 12
 HP: 94
 Chakra: 65
 Status: Morto (morto por Omega)
-Títulos: Ninja do Amor, O Ninja do Amor, Jinchuuriki, Arma secreta de Konoha
+Títulos: Ninja do Amor, O Ninja do Amor, Arma secreta de Konoha
 
 ![Shoei Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoei%20Sarutobi%2FShoei%20Sarutobi.png?alt=media&v=1788276585476756)
 
@@ -2171,7 +2183,7 @@ Ele utiliza um Arco de Sangue junto do Doton para formar barreiras e vencer o in
 - Bakuton — Nível 4
 
 ## Aptidões
-Acuidade, Ketsuryugan, Técnica Poderosa, Atirador, Maestria: CD, Usar Arma: Garras, Diligente, Ponto Cego, Velocista, Duro de Matar, Regeneração, Chakra Expandido: Aokiba, Intuição, Réplica Enganadora
+Ketsuryugan, Acuidade, Técnica Poderosa, Atirador, Maestria: CD, Usar Arma: Garras, Diligente, Ponto Cego, Velocista, Duro de Matar, Regeneração, Chakra Expandido: Aokiba, Intuição, Réplica Enganadora
 
 ## Arsenal
 ### 1. Desconhecido
@@ -2443,13 +2455,13 @@ Títulos: Homem que Deteve Cinco Bijūdamas, Punho Sagrado da Guerra, Herdeiro d
 ## Descrição
 O Punho Sagrado da Guerra e o Herdeiro da Pedra Viva
 
-Kenma Soryo cresceu em meio ao maior conflito já registrado no País da Guerra: Monges contra Samurais. Aos 14 anos, tornou-se discípulo direto de Oshō, o lendário líder espiritual dos monges, um homem que possuía poder suficiente para dominar tudo, mas escolheu a paz. Kenma testemunhou a morte do irmão de seu mestre, um guerreiro que, antes de cair, derrotou dois portadores das Espadas Lendárias da Terra. Viu também Oshō derrotar o último espadachim — aquele cuja lâmina controlava vida e morte — selando o destino da guerra e dividindo o território em equilíbrio forçado.
+Kenma Soryo cresceu em meio ao maior conflito já registrado no País da Guerra: Monges contra Samurais. Aos 14 anos, tornou-se discípulo direto de Oryo Soryo, o lendário líder dos monges, um homem que possuía poder suficiente para dominar tudo, mas escolheu a paz. Kenma testemunhou a morte do irmão de seu mestre, um guerreiro que, antes de cair, derrotou dois portadores das Espadas Lendárias da Terra. Viu também Oryo Soryo derrotar o último espadachim — aquele cuja lâmina controlava vida e morte — selando o destino da guerra e dividindo o território em equilíbrio forçado.
 
 Mesmo após o tratado que estabeleceu alternância de poder e a escolha cíclica do Tsuchikage, a paz começou a ruir com o surgimento de forças externas e o enfraquecimento espiritual das Pedras Sagradas. Enquanto o mundo mudava, Kenma nunca deixou de treinar. Nas sombras, longe da política e da instabilidade, ele aprimorou corpo e espírito, tornando-se algo além de um simples monge.
 
 Dominador do Modo Sábio dos Monges, Kenma canaliza energia natural espiritual e cobre o corpo com marcas douradas que ampliam sua força, resistência e percepção de chakra a níveis extraordinários. Seu Doton avançado permite manipular rocha e solo como extensões do próprio corpo, criar armaduras de pedra viva e desferir golpes com impacto sísmico capazes de abrir crateras no campo de batalha.
 
-Ao combinar Sennin e Doton, transforma o combate corpo a corpo em devastação absoluta — socos que partem a terra, pisadas que erguem muralhas e uma pele com resistência comparável ao granito. Ainda assim, carrega os ensinamentos pacifistas de Oshō no coração. Kenma não luta por dominação, mas para restaurar o equilíbrio espiritual que está à beira do colapso.
+Ao combinar Sennin e Doton, transforma o combate corpo a corpo em devastação absoluta — socos que partem a terra, pisadas que erguem muralhas e uma pele com resistência comparável ao granito. Ainda assim, carrega os ensinamentos pacifistas de Oryo Soryo no coração. Kenma não luta por dominação, mas para restaurar o equilíbrio espiritual que está à beira do colapso.
 
 Portador de Técnicas únicas:
 * Modo Sábio dos Monges
@@ -2466,6 +2478,7 @@ Portador de Técnicas únicas:
 - Percepção: 7
 
 ## Poderes e Elementos
+- Koton — Nível 1
 - Doton — Nível 9
 - Senjutsu — Nível 9
 - Fuinjutsu — Nível 8
@@ -2643,7 +2656,7 @@ Desconhecido
 - Iryou Ninjutsu — Nível 9
 
 ## Aptidões
-Ninja Médico, Chakra Expandido, Regeneração, Lutar as Cegas, Ponto Cego, Potencializar, Acuidade, Perito em Medicina, Sensor, Técnica Poderosa
+Ninjutsu Médico, Ninja Médico, Chakra Expandido, Regeneração, Lutar as Cegas, Ponto Cego, Potencializar, Acuidade, Perito em Medicina, Sensor, Técnica Poderosa
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -2801,7 +2814,7 @@ Desconhecido
 - Fuinjutsu — Nível 9
 
 ## Aptidões
-Sharingan, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Técnica Poderosa, Potencializar
+Sharingan, Mangekyou Sharingan, Hiraishin, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Técnica Poderosa, Potencializar
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -2968,7 +2981,7 @@ E para aqueles que entendem a profundidade do que ela se tornou… Shizumi não 
 - Rasengan — Nível 9
 
 ## Aptidões
-Sharingan, Mangekyou Sharingan, Kagura Shingan, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Técnica Poderosa, Potencializar
+Sharingan, Mangekyou Sharingan, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Técnica Poderosa, Potencializar
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -3099,13 +3112,13 @@ Portadora de um Mangekyou com habilidades únicas de manipulação mental e invo
 - Percepção: 27
 
 ## Poderes e Elementos
+- Hachimon Tonkou — Nível 6
 - Senjutsu — Nível 13
 - Rasengan — Nível 13
 - Katon — Nível 13
-- Fuinjutsu — Nível 13
 
 ## Aptidões
-Maestria: CD, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Sensor, Quimico, Potencializar
+Sharingan, Mangekyou Sharingan, Maestria: CD, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Sensor, Quimico, Potencializar
 
 ## Arsenal
 ### 1. Desconhecido
@@ -3327,7 +3340,7 @@ E ele seguiria até o fim para entender o porquê.
 - Senjutsu — Nível 12
 - Katon — Nível 12
 - Kuchiyose — Nível 12
-- Hachimon Tonkou — Nível 6
+- Hachimon Tonkou — Nível 5
 
 ## Aptidões
 Sensor Supremo, Intuição, Acuidade, Controle de Campo, Técnica Poderosa, Percepção Avançada, Especialista em Invocação, Rastreamento Absoluto, Resistência Natural, Potencializar
@@ -3573,7 +3586,7 @@ Sua libertação só veio com a Luta contra os Kages — mas não pelas mãos de
 - Senjutsu — Nível 15
 
 ## Aptidões
-Acuidade, Intuição, Instinto de Batalha: LM, CD, Chakra Expandido: Uzumaki, Chakra Expandido: Kurama, Domínio do Suiton, Técnica Poderosa, Ponto Cego, Saque Rápido
+Kagura Shingan, Acuidade, Intuição, Instinto de Batalha: LM, CD, Chakra Expandido: Uzumaki, Chakra Expandido: Kurama, Domínio do Suiton, Técnica Poderosa, Ponto Cego, Saque Rápido
 
 ## Arsenal
 ### 1. Desconhecido
@@ -3730,10 +3743,9 @@ Na Batalha da Fortaleza Yumei, perdeu completamente a visão. O Terceiro Hokage 
 - Katon — Nível 13
 - Doton — Nível 13
 - Futon — Nível 13
-- Fuinjutsu — Nível 13
 
 ## Aptidões
-Eien Mangekyou Sharingan, Sharingan, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar
+Sharingan, Mangekyou Sharingan Eterno, Mímica Sharingan, Elemento Natural: Katon, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar
 
 ## Arsenal
 ### 1. Desconhecido
@@ -3957,12 +3969,12 @@ Uso extremamente restrito. Consome enorme quantidade de chakra, exige domínio d
 # Ryuta Hyuga
 ID: 20
 Clã: Hyuga
-Grupos: 
-Função: Desconhecido
+Grupos: NPC, Konohagakure
+Função: Tanque
 NC: 18
 HP: 130
 Chakra: 64
-Status: Vivo
+Status: Morto (morto por Hades)
 
 ![Ryuta Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRyuta%20Hyuga%2FRyuta%20Hyuga.png?alt=media&v=1788277451876578)
 
@@ -3982,10 +3994,9 @@ Desconhecido
 - Juken — Nível 9
 - Iryou Ninjutsu — Nível 9
 - Senjutsu — Nível 9
-- Fuinjutsu — Nível 9
 
 ## Aptidões
-Desconhecido
+Byakugan, Ninjutsu Médico
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4004,7 +4015,7 @@ NC: 29
 HP: 242
 Chakra: 114
 Status: Morto (morto por Delta)
-Títulos: Atirador Púrpuro, Jinchuuriki, Tsuchikage Afastado, Polvo Enjaulado
+Títulos: Atirador Púrpuro, Tsuchikage Afastado, Polvo Enjaulado
 
 ![Rock Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRock%20Gunma%2FRock%20Gunma.png?alt=media&v=1788276565503994)
 
@@ -4065,6 +4076,7 @@ Mesmo após sua queda, seu legado permaneceu. Rock Gunma é lembrado como um dos
 - Percepção: 29
 
 ## Poderes e Elementos
+- Koton — Nível 14
 - Gyuki — Nível 14
 - Fuinjutsu — Nível 14
 - Bakuton — Nível 14
@@ -4213,10 +4225,26 @@ Desconhecido
 - Iryou Ninjutsu — Nível 8
 
 ## Aptidões
-Shiroki Kaminari, Kaminari, Instinto de Batalha: LM, CD, Lutar as Cegas, Intuição, Ponto Cego, Réplica Enganadora, Perito em Mecanismos
+Shiroki Kaminari, Hiraishin: Deus do Trovão, Ninjutsu Médico, Kaminari, Instinto de Batalha: LM, CD, Lutar as Cegas, Intuição, Ponto Cego, Réplica Enganadora, Perito em Mecanismos
 
 ## Arsenal
 ### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+### 2. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+### 3. Desconhecido
 Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
 
 
@@ -4337,7 +4365,7 @@ Assim, mesmo carregando o peso de seu maior erro, Tobirama Senju permaneceu como
 - Senjutsu — Nível 15
 
 ## Aptidões
-Hiraishin, Regeneração, Lutar as Cegas, Ponto Cego, Potencializar, Acuidade, Perito: Rastrear, Sensor, Técnica Poderosa
+Hiraishin: Deus do Trovão, Edo Tensei, Hiraishin, Regeneração, Lutar as Cegas, Ponto Cego, Potencializar, Acuidade, Perito: Rastrear, Sensor, Técnica Poderosa
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4374,11 +4402,10 @@ Desconhecido
 ## Poderes e Elementos
 - Katon — Nível 14
 - Doton — Nível 14
-- Fuinjutsu — Nível 14
 - Hachimon Tonkou — Nível 7
 
 ## Aptidões
-Mangekyou Sharingan, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+Sharingan, Mangekyou Sharingan Eterno, Mangekyou Sharingan, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Ataque Progressivo
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4415,10 +4442,10 @@ Desconhecido
 ## Poderes e Elementos
 - Juken — Nível 14
 - Hyuga no Fujo — Nível 14
-- Hachimon Tonkou — Nível 2
+- Hachimon Tonkou — Nível 4
 
 ## Aptidões
-Fujogan, Eternal Fujogan, Hiraishin, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+Byakugan, Fujogan Eterno, Fujogan, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado, Ataque Progressivo
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4460,7 +4487,7 @@ Desconhecido
 - Senjutsu — Nível 12
 
 ## Aptidões
-Chakra Expandido, Hiraishin, Kongou Fuusa, Acuidade, Intuição, Instinto de Batalha: LM, CD, Domínio do Futon, Técnica Poderosa, Ponto Cego, Saque Rápido, Kuchiyose
+Kagura Shingan, Ninjutsu Médico, Chakra Expandido, Kongou Fuusa, Acuidade, Intuição, Instinto de Batalha: LM, CD, Domínio do Futon, Técnica Poderosa, Ponto Cego, Saque Rápido, Kuchiyose
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4500,7 +4527,7 @@ Desconhecido
 - Iryou Ninjutsu — Nível 12
 
 ## Aptidões
-Fujogan, Eternal Fujogan, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado
+Byakugan, Fujogan, Ninjutsu Médico, Fujogan Eterno, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4539,10 +4566,9 @@ Desconhecido
 - Juken — Nível 15
 - Hyuga no Fujo — Nível 15
 - Senjutsu — Nível 15
-- Fuinjutsu — Nível 15
 
 ## Aptidões
-Fujogan, Eternal Fujogan, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado
+Byakugan, Fujogan Eterno, Fujogan, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Reflexos, Maestria: CC, Ataque Múltiplo, Ponto Cego, Dano Extra, Crítico Aprimorado
 
 ## Arsenal
 ### 1. Desconhecido
@@ -4584,7 +4610,7 @@ Desconhecido
 - Percepção: 12
 
 ## Poderes e Elementos
-- Hachimon Tonkou — Nível 15
+- Hachimon Tonkou — Nível 8
 - Senjutsu — Nível 15
 - Fuinjutsu — Nível 15
 
@@ -4665,8 +4691,51 @@ Cada uso consome uma quantidade significativa do chakra profano armazenado no ch
 
 ---
 
-# Oogway Uchiha
+# Amai Inuzuka
 ID: 30
+Clã: Inuzuka
+Grupos: NPC, Konohagakure
+Função: DPS
+NC: 27
+HP: 226
+Chakra: 91
+Status: Vivo
+Títulos: Domadora de Animais
+
+![Amai Inuzuka](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmai%20Inuzuka%2FAmai%20Inuzuka.png?alt=media&v=1788882300047687)
+
+## Descrição
+Desconhecido
+
+## Atributos
+- Força: 27
+- Destreza: 11
+- Agilidade: 27
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 11
+
+## Poderes e Elementos
+- Shikakyu — Nível 13
+- Kuchiyose — Nível 13
+- Senjutsu — Nível 13
+- Doton — Nível 13
+- Koton — Nível 13
+
+## Aptidões
+Companheiro Animal, Hakken no Jutsu
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Oogway Uchiha
+ID: 31
 Clã: Uchiha
 Grupos: NPC, Konohagakure
 Função: DPS
@@ -4697,7 +4766,7 @@ Desconhecido
 - Fuuton — Nível 14
 
 ## Aptidões
-Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan, Eternal Mangekyou Sharingan, Mímica Sharingan, Elemento Natural: Katon, Domínio do Fogo, Técnica Poderosa, Potencializar, Ilusão Profunda, Intuição, Acuidade, Ponto Cego, Saque Rápido, Ambidestria, Maestria: CC, Maestria: CD, Usar Arma: Katana, Perito: Prestidigitação
+Sharingan, Mangekyou Sharingan Eterno, Mangekyou Sharingan, Nidan Sharingan, Sandan Sharingan, Mímica Sharingan, Elemento Natural: Katon, Domínio do Fogo, Técnica Poderosa, Potencializar, Ilusão Profunda, Intuição, Acuidade, Ponto Cego, Saque Rápido, Ambidestria, Maestria: CC, Maestria: CD, Usar Arma: Katana, Perito: Prestidigitação
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4708,7 +4777,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Katsuo Uzumaki
-ID: 31
+ID: 32
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: DPS e Suporte
@@ -4748,7 +4817,7 @@ Katsuo não luta por redenção… ele luta para corrigir o erro que ele mesmo c
 - Rasengan — Nível 13
 
 ## Aptidões
-Acuidade, Intuição, Instinto de Batalha: LM, CD, Chakra Expandido, Perito em Rastrear, Kagura Shigan, Velocista, Ataque em movimento, Punho de Ferro, Maestria: CC, Reflexos, Potencializar, Mestre dos Selos, Kongou Fuusa
+Kagura Shigan, Acuidade, Intuição, Instinto de Batalha: LM, CD, Chakra Expandido, Perito em Rastrear, Velocista, Ataque em movimento, Punho de Ferro, Maestria: CC, Reflexos, Potencializar, Mestre dos Selos, Kongou Fuusa
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -4859,7 +4928,7 @@ Requer preparo e posicionamento estratégico.
 ---
 
 # Satoshi Namikaze
-ID: 32
+ID: 33
 Clã: Namikaze
 Grupos: NPC, Konohagakure
 Função: DPS
@@ -4896,7 +4965,7 @@ Mas a verdade, como sempre no mundo shinobi, era mais complicada do que os relat
 - Kuchiyose — Nível 13
 
 ## Aptidões
-Chakra Expandido Namikaze
+Hiraishin, Chakra Expandido Namikaze
 
 ## Arsenal
 ### 1. Desconhecido
@@ -5020,7 +5089,7 @@ Exige que Satoshi mantenha o Modo Sábio ativo durante toda a duração da técn
 ---
 
 # Shikaki Nara
-ID: 33
+ID: 34
 Clã: Nara
 Grupos: NPC, Konohagakure, OCA
 Função: Suporte
@@ -5052,7 +5121,6 @@ Ele não domina o campo de batalha pela força… mas pela negação absoluta da
 ## Poderes e Elementos
 - Kage Mane — Nível 11
 - Doton — Nível 11
-- Fuinjutsu — Nível 11
 
 ## Aptidões
 Maestria: CD, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Sensor, Quimico, Potencializar
@@ -5138,7 +5206,7 @@ Consome chakra proporcional à resistência do alvo.
 ---
 
 # Shikatsu Nara (Togo Kage)
-ID: 34
+ID: 35
 Clã: Kage
 Grupos: NPC, NoGuns, OCA, Konohagakure
 Função: DPS e Controle
@@ -5193,7 +5261,7 @@ Extremamente perigosa para o usuário. Requer alto consumo de chakra e estabilid
 ---
 
 # Hirato Ishi
-ID: 35
+ID: 36
 Clã: Ishi
 Grupos: NPC, Iwagakure
 Função: DPS
@@ -5252,7 +5320,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hikaru Ishi
-ID: 36
+ID: 37
 Clã: Ishi
 Grupos: NPC, Iwagakure
 Função: Suporte
@@ -5305,7 +5373,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Shoyu Uzumaki
-ID: 37
+ID: 38
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: Suporte
@@ -5476,7 +5544,7 @@ Consome uma quantidade razoável de chakra para o nível de Shoyu, tornando o us
 ---
 
 # Souma Namikaze
-ID: 38
+ID: 39
 Clã: Namikaze
 Grupos: NPC, Konohagakure
 Função: DPS e Controle
@@ -5500,6 +5568,7 @@ Souma Namikaze não é um fracasso do Projeto Hades — ele é sua ruptura. Cria
 - Percepção: 8
 
 ## Poderes e Elementos
+- Hachimon Tonkou — Nível 2
 - Suiton — Nível 4
 - Katon — Nível 4
 
@@ -5604,7 +5673,7 @@ Consumo monstruoso de chakra e altíssimo desgaste mental. Uso prolongado pode c
 ---
 
 # Reika Uzumaki
-ID: 39
+ID: 40
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: Suporte
@@ -5631,7 +5700,6 @@ Reika Uzumaki nasceu em meio ao sofrimento silencioso de sua mãe, mas sua exist
 - Kurama — Nível 4
 - Gyuki — Nível 4
 - Futon — Nível 4
-- Fuinjutsu — Nível 4
 
 ## Aptidões
 Acuidade, Intuição, Instinto de Batalha: LM, CD, Chakra Expandido Kurama, Chakra Expandido Gyuki, Chakra Expandido Uzumaki
@@ -5711,7 +5779,7 @@ Uso limitado. Alto custo e exige carga emocional intensa para ativação máxima
 ---
 
 # Nagi Yuki
-ID: 40
+ID: 41
 Clã: Yuki
 Grupos: NPC, Konohagakure, OCA
 Função: Controle / Sensorial
@@ -5757,7 +5825,6 @@ Mas, mesmo seguindo em frente, o frio dentro dele nunca desapareceu.
 
 ## Poderes e Elementos
 - Hyoton — Nível 11
-- Iryou Ninjutsu — Nível 11
 - Kuchiyose — Nível 11
 
 ## Aptidões
@@ -5892,7 +5959,7 @@ Enquanto ativa, consome chakra de forma constante. Se a coruja for destruída, N
 ---
 
 # Yasuo Kurogane
-ID: 41
+ID: 42
 Clã: Kurogane
 Grupos: NPC, Sunagakure, OCA
 Função: Suporte e Controle
@@ -5926,7 +5993,6 @@ Para Yasuo, esse não foi apenas um caminho — foi uma ruptura definitiva com t
 - Jiton — Nível 11
 - Sakin — Nível 11
 - Satetsu — Nível 11
-- Fuinjutsu — Nível 11
 
 ## Aptidões
 Maestria: CD, Intuição, Ponto Cego, Acuidade, Técnica Poderosa, Sensor, Potencializar, Defesa Absoluta, Controle de Campo, Resistência Avançada
@@ -6027,7 +6093,7 @@ Aumenta o peso corporal e reduz levemente a velocidade.
 ---
 
 # Hana Sabaku
-ID: 42
+ID: 43
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6035,7 +6101,7 @@ NC: 30
 HP: 241
 Chakra: 150
 Status: Vivo
-Títulos: A Leoa da Areia, A Muralha Dourada, Jinchuuriki
+Títulos: A Leoa da Areia, A Muralha Dourada
 
 ![Hana Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHana%20Sabaku%2FHana%20Sabaku.png?alt=media&v=1788276477925297)
 
@@ -6067,7 +6133,7 @@ Apesar de seu poder monstruoso, Hana é profundamente movida pelo amor por Sunag
 - Fuinjutsu — Nível 15
 
 ## Aptidões
-A Muralha Dourada, A Leoa da Areia, Jinchuuriki Perfeita, Controle Absoluto da Areia de Ouro, Ninja Sensorial, Combate à Distância, Domínio Territorial, Defesa Absoluta, Rastreamento de Chakra, Instinto de Batalha: LM, CD, Chakra Expandido Shukaku, Acuidade, Intuição, Técnica Poderosa
+Jinchuuriki Perfeita, A Muralha Dourada, A Leoa da Areia, Controle Absoluto da Areia de Ouro, Ninja Sensorial, Combate à Distância, Domínio Territorial, Defesa Absoluta, Rastreamento de Chakra, Instinto de Batalha: LM, CD, Chakra Expandido Shukaku, Acuidade, Intuição, Técnica Poderosa
 
 ## Arsenal
 ### 1. Desconhecido
@@ -6196,7 +6262,7 @@ Uso avançado e contínuo. Pode permanecer ativo por longos períodos, mas exige
 ---
 
 # Reto Sabaku
-ID: 43
+ID: 44
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6229,6 +6295,7 @@ Reto era amado por sua gentileza e temido por seu poder. O mundo dizia que ele e
 - Percepção: 27
 
 ## Poderes e Elementos
+- Koton — Nível 13
 - Satetsu — Nível 13
 - Futon — Nível 13
 - Doton — Nível 13
@@ -6370,7 +6437,7 @@ Consumo moderado. Exige mira perfeita e controle refinado de Futon. Contra inimi
 ---
 
 # Tetsu Sabaku
-ID: 44
+ID: 45
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6432,7 +6499,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Sayuri Sabaku
-ID: 45
+ID: 46
 Clã: Sabaku
 Grupos: NPC, Sunagakure
 Função: DPS e Controle
@@ -6465,7 +6532,6 @@ Hoje, como Pilar da Liberdade, Sayuri prova que lealdade não significa permanec
 
 ## Poderes e Elementos
 - Futon — Nível 10
-- Fuinjutsu — Nível 10
 
 ## Aptidões
 Guardião da Liberdade, A Andorinha Sem Vila, Mobilidade Extrema, Espionagem, Evasão Absoluta, Microcorrentes de Vento, Rotas Secretas, Infiltração, Acuidade, Intuição, Técnica Poderosa
@@ -6493,7 +6559,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Chigiri Chinoike
-ID: 46
+ID: 47
 Clã: Chinoike
 Grupos: NPC, Sunagakure
 Função: DPS e Suporte
@@ -6528,10 +6594,9 @@ Hoje, Chigiri é o Pilar da Memória. Ele lê sangue em cenas de crime, reconstr
 ## Poderes e Elementos
 - Ketton — Nível 13
 - Kugutsu — Nível 13
-- Fuinjutsu — Nível 13
 
 ## Aptidões
-Guardião da Memória, O Homem que Lembra pelos Mortos, Sensor Emocional, Leitura de Sangue, Investigação de Campo, Genjutsu Psicológico, Respeito aos Mortos, Rastreamento Emocional, Controle de Trauma, Acuidade, Intuição, Técnica Poderosa
+Ketsuryugan Perfeito, Guardião da Memória, O Homem que Lembra pelos Mortos, Sensor Emocional, Leitura de Sangue, Investigação de Campo, Genjutsu Psicológico, Respeito aos Mortos, Rastreamento Emocional, Controle de Trauma, Acuidade, Intuição, Técnica Poderosa
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -6542,7 +6607,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mizue Dokuhana
-ID: 47
+ID: 48
 Clã: Dokuhana
 Grupos: NPC, Sunagakure
 Função: Suporte
@@ -6576,10 +6641,9 @@ Hoje, como Pilar do Sacrifício, Mizue carrega uma das verdades mais desconfort�
 ## Poderes e Elementos
 - Iryou Ninjutsu — Nível 11
 - Dokujutsu — Nível 11
-- Fuinjutsu — Nível 11
 
 ## Aptidões
-Guardião do Sacrifício, A Cirurgiã da Areia Branca, Medicina Cruel, Anti-Regeneração, Controle Fisiológico, Suporte Tático, Precisão Cirúrgica, Toxinas Controladas, Acuidade, Intuição, Técnica Poderosa
+Ninjutsu Médico, Guardião do Sacrifício, A Cirurgiã da Areia Branca, Medicina Cruel, Anti-Regeneração, Controle Fisiológico, Suporte Tático, Precisão Cirúrgica, Toxinas Controladas, Acuidade, Intuição, Técnica Poderosa
 
 ## Arsenal
 ### 1. Desconhecido
@@ -6596,7 +6660,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Tessai Enshaku
-ID: 48
+ID: 49
 Clã: Enshaku
 Grupos: NPC, Sunagakure
 Função: Tank e Controle
@@ -6650,7 +6714,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kurohime Kazeori
-ID: 49
+ID: 50
 Clã: Kazeori
 Grupos: NPC, Sunagakure
 Função: DPS e Suporte
@@ -6696,13 +6760,13 @@ Nenhuma técnica cadastrada.
 ---
 
 # Yuji Yotsuki
-ID: 50
+ID: 51
 Clã: Yotsuki
 Grupos: NPC, Kiba, Kumogakure
 Função: DPS
-NC: 26
-HP: 200
-Chakra: 88
+NC: 27
+HP: 205
+Chakra: 91
 Status: Vivo
 Títulos: Predador Silencioso, Fantasma da Tempestade, Líder da Kiba
 
@@ -6758,18 +6822,17 @@ Se o ar ficar silencioso demais...
 Yuji Yotsuki já está mirando.
 
 ## Atributos
-- Força: 10
-- Destreza: 26
-- Agilidade: 10
-- Inteligência: 26
-- Espírito: 26
+- Força: 11
+- Destreza: 27
+- Agilidade: 11
+- Inteligência: 27
+- Espírito: 27
 - Vigor: 20
-- Percepção: 26
+- Percepção: 27
 
 ## Poderes e Elementos
 - Ranton — Nível 13
 - Raiton — Nível 13
-- Fuinjutsu — Nível 13
 
 ## Aptidões
 Acuidade, Intuição, Instinto de Batalha: LM, CD, Domínio do Ranton, Técnica Poderosa, Ponto Cego, Saque Rápido
@@ -6793,7 +6856,7 @@ Desconhecido
 
 ## Técnicas
 ### 1. Yuji no Hōkō
-Classificação: S++ | Natureza: Chakra Profano + Ranton
+Classificação: Z | Natureza: Chakra Profano + Ranton
 
 ![Yuji no Hōkō](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FTecnicas%2F01%20-%20Yuji%20no%20H%C5%8Dk%C5%8D.jpg?alt=media&v=1786651906232790)
 
@@ -6848,7 +6911,7 @@ Status de Uso:
 Necessita sincronização absoluta entre Yuji, o Raigan e o núcleo de Chakra Profano da arma. O uso contínuo pode sobrecarregar o sistema nervoso devido à pressão extrema do Ranton.
 
 ### 2. Ranton: Toru
-Classificação: S++ | Natureza: Ranton
+Classificação: Z | Natureza: Ranton
 
 ![Ranton: Toru](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FTecnicas%2F02%20-%20Ranton%3A%20Toru.png?alt=media&v=1786651906346996)
 
@@ -7137,7 +7200,7 @@ Necessita elevado controle de chakra durante uso contínuo.
 ---
 
 # Reito Kurogami
-ID: 51
+ID: 52
 Clã: Kurogami
 Grupos: NPC, Kiba, Kumogakure
 Função: Tank
@@ -7386,7 +7449,7 @@ Alto desgaste corporal e risco de ruptura muscular em uso excessivo.
 ---
 
 # Yoru Kurogami
-ID: 52
+ID: 53
 Clã: Kurogami
 Grupos: NPC, Kiba, Kumogakure
 Função: Suporte e Controle
@@ -7624,7 +7687,7 @@ Necessita contato visual direto.
 ---
 
 # Mika Yotsuki
-ID: 53
+ID: 54
 Clã: Yotsuki
 Grupos: NPC, Kiba, Kumogakure
 Função: Suporte
@@ -7693,7 +7756,7 @@ Existe uma frase dita por Yoru sobre ela:
 - Ocultação — Nível 12
 
 ## Aptidões
-Acuidade, Intuição, Perito: Rastrear, Ponto Cego, Maestria: CD, Reflexos, Técnica Poderosa, Genialidade Tática, Ocultação Absoluta, Sensorial Avançado
+Kaminari, Acuidade, Intuição, Perito: Rastrear, Ponto Cego, Maestria: CD, Reflexos, Técnica Poderosa, Genialidade Tática, Ocultação Absoluta, Sensorial Avançado
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -7836,7 +7899,7 @@ Mais eficaz contra alvos que dependem muito de percepção ou leitura sensorial.
 ---
 
 # Enrai Hanzo
-ID: 54
+ID: 55
 Clã: Hanzo
 Grupos: NPC, Kiba, Kumogakure
 Função: Tank
@@ -7949,7 +8012,7 @@ Dentro da organização existe uma frase associada a ele:
 - Nintaijutsu — Nível 13
 
 ## Aptidões
-Cirurgião Profano, Punho de Ferro, Lutador, Reflexos, Instinto de Batalha: LM, CD, Maestria: CC, Ataque em Movimento, Dano Extra, Crítico Aprimorado, Medicina Avançada, Resistência, Técnica Poderosa
+Ninjutsu Médico, Cirurgião Profano, Punho de Ferro, Lutador, Reflexos, Instinto de Batalha: LM, CD, Maestria: CC, Ataque em Movimento, Dano Extra, Crítico Aprimorado, Medicina Avançada, Resistência, Técnica Poderosa
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -8152,7 +8215,7 @@ Exige proximidade ou contato direto com o alvo.
 ---
 
 # Daichi Muujin
-ID: 55
+ID: 56
 Clã: Muujin
 Grupos: NPC, NoGuns, Iwagakure
 Função: DPS e Controle
@@ -8176,6 +8239,7 @@ Desconhecido
 - Percepção: 25
 
 ## Poderes e Elementos
+- Koton — Nível 12
 - Jinton — Nível 12
 - Doton — Nível 12
 - Katon — Nível 12
@@ -8193,7 +8257,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Koji Ishizuma
-ID: 56
+ID: 57
 Clã: Ishizuma
 Grupos: NPC, NoGuns, Kumogakure
 Função: DPS
@@ -8233,7 +8297,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Yuuto Han
-ID: 57
+ID: 58
 Clã: Han
 Grupos: NPC, NoGuns, OCA, Kirigakure
 Função: DPS
@@ -8259,7 +8323,7 @@ Yuuto Han é a prova viva de que até a morte pode ser apenas o começo. Nascido
 ## Poderes e Elementos
 - Kokuo — Nível 9
 - Gobi Futon — Nível 9
-- Hachimon Tonkou — Nível 2
+- Hachimon Tonkou — Nível 3
 
 ## Aptidões
 Maestria: CC, Reflexos, Punho de Ferro, Dano Extra, Crítico Aprimorado, Ataque Giratório, Chute Giratório, Arremessar, Seguir Sombra, Chakra Expandido
@@ -8288,7 +8352,7 @@ Uso altamente restrito. A combinação de pressão térmica e sobrecarga dos por
 ---
 
 # Shin Mizukari
-ID: 58
+ID: 59
 Clã: Mizukari
 Grupos: NPC, NoGuns, Iwagakure
 Função: Tanque
@@ -8327,7 +8391,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Shikure Chinoike
-ID: 59
+ID: 60
 Clã: Chinoike
 Grupos: NPC, NoGuns, OCA, Sunagakure
 Função: Suporte
@@ -8352,11 +8416,12 @@ Shikure Chinoike é um gênio que ultrapassou a linha entre ciência e insanidad
 - Percepção: 26
 
 ## Poderes e Elementos
+- Kugutsu — Nível 13
 - Ketton — Nível 13
 - Dokujutsu — Nível 13
 
 ## Aptidões
-Elemento Natural: Ketton, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar
+Ketsuryugan, Elemento Natural: Ketton, Maestria: CD, Maestria: CC, Intuição, Ponto Cego, Acuidade, Perito em Prestidigitação, Ilusão Profunda, Usar Katana, Saque Rápido, Ambidestria, Técnica Poderosa, Potencializar
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -8382,7 +8447,7 @@ Alto consumo de chakra e risco de instabilidade mental devido à sobreposição 
 ---
 
 # Akira Dokuhana
-ID: 60
+ID: 61
 Clã: Dokuhana
 Grupos: NPC, NoGuns, Sunagakure
 Função: DPS
@@ -8422,7 +8487,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kiyoshi Hagane
-ID: 61
+ID: 62
 Clã: Hagane
 Grupos: NPC, Kumogakure
 Função: DPS, Tank e Controle
@@ -8471,7 +8536,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Gorai Arashiumi
-ID: 62
+ID: 63
 Clã: Arashiumi
 Grupos: NPC, Kumogakure
 Função: DPS, Tank e Controle
@@ -8506,7 +8571,7 @@ Após décadas servindo Kumogakure, Gorai havia se aposentado e retornado aos la
 - Desconhecido
 
 ## Aptidões
-Acuidade
+Kaminari, Acuidade
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -8517,7 +8582,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Arashi Shidehara
-ID: 63
+ID: 64
 Clã: Shidehara
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8565,7 +8630,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizen Kurogane
-ID: 64
+ID: 65
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8613,7 +8678,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raiden Yotsuki
-ID: 65
+ID: 66
 Clã: Yotsuki
 Grupos: NPC, Kumogakure
 Função: DPS / Tank
@@ -8647,7 +8712,7 @@ Sua arma máxima é uma enorme alabarda azul capaz de atravessar defesas física
 - Percepção: 23
 
 ## Poderes e Elementos
-- Desconhecido
+- Ranton — Nível 11
 
 ## Aptidões
 Acuidade
@@ -8661,7 +8726,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Nayara Kazemori
-ID: 66
+ID: 67
 Clã: Kazemori
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8709,7 +8774,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Shizuru Kurogane
-ID: 67
+ID: 68
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: DPS / Suporte
@@ -8745,7 +8810,7 @@ Durante anos, Shizuru foi mantida escondida devido à raridade de seu Kaminari. 
 - Desconhecido
 
 ## Aptidões
-Acuidade
+Kaminari, Acuidade
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -8756,7 +8821,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Midori Kurogane
-ID: 68
+ID: 69
 Clã: Kurogane
 Grupos: NPC, Kumogakure
 Função: Suporte, DPS e Controle
@@ -8804,7 +8869,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Akane Sumigami
-ID: 69
+ID: 70
 Clã: Sumigami
 Grupos: NPC, Kumogakure
 Função: Suporte / DPS
@@ -8841,7 +8906,7 @@ Sua técnica máxima é o Raiboku: Hyakki no Emaki, que materializa simultaneame
 - Desconhecido
 
 ## Aptidões
-Desconhecido
+Kaminari
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -8852,7 +8917,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizuma Kazuchi
-ID: 70
+ID: 71
 Clã: Kazuchi
 Grupos: NPC, Kumogakure
 Função: DPS
@@ -8886,7 +8951,7 @@ Depois de entrar para a Elite, Inazuma também passou a orientar Mika. A oculta�
 - Percepção: 10
 
 ## Poderes e Elementos
-- Desconhecido
+- Ranton — Nível 13
 
 ## Aptidões
 Desconhecido
@@ -8900,7 +8965,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Amakumo Hōzuki
-ID: 71
+ID: 72
 Clã: Hōzuki
 Grupos: NPC, Kirigakure
 Função: Tank
@@ -8934,7 +8999,7 @@ Ele está longe de ser pacifista: para Amakumo, a paz é conquistada por meio de
 - Iryō Ninjutsu — Nível 14
 
 ## Aptidões
-Ambidestria, Maestria: CC, Saque Rápido, Potencializar, Técnica Poderosa, Domínio da Água, Instinto de Batalha: LM, CD, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, De Pé, Reflexos, Punho de Ferro, Crítico Aprimorado, Soco em Gancho, Duro de Matar, Chakra Expandido: Leviatã, Contragolpe
+Ninjutsu Médico, Ambidestria, Maestria: CC, Saque Rápido, Potencializar, Técnica Poderosa, Domínio da Água, Instinto de Batalha: LM, CD, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, De Pé, Reflexos, Punho de Ferro, Crítico Aprimorado, Soco em Gancho, Duro de Matar, Chakra Expandido: Leviatã, Contragolpe
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -8945,7 +9010,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Genzō Umikage
-ID: 72
+ID: 73
 Clã: Umikage
 Grupos: NPC, Kirigakure
 Função: Suporte e Controle
@@ -8984,7 +9049,13 @@ Suas habilidades são baseadas em Suiton, Futton, Senjutsu, invocações e jutsu
 Acuidade, Intuição, Domínio da Água, Potencializar, Maestria: CD, Maestria: CC, Lutar às Cegas, Mestre dos Selos, Perito: Rastrear, Perito: Lidar com Animais, Ponto Cego, Técnica Poderosa, Fascinar, Miragem, Réplica Enganadora, Sensor, Elemento Natural: Suiton, Reserva de Água
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -8992,7 +9063,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizuki Hoshigaki
-ID: 73
+ID: 74
 Clã: Hoshigaki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9033,7 +9104,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Suiren Shiranami
-ID: 74
+ID: 75
 Clã: Shiranami
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9061,6 +9132,7 @@ Em combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu
 - Percepção: 24
 
 ## Poderes e Elementos
+- Hachimon Tonkou — Nível 1
 - Suiton — Nível 12
 - Katon — Nível 12
 - Futton — Nível 12
@@ -9071,7 +9143,13 @@ Em combate, utiliza Suiton, Katon, Futton, Magen e técnicas de invocação. Seu
 Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CD, Intuição, Acuidade, Lutar às Cegas
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9079,7 +9157,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Juzo Kuroshio
-ID: 75
+ID: 76
 Clã: Kuroshio
 Grupos: NPC, Kirigakure
 Função: DPS e Controle
@@ -9117,7 +9195,13 @@ Poucos sabem que Juzo perdeu um braço ao enfrentar secretamente o falso Mizukag
 Futton Sufocante, Youton Corrosivo, Dupla Linhagem, Domínio da Água, Acuidade, Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado, Lutar às Cegas, Arremessar, Ataque em Movimento, Ataque Progressivo, Lutador, Dano Extra, Reflexos, Punho de Ferro, Soco em Gancho, Duro de Matar, Chakra Expandido: Kraken
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9125,7 +9209,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kōga Kirisame
-ID: 76
+ID: 77
 Clã: Kirisame
 Grupos: NPC, Kirigakure
 Função: DPS e Controle
@@ -9168,7 +9252,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mei Yuki
-ID: 77
+ID: 78
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: Controle e DPS
@@ -9204,7 +9288,21 @@ Sua tesoura, a Decapitadora, traz gravados em vermelho os nomes de suas vítimas
 Desconhecido
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+### 2. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9212,7 +9310,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Nao Arashio
-ID: 78
+ID: 79
 Clã: Arashio
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9256,7 +9354,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Ganmaren Yuki
-ID: 79
+ID: 80
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: Controle
@@ -9264,7 +9362,7 @@ NC: 30
 HP: 250
 Chakra: 137
 Status: Vivo
-Títulos: O Escolhido de Jormungandr, O Escolhido
+Títulos: Âncora Verde
 
 ![Ganmaren Yuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788276459807981)
 
@@ -9295,7 +9393,29 @@ Kirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecime
 Acuidade, Ponto Cego, Crítico Avançado, Intuição, Saque Rápido, Instinto de Batalha: LM, CD, Velocista, Maestria: CD, Técnica Poderosa, Maestria: CC, Crítico Aprimorado, Perito: Lidar com Animais, Perito: Ocultismo, Mestre dos Selos, Potencializar, Ataque em Movimento, Congelamento, Usar Arma: Pistola, Usar Arma: Marreta, Chakra Expandido: Jormungandr
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+### 2. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+### 3. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9303,7 +9423,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Gordon Kirisame
-ID: 80
+ID: 81
 Clã: Kirisame
 Grupos: NPC, Kirigakure
 Função: Suporte e Tanque
@@ -9340,10 +9460,16 @@ Voltou a confiar em alguém uma única vez, e foi depois de enfrentar o próprio
 - Fuinjutsu — Nível 14
 
 ## Aptidões
-Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar
+Hiraishin, Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9351,7 +9477,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hahiko Shiosaki
-ID: 81
+ID: 82
 Clã: Shiosaki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9386,10 +9512,16 @@ Ninguém na vila sabe o motivo: Hahiko é a jinchūriki de Chomei. Ganmaren e Go
 - Magen — Nível 14
 
 ## Aptidões
-Domínio do Vento, Chakra Expandido: Chomei, Maestria: CC, Regeneração, Duro de Matar, Reflexos, Potencializar, Intuição, Ataque Poderoso, Dano Extra, Crítico Aprimorado, Ataque Múltiplo, Voar
+Ninjutsu Médico, Domínio do Vento, Chakra Expandido: Chomei, Maestria: CC, Regeneração, Duro de Matar, Reflexos, Potencializar, Intuição, Ataque Poderoso, Dano Extra, Crítico Aprimorado, Ataque Múltiplo, Voar
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9397,7 +9529,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Himari Yuki
-ID: 82
+ID: 83
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9434,7 +9566,7 @@ Sobrou o fantoche que Juzo tentou controlar. A heroína morreu, e o que restou m
 - Jiogu — Nível 13
 
 ## Aptidões
-Sharingan, Nidan Sharingan, Sandan Sharingan, Mangekyou Sharingan, Eternal Mangekyou Sharingan, Regeneração, Mestre dos Selos, Ambidestria, Bloqueio Ambidestro, Duro de Matar, Acuidade, Maestria: CD, Reflexos, Potencializar, Dano Extra, Ataque Múltiplo, Ponto Cego
+Sharingan, Nidan Sharingan, Sandan Sharingan, Regeneração, Mestre dos Selos, Ambidestria, Bloqueio Ambidestro, Duro de Matar, Acuidade, Maestria: CD, Reflexos, Potencializar, Dano Extra, Ataque Múltiplo, Ponto Cego
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -9445,7 +9577,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Enkai Kuroshio
-ID: 83
+ID: 84
 Clã: Kuroshio
 Grupos: NPC, Kirigakure
 Função: DPS e Suporte
@@ -9481,7 +9613,7 @@ Em segredo, Enkai é um fanático pela ideia de imortalidade, e gasta boa parte 
 - Magen — Nível 14
 
 ## Aptidões
-Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar, Domínio do Sangue, Maestria: CD, Regeneração, Ketsuryugan, Ketsuryugan Eterno, Chakra Expandido: Megalodon
+Ketsuryugan Perfeito, Ketsuryugan, Ketsuryugan Eterno, Fascinar, Miragem, Ilusão Profunda, Réplica Enganadora, Potencializar, Técnica Elevada, Mestre dos Selos, Ponto Cego, Maestria: CC, Reflexos, Acuidade, Lutar às Cegas, Domínio da Água, Duro de Matar, Domínio do Sangue, Maestria: CD, Regeneração, Chakra Expandido: Megalodon
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -9492,7 +9624,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Ayame Sazanami
-ID: 84
+ID: 85
 Clã: Sazanami
 Grupos: NPC, Kirigakure
 Função: Suporte e Controle
@@ -9527,10 +9659,16 @@ O preço é alto. O consumo é tão grande que ele abre a própria defesa para s
 - Iryou Ninjutsu — Nível 14
 
 ## Aptidões
-Shingan, Shingan Eterno, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Perito: Rastrear, Regeneração, Mil Anos de Vida, Chakra da Cura
+Shingan Perfeito, Shingan, Shingan Eterno, Ninjutsu Médico, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Perito: Rastrear, Regeneração, Mil Anos de Vida, Chakra da Cura
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9538,7 +9676,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Tōma Umikage
-ID: 85
+ID: 86
 Clã: Umikage
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9567,15 +9705,19 @@ Luta com duas armas que, imbuídas de chakra, disparam projéteis contra os tenk
 
 ## Poderes e Elementos
 - Suiton — Nível 13
-- Fuinjutsu — Nível 13
 - Hyuga no Fujo — Nível 13
-- Iryou Ninjutsu — Nível 13
 
 ## Aptidões
-Acuidade, Contragolpe, Fujogan, Tenketsu Byakugan, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Atirador, Byakugan, Duro de Matar, Rasteira, Chute Giratório, Maestria: CD
+Byakugan, Fujogan, Tenketsu Byakugan, Acuidade, Contragolpe, Ataque Giratório, Crítico Aprimorado, Intuição, Chakra Expandido: Profano, Ataque Múltiplo, Atirador, Duro de Matar, Rasteira, Chute Giratório, Maestria: CD
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9583,7 +9725,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mirei Sazanami
-ID: 86
+ID: 87
 Clã: Sazanami
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9619,7 +9761,13 @@ Luta com técnicas de espada e manipula Suiton. Criou o Clone Falso, um clone-ar
 Shingan, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Lutar às Cegas, Mira Apurada, Oportunista, Mobilidade, Punho de Ferro, Reflexos, Retirada Rápida, Rolamento
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -9627,7 +9775,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Akairo Uchiha (A)
-ID: 87
+ID: 88
 Clã: Uchiha
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -9635,7 +9783,7 @@ NC: 24
 HP: 202
 Chakra: 123
 Status: Morto (morto por Nagare Uzumaki)
-Títulos: Inferno Vermelho, Jinchuuriki, O Primeiro Experimento, Líder dos 75%, O Inferno Vermelho
+Títulos: Inferno Vermelho, O Primeiro Experimento, Líder dos 75%, O Inferno Vermelho
 
 ![Akairo Uchiha (A)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkairo%20Uchiha%20(A)%2FAkairo%20Uchiha%20(A).png?alt=media&v=1788276400793721)
 
@@ -9674,7 +9822,7 @@ Para o mundo, Akairo é uma arma descontrolada. Para a organização, ele é nec
 - Doton — Nível 12
 
 ## Aptidões
-Mangekyou Sharingan, Eien Mangekyou Sharingan, Maestria: CC, Maestria: CD, Chakra Expandido, Intuição, Reflexos, Domínio do Fogo, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+Mangekyou Sharingan, Mangekyou Sharingan Eterno, Maestria: CC, Maestria: CD, Chakra Expandido, Intuição, Reflexos, Domínio do Fogo, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -9751,7 +9899,7 @@ Extremamente proibida. O consumo de chakra é colossal, drenando reservas físic
 ---
 
 # Borashi Hyuga (B)
-ID: 88
+ID: 89
 Clã: Hyuga
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -9759,7 +9907,7 @@ NC: 26
 HP: 218
 Chakra: 132
 Status: Vivo
-Títulos: Inverno Azul, Jinchuuriki, O Segundo Experimento, Vice Líder dos 75%, O Anjo de Gelo
+Títulos: Inverno Azul, O Segundo Experimento, Vice Líder dos 75%, O Anjo de Gelo
 
 ![Borashi Hyuga (B)](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBorashi%20Hyuga%20(B)%2FBorashi%20Hyuga%20(B).png?alt=media&v=1788276429962131)
 
@@ -9800,7 +9948,7 @@ Para a equipe, ele é liderança. Para a organização, ele é eficiência absol
 - Hyoton — Nível 13
 
 ## Aptidões
-Fujogan, Eternal Fujogan, Chakra Expandido: Isobu, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Água, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+Byakugan, Fujogan, Fujogan Eterno, Chakra Expandido: Isobu, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Água, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -9877,7 +10025,7 @@ Extremamente perigoso. A ausência temporária do chakra natural deixa Borashi v
 ---
 
 # Chisaki Dokuhana (C)
-ID: 89
+ID: 90
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: Suporte
@@ -9917,12 +10065,13 @@ Para a equipe, Chisaki é estabilidade. Para os inimigos, é contenção absolut
 - Percepção: 25
 
 ## Poderes e Elementos
+- Kugutsu — Nível 12
 - Shoton — Nível 12
 - Iryou Ninjutsu — Nível 12
 - Senjutsu — Nível 12
 
 ## Aptidões
-Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Água, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Réplica Enganadora, Clone de Cristal
+Ninjutsu Médico, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Água, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Réplica Enganadora, Clone de Cristal
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -9982,7 +10131,7 @@ Altamente estável enquanto houver energia natural disponível. Em ambientes ár
 ---
 
 # Daiki Uzumaki (D)
-ID: 90
+ID: 91
 Clã: Uzumaki
 Grupos: NPC, OCA, Konohagakure
 Função: Suporte e DPS
@@ -10029,10 +10178,9 @@ Ele vive dividido entre duas existências: a arma que foi criado para ser… e o
 ## Poderes e Elementos
 - Hoshasenton — Nível 9
 - Kage Mane — Nível 9
-- Fuinjutsu — Nível 9
 
 ## Aptidões
-Chakra Expandido, Kagou Fusa, Byakugan, Maestria: CD, Intuição, Reflexos, Domínio da Água, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Réplica Enganadora, Clone de Cristal
+Chakra Expandido, Kagou Fusa, Maestria: CD, Intuição, Reflexos, Domínio da Água, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa, Potencializar, Réplica Enganadora, Clone de Cristal
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -10126,7 +10274,7 @@ Habilidade avançada. Consome chakra constantemente e pode causar fadiga mental 
 ---
 
 # Etsuko Senju (E)
-ID: 91
+ID: 92
 Clã: Senju
 Grupos: NPC, OCA, Konohagakure
 Função: DPS
@@ -10203,7 +10351,7 @@ Uso restrito. Requer domínio absoluto de Hiraishin e controle preciso do elemen
 ---
 
 # Fuyuki Dokuhana (F)
-ID: 92
+ID: 93
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: DPS
@@ -10261,7 +10409,7 @@ E para si mesmo… ele é um sobrevivente que nunca deveria ter acordado.
 - Iryou Ninjutsu — Nível 7
 
 ## Aptidões
-Maestria: CD, intuição, Atirador, Quimico, Perito em Veneficio, Ponto Cego, Ambidestria, Dano Extra: Arremesso, Critico Aprimorado, Ataque Múltiplo, Velocista, Ninja Médico
+Ninjutsu Médico, Maestria: CD, intuição, Atirador, Quimico, Perito em Veneficio, Ponto Cego, Ambidestria, Dano Extra: Arremesso, Critico Aprimorado, Ataque Múltiplo, Velocista, Ninja Médico
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -10287,7 +10435,7 @@ Uso altamente restrito. Exige grande volume sanguíneo, resistência física ext
 ---
 
 # Genei (G)
-ID: 93
+ID: 94
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: Tank e DPS
@@ -10382,7 +10530,7 @@ Extremamente instável. O uso prolongado sobrecarrega o núcleo artificial e pod
 ---
 
 # Hayato Hanzo (H)
-ID: 94
+ID: 95
 Clã: Hanzo
 Grupos: NPC, OCA, Kumogakure
 Função: Suporte e Controle
@@ -10443,7 +10591,7 @@ E para si mesmo… ele é a tempestade que decidiu reescrever o próprio céu.
 - Nintaijutsu — Nível 9
 
 ## Aptidões
-Amenotejikara, Kaminari Branco, Velocista, Ataque em movimento, Punho de Ferro, Maestria: CC, Reflexos, Potencializar, Mestre dos Selos, Kongou Fuusa, Intuição, Reflexos, Domínio do Raio, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa
+Kaminari, Shiroki Kaminari, Kaminari Branco, Amenotejikara, Velocista, Ataque em movimento, Punho de Ferro, Maestria: CC, Reflexos, Potencializar, Mestre dos Selos, Kongou Fuusa, Intuição, Domínio do Raio, Ponto Cego, Acuidade, Ilusão Profunda, Técnica Poderosa
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -10469,7 +10617,7 @@ Consome quantidades colossais de chakra e exige controle mental absoluto. Uso pr
 ---
 
 # Katakana Yotsuki (Alpha)
-ID: 95
+ID: 96
 Clã: Yotsuki
 Grupos: NPC, OCA, Kumogakure
 Função: ?
@@ -10502,7 +10650,7 @@ Desconhecido
 - Nintaijutsu — Nível 14
 
 ## Aptidões
-Shiroki Kaminari, Kaminari, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
+Kaminari, Shiroki Kaminari, Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -10596,7 +10744,7 @@ Alto consumo de chakra e exige percepção espacial extrema. Uso excessivo pode 
 ---
 
 # Ganmasen Yuki (Gama)
-ID: 96
+ID: 97
 Clã: Yuki
 Grupos: NPC, OCA, Kirigakure
 Função: Controle
@@ -10628,7 +10776,7 @@ Desconhecido
 - Raiton — Nível 14
 
 ## Aptidões
-Chakra Expandido: Saiken, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
+Chakra Expandido: Saiken, Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -10722,7 +10870,7 @@ Consome enormes reservas de chakra e exige controle minucioso da pressão intern
 ---
 
 # Deruta Muujin (Delta)
-ID: 97
+ID: 98
 Clã: Muujin
 Grupos: NPC, OCA, Iwagakure
 Função: ?
@@ -10747,6 +10895,7 @@ Desconhecido
 - Percepção: 28
 
 ## Poderes e Elementos
+- Jinton — Nível 14
 - Juryūkuton — Nível 14
 - Koton — Nível 14
 - Doton — Nível 14
@@ -10754,7 +10903,7 @@ Desconhecido
 - Futon — Nível 14
 
 ## Aptidões
-Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
+Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -10882,7 +11031,7 @@ Consumo elevado, porém mais estável que técnicas de larga escala. Pode ser qu
 ---
 
 # Shiita Sabaku (Theta)
-ID: 98
+ID: 99
 Clã: Dabado
 Grupos: NPC, OCA, Sunagakure
 Função: Controle
@@ -10907,6 +11056,8 @@ Desconhecido
 - Percepção: 28
 
 ## Poderes e Elementos
+- Kugutsu — Nível 14
+- Koton — Nível 14
 - Sakin — Nível 14
 - Satetsu — Nível 14
 - Saton — Nível 14
@@ -10916,7 +11067,7 @@ Desconhecido
 - Fuinjutsu — Nível 14
 
 ## Aptidões
-Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
+Ninjutsu Médico, Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -10927,7 +11078,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kaien Ishi (Omega)
-ID: 99
+ID: 100
 Clã: Ishi
 Grupos: NPC, OCA, Iwagakure
 Função: DPS
@@ -10976,7 +11127,7 @@ Pois enquanto o poder for definido pelo nascimento, Ômega continuará existindo
 - Fuinjutsu — Nível 15
 
 ## Aptidões
-Mangekyou Sharingan, Eien Mangekyou Sharingan, Byakugan, Fujogan, Eternal Fujogan, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Terra, Ponto Cego, Acuidade, Perito em Mecanismos, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+Byakugan, Fujogan, Ninjutsu Médico, Mangekyou Sharingan, Mangekyou Sharingan Eterno, Fujogan Eterno, Maestria: CC, Maestria: CD, Intuição, Reflexos, Domínio da Terra, Ponto Cego, Acuidade, Perito em Mecanismos, Ilusão Profunda, Usar Katana, Saque Rápido, Técnica Poderosa, Potencializar, Punho de Ferro, Lutador, Ataque em Movimento, Arremessar, Seguir Sombra, Ataque Giratório, Chute Giratório, Ataque Múltiplo, Dano Extra, Crítico Aprimorado, Ataque Progressivo
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -11036,7 +11187,7 @@ Manter os tanques de chakra ativos e a absorção contínua exige concentração
 ---
 
 # Beta
-ID: 100
+ID: 101
 Clã: Desconhecido
 Grupos: NPC, OCA, Konohagakure
 Função: ?
@@ -11066,7 +11217,7 @@ Desconhecido
 - Suiton — Nível 0
 
 ## Aptidões
-Regeneração, Células de Hashirama, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
+Regeneração, Células de Hashirama, Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -11177,7 +11328,7 @@ Consumo extremo e constante de chakra. Vulnerável a técnicas de selamento ou e
 ---
 
 # Hades
-ID: 101
+ID: 102
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: ?
@@ -11209,7 +11360,7 @@ Desconhecido
 - Desconhecido — Nível 0
 
 ## Aptidões
-Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido, Desconhecido
+Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -11220,39 +11371,35 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hashirama Senju
-ID: 102
+ID: 103
 Clã: Senju
 Grupos: NPC, Konohagakure
 Função: Tanque e DPS
 NC: 30
-HP: 232
-Chakra: 100
+HP: 0
+Chakra: 0
 Status: Morto (morto por ?)
 Títulos: Deus Shinobi, Fundador de Konoha, Assassino de Uchiha Madara
 
-
+![Hashirama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHashirama%20Senju%2FHashirama%20Senju.png?alt=media&v=1789485882031310)
 
 ## Descrição
 Desconhecido
 
 ## Atributos
-- Força: 12
-- Destreza: 30
-- Agilidade: 12
-- Inteligência: 30
-- Espírito: 30
-- Vigor: 24
-- Percepção: 30
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
 
 ## Poderes e Elementos
-- Mokuton — Nível 15
-- Doton — Nível 15
-- Suiton — Nível 15
-- Senjutsu — Nível 15
-- Fuinjutsu — Nível 15
+- Desconhecido
 
 ## Aptidões
-Acuidade, Intuição, Instinto de Batalha: LM, CD, Domínio da Terra, Domínio da Água, Técnica Poderosa, Ponto Cego, Saque Rápido, Regeneração, Lutar as Cegas, Potencializar, Perito: Rastrear, Sensor, Perito em Prestidigitação, Ilusão Profunda, Dano Extra, Crítico Aprimorado, Ataque Progressivo
+Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
@@ -11263,37 +11410,419 @@ Nenhuma técnica cadastrada.
 ---
 
 # Madara Uchiha
-ID: 103
+ID: 104
 Clã: Uchiha
 Grupos: NPC, Konohagakure
 Função: Tanque e DPS
 NC: 30
-HP: 232
-Chakra: 100
+HP: 0
+Chakra: 0
 Status: Morto (morto por Hashirama Senju)
 Títulos: Fantasma dos Uchiha, Fundador de Konoha, Deus Shinobi
 
-
+![Madara Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMadara%20Uchiha%2FMadara%20Uchiha.png?alt=media&v=1789485885214585)
 
 ## Descrição
 Desconhecido
 
 ## Atributos
-- Força: 12
-- Destreza: 30
-- Agilidade: 12
-- Inteligência: 30
-- Espírito: 30
-- Vigor: 24
-- Percepção: 30
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
 
 ## Poderes e Elementos
-- Katon — Nível 15
-- Doton — Nível 15
-- Fuinjutsu — Nível 15
+- Desconhecido
 
 ## Aptidões
-Mangekyou Sharingan, Eien Mangekyou Sharingan, Perito em Prestidigitação, Ilusão Profunda, Dano Extra, Crítico Aprimorado, Ataque Progressivo, Acuidade, Intuição, Instinto de Batalha: LM, CD, Domínio da Terra, Domínio da Água, Técnica Poderosa, Ponto Cego, Saque Rápido, Regeneração, Lutar as Cegas, Potencializar, Perito: Rastrear
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Mito Uzumaki
+ID: 105
+Clã: Uzumaki
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 28
+HP: 0
+Chakra: 0
+Status: Morto (morto por Selamento da Kurama em Naomi Uzumaki)
+Títulos: Deusa dos Selos
+
+![Mito Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMito%20Uzumaki%2FMito%20Uzumaki.png?alt=media&v=1789485888962279)
+
+## Descrição
+Esposa de Hashirama.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Konan Uchiha
+ID: 106
+Clã: Uchiha
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 24
+HP: 0
+Chakra: 0
+Status: Morto (morto por Suicídio)
+Títulos: Rainha do Sharingan
+
+![Konan Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKonan%20Uchiha%2FKonan%20Uchiha.png?alt=media&v=1789485892168300)
+
+## Descrição
+Mãe de Naoki, Oddy, Kuromi, Ayumi e Shizumi.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Kawarama Senju
+ID: 107
+Clã: Senju
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 28
+HP: 0
+Chakra: 0
+Status: Morto (morto por Mangetsu Hozuki)
+Títulos: Armadura Verde de Konoha
+
+![Kawarama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKawarama%20Senju%2FKawarama%20Senju.png?alt=media&v=1789485896028734)
+
+## Descrição
+Pai de Nishinoya.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Sakura Namikaze
+ID: 108
+Clã: Namikaze
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 26
+HP: 0
+Chakra: 0
+Status: Morto (morto por Mangetsu Hozuki)
+Títulos: Raio Azul de Konoha
+
+![Sakura Namikaze](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSakura%20Namikaze%2FSakura%20Namikaze.png?alt=media&v=1789485899962244)
+
+## Descrição
+Mãe de Nishinoya.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Minoru Hyuga
+ID: 109
+Clã: Hyuga
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Morto (morto por Maldição do Fujogan)
+
+![Minoru Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMinoru%20Hyuga%2FMinoru%20Hyuga.png?alt=media&v=1789490143404476)
+
+## Descrição
+Pai de Hoshiro, Kaizuka e Haruki.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Ashina Uzumaki
+ID: 110
+Clã: Uzumaki
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Morto (morto por Selamento da Kurama em Mito Uzumaki)
+
+![Ashina Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAshina%20Uzumaki%2FAshina%20Uzumaki.png?alt=media&v=1789490147209651)
+
+## Descrição
+Pai de Mito, Yumi, Naomi e Katsuo.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Hiruzen Sarutobi
+ID: 111
+Clã: Sarutobi
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 28
+HP: 0
+Chakra: 0
+Status: Morto (morto por Son Goku)
+
+![Hiruzen Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiruzen%20Sarutobi%2FHiruzen%20Sarutobi.png?alt=media&v=1789490151118644)
+
+## Descrição
+Pai de Shoei e Apollo.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Hina Sarutobi
+ID: 112
+Clã: Sarutobi
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 24
+HP: 0
+Chakra: 0
+Status: Morto (morto por Son Goku)
+
+![Hina Sarutobi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHina%20Sarutobi%2FHina%20Sarutobi.png?alt=media&v=1789490154960211)
+
+## Descrição
+Mãe de Shoei e Apollo.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Iwaki Haruno
+ID: 113
+Clã: Haruno
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 18
+HP: 0
+Chakra: 0
+Status: Morto (morto por Nagare Uzumaki)
+
+![Iwaki Haruno](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FIwaki%20Haruno%2FIwaki%20Haruno.png?alt=media&v=1789490158816560)
+
+## Descrição
+Pai de Yui. Ensinou Doton a Kaito.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Renji Hyuga
+ID: 114
+Clã: Hyuga
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 16
+HP: 0
+Chakra: 0
+Status: Morto (morto por Furyuzan Chinoike)
+
+![Renji Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRenji%20Hyuga%2FRenji%20Hyuga.png?alt=media&v=1789490162549622)
+
+## Descrição
+Irmão de Ryuta. Treinou Katsumi.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
