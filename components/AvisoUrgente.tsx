@@ -26,7 +26,7 @@ import { AlertTriangle, X } from 'lucide-react';
 const SEGUNDOS_DE_ALARME = 10;
 
 /** Quantas janelas ao mesmo tempo. */
-const QUANTAS = 26;
+const QUANTAS = 32;
 
 const entre = (min: number, max: number) => min + Math.random() * (max - min);
 
@@ -84,27 +84,100 @@ const COMANDOS = [
   () => `> aguarde. não desligue o terminal.`,
 ];
 
+const GLIFOS = 'ABCDEF0123456789$#%&@/\\|<>[]{}!?*+=~^';
+const glifo = () => GLIFOS[Math.floor(Math.random() * GLIFOS.length)];
+
+/**
+ * A chuva de código, atrás de tudo.
+ *
+ * 26 colunas de caracteres despencando. É o sinal visual mais reconhecível de invasão que existe,
+ * e resolve um problema concreto: antes, o espaço entre as janelas era o site parado, e site
+ * parado não parece invadido.
+ *
+ * As colunas são montadas UMA vez (`useState` com função) porque sortear a cada render trocaria
+ * todos os caracteres a cada quadro e viraria ruído ilegível em vez de código caindo.
+ */
+const ChuvaDeCodigo: React.FC = () => {
+  const [colunas] = useState(() => Array.from({ length: 26 }, () => ({
+    left: Math.random() * 100,
+    duracao: entre(1.6, 4.2),
+    atraso: entre(0, 2.5),
+    letras: Array.from({ length: 22 }, glifo).join(''),
+  })));
+  return (
+    <div className="absolute inset-0 overflow-hidden">
+      {colunas.map((c, k) => (
+        <div
+          key={k}
+          className="absolute top-0 text-[15px] leading-[1.15] text-red-600/45 font-bold motion-safe:animate-[cair_linear_infinite] whitespace-pre"
+          style={{ left: `${c.left}%`, animationDuration: `${c.duracao}s`, animationDelay: `${c.atraso}s` }}
+        >
+          {c.letras.split('').join('\n')}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+/**
+ * Os rasgos: faixas horizontais que pulam de altura o tempo todo e invertem o que está por baixo.
+ *
+ * Lê como sinal de vídeo quebrando. `mix-blend-difference` inverte em vez de cobrir, então o rasgo
+ * mostra o site por baixo corrompido, e não uma tarja opaca.
+ */
+const Rasgos: React.FC = () => {
+  const [faixas, setFaixas] = useState(() => Array.from({ length: 6 }, () => ({ top: Math.random() * 100, alt: entre(2, 16) })));
+  useEffect(() => {
+    const t = setInterval(() => setFaixas(f => f.map(() => ({ top: Math.random() * 100, alt: entre(2, 16) }))), 90);
+    return () => clearInterval(t);
+  }, []);
+  return (
+    <div className="absolute inset-0 overflow-hidden mix-blend-difference">
+      {faixas.map((f, k) => (
+        <div key={k} className="absolute inset-x-0 bg-red-500" style={{ top: `${f.top}%`, height: `${f.alt}px` }} />
+      ))}
+    </div>
+  );
+};
+
+/** O grito do meio da tela: o único texto do alarme grande o bastante para ser lido de longe. */
+const FRASES = ['SISTEMA COMPROMETIDO', 'ACESSO NEGADO', 'DADOS ROUBADOS', 'VOCÊ FOI OBSERVADO'];
+const Grito: React.FC = () => {
+  const [k, setK] = useState(0);
+  useEffect(() => {
+    const t = setInterval(() => setK(x => x + 1), 700);
+    return () => clearInterval(t);
+  }, []);
+  return (
+    <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 bg-red-600 border-y-4 border-black py-3 motion-safe:animate-[flicker_0.1s_steps(2)_infinite]">
+      <div className="text-center text-black font-black uppercase tracking-tighter text-[clamp(28px,7vw,86px)] leading-none truncate px-3">
+        {FRASES[k % FRASES.length]}
+      </div>
+    </div>
+  );
+};
+
 /**
  * O log de ataque de uma das bordas.
  *
  * Guarda no máximo 14 linhas: sem o corte a lista cresceria durante os 10 segundos inteiros e a
  * página ficaria mais pesada a cada quadro.
  */
-const LogDeAtaque: React.FC<{ lado: 'esquerda' | 'direita' }> = ({ lado }) => {
+const LogDeAtaque: React.FC = () => {
   const [linhas, setLinhas] = useState<string[]>([]);
   useEffect(() => {
     const t = setInterval(() => {
-      setLinhas(l => [...l.slice(-13), COMANDOS[Math.floor(Math.random() * COMANDOS.length)]()]);
-    }, lado === 'esquerda' ? 85 : 130);
+      setLinhas(l => [...l.slice(-15), COMANDOS[Math.floor(Math.random() * COMANDOS.length)]()]);
+    }, 80);
     return () => clearInterval(t);
-  }, [lado]);
+  }, []);
   return (
-    <div className={`absolute top-10 bottom-10 w-[38%] max-w-[420px] overflow-hidden flex flex-col justify-end gap-0.5 px-3 ${lado === 'esquerda' ? 'left-0' : 'right-0 text-right'}`}>
+    <div className="absolute left-0 top-10 bottom-12 w-[52%] max-w-[640px] overflow-hidden flex flex-col justify-end gap-1 px-4">
       {linhas.map((l, k) => (
         <div
           key={`${k}-${l}`}
-          className="text-[12px] leading-tight text-red-500 truncate"
-          style={{ opacity: 0.25 + (k / linhas.length) * 0.75 }}
+          className="text-[19px] leading-tight font-bold text-red-500 truncate drop-shadow-[0_0_10px_rgba(220,38,38,0.8)]"
+          style={{ opacity: 0.3 + (k / linhas.length) * 0.7 }}
         >
           {l}
         </div>
@@ -137,7 +210,7 @@ const Janela: React.FC<{ indice: number }> = ({ indice }) => {
     const passo = (abrindo: boolean) => {
       if (abrindo) { setLugar(sorteiaLugar()); setCiclo(c => c + 1); }
       setAberta(abrindo);
-      relogio = setTimeout(() => passo(!abrindo), abrindo ? entre(600, 1500) : entre(120, 600));
+      relogio = setTimeout(() => passo(!abrindo), abrindo ? entre(420, 1100) : entre(90, 420));
     };
     relogio = setTimeout(() => passo(true), entre(0, 1200) + indice * 35);
     return () => clearTimeout(relogio);
@@ -243,10 +316,16 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         {/* a varredura desce sem parar, como scanner de quem está vasculhando a máquina */}
         <div className="absolute inset-x-0 h-24 bg-gradient-to-b from-transparent via-red-600/25 to-transparent motion-safe:animate-[varredura_1.6s_linear_infinite]" />
 
-        <LogDeAtaque lado="esquerda" />
-        <LogDeAtaque lado="direita" />
+        <ChuvaDeCodigo />
+
+        {/* o log fica so na esquerda, a pedido do Pedro: dos dois lados ele disputava com as
+            janelas e nao dava para ler nenhum dos dois */}
+        <LogDeAtaque />
 
         {Array.from({ length: QUANTAS }, (_, k) => <Janela key={k} indice={k} />)}
+
+        <Grito />
+        <Rasgos />
 
         {/* o estouro: a tela inteira pisca em vermelho fora de ritmo */}
         <div className="absolute inset-0 bg-red-600/15 motion-safe:animate-[flicker_0.12s_steps(2)_infinite]" />
@@ -254,7 +333,8 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         {/* cabeçalho e rodapé fixos: a moldura que diz que o sistema não é mais de quem está lendo */}
         <div className="absolute top-0 inset-x-0 bg-red-600 text-black text-[11px] font-black uppercase tracking-[0.3em] px-4 py-1.5 flex justify-between gap-4">
           <span className="truncate">◤ acesso forçado · sessão interceptada</span>
-          <span className="shrink-0">era-genetica.db</span>
+          {/* 1198 é o número real de objetos no Storage: o contador sobe até ele */}
+          <span className="shrink-0">{Math.min(1198, Math.round((SEGUNDOS_DE_ALARME - restam) / SEGUNDOS_DE_ALARME * 1198))}/1198 arquivos</span>
         </div>
         <div className="absolute bottom-0 inset-x-0">
           {/* a barra conta os 10 segundos como se fosse a cópia do banco terminando */}

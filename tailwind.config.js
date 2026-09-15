@@ -61,6 +61,11 @@ export default {
           '0%': { transform: 'translateY(-20vh)' },
           '100%': { transform: 'translateY(120vh)' },
         },
+        // a coluna de caracteres despencando, da chuva de codigo
+        cair: {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(100vh)' },
+        },
         flicker: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.9' },
