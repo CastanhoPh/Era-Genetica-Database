@@ -325,7 +325,11 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   const [restam, setRestam] = useState(SEGUNDOS_DE_ALARME);
   // 'erro' é a tela falsa que aparece quando o alarme acaba; a carta só abre quando o Takeshi
   // clica em RECARREGAR.
-  const [fase, setFase] = useState<'erro' | 'enviando' | 'carta'>('erro');
+  const [fase, setFase] = useState<'erro' | 'enviando' | 'abrindo' | 'carta'>('erro');
+  // 0 a 100 na tela de descompactação
+  const [abertura, setAbertura] = useState(0);
+  // quantos blocos da carta já entraram; as tarjas só começam depois do último
+  const [blocos, setBlocos] = useState(0);
   // quantas linhas do envio já saíram; as 16 se espalham pelos 20 segundos
   const [linha, setLinha] = useState(0);
 
@@ -345,6 +349,21 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
 
   // Quantas tarjas já caíram. Sobe sozinho, uma a cada 260ms, e o cabeçalho acompanha.
   const [reveladas, setReveladas] = useState(0);
+  // a barra de descompactação sobe em passos irregulares: barra que sobe liso parece falsa
+  useEffect(() => {
+    if (fase !== 'abrindo') return;
+    if (abertura >= 100) { const t = setTimeout(() => setFase('carta'), 500); return () => clearTimeout(t); }
+    const t = setTimeout(() => setAbertura(v => Math.min(100, v + Math.ceil(Math.random() * 7))), 130);
+    return () => clearTimeout(t);
+  }, [fase, abertura]);
+
+  // os blocos da carta entrando, um a um
+  useEffect(() => {
+    if (fase !== 'carta' || blocos >= CARTA.length) return;
+    const t = setTimeout(() => setBlocos(n => n + 1), 220);
+    return () => clearTimeout(t);
+  }, [fase, blocos]);
+
   useEffect(() => {
     if (fase !== 'enviando' || linha >= ENVIO.length) return;
     const t = setTimeout(() => setLinha(n => n + 1), (SEGUNDOS_ENVIANDO * 1000) / ENVIO.length);
@@ -352,10 +371,10 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   }, [fase, linha]);
 
   useEffect(() => {
-    if (restam > 0 || fase !== 'carta') return;
+    if (restam > 0 || fase !== 'carta' || blocos < CARTA.length) return;
     const t = setInterval(() => setReveladas(n => n + 1), 260);
     return () => clearInterval(t);
-  }, [restam, fase]);
+  }, [restam, fase, blocos]);
 
   // ================================================================ o alarme
   if (restam > 0) {
@@ -493,7 +512,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
                 </p>
                 <button
                   type="button"
-                  onClick={() => setFase('carta')}
+                  onClick={() => setFase('abrindo')}
                   className="border-2 border-tech-primary bg-tech-primary/10 text-tech-primary hover:bg-tech-primary hover:text-black px-8 py-4 text-[13px] font-black uppercase tracking-[0.25em] transition-colors clip-corner-sm"
                 >
                   Abrir mensagem de alerta
@@ -510,6 +529,58 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
           <div className="px-4 md:px-8 py-2 flex justify-between gap-4 text-[11px] uppercase tracking-[0.2em] text-tech-primary/50">
             <span className="truncate">{pronto ? 'mensagem recebida' : 'não feche esta janela'}</span>
             <span className="shrink-0">{pct}%</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ================================================================ descompactando
+  //
+  // A porcentagem estava numa linha de 10px no topo da carta, com o documento inteiro já visível
+  // atrás dela — carregamento em letra miúda de algo que já tinha carregado. Virou tela.
+  if (fase === 'abrindo') {
+    const etapas = [
+      ['abrindo mensagem_alerta.enc', 5],
+      ['verificando assinatura do remetente', 30],
+      ['descompactando conteúdo', 55],
+      ['montando documento', 85],
+    ] as const;
+    return (
+      <div className="fixed inset-0 z-[200] bg-black text-tech-primary flex flex-col items-center justify-center px-6">
+        <div className="absolute inset-0 bg-[linear-gradient(transparent_2px,rgba(0,255,65,0.05)_3px)] bg-[size:100%_4px] pointer-events-none" />
+        <div className="absolute top-0 left-0 w-full h-px bg-tech-primary/40 shadow-[0_0_12px_#00ff41] animate-[scanline_5s_linear_infinite] pointer-events-none" />
+
+        <div className="relative w-full max-w-2xl flex flex-col gap-7">
+          <div className="text-[11px] uppercase tracking-[0.3em] text-tech-primary/50">
+            hanzo@era-genetica.db:~$ abrir alerta
+          </div>
+
+          {/* o número é o assunto da tela: grande o bastante para ser a única coisa que se lê */}
+          <div className="flex items-end gap-4">
+            <span className="text-[72px] md:text-[104px] leading-none font-black text-tech-primary tabular-nums">{abertura}</span>
+            <span className="text-[26px] md:text-[34px] leading-none font-black text-tech-primary/40 pb-2">%</span>
+            <span className="ml-auto pb-3 text-[13px] uppercase tracking-[0.22em] text-tech-primary/60 text-right">
+              descompactando<br />mensagem de alerta
+            </span>
+          </div>
+
+          <div className="h-3 bg-tech-panel/60 border border-tech-border">
+            <div className="h-full bg-tech-primary transition-[width] duration-150 ease-out" style={{ width: `${abertura}%` }} />
+          </div>
+
+          {/* as etapas acendem conforme a barra passa por elas */}
+          <div className="flex flex-col gap-1.5">
+            {etapas.map(([texto, limite]) => {
+              const feita = abertura >= limite;
+              return (
+                <div key={texto} className={`flex items-center gap-3 text-[14px] ${feita ? 'text-tech-primary' : 'text-tech-primary/25'}`}>
+                  <span className="shrink-0">{feita ? '▸' : '·'}</span>
+                  <span className="flex-1">{texto}</span>
+                  {feita && <span className="shrink-0 text-[10px] uppercase tracking-widest text-tech-primary/50">[ ok ]</span>}
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -585,7 +656,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
 
         <div className="relative flex-1 min-h-0 overflow-y-auto scrollbar-custom px-4 py-6 md:px-8 md:py-8">
           <div className="flex flex-col gap-5">
-            {CARTA.map((b, k) => {
+            {CARTA.slice(0, blocos).map((b, k) => {
               // a numeração de margem é o que dá o ar de documento oficial, e de graça ela vira
               // uma referência: "o parágrafo 09 fala do Furyuzan"
               const numero = <span className="select-none text-[10px] text-tech-primary/25 w-7 shrink-0 pt-1.5 text-right tabular-nums">{String(k + 1).padStart(2, '0')}</span>;
