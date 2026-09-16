@@ -240,38 +240,41 @@ const Janela: React.FC<{ indice: number }> = ({ indice }) => {
   );
 };
 
-const MENSAGEM = `IMPORTANTE: NÃO LEIAM ESTA MENSAGEM EM VOZ ALTA.
+/**
+ * A carta do Hanzo, em blocos tipados.
+ *
+ * Bloco tipado em vez de um texto corrido com quebras: é o que deixa cada coisa ter o tratamento
+ * que merece. "ODDY E AYUMI PRECISAM SER PROTEGIDOS A QUALQUER CUSTO" não pode ter o mesmo peso
+ * visual de uma frase no meio de um parágrafo.
+ *
+ * O texto é o do Pedro, palavra por palavra.
+ */
+type Bloco =
+  | { t: 'alerta'; texto: string }
+  | { t: 'p'; texto: string }
+  | { t: 'clas'; itens: string[] }
+  | { t: 'titulo'; texto: string }
+  | { t: 'grito'; texto: string };
 
-Não leiam esta mensagem em voz alta nem comentem sobre ela enquanto estiverem juntos. Existe a possibilidade de alguém estar ouvindo vocês, então considerem que cada palavra pode estar sendo observada. Leiam tudo até o final antes de tomar qualquer decisão.
-
-Vocês estão caminhando para um lugar onde encontrarão quatro pessoas dos seguintes clãs:
-- Nara
-- Uchiha
-- Chinoike
-- Hoshigaki
-Não sei se estarão esperando ou se o encontro acontecerá de outra forma, mas estejam preparados para lutar.
-
-Theta, o falso Kazekage, está acima de vocês e os está guiando até o local da batalha, assim como na última luta. Não façam nada, não olhem para cima e não demonstrem que perceberam. Enquanto ele acreditar que vocês seguem exatamente o plano dele, ainda terão uma pequena vantagem. Não desviem o caminho; encarem isso como uma oportunidade.
-
-A Uchiha precisa ficar ao lado de vocês, pois ela é extremamente importante. O Nara e o Chinoike não são pessoas ruins, apenas estão sendo manipulados. Tentem salvar o que restou do Hoshigaki.
-
-Também descubram quem se afastou do grupo, não estou falando do procurado, mas de outra pessoa, Hades chamou a pessoa de lobo que fugiu da matilha e estão indo atrás da pessoa para utilizar como experimento, caso essa pessoa seja usuária de Dojutsu a situação fica mais embaixo.
-
-Sobre a Uchiha
-Ela fez um acordo com Hades: ela pretende entregar o próprio olho em troca do outro olho de Madara, alcançando o Mangekyō Sharingan Eterno. Por isso prestem muita atenção
-ODDY E AYUMI PRECISAM SER PROTEGIDOS A QUALQUER CUSTO.
-
-Furyuzan também é um dos principais alvos da OCA. Ele não pode chegar a 99% de forma alguma e, acima de tudo, não pode ser capturado. Se isso acontecer, não sei quais serão as consequências. Lembrem-se também de Hisoka, o verdadeiro está vivo, em coma, no último andar da Fortaleza Yumei. Qualquer Hisoka que encontrem fora de lá é falso e ainda está solto.
-
-Sobre Reika, vocês já sabem: o Oito-Caudas foi removido dela. Não tenho mais informações. Quando a luta começar, não esperem ajuda; ninguém virá salvá-los. Lutem com tudo o que tiverem e sigam em frente, mesmo sabendo que o inimigo os conduz exatamente para onde quer.
-
-Não se esqueçam de Matatabi, Estão com ele e o elo que ele havia com Nishinoya fez ele ainda manter 100% de seu chakra e poder mesmo selado em um humano, isso explica uma parte da força de Nishinoya, de alguma forma Matatabi resiste a sua fusão com chakra profano, caso ele seja controlado, será o inicio do nosso fim
-
-Quanto a Kaito Senju, encontrei o panfleto enquanto passava por kirigakure, é uma pena, mas se a informação for verdadeira o objetivo deve ser a morte de Kaito Senju a fim de matar também Hades. Não consegui descobrir nada. Não sei onde ele está, o que está fazendo ou de que lado aparecerá. Não contem com ele. Por enquanto, vocês só podem contar uns com os outros. Finjam que não sabem de nada, continuem andando e não deixem Theta perceber que descobriram.
-
-Fiz o que pude para conseguir essas informações, então confiem em mim. E guardem uma última coisa: protejam uns aos outros, não abandonem ninguém e façam o necessário para que todos voltem vivos.
-
-Continuem na linha de frente enquanto atuo nas sombras, vou mantendo vocês atualizados.`;
+const CARTA: Bloco[] = [
+  { t: 'alerta', texto: 'IMPORTANTE: NÃO LEIAM ESTA MENSAGEM EM VOZ ALTA.' },
+  { t: 'p', texto: 'Não leiam esta mensagem em voz alta nem comentem sobre ela enquanto estiverem juntos. Existe a possibilidade de alguém estar ouvindo vocês, então considerem que cada palavra pode estar sendo observada. Leiam tudo até o final antes de tomar qualquer decisão.' },
+  { t: 'p', texto: 'Vocês estão caminhando para um lugar onde encontrarão quatro pessoas dos seguintes clãs:' },
+  { t: 'clas', itens: ['Nara', 'Uchiha', 'Chinoike', 'Hoshigaki'] },
+  { t: 'p', texto: 'Não sei se estarão esperando ou se o encontro acontecerá de outra forma, mas estejam preparados para lutar.' },
+  { t: 'p', texto: 'Theta, o falso Kazekage, está acima de vocês e os está guiando até o local da batalha, assim como na última luta. Não façam nada, não olhem para cima e não demonstrem que perceberam. Enquanto ele acreditar que vocês seguem exatamente o plano dele, ainda terão uma pequena vantagem. Não desviem o caminho; encarem isso como uma oportunidade.' },
+  { t: 'p', texto: 'A Uchiha precisa ficar ao lado de vocês, pois ela é extremamente importante. O Nara e o Chinoike não são pessoas ruins, apenas estão sendo manipulados. Tentem salvar o que restou do Hoshigaki.' },
+  { t: 'p', texto: 'Também descubram quem se afastou do grupo, não estou falando do procurado, mas de outra pessoa, Hades chamou a pessoa de lobo que fugiu da matilha e estão indo atrás da pessoa para utilizar como experimento, caso essa pessoa seja usuária de Dojutsu a situação fica mais embaixo.' },
+  { t: 'titulo', texto: 'Sobre a Uchiha' },
+  { t: 'p', texto: 'Ela fez um acordo com Hades: ela pretende entregar o próprio olho em troca do outro olho de Madara, alcançando o Mangekyō Sharingan Eterno. Por isso prestem muita atenção' },
+  { t: 'grito', texto: 'ODDY E AYUMI PRECISAM SER PROTEGIDOS A QUALQUER CUSTO.' },
+  { t: 'p', texto: 'Furyuzan também é um dos principais alvos da OCA. Ele não pode chegar a 99% de forma alguma e, acima de tudo, não pode ser capturado. Se isso acontecer, não sei quais serão as consequências. Lembrem-se também de Hisoka, o verdadeiro está vivo, em coma, no último andar da Fortaleza Yumei. Qualquer Hisoka que encontrem fora de lá é falso e ainda está solto.' },
+  { t: 'p', texto: 'Sobre Reika, vocês já sabem: o Oito-Caudas foi removido dela. Não tenho mais informações. Quando a luta começar, não esperem ajuda; ninguém virá salvá-los. Lutem com tudo o que tiverem e sigam em frente, mesmo sabendo que o inimigo os conduz exatamente para onde quer.' },
+  { t: 'p', texto: 'Não se esqueçam de Matatabi, Estão com ele e o elo que ele havia com Nishinoya fez ele ainda manter 100% de seu chakra e poder mesmo selado em um humano, isso explica uma parte da força de Nishinoya, de alguma forma Matatabi resiste a sua fusão com chakra profano, caso ele seja controlado, será o inicio do nosso fim' },
+  { t: 'p', texto: 'Quanto a Kaito Senju, encontrei o panfleto enquanto passava por kirigakure, é uma pena, mas se a informação for verdadeira o objetivo deve ser a morte de Kaito Senju a fim de matar também Hades. Não consegui descobrir nada. Não sei onde ele está, o que está fazendo ou de que lado aparecerá. Não contem com ele. Por enquanto, vocês só podem contar uns com os outros. Finjam que não sabem de nada, continuem andando e não deixem Theta perceber que descobriram.' },
+  { t: 'p', texto: 'Fiz o que pude para conseguir essas informações, então confiem em mim. E guardem uma última coisa: protejam uns aos outros, não abandonem ninguém e façam o necessário para que todos voltem vivos.' },
+  { t: 'p', texto: 'Continuem na linha de frente enquanto atuo nas sombras, vou mantendo vocês atualizados.' },
+];
 
 const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   const [restam, setRestam] = useState(SEGUNDOS_DE_ALARME);
@@ -336,27 +339,66 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   // ================================================================ a mensagem
   return (
     <div className="fixed inset-0 z-[200] bg-black/95 flex items-center justify-center p-3 md:p-6">
-      <div className="relative w-full max-w-3xl max-h-[92vh] bg-tech-bg border-2 border-red-700/70 shadow-[0_0_60px_-10px_rgba(220,38,38,0.5)] clip-corner flex flex-col">
-        <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-red-600 z-30 pointer-events-none" />
-        <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-red-600 z-30 pointer-events-none" />
+      <div className="relative w-full max-w-3xl max-h-[92vh] bg-tech-bg border-2 border-tech-accent/50 shadow-[0_0_70px_-12px_rgba(255,176,0,0.35)] clip-corner flex flex-col">
+        <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-accent z-30 pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-accent z-30 pointer-events-none" />
 
-        <div className="shrink-0 border-b border-red-800/60 bg-red-950/30 pl-6 pr-3 py-2 flex items-center justify-between gap-3">
-          <span className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-red-500">
-            <AlertTriangle size={11} className="animate-pulse" />
-            Mensagem urgente · canal fechado
+        <div className="shrink-0 border-b border-tech-accent/40 bg-tech-accent/[0.07] pl-6 pr-3 py-2 flex items-center justify-between gap-3">
+          <span className="flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-tech-accent min-w-0">
+            <AlertTriangle size={11} className="shrink-0" />
+            <span className="truncate">transmissão descriptografada · origem protegida</span>
           </span>
           <button
             onClick={onClose}
             title="Fechar"
-            className="shrink-0 border border-red-600/60 bg-red-900/20 text-red-500 hover:bg-red-600 hover:text-black p-1.5 transition-colors clip-corner-sm"
+            className="shrink-0 border border-tech-accent/60 bg-tech-accent/10 text-tech-accent hover:bg-tech-accent hover:text-black p-1.5 transition-colors clip-corner-sm"
           >
             <X size={14} />
           </button>
         </div>
 
-        <div className="flex-1 min-h-0 overflow-y-auto scrollbar-custom p-5 md:p-7">
-          <p className="text-[14px] text-slate-300 leading-[1.8] whitespace-pre-line">{MENSAGEM}</p>
-          <p className="mt-8 text-right text-[15px] text-red-400 uppercase tracking-[0.14em]">— Hiroshi Hanzo</p>
+        <div className="flex-1 min-h-0 overflow-y-auto scrollbar-custom px-5 py-6 md:px-9 md:py-8 flex flex-col gap-5">
+          {CARTA.map((b, k) => {
+            if (b.t === 'alerta') {
+              // o vermelho fica reservado para os dois avisos de perigo: no resto da carta ele
+              // roubaria a leitura, que é o que o âmbar está fazendo aqui
+              return (
+                <div key={k} className="border-2 border-red-600/70 bg-red-950/25 px-4 py-3.5">
+                  <p className="text-[20px] leading-snug font-black uppercase tracking-[0.06em] text-red-500">{b.texto}</p>
+                </div>
+              );
+            }
+            if (b.t === 'titulo') {
+              return (
+                <div key={k} className="flex items-center gap-3 pt-2">
+                  <span className="text-[12px] uppercase tracking-[0.3em] text-tech-accent whitespace-nowrap">{b.texto}</span>
+                  <span className="h-px flex-1 bg-tech-accent/30" />
+                </div>
+              );
+            }
+            if (b.t === 'clas') {
+              return (
+                <div key={k} className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-tech-accent/25 border border-tech-accent/25">
+                  {b.itens.map(c => (
+                    <div key={c} className="bg-tech-bg px-3 py-3 text-center text-[17px] font-black uppercase tracking-wide text-tech-accent">{c}</div>
+                  ))}
+                </div>
+              );
+            }
+            if (b.t === 'grito') {
+              return (
+                <div key={k} className="border-l-4 border-red-600 bg-red-950/20 px-4 py-3.5">
+                  <p className="text-[17px] leading-snug font-black uppercase tracking-[0.04em] text-red-400">{b.texto}</p>
+                </div>
+              );
+            }
+            return <p key={k} className="text-[17px] leading-[1.85] text-slate-300">{b.texto}</p>;
+          })}
+
+          <div className="mt-4 pt-5 border-t border-tech-accent/25 flex flex-col items-end gap-1">
+            <span className="text-[10px] uppercase tracking-[0.3em] text-tech-primary/40">assinado</span>
+            <span className="text-[22px] font-black uppercase tracking-wide text-tech-accent">Hiroshi Hanzo</span>
+          </div>
         </div>
       </div>
     </div>
