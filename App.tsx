@@ -157,13 +157,14 @@ export default function App() {
     const [editingChar, setEditingChar] = useState<Character | null>(null);
     const [showAddEquipment, setShowAddEquipment] = useState(false);
     const [editingEquipment, setEditingEquipment] = useState<Equipment | null>(null);
-    const { user, isAdmin, isChecklistEditor, ehTakeshi, authReady, login, logout } = useAuth();
+    const { user, isAdmin, isChecklistEditor, veAviso, authReady, login, logout } = useAuth();
 
-    // O aviso do Hiroshi Hanzo dispara TODA vez que o Takeshi entra.
+    // O aviso do Hiroshi Hanzo dispara TODA vez que a conta dele entra — qual conta é, quem decide
+    // é o EMAIL_DO_AVISO no useAuth.
     //
     // A primeira versão guardava um "já vi" na sessão do navegador, e com isso deslogar e logar de
     // novo na mesma aba não mostrava nada — foi o que o Pedro pegou. Agora o gatilho é a TROCA de
-    // usuário: guardo o uid anterior e disparo quando ele passa a ser o do Takeshi. Assim vale
+    // usuário: guardo o uid anterior e disparo quando ele passa a ser o da conta certa. Assim vale
     // para login, para troca de conta e para abrir o site já logado, e não repete enquanto ele
     // navega pelo site.
     const [aviso, setAviso] = useState(false);
@@ -173,9 +174,9 @@ export default function App() {
         const uid = user?.uid ?? null;
         if (uid !== uidAnterior.current) {
             uidAnterior.current = uid;
-            if (ehTakeshi) setAviso(true);
+            if (veAviso) setAviso(true);
         }
-    }, [authReady, user, ehTakeshi]);
+    }, [authReady, user, veAviso]);
     // Chave = id+URL da imagem (não só o id), pra que uma correção de URL feita no Painel
     // "esqueça" o erro antigo automaticamente, sem precisar de F5.
     const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({});

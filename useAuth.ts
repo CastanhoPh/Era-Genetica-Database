@@ -16,10 +16,17 @@ const CHECKLIST_EDITOR_UIDS = new Set([
 ]);
 
 /**
- * O Takeshi. Não é admin nem editor da checklist: a conta existe para ele ver o aviso do Hiroshi
- * Hanzo ao entrar, e o resto do site é o que qualquer visitante vê.
+ * QUEM VÊ O AVISO DO HIROSHI HANZO ao entrar. Uma conta só, e ela não é admin nem editora da
+ * checklist: o resto do site é o que qualquer visitante vê.
+ *
+ * O vínculo é por E-MAIL, não por UID, de propósito. Este endereço vai trocar pelo menos mais uma
+ * vez — hoje aponta para a conta de teste, e na véspera da sessão passa para o Takeshi, para ele
+ * não ver a mensagem antes da hora. Por e-mail a troca é esta linha; por UID seria preciso
+ * descobrir o identificador da conta nova antes de poder escrever a linha.
+ *
+ * Trocar de volta: 'takeshi.hatake@eragenetica.com'.
  */
-const TAKESHI_UID = 'rAX7bghZPgRwuZcfiT2jWhL6X6E3';
+const EMAIL_DO_AVISO = 'teste@eragenetica.com';
 
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
@@ -40,7 +47,7 @@ export function useAuth() {
   const isAdmin = !!user && ADMIN_UIDS.has(user.uid);
   const isChecklistEditor = isAdmin || (!!user && CHECKLIST_EDITOR_UIDS.has(user.uid));
 
-  const ehTakeshi = !!user && user.uid === TAKESHI_UID;
+  const veAviso = !!user && user.email?.toLowerCase() === EMAIL_DO_AVISO;
 
-  return { user, isAdmin, isChecklistEditor, ehTakeshi, authReady, login, logout };
+  return { user, isAdmin, isChecklistEditor, veAviso, authReady, login, logout };
 }
