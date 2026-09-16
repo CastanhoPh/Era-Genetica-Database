@@ -140,23 +140,6 @@ const Rasgos: React.FC = () => {
   );
 };
 
-/** O grito do meio da tela: o único texto do alarme grande o bastante para ser lido de longe. */
-const FRASES = ['SISTEMA COMPROMETIDO', 'ACESSO NEGADO', 'DADOS ROUBADOS', 'VOCÊ FOI OBSERVADO'];
-const Grito: React.FC = () => {
-  const [k, setK] = useState(0);
-  useEffect(() => {
-    const t = setInterval(() => setK(x => x + 1), 700);
-    return () => clearInterval(t);
-  }, []);
-  return (
-    <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 bg-red-600 border-y-4 border-black py-3 motion-safe:animate-[flicker_0.1s_steps(2)_infinite]">
-      <div className="text-center text-black font-black uppercase tracking-tighter text-[clamp(28px,7vw,86px)] leading-none truncate px-3">
-        {FRASES[k % FRASES.length]}
-      </div>
-    </div>
-  );
-};
-
 /**
  * O log de ataque de uma das bordas.
  *
@@ -324,7 +307,6 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
 
         {Array.from({ length: QUANTAS }, (_, k) => <Janela key={k} indice={k} />)}
 
-        <Grito />
         <Rasgos />
 
         {/* o estouro: a tela inteira pisca em vermelho fora de ritmo */}
