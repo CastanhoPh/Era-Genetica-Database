@@ -20,8 +20,9 @@
 //
 // `prefers-reduced-motion` desliga o ciclo e a varredura: as janelas abrem uma vez e ficam paradas.
 import React, { useEffect, useRef, useState } from 'react';
-import { AlertTriangle, X } from 'lucide-react';
+import { AlertTriangle, X, Volume2, VolumeX } from 'lucide-react';
 import { formatImageUrl } from '../utils/formatters';
+import { alarme, ligando, bipeDePartida, tecla, estaMudo, defineMudo } from '../utils/som';
 
 /** 10 segundos de alarme antes da mensagem, como o Pedro pediu. */
 const SEGUNDOS_DE_ALARME = 10;
@@ -336,6 +337,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   // quantos CARACTERES da carta já foram impressos; as tarjas só começam depois do último
   const [impressos, setImpressos] = useState(0);
   const rolagem = useRef<HTMLDivElement | null>(null);
+  const [mudo, setMudo] = useState(estaMudo);
   // quantas linhas do envio já saíram; as 16 se espalham pelos 20 segundos
   const [linha, setLinha] = useState(0);
 
@@ -387,6 +389,45 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
     return () => clearInterval(t);
   }, [restam, fase, impressos]);
 
+  // ---------------- som ----------------
+  // Cada fase liga o seu som e devolve a função que o desliga; o React chama essa função ao sair
+  // da fase. É o que garante que nada continue tocando por cima da tela seguinte.
+  useEffect(() => {
+    if (restam <= 0) return;
+    return alarme();
+  }, [restam > 0]);
+
+  useEffect(() => {
+    if (fase !== 'enviando' && fase !== 'abrindo') return;
+    return ligando();
+  }, [fase]);
+
+  // o bipe de partida marca o fim da sincronização, junto com a janela de aviso abrindo
+  useEffect(() => {
+    if (fase === 'enviando' && linha >= ENVIO.length) bipeDePartida();
+  }, [fase, linha]);
+
+  // a impressão tem clique de tecla, mas a cada 90ms e não a cada caractere: 330 cliques por
+  // segundo viraria chiado contínuo
+  useEffect(() => {
+    if (fase !== 'carta' || impressos >= TOTAL_CHARS) return;
+    const t = setInterval(tecla, 90);
+    return () => clearInterval(t);
+  }, [fase, impressos >= TOTAL_CHARS]);
+
+  /** O botão de mudo, repetido nas telas que têm som. */
+  const botaoDeSom = (
+    <button
+      type="button"
+      onClick={() => { const novo = !mudo; setMudo(novo); defineMudo(novo); }}
+      title={mudo ? 'Ligar o som' : 'Desligar o som'}
+      aria-label={mudo ? 'Ligar o som' : 'Desligar o som'}
+      className="fixed bottom-4 left-4 z-[210] border border-tech-primary/40 bg-black/80 text-tech-primary/70 hover:text-tech-primary hover:border-tech-primary p-2 transition-colors clip-corner-sm"
+    >
+      {mudo ? <VolumeX size={15} /> : <Volume2 size={15} />}
+    </button>
+  );
+
   // ================================================================ o alarme
   if (restam > 0) {
     return (
@@ -415,6 +456,8 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
           {/* 1198 é o número real de objetos no Storage: o contador sobe até ele */}
           <span className="shrink-0">{Math.min(1198, Math.round((SEGUNDOS_DE_ALARME - restam) / SEGUNDOS_DE_ALARME * 1198))}/1198 arquivos</span>
         </div>
+        {botaoDeSom}
+
         <div className="absolute bottom-0 inset-x-0">
           {/* a barra conta os 10 segundos como se fosse a cópia do banco terminando */}
           <div className="h-1.5 bg-black">
@@ -533,6 +576,8 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
           </div>
         )}
 
+        {botaoDeSom}
+
         <div className="shrink-0 border-t border-tech-border">
           <div className="h-2 bg-black">
             <div className="h-full bg-tech-primary transition-[width] duration-500 ease-linear" style={{ width: `${pct}%` }} />
@@ -593,6 +638,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
             {abertura >= 100 ? '$ _' : <>descompactando<span className="animate-pulse">█</span></>}
           </div>
         </div>
+        {botaoDeSom}
       </div>
     );
   }
@@ -667,6 +713,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
           ))}
         </div>
 
+        {botaoDeSom}
         <div ref={rolagem} className="relative flex-1 min-h-0 overflow-y-auto scrollbar-custom px-4 py-6 md:px-8 md:py-8">
           <div className="flex flex-col gap-5">
             {CARTA.map((b, k) => {
