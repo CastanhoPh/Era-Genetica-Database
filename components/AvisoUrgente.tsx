@@ -431,73 +431,73 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
     const pronto = linha >= ENVIO.length;
     const pct = Math.round((Math.min(linha, ENVIO.length) / ENVIO.length) * 100);
     return (
-      <div className="fixed inset-0 z-[200] bg-black flex items-center justify-center p-3 md:p-6">
-        <div className="absolute inset-0 bg-[linear-gradient(transparent_2px,rgba(0,255,65,0.05)_3px)] bg-[size:100%_4px] pointer-events-none" />
-        <div className="absolute top-0 left-0 w-full h-px bg-tech-primary/50 shadow-[0_0_12px_#00ff41] animate-[scanline_4s_linear_infinite] pointer-events-none" />
+      <div className="fixed inset-0 z-[200] bg-black text-tech-primary flex flex-col">
+        <div className="absolute inset-0 bg-[linear-gradient(transparent_2px,rgba(0,255,65,0.05)_3px)] bg-[size:100%_4px] pointer-events-none z-10" />
+        <div className="absolute top-0 left-0 w-full h-px bg-tech-primary/40 shadow-[0_0_12px_#00ff41] animate-[scanline_5s_linear_infinite] pointer-events-none z-10" />
 
-        <div className="relative w-full max-w-2xl max-h-[92vh] bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_60px_-12px_rgba(0,255,65,0.35)] clip-corner flex flex-col">
-          <div className="shrink-0 border-b border-tech-border bg-tech-panel/40 pl-6 pr-4 py-2 flex items-center justify-between gap-3 text-[10px] uppercase tracking-[0.2em] text-tech-primary/60">
-            <span className="truncate">era-genetica.db · canal seguro</span>
-            <span className="shrink-0">{pronto ? 'concluído' : 'sincronizando'}</span>
-          </div>
+        {/* linha de prompt: terminal não tem barra de título, tem a primeira linha */}
+        <div className="shrink-0 border-b border-tech-border px-4 md:px-8 py-2.5 flex items-center justify-between gap-4 text-[11px] uppercase tracking-[0.2em] text-tech-primary/50">
+          <span className="truncate">hanzo@era-genetica.db:~$ sync --push --canal=seguro</span>
+          <span className="shrink-0">{pronto ? 'concluído' : 'em execução'}</span>
+        </div>
 
-          <div className="flex-1 min-h-0 overflow-y-auto scrollbar-custom px-5 py-5 md:px-7 md:py-6 flex flex-col gap-1.5">
-            {ENVIO.slice(0, linha).map((l, k) => {
-              const atual = k === linha - 1 && !pronto;
-              const ok = !atual;
-              if (l.t === 'titulo') {
-                return (
-                  <div key={k} className="text-[19px] font-black uppercase tracking-wide text-tech-primary mb-1">
-                    {l.texto}
-                  </div>
-                );
-              }
-              if (l.t === 'autor') {
-                // a assinatura de quem está mexendo no banco: a única linha que não é sobre dado
-                return (
-                  <div key={k} className="mb-3 inline-flex self-start border border-tech-primary/40 bg-tech-primary/[0.07] px-3 py-1.5 text-[13px] uppercase tracking-[0.18em] text-tech-primary">
-                    {l.texto}
-                  </div>
-                );
-              }
+        {/* o log ocupa a tela e cresce de cima para baixo a partir da margem esquerda */}
+        <div className="flex-1 min-h-0 overflow-y-auto scrollbar-custom px-4 md:px-8 py-6 md:py-8 flex flex-col gap-2">
+          {ENVIO.slice(0, linha).map((l, k) => {
+            const atual = k === linha - 1 && !pronto;
+            const ok = !atual;
+            if (l.t === 'titulo') {
               return (
-                <div key={k} className={`flex items-start gap-2 ${l.t === 'item' ? 'pl-5' : 'pt-1.5'}`}>
-                  <span className={`shrink-0 ${l.t === 'vila' ? 'text-tech-primary' : 'text-tech-primary/40'}`}>
-                    {l.t === 'vila' ? '▸' : l.t === 'item' ? '└' : '$'}
-                  </span>
-                  <span className={`flex-1 text-[14px] leading-snug ${l.t === 'vila' ? 'text-tech-primary font-bold' : l.t === 'passo' ? 'text-tech-primary' : 'text-tech-primary/60'}`}>
-                    {l.texto}
-                    {atual && <span className="animate-pulse">█</span>}
-                  </span>
-                  {ok && <span className="shrink-0 text-[10px] uppercase tracking-widest text-tech-primary/50 pt-1">[ ok ]</span>}
+                <div key={k} className="text-[24px] md:text-[30px] font-black uppercase tracking-wide text-tech-primary mb-1">
+                  {l.texto}
                 </div>
               );
-            })}
-
-            {pronto && (
-              <div className="mt-6 pt-5 border-t border-tech-border flex flex-col items-center gap-5">
-                <p className="text-center text-[22px] md:text-[26px] font-black uppercase tracking-wide text-red-500">
-                  &ldquo;Não leiam em voz alta&rdquo;
-                </p>
-                <button
-                  type="button"
-                  onClick={() => setFase('carta')}
-                  className="border-2 border-tech-primary bg-tech-primary/10 text-tech-primary hover:bg-tech-primary hover:text-black px-6 py-3 text-[12px] font-black uppercase tracking-[0.25em] transition-colors clip-corner-sm"
-                >
-                  Abrir mensagem de alerta
-                </button>
+            }
+            if (l.t === 'autor') {
+              return (
+                <div key={k} className="mb-4 inline-flex self-start border border-tech-primary/40 bg-tech-primary/[0.07] px-4 py-2 text-[15px] uppercase tracking-[0.18em] text-tech-primary">
+                  {l.texto}
+                </div>
+              );
+            }
+            return (
+              <div key={k} className={`flex items-start gap-3 ${l.t === 'item' ? 'pl-6 md:pl-10' : 'pt-2'}`}>
+                <span className={`shrink-0 ${l.t === 'vila' ? 'text-tech-primary' : 'text-tech-primary/40'}`}>
+                  {l.t === 'vila' ? '▸' : l.t === 'item' ? '└' : '$'}
+                </span>
+                <span className={`flex-1 leading-snug ${l.t === 'vila' ? 'text-[17px] md:text-[18px] text-tech-primary font-bold' : l.t === 'passo' ? 'text-[16px] text-tech-primary' : 'text-[14px] md:text-[15px] text-tech-primary/60'}`}>
+                  {l.texto}
+                  {atual && <span className="animate-pulse">█</span>}
+                </span>
+                {ok && <span className="shrink-0 text-[11px] uppercase tracking-widest text-tech-primary/45 pt-1">[ ok ]</span>}
               </div>
-            )}
-          </div>
+            );
+          })}
 
-          <div className="shrink-0 border-t border-tech-border">
-            <div className="h-1.5 bg-black">
-              <div className="h-full bg-tech-primary transition-[width] duration-500 ease-linear" style={{ width: `${pct}%` }} />
+          {/* o fim não é log: é o destino da tela, e por isso é a única coisa centralizada */}
+          {pronto && (
+            <div className="mt-10 pt-8 border-t border-tech-border flex flex-col items-center gap-6">
+              <p className="text-center text-[26px] md:text-[38px] font-black uppercase tracking-wide text-red-500">
+                &ldquo;Não leiam em voz alta&rdquo;
+              </p>
+              <button
+                type="button"
+                onClick={() => setFase('carta')}
+                className="border-2 border-tech-primary bg-tech-primary/10 text-tech-primary hover:bg-tech-primary hover:text-black px-8 py-4 text-[13px] font-black uppercase tracking-[0.25em] transition-colors clip-corner-sm"
+              >
+                Abrir mensagem de alerta
+              </button>
             </div>
-            <div className="px-4 py-1.5 flex justify-between gap-3 text-[10px] uppercase tracking-[0.2em] text-tech-primary/50">
-              <span className="truncate">{pronto ? 'mensagem recebida' : 'não feche esta janela'}</span>
-              <span className="shrink-0">{pct}%</span>
-            </div>
+          )}
+        </div>
+
+        <div className="shrink-0 border-t border-tech-border">
+          <div className="h-2 bg-black">
+            <div className="h-full bg-tech-primary transition-[width] duration-500 ease-linear" style={{ width: `${pct}%` }} />
+          </div>
+          <div className="px-4 md:px-8 py-2 flex justify-between gap-4 text-[11px] uppercase tracking-[0.2em] text-tech-primary/50">
+            <span className="truncate">{pronto ? 'mensagem recebida' : 'não feche esta janela'}</span>
+            <span className="shrink-0">{pct}%</span>
           </div>
         </div>
       </div>
