@@ -242,7 +242,7 @@ const Janela: React.FC<{ indice: number }> = ({ indice }) => {
 };
 
 /** Quanto tempo a tela de sincronização fica no ar, e quantas linhas ela tem. */
-const SEGUNDOS_ENVIANDO = 20;
+const SEGUNDOS_ENVIANDO = 30;
 
 /**
  * O que o Hanzo está escrevendo no banco, palavra por palavra como o Pedro ditou.
@@ -474,22 +474,34 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
             );
           })}
 
-          {/* o fim não é log: é o destino da tela, e por isso é a única coisa centralizada */}
-          {pronto && (
-            <div className="mt-10 pt-8 border-t border-tech-border flex flex-col items-center gap-6">
-              <p className="text-center text-[26px] md:text-[38px] font-black uppercase tracking-wide text-red-500">
-                &ldquo;Não leiam em voz alta&rdquo;
-              </p>
-              <button
-                type="button"
-                onClick={() => setFase('carta')}
-                className="border-2 border-tech-primary bg-tech-primary/10 text-tech-primary hover:bg-tech-primary hover:text-black px-8 py-4 text-[13px] font-black uppercase tracking-[0.25em] transition-colors clip-corner-sm"
-              >
-                Abrir mensagem de alerta
-              </button>
-            </div>
-          )}
         </div>
+
+        {/* O aviso não é mais o fim do log: é uma JANELA que abre por cima do terminal quando a
+            sincronização termina. O terminal continua atrás, escurecido — ele ainda é o que estava
+            acontecendo, só parou de ser o assunto. */}
+        {pronto && (
+          <div className="absolute inset-0 z-20 bg-black/70 flex items-center justify-center p-4">
+            <div className="w-full max-w-xl bg-tech-bg border-2 border-red-600 shadow-[0_0_70px_-10px_rgba(220,38,38,0.7)] clip-corner animate-[abrirJanela_0.18s_ease-out]">
+              <div className="border-b-2 border-red-600 bg-red-600 px-3 py-1.5 flex items-center gap-2">
+                <AlertTriangle size={13} className="text-black shrink-0" />
+                <span className="text-[11px] font-black uppercase tracking-[0.22em] text-black">aviso</span>
+                <span className="ml-auto text-[13px] font-black text-black leading-none">✕</span>
+              </div>
+              <div className="px-6 py-8 flex flex-col items-center gap-7">
+                <p className="text-center text-[26px] md:text-[34px] leading-tight font-black uppercase tracking-wide text-red-500">
+                  Não leiam em voz alta
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setFase('carta')}
+                  className="border-2 border-tech-primary bg-tech-primary/10 text-tech-primary hover:bg-tech-primary hover:text-black px-8 py-4 text-[13px] font-black uppercase tracking-[0.25em] transition-colors clip-corner-sm"
+                >
+                  Abrir mensagem de alerta
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="shrink-0 border-t border-tech-border">
           <div className="h-2 bg-black">

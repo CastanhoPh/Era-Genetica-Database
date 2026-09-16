@@ -66,6 +66,12 @@ export default {
           '0%': { transform: 'translateY(-100%)' },
           '100%': { transform: 'translateY(100vh)' },
         },
+        // a janela de aviso ABRINDO no meio da tela, no fim da sincronização
+        abrirJanela: {
+          '0%': { opacity: '0', transform: 'scale(0.92)' },
+          '60%': { opacity: '1', transform: 'scale(1.015)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
         flicker: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.9' },
