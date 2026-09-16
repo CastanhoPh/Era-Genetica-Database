@@ -1165,7 +1165,10 @@ export default function App() {
                 {/* por cima de tudo, inclusive do modal de login que acabou de fechar */}
                 {aviso && (
                     <Suspense fallback={null}>
-                        <AvisoUrgente onClose={() => setAviso(false)} />
+                        <AvisoUrgente
+                            onClose={() => setAviso(false)}
+                            capaDoHanzo={characters.find(c => c.name === 'Hiroshi Hanzo')?.image}
+                        />
                     </Suspense>
                 )}
             </Suspense>

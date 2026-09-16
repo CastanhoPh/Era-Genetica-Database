@@ -21,6 +21,7 @@
 // `prefers-reduced-motion` desliga o ciclo e a varredura: as janelas abrem uma vez e ficam paradas.
 import React, { useEffect, useState } from 'react';
 import { AlertTriangle, X } from 'lucide-react';
+import { formatImageUrl } from '../utils/formatters';
 
 /** 10 segundos de alarme antes da mensagem, como o Pedro pediu. */
 const SEGUNDOS_DE_ALARME = 10;
@@ -291,7 +292,7 @@ const CARTA: Bloco[] = [
   { t: 'p', texto: 'Continuem na linha de frente enquanto atuo nas sombras, vou mantendo vocês atualizados.' },
 ];
 
-const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({ onClose, capaDoHanzo }) => {
   const [restam, setRestam] = useState(SEGUNDOS_DE_ALARME);
 
   useEffect(() => {
@@ -492,9 +493,24 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
               <span className="text-[24px] font-black uppercase tracking-wide text-tech-accent leading-none">Hiroshi Hanzo</span>
               <span className="text-[10px] uppercase tracking-[0.22em] text-tech-primary/30">3º líder de rastreio · konohagakure</span>
             </div>
-            <div className="shrink-0 w-16 h-16 rounded-full border-2 border-tech-accent/70 flex flex-col items-center justify-center -rotate-12">
-              <span className="text-[19px] font-black text-tech-accent leading-none">HH</span>
-              <span className="text-[7px] uppercase tracking-[0.18em] text-tech-accent/70 mt-0.5">selo</span>
+            {/* o selo é o retrato dele; sem capa na ficha, volta a ser as iniciais */}
+            <div className="shrink-0 w-20 h-20 rounded-full border-2 border-tech-accent/70 overflow-hidden -rotate-6 relative bg-black">
+              {capaDoHanzo ? (
+                <>
+                  <img
+                    src={formatImageUrl(capaDoHanzo)}
+                    alt="Hiroshi Hanzo"
+                    className="absolute inset-0 w-full h-full object-cover sepia contrast-125"
+                  />
+                  {/* o âmbar por cima costura o retrato ao resto do documento */}
+                  <div className="absolute inset-0 bg-tech-accent/25 mix-blend-color" />
+                </>
+              ) : (
+                <div className="absolute inset-0 flex flex-col items-center justify-center">
+                  <span className="text-[19px] font-black text-tech-accent leading-none">HH</span>
+                  <span className="text-[7px] uppercase tracking-[0.18em] text-tech-accent/70 mt-0.5">selo</span>
+                </div>
+              )}
             </div>
           </div>
         </div>
