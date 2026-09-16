@@ -241,6 +241,21 @@ const Janela: React.FC<{ indice: number }> = ({ indice }) => {
 };
 
 /**
+ * Os nomes que chegam TARJADOS e vão sendo revelados um a um enquanto o Takeshi lê.
+ *
+ * São os nomes que fazem a carta valer: quem está por trás, quem está acima deles, o que está
+ * selado onde. Tarjar o resto seria enfeite; tarjar estes conta que alguém tentou esconder
+ * exatamente isso.
+ */
+const TARJADOS = [
+  'Hades', 'Theta', 'Madara', 'Matatabi', 'Fortaleza Yumei', 'Mangekyō Sharingan Eterno',
+  'Oito-Caudas', 'Kaito Senju', 'Nishinoya', 'chakra profano', 'Dojutsu',
+];
+// o `|` mais longo primeiro, senão "Kaito Senju" nunca casaria — "Nishinoya" e os outros são
+// independentes, mas a regra vale para qualquer par onde um nome contenha o outro
+const REGEX_TARJA = new RegExp(`(${[...TARJADOS].sort((a, b) => b.length - a.length).join('|')})`, 'g');
+
+/**
  * A carta do Hanzo, em blocos tipados.
  *
  * Bloco tipado em vez de um texto corrido com quebras: é o que deixa cada coisa ter o tratamento
@@ -337,16 +352,60 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   }
 
   // ================================================================ a mensagem
+  // Quantas tarjas já caíram. Sobe sozinho, uma a cada 260ms, e o cabeçalho acompanha.
+  const [reveladas, setReveladas] = useState(0);
+  useEffect(() => {
+    if (restam > 0) return;
+    const t = setInterval(() => setReveladas(n => n + 1), 260);
+    return () => clearInterval(t);
+  }, [restam]);
+
+  // A numeração das tarjas precisa ser contínua entre os blocos, então o contador vive fora do
+  // map e é consumido na ordem em que o texto aparece.
+  let tarja = 0;
+  const totalTarjas = CARTA.reduce((n, b) =>
+    n + (('texto' in b) ? (b.texto.match(REGEX_TARJA) ?? []).length : 0), 0);
+
+  /** Quebra o texto nos nomes tarjados e devolve os pedaços prontos para desenhar. */
+  const comTarjas = (texto: string) => texto.split(REGEX_TARJA).map((pedaco, i) => {
+    if (!TARJADOS.includes(pedaco)) return <span key={i}>{pedaco}</span>;
+    const meu = tarja++;
+    const aberta = meu < reveladas;
+    return (
+      <span
+        key={i}
+        // tarja é fundo preto com o texto invisível, não texto removido: assim a linha não muda de
+        // tamanho quando ela cai e o parágrafo não pula na tela
+        className={aberta
+          ? 'text-tech-accent font-bold transition-colors duration-300'
+          : 'bg-black text-transparent select-none'}
+      >
+        {pedaco}
+      </span>
+    );
+  });
+
   return (
     <div className="fixed inset-0 z-[200] bg-black/95 flex items-center justify-center p-3 md:p-6">
-      <div className="relative w-full max-w-3xl max-h-[92vh] bg-tech-bg border-2 border-tech-accent/50 shadow-[0_0_70px_-12px_rgba(255,176,0,0.35)] clip-corner flex flex-col">
+      <div className="relative w-full max-w-3xl max-h-[92vh] bg-tech-bg border-2 border-tech-accent/50 shadow-[0_0_70px_-12px_rgba(255,176,0,0.35)] clip-corner flex flex-col overflow-hidden">
         <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-accent z-30 pointer-events-none" />
         <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-accent z-30 pointer-events-none" />
 
-        <div className="shrink-0 border-b border-tech-accent/40 bg-tech-accent/[0.07] pl-6 pr-3 py-2 flex items-center justify-between gap-3">
+        {/* carimbo atrás de tudo: girado e enorme, como documento que passou por uma mesa */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
+          <span className="-rotate-[18deg] text-[clamp(60px,14vw,150px)] font-black uppercase tracking-tighter text-tech-accent/[0.06] whitespace-nowrap">
+            confidencial
+          </span>
+        </div>
+
+        <div className="relative shrink-0 border-b border-tech-accent/40 bg-tech-accent/[0.07] pl-6 pr-3 py-2 flex items-center justify-between gap-3">
           <span className="flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-tech-accent min-w-0">
             <AlertTriangle size={11} className="shrink-0" />
-            <span className="truncate">transmissão descriptografada · origem protegida</span>
+            <span className="truncate">
+              {reveladas < totalTarjas
+                ? `descriptografando · ${Math.round((reveladas / Math.max(1, totalTarjas)) * 100)}%`
+                : 'texto limpo · arquivo aberto'}
+            </span>
           </span>
           <button
             onClick={onClose}
@@ -357,47 +416,86 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
           </button>
         </div>
 
-        <div className="flex-1 min-h-0 overflow-y-auto scrollbar-custom px-5 py-6 md:px-9 md:py-8 flex flex-col gap-5">
-          {CARTA.map((b, k) => {
-            if (b.t === 'alerta') {
-              // o vermelho fica reservado para os dois avisos de perigo: no resto da carta ele
-              // roubaria a leitura, que é o que o âmbar está fazendo aqui
-              return (
-                <div key={k} className="border-2 border-red-600/70 bg-red-950/25 px-4 py-3.5">
-                  <p className="text-[20px] leading-snug font-black uppercase tracking-[0.06em] text-red-500">{b.texto}</p>
-                </div>
-              );
-            }
-            if (b.t === 'titulo') {
-              return (
-                <div key={k} className="flex items-center gap-3 pt-2">
-                  <span className="text-[12px] uppercase tracking-[0.3em] text-tech-accent whitespace-nowrap">{b.texto}</span>
-                  <span className="h-px flex-1 bg-tech-accent/30" />
-                </div>
-              );
-            }
-            if (b.t === 'clas') {
-              return (
-                <div key={k} className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-tech-accent/25 border border-tech-accent/25">
-                  {b.itens.map(c => (
-                    <div key={c} className="bg-tech-bg px-3 py-3 text-center text-[17px] font-black uppercase tracking-wide text-tech-accent">{c}</div>
-                  ))}
-                </div>
-              );
-            }
-            if (b.t === 'grito') {
-              return (
-                <div key={k} className="border-l-4 border-red-600 bg-red-950/20 px-4 py-3.5">
-                  <p className="text-[17px] leading-snug font-black uppercase tracking-[0.04em] text-red-400">{b.texto}</p>
-                </div>
-              );
-            }
-            return <p key={k} className="text-[17px] leading-[1.85] text-slate-300">{b.texto}</p>;
-          })}
+        {/* ficha de origem: dá ao papel a aparência de coisa arquivada, não de mensagem de chat */}
+        <div className="relative shrink-0 grid grid-cols-2 sm:grid-cols-4 gap-px bg-tech-accent/20 border-b border-tech-accent/25">
+          {[['remetente', 'campo — sombras'], ['canal', 'fechado · 1 salto'], ['classificação', 'olhos apenas'], ['arquivo', '0x7F-HANZO']].map(([r, v]) => (
+            <div key={r} className="bg-tech-bg px-3 py-2 min-w-0">
+              <div className="text-[8px] uppercase tracking-[0.2em] text-tech-primary/40">{r}</div>
+              <div className="text-[12px] text-tech-accent/90 truncate">{v}</div>
+            </div>
+          ))}
+        </div>
 
-          <div className="mt-4 pt-5 border-t border-tech-accent/25 flex flex-col items-end gap-1">
-            <span className="text-[10px] uppercase tracking-[0.3em] text-tech-primary/40">assinado</span>
-            <span className="text-[22px] font-black uppercase tracking-wide text-tech-accent">Hiroshi Hanzo</span>
+        <div className="relative flex-1 min-h-0 overflow-y-auto scrollbar-custom px-4 py-6 md:px-8 md:py-8">
+          <div className="flex flex-col gap-5">
+            {CARTA.map((b, k) => {
+              // a numeração de margem é o que dá o ar de documento oficial, e de graça ela vira
+              // uma referência: "o parágrafo 09 fala do Furyuzan"
+              const numero = <span className="select-none text-[10px] text-tech-primary/25 w-7 shrink-0 pt-1.5 text-right tabular-nums">{String(k + 1).padStart(2, '0')}</span>;
+
+              if (b.t === 'alerta') {
+                return (
+                  <div key={k} className="flex gap-3">
+                    {numero}
+                    <div className="flex-1 border-2 border-red-600/70 bg-red-950/25 px-4 py-3.5">
+                      <p className="text-[20px] leading-snug font-black uppercase tracking-[0.06em] text-red-500">{b.texto}</p>
+                    </div>
+                  </div>
+                );
+              }
+              if (b.t === 'titulo') {
+                return (
+                  <div key={k} className="flex gap-3 pt-2">
+                    {numero}
+                    <div className="flex-1 flex items-center gap-3">
+                      <span className="text-[12px] uppercase tracking-[0.3em] text-tech-accent whitespace-nowrap">{b.texto}</span>
+                      <span className="h-px flex-1 bg-tech-accent/30" />
+                    </div>
+                  </div>
+                );
+              }
+              if (b.t === 'clas') {
+                return (
+                  <div key={k} className="flex gap-3">
+                    {numero}
+                    <div className="flex-1 grid grid-cols-2 sm:grid-cols-4 gap-px bg-tech-accent/25 border border-tech-accent/25">
+                      {b.itens.map(c => (
+                        <div key={c} className="bg-tech-bg px-3 py-3 text-center text-[17px] font-black uppercase tracking-wide text-tech-accent">{c}</div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+              if (b.t === 'grito') {
+                return (
+                  <div key={k} className="flex gap-3">
+                    {numero}
+                    <div className="flex-1 border-l-4 border-red-600 bg-red-950/20 px-4 py-3.5">
+                      <p className="text-[17px] leading-snug font-black uppercase tracking-[0.04em] text-red-400">{b.texto}</p>
+                    </div>
+                  </div>
+                );
+              }
+              return (
+                <div key={k} className="flex gap-3">
+                  {numero}
+                  <p className="flex-1 text-[17px] leading-[1.85] text-slate-300">{comTarjas(b.texto)}</p>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* o selo: um documento assim não termina com um nome solto */}
+          <div className="mt-8 pt-6 border-t border-tech-accent/25 flex items-end justify-end gap-4">
+            <div className="flex flex-col items-end gap-1">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-tech-primary/40">assinado no campo</span>
+              <span className="text-[24px] font-black uppercase tracking-wide text-tech-accent leading-none">Hiroshi Hanzo</span>
+              <span className="text-[10px] uppercase tracking-[0.22em] text-tech-primary/30">3º líder de rastreio · konohagakure</span>
+            </div>
+            <div className="shrink-0 w-16 h-16 rounded-full border-2 border-tech-accent/70 flex flex-col items-center justify-center -rotate-12">
+              <span className="text-[19px] font-black text-tech-accent leading-none">HH</span>
+              <span className="text-[7px] uppercase tracking-[0.18em] text-tech-accent/70 mt-0.5">selo</span>
+            </div>
           </div>
         </div>
       </div>
