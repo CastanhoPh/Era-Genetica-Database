@@ -241,6 +241,35 @@ const Janela: React.FC<{ indice: number }> = ({ indice }) => {
   );
 };
 
+/** Quanto tempo a tela de sincronização fica no ar, e quantas linhas ela tem. */
+const SEGUNDOS_ENVIANDO = 20;
+
+/**
+ * O que o Hanzo está escrevendo no banco, palavra por palavra como o Pedro ditou.
+ *
+ * `vila` é cabeçalho de bloco, `item` é o detalhe por baixo dele, `passo` é operação de sistema.
+ * A separação existe para a tela ter hierarquia: 16 linhas iguais viram parede de texto.
+ */
+type LinhaEnvio = { t: 'titulo' | 'autor' | 'vila' | 'item' | 'passo'; texto: string };
+const ENVIO: LinhaEnvio[] = [
+  { t: 'titulo', texto: 'Atualizando banco de dados.' },
+  { t: 'autor', texto: 'Por: O Fantasma' },
+  { t: 'vila', texto: 'Adicionando informações da Névoa.' },
+  { t: 'item', texto: 'Adicionando Almirante da Frota, Almirantes, Vice-Almirantes, Capitães e Capitães-Tenentes.' },
+  { t: 'vila', texto: 'Adicionando informações da Areia' },
+  { t: 'item', texto: 'Adicionando Pilares, Shiita e Chiguiri' },
+  { t: 'vila', texto: 'Adicionando informações da Núvem' },
+  { t: 'item', texto: 'Adicionando Elite, Hiroshi e Katakana' },
+  { t: 'vila', texto: 'Adicionando informações da Pedra' },
+  { t: 'item', texto: 'Adicionando Oryo e Sekio' },
+  { t: 'vila', texto: 'Adicionando informações da Folha' },
+  { t: 'item', texto: 'Adicionando Hashirama, Madara, Kawarama, Mito, Sakura, Ashina, Minoru, Hiruzen, Hina, Amai entre outros' },
+  { t: 'vila', texto: 'Adicionando OCA' },
+  { t: 'item', texto: 'Adicionando 1, 2 e 3 pilar, 99%, 75% e 40% chamem como quiserem...' },
+  { t: 'passo', texto: 'Compactando mensagem de Alerta' },
+  { t: 'passo', texto: 'Enviando Mensagem de Alerta' },
+];
+
 /**
  * Os nomes que chegam TARJADOS e vão sendo revelados um a um enquanto o Takeshi lê.
  *
@@ -296,7 +325,9 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   const [restam, setRestam] = useState(SEGUNDOS_DE_ALARME);
   // 'erro' é a tela falsa que aparece quando o alarme acaba; a carta só abre quando o Takeshi
   // clica em RECARREGAR.
-  const [fase, setFase] = useState<'erro' | 'carta'>('erro');
+  const [fase, setFase] = useState<'erro' | 'enviando' | 'carta'>('erro');
+  // quantas linhas do envio já saíram; as 16 se espalham pelos 20 segundos
+  const [linha, setLinha] = useState(0);
 
   useEffect(() => {
     if (restam <= 0) return;
@@ -314,6 +345,12 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
 
   // Quantas tarjas já caíram. Sobe sozinho, uma a cada 260ms, e o cabeçalho acompanha.
   const [reveladas, setReveladas] = useState(0);
+  useEffect(() => {
+    if (fase !== 'enviando' || linha >= ENVIO.length) return;
+    const t = setTimeout(() => setLinha(n => n + 1), (SEGUNDOS_ENVIANDO * 1000) / ENVIO.length);
+    return () => clearTimeout(t);
+  }, [fase, linha]);
+
   useEffect(() => {
     if (restam > 0 || fase !== 'carta') return;
     const t = setInterval(() => setReveladas(n => n + 1), 260);
@@ -376,11 +413,92 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
           <p className="text-sm uppercase tracking-widest">Algo deu errado.</p>
           <button
             type="button"
-            onClick={() => setFase('carta')}
+            onClick={() => setFase('enviando')}
             className="border border-tech-primary/40 px-4 py-2 text-xs uppercase tracking-widest hover:bg-tech-primary hover:text-black transition-all"
           >
             Recarregar
           </button>
+        </div>
+      </div>
+    );
+  }
+
+  // ================================================================ sincronizando
+  //
+  // VERDE de propósito: o vermelho é o invasor e o âmbar é o documento, mas aqui a máquina está
+  // FUNCIONANDO — é o Hanzo escrevendo no banco, não alguém arrombando.
+  if (fase === 'enviando') {
+    const pronto = linha >= ENVIO.length;
+    const pct = Math.round((Math.min(linha, ENVIO.length) / ENVIO.length) * 100);
+    return (
+      <div className="fixed inset-0 z-[200] bg-black flex items-center justify-center p-3 md:p-6">
+        <div className="absolute inset-0 bg-[linear-gradient(transparent_2px,rgba(0,255,65,0.05)_3px)] bg-[size:100%_4px] pointer-events-none" />
+        <div className="absolute top-0 left-0 w-full h-px bg-tech-primary/50 shadow-[0_0_12px_#00ff41] animate-[scanline_4s_linear_infinite] pointer-events-none" />
+
+        <div className="relative w-full max-w-2xl max-h-[92vh] bg-tech-bg border-2 border-tech-primary/50 shadow-[0_0_60px_-12px_rgba(0,255,65,0.35)] clip-corner flex flex-col">
+          <div className="shrink-0 border-b border-tech-border bg-tech-panel/40 pl-6 pr-4 py-2 flex items-center justify-between gap-3 text-[10px] uppercase tracking-[0.2em] text-tech-primary/60">
+            <span className="truncate">era-genetica.db · canal seguro</span>
+            <span className="shrink-0">{pronto ? 'concluído' : 'sincronizando'}</span>
+          </div>
+
+          <div className="flex-1 min-h-0 overflow-y-auto scrollbar-custom px-5 py-5 md:px-7 md:py-6 flex flex-col gap-1.5">
+            {ENVIO.slice(0, linha).map((l, k) => {
+              const atual = k === linha - 1 && !pronto;
+              const ok = !atual;
+              if (l.t === 'titulo') {
+                return (
+                  <div key={k} className="text-[19px] font-black uppercase tracking-wide text-tech-primary mb-1">
+                    {l.texto}
+                  </div>
+                );
+              }
+              if (l.t === 'autor') {
+                // a assinatura de quem está mexendo no banco: a única linha que não é sobre dado
+                return (
+                  <div key={k} className="mb-3 inline-flex self-start border border-tech-primary/40 bg-tech-primary/[0.07] px-3 py-1.5 text-[13px] uppercase tracking-[0.18em] text-tech-primary">
+                    {l.texto}
+                  </div>
+                );
+              }
+              return (
+                <div key={k} className={`flex items-start gap-2 ${l.t === 'item' ? 'pl-5' : 'pt-1.5'}`}>
+                  <span className={`shrink-0 ${l.t === 'vila' ? 'text-tech-primary' : 'text-tech-primary/40'}`}>
+                    {l.t === 'vila' ? '▸' : l.t === 'item' ? '└' : '$'}
+                  </span>
+                  <span className={`flex-1 text-[14px] leading-snug ${l.t === 'vila' ? 'text-tech-primary font-bold' : l.t === 'passo' ? 'text-tech-primary' : 'text-tech-primary/60'}`}>
+                    {l.texto}
+                    {atual && <span className="animate-pulse">█</span>}
+                  </span>
+                  {ok && <span className="shrink-0 text-[10px] uppercase tracking-widest text-tech-primary/50 pt-1">[ ok ]</span>}
+                </div>
+              );
+            })}
+
+            {pronto && (
+              <div className="mt-6 pt-5 border-t border-tech-border flex flex-col items-center gap-5">
+                <p className="text-center text-[22px] md:text-[26px] font-black uppercase tracking-wide text-red-500">
+                  &ldquo;Não leiam em voz alta&rdquo;
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setFase('carta')}
+                  className="border-2 border-tech-primary bg-tech-primary/10 text-tech-primary hover:bg-tech-primary hover:text-black px-6 py-3 text-[12px] font-black uppercase tracking-[0.25em] transition-colors clip-corner-sm"
+                >
+                  Abrir mensagem de alerta
+                </button>
+              </div>
+            )}
+          </div>
+
+          <div className="shrink-0 border-t border-tech-border">
+            <div className="h-1.5 bg-black">
+              <div className="h-full bg-tech-primary transition-[width] duration-500 ease-linear" style={{ width: `${pct}%` }} />
+            </div>
+            <div className="px-4 py-1.5 flex justify-between gap-3 text-[10px] uppercase tracking-[0.2em] text-tech-primary/50">
+              <span className="truncate">{pronto ? 'mensagem recebida' : 'não feche esta janela'}</span>
+              <span className="shrink-0">{pct}%</span>
+            </div>
+          </div>
         </div>
       </div>
     );
