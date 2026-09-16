@@ -294,6 +294,9 @@ const CARTA: Bloco[] = [
 
 const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({ onClose, capaDoHanzo }) => {
   const [restam, setRestam] = useState(SEGUNDOS_DE_ALARME);
+  // 'erro' é a tela falsa que aparece quando o alarme acaba; a carta só abre quando o Takeshi
+  // clica em RECARREGAR.
+  const [fase, setFase] = useState<'erro' | 'carta'>('erro');
 
   useEffect(() => {
     if (restam <= 0) return;
@@ -301,8 +304,8 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
     return () => clearTimeout(t);
   }, [restam]);
 
-  // A rolagem só trava quando a MENSAGEM abre. Durante o alarme as janelinhas são visuais e o
-  // banco continua navegável por baixo delas.
+  // A rolagem só trava depois do alarme. Durante ele as janelas são visuais e o banco continua
+  // navegável por baixo delas.
   useEffect(() => {
     if (restam > 0) return;
     document.body.style.overflow = 'hidden';
@@ -312,10 +315,10 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   // Quantas tarjas já caíram. Sobe sozinho, uma a cada 260ms, e o cabeçalho acompanha.
   const [reveladas, setReveladas] = useState(0);
   useEffect(() => {
-    if (restam > 0) return;
+    if (restam > 0 || fase !== 'carta') return;
     const t = setInterval(() => setReveladas(n => n + 1), 260);
     return () => clearInterval(t);
-  }, [restam]);
+  }, [restam, fase]);
 
   // ================================================================ o alarme
   if (restam > 0) {
@@ -355,6 +358,29 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
             <span className="truncate">exfiltrando banco · não desligue o terminal</span>
             <span className="shrink-0">{restam}s</span>
           </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ================================================================ a tela de erro
+  //
+  // Cópia EXATA do que o ChunkErrorBoundary desenha: mesma classe, mesmo texto, mesmo botão. Se
+  // não fosse idêntica o truque morria. É a única razão de o markup estar duplicado em vez de
+  // importado — o boundary é uma classe com estado de erro de verdade, e o que se quer aqui é a
+  // aparência, não o comportamento.
+  if (fase === 'erro') {
+    return (
+      <div className="fixed inset-0 z-[200] min-h-screen flex items-center justify-center bg-black text-tech-primary p-8">
+        <div className="text-center space-y-3">
+          <p className="text-sm uppercase tracking-widest">Algo deu errado.</p>
+          <button
+            type="button"
+            onClick={() => setFase('carta')}
+            className="border border-tech-primary/40 px-4 py-2 text-xs uppercase tracking-widest hover:bg-tech-primary hover:text-black transition-all"
+          >
+            Recarregar
+          </button>
         </div>
       </div>
     );
