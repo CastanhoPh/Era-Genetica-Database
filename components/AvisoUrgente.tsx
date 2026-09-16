@@ -19,7 +19,7 @@
 //    animação de entrada só dispara quando o elemento entra no DOM.
 //
 // `prefers-reduced-motion` desliga o ciclo e a varredura: as janelas abrem uma vez e ficam paradas.
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { AlertTriangle, X } from 'lucide-react';
 import { formatImageUrl } from '../utils/formatters';
 
@@ -270,6 +270,9 @@ const ENVIO: LinhaEnvio[] = [
   { t: 'passo', texto: 'Enviando Mensagem de Alerta' },
 ];
 
+/** Quanto texto um bloco tem. O contador da impressão anda por esta medida. */
+const tamanhoDoBloco = (b: Bloco) => b.t === 'clas' ? b.itens.join('').length : b.texto.length;
+
 /**
  * Os nomes que chegam TARJADOS e vão sendo revelados um a um enquanto o Takeshi lê.
  *
@@ -321,6 +324,8 @@ const CARTA: Bloco[] = [
   { t: 'p', texto: 'Continuem na linha de frente enquanto atuo nas sombras, vou mantendo vocês atualizados.' },
 ];
 
+const TOTAL_CHARS = CARTA.reduce((n, b) => n + tamanhoDoBloco(b), 0);
+
 const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({ onClose, capaDoHanzo }) => {
   const [restam, setRestam] = useState(SEGUNDOS_DE_ALARME);
   // 'erro' é a tela falsa que aparece quando o alarme acaba; a carta só abre quando o Takeshi
@@ -328,8 +333,9 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   const [fase, setFase] = useState<'erro' | 'enviando' | 'abrindo' | 'carta'>('erro');
   // 0 a 100 na tela de descompactação
   const [abertura, setAbertura] = useState(0);
-  // quantos blocos da carta já entraram; as tarjas só começam depois do último
-  const [blocos, setBlocos] = useState(0);
+  // quantos CARACTERES da carta já foram impressos; as tarjas só começam depois do último
+  const [impressos, setImpressos] = useState(0);
+  const rolagem = useRef<HTMLDivElement | null>(null);
   // quantas linhas do envio já saíram; as 16 se espalham pelos 20 segundos
   const [linha, setLinha] = useState(0);
 
@@ -357,12 +363,17 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
     return () => clearTimeout(t);
   }, [fase, abertura]);
 
-  // os blocos da carta entrando, um a um
+  // a impressão da carta: 10 caracteres a cada 30ms, ~330 por segundo
   useEffect(() => {
-    if (fase !== 'carta' || blocos >= CARTA.length) return;
-    const t = setTimeout(() => setBlocos(n => n + 1), 220);
+    if (fase !== 'carta' || impressos >= TOTAL_CHARS) return;
+    const t = setTimeout(() => {
+      setImpressos(n => Math.min(TOTAL_CHARS, n + 10));
+      // a rolagem acompanha o cursor; sem isso o texto cresce para fora da tela
+      const el = rolagem.current;
+      if (el) el.scrollTop = el.scrollHeight;
+    }, 30);
     return () => clearTimeout(t);
-  }, [fase, blocos]);
+  }, [fase, impressos]);
 
   useEffect(() => {
     if (fase !== 'enviando' || linha >= ENVIO.length) return;
@@ -371,10 +382,10 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   }, [fase, linha]);
 
   useEffect(() => {
-    if (restam > 0 || fase !== 'carta' || blocos < CARTA.length) return;
+    if (restam > 0 || fase !== 'carta' || impressos < TOTAL_CHARS) return;
     const t = setInterval(() => setReveladas(n => n + 1), 260);
     return () => clearInterval(t);
-  }, [restam, fase, blocos]);
+  }, [restam, fase, impressos]);
 
   // ================================================================ o alarme
   if (restam > 0) {
@@ -540,47 +551,46 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   // A porcentagem estava numa linha de 10px no topo da carta, com o documento inteiro já visível
   // atrás dela — carregamento em letra miúda de algo que já tinha carregado. Virou tela.
   if (fase === 'abrindo') {
-    const etapas = [
-      ['abrindo mensagem_alerta.enc', 5],
-      ['verificando assinatura do remetente', 30],
-      ['descompactando conteúdo', 55],
-      ['montando documento', 85],
-    ] as const;
+    // Barra em ASCII: barra desenhada é interface, barra feita de caracteres é terminal.
+    const cheios = Math.round((abertura / 100) * 28);
+    const barra = '█'.repeat(cheios) + '░'.repeat(28 - cheios);
+    const saida: string[] = [
+      '$ openssl enc -d -aes-256-cbc -in mensagem_alerta.enc',
+      '> chave aceita · assinatura confere',
+      '$ unpack --verbose mensagem_alerta',
+    ];
+    if (abertura > 12) saida.push('> cabeçalho lido · 1 documento · remetente protegido');
+    if (abertura > 34) saida.push('> montando parágrafos');
+    if (abertura > 58) saida.push('> aplicando censura do remetente');
+    if (abertura > 80) saida.push('> verificando integridade … OK');
+    if (abertura >= 100) saida.push('> pronto. abrindo.');
+
     return (
-      <div className="fixed inset-0 z-[200] bg-black text-tech-primary flex flex-col items-center justify-center px-6">
+      <div className="fixed inset-0 z-[200] bg-black text-tech-primary flex flex-col">
         <div className="absolute inset-0 bg-[linear-gradient(transparent_2px,rgba(0,255,65,0.05)_3px)] bg-[size:100%_4px] pointer-events-none" />
         <div className="absolute top-0 left-0 w-full h-px bg-tech-primary/40 shadow-[0_0_12px_#00ff41] animate-[scanline_5s_linear_infinite] pointer-events-none" />
 
-        <div className="relative w-full max-w-2xl flex flex-col gap-7">
-          <div className="text-[11px] uppercase tracking-[0.3em] text-tech-primary/50">
-            hanzo@era-genetica.db:~$ abrir alerta
+        <div className="relative flex-1 min-h-0 overflow-hidden px-4 md:px-8 py-6 md:py-8 flex flex-col gap-1.5 text-[14px] md:text-[15px] leading-relaxed">
+          {saida.map(l => (
+            <div key={l} className={l.startsWith('$') ? 'text-tech-primary font-bold' : 'text-tech-primary/60'}>{l}</div>
+          ))}
+
+          <div className="mt-4 text-[15px] md:text-[19px] text-tech-primary whitespace-pre">
+            [{barra}] {String(abertura).padStart(3, ' ')}%
           </div>
 
-          {/* o número é o assunto da tela: grande o bastante para ser a única coisa que se lê */}
-          <div className="flex items-end gap-4">
-            <span className="text-[72px] md:text-[104px] leading-none font-black text-tech-primary tabular-nums">{abertura}</span>
-            <span className="text-[26px] md:text-[34px] leading-none font-black text-tech-primary/40 pb-2">%</span>
-            <span className="ml-auto pb-3 text-[13px] uppercase tracking-[0.22em] text-tech-primary/60 text-right">
-              descompactando<br />mensagem de alerta
-            </span>
+          {/* o dump existe para a tela ter movimento: é o que separa "carregando" de "abrindo
+              alguma coisa agora" */}
+          <div className="mt-4 flex flex-col gap-0.5 text-[11px] md:text-[12px] text-tech-primary/30 whitespace-pre overflow-hidden">
+            {Array.from({ length: 7 }, (_, i) => (
+              <div key={i}>
+                {`0x${((abertura * 64 + i * 16) & 0xffff).toString(16).toUpperCase().padStart(4, '0')}   ${hex(12)}`}
+              </div>
+            ))}
           </div>
 
-          <div className="h-3 bg-tech-panel/60 border border-tech-border">
-            <div className="h-full bg-tech-primary transition-[width] duration-150 ease-out" style={{ width: `${abertura}%` }} />
-          </div>
-
-          {/* as etapas acendem conforme a barra passa por elas */}
-          <div className="flex flex-col gap-1.5">
-            {etapas.map(([texto, limite]) => {
-              const feita = abertura >= limite;
-              return (
-                <div key={texto} className={`flex items-center gap-3 text-[14px] ${feita ? 'text-tech-primary' : 'text-tech-primary/25'}`}>
-                  <span className="shrink-0">{feita ? '▸' : '·'}</span>
-                  <span className="flex-1">{texto}</span>
-                  {feita && <span className="shrink-0 text-[10px] uppercase tracking-widest text-tech-primary/50">[ ok ]</span>}
-                </div>
-              );
-            })}
+          <div className="mt-4 text-tech-primary">
+            {abertura >= 100 ? '$ _' : <>descompactando<span className="animate-pulse">█</span></>}
           </div>
         </div>
       </div>
@@ -591,6 +601,9 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   // A numeração das tarjas precisa ser contínua entre os blocos, então o contador vive fora do
   // map e é consumido na ordem em que o texto aparece.
   let tarja = 0;
+  // o contador da impressão: mesma ideia do `tarja`, uma variável que zera a cada render e é
+  // consumida na ordem em que o texto aparece
+  let percorrido = 0;
   const totalTarjas = CARTA.reduce((n, b) =>
     n + (('texto' in b) ? (b.texto.match(REGEX_TARJA) ?? []).length : 0), 0);
 
@@ -654,9 +667,15 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
           ))}
         </div>
 
-        <div className="relative flex-1 min-h-0 overflow-y-auto scrollbar-custom px-4 py-6 md:px-8 md:py-8">
+        <div ref={rolagem} className="relative flex-1 min-h-0 overflow-y-auto scrollbar-custom px-4 py-6 md:px-8 md:py-8">
           <div className="flex flex-col gap-5">
-            {CARTA.slice(0, blocos).map((b, k) => {
+            {CARTA.map((b, k) => {
+              const meuInicio = percorrido;
+              percorrido += tamanhoDoBloco(b);
+              if (impressos <= meuInicio) return null;          // ainda não chegou neste bloco
+              const ate = impressos - meuInicio;                 // quanto dele já saiu
+              const imprimindo = impressos < percorrido;         // é o bloco que está sendo escrito
+              const cursor = imprimindo ? <span className="animate-pulse">█</span> : null;
               // a numeração de margem é o que dá o ar de documento oficial, e de graça ela vira
               // uma referência: "o parágrafo 09 fala do Furyuzan"
               const numero = <span className="select-none text-[10px] text-tech-primary/25 w-7 shrink-0 pt-1.5 text-right tabular-nums">{String(k + 1).padStart(2, '0')}</span>;
@@ -666,7 +685,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
                   <div key={k} className="flex gap-3">
                     {numero}
                     <div className="flex-1 border-2 border-red-600/70 bg-red-950/25 px-4 py-3.5">
-                      <p className="text-[20px] leading-snug font-black uppercase tracking-[0.06em] text-red-500">{b.texto}</p>
+                      <p className="text-[20px] leading-snug font-black uppercase tracking-[0.06em] text-red-500">{b.texto.slice(0, ate)}{cursor}</p>
                     </div>
                   </div>
                 );
@@ -676,7 +695,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
                   <div key={k} className="flex gap-3 pt-2">
                     {numero}
                     <div className="flex-1 flex items-center gap-3">
-                      <span className="text-[12px] uppercase tracking-[0.3em] text-tech-accent whitespace-nowrap">{b.texto}</span>
+                      <span className="text-[12px] uppercase tracking-[0.3em] text-tech-accent whitespace-nowrap">{b.texto.slice(0, ate)}{cursor}</span>
                       <span className="h-px flex-1 bg-tech-accent/30" />
                     </div>
                   </div>
@@ -687,9 +706,12 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
                   <div key={k} className="flex gap-3">
                     {numero}
                     <div className="flex-1 grid grid-cols-2 sm:grid-cols-4 gap-px bg-tech-accent/25 border border-tech-accent/25">
-                      {b.itens.map(c => (
-                        <div key={c} className="bg-tech-bg px-3 py-3 text-center text-[17px] font-black uppercase tracking-wide text-tech-accent">{c}</div>
-                      ))}
+                      {/* os clãs entram um por um, na mesma cadência do texto */}
+                      {b.itens.map((c, i) => {
+                        const antes = b.itens.slice(0, i).join('').length;
+                        if (ate <= antes) return null;
+                        return <div key={c} className="bg-tech-bg px-3 py-3 text-center text-[17px] font-black uppercase tracking-wide text-tech-accent">{c.slice(0, ate - antes)}</div>;
+                      })}
                     </div>
                   </div>
                 );
@@ -699,7 +721,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
                   <div key={k} className="flex gap-3">
                     {numero}
                     <div className="flex-1 border-l-4 border-red-600 bg-red-950/20 px-4 py-3.5">
-                      <p className="text-[17px] leading-snug font-black uppercase tracking-[0.04em] text-red-400">{b.texto}</p>
+                      <p className="text-[17px] leading-snug font-black uppercase tracking-[0.04em] text-red-400">{b.texto.slice(0, ate)}{cursor}</p>
                     </div>
                   </div>
                 );
@@ -707,13 +729,14 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
               return (
                 <div key={k} className="flex gap-3">
                   {numero}
-                  <p className="flex-1 text-[17px] leading-[1.85] text-slate-300">{comTarjas(b.texto)}</p>
+                  <p className="flex-1 text-[17px] leading-[1.85] text-slate-300">{comTarjas(b.texto.slice(0, ate))}{cursor}</p>
                 </div>
               );
             })}
           </div>
 
-          {/* o selo: um documento assim não termina com um nome solto */}
+          {/* o selo só entra quando a impressão acaba: assinatura antes do texto não faz sentido */}
+          {impressos >= TOTAL_CHARS && (
           <div className="mt-8 pt-6 border-t border-tech-accent/25 flex items-end justify-end gap-4">
             <div className="flex flex-col items-end gap-1">
               <span className="text-[10px] uppercase tracking-[0.3em] text-tech-primary/40">assinado no campo</span>
@@ -740,6 +763,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
               )}
             </div>
           </div>
+          )}
         </div>
       </div>
     </div>
