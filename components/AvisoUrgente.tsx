@@ -308,6 +308,14 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     return () => { document.body.style.overflow = 'unset'; };
   }, [restam]);
 
+  // Quantas tarjas já caíram. Sobe sozinho, uma a cada 260ms, e o cabeçalho acompanha.
+  const [reveladas, setReveladas] = useState(0);
+  useEffect(() => {
+    if (restam > 0) return;
+    const t = setInterval(() => setReveladas(n => n + 1), 260);
+    return () => clearInterval(t);
+  }, [restam]);
+
   // ================================================================ o alarme
   if (restam > 0) {
     return (
@@ -352,14 +360,6 @@ const AvisoUrgente: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   }
 
   // ================================================================ a mensagem
-  // Quantas tarjas já caíram. Sobe sozinho, uma a cada 260ms, e o cabeçalho acompanha.
-  const [reveladas, setReveladas] = useState(0);
-  useEffect(() => {
-    if (restam > 0) return;
-    const t = setInterval(() => setReveladas(n => n + 1), 260);
-    return () => clearInterval(t);
-  }, [restam]);
-
   // A numeração das tarjas precisa ser contínua entre os blocos, então o contador vive fora do
   // map e é consumido na ordem em que o texto aparece.
   let tarja = 0;
