@@ -240,8 +240,8 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FTerceiro_Hokage.png?alt=media&v=1788277230069667", caption: "Terceiro Hokage", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNishinoya%20Senju%2FLuta_contra_o_Omega.png?alt=media&v=1788277225745605", caption: "Luta contra o Omega", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FModo%20S%C3%A1bio.png?alt=media&v=1788278837364563", caption: "Modo Sábio", category: "transformacao" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1788278831698484", caption: "Manto Matatabi V1", category: "transformacao" },
-      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1788278834683108", caption: "Manto Matatabi V2 + Modo Sábio", category: "transformacao" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V1.png?alt=media&v=1789652026702435", caption: "Manto Matatabi V1", category: "transformacao" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNishinoya%20Senju%2FManto%20Matatabi%20V2%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1789652029138345", caption: "Manto Matatabi V2 + Modo Sábio", category: "transformacao" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FNascimentos%2FNascimento%20de%20Nishinoya.png?alt=media&v=1788278130738080", caption: "Nascimentos - Nascimento de Nishinoya", category: "evento", season: "Prólogo", eventId: "wsDdwy87EJbJEuZKqxeI" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FApresenta%C3%A7%C3%B5es%2FApresenta%C3%A7%C3%A3o%20de%20Nishinoya.png?alt=media&v=1788277950660767", caption: "Apresentações - Apresentação de Nishinoya", category: "evento", season: "Prólogo", eventId: "YkByLTxJxPmy1KtF9lXB" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1788278004958540", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
@@ -2856,6 +2856,7 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FFam%C3%ADlias%2FFam%C3%ADlia%20Senju.png?alt=media&v=1788278004958540", caption: "Famílias - Família Senju", category: "evento", season: "Prólogo", eventId: "prologo__familias__familia-senju-completa" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNaomi%20treinando%20com%20Tobirama.png?alt=media&v=1788278120802630", caption: "Próxima Geração - Naomi treinando com Tobirama", category: "evento", season: "Prólogo", eventId: "OKyBZdVjchd0SqaKT5OH" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FPr%C3%B3logo%2FPr%C3%B3xima%20Gera%C3%A7%C3%A3o%2FNishinoya%2C%20Naoki%2C%20Hisoka%2C%20Ryuta%20e%20Naomi.png?alt=media&v=1788278149515621", caption: "Próxima Geração - Nishinoya, Naoki, Hisoka, Ryuta e Naomi", category: "evento", season: "Prólogo", eventId: "WWkGeyfd1b7wAlFhLxIX" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FNaomi%20Uzumaki%2FManto%20Kurama%20%2B%20Modo%20S%C3%A1bio.png?alt=media&v=1789652031508854", caption: "Manto Kurama + Modo Sábio", category: "transformacao" },
     ],
     stats: { strength: 12, dexterity: 30, agility: 12, intelligence: 27, spirit: 30, vigor: 27, perception: 30 },
     powers: [
@@ -6455,6 +6456,7 @@ export const initialData: Character[] = [
     techniques: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAmakumo%20H%C5%8Dzuki%2F5__Temporada.png?alt=media&v=1788276888518670", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAmakumo%20H%C5%8Dzuki%2FArmadura%20Abissal.png?alt=media&v=1789652033744812", caption: "Armadura Abissal", category: "transformacao" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#2dd4bf",
@@ -6667,6 +6669,7 @@ export const initialData: Character[] = [
     arsenal: [39],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788277058210752", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FJuzo%20Kuroshio%2FArmadura%20Abissal.png?alt=media&v=1789652035977939", caption: "Armadura Abissal", category: "transformacao" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#a855f7",
@@ -6811,6 +6814,7 @@ export const initialData: Character[] = [
     arsenal: [38, 35, 36],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788276998655933", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGanmaren%20Yuki%2FArmadura%20Abissal.png?alt=media&v=1789652038212442", caption: "Armadura Abissal", category: "transformacao" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#00ff41",
@@ -6915,6 +6919,7 @@ export const initialData: Character[] = [
     arsenal: [86],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788277014425274", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FHahiko%20Shiosaki%2FManto%20Chomei.png?alt=media&v=1789663365508363", caption: "Manto Chomei", category: "transformacao" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#2dd4bf",
@@ -7025,6 +7030,7 @@ export const initialData: Character[] = [
     techniques: [],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FEnkai%20Kuroshio%2F5__Temporada.png?alt=media&v=1788276967129586", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FEnkai%20Kuroshio%2FArmadura%20Abissal.png?alt=media&v=1789652040432242", caption: "Armadura Abissal", category: "transformacao" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#ff3b46",
@@ -7079,6 +7085,7 @@ export const initialData: Character[] = [
     arsenal: [41],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788276918509503", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAyame%20Sazanami%2FShingan%20Eterno.png?alt=media&v=1789663367852732", caption: "Shingan Eterno", category: "transformacao" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#a855f7",
@@ -7179,6 +7186,7 @@ export const initialData: Character[] = [
     arsenal: [48],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788277150066017", caption: "5ª Temporada", category: "era" },
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMirei%20Sazanami%2FShingan.png?alt=media&v=1789663370028651", caption: "Shingan", category: "transformacao" },
     ],
     timelineAppearance: "5ª Temporada",
     chakraColor: "#b5793a",

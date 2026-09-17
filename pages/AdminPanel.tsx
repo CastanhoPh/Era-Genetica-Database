@@ -2400,9 +2400,13 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                 {canvaTextOf === p.tipo ? '− esconder' : '+ '}lista em texto puro, na ordem
               </button>
               {canvaTextOf === p.tipo && (
+                /* Só os títulos, sem o número da página: esta lista existe para ser colada, e o nome
+                   da página no Canva não leva número — quem garante a ordem lá é a ordem das linhas,
+                   igual ao prefixo numérico do arquivo no canva-nomes.mjs. A coluna da tabela acima
+                   continua mostrando o número, que é onde ele serve de conferência. */
                 <textarea
                   readOnly
-                  value={p.itens.map(i => `${i.pag}\t${i.titulo}`).join('\n')}
+                  value={p.itens.map(i => i.titulo).join('\n')}
                   onFocus={e => e.currentTarget.select()}
                   className="w-full mt-2 h-52 bg-black border border-tech-border p-3 text-[10px] font-mono text-tech-primary/70 resize-y outline-none focus:border-tech-primary"
                 />

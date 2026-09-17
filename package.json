@@ -28,6 +28,9 @@
     "invocacoes:fix": "node scripts/reconcile-invocacoes.mjs --apply",
     "canva:export": "node scripts/canva-export.mjs",
     "canva:export:apply": "node scripts/canva-export.mjs --apply",
+    "canva:login": "node scripts/canva-login.mjs",
+    "canva:paginas": "node scripts/canva-paginas.mjs",
+    "canva:pasta": "node scripts/canva-pasta.mjs",
     "docs:gerar": "node data/gerar-characters-md.cjs --input data/characters.ts --output docs/characters.md && node data/gerar-arsenal-md.cjs --input data/arsenal.ts --output docs/arsenal.md"
   },
   "dependencies": {
@@ -49,6 +52,7 @@
     "esbuild": "^0.25.12",
     "firebase-admin": "^13.10.0",
     "firebase-tools": "^15.22.3",
+    "playwright-core": "^1.63.0",
     "postcss": "^8.5.24",
     "tailwindcss": "^3.4.19",
     "typescript": "~5.8.2",
