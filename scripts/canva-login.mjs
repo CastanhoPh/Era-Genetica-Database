@@ -24,7 +24,12 @@ const TOKEN = 'https://api.canva.com/rest/v1/oauth/token';
 // uma pasta chamada "Era Genética", e sem esse escopo eu só consigo listar os 113 designs soltos da
 // conta — onde existem três "Linha do Tempo" e quatro "Eventos" com nomes idênticos. A pasta é o
 // que diz qual é o oficial.
-const ESCOPOS = ['design:meta:read', 'design:content:read', 'design:content:write', 'folder:read'];
+// `asset:write` e `folder:write` entraram em 21/09/2026, para reconstruir o projeto Arsenal: subir
+// cada arte como asset, criar um design de uma página com ela e mesclar no projeto. Os designs
+// intermediários vão para uma pasta temporária que é apagada no fim — apagar pasta manda o
+// conteúdo para a lixeira, e é isso que impede 78 designs de lixo de ficarem soltos na conta.
+const ESCOPOS = ['design:meta:read', 'design:content:read', 'design:content:write',
+  'folder:read', 'folder:write', 'asset:read', 'asset:write'];
 
 // base64url = base64 sem padding e com os dois caracteres trocados; é o que o PKCE pede.
 const b64url = b => b.toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');

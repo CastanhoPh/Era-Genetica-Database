@@ -8,10 +8,15 @@
 // que garante a ordem no import do Canva. O nome é o mesmo do checklist, então a página do Canva e a
 // linha do painel se reconhecem.
 //
-// Só baixa o que FALTA. Arquivo que já existe fica como está mesmo se divergir do Storage: o
-// arquivo local é o export do Canva e a cópia no Storage é derivada dele, então diferença entre dois
-// exports do mesmo design é normal, não é arquivo velho. As diferenças saem no relatório, e
-// --rebaixar força a troca.
+// QUEM MANDA É O BANCO. Decisão do Pedro em 17/09/2026: divergiu, a pasta local cede e recebe a
+// versão do Storage. Antes a regra era a inversa — o arquivo local era tratado como a origem (o
+// export do Canva) e o Storage como cópia derivada, então divergência ficava parada esperando uma
+// decisão manual. Na prática isso deixou marcadores em branco de agosto no lugar de arte que já
+// estava publicada havia meses, e ninguém percebeu.
+//
+// Por isso, para valer a regra nova, use SEMPRE `--apply --rebaixar`. Sem `--rebaixar` o script
+// ainda só baixa o que falta e apenas RELATA as divergências, que é o comportamento antigo e
+// continua servindo para conferir antes de escrever.
 //
 // O relatório compara MD5, mas quem manda no download continua sendo o tamanho. É de propósito, e a
 // razão é o metadado do Canva: o mesmo design exportado em dois dias sai com o mesmo número de bytes
@@ -47,6 +52,11 @@ const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.le
 
 // A ordem é a dos projetos no Canva. `pasta` é o nome em disco, que não segue o rótulo da interface:
 // a pasta é "Capas Personagens" e o filtro do painel diz "Capas de Personagens".
+// `historico: true` separa os personagens de registro histórico num projeto próprio. Eles vivem
+// dentro dos mesmos tipos `timeline` e `capa` do checklist — não existe um tipo só deles — mas no
+// Canva são dois projetos à parte, e é assim que o Pedro trabalha. Sem essa divisão, os 16
+// históricos apareceriam no fim de "Linha do Tempo" e de "Capas Personagens" e as contagens
+// nunca fechariam com o Canva.
 const PROJ = [
   { tipo: 'timeline', pasta: 'Linha do Tempo', tam: '1080x1620' },
   { tipo: 'transformacao', pasta: 'Modos e Transformações', tam: '1080x1620' },
@@ -56,6 +66,8 @@ const PROJ = [
   { tipo: 'arsenal', pasta: 'Arsenal', tam: '1080x1080' },
   { tipo: 'evento', pasta: 'Eventos', tam: '1600x900' },
   { tipo: 'tecnica', pasta: 'Técnicas', tam: '1600x900' },
+  { tipo: 'timeline', pasta: 'Personagens Históricos', tam: '1080x1620', historico: true },
+  { tipo: 'capa', pasta: 'Capas Personagens Históricos', tam: '1024x768', historico: true },
 ];
 
 const chave = { full: achaChave() };
@@ -66,6 +78,15 @@ const bucket = admin.storage().bucket();
 if (!existsSync(BASE)) { console.error(`pasta não encontrada: ${BASE}`); process.exit(1); }
 
 const cl = (await db.collection('imageChecklist').get()).docs.map(x => x.data());
+
+// Quem tem registro histórico. O checklist não marca isso no item — a informação está na ficha —
+// então o vínculo é pelo nome: em `timeline` o personagem está em `temporada`, em `capa` está em
+// `name`. É o mesmo par de campos que o `tituloDe` usa para montar o nome do arquivo.
+const historicos = new Set(
+  (await db.collection('characters').get()).docs
+    .map(x => x.data()).filter(c => c.registro === 'historico').map(c => c.name),
+);
+const ehHistorico = i => historicos.has(i.type === 'capa' ? i.name : i.temporada);
 
 // Um listing só, em vez de getMetadata por item: dá tamanho e md5 de tudo de uma vez.
 const [objetos] = await bucket.getFiles();
@@ -92,7 +113,9 @@ let jaOk = 0, semArte = 0;
 
 // `for...of` em vez de forEach porque o hash do arquivo local é I/O e o laço precisa esperá-lo.
 for (const p of PROJ) {
-  const itens = cl.filter(i => (i.type ?? 'evento') === p.tipo).sort((a, b) => a.order - b.order);
+  const itens = cl
+    .filter(i => (i.type ?? 'evento') === p.tipo && (p.historico ? ehHistorico(i) : !ehHistorico(i)))
+    .sort((a, b) => a.order - b.order);
   const largura = String(itens.length).length;
   const dir = join(BASE, p.pasta);
   const querem = new Set();
