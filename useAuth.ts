@@ -19,14 +19,14 @@ const CHECKLIST_EDITOR_UIDS = new Set([
  * QUEM VÊ O AVISO DO HIROSHI HANZO ao entrar. Uma conta só, e ela não é admin nem editora da
  * checklist: o resto do site é o que qualquer visitante vê.
  *
- * O vínculo é por E-MAIL, não por UID, de propósito. Este endereço vai trocar pelo menos mais uma
- * vez — hoje aponta para a conta de teste, e na véspera da sessão passa para o Takeshi, para ele
- * não ver a mensagem antes da hora. Por e-mail a troca é esta linha; por UID seria preciso
- * descobrir o identificador da conta nova antes de poder escrever a linha.
+ * O vínculo é por E-MAIL, não por UID, de propósito. Até a véspera da sessão o endereço era o da
+ * conta de teste, para o Takeshi não ver a mensagem antes da hora; agora aponta para ele. Por
+ * e-mail a troca é esta linha; por UID seria preciso descobrir o identificador da conta nova antes
+ * de poder escrever a linha.
  *
- * Trocar de volta: 'takeshi.hatake@eragenetica.com'.
+ * Voltar para a conta de teste: 'teste@eragenetica.com'.
  */
-const EMAIL_DO_AVISO = 'teste@eragenetica.com';
+const EMAIL_DO_AVISO = 'takeshi.hatake@eragenetica.com';
 
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);

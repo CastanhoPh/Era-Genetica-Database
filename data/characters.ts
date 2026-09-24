@@ -1989,8 +1989,8 @@ export const initialData: Character[] = [
     position: "",
     role: "Tank",
     description: "",
-    hp: 106,
-    chakra: 46,
+    hp: 218,
+    chakra: 88,
     isDead: false,
     killedBy: "",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.png?alt=media&v=1790259191064707",
@@ -2019,11 +2019,11 @@ export const initialData: Character[] = [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2F1%C2%AA%20Temporada%2FMasmorra%2FTorturas%2FFuryuzan%20e%20Kazuki%20vendo%20eles%20desmaiados.png?alt=media&v=1788278010578058", caption: "Masmorra - Torturas - Furyuzan e Kazuki vendo eles desmaiados", category: "evento", season: "1ª Temporada", eventId: "LPg3ZhP6Jbm40ilbY1mj" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKazuki%20Hoshigaki%2F5__Temporada.png?alt=media&v=1790259193409487", caption: "5ª Temporada", category: "era" },
     ],
-    stats: { strength: 12, dexterity: 4, agility: 12, intelligence: 4, spirit: 12, vigor: 12, perception: 4 },
+    stats: { strength: 26, dexterity: 10, agility: 26, intelligence: 20, spirit: 26, vigor: 26, perception: 10 },
     powers: [
-      { name: "Geidetsu", level: 6 },
-      { name: "Sumiton", level: 6 },
-      { name: "Rasengan", level: 6 }
+      { name: "Geidetsu", level: 13 },
+      { name: "Sumiton", level: 13 },
+      { name: "Rasengan", level: 13 }
     ],
     aptitudes: [
       "Ambidestria",
