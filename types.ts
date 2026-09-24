@@ -467,7 +467,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Haruki Hyuga', role: 'Filho de Minoru e Akemi' },
       { name: 'Harunobu Namikaze', role: 'Pai de Sakura e Satoshi' },
       { name: 'Itama Senju', role: 'Filho de Butsuma e Kaori' },
-      { name: 'Kagami Uchiha', role: 'Irmão de Madara', nc: 28 },
       { name: 'Izuna Uchiha', role: 'Filho de Tajima e Setsuna', era: 'Era Hashirama' },
       { name: 'Kaori Senju', role: 'Mãe de Hashirama, Tobirama, Kawarama e Itama' },
       { name: 'Kohana Uzumaki', role: 'Esposa de Harunobu Namikaze, mãe de Sakura e Satoshi' },
