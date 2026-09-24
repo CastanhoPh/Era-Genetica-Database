@@ -333,14 +333,14 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   // (duplicado de propósito). Pendentes nunca entram em OCA (essa tag só existe pra quem já tem ficha).
   const CLASSIFICATION_GROUPS = [...VILLAGES, 'OCA'];
   const classificationsByVillage = useMemo(() => {
-    const map = new Map<string, { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean; principal?: boolean }[]>(CLASSIFICATION_GROUPS.map(v => [v, []]));
+    const map = new Map<string, { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean; principal?: boolean; historico?: boolean }[]>(CLASSIFICATION_GROUPS.map(v => [v, []]));
     for (const c of characters) {
       // Ficha oculta fica fora: a aba é referência pra decidir o NC de personagem novo, e
       // rascunho que não está no site não serve de referência nem conta como pendência.
       if (c.oculto) continue;
       // `principal` vem da tag de tipo da ficha, não de lista à parte — é o que tira o personagem
       // do ranking de força sem ninguém ter que lembrar de cadastrar o nome em dois lugares.
-      const entrada = { name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead, principal: foraDoRanking(c.categories) };
+      const entrada = { name: c.name, nc: Number(c.nc) || 0, clan: c.clan, dead: !!c.isDead, principal: foraDoRanking(c.categories), historico: c.registro === 'historico' };
       // `birthVillage` é a fonte preferida, mas só 16 das 86 fichas o têm preenchido — sem cair
       // para as vilas de `categories`, 40 personagens não apareciam em grupo nenhum. Quem tem duas
       // vilas de atuação entra nas duas, como a OCA já duplica de propósito.
@@ -620,7 +620,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   // que não têm vila nenhuma nas categorias.
   const classificationAllVillages = useMemo(() => {
     const vistos = new Set<string>();
-    const all: { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean; principal?: boolean }[] = [];
+    const all: { name: string; nc: number; clan: string; pending?: boolean; dead?: boolean; principal?: boolean; historico?: boolean }[] = [];
     for (const g of CLASSIFICATION_GROUPS) {
       for (const e of classificationsByVillage.get(g) ?? []) {
         const chave = `${e.name}|${e.pending ? 'p' : 'f'}`;
@@ -715,9 +715,14 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
   const classificationBase = classificationVillage === 'Todos' ? classificationAllVillages : (classificationsByVillage.get(classificationVillage) ?? []);
   // A lista traz ficha e pendente juntos, marcados por `pending` — os dois botoes da direita
   // separam os dois lados sem mexer na vila escolhida.
+  // Ordenar por Força não conta os personagens históricos (pedido do Pedro, 24/09/2026): eles não
+  // vão a jogo e não têm lugar no ranking — antes caíam no fim de cada NC marcados "sem posição".
+  // Sair AQUI, antes das contagens, é o que faz os números das faixas e do "Com Ficha" baterem com
+  // a lista. Com o botão desligado a aba continua mostrando todo mundo.
+  const classificationVisivel = classificationForca ? classificationBase.filter(c => !c.historico) : classificationBase;
   const classificationChars = classificationFicha === 'todos'
-    ? classificationBase
-    : classificationBase.filter(c => (classificationFicha === 'pendente') === !!c.pending);
+    ? classificationVisivel
+    : classificationVisivel.filter(c => (classificationFicha === 'pendente') === !!c.pending);
   // Faixas exclusivas (não cumulativas): NC 30 é só o topo; 26+ é 26-29; 20+ é 20-25; etc.
   const NC_BANDS: Record<'nc30' | 'nc26' | 'nc20' | 'nc16' | 'nc8', (nc: number) => boolean> = {
     nc30: nc => nc === 30,
@@ -2177,8 +2182,8 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
             </button>
             <div className="flex gap-1.5 shrink-0">
               {([
-                { k: 'ficha' as const, l: 'Com Ficha', n: classificationBase.filter(c => !c.pending).length },
-                { k: 'pendente' as const, l: 'Sem Ficha', n: classificationBase.filter(c => c.pending).length },
+                { k: 'ficha' as const, l: 'Com Ficha', n: classificationVisivel.filter(c => !c.pending).length },
+                { k: 'pendente' as const, l: 'Sem Ficha', n: classificationVisivel.filter(c => c.pending).length },
               ]).map(b => (
                 <button
                   key={b.k}
@@ -2219,7 +2224,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
 
           {classificationForca && (
             <p className="text-[9px] uppercase tracking-wide text-amber-300/60">
-              Dentro de cada NC, de cima pra baixo, do mais forte pro mais fraco.
+              Dentro de cada NC, de cima pra baixo, do mais forte pro mais fraco. Personagens históricos ficam de fora.
               {foraDaOrdem > 0 && ` ${foraDaOrdem} com ficha ainda sem posição — vão pro fim do bloco, marcados em âmbar.`}
             </p>
           )}
