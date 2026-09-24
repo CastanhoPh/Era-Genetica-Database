@@ -835,6 +835,17 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 73,
+    name: "Ganō no Kanmuri",
+    classification: "Z",
+    nature: "Doton Ancestral",
+    origin: "Iwagakure",
+    description: "A Ganō no Kanmuri, a 'Coroa do Rei da Pedra', é a coroa lendária de Rank Z dos samurais do País da Pedra. Foi usada primeiro por Tetsugen Ishi e hoje pertence a seu filho, Sekio Ishi, o Rei dos Samurais. Forjada em metal e rocha extraídos do coração das montanhas de Iwagakure, ela une quem a veste ao Doton Ancestral da própria terra: o portador sente cada vibração do solo ao seu redor, como se o chão inteiro fosse uma extensão do próprio corpo, e pode erguer, afundar ou partir o terreno com um simples gesto. Enquanto usa a coroa, o rei se torna tão firme quanto a montanha — nenhum impacto consegue movê-lo do lugar, e a pressão que ele exerce sobre o campo de batalha esmaga a vontade dos adversários mais fracos. A Ganō no Kanmuri é também o símbolo máximo da autoridade samurai: os guerreiros da Pedra reconhecem nela o direito de comandar. Passada de pai para filho, ela carrega o peso de toda a linhagem que já a usou.",
+    image: "",
+    originalOwner: "Tetsugen Ishi",
+    currentOwner: "Sekio Ishi"
+  },
+  {
+    id: 74,
     name: "Sōryū no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -845,7 +856,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 74,
+    id: 75,
     name: "Sōryo no Kōwan",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -856,7 +867,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 75,
+    id: 76,
     name: "Ryokushin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -867,7 +878,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 76,
+    id: 77,
     name: "Akashin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -878,7 +889,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 77,
+    id: 78,
     name: "Aoshin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -889,7 +900,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 78,
+    id: 79,
     name: "Gan-tei no Gaitō",
     classification: "S++",
     nature: "Doton + Bijuu",
@@ -901,7 +912,29 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 79,
+    id: 80,
+    name: "Hachisu no Oi",
+    classification: "S++",
+    nature: "Senjutsu + Dokujutsu",
+    origin: "Iwagakure",
+    description: "O Hachisu no Oi, a 'Colmeia do Peregrino', é a mochila lendária de Rank S++ de Iwato Kamizuru, mestre das abelhas e líder espiritual dos monges do País da Pedra. Por fora, é o oi de madeira que os monges peregrinos carregam nas costas; por dentro, é uma colmeia viva onde milhares de abelhas nascem, trabalham e obedecem ao chakra do portador. As abelhas se alimentam das flores das montanhas e trazem para a colmeia a energia natural presa no pólen, produzindo um mel denso capaz de restaurar chakra, fechar ferimentos e sustentar o Senjutsu de quem o consome. Em combate, o oi se abre e libera enxames inteiros: abelhas batedoras que vasculham o terreno e mostram ao usuário tudo o que encontram, e abelhas guerreiras cujo ferrão carrega venenos que paralisam, cegam ou queimam por dentro. A cera e o mel também servem de arma, prendendo inimigos em massas pegajosas das quais é quase impossível escapar. Para os monges, a colmeia é símbolo de comunidade e disciplina: milhares de vidas que agem como uma só, guiadas por uma única vontade.",
+    image: "",
+    originalOwner: "Iwato Kamizuru",
+    currentOwner: "Iwato Kamizuru"
+  },
+  {
+    id: 81,
+    name: "Senseki no Juzu",
+    classification: "S+",
+    nature: "Senjutsu + Doton",
+    origin: "Iwagakure",
+    description: "O Senseki no Juzu, o 'Rosário das Pedras do Sábio', é o colar de contas lendário de Rank S+ de Iwana Soryo, mestre do Senjutsu entre os monges do País da Pedra. Cada uma de suas contas foi talhada em pedra das montanhas sagradas de Iwagakure, onde a energia natural é mais densa, e guarda essa energia como a rocha guarda o calor do sol. Enquanto a usuária medita e passa as contas entre os dedos, o colar recolhe energia natural do chão e a acumula aos poucos, permitindo entrar no Modo Sábio muito mais rápido e sustentá-lo por mais tempo. Sua função mais importante é o equilíbrio: o juzu absorve o excesso de energia natural que atravessa o corpo, impedindo que o fluxo da montanha domine a usuária quando passa do limite. Em combate, as contas também reforçam o Doton moldado através do Senjutsu, tornando muralhas, pilares e golpes de terra tão densos quanto a própria montanha. É um instrumento de disciplina antes de ser uma arma — nas mãos de quem não aprendeu a esvaziar a mente, as contas pesam como rochas e não respondem.",
+    image: "",
+    originalOwner: "Iwana Soryo",
+    currentOwner: "Iwana Soryo"
+  },
+  {
+    id: 82,
     name: "Ishi no Kubikazari",
     classification: "S",
     nature: "Doton",
@@ -912,7 +945,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 80,
+    id: 83,
     name: "Ishi no Seimei",
     classification: "S",
     nature: "Doton",
@@ -923,7 +956,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 81,
+    id: 84,
     name: "Ganryū no Omori",
     classification: "A+",
     nature: "Doton",
@@ -935,7 +968,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Katsumi Hyuga"
   },
   {
-    id: 82,
+    id: 85,
     name: "Mugen",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -946,7 +979,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yuji Yotsuki"
   },
   {
-    id: 83,
+    id: 86,
     name: "Kōrin",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -957,7 +990,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 84,
+    id: 87,
     name: "Shizuku",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -968,7 +1001,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 85,
+    id: 88,
     name: "Raion",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -979,7 +1012,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 86,
+    id: 89,
     name: "Ōja",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -990,7 +1023,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 87,
+    id: 90,
     name: "Rensha",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -1001,7 +1034,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 88,
+    id: 91,
     name: "Guren",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -1012,7 +1045,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 89,
+    id: 92,
     name: "Shōdō no Naifu",
     classification: "S++",
     nature: "",
@@ -1023,7 +1056,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hahiko Shiosaki"
   },
   {
-    id: 90,
+    id: 93,
     name: "Protótipo de Reigan",
     classification: "S",
     nature: "Chakra Profano",

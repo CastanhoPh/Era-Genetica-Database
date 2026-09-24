@@ -76,24 +76,27 @@
 | 70 | Seimei no Saidan | Z | Seimeiryoku + Doton Ancestral | Iwagakure | Hades |
 | 71 | Ganju no Yari | Z | Mokuton | Iwagakure | Fudo Gunma |
 | 72 | Seiju no Udewa | Z | Mokuton | Iwagakure | Desconhecido |
-| 73 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 74 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 75 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 76 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 77 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 78 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
-| 79 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
-| 80 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
-| 81 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
-| 82 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
-| 83 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 84 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 85 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 86 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 87 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 88 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
-| 89 | Shōdō no Naifu | S++ | Desconhecido | OCA | Hahiko Shiosaki |
-| 90 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
+| 73 | Ganō no Kanmuri | Z | Doton Ancestral | Iwagakure | Sekio Ishi |
+| 74 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 75 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 76 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 77 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 78 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 79 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
+| 80 | Hachisu no Oi | S++ | Senjutsu + Dokujutsu | Iwagakure | Iwato Kamizuru |
+| 81 | Senseki no Juzu | S+ | Senjutsu + Doton | Iwagakure | Iwana Soryo |
+| 82 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
+| 83 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
+| 84 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
+| 85 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
+| 86 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 87 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 88 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 89 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 90 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 91 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
+| 92 | Shōdō no Naifu | S++ | Desconhecido | OCA | Hahiko Shiosaki |
+| 93 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
 
 ---
 
@@ -1199,8 +1202,23 @@ Os Seiju no Udewa, os 'Braceletes da Árvore Viva', são o par de braceletes len
 
 ---
 
-# Sōryū no Seikonseki
+# Ganō no Kanmuri
 ID: 73
+Classificação: Z
+Natureza: Doton Ancestral
+Origem: Iwagakure
+Dono Original: Tetsugen Ishi
+Dono Atual: Sekio Ishi
+
+
+
+## Descrição
+A Ganō no Kanmuri, a 'Coroa do Rei da Pedra', é a coroa lendária de Rank Z dos samurais do País da Pedra. Foi usada primeiro por Tetsugen Ishi e hoje pertence a seu filho, Sekio Ishi, o Rei dos Samurais. Forjada em metal e rocha extraídos do coração das montanhas de Iwagakure, ela une quem a veste ao Doton Ancestral da própria terra: o portador sente cada vibração do solo ao seu redor, como se o chão inteiro fosse uma extensão do próprio corpo, e pode erguer, afundar ou partir o terreno com um simples gesto. Enquanto usa a coroa, o rei se torna tão firme quanto a montanha — nenhum impacto consegue movê-lo do lugar, e a pressão que ele exerce sobre o campo de batalha esmaga a vontade dos adversários mais fracos. A Ganō no Kanmuri é também o símbolo máximo da autoridade samurai: os guerreiros da Pedra reconhecem nela o direito de comandar. Passada de pai para filho, ela carrega o peso de toda a linhagem que já a usou.
+
+---
+
+# Sōryū no Seikonseki
+ID: 74
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1215,7 +1233,7 @@ A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia 
 ---
 
 # Sōryo no Kōwan
-ID: 74
+ID: 75
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1230,7 +1248,7 @@ Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições 
 ---
 
 # Ryokushin no Seikonseki
-ID: 75
+ID: 76
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1245,7 +1263,7 @@ A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, foc
 ---
 
 # Akashin no Seikonseki
-ID: 76
+ID: 77
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1260,7 +1278,7 @@ A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e 
 ---
 
 # Aoshin no Seikonseki
-ID: 77
+ID: 78
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1275,7 +1293,7 @@ A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras
 ---
 
 # Gan-tei no Gaitō
-ID: 78
+ID: 79
 Classificação: S++
 Natureza: Doton + Bijuu
 Origem: Iwagakure
@@ -1289,8 +1307,38 @@ Esta imponente vestimenta, conhecida como Gan-tei no Gaitō, foi o traje de bata
 
 ---
 
+# Hachisu no Oi
+ID: 80
+Classificação: S++
+Natureza: Senjutsu + Dokujutsu
+Origem: Iwagakure
+Dono Original: Iwato Kamizuru
+Dono Atual: Iwato Kamizuru
+
+
+
+## Descrição
+O Hachisu no Oi, a 'Colmeia do Peregrino', é a mochila lendária de Rank S++ de Iwato Kamizuru, mestre das abelhas e líder espiritual dos monges do País da Pedra. Por fora, é o oi de madeira que os monges peregrinos carregam nas costas; por dentro, é uma colmeia viva onde milhares de abelhas nascem, trabalham e obedecem ao chakra do portador. As abelhas se alimentam das flores das montanhas e trazem para a colmeia a energia natural presa no pólen, produzindo um mel denso capaz de restaurar chakra, fechar ferimentos e sustentar o Senjutsu de quem o consome. Em combate, o oi se abre e libera enxames inteiros: abelhas batedoras que vasculham o terreno e mostram ao usuário tudo o que encontram, e abelhas guerreiras cujo ferrão carrega venenos que paralisam, cegam ou queimam por dentro. A cera e o mel também servem de arma, prendendo inimigos em massas pegajosas das quais é quase impossível escapar. Para os monges, a colmeia é símbolo de comunidade e disciplina: milhares de vidas que agem como uma só, guiadas por uma única vontade.
+
+---
+
+# Senseki no Juzu
+ID: 81
+Classificação: S+
+Natureza: Senjutsu + Doton
+Origem: Iwagakure
+Dono Original: Iwana Soryo
+Dono Atual: Iwana Soryo
+
+
+
+## Descrição
+O Senseki no Juzu, o 'Rosário das Pedras do Sábio', é o colar de contas lendário de Rank S+ de Iwana Soryo, mestre do Senjutsu entre os monges do País da Pedra. Cada uma de suas contas foi talhada em pedra das montanhas sagradas de Iwagakure, onde a energia natural é mais densa, e guarda essa energia como a rocha guarda o calor do sol. Enquanto a usuária medita e passa as contas entre os dedos, o colar recolhe energia natural do chão e a acumula aos poucos, permitindo entrar no Modo Sábio muito mais rápido e sustentá-lo por mais tempo. Sua função mais importante é o equilíbrio: o juzu absorve o excesso de energia natural que atravessa o corpo, impedindo que o fluxo da montanha domine a usuária quando passa do limite. Em combate, as contas também reforçam o Doton moldado através do Senjutsu, tornando muralhas, pilares e golpes de terra tão densos quanto a própria montanha. É um instrumento de disciplina antes de ser uma arma — nas mãos de quem não aprendeu a esvaziar a mente, as contas pesam como rochas e não respondem.
+
+---
+
 # Ishi no Kubikazari
-ID: 79
+ID: 82
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -1305,7 +1353,7 @@ O Ishi no Kubikazari é um colar de poder bruto, forjado a partir de minerais ra
 ---
 
 # Ishi no Seimei
-ID: 80
+ID: 83
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -1320,7 +1368,7 @@ O Ishi no Seimei é um artefato sagrado do País da Pedra que encerra em seu nú
 ---
 
 # Ganryū no Omori
-ID: 81
+ID: 84
 Classificação: A+
 Natureza: Doton
 Origem: Iwagakure
@@ -1335,7 +1383,7 @@ Estes pesos ancestrais, conhecidos como Ganryū no Omori, são imbuídos com cha
 ---
 
 # Mugen
-ID: 82
+ID: 85
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1350,7 +1398,7 @@ A Mugen é a primeira espada de Rank S++ entre os 7 Espectros do Yang, represent
 ---
 
 # Kōrin
-ID: 83
+ID: 86
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1365,7 +1413,7 @@ O Kōrin é o bastão elétrico de Rank S++ criado para representar a Frieza abs
 ---
 
 # Shizuku
-ID: 84
+ID: 87
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1380,7 +1428,7 @@ As Shizuku são correntes profanas de Rank S++ criadas para simbolizar a Serenid
 ---
 
 # Raion
-ID: 85
+ID: 88
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1395,7 +1443,7 @@ A Raion é uma lança dupla de Rank S++ criada para representar a Determinação
 ---
 
 # Ōja
-ID: 86
+ID: 89
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1410,7 +1458,7 @@ O Ōja é o machado profano de Rank S++ que representa o Orgulho entre os 7 Espe
 ---
 
 # Rensha
-ID: 87
+ID: 90
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1425,7 +1473,7 @@ A Rensha é a lâmina oculta profana de Rank S++ criada para representar a Fúri
 ---
 
 # Guren
-ID: 88
+ID: 91
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1440,7 +1488,7 @@ O Guren é o tridente profano de Rank S++ criado para simbolizar o Impulso entre
 ---
 
 # Shōdō no Naifu
-ID: 89
+ID: 92
 Classificação: S++
 Natureza: Desconhecido
 Origem: OCA
@@ -1455,7 +1503,7 @@ Desconhecido
 ---
 
 # Protótipo de Reigan
-ID: 90
+ID: 93
 Classificação: S
 Natureza: Chakra Profano
 Origem: OCA

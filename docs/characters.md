@@ -12117,7 +12117,13 @@ Rei dos Samurais.
 Desconhecido
 
 ## Arsenal
-Nenhum item cadastrado.
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
