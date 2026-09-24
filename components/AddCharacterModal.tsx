@@ -221,6 +221,14 @@ const AddCharacterModal: React.FC<AddCharacterModalProps> = ({ onClose, onAdd, i
     });
 
     const newChar: Character = {
+        // Na edição a ficha nova PARTE da original. O save grava o documento inteiro (setDoc sem
+        // merge), e sem isto todo campo que este formulário não mostra era apagado a cada edição:
+        // oculto, registro, eras, cargo, patente, vila, organização, invocações, habilidades
+        // lendárias, cor do chakra, perfil de combate e os campos da linha do tempo. Foi o que
+        // tirou vila, perfil e aparição do Mangetsu quando ele ganhou título e função pelo Painel.
+        // Os campos abaixo continuam mandando: o que o formulário limpa (killedBy de quem não
+        // está morto) sai como undefined e o save apaga.
+        ...(initialCharacter ?? {}),
         id: initialCharacter ? initialCharacter.id : Date.now(),
         ...(initialCharacter?.docId ? { docId: initialCharacter.docId } : {}),
         name: formData.name,
