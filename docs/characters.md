@@ -111,32 +111,32 @@
 | 105 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
 | 106 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
 | 107 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Vivo |
-| 108 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por Hashirama Senju) |
-| 109 | Mito Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Selamento da Kurama em Naomi Uzumaki) |
+| 108 | Mito Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Selamento da Kurama em Naomi Uzumaki) |
+| 109 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por Hashirama Senju) |
 | 110 | Konan Uchiha | Uchiha | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Suicídio) |
-| 111 | Kawarama Senju | Senju | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
-| 112 | Sakura Namikaze | Namikaze | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
-| 113 | Minoru Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Maldição do Fujogan) |
-| 114 | Ashina Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Selamento da Kurama em Mito Uzumaki) |
-| 115 | Hiruzen Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Son Goku) |
-| 116 | Hina Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Son Goku) |
-| 117 | Iwaki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 18 | 0 | 0 | Morto (morto por Nagare Uzumaki) |
-| 118 | Renji Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Morto (morto por Furyuzan Chinoike) |
-| 119 | Akemi Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 0 | 0 | 0 | Morto (morto por Raio Yotsuki) |
-| 120 | Oryo Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
-| 121 | Sekio Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
-| 122 | Mebuki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Vivo |
-| 123 | Raio Yotsuki | Yotsuki | NPC, Kumogakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Alpha) |
-| 124 | Fudo Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
-| 125 | Sekka Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Beta) |
-| 126 | Shikado Nara | Nara | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Hades) |
-| 127 | Kurai Nara | Nara | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Hades) |
-| 128 | Yui Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 8 | 0 | 0 | Vivo |
-| 129 | Iwana Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 26 | 0 | 0 | Vivo |
-| 130 | Iwato Kamizuru | Kamizuru | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
-| 131 | Sora Ganseki | Ganseki | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
-| 132 | Tetsugen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Omega) |
-| 133 | Shingen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Omega) |
+| 111 | Ashina Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Selamento da Kurama em Mito Uzumaki) |
+| 112 | Kawarama Senju | Senju | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
+| 113 | Sakura Namikaze | Namikaze | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
+| 114 | Minoru Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Maldição do Fujogan) |
+| 115 | Akemi Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 0 | 0 | 0 | Morto (morto por Raio Yotsuki) |
+| 116 | Renji Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Morto (morto por Furyuzan Chinoike) |
+| 117 | Hiruzen Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Son Goku) |
+| 118 | Hina Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Son Goku) |
+| 119 | Iwaki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 18 | 0 | 0 | Morto (morto por Nagare Uzumaki) |
+| 120 | Mebuki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Vivo |
+| 121 | Yui Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 8 | 0 | 0 | Vivo |
+| 122 | Shikado Nara | Nara | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Hades) |
+| 123 | Kurai Nara | Nara | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Hades) |
+| 124 | Raio Yotsuki | Yotsuki | NPC, Kumogakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Alpha) |
+| 125 | Fudo Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 126 | Sekka Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Beta) |
+| 127 | Tetsugen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Omega) |
+| 128 | Shingen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Omega) |
+| 129 | Oryo Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 130 | Sekio Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 131 | Iwana Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 26 | 0 | 0 | Vivo |
+| 132 | Iwato Kamizuru | Kamizuru | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
+| 133 | Sora Ganseki | Ganseki | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
 | 134 | Banjin Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 20 | 0 | 0 | Vivo |
 | 135 | Ruri Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 16 | 0 | 0 | Vivo |
 | 136 | Bilal Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 8 | 0 | 0 | Vivo |
@@ -11598,21 +11598,21 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Madara Uchiha
+# Mito Uzumaki
 ID: 108
-Clã: Uchiha
+Clã: Uzumaki
 Grupos: NPC, Konohagakure
-Função: Tanque e DPS
-NC: 30
+Função: Desconhecido
+NC: 28
 HP: 0
 Chakra: 0
-Status: Morto (morto por Hashirama Senju)
-Títulos: Fantasma dos Uchiha, Fundador de Konoha, Deus Shinobi
+Status: Morto (morto por Selamento da Kurama em Naomi Uzumaki)
+Títulos: Deusa dos Selos
 
-![Madara Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMadara%20Uchiha%2FMadara%20Uchiha.png?alt=media&v=1789485885214585)
+![Mito Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMito%20Uzumaki%2FMito%20Uzumaki.png?alt=media&v=1789485888962279)
 
 ## Descrição
-Desconhecido
+Esposa de Hashirama.
 
 ## Atributos
 - Força: 0
@@ -11637,21 +11637,21 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Mito Uzumaki
+# Madara Uchiha
 ID: 109
-Clã: Uzumaki
+Clã: Uchiha
 Grupos: NPC, Konohagakure
-Função: Desconhecido
-NC: 28
+Função: Tanque e DPS
+NC: 30
 HP: 0
 Chakra: 0
-Status: Morto (morto por Selamento da Kurama em Naomi Uzumaki)
-Títulos: Deusa dos Selos
+Status: Morto (morto por Hashirama Senju)
+Títulos: Fantasma dos Uchiha, Fundador de Konoha, Deus Shinobi
 
-![Mito Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMito%20Uzumaki%2FMito%20Uzumaki.png?alt=media&v=1789485888962279)
+![Madara Uchiha](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMadara%20Uchiha%2FMadara%20Uchiha.png?alt=media&v=1789485885214585)
 
 ## Descrição
-Esposa de Hashirama.
+Desconhecido
 
 ## Atributos
 - Força: 0
@@ -11715,8 +11715,46 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Kawarama Senju
+# Ashina Uzumaki
 ID: 111
+Clã: Uzumaki
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Morto (morto por Selamento da Kurama em Mito Uzumaki)
+
+![Ashina Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAshina%20Uzumaki%2FAshina%20Uzumaki.png?alt=media&v=1789490147209651)
+
+## Descrição
+Pai de Mito, Yumi, Naomi e Katsuo.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Kawarama Senju
+ID: 112
 Clã: Senju
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11755,7 +11793,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Sakura Namikaze
-ID: 112
+ID: 113
 Clã: Namikaze
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11794,7 +11832,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Minoru Hyuga
-ID: 113
+ID: 114
 Clã: Hyuga
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11831,20 +11869,58 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Ashina Uzumaki
-ID: 114
-Clã: Uzumaki
+# Akemi Hyuga
+ID: 115
+Clã: Hyuga
 Grupos: NPC, Konohagakure
 Função: Desconhecido
-NC: 30
+NC: 0
 HP: 0
 Chakra: 0
-Status: Morto (morto por Selamento da Kurama em Mito Uzumaki)
+Status: Morto (morto por Raio Yotsuki)
 
-![Ashina Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAshina%20Uzumaki%2FAshina%20Uzumaki.png?alt=media&v=1789490147209651)
+![Akemi Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkemi%20Hyuga%2FAkemi%20Hyuga.png?alt=media&v=1789491754777045)
 
 ## Descrição
-Pai de Mito, Yumi, Naomi e Katsuo.
+Esposa de Minoru Hyuga. Mãe de Hoshiro, Kaizuka e Haruki.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Renji Hyuga
+ID: 116
+Clã: Hyuga
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 16
+HP: 0
+Chakra: 0
+Status: Morto (morto por Furyuzan Chinoike)
+
+![Renji Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRenji%20Hyuga%2FRenji%20Hyuga.png?alt=media&v=1789490162549622)
+
+## Descrição
+Irmão de Ryuta. Treinou Katsumi.
 
 ## Atributos
 - Força: 0
@@ -11870,7 +11946,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hiruzen Sarutobi
-ID: 115
+ID: 117
 Clã: Sarutobi
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11908,7 +11984,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hina Sarutobi
-ID: 116
+ID: 118
 Clã: Sarutobi
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11946,7 +12022,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Iwaki Haruno
-ID: 117
+ID: 119
 Clã: Haruno
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11983,174 +12059,8 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Renji Hyuga
-ID: 118
-Clã: Hyuga
-Grupos: NPC, Konohagakure
-Função: Desconhecido
-NC: 16
-HP: 0
-Chakra: 0
-Status: Morto (morto por Furyuzan Chinoike)
-
-![Renji Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRenji%20Hyuga%2FRenji%20Hyuga.png?alt=media&v=1789490162549622)
-
-## Descrição
-Irmão de Ryuta. Treinou Katsumi.
-
-## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Akemi Hyuga
-ID: 119
-Clã: Hyuga
-Grupos: NPC, Konohagakure
-Função: Desconhecido
-NC: 0
-HP: 0
-Chakra: 0
-Status: Morto (morto por Raio Yotsuki)
-
-![Akemi Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkemi%20Hyuga%2FAkemi%20Hyuga.png?alt=media&v=1789491754777045)
-
-## Descrição
-Esposa de Minoru Hyuga. Mãe de Hoshiro, Kaizuka e Haruki.
-
-## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Oryo Soryo
-ID: 120
-Clã: Soryo
-Grupos: NPC, Iwagakure
-Função: Desconhecido
-NC: 30
-HP: 0
-Chakra: 0
-Status: Vivo
-
-![Oryo Soryo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOryo%20Soryo%2FOryo%20Soryo.png?alt=media&v=1789491758873455)
-
-## Descrição
-Mestre do Koton. Pai de Kenma.
-
-## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Sekio Ishi
-ID: 121
-Clã: Ishi
-Grupos: NPC, Iwagakure
-Função: Desconhecido
-NC: 30
-HP: 0
-Chakra: 0
-Status: Vivo
-
-![Sekio Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSekio%20Ishi%2FSekio%20Ishi.png?alt=media&v=1789491762885202)
-
-## Descrição
-Rei dos Samurais.
-
-## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-### 1. Desconhecido
-Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
-
-
-
-Descrição:
-Desconhecido
-
-### 2. Desconhecido
-Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
-
-
-
-Descrição:
-Desconhecido
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
 # Mebuki Haruno
-ID: 122
+ID: 120
 Clã: Haruno
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -12187,8 +12097,122 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Raio Yotsuki
+# Yui Haruno
+ID: 121
+Clã: Haruno
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 8
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Yui Haruno](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYui%20Haruno%2FYui%20Haruno.png?alt=media&v=1790278161240729)
+
+## Descrição
+Criança prodígio.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Shikado Nara
+ID: 122
+Clã: Nara
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 26
+HP: 0
+Chakra: 0
+Status: Morto (morto por Hades)
+
+![Shikado Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikado%20Nara%2FShikado%20Nara.png?alt=media&v=1790278155357147)
+
+## Descrição
+Pai de Shikaki e Shikatsu.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Kurai Nara
 ID: 123
+Clã: Nara
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 26
+HP: 0
+Chakra: 0
+Status: Morto (morto por Hades)
+
+![Kurai Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurai%20Nara%2FKurai%20Nara.png?alt=media&v=1790278158278611)
+
+## Descrição
+Mãe de Shikaki e Shikatsu.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Raio Yotsuki
+ID: 124
 Clã: Yotsuki
 Grupos: NPC, Kumogakure
 Função: Desconhecido
@@ -12226,7 +12250,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Fudo Gunma
-ID: 124
+ID: 125
 Clã: Gunma
 Grupos: NPC, Iwagakure
 Função: Desconhecido
@@ -12277,7 +12301,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Sekka Gunma
-ID: 125
+ID: 126
 Clã: Gunma
 Grupos: NPC, Iwagakure
 Função: Desconhecido
@@ -12314,58 +12338,20 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Shikado Nara
-ID: 126
-Clã: Nara
-Grupos: NPC, Konohagakure
-Função: Desconhecido
-NC: 26
-HP: 0
-Chakra: 0
-Status: Morto (morto por Hades)
-
-![Shikado Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikado%20Nara%2FShikado%20Nara.png?alt=media&v=1790278155357147)
-
-## Descrição
-Pai de Shikaki e Shikatsu.
-
-## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Kurai Nara
+# Tetsugen Ishi
 ID: 127
-Clã: Nara
-Grupos: NPC, Konohagakure
+Clã: Ishi
+Grupos: NPC, Iwagakure
 Função: Desconhecido
-NC: 26
+NC: 28
 HP: 0
 Chakra: 0
-Status: Morto (morto por Hades)
+Status: Morto (morto por Omega)
 
-![Kurai Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurai%20Nara%2FKurai%20Nara.png?alt=media&v=1790278158278611)
+![Tetsugen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsugen%20Ishi%2FTetsugen%20Ishi.png?alt=media&v=1790278173206721)
 
 ## Descrição
-Mãe de Shikaki e Shikatsu.
+Pai de Sekio Ishi.
 
 ## Atributos
 - Força: 0
@@ -12390,20 +12376,58 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Yui Haruno
+# Shingen Ishi
 ID: 128
-Clã: Haruno
-Grupos: NPC, Konohagakure
+Clã: Ishi
+Grupos: NPC, Iwagakure
 Função: Desconhecido
-NC: 8
+NC: 28
+HP: 0
+Chakra: 0
+Status: Morto (morto por Omega)
+
+![Shingen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShingen%20Ishi%2FShingen%20Ishi.png?alt=media&v=1790278176290570)
+
+## Descrição
+Irmão mais novo de Sekio Ishi.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Oryo Soryo
+ID: 129
+Clã: Soryo
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 30
 HP: 0
 Chakra: 0
 Status: Vivo
 
-![Yui Haruno](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYui%20Haruno%2FYui%20Haruno.png?alt=media&v=1790278161240729)
+![Oryo Soryo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOryo%20Soryo%2FOryo%20Soryo.png?alt=media&v=1789491758873455)
 
 ## Descrição
-Criança prodígio.
+Mestre do Koton. Pai de Kenma.
 
 ## Atributos
 - Força: 0
@@ -12422,6 +12446,58 @@ Desconhecido
 
 ## Arsenal
 Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Sekio Ishi
+ID: 130
+Clã: Ishi
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Sekio Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSekio%20Ishi%2FSekio%20Ishi.png?alt=media&v=1789491762885202)
+
+## Descrição
+Rei dos Samurais.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+### 2. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
 
 ## Técnicas
 Nenhuma técnica cadastrada.
@@ -12429,7 +12505,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Iwana Soryo
-ID: 129
+ID: 131
 Clã: Soryo
 Grupos: NPC, Iwagakure
 Função: Desconhecido
@@ -12473,7 +12549,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Iwato Kamizuru
-ID: 130
+ID: 132
 Clã: Kamizuru
 Grupos: NPC, Iwagakure
 Função: Desconhecido
@@ -12517,7 +12593,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Sora Ganseki
-ID: 131
+ID: 133
 Clã: Ganseki
 Grupos: NPC, Iwagakure
 Função: Desconhecido
@@ -12530,82 +12606,6 @@ Status: Vivo
 
 ## Descrição
 Mestre de genjutsu pelas vibrações do solo e líder espiritual dos monges.
-
-## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Tetsugen Ishi
-ID: 132
-Clã: Ishi
-Grupos: NPC, Iwagakure
-Função: Desconhecido
-NC: 28
-HP: 0
-Chakra: 0
-Status: Morto (morto por Omega)
-
-![Tetsugen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsugen%20Ishi%2FTetsugen%20Ishi.png?alt=media&v=1790278173206721)
-
-## Descrição
-Pai de Sekio Ishi.
-
-## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
-
-## Arsenal
-Nenhum item cadastrado.
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Shingen Ishi
-ID: 133
-Clã: Ishi
-Grupos: NPC, Iwagakure
-Função: Desconhecido
-NC: 28
-HP: 0
-Chakra: 0
-Status: Morto (morto por Omega)
-
-![Shingen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShingen%20Ishi%2FShingen%20Ishi.png?alt=media&v=1790278176290570)
-
-## Descrição
-Irmão mais novo de Sekio Ishi.
 
 ## Atributos
 - Força: 0
