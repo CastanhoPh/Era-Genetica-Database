@@ -76,23 +76,23 @@
 | 70 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
 | 71 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
 | 72 | Raizuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
-| 73 | Amakumo Hozuki | Hozuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
-| 74 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
-| 75 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
-| 76 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
-| 77 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
-| 78 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
-| 79 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
-| 80 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
-| 81 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
-| 82 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
-| 83 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
-| 84 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
-| 85 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
-| 86 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
-| 87 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
-| 88 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
-| 89 | Mangetsu Hozuki | Hozuki | NPC, Kirigakure |  | DPS | 29 | 242 | 76 | Vivo |
+| 73 | Mangetsu Hozuki | Hozuki | NPC, Kirigakure |  | DPS | 29 | 242 | 76 | Vivo |
+| 74 | Amakumo Hozuki | Hozuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
+| 75 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
+| 76 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
+| 77 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
+| 78 | Juzo Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Controle | 29 | 230 | 132 | Vivo |
+| 79 | Kōga Kirisame | Kirisame | NPC, Kirigakure |  | DPS e Controle | 28 | 225 | 85 | Vivo |
+| 80 | Mei Yuki | Yuki | NPC, Kirigakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
+| 81 | Nao Arashio | Arashio | NPC, Kirigakure |  | DPS | 26 | 218 | 88 | Vivo |
+| 82 | Ganmaren Yuki | Yuki | NPC, Kirigakure |  | Controle | 30 | 250 | 137 | Vivo |
+| 83 | Gordon Kirisame | Kirisame | NPC, Kirigakure |  | Suporte e Tanque | 28 | 234 | 94 | Vivo |
+| 84 | Hahiko Shiosaki | Shiosaki | NPC, Kirigakure |  | DPS | 28 | 234 | 141 | Vivo |
+| 85 | Himari Yuki | Yuki | NPC, Kirigakure |  | DPS | 27 | 226 | 91 | Vivo |
+| 86 | Enkai Kuroshio | Kuroshio | NPC, Kirigakure |  | DPS e Suporte | 29 | 230 | 132 | Vivo |
+| 87 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
+| 88 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
+| 89 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
 | 90 | Sazare Gunma | Gunma | NPC, Iwagakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
 | 91 | Iwao Gunma | Gunma | NPC, Iwagakure |  | Controle e DPS | 25 | 210 | 64 | Vivo |
 | 92 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
@@ -9032,8 +9032,53 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Amakumo Hozuki
+# Mangetsu Hozuki
 ID: 73
+Clã: Hozuki
+Grupos: NPC, Kirigakure
+Função: DPS
+NC: 29
+HP: 242
+Chakra: 76
+Status: Vivo
+Títulos: Assasino da armadura verde de konoha
+
+![Mangetsu Hozuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMangetsu%20Hozuki%2FMangetsu%20Hozuki.png?alt=media&v=1790265213864071)
+
+## Descrição
+Desconhecido
+
+## Atributos
+- Força: 12
+- Destreza: 29
+- Agilidade: 12
+- Inteligência: 29
+- Espírito: 22
+- Vigor: 29
+- Percepção: 29
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Amakumo Hozuki
+ID: 74
 Clã: Hozuki
 Grupos: NPC, Kirigakure
 Função: Tank
@@ -9078,7 +9123,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Genzō Umikage
-ID: 74
+ID: 75
 Clã: Umikage
 Grupos: NPC, Kirigakure
 Função: Suporte e Controle
@@ -9131,7 +9176,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Raizuki Hoshigaki
-ID: 75
+ID: 76
 Clã: Hoshigaki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9172,7 +9217,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Suiren Shiranami
-ID: 76
+ID: 77
 Clã: Shiranami
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9225,7 +9270,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Juzo Kuroshio
-ID: 77
+ID: 78
 Clã: Kuroshio
 Grupos: NPC, Kirigakure
 Função: DPS e Controle
@@ -9277,7 +9322,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kōga Kirisame
-ID: 78
+ID: 79
 Clã: Kirisame
 Grupos: NPC, Kirigakure
 Função: DPS e Controle
@@ -9320,7 +9365,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mei Yuki
-ID: 79
+ID: 80
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: Controle e DPS
@@ -9378,7 +9423,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Nao Arashio
-ID: 80
+ID: 81
 Clã: Arashio
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9422,7 +9467,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Ganmaren Yuki
-ID: 81
+ID: 82
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: Controle
@@ -9491,7 +9536,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Gordon Kirisame
-ID: 82
+ID: 83
 Clã: Kirisame
 Grupos: NPC, Kirigakure
 Função: Suporte e Tanque
@@ -9545,7 +9590,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hahiko Shiosaki
-ID: 83
+ID: 84
 Clã: Shiosaki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9597,7 +9642,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Himari Yuki
-ID: 84
+ID: 85
 Clã: Yuki
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9645,7 +9690,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Enkai Kuroshio
-ID: 85
+ID: 86
 Clã: Kuroshio
 Grupos: NPC, Kirigakure
 Função: DPS e Suporte
@@ -9692,7 +9737,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Ayame Sazanami
-ID: 86
+ID: 87
 Clã: Sazanami
 Grupos: NPC, Kirigakure
 Função: Suporte e Controle
@@ -9744,7 +9789,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Tōma Umikage
-ID: 87
+ID: 88
 Clã: Umikage
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9793,7 +9838,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mirei Sazanami
-ID: 88
+ID: 89
 Clã: Sazanami
 Grupos: NPC, Kirigakure
 Função: DPS
@@ -9827,51 +9872,6 @@ Luta com técnicas de espada e manipula Suiton. Criou o Clone Falso, um clone-ar
 
 ## Aptidões
 Shingan, Chakra Expandido: Uzumaki, Kogou Fusa, Velocista, Maestria: CD, Intuição, Ataque em Movimento, Potencializar, Mestre dos Selos, Lutar às Cegas, Mira Apurada, Oportunista, Mobilidade, Punho de Ferro, Reflexos, Retirada Rápida, Rolamento
-
-## Arsenal
-### 1. Desconhecido
-Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
-
-
-
-Descrição:
-Desconhecido
-
-## Técnicas
-Nenhuma técnica cadastrada.
-
----
-
-# Mangetsu Hozuki
-ID: 89
-Clã: Hozuki
-Grupos: NPC, Kirigakure
-Função: DPS
-NC: 29
-HP: 242
-Chakra: 76
-Status: Vivo
-Títulos: Assasino da armadura verde de konoha
-
-![Mangetsu Hozuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMangetsu%20Hozuki%2FMangetsu%20Hozuki.png?alt=media&v=1790265213864071)
-
-## Descrição
-Desconhecido
-
-## Atributos
-- Força: 12
-- Destreza: 29
-- Agilidade: 12
-- Inteligência: 29
-- Espírito: 22
-- Vigor: 29
-- Percepção: 29
-
-## Poderes e Elementos
-- Desconhecido
-
-## Aptidões
-Desconhecido
 
 ## Arsenal
 ### 1. Desconhecido
