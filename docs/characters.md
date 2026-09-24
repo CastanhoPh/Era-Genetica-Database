@@ -816,7 +816,7 @@ Chakra: 96
 Status: Vivo
 Títulos: Fantasma dos Uzumaki, O Fantasma dos Uzumaki, O Teleportador, Assassino de A
 
-![Nagare Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.png?alt=media&v=1788278277835268)
+![Nagare Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FNagare%20Uzumaki.png?alt=media&v=1790279274901328)
 
 ## Descrição
 O Fantasma dos Uzumaki e a Voz da Destruição\n\nNagare, desde muito cedo, foi marcado por intensos conflitos familiares que moldaram seu caráter e endureceram sua visão de mundo. Após o Exame Chūnin, decidiu abandonar a vila, seguindo um caminho sombrio ao se unir à Organização do Chakra Artificial (OCA). Com o tempo, seus feitos e sua dedicação o levaram a desenvolver habilidades únicas: tornou-se um mestre do Estilo Raio, alcançando uma velocidade quase sobrenatural, o que lhe rendeu os títulos de Velocista e Fantasma dos Uzumaki.\n\nReconhecido por sua força, sua liderança e, principalmente, por seu jeito único de dançar com a morte, Nagare foi nomeado Chūnin da Vila da Nuvem e assumiu a liderança dos Hayato, uma organização interna da OCA cujo propósito era destruí-la de dentro para fora. Contudo, rompendo definitivamente com seu passado, desertou tanto da OCA quanto de Konoha. Agora, carrega o peso de suas escolhas, a sombra de tudo o que viveu e uma voz que ecoa em seu interior, uma presença obscura e implacável que, no fundo de sua consciência, anseia pela destruição de tudo: Kaminare.\n\nPortador de Técnicas únicas:\n* Kaminari Branco\n* Amenotejikara
@@ -12485,7 +12485,7 @@ Status: Vivo
 ![Iwato Kamizuru](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FIwato%20Kamizuru%2FIwato%20Kamizuru.png?alt=media&v=1790278167105235)
 
 ## Descrição
-Mestre das abelhas e líder espiritual dos monges.
+Mestre das abelhas e líder mental dos monges.
 
 ## Atributos
 - Força: 0
@@ -12529,7 +12529,7 @@ Status: Vivo
 ![Sora Ganseki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSora%20Ganseki%2FSora%20Ganseki.png?alt=media&v=1790278170092033)
 
 ## Descrição
-Mestre de genjutsu pelas vibrações do solo e líder mental dos monges.
+Mestre de genjutsu pelas vibrações do solo e líder espiritual dos monges.
 
 ## Atributos
 - Força: 0

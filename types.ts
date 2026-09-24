@@ -486,6 +486,13 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Murasame Hoshigaki', role: 'Mãe de Kazuki, morta por Ganmasen', dead: true, nc: 18 },
     ],
   },
+  {
+    village: 'Iwagakure',
+    entries: [
+      { name: 'Zanshin Ishi', role: '1ª Líder Mental dos Samurais e 2ª Dama dos Samurais' },
+      { name: 'Onna Ishi', role: '1ª Dama dos Samurais' },
+    ],
+  },
 ];
 
 // Armas/artefatos que já existem na história mas ainda não foram cadastrados no Arsenal.

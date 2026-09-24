@@ -82,13 +82,16 @@ export const POSTOS_POR_ABA: Record<string, PostoDeAba[]> = {
   // dos samurais, o segundo é o dos monges. O rótulo junta os dois; o cargo na ficha diz qual.
   //
   // A Dama da Terra entrou em 24/09/2026 com a Sekka Gunma, esposa do 1º Tsuchikage. Fica logo
-  // abaixo da liderança da vila, como a Dama de Konoha fica abaixo do Hokage e dos Braços.
+  // abaixo da liderança da vila, como a Dama de Konoha fica abaixo do Hokage e dos Braços. A Dama
+  // dos Samurais entrou no mesmo dia, logo abaixo do Rei dos Samurais — Onna e Zanshin Ishi, as duas
+  // primeiras, ainda sem ficha.
   Iwagakure: [
     { label: 'Tsuchikage', postos: ['Tsuchikage'] },
     { label: 'Governador da Pedra', postos: ['Governador da Pedra'] },
     { label: 'Dama da Terra', postos: ['Dama da Terra'] },
     { label: 'Líder dos Monges', postos: ['Líder dos Monges'] },
     { label: 'Rei dos Samurais', postos: ['Rei dos Samurais'] },
+    { label: 'Dama dos Samurais', postos: ['Dama dos Samurais'] },
     { label: 'Líder Espiritual', postos: ['Líder Espiritual dos Samurais', 'Líder Espiritual dos Monges'] },
     { label: 'Líder Mental', postos: ['Líder Mental dos Samurais', 'Líder Mental dos Monges'] },
     { label: 'Líder Corporal', postos: ['Líder Corporal dos Samurais', 'Líder Corporal dos Monges'] },
