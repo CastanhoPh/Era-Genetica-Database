@@ -491,13 +491,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
     ],
   },
   {
-    village: 'Kumogakure',
-    entries: [
-      { name: 'Raio Yotsuki', role: 'Primeiro Raikage', nc: 30 },
-      { name: 'Raiden Kurokumo', role: 'Criança prodígio', nc: 8 },
-    ],
-  },
-  {
     village: 'Iwagakure',
     entries: [
       { name: 'Iwana Soryo', role: 'Mestre do Senjutsu e Mãe de Kenma', nc: 26 },
@@ -506,7 +499,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
       { name: 'Banjin Bakuren', role: 'Pai de Bilal', nc: 20 },
       { name: 'Iwato Kamizuru', role: 'Mestre das Abelhas e Líder Espiritual dos Monges', nc: 27 },
       { name: 'Sora Ganseki', role: 'Mestre de Genjutsu pelas vibrações do solo e Líder Mental dos Monges', nc: 27 },
-      { name: 'Fudo Gunma', role: 'Pai de Rock Gunma, Primeiro Tsuchikage', nc: 30 },
       { name: 'Shingen Ishi', role: 'Irmão mais novo de Sekio Ishi', nc: 28 },
       { name: 'Tetsugen Ishi', role: 'Pai de Sekio Ishi', nc: 28 },
     ],
