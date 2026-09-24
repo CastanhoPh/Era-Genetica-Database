@@ -6,6 +6,6 @@
 // de cache se invalida inteira sozinha.
 export const ARQUIVOS_DE_DADOS = {
   personagens: "personagens-7decc701.json",
-  arsenal: "arsenal-e0612386.json",
-  checklist: "checklist-686b8c59.json"
+  arsenal: "arsenal-de35cf38.json",
+  checklist: "checklist-c73a645c.json"
 } as const;

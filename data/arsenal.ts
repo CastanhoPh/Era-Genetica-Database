@@ -824,11 +824,11 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 72,
-    name: "Nenrin no Udewa",
+    name: "Seiju no Udewa",
     classification: "Z",
     nature: "Mokuton",
     origin: "Iwagakure",
-    description: "Os Nenrin no Udewa, os 'Braceletes dos Anéis da Árvore', são o par de braceletes lendários de Rank Z de Sekka Gunma. Esculpidos em madeira de Mokuton e gravados com anéis concêntricos como os de um tronco antigo, eles potencializam todo o Mokuton que passa pelos braços da usuária. Seu poder mais raro é levar o Mokuton para o próprio corpo: com os braceletes, a madeira cresce sobre a pele e transforma braços e punhos em armaduras, lâminas e garras vivas, permitindo usar o elemento no combate corpo a corpo em vez de apenas moldá-lo à distância. Os anéis gravados também servem ao genjutsu. Quando o chakra circula por eles, formam espirais que prendem o olhar de quem observa, e o Mokuton passa a carregar a ilusão — raízes, folhas e o perfume das flores invadem os sentidos do inimigo e o prendem num transe muito mais profundo do que um genjutsu comum. Nas mãos de Sekka, cada árvore do campo de batalha se tornava uma extensão dos próprios braços, tanto para golpear quanto para enganar.",
+    description: "Os Seiju no Udewa, os 'Braceletes da Árvore Viva', são o par de braceletes lendários de Rank Z de Sekka Gunma. Feitos de madeira de Mokuton que nunca deixou de crescer, eles pulsam como um tronco vivo em volta dos pulsos da usuária e potencializam todo o Mokuton que passa pelos seus braços. Seu poder mais raro é levar o Mokuton para o próprio corpo: com os braceletes, a madeira cresce sobre a pele e transforma braços e punhos em armaduras, lâminas e garras vivas, permitindo usar o elemento no combate corpo a corpo em vez de apenas moldá-lo à distância. A madeira viva também serve ao genjutsu. Quando o chakra de Sekka circula por ela, os braceletes florescem, e o Mokuton passa a carregar a ilusão — raízes, folhas e o perfume das flores invadem os sentidos do inimigo e o prendem num transe muito mais profundo do que um genjutsu comum. Nas mãos de Sekka, cada árvore do campo de batalha se tornava uma extensão dos próprios braços, tanto para golpear quanto para enganar.",
     image: "",
     originalOwner: "Sekka Gunma",
     currentOwner: ""
