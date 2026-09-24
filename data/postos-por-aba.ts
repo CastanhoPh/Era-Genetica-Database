@@ -56,8 +56,11 @@ export const POSTOS_POR_ABA: Record<string, PostoDeAba[]> = {
   // A Marinha é organização de Kirigakure: o Mizukage é cargo, o resto é patente. Por prefixo
   // porque cada posto existe uma vez por frota — hoje Leviatã, Kraken, Megalodon e Jormungandr.
   // O feminino entra separado: as fichas gravam "Capitã da Frota Kraken", não "Capitão".
+  // O Marechal (24/09/2026) fica acima dos quatro Almirantes e não é de frota nenhuma. O Mangetsu
+  // Hozuki foi o 1º e o 2º, e a ficha grava os dois mandatos.
   Kirigakure: [
     { label: 'Mizukage', postos: ['Mizukage'] },
+    { label: 'Marechal', postos: ['Marechal'] },
     { label: 'Almirante', prefixos: ['Almirante da Frota'] },
     { label: 'Vice-Almirante', prefixos: ['Vice-Almirante da Frota'] },
     { label: 'Capitão', prefixos: ['Capitão da Frota', 'Capitã da Frota'] },
