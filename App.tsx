@@ -26,6 +26,7 @@ const Invocacoes = lazy(() => import('./pages/Invocacoes'));
 const AdminPanel = lazy(() => import('./pages/AdminPanel'));
 const ChecklistPanel = lazy(() => import('./pages/ChecklistPanel'));
 const AvisoUrgente = lazy(() => import('./components/AvisoUrgente'));
+import Configuracoes from './components/Configuracoes';
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const Habilidades = lazy(() => import('./pages/Habilidades'));
 
@@ -846,6 +847,9 @@ export default function App() {
                             <ListChecks size={10} /> CHECKLIST
                         </button>
                     )}
+                    {/* Configurações: para TODO MUNDO, logado ou não — quem mais precisa do modo leve
+                        pode ser o computador da sessão sem ninguém logado */}
+                    <Configuracoes />
                     {user ? (
                         <button
                             onClick={() => logout()}
@@ -1164,13 +1168,17 @@ export default function App() {
                 {showLoginModal && <LoginModal onClose={() => navigate(mainTabPath(activeMainTab))} onLogin={login} />}
 
                 {/* por cima de tudo, inclusive do modal de login que acabou de fechar */}
+                {/* .aviso-urgente fica de fora do modo leve (ver index.css): a sequência do Hanzo é
+                    feita de animação, e o computador da sessão pode estar em modo leve */}
                 {aviso && (
-                    <Suspense fallback={null}>
-                        <AvisoUrgente
-                            onClose={() => setAviso(false)}
-                            capaDoHanzo={characters.find(c => c.name === 'Hiroshi Hanzo')?.image}
-                        />
-                    </Suspense>
+                    <div className="aviso-urgente">
+                        <Suspense fallback={null}>
+                            <AvisoUrgente
+                                onClose={() => setAviso(false)}
+                                capaDoHanzo={characters.find(c => c.name === 'Hiroshi Hanzo')?.image}
+                            />
+                        </Suspense>
+                    </div>
                 )}
             </Suspense>
         </div>

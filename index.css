@@ -150,3 +150,54 @@ body {
 .scrollbar-none::-webkit-scrollbar {
     display: none;
 }
+
+/* ================================================================================================
+   MODO LEVE — para o site rodar em computador simples. Liga no botão CONFIG da barra superior.
+
+   Uma classe só na raiz (html.modo-leve), posta por utils/modoLeve.ts e, antes da primeira
+   pintura, por um script inline no index.html. Tirar a classe devolve o site exatamente como era.
+
+   O QUE PESA, e por isso sai daqui:
+   - .crt::before e .scanline-bar são camadas FIXAS de tela inteira por cima de tudo; o navegador
+     recompõe a tela inteira a cada quadro de rolagem por causa delas.
+   - backdrop-filter é dos efeitos mais caros do CSS, e a lista de personagens tem um em cada card
+     (a etiqueta de vila) e outro no cabeçalho fixo.
+   - animação e transição contínuas mantêm a GPU ocupada mesmo com a tela parada.
+   - filtro (grayscale/brightness) em 123 capas de 1024x768 custa composição em toda a lista.
+
+   O AVISO DO TAKESHI FICA DE FORA. A sequência do Hiroshi Hanzo é feita de animação — janelas
+   abrindo, glitch, cursor piscando — e sem ela o momento sai chapado. O App monta o aviso dentro
+   de .aviso-urgente, e o :not() abaixo o exclui. O computador da sessão pode estar em modo leve e o
+   aviso roda inteiro mesmo assim.
+
+   O spinner de carregamento também fica: parado, ele parece travamento.
+   ================================================================================================ */
+html.modo-leve .crt::before,
+html.modo-leve .scanline-bar,
+html.modo-leve .bg-grid-pattern,
+html.modo-leve .anel-brilho {
+    display: none !important;
+}
+
+html.modo-leve *:not(.aviso-urgente, .aviso-urgente *, .animate-spin),
+html.modo-leve *:not(.aviso-urgente, .aviso-urgente *, .animate-spin)::before,
+html.modo-leve *:not(.aviso-urgente, .aviso-urgente *, .animate-spin)::after {
+    animation: none !important;
+    transition: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* as capas saem coloridas: o cinza era estética, não o sinal de morte (o card de morto tem a
+   faixa MORTO e o NC em vermelho — ver BotaoDeCores.tsx) */
+html.modo-leve img:not(.aviso-urgente img) {
+    filter: none !important;
+}
+
+html.modo-leve .text-glow {
+    text-shadow: none !important;
+}
+
+html.modo-leve .card-zoom-container:hover img {
+    transform: none !important;
+}
