@@ -846,17 +846,6 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 74,
-    name: "Tenkō no Tsuchi",
-    classification: "Z",
-    nature: "Yoton + Doton Ancestral",
-    origin: "Iwagakure",
-    description: "O Tenkō no Tsuchi, o 'Martelo da Obra Celeste', é o lendário martelo de forja de Rank Z do País da Pedra — o martelo usado para forjar todas as relíquias de Iwagakure. Seu portador é Shingen Ishi, irmão mais novo de Sekio Ishi. Diferente de qualquer ferramenta comum, ele não apenas molda o metal: a cada golpe, funde Yoton e Doton Ancestral no material e grava nele o chakra de quem forja, e é por isso que as armas nascidas sob seus golpes guardam poderes que nenhuma forja comum consegue reproduzir. Nas mãos de um mestre, o martelo também devolve a forma a relíquias rachadas ou quebradas, reforjando-as sem que percam o que carregam. Em combate, o Tenkō no Tsuchi deixa de ser ferramenta: sua cabeça arde como rocha derretida, cada impacto funde o aço e a pedra que atinge, e as ondas de choque que ele envia pelo chão partem o terreno como se a própria montanha tivesse sido golpeada. Mais do que uma arma, é a origem do arsenal da Pedra — todas as lâminas, coroas e relíquias lendárias de Iwagakure carregam, em algum ponto, a marca dos seus golpes.",
-    image: "",
-    originalOwner: "Shingen Ishi",
-    currentOwner: "Shingen Ishi"
-  },
-  {
-    id: 75,
     name: "Sōryū no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -867,7 +856,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 76,
+    id: 75,
     name: "Sōryo no Kōwan",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -878,7 +867,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 77,
+    id: 76,
     name: "Ryokushin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -889,7 +878,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 78,
+    id: 77,
     name: "Akashin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -900,7 +889,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 79,
+    id: 78,
     name: "Aoshin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -911,7 +900,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 80,
+    id: 79,
     name: "Gan-tei no Gaitō",
     classification: "S++",
     nature: "Doton + Bijuu",
@@ -923,7 +912,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 81,
+    id: 80,
     name: "Hachisu no Oi",
     classification: "S++",
     nature: "Senjutsu + Dokujutsu",
@@ -932,6 +921,17 @@ export const arsenalData: Equipment[] = [
     image: "",
     originalOwner: "Iwato Kamizuru",
     currentOwner: "Iwato Kamizuru"
+  },
+  {
+    id: 81,
+    name: "Tenkō no Tsuchi",
+    classification: "S++",
+    nature: "Yoton + Doton Ancestral",
+    origin: "Iwagakure",
+    description: "O Tenkō no Tsuchi, o 'Martelo da Obra Celeste', é o lendário martelo de forja de Rank S++ do País da Pedra — o martelo usado para forjar todas as relíquias de Iwagakure. Seu portador é Shingen Ishi, irmão mais novo de Sekio Ishi. Diferente de qualquer ferramenta comum, ele não apenas molda o metal: a cada golpe, funde Yoton e Doton Ancestral no material e grava nele o chakra de quem forja, e é por isso que as armas nascidas sob seus golpes guardam poderes que nenhuma forja comum consegue reproduzir. Nas mãos de um mestre, o martelo também devolve a forma a relíquias rachadas ou quebradas, reforjando-as sem que percam o que carregam. Em combate, o Tenkō no Tsuchi deixa de ser ferramenta: sua cabeça arde como rocha derretida, cada impacto funde o aço e a pedra que atinge, e as ondas de choque que ele envia pelo chão partem o terreno como se a própria montanha tivesse sido golpeada. Mais do que uma arma, é a origem do arsenal da Pedra — todas as lâminas, coroas e relíquias lendárias de Iwagakure carregam, em algum ponto, a marca dos seus golpes.",
+    image: "",
+    originalOwner: "Shingen Ishi",
+    currentOwner: "Shingen Ishi"
   },
   {
     id: 82,

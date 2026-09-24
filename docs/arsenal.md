@@ -77,14 +77,14 @@
 | 71 | Ganju no Yari | Z | Mokuton | Iwagakure | Fudo Gunma |
 | 72 | Seiju no Udewa | Z | Mokuton | Iwagakure | Desconhecido |
 | 73 | Ganō no Kanmuri | Z | Doton Ancestral | Iwagakure | Sekio Ishi |
-| 74 | Tenkō no Tsuchi | Z | Yoton + Doton Ancestral | Iwagakure | Shingen Ishi |
-| 75 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 76 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 77 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 78 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 79 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 80 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
-| 81 | Hachisu no Oi | S++ | Senjutsu + Dokujutsu | Iwagakure | Iwato Kamizuru |
+| 74 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 75 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 76 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 77 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 78 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 79 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
+| 80 | Hachisu no Oi | S++ | Senjutsu + Dokujutsu | Iwagakure | Iwato Kamizuru |
+| 81 | Tenkō no Tsuchi | S++ | Yoton + Doton Ancestral | Iwagakure | Shingen Ishi |
 | 82 | Senseki no Juzu | S+ | Senjutsu + Doton | Iwagakure | Iwana Soryo |
 | 83 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
 | 84 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
@@ -1218,23 +1218,8 @@ A Ganō no Kanmuri, a 'Coroa do Rei da Pedra', é a coroa lendária de Rank Z do
 
 ---
 
-# Tenkō no Tsuchi
-ID: 74
-Classificação: Z
-Natureza: Yoton + Doton Ancestral
-Origem: Iwagakure
-Dono Original: Shingen Ishi
-Dono Atual: Shingen Ishi
-
-
-
-## Descrição
-O Tenkō no Tsuchi, o 'Martelo da Obra Celeste', é o lendário martelo de forja de Rank Z do País da Pedra — o martelo usado para forjar todas as relíquias de Iwagakure. Seu portador é Shingen Ishi, irmão mais novo de Sekio Ishi. Diferente de qualquer ferramenta comum, ele não apenas molda o metal: a cada golpe, funde Yoton e Doton Ancestral no material e grava nele o chakra de quem forja, e é por isso que as armas nascidas sob seus golpes guardam poderes que nenhuma forja comum consegue reproduzir. Nas mãos de um mestre, o martelo também devolve a forma a relíquias rachadas ou quebradas, reforjando-as sem que percam o que carregam. Em combate, o Tenkō no Tsuchi deixa de ser ferramenta: sua cabeça arde como rocha derretida, cada impacto funde o aço e a pedra que atinge, e as ondas de choque que ele envia pelo chão partem o terreno como se a própria montanha tivesse sido golpeada. Mais do que uma arma, é a origem do arsenal da Pedra — todas as lâminas, coroas e relíquias lendárias de Iwagakure carregam, em algum ponto, a marca dos seus golpes.
-
----
-
 # Sōryū no Seikonseki
-ID: 75
+ID: 74
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1249,7 +1234,7 @@ A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia 
 ---
 
 # Sōryo no Kōwan
-ID: 76
+ID: 75
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1264,7 +1249,7 @@ Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições 
 ---
 
 # Ryokushin no Seikonseki
-ID: 77
+ID: 76
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1279,7 +1264,7 @@ A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, foc
 ---
 
 # Akashin no Seikonseki
-ID: 78
+ID: 77
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1294,7 +1279,7 @@ A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e 
 ---
 
 # Aoshin no Seikonseki
-ID: 79
+ID: 78
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1309,7 +1294,7 @@ A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras
 ---
 
 # Gan-tei no Gaitō
-ID: 80
+ID: 79
 Classificação: S++
 Natureza: Doton + Bijuu
 Origem: Iwagakure
@@ -1324,7 +1309,7 @@ Esta imponente vestimenta, conhecida como Gan-tei no Gaitō, foi o traje de bata
 ---
 
 # Hachisu no Oi
-ID: 81
+ID: 80
 Classificação: S++
 Natureza: Senjutsu + Dokujutsu
 Origem: Iwagakure
@@ -1335,6 +1320,21 @@ Dono Atual: Iwato Kamizuru
 
 ## Descrição
 O Hachisu no Oi, a 'Colmeia do Peregrino', é a mochila lendária de Rank S++ de Iwato Kamizuru, mestre das abelhas e líder espiritual dos monges do País da Pedra. Por fora, é o oi de madeira que os monges peregrinos carregam nas costas; por dentro, é uma colmeia viva onde milhares de abelhas nascem, trabalham e obedecem ao chakra do portador. As abelhas se alimentam das flores das montanhas e trazem para a colmeia a energia natural presa no pólen, produzindo um mel denso capaz de restaurar chakra, fechar ferimentos e sustentar o Senjutsu de quem o consome. Em combate, o oi se abre e libera enxames inteiros: abelhas batedoras que vasculham o terreno e mostram ao usuário tudo o que encontram, e abelhas guerreiras cujo ferrão carrega venenos que paralisam, cegam ou queimam por dentro. A cera e o mel também servem de arma, prendendo inimigos em massas pegajosas das quais é quase impossível escapar. Para os monges, a colmeia é símbolo de comunidade e disciplina: milhares de vidas que agem como uma só, guiadas por uma única vontade.
+
+---
+
+# Tenkō no Tsuchi
+ID: 81
+Classificação: S++
+Natureza: Yoton + Doton Ancestral
+Origem: Iwagakure
+Dono Original: Shingen Ishi
+Dono Atual: Shingen Ishi
+
+
+
+## Descrição
+O Tenkō no Tsuchi, o 'Martelo da Obra Celeste', é o lendário martelo de forja de Rank S++ do País da Pedra — o martelo usado para forjar todas as relíquias de Iwagakure. Seu portador é Shingen Ishi, irmão mais novo de Sekio Ishi. Diferente de qualquer ferramenta comum, ele não apenas molda o metal: a cada golpe, funde Yoton e Doton Ancestral no material e grava nele o chakra de quem forja, e é por isso que as armas nascidas sob seus golpes guardam poderes que nenhuma forja comum consegue reproduzir. Nas mãos de um mestre, o martelo também devolve a forma a relíquias rachadas ou quebradas, reforjando-as sem que percam o que carregam. Em combate, o Tenkō no Tsuchi deixa de ser ferramenta: sua cabeça arde como rocha derretida, cada impacto funde o aço e a pedra que atinge, e as ondas de choque que ele envia pelo chão partem o terreno como se a própria montanha tivesse sido golpeada. Mais do que uma arma, é a origem do arsenal da Pedra — todas as lâminas, coroas e relíquias lendárias de Iwagakure carregam, em algum ponto, a marca dos seus golpes.
 
 ---
 
