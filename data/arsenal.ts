@@ -813,6 +813,28 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 71,
+    name: "Ganju no Yari",
+    classification: "Z",
+    nature: "Mokuton",
+    origin: "Iwagakure",
+    description: "A Ganju no Yari, a 'Lança da Árvore de Pedra', é a lança lendária de Rank Z de Fudo Gunma, o Primeiro Tsuchikage. Para criá-la, Fudo foi pessoalmente ao encontro de Hashirama Senju e aperfeiçoou com ele a técnica de criação da arma, até que o Mokuton passasse a correr pela haste como seiva viva. A lança foi cultivada a partir da própria madeira do Mokuton e endurecida até ganhar a resistência da rocha das montanhas de Iwagakure — daí o nome. Enquanto está nas mãos do portador, ela devolve ao corpo a vitalidade da árvore: ferimentos se fecham em ritmo acelerado, e a regeneração do usuário cresce a cada técnica de Mokuton que ele executa. Além disso, a Ganju no Yari potencializa todo o Mokuton canalizado por ela, fazendo raízes, troncos e estacas brotarem mais rápidos, mais densos e mais resistentes a partir de cada golpe. É uma arma nascida do encontro entre a técnica de Hashirama e a vontade de Fudo, feita para que o Tsuchikage pudesse sustentar a linha de frente por mais tempo do que qualquer adversário.",
+    image: "",
+    originalOwner: "Fudo Gunma",
+    currentOwner: "Fudo Gunma"
+  },
+  {
+    id: 72,
+    name: "Nenrin no Udewa",
+    classification: "Z",
+    nature: "Mokuton",
+    origin: "Iwagakure",
+    description: "Os Nenrin no Udewa, os 'Braceletes dos Anéis da Árvore', são o par de braceletes lendários de Rank Z de Sekka Gunma. Esculpidos em madeira de Mokuton e gravados com anéis concêntricos como os de um tronco antigo, eles potencializam todo o Mokuton que passa pelos braços da usuária. Seu poder mais raro é levar o Mokuton para o próprio corpo: com os braceletes, a madeira cresce sobre a pele e transforma braços e punhos em armaduras, lâminas e garras vivas, permitindo usar o elemento no combate corpo a corpo em vez de apenas moldá-lo à distância. Os anéis gravados também servem ao genjutsu. Quando o chakra circula por eles, formam espirais que prendem o olhar de quem observa, e o Mokuton passa a carregar a ilusão — raízes, folhas e o perfume das flores invadem os sentidos do inimigo e o prendem num transe muito mais profundo do que um genjutsu comum. Nas mãos de Sekka, cada árvore do campo de batalha se tornava uma extensão dos próprios braços, tanto para golpear quanto para enganar.",
+    image: "",
+    originalOwner: "Sekka Gunma",
+    currentOwner: ""
+  },
+  {
+    id: 73,
     name: "Sōryū no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -823,7 +845,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 72,
+    id: 74,
     name: "Sōryo no Kōwan",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -834,7 +856,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 73,
+    id: 75,
     name: "Ryokushin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -845,7 +867,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 74,
+    id: 76,
     name: "Akashin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -856,7 +878,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 75,
+    id: 77,
     name: "Aoshin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -867,7 +889,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 76,
+    id: 78,
     name: "Gan-tei no Gaitō",
     classification: "S++",
     nature: "Doton + Bijuu",
@@ -879,7 +901,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 77,
+    id: 79,
     name: "Ishi no Kubikazari",
     classification: "S",
     nature: "Doton",
@@ -890,7 +912,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 78,
+    id: 80,
     name: "Ishi no Seimei",
     classification: "S",
     nature: "Doton",
@@ -901,7 +923,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 79,
+    id: 81,
     name: "Ganryū no Omori",
     classification: "A+",
     nature: "Doton",
@@ -913,7 +935,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Katsumi Hyuga"
   },
   {
-    id: 80,
+    id: 82,
     name: "Mugen",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -924,7 +946,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yuji Yotsuki"
   },
   {
-    id: 81,
+    id: 83,
     name: "Kōrin",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -935,7 +957,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 82,
+    id: 84,
     name: "Shizuku",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -946,7 +968,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 83,
+    id: 85,
     name: "Raion",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -957,7 +979,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 84,
+    id: 86,
     name: "Ōja",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -968,7 +990,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 85,
+    id: 87,
     name: "Rensha",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -979,7 +1001,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 86,
+    id: 88,
     name: "Guren",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -990,7 +1012,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 87,
+    id: 89,
     name: "Shōdō no Naifu",
     classification: "S++",
     nature: "",
@@ -1001,7 +1023,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hahiko Shiosaki"
   },
   {
-    id: 88,
+    id: 90,
     name: "Protótipo de Reigan",
     classification: "S",
     nature: "Chakra Profano",

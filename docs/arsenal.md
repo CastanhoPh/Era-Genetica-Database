@@ -74,24 +74,26 @@
 | 68 | Homura no Chikai | Z | Purazomaton + Doton Ancestral | Iwagakure | Oddy Uchiha |
 | 69 | Jikan no Ōken | Z | Juryūkuton + Doton Ancestral | Iwagakure | Hades |
 | 70 | Seimei no Saidan | Z | Seimeiryoku + Doton Ancestral | Iwagakure | Hades |
-| 71 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 72 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 73 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 74 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 75 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 76 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
-| 77 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
-| 78 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
-| 79 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
-| 80 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
-| 81 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 82 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 83 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 84 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 85 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 86 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
-| 87 | Shōdō no Naifu | S++ | Desconhecido | OCA | Hahiko Shiosaki |
-| 88 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
+| 71 | Ganju no Yari | Z | Mokuton | Iwagakure | Fudo Gunma |
+| 72 | Nenrin no Udewa | Z | Mokuton | Iwagakure | Desconhecido |
+| 73 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 74 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 75 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 76 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 77 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 78 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
+| 79 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
+| 80 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
+| 81 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
+| 82 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
+| 83 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 84 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 85 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 86 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 87 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 88 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
+| 89 | Shōdō no Naifu | S++ | Desconhecido | OCA | Hahiko Shiosaki |
+| 90 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
 
 ---
 
@@ -1167,8 +1169,38 @@ O Seimei no Saidan, conhecido como o 'Altar da Vida', é uma relíquia proibida 
 
 ---
 
-# Sōryū no Seikonseki
+# Ganju no Yari
 ID: 71
+Classificação: Z
+Natureza: Mokuton
+Origem: Iwagakure
+Dono Original: Fudo Gunma
+Dono Atual: Fudo Gunma
+
+
+
+## Descrição
+A Ganju no Yari, a 'Lança da Árvore de Pedra', é a lança lendária de Rank Z de Fudo Gunma, o Primeiro Tsuchikage. Para criá-la, Fudo foi pessoalmente ao encontro de Hashirama Senju e aperfeiçoou com ele a técnica de criação da arma, até que o Mokuton passasse a correr pela haste como seiva viva. A lança foi cultivada a partir da própria madeira do Mokuton e endurecida até ganhar a resistência da rocha das montanhas de Iwagakure — daí o nome. Enquanto está nas mãos do portador, ela devolve ao corpo a vitalidade da árvore: ferimentos se fecham em ritmo acelerado, e a regeneração do usuário cresce a cada técnica de Mokuton que ele executa. Além disso, a Ganju no Yari potencializa todo o Mokuton canalizado por ela, fazendo raízes, troncos e estacas brotarem mais rápidos, mais densos e mais resistentes a partir de cada golpe. É uma arma nascida do encontro entre a técnica de Hashirama e a vontade de Fudo, feita para que o Tsuchikage pudesse sustentar a linha de frente por mais tempo do que qualquer adversário.
+
+---
+
+# Nenrin no Udewa
+ID: 72
+Classificação: Z
+Natureza: Mokuton
+Origem: Iwagakure
+Dono Original: Sekka Gunma
+Dono Atual: Desconhecido
+
+
+
+## Descrição
+Os Nenrin no Udewa, os 'Braceletes dos Anéis da Árvore', são o par de braceletes lendários de Rank Z de Sekka Gunma. Esculpidos em madeira de Mokuton e gravados com anéis concêntricos como os de um tronco antigo, eles potencializam todo o Mokuton que passa pelos braços da usuária. Seu poder mais raro é levar o Mokuton para o próprio corpo: com os braceletes, a madeira cresce sobre a pele e transforma braços e punhos em armaduras, lâminas e garras vivas, permitindo usar o elemento no combate corpo a corpo em vez de apenas moldá-lo à distância. Os anéis gravados também servem ao genjutsu. Quando o chakra circula por eles, formam espirais que prendem o olhar de quem observa, e o Mokuton passa a carregar a ilusão — raízes, folhas e o perfume das flores invadem os sentidos do inimigo e o prendem num transe muito mais profundo do que um genjutsu comum. Nas mãos de Sekka, cada árvore do campo de batalha se tornava uma extensão dos próprios braços, tanto para golpear quanto para enganar.
+
+---
+
+# Sōryū no Seikonseki
+ID: 73
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1183,7 +1215,7 @@ A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia 
 ---
 
 # Sōryo no Kōwan
-ID: 72
+ID: 74
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1198,7 +1230,7 @@ Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições 
 ---
 
 # Ryokushin no Seikonseki
-ID: 73
+ID: 75
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1213,7 +1245,7 @@ A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, foc
 ---
 
 # Akashin no Seikonseki
-ID: 74
+ID: 76
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1228,7 +1260,7 @@ A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e 
 ---
 
 # Aoshin no Seikonseki
-ID: 75
+ID: 77
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1243,7 +1275,7 @@ A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras
 ---
 
 # Gan-tei no Gaitō
-ID: 76
+ID: 78
 Classificação: S++
 Natureza: Doton + Bijuu
 Origem: Iwagakure
@@ -1258,7 +1290,7 @@ Esta imponente vestimenta, conhecida como Gan-tei no Gaitō, foi o traje de bata
 ---
 
 # Ishi no Kubikazari
-ID: 77
+ID: 79
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -1273,7 +1305,7 @@ O Ishi no Kubikazari é um colar de poder bruto, forjado a partir de minerais ra
 ---
 
 # Ishi no Seimei
-ID: 78
+ID: 80
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -1288,7 +1320,7 @@ O Ishi no Seimei é um artefato sagrado do País da Pedra que encerra em seu nú
 ---
 
 # Ganryū no Omori
-ID: 79
+ID: 81
 Classificação: A+
 Natureza: Doton
 Origem: Iwagakure
@@ -1303,7 +1335,7 @@ Estes pesos ancestrais, conhecidos como Ganryū no Omori, são imbuídos com cha
 ---
 
 # Mugen
-ID: 80
+ID: 82
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1318,7 +1350,7 @@ A Mugen é a primeira espada de Rank S++ entre os 7 Espectros do Yang, represent
 ---
 
 # Kōrin
-ID: 81
+ID: 83
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1333,7 +1365,7 @@ O Kōrin é o bastão elétrico de Rank S++ criado para representar a Frieza abs
 ---
 
 # Shizuku
-ID: 82
+ID: 84
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1348,7 +1380,7 @@ As Shizuku são correntes profanas de Rank S++ criadas para simbolizar a Serenid
 ---
 
 # Raion
-ID: 83
+ID: 85
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1363,7 +1395,7 @@ A Raion é uma lança dupla de Rank S++ criada para representar a Determinação
 ---
 
 # Ōja
-ID: 84
+ID: 86
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1378,7 +1410,7 @@ O Ōja é o machado profano de Rank S++ que representa o Orgulho entre os 7 Espe
 ---
 
 # Rensha
-ID: 85
+ID: 87
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1393,7 +1425,7 @@ A Rensha é a lâmina oculta profana de Rank S++ criada para representar a Fúri
 ---
 
 # Guren
-ID: 86
+ID: 88
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1408,7 +1440,7 @@ O Guren é o tridente profano de Rank S++ criado para simbolizar o Impulso entre
 ---
 
 # Shōdō no Naifu
-ID: 87
+ID: 89
 Classificação: S++
 Natureza: Desconhecido
 Origem: OCA
@@ -1423,7 +1455,7 @@ Desconhecido
 ---
 
 # Protótipo de Reigan
-ID: 88
+ID: 90
 Classificação: S
 Natureza: Chakra Profano
 Origem: OCA
