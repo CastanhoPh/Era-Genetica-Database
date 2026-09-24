@@ -22,7 +22,7 @@ export const ORDEM_DE_FORCA: string[] = [
   'Juzo Kuroshio',
   'Kiyoshi Hagane',
   'Hoshiro Hyuga',
-  'Amakumo Hōzuki',
+  'Amakumo Hozuki',
   'Sho Uchiha',
   'Enkai Kuroshio',
   'Genzō Umikage',

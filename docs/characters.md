@@ -13,7 +13,7 @@
 | 7 | Takeshi Hatake | Hatake | Personagem, Konohagakure |  | DPS | 18 | 139 | 64 | Vivo |
 | 8 | Shoei Sarutobi | Sarutobi | Personagem, Konohagakure |  | DPS | 12 | 94 | 65 | Morto (morto por Omega) |
 | 9 | Furyuzan Chinoike | Chinoike | Personagem, OCA, Konohagakure |  | DPS | 18 | 130 | 96 | Vivo |
-| 10 | Kazuki Hoshigaki | Hoshigaki | Personagem, OCA, Kirigakure |  | Tank | 12 | 106 | 46 | Morto (morto por Omega) |
+| 10 | Kazuki Hoshigaki | Hoshigaki | Personagem, OCA, Kirigakure |  | Tank | 26 | 218 | 88 | Vivo |
 | 11 | Kenma Soryo | Soryo | Personagem, Iwagakure |  | Tank | 18 | 154 | 40 | Vivo |
 | 12 | Airi Senju | Senju | NPC, Konohagakure |  | Suporte | 18 | 130 | 96 | Vivo |
 | 13 | Ayumi Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 18 | 154 | 64 | Vivo |
@@ -75,7 +75,7 @@
 | 69 | Midori Kurogane | Kurogane | NPC, Kumogakure |  | Suporte, DPS e Controle | 22 | 168 | 76 | Vivo |
 | 70 | Akane Sumigami | Sumigami | NPC, Kumogakure |  | Suporte / DPS | 21 | 157 | 73 | Vivo |
 | 71 | Raizuma Kazuchi | Kazuchi | NPC, Kumogakure |  | DPS | 26 | 218 | 70 | Vivo |
-| 72 | Amakumo Hōzuki | Hōzuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
+| 72 | Amakumo Hozuki | Hozuki | NPC, Kirigakure |  | Tank | 29 | 242 | 132 | Vivo |
 | 73 | Genzō Umikage | Umikage | NPC, Kirigakure |  | Suporte e Controle | 29 | 221 | 97 | Vivo |
 | 74 | Raizuki Hoshigaki | Hoshigaki | NPC, Kirigakure |  | DPS | 28 | 234 | 94 | Vivo |
 | 75 | Suiren Shiranami | Shiranami | NPC, Kirigakure |  | DPS | 24 | 184 | 82 | Vivo |
@@ -91,36 +91,43 @@
 | 85 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
 | 86 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
 | 87 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
-| 88 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
-| 89 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
-| 90 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
-| 91 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
-| 92 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
-| 93 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
-| 94 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
-| 95 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
-| 96 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
-| 97 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
-| 98 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
-| 99 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
-| 100 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
-| 101 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
-| 102 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
-| 103 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por ?) |
-| 104 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por Hashirama Senju) |
-| 105 | Mito Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Selamento da Kurama em Naomi Uzumaki) |
-| 106 | Konan Uchiha | Uchiha | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Suicídio) |
-| 107 | Kawarama Senju | Senju | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
-| 108 | Sakura Namikaze | Namikaze | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
-| 109 | Minoru Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Maldição do Fujogan) |
-| 110 | Ashina Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Selamento da Kurama em Mito Uzumaki) |
-| 111 | Hiruzen Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Son Goku) |
-| 112 | Hina Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Son Goku) |
-| 113 | Iwaki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 18 | 0 | 0 | Morto (morto por Nagare Uzumaki) |
-| 114 | Renji Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Morto (morto por Furyuzan Chinoike) |
-| 115 | Akemi Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 0 | 0 | 0 | Vivo |
-| 116 | Oryo Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
-| 117 | Sekio Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 88 | Mangetsu Hozuki | Hozuki | NPC, Kirigakure |  | Desconhecido | 29 | 0 | 0 | Vivo |
+| 89 | Sazare Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 27 | 226 | 91 | Vivo |
+| 90 | Iwao Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 25 | 210 | 64 | Vivo |
+| 91 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
+| 92 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
+| 93 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
+| 94 | Daiki Uzumaki (D) | Uzumaki | NPC, OCA, Konohagakure |  | Suporte e DPS | 18 | 154 | 96 | Morto (morto por Akairo Uchiha (A)) |
+| 95 | Etsuko Senju (E) | Senju | NPC, OCA, Konohagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Chip da OCA) |
+| 96 | Fuyuki Dokuhana (F) | Dokuhana | NPC, OCA, Sunagakure |  | DPS | 14 | 101 | 52 | Morto (morto por Kaito Senju) |
+| 97 | Genei (G) | Desconhecido | NPC, OCA |  | Tank e DPS | 26 | 218 | 132 | Morto (morto por Kaito Senju) |
+| 98 | Hayato Hanzo (H) | Hanzo | NPC, OCA, Kumogakure |  | Suporte e Controle | 18 | 130 | 64 | Morto (morto por Hikaru Ishi) |
+| 99 | Katakana Yotsuki (Alpha) | Yotsuki | NPC, OCA, Kumogakure |  | ? | 28 | 234 | 94 | Morto (morto por Yuji Yotsuki) |
+| 100 | Ganmasen Yuki (Gama) | Yuki | NPC, OCA, Kirigakure |  | Controle | 28 | 216 | 141 | Morto (morto por Oddy Uchiha) |
+| 101 | Deruta Muujin (Delta) | Muujin | NPC, OCA, Iwagakure |  | ? | 28 | 234 | 76 | Morto (morto por Najin Hatake) |
+| 102 | Shiita Sabaku (Theta) | Dabado | NPC, OCA, Sunagakure |  | Controle | 28 | 216 | 94 | Vivo |
+| 103 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
+| 104 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
+| 105 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
+| 106 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por ?) |
+| 107 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por Hashirama Senju) |
+| 108 | Mito Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Selamento da Kurama em Naomi Uzumaki) |
+| 109 | Konan Uchiha | Uchiha | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Suicídio) |
+| 110 | Kawarama Senju | Senju | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
+| 111 | Sakura Namikaze | Namikaze | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Mangetsu Hozuki) |
+| 112 | Minoru Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Maldição do Fujogan) |
+| 113 | Ashina Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Selamento da Kurama em Mito Uzumaki) |
+| 114 | Hiruzen Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Son Goku) |
+| 115 | Hina Sarutobi | Sarutobi | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Son Goku) |
+| 116 | Iwaki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 18 | 0 | 0 | Morto (morto por Nagare Uzumaki) |
+| 117 | Renji Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Morto (morto por Furyuzan Chinoike) |
+| 118 | Akemi Hyuga | Hyuga | NPC, Konohagakure |  | Desconhecido | 0 | 0 | 0 | Morto (morto por Raio Yotsuki) |
+| 119 | Oryo Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 120 | Sekio Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 121 | Mebuki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Vivo |
+| 122 | Raio Yotsuki | Yotsuki | NPC, Kumogakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por ?) |
+| 123 | Fudo Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por ?) |
+| 124 | Sekka Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por ?) |
 
 ---
 
@@ -2159,7 +2166,7 @@ Chakra: 96
 Status: Vivo
 Títulos: Primeiro Experimento, Jinchuriki Artificial
 
-![Furyuzan Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1788278280340303)
+![Furyuzan Chinoike](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FFuryuzan%20Chinoike.png?alt=media&v=1789502411955948)
 
 ## Descrição
 Um líder nato com pensamentos levemente egoístas. Um estrategista frio com sede de Vingança.
@@ -2391,30 +2398,30 @@ ID: 10
 Clã: Hoshigaki
 Grupos: Personagem, OCA, Kirigakure
 Função: Tank
-NC: 12
-HP: 106
-Chakra: 46
-Status: Morto (morto por Omega)
+NC: 26
+HP: 218
+Chakra: 88
+Status: Vivo
 Títulos: Kraken da OCA
 
-![Kazuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.png?alt=media&v=1788276508813896)
+![Kazuki Hoshigaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKazuki%20Hoshigaki%2FKazuki%20Hoshigaki.png?alt=media&v=1790259191064707)
 
 ## Descrição
 Desconhecido
 
 ## Atributos
-- Força: 12
-- Destreza: 4
-- Agilidade: 12
-- Inteligência: 4
-- Espírito: 12
-- Vigor: 12
-- Percepção: 4
+- Força: 26
+- Destreza: 10
+- Agilidade: 26
+- Inteligência: 20
+- Espírito: 26
+- Vigor: 26
+- Percepção: 10
 
 ## Poderes e Elementos
-- Geidetsu — Nível 6
-- Sumiton — Nível 6
-- Rasengan — Nível 6
+- Geidetsu — Nível 13
+- Sumiton — Nível 13
+- Rasengan — Nível 13
 
 ## Aptidões
 Ambidestria, Ataque Poderoso, Bloqueio Ambidestro, Crítico Aprimorado (CC), Lutar às Cegas, Maestria: CC, Potencializar, Rasteira, Reflexos, Velocista
@@ -3115,7 +3122,7 @@ Portadora de um Mangekyou com habilidades únicas de manipulação mental e invo
 - Percepção: 27
 
 ## Poderes e Elementos
-- Hachimon Tonkou — Nível 6
+- Hachimon Tonkou — Nível 7
 - Senjutsu — Nível 13
 - Rasengan — Nível 13
 - Katon — Nível 13
@@ -5385,7 +5392,7 @@ HP: 59
 Chakra: 56
 Status: Vivo
 
-
+![Shoyu Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShoyu%20Uzumaki%2FShoyu%20Uzumaki.png?alt=media&v=1789504800178093)
 
 ## Descrição
 Shoyu Uzumaki é, possivelmente, o maior prodígio que a história ninja já viu. Sua existência nasceu de um plano cruel: após inúmeras tentativas fracassadas de extrair o chakra da Kurama de sua mãe, Naomi, decidiram dividi-lo — mantendo metade nela e selando a outra metade em um filho, tornando a extração gradual possível. Mesmo diante desse destino, Naomi fez um único pedido: que a criança fosse de Nishinoya. Hades, no entanto, atendeu pessoalmente e, movido por ambição, roubou a identidade genética do Terceiro Hokage para criar aquele que viria a ser Shoyu. Nascido como um experimento, ele cresceu em meio à dor, ao medo e à necessidade de sobreviver. Ainda aos 5 anos, realizou o impossível: dominou o Katon com maestria e aprendeu o lendário Hiraishin, feito que desafia toda lógica ninja. Transformando simples bolinhas de gude em pontos de teleporte, Shoyu desenvolveu um estilo de combate imprevisível e absoluto. Cada habilidade sua nasceu da necessidade de proteger sua mãe. Não é apenas um gênio — é um erro que deu certo demais, um acidente perfeito que ultrapassou qualquer controle.
@@ -5556,7 +5563,7 @@ HP: 59
 Chakra: 42
 Status: Vivo
 
-
+![Souma Namikaze](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSouma%20Namikaze%2FSouma%20Namikaze.png?alt=media&v=1789504801993587)
 
 ## Descrição
 Souma Namikaze não é um fracasso do Projeto Hades — ele é sua ruptura. Criado a partir de manipulações genéticas envolvendo Naomi e tentativas de replicar o chakra da Kurama, seu corpo rejeitou o conceito de receptáculo e se tornou algo imprevisível: uma fonte viva de energia comprimida. Dentro dele, um oceano de chakra pulsa constantemente, denso, instável e impossível de conter completamente. Suas emoções não são filtradas — são liberadas como pressão. O ambiente ao seu redor reage à sua presença, como se o próprio mundo fosse incapaz de ignorar o peso de sua existência. Entre o fogo azul abissal e o mar carmesim, Souma não luta… ele colapsa tudo ao seu redor.
@@ -5685,7 +5692,7 @@ HP: 59
 Chakra: 70
 Status: Vivo
 
-![Reika Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.png?alt=media&v=1788276559704886)
+![Reika Uzumaki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FReika%20Uzumaki%2FReika%20Uzumaki.png?alt=media&v=1789504797620085)
 
 ## Descrição
 Reika Uzumaki nasceu em meio ao sofrimento silencioso de sua mãe, mas sua existência nunca foi natural. Diferente de Shoyu, que ainda carregava traços de humanidade em sua origem, Reika foi concebida como experimento desde o primeiro instante — ainda no estágio de célula-ovo, Hades iniciou seu projeto mais ambicioso: fundir dois chakras de bijū estabilizados através de um núcleo de chakra profano. Kurama e Gyūki foram reduzidos a fragmentos manipuláveis e selados simultaneamente dentro de um único ser em formação, violando todas as leis naturais do mundo ninja. Reika não nasceu… ela foi construída. Durante seu desenvolvimento, o chakra profano atuou como um estabilizador artificial, impedindo que as duas forças se destruíssem mutuamente, criando uma fusão imperfeita, porém funcional. Seu corpo cresceu carregando traços sutis dessa dualidade, com padrões de chakra que oscilam entre o caos e a profundidade, como se duas presenças antigas coexistissem dentro dela em silêncio constante. Desde muito pequena, Reika demonstrava uma sensibilidade anormal ao chakra, não apenas percebendo energia, mas sentindo emoções como extensões físicas do ambiente. Dor, medo e desespero ecoavam dentro dela, amplificados pelas naturezas conflitantes em seu núcleo. Cresceu dentro da fortaleza Yumei, testemunhando a dor constante de Naomi e absorvendo cada fragmento emocional como parte de si mesma — não como trauma, mas como matéria-prima. Sua presença é calma, perturbadoramente calma. Reika não luta com raiva — luta com vazio, e esse vazio não é ausência, mas saturação. Ela é possivelmente a criatura com a maior reserva de chakra já registrada, possuindo níveis que ultrapassam em até três vezes o de um ninja comum. Ainda assim, esse poder não se manifesta de forma explosiva, mas como um abismo silencioso, denso e inevitável. No entanto, sua criação teve um custo: a fusão precoce e antinatural afetou seu desenvolvimento neurológico. Reika não fala — não por escolha, mas por incapacidade. Sua mente opera em um nível onde linguagem se torna irrelevante. Emoções, intenções e presença são sua forma de comunicação. Ela observa… sempre observa. E quando age, o mundo ao redor responde como se estivesse afundando junto com ela.
@@ -6449,7 +6456,7 @@ HP: 194
 Chakra: 79
 Status: Vivo
 
-
+![Tetsu Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsu%20Sabaku%2FTetsu%20Sabaku.png?alt=media&v=1790262900097039)
 
 ## Descrição
 Tetsu Sabaku, conhecido hoje como o Pilar da Renúncia, é o herdeiro de um legado grande demais para caber em uma única vida. Filho de Reto Sabaku, o Primeiro Kazekage, e de Hana Sabaku, a Muralha Dourada, Tetsu nasceu cercado por nomes que moldaram a história da Areia antes mesmo que pudesse entender o peso deles.
@@ -6511,7 +6518,7 @@ HP: 157
 Chakra: 73
 Status: Vivo
 
-
+![Sayuri Sabaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media&v=1790262897888043)
 
 ## Descrição
 Sayuri Sabaku, conhecida hoje como o Pilar da Liberdade, é a filha da Areia que escolheu pertencer ao vento. Nascida como filha de Reto Sabaku e Hana Sabaku, e irmã de Tetsu, cresceu cercada pelo peso de uma linhagem lendária. Para muitos, Sayuri deveria permanecer dentro dos muros de Sunagakure e carregar o nome Sabaku como uma armadura, mas desde cedo ela olhava mais para o horizonte do que para o palácio.
@@ -8967,9 +8974,9 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Amakumo Hōzuki
+# Amakumo Hozuki
 ID: 72
-Clã: Hōzuki
+Clã: Hozuki
 Grupos: NPC, Kirigakure
 Função: Tank
 NC: 29
@@ -8978,7 +8985,7 @@ Chakra: 132
 Status: Vivo
 Títulos: A Muralha Escolhida por Leviatã
 
-![Amakumo Hōzuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788276410123654)
+![Amakumo Hozuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAmakumo%20H%C5%8Dzuki%2FAmakumo%20H%C5%8Dzuki.png?alt=media&v=1788276410123654)
 
 ## Descrição
 Amakumo é um homem bom, porém possui limites muito bem definidos, especialmente durante conversas e discussões políticas. Respeita profundamente Genzō, seu amigo de longa data, parceiro de combate e atual vice-almirante da Frota Leviatã. Apesar de suas diferenças, os dois construíram uma relação baseada em confiança e lealdade.
@@ -9372,7 +9379,7 @@ Títulos: Âncora Verde
 ## Descrição
 Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.
 
-Foi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hōzuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.
+Foi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hozuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.
 
 Kirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.
 
@@ -9777,8 +9784,128 @@ Nenhuma técnica cadastrada.
 
 ---
 
-# Akairo Uchiha (A)
+# Mangetsu Hozuki
 ID: 88
+Clã: Hozuki
+Grupos: NPC, Kirigakure
+Função: Desconhecido
+NC: 29
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Mangetsu Hozuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMangetsu%20Hozuki%2FMangetsu%20Hozuki.png?alt=media&v=1790265213864071)
+
+## Descrição
+Desconhecido
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Sazare Gunma
+ID: 89
+Clã: Gunma
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 27
+HP: 226
+Chakra: 91
+Status: Vivo
+
+![Sazare Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSazare%20Gunma%2FSazare%20Gunma.png?alt=media&v=1790255118826956)
+
+## Descrição
+Desconhecido
+
+## Atributos
+- Força: 27
+- Destreza: 11
+- Agilidade: 27
+- Inteligência: 20
+- Espírito: 27
+- Vigor: 27
+- Percepção: 11
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Iwao Gunma
+ID: 90
+Clã: Gunma
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 25
+HP: 210
+Chakra: 64
+Status: Vivo
+
+![Iwao Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FIwao%20Gunma%2FIwao%20Gunma.png?alt=media&v=1790255122961711)
+
+## Descrição
+Desconhecido
+
+## Atributos
+- Força: 25
+- Destreza: 10
+- Agilidade: 25
+- Inteligência: 25
+- Espírito: 18
+- Vigor: 25
+- Percepção: 10
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Akairo Uchiha (A)
+ID: 91
 Clã: Uchiha
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -9902,7 +10029,7 @@ Extremamente proibida. O consumo de chakra é colossal, drenando reservas físic
 ---
 
 # Borashi Hyuga (B)
-ID: 89
+ID: 92
 Clã: Hyuga
 Grupos: NPC, OCA, Konohagakure
 Função: DPS e Controle
@@ -10028,7 +10155,7 @@ Extremamente perigoso. A ausência temporária do chakra natural deixa Borashi v
 ---
 
 # Chisaki Dokuhana (C)
-ID: 90
+ID: 93
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: Suporte
@@ -10134,7 +10261,7 @@ Altamente estável enquanto houver energia natural disponível. Em ambientes ár
 ---
 
 # Daiki Uzumaki (D)
-ID: 91
+ID: 94
 Clã: Uzumaki
 Grupos: NPC, OCA, Konohagakure
 Função: Suporte e DPS
@@ -10277,7 +10404,7 @@ Habilidade avançada. Consome chakra constantemente e pode causar fadiga mental 
 ---
 
 # Etsuko Senju (E)
-ID: 92
+ID: 95
 Clã: Senju
 Grupos: NPC, OCA, Konohagakure
 Função: DPS
@@ -10354,7 +10481,7 @@ Uso restrito. Requer domínio absoluto de Hiraishin e controle preciso do elemen
 ---
 
 # Fuyuki Dokuhana (F)
-ID: 93
+ID: 96
 Clã: Dokuhana
 Grupos: NPC, OCA, Sunagakure
 Função: DPS
@@ -10438,7 +10565,7 @@ Uso altamente restrito. Exige grande volume sanguíneo, resistência física ext
 ---
 
 # Genei (G)
-ID: 94
+ID: 97
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: Tank e DPS
@@ -10533,7 +10660,7 @@ Extremamente instável. O uso prolongado sobrecarrega o núcleo artificial e pod
 ---
 
 # Hayato Hanzo (H)
-ID: 95
+ID: 98
 Clã: Hanzo
 Grupos: NPC, OCA, Kumogakure
 Função: Suporte e Controle
@@ -10620,7 +10747,7 @@ Consome quantidades colossais de chakra e exige controle mental absoluto. Uso pr
 ---
 
 # Katakana Yotsuki (Alpha)
-ID: 96
+ID: 99
 Clã: Yotsuki
 Grupos: NPC, OCA, Kumogakure
 Função: ?
@@ -10747,7 +10874,7 @@ Alto consumo de chakra e exige percepção espacial extrema. Uso excessivo pode 
 ---
 
 # Ganmasen Yuki (Gama)
-ID: 97
+ID: 100
 Clã: Yuki
 Grupos: NPC, OCA, Kirigakure
 Função: Controle
@@ -10873,7 +11000,7 @@ Consome enormes reservas de chakra e exige controle minucioso da pressão intern
 ---
 
 # Deruta Muujin (Delta)
-ID: 98
+ID: 101
 Clã: Muujin
 Grupos: NPC, OCA, Iwagakure
 Função: ?
@@ -11034,7 +11161,7 @@ Consumo elevado, porém mais estável que técnicas de larga escala. Pode ser qu
 ---
 
 # Shiita Sabaku (Theta)
-ID: 99
+ID: 102
 Clã: Dabado
 Grupos: NPC, OCA, Sunagakure
 Função: Controle
@@ -11081,7 +11208,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kaien Ishi (Omega)
-ID: 100
+ID: 103
 Clã: Ishi
 Grupos: NPC, OCA, Iwagakure
 Função: DPS
@@ -11190,7 +11317,7 @@ Manter os tanques de chakra ativos e a absorção contínua exige concentração
 ---
 
 # Beta
-ID: 101
+ID: 104
 Clã: Desconhecido
 Grupos: NPC, OCA, Konohagakure
 Função: ?
@@ -11331,7 +11458,7 @@ Consumo extremo e constante de chakra. Vulnerável a técnicas de selamento ou e
 ---
 
 # Hades
-ID: 102
+ID: 105
 Clã: Desconhecido
 Grupos: NPC, OCA
 Função: ?
@@ -11374,7 +11501,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hashirama Senju
-ID: 103
+ID: 106
 Clã: Senju
 Grupos: NPC, Konohagakure
 Função: Tanque e DPS
@@ -11413,7 +11540,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Madara Uchiha
-ID: 104
+ID: 107
 Clã: Uchiha
 Grupos: NPC, Konohagakure
 Função: Tanque e DPS
@@ -11452,7 +11579,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Mito Uzumaki
-ID: 105
+ID: 108
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11491,7 +11618,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Konan Uchiha
-ID: 106
+ID: 109
 Clã: Uchiha
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11530,7 +11657,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Kawarama Senju
-ID: 107
+ID: 110
 Clã: Senju
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11569,7 +11696,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Sakura Namikaze
-ID: 108
+ID: 111
 Clã: Namikaze
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11608,7 +11735,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Minoru Hyuga
-ID: 109
+ID: 112
 Clã: Hyuga
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11646,7 +11773,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Ashina Uzumaki
-ID: 110
+ID: 113
 Clã: Uzumaki
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11684,7 +11811,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hiruzen Sarutobi
-ID: 111
+ID: 114
 Clã: Sarutobi
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11722,7 +11849,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Hina Sarutobi
-ID: 112
+ID: 115
 Clã: Sarutobi
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11760,7 +11887,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Iwaki Haruno
-ID: 113
+ID: 116
 Clã: Haruno
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11798,7 +11925,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Renji Hyuga
-ID: 114
+ID: 117
 Clã: Hyuga
 Grupos: NPC, Konohagakure
 Função: Desconhecido
@@ -11836,14 +11963,14 @@ Nenhuma técnica cadastrada.
 ---
 
 # Akemi Hyuga
-ID: 115
+ID: 118
 Clã: Hyuga
 Grupos: NPC, Konohagakure
 Função: Desconhecido
 NC: 0
 HP: 0
 Chakra: 0
-Status: Vivo
+Status: Morto (morto por Raio Yotsuki)
 
 ![Akemi Hyuga](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FAkemi%20Hyuga%2FAkemi%20Hyuga.png?alt=media&v=1789491754777045)
 
@@ -11874,7 +12001,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Oryo Soryo
-ID: 116
+ID: 119
 Clã: Soryo
 Grupos: NPC, Iwagakure
 Função: Desconhecido
@@ -11912,7 +12039,7 @@ Nenhuma técnica cadastrada.
 ---
 
 # Sekio Ishi
-ID: 117
+ID: 120
 Clã: Ishi
 Grupos: NPC, Iwagakure
 Função: Desconhecido
@@ -11925,6 +12052,165 @@ Status: Vivo
 
 ## Descrição
 Rei dos Samurais.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Mebuki Haruno
+ID: 121
+Clã: Haruno
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 16
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Mebuki Haruno](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMebuki%20Haruno%2FMebuki%20Haruno.png?alt=media&v=1789498398253045)
+
+## Descrição
+Esposa de Iwaki Haruno. Mãe de Yui.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Raio Yotsuki
+ID: 122
+Clã: Yotsuki
+Grupos: NPC, Kumogakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Morto (morto por ?)
+
+![Raio Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaio%20Yotsuki%2FRaio%20Yotsuki.png?alt=media&v=1790255105949117)
+
+## Descrição
+Desconhecido
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Fudo Gunma
+ID: 123
+Clã: Gunma
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 30
+HP: 0
+Chakra: 0
+Status: Morto (morto por ?)
+Títulos: Primeiro Jinchūriki de Gyūki
+
+![Fudo Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFudo%20Gunma%2FFudo%20Gunma.png?alt=media&v=1790255110372108)
+
+## Descrição
+Fudo Gunma é reconhecido como o Primeiro Tsuchikage. As comunidades do País da Terra existiam havia séculos, mas foi ele quem oficializou Iwagakure como potência organizada: reuniu as forças espalhadas entre as montanhas, padronizou o treinamento dos shinobi, criou uma cadeia de comando e transformou uma terra fragmentada em uma nação.
+
+Foi o primeiro jinchūriki de Gyūki, o Oito-Caudas, e a relação entre os dois tornou-se lendária.
+
+Ao lado do pai de Sekio Ishi forjou as três katanas lendárias dos samurais, e ao lado de Oryo Soryo criou as três relíquias sagradas dos monges — não para criar instrumentos de tirania, mas para distribuir responsabilidade entre as forças que sustentavam o país.
+
+Resgatou Rock Gunma da guerra e o criou como filho. Os dois tinham um ancestral em comum, e foi para ele que Fudo transferiu Gyūki.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Sekka Gunma
+ID: 124
+Clã: Gunma
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 28
+HP: 0
+Chakra: 0
+Status: Morto (morto por ?)
+
+![Sekka Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSekka%20Gunma%2FSekka%20Gunma.png?alt=media&v=1790255114602933)
+
+## Descrição
+Desconhecido
 
 ## Atributos
 - Força: 0

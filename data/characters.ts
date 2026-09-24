@@ -668,7 +668,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FNagare%20Uzumaki%2FTecnicas%2F10%20-%20Kagura%20Shingan.png?alt=media&v=1786651886403581"
       }
     ],
-    arsenal: [44, 32, 85],
+    arsenal: [45, 32, 86],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FPr_logo.png?alt=media&v=1788277170781604", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FNagare%20Uzumaki%2FCl_ssico.png?alt=media&v=1788277165393605", caption: "Clássico", category: "era" },
@@ -909,7 +909,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FOddy%20Uchiha%2FTecnicas%2F12%20-%20Katon%3A%20Ensh%C5%8D%20Daiendan.png?alt=media&v=1786651874170312"
       }
     ],
-    arsenal: [67, 2, 15, 16, 76, 77, 60, 28, 27],
+    arsenal: [68, 2, 15, 16, 77, 78, 61, 28, 27],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FPr_logo.png?alt=media&v=1788277249547926", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FOddy%20Uchiha%2FCl_ssico.png?alt=media&v=1788277245144616", caption: "Clássico", category: "era" },
@@ -1612,7 +1612,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTakeshi%20Hatake%2FTecnicas%2F06%20-%20Raiton%3A%20Chidori.png?alt=media&v=1786651881723227"
       }
     ],
-    arsenal: [29, 30, 43, 42],
+    arsenal: [29, 30, 44, 43],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FPr_logo.png?alt=media&v=1788277376872596", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTakeshi%20Hatake%2FCl_ssico.png?alt=media&v=1788277373279868", caption: "Clássico", category: "era" },
@@ -1932,7 +1932,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFuryuzan%20Chinoike%2FTecnicas%2F10%20-%20Doton%3A%20Ketton%20K%C5%8Dchi%20no%20Yagura.png?alt=media&v=1786651882846482"
       }
     ],
-    arsenal: [87, 31, 55],
+    arsenal: [88, 31, 56],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FPr_logo.png?alt=media&v=1788276992361762", caption: "Prólogo", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FFuryuzan%20Chinoike%2FCl_ssico.png?alt=media&v=1788276990378413", caption: "Clássico", category: "era" },
@@ -2108,7 +2108,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKenma%20Soryo%2FTecnicas%2F05%20-%20Doton%3A%20Kong%C5%8D%20Ganheki%20no%20Tate.jpg?alt=media&v=1786651886994433"
       }
     ],
-    arsenal: [70, 71, 72, 74, 45, 75],
+    arsenal: [71, 72, 73, 75, 46, 76],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F3__Temporada.png?alt=media&v=1788277116449923", caption: "3ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FKenma%20Soryo%2F4__Temporada.png?alt=media&v=1788277118454406", caption: "4ª Temporada", category: "era" },
@@ -3337,7 +3337,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHiroshi%20Hanzo%2FTecnicas%2F02%20-%20Shiki%20F%C5%ABjin%3A%20Meikai%20K%C5%8Drin.png?alt=media&v=1788210957282787"
       },
     ],
-    arsenal: [14, 47, 40],
+    arsenal: [14, 48, 41],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F2__Temporada.png?alt=media&v=1788277031502483", caption: "2ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHiroshi%20Hanzo%2F3__Temporada.png?alt=media&v=1788277033712866", caption: "3ª Temporada", category: "era" },
@@ -4926,7 +4926,7 @@ export const initialData: Character[] = [
         image: ""
       }
     ],
-    arsenal: [62],
+    arsenal: [63],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F4__Temporada.png?alt=media&v=1788277016617236", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHana%20Sabaku%2F5__Temporada.png?alt=media&v=1788277018675536", caption: "5ª Temporada", category: "era" },
@@ -5093,7 +5093,7 @@ export const initialData: Character[] = [
     chakra: 79,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsu%20Sabaku%2FTetsu%20Sabaku.png?alt=media&v=1790262900097039",
     techniques: [],
-    arsenal: [37, 61],
+    arsenal: [38, 62],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2FCl_ssico.png?alt=media&v=1788277384752558", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTetsu%20Sabaku%2F5__Temporada.png?alt=media&v=1790262901687579", caption: "5ª Temporada", category: "era" },
@@ -5137,7 +5137,7 @@ export const initialData: Character[] = [
     chakra: 73,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSayuri%20Sabaku%2FSayuri%20Sabaku.png?alt=media&v=1790262897888043",
     techniques: [],
-    arsenal: [63, 65],
+    arsenal: [64, 66],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2FCl_ssico.png?alt=media&v=1788277295310959", caption: "Clássico", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSayuri%20Sabaku%2F5__Temporada.png?alt=media&v=1790262900892064", caption: "5ª Temporada", category: "era" },
@@ -5233,7 +5233,7 @@ export const initialData: Character[] = [
     chakra: 58,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMizue%20Dokuhana%2FMizue%20Dokuhana.png?alt=media&v=1788276532880141",
     techniques: [],
-    arsenal: [66],
+    arsenal: [67],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F4__Temporada.png?alt=media&v=1788277152191888", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMizue%20Dokuhana%2F5__Temporada.png?alt=media&v=1788277154222496", caption: "5ª Temporada", category: "era" },
@@ -5277,7 +5277,7 @@ export const initialData: Character[] = [
     chakra: 64,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTessai%20Enshaku%2FTessai%20Enshaku.png?alt=media&v=1788276590660983",
     techniques: [],
-    arsenal: [64],
+    arsenal: [65],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F4__Temporada.png?alt=media&v=1788277378863320", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FTessai%20Enshaku%2F5__Temporada.png?alt=media&v=1788277380702312", caption: "5ª Temporada", category: "era" },
@@ -5450,7 +5450,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYuji%20Yotsuki%2FTecnicas%2F07%20-%20Ranton%3A%20Chidori.jpg?alt=media&v=1786651906968171"
       }
     ],
-    arsenal: [53, 79],
+    arsenal: [54, 80],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F4__Temporada.png?alt=media&v=1788277407148712", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYuji%20Yotsuki%2F5__Temporada.png?alt=media&v=1788277408964437", caption: "5ª Temporada", category: "era" },
@@ -5628,7 +5628,7 @@ export const initialData: Character[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYoru%20Kurogami%2FTecnicas%2F04%20-%20Ranton%3A%20Shingan.png?alt=media&v=1786651908012203"
       }
     ],
-    arsenal: [54, 57, 56],
+    arsenal: [55, 58, 57],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F4__Temporada.png?alt=media&v=1788277403544660", caption: "4ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FYoru%20Kurogami%2F5__Temporada.png?alt=media&v=1788277405401020", caption: "5ª Temporada", category: "era" },
@@ -6409,8 +6409,8 @@ export const initialData: Character[] = [
   },
   {
     id: 72,
-    name: "Amakumo Hōzuki",
-    clan: "Hōzuki",
+    name: "Amakumo Hozuki",
+    clan: "Hozuki",
     categories: ["NPC", "Kirigakure"],
     titles: ["A Muralha Escolhida por Leviatã"],
     nc: 29,
@@ -6511,7 +6511,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [49],
+    arsenal: [50],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGenz%C5%8D%20Umikage%2F5__Temporada.png?alt=media&v=1788277007625262", caption: "5ª Temporada", category: "era" },
     ],
@@ -6612,7 +6612,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [46],
+    arsenal: [47],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FSuiren%20Shiranami%2F5__Temporada.png?alt=media&v=1788277360987445", caption: "5ª Temporada", category: "era" },
     ],
@@ -6667,7 +6667,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [39],
+    arsenal: [40],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FJuzo%20Kuroshio%2F5__Temporada.png?alt=media&v=1788277058210752", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FJuzo%20Kuroshio%2FArmadura%20Abissal.png?alt=media&v=1789652035977939", caption: "Armadura Abissal", category: "transformacao" },
@@ -6727,7 +6727,7 @@ export const initialData: Character[] = [
     aptitudes: [],
     isDead: false,
     techniques: [],
-    arsenal: [50, 52],
+    arsenal: [51, 53],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMei%20Yuki%2F5__Temporada.png?alt=media&v=1788277141832817", caption: "5ª Temporada", category: "era" },
     ],
@@ -6771,7 +6771,7 @@ export const initialData: Character[] = [
     nc: 30,
     position: "",
     role: "Controle",
-    description: "Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.\n\nFoi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hōzuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.\n\nKirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.",
+    description: "Ganmaren Yuki, o calado e temido Almirante da Frota Jormungandr, é irmão de Ganmasen Yuki, o Segundo Mizukage. Assumiu o comando da 4ª Frota quando Ganmasen foi eleito Mizukage e deixou o posto; passou pelo Ritual de Passagem de Almirante e recebeu o contrato da serpente, reconhecido por ela.\n\nFoi o único dos quatro almirantes que nunca apoiou o golpe contra o Mizukage. Enquanto Juzo Kuroshio, Amakumo Hozuki e Enkai Kuroshio articulavam a queda, Ganmaren percebia a mudança no irmão e ainda assim recusou participar de uma traição sem provas. Três coisas o sustentavam: lealdade familiar, respeito à hierarquia e o medo de que um golpe abrisse guerra entre as quatro frotas. Enquanto os outros preparavam a remoção, ele tentava entender o que havia acontecido com o irmão.\n\nKirigakure inteira o respeita como o homem mais forte da Névoa, e o reconhecimento passa das fronteiras da vila.",
     hp: 250,
     chakra: 137,
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FGanmaren%20Yuki%2FGanmaren%20Yuki.png?alt=media&v=1788276459807981",
@@ -6812,7 +6812,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [38, 35, 36],
+    arsenal: [39, 35, 36],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGanmaren%20Yuki%2F5__Temporada.png?alt=media&v=1788276998655933", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FGanmaren%20Yuki%2FArmadura%20Abissal.png?alt=media&v=1789652038212442", caption: "Armadura Abissal", category: "transformacao" },
@@ -6866,7 +6866,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [51],
+    arsenal: [52],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FGordon%20Kirisame%2F5__Temporada.png?alt=media&v=1788277012094545", caption: "5ª Temporada", category: "era" },
     ],
@@ -6917,7 +6917,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [86],
+    arsenal: [87],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FHahiko%20Shiosaki%2F5__Temporada.png?alt=media&v=1788277014425274", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FHahiko%20Shiosaki%2FManto%20Chomei.png?alt=media&v=1789663365508363", caption: "Manto Chomei", category: "transformacao" },
@@ -7083,7 +7083,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [41],
+    arsenal: [42],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FAyame%20Sazanami%2F5__Temporada.png?alt=media&v=1788276918509503", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FAyame%20Sazanami%2FShingan%20Eterno.png?alt=media&v=1789663367852732", caption: "Shingan Eterno", category: "transformacao" },
@@ -7184,7 +7184,7 @@ export const initialData: Character[] = [
     ],
     isDead: false,
     techniques: [],
-    arsenal: [48],
+    arsenal: [49],
     gallery: [
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMirei%20Sazanami%2F5__Temporada.png?alt=media&v=1788277150066017", caption: "5ª Temporada", category: "era" },
       { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FModos%20e%20Transforma%C3%A7%C3%B5es%2FMirei%20Sazanami%2FShingan.png?alt=media&v=1789663370028651", caption: "Shingan", category: "transformacao" },
@@ -7195,6 +7195,32 @@ export const initialData: Character[] = [
   },
   {
     id: 88,
+    name: "Mangetsu Hozuki",
+    chakraColor: "",
+    clan: "Hozuki",
+    categories: ["NPC", "Kirigakure"],
+    titles: [],
+    nc: 29,
+    position: "",
+    role: "",
+    description: "",
+    hp: 0,
+    chakra: 0,
+    isDead: false,
+    killedBy: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FMangetsu%20Hozuki%2FMangetsu%20Hozuki.png?alt=media&v=1790265213864071",
+    stats: { strength: 0, dexterity: 0, agility: 0, intelligence: 0, spirit: 0, vigor: 0, perception: 0 },
+    powers: [],
+    aptitudes: [],
+    habilidadesLendarias: [],
+    arsenal: [37],
+    gallery: [
+      { url: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Galeria%2FLinha%20do%20Tempo%2FMangetsu%20Hozuki%2F5__Temporada.png?alt=media&v=1790265215923859", caption: "5ª Temporada", category: "era" },
+    ],
+    timelineAppearance: "5ª Temporada",
+  },
+  {
+    id: 89,
     name: "Sazare Gunma",
     chakraColor: "",
     clan: "Gunma",
@@ -7218,7 +7244,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 89,
+    id: 90,
     name: "Iwao Gunma",
     chakraColor: "",
     clan: "Gunma",
@@ -7242,7 +7268,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 90,
+    id: 91,
     name: "Akairo Uchiha (A)",
     combatStyle: "Distância",
     chakraColor: "#ff3b46",
@@ -7350,7 +7376,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 91,
+    id: 92,
     name: "Borashi Hyuga (B)",
     chakraColor: "#0ea5e9",
     combatStyle: "Distância",
@@ -7458,7 +7484,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 92,
+    id: 93,
     name: "Chisaki Dokuhana (C)",
     chakraColor: "#ff5fa8",
     combatStyle: "Distância",
@@ -7539,7 +7565,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 93,
+    id: 94,
     name: "Daiki Uzumaki (D)",
     chakraColor: "#00ff41",
     combatStyle: "Distância",
@@ -7633,7 +7659,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 94,
+    id: 95,
     name: "Etsuko Senju (E)",
     chakraColor: "#ffd60a",
     combatStyle: "Distância",
@@ -7694,7 +7720,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 95,
+    id: 96,
     name: "Fuyuki Dokuhana (F)",
     chakraColor: "#a855f7",
     combatStyle: "Distância",
@@ -7756,7 +7782,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 96,
+    id: 97,
     name: "Genei (G)",
     combatStyle: "Corporal",
     chakraColor: "#8b8b9a",
@@ -7841,7 +7867,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 97,
+    id: 98,
     name: "Hayato Hanzo (H)",
     chakraColor: "#e8fbff",
     combatStyle: "Distância",
@@ -7907,7 +7933,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 98,
+    id: 99,
     name: "Katakana Yotsuki (Alpha)",
     combatStyle: "Corporal",
     chakraColor: "#e8fbff",
@@ -8035,7 +8061,7 @@ export const initialData: Character[] = [
     birthVillage: "Kumogakure"
   },
   {
-    id: 99,
+    id: 100,
     name: "Ganmasen Yuki (Gama)",
     combatStyle: "Distância",
     chakraColor: "#0ea5e9",
@@ -8156,7 +8182,7 @@ export const initialData: Character[] = [
     birthVillage: "Kirigakure"
   },
   {
-    id: 100,
+    id: 101,
     name: "Deruta Muujin (Delta)",
     combatStyle: "Distância",
     chakraColor: "#ffd60a",
@@ -8298,7 +8324,7 @@ export const initialData: Character[] = [
     birthVillage: "Iwagakure"
   },
   {
-    id: 101,
+    id: 102,
     name: "Shiita Sabaku (Theta)",
     combatStyle: "Distância",
     chakraColor: "#00ff41",
@@ -8377,7 +8403,7 @@ export const initialData: Character[] = [
     birthVillage: "Sunagakure"
   },
   {
-    id: 102,
+    id: 103,
     name: "Kaien Ishi (Omega)",
     combatStyle: "Corporal",
     chakraColor: "#e8fbff",
@@ -8478,7 +8504,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 103,
+    id: 104,
     name: "Beta",
     chakraColor: "#00ff41",
     clan: "Desconhecido",
@@ -8581,7 +8607,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 104,
+    id: 105,
     name: "Hades",
     chakraColor: "#e8fbff",
     clan: "Desconhecido",
@@ -8607,7 +8633,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 105,
+    id: 106,
     registro: "historico",
     name: "Hashirama Senju",
     chakraColor: "#00ff41",
@@ -8642,7 +8668,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 106,
+    id: 107,
     registro: "historico",
     name: "Madara Uchiha",
     chakraColor: "#0ea5e9",
@@ -8678,7 +8704,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 107,
+    id: 108,
     registro: "historico",
     name: "Mito Uzumaki",
     chakraColor: "",
@@ -8707,7 +8733,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 108,
+    id: 109,
     registro: "historico",
     name: "Konan Uchiha",
     chakraColor: "",
@@ -8737,7 +8763,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 109,
+    id: 110,
     registro: "historico",
     name: "Kawarama Senju",
     chakraColor: "",
@@ -8766,7 +8792,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 110,
+    id: 111,
     registro: "historico",
     name: "Sakura Namikaze",
     chakraColor: "",
@@ -8795,7 +8821,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 111,
+    id: 112,
     registro: "historico",
     name: "Minoru Hyuga",
     chakraColor: "",
@@ -8821,7 +8847,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 112,
+    id: 113,
     registro: "historico",
     name: "Ashina Uzumaki",
     chakraColor: "",
@@ -8847,7 +8873,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 113,
+    id: 114,
     registro: "historico",
     name: "Hiruzen Sarutobi",
     chakraColor: "",
@@ -8875,7 +8901,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 114,
+    id: 115,
     registro: "historico",
     name: "Hina Sarutobi",
     chakraColor: "",
@@ -8903,7 +8929,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 115,
+    id: 116,
     registro: "historico",
     name: "Iwaki Haruno",
     chakraColor: "",
@@ -8930,7 +8956,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 116,
+    id: 117,
     registro: "historico",
     name: "Renji Hyuga",
     chakraColor: "",
@@ -8957,7 +8983,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 117,
+    id: 118,
     registro: "historico",
     name: "Akemi Hyuga",
     chakraColor: "",
@@ -8982,7 +9008,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 118,
+    id: 119,
     registro: "historico",
     name: "Oryo Soryo",
     chakraColor: "",
@@ -9007,7 +9033,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 119,
+    id: 120,
     registro: "historico",
     name: "Sekio Ishi",
     chakraColor: "",
@@ -9032,7 +9058,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 120,
+    id: 121,
     registro: "historico",
     name: "Mebuki Haruno",
     chakraColor: "",
@@ -9057,7 +9083,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 121,
+    id: 122,
     registro: "historico",
     name: "Raio Yotsuki",
     chakraColor: "",
@@ -9083,7 +9109,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 122,
+    id: 123,
     registro: "historico",
     name: "Fudo Gunma",
     chakraColor: "",
@@ -9109,7 +9135,7 @@ export const initialData: Character[] = [
     ],
   },
   {
-    id: 123,
+    id: 124,
     registro: "historico",
     name: "Sekka Gunma",
     chakraColor: "",

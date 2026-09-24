@@ -40,57 +40,58 @@
 | 34 | Umitsuchi no Teisatsu | Z | Suiton | Kirigakure | Desconhecido |
 | 35 | Hyōga no Seihai | Z | Hyoton | Kirigakure | Ganmaren Yuki |
 | 36 | Shinkai no Ikari | Z | Desconhecido | Kirigakure | Ganmaren Yuki |
-| 37 | Sakin no Reigan | S++ | Sakin | Kirigakure | Tetsu Sabaku |
-| 38 | Suiryū no Reigan | S++ | Suiton | Kirigakure | Ganmaren Yuki |
-| 39 | Kiri-no-Kami no Yoroi | S++ | Suiton | Kirigakure | Juzo Kuroshio |
-| 40 | Shinsui no Yari | S++ | Suiton | Kirigakure | Hiroshi Hanzo |
-| 41 | Rasenken | S++ | Desconhecido | Kirigakure | Ayame Sazanami |
-| 42 | Kubikiribōchō | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
-| 43 | Nuibari | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
-| 44 | Samehada | S+ | Sete Espadas da Névoa | Kirigakure | Nagare Uzumaki |
-| 45 | Kabutowari | S+ | Sete Espadas da Névoa | Kirigakure | Kenma Soryo |
-| 46 | Hiramekarei | S+ | Sete Espadas da Névoa | Kirigakure | Suiren Shiranami |
-| 47 | Kiba | S+ | Sete Espadas da Névoa | Kirigakure | Hiroshi Hanzo |
-| 48 | Shibuki | S+ | Sete Espadas da Névoa | Kirigakure | Mirei Sazanami |
-| 49 | Kaikyō no Men | S+ | Suiton | Kirigakure | Genzō Umikage |
-| 50 | Hyōketsu no Sensu | S+ | Hyoton | Kirigakure | Mei Yuki |
-| 51 | Kokutetsu no Kusari | S+ | Desconhecido | Kirigakure | Gordon Kirisame |
-| 52 | Kiri Basami | S+ | Desconhecido | Kirigakure | Mei Yuki |
-| 53 | Yuji no Hōkō | Z | Chakra Profano + Raiton | Kumogakure | Yuji Yotsuki |
-| 54 | Kasa | Z | Ranton + Raiton | Kumogakure | Yoru Kurogami |
-| 55 | Hekireki no Yumi | S++ | Raiton | Kumogakure | Furyuzan Chinoike |
-| 56 | Kumo no Jū | S++ | Raiton | Kumogakure | Yoru Kurogami |
-| 57 | Meishi | S++ | Ranton + Raiton | Kumogakure | Yoru Kurogami |
-| 58 | Aoi Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
-| 59 | Akai Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
-| 60 | Raigan | S+ | Raiton | Kumogakure | Oddy Uchiha |
-| 61 | Satetsu no Rinne | Z | Satetsu | Sunagakure | Tetsu Sabaku |
-| 62 | Sakin no Shinra | Z | Sakin | Sunagakure | Hana Sabaku |
-| 63 | Kinjishi no Tsume | S++ | Sakin + Dokujutsu | Sunagakure | Sayuri Sabaku |
-| 64 | Kinjishi no Kōwan | S++ | Sakin + Satetsu | Sunagakure | Tessai Enshaku |
-| 65 | Tetsu no Sabaku-kyū | S++ | Satetsu | Sunagakure | Sayuri Sabaku |
-| 66 | Bitei | S+ | Satetsu + Dokujutsu | Sunagakure | Mizue Dokuhana |
-| 67 | Homura no Chikai | Z | Purazomaton + Doton Ancestral | Iwagakure | Oddy Uchiha |
-| 68 | Jikan no Ōken | Z | Juryūkuton + Doton Ancestral | Iwagakure | Hades |
-| 69 | Seimei no Saidan | Z | Seimeiryoku + Doton Ancestral | Iwagakure | Hades |
-| 70 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 71 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 72 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 73 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 74 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
-| 75 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
-| 76 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
-| 77 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
-| 78 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
-| 79 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
-| 80 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 81 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 82 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 83 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 84 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
-| 85 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
-| 86 | Shōdō no Naifu | S++ | Desconhecido | OCA | Hahiko Shiosaki |
-| 87 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
+| 37 | Satto | Z | Fuinjutsu | Kirigakure | Mangetsu Hozuki |
+| 38 | Sakin no Reigan | S++ | Sakin | Kirigakure | Tetsu Sabaku |
+| 39 | Suiryū no Reigan | S++ | Suiton | Kirigakure | Ganmaren Yuki |
+| 40 | Kiri-no-Kami no Yoroi | S++ | Suiton | Kirigakure | Juzo Kuroshio |
+| 41 | Shinsui no Yari | S++ | Suiton | Kirigakure | Hiroshi Hanzo |
+| 42 | Rasenken | S++ | Desconhecido | Kirigakure | Ayame Sazanami |
+| 43 | Kubikiribōchō | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
+| 44 | Nuibari | S+ | Sete Espadas da Névoa | Kirigakure | Takeshi Hatake |
+| 45 | Samehada | S+ | Sete Espadas da Névoa | Kirigakure | Nagare Uzumaki |
+| 46 | Kabutowari | S+ | Sete Espadas da Névoa | Kirigakure | Kenma Soryo |
+| 47 | Hiramekarei | S+ | Sete Espadas da Névoa | Kirigakure | Suiren Shiranami |
+| 48 | Kiba | S+ | Sete Espadas da Névoa | Kirigakure | Hiroshi Hanzo |
+| 49 | Shibuki | S+ | Sete Espadas da Névoa | Kirigakure | Mirei Sazanami |
+| 50 | Kaikyō no Men | S+ | Suiton | Kirigakure | Genzō Umikage |
+| 51 | Hyōketsu no Sensu | S+ | Hyoton | Kirigakure | Mei Yuki |
+| 52 | Kokutetsu no Kusari | S+ | Desconhecido | Kirigakure | Gordon Kirisame |
+| 53 | Kiri Basami | S+ | Desconhecido | Kirigakure | Mei Yuki |
+| 54 | Yuji no Hōkō | Z | Chakra Profano + Raiton | Kumogakure | Yuji Yotsuki |
+| 55 | Kasa | Z | Ranton + Raiton | Kumogakure | Yoru Kurogami |
+| 56 | Hekireki no Yumi | S++ | Raiton | Kumogakure | Furyuzan Chinoike |
+| 57 | Kumo no Jū | S++ | Raiton | Kumogakure | Yoru Kurogami |
+| 58 | Meishi | S++ | Ranton + Raiton | Kumogakure | Yoru Kurogami |
+| 59 | Aoi Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
+| 60 | Akai Hoshi | S+ | Raiton | Kumogakure | Desconhecido |
+| 61 | Raigan | S+ | Raiton | Kumogakure | Oddy Uchiha |
+| 62 | Satetsu no Rinne | Z | Satetsu | Sunagakure | Tetsu Sabaku |
+| 63 | Sakin no Shinra | Z | Sakin | Sunagakure | Hana Sabaku |
+| 64 | Kinjishi no Tsume | S++ | Sakin + Dokujutsu | Sunagakure | Sayuri Sabaku |
+| 65 | Kinjishi no Kōwan | S++ | Sakin + Satetsu | Sunagakure | Tessai Enshaku |
+| 66 | Tetsu no Sabaku-kyū | S++ | Satetsu | Sunagakure | Sayuri Sabaku |
+| 67 | Bitei | S+ | Satetsu + Dokujutsu | Sunagakure | Mizue Dokuhana |
+| 68 | Homura no Chikai | Z | Purazomaton + Doton Ancestral | Iwagakure | Oddy Uchiha |
+| 69 | Jikan no Ōken | Z | Juryūkuton + Doton Ancestral | Iwagakure | Hades |
+| 70 | Seimei no Saidan | Z | Seimeiryoku + Doton Ancestral | Iwagakure | Hades |
+| 71 | Sōryū no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 72 | Sōryo no Kōwan | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 73 | Ryokushin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 74 | Akashin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 75 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
+| 76 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
+| 77 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
+| 78 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
+| 79 | Ganryū no Omori | A+ | Doton | Iwagakure | Katsumi Hyuga |
+| 80 | Mugen | S++ | 7 Espectros Yang | OCA | Yuji Yotsuki |
+| 81 | Kōrin | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 82 | Shizuku | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 83 | Raion | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 84 | Ōja | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 85 | Rensha | S++ | 7 Espectros Yang | OCA | Desconhecido |
+| 86 | Guren | S++ | 7 Espectros Yang | OCA | Nagare Uzumaki |
+| 87 | Shōdō no Naifu | S++ | Desconhecido | OCA | Hahiko Shiosaki |
+| 88 | Protótipo de Reigan | S | Chakra Profano | OCA | Furyuzan Chinoike |
 
 ---
 
@@ -634,8 +635,23 @@ A âncora afeta todo o ambiente. É extremamente pesada, mas tem uma reversão q
 
 ---
 
-# Sakin no Reigan
+# Satto
 ID: 37
+Classificação: Z
+Natureza: Fuinjutsu
+Origem: Kirigakure
+Dono Original: Mangetsu Hozuki
+Dono Atual: Mangetsu Hozuki
+
+![Satto](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FSatto.png?alt=media&v=1790265218016438)
+
+## Descrição
+A Satto é uma lâmina de Rank Z de Kirigakure, gravada de ponta a ponta com selos de fuinjutsu que se acendem em vermelho quando ela prova sangue. Cada corte que abre é também um selo: pelo sangue do oponente, a espada extrai e guarda uma parcela do chakra de cada pessoa com quem já lutou, e nada do que ela armazena se perde com o tempo. Batalha após batalha, a Satto se torna um acervo vivo de chakras alheios, uma reserva que o portador pode liberar em combate. O preço vem junto com o poder: o selo não separa o chakra de quem o carregava, e com ele chegam a dor, o medo e a agonia de cada oponente, que o usuário sente como se fossem seus. Quanto mais a lâmina acumula, mais pesado fica o fardo — empunhar a Satto é carregar dentro de si o sofrimento de todos que ela já cortou.
+
+---
+
+# Sakin no Reigan
+ID: 38
 Classificação: S++
 Natureza: Sakin
 Origem: Kirigakure
@@ -650,7 +666,7 @@ O Sakin no Reigan, ou 'Olho Espectral de Areia Dourada', é um dispositivo de es
 ---
 
 # Suiryū no Reigan
-ID: 38
+ID: 39
 Classificação: S++
 Natureza: Suiton
 Origem: Kirigakure
@@ -665,7 +681,7 @@ O Suiryū no Reigan, ou 'Olho Espectral do Dragão de Água', é um amuleto ance
 ---
 
 # Kiri-no-Kami no Yoroi
-ID: 39
+ID: 40
 Classificação: S++
 Natureza: Suiton
 Origem: Kirigakure
@@ -680,7 +696,7 @@ A Kiri-no-Kami no Yoroi é uma armadura de escamas abissais de Rank S++ forjada 
 ---
 
 # Shinsui no Yari
-ID: 40
+ID: 41
 Classificação: S++
 Natureza: Suiton
 Origem: Kirigakure
@@ -695,7 +711,7 @@ A Shinsui no Yari é uma lança de Rank S++ forjada sob pressões astronômicas 
 ---
 
 # Rasenken
-ID: 41
+ID: 42
 Classificação: S++
 Natureza: Desconhecido
 Origem: Kirigakure
@@ -710,7 +726,7 @@ Espada broca capaz de perfurar qualquer superfície. Ela vibra para que o usuár
 ---
 
 # Kubikiribōchō
-ID: 42
+ID: 43
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -725,7 +741,7 @@ A lendária Kubikiribōchō, ou 'Lâmina Decapitadora', é uma das Sete Espadas 
 ---
 
 # Nuibari
-ID: 43
+ID: 44
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -740,7 +756,7 @@ A 'Agulha de Costura' é uma das Sete Espadas da Névoa, famosa por seu design l
 ---
 
 # Samehada
-ID: 44
+ID: 45
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -755,22 +771,22 @@ A lendária Samehada, ou 'Pele de Tubarão', é considerada a mais aterrorizante
 ---
 
 # Kabutowari
-ID: 45
+ID: 46
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
-Dono Original: Mangetsu Hozuki
+Dono Original: Kenma Soryo
 Dono Atual: Kenma Soryo
 
 ![Kabutowari](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F29%20-%20Kabutowari.png?alt=media&v=1788212121739515)
 
 ## Descrição
-A Kabutowari, uma das Sete Espadas da Névoa, desafia o conceito tradicional de espada ao ser composta por um pesado machado de um lado e um martelo de guerra colossal do outro, conectados por uma corrente de couro reforçado. Sua tática de combate é infalível: o machado golpeia primeiro para criar uma rachadura ou ponto de tensão, seguido imediatamente pelo impacto do martelo na parte de trás da lâmina, gerando uma força esmagadora que rompe qualquer defesa. Não existe armadura, escudo físico ou barreira de chakra capaz de resistir à pressão gerada pela combinação dessas duas ferramentas brutais. A Kabutowari é especialmente letal contra ninjas defensivos que confiam em muros de terra ou escudos de energia, pois cada golpe vibra através da defesa e atinge o usuário internamente. Mangetsu Hozuki e agora Kenma Soryo utilizam esta arma para fragmentar o campo de batalha e eliminar oponentes blindados com um único movimento coordenado. É a personificação da força bruta pura aplicada com engenhosidade tática, sendo temida por qualquer combatente que tente se esconder atrás de proteções sólidas.
+A Kabutowari, uma das Sete Espadas da Névoa, desafia o conceito tradicional de espada ao ser composta por um pesado machado de um lado e um martelo de guerra colossal do outro, conectados por uma corrente de couro reforçado. Sua tática de combate é infalível: o machado golpeia primeiro para criar uma rachadura ou ponto de tensão, seguido imediatamente pelo impacto do martelo na parte de trás da lâmina, gerando uma força esmagadora que rompe qualquer defesa. Não existe armadura, escudo físico ou barreira de chakra capaz de resistir à pressão gerada pela combinação dessas duas ferramentas brutais. A Kabutowari é especialmente letal contra ninjas defensivos que confiam em muros de terra ou escudos de energia, pois cada golpe vibra através da defesa e atinge o usuário internamente. Kenma Soryo utiliza esta arma para fragmentar o campo de batalha e eliminar oponentes blindados com um único movimento coordenado. É a personificação da força bruta pura aplicada com engenhosidade tática, sendo temida por qualquer combatente que tente se esconder atrás de proteções sólidas.
 
 ---
 
 # Hiramekarei
-ID: 46
+ID: 47
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -785,7 +801,7 @@ A Hiramekarei é a 'Espada Gêmea' de Rank S+, possuindo dois cabos e uma lâmin
 ---
 
 # Kiba
-ID: 47
+ID: 48
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -800,7 +816,7 @@ As Kiba, conhecidas como 'As Presas de Trovão', são um par de espadas curtas d
 ---
 
 # Shibuki
-ID: 48
+ID: 49
 Classificação: S+
 Natureza: Sete Espadas da Névoa
 Origem: Kirigakure
@@ -815,7 +831,7 @@ A Shibuki, ou 'Espada Explosiva', é uma arma de Rank S+ que combina magistralme
 ---
 
 # Kaikyō no Men
-ID: 49
+ID: 50
 Classificação: S+
 Natureza: Suiton
 Origem: Kirigakure
@@ -830,7 +846,7 @@ A Kaikyō no Men é uma máscara tradicional de Rank S+ utilizada pela elite dos
 ---
 
 # Hyōketsu no Sensu
-ID: 50
+ID: 51
 Classificação: S+
 Natureza: Hyoton
 Origem: Kirigakure
@@ -845,7 +861,7 @@ O Hyōketsu no Sensu é um leque de guerra de Rank S+ forjado em metal frio das 
 ---
 
 # Kokutetsu no Kusari
-ID: 51
+ID: 52
 Classificação: S+
 Natureza: Desconhecido
 Origem: Kirigakure
@@ -860,7 +876,7 @@ As correntes funcionam como chicotes, e cada gomo permite ao Gordon um teleporte
 ---
 
 # Kiri Basami
-ID: 52
+ID: 53
 Classificação: S+
 Natureza: Desconhecido
 Origem: Kirigakure
@@ -875,7 +891,7 @@ Desconhecido
 ---
 
 # Yuji no Hōkō
-ID: 53
+ID: 54
 Classificação: Z
 Natureza: Chakra Profano + Raiton
 Origem: Kumogakure
@@ -890,7 +906,7 @@ O Yuji no Hōkō, ou 'Rugido da Escuridão', é uma Sniper Rifle de Rank Z que r
 ---
 
 # Kasa
-ID: 54
+ID: 55
 Classificação: Z
 Natureza: Ranton + Raiton
 Origem: Kumogakure
@@ -915,7 +931,7 @@ O Kasa não é apenas um equipamento.
 ---
 
 # Hekireki no Yumi
-ID: 55
+ID: 56
 Classificação: S++
 Natureza: Raiton
 Origem: Kumogakure
@@ -930,7 +946,7 @@ O Hekireki no Yumi, ou 'Arco do Estrondo de Trovão', é uma arma de Rank S++ le
 ---
 
 # Kumo no Jū
-ID: 56
+ID: 57
 Classificação: S++
 Natureza: Raiton
 Origem: Kumogakure
@@ -945,7 +961,7 @@ O Kumo no Jū, o 'Canhão de Ombro da Nuvem', é uma peça de engenharia tecnol�
 ---
 
 # Meishi
-ID: 57
+ID: 58
 Classificação: S++
 Natureza: Ranton + Raiton
 Origem: Kumogakure
@@ -972,7 +988,7 @@ Além da análise, o Meishi também funciona como amplificador de suporte em com
 ---
 
 # Aoi Hoshi
-ID: 58
+ID: 59
 Classificação: S+
 Natureza: Raiton
 Origem: Kumogakure
@@ -987,7 +1003,7 @@ A Aoi Hoshi é uma das duas pistolas pesadas de Rank S+ que compõem o conjunto 
 ---
 
 # Akai Hoshi
-ID: 59
+ID: 60
 Classificação: S+
 Natureza: Raiton
 Origem: Kumogakure
@@ -1002,7 +1018,7 @@ A Akai Hoshi é a contraparte ofensiva da Aoi Hoshi no conjunto Sōsei no Gengan
 ---
 
 # Raigan
-ID: 60
+ID: 61
 Classificação: S+
 Natureza: Raiton
 Origem: Kumogakure
@@ -1017,7 +1033,7 @@ O Raigan é uma lente ocular de Rank S+ integrada com tecnologia de chakra de ú
 ---
 
 # Satetsu no Rinne
-ID: 61
+ID: 62
 Classificação: Z
 Natureza: Satetsu
 Origem: Sunagakure
@@ -1032,7 +1048,7 @@ O Satetsu no Rinne, ou 'Samsara da Areia de Ferro', é uma máscara ancestral de
 ---
 
 # Sakin no Shinra
-ID: 62
+ID: 63
 Classificação: Z
 Natureza: Sakin
 Origem: Sunagakure
@@ -1047,7 +1063,7 @@ O Sakin no Shinra, o 'Domínio Universal do Ouro', é um cetro relíquia de Rank
 ---
 
 # Kinjishi no Tsume
-ID: 63
+ID: 64
 Classificação: S++
 Natureza: Sakin + Dokujutsu
 Origem: Sunagakure
@@ -1062,7 +1078,7 @@ As Kinjishi no Tsume, ou 'Garras do Leão de Ouro', são armas de Rank S++ forja
 ---
 
 # Kinjishi no Kōwan
-ID: 64
+ID: 65
 Classificação: S++
 Natureza: Sakin + Satetsu
 Origem: Sunagakure
@@ -1077,7 +1093,7 @@ As Kinjishi no Kōwan são manoplas de Rank S++ que representam o auge do contro
 ---
 
 # Tetsu no Sabaku-kyū
-ID: 65
+ID: 66
 Classificação: S++
 Natureza: Satetsu
 Origem: Sunagakure
@@ -1092,7 +1108,7 @@ O Tetsu no Sabaku-kyū, o 'Caixão de Ferro Móvel', é um jarro metálico de Ra
 ---
 
 # Bitei
-ID: 66
+ID: 67
 Classificação: S+
 Natureza: Satetsu + Dokujutsu
 Origem: Sunagakure
@@ -1107,7 +1123,7 @@ A Bitei, ou 'Cauda do Escorpião do Deserto', é um chicote articulado de Rank S
 ---
 
 # Homura no Chikai
-ID: 67
+ID: 68
 Classificação: Z
 Natureza: Purazomaton + Doton Ancestral
 Origem: Iwagakure
@@ -1122,7 +1138,7 @@ A Homura no Chikai é uma espada lendária forjada para o domínio do Purazomato
 ---
 
 # Jikan no Ōken
-ID: 68
+ID: 69
 Classificação: Z
 Natureza: Juryūkuton + Doton Ancestral
 Origem: Iwagakure
@@ -1137,7 +1153,7 @@ A Jikan no Ōken é possivelmente o artefato mais perigoso e incompreensível do
 ---
 
 # Seimei no Saidan
-ID: 69
+ID: 70
 Classificação: Z
 Natureza: Seimeiryoku + Doton Ancestral
 Origem: Iwagakure
@@ -1152,7 +1168,7 @@ O Seimei no Saidan, conhecido como o 'Altar da Vida', é uma relíquia proibida 
 ---
 
 # Sōryū no Seikonseki
-ID: 70
+ID: 71
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1167,7 +1183,7 @@ A Sōryū no Seikonseki, ou 'Colar da Alma do Dragão Gêmeo', é uma relíquia 
 ---
 
 # Sōryo no Kōwan
-ID: 71
+ID: 72
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1182,7 +1198,7 @@ Este bracelete cerimonial, forjado em metal sagrado e imbuído com inscrições 
 ---
 
 # Ryokushin no Seikonseki
-ID: 72
+ID: 73
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1197,7 +1213,7 @@ A Ryokushin no Seikonseki é uma das três pedras-chave sagradas dos monges, foc
 ---
 
 # Akashin no Seikonseki
-ID: 73
+ID: 74
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1212,7 +1228,7 @@ A Akashin no Seikonseki, ou 'Pedra Vermelha da Alma Ancestral', é a terceira e 
 ---
 
 # Aoshin no Seikonseki
-ID: 74
+ID: 75
 Classificação: S++
 Natureza: Chakra Profano + Doton Ancestral
 Origem: Iwagakure
@@ -1227,7 +1243,7 @@ A Aoshin no Seikonseki, ou 'Pedra Azul da Alma Sagrada', é uma das três pedras
 ---
 
 # Gan-tei no Gaitō
-ID: 75
+ID: 76
 Classificação: S++
 Natureza: Doton + Bijuu
 Origem: Iwagakure
@@ -1242,7 +1258,7 @@ Esta imponente vestimenta, conhecida como Gan-tei no Gaitō, foi o traje de bata
 ---
 
 # Ishi no Kubikazari
-ID: 76
+ID: 77
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -1257,7 +1273,7 @@ O Ishi no Kubikazari é um colar de poder bruto, forjado a partir de minerais ra
 ---
 
 # Ishi no Seimei
-ID: 77
+ID: 78
 Classificação: S
 Natureza: Doton
 Origem: Iwagakure
@@ -1272,7 +1288,7 @@ O Ishi no Seimei é um artefato sagrado do País da Pedra que encerra em seu nú
 ---
 
 # Ganryū no Omori
-ID: 78
+ID: 79
 Classificação: A+
 Natureza: Doton
 Origem: Iwagakure
@@ -1287,7 +1303,7 @@ Estes pesos ancestrais, conhecidos como Ganryū no Omori, são imbuídos com cha
 ---
 
 # Mugen
-ID: 79
+ID: 80
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1302,7 +1318,7 @@ A Mugen é a primeira espada de Rank S++ entre os 7 Espectros do Yang, represent
 ---
 
 # Kōrin
-ID: 80
+ID: 81
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1317,7 +1333,7 @@ O Kōrin é o bastão elétrico de Rank S++ criado para representar a Frieza abs
 ---
 
 # Shizuku
-ID: 81
+ID: 82
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1332,7 +1348,7 @@ As Shizuku são correntes profanas de Rank S++ criadas para simbolizar a Serenid
 ---
 
 # Raion
-ID: 82
+ID: 83
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1347,7 +1363,7 @@ A Raion é uma lança dupla de Rank S++ criada para representar a Determinação
 ---
 
 # Ōja
-ID: 83
+ID: 84
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1362,7 +1378,7 @@ O Ōja é o machado profano de Rank S++ que representa o Orgulho entre os 7 Espe
 ---
 
 # Rensha
-ID: 84
+ID: 85
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1377,7 +1393,7 @@ A Rensha é a lâmina oculta profana de Rank S++ criada para representar a Fúri
 ---
 
 # Guren
-ID: 85
+ID: 86
 Classificação: S++
 Natureza: 7 Espectros Yang
 Origem: OCA
@@ -1392,7 +1408,7 @@ O Guren é o tridente profano de Rank S++ criado para simbolizar o Impulso entre
 ---
 
 # Shōdō no Naifu
-ID: 86
+ID: 87
 Classificação: S++
 Natureza: Desconhecido
 Origem: OCA
@@ -1407,7 +1423,7 @@ Desconhecido
 ---
 
 # Protótipo de Reigan
-ID: 87
+ID: 88
 Classificação: S
 Natureza: Chakra Profano
 Origem: OCA

@@ -427,6 +427,17 @@ export const arsenalData: Equipment[] = [
   },
   {
     id: 37,
+    name: "Satto",
+    classification: "Z",
+    nature: "Fuinjutsu",
+    origin: "Kirigakure",
+    description: "A Satto é uma lâmina de Rank Z de Kirigakure, gravada de ponta a ponta com selos de fuinjutsu que se acendem em vermelho quando ela prova sangue. Cada corte que abre é também um selo: pelo sangue do oponente, a espada extrai e guarda uma parcela do chakra de cada pessoa com quem já lutou, e nada do que ela armazena se perde com o tempo. Batalha após batalha, a Satto se torna um acervo vivo de chakras alheios, uma reserva que o portador pode liberar em combate. O preço vem junto com o poder: o selo não separa o chakra de quem o carregava, e com ele chegam a dor, o medo e a agonia de cada oponente, que o usuário sente como se fossem seus. Quanto mais a lâmina acumula, mais pesado fica o fardo — empunhar a Satto é carregar dentro de si o sofrimento de todos que ela já cortou.",
+    image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FSatto.png?alt=media&v=1790265218016438",
+    originalOwner: "Mangetsu Hozuki",
+    currentOwner: "Mangetsu Hozuki"
+  },
+  {
+    id: 38,
     name: "Sakin no Reigan",
     classification: "S++",
     nature: "Sakin",
@@ -437,7 +448,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Tetsu Sabaku"
   },
   {
-    id: 38,
+    id: 39,
     name: "Suiryū no Reigan",
     classification: "S++",
     nature: "Suiton",
@@ -448,7 +459,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Ganmaren Yuki"
   },
   {
-    id: 39,
+    id: 40,
     name: "Kiri-no-Kami no Yoroi",
     classification: "S++",
     nature: "Suiton",
@@ -459,7 +470,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Juzo Kuroshio"
   },
   {
-    id: 40,
+    id: 41,
     name: "Shinsui no Yari",
     classification: "S++",
     nature: "Suiton",
@@ -470,7 +481,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hiroshi Hanzo"
   },
   {
-    id: 41,
+    id: 42,
     name: "Rasenken",
     classification: "S++",
     nature: "",
@@ -481,7 +492,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Ayame Sazanami"
   },
   {
-    id: 42,
+    id: 43,
     name: "Kubikiribōchō",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -494,7 +505,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 43,
+    id: 44,
     name: "Nuibari",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -505,7 +516,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Takeshi Hatake"
   },
   {
-    id: 44,
+    id: 45,
     name: "Samehada",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -517,18 +528,18 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 45,
+    id: 46,
     name: "Kabutowari",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
     origin: "Kirigakure",
-    description: "A Kabutowari, uma das Sete Espadas da Névoa, desafia o conceito tradicional de espada ao ser composta por um pesado machado de um lado e um martelo de guerra colossal do outro, conectados por uma corrente de couro reforçado. Sua tática de combate é infalível: o machado golpeia primeiro para criar uma rachadura ou ponto de tensão, seguido imediatamente pelo impacto do martelo na parte de trás da lâmina, gerando uma força esmagadora que rompe qualquer defesa. Não existe armadura, escudo físico ou barreira de chakra capaz de resistir à pressão gerada pela combinação dessas duas ferramentas brutais. A Kabutowari é especialmente letal contra ninjas defensivos que confiam em muros de terra ou escudos de energia, pois cada golpe vibra através da defesa e atinge o usuário internamente. Mangetsu Hozuki e agora Kenma Soryo utilizam esta arma para fragmentar o campo de batalha e eliminar oponentes blindados com um único movimento coordenado. É a personificação da força bruta pura aplicada com engenhosidade tática, sendo temida por qualquer combatente que tente se esconder atrás de proteções sólidas.",
+    description: "A Kabutowari, uma das Sete Espadas da Névoa, desafia o conceito tradicional de espada ao ser composta por um pesado machado de um lado e um martelo de guerra colossal do outro, conectados por uma corrente de couro reforçado. Sua tática de combate é infalível: o machado golpeia primeiro para criar uma rachadura ou ponto de tensão, seguido imediatamente pelo impacto do martelo na parte de trás da lâmina, gerando uma força esmagadora que rompe qualquer defesa. Não existe armadura, escudo físico ou barreira de chakra capaz de resistir à pressão gerada pela combinação dessas duas ferramentas brutais. A Kabutowari é especialmente letal contra ninjas defensivos que confiam em muros de terra ou escudos de energia, pois cada golpe vibra através da defesa e atinge o usuário internamente. Kenma Soryo utiliza esta arma para fragmentar o campo de batalha e eliminar oponentes blindados com um único movimento coordenado. É a personificação da força bruta pura aplicada com engenhosidade tática, sendo temida por qualquer combatente que tente se esconder atrás de proteções sólidas.",
     image: "https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2F29%20-%20Kabutowari.png?alt=media&v=1788212121739515",
-    originalOwner: "Mangetsu Hozuki",
+    originalOwner: "Kenma Soryo",
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 46,
+    id: 47,
     name: "Hiramekarei",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -540,7 +551,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Suiren Shiranami"
   },
   {
-    id: 47,
+    id: 48,
     name: "Kiba",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -551,7 +562,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hiroshi Hanzo"
   },
   {
-    id: 48,
+    id: 49,
     name: "Shibuki",
     classification: "S+",
     nature: "Sete Espadas da Névoa",
@@ -562,7 +573,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Mirei Sazanami"
   },
   {
-    id: 49,
+    id: 50,
     name: "Kaikyō no Men",
     classification: "S+",
     nature: "Suiton",
@@ -573,7 +584,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Genzō Umikage"
   },
   {
-    id: 50,
+    id: 51,
     name: "Hyōketsu no Sensu",
     classification: "S+",
     nature: "Hyoton",
@@ -584,7 +595,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Mei Yuki"
   },
   {
-    id: 51,
+    id: 52,
     name: "Kokutetsu no Kusari",
     classification: "S+",
     nature: "",
@@ -595,7 +606,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Gordon Kirisame"
   },
   {
-    id: 52,
+    id: 53,
     name: "Kiri Basami",
     classification: "S+",
     nature: "",
@@ -606,7 +617,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Mei Yuki"
   },
   {
-    id: 53,
+    id: 54,
     name: "Yuji no Hōkō",
     classification: "Z",
     nature: "Chakra Profano + Raiton",
@@ -617,7 +628,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yuji Yotsuki"
   },
   {
-    id: 54,
+    id: 55,
     name: "Kasa",
     classification: "Z",
     nature: "Ranton + Raiton",
@@ -628,7 +639,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yoru Kurogami"
   },
   {
-    id: 55,
+    id: 56,
     name: "Hekireki no Yumi",
     classification: "S++",
     nature: "Raiton",
@@ -639,7 +650,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Furyuzan Chinoike"
   },
   {
-    id: 56,
+    id: 57,
     name: "Kumo no Jū",
     classification: "S++",
     nature: "Raiton",
@@ -650,7 +661,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yoru Kurogami"
   },
   {
-    id: 57,
+    id: 58,
     name: "Meishi",
     classification: "S++",
     nature: "Ranton + Raiton",
@@ -661,7 +672,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yoru Kurogami"
   },
   {
-    id: 58,
+    id: 59,
     name: "Aoi Hoshi",
     classification: "S+",
     nature: "Raiton",
@@ -672,7 +683,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 59,
+    id: 60,
     name: "Akai Hoshi",
     classification: "S+",
     nature: "Raiton",
@@ -683,7 +694,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 60,
+    id: 61,
     name: "Raigan",
     classification: "S+",
     nature: "Raiton",
@@ -696,7 +707,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 61,
+    id: 62,
     name: "Satetsu no Rinne",
     classification: "Z",
     nature: "Satetsu",
@@ -708,7 +719,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Tetsu Sabaku"
   },
   {
-    id: 62,
+    id: 63,
     name: "Sakin no Shinra",
     classification: "Z",
     nature: "Sakin",
@@ -720,7 +731,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hana Sabaku"
   },
   {
-    id: 63,
+    id: 64,
     name: "Kinjishi no Tsume",
     classification: "S++",
     nature: "Sakin + Dokujutsu",
@@ -731,7 +742,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Sayuri Sabaku"
   },
   {
-    id: 64,
+    id: 65,
     name: "Kinjishi no Kōwan",
     classification: "S++",
     nature: "Sakin + Satetsu",
@@ -742,7 +753,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Tessai Enshaku"
   },
   {
-    id: 65,
+    id: 66,
     name: "Tetsu no Sabaku-kyū",
     classification: "S++",
     nature: "Satetsu",
@@ -754,7 +765,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Sayuri Sabaku"
   },
   {
-    id: 66,
+    id: 67,
     name: "Bitei",
     classification: "S+",
     nature: "Satetsu + Dokujutsu",
@@ -765,7 +776,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Mizue Dokuhana"
   },
   {
-    id: 67,
+    id: 68,
     name: "Homura no Chikai",
     classification: "Z",
     nature: "Purazomaton + Doton Ancestral",
@@ -777,7 +788,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 68,
+    id: 69,
     name: "Jikan no Ōken",
     classification: "Z",
     nature: "Juryūkuton + Doton Ancestral",
@@ -789,7 +800,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hades"
   },
   {
-    id: 69,
+    id: 70,
     name: "Seimei no Saidan",
     classification: "Z",
     nature: "Seimeiryoku + Doton Ancestral",
@@ -801,7 +812,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hades"
   },
   {
-    id: 70,
+    id: 71,
     name: "Sōryū no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -812,7 +823,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 71,
+    id: 72,
     name: "Sōryo no Kōwan",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -823,7 +834,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 72,
+    id: 73,
     name: "Ryokushin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -834,7 +845,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 73,
+    id: 74,
     name: "Akashin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -845,7 +856,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 74,
+    id: 75,
     name: "Aoshin no Seikonseki",
     classification: "S++",
     nature: "Chakra Profano + Doton Ancestral",
@@ -856,7 +867,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 75,
+    id: 76,
     name: "Gan-tei no Gaitō",
     classification: "S++",
     nature: "Doton + Bijuu",
@@ -868,7 +879,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Kenma Soryo"
   },
   {
-    id: 76,
+    id: 77,
     name: "Ishi no Kubikazari",
     classification: "S",
     nature: "Doton",
@@ -879,7 +890,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 77,
+    id: 78,
     name: "Ishi no Seimei",
     classification: "S",
     nature: "Doton",
@@ -890,7 +901,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Oddy Uchiha"
   },
   {
-    id: 78,
+    id: 79,
     name: "Ganryū no Omori",
     classification: "A+",
     nature: "Doton",
@@ -902,7 +913,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Katsumi Hyuga"
   },
   {
-    id: 79,
+    id: 80,
     name: "Mugen",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -913,7 +924,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Yuji Yotsuki"
   },
   {
-    id: 80,
+    id: 81,
     name: "Kōrin",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -924,7 +935,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 81,
+    id: 82,
     name: "Shizuku",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -935,7 +946,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 82,
+    id: 83,
     name: "Raion",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -946,7 +957,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 83,
+    id: 84,
     name: "Ōja",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -957,7 +968,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 84,
+    id: 85,
     name: "Rensha",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -968,7 +979,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: ""
   },
   {
-    id: 85,
+    id: 86,
     name: "Guren",
     classification: "S++",
     nature: "7 Espectros Yang",
@@ -979,7 +990,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Nagare Uzumaki"
   },
   {
-    id: 86,
+    id: 87,
     name: "Shōdō no Naifu",
     classification: "S++",
     nature: "",
@@ -990,7 +1001,7 @@ export const arsenalData: Equipment[] = [
     currentOwner: "Hahiko Shiosaki"
   },
   {
-    id: 87,
+    id: 88,
     name: "Protótipo de Reigan",
     classification: "S",
     nature: "Chakra Profano",

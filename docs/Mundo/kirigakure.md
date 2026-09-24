@@ -371,7 +371,7 @@ Grande Almirante da Marinha e comandante supremo das quatro grandes frotas.
 
 | Cargo | Nome |
 |---|---|
-| Almirante | Amakumo Hōzuki |
+| Almirante | Amakumo Hozuki |
 | Vice-Almirante | Seiran Kirisame |
 | Capitão de Frota | Kōga Kirisame |
 | Vice-Capitão | Nao Shiosaki |
@@ -461,7 +461,7 @@ A cultura militar da vila havia ensinado que questionar o Mizukage significava a
 
 Com o tempo, três almirantes passaram a acreditar que Ganmasen havia se tornado uma ameaça.
 
-Amakumo Hōzuki, da Frota Kraken, Raizen Kuroshio, da Frota Leviatã, e Rinako Kuroshio, da Frota Megalodon, começaram a planejar um golpe de Estado.
+Amakumo Hozuki, da Frota Kraken, Raizen Kuroshio, da Frota Leviatã, e Rinako Kuroshio, da Frota Megalodon, começaram a planejar um golpe de Estado.
 
 Eles não sabiam que Ganmasen estava morto.
 
@@ -589,7 +589,7 @@ A OCA não é apenas um inimigo externo. Ela representa uma disputa interna sobr
 
 Kirigakure está sem Mizukage e sem Almirante de Frota.
 
-Os quatro almirantes atuais são Amakumo Hōzuki, Raizen Kuroshio, Rinako Kuroshio e Ganmaren Yuki.
+Os quatro almirantes atuais são Amakumo Hozuki, Raizen Kuroshio, Rinako Kuroshio e Ganmaren Yuki.
 
 Eles precisam decidir qual deles será o próximo líder da vila.
 
