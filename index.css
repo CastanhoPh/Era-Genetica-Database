@@ -190,6 +190,19 @@ html.modo-leve *:not(.aviso-urgente, .aviso-urgente *, .animate-spin)::after {
 
 /* as capas saem coloridas: o cinza era estética, não o sinal de morte (o card de morto tem a
    faixa MORTO e o NC em vermelho — ver BotaoDeCores.tsx) */
+/* A ANIMAÇÃO DE ENTRADA PRECISA DEIXAR O ELEMENTO NO ESTADO FINAL. Os cards de personagem, de
+   arsenal e de invocação nascem com `opacity-0 animate-fade-in-up`: é a animação que os traz de 0
+   até 1. Desligar a animação sem isto deixava o card invisível para sempre — a primeira versão do
+   modo leve apagou as três listas inteiras, com "REGISTROS ENCONTRADOS: 123" e a tela vazia.
+
+   A regra geral de cima tira a animação; esta põe o elemento onde a animação o deixaria. Os outros
+   keyframes que partem de opacidade 0 (glitchar, abrirJanela) só existem dentro do aviso, que já
+   está excluído. */
+html.modo-leve .animate-fade-in-up:not(.aviso-urgente *) {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
 html.modo-leve img:not(.aviso-urgente img) {
     filter: none !important;
 }
