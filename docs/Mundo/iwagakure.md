@@ -212,7 +212,7 @@ O bracelete foi confiado primeiro a Kaito Senju como símbolo de vínculo com os
 Os Bakuren pertencem à região central. Não são monges nem samurais e se destacam na mineração, reconstrução e uso controlado do Bakuton.
 
 - **Banjin Bakuren:** líder da família e conhecedor dos túneis de Iwagakure.
-- **Hisui Bakuren:** especialista em minerais e uma das primeiras a perceber os efeitos do chakra profano.
+- **Ruri Bakuren:** especialista em minerais e uma das primeiras a perceber os efeitos do chakra profano.
 - **Bilal Bakuren:** criança prodígio capaz de usar Bakuton com precisão incomum.
 
 ---
