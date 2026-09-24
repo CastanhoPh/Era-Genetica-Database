@@ -125,9 +125,9 @@
 | 119 | Oryo Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
 | 120 | Sekio Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
 | 121 | Mebuki Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 16 | 0 | 0 | Vivo |
-| 122 | Raio Yotsuki | Yotsuki | NPC, Kumogakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por ?) |
-| 123 | Fudo Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por ?) |
-| 124 | Sekka Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por ?) |
+| 122 | Raio Yotsuki | Yotsuki | NPC, Kumogakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Alpha) |
+| 123 | Fudo Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
+| 124 | Sekka Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Beta) |
 
 ---
 
@@ -12122,7 +12122,7 @@ Função: Desconhecido
 NC: 30
 HP: 0
 Chakra: 0
-Status: Morto (morto por ?)
+Status: Morto (morto por Alpha)
 
 ![Raio Yotsuki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRaio%20Yotsuki%2FRaio%20Yotsuki.png?alt=media&v=1790255105949117)
 
@@ -12160,7 +12160,7 @@ Função: Desconhecido
 NC: 30
 HP: 0
 Chakra: 0
-Status: Morto (morto por ?)
+Status: Vivo
 Títulos: Primeiro Jinchūriki de Gyūki
 
 ![Fudo Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FFudo%20Gunma%2FFudo%20Gunma.png?alt=media&v=1790255110372108)
@@ -12205,7 +12205,7 @@ Função: Desconhecido
 NC: 28
 HP: 0
 Chakra: 0
-Status: Morto (morto por ?)
+Status: Morto (morto por Beta)
 
 ![Sekka Gunma](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSekka%20Gunma%2FSekka%20Gunma.png?alt=media&v=1790255114602933)
 

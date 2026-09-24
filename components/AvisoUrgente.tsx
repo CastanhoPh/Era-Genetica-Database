@@ -327,6 +327,17 @@ const CARTA: Bloco[] = [
 
 const TOTAL_CHARS = CARTA.reduce((n, b) => n + tamanhoDoBloco(b), 0);
 
+/**
+ * Onde cada bloco começa na impressão. A carta se monta DE BAIXO PARA CIMA, a pedido do Pedro: o
+ * último parágrafo sai primeiro, lá embaixo, e cada anterior entra por cima dele. Assim a impressão
+ * termina no "IMPORTANTE" do topo, que é onde o Takeshi começa a ler — de cima para baixo ela
+ * terminava na assinatura e ele tinha que subir a carta inteira de volta.
+ *
+ * Só a ordem dos BLOCOS se inverte: dentro de cada um o texto segue da esquerda para a direita.
+ */
+const INICIO_NA_IMPRESSAO = CARTA.map((_, k) =>
+  CARTA.slice(k + 1).reduce((n, b) => n + tamanhoDoBloco(b), 0));
+
 const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({ onClose, capaDoHanzo }) => {
   const [restam, setRestam] = useState(SEGUNDOS_DE_ALARME);
   // 'erro' é a tela falsa que aparece quando o alarme acaba; a carta só abre quando o Takeshi
@@ -369,9 +380,9 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
     if (fase !== 'carta' || impressos >= TOTAL_CHARS) return;
     const t = setTimeout(() => {
       setImpressos(n => Math.min(TOTAL_CHARS, n + 10));
-      // a rolagem acompanha o cursor; sem isso o texto cresce para fora da tela
+      // a rolagem acompanha o cursor, e o cursor SOBE: o bloco sendo impresso é sempre o de cima
       const el = rolagem.current;
-      if (el) el.scrollTop = el.scrollHeight;
+      if (el) el.scrollTop = 0;
     }, 30);
     return () => clearTimeout(t);
   }, [fase, impressos]);
@@ -604,9 +615,6 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
   // A numeração das tarjas precisa ser contínua entre os blocos, então o contador vive fora do
   // map e é consumido na ordem em que o texto aparece.
   let tarja = 0;
-  // o contador da impressão: mesma ideia do `tarja`, uma variável que zera a cada render e é
-  // consumida na ordem em que o texto aparece
-  let percorrido = 0;
   const totalTarjas = CARTA.reduce((n, b) =>
     n + (('texto' in b) ? (b.texto.match(REGEX_TARJA) ?? []).length : 0), 0);
 
@@ -631,7 +639,10 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
 
   return (
     <div className="fixed inset-0 z-[200] bg-black/95 flex items-center justify-center p-3 md:p-6">
-      <div className="relative w-full max-w-3xl max-h-[92vh] bg-tech-bg border-2 border-tech-accent/50 shadow-[0_0_70px_-12px_rgba(255,176,0,0.35)] clip-corner flex flex-col overflow-hidden">
+      {/* altura FIXA, não máxima: a carta se monta a partir do pé da folha, e a folha precisa
+          existir inteira desde o começo para ter um pé. Com altura máxima ela crescia junto com o
+          texto, a partir do centro. */}
+      <div className="relative w-full max-w-3xl h-[92vh] bg-tech-bg border-2 border-tech-accent/50 shadow-[0_0_70px_-12px_rgba(255,176,0,0.35)] clip-corner flex flex-col overflow-hidden">
         <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-tech-accent z-30 pointer-events-none" />
         <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-tech-accent z-30 pointer-events-none" />
 
@@ -671,13 +682,17 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
         </div>
 
         <div ref={rolagem} className="relative flex-1 min-h-0 overflow-y-auto scrollbar-custom px-4 py-6 md:px-8 md:py-8">
+          {/* `min-h-full` + `justify-end` assenta o texto no pé da folha enquanto ele é curto. Não
+              é `justify-end` direto na caixa que rola: nela, o que passasse da altura vazaria por
+              CIMA, onde a rolagem não alcança. */}
+          <div className="min-h-full flex flex-col justify-end">
           <div className="flex flex-col gap-5">
             {CARTA.map((b, k) => {
-              const meuInicio = percorrido;
-              percorrido += tamanhoDoBloco(b);
+              const meuInicio = INICIO_NA_IMPRESSAO[k];
+              const meuFim = meuInicio + tamanhoDoBloco(b);
               if (impressos <= meuInicio) return null;          // ainda não chegou neste bloco
               const ate = impressos - meuInicio;                 // quanto dele já saiu
-              const imprimindo = impressos < percorrido;         // é o bloco que está sendo escrito
+              const imprimindo = impressos < meuFim;             // é o bloco que está sendo escrito
               const cursor = imprimindo ? <span className="animate-pulse">█</span> : null;
               // a numeração de margem é o que dá o ar de documento oficial, e de graça ela vira
               // uma referência: "o parágrafo 09 fala do Furyuzan"
@@ -767,6 +782,7 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
             </div>
           </div>
           )}
+          </div>
         </div>
       </div>
     </div>
