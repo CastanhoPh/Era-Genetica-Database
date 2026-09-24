@@ -110,7 +110,7 @@
 | 104 | Kaien Ishi (Omega) | Ishi | NPC, OCA, Iwagakure |  | DPS | 30 | 232 | 100 | Morto (morto por Nishinoya Senju) |
 | 105 | Beta | Desconhecido | NPC, OCA, Konohagakure |  | ? | 0 | 0 | 0 | Vivo |
 | 106 | Hades | Desconhecido | NPC, OCA |  | ? | 0 | 0 | 0 | Vivo |
-| 107 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por ?) |
+| 107 | Hashirama Senju | Senju | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Vivo |
 | 108 | Madara Uchiha | Uchiha | NPC, Konohagakure |  | Tanque e DPS | 30 | 0 | 0 | Morto (morto por Hashirama Senju) |
 | 109 | Mito Uzumaki | Uzumaki | NPC, Konohagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Selamento da Kurama em Naomi Uzumaki) |
 | 110 | Konan Uchiha | Uchiha | NPC, Konohagakure |  | Desconhecido | 24 | 0 | 0 | Morto (morto por Suicídio) |
@@ -11567,7 +11567,7 @@ Função: Tanque e DPS
 NC: 30
 HP: 0
 Chakra: 0
-Status: Morto (morto por ?)
+Status: Vivo
 Títulos: Deus Shinobi, Fundador de Konoha, Assassino de Uchiha Madara
 
 ![Hashirama Senju](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FHashirama%20Senju%2FHashirama%20Senju.png?alt=media&v=1789485882031310)
