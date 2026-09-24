@@ -494,7 +494,7 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
     entries: [
       { name: 'Iwana Soryo', role: 'Mestre do Senjutsu e Mãe de Kenma', nc: 26 },
       { name: 'Bilal Bakuren', role: 'Criança Prodígio', nc: 8 },
-      { name: 'Iwana Bakuren', role: 'Mãe de Bilal', nc: 16 },
+      { name: 'Hisui Bakuren', role: 'Mãe de Bilal', nc: 16 },
       { name: 'Banjin Bakuren', role: 'Pai de Bilal', nc: 20 },
       { name: 'Iwato Kamizuru', role: 'Mestre das Abelhas e Líder Espiritual dos Monges', nc: 27 },
       { name: 'Sora Ganseki', role: 'Mestre de Genjutsu pelas vibrações do solo e Líder Mental dos Monges', nc: 27 },
