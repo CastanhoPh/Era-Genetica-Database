@@ -38,10 +38,10 @@ export const POSTOS_POR_ABA: Record<string, PostoDeAba[]> = {
     { label: 'Braço Direito', postos: ['Braço Direito'] },
     { label: 'Braço Esquerdo', postos: ['Braço Esquerdo'] },
     { label: 'Dama', postos: ['Dama'] },
-    // Os seis esquadrões de Konoha sob um rótulo só.
+    // Os sete esquadrões de Konoha sob um rótulo só. A Barreira entrou em 24/09/2026.
     { label: 'Líder de Esquadrão', postos: [
       'Líder da Equipe de Elite', 'Líder da Ambu', 'Líder de Rastreio',
-      'Líder de Inovações', 'Líder da Força Médica', 'Líder da Academia Ninja',
+      'Líder de Inovações', 'Líder da Força Médica', 'Líder da Academia Ninja', 'Líder de Barreira',
     ] },
     // Abaixo dos seis líderes. O Capitão entra com as duas grafias porque as fichas gravam
     // "Capitã" no feminino, como a Marinha. Havia também um "Membro de Esquadrão" aqui, criado e
