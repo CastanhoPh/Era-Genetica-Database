@@ -5,7 +5,7 @@ import { subscribeCharacters, subscribeArsenal, saveCharacter, deleteCharacter, 
 import { carregaPersonagens, carregaArsenal, fonteEstatica } from './data/dados-publicos';
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
-import { useAuth } from './useAuth';
+import { useAuth, trocaVeioDestaAba } from './useAuth';
 import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
 import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
@@ -168,15 +168,23 @@ export default function App() {
     // usuário: guardo o uid anterior e disparo quando ele passa a ser o da conta certa. Assim vale
     // para login, para troca de conta e para abrir o site já logado, e não repete enquanto ele
     // navega pelo site.
+    //
+    // Duas regras que vieram de ter mais de uma aba aberta — o login do Firebase vale para todas:
+    //  - só abre na aba onde o login FOI FEITO (ou numa página que já nasce logada). As outras abas
+    //    também veem a conta entrar, e antes cada uma abria a sua sequência.
+    //  - fecha em qualquer aba quando a conta sai. Antes nada fechava: saindo numa aba, a outra
+    //    continuava com o aviso rodando, e parecia que ele tinha voltado.
     const [aviso, setAviso] = useState(false);
     const uidAnterior = useRef<string | null | undefined>(undefined);
     useEffect(() => {
         if (!authReady) return;
         const uid = user?.uid ?? null;
-        if (uid !== uidAnterior.current) {
-            uidAnterior.current = uid;
-            if (veAviso) setAviso(true);
-        }
+        if (uid === uidAnterior.current) return;
+        const paginaNasceuAgora = uidAnterior.current === undefined;
+        uidAnterior.current = uid;
+        const destaAba = trocaVeioDestaAba();   // consome a marca em TODA troca, não só na do aviso
+        if (!veAviso) setAviso(false);
+        else if (paginaNasceuAgora || destaAba) setAviso(true);
     }, [authReady, user, veAviso]);
     // Chave = id+URL da imagem (não só o id), pra que uma correção de URL feita no Painel
     // "esqueça" o erro antigo automaticamente, sem precisar de F5.

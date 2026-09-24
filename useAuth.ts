@@ -28,6 +28,22 @@ const CHECKLIST_EDITOR_UIDS = new Set([
  */
 const EMAIL_DO_AVISO = 'takeshi.hatake@eragenetica.com';
 
+/**
+ * Marca que o último login partiu DESTA aba.
+ *
+ * O Firebase espalha o login para todas as abas abertas do site. Sem a marca, cada aba via a conta
+ * do aviso entrar e abria a sequência por conta própria — o Pedro saiu da conta numa aba e deu de
+ * cara com o aviso rodando na outra.
+ */
+let loginDestaAba = false;
+
+/** Diz se a troca de usuário que acabou de chegar veio de um login feito nesta aba, e apaga a marca. */
+export function trocaVeioDestaAba(): boolean {
+  const veio = loginDestaAba;
+  loginDestaAba = false;
+  return veio;
+}
+
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
   const [authReady, setAuthReady] = useState(false);
@@ -39,8 +55,13 @@ export function useAuth() {
     });
   }, []);
 
-  const login = (email: string, password: string) =>
-    signInWithEmailAndPassword(auth, email, password);
+  const login = (email: string, password: string) => {
+    loginDestaAba = true;
+    return signInWithEmailAndPassword(auth, email, password).catch(e => {
+      loginDestaAba = false;   // senha errada não pode deixar a marca para um login de outra aba
+      throw e;
+    });
+  };
 
   const logout = () => signOut(auth);
 
