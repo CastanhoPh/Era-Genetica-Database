@@ -129,6 +129,17 @@
 | 123 | Raio Yotsuki | Yotsuki | NPC, Kumogakure |  | Desconhecido | 30 | 0 | 0 | Morto (morto por Alpha) |
 | 124 | Fudo Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 30 | 0 | 0 | Vivo |
 | 125 | Sekka Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Beta) |
+| 126 | Shikado Nara | Nara | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Hades) |
+| 127 | Kurai Nara | Nara | NPC, Konohagakure |  | Desconhecido | 26 | 0 | 0 | Morto (morto por Hades) |
+| 128 | Yui Haruno | Haruno | NPC, Konohagakure |  | Desconhecido | 8 | 0 | 0 | Vivo |
+| 129 | Iwana Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 26 | 0 | 0 | Vivo |
+| 130 | Iwato Kamizuru | Kamizuru | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
+| 131 | Sora Ganseki | Ganseki | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
+| 132 | Tetsugen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Vivo |
+| 133 | Shingen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Vivo |
+| 134 | Banjin Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 20 | 0 | 0 | Vivo |
+| 135 | Ruri Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 16 | 0 | 0 | Vivo |
+| 136 | Bilal Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 8 | 0 | 0 | Vivo |
 
 ---
 
@@ -12271,6 +12282,442 @@ Status: Morto (morto por Beta)
 
 ## Descrição
 Desconhecido
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Shikado Nara
+ID: 126
+Clã: Nara
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 26
+HP: 0
+Chakra: 0
+Status: Morto (morto por Hades)
+
+![Shikado Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShikado%20Nara%2FShikado%20Nara.png?alt=media&v=1790278155357147)
+
+## Descrição
+Pai de Shikaki e Shikatsu.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Kurai Nara
+ID: 127
+Clã: Nara
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 26
+HP: 0
+Chakra: 0
+Status: Morto (morto por Hades)
+
+![Kurai Nara](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FKurai%20Nara%2FKurai%20Nara.png?alt=media&v=1790278158278611)
+
+## Descrição
+Mãe de Shikaki e Shikatsu.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Yui Haruno
+ID: 128
+Clã: Haruno
+Grupos: NPC, Konohagakure
+Função: Desconhecido
+NC: 8
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Yui Haruno](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FYui%20Haruno%2FYui%20Haruno.png?alt=media&v=1790278161240729)
+
+## Descrição
+Criança prodígio.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Iwana Soryo
+ID: 129
+Clã: Soryo
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 26
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Iwana Soryo](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FIwana%20Soryo%2FIwana%20Soryo.png?alt=media&v=1790278164038561)
+
+## Descrição
+Mestre do Senjutsu e mãe de Kenma.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Iwato Kamizuru
+ID: 130
+Clã: Kamizuru
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 27
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Iwato Kamizuru](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FIwato%20Kamizuru%2FIwato%20Kamizuru.png?alt=media&v=1790278167105235)
+
+## Descrição
+Mestre das abelhas e líder espiritual dos monges.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Sora Ganseki
+ID: 131
+Clã: Ganseki
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 27
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Sora Ganseki](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FSora%20Ganseki%2FSora%20Ganseki.png?alt=media&v=1790278170092033)
+
+## Descrição
+Mestre de genjutsu pelas vibrações do solo e líder mental dos monges.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Tetsugen Ishi
+ID: 132
+Clã: Ishi
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 28
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Tetsugen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsugen%20Ishi%2FTetsugen%20Ishi.png?alt=media&v=1790278173206721)
+
+## Descrição
+Pai de Sekio Ishi.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Shingen Ishi
+ID: 133
+Clã: Ishi
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 28
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Shingen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShingen%20Ishi%2FShingen%20Ishi.png?alt=media&v=1790278176290570)
+
+## Descrição
+Irmão mais novo de Sekio Ishi.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+### 1. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Banjin Bakuren
+ID: 134
+Clã: Bakuren
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 20
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Banjin Bakuren](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBanjin%20Bakuren%2FBanjin%20Bakuren.png?alt=media&v=1790278179482277)
+
+## Descrição
+Pai de Bilal.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Ruri Bakuren
+ID: 135
+Clã: Bakuren
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 16
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Ruri Bakuren](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FRuri%20Bakuren%2FRuri%20Bakuren.png?alt=media&v=1790278182565503)
+
+## Descrição
+Mãe de Bilal.
+
+## Atributos
+- Força: 0
+- Destreza: 0
+- Agilidade: 0
+- Inteligência: 0
+- Espírito: 0
+- Vigor: 0
+- Percepção: 0
+
+## Poderes e Elementos
+- Desconhecido
+
+## Aptidões
+Desconhecido
+
+## Arsenal
+Nenhum item cadastrado.
+
+## Técnicas
+Nenhuma técnica cadastrada.
+
+---
+
+# Bilal Bakuren
+ID: 136
+Clã: Bakuren
+Grupos: NPC, Iwagakure
+Função: Desconhecido
+NC: 8
+HP: 0
+Chakra: 0
+Status: Vivo
+
+![Bilal Bakuren](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FBilal%20Bakuren%2FBilal%20Bakuren.png?alt=media&v=1790278185582770)
+
+## Descrição
+Criança prodígio.
 
 ## Atributos
 - Força: 0

@@ -456,9 +456,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
     village: 'Konohagakure',
     entries: [
       { name: 'Inazuma Uchiha', role: 'Filho do Velho, morto por Beta, descartado pela OCA', dead: true, nc: 14 },
-      { name: 'Shikado Nara', role: 'Pai de Shikaki e Shikatsu, morto por Hades', dead: true, nc: 26 },
-      { name: 'Kurai Nara', role: 'Mãe de Shikaki e Shikatsu, morta por Hades', dead: true, nc: 26 },
-      { name: 'Yui Haruno', role: 'Criança Prodígio', nc: 8 },
       { name: 'Tomoe Shimura', role: 'Esposa de Oogway Uchiha, mãe de Sho e Tsubasa' },
       { name: 'Atsuko Uchiha', role: 'Esposa de Sho Uchiha, mãe de Akairo e Genpachi' },
       { name: 'Kazeha Namikaze', role: 'Esposa de Ashina Uzumaki, mãe de Mito, Yumi, Naomi e Katsuo' },
@@ -487,19 +484,6 @@ export const PENDING_CHARACTERS: { village: string; entries: { name: string; rol
     entries: [
       { name: 'Byakuren Hoshigaki', role: '1º Mizukage, Jinchuuriki do Isobu', nc: 30 },
       { name: 'Murasame Hoshigaki', role: 'Mãe de Kazuki, morta por Ganmasen', dead: true, nc: 18 },
-    ],
-  },
-  {
-    village: 'Iwagakure',
-    entries: [
-      { name: 'Iwana Soryo', role: 'Mestre do Senjutsu e Mãe de Kenma', nc: 26 },
-      { name: 'Bilal Bakuren', role: 'Criança Prodígio', nc: 8 },
-      { name: 'Ruri Bakuren', role: 'Mãe de Bilal', nc: 16 },
-      { name: 'Banjin Bakuren', role: 'Pai de Bilal', nc: 20 },
-      { name: 'Iwato Kamizuru', role: 'Mestre das Abelhas e Líder Espiritual dos Monges', nc: 27 },
-      { name: 'Sora Ganseki', role: 'Mestre de Genjutsu pelas vibrações do solo e Líder Mental dos Monges', nc: 27 },
-      { name: 'Shingen Ishi', role: 'Irmão mais novo de Sekio Ishi', nc: 28 },
-      { name: 'Tetsugen Ishi', role: 'Pai de Sekio Ishi', nc: 28 },
     ],
   },
 ];

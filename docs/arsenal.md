@@ -289,7 +289,7 @@ Origem: Konohagakure
 Dono Original: Satoshi Namikaze
 Dono Atual: Satoshi Namikaze
 
-
+![Gama no Kaeruba](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FGama_no_Kaeruba.png?alt=media&v=1790278023095282)
 
 ## Descrição
 Um disco de combate curvo, moldado para lembrar a língua enrolada de um sapo gigante, com a borda inteira afiada e selos de fuinjutsu gravados em espiral por toda a superfície. O nome carrega um trocadilho proposital do clã: "kaeru" significa tanto "sapo" quanto "retornar" — e é exatamente isso que a arma faz. Ao ser lançada, absorve energia natural do ambiente e do próprio arremesso, curva a trajetória em pleno ar como se fosse recolhida por uma língua invisível, e retorna à mão do usuário na mesma velocidade em que partiu, cortando qualquer coisa em seu caminho de volta como cortou na ida. Em contato com água, a lâmina desliza sem perder velocidade, permitindo curvas praticamente impossíveis para uma arma arremessada. Os selos gravados nela reconhecem apenas o chakra de quem partilha do Modo Sábio dos Sapos — em qualquer outra mão, o Gama no Kaeruba simplesmente cai no chão depois do lançamento, como uma língua que não reconhece a boca que a comanda.
@@ -439,7 +439,7 @@ Origem: Konohagakure
 Dono Original: Satoshi Namikaze
 Dono Atual: Satoshi Namikaze
 
-
+![Gama no Zōri](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FGama_no_Z_ri.png?alt=media&v=1790278025204449)
 
 ## Descrição
 Um par de sandálias seladas, com solas grossas de couro tratado que imitam a textura da pele de um sapo sábio. Cada passo do usuário libera um pulso quase imperceptível de energia natural pelas plantas dos pés, que se acumula e se converte em impulso puro no instante do salto — permitindo saltos que desafiam a lógica humana, tanto em altura quanto em distância, e quedas de qualquer altura absorvidas sem dano, como se o chão fosse sempre líquido sob os pés de quem as usa. Em combate, o Gama no Zōri transforma cada esquiva em um deslocamento absurdo, e cada avanço em um golpe que chega antes do oponente terminar de reagir. Diferente de técnicas de velocidade que consomem chakra a cada uso, as sandálias trabalham em ciclo com a energia natural do Modo Sábio — quanto mais tempo o usuário permanece com o Senjutsu ativo, mais eficiente e silencioso se torna cada salto.
@@ -454,7 +454,7 @@ Origem: Konohagakure
 Dono Original: Satoshi Namikaze
 Dono Atual: Satoshi Namikaze
 
-
+![Gama Sennin no Keiyaku](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FGama_Sennin_no_Keiyaku.png?alt=media&v=1790278027364721)
 
 ## Descrição
 O pergaminho sagrado que formaliza o pacto entre a linhagem Namikaze e os Sapos Sábios — diferente do Pergaminho de Invocação genérico, este só se abre para quem carrega o sangue do clã. Assinado com uma gota de sangue e chakra sobre o papel amarelado, o contrato grava simultaneamente o nome do usuário na pele de sua própria mão e nos registros vivos do território sábio dos sapos, criando uma linha de invocação que nunca se rompe enquanto ambas as partes existirem. Uma vez selado, permite convocar desde pequenos sapos mensageiros até colossos de guerra, e é considerado o primeiro passo formal para qualquer Namikaze que deseje um dia alcançar o próprio Modo Sábio — não ensina o Senjutsu por si só, mas abre a porta que todos os sapos sábios exigem estar aberta antes de aceitar ensinar quem quer que seja.
@@ -469,7 +469,7 @@ Origem: Konohagakure
 Dono Original: Asami Hyuga
 Dono Atual: Tōma Umikage
 
-
+![Sōhakujū](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FS_hakuj_.png?alt=media&v=1790278052214557)
 
 ## Descrição
 Arma desenvolvida por Haruki para Asami. Conecta-se com o chakra do usuário e dispara balas feitas diretamente desse chakra, capazes de acertar os tenketsus do oponente. É potencializada pelo Fujogan de Asami.
@@ -484,7 +484,7 @@ Origem: Konohagakure
 Dono Original: Kagami Uchiha
 Dono Atual: Kagami Uchiha
 
-
+![Sōsai](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FS_sai.png?alt=media&v=1790278054296308)
 
 ## Descrição
 Desconhecido
@@ -634,7 +634,7 @@ Origem: Kirigakure
 Dono Original: Ganmasen Yuki (Gama)
 Dono Atual: Ganmaren Yuki
 
-
+![Shinkai no Ikari](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FShinkai_no_Ikari.png?alt=media&v=1790278048086248)
 
 ## Descrição
 A âncora afeta todo o ambiente. É extremamente pesada, mas tem uma reversão que permite ser carregada por quem a controla. Ao bater no chão, toda a gravidade de uma grande área é alterada e o chakra se expande, tornando o campo de batalha totalmente imprevisível. Se for arremessada contra um ninja, além do golpe ela altera todo o campo gravitacional. Seu único counter é o jutsu de poeira, que permite ao usuário anular esse tipo de efeito.
@@ -664,7 +664,7 @@ Origem: Kirigakure
 Dono Original: Reto Sabaku
 Dono Atual: Tetsu Sabaku
 
-
+![Sakin no Reigan](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FSakin_no_Reigan.png?alt=media&v=1790278041923162)
 
 ## Descrição
 O Sakin no Reigan, ou 'Olho Espectral de Areia Dourada', é um dispositivo de espionagem de Rank S++ composto por bilhões de nano-partículas de ouro controladas magneticamente. Este artefato atua como um drone de vigilância onisciente, capaz de transmitir imagens térmicas, assinaturas de chakra e vibrações sonoras diretamente para a mente do usuário. Devido à sua natureza granular, o olho pode se infiltrar em frestas minúsculas e permanecer indetectável por sentidos comuns, agindo como um espião perfeito no campo de batalha. O portador pode ver através do Reigan em um raio de quilômetros, permitindo a coordenação de ataques à distância ou a detecção de emboscadas antes mesmo que ocorram. Em caso de necessidade, a esfera de areia dourada pode explodir em uma nuvem de poeira sufocante ou endurecer para agir como um projétil perfurante de alta precisão. É a ferramenta de inteligência suprema de Sunagakure, garantindo que o deserto nunca guarde segredos daqueles que o governam. Sua posse transforma o usuário em um mestre estrategista que possui a visão total do campo de batalha e da infraestrutura inimiga.
@@ -724,7 +724,7 @@ Origem: Kirigakure
 Dono Original: Ayame Sazanami
 Dono Atual: Ayame Sazanami
 
-
+![Rasenken](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FRasenken.png?alt=media&v=1790278039901133)
 
 ## Descrição
 Espada broca capaz de perfurar qualquer superfície. Ela vibra para que o usuário possa sentir todo o ambiente à sua volta. É feita sob medida pelo clã para um filho do céu.
@@ -874,7 +874,7 @@ Origem: Kirigakure
 Dono Original: Gordon Kirisame
 Dono Atual: Gordon Kirisame
 
-
+![Kokutetsu no Kusari](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FKokutetsu_no_Kusari.png?alt=media&v=1790278037893777)
 
 ## Descrição
 As correntes funcionam como chicotes, e cada gomo permite ao Gordon um teleporte rápido. Ele consegue soltar as peças da corrente e imbuir chakra em cada gomo para lutar de forma ágil.
@@ -889,7 +889,7 @@ Origem: Kirigakure
 Dono Original: Mei Yuki
 Dono Atual: Mei Yuki
 
-
+![Kiri Basami](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FKiri_Basami.png?alt=media&v=1790278035833143)
 
 ## Descrição
 Desconhecido
@@ -1181,7 +1181,7 @@ Origem: Iwagakure
 Dono Original: Fudo Gunma
 Dono Atual: Fudo Gunma
 
-
+![Ganju no Yari](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FGanju_no_Yari.png?alt=media&v=1790278029456071)
 
 ## Descrição
 A Ganju no Yari, a 'Lança da Árvore de Pedra', é a lança lendária de Rank Z de Fudo Gunma, o Primeiro Tsuchikage. Para criá-la, Fudo foi pessoalmente ao encontro de Hashirama Senju e aperfeiçoou com ele a técnica de criação da arma, até que o Mokuton passasse a correr pela haste como seiva viva. A lança foi cultivada a partir da própria madeira do Mokuton e endurecida até ganhar a resistência da rocha das montanhas de Iwagakure — daí o nome. Enquanto está nas mãos do portador, ela devolve ao corpo a vitalidade da árvore: ferimentos se fecham em ritmo acelerado, e a regeneração do usuário cresce a cada técnica de Mokuton que ele executa. Além disso, a Ganju no Yari potencializa todo o Mokuton canalizado por ela, fazendo raízes, troncos e estacas brotarem mais rápidos, mais densos e mais resistentes a partir de cada golpe. É uma arma nascida do encontro entre a técnica de Hashirama e a vontade de Fudo, feita para que o Tsuchikage pudesse sustentar a linha de frente por mais tempo do que qualquer adversário.
@@ -1196,7 +1196,7 @@ Origem: Iwagakure
 Dono Original: Sekka Gunma
 Dono Atual: Desconhecido
 
-
+![Seiju no Udewa](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FSeiju_no_Udewa.png?alt=media&v=1790278043927007)
 
 ## Descrição
 Os Seiju no Udewa, os 'Braceletes da Árvore Viva', são o par de braceletes lendários de Rank Z de Sekka Gunma. Feitos de madeira de Mokuton que nunca deixou de crescer, eles pulsam como um tronco vivo em volta dos pulsos da usuária e potencializam todo o Mokuton que passa pelos seus braços. Seu poder mais raro é levar o Mokuton para o próprio corpo: com os braceletes, a madeira cresce sobre a pele e transforma braços e punhos em armaduras, lâminas e garras vivas, permitindo usar o elemento no combate corpo a corpo em vez de apenas moldá-lo à distância. A madeira viva também serve ao genjutsu. Quando o chakra de Sekka circula por ela, os braceletes florescem, e o Mokuton passa a carregar a ilusão — raízes, folhas e o perfume das flores invadem os sentidos do inimigo e o prendem num transe muito mais profundo do que um genjutsu comum. Nas mãos de Sekka, cada árvore do campo de batalha se tornava uma extensão dos próprios braços, tanto para golpear quanto para enganar.
@@ -1211,7 +1211,7 @@ Origem: Iwagakure
 Dono Original: Tetsugen Ishi
 Dono Atual: Sekio Ishi
 
-
+![Ganō no Kanmuri](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FGan__no_Kanmuri.png?alt=media&v=1790278031482496)
 
 ## Descrição
 A Ganō no Kanmuri, a 'Coroa do Rei da Pedra', é a coroa lendária de Rank Z dos samurais do País da Pedra. Foi usada primeiro por Tetsugen Ishi e hoje pertence a seu filho, Sekio Ishi, o Rei dos Samurais. Forjada em metal e rocha extraídos do coração das montanhas de Iwagakure, ela une quem a veste ao Doton Ancestral da própria terra: o portador sente cada vibração do solo ao seu redor, como se o chão inteiro fosse uma extensão do próprio corpo, e pode erguer, afundar ou partir o terreno com um simples gesto. Enquanto usa a coroa, o rei se torna tão firme quanto a montanha — nenhum impacto consegue movê-lo do lugar, e a pressão que ele exerce sobre o campo de batalha esmaga a vontade dos adversários mais fracos. A Ganō no Kanmuri é também o símbolo máximo da autoridade samurai: os guerreiros da Pedra reconhecem nela o direito de comandar. Passada de pai para filho, ela carrega o peso de toda a linhagem que já a usou.
@@ -1316,10 +1316,10 @@ Origem: Iwagakure
 Dono Original: Iwato Kamizuru
 Dono Atual: Iwato Kamizuru
 
-
+![Hachisu no Oi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FHachisu_no_Oi.png?alt=media&v=1790278033702210)
 
 ## Descrição
-O Hachisu no Oi, a 'Colmeia do Peregrino', é a mochila lendária de Rank S++ de Iwato Kamizuru, mestre das abelhas e líder espiritual dos monges do País da Pedra. Por fora, é o oi de madeira que os monges peregrinos carregam nas costas; por dentro, é uma colmeia viva onde milhares de abelhas nascem, trabalham e obedecem ao chakra do portador. As abelhas se alimentam das flores das montanhas e trazem para a colmeia a energia natural presa no pólen, produzindo um mel denso capaz de restaurar chakra, fechar ferimentos e sustentar o Senjutsu de quem o consome. Em combate, o oi se abre e libera enxames inteiros: abelhas batedoras que vasculham o terreno e mostram ao usuário tudo o que encontram, e abelhas guerreiras cujo ferrão carrega venenos que paralisam, cegam ou queimam por dentro. A cera e o mel também servem de arma, prendendo inimigos em massas pegajosas das quais é quase impossível escapar. Para os monges, a colmeia é símbolo de comunidade e disciplina: milhares de vidas que agem como uma só, guiadas por uma única vontade.
+O Hachisu no Oi, a 'Colmeia do Peregrino', é a mochila lendária de Rank S++ de Iwato Kamizuru, mestre das abelhas e líder espiritual dos monges do País da Pedra. Por fora, é um jarro de viagem amarrado por cordas, como os que os monges peregrinos carregam nas costas, com o mel escorrendo pela tampa; por dentro, é uma colmeia viva onde milhares de abelhas nascem, trabalham e obedecem ao chakra do portador. As abelhas se alimentam das flores das montanhas e trazem para a colmeia a energia natural presa no pólen, produzindo um mel denso capaz de restaurar chakra, fechar ferimentos e sustentar o Senjutsu de quem o consome. Em combate, o oi se abre e libera enxames inteiros: abelhas batedoras que vasculham o terreno e mostram ao usuário tudo o que encontram, e abelhas guerreiras cujo ferrão carrega venenos que paralisam, cegam ou queimam por dentro. A cera e o mel também servem de arma, prendendo inimigos em massas pegajosas das quais é quase impossível escapar. Para os monges, a colmeia é símbolo de comunidade e disciplina: milhares de vidas que agem como uma só, guiadas por uma única vontade.
 
 ---
 
@@ -1331,7 +1331,7 @@ Origem: Iwagakure
 Dono Original: Shingen Ishi
 Dono Atual: Shingen Ishi
 
-
+![Tenkō no Tsuchi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FTenk__no_Tsuchi.png?alt=media&v=1790278056449896)
 
 ## Descrição
 O Tenkō no Tsuchi, o 'Martelo da Obra Celeste', é o lendário martelo de forja de Rank S++ do País da Pedra — o martelo usado para forjar todas as relíquias de Iwagakure. Seu portador é Shingen Ishi, irmão mais novo de Sekio Ishi. Diferente de qualquer ferramenta comum, ele não apenas molda o metal: a cada golpe, funde Yoton e Doton Ancestral no material e grava nele o chakra de quem forja, e é por isso que as armas nascidas sob seus golpes guardam poderes que nenhuma forja comum consegue reproduzir. Nas mãos de um mestre, o martelo também devolve a forma a relíquias rachadas ou quebradas, reforjando-as sem que percam o que carregam. Em combate, o Tenkō no Tsuchi deixa de ser ferramenta: sua cabeça arde como rocha derretida, cada impacto funde o aço e a pedra que atinge, e as ondas de choque que ele envia pelo chão partem o terreno como se a própria montanha tivesse sido golpeada. Mais do que uma arma, é a origem do arsenal da Pedra — todas as lâminas, coroas e relíquias lendárias de Iwagakure carregam, em algum ponto, a marca dos seus golpes.
@@ -1346,7 +1346,7 @@ Origem: Iwagakure
 Dono Original: Iwana Soryo
 Dono Atual: Iwana Soryo
 
-
+![Senseki no Juzu](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FSenseki_no_Juzu.png?alt=media&v=1790278045988135)
 
 ## Descrição
 O Senseki no Juzu, o 'Rosário das Pedras do Sábio', é o colar de contas lendário de Rank S+ de Iwana Soryo, mestre do Senjutsu entre os monges do País da Pedra. Cada uma de suas contas foi talhada em pedra das montanhas sagradas de Iwagakure, onde a energia natural é mais densa, e guarda essa energia como a rocha guarda o calor do sol. Enquanto a usuária medita e passa as contas entre os dedos, o colar recolhe energia natural do chão e a acumula aos poucos, permitindo entrar no Modo Sábio muito mais rápido e sustentá-lo por mais tempo. Sua função mais importante é o equilíbrio: o juzu absorve o excesso de energia natural que atravessa o corpo, impedindo que o fluxo da montanha domine a usuária quando passa do limite. Em combate, as contas também reforçam o Doton moldado através do Senjutsu, tornando muralhas, pilares e golpes de terra tão densos quanto a própria montanha. É um instrumento de disciplina antes de ser uma arma — nas mãos de quem não aprendeu a esvaziar a mente, as contas pesam como rochas e não respondem.
@@ -1511,7 +1511,7 @@ Origem: OCA
 Dono Original: Shiita Sabaku (Theta)
 Dono Atual: Hahiko Shiosaki
 
-
+![Shōdō no Naifu](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FSh_d__no_Naifu.png?alt=media&v=1790278050088919)
 
 ## Descrição
 Desconhecido
