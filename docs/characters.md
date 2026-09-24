@@ -22,7 +22,7 @@
 | 16 | Apollo Sarutobi | Sarutobi | NPC, Konohagakure, OCA |  | Sensor, Ofensivo e Controle | 24 | 202 | 82 | Vivo |
 | 17 | Naomi Uzumaki | Uzumaki | NPC, Konohagakure |  | DPS | 30 | 241 | 200 | Vivo |
 | 18 | Naoki Uchiha | Uchiha | NPC, Konohagakure |  | Suporte e DPS | 26 | 200 | 88 | Vivo |
-| 19 | Kagami Uchiha | Uchiha | NPC, Konohagakure |  | Desconhecido | 26 | 200 | 88 | Vivo |
+| 19 | Kagami Uchiha | Uchiha | NPC, Konohagakure |  | DPS | 26 | 200 | 88 | Vivo |
 | 20 | Hisoka Senju | Senju | NPC, Konohagakure, OCA |  | Tank | 28 | 234 | 76 | Vivo |
 | 21 | Ryuta Hyuga | Hyuga | NPC, Konohagakure |  | Tanque | 18 | 130 | 64 | Morto (morto por Hades) |
 | 22 | Rock Gunma | Gunma | NPC, Konohagakure, Iwagakure |  | Tank e Suporte | 29 | 242 | 114 | Morto (morto por Delta) |
@@ -92,9 +92,9 @@
 | 86 | Ayame Sazanami | Sazanami | NPC, Kirigakure |  | Suporte e Controle | 28 | 234 | 128 | Vivo |
 | 87 | Tōma Umikage | Umikage | NPC, Kirigakure |  | DPS | 27 | 205 | 137 | Vivo |
 | 88 | Mirei Sazanami | Sazanami | NPC, Kirigakure |  | DPS | 26 | 218 | 132 | Vivo |
-| 89 | Mangetsu Hozuki | Hozuki | NPC, Kirigakure |  | DPS | 29 | 0 | 0 | Vivo |
-| 90 | Sazare Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 27 | 226 | 91 | Vivo |
-| 91 | Iwao Gunma | Gunma | NPC, Iwagakure |  | Desconhecido | 25 | 210 | 64 | Vivo |
+| 89 | Mangetsu Hozuki | Hozuki | NPC, Kirigakure |  | DPS | 29 | 242 | 76 | Vivo |
+| 90 | Sazare Gunma | Gunma | NPC, Iwagakure |  | Controle e DPS | 27 | 226 | 91 | Vivo |
+| 91 | Iwao Gunma | Gunma | NPC, Iwagakure |  | Controle e DPS | 25 | 210 | 64 | Vivo |
 | 92 | Akairo Uchiha (A) | Uchiha | NPC, OCA, Konohagakure |  | DPS e Controle | 24 | 202 | 123 | Morto (morto por Nagare Uzumaki) |
 | 93 | Borashi Hyuga (B) | Hyuga | NPC, OCA, Konohagakure |  | DPS e Controle | 26 | 218 | 132 | Vivo |
 | 94 | Chisaki Dokuhana (C) | Dokuhana | NPC, OCA, Sunagakure |  | Suporte | 25 | 189 | 85 | Vivo |
@@ -1085,7 +1085,7 @@ Criador e usuário de técnicas únicas, entre elas:
 - Força: 9
 - Destreza: 18
 - Agilidade: 7
-- Inteligência: 7
+- Inteligência: 8
 - Espírito: 18
 - Vigor: 18
 - Percepção: 18
@@ -3935,7 +3935,7 @@ Estável, porém exige grande controle de chakra para manter a densidade e dire�
 ID: 19
 Clã: Uchiha
 Grupos: NPC, Konohagakure
-Função: Desconhecido
+Função: DPS
 NC: 26
 HP: 200
 Chakra: 88
@@ -9848,8 +9848,8 @@ Clã: Hozuki
 Grupos: NPC, Kirigakure
 Função: DPS
 NC: 29
-HP: 0
-Chakra: 0
+HP: 242
+Chakra: 76
 Status: Vivo
 Títulos: Assasino da armadura verde de konoha
 
@@ -9859,13 +9859,13 @@ Títulos: Assasino da armadura verde de konoha
 Desconhecido
 
 ## Atributos
-- Força: 0
-- Destreza: 0
-- Agilidade: 0
-- Inteligência: 0
-- Espírito: 0
-- Vigor: 0
-- Percepção: 0
+- Força: 12
+- Destreza: 29
+- Agilidade: 12
+- Inteligência: 29
+- Espírito: 22
+- Vigor: 29
+- Percepção: 29
 
 ## Poderes e Elementos
 - Desconhecido
@@ -9891,7 +9891,7 @@ Nenhuma técnica cadastrada.
 ID: 90
 Clã: Gunma
 Grupos: NPC, Iwagakure
-Função: Desconhecido
+Função: Controle e DPS
 NC: 27
 HP: 226
 Chakra: 91
@@ -9929,7 +9929,7 @@ Nenhuma técnica cadastrada.
 ID: 91
 Clã: Gunma
 Grupos: NPC, Iwagakure
-Função: Desconhecido
+Função: Controle e DPS
 NC: 25
 HP: 210
 Chakra: 64
@@ -12136,6 +12136,14 @@ Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
 Descrição:
 Desconhecido
 
+### 2. Desconhecido
+Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
+
+
+
+Descrição:
+Desconhecido
+
 ## Técnicas
 Nenhuma técnica cadastrada.
 
@@ -12615,13 +12623,7 @@ Irmão mais novo de Sekio Ishi.
 Desconhecido
 
 ## Arsenal
-### 1. Desconhecido
-Classificação: Desconhecido | Natureza: Desconhecido | Origem: Desconhecido
-
-
-
-Descrição:
-Desconhecido
+Nenhum item cadastrado.
 
 ## Técnicas
 Nenhuma técnica cadastrada.

@@ -84,7 +84,7 @@
 | 78 | Aoshin no Seikonseki | S++ | Chakra Profano + Doton Ancestral | Iwagakure | Kenma Soryo |
 | 79 | Gan-tei no Gaitō | S++ | Doton + Bijuu | Iwagakure | Kenma Soryo |
 | 80 | Hachisu no Oi | S++ | Senjutsu + Dokujutsu | Iwagakure | Iwato Kamizuru |
-| 81 | Tenkō no Tsuchi | S++ | Yoton + Doton Ancestral | Iwagakure | Shingen Ishi |
+| 81 | Tenkō no Tsuchi | S++ | Yoton + Doton Ancestral | Iwagakure | Sekio Ishi |
 | 82 | Senseki no Juzu | S+ | Senjutsu + Doton | Iwagakure | Iwana Soryo |
 | 83 | Ishi no Kubikazari | S | Doton | Iwagakure | Oddy Uchiha |
 | 84 | Ishi no Seimei | S | Doton | Iwagakure | Oddy Uchiha |
@@ -1329,12 +1329,12 @@ Classificação: S++
 Natureza: Yoton + Doton Ancestral
 Origem: Iwagakure
 Dono Original: Shingen Ishi
-Dono Atual: Shingen Ishi
+Dono Atual: Sekio Ishi
 
 ![Tenkō no Tsuchi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Arsenal%2FTenk__no_Tsuchi.png?alt=media&v=1790278056449896)
 
 ## Descrição
-O Tenkō no Tsuchi, o 'Martelo da Obra Celeste', é o lendário martelo de forja de Rank S++ do País da Pedra — o martelo usado para forjar todas as relíquias de Iwagakure. Seu portador é Shingen Ishi, irmão mais novo de Sekio Ishi. Diferente de qualquer ferramenta comum, ele não apenas molda o metal: a cada golpe, funde Yoton e Doton Ancestral no material e grava nele o chakra de quem forja, e é por isso que as armas nascidas sob seus golpes guardam poderes que nenhuma forja comum consegue reproduzir. Nas mãos de um mestre, o martelo também devolve a forma a relíquias rachadas ou quebradas, reforjando-as sem que percam o que carregam. Em combate, o Tenkō no Tsuchi deixa de ser ferramenta: sua cabeça arde como rocha derretida, cada impacto funde o aço e a pedra que atinge, e as ondas de choque que ele envia pelo chão partem o terreno como se a própria montanha tivesse sido golpeada. Mais do que uma arma, é a origem do arsenal da Pedra — todas as lâminas, coroas e relíquias lendárias de Iwagakure carregam, em algum ponto, a marca dos seus golpes.
+O Tenkō no Tsuchi, o 'Martelo da Obra Celeste', é o lendário martelo de forja de Rank S++ do País da Pedra — o martelo usado para forjar todas as relíquias de Iwagakure. Pertenceu a Shingen Ishi, irmão mais novo de Sekio Ishi, e hoje está com o próprio Sekio. Diferente de qualquer ferramenta comum, ele não apenas molda o metal: a cada golpe, funde Yoton e Doton Ancestral no material e grava nele o chakra de quem forja, e é por isso que as armas nascidas sob seus golpes guardam poderes que nenhuma forja comum consegue reproduzir. Nas mãos de um mestre, o martelo também devolve a forma a relíquias rachadas ou quebradas, reforjando-as sem que percam o que carregam. Em combate, o Tenkō no Tsuchi deixa de ser ferramenta: sua cabeça arde como rocha derretida, cada impacto funde o aço e a pedra que atinge, e as ondas de choque que ele envia pelo chão partem o terreno como se a própria montanha tivesse sido golpeada. Mais do que uma arma, é a origem do arsenal da Pedra — todas as lâminas, coroas e relíquias lendárias de Iwagakure carregam, em algum ponto, a marca dos seus golpes.
 
 ---
 
