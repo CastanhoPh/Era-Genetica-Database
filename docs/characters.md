@@ -135,8 +135,8 @@
 | 129 | Iwana Soryo | Soryo | NPC, Iwagakure |  | Desconhecido | 26 | 0 | 0 | Vivo |
 | 130 | Iwato Kamizuru | Kamizuru | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
 | 131 | Sora Ganseki | Ganseki | NPC, Iwagakure |  | Desconhecido | 27 | 0 | 0 | Vivo |
-| 132 | Tetsugen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Vivo |
-| 133 | Shingen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Vivo |
+| 132 | Tetsugen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Omega) |
+| 133 | Shingen Ishi | Ishi | NPC, Iwagakure |  | Desconhecido | 28 | 0 | 0 | Morto (morto por Omega) |
 | 134 | Banjin Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 20 | 0 | 0 | Vivo |
 | 135 | Ruri Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 16 | 0 | 0 | Vivo |
 | 136 | Bilal Bakuren | Bakuren | NPC, Iwagakure |  | Desconhecido | 8 | 0 | 0 | Vivo |
@@ -12554,7 +12554,7 @@ Função: Desconhecido
 NC: 28
 HP: 0
 Chakra: 0
-Status: Vivo
+Status: Morto (morto por Omega)
 
 ![Tetsugen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FTetsugen%20Ishi%2FTetsugen%20Ishi.png?alt=media&v=1790278173206721)
 
@@ -12592,7 +12592,7 @@ Função: Desconhecido
 NC: 28
 HP: 0
 Chakra: 0
-Status: Vivo
+Status: Morto (morto por Omega)
 
 ![Shingen Ishi](https://firebasestorage.googleapis.com/v0/b/era-genetica-db.firebasestorage.app/o/Characters%2FShingen%20Ishi%2FShingen%20Ishi.png?alt=media&v=1790278176290570)
 
