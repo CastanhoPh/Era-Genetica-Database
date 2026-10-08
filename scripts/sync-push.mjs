@@ -146,6 +146,10 @@ async function pushCollection(db, collectionName, items, existingDocs) {
     if (!existing) continue;
     for (const key of Object.keys(existing)) {
       if (existing[key] === undefined || existing[key] === null) continue;
+      // Vazio não é dado: "" e [] no Firestore contra campo ausente no arquivo local dizem a mesma
+      // coisa, e o merge nem toca neles. Sem isto, 32 campos vazios das fichas históricas abortavam
+      // todo push de personagens.
+      if (existing[key] === '' || (Array.isArray(existing[key]) && !existing[key].length)) continue;
       if (!(key in data)) {
         if (!SO_NO_FIRESTORE.has(key)) fieldDrops.push({ docId, field: key, oldValue: existing[key] });
         continue;
