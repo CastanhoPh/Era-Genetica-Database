@@ -12,25 +12,25 @@
       },
       {
         "name": "Oogway Uchiha",
-        "spouse": "Akemi Shimura"
+        "spouse": "Tomoe Shimura"
       },
       {
-        "name": "Akemi Shimura"
+        "name": "Tomoe Shimura"
       },
       {
         "name": "Sho Uchiha",
         "parents": [
           "Oogway Uchiha",
-          "Akemi Shimura"
+          "Tomoe Shimura"
         ],
         "spouse": "Atsuko Uchiha",
         "isDead": true
       },
       {
-        "name": "Shin Uchiha",
+        "name": "Tsubasa Uchiha",
         "parents": [
           "Oogway Uchiha",
-          "Akemi Shimura"
+          "Tomoe Shimura"
         ]
       },
       {
@@ -255,17 +255,17 @@
       },
       {
         "name": "Ashina Uzumaki",
-        "spouse": "Ayame Namikaze",
+        "spouse": "Kazeha Namikaze",
         "isDead": true
       },
       {
-        "name": "Ayame Namikaze"
+        "name": "Kazeha Namikaze"
       },
       {
         "name": "Mito Uzumaki",
         "parents": [
           "Ashina Uzumaki",
-          "Ayame Namikaze"
+          "Kazeha Namikaze"
         ],
         "isDead": true
       },
@@ -273,21 +273,21 @@
         "name": "Yumi Uzumaki",
         "parents": [
           "Ashina Uzumaki",
-          "Ayame Namikaze"
+          "Kazeha Namikaze"
         ]
       },
       {
         "name": "Naomi Uzumaki",
         "parents": [
           "Ashina Uzumaki",
-          "Ayame Namikaze"
+          "Kazeha Namikaze"
         ]
       },
       {
         "name": "Katsuo Uzumaki",
         "parents": [
           "Ashina Uzumaki",
-          "Ayame Namikaze"
+          "Kazeha Namikaze"
         ]
       },
       {
@@ -435,10 +435,10 @@
       },
       {
         "name": "Masahiro Hyuga",
-        "spouse": "Sayuri Hyuga"
+        "spouse": "Hinode Hyuga"
       },
       {
-        "name": "Sayuri Hyuga"
+        "name": "Hinode Hyuga"
       },
       {
         "name": "Hoshiro Hyuga",
@@ -487,14 +487,14 @@
         "name": "Ryuta Hyuga",
         "parents": [
           "Masahiro Hyuga",
-          "Sayuri Hyuga"
+          "Hinode Hyuga"
         ]
       },
       {
         "name": "Renji Hyuga",
         "parents": [
           "Masahiro Hyuga",
-          "Sayuri Hyuga"
+          "Hinode Hyuga"
         ],
         "isDead": true
       }

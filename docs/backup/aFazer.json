@@ -20,11 +20,11 @@
   {
     "__docId": "1kin7sn6ITbZEMDyMOW4",
     "grupo": "Fichas",
-    "feito": false,
     "ordem": 7,
     "criadoEm": 1787158497988,
-    "texto": "Os 9 citados em eventos ganham ficha no futuro, junto do Hashirama e do Madara: Hiruzen, Mito, Konan, Kawarama, Amai, Hina, Iwaki, Renji e Sakura.",
-    "status": "espera"
+    "texto": "Os 9 citados em eventos já têm ficha, junto do Hashirama e do Madara: Hiruzen, Mito, Konan, Kawarama, Amai, Hina, Iwaki, Renji e Sakura.",
+    "feito": true,
+    "status": "concluido"
   },
   {
     "__docId": "2IIIWN6qsnRlMr6sVNGh",
@@ -87,7 +87,7 @@
     "ordem": 13,
     "criadoEm": 1787158497994,
     "status": "a-fazer",
-    "texto": "Capas: 7 pendentes. As 5 que saíram do Canva estão em branco — Airi, Sayuri, Shoyu, Souma e Tetsu."
+    "texto": "Capas: 1 pendente — Airi Senju, que o Pedro manda depois."
   },
   {
     "__docId": "AbXxKFos8LlKtnAiA3ez",
@@ -144,6 +144,15 @@
     "status": "concluido"
   },
   {
+    "__docId": "KfLXIOhBlJ9XL4NAtL5I",
+    "grupo": "Arte",
+    "texto": "Canva online fora de ordem: as renumerações de 24/09 (Mangetsu no 88, Kagami no 19, os 11 históricos novos e as armas novas da Pedra) tiraram de ordem Capas Personagens, Linha do Tempo, Personagens Históricos, Capas Históricos e Arsenal, e as páginas novas ainda não entram — o insert_pages do Canva está quebrado desde 21/09. A pasta local do Canva está em dia.",
+    "status": "a-fazer",
+    "feito": false,
+    "ordem": 29,
+    "criadoEm": 1790278540580
+  },
+  {
     "__docId": "kJUcBlT4R9NPZ3wcyUXN",
     "texto": "Tirar Satoshi Namikaze e Inazuma Kazuchi do PENDING_CHARACTERS — os dois já têm ficha",
     "grupo": "Manutenção",
@@ -176,7 +185,7 @@
     "status": "a-fazer",
     "feito": false,
     "ordem": 28,
-    "texto": "Portador original que não é nome de ficha: 24 armas. 13 têm grupo ou cargo — \"Oryō Soryo\" (5), \"Kiba\" (3), \"Samurais do País da Pedra\" (2), \"Monges da Vila dos Monges\", \"OCA\" e \"Primeiro Mizukage\" — e essas são a decisão de verdade: grupo é resposta válida ou cada uma precisa de um nome? As outras 11 têm pessoa correta que só não tem ficha ainda: Minoru Hyuga (4 armas), Mangetsu Hozuki, Mito Uzumaki, Shiraki Chinoike, Shikaku Nara, Hiruzen Sarutobi, Ashina Uzumaki e Raio Yotsuki. Enquanto não houver ficha, o \"já utilizou\" não aparece para nenhum deles."
+    "texto": "Portador original que não é nome de ficha: 10 armas. 8 têm grupo ou cargo — \"Kiba\" (3), \"Samurais do País da Pedra\" (2), \"Monges da Vila dos Monges\", \"OCA\" e \"Primeiro Mizukage\" — e essa é a decisão de verdade: grupo é resposta válida ou cada uma precisa de um nome? O \"Primeiro Mizukage\" da Umitsuchi no Teisatsu é o Byakuren Hoshigaki, que ainda não tem ficha. As outras 2 são pessoas sem ficha: Shiraki Chinoike (Dama no Hiraishin) e Shikaku Nara (Kage no Kyōkai) — este seria o Shikado Nara, pai do Shikaki, que ganhou ficha em 24/09? Enquanto não houver ficha, o \"já utilizou\" não aparece para eles."
   },
   {
     "__docId": "QIupG0Cij2phtk8tUiIk",
@@ -184,8 +193,26 @@
     "feito": false,
     "ordem": 15,
     "criadoEm": 1787158497996,
-    "texto": "Eventos: 159 dos 300 sem arte — é a maior fila do projeto. Contagem viva no checklist.",
-    "status": "a-fazer"
+    "status": "a-fazer",
+    "texto": "Eventos: 180 dos 326 sem arte — é a maior fila do projeto. Contagem viva no checklist."
+  },
+  {
+    "__docId": "rgXYKjiSjva7sO7s66yQ",
+    "grupo": "Fichas",
+    "status": "a-fazer",
+    "feito": false,
+    "ordem": 32,
+    "criadoEm": 1790280254662,
+    "texto": "Cargo dos históricos: 6 ainda sem cargo nem patente — Kurai Nara e Yui Haruno (Konoha); Iwana Soryo, Banjin, Ruri e Bilal Bakuren (Iwa). \"Sem cargo\" pode ser a resposta certa, como para as crianças e os Bakuren. Onna Ishi (1ª Dama dos Samurais) e Zanshin Ishi (1ª Líder Mental e 2ª Dama dos Samurais) já têm cargo, mas ainda não têm ficha."
+  },
+  {
+    "__docId": "Sjnskwp5itdBkWfFPnz3",
+    "grupo": "Fichas",
+    "texto": "Hina Haruno aparece numa árvore genealógica e Hina Sarutobi é ficha — são a mesma pessoa (sobrenome de solteira e de casada) ou duas?",
+    "status": "a-fazer",
+    "feito": false,
+    "ordem": 30,
+    "criadoEm": 1790278540580
   },
   {
     "__docId": "uGa59mvnBanDkQgQOKFY",
@@ -193,6 +220,15 @@
     "grupo": "Manutenção",
     "ordem": 20,
     "criadoEm": 1787158498001,
+    "feito": true,
+    "status": "concluido"
+  },
+  {
+    "__docId": "UljtVqLElMkRXsGDt4AV",
+    "grupo": "Manutenção",
+    "ordem": 31,
+    "criadoEm": 1790278540580,
+    "texto": "Conferido contra o backup de 09/09 o estrago da edição pelo Painel (que até 24/09 apagava os campos que o formulário não mostra): 4 campos voltaram — a Era Hashirama do Oogway e o Genin de Reika, Shoyu e Souma. Hashirama e Madara saíram do oculto de propósito em 15/09. O que foi gravado depois de 09/09 e apagado antes da correção não aparece no backup.",
     "feito": true,
     "status": "concluido"
   },
@@ -221,15 +257,15 @@
     "ordem": 14,
     "criadoEm": 1787158497995,
     "status": "a-fazer",
-    "texto": "Linha do Tempo: 35 fases sem arte — a página existe no Canva mas está em branco em 33 delas. As outras 2: Beta / 3ª Temporada não tem página, e Shiita / 1ª Temporada tem página mas o conteúdo era a 5ª. Contagem viva no checklist."
+    "texto": "Linha do Tempo: 32 fases sem arte. Duas têm problema no Canva: Beta / 3ª Temporada não tem página, e Shiita / 1ª Temporada tem página mas o conteúdo era a 5ª. Contagem viva no checklist."
   },
   {
     "__docId": "zMRMYCsMwu7lyIECehgt",
-    "texto": "Poderes das 10 fichas sem nenhum: Kiyoshi, Gorai, Shizuru, Inazuma, Arashi, Nayara, Raiden, Raizen, Midori, Akane",
     "grupo": "Fichas",
     "ordem": 6,
     "criadoEm": 1787158497987,
     "feito": false,
-    "status": "a-fazer"
+    "status": "a-fazer",
+    "texto": "Poderes das 11 fichas ativas sem nenhum: da Elite de Kumogakure, Kiyoshi, Gorai, Arashi, Raizen, Nayara, Shizuru, Midori e Akane; e Mangetsu Hozuki, Sazare Gunma e Iwao Gunma."
   }
 ]
