@@ -39,7 +39,7 @@ const db = admin.firestore();
 const charDocs = (await db.collection('characters').get()).docs;
 const nomesFicha = new Set(charDocs.map(x => x.data().name));
 const protos = new Set((await db.collection('prototypeEntries').get()).docs.map(x => x.data().title));
-const tipos = readFileSync('types.ts', 'utf8');
+const tipos = readFileSync('src/types.ts', 'utf8');
 const pendentes = new Set([...tipos.slice(tipos.indexOf('export const PENDING_CHARACTERS'))
   .matchAll(/\{\s*name:\s*'([^']+)'/g)].map(m => m[1]));
 const desconhecidos = NOMES.filter(n => !nomesFicha.has(n) && !protos.has(n) && !pendentes.has(n));

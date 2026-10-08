@@ -4,8 +4,8 @@
 //   npm run canva:export:apply       baixa o que falta
 //   ... --rebaixar                   troca também os que existem com conteúdo diferente
 //
-// Uma pasta por projeto, e dentro dela um arquivo por página, com prefixo numérico — é só o prefixo
-// que garante a ordem no import do Canva. O nome é o mesmo do checklist, então a página do Canva e a
+// Uma pasta por projeto, e dentro dela um arquivo por página, sem número na frente — a página do
+// Canva já tem o dela (ver nomeador em lib/pasta-canva.mjs). O nome é o mesmo do checklist, então a página do Canva e a
 // linha do painel se reconhecem.
 //
 // QUEM MANDA É O BANCO. Decisão do Pedro em 17/09/2026: divergiu, a pasta local cede e recebe a
@@ -40,6 +40,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { PASTA_CANVA, nomeador } from './lib/pasta-canva.mjs';
 
 // Quantos itens listar nas amostras do relatório. Seis basta no dia a dia; CANVA_LISTA=999
 // solta a lista inteira, que é o que serve quando há dezenas de divergências para conferir.
@@ -48,7 +49,7 @@ const APPLY = process.argv.includes('--apply');
 const REBAIXAR = process.argv.includes('--rebaixar');
 const BUCKET = 'era-genetica-db.firebasestorage.app';
 const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.length)
-  ?? 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
+  ?? PASTA_CANVA;
 
 // A ordem é a dos projetos no Canva. `pasta` é o nome em disco, que não segue o rótulo da interface:
 // a pasta é "Capas Personagens" e o filtro do painel diz "Capas de Personagens".
@@ -116,7 +117,7 @@ for (const p of PROJ) {
   const itens = cl
     .filter(i => (i.type ?? 'evento') === p.tipo && (p.historico ? ehHistorico(i) : !ehHistorico(i)))
     .sort((a, b) => a.order - b.order);
-  const largura = String(itens.length).length;
+  const nomeia = nomeador();
   const dir = join(BASE, p.pasta);
   const querem = new Set();
   let comArte = 0, faltando = 0, trocar = 0;
@@ -130,7 +131,7 @@ for (const p of PROJ) {
     // O nome é reservado mesmo sem arte publicada. A extensão vem do Storage quando existe; png é o
     // padrão dos oito projetos.
     const ext = caminho?.match(/\.(\w+)$/)?.[1].toLowerCase() ?? 'png';
-    const arquivo = `${String(k + 1).padStart(largura, '0')} - ${limpa(tituloDe(p.tipo, i))}.${ext}`;
+    const arquivo = `${nomeia(tituloDe(p.tipo, i))}.${ext}`;
     querem.add(arquivo);
 
     if (remoto === undefined) { semArte++; continue; }
@@ -154,8 +155,9 @@ for (const p of PROJ) {
     : [];
   const sobrando = tem.filter(f => !querem.has(f));
 
-  // Um evento novo no meio empurra o prefixo de todos os seguintes, e aí 170 arquivos certos
-  // apareceriam como sobrando. Se o nome depois do prefixo é o mesmo, é renumeração: renomeia.
+  // Arquivo que ainda carrega o número antigo na frente ("037 - Título.png") não é sobra: é a
+  // mesma página com o nome de antes de 08/10/2026. Se o que vem depois do número é um nome
+  // esperado, renomeia em vez de mandar para _antigos e baixar de novo.
   //
   // O destino pode estar ocupado pelo arquivo que TAMBÉM vai ser renomeado — numa renumeração em
   // cadeia isso vale para todos. Então o critério não é "destino vago em disco", é "ninguém mais
@@ -166,7 +168,7 @@ for (const p of PROJ) {
   // png, o certo é baixar, não renomear um png para .jpeg.
   const semPrefixo = f => f.replace(/^\d+ - /, '');
   const porTitulo = new Map();
-  querem.forEach(q => porTitulo.set(semPrefixo(q), q));
+  querem.forEach(q => porTitulo.set(q, q));
   const reivindicado = new Set(tem.filter(f => querem.has(f)));
   const renomeia = [];
   for (const f of sobrando) {

@@ -224,8 +224,8 @@ async function main() {
   const db = admin.firestore();
 
   const [characters, arsenal] = await Promise.all([
-    loadTsExport('data/characters.ts', 'initialData'),
-    loadTsExport('data/arsenal.ts', 'arsenalData'),
+    loadTsExport('src/data/characters.ts', 'initialData'),
+    loadTsExport('src/data/arsenal.ts', 'arsenalData'),
   ]);
 
   const [charSnap, arsenalSnap] = await Promise.all([

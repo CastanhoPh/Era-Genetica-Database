@@ -35,7 +35,7 @@ const SOBEM_DE_NC = new Set([
 const sobeDeNC = nome => [...SOBEM_DE_NC].some(n => nome === n || nome.startsWith(n + ' '));
 
 async function carregaAtributos() {
-  const src = readFileSync(join(ROOT, 'data', 'atributos.ts'), 'utf8')
+  const src = readFileSync(join(ROOT, 'src', 'data', 'atributos.ts'), 'utf8')
     .replace(/^import .*$/gm, '');   // o único import é o tipo Stats, que não existe em runtime
   const { code } = await esbuild.transform(src, { loader: 'ts', format: 'esm', target: 'node20' });
   const tmp = join(os.tmpdir(), `perfil-${process.pid}.mjs`);

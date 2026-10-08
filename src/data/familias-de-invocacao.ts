@@ -1,7 +1,7 @@
 // As famílias de invocação — os povos sábios de que uma criatura vem.
 //
 // Ditadas pelo Pedro em 10/09/2026, e elas NÃO são uma lista nova: levam o nome das Vias do Modo
-// Sábio, que o `modos_sabios_manual.md` na raiz do projeto já define. Mas a família é da CRIATURA,
+// Sábio, que o `docs/Regras/modos_sabios_manual.md` já define. Mas a família é da CRIATURA,
 // não do invocador — ver a seção abaixo, que é onde eu errei na primeira vez.
 //
 // FAMÍLIA NÃO SE DERIVA DA VIA DO INVOCADOR — a Via é indício, não prova

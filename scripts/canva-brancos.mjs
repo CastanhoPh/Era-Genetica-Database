@@ -18,11 +18,12 @@ import { join } from 'path';
 import { deflateSync } from 'zlib';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { PASTA_CANVA, nomeador } from './lib/pasta-canva.mjs';
 
 const TIPO = process.argv.find(a => a.startsWith('--tipo='))?.slice('--tipo='.length);
 const APPLY = process.argv.includes('--apply');
 const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.length)
-  ?? 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
+  ?? PASTA_CANVA;
 if (!TIPO) { console.error('faltou --tipo='); process.exit(1); }
 
 // mesma tabela do canva-export.mjs
@@ -99,11 +100,12 @@ const rotulo = tituloDe;
 const pasta = join(BASE, p.pasta);
 if (!existsSync(pasta)) { console.error(`pasta não existe: ${pasta}`); process.exit(1); }
 
-const largura = String(itens.length).length;
+const nomeia = nomeador();
 const faltam = [];
 itens.forEach((t, i) => {
+  // chamado para toda página, antes do return: o " (2)" de um título repetido depende da ordem
+  const arquivo = `${nomeia(rotulo(t))}.png`;
   if (t.imageUrl) return;
-  const arquivo = `${String(i + 1).padStart(largura, "0")} - ${limpa(rotulo(t))}.png`;
   const caminho = join(pasta, arquivo);
   faltam.push({ pos: i + 1, arquivo, caminho, existe: existsSync(caminho) });
 });

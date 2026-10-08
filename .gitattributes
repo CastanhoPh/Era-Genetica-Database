@@ -1,0 +1,5 @@
+# Fim de linha LF no repositorio e na pasta de trabalho, em qualquer sistema. Sem isto, abrir o projeto
+# vindo do Windows marcava arquivo como modificado sem uma letra ter mudado.
+* text=auto eol=lf
+*.pdf binary
+*.png binary

@@ -34,3 +34,6 @@ dist-ssr
 # Retrato estatico das colecoes publicas: gerado pelo `npm run dados` a cada deploy.
 # Fica fora do git porque e derivado do Firestore e mudaria 1,6 MB a cada geracao.
 /public/dados/
+
+# Chave de servico do Admin SDK: da acesso total ao banco e ao Storage. Nunca vai para o git.
+*firebase-adminsdk*.json

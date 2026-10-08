@@ -19,7 +19,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TODOS = process.argv.includes('--todos');
 const TSV = process.argv.includes('--tsv');
 
-const src = readFileSync(join(ROOT, 'data/atributos.ts'), 'utf8').replace(/^import .*$/gm, '');
+const src = readFileSync(join(ROOT, 'src/data/atributos.ts'), 'utf8').replace(/^import .*$/gm, '');
 const { code } = await esbuild.transform(src, { loader: 'ts', format: 'esm', target: 'node20' });
 const tmp = join(os.tmpdir(), `conf-${process.pid}.mjs`);
 writeFileSync(tmp, code, 'utf8');

@@ -4,7 +4,7 @@
 //
 // Grava Canva/nomes-das-paginas.tsv com uma linha por página dos oito projetos.
 //
-// O nome do ARQUIVO tem prefixo numérico (é só o que garante a ordem no import) e o nome COMPLETO do
+// O nome do ARQUIVO não tem número (a página do Canva já tem) e usa o nome COMPLETO do
 // personagem. O nome da PÁGINA não tem número e usa o primeiro nome — os 86 primeiros nomes das
 // fichas são únicos entre si. Por isso o mapa é explícito: deduzir um do outro exigiria saber qual
 // parte do nome do arquivo é o personagem, e é aí que um script erraria.
@@ -13,9 +13,10 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { PASTA_CANVA, nomeador } from './lib/pasta-canva.mjs';
 
 const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.length)
-  ?? 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
+  ?? PASTA_CANVA;
 // Os oito projetos, na mesma ordem e com os mesmos nomes de pasta de scripts/canva-export.mjs.
 const PROJ = [
   { pasta: 'Linha do Tempo', tipo: 'timeline', tam: '1080x1620' },
@@ -45,9 +46,8 @@ const curto = n => (nomesFicha.has(n) ? n.split(' ')[0] : n);
 const linhas = [['projeto', 'formato', 'pagina', 'arquivo', 'nome_da_pagina'].join('\t')];
 for (const p of PROJ) {
   const itens = cl.filter(i => (i.type ?? 'evento') === p.tipo).sort((a, b) => a.order - b.order);
-  const largura = String(itens.length).length;
+  const nomeia = nomeador();
   itens.forEach((i, k) => {
-    const prefixo = String(k + 1).padStart(largura, '0');
     // arquivo: nome completo; página: primeiro nome
     const arquivoTitulo = PELO_NOME.has(p.tipo) ? i.name
       : p.tipo === 'capa' ? i.temporada
@@ -60,7 +60,7 @@ for (const p of PROJ) {
     const ext = i.imageUrl
       ? (decodeURIComponent(i.imageUrl.split('/o/')[1].split('?')[0]).match(/\.(\w+)$/)?.[1].toLowerCase() ?? 'png')
       : 'png';
-    linhas.push([p.pasta, p.tam, k + 1, `${prefixo} - ${limpa(arquivoTitulo)}.${ext}`, paginaTitulo].join('\t'));
+    linhas.push([p.pasta, p.tam, k + 1, `${nomeia(arquivoTitulo)}.${ext}`, paginaTitulo].join('\t'));
   });
   const rep = itens.length;
   console.log(`${p.pasta.padEnd(24)} ${String(rep).padStart(3)} páginas · ${p.tam} · ${itens.filter(i => i.imageUrl).length} com arte`);

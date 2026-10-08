@@ -17,16 +17,17 @@ import { readFileSync, readdirSync, statSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { createHash } from 'crypto';
+import { PASTA_CANVA } from './lib/pasta-canva.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DADOS = join(ROOT, 'public', 'dados');
-const CANVA = 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
+const CANVA = PASTA_CANVA;
 const COM_FIRESTORE = process.argv.includes('--deploy');
 
 // Os nomes com hash saem do módulo que o gerador escreve, o mesmo que o app importa.
-const versao = readFileSync(join(ROOT, 'data', 'dados-versao.ts'), 'utf8');
+const versao = readFileSync(join(ROOT, 'src', 'data', 'dados-versao.ts'), 'utf8');
 const nomes = Object.fromEntries([...versao.matchAll(/(\w+): "(.+?)"/g)].map(m => [m[1], m[2]]));
-if (!Object.keys(nomes).length) { console.error('data/dados-versao.ts sem nomes — rode `npm run dados`'); process.exit(1); }
+if (!Object.keys(nomes).length) { console.error('src/data/dados-versao.ts sem nomes — rode `npm run dados`'); process.exit(1); }
 
 const le = chave => {
   const caminho = join(DADOS, nomes[chave]);

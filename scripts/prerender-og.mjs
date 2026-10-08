@@ -85,9 +85,9 @@ const slugify = (nome) => String(nome)
  * avisar. E o retrato ja esta pronto quando este script roda.
  */
 function leInvocacoes() {
-  const versao = readFileSync(join(__dirname, '..', 'data', 'dados-versao.ts'), 'utf8');
+  const versao = readFileSync(join(__dirname, '..', 'src', 'data', 'dados-versao.ts'), 'utf8');
   const arquivo = versao.match(/checklist: "(.+?)"/)?.[1];
-  if (!arquivo) throw new Error('data/dados-versao.ts sem o nome do checklist');
+  if (!arquivo) throw new Error('src/data/dados-versao.ts sem o nome do checklist');
   const checklist = JSON.parse(readFileSync(join(DIST, 'dados', arquivo), 'utf8'));
   const capas = new Map(checklist.filter(i => i.type === 'capaInvocacao').map(i => [i.name, i]));
   return checklist

@@ -48,12 +48,13 @@ import { join } from 'path';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
 import { api, token } from './lib/canva.mjs';
+import { PASTA_CANVA } from './lib/pasta-canva.mjs';
 
 const TIPO = process.argv.find(a => a.startsWith('--tipo='))?.slice('--tipo='.length);
 const DESIGN = process.argv.find(a => a.startsWith('--design='))?.slice('--design='.length);
 const SO = Number(process.argv.find(a => a.startsWith('--so='))?.slice('--so='.length) ?? 0);
 const APPLY = process.argv.includes('--apply');
-const BASE = 'C:/Users/PedroCastanho/OneDrive - Teddy Open Finance/Área de Trabalho/Canva';
+const BASE = PASTA_CANVA;
 if (!TIPO || !DESIGN) { console.error('uso: --tipo=<tipo> --design=<id> [--so=N] [--apply]'); process.exit(1); }
 
 const PROJ = {

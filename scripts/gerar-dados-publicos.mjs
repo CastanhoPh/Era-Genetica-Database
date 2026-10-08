@@ -25,7 +25,7 @@
 //
 // Então o nome carrega o hash do conteúdo, como o Vite faz com o JS: arquivo novo tem nome novo, o
 // antigo pode ser cacheado para sempre, e recarregar a página não baixa nada. Os nomes vão para
-// `data/dados-versao.ts`, que entra no bundle — e o bundle também tem hash, então a cadeia toda se
+// `src/data/dados-versao.ts`, que entra no bundle — e o bundle também tem hash, então a cadeia toda se
 // invalida sozinha quando os dados mudam.
 //
 // O que NÃO entra: `aFazer` e `prototypeEntries`. As regras do Firestore só liberam leitura delas
@@ -44,7 +44,7 @@ import { achaChave } from './lib/chave.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SAIDA = join(ROOT, 'public', 'dados');
-const VERSAO = join(ROOT, 'data', 'dados-versao.ts');
+const VERSAO = join(ROOT, 'src', 'data', 'dados-versao.ts');
 
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(achaChave(), 'utf8'))) });
 const db = admin.firestore();
@@ -95,6 +95,6 @@ export const ARQUIVOS_DE_DADOS = ${JSON.stringify(nomes, null, 2).replace(/"([a-
 writeFileSync(VERSAO, ts, 'utf8');
 
 console.log(`\n${(bytes / 1024).toFixed(0)} KB no total, ${(comprimido / 1024).toFixed(0)} KB comprimido — em public/dados/`);
-console.log('data/dados-versao.ts atualizado');
+console.log('src/data/dados-versao.ts atualizado');
 console.log(`custo desta geração: ${COLECOES.length} consultas, uma vez, em vez de por visitante`);
 process.exit(0);

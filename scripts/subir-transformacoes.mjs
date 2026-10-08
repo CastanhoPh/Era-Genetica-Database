@@ -124,7 +124,7 @@ for (const p of plano) {
 }
 
 console.log('\n' + '='.repeat(78));
-console.log('FALTA O 4º LUGAR: data/characters.ts');
+console.log('FALTA O 4º LUGAR: src/data/characters.ts');
 console.log('Sem isso, o próximo `npm run sync:push` devolve a galeria antiga por cima.');
 console.log('='.repeat(78));
 for (const x of paraArquivoLocal) {
