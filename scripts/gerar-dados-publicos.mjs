@@ -41,6 +41,7 @@ import { createHash, } from 'crypto';
 import { gzipSync } from 'zlib';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SAIDA = join(ROOT, 'public', 'dados');
@@ -63,7 +64,7 @@ const nomes = {};
 let bytes = 0;
 let comprimido = 0;
 for (const { colecao, arquivo, ordena } of COLECOES) {
-  const snap = await db.collection(colecao).get();
+  const snap = await leColecao(db, colecao, { fresco: true });
   const dados = snap.docs.map(d => ({ ...d.data(), docId: d.id })).sort(ordena);
   // Sem indentação: são dados de máquina, e o espaço em branco seria ~30% do arquivo.
   const json = JSON.stringify(dados);

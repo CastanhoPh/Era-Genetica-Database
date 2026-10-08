@@ -22,7 +22,7 @@
 // `prefers-reduced-motion` desliga o ciclo e a varredura: as janelas abrem uma vez e ficam paradas.
 import React, { useEffect, useRef, useState } from 'react';
 import { AlertTriangle, X } from 'lucide-react';
-import { formatImageUrl } from '../utils/formatters';
+import Imagem from './Imagem';
 
 /** 10 segundos de alarme antes da mensagem, como o Pedro pediu. */
 const SEGUNDOS_DE_ALARME = 10;
@@ -765,8 +765,8 @@ const AvisoUrgente: React.FC<{ onClose: () => void; capaDoHanzo?: string }> = ({
             <div className="shrink-0 w-20 h-20 rounded-full border-2 border-tech-accent/70 overflow-hidden -rotate-6 relative bg-black">
               {capaDoHanzo ? (
                 <>
-                  <img
-                    src={formatImageUrl(capaDoHanzo)}
+                  <Imagem tamanho="cheia"
+                    src={capaDoHanzo}
                     alt="Hiroshi Hanzo"
                     className="absolute inset-0 w-full h-full object-cover sepia contrast-125"
                   />

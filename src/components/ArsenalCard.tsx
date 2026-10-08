@@ -1,8 +1,8 @@
 import React from 'react';
 import { ChevronRight, Cpu, Hexagon } from 'lucide-react';
 import { Equipment, classificationColors } from '../types/Equipment';
-import { formatImageUrl } from '../utils/formatters';
 import { filtroDaCapa } from './BotaoDeCores';
+import Imagem from './Imagem';
 
 interface ArsenalCardProps {
   item: Equipment;
@@ -76,8 +76,8 @@ const ArsenalCard: React.FC<ArsenalCardProps> = ({ item, index, onClick, colorid
         </div>
 
         {item.image && !imgError ? (
-          <img
-            src={formatImageUrl(item.image)}
+          <Imagem tamanho="mini"
+            src={item.image}
             alt={item.name}
             loading="lazy"
             decoding="async"

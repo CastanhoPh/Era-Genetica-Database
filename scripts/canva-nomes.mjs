@@ -13,6 +13,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 import { PASTA_CANVA, nomeador } from './lib/pasta-canva.mjs';
 
 const BASE = process.argv.find(a => a.startsWith('--base='))?.slice('--base='.length)
@@ -37,8 +38,8 @@ const PELO_NOME = new Set(['invocacao', 'capaInvocacao', 'arsenal']);
 const chave = { full: achaChave() };
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(chave.full, 'utf8'))) });
 const db = admin.firestore();
-const cl = (await db.collection('imageChecklist').get()).docs.map(x => x.data());
-const nomesFicha = new Set((await db.collection('characters').get()).docs.map(x => x.data().name));
+const cl = (await leColecao(db, 'imageChecklist')).docs.map(x => x.data());
+const nomesFicha = new Set((await leColecao(db, 'characters')).docs.map(x => x.data().name));
 
 const limpa = s => s.replace(/[<>:"/\\|?*]/g, '-').replace(/\s+/g, ' ').trim();
 const curto = n => (nomesFicha.has(n) ? n.split(' ')[0] : n);

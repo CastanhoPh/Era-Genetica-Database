@@ -258,7 +258,7 @@ async function renomearArquivo(url: string, nomeNovo: string): Promise<string | 
     const bytes = await getBytes(antigo);
     const meta = await getMetadata(antigo);
     const novo = storageRef(storage, `${pasta}/${arquivoNovo}`);
-    await uploadBytes(novo, bytes, { contentType: meta.contentType, cacheControl: meta.cacheControl ?? 'public, max-age=86400' });
+    await uploadBytes(novo, bytes, { contentType: meta.contentType, cacheControl: 'public, max-age=31536000, immutable' });
     const urlNova = await getDownloadURL(novo);
     await deleteObject(antigo);   // só depois de o novo existir e ter URL
     return `${urlNova}${urlNova.includes('?') ? '&' : '?'}v=${Date.now()}`;

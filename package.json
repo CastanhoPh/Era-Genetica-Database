@@ -14,7 +14,9 @@
     "sync:push:apply": "node scripts/sync-push.mjs --apply",
     "dados": "node scripts/gerar-dados-publicos.mjs",
     "conferir": "node scripts/conferir.mjs",
-    "deploy": "node scripts/gerar-dados-publicos.mjs && vite build && node scripts/prerender-og.mjs && firebase deploy --only hosting --project era-genetica-db",
+    "imagens": "node scripts/gerar-imagens-web.mjs",
+    "imagens:apply": "node scripts/gerar-imagens-web.mjs --apply",
+    "deploy": "node scripts/gerar-dados-publicos.mjs && node scripts/gerar-imagens-web.mjs --apply && vite build && node scripts/prerender-og.mjs && firebase deploy --only hosting --project era-genetica-db",
     "login": "firebase login",
     "backup": "node scripts/backup-firestore.mjs",
     "backup:check": "node scripts/backup-firestore.mjs --check",
@@ -54,6 +56,7 @@
     "firebase-tools": "^15.22.3",
     "playwright-core": "^1.63.0",
     "postcss": "^8.5.24",
+    "sharp": "^0.35.5",
     "tailwindcss": "^3.4.19",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"

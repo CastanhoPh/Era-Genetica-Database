@@ -6,7 +6,7 @@ import { carregaPersonagens, carregaArsenal, fonteEstatica } from './data/dados-
 import { Character } from './types';
 import { Equipment } from './types/Equipment';
 import { useAuth, trocaVeioDestaAba } from './useAuth';
-import { formatImageUrl, seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
+import { seloDe, corDoSelo, macrosDe, postoDe, CORES_DE_VILA, CORES_DE_ORG } from './utils/formatters';
 import { POSTOS_POR_ABA, casaPosto, maiorPosto } from './data/postos-por-aba';
 import { rankDeNC } from './data/atributos';
 import { casaLendaria } from './data/habilidades-lendarias';
@@ -27,6 +27,7 @@ const AdminPanel = lazy(() => import('./pages/AdminPanel'));
 const ChecklistPanel = lazy(() => import('./pages/ChecklistPanel'));
 const AvisoUrgente = lazy(() => import('./components/AvisoUrgente'));
 import Configuracoes from './components/Configuracoes';
+import Imagem from './components/Imagem';
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const Habilidades = lazy(() => import('./pages/Habilidades'));
 
@@ -454,8 +455,8 @@ export default function App() {
                                         )}
 
                                         {char.image && !imgErrors[`${char.id}:${char.image}`] ? (
-                                            <img
-                                                src={formatImageUrl(char.image)}
+                                            <Imagem tamanho="mini"
+                                                src={char.image}
                                                 alt={char.name}
                                                 loading="lazy"
                                                 decoding="async"

@@ -19,6 +19,7 @@ import os from 'os';
 import esbuild from 'esbuild';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -148,7 +149,7 @@ function deduz(c) {
 }
 
 const db = conecta();
-const snap = await db.collection('characters').get();
+const snap = await leColecao(db, 'characters');
 const chars = snap.docs.map(d => ({ __docId: d.id, ...d.data() })).sort((a, b) => (a.id || 0) - (b.id || 0));
 
 const rotulo = ({ focos, divisao, iguais }) => {

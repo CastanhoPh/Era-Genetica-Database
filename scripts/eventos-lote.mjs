@@ -14,6 +14,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const APLICAR = process.argv.includes('--apply');
 const arg = k => (process.argv.find(a => a.startsWith(`--${k}=`)) || '').split('=').slice(1).join('=');
@@ -36,9 +37,9 @@ admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(
 const db = admin.firestore();
 
 // nome tem que existir em algum lugar: ficha, protótipo ou lista de cadastro
-const charDocs = (await db.collection('characters').get()).docs;
+const charDocs = (await leColecao(db, 'characters')).docs;
 const nomesFicha = new Set(charDocs.map(x => x.data().name));
-const protos = new Set((await db.collection('prototypeEntries').get()).docs.map(x => x.data().title));
+const protos = new Set((await leColecao(db, 'prototypeEntries')).docs.map(x => x.data().title));
 const tipos = readFileSync('src/types.ts', 'utf8');
 const pendentes = new Set([...tipos.slice(tipos.indexOf('export const PENDING_CHARACTERS'))
   .matchAll(/\{\s*name:\s*'([^']+)'/g)].map(m => m[1]));
@@ -49,7 +50,7 @@ if (desconhecidos.length) {
   process.exit(1);
 }
 
-const eventos = (await db.collection('imageChecklist').get()).docs
+const eventos = (await leColecao(db, 'imageChecklist')).docs
   .filter(x => (x.data().type ?? 'evento') === 'evento')
   .sort((a, b) => a.data().order - b.data().order);
 

@@ -5,6 +5,7 @@ import { subscribeChecklist, slugify } from '../data/firestore';
 import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem } from '../types';
+import Imagem from '../components/Imagem';
 
 /**
  * Os dois tipos que pertencem a um personagem em vez de a uma temporada. Eles compartilham a forma
@@ -241,7 +242,7 @@ const GalleryPage: React.FC = () => {
       onClick={() => openLightbox(item)}
       className={className ?? (item.type === 'timeline' ? timelineTileClass : tileClass)}
     >
-      <img src={item.imageUrl!} alt={item.name} loading="lazy" decoding="async" className={imgClass} />
+      <Imagem tamanho="mini" src={item.imageUrl!} alt={item.name} loading="lazy" decoding="async" className={imgClass} />
       {!hideCaptions && (
         <>
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent pointer-events-none" />
@@ -530,7 +531,7 @@ const GalleryPage: React.FC = () => {
           )}
 
           <div className="max-w-3xl max-h-[85vh] flex flex-col items-center gap-3" onClick={e => e.stopPropagation()}>
-            <img src={lightbox.imageUrl!} alt={lightbox.name} className="max-w-full max-h-[75vh] object-contain border border-tech-border" />
+            <Imagem tamanho="cheia" src={lightbox.imageUrl!} alt={lightbox.name} className="max-w-full max-h-[75vh] object-contain border border-tech-border" />
             <div className="text-center">
               <p className="text-white font-bold">{lightbox.name}</p>
               <p className="text-tech-primary/60 text-xs uppercase tracking-widest">{lightbox.temporada} · {lightbox.arco}{lightbox.subarco ? ` · ${lightbox.subarco}` : ''}</p>

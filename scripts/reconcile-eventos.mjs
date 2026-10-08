@@ -16,6 +16,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const APLICAR = process.argv.includes('--apply');
 
@@ -23,7 +24,7 @@ const chave = { full: achaChave() };
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(chave.full, 'utf8'))) });
 const db = admin.firestore();
 
-const eventos = (await db.collection('imageChecklist').get()).docs
+const eventos = (await leColecao(db, 'imageChecklist')).docs
   .filter(x => (x.data().type ?? 'evento') === 'evento')
   .map(x => ({ id: x.id, ...x.data() }))
   .sort((a, b) => a.order - b.order);
@@ -35,7 +36,7 @@ console.log(`   elenco fechado     ${eventos.filter(e => e.elencoFechado).length
 console.log(`   fechado + com arte ${publicaveis.length}  (só estes aparecem em ficha)`);
 console.log(`   fechado sem arte   ${eventos.filter(e => e.elencoFechado && !e.imageUrl).length}  (esperando a imagem)`);
 
-const charDocs = (await db.collection('characters').get()).docs;
+const charDocs = (await leColecao(db, 'characters')).docs;
 const plano = [];
 for (const x of charDocs) {
   const nome = x.data().name;

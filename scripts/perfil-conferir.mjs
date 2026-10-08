@@ -14,6 +14,7 @@ import os from 'os';
 import esbuild from 'esbuild';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TODOS = process.argv.includes('--todos');
@@ -79,7 +80,7 @@ function causas(c) {
   return fora;
 }
 
-const snap = await admin.firestore().collection('characters').get();
+const snap = await leColecao(admin.firestore(), 'characters');
 const chars = snap.docs.map(x => ({ __docId: x.id, ...x.data() })).sort((a, b) => (a.id || 0) - (b.id || 0));
 
 const linhas = chars.map(c => {

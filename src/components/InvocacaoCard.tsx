@@ -1,8 +1,8 @@
 import React from 'react';
 import { ChevronRight, Sparkles, Hexagon } from 'lucide-react';
 import { classificationColors } from '../types/Equipment';
-import { formatImageUrl } from '../utils/formatters';
 import { filtroDaCapa } from './BotaoDeCores';
+import Imagem from './Imagem';
 
 export interface InvocacaoCardData {
   nome: string;
@@ -106,8 +106,8 @@ const InvocacaoCard: React.FC<Props> = ({ inv, index, onClick, colorido = false 
 
         {/* placeholder é página em branco: exibir seria fingir que a arte existe */}
         {!semArte ? (
-          <img
-            src={formatImageUrl(inv.capaUrl!)}
+          <Imagem tamanho="mini"
+            src={inv.capaUrl!}
             alt={inv.nome}
             loading="lazy"
             decoding="async"

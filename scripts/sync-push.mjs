@@ -12,6 +12,7 @@ import os from 'os';
 import esbuild from 'esbuild';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -235,8 +236,8 @@ async function main() {
   ]);
 
   const [charSnap, arsenalSnap] = await Promise.all([
-    db.collection('characters').get(),
-    db.collection('arsenal').get(),
+    leColecao(db, 'characters'),
+    leColecao(db, 'arsenal'),
   ]);
   const charDocs = new Map(charSnap.docs.map(d => [d.id, d.data()]));
   const arsenalDocs = new Map(arsenalSnap.docs.map(d => [d.id, d.data()]));

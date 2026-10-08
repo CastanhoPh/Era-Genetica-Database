@@ -29,12 +29,12 @@ const ImageUploadButton: React.FC<ImageUploadButtonProps> = ({ pathPrefix, fileN
       const finalName = fileName ? `${sanitize(fileName)}${ext}` : `${Date.now()}-${sanitize(file.name)}`;
       const path = `${pathPrefix}/${finalName}`;
       const storageRef = ref(storage, path);
-      // Cache de 1 dia: elimina o recarregamento repetido ao trocar de aba/reabrir a
-      // ficha, mas ainda se autocorrige rápido se a imagem for substituída depois.
-      await uploadBytes(storageRef, file, { contentType: file.type, cacheControl: 'public, max-age=86400' });
+      // Cache de um ano: o link gravado no banco leva um `v` único por upload (logo abaixo), então
+      // imagem substituída é endereço novo e o cache longo nunca serve arte velha.
+      await uploadBytes(storageRef, file, { contentType: file.type, cacheControl: 'public, max-age=31536000, immutable' });
       const url = await getDownloadURL(storageRef);
       // Como o caminho não muda quando uma imagem é substituída, o link também não mudaria
-      // sem isso — e com cache de 1 dia, navegador/CDN continuariam servindo a versão antiga.
+      // sem isso — e com o cache longo, navegador/CDN continuariam servindo a versão antiga.
       // Um parâmetro de versão único por upload garante que o link sempre aponte pro conteúdo atual.
       const urlWithVersion = `${url}${url.includes('?') ? '&' : '?'}v=${Date.now()}`;
       onUploaded(urlWithVersion);

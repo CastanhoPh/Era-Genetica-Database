@@ -6,6 +6,7 @@ import { groupItems } from '../data/checklistGrouping';
 import { ChecklistItem, Character } from '../types';
 import ImageUploadButton from '../components/ImageUploadButton';
 import BotaoDeLink from '../components/BotaoDeLink';
+import Imagem from '../components/Imagem';
 
 const countable = (items: ChecklistItem[]) => items.filter(i => !i.placeholder);
 const doneCount = (items: ChecklistItem[]) => countable(items).filter(i => i.done).length;
@@ -441,7 +442,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
         {item.imageUrl ? (
           <div className="shrink-0 relative group/thumb">
             <a href={item.imageUrl} target="_blank" rel="noopener noreferrer">
-              <img src={item.imageUrl} alt={item.name} className="w-8 h-8 object-cover border border-tech-primary/40" />
+              <Imagem tamanho="mini" src={item.imageUrl} alt={item.name} className="w-8 h-8 object-cover border border-tech-primary/40" />
             </a>
             <button
               type="button"
@@ -495,7 +496,7 @@ const ChecklistPanel: React.FC<ChecklistPanelProps> = ({ canEdit, displayName, c
         )}
         <span className={`truncate ${item.done && !item.placeholder ? 'line-through decoration-tech-primary/50' : ''}`}>{item.name}</span>
         {item.imageUrl && (
-          <img src={item.imageUrl} alt="" title="Já está na Galeria" className="ml-auto w-6 h-6 object-cover border border-tech-primary/40 shrink-0" />
+          <Imagem tamanho="mini" src={item.imageUrl} alt="" title="Já está na Galeria" className="ml-auto w-6 h-6 object-cover border border-tech-primary/40 shrink-0" />
         )}
         {item.done && item.doneBy && (
           <span className={`shrink-0 text-[10px] text-tech-primary/40 uppercase tracking-wide normal-case italic ${!item.imageUrl ? 'ml-auto' : ''}`}>Feito por: {item.doneBy}</span>

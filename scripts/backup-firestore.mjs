@@ -17,6 +17,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const CHECK = process.argv.includes('--check');
 const DESTINO = join(process.cwd(), 'docs', 'backup');
@@ -32,7 +33,7 @@ if (!existsSync(DESTINO)) mkdirSync(DESTINO, { recursive: true });
 // fica ilegível.
 let totalDocs = 0, diferentes = 0;
 for (const col of COLECOES) {
-  const snap = await db.collection(col).get();
+  const snap = await leColecao(db, col, { fresco: !CHECK });
   const docs = snap.docs
     .map(x => ({ __docId: x.id, ...x.data() }))
     .sort((a, b) => a.__docId.localeCompare(b.__docId));

@@ -24,6 +24,7 @@ import { join } from 'path';
 import { readFileSync } from 'fs';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 import { api } from './lib/canva.mjs';
 
 const TIPO = process.argv.find(a => a.startsWith('--tipo='))?.slice('--tipo='.length);
@@ -49,11 +50,11 @@ for (const p of paginas) await baixa(p.thumbnail.url, join(OUT, 'pag', String(p.
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(achaChave(), 'utf8'))) });
 const db = admin.firestore();
 const historicos = new Set(
-  (await db.collection('characters').get()).docs.map(d => d.data())
+  (await leColecao(db, 'characters')).docs.map(d => d.data())
     .filter(c => c.registro === 'historico').map(c => c.name),
 );
 const ehHist = i => historicos.has(TIPO === 'capa' ? i.name : i.temporada);
-const cl = (await db.collection('imageChecklist').get()).docs.map(d => d.data());
+const cl = (await leColecao(db, 'imageChecklist')).docs.map(d => d.data());
 const itens = cl
   .filter(c => (c.type ?? 'evento') === TIPO && (SO_HIST ? ehHist(c) : !ehHist(c)))
   .sort((a, b) => a.order - b.order);

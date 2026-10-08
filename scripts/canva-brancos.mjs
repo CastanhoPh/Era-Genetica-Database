@@ -18,6 +18,7 @@ import { join } from 'path';
 import { deflateSync } from 'zlib';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 import { PASTA_CANVA, nomeador } from './lib/pasta-canva.mjs';
 
 const TIPO = process.argv.find(a => a.startsWith('--tipo='))?.slice('--tipo='.length);
@@ -70,8 +71,8 @@ function pngBranco(w, h) {
 
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(achaChave(), 'utf8'))) });
 const db = admin.firestore();
-const cl = (await db.collection('imageChecklist').get()).docs.map(d => d.data());
-const fichas = (await db.collection('characters').get()).docs.map(d => d.data());
+const cl = (await leColecao(db, 'imageChecklist')).docs.map(d => d.data());
+const fichas = (await leColecao(db, 'characters')).docs.map(d => d.data());
 const historicos = new Set(fichas.filter(c => c.registro === 'historico').map(c => c.name));
 const ehHistorico = i => historicos.has(TIPO_REAL === 'capa' ? i.name : i.temporada);
 const itens = cl

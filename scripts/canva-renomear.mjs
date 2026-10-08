@@ -25,6 +25,7 @@
 import { readFileSync } from 'fs';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 import { chromium } from 'playwright-core';
 
 const APPLY = process.argv.includes('--apply');
@@ -82,7 +83,7 @@ const achaInput = pag => p.evaluateHandle(n => {
 
 // ---------------------------------------------------------------- o alvo, do banco
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(achaChave(), 'utf8'))) });
-const cl = (await admin.firestore().collection('imageChecklist').get()).docs.map(d => d.data());
+const cl = (await leColecao(admin.firestore(), 'imageChecklist')).docs.map(d => d.data());
 const itens = cl.filter(c => (c.type ?? 'evento') === TIPO).sort((a, b) => a.order - b.order);
 const alvoDe = i => `${itens[i - 1].temporada} - ${itens[i - 1].name}`;
 

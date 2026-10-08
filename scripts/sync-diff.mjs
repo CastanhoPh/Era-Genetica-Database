@@ -8,6 +8,7 @@ import os from 'os';
 import esbuild from 'esbuild';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -74,7 +75,7 @@ function fmt(v) {
 
 async function diffCollection(db, collectionName, items) {
   const entries = withDocIds(items);
-  const snap = await db.collection(collectionName).get();
+  const snap = await leColecao(db, collectionName);
   const remoteById = new Map(snap.docs.map(d => [d.id, d.data()]));
   const localIds = new Set(entries.map(e => e.docId));
 

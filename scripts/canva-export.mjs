@@ -40,6 +40,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 import { PASTA_CANVA, nomeador } from './lib/pasta-canva.mjs';
 
 // Quantos itens listar nas amostras do relatório. Seis basta no dia a dia; CANVA_LISTA=999
@@ -78,13 +79,13 @@ const bucket = admin.storage().bucket();
 
 if (!existsSync(BASE)) { console.error(`pasta não encontrada: ${BASE}`); process.exit(1); }
 
-const cl = (await db.collection('imageChecklist').get()).docs.map(x => x.data());
+const cl = (await leColecao(db, 'imageChecklist')).docs.map(x => x.data());
 
 // Quem tem registro histórico. O checklist não marca isso no item — a informação está na ficha —
 // então o vínculo é pelo nome: em `timeline` o personagem está em `temporada`, em `capa` está em
 // `name`. É o mesmo par de campos que o `tituloDe` usa para montar o nome do arquivo.
 const historicos = new Set(
-  (await db.collection('characters').get()).docs
+  (await leColecao(db, 'characters')).docs
     .map(x => x.data()).filter(c => c.registro === 'historico').map(c => c.name),
 );
 const ehHistorico = i => historicos.has(i.type === 'capa' ? i.name : i.temporada);

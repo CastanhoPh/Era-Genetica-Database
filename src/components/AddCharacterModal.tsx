@@ -4,6 +4,7 @@ import { Character, Technique, GalleryImage, EVENT_SEASONS } from '../types';
 import { Equipment } from '../types/Equipment';
 import { formatImageUrl } from '../utils/formatters';
 import ImageUploadButton from './ImageUploadButton';
+import Imagem from './Imagem';
 
 interface AddCharacterModalProps {
   onClose: () => void;
@@ -699,7 +700,7 @@ const AddCharacterModal: React.FC<AddCharacterModalProps> = ({ onClose, onAdd, i
                                     </div>
 
                                     {img.url && (
-                                        <img src={formatImageUrl(img.url)} alt={img.caption || ''} className="w-full max-h-40 object-cover border border-tech-border/50" />
+                                        <Imagem tamanho="mini" src={img.url} alt={img.caption || ''} className="w-full max-h-40 object-cover border border-tech-border/50" />
                                     )}
                                 </div>
                             ))}

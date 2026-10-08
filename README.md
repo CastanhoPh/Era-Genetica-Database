@@ -33,6 +33,7 @@ aponte para ele com a variável `SERVICE_ACCOUNT_KEY_PATH`. Quem procura a chave
 | `npm run conferir -- --deploy` | Também confere se o publicado está em dia com o Firestore |
 | `npm run deploy` | Gera os dados, faz o build, o prerender e publica o Hosting |
 | `npm run backup` | Copia o Firestore para `docs/backup/` (commitar depois) |
+| `npm run imagens` | Confere quais imagens ainda não têm versão leve (`imagens:apply` gera) |
 
 ## Estrutura
 
@@ -92,6 +93,17 @@ leem ao vivo. **Uma edição feita no Painel só chega ao público depois de `np
 
 As imagens ficam no Storage, com leitura pública, nas pastas `Characters/`, `Galeria/`, `Arsenal/`,
 `Prototipo/` e `Uploads/`.
+
+O site não mostra o arquivo original: mostra uma versão leve em WebP, gerada por `npm run imagens:apply`
+(o deploy já roda) e guardada em `_web/` no mesmo bucket — `mini` para os cards e `cheia` para a
+imagem aberta. Arte recém-enviada aparece pelo original até a próxima geração.
+
+## Leituras do Firestore
+
+O visitante não gasta leitura; quem gasta são os scripts e o Painel. Para não reler o banco a cada
+comando, os scripts guardam um retrato das coleções em `.cache/firestore/` e o reutilizam por 15
+minutos, avisando quando fazem isso. Com `--apply` a leitura é sempre do banco, e `--fresco` força a
+leitura em qualquer script.
 
 ## Publicar
 

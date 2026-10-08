@@ -46,6 +46,7 @@
 import { readFileSync } from 'fs';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 import { api } from './lib/canva.mjs';
 
 const DESIGN = process.argv.find(a => a.startsWith('--design='))?.slice('--design='.length) ?? 'DAHSq1CDC2o';
@@ -79,7 +80,7 @@ async function merge(operacao) {
 
 // ================================================================ o alvo, vindo do banco
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(achaChave(), 'utf8'))) });
-const cl = (await admin.firestore().collection('imageChecklist').get()).docs.map(d => d.data());
+const cl = (await leColecao(admin.firestore(), 'imageChecklist')).docs.map(d => d.data());
 const itens = cl.filter(c => c.type === 'transformacao').sort((a, b) => a.order - b.order);
 
 // pagina (do retrato de 17/09) -> posicao do item na lista. Veio do casamento por imagem, todas

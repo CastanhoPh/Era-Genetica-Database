@@ -16,6 +16,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const DOC = process.argv[2];
 const APPLY = process.argv.includes('--apply');
@@ -101,7 +102,7 @@ const c = snap.data();
 const antes = c.aptitudes || [];
 
 // vocabulario do resto do projeto, para detectar grafia divergente
-const todas = (await db.collection('characters').get()).docs
+const todas = (await leColecao(db, 'characters')).docs
   .filter(x => x.id !== DOC).flatMap(x => x.data().aptitudes || []);
 const vocab = new Map();
 todas.forEach(a => vocab.set(a, (vocab.get(a) || 0) + 1));

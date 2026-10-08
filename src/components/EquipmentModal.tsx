@@ -3,7 +3,7 @@ import { X, Lock, Shield, Skull, ExternalLink, Share2, Pencil, Trash2 } from 'lu
 import { Equipment, classificationColors } from '../types/Equipment';
 import { Character } from '../types';
 import { slugify } from '../data/firestore';
-import { formatImageUrl } from '../utils/formatters';
+import Imagem from './Imagem';
 
 interface EquipmentModalProps {
   item: Equipment | null;
@@ -216,8 +216,8 @@ const EquipmentModal: React.FC<EquipmentModalProps> = ({ item, onClose, characte
                   <div className="absolute bottom-2.5 right-2.5 w-4 h-4 border-b border-r border-tech-primary/60 z-20" />
 
                   {displayImage && !imgError ? (
-                    <img
-                      src={formatImageUrl(displayImage)}
+                    <Imagem tamanho="cheia"
+                      src={displayImage}
                       alt={displayName}
                       onError={() => setImgError(true)}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"

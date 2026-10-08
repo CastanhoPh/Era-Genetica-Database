@@ -26,6 +26,7 @@ import { readFileSync, readdirSync } from 'fs';
 import { join, basename } from 'path';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const PASTA = process.argv.find(a => a.startsWith('--pasta='))?.slice('--pasta='.length);
 const APPLY = process.argv.includes('--apply');
@@ -40,8 +41,8 @@ admin.initializeApp({
 const db = admin.firestore();
 const bucket = admin.storage().bucket();
 
-const chars = (await db.collection('characters').get()).docs.map(d => ({ ref: d.ref, ...d.data() }));
-const snap = await db.collection('imageChecklist').get();
+const chars = (await leColecao(db, 'characters')).docs.map(d => ({ ref: d.ref, ...d.data() }));
+const snap = await leColecao(db, 'imageChecklist');
 const checklist = snap.docs.map(d => ({ ref: d.ref, ...d.data() }));
 const transf = checklist.filter(c => c.type === 'transformacao').sort((a, b) => a.order - b.order);
 

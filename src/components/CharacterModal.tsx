@@ -12,9 +12,10 @@ import { Equipment } from '../types/Equipment';
 import { slugify } from '../data/firestore';
 import AttributeBox from './AttributeBox';
 import ResourceBar from './ResourceBar';
-import { formatImageUrl, seloDe, corDoSelo, vilasDe, CORES_DE_VILA, CORES_DE_ORG } from '../utils/formatters';
+import { seloDe, corDoSelo, vilasDe, CORES_DE_VILA, CORES_DE_ORG } from '../utils/formatters';
 import { maiorPosto } from '../data/postos-por-aba';
 import { rankDeNC } from '../data/atributos';
+import Imagem from './Imagem';
 
 // Carregado sob demanda: chart.js + react-chartjs-2 só entram no bundle quando
 // alguém realmente clica em "Radar" (a ficha abre com a visão de barras por padrão).
@@ -391,8 +392,8 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                   )}
 
                   {char.image && !imgError ? (
-                     <img 
-                      src={formatImageUrl(char.image)} 
+                     <Imagem tamanho="cheia" 
+                      src={char.image} 
                       alt={char.name} 
                       onError={() => setImgError(true)}
                       className={`w-full h-full object-cover transition-all duration-500 ${char.isDead ? 'contrast-110 brightness-90' : ''}`} 
@@ -834,10 +835,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             )}
 
                                             {tech.image ? (
-                                                <img
+                                                <Imagem tamanho="mini"
                                                     loading="lazy"
                                                     decoding="async"
-                                                    src={formatImageUrl(tech.image)}
+                                                    src={tech.image}
                                                     alt={tech.name} 
                                                     className={`w-full h-full object-cover group-hover:scale-110 transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                 />
@@ -922,8 +923,8 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                     {tech.image && (
                                                         <div className={`w-full aspect-video border-b relative overflow-hidden ${hideMask ? 'z-[9999] ' : ''}${char.isDead ? 'border-red-900/50' : 'border-tech-accent/30'}`}>
                                                             <div className="absolute inset-0 bg-[linear-gradient(transparent_60%,rgba(0,0,0,0.8))] z-10 pointer-events-none"></div>
-                                                            <img 
-                                                                src={formatImageUrl(tech.image)} 
+                                                            <Imagem tamanho="cheia" 
+                                                                src={tech.image} 
                                                                 alt={tech.name} 
                                                                 className={`w-full h-full object-cover transition-all duration-1000 scale-105 group-hover:scale-100 ${char.isDead ? 'opacity-90 group-hover:opacity-100' : forceColor ? 'opacity-100' : 'grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                             />
@@ -1060,10 +1061,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                             )}
 
                                             {inv.capaUrl && !inv.placeholder ? (
-                                                <img
+                                                <Imagem tamanho="mini"
                                                     loading="lazy"
                                                     decoding="async"
-                                                    src={formatImageUrl(inv.capaUrl)}
+                                                    src={inv.capaUrl}
                                                     alt={inv.nome}
                                                     className={`w-full h-full object-cover group-hover:scale-110 transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                 />
@@ -1192,8 +1193,8 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                         })()}
                                         {imagem && !inv.placeholder ? (
                                             <div className="border border-tech-border bg-black overflow-hidden">
-                                                <img
-                                                    src={formatImageUrl(imagem)}
+                                                <Imagem tamanho="cheia"
+                                                    src={imagem}
                                                     alt={inv.nome}
                                                     className="w-full h-auto"
                                                 />
@@ -1298,10 +1299,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                         )}
 
                                         {weapon.image ? (
-                                            <img
+                                            <Imagem tamanho="mini"
                                                 loading="lazy"
                                                 decoding="async"
-                                                src={formatImageUrl(weapon.image)}
+                                                src={weapon.image}
                                                 alt={weapon.name}
                                                 className={`w-full h-full object-cover group-hover:scale-110 transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                             />
@@ -1432,8 +1433,8 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                             <div className="lg:col-span-5 space-y-4">
                                                                 <div className={`relative aspect-square border bg-tech-panel/20 p-1 transition-all duration-500 overflow-hidden shadow-[0_0_20px_rgba(0,0,0,0.5)] ${hideMask ? 'z-[9999] ' : ''}${char.isDead ? 'border-red-600/50 group-hover:border-red-500' : 'border-tech-accent/30 group-hover:border-tech-accent/60'}`}>
                                                                     <div className="absolute inset-0 bg-[linear-gradient(rgba(255,176,0,0.03)_1px,transparent_1px)] bg-[size:100%_4px] pointer-events-none z-20"></div>
-                                                                    <img 
-                                                                        src={formatImageUrl(weapon.image)} 
+                                                                    <Imagem tamanho="cheia" 
+                                                                        src={weapon.image} 
                                                                         alt={weapon.name} 
                                                                         width={1080}
                                                                         height={1080}
@@ -1525,10 +1526,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                         <div className="absolute top-2 left-2 z-30 bg-tech-accent text-black text-[8px] font-black w-5 h-5 flex items-center justify-center clip-corner-sm">
                                                             {i + 1}
                                                         </div>
-                                                        <img
+                                                        <Imagem tamanho="mini"
                                                             loading="lazy"
                                                             decoding="async"
-                                                            src={formatImageUrl(img.url)}
+                                                            src={img.url}
                                                             alt={img.caption || char.name}
                                                             className={`w-full h-full object-cover transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                         />
@@ -1586,10 +1587,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                         <div className="absolute top-2 left-2 z-30 bg-tech-accent text-black text-[8px] font-black w-5 h-5 flex items-center justify-center clip-corner-sm">
                                                             {i + 1}
                                                         </div>
-                                                        <img
+                                                        <Imagem tamanho="mini"
                                                             loading="lazy"
                                                             decoding="async"
-                                                            src={formatImageUrl(img.url)}
+                                                            src={img.url}
                                                             alt={img.caption || char.name}
                                                             className={`w-full h-full object-cover transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                         />
@@ -1644,10 +1645,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                         className={`group relative aspect-video border border-tech-border bg-tech-panel/40 overflow-hidden hover:border-tech-accent transition-all duration-300 ${hideMask ? 'z-[9999]' : ''}`}
                                                     >
                                                         <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
-                                                        <img
+                                                        <Imagem tamanho="mini"
                                                             loading="lazy"
                                                             decoding="async"
-                                                            src={formatImageUrl(img.url)}
+                                                            src={img.url}
                                                             alt={img.caption || char.name}
                                                             className={`w-full h-full object-cover transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                         />
@@ -1678,10 +1679,10 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                                             className={`group relative aspect-video border border-tech-border bg-tech-panel/40 overflow-hidden hover:border-tech-accent transition-all duration-300 ${hideMask ? 'z-[9999]' : ''}`}
                                                                         >
                                                                             <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,65,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,65,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none z-10"></div>
-                                                                            <img
+                                                                            <Imagem tamanho="mini"
                                                                                 loading="lazy"
                                                                                 decoding="async"
-                                                                                src={formatImageUrl(img.url)}
+                                                                                src={img.url}
                                                                                 alt={img.caption || char.name}
                                                                                 className={`w-full h-full object-cover transition-all duration-500 ${forceColor ? 'opacity-100' : 'grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100'}`}
                                                                             />
@@ -1734,7 +1735,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ char, onClose, isAdmin,
                                                 <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-tech-accent"></div>
                                                 <div className="bg-black/60 relative">
                                                     <div className={`relative overflow-hidden mx-auto ${hideMask ? 'z-[9999] ' : ''}${img.category === 'era' ? 'aspect-[2/3] max-h-[75vh] w-auto' : 'w-full aspect-video'}`}>
-                                                        <img src={formatImageUrl(img.url)} alt={img.caption || char.name} className="w-full h-full object-contain" />
+                                                        <Imagem tamanho="cheia" src={img.url} alt={img.caption || char.name} className="w-full h-full object-contain" />
                                                         <div className="absolute top-4 left-4 z-20">
                                                             <span className="text-[8px] font-black px-2 py-0.5 border clip-corner-sm bg-black/80 text-tech-accent border-tech-accent/30 uppercase">
                                                                 {img.category}

@@ -21,6 +21,7 @@ import { join } from 'path';
 import os from 'os';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 
 const APPLY = process.argv.includes('--apply');
 
@@ -30,8 +31,8 @@ admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(
 const db = admin.firestore();
 
 const [snapChars, snapItens] = await Promise.all([
-  db.collection('characters').get(),
-  db.collection('imageChecklist').get(),
+  leColecao(db, 'characters'),
+  leColecao(db, 'imageChecklist'),
 ]);
 
 // ---- o nome completo é a chave; duplicata aqui seria erro de cadastro, não ambiguidade ----

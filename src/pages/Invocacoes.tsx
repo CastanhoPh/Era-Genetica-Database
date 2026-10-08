@@ -4,12 +4,12 @@ import { Sparkles, Search, ChevronDown, ChevronLeft, ChevronRight, Loader, Termi
 import { subscribeChecklist, slugify } from '../data/firestore';
 import { carregaChecklist, fonteEstatica } from '../data/dados-publicos';
 import { Character, ChecklistItem, CLASSIFICATION_PRIORITY } from '../types';
-import { formatImageUrl } from '../utils/formatters';
 import InvocacaoCard, { InvocacaoCardData } from '../components/InvocacaoCard';
 import BotaoDeCores, { useCapasColoridas } from '../components/BotaoDeCores';
 import BotaoDeLink from '../components/BotaoDeLink';
 import { FAMILIAS_DE_INVOCACAO } from '../data/familias-de-invocacao';
 import { classificationColors } from '../types/Equipment';
+import Imagem from '../components/Imagem';
 
 /**
  * Os chips são fixos, não derivados dos dados: uma vila sem invocação tem que aparecer e dizer que
@@ -476,7 +476,7 @@ const Invocacoes: React.FC<InvocacoesProps> = ({ characters, onOpenCharacter }) 
                       {aberta.arteUrl && !aberta.placeholder ? (
                         // 4:3 no quadro e 4:3 na pagina do Canva: `cover` preenche exato, sem
                         // faixa preta e sem recortar desenho.
-                        <img src={formatImageUrl(aberta.arteUrl)} alt={aberta.nome} className="w-full h-full object-cover" />
+                        <Imagem tamanho="cheia" src={aberta.arteUrl} alt={aberta.nome} className="w-full h-full object-cover" />
                       ) : (
                         <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-striped-pattern opacity-50">
                           <Sparkles size={36} className="text-tech-dim animate-pulse" />

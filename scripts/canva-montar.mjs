@@ -47,6 +47,7 @@ import { readFileSync, readdirSync, statSync } from 'fs';
 import { join } from 'path';
 import admin from 'firebase-admin';
 import { achaChave } from './lib/chave.mjs';
+import { leColecao } from './lib/leitura.mjs';
 import { api, token } from './lib/canva.mjs';
 import { PASTA_CANVA } from './lib/pasta-canva.mjs';
 
@@ -96,7 +97,7 @@ async function paginas() {
 
 // ---------------------------------------------------------------- o que montar
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(achaChave(), 'utf8'))) });
-const cl = (await admin.firestore().collection('imageChecklist').get()).docs.map(d => d.data());
+const cl = (await leColecao(admin.firestore(), 'imageChecklist')).docs.map(d => d.data());
 const itens = cl.filter(c => (c.type ?? 'evento') === TIPO).sort((a, b) => a.order - b.order);
 
 const dir = join(BASE, p.pasta);

@@ -10,6 +10,7 @@ import { distribuirAtributos, ajustaDivisao, divisaoInicial, formataPct, rankDeN
 import { Equipment } from '../types/Equipment';
 import { seloDe, postoDe, vilasDe, CORES_DE_VILA } from '../utils/formatters';
 import { ORDEM_DE_FORCA, posicaoDeForca, foraDoRanking, semPosicaoNaForca, TIPO_FORA_DO_RANKING } from '../data/ordem-de-forca';
+import Imagem from '../components/Imagem';
 
 /** Se a ficha tem uma proporção explícita para estes divididos. Objeto vazio, ou proporção sobre
  *  outros divididos (sobra de uma troca de foco), conta como "não tem" — aí vale partes iguais. */
@@ -2752,7 +2753,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ characters, arsenalItems }) => 
                   title={valor}
                   className="w-full flex items-center gap-3 p-2 text-left hover:bg-tech-primary/5 transition-colors group"
                 >
-                  <img
+                  <Imagem tamanho="mini"
                     src={l.url}
                     alt=""
                     loading="lazy"

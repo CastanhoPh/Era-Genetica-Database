@@ -115,6 +115,7 @@ if (!COM_FIRESTORE) {
 console.log('\n=== publicado vs Firestore ===');
 const admin = (await import('firebase-admin')).default;
 const { achaChave } = await import('./lib/chave.mjs');
+const { leColecao } = await import('./lib/leitura.mjs');
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(readFileSync(achaChave(), 'utf8'))) });
 const db = admin.firestore();
 const COLECOES = [
@@ -124,7 +125,7 @@ const COLECOES = [
 ];
 let emDia = true;
 for (const { colecao, arquivo, ordena } of COLECOES) {
-  const snap = await db.collection(colecao).get();
+  const snap = await leColecao(db, colecao);
   const dados = snap.docs.map(d => ({ ...d.data(), docId: d.id })).sort(ordena);
   const hash = createHash('sha256').update(JSON.stringify(dados)).digest('hex').slice(0, 8);
   const publicado = nomes[arquivo]?.match(/-([0-9a-f]{8})\.json$/)?.[1];
