@@ -107,12 +107,13 @@ async function pushCollection(db, collectionName, items, existingDocs) {
     }
   }
 
-  // Campos que vivem SÓ no Firestore por natureza: derivados por script ou denormalizados a
-  // partir do checklist. O arquivo local nunca os teve e nunca vai ter, então avisar sobre eles
-  // não protege nada — só faz o guard gritar em toda ficha e o aviso perder o sentido.
+  // Campos MANTIDOS no Firestore: derivados por script, denormalizados a partir do checklist ou
+  // editados pelo Painel. O banco é a fonte da verdade deles.
   //
-  // Sem esta lista o push abortava com 315 avisos falsos, e os 15 casos de divergência real
-  // (combatStyle em 13 fichas, techniques em 2) ficavam invisíveis no meio.
+  // Desde 08/10/2026 o arquivo local guarda uma CÓPIA desses campos, a pedido do Pedro, para o
+  // arquivo ter tudo o que o banco tem. A cópia é só de leitura: ela envelhece a cada
+  // `invocacoes:fix` ou edição no Painel, então o push NUNCA envia estes campos — são tirados do
+  // payload logo abaixo. Sem isso, um push com a cópia velha desfaria o que o banco tem de novo.
   const SO_NO_FIRESTORE = new Set([
     'vila',            // migrado de categories, etapa 1 do modelo de organização
     'organizacao',     // idem
@@ -122,6 +123,7 @@ async function pushCollection(db, collectionName, items, existingDocs) {
     'cargo',           // cargos de vila, da lista validada pelo Pedro
     'patente',         // patente de organização, separada do position
   ]);
+  for (const { data } of entries) for (const campo of SO_NO_FIRESTORE) delete data[campo];
 
   // Risco 2: doc já existe no Firestore e tem um campo preenchido que o
   // arquivo local não tem — provável edição feita direto no Painel (ex:

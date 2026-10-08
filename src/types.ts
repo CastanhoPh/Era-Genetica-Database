@@ -313,7 +313,8 @@ export interface Character {
    * Ambu/Rastreio do Katsuo, Equipe de Elite/Inovações do Raikun e Dama/Força Médica da Yumi
    * estão na ordem em que ele escreveu, não numa hierarquia. O card mostra só o primeiro.
    *
-   * Só no Firestore, como `vila` e `organizacao`.
+   * Mantido no Firestore, como `vila` e `organizacao`: o arquivo local tem uma cópia, e o push
+   * não a envia.
    */
   cargo?: string[];
   /**
@@ -330,7 +331,7 @@ export interface Character {
    * não é dela, que é justamente o buraco que a regra de foco existe para apontar.
    *
    * Tem prioridade sobre o `cargo` na exibição: quem tem organização mostra a patente dela.
-   * Só no Firestore.
+   * Mantido no Firestore: o arquivo local tem uma cópia, e o push não a envia.
    */
   patente?: string[];
   /**
@@ -338,8 +339,9 @@ export interface Character {
    * duas vilas — o Hiroshi Hanzo e o Rock Gunma têm. Todo mundo tem pelo menos uma, mesmo quem é
    * só membro sem cargo; as duas exceções propositais são o Genei e o Hades, deixados sem vila.
    *
-   * Escrito e mantido só no Firestore, como o `focosAtributo` — `data/characters.ts` não tem esse
-   * campo, e por isso ele está na whitelist `SO_NO_FIRESTORE` do `scripts/sync-push.mjs`.
+   * Escrito e mantido no Firestore, como o `focosAtributo`. O `src/data/characters.ts` guarda uma
+   * cópia desde 08/10/2026, mas o push nunca a envia: o campo está na lista `SO_NO_FIRESTORE` do
+   * `scripts/sync-push.mjs`.
    */
   vila?: string[];
   /**

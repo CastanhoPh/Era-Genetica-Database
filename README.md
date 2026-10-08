@@ -113,9 +113,9 @@ npm run sync:push          # simula a gravação
 npm run sync:push:apply    # grava, com merge
 ```
 
-O push aborta sozinho se for apagar um campo que só existe no banco. Sete campos vivem só no
-Firestore e nunca estão no arquivo local: `vila`, `organizacao`, `cargo`, `patente`,
-`focosAtributo`, `divisaoAtributo` e `invocacoes`.
+O push aborta sozinho se for apagar um campo que só existe no banco. Sete campos são mantidos no
+Firestore: `vila`, `organizacao`, `cargo`, `patente`, `focosAtributo`, `divisaoAtributo` e
+`invocacoes`. O arquivo local guarda uma cópia deles, mas o push nunca os envia.
 
 ## Reconciliar cópias
 
